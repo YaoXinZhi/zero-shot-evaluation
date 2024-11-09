@@ -66,6 +66,8 @@ From the experiments with this large document set, we seek to understand the fac
 
 # Experiment overview
 
+![image](https://github.com/user-attachments/assets/9682cd5a-29b5-4b37-8b69-19a5d4aa1748)
+
 # We are looking for
 
 - Expertise on instruction design, in particular for Information Extraction tasks in biology.  
