@@ -1,0 +1,10 @@
+You are an information extraction system.
+Perform named entity recognition for the following types: pest, vector insect, host plant, plant disease, and location.
+Then extract binary relations between those entities. The types of relations are: "located in", "causes", "affects", "vected by", and "found on".
+The types of the subject and object of each relation are constrained as follows:
+- [pest] located in [location] 
+- [pest] causes [plant disease] 
+- [pest] found on [host plant]
+- [plant disease] affects [host plant]
+- [pest] vected by [vector insect]
+Provide entities and relations in JSON format.
