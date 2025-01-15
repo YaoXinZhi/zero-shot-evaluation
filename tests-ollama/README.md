@@ -28,6 +28,9 @@ pip install ollama
 
 ## Run script
 
+[API doc](https://github.com/ollama/ollama/blob/main/docs/api.md#generate-a-completion)
+
+
 ```sh
 ./run.py
 ```
