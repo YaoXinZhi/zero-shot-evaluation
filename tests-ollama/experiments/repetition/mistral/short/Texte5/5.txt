@@ -1,0 +1,138 @@
+ {
+      "entities": [
+         {
+            "type": "pest",
+            "value": "Balclutha calamagrostis"
+         },
+         {
+            "type": "pest",
+            "value": "Balclutha punctata"
+         },
+         {
+            "type": "bacterium",
+            "value": "Nasuia"
+         },
+         {
+            "type": "bacterium",
+            "value": "Sulcia"
+         },
+         {
+            "type": "symbiont",
+            "value": "Sodalis-like symbionts"
+         },
+         {
+            "type": "location",
+            "value": "Not specified in the text"
+         }
+      ],
+      "relations": [
+         {
+            "subject": {
+               "type": "pest",
+               "value": "Balclutha calamagrostis"
+            },
+            "object": {
+               "type": "bacterium",
+               "value": "Nasuia"
+            },
+            "relationType": "causes",
+            "found": false
+         },
+         {
+            "subject": {
+               "type": "pest",
+               "value": "Balclutha punctata"
+            },
+            "object": {
+               "type": "bacterium",
+               "value": "Nasuia"
+            },
+            "relationType": "causes",
+            "found": false
+         },
+         {
+            "subject": {
+               "type": "pest",
+               "value": "Balclutha calamagrostis"
+            },
+            "object": {
+               "type": "bacterium",
+               "value": "Sulcia"
+            },
+            "relationType": "found on",
+            "found": true
+         },
+         {
+            "subject": {
+               "type": "pest",
+               "value": "Balclutha punctata"
+            },
+            "object": {
+               "type": "bacterium",
+               "value": "Sulcia"
+            },
+            "relationType": "found on",
+            "found": true
+         },
+         {
+            "subject": {
+               "type": "bacterium",
+               "value": "Sodalis-like symbionts"
+            },
+            "object": {
+               "type": "location",
+               "value": "in the fat body cells, in close vicinity of the bacteriomes"
+            },
+            "relationType": "located in",
+            "found": true
+         },
+         {
+            "subject": {
+               "type": "bacterium",
+               "value": "Sulcia"
+            },
+            "object": {
+               "type": "location",
+               "value": "in the bacteriomes of both species of Balclutha examined"
+            },
+            "relationType": "located in",
+            "found": true
+         },
+         {
+            "subject": {
+               "type": "plant disease",
+               "value": "Not specified in the text"
+            },
+            "object": {
+               "type": "pest",
+               "value": "Balclutha calamagrostis"
+            },
+            "relationType": "affects",
+            "found": false
+         },
+         {
+            "subject": {
+               "type": "plant disease",
+               "value": "Not specified in the text"
+            },
+            "object": {
+               "type": "pest",
+               "value": "Balclutha punctata"
+            },
+            "relationType": "affects",
+            "found": false
+         },
+         {
+            "subject": {
+               "type": "bacterium",
+               "value": "Sulcia"
+            },
+            "object": {
+               "type": "pest",
+               "value": "Not specified in the text"
+            },
+            "relationType": "vected by",
+            "found": false
+         }
+      ]
+   }

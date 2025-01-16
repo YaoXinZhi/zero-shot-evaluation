@@ -1,0 +1,46 @@
+ [
+  {
+    "entities": [
+      {"type": "Plant pest", "name": "potato aphid"},
+      {"type": "Insect vector", "name": "invertebrate pests"},
+      {"type": "Disease", "name": "plant diseases"}
+    ],
+    "relationships": [
+      {
+        "source": "potato aphid",
+        "type": "Have been found on",
+        "target": "strawberries"
+      },
+      {
+        "source": "invertebrate pests",
+        "type": "Include",
+        "target": "potato aphid"
+      },
+      {
+        "source": "plant diseases",
+        "type": "Include",
+        "target": "potato aphid"
+      },
+      {
+        "source": "strawberries",
+        "type": "Are worth",
+        "target": "£350 million to the UK economy"
+      },
+      {
+        "source": "Integrated Pest Management (IPM)",
+        "type": "Is used for",
+        "target": "monitoring plants for insect and disease formation"
+      },
+      {
+        "source": "researchers",
+        "type": "Research",
+        "target": "technology that uses light to monitor crop health"
+      },
+      {
+        "source": "Aston University",
+        "type": "Partnered with",
+        "target": "Harper Adams University"
+      }
+    ]
+  }
+]

@@ -1,0 +1,30 @@
+ {
+      "pest": ["potato aphid"],
+      "vector insect": [],
+      "host plant": ["strawberries"],
+      "plant disease": [],
+      "location": ["Midlands", "UK"],
+
+      "relations": [
+        {
+          "subject": "pest",
+          "object": "potato aphid",
+          "relation": "found on"
+        },
+        {
+          "subject": "host plant",
+          "object": "strawberries",
+          "relation": "found on"
+        },
+        {
+          "subject": "location",
+          "object": "Midlands",
+          "relation": "located in"
+        },
+        {
+          "subject": "location",
+          "object": "UK",
+          "relation": "located in"
+        }
+      ]
+    }

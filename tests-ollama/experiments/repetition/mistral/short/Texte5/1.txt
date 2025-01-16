@@ -1,0 +1,85 @@
+ {
+      "entities": [
+         {
+            "type": "pest",
+            "value": "Balclutha calamagrostis and Balclutha punctata"
+         },
+         {
+            "type": "location",
+            "value": "Not specified in the text"
+         },
+         {
+            "type": "bacterium",
+            "value": "Nasuia"
+         },
+         {
+            "type": "bacterium",
+            "value": "Sulcia"
+         },
+         {
+            "type": "bacterium",
+            "value": "Sodalis-like symbionts (phylum Proteobacteria, class Gammaproteobacteria)"
+         },
+         {
+            "type": "plant disease",
+            "value": "Not mentioned"
+         }
+      ],
+      "relations": [
+         {
+            "subject": {
+               "type": "pest",
+               "value": "Balclutha calamagrostis and Balclutha punctata"
+            },
+            "object": {
+               "type": "bacterium",
+               "value": "Nasuia"
+            },
+            "relation": "causes"
+         },
+         {
+            "subject": {
+               "type": "bacterium",
+               "value": "Sulcia"
+            },
+            "object": {
+               "type": "pest",
+               "value": "Balclutha calamagrostis and Balclutha punctata"
+            },
+            "relation": "found on"
+         },
+         {
+            "subject": {
+               "type": "bacterium",
+               "value": "Sodalis-like symbionts (phylum Proteobacteria, class Gammaproteobacteria)"
+            },
+            "object": {
+               "type": "pest",
+               "value": "Balclutha calamagrostis and Balclutha punctata"
+            },
+            "relation": "located in"
+         },
+         {
+            "subject": {
+               "type": "plant disease",
+               "value": "Not mentioned"
+            },
+            "object": {
+               "type": "pest",
+               "value": "Balclutha calamagrostis and Balclutha punctata"
+            },
+            "relation": "affects"
+         },
+         {
+            "subject": {
+               "type": "pest",
+               "value": "Balclutha calamagrostis and Balclutha punctata"
+            },
+            "object": {
+               "type": "vector insect",
+               "value": "Not specified in the text"
+            },
+            "relation": "vected by"
+         }
+      ]
+   }

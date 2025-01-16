@@ -1,0 +1,48 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Plant pest",
+      "name": "potato aphid"
+    },
+    {
+      "type": "Host plant",
+      "name": "strawberries"
+    },
+    {
+      "type": "Disease",
+      "name": "plant diseases"
+    },
+    {
+      "type": "Geographic location",
+      "name": "Midlands"
+    },
+    {
+      "type": "Geographic location",
+      "name": "UK"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "potato aphid",
+      "type": "Have been found on",
+      "target": "strawberries"
+    },
+    {
+      "source": "plant diseases",
+      "type": "Have been found on",
+      "target": "strawberries"
+    },
+    {
+      "source": "potato aphid",
+      "type": "Located in",
+      "target": "Midlands"
+    },
+    {
+      "source": "plant diseases",
+      "type": "Located in",
+      "target": "Midlands"
+    }
+  ]
+}
+```

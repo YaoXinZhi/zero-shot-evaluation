@@ -1,0 +1,17 @@
+ [
+  {
+    "entities": [
+      {"type": "Plant pest", "name": "'Xylella Fastidiosa'"},
+      {"type": "Geographic location", "name": "Porto Metropolitan Area"},
+      {"type": "Host plant", "name": "citrus"}
+    ],
+    "relationships": [
+      {"source": "'Xylella Fastidiosa'", "type": "Located in", "target": "Porto Metropolitan Area"},
+      {"source": "'Xylella Fastidiosa'", "type": "Have been found on", "target": "citrus"},
+      {"source": "Porto Metropolitan Area", "type": "Includes", "target": "Vila Nova de Gaia"},
+      {"source": "Porto Metropolitan Area", "type": "Includes", "target": "Santa Maria da Feira"},
+      {"source": "Porto Metropolitan Area", "type": "Includes", "target": "Porto"},
+      {"source": "Porto Metropolitan Area", "type": "Includes", "target": "Espinho"}
+    ]
+  }
+]

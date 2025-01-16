@@ -1,0 +1,102 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "Xylella Fastidiosa"
+    },
+    {
+      "type": "Geographic location",
+      "name": "Porto Metropolitan Area"
+    },
+    {
+      "type": "Geographic location",
+      "name": "Vila Nova de Gaia"
+    },
+    {
+      "type": "Geographic location",
+      "name": "Santa Maria da Feira"
+    },
+    {
+      "type": "Geographic location",
+      "name": "Porto"
+    },
+    {
+      "type": "Geographic location",
+      "name": "Espinho"
+    },
+    {
+      "type": "Host plant",
+      "name": "citrus"
+    }
+  ],
+  "relationships": [
+    {
+      "entity1": {
+        "type": "Disease",
+        "name": "Xylella Fastidiosa"
+      },
+      "relationship": "Located in",
+      "entity2": {
+        "type": "Geographic location",
+        "name": "Porto Metropolitan Area"
+      }
+    },
+    {
+      "entity1": {
+        "type": "Disease",
+        "name": "Xylella Fastidiosa"
+      },
+      "relationship": "Located in",
+      "entity2": {
+        "type": "Geographic location",
+        "name": "Vila Nova de Gaia"
+      }
+    },
+    {
+      "entity1": {
+        "type": "Disease",
+        "name": "Xylella Fastidiosa"
+      },
+      "relationship": "Located in",
+      "entity2": {
+        "type": "Geographic location",
+        "name": "Santa Maria da Feira"
+      }
+    },
+    {
+      "entity1": {
+        "type": "Disease",
+        "name": "Xylella Fastidiosa"
+      },
+      "relationship": "Located in",
+      "entity2": {
+        "type": "Geographic location",
+        "name": "Porto"
+      }
+    },
+    {
+      "entity1": {
+        "type": "Disease",
+        "name": "Xylella Fastidiosa"
+      },
+      "relationship": "Located in",
+      "entity2": {
+        "type": "Geographic location",
+        "name": "Espinho"
+      }
+    },
+    {
+      "entity1": {
+        "type": "Disease",
+        "name": "Xylella Fastidiosa"
+      },
+      "relationship": "Have been found on",
+      "entity2": {
+        "type": "Host plant",
+        "name": "citrus"
+      }
+    }
+  ]
+}
+```

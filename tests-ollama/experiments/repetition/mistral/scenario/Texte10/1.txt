@@ -1,0 +1,14 @@
+ [
+      {
+        "entities": [
+          {"type": "Plant pest", "name": "potato aphid"},
+          {"type": "Insect vector", "name": "invertebrate pests"},
+          {"type": "Disease", "name": "plant diseases"}
+        ],
+        "relationships": [
+          {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+          {"source": "invertebrate pests", "type": "Include", "target": "potato aphid"},
+          {"source": "plant diseases", "type": "Affects", "target": "strawberries"}
+        ]
+      }
+    ]

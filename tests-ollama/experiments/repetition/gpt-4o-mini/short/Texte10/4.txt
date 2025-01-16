@@ -1,0 +1,31 @@
+{
+  "entities": {
+    "pests": ["potato aphid"],
+    "vector_insects": [],
+    "host_plants": ["strawberries"],
+    "plant_diseases": [],
+    "locations": ["Midlands", "UK", "global"]
+  },
+  "relations": [
+    {
+      "subject": "potato aphid",
+      "relationship": "found on",
+      "object": "strawberries"
+    },
+    {
+      "subject": "potato aphid",
+      "relationship": "located in",
+      "object": "Midlands"
+    },
+    {
+      "subject": "potato aphid",
+      "relationship": "located in",
+      "object": "UK"
+    },
+    {
+      "subject": "potato aphid",
+      "relationship": "located in",
+      "object": "global"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "Xylella Fastidiosa"
+    },
+    {
+      "type": "Geographic location",
+      "name": "Porto Metropolitan Area"
+    },
+    {
+      "type": "Geographic location",
+      "name": "Vila Nova de Gaia"
+    },
+    {
+      "type": "Geographic location",
+      "name": "Santa Maria da Feira"
+    },
+    {
+      "type": "Geographic location",
+      "name": "Porto"
+    },
+    {
+      "type": "Geographic location",
+      "name": "Espinho"
+    }
+  ],
+  "relationships": [
+    {
+      "relation": "Located in",
+      "arg1": {
+        "type": "Disease",
+        "name": "Xylella Fastidiosa"
+      },
+      "arg2": {
+        "type": "Geographic location",
+        "name": "Porto Metropolitan Area"
+      }
+    },
+    {
+      "relation": "Located in",
+      "arg1": {
+        "type": "Disease",
+        "name": "Xylella Fastidiosa"
+      },
+      "arg2": {
+        "type": "Geographic location",
+        "name": "Vila Nova de Gaia"
+      }
+    },
+    {
+      "relation": "Located in",
+      "arg1": {
+        "type": "Disease",
+        "name": "Xylella Fastidiosa"
+      },
+      "arg2": {
+        "type": "Geographic location",
+        "name": "Santa Maria da Feira"
+      }
+    },
+    {
+      "relation": "Located in",
+      "arg1": {
+        "type": "Disease",
+        "name": "Xylella Fastidiosa"
+      },
+      "arg2": {
+        "type": "Geographic location",
+        "name": "Porto"
+      }
+    },
+    {
+      "relation": "Located in",
+      "arg1": {
+        "type": "Disease",
+        "name": "Xylella Fastidiosa"
+      },
+      "arg2": {
+        "type": "Geographic location",
+        "name": "Espinho"
+      }
+    }
+  ]
+}
+```

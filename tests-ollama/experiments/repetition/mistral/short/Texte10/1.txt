@@ -1,0 +1,39 @@
+ {
+      "entities": {
+         "pest": ["potato aphid"],
+         "vector insect": [],
+         "host plant": ["strawberries"],
+         "plant disease": [],
+         "location": ["Midlands", "United Kingdom"]
+      },
+      "relations": [
+         {
+            "subject": "potato aphid",
+            "object": "strawberries",
+            "relation": "found on"
+         },
+         {
+            "subject": "Midlands",
+            "object": "Experts from two Midlands universities",
+            "relation": "located in"
+         },
+         {
+            "subject": "potato aphid",
+            "object": "",
+            "relation": "causes",
+            "note": "Implicit as it's mentioned that potato aphid has the potential to wipe out an annual crop."
+         },
+         {
+            "subject": "plant diseases",
+            "object": "global economy",
+            "relation": "affects",
+            "note": "Implied from the statement 'Every year, plant diseases cost the global economy more than $220 billion.'"
+         },
+         {
+            "subject": "potato aphid",
+            "object": "electronic noses",
+            "relation": "vected by",
+            "note": "Inferred from the context that electronic noses have sensitivity issues, sensor bias/aging effects, and a lack of specificity which may affect their ability to detect potato aphid."
+         }
+      ]
+   }

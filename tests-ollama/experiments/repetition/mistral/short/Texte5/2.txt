@@ -1,0 +1,85 @@
+ {
+      "entities": [
+         {
+            "type": "pest",
+            "value": "Balclutha calamagrostis"
+         },
+         {
+            "type": "pest",
+            "value": "Balclutha punctata"
+         },
+         {
+            "type": "bacterium",
+            "value": "Nasuia"
+         },
+         {
+            "type": "bacterium",
+            "value": "Sulcia"
+         },
+         {
+            "type": "bacterium",
+            "value": "Sodalis-like symbionts"
+         },
+         {
+            "type": "location",
+            "value": "not specified" // Since the text does not provide a specific location
+         }
+      ],
+      "relations": [
+         {
+            "subject": {
+               "type": "pest",
+               "value": "Balclutha calamagrostis"
+            },
+            "object": {
+               "type": "bacterium",
+               "value": "Nasuia"
+            },
+            "relation": "causes" // Assuming no disease is mentioned, it cannot be determined if this is a 'causes' or 'affects' relation
+         },
+         {
+            "subject": {
+               "type": "pest",
+               "value": "Balclutha punctata"
+            },
+            "object": {
+               "type": "bacterium",
+               "value": "Nasuia"
+            },
+            "relation": "causes" // Same reasoning as above
+         },
+         {
+            "subject": {
+               "type": "bacterium",
+               "value": "Sulcia"
+            },
+            "object": {
+               "type": "pest",
+               "value": "Balclutha calamagrostis"
+            },
+            "relation": "found on"
+         },
+         {
+            "subject": {
+               "type": "bacterium",
+               "value": "Sulcia"
+            },
+            "object": {
+               "type": "pest",
+               "value": "Balclutha punctata"
+            },
+            "relation": "found on"
+         },
+         {
+            "subject": {
+               "type": "bacterium",
+               "value": "Sodalis-like symbionts"
+            },
+            "object": {
+               "type": "pest",
+               "value": "not specified" // Since the text does not specify a pest, it cannot determine the exact pest
+            },
+            "relation": "located in" // Same reasoning as above
+         }
+      ]
+   }

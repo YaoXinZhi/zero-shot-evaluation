@@ -1,0 +1,53 @@
+```json
+{
+  "entities": {
+    "pests": [
+      "potato aphid"
+    ],
+    "plant_diseases": [
+      "plant diseases"
+    ],
+    "host_plants": [
+      "strawberries"
+    ],
+    "vector_insects": [],
+    "locations": [
+      "Midlands",
+      "UK",
+      "global"
+    ]
+  },
+  "relations": [
+    {
+      "subject": "potato aphid",
+      "relation": "found on",
+      "object": "strawberries"
+    },
+    {
+      "subject": "plant diseases",
+      "relation": "affects",
+      "object": "strawberries"
+    },
+    {
+      "subject": "potato aphid",
+      "relation": "located in",
+      "object": "UK"
+    },
+    {
+      "subject": "potato aphid",
+      "relation": "located in",
+      "object": "Midlands"
+    },
+    {
+      "subject": "plant diseases",
+      "relation": "located in",
+      "object": "global"
+    },
+    {
+      "subject": "pests",
+      "relation": "causes",
+      "object": "plant diseases"
+    }
+  ]
+}
+```

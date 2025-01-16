@@ -1,0 +1,35 @@
+ {
+      "pest": ["potato aphid"],
+      "vector insect": [],
+      "host plant": ["strawberries"],
+      "plant disease": [],
+      "location": ["Midlands"],
+
+      "relations": [
+        {
+          "subject": "potato aphid",
+          "object": "strawberries",
+          "relation": "found on"
+        },
+        {
+          "subject": "pests",
+          "object": "crops",
+          "relation": "affects"
+        },
+        {
+          "subject": "potato aphid",
+          "object": "annual crop",
+          "relation": "has the potential to wipe out"
+        },
+        {
+          "subject": "Midlands",
+          "object": ["Aston University", "Harper Adams University"],
+          "relation": "located in"
+        },
+        {
+          "subject": "researchers",
+          "object": ["Aston University", "Harper Adams University"],
+          "relation": "from"
+        }
+      ]
+   }

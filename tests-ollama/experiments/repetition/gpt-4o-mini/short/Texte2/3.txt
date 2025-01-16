@@ -1,0 +1,49 @@
+Based on the provided text, here is the extraction of named entities and the binary relations in JSON format:
+
+```json
+{
+  "entities": {
+    "pests": ["Xylella Fastidiosa"],
+    "vector_insects": [],
+    "host_plants": ["citrus"],
+    "plant_diseases": [],
+    "locations": ["Porto Metropolitan Area", "Vila Nova de Gaia", "Santa Maria da Feira", "Porto", "Espinho"]
+  },
+  "relations": [
+    {
+      "subject": "Xylella Fastidiosa",
+      "relation": "located in",
+      "object": "Porto Metropolitan Area"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "relation": "found on",
+      "object": "citrus"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "relation": "located in",
+      "object": "Vila Nova de Gaia"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "relation": "located in",
+      "object": "Santa Maria da Feira"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "relation": "located in",
+      "object": "Porto"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "relation": "located in",
+      "object": "Espinho"
+    }
+  ]
+}
+``` 
+
+### Explanation:
+- Entities were categorized as per their types (pest, vector insect, host plant, plant disease, location).
+- The relations were established based on the constraints provided, reflecting location and host plant interactions with the pest noted in the text.

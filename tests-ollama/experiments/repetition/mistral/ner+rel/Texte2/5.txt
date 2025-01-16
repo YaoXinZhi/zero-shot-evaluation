@@ -1,0 +1,70 @@
+ [
+      {
+         "type": "Disease",
+         "name": "'Xylella Fastidiosa'"
+      },
+      {
+         "type": "Geographic location",
+         "name": "Porto Metropolitan Area"
+      },
+      {
+         "type": "Geographic location",
+         "name": "Vila Nova de Gaia"
+      },
+      {
+         "type": "Geographic location",
+         "name": "Santa Maria da Feira"
+      },
+      {
+         "type": "Geographic location",
+         "name": "Porto"
+      },
+      {
+         "type": "Geographic location",
+         "name": "Espinho"
+      }
+   ],
+   [
+      {
+         "relationship": "Causes",
+         "arguments": {
+            "[pest]": "Disease",
+            "[disease]": "'Xylella Fastidiosa'"
+         }
+      },
+      {
+         "relationship": "Located in",
+         "arguments": {
+            "[pest]": "Disease",
+            "[geographical location]": "Porto Metropolitan Area"
+         }
+      },
+      {
+         "relationship": "Located in",
+         "arguments": {
+            "[pest]": "Disease",
+            "[geographical location]": "Vila Nova de Gaia"
+         }
+      },
+      {
+         "relationship": "Located in",
+         "arguments": {
+            "[pest]": "Disease",
+            "[geographical location]": "Santa Maria da Feira"
+         }
+      },
+      {
+         "relationship": "Located in",
+         "arguments": {
+            "[pest]": "Disease",
+            "[geographical location]": "Porto"
+         }
+      },
+      {
+         "relationship": "Located in",
+         "arguments": {
+            "[pest]": "Disease",
+            "[geographical location]": "Espinho"
+         }
+      }
+   ]

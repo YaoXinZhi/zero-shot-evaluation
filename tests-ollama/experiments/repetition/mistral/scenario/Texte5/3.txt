@@ -1,0 +1,36 @@
+ [
+    {
+      "entities": [
+        {"type": "Geographic location", "name": "Balclutha calamagrostis"},
+        {"type": "Geographic location", "name": "Balclutha punctata"},
+        {"type": "Bacterium", "name": "Nasuia"}
+      ],
+      "relationships": [
+        {
+          "source": "Balclutha calamagrostis",
+          "type": "Located in",
+          "target": null
+        },
+        {
+          "source": "Balclutha punctata",
+          "type": "Located in",
+          "target": null
+        },
+        {
+          "source": "Nasuia",
+          "type": "Has not been found on",
+          "target": ["Balclutha calamagrostis", "Balclutha punctata"]
+        },
+        {
+          "source": "Sulcia",
+          "type": "Occur in",
+          "target": {"type": "Bacteriomes", "name": "of both species of Balclutha examined"}
+        },
+        {
+          "source": "Sodalis-like symbionts",
+          "type": "Have been found on",
+          "target": {"type": "Fat body cells", "name": "in close vicinity of the bacteriomes"}
+        }
+      ]
+    }
+   ]

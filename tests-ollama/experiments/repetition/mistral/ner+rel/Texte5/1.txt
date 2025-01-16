@@ -1,0 +1,54 @@
+ [
+    {
+      "type": "Plant pest",
+      "name": "Balclutha calamagrostis"
+    },
+    {
+      "type": "Plant pest",
+      "name": "Balclutha punctata"
+    },
+    {
+      "type": "Bacterium",
+      "name": "Nasuia"
+    },
+    {
+      "type": "Geographic location",
+      "name": "Deltocephalinae leafhoppers"
+    },
+    {
+      "type": "Bacterium",
+      "name": "Sulcia"
+    },
+    {
+      "type": "Insect vector",
+      "name": "Sodalis-like symbionts"
+    },
+    {
+      "type": "Relationship",
+      "name": "[Sulcia] Located in [Deltocephalinae leafhoppers]",
+      "arguments": [
+        {
+          "type": "Bacterium",
+          "name": "Sulcia"
+        },
+        {
+          "type": "Geographic location",
+          "name": "Deltocephalinae leafhoppers"
+        }
+      ]
+    },
+    {
+      "type": "Relationship",
+      "name": "[Sodalis-like symbionts] Have been found on [Balclutha calamagrostis and Balclutha punctata]",
+      "arguments": [
+        {
+          "type": "Insect vector",
+          "name": "Sodalis-like symbionts"
+        },
+        {
+          "type": "Plant pest",
+          "name": "Balclutha calamagrostis and Balclutha punctata"
+        }
+      ]
+    }
+  ]

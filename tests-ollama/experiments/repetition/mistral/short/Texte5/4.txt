@@ -1,0 +1,102 @@
+ {
+      "entities": [
+         {
+            "type": "pest",
+            "value": "Balclutha calamagrostis"
+         },
+         {
+            "type": "pest",
+            "value": "Balclutha punctata"
+         },
+         {
+            "type": "bacterium",
+            "value": "Nasuia"
+         },
+         {
+            "type": "bacterium",
+            "value": "Sulcia"
+         },
+         {
+            "type": "symbiont",
+            "value": "Sodalis-like"
+         },
+         {
+            "type": "location",
+            "value": "Not specified in the text"
+         }
+      ],
+      "relations": [
+         {
+            "subject": {
+               "type": "pest",
+               "value": "Balclutha calamagrostis"
+            },
+            "object": {
+               "type": "bacterium",
+               "value": "Nasuia"
+            },
+            "relation_type": "causes",
+            "isFact": false
+         },
+         {
+            "subject": {
+               "type": "pest",
+               "value": "Balclutha punctata"
+            },
+            "object": {
+               "type": "bacterium",
+               "value": "Nasuia"
+            },
+            "relation_type": "causes",
+            "isFact": false
+         },
+         {
+            "subject": {
+               "type": "bacterium",
+               "value": "Sulcia"
+            },
+            "object": {
+               "type": "pest",
+               "value": "Balclutha calamagrostis"
+            },
+            "relation_type": "found on",
+            "isFact": true
+         },
+         {
+            "subject": {
+               "type": "bacterium",
+               "value": "Sulcia"
+            },
+            "object": {
+               "type": "pest",
+               "value": "Balclutha punctata"
+            },
+            "relation_type": "found on",
+            "isFact": true
+         },
+         {
+            "subject": {
+               "type": "symbiont",
+               "value": "Sodalis-like"
+            },
+            "object": {
+               "type": "pest",
+               "value": "Balclutha calamagrostis"
+            },
+            "relation_type": "vected by",
+            "isFact": false
+         },
+         {
+            "subject": {
+               "type": "symbiont",
+               "value": "Sodalis-like"
+            },
+            "object": {
+               "type": "pest",
+               "value": "Balclutha punctata"
+            },
+            "relation_type": "vected by",
+            "isFact": false
+         }
+      ]
+   }

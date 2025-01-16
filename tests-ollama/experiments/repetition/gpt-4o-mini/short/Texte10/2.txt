@@ -1,0 +1,38 @@
+Based on the provided text, here is the extracted information in JSON format, containing named entities and their relations:
+
+```json
+{
+  "entities": {
+    "pests": ["potato aphid"],
+    "vector_insects": [],
+    "host_plants": ["strawberries"],
+    "plant_diseases": [],
+    "locations": ["Midlands", "UK", "global"]
+  },
+  "relations": [
+    {
+      "subject": "potato aphid",
+      "type": "found on",
+      "object": "strawberries"
+    },
+    {
+      "subject": "potato aphid",
+      "type": "located in",
+      "object": "global"
+    }
+  ]
+}
+```
+
+### Explanation:
+1. **Entities Recognized**:
+   - **Pest**: "potato aphid"
+   - **Host Plant**: "strawberries"
+   - **Location**: "Midlands", "UK", "global"
+   - There were no specific **vector insects** or **plant diseases** explicitly mentioned in the text.
+
+2. **Relations Extracted**:
+   - The relation "found on" connects "potato aphid" with "strawberries".
+   - The relation "located in" associates "potato aphid" with the broader category "global", indicating its worldwide impact in the agricultural context.
+   
+No other relations could be established from the text, as certain entities needed to match the specified types and relationships.

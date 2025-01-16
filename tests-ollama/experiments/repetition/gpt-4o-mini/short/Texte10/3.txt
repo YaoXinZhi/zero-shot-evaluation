@@ -1,0 +1,30 @@
+```json
+{
+  "entities": {
+    "pests": ["potato aphid"],
+    "vector_insects": [],
+    "host_plants": ["strawberries"],
+    "plant_diseases": [],
+    "locations": ["Midlands", "UK"]
+  },
+  "relations": [
+    {
+      "subject": "potato aphid",
+      "relation": "found on",
+      "object": "strawberries"
+    },
+    {
+      "subject": "potato aphid",
+      "relation": "located in",
+      "object": "Midlands"
+    },
+    {
+      "subject": "potato aphid",
+      "relation": "vected by",
+      "object": "vector_insects"
+    }
+  ]
+}
+``` 
+
+Note: In the provided text, there were no explicit plant diseases mentioned, nor was there a specific vector insect identified. Therefore, those entities are listed as empty arrays.

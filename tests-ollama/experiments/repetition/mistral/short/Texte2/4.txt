@@ -1,0 +1,59 @@
+ {
+      "entities": [
+         {
+            "type": "pest",
+            "value": "'Xylella Fastidiosa'"
+         },
+         {
+            "type": "location",
+            "value": "Porto Metropolitan Area"
+         },
+         {
+            "type": "location",
+            "value": "Vila Nova de Gaia"
+         },
+         {
+            "type": "location",
+            "value": "Santa Maria da Feira"
+         },
+         {
+            "type": "host plant",
+            "value": "citrus"
+         }
+      ],
+      "relations": [
+         {
+            "subject": {
+               "type": "pest",
+               "value": "'Xylella Fastidiosa'"
+            },
+            "object": {
+               "type": "location",
+               "value": "Porto Metropolitan Area"
+            },
+            "relation_type": "located in"
+         },
+         {
+            "subject": {
+               "type": "location",
+               "value": "Vila Nova de Gaia"
+            },
+            "object": {
+               "type": "pest",
+               "value": "'Xylella Fastidiosa'"
+            },
+            "relation_type": "found on"
+         },
+         {
+            "subject": {
+               "type": "location",
+               "value": "Santa Maria da Feira"
+            },
+            "object": {
+               "type": "pest",
+               "value": "'Xylella Fastidiosa'"
+            },
+            "relation_type": "found on"
+         }
+      ]
+   }

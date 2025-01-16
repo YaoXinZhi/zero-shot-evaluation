@@ -1,0 +1,31 @@
+ [
+     {
+       "entities": [
+         {"type": "Insect vector", "name": "Balclutha calamagrostis"},
+         {"type": "Insect vector", "name": "Balclutha punctata"},
+         {"type": "Bacterium", "name": "Nasuia"}
+       ],
+       "relationships": [
+         {
+           "source": "Balclutha calamagrostis",
+           "target": "Balclutha punctata",
+           "type": "Is also present in"
+         },
+         {
+           "source": "Nasuia",
+           "type": "Has not been detected in",
+           "target": ["Balclutha calamagrostis", "Balclutha punctata"]
+         },
+         {
+           "source": "Sulcia",
+           "type": "Occur in",
+           "target": ["bacteriomes of both species of Balclutha examined"]
+         },
+         {
+           "source": "Sodalis-like symbionts",
+           "type": "Are localized in",
+           "target": "the fat body cells, in close vicinity of the bacteriomes"
+         }
+       ]
+     ]
+   ]

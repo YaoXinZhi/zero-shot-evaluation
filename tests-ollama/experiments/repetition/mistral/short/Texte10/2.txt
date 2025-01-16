@@ -1,0 +1,56 @@
+ {
+      "entities": [
+         {
+            "type": "pest",
+            "value": "potato aphid"
+         },
+         {
+            "type": "vector insect",
+            "value": ""
+         },
+         {
+            "type": "host plant",
+            "value": "strawberries"
+         },
+         {
+            "type": "plant disease",
+            "value": ""
+         },
+         {
+            "type": "location",
+            "value": ["Midlands", "UK"]
+         }
+      ],
+      "relations": [
+         {
+            "subject": {"type": "pest", "value": "potato aphid"},
+            "object": {"type": "host plant", "value": "strawberries"},
+            "relation": "found on"
+         },
+         {
+            "subject": {"type": "location", "value": "Midlands"},
+            "object": {"type": "pest", "value": "potato aphid"},
+            "relation": "located in"
+         },
+         {
+            "subject": {"type": "location", "value": "UK"},
+            "object": {"type": "host plant", "value": "strawberries"},
+            "relation": "located in"
+         },
+         {
+            "subject": {"type": "pest", "value": ""},
+            "object": {"type": "plant disease", "value": ""},
+            "relation": "causes"
+         },
+         {
+            "subject": {"type": "vector insect", "value": ""},
+            "object": {"type": "pest", "value": "potato aphid"},
+            "relation": "vected by"
+         },
+         {
+            "subject": {"type": "plant disease", "value": ""},
+            "object": {"type": "host plant", "value": "strawberries"},
+            "relation": "affects"
+         }
+      ]
+   }

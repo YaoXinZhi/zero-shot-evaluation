@@ -1,0 +1,8 @@
+ [Disease, "plant diseases"]
+   [Insect vector, "potato aphid"]
+   [Geographic location, "Midlands"]
+   [Host plant, "strawberries"]
+   [Plant pest, "pesticides"]
+   [Relationship, "[pest] Located in [geographical location]", {"type": "Located in", "arguments": ["pesticides", "Midlands"]}]
+   [Relationship, "[pest] Causes [disease]", {"type": "Causes", "arguments": ["pests", "plant diseases"]}]
+   [Relationship, "[pest] Have been found on [host plant]", {"type": "Have been found on", "arguments": ["potato aphid", "strawberries"]}]

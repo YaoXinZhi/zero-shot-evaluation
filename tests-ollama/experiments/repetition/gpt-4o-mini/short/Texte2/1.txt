@@ -1,0 +1,23 @@
+```json
+{
+  "entities": {
+    "pest": ["Xylella Fastidiosa"],
+    "vector_insect": [],
+    "host_plant": ["citrus"],
+    "plant_disease": [],
+    "location": ["Porto Metropolitan Area", "Vila Nova de Gaia", "Santa Maria da Feira", "Porto", "Espinho"]
+  },
+  "relations": [
+    {
+      "subject": "Xylella Fastidiosa",
+      "relation": "located in",
+      "object": "Porto Metropolitan Area"
+    },
+    {
+      "subject": "Xylella Fastidiosa",
+      "relation": "found on",
+      "object": "citrus"
+    }
+  ]
+}
+```

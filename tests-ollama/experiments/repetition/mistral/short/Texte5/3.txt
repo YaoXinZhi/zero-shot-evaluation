@@ -1,0 +1,89 @@
+ {
+      "entities": [
+         {
+            "type": "pest",
+            "value": "Balclutha calamagrostis, Balclutha punctata"
+         },
+         {
+            "type": "location",
+            "value": "Not specified in the text"
+         },
+         {
+            "type": "pest",
+            "value": "Sulcia"
+         },
+         {
+            "type": "plant disease",
+            "value": "Nasuia"
+         },
+         {
+            "type": "host plant",
+            "value": "Balclutha calamagrostis, Balclutha punctata"
+         },
+         {
+            "type": "plant disease",
+            "value": "Not detected (Nasuia)"
+         },
+         {
+            "type": "vector insect",
+            "value": "Not specified in the text"
+         }
+      ],
+      "relations": [
+         {
+            "subject": {
+               "type": "pest",
+               "value": "Balclutha calamagrostis, Balclutha punctata"
+            },
+            "object": {
+               "type": "location",
+               "value": "Not specified in the text"
+            },
+            "relation": "located in"
+         },
+         {
+            "subject": {
+               "type": "pest",
+               "value": "Balclutha calamagrostis, Balclutha punctata"
+            },
+            "object": {
+               "type": "plant disease",
+               "value": "Not detected (Nasuia)"
+            },
+            "relation": "causes"
+         },
+         {
+            "subject": {
+               "type": "pest",
+               "value": "Sulcia"
+            },
+            "object": {
+               "type": "host plant",
+               "value": "Balclutha calamagrostis, Balclutha punctata"
+            },
+            "relation": "found on"
+         },
+         {
+            "subject": {
+               "type": "plant disease",
+               "value": "Not specified in the text (as it is not a detected disease)"
+            },
+            "object": {
+               "type": "host plant",
+               "value": "Balclutha calamagrostis, Balclutha punctata"
+            },
+            "relation": "affects"
+         },
+         {
+            "subject": {
+               "type": "pest",
+               "value": "Sulcia"
+            },
+            "object": {
+               "type": "vector insect",
+               "value": "Not specified in the text"
+            },
+            "relation": "vected by"
+         }
+      ]
+   }
