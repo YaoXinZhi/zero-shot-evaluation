@@ -14,7 +14,7 @@
 
 The repetition experiment aims at assessing how much the output varies for the same pair of instruction/document.
 
-The experiment has been conducted on two models (`mistral`, `gpt-4o-mini`), three instructions (`ner+rel`, `scenario`, `short`), and three documents (`Texte2`, `Texte5`, `Texte10`).
+The experiment has been conducted on three models (`mistral`, `gpt-4o-mini`, `kimi`), three instructions (`ner+rel`, `scenario`, `short`), and three documents (`Texte2`, `Texte5`, `Texte10`).
 Each prompt has been repeated five times.
 
 The result of the experiment is contained in `output/repetition/`.
