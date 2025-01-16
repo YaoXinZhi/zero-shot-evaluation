@@ -1,0 +1,48 @@
+{
+    "entities": {
+        "pest": [
+            "potato aphid"
+        ],
+        "vector insect": [],
+        "host plant": [
+            "strawberries"
+        ],
+        "plant disease": [],
+        "location": [
+            "Midlands",
+            "UK",
+            "United Nations"
+        ]
+    },
+    "relations": [
+        {
+            "relation": "found on",
+            "subject": "potato aphid",
+            "object": "strawberries",
+            "subject_type": "pest",
+            "object_type": "host plant"
+        },
+        {
+            "relation": "located in",
+            "subject": "Aston University",
+            "object": "Midlands",
+            "subject_type": "location",
+            "object_type": "location"
+        },
+        {
+            "relation": "located in",
+            "subject": "Harper Adams University",
+            "object": "Midlands",
+            "subject_type": "location",
+            "object_type": "location"
+        },
+        {
+            "relation": "located in",
+            "subject": "strawberries",
+            "object": "UK",
+            "subject_type": "host plant",
+            "object_type": "location"
+        }
+    ]
+}
+
