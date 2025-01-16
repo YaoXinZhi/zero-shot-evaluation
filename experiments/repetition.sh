@@ -4,17 +4,17 @@ DOCS="2 5 10"
 #MODELS="mistral gpt-4o-mini"
 MODELS="gpt-4o-mini"
 
-BASE=experiments/repetition
+BASE=output/repetition
 
 for mod in $MODELS
 do
     for inst in $INST
     do
-	instfile="instruction_$inst.txt"
+	instfile="instructions/$inst.txt"
 	for doc in $DOCS
 	do
 	    docname="Texte$doc"
-	    docfile="example-docs/$docname.txt"
+	    docfile="documents/$docname.txt"
 	    for rep in $REPS
 	    do
 		outfile=$BASE/$mod/$inst/$docname/$rep.txt

@@ -17,11 +17,11 @@ ollama serve
 # Download Mistral
 ollama pull mistral
 
-# Create Ollama environment
-python3 -m venv ollama-env
+# Create virtual environment
+python3 -m venv llm-env
 
 # Activate environment
-source ollama-env/bin/activate
+source llm-env/bin/activate
 
 # Install client API
 pip install ollama
@@ -38,7 +38,7 @@ Instructions [here](https://platform.openai.com/docs/quickstart?language-prefere
 export OPENAI_API_KEY='xoxoxoxo'
 
 # Use same environment
-source ollama-env/bin/activate
+source llm-env/bin/activate
 
 # Install client API
 pip install openai
