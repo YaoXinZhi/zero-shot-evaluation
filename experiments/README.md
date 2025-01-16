@@ -1,69 +1,31 @@
-# Ollama+GPT tests
+# Experiments
 
-## Setup Ollama
+## Directories
 
-Instructions [here](https://github.com/RamiKrispin/ollama-poc?tab=readme-ov-file#setting-up-ollama).
+- `documents/`: documents of varying complexity. Text files (UTF-8).
+- `instructions/`:
+  - `ner+rel.txt`: original NER and RE instruction, the concatenation of three prompts
+  - `scenario.txt`: extended and streamlined version
+  - `short.txt`: minimal version of the same prompt
+- `output/`: result of experiments
 
-[API doc](https://github.com/ollama/ollama/blob/main/docs/api.md#generate-a-completion).
 
-```sh
-
-# Download Ollama
-curl -fsSL https://ollama.com/install.sh | sh
-
-# Start server -- restart if computer has been shutdown
-ollama serve
-
-# Download Mistral
-ollama pull mistral
-
-# Create virtual environment
-python3 -m venv llm-env
-
-# Activate environment
-source llm-env/bin/activate
-
-# Install client API
-pip install ollama
-
-```
-
-## Setup GPT
-
-Instructions [here](https://platform.openai.com/docs/quickstart?language-preference=python)
+## `run.py`
 
 ```sh
-
-# Set API key
-export OPENAI_API_KEY='xoxoxoxo'
-
-# Use same environment
-source llm-env/bin/activate
-
-# Install client API
-pip install openai
-
+./run.py -m MODEL -i INSTRFILE -d DOCFILE -o OUTFILE
 ```
 
-## Run script
+Supported models: `mistral`, `gpt-4o-mini`.
 
 
-```sh
-./run.py -i INSTRUCTION -d DOC -o OUTPUT -m MODEL
-```
+## Repetition
 
-Models:
-- `mistral` (Ollama server)
-- `gpt-4o-mini` (OpenAI server)
+The repetition experiment aims at assessing how much the output varies for the same pair of instruction/document.
 
+The experiment has been conducted on two models (`mistral`, `gpt-4o-mini`), three instructions (`ner+rel`, `scenario`, `short`), and three documents (`Texte2`, `Texte5`, `Texte10`).
+Each prompt has been repeated five times.
 
-## Experiments
-
-
-### Repetition
-
-```sh
-. repetition.sh
-```
-
-Repeat prompt+document five fold and observe stochastic differences.
+The result of the experiment is contained in `output/repetition/`.
+The results have been organized in a folder tree of three levels corresponding to the model, the instruction and the document.
+Each terminal folder contains five files numbered 1 to 5.
