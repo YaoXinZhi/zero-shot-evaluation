@@ -1,0 +1,94 @@
+{
+  "entities": [
+    {
+      "type": "Plant pest",
+      "name": "Fall Armyworm"
+    },
+    {
+      "type": "Plant pest",
+      "name": "Spodoptera frugiperda"
+    },
+    {
+      "type": "Host plant",
+      "name": "maize"
+    },
+    {
+      "type": "Disease",
+      "name": "maize lethal necrosis"
+    },
+    {
+      "type": "Insect vector",
+      "name": "corn leafhopper"
+    },
+    {
+      "type": "Insect vector",
+      "name": "Dalbulus maidis"
+    },
+    {
+      "type": "Geographic location",
+      "name": "Kenya"
+    },
+    {
+      "type": "Geographic location",
+      "name": "South America"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Located in",
+      "arguments": {
+        "pest": "Fall Armyworm",
+        "geographical location": "Kenya"
+      }
+    },
+        {
+      "type": "Located in",
+      "arguments": {
+        "pest": "Spodoptera frugiperda",
+        "geographical location": "Kenya"
+      }
+    },
+    {
+      "type": "Have been found on",
+      "arguments": {
+        "pest": "Fall Armyworm",
+        "host plant": "maize"
+      }
+    },
+    {
+      "type": "Causes",
+      "arguments": {
+        "pest": "Fall Armyworm",
+        "disease": "maize lethal necrosis"
+      }
+    },
+    {
+      "type": "Is vected by",
+      "arguments": {
+        "pest": "Fall Armyworm",
+        "insect vector": "corn leafhopper"
+      }
+    },
+    {
+      "type": "Is vected by",
+      "arguments": {
+        "pest": "Fall Armyworm",
+        "insect vector": "Dalbulus maidis"
+      }
+    },
+       {
+      "type": "Is vected by",
+      "arguments": {
+        "pest": "Spodoptera frugiperda",
+        "insect vector": "corn leafhopper"
+      }
+    },
+    {
+      "type": "Is vected by",
+      "arguments": {
+        "pest": "Spodoptera frugiperda",
+        "insect vector": "Dalbulus maidis"
+      }
+    }
+  ]
+}

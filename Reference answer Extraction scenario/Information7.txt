@@ -1,0 +1,58 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "flavescence dorée"
+    },
+    {
+      "type": "Geographic location",
+      "name": "South Tyrol"
+    },
+    {
+      "type": "Host plant",
+      "name": "Chardonnay"
+    },
+    {
+      "type": "Host plant",
+      "name": "Pinot Grigio"
+    },
+    {
+      "type": "Host plant",
+      "name": "vines"
+    },
+    {
+      "type": "Geographic location",
+      "name": "Laimburg Research Center"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Affects",
+      "arguments": {
+        "disease": "flavescence dorée",
+        "host plant": "Chardonnay"
+      }
+    },
+    {
+      "type": "Affects",
+      "arguments": {
+        "disease": "flavescence dorée",
+        "host plant": "Pinot Grigio"
+      }
+    },
+    {
+      "type": "Affects",
+      "arguments": {
+        "disease": "flavescence dorée",
+        "host plant": "vines"
+      }
+    },
+    {
+      "type": "Located in",
+      "arguments": {
+        "pest": "flavescence dorée",
+        "geographical location": "South Tyrol"
+      }
+    }
+  ]
+}

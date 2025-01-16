@@ -1,0 +1,76 @@
+{
+  "entities": [
+    {
+      "type": "Insect vector",
+      "name": "Dictyophara europaea"
+    },
+    {
+      "type": "Insect vector",
+      "name": "Hyalesthes obsoletus"
+    },
+    {
+      "type": "Insect vector",
+      "name": "Reptalus panzeri"
+    },
+    {
+      "type": "Disease",
+      "name": "Bois noir"
+    },
+    {
+      "type": "Disease",
+      "name": "Flavescence dorée phytoplasma"
+    },
+    {
+      "type": "Host plant",
+      "name": "grapevine"
+    },
+    {
+      "type": "Host plant",
+      "name": "Catharanthus roseus"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Causes",
+      "arguments": {
+        "pest": "‘Candidatus Phytoplasma solani’",
+        "disease": "Bois noir"
+      }
+    },
+    {
+      "type": "Is vected by",
+      "arguments": {
+        "pest": "‘Candidatus Phytoplasma solani’",
+        "insect vector": "Hyalesthes obsoletus"
+      }
+    },
+    {
+      "type": "Is vected by",
+      "arguments": {
+        "pest": "‘Candidatus Phytoplasma solani’",
+        "insect vector": "Reptalus panzeri"
+      }
+    },
+    {
+      "type": "Is vected by",
+      "arguments": {
+        "pest": "Flavescence dorée phytoplasma",
+        "insect vector": "Dictyophara europaea"
+      }
+    },
+    {
+      "type": "Affects",
+      "arguments": {
+        "disease": "Bois noir",
+        "host plant": "grapevine"
+      }
+    },
+    {
+      "type": "Affects",
+      "arguments": {
+        "disease": "Bois noir",
+        "host plant": "Catharanthus roseus"
+      }
+    }
+  ]
+}
