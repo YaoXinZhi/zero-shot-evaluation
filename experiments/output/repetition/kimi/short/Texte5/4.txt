@@ -1,0 +1,17 @@
+[
+    {
+        "entities": [
+            {"type": "Pest", "name": "Balclutha calamagrostis"},
+            {"type": "Pest", "name": "Balclutha punctata"},
+            {"type": "Vector insect", "name": "Deltochelalinae leafhoppers"},
+            {"type": "Pest", "name": "Sulcia"},
+            {"type": "Pest", "name": "Sodalis-like bacterium"}
+        ],
+        "relationships": [
+            {"source": "Sulcia", "type": "Vected by", "target": "Balclutha calamagrostis"},
+            {"source": "Sulcia", "type": "Vected by", "target": "Balclutha punctata"},
+            {"source": "Sodalis-like bacterium", "type": "Vected by", "target": "Deltochelalinae leafhoppers"}
+        ]
+    }
+]
+

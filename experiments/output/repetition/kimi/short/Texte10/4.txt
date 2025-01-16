@@ -1,0 +1,43 @@
+{
+    "entities": [
+        {
+            "type": "Pest",
+            "name": "potato aphid"
+        },
+        {
+            "type": "Host plant",
+            "name": "strawberries"
+        },
+        {
+            "type": "Location",
+            "name": "Midlands"
+        },
+        {
+            "type": "Location",
+            "name": "UK"
+        }
+    ],
+    "relationships": [
+        {
+            "source": "potato aphid",
+            "type": "located in",
+            "target": "Midlands"
+        },
+        {
+            "source": "strawberries",
+            "type": "located in",
+            "target": "UK"
+        },
+        {
+            "source": "potato aphid",
+            "type": "affects",
+            "target": "strawberries"
+        },
+        {
+            "source": "strawberries",
+            "type": "found on",
+            "target": "potato aphid"
+        }
+    ]
+}
+

@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "type": "Insect vector",
+      "name": "potato aphid"
+    },
+    {
+      "type": "Host plant",
+      "name": "strawberries"
+    },
+    {
+      "type": "Geographic location",
+      "name": "Midlands"
+    },
+    {
+      "type": "Geographic location",
+      "name": "UK"
+    },
+    {
+      "type": "Disease",
+      "name": "plant diseases"
+    },
+    {
+      "type": "Plant pest",
+      "name": "pests"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Located in",
+      "first_arg": {
+        "type": "Plant pest",
+        "name": "pests"
+      },
+      "second_arg": {
+        "type": "Geographic location",
+        "name": "Midlands"
+      }
+    },
+    {
+      "type": "Have been found on",
+      "first_arg": {
+        "type": "Insect vector",
+        "name": "potato aphid"
+      },
+      "second_arg": {
+        "type": "Host plant",
+        "name": "strawberries"
+      }
+    },
+    {
+      "type": "Causes",
+      "first_arg": {
+        "type": "Plant pest",
+        "name": "pests"
+      },
+      "second_arg": {
+        "type": "Disease",
+        "name": "plant diseases"
+      }
+    }
+  ]
+}
+

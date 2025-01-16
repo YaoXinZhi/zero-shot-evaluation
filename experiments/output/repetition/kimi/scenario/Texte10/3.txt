@@ -1,0 +1,21 @@
+[
+  {
+    "entities": [
+      {"type": "Geographic location", "name": "Midlands"},
+      {"type": "Geographic location", "name": "United Nations"},
+      {"type": "Geographic location", "name": "UK"},
+      {"type": "Geographic location", "name": "Biotechnology and Biological Sciences Research Council"},
+      {"type": "Geographic location", "name": "Natural Environment Research Council"},
+      {"type": "Host plant", "name": "strawberries"},
+      {"type": "Plant pest", "name": "potato aphid"},
+      {"type": "Disease", "name": "plant diseases"}
+    ],
+    "relationships": [
+      {"source": "Midlands", "type": "Located in", "target": "UK"},
+      {"source": "Food and Agriculture Organization", "type": "Located in", "target": "United Nations"},
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Affects", "target": "strawberries"}
+    ]
+  }
+]
+

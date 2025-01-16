@@ -1,0 +1,20 @@
+[
+  {
+    "entities": [
+      {"type": "Insect vector", "name": "Balclutha calamagrostis"},
+      {"type": "Insect vector", "name": "Balclutha punctata"},
+      {"type": "Plant pest", "name": "Nasuia"},
+      {"type": "Plant pest", "name": "Sulcia"},
+      {"type": "Plant pest", "name": "Sodalis-like symbionts"},
+      {"type": "Geographic location", "name": "Balclutha"}
+    ],
+    "relationships": [
+      {"source": "Nasuia", "type": "Have been found on", "target": "Balclutha calamagrostis"},
+      {"source": "Nasuia", "type": "Have been found on", "target": "Balclutha punctata"},
+      {"source": "Sulcia", "type": "Have been found on", "target": "Balclutha calamagrostis"},
+      {"source": "Sulcia", "type": "Have been found on", "target": "Balclutha punctata"},
+      {"source": "Sodalis-like symbionts", "type": "Located in", "target": "fat body cells"}
+    ]
+  }
+]
+

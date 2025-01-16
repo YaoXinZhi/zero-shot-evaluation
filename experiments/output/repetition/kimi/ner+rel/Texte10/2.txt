@@ -1,0 +1,37 @@
+{
+    "entities": [
+        "Plant pest",
+        "potato aphid",
+        "Host plant",
+        "strawberries",
+        "Geographic location",
+        "Midlands",
+        "Geographic location",
+        "UK",
+        "Disease",
+        "plant diseases"
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "from": "Aston University",
+            "to": "Midlands"
+        },
+        {
+            "type": "Located in",
+            "from": "Harper Adams University",
+            "to": "Midlands"
+        },
+        {
+            "type": "Have been found on",
+            "from": "potato aphid",
+            "to": "strawberries"
+        },
+        {
+            "type": "Causes",
+            "from": "potato aphid",
+            "to": "plant diseases"
+        }
+    ]
+}
+

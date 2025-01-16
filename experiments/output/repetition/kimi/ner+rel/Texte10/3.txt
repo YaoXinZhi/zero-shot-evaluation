@@ -1,0 +1,14 @@
+{
+    "entities": [
+        {"type": "Insect vector", "name": "potato aphid"},
+        {"type": "Host plant", "name": "strawberries"},
+        {"type": "Geographic location", "name": "Midlands"},
+        {"type": "Geographic location", "name": "UK"},
+        {"type": "Geographic location", "name": "United Nations"}
+    ],
+    "relationships": [
+        {"pest": "potato aphid", "Located in": "Midlands"},
+        {"pest": "potato aphid", "Have been found on": "strawberries"}
+    ]
+}
+

@@ -1,0 +1,25 @@
+[
+  {
+    "entities": [
+      {"type": "Geographic location", "name": "Midlands"},
+      {"type": "Geographic location", "name": "United Nations"},
+      {"type": "Geographic location", "name": "UK"},
+      {"type": "Geographic location", "name": "Midlands"},
+      {"type": "Host plant", "name": "strawberries"},
+      {"type": "Plant pest", "name": "potato aphid"},
+      {"type": "Organization", "name": "Aston University"},
+      {"type": "Organization", "name": "Harper Adams University"},
+      {"type": "Organization", "name": "Food and Agriculture Organization"},
+      {"type": "Organization", "name": "Biotechnology and Biological Sciences Research Council"},
+      {"type": "Organization", "name": "Natural Environment Research Council"},
+      {"type": "Organization", "name": "Aston Institute of Photonic Technologies"}
+    ],
+    "relationships": [
+      {"source": "Aston University", "type": "Located in", "target": "Midlands"},
+      {"source": "Harper Adams University", "type": "Located in", "target": "Midlands"},
+      {"source": "strawberries", "type": "Have been found on", "target": "UK"},
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"}
+    ]
+  }
+]
+

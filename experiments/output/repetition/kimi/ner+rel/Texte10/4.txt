@@ -1,0 +1,42 @@
+{
+    "entities": [
+        "Plant pest",
+        "pests",
+        "diseases",
+        "Aston University",
+        "Harper Adams University",
+        "Food and Agriculture Organization of the United Nations",
+        "Integrated Pest Management",
+        "IPM",
+        "Aston Institute of Photonic Technologies",
+        "AIPT",
+        "Biotechnology and Biological Sciences Research Council",
+        "BBSRC",
+        "Natural Environment Research Council",
+        "Joe Roberts",
+        "Midlands"
+    ],
+    "relationships": [
+        {
+            "type": "Causes",
+            "from": "pests",
+            "to": "crop losses"
+        },
+        {
+            "type": "Located in",
+            "from": "Aston University",
+            "to": "Midlands"
+        },
+        {
+            "type": "Located in",
+            "from": "Harper Adams University",
+            "to": "Midlands"
+        },
+        {
+            "type": "Have been found on",
+            "from": "potato aphid",
+            "to": "strawberries"
+        }
+    ]
+}
+
