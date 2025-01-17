@@ -1,0 +1,19 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Golden flavescence"},
+      {"type": "Geographic location", "name": "Burgraviato"},
+      {"type": "Geographic location", "name": "Bassa Atesina"},
+      {"type": "Host plant", "name": "vines"},
+      {"type": "Disease", "name": "flavescence dorée"}
+    ],
+    "relationships": [
+      {"source": "Golden flavescence", "type": "Located in", "target": "Burgraviato"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Burgraviato"},
+      {"source": "Bassa Atesina", "type": "Located in", "target": "Bassa Atesina"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "vines"}
+    ]
+  }
+]
+```

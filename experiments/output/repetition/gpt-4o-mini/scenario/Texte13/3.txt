@@ -1,0 +1,19 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant pest", "name": "Spodoptera frugiperda"},
+      {"type": "Host plant", "name": "maize crops"},
+      {"type": "Disease", "name": "maize lethal necrosis"},
+      {"type": "Insect vector", "name": "Dalbulus maidis"},
+      {"type": "Geographic location", "name": "Kenya"},
+      {"type": "Geographic location", "name": "South America"}
+    ],
+    "relationships": [
+      {"source": "Spodoptera frugiperda", "type": "Have been found on", "target": "maize crops"},
+      {"source": "Spodoptera frugiperda", "type": "Causes", "target": "maize lethal necrosis"},
+      {"source": "Dalbulus maidis", "type": "Located in", "target": "South America"}
+    ]
+  }
+]
+```

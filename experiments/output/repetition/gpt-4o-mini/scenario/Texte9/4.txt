@@ -1,0 +1,26 @@
+```json
+{
+  "entities": [
+    {"type": "Disease", "name": "apple proliferation"},
+    {"type": "Insect vector", "name": "psylla"},
+    {"type": "Insect vector", "name": "leafhoppers"},
+    {"type": "Insect vector", "name": "Philaenus spumarius"},
+    {"type": "Insect vector", "name": "Artianus interstitialis"},
+    {"type": "Insect vector", "name": "Fieberiella florii"},
+    {"type": "Host plant", "name": "celery"},
+    {"type": "Host plant", "name": "apple seedlings"},
+    {"type": "Geographic location", "name": "Germany"}
+  ],
+  "relationships": [
+    {"source": "psylla", "type": "Causes", "target": "apple proliferation"},
+    {"source": "leafhoppers", "type": "Causes", "target": "apple proliferation"},
+    {"source": "Philaenus spumarius", "type": "Causes", "target": "apple proliferation"},
+    {"source": "Artianus interstitialis", "type": "Causes", "target": "apple proliferation"},
+    {"source": "Fieberiella florii", "type": "Causes", "target": "apple proliferation"},
+    {"source": "Philaenus spumarius", "type": "Have been found on", "target": "celery"},
+    {"source": "Artianus interstitialis", "type": "Have been found on", "target": "celery"},
+    {"source": "Artianus interstitialis", "type": "Have been found on", "target": "apple seedlings"},
+    {"source": "Fieberiella florii", "type": "Have been found on", "target": "apple proliferation"}
+  ]
+}
+```

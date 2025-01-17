@@ -1,0 +1,26 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Insect vector", "name": "Dictyophara europaea"},
+      {"type": "Disease", "name": "Candidatus Phytoplasma solani"},
+      {"type": "Host plant", "name": "grapevines"},
+      {"type": "Insect vector", "name": "Hyalesthes obsoletus"},
+      {"type": "Insect vector", "name": "Reptalus panzeri"},
+      {"type": "Host plant", "name": "grapevine"},
+      {"type": "Host plant", "name": "Catharanthus roseus"},
+      {"type": "Disease", "name": "Flavescence dorée"},
+      {"type": "Geographic location", "name": "European vineyards"}
+    ],
+    "relationships": [
+      {"source": "Dictyophara europaea", "type": "Have been found on", "target": "grapevines"},
+      {"source": "Dictyophara europaea", "type": "Causes", "target": "Candidatus Phytoplasma solani"},
+      {"source": "Hyalesthes obsoletus", "type": "Have been found on", "target": "grapevines"},
+      {"source": "Reptalus panzeri", "type": "Have been found on", "target": "grapevines"},
+      {"source": "Dictyophara europaea", "type": "Causes", "target": "Flavescence dorée"},
+      {"source": "Flavescence dorée", "type": "Have been found on", "target": "grapevine"},
+      {"source": "Candidatus Phytoplasma solani", "type": "Have been found on", "target": "grapevine"}
+    ]
+  }
+]
+```

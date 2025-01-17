@@ -1,0 +1,15 @@
+```json
+{
+  "entities": [
+    {"type": "Plant pest", "name": "Xylella"},
+    {"type": "Host plant", "name": "olive trees"},
+    {"type": "Disease", "name": "Xylella disease"},
+    {"type": "Geographic location", "name": "infected area"}
+  ],
+  "relationships": [
+    {"source": "Xylella", "type": "Causes", "target": "Xylella disease"},
+    {"source": "Xylella", "type": "Have been found on", "target": "olive trees"},
+    {"source": "Xylella", "type": "Located in", "target": "infected area"}
+  ]
+}
+```

@@ -1,0 +1,21 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant pest", "name": "Fall Armyworm"},
+      {"type": "Plant pest", "name": "Spodoptera frugiperda"},
+      {"type": "Host plant", "name": "maize crops"},
+      {"type": "Host plant", "name": "maize plants"},
+      {"type": "Disease", "name": "maize lethal necrosis"},
+      {"type": "Insect vector", "name": "corn leafhopper"},
+      {"type": "Geographic location", "name": "Kenya"},
+      {"type": "Geographic location", "name": "South America"}
+    ],
+    "relationships": [
+      {"source": "Spodoptera frugiperda", "type": "Have been found on", "target": "maize crops"},
+      {"source": "Spodoptera frugiperda", "type": "Causes", "target": "maize lethal necrosis"},
+      {"source": "corn leafhopper", "type": "Located in", "target": "South America"}
+    ]
+  }
+]
+```

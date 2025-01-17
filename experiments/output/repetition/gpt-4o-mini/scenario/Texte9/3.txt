@@ -1,0 +1,23 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant pest", "name": "Philaenus spumarius"},
+      {"type": "Plant pest", "name": "Artianus interstitialis"},
+      {"type": "Plant pest", "name": "Fieberiella florii"},
+      {"type": "Disease", "name": "apple proliferation"},
+      {"type": "Host plant", "name": "celery"},
+      {"type": "Host plant", "name": "apple seedlings"},
+      {"type": "Geographic location", "name": "Germany"}
+    ],
+    "relationships": [
+      {"source": "Philaenus spumarius", "type": "Causes", "target": "apple proliferation"},
+      {"source": "Artianus interstitialis", "type": "Causes", "target": "apple proliferation"},
+      {"source": "Fieberiella florii", "type": "Causes", "target": "apple proliferation"},
+      {"source": "Philaenus spumarius", "type": "Have been found on", "target": "apple seedlings"},
+      {"source": "Philaenus spumarius", "type": "Have been found on", "target": "celery"},
+      {"source": "Artianus interstitialis", "type": "Have been found on", "target": "celery"}
+    ]
+  }
+]
+```

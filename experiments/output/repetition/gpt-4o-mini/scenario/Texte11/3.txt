@@ -1,0 +1,16 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant pest", "name": "Xylella"},
+      {"type": "Geographic location", "name": "University of Bari"},
+      {"type": "Disease", "name": "the disease affecting infected plants"},
+      {"type": "Host plant", "name": "olive trees"}
+    ],
+    "relationships": [
+      {"source": "Xylella", "type": "Causes", "target": "the disease affecting infected plants"},
+      {"source": "Xylella", "type": "Have been found on", "target": "olive trees"}
+    ]
+  }
+]
+```

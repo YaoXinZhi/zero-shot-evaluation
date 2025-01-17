@@ -1,0 +1,18 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Flavescence dorée"},
+      {"type": "Host plant", "name": "grapevine"},
+      {"type": "Insect vector", "name": "American vine leafhopper"},
+      {"type": "Geographic location", "name": "South Tyrol"},
+      {"type": "Plant pest", "name": "Flavescence dorèe-Phytoplasma"}
+    ],
+    "relationships": [
+      {"source": "Flavescence dorée", "type": "Causes", "target": "grapevine"},
+      {"source": "Flavescence dorèe-Phytoplasma", "type": "Have been found on", "target": "grapevine"},
+      {"source": "American vine leafhopper", "type": "Have been found on", "target": "grapevine"}
+    ]
+  }
+]
+```

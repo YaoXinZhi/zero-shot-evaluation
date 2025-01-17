@@ -1,0 +1,16 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Host plant", "name": "Chardonnay"},
+      {"type": "Host plant", "name": "Pinot Grigio"},
+      {"type": "Geographic location", "name": "South Tyrol"}
+    ],
+    "relationships": [
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "Chardonnay"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "Pinot Grigio"}
+    ]
+  }
+]
+```
