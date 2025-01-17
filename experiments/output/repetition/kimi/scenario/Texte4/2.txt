@@ -1,0 +1,26 @@
+[
+  {
+    "entities": [
+      {"type": "Insect vector", "name": "Dictyophara europaea"},
+      {"type": "Disease", "name": "Bois noir"},
+      {"type": "Disease", "name": "grapevine yellows"},
+      {"type": "Disease", "name": "Flavescence dorée"},
+      {"type": "Host plant", "name": "grapevines"},
+      {"type": "Host plant", "name": "Catharanthus roseus"},
+      {"type": "Insect vector", "name": "Hyalesthes obsoletus"},
+      {"type": "Insect vector", "name": "Reptalus panzeri"}
+    ],
+    "relationships": [
+      {"source": "Dictyophara europaea", "type": "Located in", "target": "natural habitats"},
+      {"source": "Dictyophara europaea", "type": "Causes", "target": "Flavescence dorée"},
+      {"source": "Dictyophara europaea", "type": "Have been found on", "target": "Catharanthus roseus"},
+      {"source": "Dictyophara europaea", "type": "Have been found on", "target": "grapevines"},
+      {"source": "Hyalesthes obsoletus", "type": "Have been found on", "target": "grapevines"},
+      {"source": "Reptalus panzeri", "type": "Have been found on", "target": "grapevines"},
+      {"source": "Candidatus Phytoplasma solani", "type": "Causes", "target": "Bois noir"},
+      {"source": "Candidatus Phytoplasma solani", "type": "Causes", "target": "grapevine yellows"},
+      {"source": "Candidatus Phytoplasma solani", "type": "Have been found on", "target": "grapevines"}
+    ]
+  }
+]
+

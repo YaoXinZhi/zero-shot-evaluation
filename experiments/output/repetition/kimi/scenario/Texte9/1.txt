@@ -1,0 +1,24 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "apple proliferation"},
+      {"type": "Insect vector", "name": "psyllids"},
+      {"type": "Insect vector", "name": "leafhoppers"},
+      {"type": "Insect vector", "name": "Philaenus spumarius"},
+      {"type": "Insect vector", "name": "Artianus interstitialis"},
+      {"type": "Insect vector", "name": "Fieberiella florii"},
+      {"type": "Host plant", "name": "apple seedlings"},
+      {"type": "Host plant", "name": "celery"}
+    ],
+    "relationships": [
+      {"source": "psyllids", "type": "Causes", "target": "apple proliferation"},
+      {"source": "leafhoppers", "type": "Causes", "target": "apple proliferation"},
+      {"source": "Philaenus spumarius", "type": "Have been found on", "target": "apple seedlings"},
+      {"source": "Philaenus spumarius", "type": "Have been found on", "target": "celery"},
+      {"source": "Artianus interstitialis", "type": "Have been found on", "target": "apple seedlings"},
+      {"source": "Artianus interstitialis", "type": "Have been found on", "target": "celery"},
+      {"source": "Fieberiella florii", "type": "Have been found on", "target": "apple seedlings"}
+    ]
+  }
+]
+

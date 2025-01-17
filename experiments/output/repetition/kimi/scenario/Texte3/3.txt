@@ -1,0 +1,14 @@
+[
+  {
+    "entities": [
+      {"type": "Plant pest", "name": "Bursaphelenchus xylophilus"},
+      {"type": "Disease", "name": "pine wilt disease"},
+      {"type": "Insect vector", "name": "dauers"}
+    ],
+    "relationships": [
+      {"source": "Bursaphelenchus xylophilus", "type": "Causes", "target": "pine wilt disease"},
+      {"source": "Bursaphelenchus xylophilus", "type": "Have been found on", "target": "dauers"}
+    ]
+  }
+]
+
