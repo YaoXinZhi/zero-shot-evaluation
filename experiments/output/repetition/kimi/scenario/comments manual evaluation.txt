@@ -1,0 +1,85 @@
+Comments
+
+**Texte10**
+
+Syntax : 
+unchanged among runs
+do not follow the relation argument syntax
+{
+      "type": "relation label",
+      "arguments": {
+        "entity type": "entity value",
+        "entity type": "entity value"
+      }
+instead:
+"source": "entity value", "type": "relation label", "target": "entity value"
+     
+      
+Schema constraints : do not respect relation argument types
+Change the label of types in relations
+Example : "source": "potato aphid", "type": "Have been found on", "target": "strawberries"
+instead of 
+"type": "Located in", "arguments": {"pest": "potato aphid", "geographical location": "UK"}}
+
+
+- Content variation
+repetition of entities
+more or less organization entities as locations
+presence of "plant disease" and "crop losses" vary
+
+- accuracy
+
+false positive entities
+plant diseases, crop losses too general
+Organizations tagged as locations : Natural Environment Research Council, Biotechnology and Biological Sciences Research Council, United Nations
+
+
+false positive relations do not respect the argument type constraints : 
+located in, between Midlands and UK
+located in between the 3 organizations and UK (reasonable as they are locations)
+
+plant disease affects strawberries : ok since "plant disease" is viewed as 
+ 
+false negative : do not respect argument type but semantically relevant
+
+potato aphid in UK
+strawberries in UK
+aphid affects strawberries
+
+almost correct (format incorrect) : 
+"source": "potato aphid", "type": "Have been found on", "target": "strawberries"
+
+missing: pest in location
+aphid in UK
+
+
+**Texte2**
+
+- Syntax : same syntax problem
+
+- Content variation
+no
+
+- Accuracy
+perfect
+
+
+
+**Texte 5**
+- Syntax
+same syntax problem
+one of the relation argument is not an entity: fat body cells
+
+-Content variation
+variations on the relationships about the microbes that are in the insects
+
+- accuracy
+Balclutha species tagged as location
+no extraction was expected. Then all extracted information (entities and relationships) is incorrect: all false positive
+Then the extractions make sense if the micrbes would be plant pest and the insect would be vectors, which they are not.
+
+Concuclusion : not too far, appropriate instruction should correct that.
+
+
+
+
