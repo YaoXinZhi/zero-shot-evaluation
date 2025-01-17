@@ -13,9 +13,6 @@ def log(msg):
     sys.stderr.write(now.strftime('[%Y-%m-%d %H:%M:%S] ') + msg + '\n')
 
 
-log('start')
-
-
 parser = argparse.ArgumentParser(
     prog='run'
 )
@@ -107,16 +104,16 @@ def fleissKappa(rate,n):
 
     N = len(rate)
     k = len(rate[0])
-    print("#raters = ", n, ", #subjects = ", N, ", #categories = ", k)
+    #print("#raters = ", n, ", #subjects = ", N, ", #categories = ", k)
     checkInput(rate, n)
 
     #mean of the extent to which raters agree for the ith subject 
     PA = sum([(sum([i**2 for i in row])- n) / (n * (n - 1)) for row in rate])/N
-    print("PA = ", PA)
+    #print("PA = ", PA)
     
     # mean of squares of proportion of all assignments which were to jth category
     PE = sum([j**2 for j in [sum([rows[i] for rows in rate])/(N*n) for i in range(k)]])
-    print("PE =", PE)
+    #print("PE =", PE)
     
     try:
         return (PA - PE) / (1 - PE)
@@ -127,5 +124,4 @@ def fleissKappa(rate,n):
 matrix = list(get_row(a) for a in ALL_ANNOTATIONS)
 
 
-print(matrix)
 print(fleissKappa(matrix, REPEATS))
