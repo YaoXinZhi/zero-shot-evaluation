@@ -1,0 +1,16 @@
+[
+  {
+    "entities": [
+      {"type": "Plant pest", "name": "Xylella"},
+      {"type": "Geographic location", "name": "Bari"},
+      {"type": "Geographic location", "name": "National Research Council"},
+      {"type": "Geographic location", "name": "University of Bari"}
+    ],
+    "relationships": [
+      {"source": "Xylella", "type": "Located in", "target": "Bari"},
+      {"source": "Xylella", "type": "Located in", "target": "National Research Council"},
+      {"source": "Xylella", "type": "Located in", "target": "University of Bari"}
+    ]
+  }
+]
+

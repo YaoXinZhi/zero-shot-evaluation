@@ -1,0 +1,13 @@
+[
+  {
+    "entities": [
+      {"type": "Insect vector", "name": "Bactrocera dorsalis"},
+      {"type": "Odorant-binding protein", "name": "BdorOBP13"}
+    ],
+    "relationships": [
+      {"source": "BdorOBP13", "type": "Located in", "target": "antennae"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "host plant"}
+    ]
+  }
+]
+

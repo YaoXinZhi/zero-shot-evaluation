@@ -1,0 +1,42 @@
+[
+  {
+    "entities": [
+      {"type": "Geographic location", "name": "Britain"},
+      {"type": "Geographic location", "name": "Western Europe"},
+      {"type": "Geographic location", "name": "Uzbekistan"},
+      {"type": "Geographic location", "name": "Turkey"},
+      {"type": "Geographic location", "name": "Mediterranean Basin"},
+      {"type": "Geographic location", "name": "Middle East"},
+      {"type": "Insect vector", "name": "Cacopsylla pyrisuga"},
+      {"type": "Insect vector", "name": "C. pyri"},
+      {"type": "Insect vector", "name": "C. pyricola"},
+      {"type": "Insect vector", "name": "Cacopsylla fera"},
+      {"type": "Insect vector", "name": "Cacopsylla bidens"},
+      {"type": "Host plant", "name": "European pear"},
+      {"type": "Host plant", "name": "Pyrus spinosa"},
+      {"type": "Host plant", "name": "wild pear"},
+      {"type": "Insect vector", "name": "Cacopsylla notata"},
+      {"type": "Insect vector", "name": "C. fera"}
+    ],
+    "relationships": [
+      {"source": "Cacopsylla pyrisuga", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyrisuga", "type": "Located in", "target": "Western Europe"},
+      {"source": "C. pyri", "type": "Located in", "target": "Britain"},
+      {"source": "C. pyri", "type": "Located in", "target": "Western Europe"},
+      {"source": "C. pyricola", "type": "Located in", "target": "Britain"},
+      {"source": "C. pyricola", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla fera", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Cacopsylla fera", "type": "Located in", "target": "Turkey"},
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "Turkey"},
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "Mediterranean Basin"},
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "Middle East"},
+      {"source": "Cacopsylla pyrisuga", "type": "Have been found on", "target": "European pear"},
+      {"source": "C. pyri", "type": "Have been found on", "target": "European pear"},
+      {"source": "Cacopsylla pyricola", "type": "Have been found on", "target": "European pear"},
+      {"source": "Cacopsylla notata", "type": "Have been found on", "target": "Pyrus spinosa"},
+      {"source": "C. fera", "type": "Have been found on", "target": "wild pear"}
+    ]
+  }
+]
+

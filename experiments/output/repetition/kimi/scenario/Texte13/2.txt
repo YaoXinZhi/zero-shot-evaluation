@@ -1,0 +1,31 @@
+[
+  {
+    "entities": [
+      {"type": "Plant pest", "name": "Fall Armyworm"},
+      {"type": "Insect vector", "name": "corn leafhopper"},
+      {"type": "Host plant", "name": "maize"},
+      {"type": "Disease", "name": "maize lethal necrosis"},
+      {"type": "Geographic location", "name": "Kenya"},
+      {"type": "Geographic location", "name": "South America"},
+      {"type": "Host plant", "name": "European pear"},
+      {"type": "Host plant", "name": "Pyrus spinosa"},
+      {"type": "Host plant", "name": "wild pear"},
+      {"type": "Geographic location", "name": "Britain"},
+      {"type": "Geographic location", "name": "Western Europe"},
+      {"type": "Geographic location", "name": "Uzbekistan"},
+      {"type": "Geographic location", "name": "Turkey"},
+      {"type": "Geographic location", "name": "Mediterranean Basin"},
+      {"type": "Geographic location", "name": "Middle East"}
+    ],
+    "relationships": [
+      {"source": "Fall Armyworm", "type": "Have been found on", "target": "maize"},
+      {"source": "Fall Armyworm", "type": "Causes", "target": "maize lethal necrosis"},
+      {"source": "Fall Armyworm", "type": "Located in", "target": "Kenya"},
+      {"source": "corn leafhopper", "type": "Located in", "target": "South America"},
+      {"source": "corn leafhopper", "type": "Have been found on", "target": "maize"},
+      {"source": "European pear", "type": "Have been found on", "target": "Pyrus spinosa"},
+      {"source": "European pear", "type": "Have been found on", "target": "wild pear"}
+    ]
+  }
+]
+
