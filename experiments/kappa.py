@@ -49,16 +49,21 @@ def parse_json(rep):
 def get_entities(j):
     for e in j['entities']:
         etype = e['type']
+        assert type(etype) == str
         ename = e['name']
-        yield etype, ename
+        assert type(ename) == str
+        yield etype.lower(), ename.lower()
 
 
 def get_relations(j):
     for r in j['relationships']:
         rsource = r['source']
+        assert type(rsource) == str
         rtype = r['type']
+        assert type(rtype) == str
         rtarget = r['target']
-        yield rtype, rsource, rtarget
+        assert type(rtarget) == str
+        yield rtype.lower(), rsource.lower(), rtarget.lower()
 
 
 def get_annotations(j):
