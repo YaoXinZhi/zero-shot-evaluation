@@ -1,0 +1,16 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Insect vector", "name": "Bactrocera dorsalis"},
+      {"type": "Host plant", "name": "methyl eugenol"},
+      {"type": "Host plant", "name": "γ-octalactone"}
+    ],
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "methyl eugenol"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "γ-octalactone"}
+    ]
+  }
+]
+```
+

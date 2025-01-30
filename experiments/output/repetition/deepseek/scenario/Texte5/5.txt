@@ -1,0 +1,21 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Insect vector", "name": "Balclutha calamagrostis"},
+      {"type": "Insect vector", "name": "Balclutha punctata"},
+      {"type": "Insect vector", "name": "Deltocephalinae leafhoppers"},
+      {"type": "Disease", "name": "Nasuia"},
+      {"type": "Disease", "name": "Sulcia"},
+      {"type": "Disease", "name": "Sodalis-like symbionts"}
+    ],
+    "relationships": [
+      {"source": "Sulcia", "type": "Have been found on", "target": "Balclutha calamagrostis"},
+      {"source": "Sulcia", "type": "Have been found on", "target": "Balclutha punctata"},
+      {"source": "Sodalis-like symbionts", "type": "Have been found on", "target": "Balclutha calamagrostis"},
+      {"source": "Sodalis-like symbionts", "type": "Have been found on", "target": "Balclutha punctata"}
+    ]
+  }
+]
+```
+

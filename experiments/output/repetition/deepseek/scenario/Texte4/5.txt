@@ -1,0 +1,27 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Insect vector", "name": "Dictyophara europaea"},
+      {"type": "Disease", "name": "Bois noir"},
+      {"type": "Disease", "name": "grapevine yellows"},
+      {"type": "Host plant", "name": "grapevines"},
+      {"type": "Insect vector", "name": "Hyalesthes obsoletus"},
+      {"type": "Insect vector", "name": "Reptalus panzeri"},
+      {"type": "Disease", "name": "Flavescence dorée phytoplasma"},
+      {"type": "Host plant", "name": "Catharanthus roseus"},
+      {"type": "Geographic location", "name": "European vineyards"}
+    ],
+    "relationships": [
+      {"source": "Dictyophara europaea", "type": "Causes", "target": "Bois noir"},
+      {"source": "Bois noir", "type": "Affects", "target": "grapevines"},
+      {"source": "Hyalesthes obsoletus", "type": "Causes", "target": "Bois noir"},
+      {"source": "Reptalus panzeri", "type": "Causes", "target": "Bois noir"},
+      {"source": "Dictyophara europaea", "type": "Have been found on", "target": "grapevines"},
+      {"source": "Dictyophara europaea", "type": "Have been found on", "target": "Catharanthus roseus"},
+      {"source": "Dictyophara europaea", "type": "Located in", "target": "European vineyards"}
+    ]
+  }
+]
+```
+

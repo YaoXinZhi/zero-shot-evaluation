@@ -1,0 +1,17 @@
+[
+  {
+    "entities": [
+      {"type": "Insect vector", "name": "Balclutha calamagrostis"},
+      {"type": "Insect vector", "name": "Balclutha punctata"},
+      {"type": "Plant pest", "name": "Nasuia"},
+      {"type": "Plant pest", "name": "Sulcia"},
+      {"type": "Plant pest", "name": "Sodalis-like symbionts"},
+      {"type": "Host plant", "name": "Deltocephalinae leafhoppers"}
+    ],
+    "relationships": [
+      {"source": "Sulcia", "type": "Have been found on", "target": "Deltocephalinae leafhoppers"},
+      {"source": "Sodalis-like symbionts", "type": "Have been found on", "target": "Deltocephalinae leafhoppers"}
+    ]
+  }
+]
+

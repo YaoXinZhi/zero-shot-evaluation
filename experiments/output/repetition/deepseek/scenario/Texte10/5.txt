@@ -1,0 +1,16 @@
+```json
+{
+  "entities": [
+    {"type": "Geographic location", "name": "Midlands"},
+    {"type": "Host plant", "name": "strawberries"},
+    {"type": "Insect vector", "name": "potato aphid"},
+    {"type": "Geographic location", "name": "UK"},
+    {"type": "Geographic location", "name": "world"}
+  ],
+  "relationships": [
+    {"source": "strawberries", "type": "Located in", "target": "UK"},
+    {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"}
+  ]
+}
+```
+
