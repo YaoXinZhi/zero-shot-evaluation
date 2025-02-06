@@ -1,0 +1,39 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant pest", "name": "Cacopsylla pyrisuga"},
+      {"type": "Plant pest", "name": "Cacopsylla pyri"},
+      {"type": "Plant pest", "name": "Cacopsylla pyricola"},
+      {"type": "Plant pest", "name": "Cacopsylla fera"},
+      {"type": "Plant pest", "name": "Cacopsylla bidens"},
+      {"type": "Plant pest", "name": "Cacopsylla notata"},
+      {"type": "Host plant", "name": "Pyrus communis"},
+      {"type": "Host plant", "name": "Pyrus spinosa"},
+      {"type": "Host plant", "name": "Pyrus korshinskyi"},
+      {"type": "Geographic location", "name": "Britain"},
+      {"type": "Geographic location", "name": "Western Europe"},
+      {"type": "Geographic location", "name": "Uzbekistan"},
+      {"type": "Geographic location", "name": "Turkey"},
+      {"type": "Geographic location", "name": "neighboring regions"},
+      {"type": "Geographic location", "name": "Mediterranean Basin"},
+      {"type": "Geographic location", "name": "Middle East"}
+    ],
+    "relationships": [
+      {"source": "Cacopsylla pyrisuga", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyrisuga", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla fera", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Cacopsylla fera", "type": "Located in", "target": "Turkey"},
+      {"source": "Cacopsylla fera", "type": "Located in", "target": "neighboring regions"},
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "Turkey"},
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "neighboring regions"},
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "Mediterranean Basin"},
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "Middle East"},
+      {"source": "Cacopsylla notata", "type": "Have been found on", "target": "Pyrus spinosa"},
+      {"source": "Cacopsylla fera", "type": "Have been found on", "target": "Pyrus korshinskyi"}
+    ]
+  }
+]
+```
+

@@ -1,0 +1,26 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Insect vector", "name": "Dictyophara europaea"},
+      {"type": "Plant pest", "name": "'Candidatus Phytoplasma solani'"},
+      {"type": "Disease", "name": "Bois noir"},
+      {"type": "Host plant", "name": "grapevine"},
+      {"type": "Insect vector", "name": "Hyalesthes obsoletus"},
+      {"type": "Insect vector", "name": "Reptalus panzeri"},
+      {"type": "Plant pest", "name": "Flavescence dorée phytoplasma"},
+      {"type": "Geographic location", "name": "European vineyards"},
+      {"type": "Host plant", "name": "Catharanthus roseus"},
+      {"type": "Disease", "name": "Flavescence dorée"}
+    ],
+    "relationships": [
+      {"source": "'Candidatus Phytoplasma solani'", "type": "Causes", "target": "Bois noir"},
+      {"source": "'Candidatus Phytoplasma solani'", "type": "Have been found on", "target": "grapevine"},
+      {"source": "Flavescence dorée phytoplasma", "type": "Located in", "target": "European vineyards"},
+      {"source": "Flavescence dorée phytoplasma", "type": "Have been found on", "target": "grapevine"},
+      {"source": "'Candidatus Phytoplasma solani'", "type": "Have been found on", "target": "Catharanthus roseus"}
+    ]
+  }
+]
+```
+

@@ -1,0 +1,40 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant pest", "name": "Cacopsylla pyrisuga (Foerster)"},
+      {"type": "Plant pest", "name": "Cacopsylla pyri"},
+      {"type": "Plant pest", "name": "Cacopsylla pyricola"},
+      {"type": "Plant pest", "name": "Cacopsylla fera (Baeva)"},
+      {"type": "Plant pest", "name": "Cacopsylla bidens (Šulc)"},
+      {"type": "Plant pest", "name": "Cacopsylla notata (Flor)"},
+      {"type": "Host plant", "name": "European pear (P. communis)"},
+      {"type": "Host plant", "name": "Pyrus spinosa Forsskål"},
+      {"type": "Host plant", "name": "Pryus korshinskyi Litvinov"},
+      {"type": "Geographic location", "name": "Britain"},
+      {"type": "Geographic location", "name": "Western Europe"},
+      {"type": "Geographic location", "name": "Uzbekistan"},
+      {"type": "Geographic location", "name": "Turkey"},
+      {"type": "Geographic location", "name": "Mediterranean Basin"},
+      {"type": "Geographic location", "name": "Middle East"}
+    ],
+    "relationships": [
+      {"source": "Cacopsylla pyrisuga (Foerster)", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyrisuga (Foerster)", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla pyri", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyri", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla pyricola", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyricola", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla fera (Baeva)", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Cacopsylla fera (Baeva)", "type": "Located in", "target": "Turkey"},
+      {"source": "Cacopsylla bidens (Šulc)", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Cacopsylla bidens (Šulc)", "type": "Located in", "target": "Turkey"},
+      {"source": "Cacopsylla bidens (Šulc)", "type": "Located in", "target": "Mediterranean Basin"},
+      {"source": "Cacopsylla bidens (Šulc)", "type": "Located in", "target": "Middle East"},
+      {"source": "Cacopsylla notata (Flor)", "type": "Have been found on", "target": "Pyrus spinosa Forsskål"},
+      {"source": "Cacopsylla fera (Baeva)", "type": "Have been found on", "target": "Pryus korshinskyi Litvinov"}
+    ]
+  }
+]
+```
+
