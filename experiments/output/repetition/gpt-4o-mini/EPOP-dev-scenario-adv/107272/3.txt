@@ -1,0 +1,28 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Fusarium wilt"},
+      {"type": "Pest", "name": "Tropical Race 4 (TR4)"},
+      {"type": "Plant", "name": "banana"},
+      {"type": "Geographic", "name": "Africa"},
+      {"type": "Geographic", "name": "Mozambique"},
+      {"type": "Geographic", "name": "Tanzania"},
+      {"type": "Geographic", "name": "Malawi"},
+      {"type": "Geographic", "name": "Uganda"},
+      {"type": "Geographic", "name": "Ruanda"},
+      {"type": "Plant", "name": "Cavendish banana"},
+      {"type": "Pest", "name": "Fusarium odoratissimum"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Tropical Race 4 (TR4)", "type": "Causes", "target": "Fusarium wilt"},
+      {"source": "Fusarium wilt", "type": "Affects", "target": "banana"},
+      {"source": "Tropical Race 4 (TR4)", "type": "Located in", "target": "Mozambique"},
+      {"source": "Fusarium wilt", "type": "Affects", "target": "Africa"},
+      {"source": "Fusarium wilt", "type": "Located in", "target": "Africa"},
+      {"source": "Tropical Race 4 (TR4)", "type": "Have been found on", "target": "banana"}
+    ]
+  }
+]
+

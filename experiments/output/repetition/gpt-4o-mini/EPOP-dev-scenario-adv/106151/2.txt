@@ -1,0 +1,21 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "fall armyworm"},
+      {"type": "Pest", "name": "Spodoptera frugiperda"},
+      {"type": "Geographic", "name": "Eastern hemisphere"},
+      {"type": "Geographic", "name": "Americas"},
+      {"type": "Geographic", "name": "Africa"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Plant", "name": "agricultural crop species"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "fall armyworm", "type": "Located in", "target": "Eastern hemisphere"},
+      {"source": "fall armyworm", "type": "Located in", "target": "Americas"},
+      {"source": "fall armyworm", "type": "Have been found on", "target": "agricultural crop species"}
+    ]
+  }
+]
+
