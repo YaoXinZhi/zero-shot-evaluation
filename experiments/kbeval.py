@@ -245,33 +245,18 @@ def evaluate(ref, pred):
 
 
 if __name__ == '__main__':
-    import argparse
-    import os.path
-    
-    parser = argparse.ArgumentParser(
-        prog='run'
-    )
-    parser.add_argument('-r', '--reference', type=str, action='store')
-    parser.add_argument('-i', '--instruction', type=str, action='store')
-    parser.add_argument('-d', '--document', type=str, action='store')
-    parser.add_argument('-o', '--output', type=str, action='store')
-    parser.add_argument('-m', '--model', type=str, action='store')
-    args = parser.parse_args()
-
-    ref_filename = os.path.join(args.reference, args.document + '.json')
-    ref = MergedRefDataset.from_json_file(ref_filename)
-
-    def get_f(rep):
-        pred_filename = os.path.join('output', 'repetition', args.model, args.instruction, args.document, str(rep) + '.txt')
-        pred = Dataset.from_json_file(pred_filename)
-        try:
-            _base, ie, _pairs = evaluate(ref, pred)
-        except ZeroDivisionError:
-            log(f'WARNING: nil R/P')
-            return 0.0
-        return ie.f_score
-    
-    REPEATS = 5
-    scores = list(get_f(rep) for rep in range(1, REPEATS + 1))
-    scores.sort()
-    print(scores[REPEATS//2])
+    _prog, ref_fn, pred_fn = sys.argv
+    ref_ds = MergedRefDataset.from_json_file(ref_fn)
+    pred_ds = Dataset.from_json_file(pred_fn)
+    try:
+        base, ie, _pairs = evaluate(ref_ds, pred_ds)
+        log('Basic scores: ')
+        for k, v in base.items():
+            log(f'  {k}: {v}')
+        log('IE scores: ')
+        for k, v in ie.items():
+            log(f'  {k}: {v}')
+        print(ie.f_score)
+    except ZeroDivisionError:
+        log(f'WARNING: nil R/P')
+        print(0.0)
