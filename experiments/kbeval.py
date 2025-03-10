@@ -62,6 +62,8 @@ class Entity:
 
 
 class MergedEntity:
+    QUOTES = set('"\'\u2018\u2019\u201c\u201d\u0060\u00b4')
+
     def __init__(self, ent):
         self.type_ = ent.type_
         self.ids = set((ent.id_,))
@@ -75,16 +77,14 @@ class MergedEntity:
         self.ids.add(ent.id_)
         self.names.add(ent.name)
 
-    def match_name(self, pred_name, ignore_case=False):
-        if ignore_case:
-            pred_name = pred_name.lower()
-            for name in self.names:
-                if name.lower() == pred_name:
-                    return True
-        else:
-            for name in self.names:
-                if name == pred_name:
-                    return True
+    def match_name(self, pred_name):
+        if pred_name[0] in MergedEntity.QUOTES and pred_name[-1] in MergedEntity.QUOTES:
+            pred_name = pred_name[1:-1]
+            # log(pred_name)
+        pred_name = pred_name.lower()
+        for name in self.names:
+            if name.lower() == pred_name:
+                return True
         return False
 
     def __str__(self):
@@ -205,9 +205,6 @@ class MergedRefDataset(Dataset):
         for ref_ent in self.entities:
             if ref_ent.match_name(pred_ent):
                 return ref_ent
-        for ref_ent in self.entities:
-            if ref_ent.match_name(pred_ent, ignore_case=True):
-                return ref_ent
         return None
 
     def map_entities(self, pred):
@@ -219,12 +216,15 @@ class MergedRefDataset(Dataset):
 
 
 TYPEMAP = {
-    'Transmit': ('Vected_by', True)
+    'Transmit': ('Vected_by', True),
+    'Have been found on': ('Found_on', False)
 }
 
 
 def relation_similarity(ref, pred):
     type_, reverse = TYPEMAP.get(pred.type_, (pred.type_, False))
+    # if pred.type_ != type_:
+    #     log(f'{pred.type_} -> {type_}')
     if reverse:
         source = pred.target
         target = pred.source
@@ -236,11 +236,23 @@ def relation_similarity(ref, pred):
     return 0.0
 
 
+def log_scores(name, scores):
+    log(f'{name} scores: ')
+    for k, v in scores.items():
+        log(f'  {k}: {v}')
+
+
 def evaluate(ref, pred):
     pairing = MunkresPairing(relation_similarity)
     pairs = list(pairing.get_pairs(ref.relations, pred.relations))
+    # for p in pairs:
+    #     log(str(p.ref))
+    #     log(str(p.pred))
+    #     log('')
     base = BaseScores(pairs)
+    log_scores('Base', base)
     ie = IEScores(pairs, base=base)
+    log_scores('IE', ie)
     return base, ie, pairs
 
 
@@ -250,12 +262,6 @@ if __name__ == '__main__':
     pred_ds = Dataset.from_json_file(pred_fn)
     try:
         base, ie, _pairs = evaluate(ref_ds, pred_ds)
-        log('Basic scores: ')
-        for k, v in base.items():
-            log(f'  {k}: {v}')
-        log('IE scores: ')
-        for k, v in ie.items():
-            log(f'  {k}: {v}')
         print(ie.f_score)
     except ZeroDivisionError:
         log(f'WARNING: nil R/P')
