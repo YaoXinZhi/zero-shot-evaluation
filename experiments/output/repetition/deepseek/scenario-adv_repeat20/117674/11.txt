@@ -1,0 +1,57 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Diaphorina citri"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "citrus greening"},
+      {"type": "Vector", "name": "Diaphorina citri"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Geographic", "name": "Argentina"},
+      {"type": "Geographic", "name": "Northwest Argentina"},
+      {"type": "Geographic", "name": "JUJUY"},
+      {"type": "Geographic", "name": "SALTA"},
+      {"type": "Geographic", "name": "TUCUMÁN"},
+      {"type": "Geographic", "name": "CATAMARCA"},
+      {"type": "Geographic", "name": "ENTRE RÍOS"},
+      {"type": "Geographic", "name": "CORRIENTES"},
+      {"type": "Geographic", "name": "MISIONES"},
+      {"type": "Geographic", "name": "CHACO"},
+      {"type": "Geographic", "name": "FORMOSA"},
+      {"type": "Geographic", "name": "SANTIAGO DEL ESTERO"},
+      {"type": "Geographic", "name": "SANTA FE"},
+      {"type": "Geographic", "name": "Leales Department"},
+      {"type": "Geographic", "name": "Villa de Medinas"},
+      {"type": "Geographic", "name": "Chicligasta Department"},
+      {"type": "Geographic", "name": "Capayán Department"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Diaphorina citri", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "Diaphorina citri", "type": "Causes", "target": "citrus greening"},
+      {"source": "Diaphorina citri", "type": "Have been found on", "target": "citrus"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus"},
+      {"source": "citrus greening", "type": "Affects", "target": "citrus"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Argentina"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Northwest Argentina"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "JUJUY"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "SALTA"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "TUCUMÁN"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "CATAMARCA"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "ENTRE RÍOS"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "CORRIENTES"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "MISIONES"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "CHACO"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "FORMOSA"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "SANTIAGO DEL ESTERO"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "SANTA FE"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Leales Department"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Villa de Medinas"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Chicligasta Department"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Capayán Department"}
+    ]
+  }
+]
+```
+

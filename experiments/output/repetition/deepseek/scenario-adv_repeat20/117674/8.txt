@@ -1,0 +1,60 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Diaphorina citri"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Geographic", "name": "Argentina"},
+      {"type": "Geographic", "name": "Northwest Argentina"},
+      {"type": "Geographic", "name": "NOA"},
+      {"type": "Geographic", "name": "Province of CATAMARCA"},
+      {"type": "Geographic", "name": "Province of JUJUY"},
+      {"type": "Geographic", "name": "Province of SALTA"},
+      {"type": "Geographic", "name": "Province of TUCUMÁN"},
+      {"type": "Geographic", "name": "Province of ENTRE RÍOS"},
+      {"type": "Geographic", "name": "Province of CORRIENTES"},
+      {"type": "Geographic", "name": "Province of MISIONES"},
+      {"type": "Geographic", "name": "Province of CHACO"},
+      {"type": "Geographic", "name": "Province of FORMOSA"},
+      {"type": "Geographic", "name": "Province of SANTIAGO DEL ESTERO"},
+      {"type": "Geographic", "name": "Province of SANTA FE"},
+      {"type": "Geographic", "name": "Leales Department"},
+      {"type": "Geographic", "name": "Town of Villa de Medinas"},
+      {"type": "Geographic", "name": "Chicligasta Department"},
+      {"type": "Geographic", "name": "Capayán Department"},
+      {"type": "Geographic", "name": "Southern Cone"},
+      {"type": "Geographic", "name": "COSAVE"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Diaphorina citri", "type": "Transmit", "target": "Huanglongbing"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus"},
+      {"source": "Diaphorina citri", "type": "Have been found on", "target": "citrus"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Province of CATAMARCA"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Province of JUJUY"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Province of SALTA"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Province of TUCUMÁN"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Province of ENTRE RÍOS"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Province of CORRIENTES"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Province of MISIONES"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Province of CHACO"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Province of FORMOSA"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Province of SANTIAGO DEL ESTERO"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Province of SANTA FE"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Leales Department"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Town of Villa de Medinas"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Chicligasta Department"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Capayán Department"},
+      {"source": "Huanglongbing", "type": "Located in", "target": "Argentina"},
+      {"source": "Huanglongbing", "type": "Located in", "target": "Northwest Argentina"},
+      {"source": "Huanglongbing", "type": "Located in", "target": "NOA"},
+      {"source": "Huanglongbing", "type": "Located in", "target": "Southern Cone"},
+      {"source": "Huanglongbing", "type": "Located in", "target": "COSAVE"}
+    ]
+  }
+]
+```
+
