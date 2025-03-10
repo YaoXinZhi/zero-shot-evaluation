@@ -1,0 +1,34 @@
+[
+  {
+    "entities": [
+      {"type": "Geographic", "name": "ARGENTINE REPUBLIC"},
+      {"type": "Geographic", "name": "Buenos Aires"},
+      {"type": "Geographic", "name": "NATIONAL SERVICE OF HEALTH AND AGRI-FOOD QUALITY"},
+      {"type"type": "Geographic", "name": "SENASA"},
+      {"type": "Geographic", "name": "NATIONAL SERVICE OF HEALTH AND AGRO-FOOD QUALITY"},
+      {"type": "Geographic", "name": "REPUBLIC OF ARGENTINA"},
+      {"type": "Geographic", "name": "Northwest Argentina"},
+      {"type": "Geographic", "name": "Provinces of JUJUY, SALTA, TUCUMÁN and CATAMARCA"},
+      {"type": "Geographic", "name": "Argentine Northeast region"},
+      {"type": "Geographic", "name": "ENTRE RÍOS, CORRIENTES, MISIONES, CHACO, FORMOSA, SANTIAGO DEL ESTERO, SALTA, JUJUY and SANTA FE"},
+      {"type": "Geographic", "name": "Leales Department of the Province of TUCUMÁN"},
+      {"type": "Geographic", "name": "Town of Villa de Medinas, Chicligasta Department, Province of TUCUMÁN"},
+      {"type": "Geographic", "name": "Capayán Department, south of the Province of CATAMARCA"},
+      {"type": "Geographic", "name": "Province of CATAMARCA"},
+      {"type": "Pest", "name": "Diaphorina citri"},
+      {"type": "Disease", "name": "HLB Disease"},
+      {"type": "Plant", "name": "citrus plants"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Northwest Argentina"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "ENTRE RÍOS, CORRIENTES, MISIONES, CHACO, FORMOSA, SANTIAGO DEL ESTERO, SALTA, JUJUY and SANTA FE"},
+      {"source": "Diaphorina citri", "type": "Located in", "target": "Province of CATAMARCA"},
+      {"source": "HLB Disease", "type": "Affects", "target": "citrus plants"},
+      {"source": "Diaphorina citri", "type": "Causes", "target": "HLB Disease"},
+      {"source": "Diaphorina citri", "type": "Have been found on", "target": "citrus plants"}
+    ]
+  }
+]
+

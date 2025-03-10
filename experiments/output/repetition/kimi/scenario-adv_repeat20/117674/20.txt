@@ -1,0 +1,275 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "ARGENTINE REPUBLIC"
+    },
+    {
+      "type": "Geographic",
+      "name": "City of Buenos Aires"
+    },
+    {
+      "type": "Geographic",
+      "name": "Provinces of JUJUY, SALTA, TUCUMÁN and CATAMARCA"
+    },
+    {
+      "type": "Geographic",
+      "name": "Northwest Argentina"
+    },
+    {
+      "type": "Geographic",
+      "name": "ENTRE RÍOS"
+    },
+    {
+      "type": "Geographic",
+      "name": "CORRIENTES"
+    },
+    {
+      "type": "Geographic",
+      "name": "MISIONES"
+    },
+    {
+      "type": "Geographic",
+      "name": "CHACO"
+    },
+    {
+      "type": "Geographic",
+      "name": "FORMOSA"
+    },
+    {
+      "type": "Geographic",
+      "name": "SANTIAGO DEL ESTERO"
+    },
+    {
+      "type": "Geographic",
+      "name": "SALTA"
+    },
+    {
+      "type": "Geographic",
+      "name": "JUJUY"
+    },
+    {
+      "type": "Geographic",
+      "name": "SANTA FE"
+    },
+    {
+      "type": "Geographic",
+      "name": "Leales Department of the Province of TUCUMÁN"
+    },
+    {
+      "type": "Geographic",
+      "name": "Town of Villa de Medinas, Chicligasta Department, Province of TUCUMÁN"
+    },
+    {
+      "type": "Geographic",
+      "name": "Capayán Department, south of the Province of CATAMARCA"
+    },
+    {
+      "type": "Geographic",
+      "name": "Province of CATAMARCA"
+    },
+    {
+      "type": "Pest",
+      "name": "Diaphorina citri"
+    },
+    {
+      "type": "Disease",
+      "name": "HLB Disease"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus"
+    },
+    {
+      "type": "Vector",
+      "name": "citrus sharpshooter"
+    },
+    {
+      "type": "Organization",
+      "name": "NATIONAL SERVICE OF HEALTH AND AGRO-FOOD QUALITY"
+    },
+    {
+      "type": "Organization",
+      "name": "NATIONAL INSTITUTE OF AGRICULTURAL TECHNOLOGY"
+    },
+    {
+      "type": "Organization",
+      "name": "NATIONAL UNIVERSITY OF CATAMARCA"
+    },
+    {
+      "type": "Organization",
+      "name": "PHYTOSANITARY ASSOCIATION OF THE ARGENTINE NORTHWEST"
+    },
+    {
+      "type": "Organization",
+      "name": "COLLEGE OF AGRICULTURAL ENGINEERS OF CATAMARCA"
+    },
+    {
+      "type": "Organization",
+      "name": "SECRETARIAT OF AGRICULTURE, LIVESTOCK, FISHERIES AND FOOD"
+    },
+    {
+      "type": "Organization",
+      "name": "MINISTRY OF ECONOMY"
+    },
+    {
+      "type": "Organization",
+      "name": "MINISTRY OF PRODUCTIVE DEVELOPMENT"
+    },
+    {
+      "type": "Organization",
+      "name": "OBISPO COLOMBRES AGROINDUSTRIAL EXPERIMENTAL STATION"
+    },
+    {
+      "type": "Organization",
+      "name": "SENASA"
+    },
+    {
+      "type": "Organization",
+      "name": "NATIONAL DIRECTION OF THE OFFICIAL REGISTRY"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Diaphorina citri",
+      "type": "Causes",
+      "target": "HLB Disease"
+    },
+    {
+      "source": "HLB Disease",
+      "type": "Affects",
+      "target": "citrus"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Have been found on",
+      "target": "citrus"
+    },
+    {
+      "source": "citrus sharpshooter",
+      "type": "Transmit",
+      "target": "Diaphorina citri"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Provinces of JUJUY, SALTA, TUCUMÁN and CATAMARCA"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "ENTRE RÍOS"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "CORRIENTES"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "MISIONES"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "CHACO"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "FORMOSA"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "SANTIAGO DEL ESTERO"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "SALTA"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "JUJUY"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "SANTA FE"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Leales Department of the Province of TUCUMÁN"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Town of Villa de Medinas, Chicligasta Department, Province of TUCUMÁN"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Capayán Department, south of the Province of CATAMARCA"
+    },
+    {
+      "source": "NATIONAL SERVICE OF HEALTH AND AGRO-FOOD QUALITY",
+      "type": "Located in",
+      "target": "ARGENTINE REPUBLIC"
+    },
+    {
+      "source": "NATIONAL INSTITUTE OF AGRICULTURAL TECHNOLOGY",
+      "type": "Located in",
+      "target": "ARGENTINE REPUBLIC"
+    },
+    {
+      "source": "NATIONAL UNIVERSITY OF CATAMARCA",
+      "type": "Located in",
+      "target": "Province of CATAMARCA"
+    },
+    {
+      "source": "PHYTOSANITARY ASSOCIATION OF THE ARGENTINE NORTHWEST",
+      "type": "Located in",
+      "target": "ARGENTINE REPUBLIC"
+    },
+    {
+      "source": "COLLEGE OF AGRICULTURAL ENGINEERS OF CATAMARCA",
+      "type": "Located in",
+      "target": "Province of CATAMARCA"
+    },
+    {
+      "source": "SECRETARIAT OF AGRICULTURE, LIVESTOCK, FISHERIES AND FOOD",
+      "type": "Located in",
+      "target": "ARGENTINE REPUBLIC"
+    },
+    {
+      "source": "MINISTRY OF ECONOMY",
+      "type": "Located in",
+      "target": "ARGENTINE REPUBLIC"
+    },
+    {
+      "source": "MINISTRY OF PRODUCTIVE DEVELOPMENT",
+      "type": "Located in",
+      "target": "ARGENTINE REPUBLIC"
+    },
+    {
+      "source": "OBISPO COLOMBRES AGROINDUSTRIAL EXPERIMENTAL STATION",
+      "type": "Located in",
+      "target": "ARGENTINE REPUBLIC"
+    },
+    {
+      "source": "SENASA",
+      "type": "Located in",
+      "target": "ARGENTINE REPUBLIC"
+    },
+    {
+      "source": "NATIONAL DIRECTION OF THE OFFICIAL REGISTRY",
+      "type": "Located in",
+      "target": "ARGENTINE REPUBLIC"
+    }
+  ]
+}
+

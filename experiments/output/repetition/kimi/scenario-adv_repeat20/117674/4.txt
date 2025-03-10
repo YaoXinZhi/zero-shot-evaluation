@@ -1,0 +1,220 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "ARGENTINE REPUBLIC"
+    },
+    {
+      "type": "Geographic",
+      "name": "City of Buenos Aires"
+    },
+    {
+      "type": "Geographic",
+      "name": "SENASA"
+    },
+    {
+      "type": "Pest",
+      "name": "Diaphorina citri"
+    },
+    {
+      "type": "Disease",
+      "name": "HLB Disease"
+    },
+    {
+      "type": "Geographic",
+      "name": "Northwest Argentina"
+    },
+    {
+      "type": "Geographic",
+      "name": "Provinces of JUJUY, SALTA, TUCUMÁN and CATAMARCA"
+    },
+    {
+      "type": "Geographic",
+      "name": "ENTRE RÍOS"
+    },
+    {
+      "type": "Geographic",
+      "name": "CERRITOS"
+    },
+    {
+      "type": "Geographic",
+      "name": "MISIONES"
+    },
+    {
+      "type": "Geographic",
+      "name": "CHACO"
+    },
+    {
+      "type": "Geographic",
+      "name": "FORMOSA"
+    },
+    {
+      "type": "Geographic",
+      "name": "SANTIAGO DEL ESTERO"
+    },
+    {
+      "type": "Geographic",
+      "name": "SALTA"
+    },
+    {
+      "type": "Geographic",
+      "name": "JUJUY"
+    },
+    {
+      "type": "Geographic",
+      "name": "SANTA FE"
+    },
+    {
+      "type": "Geographic",
+      "name": "Leales Department of the Province of TUCUMÁN"
+    },
+    {
+      "type": "Geographic",
+      "name": "Town of Villa de Medinas, Chicligasta Department, Province of TUCUMÁN"
+    },
+    {
+      "type": "Geographic",
+      "name": "Capayán Department, south of the Province of CATAMARCA"
+    },
+    {
+      "type": "Geographic",
+      "name": "Province of CATAMARCA"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus plants"
+    },
+    {
+      "type": "Pest",
+      "name": "Citrus Leafhopper"
+    },
+    {
+      "type": "Disease",
+      "name": "Huanglongbing"
+    },
+    {
+      "type": "Geographic",
+      "name": "Argentine Northeast region"
+    },
+    {
+      "type": "Geographic",
+      "name": "NOA"
+    },
+    {
+      "type": "Geographic",
+      "name": "COSAVE"
+    },
+    {
+      "type": "Geographic",
+      "name": "EEAOC"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ARGENTINE REPUBLIC",
+      "type": "Located in",
+      "target": "City of Buenos Aires"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Transmit",
+      "target": "HLB Disease"
+    },
+    {
+      "source": "HLB Disease",
+      "type": "Affects",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Have been found on",
+      "target": "citrus plants"
+    },
+    {
+      "source": "HLB Disease",
+      "type": "Located in",
+      "target": "Northwest Argentina"
+    },
+    {
+      "source": "HLB Disease",
+      "type": "Located in",
+      "target": "Provinces of JUJUY, SALTA, TUCUMÁN and CATAMARCA"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "ENTRE RÍOS"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "CERRITOS"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "MISIONES"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "CHACO"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "FORMOSA"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "SANTIAGO DEL ESTERO"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "SALTA"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "JUJUY"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "SANTA FE"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Leales Department of the Province of TUCUMÁN"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Town of Villa de Medinas, Chicligasta Department, Province of TUCUMÁN"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "Capayán Department, south of the Province of CATAMARCA"
+    },
+    {
+      "source": "Citrus Leafhopper",
+      "type": "Located in",
+      "target": "Province of CATAMARCA"
+    },
+    {
+      "source": "Citrus Leafhopper",
+      "type": "Have been found on",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Causes",
+      "target": "citrus plants"
+    }
+  ]
+}
+
