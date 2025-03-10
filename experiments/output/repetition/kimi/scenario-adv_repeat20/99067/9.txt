@@ -1,0 +1,35 @@
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Sicily"},
+      {"type": "Disease", "name": "Tristeza"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "Citrus greening"},
+      {"type": "Disease", "name": "yellow branch disease"},
+      {"type": "Plant", "name": "Tarocco Scirè"},
+      {"type": "Plant", "name": "Mandared"},
+      {"type": "Plant", "name": "Citrus clementina"},
+      {"type": "Plant", "name": "Citrus sinensis"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "citrus plants", "type": "Located in", "target": "Italy"},
+      {"source": "citrus plants", "type": "Located in", "target": "Sicily"},
+      {"source": "Tristeza", "type": "Affects", "target": "citrus plants"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus plants"},
+      {"source": "Citrus greening", "type": "Affects", "target": "citrus plants"},
+      {"source": "yellow branch disease", "type": "Affects", "target": "citrus plants"},
+      {"source": "C35", "type": "Have been found on", "target": "Tarocco Scirè"},
+      {"source": "C35", "type": "Have been found on", "target": "Mandared"},
+      {"source": "Bitters", "type": "Have been found on", "target": "Tarocco Scirè"},
+      {"source": "Bitters", "type": "Have been found on", "target": "Mandared"},
+      {"source": "Carpenter", "type": "Have been found on", "target": "Tarocco Scirè"},
+      {"source": "Carpenter", "type": "Have been found on", "target": "Mandared"},
+      {"source": "Furr", "type": "Have been found on", "target": "Mandared"}
+    ]
+  }
+]
+
