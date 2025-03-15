@@ -67,7 +67,7 @@ def get_relations(j):
 
 
 def get_annotations(j):
-    yield from get_entities(j)
+    # yield from get_entities(j)
     yield from get_relations(j)
 
 
