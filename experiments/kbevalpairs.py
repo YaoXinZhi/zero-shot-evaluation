@@ -35,8 +35,7 @@ if __name__ == '__main__':
                 row[5] = p.pred.source
                 row[8] = p.pred.target
             if p.is_couple:
-                _source, type_, _target = type_map(p.pred)
-                row[0] = str(p.ref.match_type(type_))
+                row[0] = str(p.ref.match_type(p.pred.type_))
                 row[3] = str(relaxed_arg_similarity(p.ref.source, p.pred.source))
                 row[6] = str(relaxed_arg_similarity(p.ref.target, p.pred.target))
             print('\t'.join([pair_label(p), str(p.value)] + row))

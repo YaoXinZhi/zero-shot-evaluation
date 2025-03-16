@@ -126,20 +126,19 @@ class Relation:
     def __init__(self, **args):
         self.type_ = args['type']
         if 'arguments' in args:
-            self.arguments = args['arguments']
+            self.source = args['arguments']['source']
+            self.target = args['arguments']['target']
         else:
-            del args['type']
-            self.arguments = args
-        self.source, self.target = self.arguments.values()
+            self.source = args['source']
+            self.target = args['target']
 
     def key(self, ent_id_map):
-        argname1, argname2 = self.arguments
-        arg1_type, arg1_nt, arg1_nv = ent_id_map[self.arguments[argname1]].key
-        arg2_type, arg2_nt, arg2_nv = ent_id_map[self.arguments[argname2]].key
-        return self.type_, argname1, arg1_type, arg1_nt, arg1_nv, arg2_type, arg2_nt, arg2_nv
+        source_type, source_nt, source_nv = ent_id_map[self.source].key
+        target_type, target_nt, target_nv = ent_id_map[self.target].key
+        return self.type_, source_type, source_nt, source_nv, target_type, target_nt, target_nv
 
     def __str__(self):
-        return f'Relation({self.type_}, {", ".join((k + ": " + v) for k, v in self.arguments.items())})'
+        return f'Relation({self.type_}, {self.source}, {self.target})'
 
     def __repr__(self):
         return str(self)
@@ -147,22 +146,28 @@ class Relation:
 
 class MergedRelation:
     JUNK_CHARS_IN_TYPE = re.compile(r'[\s_]+')
+    TYPEMAP = {
+        'Cause': 'Causes',
+        'Affect': 'Affects',
+        'Have been found on': 'Has been found on',
+        'Transmit': 'Transmits'
+    }
     
     def __init__(self, ent_id_map, rel):
         self.type_ = rel.type_
-        self.arguments = dict((k, ent_id_map[v]) for k, v in rel.arguments.items())
-        self.source, self.target = self.arguments.values()
+        self.source = ent_id_map[rel.source]
+        self.target = ent_id_map[rel.target]
 
     @staticmethod
     def _normalize_type(type_):
-        nt = MergedRelation.JUNK_CHARS_IN_TYPE.sub('', type_).lower()
+        nt = MergedRelation.JUNK_CHARS_IN_TYPE.sub('', MergedRelation.TYPEMAP.get(type_, type_)).lower()
         return nt
     
     def match_type(self, pred_type):
         return MergedRelation._normalize_type(self.type_) == MergedRelation._normalize_type(pred_type)
 
     def __str__(self):
-        return f'MergedRelation({self.type_}, {", ".join((k + ": " + str(v)) for k, v in self.arguments.items())})'
+        return f'MergedRelation({self.type_}, {self.source}, {self.target})'
 
     def __repr__(self):
         return str(self)
@@ -243,20 +248,6 @@ class MergedRefDataset(Dataset):
         return Dataset.from_json_file(filename).merge_ref()
 
 
-TYPEMAP = {
-    'Transmit': ('Vected_by', True),
-    'Have been found on': ('Found_on', False),
-    'Affects': ('Expressed_by', False)
-}
-
-
-def type_map(pred):
-    type_, reverse = TYPEMAP.get(pred.type_, (pred.type_, False))
-    if reverse:
-        return pred.target, type_, pred.source
-    return pred.source, type_, pred.target
-
-
 def standard_type_similarity(ref, type_):
     return float(ref.match_type(type_))
 
@@ -277,8 +268,7 @@ def relaxed_arg_similarity(ref, name):
 
 def relation_similarity(type_sim, arg_sim):
     def sim(ref, pred):
-        source, type_, target = type_map(pred)
-        return type_sim(ref, type_) * arg_sim(ref.source, source) * arg_sim(ref.target, target)
+        return type_sim(ref, pred.type_) * arg_sim(ref.source, pred.source) * arg_sim(ref.target, pred.target)
     return sim
 
 
