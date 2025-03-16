@@ -87,6 +87,34 @@ class MergedEntity:
                 return True
         return False
 
+    @staticmethod
+    def _max_overlap(seq1, seq2):
+        # log(f'### seq1 = {seq1} _ seq2 = {seq2}')
+        n1 = len(seq1)
+        n2 = len(seq2)
+        best = 0
+        for shift in range(1 - n1, n2):
+            start1 = max(0, -shift)
+            start2 = max(0, shift)
+            # log(f'shift = {shift} _ start1 = {start1} _ start2 = {start2}')
+            sub1 = seq1[start1:]
+            sub2 = seq2[start2:]
+            # log(f'sub1 = {sub1} _ sub2 = {sub2}')
+            m = min(len(sub1), len(sub2))
+            if m > best and sub1[0:m] == sub2[0:m]:
+                best = m
+        # log(f'best = {best}')
+        return best
+
+    def jaccard_name(self, pred_name):
+        if pred_name[0] in MergedEntity.QUOTES and pred_name[-1] in MergedEntity.QUOTES:
+            pred_name = pred_name[1:-1]
+            # log(pred_name)
+        pred_tokens = pred_name.lower().split()
+        inter, ref_name = max((MergedEntity._max_overlap(name.lower().split(), pred_tokens), name) for name in self.names)
+        union = len(pred_tokens) + len(ref_name.split()) - inter
+        return float(inter) / union
+
     def __str__(self):
         return f'MergedEntity({self.type_}, {self.ids}, {self.names}, {self.normalization_type}: {self.normalization_value})'
 
@@ -222,19 +250,36 @@ TYPEMAP = {
 }
 
 
-def relation_similarity(ref, pred):
+def type_map(pred):
     type_, reverse = TYPEMAP.get(pred.type_, (pred.type_, False))
-    # if pred.type_ != type_:
-    #     log(f'{pred.type_} -> {type_}')
     if reverse:
-        source = pred.target
-        target = pred.source
-    else:
-        source = pred.source
-        target = pred.target
-    if ref.match_type(type_) and ref.source.match_name(source) and ref.target.match_name(target):
+        return pred.target, type_, pred.source
+    return pred.source, type_, pred.target
+
+
+def standard_type_similarity(ref, type_):
+    return float(ref.match_type(type_))
+
+
+def relaxed_type_similarity(ref, type_):
+    if ref.match_type(type_):
         return 1.0
-    return 0.0
+    return 0.9
+
+
+def standard_arg_similarity(ref, name):
+    return float(ref.match_name(name))
+
+
+def relaxed_arg_similarity(ref, name):
+    return ref.jaccard_name(name)
+
+
+def relation_similarity(type_sim, arg_sim):
+    def sim(ref, pred):
+        source, type_, target = type_map(pred)
+        return type_sim(ref, type_) * arg_sim(ref.source, source) * arg_sim(ref.target, target)
+    return sim
 
 
 def log_scores(name, scores):
@@ -243,8 +288,8 @@ def log_scores(name, scores):
         log(f'  {k}: {v}')
 
 
-def evaluate(ref, pred):
-    pairing = MunkresPairing(relation_similarity)
+def evaluate(ref, pred, type_sim, arg_sim):
+    pairing = MunkresPairing(relation_similarity(type_sim, arg_sim))
     pairs = list(pairing.get_pairs(ref.relations, pred.relations))
     # for p in pairs:
     #     log(str(p.ref))
@@ -262,7 +307,7 @@ if __name__ == '__main__':
     ref_ds = MergedRefDataset.from_json_file(ref_fn)
     pred_ds = Dataset.from_json_file(pred_fn)
     try:
-        base, ie, _pairs = evaluate(ref_ds, pred_ds)
+        base, ie, _pairs = evaluate(ref_ds, pred_ds, standard_type_similarity, standard_arg_similarity)
         print(ie.f_score)
     except ZeroDivisionError:
         log(f'WARNING: nil R/P')
