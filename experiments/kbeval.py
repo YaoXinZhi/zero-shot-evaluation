@@ -217,7 +217,8 @@ class MergedRefDataset(Dataset):
 
 TYPEMAP = {
     'Transmit': ('Vected_by', True),
-    'Have been found on': ('Found_on', False)
+    'Have been found on': ('Found_on', False),
+    'Affects': ('Expressed_by', False)
 }
 
 
