@@ -1,0 +1,12 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Has been found on	Have been found on	1.0	pine wood nematode, B. xylophilus, Bursaphelenchus xylophilus, pinewood nematode	Bursaphelenchus xylophilus	1.0	pine, pine tree, pine trees	pine trees
+Match	1.0	True	Causes	Causes	1.0	pine wood nematode, B. xylophilus, Bursaphelenchus xylophilus, pinewood nematode	Bursaphelenchus xylophilus	1.0	pine wilt disease	pine wilt disease
+Match	1.0	True	Transmits	Transmit	1.0	Monochamus spp., Monochamus	Monochamus spp.	1.0	pine wood nematode, B. xylophilus, Bursaphelenchus xylophilus, pinewood nematode	Bursaphelenchus xylophilus
+False Negative	0.0		Located in			pine wood nematode, B. xylophilus, Bursaphelenchus xylophilus, pinewood nematode			Europe	
+False Negative	0.0		Located in			pine wood nematode, B. xylophilus, Bursaphelenchus xylophilus, pinewood nematode			Japan	
+False Negative	0.0		Located in			pine wilt disease			Europe	
+False Negative	0.0		Located in			pine wilt disease			Japan	
+False Negative	0.0		Located in			pine, pine tree, pine trees			Asian countries	
+False Negative	0.0		Has been found on			Monochamus spp., Monochamus			pine, pine tree, pine trees	
+False Positive	0.0			Have been found on			Bursaphelenchus xylophilus			C. elegans
+False Positive	0.0			Affects			pine wilt disease			pine trees

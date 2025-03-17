@@ -1,0 +1,29 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	Tropical Race 4, TR4 fungus, Fusarium odoratissimum Tropical Race 4, TR4	Tropical Race 4	1.0	Mozambique	Mozambique
+Match	1.0	True	Located in	Located in	1.0	Tropical Race 4, TR4 fungus, Fusarium odoratissimum Tropical Race 4, TR4	Tropical Race 4	1.0	Africa, African countries, African	Africa
+Match	1.0	True	Located in	Located in	1.0	Tropical Race 4, TR4 fungus, Fusarium odoratissimum Tropical Race 4, TR4	Tropical Race 4	1.0	Asia	Asia
+Match	1.0	True	Located in	Located in	1.0	Tropical Race 4, TR4 fungus, Fusarium odoratissimum Tropical Race 4, TR4	Tropical Race 4	1.0	South America	South America
+Match	1.0	True	Located in	Located in	1.0	Fusarium wilt	Fusarium wilt	1.0	Africa, African countries, African	Africa
+Match	1.0	True	Causes	Causes	1.0	Tropical Race 4, TR4 fungus, Fusarium odoratissimum Tropical Race 4, TR4	Tropical Race 4	1.0	Fusarium wilt	Fusarium wilt
+Match	1.0	True	Has been found on	Have been found on	1.0	Tropical Race 4, TR4 fungus, Fusarium odoratissimum Tropical Race 4, TR4	Tropical Race 4	1.0	banana plants, banana varieties, banana strains, bananas, banana, African banana varieties	banana plants
+Partial Match	0.2	True	Causes	Causes	0.4	Tropical Race 4, TR4 fungus, Fusarium odoratissimum Tropical Race 4, TR4	Fusarium odoratissimum	0.5	Fusarium wilt of banana	Fusarium wilt
+False Negative	0.0		Located in			banana disease			Africa, African countries, African	
+False Negative	0.0		Affects			banana disease			banana plants, banana varieties, banana strains, bananas, banana, African banana varieties	
+False Negative	0.0		Located in			Fusarium wilt			Mozambique	
+False Negative	0.0		Located in			Fusarium wilt			Asia	
+False Negative	0.0		Located in			Fusarium wilt			South America	
+False Negative	0.0		Located in			banana plants, banana varieties, banana strains, bananas, banana, African banana varieties			Mozambique	
+False Negative	0.0		Located in			Cavendish banana			Tanzania	
+False Negative	0.0		Located in			Cavendish banana			Ruanda	
+False Negative	0.0		Located in			Cavendish banana			Malawi	
+False Negative	0.0		Located in			Cavendish banana			Uganda	
+False Negative	0.0		Located in			banana plants, banana varieties, banana strains, bananas, banana, African banana varieties			Tanzania	
+False Negative	0.0		Located in			banana plants, banana varieties, banana strains, bananas, banana, African banana varieties			Uganda	
+False Negative	0.0		Located in			banana plants, banana varieties, banana strains, bananas, banana, African banana varieties			Ruanda	
+False Negative	0.0		Located in			banana plants, banana varieties, banana strains, bananas, banana, African banana varieties			Latin America	
+False Negative	0.0		Located in			Panama disease			Latin America	
+False Negative	0.0		Affects			Panama disease			banana plants, banana varieties, banana strains, bananas, banana, African banana varieties	
+False Negative	0.0		Has been found on			Tropical Race 4, TR4 fungus, Fusarium odoratissimum Tropical Race 4, TR4			Cavendish banana	
+False Negative	0.0		Located in			Fusarium wilt of banana			Mozambique	
+False Positive	0.0			Affects			Fusarium wilt			banana plants
+False Positive	0.0			Causes			Panama disease			Fusarium wilt

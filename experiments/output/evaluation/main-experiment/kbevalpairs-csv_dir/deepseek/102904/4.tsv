@@ -1,0 +1,12 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Has been found on	Have been found on	1.0	Candidatus Liberibacter asiaticus, CLas	'Candidatus Liberibacter asiaticus'	1.0	Citrus× sinensis(L.) Osbeck, Pera sweet orange, Sweet Orange	Sweet Orange
+Match	1.0	True	Causes	Causes	1.0	Candidatus Liberibacter asiaticus, CLas	'Candidatus Liberibacter asiaticus'	1.0	Huanglongbing	Huanglongbing
+Partial Match	0.25	True	Has been found on	Have been found on	1.0	Candidatus Liberibacter asiaticus, CLas	'Candidatus Liberibacter asiaticus'	0.25	citrus, citrus species	genetically modified citrus (GMC)
+False Negative	0.0		Affects			Huanglongbing			citrus, citrus species	
+False Positive	0.0			Affects			Huanglongbing			Sweet Orange
+False Positive	0.0			Affects			HLB			Sweet Orange
+False Positive	0.0			Affects			greening			Sweet Orange
+False Positive	0.0			Causes			'Candidatus Liberibacter asiaticus'			HLB
+False Positive	0.0			Causes			'Candidatus Liberibacter asiaticus'			greening
+False Positive	0.0			Have been found on			'Candidatus Liberibacter asiaticus'			Pera sweet orange
+False Positive	0.0			Have been found on			'Candidatus Liberibacter asiaticus'			Citrus× sinensis(L.) Osbeck

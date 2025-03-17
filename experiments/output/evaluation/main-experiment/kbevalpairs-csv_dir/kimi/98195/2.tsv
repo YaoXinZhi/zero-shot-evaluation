@@ -1,0 +1,8 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Affects	Affects	1.0	Huanglongbing	Huanglongbing	1.0	citrus	citrus
+Match	1.0	True	Causes	Causes	1.0	Candidatus Liberibacter	Candidatus Liberibacter	1.0	Huanglongbing	Huanglongbing
+Partial Match	0.9	False	Has been found on	Affects	1.0	citrus sadness virus	citrus sadness virus	1.0	citrus	citrus
+Match	1.0	True	Affects	Affects	1.0	leprosis	leprosis	1.0	citrus	citrus
+Match	1.0	True	Has been found on	Have been found on	1.0	Mediterranean fly	Mediterranean fly	1.0	host fruits	host fruits
+False Negative	0.0		Has been found on			Candidatus Liberibacter			citrus	
+False Positive	0.0			Transmit			canines			Candidatus Liberibacter
