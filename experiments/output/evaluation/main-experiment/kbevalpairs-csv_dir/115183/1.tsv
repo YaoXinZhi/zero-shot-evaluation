@@ -1,0 +1,17 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Has been found on	Have been found on	1.0	Xylella	Xylella	1.0	olive trees	olive trees
+Partial Match	0.3333333333333333	True	Located in	Located in	1.0	olive trees	olive trees	0.3333333333333333	province of Bari, BARI	Bari
+Match	1.0	True	Located in	Located in	1.0	olive trees	olive trees	1.0	Martina Franca	Martina Franca
+Match	1.0	True	Located in	Located in	1.0	olive trees	olive trees	1.0	Fasano	Fasano
+Match	1.0	True	Located in	Located in	1.0	olive trees	olive trees	1.0	Locorotondo	Locorotondo
+Match	1.0	True	Located in	Located in	1.0	olive trees	olive trees	1.0	Polignano	Polignano
+Match	1.0	True	Located in	Located in	1.0	olive trees	olive trees	1.0	Apulian	Apulian
+Partial Match	0.225	False	Has been found on	Affects	0.5	Xylella	Xylella bacterium	0.5	olive	olive trees
+False Negative	0.0		Located in			Xylella			Martina Franca	
+False Negative	0.0		Located in			Xylella			Fasano	
+False Negative	0.0		Located in			Xylella			Locorotondo	
+False Negative	0.0		Located in			Xylella			province of Bari, BARI	
+False Negative	0.0		Located in			Xylella			Polignano	
+False Negative	0.0		Located in			Xylella			Apulian	
+False Negative	0.0		Located in			olive			Apulian	
+False Positive	0.0			Causes			Xylella			Xylella bacterium
