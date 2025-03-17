@@ -1,0 +1,27 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Japanese beetle"},
+      {"type": "Pest", "name": "Popillia japonica"},
+      {"type": "Geographic", "name": "Freiburg"},
+      {"type": "Geographic", "name": "Baden-Württemberg"},
+      {"type": "Geographic", "name": "northern Italy"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Geographic", "name": "EU"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Japanese beetle", "type": "Located in", "target": "Freiburg"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Baden-Württemberg"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "northern Italy"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Asia"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Europe"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "EU"}
+    ]
+  }
+]
+```
+

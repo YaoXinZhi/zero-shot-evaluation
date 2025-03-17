@@ -1,0 +1,120 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Veracruz"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus plants"
+    },
+    {
+      "type": "Plant",
+      "name": "Persian lemon"
+    },
+    {
+      "type": "Plant",
+      "name": "orange"
+    },
+    {
+      "type": "Plant",
+      "name": "tangerine"
+    },
+    {
+      "type": "Plant",
+      "name": "grapefruit"
+    },
+    {
+      "type": "Disease",
+      "name": "HLB"
+    },
+    {
+      "type": "Geographic",
+      "name": "Mexican Republic"
+    },
+    {
+      "type": "Geographic",
+      "name": "National Agrifood Health, Safety and Quality Service (Senasica)"
+    },
+    {
+      "type": "Geographic",
+      "name": "Postgraduate College"
+    },
+    {
+      "type": "Geographic",
+      "name": "Secretary of Agricultural, Rural, Fisheries and Food Development (Sedarpa)"
+    },
+    {
+      "type": "Geographic",
+      "name": "State Plant Health Committee"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "citrus plants",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "900 nurseries",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "22 nurseries",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Affects",
+      "target": "Persian lemon"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Affects",
+      "target": "orange"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Affects",
+      "target": "tangerine"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Affects",
+      "target": "grapefruit"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Have been found on",
+      "target": "HLB"
+    },
+    {
+      "source": "80 percent of the seedlings from nurseries certified by Senasica",
+      "type": "Located in",
+      "target": "Mexican Republic"
+    },
+    {
+      "source": "National Agrifood Health, Safety and Quality Service (Senasica)",
+      "type": "Located in",
+      "target": "Geographic"
+    },
+    {
+      "source": "Postgraduate College",
+      "type": "Located in",
+      "target": "Geographic"
+    },
+    {
+      "source": "Secretary of Agricultural, Rural, Fisheries and Food Development (Sedarpa)",
+      "type": "Located in",
+      "target": "Geographic"
+    },
+    {
+      "source": "State Plant Health Committee",
+      "type": "Located in",
+      "target": "Geographic"
+    }
+  ]
+}
+

@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa"
+    },
+    {
+      "type": "Plant",
+      "name": "olive trees"
+    },
+    {
+      "type": "Geographic",
+      "name": "Salento area"
+    },
+    {
+      "type": "Geographic",
+      "name": "Puglia"
+    },
+    {
+      "type": "Organization",
+      "name": "Institute for the Sustainable Protection of Plants (Cnr-Ipsp)"
+    },
+    {
+      "type": "Organization",
+      "name": "Institute of Photonics and Nanotechnology (Cnr-Ifn)"
+    },
+    {
+      "type": "Organization",
+      "name": "National Research Council"
+    },
+    {
+      "type": "Organization",
+      "name": "Departments of Chemistry, Pharmacy -Pharmaceutical Sciences and Physics of the University of Bari"
+    },
+    {
+      "type": "Organization",
+      "name": "Agritest"
+    },
+    {
+      "type": "Organization",
+      "name": "University of Bari"
+    },
+    {
+      "type": "Person",
+      "name": "Luisa Torsi"
+    },
+    {
+      "type": "Person",
+      "name": "Donato Boscia"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Salento area"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Located in",
+      "target": "Puglia"
+    },
+    {
+      "source": "Xylella fastidiosa",
+      "type": "Have been found on",
+      "target": "olive trees"
+    },
+    {
+      "source": "Institute for the Sustainable Protection of Plants (Cnr-Ipsp)",
+      "type": "Located in",
+      "target": "Bari"
+    },
+    {
+      "source": "Institute of Photonics and Nanotechnology (Cnr-Ifn)",
+      "type": "Located in",
+      "target": "Bari"
+    },
+    {
+      "source": "Departments of Chemistry, Pharmacy -Pharmaceutical Sciences and Physics of the University of Bari",
+      "type": "Located in",
+      "target": "Bari"
+    },
+    {
+      "source": "Luisa Torsi",
+      "type": "Affiliate",
+      "target": "University of Bari"
+    },
+    {
+      "source": "Donato Boscia",
+      "type": "Affiliate",
+      "target": "Institute for the Sustainable Protection of Plants (Cnr-Ipsp)"
+    }
+  ]
+}
+

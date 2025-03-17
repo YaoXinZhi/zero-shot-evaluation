@@ -1,0 +1,11 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Causes	Causes	1.0	Candidatus Liberibacter asiaticus, CLas	Candidatus Liberibacter asiaticus	1.0	Huanglongbing	Huanglongbing
+Match	1.0	True	Affects	Affects	1.0	Huanglongbing	Huanglongbing	1.0	citrus, citrus species	citrus species
+False Negative	0.0		Has been found on			Candidatus Liberibacter asiaticus, CLas			Citrus× sinensis(L.) Osbeck, Pera sweet orange, Sweet Orange	
+False Negative	0.0		Has been found on			Candidatus Liberibacter asiaticus, CLas			citrus, citrus species	
+False Positive	0.0			Have been found on			Pera sweet orange			Candidatus Liberibacter asiaticus
+False Positive	0.0			Located in			Sweet Orange			Candidatus Liberibacter asiaticus
+False Positive	0.0			Have been found on			sarcotoxin IA			STX-5
+False Positive	0.0			Have been found on			sarcotoxin IA			STX-11
+False Positive	0.0			Have been found on			sarcotoxin IA			STX-12
+False Positive	0.0			Have been found on			sarcotoxin IA			STX-13

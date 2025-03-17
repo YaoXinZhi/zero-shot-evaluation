@@ -1,0 +1,16 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "citrus greening"},
+    {"type": "Pest", "name": "L. capsica"},
+    {"type": "Vector", "name": "psyllids"},
+    {"type": "Plant", "name": "pepper plant"},
+    {"type": "Geographic", "name": "Brazil"}
+  ],
+  "relationships": [
+    {"source": "L. capsica", "type": "Causes", "target": "citrus greening"},
+    {"source": "psyllids", "type": "Transmit", "target": "L. capsica"},
+    {"source": "citrus greening", "type": "Affects", "target": "pepper plant"},
+    {"source": "L. capsica", "type": "Located in", "target": "Brazil"}
+  ]
+}
+

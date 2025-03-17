@@ -1,0 +1,18 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Popillia japonica"},
+    {"type": "Geographic", "name": "Piedmont Region"},
+    {"type": "Geographic", "name": "Lombardy Region"},
+    {"type": "Plant", "name": "vegetable gardens"},
+    {"type": "Plant", "name": "orchards"},
+    {"type": "Plant", "name": "vineyard"}
+  ],
+  "relationships": [
+    {"source": "Popillia japonica", "type": "Located in", "target": "Piedmont Region"},
+    {"source": "Popillia japonica", "type": "Located in", "target": "Lombardy Region"},
+    {"source": "Popillia japonica", "type": "Have been found on", "target": "vegetable gardens"},
+    {"source": "Popillia japonica", "type": "Have been found on", "target": "orchards"},
+    {"source": "Popillia japonica", "type": "Have been found on", "target": "vineyard"}
+  ]
+}
+

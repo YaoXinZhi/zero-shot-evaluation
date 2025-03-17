@@ -1,0 +1,122 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "Veracruz"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus plants"
+    },
+    {
+      "type": "Plant",
+      "name": "Persian lemon"
+    },
+    {
+      "type": "Plant",
+      "name": "orange"
+    },
+    {
+      "type": "Plant",
+      "name": "tangerine"
+    },
+    {
+      "type": "Plant",
+      "name": "grapefruit"
+    },
+    {
+      "type": "Disease",
+      "name": "Huanglongbing"
+    },
+    {
+      "type": "Pest",
+      "name": "pests"
+    },
+    {
+      "type": "Organization",
+      "name": "National Agrifood Health, Safety and Quality Service"
+    },
+    {
+      "type": "Organization",
+      "name": "Senasica"
+    },
+    {
+      "type": "Organization",
+      "name": "Postgraduate College"
+    },
+    {
+      "type": "Organization",
+      "name": "Secretary of Agricultural, Rural, Fisheries and Food Development"
+    },
+    {
+      "type": "Organization",
+      "name": "Sedarpa"
+    },
+    {
+      "type": "Organization",
+      "name": "State Plant Health Committee"
+    },
+    {
+      "type": "Person",
+      "name": "Evaristo Ovando Ramirez"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "citrus plants",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "Persian lemon",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "orange",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "tangerine",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "grapefruit",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "pests",
+      "type": "Have been found on",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Huanglongbing",
+      "type": "Affects",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Senasica",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "Postgraduate College",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "Secretary of Agricultural, Rural, Fisheries and Food Development",
+      "type": "Located in",
+      "target": "Veracruz"
+    },
+    {
+      "source": "State Plant Health Committee",
+      "type": "Located in",
+      "target": "Veracruz"
+    }
+  ]
+}
+

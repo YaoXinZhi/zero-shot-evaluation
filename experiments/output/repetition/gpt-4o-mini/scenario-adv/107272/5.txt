@@ -1,0 +1,28 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Tropical Race 4"},
+      {"type": "Disease", "name": "Fusarium wilt"},
+      {"type": "Plant", "name": "banana"},
+      {"type": "Geographic", "name": "Africa"},
+      {"type": "Geographic", "name": "Mozambique"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "South America"},
+      {"type": "Geographic", "name": "Tanzania"},
+      {"type": "Geographic", "name": "Malawi"},
+      {"type": "Geographic", "name": "Uganda"},
+      {"type": "Geographic", "name": "Ruanda"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Tropical Race 4", "type": "Causes", "target": "Fusarium wilt"},
+      {"source": "Fusarium wilt", "type": "Affects", "target": "banana"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "Mozambique"},
+      {"source": "Tropical Race 4", "type": "Located in", "target": "Africa"},
+      {"source": "Fusarium wilt", "type": "Affects", "target": "banana"},
+      {"source": "Tropical Race 4", "type": "Have been found on", "target": "banana"}
+    ]
+  }
+]
+

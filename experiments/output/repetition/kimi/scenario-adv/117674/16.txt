@@ -1,0 +1,220 @@
+{
+  "entities": [
+    {
+      "type": "Geographic",
+      "name": "ARGENTINE REPUBLIC"
+    },
+    {
+      "type": "Geographic",
+      "name": "City of Buenos Aires"
+    },
+    {
+      "type": "Geographic",
+      "name": "SENASA"
+    },
+    {
+      "type": "Geographic",
+      "name": "NATIONAL SERVICE OF HEALTH AND AGRO-FOOD QUALITY"
+    },
+    {
+      "type": "Pest",
+      "name": "Diaphorina citri"
+    },
+    {
+      "type": "Disease",
+      "name": "HLB Disease"
+    },
+    {
+      "type": "Geographic",
+      "name": "Northwest Argentina"
+    },
+    {
+      "type": "Geographic",
+      "name": "Provinces of JUJUY, SALTA, TUCUMÁN and CATAMARCA"
+    },
+    {
+      "type": "Geographic",
+      "name": "ENTRE RÍOS"
+    },
+    {
+      "type": "Geographic",
+      "name": "CERRITOS"
+    },
+    {
+      "type": "Geographic",
+      "name": "MISIONES"
+    },
+    {
+      "type": "Geographic",
+      "name": "CHACO"
+    },
+    {
+      "type": "Geographic",
+      "name": "FORMOSA"
+    },
+    {
+      "type": "Geographic",
+      "name": "SANTIAGO DEL ESTERO"
+    },
+    {
+      "type": "Geographic",
+      "name": "SALTA"
+    },
+    {
+      "type": "Geographic",
+      "name": "JUJUY"
+    },
+    {
+      "type": "Geographic",
+      "name": "SANTA FE"
+    },
+    {
+      "type": "Geographic",
+      "name": "Leales Department of the Province of TUCUMÁN"
+    },
+    {
+      "type": "Geographic",
+      "name": "Town of Villa de Medinas"
+    },
+    {
+      "type": "Geographic",
+      "name": "Chicligasta Department"
+    },
+    {
+      "type": "Geographic",
+      "name": "Capayán Department"
+    },
+    {
+      "type": "Geographic",
+      "name": "Province of CATAMARCA"
+    },
+    {
+      "type": "Geographic",
+      "name": "MINISTRY OF ECONOMY"
+    },
+    {
+      "type": "Geographic",
+      "name": "NATIONAL INSTITUTE OF AGRICULTURAL TECHNOLOGY"
+    },
+    {
+      "type": "Geographic",
+      "name": "NATIONAL UNIVERSITY OF CATAMARCA"
+    },
+    {
+      "type": "Geographic",
+      "name": "Obispo Colombres Agroindustrial Experimental Station"
+    },
+    {
+      "type": "Geographic",
+      "name": "MINISTRY OF PRODUCTIVE DEVELOPMENT"
+    },
+    {
+      "type": "Geographic",
+      "name": "PHYTOSANITARY ASSOCIATION OF THE ARGENTINE NORTHWEST"
+    },
+    {
+      "type": "Geographic",
+      "name": "COLLEGE OF AGRICULTURAL ENGINEERS OF CATAMARCA"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus plants"
+    },
+    {
+      "type": "Disease",
+      "name": "Huanglongbing"
+    },
+    {
+      "type": "Pest",
+      "name": "Citrus Leafhopper"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "ARGENTINE REPUBLIC",
+      "type": "Located in",
+      "target": "City of Buenos Aires"
+    },
+    {
+      "source": "NATIONAL SERVICE OF HEALTH AND AGRO-FOOD QUALITY",
+      "type": "Located in",
+      "target": "ARGENTINE REPUBLIC"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Causes",
+      "target": "HLB Disease"
+    },
+    {
+      "source": "HLB Disease",
+      "type": "Affects",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Have been found on",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Northwest Argentina",
+      "type": "Located in",
+      "target": "Provinces of JUJUY, SALTA, TUCUMÁN and CATAMARCA"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Have been found on",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "ENTRE RÍOS"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "CERRITOS"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "MISIONES"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "CHACO"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "FORMOSA"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "SANTIAGO DEL ESTERO"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "SALTA"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "JUJUY"
+    },
+    {
+      "source": "Diaphorina citri",
+      "type": "Located in",
+      "target": "SANTA FE"
+    },
+    {
+      "source": "Citrus Leafhopper",
+      "type": "Located in",
+      "target": "Province of CATAMARCA"
+    }
+  ]
+}
+

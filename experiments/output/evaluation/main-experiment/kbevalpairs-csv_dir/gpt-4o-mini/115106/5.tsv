@@ -1,0 +1,37 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	Plane tree canker	plane tree canker	1.0	France, French regions	France
+Match	1.0	True	Located in	Located in	1.0	Plane tree canker	plane tree canker	1.0	Italy	Italy
+Partial Match	0.5	True	Affects	Affects	1.0	Plane tree canker	plane tree canker	0.5	plane trees, plane tree, varieties of plane trees	plane trees
+Match	1.0	True	Causes	Causes	1.0	Ceratocystis platani, C. platani	Ceratocystis platani	1.0	Plane tree canker	plane tree canker
+Partial Match	0.5	True	Has been found on	Have been found on	1.0	Ceratocystis platani, C. platani	Ceratocystis platani	0.5	plane trees, plane tree, varieties of plane trees	plane trees
+Partial Match	0.75	True	Located in	Located in	0.75	plane tree canker stain	plane tree canker	1.0	Greece	Greece
+Partial Match	0.75	True	Located in	Located in	0.75	plane tree canker stain	plane tree canker	1.0	Corsica	Corsica
+Partial Match	0.75	True	Located in	Located in	0.75	plane tree canker stain	plane tree canker	1.0	Provence-Alpes-Côte d'Azur	Provence-Alpes-Côte d'Azur
+Partial Match	0.75	True	Located in	Located in	0.75	plane tree canker stain	plane tree canker	1.0	New Aquitaine	New Aquitaine
+Partial Match	0.75	True	Located in	Located in	0.75	plane tree canker stain	plane tree canker	1.0	Île-de-France	Île-de-France
+Partial Match	0.75	True	Located in	Located in	0.75	plane tree canker stain	plane tree canker	1.0	Turkey	Turkey
+Partial Match	0.75	True	Located in	Located in	0.75	plane tree canker stain	plane tree canker	1.0	Pays de la Loire	Pays de la Loire
+Partial Match	0.75	True	Located in	Located in	0.75	plane tree canker stain	plane tree canker	1.0	Switzerland	Switzerland
+Partial Match	0.75	True	Located in	Located in	0.75	plane tree canker stain	plane tree canker	1.0	Occitanie, south of France	Occitanie
+Partial Match	0.75	True	Located in	Located in	0.75	plane tree canker stain	plane tree canker	1.0	Auvergne-Rhône-Alpes	Auvergne-Rhône-Alpes
+Partial Match	0.75	True	Located in	Located in	0.75	plane tree canker stain	plane tree canker	1.0	Albania	Albania
+False Negative	0.0		Affects			Canker stain			plane trees, plane tree, varieties of plane trees	
+False Negative	0.0		Located in			colored canker			Occitanie, south of France	
+False Negative	0.0		Located in			colored canker			France, French regions	
+False Negative	0.0		Affects			colored canker			plane trees, plane tree, varieties of plane trees	
+False Negative	0.0		Located in			plane trees, plane tree, varieties of plane trees			Occitanie, south of France	
+False Negative	0.0		Located in			plane trees, plane tree, varieties of plane trees			France, French regions	
+False Negative	0.0		Affects			Colored canker			plane trees, plane tree, varieties of plane trees	
+False Negative	0.0		Located in			Plane tree canker			United States	
+False Negative	0.0		Located in			Ceratocystis platani, C. platani			United States	
+False Negative	0.0		Located in			Ceratocystis platani, C. platani			France, French regions	
+False Negative	0.0		Located in			Ceratocystis platani, C. platani			Italy	
+False Negative	0.0		Located in			Ceratocystis platani, C. platani			Europe	
+False Negative	0.0		Has been found on			Ceratocystis platani, C. platani			contaminated wooden packaging carried by American troops	
+False Negative	0.0		Located in			plane trees, plane tree, varieties of plane trees			United States	
+False Negative	0.0		Located in			plane trees, plane tree, varieties of plane trees			Italy	
+False Negative	0.0		Located in			contaminated wooden packaging carried by American troops			Europe	
+False Negative	0.0		Located in			plane tree canker stain			Europe	
+False Negative	0.0		Located in			plane tree canker stain			Italy	
+False Negative	0.0		Located in			plane tree canker stain			France, French regions	
+False Negative	0.0		Affects			canker stain			plane trees, plane tree, varieties of plane trees	

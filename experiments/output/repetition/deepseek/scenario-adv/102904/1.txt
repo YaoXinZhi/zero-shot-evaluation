@@ -1,0 +1,31 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Sweet Orange"},
+      {"type": "Pest", "name": "Candidatus Liberibacter asiaticus"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Disease", "name": "greening"},
+      {"type": "Plant", "name": "Pera sweet orange"},
+      {"type": "Plant", "name": "Citrus× sinensis(L.) Osbeck"},
+      {"type": "Plant", "name": "genetically modified citrus (GMC)"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "HLB"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "greening"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "Sweet Orange"},
+      {"source": "HLB", "type": "Affects", "target": "Sweet Orange"},
+      {"source": "greening", "type": "Affects", "target": "Sweet Orange"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Have been found on", "target": "Sweet Orange"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Have been found on", "target": "Pera sweet orange"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Have been found on", "target": "Citrus× sinensis(L.) Osbeck"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Have been found on", "target": "genetically modified citrus (GMC)"}
+    ]
+  }
+]
+```
+

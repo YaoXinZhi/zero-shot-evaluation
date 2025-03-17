@@ -1,0 +1,22 @@
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Philaenus spumarius"},
+      {"type": "Pest", "name": "Xylella fastidiosa"},
+      {"type": "Plant", "name": "spittlebugs"},
+      {"type": "Disease", "name": "vector-borne disease"},
+      {"type": "Pest", "name": "acetamiprid"},
+      {"type": "Pest", "name": "deltamethrin"},
+      {"type": "Pest", "name": "spinosad"},
+      {"type": "Pest", "name": "sulfoxaflor"},
+      {"type": "Pest", "name": "pyrethrin"},
+      {"type": "Pest", "name": "kaolin"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella fastidiosa", "type": "Transmit", "target": "Philaenus spumarius"}
+    ]
+  }
+]
+

@@ -1,0 +1,45 @@
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Sicily"},
+      {"type": "Disease", "name": "Tristeza"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "Citrus greening"},
+      {"type": "Pest", "name": "Phytophthora"},
+      {"type": "Pest", "name": "viruses and viroids"},
+      {"type": "Pest", "name": "nematodes"},
+      {"type": "Pest", "name": "CTV-Citrus tristeza virus"},
+      {"type": "Plant", "name": "Tarocco Scirè"},
+      {"type": "Plant", "name": "Mandared"},
+      {"type": "Plant", "name": "Citrus clementina"},
+      {"type": "Plant", "name": "Citrus sinensis"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "citrus plants", "type": "Located in", "target": "Italy"},
+      {"source": "citrus plants", "type": "Located in", "target": "Sicily"},
+      {"source": "Tristeza", "type": "Affects", "target": "citrus plants"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus plants"},
+      {"source": "Citrus greening", "type": "Affects", "target": "citrus plants"},
+      {"source": "Phytophthora", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "viruses and viroids", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "nematodes", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "CTV-Citrus tristeza virus", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "Tristeza", "type": "Causes", "target": "citrus plants"},
+      {"source": "Huanglongbing", "type": "Causes", "target": "citrus plants"},
+      {"source": "Citrus greening", "type": "Causes", "target": "citrus plants"},
+      {"source": "C35", "type": "Have been found on", "target": "Tarocco Scirè"},
+      {"source": "C35", "type": "Have been found on", "target": "Mandared"},
+      {"source": "Bitters", "type": "Have been found on", "target": "Tarocco Scirè"},
+      {"source": "Bitters", "type": "Have been found on", "target": "Mandared"},
+      {"source": "Carpenter", "type": "Have been found on", "target": "Tarocco Scirè"},
+      {"source": "Carpenter", "type": "Have been found on", "target": "Mandared"},
+      {"source": "Furr", "type": "Have been found on", "target": "Tarocco Scirè"},
+      {"source": "Furr", "type": "Have been found on", "target": "Mandared"}
+    ]
+  }
+]
+

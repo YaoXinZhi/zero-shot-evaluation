@@ -1,0 +1,49 @@
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Pest", "name": "Phytophthora"},
+      {"type": "Pest", "name": "viruses and viroids"},
+      {"type": "Pest", "name": "nematodes"},
+      {"type": "Pest", "name": "CTV-Citrus tristeza virus"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "Citrus greening"},
+      {"type": "Disease", "name": "yellow branch disease"},
+      {"type": "Disease", "name": "Tristeza"},
+      {"type": "Plant", "name": "Tarocco Scirè"},
+      {"type": "Plant", "name": "Mandared"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Sicily"},
+      {"type": "Geographic", "name": "United States"},
+      {"type": "Geographic", "name": "California"},
+      {"type": "Geographic", "name": "Acireale"},
+      {"type": "Geographic", "name": "Ct"},
+      {"type": "Plant", "name": "citrus fruits"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "citrus plants", "type": "Located in", "target": "Italy"},
+      {"source": "citrus plants", "type": "Located in", "target": "Sicily"},
+      {"source": "Huanglongbing", "type": "Located in", "target": "United States"},
+      {"source": "Tristeza", "type": "Located in", "target": "Italy"},
+      {"source": "Tristeza", "type": "Located in", "target": "Sicily"},
+      {"source": "citrus fruits", "type": "Located in", "target": "Italy"},
+      {"source": "citrus fruits", "type": "Located in", "target": "Sicily"},
+      {"source": "citrus fruits", "type": "Located in", "target": "United States"},
+      {"source": "citrus fruits", "type": "Located in", "target": "California"},
+      {"source": "citrus fruits", "type": "Located in", "target": "Acireale"},
+      {"source": "citrus fruits", "type": "Located in", "target": "Ct"},
+      {"source": "citrus plants", "type": "Have been found on", "target": "citrus fruits"},
+      {"source": "Phytophthora", "type": "Have been found on", "target": "citrus fruits"},
+      {"source": "viruses and viroids", "type": "Have been found on", "target": "citrus fruits"},
+      {"source": "nematodes", "type": "Have been found on", "target": "citrus fruits"},
+      {"source": "CTV-Citrus tristeza virus", "type": "Have been found on", "target": "citrus fruits"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus fruits"},
+      {"source": "Citrus greening", "type": "Affects", "target": "citrus fruits"},
+      {"source": "yellow branch disease", "type": "Affects", "target": "citrus fruits"},
+      {"source": "Tristeza", "type": "Affects", "target": "citrus fruits"}
+    ]
+  }
+
+

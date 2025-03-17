@@ -1,0 +1,27 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "African Psila"},
+      {"type": "Vector", "name": "African Psila"},
+      {"type": "Plant", "name": "citrus trees"},
+      {"type": "Plant", "name": "lemon"},
+      {"type": "Plant", "name": "orange"},
+      {"type": "Plant": "mandarin trees"},
+      {"type"type": "Pest", "name": "Tamarixia dryi"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "African Psila", "type": "Located in", "target": "Cantabria"},
+      {"source": "Tamarixia dryi", "type": "Located in", "target": "Cantabria"},
+      {"source": "African Psila", "type": "Have been found on", "target": "citrus trees"},
+      {"source": "African Psila", "type": "Have been found on", "target": "lemon"},
+      {"source": "African Psila", "type": "Have been found on", "target": "orange"},
+      {"source": "African Psila", "type": "Have been found on", "target": "mandarin trees"},
+      {"source": "Tamarixia dryi", "type": "Have been found on", "target": "citrus trees"},
+      {"source": "African Psila", "type": "Transmit", "target": "Huanglongbing (HLB) or greening of trees. citrus (Greening)"},
+      {"source": "Huanglongbing (HLB) or greening of trees. citrus (Greening)", "type": "Affects", "target": "citrus trees"}
+    ]
+  }
+]
+

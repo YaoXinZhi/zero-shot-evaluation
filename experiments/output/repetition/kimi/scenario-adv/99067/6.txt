@@ -1,0 +1,158 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "citrus plants"
+    },
+    {
+      "type": "Disease",
+      "name": "Tristeza"
+    },
+    {
+      "type": "Disease",
+      "name": "Huanglongbing (HLB) or Citrus greening"
+    },
+    {
+      "type": "Pest",
+      "name": "Phytophthora"
+    },
+    {
+      "type": "Pest",
+      "name": "viruses and viroids"
+    },
+    {
+      "type": "Pest",
+      "name": "nematodes"
+    },
+    {
+      "type": "Pest",
+      "name": "CTV-Citrus tristeza virus"
+    },
+    {
+      "type": "Geographic",
+      "name": "Italy"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sicily"
+    },
+    {
+      "type": "Geographic",
+      "name": "United States"
+    },
+    {
+      "type": "Geographic",
+      "name": "Spain"
+    },
+    {
+      "type": "Geographic",
+      "name": "California"
+    },
+    {
+      "type": "Plant",
+      "name": "Tarocco Scirè"
+    },
+    {
+      "type": "Plant",
+      "name": "Mandared"
+    },
+    {
+      "type": "Plant",
+      "name": "Citrus clementina"
+    },
+    {
+      "type": "Plant",
+      "name": "Citrus sinensis"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus fruits"
+    },
+    {
+      "type": "Plant",
+      "name": "orange"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "citrus plants",
+      "type": "Affects",
+      "target": "Tristeza"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Affects",
+      "target": "Huanglongbing (HLB) or Citrus greening"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Have been found on",
+      "target": "Phytophthora"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Have been found on",
+      "target": "viruses and viroids"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Have been found on",
+      "target": "nematodes"
+    },
+    {
+      "source": "citrus plants",
+      "type": "Have been found on",
+      "target": "CTV-Citrus tristeza virus"
+    },
+    {
+      "source": "Tristeza",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "Tristeza",
+      "type": "Located in",
+      "target": "Sicily"
+    },
+    {
+      "source": "Huanglongbing (HLB) or Citrus greening",
+      "type": "Located in",
+      "target": "United States"
+    },
+    {
+      "source": "C35",
+      "type": "Have been found on",
+      "target": "Tarocco Scirè"
+    },
+    {
+      "source": "Californian Bitters",
+      "type": "Have been found on",
+      "target": "Tarocco Scirè"
+    },
+    {
+      "source": "C35",
+      "type": "Have been found on",
+      "target": "Mandared"
+    },
+    {
+      "source": "Californian Bitters",
+      "type": "Have been found on",
+      "target": "Mandared"
+    },
+    {
+      "source": "C35",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "Californian Bitters",
+      "type": "Located in",
+      "target": "California"
+    }
+  ]
+}
+

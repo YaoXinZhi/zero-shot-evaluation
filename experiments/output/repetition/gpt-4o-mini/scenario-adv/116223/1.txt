@@ -1,0 +1,20 @@
+[
+  {
+    "entities": [
+      {"type": "Geographic", "name": "Veracruz"},
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Plant", "name": "Persian lemon"},
+      {"type": "Plant", "name": "orange"},
+      {"type": "Plant", "name": "tangerine"},
+      {"type": "Plant", "name": "grapefruit"},
+      {"type": "Disease", "name": "Huanglongbing (HLB)"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "citrus plants", "type": "Located in", "target": "Veracruz"},
+      {"source": "Huanglongbing (HLB)", "type": "Affects", "target": "citrus plants"}
+    ]
+  }
+]
+
