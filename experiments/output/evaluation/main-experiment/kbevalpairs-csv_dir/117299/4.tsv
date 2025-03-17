@@ -1,0 +1,15 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Has been found on	Have been found on	1.0	TR4, Fusarium Race 4 Tropical, Fusarium (T4R ), R4T strain, Foc T4R	Fusarium Race 4 Tropical	1.0	Cavendish varieties, Cavendish banana plants, Cavendish banana, variety Cavendish, variety of Cavendish banana	Cavendish varieties
+Partial Match	0.5	True	Located in	Located in	0.5	Cavendish varieties, Cavendish banana plants, Cavendish banana, variety Cavendish, variety of Cavendish banana	Cavendish banana	1.0	Philippines	Philippines
+Partial Match	0.5	True	Located in	Located in	0.5	Cavendish varieties, Cavendish banana plants, Cavendish banana, variety Cavendish, variety of Cavendish banana	Cavendish banana	1.0	Israel	Israel
+Partial Match	0.5	True	Located in	Located in	0.5	Cavendish varieties, Cavendish banana plants, Cavendish banana, variety Cavendish, variety of Cavendish banana	Cavendish banana	1.0	Netherlands	Netherlands
+Match	1.0	True	Has been found on	Have been found on	1.0	TR4, Fusarium Race 4 Tropical, Fusarium (T4R ), R4T strain, Foc T4R	Fusarium Race 4 Tropical	1.0	banana plants, banana, banana variety	banana plants
+False Negative	0.0		Causes			TR4, Fusarium Race 4 Tropical, Fusarium (T4R ), R4T strain, Foc T4R			Panama disease	
+False Negative	0.0		Affects			Panama disease			banana plants, banana, banana variety	
+False Negative	0.0		Affects			Panama disease			Cavendish varieties, Cavendish banana plants, Cavendish banana, variety Cavendish, variety of Cavendish banana	
+False Negative	0.0		Located in			banana plants, banana, banana variety			Israel	
+False Negative	0.0		Located in			TR4, Fusarium Race 4 Tropical, Fusarium (T4R ), R4T strain, Foc T4R			Colombia	
+False Positive	0.0			Causes			Panama disease			Fusarium Race 4 Tropical
+False Positive	0.0			Located in			Cavendish banana			Colombia
+False Positive	0.0			Located in			Fusiarium resistant banana variety			Philippines
+False Positive	0.0			Located in			Fusiarium resistant banana variety			Colombia

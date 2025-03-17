@@ -1,0 +1,14 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Affects	Affects	1.0	Panama disease	Panama disease	1.0	banana plants, banana plant, bananas, banana	bananas
+Match	1.0	True	Causes	Causes	1.0	Tropical Race 4, Fusarium oxysporum f. sp. cubense Tropical Race 4, Fusarium oxysporum f. sp. cubense	Tropical Race 4	1.0	Panama disease	Panama disease
+Partial Match	0.625	True	Has been found on	Have been found on	0.625	Tropical Race 4, Fusarium oxysporum f. sp. cubense Tropical Race 4, Fusarium oxysporum f. sp. cubense	Fusarium oxysporum f. sp. cubense	1.0	banana plants, banana plant, bananas, banana	bananas
+Match	1.0	True	Causes	Causes	1.0	Fusarium oxysporum cubense Race 1	Fusarium oxysporum cubense Race 1	1.0	Panama disease	Panama disease
+Match	1.0	True	Affects	Affects	1.0	Panama disease	Panama disease	1.0	Cavendish bananas, Cavendish variety bananas, Cavendish banana plantations	Cavendish variety bananas
+Match	1.0	True	Has been found on	Have been found on	1.0	Fusarium oxysporum cubense Race 1	Fusarium oxysporum cubense Race 1	1.0	banana plants, banana plant, bananas, banana	bananas
+Match	1.0	True	Has been found on	Have been found on	1.0	Tropical Race 4, Fusarium oxysporum f. sp. cubense Tropical Race 4, Fusarium oxysporum f. sp. cubense	Tropical Race 4	1.0	Cavendish bananas, Cavendish variety bananas, Cavendish banana plantations	Cavendish bananas
+Partial Match	0.41666666666666663	True	Causes	Causes	0.625	Tropical Race 4, Fusarium oxysporum f. sp. cubense Tropical Race 4, Fusarium oxysporum f. sp. cubense	Fusarium oxysporum f. sp. cubense	0.6666666666666666	banana Panama disease	Panama disease
+False Negative	0.0		Has been found on			Fusarium oxysporum cubense Race 1			Cavendish bananas, Cavendish variety bananas, Cavendish banana plantations	
+False Positive	0.0			Affects			Panama disease			Cavendish bananas
+False Positive	0.0			Located in			bananas			Britain
+False Positive	0.0			Located in			bananas			UK
+False Positive	0.0			Located in			University of Exeter			UK

@@ -1,0 +1,12 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Partial Match	0.5	True	Located in	Located in	1.0	Popillia japonica, Japanese beetle, Japanese beetles	Japanese beetle	0.5	Freiburg area, Freiburg	Freiburg
+Match	1.0	True	Located in	Located in	1.0	Popillia japonica, Japanese beetle, Japanese beetles	Japanese beetle	1.0	northern Italy	northern Italy
+Match	1.0	True	Located in	Located in	1.0	Popillia japonica, Japanese beetle, Japanese beetles	Japanese beetle	1.0	Baden-Württemberg	Baden-Württemberg
+Match	1.0	True	Located in	Located in	1.0	Popillia japonica, Japanese beetle, Japanese beetles	Japanese beetle	1.0	Asia	Asia
+False Negative	0.0		Has been found on			Popillia japonica, Japanese beetle, Japanese beetles			freight	
+False Negative	0.0		Has been found on			Popillia japonica, Japanese beetle, Japanese beetles			tourist traffic	
+False Negative	0.0		Located in			freight			northern Italy	
+False Negative	0.0		Located in			freight			Freiburg area, Freiburg	
+False Negative	0.0		Located in			tourist traffic			Freiburg area, Freiburg	
+False Negative	0.0		Located in			tourist traffic			northern Italy	
+False Positive	0.0			Located in			Japanese beetle			EU
