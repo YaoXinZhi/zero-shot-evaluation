@@ -1,0 +1,20 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bursaphelenchus xylophilus"},
+      {"type": "Disease", "name": "pine wilt disease"},
+      {"type": "Vector", "name": "insect vector"}
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "source": "Bursaphelenchus xylophilus",
+        "type": "Causes",
+        "target": "pine wilt disease"
+      },
+      {"source": "insect vector", "type": "Transmit", "target": "Bursaphelenchus xylophilus"}
+    ]
+  }
+]
+

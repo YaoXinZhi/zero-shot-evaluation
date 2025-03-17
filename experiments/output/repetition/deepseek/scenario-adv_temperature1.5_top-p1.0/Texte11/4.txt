@@ -1,0 +1,23 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella"},
+      {"type": "Geographic", "name": "University of Bari"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "National Research Council"},
+      {"type": "Geographic", "name": "Cnr-Ipsp"},
+      {"type": "Geographic", "name": "Cnr-Ifn"},
+      {"type": "Geographic", "name": "Agritest"},
+      {"type": "Plant", "name": "olive trees"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella", "type": "Located in", "target": "Bari"},
+      {"source": "Xylella", "type": "Have been found on", "target": "olive trees"}
+    ]
+  }
+]
+```
+

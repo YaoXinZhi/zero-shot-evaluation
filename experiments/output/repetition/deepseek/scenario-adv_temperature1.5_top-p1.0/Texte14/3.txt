@@ -1,0 +1,50 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Geographic", "name": "Britain"},
+      {"type": "Geographic", "name": "Western Europe"},
+      {"type": "Vector", "name": "Cacopsylla pyrisuga (Foerster)"},
+      {"type": "Vector", "name": "C. pyri"},
+      {"type": "Vector", "name": "C. pyricola"},
+      {"type": "Geographic", "name": "Uzbekistan"},
+      {"type": "Geographic", "name": "Turkey"},
+      {"type": "Vector", "name": "Cacopsylla fera (Baeva)"},
+      {"type": "Vector", "name": "Cacopsylla bidens (?ulc)"},
+      {"type": "Geographic", "name": "Mediterranean Basin"},
+      {"type": "Geographic", "name": "Middle East"},
+      {"type": "Vector", "name": "C. bidens"},
+      {"type": "Plant", "name": "European pear (P. communis)"},
+      {"type": "Plant", "name": "Pyrus spinosa Forsskål"},
+      {"type": "Vector", "name": "Cacopsylla notata (Flor)"},
+      {"type": "Plant", "name": "Pyrus korshinskyi Litvinov"},
+      {"type": "Vector", "name": "C. fera"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Cacopsylla pyrisuga (Foerster)", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyrisuga (Foerster)", "type": "Located in", "target": "Western Europe"},
+      {"source": "C. pyri", "type": "Located in", "target": "Britain"},
+      {"source": "C. pyri", "type": "Located in", "target": "Western Europe"},
+      {"source": "C. pyricola", "type": "Located in", "target": "Britain"},
+      {"source": "C. pyricola", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla fera (Baeva)", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Cacopsylla fera (Baeva)", "type": "Located in", "target": "Turkey"},
+      {"source": "Cacopsylla bidens (?ulc)", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Cacopsylla bidens (?ulc)", "type": "Located in", "target": "Turkey"},
+      {"source": "C. bidens", "type": "Located in", "target": "Mediterranean Basin"},
+      {"source": "C. bidens", "type": "Located in", "target": "Middle East"},
+      {"source": "Cacopsylla notata (Flor)", "type": "Have been found on", "target": "Pyrus spinosa Forsskål"},
+      {"source": "C. fera", "type": "Have been found on", "target": "Pyrus korshinskyi Litvinov"},
+      {"source": "Cacopsylla pyrisuga (Foerster)", "type": "Have been found on", "target": "European pear (P. communis)"},
+      {"source": "C. pyri", "type": "Have been found on", "target": "European pear (P. communis)"},
+      {"source": "C. pyricola", "type": "Have been found on", "target": "European pear (P. communis)"},
+      {"source": "Cacopsylla fera (Baeva)", "type": "Have been found on", "target": "European pear (P. communis)"},
+      {"source": "Cacopsylla bidens (?ulc)", "type": "Have been found on", "target": "European pear (P. communis)"},
+      {"source": "C. bidens", "type": "Have been found on", "target": "European pear (P. communis)"}
+    ]
+  }
+]
+```
+

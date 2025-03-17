@@ -1,0 +1,33 @@
+Output:
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella"}, 
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Geographic", "name": "Bari"},
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella", "type": "Located in", "target": "Bari"},
+      {"source": "olive trees", "type": "Located in", "target": "Bari"},
+    ]
+  }
+]
+``` 
+
+### Explanation:
+- **Entities**: 
+  - "Xylella" is explicitly mentioned as a bacterium and classified as a **Pest**.
+  - "olive trees" are mentioned in the context of being infected, hence labeled as **Plant**.
+  - "Bari" is a geographic location mentioned multiple times and classified as **Geographic**.
+
+- **Relationships**:
+  - "Xylella" (Pest) is **Located in** "Bari" (Geographic) because the research and containment efforts are described as happening in Bari.
+  - "olive trees" (Plant) are also **Located in** "Bari" (Geographic) as the infected area is referenced in the context of Bari.
+
+- **Excluded Relationships**:
+  - No direct relationships like "Causes", "Affects", or "Transmit" could be extracted because the text does not explicitly state that Xylella directly causes a specific disease or affects olive trees. While it is implied, the text does not provide explicit statements for these relationships.
+  - The research context is discussed, but it does not explicitly link Xylella to a disease or vector beyond general implications.
+

@@ -1,0 +1,22 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "pests"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Plant", "name": "crops"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Geographic", "name": "Midlands"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "crops", "type": "Located in", "target": "Midlands"},
+      {"source": "40 percent of global crop production", "type": "Causes", "target": "pests"},
+      {"source": "pests", "type": "Have been found on", "target": "crops"},
+      {"source": "plant diseases", "type": "Affects", "target": "crops"},
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"}
+    ]
+  }
+]
+

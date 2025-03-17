@@ -1,0 +1,36 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Spodoptera frugiperda"},
+      {"type": "Plant", "name": "maize crops"},
+      {"type": "Disease", "name": "maize lethal necrosis"},
+      {"type": "Vector", "name": "Dalbulus maidis"},
+      {"type": "Geographic", "name": "Kenya"},
+      {"type": "Geographic", "name": "South America"},
+      {"type": "Geographic", "name": "Britain"},
+      {"type": "Geographic", "name": "Western Europe"},
+      {"type": "Geographic", "name": "Uzbekistan"},
+      {"type": "Geographic", "name": "Turkey"},
+      {"type": "Geographic", "name": "Mediterranean Basin"},
+      {"type": "Geographic", "name": "Middle East"},
+      {"type": "Plant", "name": "European pear"},
+      {"type": "Plant", "name": "Pyrus"},
+      {"type": "Plant", "name": "Pyrus spinosa"},
+      {"type": "Plant", "name": "Pryus korshinskyi"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Spodoptera frugiperda", "type": "Have been found on", "target": "maize crops"},
+      {"source": "Spodoptera frugiperda", "type": "Causes", "target": "maize lethal necrosis"},
+      {"source": "maize lethal necrosis", "type": "Affects", "target": "maize crops"},
+      {"source": "Dalbulus maidis", "type": "Transmit", "target": "Spodoptera frugiperda"},
+      {"source": "Dalbulus maidis", "type": "Have been found on", "target": "maize crops"},
+      {"source": "European pear", "type": "Have been found on", "target": "Cacopsylla notata"},
+      {"source": "Pyrus", "type": "Have been found on", "target": "Cacopsylla notata"},
+      {"source": "Pyrus spinosa", "type": "Have been found on", "target": "Cacopsylla notata"},
+      {"source": "Pryus korshinskyi", "type": "Have been found on", "target": "Cacopsylla fera"}
+    ]
+  }
+]
+

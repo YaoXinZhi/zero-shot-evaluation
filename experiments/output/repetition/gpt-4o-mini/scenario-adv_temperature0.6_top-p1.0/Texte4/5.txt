@@ -1,0 +1,24 @@
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Dictyophara europaea"},
+      {"type": "Disease", "name": "Candidatus Phytoplasma solani"},
+      {"type": "Plant", "name": "grapevine"},
+      {"type": "Plant", "name": "grapevine yellows"},
+      {"type": "Vector", "name": "Hyalesthes obsoletus"},
+      {"type": "Vector", "name": "Reptalus panzeri"},
+      {"type": "Plant", "name": "Catharanthus roseus"},
+      {"type": "Disease", "name": "Flavescence dorée"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Dictyophara europaea", "type": "Transmit", "target": "Candidatus Phytoplasma solani"},
+      {"source": "Candidatus Phytoplasma solani", "type": "Affects", "target": "grapevine"},
+      {"source": "Hyalesthes obsoletus", "type": "Transmit", "target": "Candidatus Phytoplasma solani"},
+      {"source": "Reptalus panzeri", "type": "Transmit", "target": "Candidatus Phytoplasma solani"},
+      {"source": "Flavescence dorée", "type": "Affects", "target": "grapevine"}
+    ]
+  }
+]
+

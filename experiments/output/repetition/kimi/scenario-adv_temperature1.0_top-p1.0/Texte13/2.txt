@@ -1,0 +1,165 @@
+[
+  {
+    "entities": [
+      {
+        "type": "Pest",
+        "name": "Fall Armyworm"
+      },
+      {
+        "type": "Pest",
+        "name": "Spodoptera frugiperda"
+      },
+      {
+        "type": "Plant",
+        "name": "maize crops"
+      },
+      {
+        "type": "Disease",
+        "name": "maize lethal necrosis"
+      },
+      {
+        "type": "Geographic",
+        "name": "Kenya"
+      },
+      {
+        "type": "Vector",
+        "name": "corn leafhopper"
+      },
+      {
+        "type": "Vector",
+        "name": "Dalbulus maidis"
+      },
+      {
+        "type": "Geographic",
+        "name": "South America"
+      },
+      {
+        "type": "Pest",
+        "name": "Cacopsylla pyrisuga"
+      },
+      {
+        "type": "Pest",
+        "name": "C. pyri"
+      },
+      {
+        "type": "Pest",
+        "name": "C. pyricola"
+      },
+      {
+        "type": "Geographic",
+        "name": "Britain"
+      },
+      {
+        "type": "Geographic",
+        "name": "Western Europe"
+      },
+      {
+        "type": "Geographic",
+        "name": "Uzbekistan"
+      },
+      {
+        "type": "Geographic",
+        "name": "Turkey"
+      },
+      {
+        "type": "Pest",
+        "name": "Cacopsylla fera"
+      },
+      {
+        "type": "Pest",
+        "name": "Cacopsylla bidens"
+      },
+      {
+        "type": "Geographic",
+        "name": "Mediterranean Basin"
+      },
+      {
+        "type": "Geographic",
+        "name": "Middle East"
+      },
+      {
+        "type": "Plant",
+        "name": "European pear"
+      },
+      {
+        "type": "Plant",
+        "name": "P. communis"
+      },
+      {
+        "type": "Plant",
+        "name": "Pyrus spinosa"
+      },
+      {
+        "type": "Pest",
+        "name": "Cacopsylla notata"
+      },
+      {
+        "type": "Plant",
+        "name": "wild pear"
+      },
+      {
+        "type": "Plant",
+        "name": "Pryus korshinskyi"
+      },
+      {
+        "type": "Pest",
+        "name": "Pryus korshinskyi Litvinov"
+      }
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "source": "Fall Armyworm",
+        "type": "Causes",
+        "target": "maize lethal necrosis"
+      },
+      {
+        "source": "maize lethal necrosis",
+        "type": "Affects",
+        "target": "maize crops"
+      },
+      {
+        "source": "Spodoptera frugiperda",
+        "type": "Have been found on",
+        "target": "maize crops"
+      },
+      {
+        "source": "Fall Armyworm",
+        "type": "Have been found on",
+        "target": "maize crops"
+      },
+      {
+        "source": "Dalbulus maidis",
+        "type": "Transmit",
+        "target": "Spodoptera frugiperda"
+      },
+      {
+        "source": "Cacopsylla pyrisuga",
+        "type": "Located in",
+        "target": "Western Europe"
+      },
+      {
+        "source": "Cacopsylla pyrisuga",
+        "type": "Located in",
+        "target": "Mediterranean Basin"
+      },
+      {
+        "source": "C. pyri",
+        "type": "Located in",
+        "target": "Western Europe"
+      },
+      {
+        "source": "C. pyri",
+        "type": "Located in",
+        "target": "Mediterranean Basin"
+      },
+      {
+        "source": "C. pyricola",
+        "type": "Located in",
+        "target": "Western Europe"
+      },
+      {
+        "source": "C. pyricola",
+        "type": "Located
+

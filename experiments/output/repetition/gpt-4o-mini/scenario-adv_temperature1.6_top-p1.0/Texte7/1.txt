@@ -1,0 +1,21 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Plant", "name": "Chardonnay"},
+      {"type": "Plant", "name": "Pinot Grigio"},
+      {"type": "Geographic", "name": "South Tyrol"},
+      {"type": "Pest", "name": "black wood disease"},
+      {"type": "Geographic", "name": "LaimBURG Research Center"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "flavescence dorée", "type": "Located in", "target": "South Tyrol"},
+      {"source": "black wood disease", "type": "Located in", "target": "South Tyrol"},
+      {"source": "flavescence dorée", "type": "Affects", "target": "Chardonnay"},
+      {"source": "flavescence dorée", "type": "Affects", "target": "Pinot Grigio"}
+    ]
+  }
+]
+

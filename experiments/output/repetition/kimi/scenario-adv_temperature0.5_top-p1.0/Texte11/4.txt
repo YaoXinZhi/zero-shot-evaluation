@@ -1,0 +1,16 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "National Research Council"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella", "type": "Located in", "target": "Bari"},
+      {"source": "Xylella", "type": "Located in", "target": "National Research Council"}
+    ]
+  }
+]
+

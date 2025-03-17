@@ -1,0 +1,27 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Spodoptera frugiperda"},
+      {"type": "Plant", "name": "maize crops"},
+      {"type": "Geographic", "name": "Kenya"},
+      {"type": "Disease", "name": "maize lethal necrosis"},
+      {"type": "Plant", "name": "maize plants"},
+      {"type": "Vector", "name": "corn leafhopper"},
+      {"type": "Vector", "name": "Dalbulus maidis"},
+      {"type": "Geographic", "name": "South America"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Spodoptera frugiperda", "type": "Have been found on", "target": "maize crops"},
+      {"source": "Spodoptera frugiperda", "type": "Causes", "target": "maize lethal necrosis"},
+      {"source": "maize lethal necrosis", "type": "Affects", "target": "maize plants"},
+      {"source": "maize crops", "type": "Located in", "target": "Kenya"},
+      {"source": "Dalbulus maidis", "type": "Transmit", "target": "Spodoptera frugiperda"},
+      {"source": "Dalbulus maidis", "type": "Located in", "target": "South America"}
+    ]
+  }
+]
+```
+

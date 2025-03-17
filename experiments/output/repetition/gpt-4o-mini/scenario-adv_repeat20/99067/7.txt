@@ -1,0 +1,36 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "citrus fruits"},
+    {"type": "Geographic", "name": "Italy"},
+    {"type": "Geographic", "name": "Sicily"},
+    {"type": "Pest", "name": "Phytophthora"},
+    {"type": "Pest", "name": "CTV-Citrus tristeza virus"},
+    {"type": "Disease", "name": "Huanglongbing (HLB)"},
+    {"type": "Disease", "name": "yellow branch disease"},
+    {"type": "Disease", "name": "Tristeza"},
+    {"type": "Plant", "name": "Tarocco Scirè"},
+    {"type": "Plant", "name": "Citrus clementina"},
+    {"type": "Plant", "name": "Citrus sinensis"},
+    {"type": "Pest", "name": "Bitters"},
+    {"type": "Pest", "name": "C35"},
+    {"type": "Pest", "name": "Carpenter"},
+    {"type": "Pest", "name": "Furr"},
+    {"type": "Pest", "name": "Carrizo"},
+    {"type": "Pest", "name": "US-942"},
+    {"type": "Pest", "name": "US-897"}
+  ],
+  "relationships": [
+    {"source": "Huanglongbing (HLB)", "type": "Affects", "target": "citrus fruits"},
+    {"source": "Tristeza", "type": "Affects", "target": "citrus fruits"},
+    {"source": "Phytophthora", "type": "Have been found on", "target": "citrus fruits"},
+    {"source": "CTV-Citrus tristeza virus", "type": "Have been found on", "target": "citrus fruits"},
+    {"source": "Bitters", "type": "Have been found on", "target": "Tarocco Scirè"},
+    {"source": "C35", "type": "Have been found on", "target": "Tarocco Scirè"},
+    {"source": "Carpenter", "type": "Have been found on", "target": "Tarocco Scirè"},
+    {"source": "Furr", "type": "Have been found on", "target": "Tarocco Scirè"},
+    {"source": "Carrizo", "type": "Have been found on", "target": "Tarocco Scirè"},
+    {"source": "US-942", "type": "Have been found on", "target": "citrus fruits"},
+    {"source": "US-897", "type": "Have been found on", "target": "citrus fruits"}
+  ]
+}
+

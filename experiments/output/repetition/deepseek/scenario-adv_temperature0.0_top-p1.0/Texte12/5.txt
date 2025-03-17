@@ -1,0 +1,23 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "host plant"},
+      {"type": "Chemical", "name": "methyl eugenol"},
+      {"type": "Chemical", "name": "γ-octalactone"},
+      {"type": "Chemical", "name": "benzothiazole"},
+      {"type": "Chemical", "name": "(+)-dipentene"},
+      {"type": "Chemical", "name": "ethyl tiglate"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "host plant"},
+      {"source": "methyl eugenol", "type": "Attracts", "target": "Bactrocera dorsalis"},
+      {"source": "γ-octalactone", "type": "Attracts", "target": "Bactrocera dorsalis"}
+    ]
+  }
+]
+```
+

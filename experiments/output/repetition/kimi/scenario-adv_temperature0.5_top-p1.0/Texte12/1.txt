@@ -1,0 +1,34 @@
+[
+  {
+    "entities": [
+      {
+        "type": "Vector",
+        "name": "Bactrocera dorsalis"
+      },
+      {
+        "type": "Pest",
+        "name": "BdorOBP13"
+      }
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "source": "BdorOBP13",
+        "type": "Have been found on",
+        "target": "Bactrocera dorsalis"
+      },
+      {
+        "source": "BdorOBP13",
+        "type": "Transmit",
+        "target": "methyl eugenol"
+      },
+      {
+        "source": "BdorOBP13",
+        "type": "Transmit",
+        "target": "γ-octalactone"
+      }
+    ]
+  }
+]
+

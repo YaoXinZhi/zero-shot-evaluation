@@ -1,0 +1,24 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Flavescence dorée"},
+      {"type": "Geographic", "name": "South Tyrol"},
+      {"type": "Plant", "name": "Chardonnay"},
+      {"type": "Plant", "name": "Pinot Grigio"},
+      {"type": "Plant", "name": "vineyards"},
+      {"type": "Geographic", "name": "Laimburg Research Center"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Flavescence dorée", "type": "Located in", "target": "South Tyrol"},
+      {"source": "Flavescence dorée", "type": "Affects", "target": "vineyards"},
+      {"source": "vineyards", "type": "Located in", "target": "South Tyrol"},
+      {"source": "Chardonnay", "type": "Located in", "target": "South Tyrol"},
+      {"source": "Pinot Grigio", "type": "Located in", "target": "South Tyrol"}
+    ]
+  }
+]
+```
+

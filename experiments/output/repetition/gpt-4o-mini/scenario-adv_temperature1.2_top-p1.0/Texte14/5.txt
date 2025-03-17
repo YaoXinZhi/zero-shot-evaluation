@@ -1,0 +1,44 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Cacopsylla pyrisuga"},
+      {"type": "Pest", "name": "C. pyri"},
+      {"type": "Pest", "name": "C. pyricola"},
+      {"type": "Pest", "name": "Cacopsylla fera"},
+      {"type": "Pest", "name": "Cacopsylla bidens"},
+      {"type": "Pest", "name": "Cacopsylla notata"},
+      {"type": "Plant", "name": "European pear"},
+      {"type": "Plant", "name": "Pyrus spinosa"},
+      {"type": "Plant", "name": "Pryus korshinskyi"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Cacopsylla pyrisuga", "type": "Have been found on", "target": "European pear"},
+      {"source": "Cacopsylla notata", "type": "Have been found on", "target": "Pyrus spinosa"},
+      {"source": "Cacopsylla fera", "type": "Have been found on", "target": "Pryus korshinskyi"}
+    ]
+  },
+  {
+    "entities": [
+      {"type": "Geographic", "name": "Britain"},
+      {"type": "Geographic", "name": "Western Europe"},
+      {"type": "Geographic", "name": "Uzbekistan"},
+      {"type": "Geographic", "name": "Turkey"},
+      {"type": "Geographic", "name": "Mediterranean Basin"},
+      {"type": "Geographic", "name": "Middle East"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "European pear", "type": "Located in", "target": "West European"},
+      {"source": "C. pyri", "type": "Located in", "target": "West European"},
+      {"source": "C. pyricola", "type": "Located in", "target": "West European"},
+      {"source": "Cacopsylla fera", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "Turkey"},
+      {"source": "C. bidens", "type": "Located in", "target": "Mediterranean Basin"},
+      {"source": "C. bidens", "type": "Located in", "target": "Middle East"}
+    ]
+  }
+]
+

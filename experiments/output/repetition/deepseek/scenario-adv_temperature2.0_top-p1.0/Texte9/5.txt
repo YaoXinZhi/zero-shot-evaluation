@@ -1,0 +1,32 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "apple proliferation"},
+      {"type": "Vector", "name": "psyllids"},
+      {"type": "Vector", "name": "leafhoppers"},
+      {"type": "Vector", "name": "spittlebug, Philaenus spumarius (L.) (Homoptera: Cercopidae)"},
+      {"type": "Vector", "name": "leafhopper, Artianus interstitialis (Germar) (Homoptera: Cicadellidae)"},
+      {"type": "Vector", "name": "leafhopper, Fieberiella florii Stål (Homoptera: Cicadellidae)"},
+      {"type": "Plant", "name": "celery"},
+      {"type": "Plant", "name": "apple seedlings"},
+      {"type": "Plant", "name": "apple"},
+      {"type": "Geographic", "name": "Germany"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "psyllids", "type": "Transmit", "target": "apple proliferation"},
+      {"source": "leafhoppers", "type": "Transmit", "target": "apple proliferation"},
+      {"source": "spittlebug, Philaenus spumarius (L.) (Homoptera: Cercopidae)", "type": "Transmit", "target": "apple proliferation"},
+      {"source": "leafhopper, Artianus interstitialis (Germar) (Homoptera: Cicadellidae)", "type": "Transmit", "target": "apple proliferation"},
+      {"source": "leafhopper, Fieberiella florii Stål (Homoptera: Cicadellidae)", "type": "Transmit", "target": "apple proliferation"},
+      {"source": "apple proliferation", "type": "Affects", "target": "celery"},
+      {"source": "apple proliferation", "type": "Affects", "target": "apple seedlings"},
+      {"source": "apple proliferation", "type": "Affects", "target": "apple"},
+      {"source": "leafhopper, Fieberiella florii Stål (Homoptera: Cicadellidae)", "type": "Located in", "target": "Germany"}
+    ]
+  }
+]
+```
+

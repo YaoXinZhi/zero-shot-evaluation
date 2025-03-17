@@ -1,0 +1,27 @@
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Cacopsylla pyrisuga"},
+      {"type": "Vector", "name": "C. pyri"},
+      {"type": "Vector", "name": "C. pyricola"},
+      {"type": "Vector", "name": "Cacopsylla fera"},
+      {"type": "Vector", "name": "Cacopsylla bidens"},
+      {"type": "Vector", "name": "C. bidens"},
+      {"type": "Pest", "name": "Cacopsylla notata"},
+      {"type": "Plant", "name": "European pear"},
+      {"type": "Plant", "name": "Pyrus spinosa"},
+      {"type": "Plant", "name": "Pryus korshinskyi"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Cacopsylla pyrisuga", "type": "Have been found on", "target": "European pear"},
+      {"source": "C. pyri", "type": "Have been found on", "target": "European pear"},
+      {"source": "C. pyricola", "type": "Have been found on", "target": "European pear"},
+      {"source": "Cacopsylla fera", "type": "Have been found on", "target": "Pryus korshinskyi"},
+      {"source": "Cacopsylla bidens", "type": "Have been found on", "target": "Pyrus spinosa"},
+      {"source": "Cacopsylla notata", "type": "Have been found on", "target": "Pyrus spinosa"}
+    ]
+  }
+]
+

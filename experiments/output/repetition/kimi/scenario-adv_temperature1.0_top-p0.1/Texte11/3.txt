@@ -1,0 +1,19 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "National Research Council"},
+      {"type": "Geographic", "name": "University of Bari"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella", "type": "Located in", "target": "Bari"},
+      {"source": "Institute for the Sustainable Protection of Plants (Cnr-Ipsp)", "type": "Located in", "target": "National Research Council"},
+      {"source": "Institute of Photonics and Nanotechnology (Cnr-Ifn)", "type": "Located in", "target": "National Research Council"},
+      {"source": "Departments of Chemistry, Pharmacy-Drug Sciences and Physics", "type": "Located in", "target": "University of Bari"}
+    ]
+  }
+]
+

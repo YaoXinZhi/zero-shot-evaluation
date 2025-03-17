@@ -1,0 +1,33 @@
+{
+  "entities": [
+    {"type": "Vector", "name": "Asian longhorned beetle"},
+    {"type": "Geographic", "name": "Lucerne"},
+    {"type": "Plant", "name": "maple"},
+    {"type": "Plant", "name": "birch"},
+    {"type": "Plant", "name": "beech"},
+    {"type": "Plant", "name": "fruit trees"},
+    {"type": "Geographic", "name": "Central Switzerland"},
+    {"type": "Geographic", "name": "Zell"},
+    {"type": "Geographic", "name": "Canton of Lucerne"},
+    {"type": "Geographic", "name": "Winterthur"},
+    {"type": "Geographic", "name": "Marly (FR)"}
+  ],
+  "relationships": [
+    {"source": "Asian longhorned beetle", "type": "Causes", "target": "major tree damage"},
+    {"source": "Asian longhorned beetle", "type": "Have been found on", "target": "maple"},
+    {"source": "Asian longhorned beetle", "type": "Have been found on", "target": "birch"},
+    {"source": "Asian longhorned beetle", "type": "Have been found on", "target": "beech"},
+    {"source": "Asian longhorned beetle", "type": "Have been found on", "target": "fruit trees"},
+    {"source": "major tree damage", "type": "Affects", "target": "maple"},
+    {"source": "major tree damage", "type": "Affects", "target": "birch"},
+    {"source": "major tree damage", "type": "Affects", "target": "beech"},
+    {"source": "major tree damage", "type": "Affects", "target": "fruit trees"},
+    {"source": "Asian longhorned beetle", "type": "Located in", "target": "Lucerne"},
+    {"source": "Asian longhorned beetle", "type": "Located in", "target": "Canton of Lucerne"},
+    {"source": "Asian longhorned beetle", "type": "Located in", "target": "Central Switzerland"},
+    {"source": "Asian longhorned beetle", "type": "Located in", "target": "Zell"},
+    {"source": "Asian longhorned beetle", "type": "Located in", "target": "Winterthur"},
+    {"source": "Asian longhorned beetle", "type": "Located in", "target": "Marly (FR)"}
+  ]
+}
+

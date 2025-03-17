@@ -1,0 +1,44 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Geographic", "name": "Britain"},
+      {"type": "Geographic", "name": "Western Europe"},
+      {"type": "Geographic", "name": "Uzbekistan"},
+      {"type": "Geographic", "name": "Turkey"},
+      {"type": "Geographic", "name": "Mediterranean Basin"},
+      {"type": "Geographic", "name": "Middle East"},
+      {"type": "Vector", "name": "Cacopsylla pyrisuga (Foerster)"},
+      {"type": "Vector", "name": "Cacopsylla pyri"},
+      {"type": "Vector", "name": "Cacopsylla pyricola"},
+      {"type": "Vector", "name": "Cacopsylla fera (Baeva)"},
+      {"type": "Vector", "name": "Cacopsylla bidens (?ulc)"},
+      {"type": "Vector", "name": "Cacopsylla bidens (Burckhardt and Hodkinson 1986)"},
+      {"type": "Vector", "name": "Cacopsylla notata (Flor)"},
+      {"type": "Vector", "name": "Cacopsylla fera (Burckhardt and Hodkinson 1986)"},
+      {"type": "Plant", "name": "European pear (P. communis)"},
+      {"type": "Plant", "name": "Pyrus spinosa Forsskål"},
+      {"type": "Plant", "name": "Pyrus korshinskyi Litvinov"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Cacopsylla pyrisuga (Foerster)", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyrisuga (Foerster)", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla pyri", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyri", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla pyricola", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyricola", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla fera (Baeva)", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Cacopsylla fera (Baeva)", "type": "Located in", "target": "Turkey"},
+      {"source": "Cacopsylla bidens (?ulc)", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Cacopsylla bidens (?ulc)", "type": "Located in", "target": "Turkey"},
+      {"source": "Cacopsylla bidens (Burckhardt and Hodkinson 1986)", "type": "Located in", "target": "Mediterranean Basin"},
+      {"source": "Cacopsylla bidens (Burckhardt and Hodkinson 1986)", "type": "Located in", "target": "Middle East"},
+      {"source": "Cacopsylla notata (Flor)", "type": "Have been found on", "target": "Pyrus spinosa Forsskål"},
+      {"source": "Cacopsylla fera (Burckhardt and Hodkinson 1986)", "type": "Have been found on", "target": "Pyrus korshinskyi Litvinov"}
+    ]
+  }
+]
+```
+

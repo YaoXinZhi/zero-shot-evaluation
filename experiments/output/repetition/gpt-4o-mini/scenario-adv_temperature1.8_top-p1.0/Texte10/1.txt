@@ -1,0 +1,21 @@
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "crops"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "UK"}        
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Affects", "target": "crops"},
+      {"source": "Midlands", "type": "Located in", "target": "crops"},
+      {"source": "UK", "type": "Located in", "target": "strawberries"}
+    ]
+  }
+]
+

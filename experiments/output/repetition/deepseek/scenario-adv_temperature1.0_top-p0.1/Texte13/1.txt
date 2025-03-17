@@ -1,0 +1,50 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Fall Armyworm (Spodoptera frugiperda)"},
+      {"type": "Plant", "name": "maize crops"},
+      {"type": "Disease", "name": "maize lethal necrosis"},
+      {"type": "Geographic", "name": "Kenya"},
+      {"type": "Vector", "name": "corn leafhopper (Dalbulus maidis)"},
+      {"type": "Geographic", "name": "South America"},
+      {"type": "Plant", "name": "European pear (P. communis)"},
+      {"type": "Plant", "name": "Pyrus spinosa Forsskål"},
+      {"type": "Plant", "name": "Pyrus korshinskyi Litvinov"},
+      {"type": "Pest", "name": "Cacopsylla pyrisuga (Foerster)"},
+      {"type": "Pest", "name": "C. pyri"},
+      {"type": "Pest", "name": "C. pyricola"},
+      {"type": "Pest", "name": "Cacopsylla fera (Baeva)"},
+      {"type": "Pest", "name": "Cacopsylla bidens (Šulc)"},
+      {"type": "Pest", "name": "Cacopsylla notata (Flor)"},
+      {"type": "Geographic", "name": "Britain"},
+      {"type": "Geographic", "name": "Western Europe"},
+      {"type": "Geographic", "name": "Uzbekistan"},
+      {"type": "Geographic", "name": "Turkey"},
+      {"type": "Geographic", "name": "Mediterranean Basin"},
+      {"type": "Geographic", "name": "Middle East"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fall Armyworm (Spodoptera frugiperda)", "type": "Have been found on", "target": "maize crops"},
+      {"source": "Fall Armyworm (Spodoptera frugiperda)", "type": "Causes", "target": "maize lethal necrosis"},
+      {"source": "maize lethal necrosis", "type": "Affects", "target": "maize plants"},
+      {"source": "corn leafhopper (Dalbulus maidis)", "type": "Transmit", "target": "Fall Armyworm (Spodoptera frugiperda)"},
+      {"source": "corn leafhopper (Dalbulus maidis)", "type": "Located in", "target": "South America"},
+      {"source": "Cacopsylla pyrisuga (Foerster)", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyrisuga (Foerster)", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla fera (Baeva)", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Cacopsylla fera (Baeva)", "type": "Located in", "target": "Turkey"},
+      {"source": "Cacopsylla bidens (Šulc)", "type": "Located in", "target": "Mediterranean Basin"},
+      {"source": "Cacopsylla bidens (Šulc)", "type": "Located in", "target": "Middle East"},
+      {"source": "Cacopsylla notata (Flor)", "type": "Have been found on", "target": "Pyrus spinosa Forsskål"},
+      {"source": "Cacopsylla fera (Baeva)", "type": "Have been found on", "target": "Pyrus korshinskyi Litvinov"},
+      {"source": "Cacopsylla pyrisuga (Foerster)", "type": "Have been found on", "target": "European pear (P. communis)"},
+      {"source": "C. pyri", "type": "Have been found on", "target": "European pear (P. communis)"},
+      {"source": "C. pyricola", "type": "Have been found on", "target": "European pear (P. communis)"}
+    ]
+  }
+]
+```
+

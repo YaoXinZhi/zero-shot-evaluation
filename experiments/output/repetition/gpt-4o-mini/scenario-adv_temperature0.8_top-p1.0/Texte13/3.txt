@@ -1,0 +1,46 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Fall Armyworm (Spodoptera frugiperda)"},
+      {"type": "Plant", "name": "maize crops"},
+      {"type": "Disease", "name": "maize lethal necrosis"},
+      {"type": "Vector", "name": "corn leafhopper (Dalbulus maidis)"},
+      {"type": "Geographic", "name": "Kenya"},
+      {"type": "Geographic", "name": "South America"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fall Armyworm (Spodoptera frugiperda)", "type": "Have been found on", "target": "maize crops"},
+      {"source": "Fall Armyworm (Spodoptera frugiperda)", "type": "Causes", "target": "maize lethal necrosis"},
+      {"source": "maize lethal necrosis", "type": "Affects", "target": "maize crops"},
+      {"source": "corn leafhopper (Dalbulus maidis)", "type": "Transmit", "target": "Fall Armyworm (Spodoptera frugiperda)"}
+    ]
+  },
+  {
+    "entities": [
+      {"type": "Geographic", "name": "Britain"},
+      {"type": "Geographic", "name": "Western Europe"},
+      {"type": "Geographic", "name": "Uzbekistan"},
+      {"type": "Geographic", "name": "Turkey"},
+      {"type": "Geographic", "name": "Mediterranean Basin"},
+      {"type": "Geographic", "name": "Middle East"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Cacopsylla pyrisuga (Foerster)", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyri", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla pyricola", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Cacopsylla fera (Baeva)", "type": "Located in", "target": "Turkey"},
+      {"source": "Cacopsylla bidens (Šulc)", "type": "Located in", "target": "Mediterranean Basin"},
+      {"source": "Cacopsylla bidens (Burckhardt and Hodkinson 1986)", "type": "Located in", "target": "Middle East"},
+      {"source": "European pear (P. communis)", "type": "Have been found on", "target": "Cacopsylla notata (Flor)"},
+      {"source": "Pyrus spinosa Forsskål", "type": "Have been found on", "target": "Cacopsylla notata (Flor)"},
+      {"source": "Pryus korshinskyi Litvinov", "type": "Have been found on", "target": "Cacopsylla fera (Burckhardt and Hodkinson 1986)"}
+    ]
+  }
+]
+```
+

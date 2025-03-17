@@ -1,0 +1,22 @@
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "host plant volatiles"},
+      {"type": "Plant", "name": "methyl eugenol"},
+      {"type": "Plant", "name": "γ-octalactone"},
+      {"type": "Plant", "name": "benzothiazole"},
+      {"type": "Plant", "name": "(+),dipentene"},
+      {"type": "Plant", "name": "ethyl tiglate"},
+      {"type": "Pest", "name": "BdorOBP13"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "host plant volatiles"},
+      {"source": "Bacdrocera dorsalis", "type": "Have been found on", "target": "methyl eugenol"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "γ-octalactone"}
+    ]
+  }
+]
+

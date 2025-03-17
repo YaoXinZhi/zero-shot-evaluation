@@ -1,0 +1,22 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella"},
+      {"type": "Disease", "name": "disease"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "infected area"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella", "type": "Causes", "target": "disease"},
+      {"source": "disease", "type": "Affects", "target": "olive trees"},
+      {"source": "olive trees", "type": "Located in", "target": "infected area"},
+      {"source": "Xylella", "type": "Located in", "target": "infected area"}
+    ]
+  }
+]
+```
+

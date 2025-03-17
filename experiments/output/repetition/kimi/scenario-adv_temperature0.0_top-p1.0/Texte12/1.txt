@@ -1,0 +1,37 @@
+[
+  {
+    "entities": [
+      {
+        "type": "Pest",
+        "name": "Bactrocera dorsalis"
+      },
+      {
+        "type": "Plant",
+        "name": "host plant"
+      },
+      {
+        "type": "Vector",
+        "name": "Odorant-binding proteins (OBPs)"
+      },
+      {
+        "type": "Vector",
+        "name": "BdorOBP13"
+      }
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "source": "BdorOBP13",
+        "type": "Have been found on",
+        "target": "host plant"
+      },
+      {
+        "source": "Bactrocera dorsalis",
+        "type": "Transmit",
+        "target": "Odorant-binding proteins (OBPs)"
+      }
+    ]
+  }
+]
+

@@ -1,0 +1,42 @@
+[
+  {
+    "entities": [
+      {
+        "type": "Vector",
+        "name": "Bactrocera dorsalis"
+      },
+      {
+        "type": "Plant",
+        "name": "host plant"
+      },
+      {
+        "type": "Vector",
+        "name": "methyl eugenol"
+      },
+      {
+        "type": "Vector",
+        "name": "γ-octalactone"
+      }
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "source": "Bactrocera dorsalis",
+        "type": "Have been found on",
+        "target": "host plant"
+      },
+      {
+        "source": "methyl eugenol",
+        "type": "Transmit",
+        "target": "Bactrocera dorsalis"
+      },
+      {
+        "source": "γ-octalactone",
+        "type": "Transmit",
+        "target": "Bactrocera dorsalis"
+      }
+    ]
+  }
+]
+

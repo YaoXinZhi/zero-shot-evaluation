@@ -1,0 +1,21 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Pest", "name": "potato aphid"},
+      {"name": "Biotechnology and Biological Sciences Research Council", "type": "Geographic"},
+      {"name": "Natural Environment Research Council", "type": "Geographic"},
+      {"name": "Aston University", "type": "Geographic"},
+      {"name": "Harper Adams University", "type": "Geographic"},
+      {"name": "Food and Agriculture Organization of the United Nations", "type": "Geographic"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"}
+    ]
+  }
+]
+```
+

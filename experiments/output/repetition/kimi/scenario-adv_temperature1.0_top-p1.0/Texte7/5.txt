@@ -1,0 +1,20 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Disease", "name": "black wood disease"},
+      {"type": "Plant", "name": "Chardonnay"},
+      {"type": "Plant", "name": "otPin Grigio"},
+      {"type": "Geographic", "name": "South Tyrol"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "flavescence dorée", "type": "Located in", "target": "South Tyrol"},
+      {"source": "black wood disease", "type": "Located in", "target": "South Tyrol"},
+      {"source": "Chardonnay", "type": "Located in", "target": "South Tyrol"},
+      {"source": "Pinot Grigio", "type": "Located in", "target": "South Tyrol"}
+    ]
+  }
+]
+

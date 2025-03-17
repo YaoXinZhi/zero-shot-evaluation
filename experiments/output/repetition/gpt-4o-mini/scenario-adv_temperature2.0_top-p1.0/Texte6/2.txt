@@ -1,0 +1,23 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Golden flavescence"},
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Plant", "name": "vines"},
+      {"type": "Geographic", "name": "Bassa Atesina"},
+      {"type": "Geographic", "name": "Salorno"},
+      {"type": "Geographic", "name": "Burgraviato"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Golden flavescence", "type": "Affects", "target": "vines"},
+      {"source": "flavescence dorée", "type": "Affects", "target": "vines"},
+      {"source": "Golden flavescence", "type": "Located in", "target": "Burgraviato"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Burgraviato"},
+      {"source": "Golden flavescence", "type": "Located in", "target": "Bassa Atesina"},
+      {"source": "Salorno", "type": "Located in", "target": "Bassa Atesina"}
+    ]
+  }
+]
+

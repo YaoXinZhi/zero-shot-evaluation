@@ -1,0 +1,44 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Fall Armyworm"},
+      {"type": "Pest", "name": "Spodoptera frugiperda"},
+      {"type": "Disease", "name": "maize lethal necrosis"},
+      {"type": "Plant", "name": "maize crops"},
+      {"type": "Vector", "name": "corn leafhopper"},
+      {"type": "Vector", "name": "Dalbulus maidis"},
+      {"type": "Geographic", "name": "Kenya"},
+      {"type": "Geographic", "name": "South America"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Spodoptera frugiperda", "type": "Have been found on", "target": "maize crops"},
+      {"source": "Spodoptera frugiperda", "type": "Causes", "target": "maize lethal necrosis"},
+      {"source": "maize lethal necrosis", "type": "Affects", "target": "maize crops"},
+      {"source": "Dalbulus maidis", "type": "Transmit", "target": "Spodoptera frugiperda"}
+    ]
+  },
+  {
+    "entities": [
+      {"type": "Pest", "name": "Cacopsylla pyrisuga"},
+      {"type": "Pest", "name": "Cacopsylla pyri"},
+      {"type": "Pest", "name": "Cacopsylla pyricola"},
+      {"type": "Pest", "name": "Cacopsylla fera"},
+      {"type": "Pest", "name": "Cacopsylla bidens"},
+      {"type": "Plant", "name": "European pear"},
+      {"type": "Plant", "name": "P. communis"},
+      {"type": "Plant", "name": "Pyrus spinosa"},
+      {"type": "Plant", "name": "Cacopsylla notata"},
+      {"type": "Plant", "name": "wild pear"},
+      {"type": "Plant", "name": "Pryus korshinskyi"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Cacopsylla pyrisuga", "type": "Have been found on", "target": "P. communis"},
+      {"source": "Cacopsylla fera", "type": "Have been found on", "target": "Pryus korshinskyi"}
+    ]
+  }
+]
+

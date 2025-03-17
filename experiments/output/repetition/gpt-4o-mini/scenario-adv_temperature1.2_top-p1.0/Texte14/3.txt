@@ -1,0 +1,34 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Cacopsylla pyrisuga"},
+      {"type": "Pest", "name": "C. pyri"},
+      {"type": "Pest", "name": "C. pyricola"},
+      {"type": "Pest", "name": "Cacopsylla fera"},
+      {"type": "Pest", "name": "Cacopsylla bidens"},
+      {"type": "Pest", "name": "C. bidens"},
+      {"type": "Pest", "name": "Cacopsylla notata"},
+      {"type": "Plant", "name": "European pear (P. communis)"},
+      {"type": "Plant", "name": "Pyrus spinosa Forsskål"},
+      {"type": "Plant", "name": "Pryus korshinskyi Litvinov"},
+      {"type": "Geographic", "name": "Britain"},
+      {"type": "Geographic", "name": "Western Europe"},
+      {"type": "Geographic", "name": "Uzbekistan"},
+      {"type": "Geographic", "name": "Turkey"},
+      {"type": "Geographic", "name": "Mediterranean Basin"},
+      {"type": "Geographic", "name": "Middle East"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Cacopsylla notata", "type": "Have been found on", "target": "Pyrus spinosa Forsskål"},
+      {"source": "Cacopsylla fera", "type": "Have been found on", "target": "Pryus korshinskyi Litvinov"},
+      {"source": "European pear (P. communis)", "type": "Have been found on", "target": "Cacopsylla pyrisuga"},
+      {"source": "C. pyri", "type": "Have been found on", "target": "European pear (P. communis)"},
+      {"source": "C. pyricola", "type": "Have been found on", "target": "European pear (P. communis)"},
+      {"source": "Cacopsylla fera", "type": "Have been found on", "target": "Pryus korshinskyi Litvinov"},
+      {"source": "Cacopsylla bidens", "type": "Have been found on", "target": "Pryus korshinskyi Litvinov"}
+    ]
+  }
+]
+

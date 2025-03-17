@@ -1,0 +1,31 @@
+[
+  {
+    "entities": [
+      {"type": "Geographic", "name": "Britain"},
+      {"type": "Geographic", "name": "Western Europe"},
+      {"type": "Geographic", "name": "Uzbekistan"},
+      {"type": "Geographic", "name": "Turkey"},
+      {"type": "Geographic", "name": "Mediterranean Basin"},
+      {"type": "Geographic", "name": "Middle East"},
+      {"type": "Pest", "name": "Cacopsylla pyrisuga"},
+      {"type": "Pest", "name": "Cacopsylla pyri"},
+      {"type": "Pest", "name": "Cacopsylla pyricola"},
+      {"type": "Pest", "name": "Cacopsylla fera"},
+      {"type": "Pest", "name": "Cacopsylla bidens"},
+      {"type": "Pest", "name": "Cacopsylla notata"},
+      {"type": "Plant", "name": "European pear"},
+      {"type": "Plant", "name": "Pyrus spinosa"},
+      {"type": "Plant", "name": "Pryus korshinskyi"}
+    ],
+  },
+  {
+    "relationships": [
+      {"source": "European pear", "type": "Have been found on", "target": "Cacopsylla pyrisuga"},
+      {"source": "European pear", "type": "Have been found on", "target": "Cacopsylla pyri"},
+      {"source": "European pear", "type": "Have been found on", "target": "Cacopsylla pyricola"},
+      {"source": "Pyrus spinosa", "type": "Have been found on", "target": "Cacopsylla notata"},
+      {"source": "Pryus korshinskyi", "type": "Have been found on", "target": "Cacopsylla fera"}
+    ]
+  }
+]
+

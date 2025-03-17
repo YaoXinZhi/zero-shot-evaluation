@@ -1,0 +1,20 @@
+[
+  {
+    "entities": [
+      {"type": "University", "name": "Aston University"},
+      {"type": "University", "name": "Harper Adams University"},
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Disease", "name": "invertebrate pests"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Affects", "target": "strawberries"},
+      {"source": "invertebrate pests", "type": "Affects", "target": "strawberries"}
+    ]
+  }
+]
+

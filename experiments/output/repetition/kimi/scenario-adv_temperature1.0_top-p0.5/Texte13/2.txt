@@ -1,0 +1,42 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Fall Armyworm"},
+      {"type": "Plant", "name": "maize crops"},
+      {"type": "Disease", "name": "maize lethal necrosis"},
+      {"type": "Vector", "name": "corn leafhopper"},
+      {"type": "Geographic", "name": "Kenya"},
+      {"type": "Geographic", "name": "South America"},
+      {"type": "Geographic", "name": "Britain"},
+      {"type": "Geographic", "name": "Western Europe"},
+      {"type": "Geographic", "name": "Uzbekistan"},
+      {"type": "Geographic", "name": "Turkey"},
+      {"type": "Geographic", "name", "neighboring regions"},
+      {"type": "Geographic", "name": "Mediterranean Basin"},
+      {"type": "Geographic", "name": "Middle East"},
+      {"type": "Plant", "name": "European pear"},
+      {"type": "Plant", "name": "Pyrus spinosa"},
+      {"type": "Plant", "name": "wild pear"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fall Armyworm", "type": "Have been found on", "target": "maize crops"},
+      {"source": "Fall Armyworm", "type": "Causes", "target": "maize lethal necrosis"},
+      {"source": "maize lethal necrosis", "type": "Affects", "target": "maize plants"},
+      {"source": "Fall Armyworm", "type": "Transmit", "target": "corn leafhopper"},
+      {"source": "Fall Armyworm", "type": "Located in", "target": "Kenya"},
+      {"source": "corn leafhopper", "type": "Located in", "target": "South America"},
+      {"source": "Cacopsylla pyrisuga", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyrisuga", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla fera", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Cacopsylla fera", "type": "Located in", "target": "Turkey"},
+      {"source": "Cacopsylla fera", "type": "Located in", "target": "neighboring regions"},
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "Mediterranean Basin"},
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "Middle East"},
+      {"source": "Cacopsylla notata", "type": "Have been found on", "target": "Pyrus spinosa"},
+      {"source": "Cacopsylla fera", "type": "Have been found on", "target": "wild pear"}
+    ]
+  }
+]
+

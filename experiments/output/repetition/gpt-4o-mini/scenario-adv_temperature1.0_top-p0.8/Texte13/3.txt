@@ -1,0 +1,48 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Fall Armyworm"},
+      {"type": "Pest", "name": "Spodoptera frugiperda"},
+      {"type": "Plant", "name": "maize crops"},
+      {"type": "Disease", "name": "maize lethal necrosis"},
+      {"type": "Vector", "name": "corn leafhopper"},
+      {"type": "Vector", "name": "Dalbulus maidis"},
+      {"type": "Geographic", "name": "Kenya"},
+      {"type": "Geographic", "name": "South America"},
+      {"type": "Geographic", "name": "Britain"},
+      {"type": "Geographic", "name": "Western Europe"},
+      {"type": "Geographic", "name": "Uzbekistan"},
+      {"type": "Geographic", "name": "Turkey"},
+      {"type": "Geographic", "name": "Mediterranean Basin"},
+      {"type": "Geographic", "name": "Middle East"},
+      {"type": "Plant", "name": "European pear"},
+      {"type": "Plant", "name": "P. communis"},
+      {"type": "Plant", "name": "Pyrus spinosa"},
+      {"type": "Plant", "name": "Cacopsylla notata"},
+      {"type": "Plant", "name": "Pyrus korshinskyi"},
+      {"type": "Pest", "name": "Cacopsylla pyrisuga"},
+      {"type": "Pest", "name": "C. pyri"},
+      {"type": "Pest", "name": "C. pyricola"},
+      {"type": "Pest", "name": "C. fera"},
+      {"type": "Pest", "name": "C. bidens"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Spodoptera frugiperda", "type": "Have been found on", "target": "maize crops"},
+      {"source": "Spodoptera frugiperda", "type": "Causes", "target": "maize lethal necrosis"},
+      {"source": "maize lethal necrosis", "type": "Affects", "target": "maize crops"},
+      {"source": "corn leafhopper", "type": "Transmit", "target": "Spodoptera frugiperda"},
+      {"source": "Cacopsylla pyrisuga", "type": "Located in", "target": "Britain"},
+      {"source": "C. pyri", "type": "Located in", "target": "Western Europe"},
+      {"source": "C. pyricola", "type": "Located in", "target": "Western Europe"},
+      {"source": "C. fera", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "C. fera", "type": "Located in", "target": "Turkey"},
+      {"source": "C. bidens", "type": "Located in", "target": "Mediterranean Basin"},
+      {"source": "C. bidens", "type": "Located in", "target": "Middle East"},
+      {"source": "Cacopsylla notata", "type": "Have been found on", "target": "Pyrus spinosa"},
+      {"source": "C. fera", "type": "Have been found on", "target": "Pyrus korshinskyi"}
+    ]
+  }
+]
+

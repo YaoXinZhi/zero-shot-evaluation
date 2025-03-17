@@ -1,0 +1,49 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Fall Armyworm"},
+      {"type": "Pest", "name": "Spodoptera frugiperda"},
+      {"type": "Plant", "name": "maize crops"},
+      {"type": "Disease", "name": "maize lethal necrosis"},
+      {"type": "Vector", "name": "corn leafhopper"},
+      {"type": "Vector", "name": "Dalbulus maidis"},
+      {"type": "Geographic", "name": "Kenya"},
+      {"type": "Geographic", "name": "South America"},
+      {"type": "Plant", "name": "European pear"},
+      {"type": "Plant", "name": "P. communis"},
+      {"type": "Plant", "name": "Pyrus spinosa"},
+      {"type": "Plant", "name": "wild pear"},
+      {"type": "Plant", "name": "Pryus korshinskyi"},
+      {"type": "Geographic", "name": "Britain"},
+      {"type": "Geographic", "name": "Western Europe"},
+      {"type": "Geographic", "name": "Uzbekistan"},
+      {"type": "Geographic", "name": "Turkey"},
+      {"type": "Geographic", "name", "neighboring regions"},
+      {"type": "Geographic", "name": "Mediterranean Basin"},
+      {"type": "Geographic", "name": "Middle East"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fall Armyworm", "type": "Located in", "target": "Kenya"},
+      {"source": "Spodoptera frugiperda", "type": "Located in", "target": "Kenya"},
+      {"source": "Fall Armyworm", "type": "Causes", "target": "maize lethal necrosis"},
+      {"source": "maize lethal necrosis", "type": "Affects", "target": "maize crops"},
+      {"source": "Fall Armyworm", "type": "Have been found on", "target": "maize crops"},
+      {"source": "Spodoptera frugiperda", "type": "Have been found on", "target": "maize crops"},
+      {"source": "corn leafhopper", "type": "Transmit", "target": "Fall Armyworm"},
+      {"source": "Dalbulus maidis", "type": "Transmit", "target": "Spodoptera frugiperda"},
+      {"source": "European pear", "type": "Located in", "target": "Britain"},
+      {"source": "European pear", "type": "Located in", "target": "Western Europe"},
+      {"source": "Pyrus spinosa", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Pyrus spinosa", "type": "Located in", "target": "Turkey"},
+      {"source": "Pyrus spinosa", "type": "Located in", "target": "neighboring regions"},
+      {"source": "wild pear", "type": "Located in", "target": "Mediterranean Basin"},
+      {"source": "wild pear", "type": "Located in", "target": "Middle East"},
+      {"source": "Pryus korshinskyi", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Pryus korshinskyi", "type": "Located in", "target": "Turkey"},
+      {"source": "Pryus korshinskyi", "type": "Located in", "target": "neighboring regions"}
+    ]
+  }
+]
+

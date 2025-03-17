@@ -1,0 +1,32 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Fall Armyworm (Spodoptera frugiperda)"},
+      {"type": "Pest", "name": "corn leafhopper (Dalbulus maidis)"},
+      {"type": "Plant", "name": "maize crops"},
+      {"type": "Disease", "name": "maize lethal necrosis"},
+      {"type": "Geographic", "name": "Kenya"},
+      {"type": "Geographic", "name": "South America"},
+      {"type": "Geographic", "name": "Britain"},
+      {"type": "Geographic", "name": "Western Europe"},
+      {"type": "Geographic", "name": "Uzbekistan"},
+      {"type": "Geographic", "name": "Turkey"},
+      {"type": "Geographic", "name": "Mediterranean Basin"},
+      {"type": "Geographic", "name": "Middle East"},
+      {"type": "Plant", "name": "European pear (P. communis)"},
+      {"type": "Plant", "name": "Pyrus spinosa Forsskål"},
+      {"type": "Plant", "name": "wild pear Pryus korshinskyi Litvinov"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fall Armyworm (Spodoptera frugiperda)", "type": "Have been found on", "target": "maize crops"},
+      {"source": "Fall Armyworm (Spodoptera frugiperda)", "type": "Causes", "target": "maize lethal necrosis"},
+      {"source": "maize lethal necrosis", "type": "Affects", "target": "maize crops"},
+      {"source": "corn leafhopper (Dalbulus maidis)", "type": "Transmit", "target": "Fall Armyworm (Spodoptera frugiperda)"},
+      {"source": "Cacopsylla notata (Flor)", "type": "Have been found on", "target": "Pyrus spinosa Forsskål"},
+      {"source": "Cacopsylla fera (Burckhardt and Hodkinson 1986)", "type": "Have been found on", "target": "wild pear Pryus korshinskyi Litvinov"}
+    ]
+  }
+]
+

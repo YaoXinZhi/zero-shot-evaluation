@@ -1,0 +1,30 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Dictyophara europaea"},
+      {"type": "Pest", "name": "'Candidatus Phytoplasma solani'"},
+      {"type": "Disease", "name": "Bois noir"},
+      {"type": "Plant", "name": "grapevine"},
+      {"type": "Plant", "name": "grapevine yellows"},
+      {"type": "Vector", "name": "cixiids Hyalesthes obsoletus"},
+      {"type": "Vector", "name": "Reptalus panzeri"},
+      {"type": "Disease", "name": "Flavescence dorée phytoplasma"},
+      {"type": "Plant", "name": "Catharanthus roseus"},
+      {"type": "Geographic", "name": "European vineyards"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "'Candidatus Phytoplasma solani'", "type": "Causes", "target": "Bois noir"},
+      {"source": "Bois noir", "type": "Affects", "target": "grapevine yellows"},
+      {"source": "cixiids Hyalesthes obsoletus", "type": "Transmit", "target": "'Candidatus Phytoplasma solani'"},
+      {"source": "Reptalus panzeri", "type": "Transmit", "target": "'Candidatus Phytoplasma solani'"},
+      {"source": "Dictyophara europaea", "type": "Transmit", "target": "'Candidatus Phytoplasma solani'"},
+      {"source": "Flavescence dorée phytoplasma", "type": "Affects", "target": "grapevine"},
+      {"source": "Flavescence dorée phytoplasma", "type": "Affects", "target": "European vineyards"}
+    ]
+  }
+]
+```
+

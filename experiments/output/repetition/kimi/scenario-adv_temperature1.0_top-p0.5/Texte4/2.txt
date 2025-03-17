@@ -1,0 +1,28 @@
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Dictyophara europaea"},
+      {"type": "Disease", "name": "Bois noir"},
+      {"type": "Disease", "name": "grapevine yellows"},
+      {"type": "Pest", "name": "Candidatus Phytoplasma solani"},
+      {"type": "Plant", "name": "grapevines"},
+      {"type": "Vector", "name": "Hyalesthes obsoletus"},
+      {"type": "Vector", "name": "Reptalus panzeri"},
+      {"type": "Plant", "name": "Catharanthus roseus"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bois noir", "type": "Affects", "target": "grapevines"},
+      {"source": "grapevine yellows", "type": "Affects", "target": "grapevines"},
+      {"source": "Candidatus Phytoplasma solani", "type": "Causes", "target": "Bois noir"},
+      {"source": "Candidatus Phytoplasma solani", "type": "Causes", "target": "grapevine yellows"},
+      {"source": "Dictyophara europaea", "type": "Transmit", "target": "Candidatus Phytoplasma solani"},
+      {"source": "Hyalesthes obsoletus", "type": "Transmit", "target": "Candidatus Phytoplasma solani"},
+      {"source": "Reptalus panzeri", "type": "Transmit", "target": "Candidatus Phytoplasma solani"},
+      {"source": "Dictyophara europaea", "type": "Have been found on", "target": "Catharanthus roseus"},
+      {"source": "Candidatus Phytoplasma solani", "type": "Have been found on", "target": "grapevines"}
+    ]
+  }
+]
+
