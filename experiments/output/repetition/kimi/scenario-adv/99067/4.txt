@@ -1,0 +1,213 @@
+{
+  "entities": [
+    {
+      "type": "Plant",
+      "name": "citrus plants"
+    },
+    {
+      "type": "Pest",
+      "name": "Phytophthora"
+    },
+    {
+      "type": "Pest",
+      "name": "viruses and viroids"
+    },
+    {
+      "type": "Pest",
+      "name": "nematodes"
+    },
+    {
+      "type": "Pest",
+      "name": "CTV-Citrus tristeza virus"
+    },
+    {
+      "type": "Disease",
+      "name": "Huanglongbing (HLB) or Citrus greening"
+    },
+    {
+      "type": "Disease",
+      "name": "yellow branch disease"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus fruits"
+    },
+    {
+      "type": "Plant",
+      "name": "Tarocco Scirè"
+    },
+    {
+      "type": "Plant",
+      "name": "Mandared"
+    },
+    {
+      "type": "Geographic",
+      "name": "Italy"
+    },
+    {
+      "type": "Geographic",
+      "name": "Sicily"
+    },
+    {
+      "type": "Geographic",
+      "name": "United States"
+    },
+    {
+      "type": "Geographic",
+      "name": "Spain"
+    },
+    {
+      "type": "Geographic",
+      "name": "California"
+    },
+    {
+      "type": "Plant",
+      "name": "citrus rootstocks"
+    },
+    {
+      "type": "Plant",
+      "name": "US-942"
+    },
+    {
+      "type": "Plant",
+      "name": "US-897"
+    },
+    {
+      "type": "Plant",
+      "name": "Californian Bitters"
+    },
+    {
+      "type": "Plant",
+      "name": "C35"
+    },
+    {
+      "type": "Plant",
+      "name": "Carrizo"
+    },
+    {
+      "type": "Plant",
+      "name": "Furr"
+    },
+    {
+      "type": "Plant",
+      "name": "Bitters"
+    },
+    {
+      "type": "Plant",
+      "name": "Carpenter"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "citrus plants",
+      "type": "Have been found on",
+      "target": "citrus rootstocks"
+    },
+    {
+      "source": "Phytophthora",
+      "type": "Affects",
+      "target": "citrus plants"
+    },
+    {
+      "source": "viruses and viroids",
+      "type": "Affects",
+      "target": "citrus plants"
+    },
+    {
+      "source": "nematodes",
+      "type": "Affects",
+      "target": "citrus plants"
+    },
+    {
+      "source": "CTV-Citrus tristeza virus",
+      "type": "Affects",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Huanglongbing (HLB) or Citrus greening",
+      "type": "Affects",
+      "target": "citrus plants"
+    },
+    {
+      "source": "yellow branch disease",
+      "type": "Affects",
+      "target": "citrus plants"
+    },
+    {
+      "source": "citrus rootstocks",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "citrus rootstocks",
+      "type": "Located in",
+      "target": "Sicily"
+    },
+    {
+      "source": "US-942",
+      "type": "Have been found on",
+      "target": "citrus plants"
+    },
+    {
+      "source": "US-897",
+      "type": "Have been found on",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Californian Bitters",
+      "type": "Have been found on",
+      "target": "citrus plants"
+    },
+    {
+      "source": "C35",
+      "type": "Have been found on",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Carrizo",
+      "type": "Have been found on",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Furr",
+      "type": "Have been found on",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Bitters",
+      "type": "Have been found on",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Carpenter",
+      "type": "Have been found on",
+      "target": "citrus plants"
+    },
+    {
+      "source": "Californian Bitters",
+      "type": "Located in",
+      "target": "California"
+    },
+    {
+      "source": "C35",
+      "type": "Located in",
+      "target": "California"
+    },
+    {
+      "source": "Furr",
+      "type": "Located in",
+      "target": "California"
+    },
+    {
+      "source": "Bitters",
+      "type": "Located in",
+      "target": "California"
+    },
+    {
+      "source": "Carpenter",
+      "type": "Located in",
+      "target": "California"
+    }
+  ]
+}
+

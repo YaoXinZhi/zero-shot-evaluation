@@ -1,0 +1,40 @@
+{
+  "entities": [
+    {"type": "Disease", "name": "banana bunchy"},
+    {"type": "Plant", "name": "banana bunches"},
+    {"type": "Plant", "name": "banana"},
+    {"type": "Geographic", "name": "Arua district"},
+    {"type": "Geographic", "name": "West Nile region"},
+    {"type": "Geographic", "name": "Uganda"},
+    {"type": "Geographic", "name": "Kasese district"},
+    {"type": "Geographic", "name": "Mpondwe"},
+    {"type": "Geographic", "name": "Kamwenge"},
+    {"type": "Geographic", "name": "Kitagwenda"},
+    {"type": "Geographic", "name": "Rwenzori Mountains"},
+    {"type": "Geographic", "name": "Democratic Republic of the Congo (DRC)"},
+    {"type": "Geographic", "name": "Buganda"},
+    {"type": "Geographic", "name": "Ankole"},
+    {"type": "Geographic", "name": "Malawi"},
+    {"type": "Geographic", "name": "Asia"},
+    {"type": "Pest", "name": "banana bacterial wilt"}
+  ],
+  "relationships": [
+    {"source": "banana bunchy", "type": "Affects", "target": "banana bunches"},
+    {"source": "banana bunchy", "type": "Affects", "target": "banana"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Arua district"},
+    {"source": "banana bunchy", "type": "Located in", "target": "West Nile region"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Uganda"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Kasese district"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Mpondwe"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Kamwenge"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Kitagwenda"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Rwenzori Mountains"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Democratic Republic of the Congo (DRC)"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Buganda"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Ankole"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Malawi"},
+    {"source": "banana bunchy", "type": "Located in", "target": "Asia"},
+    {"source": "banana bacterial wilt", "type": "Affects", "target": "banana"}
+  ]
+}
+

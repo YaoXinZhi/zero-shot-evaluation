@@ -1,0 +1,121 @@
+{
+  "entities": [
+    {
+      "type": "Disease",
+      "name": "stem blight and dieback"
+    },
+    {
+      "type": "Plant",
+      "name": "highbush blueberry"
+    },
+    {
+      "type": "Plant",
+      "name": "Vaccinium corymbosum"
+    },
+    {
+      "type": "Geographic",
+      "name": "Italy"
+    },
+    {
+      "type": "Geographic",
+      "name": "Northern Italy"
+    },
+    {
+      "type": "Geographic",
+      "name": "Peveragno"
+    },
+    {
+      "type": "Geographic",
+      "name": "Piedmont"
+    },
+    {
+      "type": "Geographic",
+      "name": "Cuneo Province"
+    },
+    {
+      "type": "Pest",
+      "name": "Diaporthe eres"
+    },
+    {
+      "type": "Plant",
+      "name": "blueberry"
+    },
+    {
+      "type": "Plant",
+      "name": "Vaccinium spp."
+    },
+    {
+      "type": "Plant",
+      "name": "Machilus thunbergii"
+    },
+    {
+      "type": "Plant",
+      "name": "Vaccinium virgatum"
+    },
+    {
+      "type": "Plant",
+      "name": "Hardy Kiwifruit"
+    },
+    {
+      "type": "Plant",
+      "name": "Populus davidiana × P. bolleana"
+    },
+    {
+      "type": "Pest",
+      "name": "Nigrospora sphaerica"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "highbush blueberry",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "Vaccinium corymbosum",
+      "type": "Located in",
+      "target": "Northern Italy"
+    },
+    {
+      "source": "stem blight and dieback",
+      "type": "Located in",
+      "target": "Italy"
+    },
+    {
+      "source": "Diaporthe eres",
+      "type": "Causes",
+      "target": "stem blight and dieback"
+    },
+    {
+      "source": "stem blight and dieback",
+      "type": "Affects",
+      "target": "highbush blueberry"
+    },
+    {
+      "source": "Diaporthe eres",
+      "type": "Have been found on",
+      "target": "highbush blueberry"
+    },
+    {
+      "source": "Vaccinium spp.",
+      "type": "Located in",
+      "target": "Chile"
+    },
+    {
+      "source": "Vaccinium spp.",
+      "type": "Located in",
+      "target": "Lithuania"
+    },
+    {
+      "source": "Vaccinium spp.",
+      "type": "Located in",
+      "target": "the Netherlands"
+    },
+    {
+      "source": "Vaccinium spp.",
+      "type": "Located in",
+      "target": "the U.S.A."
+    }
+  ]
+}
+

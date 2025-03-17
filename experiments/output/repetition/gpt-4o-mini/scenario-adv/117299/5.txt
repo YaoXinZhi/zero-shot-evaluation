@@ -1,0 +1,25 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "Cavendish banana"},
+    {"type": "Disease", "name": "Panama disease"},
+    {"type": "Pest", "name": "Fusarium Race 4 Tropical"},
+    {"type": "Geographic", "name": "Israel"},
+    {"type": "Geographic", "name": "Netherlands"},
+    {"type": "Geographic", "name": "Philippines"},
+    {"type": "Company", "name": "Rahan Meristem"},
+    {"type": "Person", "name": "Luis Alberto Restrepo"},
+    {"type": "Company", "name": "Banarica Colombia"},
+    {"type": "Geographic", "name": "Colombia"},
+    {"type": "Geographic", "name": "Wageningen University"}
+  ],
+  "relationships": [
+    {"source": "Fusarium Race 4 Tropical", "type": "Causes", "target": "Panama disease"},
+    {"source": "Cavendish banana", "type": "Have been found on", "target": "Panama disease"},
+    {"source": "Panama disease", "type": "Affects", "target": "Cavendish banana"},
+    {"source": "Cavendish banana", "type": "Located in", "target": "Israel"},
+    {"source": "Cavendish banana", "type": "Located in", "target": "Netherlands"},
+    {"source": "Cavendish banana", "type": "Located in", "target": "Philippines"},
+    {"source": "Cavendish banana", "type": "Located in", "target": "Colombia"}
+  ]
+}
+

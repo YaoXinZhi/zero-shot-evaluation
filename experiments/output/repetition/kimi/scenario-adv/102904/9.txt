@@ -1,0 +1,20 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Pest", "name": "‘Candidatus Liberibacter asiaticus’"},
+      {"type": "Plant", "name": "Pera sweet orange"},
+      {"type": "Plant", "name": "Sweet Orange"},
+      {"type": "Plant", "name": "Citrus× sinensis(L.) Osbeck"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "‘Candidatus Liberibacter asiaticus’", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "Sweet Orange"},
+      {"source": "‘Candidatus Liberibacter asiaticus’", "type": "Have been found on", "target": "Sweet Orange"},
+      {"source": "Pera sweet orange", "type": "Have been found on", "target": "sarcotoxin IA"}
+    ]
+  }
+]
+

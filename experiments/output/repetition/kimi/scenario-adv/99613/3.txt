@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "type": "Vector",
+      "name": "Philaenus spumarius"
+    },
+    {
+      "type": "Pest",
+      "name": "Xylella fastidiosa"
+    },
+    {
+      "type": "Pest",
+      "name": "spittlebugs"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Philaenus spumarius",
+      "type": "Transmit",
+      "target": "Xylella fastidiosa"
+    },
+    {
+      "source": "Philaenus spumarius",
+      "type": "Have been found on",
+      "target": "spittlebugs"
+    }
+  ]
+}
+

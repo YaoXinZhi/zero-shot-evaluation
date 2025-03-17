@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "type": "Pest",
+      "name": "Bursaphelenchus xylophilus"
+    },
+    {
+      "type": "Disease",
+      "name": "pine wilt disease"
+    },
+    {
+      "type": "Plant",
+      "name": "pine trees"
+    },
+    {
+      "type": "Plant",
+      "name": "pinewood"
+    },
+    {
+      "type": "Vector",
+      "name": "Monochamus spp."
+    },
+    {
+      "type": "Vector",
+      "name": "Monochamus beetles"
+    },
+    {
+      "type": "Plant",
+      "name": "Caenorhabditis elegans"
+    },
+    {
+      "type": "Geographic",
+      "name": "Japan"
+    },
+    {
+      "type": "Geographic",
+      "name": "Asian countries"
+    },
+    {
+      "type": "Geographic",
+      "name": "Europe"
+    }
+  ],
+  "relationships": [
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Causes",
+      "target": "pine wilt disease"
+    },
+    {
+      "source": "pine wilt disease",
+      "type": "Affects",
+      "target": "pine trees"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Have been found on",
+      "target": "pine trees"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Transmit",
+      "target": "Monochamus spp."
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Transmit",
+      "target": "Monochamus beetles"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "Japan"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "Asian countries"
+    },
+    {
+      "source": "Bursaphelenchus xylophilus",
+      "type": "Located in",
+      "target": "Europe"
+    }
+  ]
+}
+

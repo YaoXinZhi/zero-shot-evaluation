@@ -1,0 +1,56 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Geographic", "name": "City of Buenos Aires"},
+      {"type": "Geographic", "name": "Argentina"},
+      {"type": "Pest", "name": "Diaphorina citri. Kuwayama"},
+      {"type": "Disease", "name": "HLB Disease"},
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Geographic", "name": "Northwest Argentina (NOA)"},
+      {"type": "Geographic", "name": "Provinces of JUJUY"},
+      {"type": "Geographic", "name": "Provinces of SALTA"},
+      {"type": "Geographic", "name": "Provinces of TUCUMÁN"},
+      {"type": "Geographic", "name": "Provinces of CATAMARCA"},
+      {"type": "Geographic", "name": "Argentine Northeast region (NEA)"},
+      {"type": "Geographic", "name": "Provinces of ENTRE RÍOS"},
+      {"type": "Geographic", "name": "Provinces of CORRIENTES"},
+      {"type": "Geographic", "name": "Provinces of MISIONES"},
+      {"type": "Geographic", "name": "Provinces of CHACO"},
+      {"type": "Geographic", "name": "Provinces of FORMOSA"},
+      {"type": "Geographic", "name": "Provinces of SANTIAGO DEL ESTERO"},
+      {"type": "Geographic", "name": "Provinces of SANTA FE"},
+      {"type": "Geographic", "name": "Leales Department"},
+      {"type": "Geographic", "name": "Town of Villa de Medinas"},
+      {"type": "Geographic", "name": "Capayán Department"},
+      {"type": "Geographic", "name": "Province of TUCUMÁN"},
+      {"type": "Geographic", "name": "Province of CATAMARCA"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Diaphorina citri. Kuwayama", "type": "Transmit", "target": "HLB Disease"},
+      {"source": "HLB Disease", "type": "Affects", "target": "citrus plants"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Northwest Argentina (NOA)"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Provinces of JUJUY"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Provinces of SALTA"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Provinces of TUCUMÁN"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Provinces of CATAMARCA"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Provinces of ENTRE RÍOS"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Provinces of CORRIENTES"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Provinces of MISIONES"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Provinces of CHACO"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Provinces of FORMOSA"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Provinces of SANTIAGO DEL ESTERO"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Provinces of SANTA FE"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Leales Department"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Town of Villa de Medinas"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Capayán Department"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Province of TUCUMÁN"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Province of CATAMARCA"}
+    ]
+  }
+]
+```
+

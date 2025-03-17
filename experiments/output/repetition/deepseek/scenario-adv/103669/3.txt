@@ -1,0 +1,19 @@
+{
+  "entities": [
+    {"type": "Plant", "name": "sorghum"},
+    {"type": "Plant", "name": "corn"},
+    {"type": "Pest", "name": "fall armyworm"},
+    {"type": "Disease", "name": "fall armyworm larvae"},
+    {"type": "Geographic", "name": "Penn State"}
+  ],
+  "relationships": [
+    {"source": "sorghum", "type": "Have been found on", "target": "fall armyworm"},
+    {"source": "corn", "type": "Have been found on", "target": "fall armyworm"},
+    {"source": "fall armyworm", "type": "Causes", "target": "fall armyworm larvae"},
+    {"source": "fall armyworm larvae", "type": "Affects", "target": "corn"},
+    {"source": "fall armyworm larvae", "type": "Affects", "target": "sorghum"},
+    {"source": "sorghum", "type": "Located in", "target": "Penn State"},
+    {"source": "corn", "type": "Located in", "target": "Penn State"}
+  ]
+}
+

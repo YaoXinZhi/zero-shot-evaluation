@@ -1,0 +1,33 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Cavendish banana plants"},
+      {"type": "Pest", "name": "Fusarium fungus"},
+      {"type": "Disease", "name": "Panama disease"},
+      {"type": "Pest", "name": "tropical race 1 (TR1)"},
+      {"type": "Pest", "name": "TR4"},
+      {"type": "Plant", "name": "Gros Michel"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Geographic", "name": "Netherlands"},
+      {"type": "Geographic", "name": "Wageningen University"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fusarium fungus", "type": "Causes", "target": "Panama disease"},
+      {"source": "tropical race 1 (TR1)", "type": "Causes", "target": "Panama disease"},
+      {"source": "TR4", "type": "Causes", "target": "Panama disease"},
+      {"source": "Cavendish banana plants", "type": "Located in", "target": "Brazil"},
+      {"source": "Gert Kema", "type": "Located in", "target": "Wageningen University"},
+      {"source": "Wageningen University", "type": "Located in", "target": "Netherlands"},
+      {"source": "Fusarium fungus", "type": "Have been found on", "target": "Cavendish banana plants"},
+      {"source": "tropical race 1 (TR1)", "type": "Have been found on", "target": "Cavendish banana plants"},
+      {"source": "TR4", "type": "Have been found on", "target": "Cavendish banana plants"},
+      {"source": "Panama disease", "type": "Affects", "target": "Cavendish banana plants"},
+      {"source": "Panama disease", "type": "Affects", "target": "Gros Michel"}
+    ]
+  }
+]
+```
+
