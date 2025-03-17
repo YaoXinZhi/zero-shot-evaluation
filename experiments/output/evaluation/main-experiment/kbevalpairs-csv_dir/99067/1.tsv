@@ -1,0 +1,24 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Partial Match	0.5	True	Located in	Located in	0.5	cultivation of citrus fruits, citrus fruits, citrus, citrus cultivation, citrus plants	citrus fruits	1.0	Italy	Italy
+Partial Match	0.5	True	Located in	Located in	1.0	Tristeza	Tristeza	0.5	Sicily, Sicily Region	Sicily
+Match	1.0	True	Located in	Located in	1.0	Tristeza	Tristeza	1.0	Italy	Italy
+Match	1.0	True	Affects	Affects	1.0	Tristeza	Tristeza	1.0	cultivation of citrus fruits, citrus fruits, citrus, citrus cultivation, citrus plants	citrus plants
+Partial Match	0.25	True	Located in	Located in	0.5	cultivation of citrus fruits, citrus fruits, citrus, citrus cultivation, citrus plants	citrus fruits	0.5	Sicily, Sicily Region	Sicily
+Partial Match	0.5	True	Located in	Located in	0.5	cultivation of citrus fruits, citrus fruits, citrus, citrus cultivation, citrus plants	citrus fruits	1.0	Spain	Spain
+Partial Match	0.5	True	Located in	Located in	0.5	cultivation of citrus fruits, citrus fruits, citrus, citrus cultivation, citrus plants	citrus fruits	1.0	USA, United States	United States
+False Negative	0.0		Located in			cultivation of citrus fruits, citrus fruits, citrus, citrus cultivation, citrus plants			Etnean capital	
+False Negative	0.0		Located in			HLB			Spain	
+False Negative	0.0		Located in			HLB			USA, United States	
+False Negative	0.0		Affects			HLB			cultivation of citrus fruits, citrus fruits, citrus, citrus cultivation, citrus plants	
+False Negative	0.0		Located in			HLB			Mediterranean	
+False Negative	0.0		Located in			HLB disease			USA, United States	
+False Negative	0.0		Located in			cultivation of citrus fruits, citrus fruits, citrus, citrus cultivation, citrus plants			Acireale	
+False Positive	0.0			Located in			Huanglongbing (HLB)			United States
+False Positive	0.0			Located in			Huanglongbing (HLB)			Spain
+False Positive	0.0			Have been found on			Phytophthora			citrus plants
+False Positive	0.0			Have been found on			nematodes			citrus plants
+False Positive	0.0			Have been found on			CTV-Citrus tristeza virus			citrus plants
+False Positive	0.0			Have been found on			bacteria			citrus plants
+False Positive	0.0			Transmit			vector insects			bacteria
+False Positive	0.0			Affects			Huanglongbing (HLB)			citrus plants
+False Positive	0.0			Affects			Citrus greening			citrus plants
