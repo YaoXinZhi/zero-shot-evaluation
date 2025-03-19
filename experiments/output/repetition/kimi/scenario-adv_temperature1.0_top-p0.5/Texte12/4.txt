@@ -1,0 +1,77 @@
+[
+  {
+    "entities": [
+      {
+        "type": "Vector",
+        "name": "Bactrocera dorsalis"
+      },
+      {
+        "type": "Plant",
+        "name": "host plant"
+      },
+      {
+        "type": "Compound",
+        "name": "odorant binding protein"
+      },
+      {
+        "type": "Compound",
+        "name": "BdorOBP13"
+      },
+      {
+        "type": "Compound",
+        "name": "methyl eugenol"
+      },
+      {
+        "type": "Compound",
+        "name": "γ-octalactone"
+      },
+      {
+        "type": "Compound",
+        "name": "benzothiazole"
+      },
+      {
+        "type": "Compound",
+        "name": "+dipentene"
+      },
+      {
+        "type": "Compound",
+        "name": "ethyl tiglate"
+      }
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "source": "BdorOBP13",
+        "type": "Located in",
+        "target": "antennae"
+      },
+      {
+        "source": "Bactrocera dorsalis",
+        "type": "Transmit",
+        "target": "Compound"
+      },
+      {
+        "source": "BdorOBP13",
+        "type": "Have been found on",
+        "target": "host plant"
+      },
+      {
+        "source": "BdorOBP13",
+        "type": "Located in",
+        "target": "Bactrocera dorsalis"
+      },
+      {
+        "source": "BdorOBP13",
+        "type": "Transmit",
+        "target": "methyl eugenol"
+      },
+      {
+        "source": "BdorOBP13",
+        "type": "Transmit",
+        "target": "γ-octalactone"
+      }
+    ]
+  }
+]
+

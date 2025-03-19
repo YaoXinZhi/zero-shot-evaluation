@@ -1,0 +1,25 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "host plant"},
+      {"type": "Vector", "name": "BdorOBP13"},
+      {"type": "Vector", "name": "methyl eugenol"},
+      {"type": "Vector", "name": "γ-octalactone"},
+      {"type": "Vector", "name": "benzothiazole"},
+      {"type": "Vector", "name": "dipentene"},
+      {"type": "Vector", "name": "ethyl tiglate"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "host plant"},
+      {"source": "BdorOBP13", "type": "Transmit", "target": "Bactrocera dorsalis"},
+      {"source": "methyl eugenol", "type": "Transmit", "target": "Bactrocera dorsalis"},
+      {"source": "γ-octalactone", "type": "Transmit", "target": "Bactrocera dorsalis"}
+    ]
+  }
+]
+```
+

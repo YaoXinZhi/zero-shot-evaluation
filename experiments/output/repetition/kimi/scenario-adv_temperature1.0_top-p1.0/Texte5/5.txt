@@ -1,0 +1,20 @@
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Balclutha"},
+      {"type": "Pest", "name": "Nasuia"},
+      {"type": "Pest", "name": "Sulcia"},
+      {"type": "Pest", "name": "Sodalis-like symbionts"},
+      {"type": "Plant", "name": "Deltochevalinae leafhoppers"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Balclutha", "type": "Have been found on", "target": "Sulcia"},
+      {"source": "Balclutha", "type": "Have been found on", "target": "Sodalis-like symbionts"},
+      {"source": "Sulcia", "type": "Located in", "target": "Balclutha"},
+      {"source": "Sodalis-like symbionts", "type": "Located in", "target": "Balclutha"}
+    ]
+  }
+]
+

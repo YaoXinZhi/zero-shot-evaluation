@@ -1,0 +1,16 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Vector", "name": "methyl eugenol"},
+      {"type": "Vector", "name": "γ-octalactone"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "methyl eugenol", "type": "Transmit", "target": "Bactrocera dorsalis"},
+      {"source": "γ-octalactone", "type": "Transmit", "target": "Bactrocera dorsalis"}
+    ]
+  }
+]
+

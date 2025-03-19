@@ -1,0 +1,65 @@
+[
+  {
+    "entities": [
+      {
+        "type": "Disease",
+        "name": "Flavescence dorée"
+      },
+      {
+        "type": "Plant",
+        "name": "grapevine"
+      },
+      {
+        "type": "Geographic",
+        "name": "South Tyrol"
+      },
+      {
+        "type": "Geographic",
+        "name": "Europe"
+      },
+      {
+        "type": "Vector",
+        "name": "American vine leafhopper"
+      },
+      {
+        "type": "Pest",
+        "name": "Flavescence dorèe-Phytoplasma"
+      }
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "source": "Flavescence dorée",
+        "type": "Causes",
+        "target": "Flavescence dorèe-Phytoplasma"
+      },
+      {
+        "source": "Flavescence dorée",
+        "type": "Affects",
+        "target": "grapevine"
+      },
+      {
+        "source": "American vine leafhopper",
+        "type": "Transmit",
+        "target": "Flavescence dorèe-Phytoplasma"
+      },
+      {
+        "source": "Flavescence dorée",
+        "type": "Located in",
+        "target": "South Tyrol"
+      },
+      {
+        "source": "American vine leafhopper",
+        "type": "Located in",
+        "target": "Europe"
+      },
+      {
+        "source": "American vine leafhopper",
+        "type": "Have been found on",
+        "target": "grapevine"
+      }
+    ]
+  }
+]
+

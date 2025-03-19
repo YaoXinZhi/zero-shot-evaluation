@@ -1,0 +1,66 @@
+[
+  {
+    "entities": [
+      {
+        "type": "Vector",
+        "name": "Bactrocera dorsalis"
+      },
+      {
+        "type": "Pest",
+        "name": "BdorOBP13"
+      },
+      {
+        "type": "Plant",
+        "name": "host plant"
+      },
+      {
+        "type": "Compound",
+        "name": "methyl eugenol"
+      },
+      {
+        "type": "Compound",
+        "name": "γ-octalactone"
+      }
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "source": "Bactrocera dorsalis",
+        "type": "Transmit",
+        "target": "BdorOBP13"
+      },
+      {
+        "source": "BdorOBP13",
+        "type": "Have been found on",
+        "target": "host plant"
+      },
+      {
+        "source": "BdorOBP13",
+        "type": "Located in",
+        "target": "Bactrocera dorsalis"
+      },
+      {
+        "source": "Bactrocera dorsalis",
+        "type": "Have been found on",
+        "target": "host plant"
+      },
+      {
+        "source": "BdorOBP13",
+        "type": "Located in",
+        "target": "antennae"
+      },
+      {
+        "source": "BdorOBP13",
+        "type": "Transmit",
+        "target": "methyl eugenol"
+      },
+      {
+        "source": "BdorOBP13",
+        "type": "Transmit",
+        "target": "γ-octalactone"
+      }
+    ]
+  }
+]
+

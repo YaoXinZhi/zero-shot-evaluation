@@ -1,0 +1,27 @@
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "crops"},
+      {"type": "Pest", "name": "pests"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Plant", "name": "potato aphid"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "United Nations"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "world"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "crops", "type": "Affects", "target": "pests"},
+      {"source": "crops", "type": "Affects", "target": "plant diseases"},
+      {"source": "strawberries", "type": "Located in", "target": "UK"},
+      {"source": "pests", "type": "Located in", "target": "world"},
+      {"source": "plant diseases", "type": "Located in", "target": "world"},
+      {"source": "strawberries", "type": "Have been found on", "target": "potato aphid"},
+      {"source": "strawberries", "type": "Affects", "target": "UK economy"}
+    ]
+  }
+]
+

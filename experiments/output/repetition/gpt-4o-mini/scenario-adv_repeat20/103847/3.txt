@@ -1,0 +1,12 @@
+{
+  "entities": [
+    {"type": "Pest", "name": "Xylella fastidiosa"},
+    {"type": "Geographic", "name": "Tavira"},
+    {"type": "Disease", "name": "outbreak of Xylella fastidiosa"}
+  ],
+  "relationships": [
+    {"source": "Xylella fastidiosa", "type": "Located in", "target": "Tavira"},
+    {"source": "outbreak of Xylella fastidiosa", "type": "Affects", "target": "Tavira"}
+  ]
+}
+

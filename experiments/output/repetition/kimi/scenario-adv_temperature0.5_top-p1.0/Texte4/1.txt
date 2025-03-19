@@ -1,0 +1,25 @@
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Dictyophara europaea"},
+      {"type": "Disease", "name": "grapevine yellows"},
+      {"type": "Pest", "name": "Candidatus Phytoplasma solani"},
+      {"type": "Plant", "name": "grapevines"},
+      {"type": "Vector", "name": "Hyalesthes obsoletus"},
+      {"type": "Vector", "name": "Reptalus panzeri"},
+      {"type": "Plant", "name": "Catharanthus roseus"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "grapevine yellows", "type": "Causes", "target": "Candidatus Phytoplasma solani"},
+      {"source": "Candidatus Phytoplasma solani", "type": "Transmit", "target": "Dictyophara europaea"},
+      {"source": "Candidatus Phytoplasma solani", "type": "Transmit", "target": "Hyalesthes obsoletus"},
+      {"source": "Candidatus Phytoplasma solani", "type": "Transmit", "target": "Reptalus panzeri"},
+      {"source": "Dictyophara europaea", "type": "Have been found on", "target": "grapevines"},
+      {"source": "Candidatus Phytoplasma solani", "type": "Have been found on", "target": "grapevines"},
+      {"source": "grapevine yellows", "type": "Affects", "target": "grapevines"}
+    ]
+  }
+]
+

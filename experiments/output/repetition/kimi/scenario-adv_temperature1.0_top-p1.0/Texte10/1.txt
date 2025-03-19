@@ -1,0 +1,26 @@
+[
+  {
+    "entities": [
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "United Nations"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Disease", "name": "disease"},
+      {"type": "Entity", "name": "Integrated Pest Management"},
+      {"type": "Entity", "name": "VOCs"},
+      {"type": "Entity", "name": "Biotechnology and Biological Sciences Research Council"},
+      {"type": "Entity", "name": "Natural Environment Research Council"},
+      {"type": "Geographic", "name": "UK"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Aston University", "type": "Located in", "target": "Midlands"},
+      {"source": "Harper Adams University", "type": "Located in", "target": "Midlands"},
+      {"source": "strawberries", "type": "Have been found on", "target": "potato aphid"},
+      {"source": "plant diseases", "type": "Affects", "target": "农作物"},
+      {"source": "potato aphid", "type": "Transmit", "target": "disease"}
+    ]
+  }
+]
+

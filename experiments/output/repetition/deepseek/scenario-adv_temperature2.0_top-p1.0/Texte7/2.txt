@@ -1,0 +1,26 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Geographic", "name": "South Tyrol"},
+      {"type": "Geographic", "name": "Laimburg Research Center"},
+      {"type": "Plant", "name": "Chardonnay"},
+      {"type": "Plant", "name": "Pinot Grigio"},
+      {"type": "Plant", "name": "vineyards"},
+      {"type": "Disease", "name": "black wood disease"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "flavescence dorée", "type": "Located in", "target": "South Tyrol"},
+      {"source": "vineyards", "type": "Located in", "target": "South Tyrol"},
+      {"source": "flavescence dorée", "type": "Affects", "target": "vineyards"},
+      {"source": "flavescence dorée", "type": "Affects", "target": "Chardonnay"},
+      {"source": "flavescence dorée", "type": "Affects", "target": "Pinot Grigio"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Laimburg Research Center"}
+    ]
+  }
+]
+```
+

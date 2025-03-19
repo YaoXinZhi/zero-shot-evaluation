@@ -1,0 +1,31 @@
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Dictyophara europaea"},
+      {"type": "Pest", "name": "'Candidatus Phytoplasma solani'"},
+      {"type": "Disease", "name": "Bois noir"},
+      {"type": "Plant", "name": "grapevine"},
+      {"type": "Disease", "name": "grapevine yellows"},
+      {"type": "Vector", "name": "Hyalesthes obsoletus"},
+      {"type": "Vector", "name": "Reptalus panzeri"},
+      {"type": "Disease", "name": "Flavescence dorée phytoplasma"},
+      {"type": "Geographic", "name": "European vineyards"},
+      {"type": "Plant", "name": "Catharanthus roseus"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Dictyophara europaea", "type": "Transmit", "target": "'Candidatus Phytoplasma solani'"},
+      {"source": "'Candidatus Phytoplasma solani'", "type": "Causes", "target": "Bois noir"},
+      {"source": "Bois noir", "type": "Affects", "target": "grapevine"},
+      {"source": "grapevine yellows", "type": "Affects", "target": "grapevine"},
+      {"source": "Hyalesthes obsoletus", "type": "Transmit", "target": "'Candidatus Phytoplasma solani'"},
+      {"source": "Reptalus panzeri", "type": "Transmit", "target": "'Candidatus Phytoplasma solani'"},
+      {"source": "Dictyophara europaea", "type": "Have been found on", "target": "grapevine"},
+      {"source": "Flavescence dorée phytoplasma", "type": "Affects", "target": "grapevine"},
+      {"source": "grapevine", "type": "Located in", "target": "European vineyards"},
+      {"source": "Dictyophara europaea", "type": "Have been found on", "target": "Catharanthus roseus"}
+    ]
+  }
+]
+

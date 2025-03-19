@@ -1,0 +1,24 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Plant", "name": "vines"},
+      {"type": "Geographic", "name": "Salorno"},
+      {"type": "Geographic", "name": "Bassa Atesina"},
+      {"type": "Geographic", "name": "Burgraviato"},
+      {"type": "Plant", "name": "plants"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "flavescence dorée", "type": "Located in", "target": "Burgraviato"},
+      {"source": "flavescence dorée", "type": "Affects", "target": "vines"},
+      {"source": "flavescence dorée", "type": "Affects", "target": "plants"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Salorno"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Bassa Atesina"}
+    ]
+  }
+]
+```
+

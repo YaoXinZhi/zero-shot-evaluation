@@ -1,0 +1,29 @@
+[
+  {
+    "entities": [
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Organization", "name": "Aston University"},
+      {"type": "Organization", "name": "Harper Adams University"},
+      {"type": "Organization", "name": "Food and Agriculture Organization of the United Nations"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Organization", "name": "Biotechnology and Biological Sciences Research Council"},
+      {"type": "Organization", "name": "Natural Environment Research Council"},
+      {"type": "Person", "name": "Joe Roberts"},
+      {"type": "Organization", "name": "Aston Institute of Photonic Technologies"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Aston University", "type": "Located in", "target": "Midlands"},
+      {"source": "Harper Adams University", "type": "Located in", "target": "Midlands"},
+      {"source": "strawberries", "type": "Affects", "target": "UK economy"},
+      {"source": "strawberries", "type": "Have been found on", "target": "potato aphid"},
+      {"source": "Biotechnology and Biological Sciences Research Council", "type": "Grants", "target": "the new project"},
+      {"source": "Natural Environment Research Council", "type": "Grants", "target": "the new project"},
+      {"source": "Joe Roberts", "type": "Affiliate", "target": "Harper Adams University"},
+      {"source": "Joe Roberts", "type": "Affiliate", "target": "Aston Institute of Photonic Technologies"}
+    ]
+  }
+]
+

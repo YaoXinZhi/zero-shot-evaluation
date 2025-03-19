@@ -1,0 +1,36 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Diaphorina citri. kuwayama"},
+      {"type": "Disease", "name": "HLB Disease"},
+      {"type": "Geographic", "name": "City of Buenos Aires"},
+      {"type": "Geographic", "name": "NORTHWEST ARGENTINA (NOA)"},
+      {"type": "Geographic", "name": "ARGENTINA"},
+      {"type": "Geographic", "name": "ENTRE RÍOS"},
+      {"type": "Geographic", "name": "CORRIENTES"},
+      {"type": "Geographic", "name": "MISIONES"},
+      {"type": "Geographic", "name": "CHACO"},
+      {"type": "Geographic", "name": "FORMOSA"},
+      {"type": "Geographic", "name": "SANTIAGO DEL ESTERO"},
+      {"type": "Geographic", "name": "SALTA"},
+      {"type": "Geographic", "name": "JUJUY"},
+      {"type": "Geographic", "name": "SANTA FE"},
+      {"type": "Geographic", "name": "Province of TUCUMÁN"},
+      {"type": "Geographic", "name": "Province of CATAMARCA"},
+      {"type": "Geographic", "name": "Argentine Northeast region (NEA)"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Diaphorina citri. kuwayama", "type": "Transmit", "target": "HLB Disease"},
+      {"source": "HLB Disease", "type": "Located in", "target": "ARGENTINA"},
+      {"source": "Diaphorina citri. kuwayama", "type": "Have been found on", "target": "citrus-producing areas"},
+      {"source": "Province of TUCUMÁN", "type": "Located in", "target": "NORTHWEST ARGENTINA (NOA)"},
+      {"source": "Province of CATAMARCA", "type": "Located in", "target": "NORTHWEST ARGENTINA (NOA)"},
+      {"source": "Diaphorina citri. kuwayama", "type": "Have been found on", "target": "citrus farms"}
+    ]
+  }
+]
+```
+

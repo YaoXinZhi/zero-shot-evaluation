@@ -1,0 +1,18 @@
+[
+  {
+    "entities": [
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "United Nations"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Pest", "name": "potato aphid"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Midlands", "type": "Located in", "target": "UK"},
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"}
+    ]
+  }
+]
+

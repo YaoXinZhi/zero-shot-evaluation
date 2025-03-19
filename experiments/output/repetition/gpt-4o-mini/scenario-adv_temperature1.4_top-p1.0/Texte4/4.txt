@@ -1,0 +1,22 @@
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Dictyophara europaea"},
+      {"type": "Disease", "name": "‘Candidatus Phytoplasma solani’ Bois noir"},
+      {"type": "Plant", "name": "grapevine"},
+      {"type": "Pest", "name": "Hyalesthes obsoletus"},
+      {"type": "Pest", "name": "Reptalus panzeri"},
+      {"type": "Plant", "name": "Catharanthus roseus"},
+      {"type": "Disease", "name": "Flavescence dorée"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Hyalesthes obsoletus", "type": "Transmit", "target": "‘Candidatus Phytoplasma solani’ Bois noir"},
+      {"source": "Reptalus panzeri", "type": "Transmit", "target": "‘Candidatus Phytoplasma solani’ Bois noir"},
+      {"source": "‘Candidatus Phytoplasma solani’ Bois noir", "type": "Affects", "target": "grapevine"},
+      {"source": "Dictyophara europaea", "type": "Transmit", "target": "‘Candidatus Phytoplasma solani’ Bois noir"}
+    ]
+  }
+]
+

@@ -1,0 +1,23 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Balclutha calamagrostis"},
+      {"type": "Pest", "name": "Balclutha punctata"},
+      {"type": "Pest", "name": "Nasuia"},
+      {"type": "Pest", "name": "Sulcia"},
+      {"type": "Pest", "name": "Sodalis-like symbionts"},
+      {"type": "Pest", "name": "Gammaproteobacteria"},
+      {"type": "Pest", "name": "Proteobacteria"},
+      {"type": "Pest", "name": "Deltochelalinae leafhoppers"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Balclutha calamagrostis", "type": "Have been found on", "target": "Sulcia"},
+      {"source": "Balclutha punctata", "type": "Have been found on", "target": "Sulcia"},
+      {"source": "Sodalis-like symbionts", "type": "Located in", "target": "fat body cells"},
+      {"source": "Sodalis-like symbionts", "type": "Located in", "target": "bacteriomes"}
+    ]
+  }
+]
+

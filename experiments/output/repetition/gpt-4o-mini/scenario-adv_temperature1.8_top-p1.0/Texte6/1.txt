@@ -1,0 +1,22 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Golden flavescence"},
+      {"type": "Geographic", "name": "Burgraviato"},
+      {"type": "Plant", "name": "vines"},
+      {"type": "Geographic", "name": "Bassa Atesina"},
+      {"type": "Plant", "name": "symptomatic vines"},
+      {"type": "Plant", "name": "diseased plants"},
+      {"type": "Plant", "name": "vineyard"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Golden flavescence", "type": "Affects", "target": "vines"},
+      {"source": "Golden flavescence", "type": "Located in", "target": "Burgraviato"},
+      {"source": "symptomatic vines", "type": "Have been found on", "target": "vines"},
+      {"source": "diseased plants", "type": "Have been found on", "target": "vineyard"}
+    ]
+  }
+]
+

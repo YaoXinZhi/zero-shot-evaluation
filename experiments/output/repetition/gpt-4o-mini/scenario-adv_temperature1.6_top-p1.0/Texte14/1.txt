@@ -1,0 +1,25 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Cacopsylla pyrisuga"},
+      {"type": "Pest", "name": "C. pyri"},
+      {"type": "Pest", "name": "C. pyricola"},
+      {"type": "Pest", "name": "Cacopsylla fera"},
+      {"type": "Pest", "name": "Cacpsylla bidens"},
+      {"type": "Pest", "name": "C. bidens"},
+      {"type": "Pest", "name": "Cacopsylla notata"},
+      {"type": "Pussy", "name": "P. communis"},
+      {"type": "Plant", "name": "Pyrus spinosa"},
+      {"type": "Plant", "name": "Pryus korshinskyi"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "C. bidens", "type": "Have been found on", "target": "Pryus korshinskyi"},
+      {"source": "Cacopsylla notata", "type": "Have been found on", "target": "Pyrus spinosa"},
+      {"source": "P. communis", "type": "Have been found on", "target": "Cacopsylla pyrisuga"},
+      {"source": "Cacopsylla pyrisuga", "type": "Have been found on", "target": "P. communis"}
+    ]
+  }
+]
+

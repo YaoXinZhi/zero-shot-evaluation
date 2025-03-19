@@ -1,0 +1,25 @@
+[
+  {
+    "entities": [
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "University", "name": "Aston University"},
+      {"type": "University", "name": "Harper Adams University"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Pest", "name": "invertebrate pests"},
+      {"type": "Disease", "name": "crop losses"},
+      {"type": "Disease", "name": "disease formation"},
+      {"type": "Pest", "name": "pests"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Affects", "target": "strawberries"},
+      {"source": "invertebrate pests", "type": "Have been found on", "target": "crops"},
+      {"source": "disease formation", "type": "Affects", "target": "plants"}
+    ]
+  }
+]
+

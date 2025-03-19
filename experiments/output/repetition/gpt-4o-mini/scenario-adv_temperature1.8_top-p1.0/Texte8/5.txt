@@ -1,0 +1,21 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Flavescence dorée"},
+      {"type": "Plant", "name": "grapevine"},
+      {"type": "Pest", "name": "Flavescence dorèe-Phytoplasma (FDp)"},
+      {"type": "Vector", "name": "American vine leafhopper"},
+      {"type": "Geographic", "name": "South Tyrol"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Flavescence dorée", "type": "Affects", "target": "grapevine"},
+      {"source": "Flavescence dorène-Phytoplasma (FDp)", "type": "Causes", "target": "Flavescence dorée"},
+      {"source": "American vine leafhopper", "type": "Transmit", "target": "Flavescence dorène-Phytoplasma (FDp)"},
+      {"source": "Flavescence dorée", "type": "Located in", "target": "South Tyrol"},
+      {"source": "Flavescence dorée", "type": "Located in", "target": "all over the world"}
+    ]
+  }
+]
+

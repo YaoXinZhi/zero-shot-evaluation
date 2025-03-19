@@ -1,0 +1,25 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "host plant"},
+      {"type": "Plant", "name": "Orchids"},
+      {"type": "Plant", "name": "Guava"},
+      {"type": "Plant", "name": "Mango"},
+      {"type": "Plant", "name": "Peach"},
+      {"type": "Plant", "name": "Citrus"},
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "host plant"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "Orchids"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "Guava"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "Mango"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "Peach"},
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "Citrus"},
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "Taiwan"},
+]
+}
+]
+

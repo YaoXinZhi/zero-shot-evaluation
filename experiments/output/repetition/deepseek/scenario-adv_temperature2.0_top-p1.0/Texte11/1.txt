@@ -1,0 +1,19 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella bacterium"},
+      {"type": "Disease", "name": "disease"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Geographic", "name": "Bari"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella bacterium", "type": "Have been found on", "target": "olive trees"},
+      {"source": "disease", "type": "Affects", "target": "olive trees"},
+      {"source": "Xylella bacterium", "type": "Causes", "target": "disease"},
+      {"source": "olive trees", "type": "Located in", "target": "Bari"}
+    ]
+  }
+]
+

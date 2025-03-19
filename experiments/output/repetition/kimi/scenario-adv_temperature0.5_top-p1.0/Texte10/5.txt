@@ -1,0 +1,34 @@
+[
+  {
+    "entities": [
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "United Nations"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Pest", "name": "insects"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Organization", "name": "Aston University"},
+      {"type": "Organization", "name": "Harper Adams University"},
+      {"type": "Organization", "name": "Food and Agriculture Organization"},
+      {"type": "Organization", "name": "Biotechnology and Biological Sciences Research Council"},
+      {"type": "Organization", "name": "Natural Environment Research Council"},
+      {"type": "Person", "name": "David Webb"},
+      {"type": "Person", "name", "Joe Roberts"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Aston University", "type": "Located in", "target": "Midlands"},
+      {"source": "Harper Adams University", "type": "Located in", "target": "Midlands"},
+      {"source": "Food and Agriculture Organization", "type": "Located in", "target": "United Nations"},
+      {"source": "strawberries", "type": "Located in", "target": "UK"},
+      {"source": "strawberries", "type": "Have been found on", "target": "potato aphid"},
+      {"source": "plant diseases", "type": "Affects", "target": "strawberries"},
+      {"source": "insects", "type": "Have been found on", "target": "strawberries"},
+      {"source": "David Webb", "type": "Associated with", "target": "Aston University"},
+      {"source": "Joe Roberts", "type": "Associated with", "target": "Harper Adams University"}
+    ]
+  }
+]
+

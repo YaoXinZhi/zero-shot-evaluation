@@ -1,0 +1,51 @@
+[
+  {
+    "entities": [
+      {
+        "type": "Disease",
+        "name": "flavescence dorée"
+      },
+      {
+        "type": "Geographic",
+        "name": "Burgarato"
+      },
+      {
+        "type": "Geographic",
+        "name": "Bassa Atesina"
+      },
+      {
+        "type": "Geographic",
+        "name": "Salorno"
+      },
+      {
+        "type": "Plant",
+        "name": "vines"
+      }
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "source": "flavescence dorée",
+        "type": "Located in",
+        "target": "Burgarato"
+      },
+      {
+        "source": "flavescence dorée",
+        "type": "Located in",
+        "target": "Bassa Atesina"
+      },
+      {
+        "source": "flavescence dorée",
+        "type": "Located in",
+        "target": "Salorno"
+      },
+      {
+        "source": "flavescence dorée",
+        "type": "Affects",
+        "target": "vines"
+      }
+    ]
+  }
+]
+

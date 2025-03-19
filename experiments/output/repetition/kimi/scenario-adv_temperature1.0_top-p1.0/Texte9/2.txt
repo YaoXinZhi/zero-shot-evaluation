@@ -1,0 +1,92 @@
+[
+  {
+    "entities": [
+      {
+        "type": "Pest",
+        "name": "Philaenus spumarius"
+      },
+      {
+        "type": "Pest",
+        "name": "Artianus interstitialis"
+      },
+      {
+        "type": "Pest",
+        "name": "Fieberiella florii"
+      },
+      {
+        "type": "Vector",
+        "name": "psyllids"
+      },
+      {
+        "type": "Vector",
+        "name": "leafhoppers"
+      },
+      {
+        "type": "Disease",
+        "name": "apple proliferation"
+      },
+      {
+        "type": "Plant",
+        "name": "apple"
+      },
+      {
+        "type": "Plant",
+        "name": "celery"
+      },
+      {
+        "type": "Geographic",
+        "name": "Germany"
+      }
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "source": "Philaenus spumarius",
+        "type": "Transmit",
+        "target": "apple proliferation"
+      },
+      {
+        "source": "Artianus interstitialis",
+        "type": "Transmit",
+        "target": "apple proliferation"
+      },
+      {
+        "source": "leafhoppers",
+        "type": "Transmit",
+        "target": "apple proliferation"
+      },
+      {
+        "source": "apple proliferation",
+        "type": "Affects",
+        "target": "apple"
+      },
+      {
+        "source": "Fieberiella florii",
+        "type": "Transmit",
+        "target": "apple proliferation"
+      },
+      {
+        "source": "Artianus interstitialis",
+        "type": "Have been found on",
+        "target": "apple"
+      },
+      {
+        "source": "Artianus interstitialis",
+        "type": "Have been found on",
+        "target": "celery"
+      },
+      {
+        "source": "Philaenus spumarius",
+        "type": "Have been found on",
+        "target": "apple"
+      },
+      {
+        "source": "Philaenus spumarius",
+        "type": "Have been found on",
+        "target": "celery"
+      }
+    ]
+  }
+]
+

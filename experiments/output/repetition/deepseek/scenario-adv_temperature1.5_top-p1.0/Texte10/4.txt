@@ -1,0 +1,26 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "crops"},
+      {"type": "Pest", "name": "pests"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "Aston University"},
+      {"type": "Geographic", "name": "Harper Adams University"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "crops", "type": "Located in", "target": "Midlands"},
+      {"source": "strawberries", "type": "Located in", "target": "UK"},
+      {"source": "strawberries", "type": "Affects", "target": "potato aphid"},
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"}
+    ]
+  }
+]
+```
+

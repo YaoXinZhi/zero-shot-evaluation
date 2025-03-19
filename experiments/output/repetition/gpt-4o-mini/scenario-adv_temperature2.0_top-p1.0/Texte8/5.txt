@@ -1,0 +1,18 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Flavescence dorée"},
+      {"type": "Plant", "name": "grapevine"},
+      {"type": "Pest", "name": "Flavescence dorèe-Phytoplasma (FDp)"},
+      {"type": "Vector", "name": "American vine leafhopper"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Flavescence dorèe-Phytoplasma (FDp)", "type": "Causes", "target": "Flavescence dorée"},
+      {"source": "Flavescence dorée", "type": "Affects", "target": "grapevine"},
+      {"source": "American vine leafhopper", "type": "Transmit", "target": "Flavescence dorèe-Phytoplasma (FDp)"}
+    ]
+  }
+]
+

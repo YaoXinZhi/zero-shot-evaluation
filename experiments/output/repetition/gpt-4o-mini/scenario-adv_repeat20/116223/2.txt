@@ -1,0 +1,30 @@
+[
+  {
+    "entities": [
+      {"type": "Geographic", "name": "Veracruz"},
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Plant", "name": "Persian lemon"},
+      {"type": "Plant", "name": "orange"},
+      {"type": "Plant", "name": "tangerine"},
+      {"type": "Plant", "name": "grapefruit"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Pest", "name": "Huanglongbing"},
+      {"type": "Entity", "name": "National Agrifood Health, Safety and Quality Service (Senasica)"},
+      {"type": "Entity", "name": "Secretary of Agricultural, Rural, Fisheries and Food Development (Sedarpa)"},
+      {"type": "Entity", "name": "Postgraduate College"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "citrus plants", "type": "Located in", "target": "Veracruz"},
+      {"source": "Persian lemon", "type": "Located in", "target": "Veracruz"},
+      {"source": "orange", "type": "Located in", "target": "Veracruz"},
+      {"source": "tangerine", "type": "Located in", "target": "Veracruz"},
+      {"source": "grapefruit", "type": "Located in", "target": "Veracruz"},
+      {"source": "HLB", "type": "Located in", "target": "Veracruz"},
+      {"source": "Huanglongbing", "type": "Causes", "target": "HLB"},
+      {"source": "Huanglongbing", "type": "Have been found on", "target": "citrus plants"}
+    ]
+  }
+]
+

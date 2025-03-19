@@ -1,0 +1,87 @@
+[
+  {
+    "entities": [
+      {
+        "type": "Pest",
+        "name": "Bactrocera dorsalis"
+      },
+      {
+        "type": "Vector",
+        "name": "Odorant-binding proteins (OBPs)"
+      },
+      {
+        "type": "Vector",
+        "name": "BdorOBP13"
+      },
+      {
+        "type": "Plant",
+        "name": "host plant"
+      },
+      {
+        "type": "Vector",
+        "name": "methyl eugenol (male attractant)"
+      },
+      {
+        "type": "Vector",
+        "name": "γ-octalactone (female attractant)"
+      },
+      {
+        "type": "Vector",
+        "name": "benzothiazole"
+      },
+      {
+        "type": "Vector",
+        "name": "ethyl tiglate"
+      },
+      {
+        "type": "Vector",
+        "name": "dipentene"
+      }
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "source": "Bactrocera dorsalis",
+        "type": "Have been found on",
+        "target": "host plant"
+      },
+      {
+        "source": "Odorant-binding proteins (OBPs)",
+        "type": "Transmit",
+        "target": "Bactrocera dorsalis"
+      },
+      {
+        "source": "BdorOBP13",
+        "type": "Transmit",
+        "target": "Bactrocera dorsalis"
+      },
+      {
+        "source": "BdorOBP13",
+        "type": "Transmit",
+        "target": "methyl eugenol (male attractant)"
+      },
+      {
+        "source": "BdorOBP13",
+        "type": "Transmit",
+        "target": "γ-octalactone (female attractant)"
+      },
+      {
+        "source": "BdorOBP13",
+        "type": "Transmit",
+        "target": "benzothiazole"
+      },
+      {
+        "source": "BdorOBP13",
+        "type": "Transmit",
+        "target": "ethyl tiglate"
+      },
+      {
+        "source": "BdorOBP13",
+        "type": "Transmit",
+        "target": "dipentene"
+      }
+    ]
+  }
+]
+

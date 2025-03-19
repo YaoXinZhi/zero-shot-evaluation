@@ -1,0 +1,20 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella"},
+      {"type": "Geographic", "name": "Dissapore"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "National Research Council"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella", "type": "Located in", "target": "Dissapore"},
+      {"source": "Luisa Torsi", "type": "Located in", "target": "Bari"},
+      {"source": "Donato Boscia", "type": "Located in", "target": "Bari"},
+      {"source": "Institute for the Sustainable Protection of Plants (Cnr-Ipsp)", "type": "Located in", "target": "National Research Council"},
+      {"source": "Institute of Photonics and Nanotechnology (Cnr-Ifn)", "type": "Located in", "target": "National Research Council"}
+    ]
+  }
+]
+

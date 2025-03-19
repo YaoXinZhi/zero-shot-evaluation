@@ -1,0 +1,23 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "Food and Agriculture Organization of the United Nations"},
+      {"type": "Geographic", "name": "Aston University"},
+      {"type": "Geographic", "name": "Harper Adams University"},
+      {"type": "Geographic", "name": "Biotechnology and Biological Sciences Research Council (BBSRC)"},
+      {"type": "Geographic", "name": "Natural Environment Research Council"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Affects", "target": "strawberries"}
+    ]
+  }
+]
+

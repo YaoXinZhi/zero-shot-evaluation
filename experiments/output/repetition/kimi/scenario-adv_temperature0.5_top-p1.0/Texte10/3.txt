@@ -1,0 +1,27 @@
+[
+  {
+    "entities": [
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "United Nations"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Plant", "name": "crops"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Entity", "name": "Integrated Pest Management"},
+      {"type": "Entity", "name": "Biotechnology and Biological Sciences Research Council"},
+      {"type": "Entity", "name": "Natural Environment Research Council"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Midlands", "type": "Located in", "target": "UK"},
+      {"source": "Food and Agriculture Organization", "type": "Located in", "target": "United Nations"},
+      {"source": "strawberries", "type": "Have been found on", "target": "crops"},
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Affects", "target": "crops"},
+      {"source": "Integrated Pest Management", "type": "Transmit", "target": "crops"}
+    ]
+  }
+]
+

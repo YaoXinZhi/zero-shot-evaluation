@@ -1,0 +1,27 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "apple proliferation"},
+      {"type": "Vector", "name": "psyllaids"},
+      {"type": "Vector", "name": "leafhoppers"},
+      {"type": "Vector", "name": "Philaenus spumarius"},
+      {"type": "Vector", "name": "Artianus interstitialis"},
+      {"type": "Vector", "name": "Fieberiella florii"},
+      {"type": "Plant", "name": "celery"},
+      {"type": "Plant", "name": "apple seedlings"},
+      {"type": "Geographic", "name": "Germany"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "apple proliferation", "type": "Transmit", "target": "Philaenus spumarius"},
+      {"source": "apple proliferation", "type": "Transmit", "target": "Artianus interstitialis"},
+      {"source": "Philaenus spumarius", "type": "Have been found on", "target": "celery"},
+      {"source": "Artianus interstitialis", "type": "Have been found on", "target": "celery"},
+      {"source": "cellery", "type": "Have been found on", "target": "apple seedlings"},
+      {"source": "leafhoppers", "type": "Transmit", "target": "apple proliferation"},
+      {"source": "Fieberiella florii", "type": "Transmit", "target": "apple proliferation"}
+    ]
+  }
+]
+

@@ -1,0 +1,68 @@
+[
+  {
+    "entities": [
+      {
+        "type": "Pest",
+        "name": "Balclutha calamagrostis"
+      },
+      {
+        "type": "Pest",
+        "name": "Balclutha punctata"
+      },
+      {
+        "type": "Pest",
+        "name": "Deltochelalinae leafhoppers"
+      },
+      {
+        "type": "Pest",
+        "name": "Sodalis-like symbionts"
+      },
+      {
+        "type": "Plant",
+        "name": "Calamaostgris"
+      },
+      {
+        "type": "Plant",
+        "name": "Punctata"
+      },
+      {
+        "type": "Pest",
+        "name": "Nasuia"
+      },
+      {
+        "type": "Pest",
+        "name": "Sulcia"
+      }
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "source": "Nasuia",
+        "type": "Have been found on",
+        "target": "Calamagrostis"
+      },
+      {
+        "source": "Nasuia",
+        "type": "Have been found on",
+        "target": "Punctata"
+      },
+      {
+        "source": "Sulcia",
+        "type": "Have been found on",
+        "target": "Balclutha calamagrostis"
+      },
+      {
+        "source": "Sulcia",
+        "type": "Have been found on",
+        "target": "Balclutha punctata"
+      },
+      {
+        "source": "Sodalis-like symbionts",
+        "type": "Have been found on",
+        "target": "Deltochelalinae leafhoppers"
+      }
+    ]
+  }
+]
+

@@ -1,0 +1,22 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "global"},
+      {"type": "Geographic", "name": "United Nations"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Affects", "target": "strawberries"}
+    ]
+  }
+]
+```
+

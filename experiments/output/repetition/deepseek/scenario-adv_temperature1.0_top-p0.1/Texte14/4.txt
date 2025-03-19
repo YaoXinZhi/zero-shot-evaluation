@@ -1,0 +1,39 @@
+```json
+[
+  {
+    "entities": [
+      {"type": "Geographic", "name": "Britain"},
+      {"type": "Geographic", "name": "Western Europe"},
+      {"type": "Geographic", "name": "Uzbekistan"},
+      {"type": "Geographic", "name": "Turkey"},
+      {"type": "Geographic", "name": "Mediterranean Basin"},
+      {"type": "Geographic", "name": "Middle East"},
+      {"type": "Vector", "name": "Cacopsylla pyrisuga"},
+      {"type": "Vector", "name": "C. pyri"},
+      {"type": "Vector", "name": "C. pyricola"},
+      {"type": "Vector", "name": "Cacopsylla fera"},
+      {"type": "Vector", "name": "Cacopsylla bidens"},
+      {"type": "Vector", "name": "Cacopsylla notata"},
+      {"type": "Plant", "name": "European pear"},
+      {"type": "Plant", "name": "P. communis"},
+      {"type": "Plant", "name": "Pyrus spinosa"},
+      {"type": "Plant", "name": "Pyrus korshinskyi"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Cacopsylla pyrisuga", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyrisuga", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla fera", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Cacopsylla fera", "type": "Located in", "target": "Turkey"},
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "Mediterranean Basin"},
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "Middle East"},
+      {"source": "Cacopsylla pyrisuga", "type": "Have been found on", "target": "European pear"},
+      {"source": "Cacopsylla pyrisuga", "type": "Have been found on", "target": "P. communis"},
+      {"source": "Cacopsylla notata", "type": "Have been found on", "target": "Pyrus spinosa"},
+      {"source": "Cacopsylla fera", "type": "Have been found on", "target": "Pyrus korshinskyi"}
+    ]
+  }
+]
+```
+

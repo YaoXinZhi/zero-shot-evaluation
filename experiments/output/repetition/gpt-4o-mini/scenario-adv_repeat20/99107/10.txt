@@ -1,0 +1,34 @@
+{
+  "entities": [
+    {"type": "Geographic", "name": "Cantabria"},
+    {"type": "Pest", "name": "African Psila"},
+    {"type": "Pest", "name": "Tamarixia dryi"},
+    {"type": "Plant", "name": "citrus trees"},
+    {"type": "Disease", "name": "Huanglongbing"},
+    {"type": "Plant", "name": "lemon"},
+    {"type": "Plant", "name": "orange"},
+    {"type": "Plant", "name": "mandarin trees"},
+    {"type": "Geographic", "name": "Mogro"},
+    {"type": "Geographic", "name": "Miengo"},
+    {"type": "Geographic", "name": "Canary Islands"},
+    {"type": "Geographic", "name": "Galicia"},
+    {"type": "Geographic", "name": "northern Portugal"},
+    {"type": "Geographic", "name": "European Union"}
+  ],
+  "relationships": [
+    {"source": "Tamarixia dryi", "type": "Have been found on", "target": "citrus trees"},
+    {"source": "African Psila", "type": "Affects", "target": "lemon"},
+    {"source": "African Psila", "type": "Affects", "target": "orange"},
+    {"source": "African Psila", "type": "Affects", "target": "mandarin trees"},
+    {"source": "African Psila", "type": "Causes", "target": "Huanglongbing"},
+    {"source": "Huanglongbing", "type": "Affects", "target": "citrus trees"},
+    {"source": "African Psila", "type": "Located in", "target": "Cantabria"},
+    {"source": "African Psila", "type": "Located in", "target": "Mogro"},
+    {"source": "African Psila", "type": "Located in", "target": "Miengo"},
+    {"source": "African Psila", "type": "Located in", "target": "Canary Islands"},
+    {"source": "African Psila", "type": "Located in", "target": "Galicia"},
+    {"source": "African Psila", "type": "Located in", "target": "northern Portugal"},
+    {"source": "Huanglongbing", "type": "Located in", "target": "European Union"}
+  ]
+}
+
