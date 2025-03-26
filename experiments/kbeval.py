@@ -174,9 +174,10 @@ class MergedRelation:
 
 
 class Dataset:
-    def __init__(self, entities, relations):
+    def __init__(self, entities, relations, equivalences):
         self.entities = entities
         self.relations = relations
+        self.equivalences = equivalences
 
     @staticmethod
     def from_json_file(filename):
@@ -197,9 +198,13 @@ class Dataset:
         j = squash_list(j)
         entities = list(Entity(**ent) for ent in j['entities'])
         relations = list(Relation(**rel) for rel in j['relationships'])
+        if 'equivalences' in j:
+            equivalences = list(set(eq) for eq in j['equivalences'])
+        else:
+            equivalences = []
         if len(relations) == 0:
             log('WARNING: empty relations')
-        return Dataset(entities, relations)
+        return Dataset(entities, relations, equivalences)
 
     def merge_ref(self):
         log('merging reference relations')
@@ -209,11 +214,18 @@ class Dataset:
 
     def _merge_ref_entities(self):
         ent_map = dict()
+        eqid_map = dict()
         for ent in self.entities:
             if ent.key in ent_map:
                 ent_map[ent.key].add(ent)
+            elif ent.id_ in eqid_map:
+                eqid_map[ent.id_].add(ent)
             else:
                 me = MergedEntity(ent)
+                for eq in self.equivalences:
+                    if ent.id_ in eq:
+                        for id_ in eq:
+                            eqid_map[id_] = me
                 ent_map[ent.key] = me
                 yield me
     
@@ -232,7 +244,7 @@ class Dataset:
 
 class MergedRefDataset(Dataset):
     def __init__(self, entities, relations):
-        Dataset.__init__(self, entities, relations)
+        Dataset.__init__(self, entities, relations, ())
 
     def _map_name_to_entity(self, pred_ent):
         for ref_ent in self.entities:
