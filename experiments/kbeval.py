@@ -290,9 +290,23 @@ def log_scores(name, scores):
         log(f'  {k}: {v}')
 
 
+def pred_redundant(ref, pred):
+    sim = relation_similarity(standard_type_similarity, standard_arg_similarity)
+    for r in ref:
+        found = False
+        for p in pred:
+            if sim(r, p) == 1.0:
+                if found:
+                    yield p
+                else:
+                    found = True
+
+
 def evaluate(ref, pred, type_sim, arg_sim):
+    redundant = set(pred_redundant(ref.relations, pred.relations))
+    pred_rels = list(p for p in pred.relations if p not in redundant)
     pairing = MunkresPairing(relation_similarity(type_sim, arg_sim))
-    pairs = list(pairing.get_pairs(ref.relations, pred.relations))
+    pairs = list(pairing.get_pairs(ref.relations, pred_rels))
     # for p in pairs:
     #     log(str(p.ref))
     #     log(str(p.pred))
