@@ -194,8 +194,12 @@ class Dataset:
             j = json.loads(jc)
         except json.decoder.JSONDecodeError:
             log('ERROR: malformed JSON')
-            return Dataset([], [])
+            return Dataset([], [], [])
         j = squash_list(j)
+
+        if not j.get('relationships'):
+            j['relationships'] = []
+
         entities = list(Entity(**ent) for ent in j['entities'])
         relations = list(Relation(**rel) for rel in j['relationships'])
         if 'equivalences' in j:
