@@ -1,19 +1,18 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Partial Match	0.25	True	Located in	Located in	0.5	Greening	greening disease	0.5	MG, southwest of Minas Gerais	Minas Gerais
-Partial Match	0.5	True	Located in	Located in	0.5	Greening	greening disease	1.0	São Paulo, SP	São Paulo
+Match	1.0	True	Located in	Located in	1.0	HLB, huanglongbing, greening disease	greening disease	1.0	São Paulo, SP	São Paulo
+Partial Match	0.5	True	Located in	Located in	1.0	HLB, huanglongbing, greening disease	greening disease	0.5	MG, southwest of Minas Gerais	Minas Gerais
+Match	1.0	True	Affects	Affects	1.0	HLB, huanglongbing, greening disease	greening disease	1.0	orange groves	orange groves
 Partial Match	0.5	True	Causes	Causes	1.0	Candidatus Liberibacter spp.	Candidatus Liberibacter spp.	0.5	greening	greening disease
-False Negative	0.0		Located in			huanglongbing			São Paulo, SP	
-False Negative	0.0		Located in			huanglongbing			MG, southwest of Minas Gerais	
-False Negative	0.0		Located in			huanglongbing			regions of Triângulo Mineiro, Triângulo	
-False Negative	0.0		Affects			huanglongbing			citrus	
-False Negative	0.0		Affects			huanglongbing			orange groves	
+False Negative	0.0		Located in			Greening			MG, southwest of Minas Gerais	
+False Negative	0.0		Located in			Greening			São Paulo, SP	
+False Negative	0.0		Located in			HLB, huanglongbing, greening disease			regions of Triângulo Mineiro, Triângulo	
+False Negative	0.0		Affects			HLB, huanglongbing, greening disease			citrus	
 False Negative	0.0		Located in			citrus			São Paulo, SP	
 False Negative	0.0		Located in			citrus			MG, southwest of Minas Gerais	
 False Negative	0.0		Located in			citrus			regions of Triângulo Mineiro, Triângulo	
 False Negative	0.0		Located in			greening			regions of Limeira	
 False Negative	0.0		Located in			greening			regions of Brotas	
 False Negative	0.0		Located in			greening			regions of Porto Ferreira	
-False Positive	0.0			Affects			greening disease			orange groves
 False Positive	0.0			Affects			cancer			orange groves
 False Positive	0.0			Affects			CVC			orange groves
 False Positive	0.0			Located in			cancer			São Paulo

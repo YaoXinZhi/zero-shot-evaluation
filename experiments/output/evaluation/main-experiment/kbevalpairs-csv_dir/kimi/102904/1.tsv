@@ -1,8 +1,7 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Has been found on	Have been found on	1.0	Candidatus Liberibacter asiaticus, CLas	‘Candidatus Liberibacter asiaticus’	1.0	Citrus× sinensis(L.) Osbeck, Pera sweet orange, Sweet Orange	Pera sweet orange
-Match	1.0	True	Causes	Causes	1.0	Candidatus Liberibacter asiaticus, CLas	‘Candidatus Liberibacter asiaticus’	1.0	Huanglongbing	Huanglongbing
-Partial Match	0.45	False	Affects	Causes	1.0	Huanglongbing	Huanglongbing	0.5	citrus, citrus species	citrus disease
+Match	1.0	True	Has been found on	Have been found on	1.0	Candidatus Liberibacter asiaticus, CLas	‘Candidatus Liberibacter asiaticus’	1.0	Citrus× sinensis(L.) Osbeck, Sweet Orange, Pera sweet orange	Pera sweet orange
+Match	1.0	True	Causes	Causes	1.0	Candidatus Liberibacter asiaticus, CLas	‘Candidatus Liberibacter asiaticus’	1.0	HLB, greening, Huanglongbing	Huanglongbing
+Partial Match	0.45	False	Affects	Causes	1.0	HLB, greening, Huanglongbing	Huanglongbing	0.5	citrus, citrus species	citrus disease
 False Negative	0.0		Has been found on			Candidatus Liberibacter asiaticus, CLas			citrus, citrus species	
 False Positive	0.0			Have been found on			‘Candidatus Liberibacter asiaticus’			Transgenic Sweet Orange
-False Positive	0.0			Have been found on			‘Candidatus Liberibacter asiaticus’			Citrus× sinensis(L.) Osbeck
 False Positive	0.0			Affects			Transgenic Sweet Orange			Citrus× sinensis(L.) Osbeck
