@@ -1,24 +1,22 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Partial Match	0.5	True	Located in	Located in	0.5	citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation	citrus fruits	1.0	Italy	Italy
 Partial Match	0.5	True	Located in	Located in	1.0	Tristeza	Tristeza	0.5	Sicily, Sicily Region	Sicily
-Partial Match	0.5	True	Affects	Affects	1.0	Tristeza	Tristeza	0.5	citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation	citrus fruits
-False Negative	0.0		Located in			citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation			Etnean capital	
-False Negative	0.0		Located in			Tristeza			Italy	
-False Negative	0.0		Located in			citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation			Sicily, Sicily Region	
+Match	1.0	True	Located in	Located in	1.0	Tristeza	Tristeza	1.0	Italy	Italy
+Partial Match	0.3	False	Affects	Have been found on	0.3333333333333333	Tristeza	CTV-Citrus tristeza virus	1.0	citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants	citrus plants
+False Negative	0.0		Located in			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants			Italy	
+False Negative	0.0		Located in			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants			Etnean capital	
+False Negative	0.0		Located in			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants			Sicily, Sicily Region	
 False Negative	0.0		Located in			HLB			Spain	
 False Negative	0.0		Located in			HLB			USA, United States	
-False Negative	0.0		Affects			HLB			citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation	
-False Negative	0.0		Located in			citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation			Spain	
-False Negative	0.0		Located in			citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation			USA, United States	
+False Negative	0.0		Affects			HLB			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants	
+False Negative	0.0		Located in			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants			Spain	
+False Negative	0.0		Located in			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants			USA, United States	
 False Negative	0.0		Located in			HLB			Mediterranean	
 False Negative	0.0		Located in			HLB disease			USA, United States	
-False Negative	0.0		Located in			citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation			Acireale	
+False Negative	0.0		Located in			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants			Acireale	
 False Positive	0.0			Located in			Huanglongbing (HLB)			United States
 False Positive	0.0			Located in			Huanglongbing (HLB)			Spain
 False Positive	0.0			Causes			CTV-Citrus tristeza virus			Tristeza
-False Positive	0.0			Causes			bacteria			Huanglongbing (HLB)
-False Positive	0.0			Transmit			vector insects			bacteria
-False Positive	0.0			Affects			Huanglongbing (HLB)			citrus fruits
-False Positive	0.0			Have been found on			Phytophthora			citrus fruits
-False Positive	0.0			Have been found on			nematodes			citrus fruits
-False Positive	0.0			Have been found on			CTV-Citrus tristeza virus			citrus fruits
+False Positive	0.0			Have been found on			Phytophthora			citrus plants
+False Positive	0.0			Have been found on			nematodes			citrus plants
+False Positive	0.0			Affects			Huanglongbing (HLB)			citrus plants
+False Positive	0.0			Affects			Citrus greening			citrus plants

@@ -1,48 +1,51 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Has been found on	Have been found on	1.0	D. eres, Diaporthe eres	Diaporthe eres	1.0	blueberry potted plants cv. Draper and Duke, Vaccinium corymbosum, Vaccinium corymbosum L., cultivated blueberry cultivars, plants of the cultivar (cv.) Draper, highbush blueberry	highbush blueberry
-Match	1.0	True	Located in	Located in	1.0	blueberry potted plants cv. Draper and Duke, Vaccinium corymbosum, Vaccinium corymbosum L., cultivated blueberry cultivars, plants of the cultivar (cv.) Draper, highbush blueberry	highbush blueberry	1.0	Italy	Italy
-Match	1.0	True	Has been found on	Have been found on	1.0	D. eres, Diaporthe eres	Diaporthe eres	1.0	blueberry cultivation, Vaccinium spp., blueberry	Vaccinium spp.
-Partial Match	0.5	True	Located in	Located in	1.0	D. eres, Diaporthe eres	Diaporthe eres	0.5	Netherlands	the Netherlands
-Match	1.0	True	Located in	Located in	1.0	D. eres, Diaporthe eres	Diaporthe eres	1.0	Lithuania	Lithuania
-Match	1.0	True	Located in	Located in	1.0	D. eres, Diaporthe eres	Diaporthe eres	1.0	Chile	Chile
-False Negative	0.0		Located in			D. eres, Diaporthe eres			Italy	
+Match	1.0	True	Has been found on	Have been found on	1.0	Diaporthe eres, D. eres	Diaporthe eres	1.0	blueberry potted plants cv. Draper and Duke, cultivated blueberry cultivars, Vaccinium corymbosum, highbush blueberry, Vaccinium corymbosum L., plants of the cultivar (cv.) Draper	highbush blueberry
+Match	1.0	True	Located in	Located in	1.0	blueberry potted plants cv. Draper and Duke, cultivated blueberry cultivars, Vaccinium corymbosum, highbush blueberry, Vaccinium corymbosum L., plants of the cultivar (cv.) Draper	highbush blueberry	1.0	Italy	Italy
+Match	1.0	True	Has been found on	Have been found on	1.0	Diaporthe eres, D. eres	Diaporthe eres	1.0	blueberry cultivation, Vaccinium spp., blueberry	Vaccinium spp.
+Match	1.0	True	Has been found on	Have been found on	1.0	Diaporthe eres, D. eres	Diaporthe eres	1.0	Machilus thunbergii	Machilus thunbergii
+Match	1.0	True	Causes	Causes	1.0	Diaporthe eres, D. eres	Diaporthe eres	1.0	leaf spot disease	leaf spot disease
+Match	1.0	True	Causes	Causes	1.0	Diaporthe eres, D. eres	Diaporthe eres	1.0	Postharvest Fruit Rot Disease	Postharvest Fruit Rot Disease
+Match	1.0	True	Affects	Affects	1.0	Postharvest Fruit Rot Disease	Postharvest Fruit Rot Disease	1.0	Hardy Kiwifruit	Hardy Kiwifruit
+Match	1.0	True	Causes	Causes	1.0	Nigrospora sphaerica	Nigrospora sphaerica	1.0	passion fruit leaf blight	passion fruit leaf blight
+False Negative	0.0		Located in			Diaporthe eres, D. eres			Italy	
 False Negative	0.0		Located in			blueberry cultivation, Vaccinium spp., blueberry			Europe	
 False Negative	0.0		Located in			blueberry cultivation, Vaccinium spp., blueberry			Northern Italy	
-False Negative	0.0		Located in			blueberry potted plants cv. Draper and Duke, Vaccinium corymbosum, Vaccinium corymbosum L., cultivated blueberry cultivars, plants of the cultivar (cv.) Draper, highbush blueberry			Piedmont	
-False Negative	0.0		Located in			blueberry potted plants cv. Draper and Duke, Vaccinium corymbosum, Vaccinium corymbosum L., cultivated blueberry cultivars, plants of the cultivar (cv.) Draper, highbush blueberry			Cuneo Province	
-False Negative	0.0		Located in			blueberry potted plants cv. Draper and Duke, Vaccinium corymbosum, Vaccinium corymbosum L., cultivated blueberry cultivars, plants of the cultivar (cv.) Draper, highbush blueberry			Peveragno	
-False Negative	0.0		Located in			D. eres, Diaporthe eres			U.S.A	
+False Negative	0.0		Located in			blueberry potted plants cv. Draper and Duke, cultivated blueberry cultivars, Vaccinium corymbosum, highbush blueberry, Vaccinium corymbosum L., plants of the cultivar (cv.) Draper			Piedmont	
+False Negative	0.0		Located in			blueberry potted plants cv. Draper and Duke, cultivated blueberry cultivars, Vaccinium corymbosum, highbush blueberry, Vaccinium corymbosum L., plants of the cultivar (cv.) Draper			Cuneo Province	
+False Negative	0.0		Located in			blueberry potted plants cv. Draper and Duke, cultivated blueberry cultivars, Vaccinium corymbosum, highbush blueberry, Vaccinium corymbosum L., plants of the cultivar (cv.) Draper			Peveragno	
+False Negative	0.0		Located in			Diaporthe eres, D. eres			Netherlands	
+False Negative	0.0		Located in			Diaporthe eres, D. eres			U.S.A	
+False Negative	0.0		Located in			Diaporthe eres, D. eres			Lithuania	
+False Negative	0.0		Located in			Diaporthe eres, D. eres			Chile	
 False Negative	0.0		Located in			blueberry cultivation, Vaccinium spp., blueberry			Netherlands	
 False Negative	0.0		Located in			blueberry cultivation, Vaccinium spp., blueberry			U.S.A	
 False Negative	0.0		Located in			blueberry cultivation, Vaccinium spp., blueberry			Lithuania	
 False Negative	0.0		Located in			blueberry cultivation, Vaccinium spp., blueberry			Chile	
-False Negative	0.0		Located in			D. eres, Diaporthe eres			Piedmont	
-False Negative	0.0		Has been found on			D. eres, Diaporthe eres			Machilus thunbergii	
-False Negative	0.0		Located in			D. eres, Diaporthe eres			Korea	
-False Negative	0.0		Causes			D. eres, Diaporthe eres			leaf spot disease	
+False Negative	0.0		Located in			Diaporthe eres, D. eres			Piedmont	
+False Negative	0.0		Located in			Diaporthe eres, D. eres			Korea	
 False Negative	0.0		Located in			leaf spot disease			Korea	
 False Negative	0.0		Affects			leaf spot disease			Machilus thunbergii	
 False Negative	0.0		Located in			Machilus thunbergii			Korea	
 False Negative	0.0		Has been found on			Diaporthe phoenicicola			Vaccinium virgatum	
 False Negative	0.0		Located in			Diaporthe phoenicicola			China	
 False Negative	0.0		Located in			Vaccinium virgatum			China	
-False Negative	0.0		Causes			D. eres, Diaporthe eres			Postharvest Fruit Rot Disease	
 False Negative	0.0		Located in			Postharvest Fruit Rot Disease			China	
-False Negative	0.0		Affects			Postharvest Fruit Rot Disease			Hardy Kiwifruit	
 False Negative	0.0		Located in			Hardy Kiwifruit			China	
-False Negative	0.0		Has been found on			D. eres, Diaporthe eres			Hardy Kiwifruit	
-False Negative	0.0		Located in			D. eres, Diaporthe eres			China	
+False Negative	0.0		Has been found on			Diaporthe eres, D. eres			Hardy Kiwifruit	
+False Negative	0.0		Located in			Diaporthe eres, D. eres			China	
 False Negative	0.0		Has been found on			Diaporthe cercidis			Populus davidiana × P. bolleana	
 False Negative	0.0		Located in			Diaporthe cercidis			China	
 False Negative	0.0		Has been found on			D. nobilis			Populus davidiana × P. bolleana	
 False Negative	0.0		Located in			D. nobilis			China	
 False Negative	0.0		Located in			Populus davidiana × P. bolleana			China	
-False Negative	0.0		Causes			Nigrospora sphaerica			passion fruit leaf blight	
 False Negative	0.0		Located in			passion fruit leaf blight			China	
 False Negative	0.0		Located in			Nigrospora sphaerica			China	
-False Positive	0.0			Located in			Vaccinium corymbosum			Northern Italy
-False Positive	0.0			Affects			stem blight and dieback			highbush blueberry
 False Positive	0.0			Causes			Diaporthe eres			stem blight and dieback
-False Positive	0.0			Have been found on			Vaccinium corymbosum			Draper
-False Positive	0.0			Have been found on			Vaccinium corymbosum			Duke
-False Positive	0.0			Located in			Diaporthe eres			U.S.A.
+False Positive	0.0			Affects			stem blight and dieback			highbush blueberry
+False Positive	0.0			Located in			Vaccinium corymbosum			Northern Italy
+False Positive	0.0			Causes			Diaporthe phoenicicola			leaf spot
+False Positive	0.0			Affects			leaf spot			blueberry (Vaccinium virgatum)
+False Positive	0.0			Causes			Diaporthe cercidis			Leaf Blotch
+False Positive	0.0			Causes			D. nobilis			Leaf Blotch
+False Positive	0.0			Affects			Leaf Blotch			Populus davidiana × P. bolleana
+False Positive	0.0			Affects			passion fruit leaf blight			passion fruit

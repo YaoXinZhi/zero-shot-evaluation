@@ -1,19 +1,14 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Partial Match	0.5	True	Affects	Affects	1.0	banana bunchy	banana bunchy	0.5	banana plantation, banana variety, bananas, banana, banana plantations	banana
-Partial Match	0.5	True	Located in	Located in	0.5	banana plantation, banana variety, bananas, banana, banana plantations	banana bunchy	1.0	Uganda, West Nile region	West Nile region
-Partial Match	0.5	True	Located in	Located in	0.5	banana plantation, banana variety, bananas, banana, banana plantations	banana bunchy	1.0	Arua district, Arua	Arua district
+Partial Match	0.5	True	Affects	Affects	1.0	banana bunchy	banana bunchy	0.5	banana variety, banana plantations, banana, banana plantation, bananas	banana
+Partial Match	0.5	True	Located in	Located in	0.5	banana variety, banana plantations, banana, banana plantation, bananas	banana bunchy	1.0	West Nile region, Uganda	West Nile region
+Partial Match	0.5	True	Located in	Located in	0.5	banana variety, banana plantations, banana, banana plantation, bananas	banana bunchy	1.0	Arua district, Arua	Arua district
 Partial Match	0.5	True	Located in	Located in	0.5	Banana bunchy top disease	banana bunchy	1.0	Kasese District, Kasese district	Kasese district
-Partial Match	0.5	True	Located in	Located in	0.5	banana plantation, banana variety, bananas, banana, banana plantations	banana bunchy	1.0	Malawi	Malawi
-Partial Match	0.5	True	Located in	Located in	0.5	banana plantation, banana variety, bananas, banana, banana plantations	banana bunchy	1.0	Asia	Asia
-False Negative	0.0		Located in			Banana bunchy top disease			Mpondwe	
-False Negative	0.0		Affects			Banana bunchy top disease			banana plantation, banana variety, bananas, banana, banana plantations	
-False Negative	0.0		Located in			banana suckers			Arua district, Arua	
-False Negative	0.0		Located in			banana suckers			Democratic Republic of the Congo, Democratic Republic of Congo, DRC	
-False Negative	0.0		Located in			bananas			Democratic Republic of the Congo, Democratic Republic of Congo, DRC	
-False Negative	0.0		Located in			bananas			Arua district, Arua	
-False Negative	0.0		Located in			other products from banana plantations			Democratic Republic of the Congo, Democratic Republic of Congo, DRC	
-False Negative	0.0		Located in			other products from banana plantations			Arua district, Arua	
-False Negative	0.0		Located in			banana plantation, banana variety, bananas, banana, banana plantations			Ankole	
-False Negative	0.0		Located in			banana plantation, banana variety, bananas, banana, banana plantations			Buganda	
+Partial Match	0.5	True	Located in	Located in	0.5	Banana bunchy top disease	banana bunchy	1.0	Mpondwe	Mpondwe
+Partial Match	0.5	True	Located in	Located in	0.5	banana variety, banana plantations, banana, banana plantation, bananas	banana bunchy	1.0	Malawi	Malawi
+Partial Match	0.5	True	Located in	Located in	0.5	banana variety, banana plantations, banana, banana plantation, bananas	banana bunchy	1.0	Asia	Asia
+False Negative	0.0		Affects			Banana bunchy top disease			banana variety, banana plantations, banana, banana plantation, bananas	
+False Negative	0.0		Located in			banana variety, banana plantations, banana, banana plantation, bananas			Ankole	
+False Negative	0.0		Located in			banana variety, banana plantations, banana, banana plantation, bananas			Buganda	
 False Negative	0.0		Located in			maize			Malawi	
+False Positive	0.0			Located in			banana bunchy			Uganda
 False Positive	0.0			Located in			banana bunchy			Democratic Republic of the Congo

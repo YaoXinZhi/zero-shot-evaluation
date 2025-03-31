@@ -1,23 +1,22 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Located in	Located in	1.0	Xylella Fastidiosa, Xylella fastidiosa	Xylella Fastidiosa	1.0	metropolitan area of Porto, Porto, Porto Metropolitan Area	Porto Metropolitan Area
-Match	1.0	True	Has been found on	Have been found on	1.0	Xylella Fastidiosa, Xylella fastidiosa	Xylella Fastidiosa	1.0	citrus	citrus
-Match	1.0	True	Located in	Located in	1.0	Xylella Fastidiosa, Xylella fastidiosa	Xylella Fastidiosa	1.0	Vila Nova de Gaia	Vila Nova de Gaia
-Match	1.0	True	Located in	Located in	1.0	Xylella Fastidiosa, Xylella fastidiosa	Xylella Fastidiosa	1.0	Espinho	Espinho
-Match	1.0	True	Located in	Located in	1.0	Xylella Fastidiosa, Xylella fastidiosa	Xylella Fastidiosa	1.0	Santa Maria da Feira	Santa Maria da Feira
-Match	1.0	True	Has been found on	Have been found on	1.0	Xylella Fastidiosa, Xylella fastidiosa	Xylella Fastidiosa	1.0	citrus limon	citrus limon
-Match	1.0	True	Has been found on	Have been found on	1.0	Xylella Fastidiosa, Xylella fastidiosa	Xylella Fastidiosa	1.0	citrus reticulata blanco	citrus reticulata blanco
-Match	1.0	True	Has been found on	Have been found on	1.0	Xylella Fastidiosa, Xylella fastidiosa	Xylella Fastidiosa	1.0	acacia longifolia	acacia longifolia
-Partial Match	0.9	False	Has been found on	Affects	1.0	Xylella Fastidiosa, Xylella fastidiosa	Xylella Fastidiosa	1.0	vine	vine
-Partial Match	0.9	False	Has been found on	Affects	1.0	Xylella Fastidiosa, Xylella fastidiosa	Xylella Fastidiosa	1.0	fig	fig
-Partial Match	0.9	False	Has been found on	Affects	1.0	Xylella Fastidiosa, Xylella fastidiosa	Xylella Fastidiosa	1.0	almond	almond
-Match	1.0	True	Has been found on	Have been found on	1.0	Xylella Fastidiosa, Xylella fastidiosa	Xylella Fastidiosa	1.0	lavender plants	lavender plants
-Partial Match	0.9	False	Has been found on	Affects	1.0	Xylella Fastidiosa, Xylella fastidiosa	Xylella Fastidiosa	1.0	olive	olive
-False Negative	0.0		Located in			citrus			metropolitan area of Porto, Porto, Porto Metropolitan Area	
+Match	1.0	True	Located in	Located in	1.0	Xylella fastidiosa, Xylella Fastidiosa	Xylella Fastidiosa	1.0	metropolitan area of Porto, Porto Metropolitan Area, Porto	Porto Metropolitan Area
+Match	1.0	True	Has been found on	Have been found on	1.0	Xylella fastidiosa, Xylella Fastidiosa	Xylella Fastidiosa	1.0	citrus	citrus
+Match	1.0	True	Located in	Located in	1.0	Xylella fastidiosa, Xylella Fastidiosa	Xylella Fastidiosa	1.0	Vila Nova de Gaia	Vila Nova de Gaia
+Match	1.0	True	Located in	Located in	1.0	Xylella fastidiosa, Xylella Fastidiosa	Xylella Fastidiosa	1.0	Espinho	Espinho
+Match	1.0	True	Located in	Located in	1.0	Xylella fastidiosa, Xylella Fastidiosa	Xylella Fastidiosa	1.0	Santa Maria da Feira	Santa Maria da Feira
+Match	1.0	True	Has been found on	Have been found on	1.0	Xylella fastidiosa, Xylella Fastidiosa	Xylella Fastidiosa	1.0	citrus limon	citrus limon
+Match	1.0	True	Has been found on	Have been found on	1.0	Xylella fastidiosa, Xylella Fastidiosa	Xylella Fastidiosa	1.0	citrus reticulata blanco	citrus reticulata blanco
+Match	1.0	True	Has been found on	Have been found on	1.0	Xylella fastidiosa, Xylella Fastidiosa	Xylella Fastidiosa	1.0	acacia longifolia	acacia longifolia
+Partial Match	0.9	False	Has been found on	Affects	1.0	Xylella fastidiosa, Xylella Fastidiosa	Xylella Fastidiosa	1.0	vine	vine
+Partial Match	0.9	False	Has been found on	Affects	1.0	Xylella fastidiosa, Xylella Fastidiosa	Xylella Fastidiosa	1.0	fig	fig
+Partial Match	0.9	False	Has been found on	Affects	1.0	Xylella fastidiosa, Xylella Fastidiosa	Xylella Fastidiosa	1.0	almond	almond
+Partial Match	0.5	True	Has been found on	Have been found on	1.0	Xylella fastidiosa, Xylella Fastidiosa	Xylella Fastidiosa	0.5	lavender plants	lavender
+Partial Match	0.9	False	Has been found on	Affects	1.0	Xylella fastidiosa, Xylella Fastidiosa	Xylella Fastidiosa	1.0	olive	olive
+False Negative	0.0		Located in			citrus			metropolitan area of Porto, Porto Metropolitan Area, Porto	
 False Negative	0.0		Located in			citrus			Vila Nova de Gaia	
 False Negative	0.0		Located in			citrus			Espinho	
 False Negative	0.0		Located in			citrus			Santa Maria da Feira	
-False Negative	0.0		Located in			Xylella Fastidiosa, Xylella fastidiosa			'zoo' in Vila Nova de Gaia	
-False Negative	0.0		Located in			lavender plants			metropolitan area of Porto, Porto, Porto Metropolitan Area	
+False Negative	0.0		Located in			Xylella fastidiosa, Xylella Fastidiosa			'zoo' in Vila Nova de Gaia	
+False Negative	0.0		Located in			lavender plants			metropolitan area of Porto, Porto Metropolitan Area, Porto	
 False Negative	0.0		Located in			lavender plants			'zoo' in Vila Nova de Gaia	
-False Positive	0.0			Located in			Xylella Fastidiosa			Porto
-False Positive	0.0			Transmit			Philaenus spumarius			Xylella Fastidiosa
+False Positive	0.0			Transmits			Philaenus spumarius			Xylella Fastidiosa

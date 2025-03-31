@@ -1,10 +1,11 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Transmits	Transmit	1.0	Philaenus spumarius, P. spumarius	Philaenus spumarius	1.0	Xylella fastidiosa, X. fastidiosa	Xylella fastidiosa
-False Positive	0.0			Reduce			Pyrethrin			Xylella fastidiosa transmission
-False Positive	0.0			Reduce			acetamiprid			X. fastidiosa inoculation rate
-False Positive	0.0			Alter			deltamethrin			feeding behaviour of P. spumarius
-False Positive	0.0			Alter			acetamiprid			feeding behaviour of P. spumarius
-False Positive	0.0			Alter			Pyrethrin			feeding behaviour of P. spumarius
-False Positive	0.0			Impact			spinosad			feeding behaviour or survival of P. spumarius
-False Positive	0.0			Impact			sulfoxaflor			feeding behaviour or survival of P. spumarius
-False Positive	0.0			Impact			kaolin			feeding behaviour or survival of P. spumarius
+Match	1.0	True	Transmits	Transmits	1.0	Philaenus spumarius, P. spumarius	Philaenus spumarius	1.0	X. fastidiosa, Xylella fastidiosa	Xylella fastidiosa
+False Positive	0.0			Reduces			Pyrethrin			Xylella fastidiosa transmission
+False Positive	0.0			Reduces			acetamiprid			X. fastidiosa inoculation rate
+False Positive	0.0			Alters			deltamethrin			feeding behaviour of P. spumarius
+False Positive	0.0			Is highly toxic against			deltamethrin			P. spumarius
+False Positive	0.0			Alters			acetamiprid			feeding behaviour of P. spumarius
+False Positive	0.0			Is highly toxic against			acetamiprid			P. spumarius
+False Positive	0.0			Does not significantly impact			spinosad			feeding behaviour or survival of P. spumarius
+False Positive	0.0			Does not significantly impact			sulfoxaflor			feeding behaviour or survival of P. spumarius
+False Positive	0.0			Does not significantly impact			kaolin			feeding behaviour or survival of P. spumarius

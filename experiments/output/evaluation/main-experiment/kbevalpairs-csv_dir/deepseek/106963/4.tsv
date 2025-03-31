@@ -1,16 +1,16 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Partial Match	0.3333333333333333	True	Located in	Located in	0.3333333333333333	golden-yellow yellowing	yellowing diseases	1.0	Salurn	Salurn
 Partial Match	0.3333333333333333	True	Located in	Located in	0.3333333333333333	golden-yellow yellowing	yellowing diseases	1.0	Unterland	Unterland
 Match	1.0	True	Located in	Located in	1.0	golden-yellow yellowing	golden-yellow yellowing	1.0	Burggrafenamt, South Tyrol	Burggrafenamt
-Match	1.0	True	Affects	Affects	1.0	golden-yellow yellowing	golden-yellow yellowing	1.0	white wine varieties, vineyards, vine, vines, Chardonnay, vineyard, Pinot Grigio, wine, red wine varieties	vine
-Partial Match	0.5	True	Located in	Located in	0.5	white wine varieties, vineyards, vine, vines, Chardonnay, vineyard, Pinot Grigio, wine, red wine varieties	symptomatic vines	1.0	Salurn	Salurn
+Partial Match	0.3333333333333333	True	Affects	Affects	0.3333333333333333	Golden yellowing	yellowing diseases	1.0	vineyard, vineyards, Pinot Grigio, white wine varieties, Chardonnay, vine, red wine varieties, wine, vines	vine
 Partial Match	0.75	True	Causes	Causes	0.75	FDp, Flavescence dorèe phytoplasma	Flavescence dorèe phytoplasma (FDp)	1.0	golden-yellow yellowing	golden-yellow yellowing
-Partial Match	0.75	True	Transmits	Transmit	1.0	American leafhopper	American leafhopper	0.75	FDp, Flavescence dorèe phytoplasma	Flavescence dorèe phytoplasma (FDp)
-Match	1.0	True	Has been found on	Have been found on	1.0	American leafhopper	American leafhopper	1.0	white wine varieties, vineyards, vine, vines, Chardonnay, vineyard, Pinot Grigio, wine, red wine varieties	vine
-False Negative	0.0		Located in			golden-yellow yellowing			Salurn	
-False Negative	0.0		Located in			white wine varieties, vineyards, vine, vines, Chardonnay, vineyard, Pinot Grigio, wine, red wine varieties			Unterland	
-False Negative	0.0		Located in			white wine varieties, vineyards, vine, vines, Chardonnay, vineyard, Pinot Grigio, wine, red wine varieties			Burggrafenamt, South Tyrol	
-False Negative	0.0		Affects			Golden yellowing			white wine varieties, vineyards, vine, vines, Chardonnay, vineyard, Pinot Grigio, wine, red wine varieties	
-False Negative	0.0		Has been found on			FDp, Flavescence dorèe phytoplasma			white wine varieties, vineyards, vine, vines, Chardonnay, vineyard, Pinot Grigio, wine, red wine varieties	
+Partial Match	0.75	True	Transmits	Transmits	1.0	American leafhopper	American leafhopper	0.75	FDp, Flavescence dorèe phytoplasma	Flavescence dorèe phytoplasma (FDp)
+Match	1.0	True	Has been found on	Have been found on	1.0	American leafhopper	American leafhopper	1.0	vineyard, vineyards, Pinot Grigio, white wine varieties, Chardonnay, vine, red wine varieties, wine, vines	vine
+False Negative	0.0		Affects			golden-yellow yellowing			vineyard, vineyards, Pinot Grigio, white wine varieties, Chardonnay, vine, red wine varieties, wine, vines	
+False Negative	0.0		Located in			vineyard, vineyards, Pinot Grigio, white wine varieties, Chardonnay, vine, red wine varieties, wine, vines			Unterland	
+False Negative	0.0		Located in			vineyard, vineyards, Pinot Grigio, white wine varieties, Chardonnay, vine, red wine varieties, wine, vines			Burggrafenamt, South Tyrol	
+False Negative	0.0		Located in			vineyard, vineyards, Pinot Grigio, white wine varieties, Chardonnay, vine, red wine varieties, wine, vines			Salurn	
+False Negative	0.0		Has been found on			FDp, Flavescence dorèe phytoplasma			vineyard, vineyards, Pinot Grigio, white wine varieties, Chardonnay, vine, red wine varieties, wine, vines	
 False Negative	0.0		Located in			American leafhopper			Europe	
-False Positive	0.0			Located in			Flavescence dorée			South Tyrol
+False Positive	0.0			Located in			yellowing diseases			lowlands
 False Positive	0.0			Affects			Flavescence dorée			vine

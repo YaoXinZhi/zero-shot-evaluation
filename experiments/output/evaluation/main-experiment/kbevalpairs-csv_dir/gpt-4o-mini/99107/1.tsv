@@ -1,17 +1,17 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Partial Match	0.9	False	Has been found on	Affects	1.0	African Psila	African Psila	1.0	mandarin trees	mandarin trees
-Partial Match	0.9	False	Has been found on	Affects	1.0	African Psila	African Psila	1.0	lemon	lemon
-Partial Match	0.9	False	Has been found on	Affects	1.0	African Psila	African Psila	1.0	orange	orange
-Partial Match	0.9	False	Transmits	Causes	1.0	African Psila	African Psila	1.0	Huanglongbing	Huanglongbing
-False Negative	0.0		Located in			varieties of citrus fruits, citrus trees			Cantabrian Coast, Cantabria	
-False Negative	0.0		Located in			African Psila			Cantabrian Coast, Cantabria	
-False Negative	0.0		Has been found on			African Psila			varieties of citrus fruits, citrus trees	
-False Negative	0.0		Located in			lemon			Cantabrian Coast, Cantabria	
-False Negative	0.0		Located in			orange			Cantabrian Coast, Cantabria	
-False Negative	0.0		Located in			mandarin trees			Cantabrian Coast, Cantabria	
-False Negative	0.0		Located in			African Psila			town of Mogro, MOGRO, municipality of Miengo, Miengo	
-False Negative	0.0		Located in			African Psila			Canary Islands	
-False Negative	0.0		Located in			African Psila			northern Portugal	
-False Negative	0.0		Located in			African Psila			Galicia	
+Match	1.0	True	Located in	Located in	1.0	African Psila	African Psila	1.0	Cantabria, Cantabrian Coast	Cantabria
+Partial Match	0.9	False	Has been found on	Affects	1.0	African Psila	African Psila	1.0	varieties of citrus fruits, citrus trees	citrus trees
+Partial Match	0.3333333333333333	True	Located in	Located in	1.0	African Psila	African Psila	0.3333333333333333	Miengo, municipality of Miengo, town of Mogro, MOGRO	Mogro
+Match	1.0	True	Located in	Located in	1.0	African Psila	African Psila	1.0	Canary Islands	Canary Islands
+Match	1.0	True	Located in	Located in	1.0	African Psila	African Psila	1.0	northern Portugal	northern Portugal
+Match	1.0	True	Located in	Located in	1.0	African Psila	African Psila	1.0	Galicia	Galicia
+Partial Match	0.9	False	Transmits	Causes	1.0	African Psila	African Psila	1.0	HLB, greening of trees. citrus, Huanglongbing, Greening	Huanglongbing
+False Negative	0.0		Located in			varieties of citrus fruits, citrus trees			Cantabria, Cantabrian Coast	
+False Negative	0.0		Has been found on			African Psila			mandarin trees	
+False Negative	0.0		Has been found on			African Psila			lemon	
+False Negative	0.0		Has been found on			African Psila			orange	
+False Negative	0.0		Located in			lemon			Cantabria, Cantabrian Coast	
+False Negative	0.0		Located in			orange			Cantabria, Cantabrian Coast	
+False Negative	0.0		Located in			mandarin trees			Cantabria, Cantabrian Coast	
 False Positive	0.0			Have been found on			Tamarixia dryi			citrus trees
 False Positive	0.0			Affects			Huanglongbing			citrus trees

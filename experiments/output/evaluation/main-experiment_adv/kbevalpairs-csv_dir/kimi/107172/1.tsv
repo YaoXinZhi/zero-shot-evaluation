@@ -1,0 +1,13 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Causes	Causes	1.0	tropical race 1, TR1 fungus, TR1	tropical race 1	1.0	Panama disease	Panama disease
+Match	1.0	True	Has been found on	Have been found on	1.0	tropical race 1, TR1 fungus, TR1	tropical race 1	1.0	Cavendish, variety called Gros Michel, Cavendish banana, Cavendish bananas, Gros Michel, Cavendish banana plants	Cavendish banana plants
+Match	1.0	True	Has been found on	Have been found on	1.0	TR4	TR4	1.0	Cavendish, variety called Gros Michel, Cavendish banana, Cavendish bananas, Gros Michel, Cavendish banana plants	Cavendish banana plants
+False Negative	0.0		Affects			Panama disease			Cavendish, variety called Gros Michel, Cavendish banana, Cavendish bananas, Gros Michel, Cavendish banana plants	
+False Negative	0.0		Has been found on			tropical race 1, TR1 fungus, TR1			Bananas, Banana plants, banana, bananas	
+False Negative	0.0		Affects			Panama disease			Bananas, Banana plants, banana, bananas	
+False Negative	0.0		Located in			tropical race 1, TR1 fungus, TR1			Brazil	
+False Negative	0.0		Has been found on			TR4			Bananas, Banana plants, banana, bananas	
+False Positive	0.0			Have been found on			Cavendish banana plants			Fusarium fungus
+False Positive	0.0			Causes			Fusarium fungus			Panama disease
+False Positive	0.0			Causes			TR4			Panama disease
+False Positive	0.0			Located in			Cavendish banana plants			the Netherlands

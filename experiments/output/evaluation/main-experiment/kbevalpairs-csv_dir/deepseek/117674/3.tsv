@@ -1,52 +1,40 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Has been found on	Have been found on	1.0	Diaphorina citri. Kuwayama, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri, Citrus Leafhoppers, HLB insect vector, citrus sharpshooter	Diaphorina citri	1.0	citrus fruits, citrus, citrus plants	citrus plants
-Match	1.0	True	Located in	Located in	1.0	Diaphorina citri. Kuwayama, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri, Citrus Leafhoppers, HLB insect vector, citrus sharpshooter	Diaphorina citri	1.0	Provinces of TUCUMÁN, Province of TUCUMÁN	Province of TUCUMÁN
-Match	1.0	True	Located in	Located in	1.0	Diaphorina citri. Kuwayama, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri, Citrus Leafhoppers, HLB insect vector, citrus sharpshooter	Diaphorina citri	1.0	Villa de Medinas	Villa de Medinas
-Match	1.0	True	Located in	Located in	1.0	Diaphorina citri. Kuwayama, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri, Citrus Leafhoppers, HLB insect vector, citrus sharpshooter	Diaphorina citri	1.0	Chicligasta Department	Chicligasta Department
-Match	1.0	True	Located in	Located in	1.0	Diaphorina citri. Kuwayama, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri, Citrus Leafhoppers, HLB insect vector, citrus sharpshooter	Diaphorina citri	1.0	Capayán Department	Capayán Department
-Match	1.0	True	Located in	Located in	1.0	Diaphorina citri. Kuwayama, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri, Citrus Leafhoppers, HLB insect vector, citrus sharpshooter	Diaphorina citri	1.0	Province of CATAMARCA, Provinces of CATAMARCA	Province of CATAMARCA
-Match	1.0	True	Affects	Affects	1.0	Huanglongbing	Huanglongbing	1.0	citrus fruits, citrus, citrus plants	citrus plants
-False Negative	0.0		Transmits			Diaphorina citri. Kuwayama, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri, Citrus Leafhoppers, HLB insect vector, citrus sharpshooter			HLB	
-False Negative	0.0		Located in			HLB			provinces of JUJUY, Provinces of JUJUY	
+Partial Match	0.060000000000000005	False	Transmits	Causes	0.4	Diaphorina citri, citrus sharpshooter, HLB insect vector, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri. Kuwayama, Citrus Leafhoppers	Citrus Leafhopper (Diaphorina citri. kuwayama)	0.16666666666666666	HLB	HLB Disease (Huanglongbing or citrus greening)
+Partial Match	0.08333333333333333	True	Affects	Affects	0.16666666666666666	HLB	HLB Disease (Huanglongbing or citrus greening)	0.5	citrus, citrus plants, citrus fruits	citrus
+Partial Match	0.16666666666666666	True	Located in	Located in	0.5	citrus, citrus plants, citrus fruits	citrus	0.3333333333333333	NOA, the region of Northwest Argentina, provinces of SANTIAGO DEL ESTERO	Northwest Argentina (NOA)
+Partial Match	0.3	True	Located in	Located in	0.5	Diaphorina citri, citrus sharpshooter, HLB insect vector, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri. Kuwayama, Citrus Leafhoppers	citrus	0.6	NOA, the region of Northwest Argentina, provinces of SANTIAGO DEL ESTERO	SANTIAGO DEL ESTERO
+Partial Match	0.25	True	Located in	Located in	0.5	Diaphorina citri, citrus sharpshooter, HLB insect vector, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri. Kuwayama, Citrus Leafhoppers	citrus	0.5	provinces of ENTRE RÍOS	ENTRE RÍOS
+Partial Match	0.16666666666666666	True	Located in	Located in	0.5	Diaphorina citri, citrus sharpshooter, HLB insect vector, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri. Kuwayama, Citrus Leafhoppers	citrus	0.3333333333333333	Provinces of SALTA, provinces of SALTA	SALTA
+Partial Match	0.16666666666666666	True	Located in	Located in	0.5	Diaphorina citri, citrus sharpshooter, HLB insect vector, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri. Kuwayama, Citrus Leafhoppers	citrus	0.3333333333333333	provinces of FORMOSA	FORMOSA
+Partial Match	0.16666666666666666	True	Located in	Located in	0.5	Diaphorina citri, citrus sharpshooter, HLB insect vector, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri. Kuwayama, Citrus Leafhoppers	citrus	0.3333333333333333	provinces of CHACO	CHACO
+Partial Match	0.375	True	Located in	Located in	0.5	Diaphorina citri, citrus sharpshooter, HLB insect vector, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri. Kuwayama, Citrus Leafhoppers	citrus	0.75	NEA, provinces of MISIONES, Argentine Northeast region	Argentine Northeast region (NEA)
+Partial Match	0.25	True	Located in	Located in	0.5	Diaphorina citri, citrus sharpshooter, HLB insect vector, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri. Kuwayama, Citrus Leafhoppers	citrus	0.5	provinces of SANTA FE	SANTA FE
+Partial Match	0.16666666666666666	True	Located in	Located in	0.5	Diaphorina citri, citrus sharpshooter, HLB insect vector, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri. Kuwayama, Citrus Leafhoppers	citrus	0.3333333333333333	Provinces of JUJUY, provinces of JUJUY	JUJUY
+Partial Match	0.16666666666666666	True	Located in	Located in	0.5	Diaphorina citri, citrus sharpshooter, HLB insect vector, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri. Kuwayama, Citrus Leafhoppers	citrus	0.3333333333333333	provinces of CORRIENTES	CORRIENTES
+Partial Match	0.2	True	Has been found on	Have been found on	0.4	Diaphorina citri, citrus sharpshooter, HLB insect vector, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri. Kuwayama, Citrus Leafhoppers	Citrus Leafhopper (Diaphorina citri. kuwayama)	0.5	citrus, citrus plants, citrus fruits	citrus
+Partial Match	0.16666666666666666	True	Located in	Located in	0.5	citrus, citrus plants, citrus fruits	citrus	0.3333333333333333	NEA, provinces of MISIONES, Argentine Northeast region	MISIONES
+Partial Match	0.16666666666666666	True	Located in	Located in	0.5	Diaphorina citri, citrus sharpshooter, HLB insect vector, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri. Kuwayama, Citrus Leafhoppers	citrus	0.3333333333333333	Province of TUCUMÁN, Provinces of TUCUMÁN	TUCUMÁN
+Partial Match	0.16000000000000003	True	Located in	Located in	0.4	Diaphorina citri, citrus sharpshooter, HLB insect vector, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri. Kuwayama, Citrus Leafhoppers	Citrus Leafhopper (Diaphorina citri. kuwayama)	0.4	Chicligasta Department	Villa de Medinas, Chicligasta Department
+Partial Match	0.4	True	Located in	Located in	0.4	Diaphorina citri, citrus sharpshooter, HLB insect vector, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri. Kuwayama, Citrus Leafhoppers	Citrus Leafhopper (Diaphorina citri. kuwayama)	1.0	Capayán Department	Capayán Department
+Partial Match	0.16666666666666666	True	Located in	Located in	0.5	Diaphorina citri, citrus sharpshooter, HLB insect vector, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri. Kuwayama, Citrus Leafhoppers	citrus	0.3333333333333333	Provinces of CATAMARCA, Province of CATAMARCA	CATAMARCA
+False Negative	0.0		Located in			HLB			Provinces of JUJUY, provinces of JUJUY	
 False Negative	0.0		Located in			HLB			NOA, the region of Northwest Argentina, provinces of SANTIAGO DEL ESTERO	
-False Negative	0.0		Located in			HLB			Province of CATAMARCA, Provinces of CATAMARCA	
-False Negative	0.0		Located in			HLB			Provinces of TUCUMÁN, Province of TUCUMÁN	
+False Negative	0.0		Located in			HLB			Provinces of CATAMARCA, Province of CATAMARCA	
+False Negative	0.0		Located in			HLB			Province of TUCUMÁN, Provinces of TUCUMÁN	
 False Negative	0.0		Located in			HLB			Provinces of SALTA, provinces of SALTA	
-False Negative	0.0		Located in			HLB			Argentine Northeast region, NEA, provinces of MISIONES	
-False Negative	0.0		Affects			HLB			citrus fruits, citrus, citrus plants	
-False Negative	0.0		Located in			citrus fruits, citrus, citrus plants			NOA, the region of Northwest Argentina, provinces of SANTIAGO DEL ESTERO	
-False Negative	0.0		Located in			Diaphorina citri. Kuwayama, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri, Citrus Leafhoppers, HLB insect vector, citrus sharpshooter			NOA, the region of Northwest Argentina, provinces of SANTIAGO DEL ESTERO	
-False Negative	0.0		Located in			Diaphorina citri. Kuwayama, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri, Citrus Leafhoppers, HLB insect vector, citrus sharpshooter			provinces of ENTRE RÍOS	
-False Negative	0.0		Located in			Diaphorina citri. Kuwayama, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri, Citrus Leafhoppers, HLB insect vector, citrus sharpshooter			Provinces of SALTA, provinces of SALTA	
-False Negative	0.0		Located in			Diaphorina citri. Kuwayama, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri, Citrus Leafhoppers, HLB insect vector, citrus sharpshooter			provinces of FORMOSA	
-False Negative	0.0		Located in			Diaphorina citri. Kuwayama, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri, Citrus Leafhoppers, HLB insect vector, citrus sharpshooter			provinces of CHACO	
-False Negative	0.0		Located in			Diaphorina citri. Kuwayama, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri, Citrus Leafhoppers, HLB insect vector, citrus sharpshooter			Argentine Northeast region, NEA, provinces of MISIONES	
-False Negative	0.0		Located in			Diaphorina citri. Kuwayama, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri, Citrus Leafhoppers, HLB insect vector, citrus sharpshooter			provinces of SANTA FE	
-False Negative	0.0		Located in			Diaphorina citri. Kuwayama, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri, Citrus Leafhoppers, HLB insect vector, citrus sharpshooter			provinces of JUJUY, Provinces of JUJUY	
-False Negative	0.0		Located in			Diaphorina citri. Kuwayama, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri, Citrus Leafhoppers, HLB insect vector, citrus sharpshooter			provinces of CORRIENTES	
-False Negative	0.0		Located in			citrus fruits, citrus, citrus plants			provinces of ENTRE RÍOS	
-False Negative	0.0		Located in			citrus fruits, citrus, citrus plants			Provinces of SALTA, provinces of SALTA	
-False Negative	0.0		Located in			citrus fruits, citrus, citrus plants			provinces of FORMOSA	
-False Negative	0.0		Located in			citrus fruits, citrus, citrus plants			provinces of CHACO	
-False Negative	0.0		Located in			citrus fruits, citrus, citrus plants			Argentine Northeast region, NEA, provinces of MISIONES	
-False Negative	0.0		Located in			citrus fruits, citrus, citrus plants			provinces of SANTA FE	
-False Negative	0.0		Located in			citrus fruits, citrus, citrus plants			provinces of JUJUY, Provinces of JUJUY	
-False Negative	0.0		Located in			citrus fruits, citrus, citrus plants			provinces of CORRIENTES	
-False Negative	0.0		Located in			Huanglongbing			Province of CATAMARCA, Provinces of CATAMARCA	
-False Negative	0.0		Located in			citrus fruits, citrus, citrus plants			Province of CATAMARCA, Provinces of CATAMARCA	
-False Negative	0.0		Located in			Candidatus Liberibacter spp.			Province of CATAMARCA, Provinces of CATAMARCA	
+False Negative	0.0		Located in			HLB			NEA, provinces of MISIONES, Argentine Northeast region	
+False Negative	0.0		Located in			citrus, citrus plants, citrus fruits			provinces of ENTRE RÍOS	
+False Negative	0.0		Located in			citrus, citrus plants, citrus fruits			Provinces of SALTA, provinces of SALTA	
+False Negative	0.0		Located in			citrus, citrus plants, citrus fruits			provinces of FORMOSA	
+False Negative	0.0		Located in			citrus, citrus plants, citrus fruits			provinces of CHACO	
+False Negative	0.0		Located in			citrus, citrus plants, citrus fruits			provinces of SANTA FE	
+False Negative	0.0		Located in			citrus, citrus plants, citrus fruits			Provinces of JUJUY, provinces of JUJUY	
+False Negative	0.0		Located in			citrus, citrus plants, citrus fruits			provinces of CORRIENTES	
+False Negative	0.0		Located in			Diaphorina citri, citrus sharpshooter, HLB insect vector, Diaphorina citri. kuwayama, Citrus Leafhopper, Diaphorina citri. Kuwayama, Citrus Leafhoppers			Villa de Medinas	
+False Negative	0.0		Located in			Huanglongbing			Provinces of CATAMARCA, Province of CATAMARCA	
+False Negative	0.0		Affects			Huanglongbing			citrus, citrus plants, citrus fruits	
+False Negative	0.0		Located in			citrus, citrus plants, citrus fruits			Provinces of CATAMARCA, Province of CATAMARCA	
+False Negative	0.0		Located in			Candidatus Liberibacter spp.			Provinces of CATAMARCA, Province of CATAMARCA	
 False Negative	0.0		Causes			Candidatus Liberibacter spp.			HLB	
-False Positive	0.0			Transmit			Diaphorina citri			Huanglongbing
-False Positive	0.0			Affects			Huanglongbing			citrus fruits
-False Positive	0.0			Located in			Diaphorina citri			Province of JUJUY
-False Positive	0.0			Located in			Diaphorina citri			Province of SALTA
-False Positive	0.0			Located in			Diaphorina citri			Province of ENTRE RÍOS
-False Positive	0.0			Located in			Diaphorina citri			Province of CORRIENTES
-False Positive	0.0			Located in			Diaphorina citri			Province of MISIONES
-False Positive	0.0			Located in			Diaphorina citri			Province of CHACO
-False Positive	0.0			Located in			Diaphorina citri			Province of FORMOSA
-False Positive	0.0			Located in			Diaphorina citri			Province of SANTIAGO DEL ESTERO
-False Positive	0.0			Located in			Diaphorina citri			Province of SANTA FE
-False Positive	0.0			Located in			Diaphorina citri			Leales Department
-False Positive	0.0			Located in			Huanglongbing			Argentina
-False Positive	0.0			Located in			Huanglongbing			Northwest Argentina (NOA)
+False Positive	0.0			Transmits			Diaphorina citri			Citrus Leafhopper (Diaphorina citri. kuwayama)
+False Positive	0.0			Located in			Citrus Leafhopper (Diaphorina citri. kuwayama)			Leales Department

@@ -1,11 +1,10 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Partial Match	0.5	True	Located in	Located in	1.0	Citrus, citrus fruits, citrus, citrus plants	citrus plants	0.5	province of Entre Ríos, Entre Ríos, northeast of Entre Ríos	Entre Ríos
-Partial Match	0.5	True	Affects	Affects	0.5	Huanglongbing	Huanglongbing (HLB)	1.0	Citrus, citrus fruits, citrus, citrus plants	citrus plants
-False Negative	0.0		Located in			HLB			province of Entre Ríos, Entre Ríos, northeast of Entre Ríos	
-False Negative	0.0		Affects			HLB			Citrus, citrus fruits, citrus, citrus plants	
-False Negative	0.0		Located in			Huanglongbing			province of Entre Ríos, Entre Ríos, northeast of Entre Ríos	
+Partial Match	0.45	False	Affects	Have been found on	0.5	HLB	HLB pest	1.0	citrus, citrus plants, citrus fruits, Citrus	citrus plants
+Partial Match	0.25	True	Located in	Located in	0.5	Huanglongbing	Huanglongbing (HLB)	0.5	Entre Ríos, northeast of Entre Ríos, province of Entre Ríos	Entre Ríos
+Partial Match	0.5	True	Affects	Affects	0.5	Huanglongbing	Huanglongbing (HLB)	1.0	citrus, citrus plants, citrus fruits, Citrus	citrus plants
+False Negative	0.0		Located in			citrus, citrus plants, citrus fruits, Citrus			Entre Ríos, northeast of Entre Ríos, province of Entre Ríos	
+False Negative	0.0		Located in			HLB			Entre Ríos, northeast of Entre Ríos, province of Entre Ríos	
 False Negative	0.0		Causes			Candidatus liberibacter			HLB	
-False Negative	0.0		Has been found on			Candidatus liberibacter			Citrus, citrus fruits, citrus, citrus plants	
+False Negative	0.0		Has been found on			Candidatus liberibacter			citrus, citrus plants, citrus fruits, Citrus	
 False Positive	0.0			Causes			HLB pest			Huanglongbing (HLB)
 False Positive	0.0			Causes			Candidatus liberibacter			Huanglongbing (HLB)
-False Positive	0.0			Have been found on			poncirus trifoliata			citrus plants

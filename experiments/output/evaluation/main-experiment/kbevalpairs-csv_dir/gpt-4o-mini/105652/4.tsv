@@ -1,5 +1,6 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Partial Match	0.5	True	Located in	Located in	1.0	Xylella	Xylella	0.5	Bari area	Bari
-Match	1.0	True	Located in	Located in	1.0	Xylella	Xylella	1.0	Polignano a Mare	Polignano a Mare
 Match	1.0	True	Has been found on	Have been found on	1.0	Xylella	Xylella	1.0	olive trees	olive trees
-False Negative	0.0		Located in			olive trees			Polignano a Mare	
+Match	1.0	True	Located in	Located in	1.0	olive trees	olive trees	1.0	Polignano a Mare	Polignano a Mare
+False Negative	0.0		Located in			Xylella			Bari area	
+False Negative	0.0		Located in			Xylella			Polignano a Mare	
+False Positive	0.0			Located in			olive trees			Bari

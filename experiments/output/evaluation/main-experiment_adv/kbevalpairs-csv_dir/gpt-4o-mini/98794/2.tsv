@@ -1,0 +1,20 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Partial Match	0.5	True	Located in	Located in	0.5	Allium sativum, Garlic, garlic	garlic bulbs	1.0	Hebei Province	Hebei Province
+Partial Match	0.5	True	Located in	Located in	0.5	Allium sativum, Garlic, garlic	garlic bulbs	1.0	China	China
+Partial Match	0.5	True	Located in	Located in	0.5	Allium sativum, Garlic, garlic	garlic bulbs	1.0	Handan City	Handan City
+Partial Match	0.5	True	Located in	Located in	0.5	Allium sativum, Garlic, garlic	garlic bulbs	1.0	Daming County	Daming County
+Partial Match	0.5	True	Affects	Affects	1.0	Rhizopus soft rot	Rhizopus soft rot	0.5	Allium sativum, Garlic, garlic	garlic bulbs
+Partial Match	0.5	True	Has been found on	Have been found on	1.0	Rhizopus oryzae, R. oryzae, R. arrhizus, Rhizopus arrhizus	Rhizopus arrhizus	0.5	Allium sativum, Garlic, garlic	garlic bulbs
+Partial Match	0.3333333333333333	True	Causes	Causes	1.0	Rhizopus oryzae, R. oryzae, R. arrhizus, Rhizopus arrhizus	Rhizopus arrhizus	0.3333333333333333	soft rot on garlic bulb	Rhizopus soft rot
+False Negative	0.0		Located in			Rhizopus oryzae, R. oryzae, R. arrhizus, Rhizopus arrhizus			China	
+False Negative	0.0		Located in			Rhizopus oryzae, R. oryzae, R. arrhizus, Rhizopus arrhizus			Hebei Province	
+False Negative	0.0		Causes			Rhizopus oryzae, R. oryzae, R. arrhizus, Rhizopus arrhizus			Garlic Bulb Soft Rot	
+False Negative	0.0		Located in			Garlic Bulb Soft Rot			China	
+False Negative	0.0		Located in			Garlic Bulb Soft Rot			Hebei Province	
+False Negative	0.0		Located in			Rhizopus soft rot			Hebei Province	
+False Negative	0.0		Located in			Rhizopus soft rot			China	
+False Negative	0.0		Located in			Rhizopus soft rot			Handan City	
+False Negative	0.0		Located in			Rhizopus soft rot			Daming County	
+False Negative	0.0		Has been found on			Rhizopus oryzae, R. oryzae, R. arrhizus, Rhizopus arrhizus			cassava	
+False Negative	0.0		Has been found on			Rhizopus oryzae, R. oryzae, R. arrhizus, Rhizopus arrhizus			potato	
+False Negative	0.0		Located in			soft rot on garlic bulb			China	

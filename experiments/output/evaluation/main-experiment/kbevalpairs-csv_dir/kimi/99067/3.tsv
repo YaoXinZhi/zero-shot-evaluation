@@ -1,28 +1,30 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Located in	Located in	1.0	citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation	citrus plants	1.0	Italy	Italy
-Match	1.0	True	Affects	Affects	1.0	Tristeza	Tristeza	1.0	citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation	citrus plants
-Partial Match	0.5	True	Located in	Located in	1.0	citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation	citrus plants	0.5	Sicily, Sicily Region	Sicily
-False Negative	0.0		Located in			citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation			Etnean capital	
-False Negative	0.0		Located in			Tristeza			Sicily, Sicily Region	
-False Negative	0.0		Located in			Tristeza			Italy	
+Match	1.0	True	Located in	Located in	1.0	citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants	citrus plants	1.0	Italy	Italy
+Partial Match	0.5	True	Located in	Located in	1.0	Tristeza	Tristeza	0.5	Sicily, Sicily Region	Sicily
+Match	1.0	True	Located in	Located in	1.0	Tristeza	Tristeza	1.0	Italy	Italy
+Partial Match	0.2	True	Located in	Located in	0.2	citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants	Huanglongbing (HLB) or Citrus greening	1.0	USA, United States	United States
+False Negative	0.0		Located in			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants			Etnean capital	
+False Negative	0.0		Affects			Tristeza			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants	
+False Negative	0.0		Located in			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants			Sicily, Sicily Region	
 False Negative	0.0		Located in			HLB			Spain	
 False Negative	0.0		Located in			HLB			USA, United States	
-False Negative	0.0		Affects			HLB			citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation	
-False Negative	0.0		Located in			citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation			Spain	
-False Negative	0.0		Located in			citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation			USA, United States	
+False Negative	0.0		Affects			HLB			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants	
+False Negative	0.0		Located in			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants			Spain	
 False Negative	0.0		Located in			HLB			Mediterranean	
 False Negative	0.0		Located in			HLB disease			USA, United States	
-False Negative	0.0		Located in			citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation			Acireale	
-False Positive	0.0			Affects			Huanglongbing			citrus plants
-False Positive	0.0			Affects			Citrus greening			citrus plants
-False Positive	0.0			Have been found on			Phytophthora			citrus plants
-False Positive	0.0			Have been found on			viruses and viroids			citrus plants
-False Positive	0.0			Have been found on			nematodes			citrus plants
-False Positive	0.0			Have been found on			CTV-Citrus tristeza virus			citrus plants
-False Positive	0.0			Causes			Tristeza			citrus plants
-False Positive	0.0			Causes			Huanglongbing			citrus plants
-False Positive	0.0			Causes			Citrus greening			citrus plants
-False Positive	0.0			Located in			Tarocco Scirè			Italy
-False Positive	0.0			Located in			Mandared			Italy
-False Positive	0.0			Located in			Citrus clementina			Italy
-False Positive	0.0			Located in			Citrus sinensis			Italy
+False Negative	0.0		Located in			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants			Acireale	
+False Positive	0.0			Located in			yellow branch disease			United States
+False Positive	0.0			Have been found on			Tarocco Scirè			Californian Bitters
+False Positive	0.0			Have been found on			Tarocco Scirè			C35
+False Positive	0.0			Have been found on			Tarocco Scirè			Carpenter
+False Positive	0.0			Have been found on			Tarocco Scirè			citrange Carrizo
+False Positive	0.0			Affects			Mandared			Citrus clementina
+False Positive	0.0			Affects			Mandared			Citrus sinensis
+False Positive	0.0			Have been found on			Californians			citrus fruits
+False Positive	0.0			Have been found on			Californian Bitters			citrus fruits
+False Positive	0.0			Have been found on			C35			citrus fruits
+False Positive	0.0			Have been found on			Carpenter			citrus fruits
+False Positive	0.0			Have been found on			citrange Carrizo			citrus fruits
+False Positive	0.0			Have been found on			Californians Furr			citrus fruits
+False Positive	0.0			Have been found on			US-942			citrus fruits
+False Positive	0.0			Have been found on			US-897			citrus fruits

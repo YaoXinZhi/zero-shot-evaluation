@@ -1,34 +1,33 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Partial Match	0.5	True	Located in	Located in	0.5	citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation	citrus rootstocks	1.0	Italy	Italy
-Partial Match	0.3333333333333333	True	Affects	Affects	0.3333333333333333	Tristeza	CTV-Citrus tristeza virus	1.0	citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation	citrus plants
-Partial Match	0.25	True	Located in	Located in	0.5	citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation	citrus rootstocks	0.5	Sicily, Sicily Region	Sicily
-False Negative	0.0		Located in			citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation			Etnean capital	
-False Negative	0.0		Located in			Tristeza			Sicily, Sicily Region	
-False Negative	0.0		Located in			Tristeza			Italy	
+Match	1.0	True	Located in	Located in	1.0	citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants	citrus plants	1.0	Italy	Italy
+Partial Match	0.5	True	Located in	Located in	1.0	Tristeza	Tristeza	0.5	Sicily, Sicily Region	Sicily
+Match	1.0	True	Located in	Located in	1.0	Tristeza	Tristeza	1.0	Italy	Italy
+Partial Match	0.2	True	Located in	Located in	0.2	citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants	Huanglongbing (HLB) or Citrus greening	1.0	USA, United States	United States
+False Negative	0.0		Located in			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants			Etnean capital	
+False Negative	0.0		Affects			Tristeza			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants	
+False Negative	0.0		Located in			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants			Sicily, Sicily Region	
 False Negative	0.0		Located in			HLB			Spain	
 False Negative	0.0		Located in			HLB			USA, United States	
-False Negative	0.0		Affects			HLB			citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation	
-False Negative	0.0		Located in			citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation			Spain	
-False Negative	0.0		Located in			citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation			USA, United States	
+False Negative	0.0		Affects			HLB			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants	
+False Negative	0.0		Located in			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants			Spain	
 False Negative	0.0		Located in			HLB			Mediterranean	
 False Negative	0.0		Located in			HLB disease			USA, United States	
-False Negative	0.0		Located in			citrus fruits, cultivation of citrus fruits, citrus, citrus plants, citrus cultivation			Acireale	
-False Positive	0.0			Have been found on			citrus plants			citrus rootstocks
-False Positive	0.0			Affects			Phytophthora			citrus plants
-False Positive	0.0			Affects			viruses and viroids			citrus plants
-False Positive	0.0			Affects			nematodes			citrus plants
-False Positive	0.0			Affects			Huanglongbing (HLB) or Citrus greening			citrus plants
-False Positive	0.0			Affects			yellow branch disease			citrus plants
-False Positive	0.0			Have been found on			US-942			citrus plants
-False Positive	0.0			Have been found on			US-897			citrus plants
-False Positive	0.0			Have been found on			Californian Bitters			citrus plants
-False Positive	0.0			Have been found on			C35			citrus plants
-False Positive	0.0			Have been found on			Carrizo			citrus plants
-False Positive	0.0			Have been found on			Furr			citrus plants
-False Positive	0.0			Have been found on			Bitters			citrus plants
-False Positive	0.0			Have been found on			Carpenter			citrus plants
-False Positive	0.0			Located in			Californian Bitters			California
-False Positive	0.0			Located in			C35			California
-False Positive	0.0			Located in			Furr			California
-False Positive	0.0			Located in			Bitters			California
-False Positive	0.0			Located in			Carpenter			California
+False Negative	0.0		Located in			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants			Acireale	
+False Positive	0.0			Located in			yellow branch disease			United States
+False Positive	0.0			Have been found on			Tarocco Scirè			Californian Bitters
+False Positive	0.0			Have been found on			Tarocco Scirè			C35
+False Positive	0.0			Have been found on			Tarocco Scirè			Carrizo
+False Positive	0.0			Have been found on			Mandared			C35
+False Positive	0.0			Have been found on			Mandared			Californian Bitters
+False Positive	0.0			Have been found on			Mandared			Carpenter
+False Positive	0.0			Have been found on			Mandared			Furr
+False Positive	0.0			Have been found on			C35			Tarocco Scirè
+False Positive	0.0			Have been found on			Californian Bitters			Tarocco Scirè
+False Positive	0.0			Have been found on			Carrizo			Tarocco Scirè
+False Positive	0.0			Affects			C35			Tarocco Scirè
+False Positive	0.0			Affects			Californian Bitters			Tarocco Scirè
+False Positive	0.0			Affects			Carrizo			Tarocco Scirè
+False Positive	0.0			Affects			C35			Mandared
+False Positive	0.0			Affects			Californian Bitters			Mandared
+False Positive	0.0			Affects			Carpenter			Mandared
+False Positive	0.0			Affects			Furr			Mandared
