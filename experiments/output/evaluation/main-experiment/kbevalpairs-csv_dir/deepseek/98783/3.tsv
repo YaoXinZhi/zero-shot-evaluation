@@ -1,18 +1,14 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Partial Match	0.5	True	Affects	Affects	1.0	banana bunchy	banana bunchy	0.5	banana variety, banana plantation, banana plantations, bananas, banana	banana bunches
-Partial Match	0.5	True	Located in	Located in	0.5	banana variety, banana plantation, banana plantations, bananas, banana	banana bunchy	1.0	Uganda, West Nile region	West Nile region
-Partial Match	0.5	True	Located in	Located in	0.5	banana variety, banana plantation, banana plantations, bananas, banana	banana bunchy	1.0	Arua district, Arua	Arua district
+Partial Match	0.5	True	Affects	Affects	1.0	banana bunchy	banana bunchy	0.5	banana variety, banana plantations, banana, banana plantation, bananas	banana bunches
+Partial Match	0.5	True	Located in	Located in	0.5	banana variety, banana plantations, banana, banana plantation, bananas	banana bunchy	1.0	West Nile region, Uganda	West Nile region
+Partial Match	0.5	True	Located in	Located in	0.5	banana variety, banana plantations, banana, banana plantation, bananas	banana bunchy	1.0	Arua district, Arua	Arua district
 Partial Match	0.5	True	Located in	Located in	0.5	Banana bunchy top disease	banana bunchy	1.0	Kasese District, Kasese district	Kasese district
 Partial Match	0.5	True	Located in	Located in	0.5	Banana bunchy top disease	banana bunchy	1.0	Mpondwe	Mpondwe
-Partial Match	0.25	True	Affects	Affects	0.5	Banana bunchy top disease	banana bunchy	0.5	banana variety, banana plantation, banana plantations, bananas, banana	banana
-Partial Match	0.5	True	Located in	Located in	0.5	banana variety, banana plantation, banana plantations, bananas, banana	banana bunchy	1.0	Ankole	Ankole
-Partial Match	0.5	True	Located in	Located in	0.5	banana variety, banana plantation, banana plantations, bananas, banana	banana bunchy	1.0	Buganda	Buganda
-Partial Match	0.5	True	Located in	Located in	0.5	banana variety, banana plantation, banana plantations, bananas, banana	banana bunchy	1.0	Malawi	Malawi
-Partial Match	0.5	True	Located in	Located in	0.5	banana variety, banana plantation, banana plantations, bananas, banana	banana bunchy	1.0	Asia	Asia
+Partial Match	0.25	True	Affects	Affects	0.5	Banana bunchy top disease	banana bunchy	0.5	banana variety, banana plantations, banana, banana plantation, bananas	banana
+Partial Match	0.3333333333333333	True	Located in	Located in	0.3333333333333333	banana variety, banana plantations, banana, banana plantation, bananas	banana bacterial wilt	1.0	Malawi	Malawi
+Partial Match	0.3333333333333333	True	Located in	Located in	0.3333333333333333	banana variety, banana plantations, banana, banana plantation, bananas	banana bacterial wilt	1.0	Asia	Asia
+False Negative	0.0		Located in			banana variety, banana plantations, banana, banana plantation, bananas			Ankole	
+False Negative	0.0		Located in			banana variety, banana plantations, banana, banana plantation, bananas			Buganda	
 False Negative	0.0		Located in			maize			Malawi	
-False Positive	0.0			Located in			banana bunchy			Uganda
-False Positive	0.0			Located in			banana bunchy			Kamwenge
-False Positive	0.0			Located in			banana bunchy			Kitagwenda
-False Positive	0.0			Located in			banana bunchy			Rwenzori Mountains
-False Positive	0.0			Located in			banana bunchy			Democratic Republic of the Congo (DRC)
-False Positive	0.0			Affects			banana bacterial wilt			banana
+False Positive	0.0			Located in			banana bunchy			Democratic Republic of the Congo
+False Positive	0.0			Located in			banana bacterial wilt			Uganda

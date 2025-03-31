@@ -1,10 +1,12 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Has been found on	Have been found on	1.0	Candidatus Liberibacter asiaticus, CLas	Candidatus Liberibacter asiaticus	1.0	Citrus× sinensis(L.) Osbeck, Sweet Orange, Pera sweet orange	Pera sweet orange
-Match	1.0	True	Causes	Causes	1.0	Candidatus Liberibacter asiaticus, CLas	Candidatus Liberibacter asiaticus	1.0	HLB, greening, Huanglongbing	Huanglongbing
-False Negative	0.0		Affects			HLB, greening, Huanglongbing			citrus, citrus species	
-False Negative	0.0		Has been found on			Candidatus Liberibacter asiaticus, CLas			citrus, citrus species	
-False Positive	0.0			Affects			Huanglongbing			Sweet Orange
-False Positive	0.0			Have been found on			Candidatus Liberibacter asiaticus			STX-5
-False Positive	0.0			Have been found on			Candidatus Liberibacter asiaticus			STX-11
-False Positive	0.0			Have been found on			Candidatus Liberibacter asiaticus			STX-12
-False Positive	0.0			Have been found on			Candidatus Liberibacter asiaticus			STX-13
+Match	1.0	True	Causes	Causes	1.0	CLas, Candidatus Liberibacter asiaticus	Candidatus Liberibacter asiaticus	1.0	HLB, greening, Huanglongbing	Huanglongbing
+Match	1.0	True	Affects	Affects	1.0	HLB, greening, Huanglongbing	Huanglongbing	1.0	citrus, citrus species	citrus species
+False Negative	0.0		Has been found on			CLas, Candidatus Liberibacter asiaticus			Pera sweet orange, Sweet Orange, Citrus× sinensis(L.) Osbeck	
+False Negative	0.0		Has been found on			CLas, Candidatus Liberibacter asiaticus			citrus, citrus species	
+False Positive	0.0			Have been found on			Pera sweet orange			Candidatus Liberibacter asiaticus
+False Positive	0.0			Have been found on			sarcotoxin IA			STX-5
+False Positive	0.0			Have been found on			sarcotoxin IA			STX-11
+False Positive	0.0			Have been found on			sarcotoxin IA			STX-12
+False Positive	0.0			Have been found on			sarcotoxin IA			STX-13
+False Positive	0.0			Have been found on			sarcotoxin IA peptide			juice
+False Positive	0.0			Have been found on			sarcotoxin IA peptide			fruit

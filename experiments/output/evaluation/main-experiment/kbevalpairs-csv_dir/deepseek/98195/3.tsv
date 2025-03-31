@@ -1,7 +1,7 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Partial Match	0.5	True	Affects	Affects	0.5	HLB, yellow dragon, Huanglongbing	Huanglongbing (HLB)	1.0	citrus	citrus
-Partial Match	0.5	True	Causes	Causes	1.0	Candidatus Liberibacter	Candidatus Liberibacter	0.5	HLB, yellow dragon, Huanglongbing	Huanglongbing (HLB)
+Partial Match	0.5	True	Affects	Affects	0.5	HLB, Huanglongbing, yellow dragon	Huanglongbing (HLB)	1.0	citrus	citrus
+Partial Match	0.5	True	Causes	Causes	1.0	Candidatus Liberibacter	Candidatus Liberibacter	0.5	HLB, Huanglongbing, yellow dragon	Huanglongbing (HLB)
+Partial Match	0.9	False	Has been found on	Affects	1.0	citrus sadness virus	citrus sadness virus	1.0	citrus	citrus
+Match	1.0	True	Affects	Affects	1.0	leprosis	leprosis	1.0	citrus	citrus
 False Negative	0.0		Has been found on			Candidatus Liberibacter			citrus	
-False Negative	0.0		Has been found on			citrus sadness virus			citrus	
-False Negative	0.0		Affects			leprosis			citrus	
-False Positive	0.0			Have been found on			Mediterranean fly larvae			different host fruits
+False Positive	0.0			Have been found on			Mediterranean fly larvae			host fruits

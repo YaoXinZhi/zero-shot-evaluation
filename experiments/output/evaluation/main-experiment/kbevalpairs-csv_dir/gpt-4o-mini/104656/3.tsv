@@ -1,14 +1,13 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Partial Match	0.3333333333333333	True	Located in	Located in	1.0	Asian longhorned beetle, ALB, Asian long-horned beetles	ALB	0.3333333333333333	Lucerne, Canton Lucerne, canton of Lucerne	Lucerne
-Match	1.0	True	Has been found on	Have been found on	1.0	Asian longhorned beetle, ALB, Asian long-horned beetles	ALB	1.0	maple	maple
-Match	1.0	True	Has been found on	Have been found on	1.0	Asian longhorned beetle, ALB, Asian long-horned beetles	ALB	1.0	birch	birch
-Match	1.0	True	Has been found on	Have been found on	1.0	Asian longhorned beetle, ALB, Asian long-horned beetles	ALB	1.0	beech	beech
-Partial Match	0.3333333333333333	True	Located in	Located in	1.0	Asian longhorned beetle, ALB, Asian long-horned beetles	ALB	0.3333333333333333	Zell, municipality of Zell	Zell
-False Negative	0.0		Located in			Asian longhorned beetle, ALB, Asian long-horned beetles			Europe	
-False Positive	0.0			Causes			Asian longhorned beetle			major tree damage
+Partial Match	0.3333333333333333	True	Located in	Located in	1.0	Asian long-horned beetles, ALB, Asian longhorned beetle	ALB	0.3333333333333333	Lucerne, canton of Lucerne, Canton Lucerne	Lucerne
+Match	1.0	True	Has been found on	Have been found on	1.0	Asian long-horned beetles, ALB, Asian longhorned beetle	ALB	1.0	maple	maple
+Match	1.0	True	Has been found on	Have been found on	1.0	Asian long-horned beetles, ALB, Asian longhorned beetle	ALB	1.0	birch	birch
+Match	1.0	True	Has been found on	Have been found on	1.0	Asian long-horned beetles, ALB, Asian longhorned beetle	ALB	1.0	beech	beech
+False Negative	0.0		Located in			Asian long-horned beetles, ALB, Asian longhorned beetle			municipality of Zell, Zell	
+False Negative	0.0		Located in			Asian long-horned beetles, ALB, Asian longhorned beetle			Europe	
+False Positive	0.0			Causes			Asian longhorned beetle			ALB
 False Positive	0.0			Have been found on			ALB			fruit trees
-False Positive	0.0			Affects			ALB			healthy deciduous trees
+False Positive	0.0			Affects			ALB			maple
+False Positive	0.0			Affects			ALB			birch
+False Positive	0.0			Affects			ALB			beech
 False Positive	0.0			Affects			ALB			fruit trees
-False Positive	0.0			Located in			ALB			Central Switzerland
-False Positive	0.0			Located in			ALB			Winterthur
-False Positive	0.0			Located in			ALB			Marly (FR)

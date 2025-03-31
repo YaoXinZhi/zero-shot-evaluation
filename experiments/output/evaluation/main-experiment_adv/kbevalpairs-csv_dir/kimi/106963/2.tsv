@@ -1,0 +1,19 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	golden-yellow yellowing	golden-yellow yellowing	1.0	Burggrafenamt, South Tyrol	Burggrafenamt
+Partial Match	0.9	False	Affects	Have been found on	1.0	golden-yellow yellowing	golden-yellow yellowing	1.0	Pinot Grigio, vineyards, vineyard, Chardonnay, wine, white wine varieties, red wine varieties, vines, vine	Chardonnay
+Match	1.0	True	Located in	Located in	1.0	Pinot Grigio, vineyards, vineyard, Chardonnay, wine, white wine varieties, red wine varieties, vines, vine	vines	1.0	Unterland	Unterland
+Match	1.0	True	Located in	Located in	1.0	Pinot Grigio, vineyards, vineyard, Chardonnay, wine, white wine varieties, red wine varieties, vines, vine	vines	1.0	Salurn	Salurn
+False Negative	0.0		Located in			golden-yellow yellowing			Salurn	
+False Negative	0.0		Located in			golden-yellow yellowing			Unterland	
+False Negative	0.0		Located in			Pinot Grigio, vineyards, vineyard, Chardonnay, wine, white wine varieties, red wine varieties, vines, vine			Burggrafenamt, South Tyrol	
+False Negative	0.0		Affects			Golden yellowing			Pinot Grigio, vineyards, vineyard, Chardonnay, wine, white wine varieties, red wine varieties, vines, vine	
+False Negative	0.0		Causes			FDp, Flavescence dorèe phytoplasma			golden-yellow yellowing	
+False Negative	0.0		Has been found on			FDp, Flavescence dorèe phytoplasma			Pinot Grigio, vineyards, vineyard, Chardonnay, wine, white wine varieties, red wine varieties, vines, vine	
+False Negative	0.0		Transmits			American leafhopper			FDp, Flavescence dorèe phytoplasma	
+False Negative	0.0		Located in			American leafhopper			Europe	
+False Negative	0.0		Has been found on			American leafhopper			Pinot Grigio, vineyards, vineyard, Chardonnay, wine, white wine varieties, red wine varieties, vines, vine	
+False Positive	0.0			Causes			golden-yellow yellowing			Flavescence dorée
+False Positive	0.0			Affects			Flavescence dorée			vines
+False Positive	0.0			Transmit			American leafhopper			golden-yellow yellowing
+False Positive	0.0			Have been found on			golden-yellow yellowing			Pinot Grigio
+False Positive	0.0			Cannot be distinguished from			Flavescence dorée			blackwood disease

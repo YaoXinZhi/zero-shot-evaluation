@@ -1,0 +1,13 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Partial Match	0.9	False	Has been found on	Affects	1.0	Xylella fastidiosa, xylella, Xylella	xylella	1.0	oleander	oleander
+Partial Match	0.9	False	Has been found on	Affects	1.0	Xylella fastidiosa, xylella, Xylella	xylella	1.0	blackberries	blackberries
+Partial Match	0.9	False	Has been found on	Affects	1.0	Xylella fastidiosa, xylella, Xylella	xylella	1.0	oak	oak
+Partial Match	0.9	False	Has been found on	Affects	1.0	Xylella fastidiosa, xylella, Xylella	xylella	1.0	olive trees	olive trees
+Match	1.0	True	Located in	Located in	1.0	olive trees	olive trees	1.0	Italy	Italy
+Match	1.0	True	Located in	Located in	1.0	Xylella fastidiosa, xylella, Xylella	Xylella fastidiosa	1.0	Spain	Spain
+Match	1.0	True	Located in	Located in	1.0	Xylella fastidiosa, xylella, Xylella	Xylella fastidiosa	1.0	Portugal	Portugal
+Match	1.0	True	Located in	Located in	1.0	Xylella fastidiosa, xylella, Xylella	Xylella fastidiosa	1.0	France	France
+False Negative	0.0		Located in			Xylella fastidiosa, xylella, Xylella			Italy	
+False Positive	0.0			Causes			Xylella fastidiosa			xylella
+False Positive	0.0			Transmit			foam cicadas			Xylella fastidiosa
+False Positive	0.0			Located in			foam cicadas			Netherlands

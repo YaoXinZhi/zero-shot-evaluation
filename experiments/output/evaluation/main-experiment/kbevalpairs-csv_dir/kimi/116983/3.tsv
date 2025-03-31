@@ -1,10 +1,18 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Located in	Located in	1.0	Bactrocera Dorsalis, oriental fly, oriental fruit fly	oriental fruit fly	1.0	Campania	Campania
-Match	1.0	True	Has been found on	Have been found on	1.0	Bactrocera Dorsalis, oriental fly, oriental fruit fly	oriental fruit fly	1.0	wine	wine
-Match	1.0	True	Located in	Located in	1.0	Bactrocera Dorsalis, oriental fly, oriental fruit fly	oriental fruit fly	1.0	province of Naples	province of Naples
-Match	1.0	True	Located in	Located in	1.0	Bactrocera Dorsalis, oriental fly, oriental fruit fly	oriental fruit fly	1.0	province of Avellino	province of Avellino
-False Negative	0.0		Located in			Bactrocera Dorsalis, oriental fly, oriental fruit fly			Europe	
-False Negative	0.0		Located in			Bactrocera Dorsalis, oriental fly, oriental fruit fly			Mediterranean basin	
+Match	1.0	True	Located in	Located in	1.0	oriental fruit fly, Bactrocera Dorsalis, oriental fly	oriental fruit fly	1.0	Campania	Campania
+Match	1.0	True	Located in	Located in	1.0	oriental fruit fly, Bactrocera Dorsalis, oriental fly	oriental fruit fly	1.0	Europe	Europe
+Match	1.0	True	Located in	Located in	1.0	oriental fruit fly, Bactrocera Dorsalis, oriental fly	oriental fruit fly	1.0	Mediterranean basin	Mediterranean basin
+Match	1.0	True	Has been found on	Has been found on	1.0	oriental fruit fly, Bactrocera Dorsalis, oriental fly	oriental fruit fly	1.0	wine	wine
 False Negative	0.0		Located in			wine			Campania	
-False Positive	0.0			Have been found on			oriental fruit fly			fruit
-False Positive	0.0			Have been found on			Bactrocera Dorsalis			fruit
+False Negative	0.0		Located in			oriental fruit fly, Bactrocera Dorsalis, oriental fly			province of Naples	
+False Negative	0.0		Located in			oriental fruit fly, Bactrocera Dorsalis, oriental fly			province of Avellino	
+False Positive	0.0			Has been found on			oriental fruit fly			fruit
+False Positive	0.0			Has been found on			oriental fruit fly			plant species
+False Positive	0.0			Has been found on			oriental fruit fly			ripe fruits
+False Positive	0.0			Located in			province of Avellino			Campania
+False Positive	0.0			Located in			municipalities of this large area			province of Avellino
+False Positive	0.0			Located in			general wholesale markets			Campania
+False Positive	0.0			Located in			warehouses storage			Campania
+False Positive	0.0			Located in			collective collection centers			Campania
+False Positive	0.0			Located in			Ministry for Agricultural Policies			Campania
+False Positive	0.0			Located in			regional structure			Campania

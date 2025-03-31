@@ -1,9 +1,12 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Located in	Located in	1.0	Bactrocera Dorsalis, oriental fly, oriental fruit fly	oriental fruit fly	1.0	Campania	Campania
-Match	1.0	True	Located in	Located in	1.0	Bactrocera Dorsalis, oriental fly, oriental fruit fly	oriental fruit fly	1.0	Europe	Europe
-Match	1.0	True	Located in	Located in	1.0	Bactrocera Dorsalis, oriental fly, oriental fruit fly	oriental fruit fly	1.0	Mediterranean basin	Mediterranean basin
-Match	1.0	True	Has been found on	Have been found on	1.0	Bactrocera Dorsalis, oriental fly, oriental fruit fly	oriental fruit fly	1.0	wine	wine
-Match	1.0	True	Located in	Located in	1.0	Bactrocera Dorsalis, oriental fly, oriental fruit fly	oriental fruit fly	1.0	province of Naples	province of Naples
-Match	1.0	True	Located in	Located in	1.0	Bactrocera Dorsalis, oriental fly, oriental fruit fly	oriental fruit fly	1.0	province of Avellino	province of Avellino
+Match	1.0	True	Located in	Located in	1.0	oriental fruit fly, Bactrocera Dorsalis, oriental fly	oriental fruit fly	1.0	Campania	Campania
+Match	1.0	True	Located in	Located in	1.0	oriental fruit fly, Bactrocera Dorsalis, oriental fly	oriental fruit fly	1.0	Europe	Europe
+Match	1.0	True	Located in	Located in	1.0	oriental fruit fly, Bactrocera Dorsalis, oriental fly	oriental fruit fly	1.0	Mediterranean basin	Mediterranean basin
+Partial Match	0.9	False	Located in	Has been found on	1.0	oriental fruit fly, Bactrocera Dorsalis, oriental fly	oriental fruit fly	1.0	province of Naples	province of Naples
+Match	1.0	True	Located in	Located in	1.0	oriental fruit fly, Bactrocera Dorsalis, oriental fly	Bactrocera Dorsalis	1.0	province of Avellino	province of Avellino
+False Negative	0.0		Has been found on			oriental fruit fly, Bactrocera Dorsalis, oriental fly			wine	
 False Negative	0.0		Located in			wine			Campania	
-False Positive	0.0			Have been found on			oriental fruit fly			fruit
+False Positive	0.0			Has been found on			Bactrocera Dorsalis			municipalities of this large area
+False Positive	0.0			Located in			oriental fruit fly			general wholesale markets
+False Positive	0.0			Located in			oriental fruit fly			warehouses storage
+False Positive	0.0			Located in			oriental fruit fly			collective collection centers
