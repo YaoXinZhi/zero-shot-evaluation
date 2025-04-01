@@ -88,7 +88,7 @@ class MergedEntity:
         return False
 
     @staticmethod
-    def _max_overlap(seq1, seq2):
+    def _jaccard_seq(seq1, seq2):
         # log(f'### seq1 = {seq1} _ seq2 = {seq2}')
         n1 = len(seq1)
         n2 = len(seq2)
@@ -104,16 +104,15 @@ class MergedEntity:
             if m > best and sub1[0:m] == sub2[0:m]:
                 best = m
         # log(f'best = {best}')
-        return best
+        union = n1 + n2 - best
+        return float(best) / union
 
     def jaccard_name(self, pred_name):
         if pred_name[0] in MergedEntity.QUOTES and pred_name[-1] in MergedEntity.QUOTES:
             pred_name = pred_name[1:-1]
             # log(pred_name)
         pred_tokens = pred_name.lower().split()
-        inter, ref_name = max((MergedEntity._max_overlap(name.lower().split(), pred_tokens), name) for name in self.names)
-        union = len(pred_tokens) + len(ref_name.split()) - inter
-        return float(inter) / union
+        return max(MergedEntity._jaccard_seq(name.lower().split(), pred_tokens) for name in self.names)
 
     def __str__(self):
         return f'MergedEntity({self.type_}, {self.ids}, {self.names}, {self.normalization_type}: {self.normalization_value})'
@@ -317,7 +316,7 @@ def evaluate(ref, pred, type_sim, arg_sim):
     #     log('')
     base = BaseScores(pairs)
     log_scores('Base', base)
-    ie = IEScores(pairs, base=base)
+    ie = IEScores(pairs, base=base, tp_attr='couples')
     log_scores('IE', ie)
     return base, ie, pairs
 

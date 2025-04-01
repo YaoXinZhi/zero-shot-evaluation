@@ -41,4 +41,4 @@ if __name__ == '__main__':
             print('\t'.join([pair_label(p), str(p.value)] + row))
     except ZeroDivisionError:
         log(f'WARNING: nil R/P')
-        print(0.0)
+        raise
