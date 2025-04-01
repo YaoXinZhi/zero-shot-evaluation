@@ -1,21 +1,21 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Causes	Causes	1.0	Rhizopus arrhizus, Rhizopus oryzae, R. arrhizus, R. oryzae	Rhizopus arrhizus	1.0	Garlic Bulb Soft Rot	garlic bulb soft rot
-Match	1.0	True	Located in	Located in	1.0	Allium sativum, Garlic, garlic	garlic	1.0	Hebei Province	Hebei Province
-Match	1.0	True	Located in	Located in	1.0	Allium sativum, Garlic, garlic	garlic	1.0	China	China
-Match	1.0	True	Located in	Located in	1.0	Allium sativum, Garlic, garlic	garlic	1.0	Handan City	Handan City
-Match	1.0	True	Located in	Located in	1.0	Allium sativum, Garlic, garlic	garlic	1.0	Daming County	Daming County
-Match	1.0	True	Has been found on	Have been found on	1.0	Rhizopus arrhizus, Rhizopus oryzae, R. arrhizus, R. oryzae	Rhizopus arrhizus	1.0	Allium sativum, Garlic, garlic	garlic
-Partial Match	0.5	True	Has been found on	Have been found on	1.0	Rhizopus arrhizus, Rhizopus oryzae, R. arrhizus, R. oryzae	Rhizopus arrhizus	0.5	cassava	cassava tubers
-Partial Match	0.5	True	Has been found on	Have been found on	1.0	Rhizopus arrhizus, Rhizopus oryzae, R. arrhizus, R. oryzae	Rhizopus arrhizus	0.5	potato	potato tubers
-False Negative	0.0		Located in			Rhizopus arrhizus, Rhizopus oryzae, R. arrhizus, R. oryzae			China	
-False Negative	0.0		Located in			Rhizopus arrhizus, Rhizopus oryzae, R. arrhizus, R. oryzae			Hebei Province	
+Match	1.0	True	Causes	Causes	1.0	R. oryzae, Rhizopus oryzae, R. arrhizus, Rhizopus arrhizus	Rhizopus arrhizus	1.0	Garlic Bulb Soft Rot	garlic bulb soft rot
+Match	1.0	True	Located in	Located in	1.0	Garlic, garlic, Allium sativum	garlic	1.0	Hebei Province	Hebei Province
+Match	1.0	True	Located in	Located in	1.0	Garlic, garlic, Allium sativum	garlic	1.0	China	China
+Match	1.0	True	Located in	Located in	1.0	Garlic, garlic, Allium sativum	garlic	1.0	Handan City	Handan City
+Match	1.0	True	Located in	Located in	1.0	Garlic, garlic, Allium sativum	garlic	1.0	Daming County	Daming County
+Match	1.0	True	Has been found on	Have been found on	1.0	R. oryzae, Rhizopus oryzae, R. arrhizus, Rhizopus arrhizus	Rhizopus arrhizus	1.0	Garlic, garlic, Allium sativum	garlic
+Partial Match	0.5	True	Has been found on	Have been found on	1.0	R. oryzae, Rhizopus oryzae, R. arrhizus, Rhizopus arrhizus	Rhizopus arrhizus	0.5	cassava	cassava tubers
+Partial Match	0.5	True	Has been found on	Have been found on	1.0	R. oryzae, Rhizopus oryzae, R. arrhizus, Rhizopus arrhizus	Rhizopus arrhizus	0.5	potato	potato tubers
+False Negative	0.0		Located in			R. oryzae, Rhizopus oryzae, R. arrhizus, Rhizopus arrhizus			China	
+False Negative	0.0		Located in			R. oryzae, Rhizopus oryzae, R. arrhizus, Rhizopus arrhizus			Hebei Province	
 False Negative	0.0		Located in			Garlic Bulb Soft Rot			China	
 False Negative	0.0		Located in			Garlic Bulb Soft Rot			Hebei Province	
 False Negative	0.0		Located in			Rhizopus soft rot			Hebei Province	
 False Negative	0.0		Located in			Rhizopus soft rot			China	
 False Negative	0.0		Located in			Rhizopus soft rot			Handan City	
 False Negative	0.0		Located in			Rhizopus soft rot			Daming County	
-False Negative	0.0		Affects			Rhizopus soft rot			Allium sativum, Garlic, garlic	
-False Negative	0.0		Causes			Rhizopus arrhizus, Rhizopus oryzae, R. arrhizus, R. oryzae			soft rot on garlic bulb	
+False Negative	0.0		Affects			Rhizopus soft rot			Garlic, garlic, Allium sativum	
+False Negative	0.0		Causes			R. oryzae, Rhizopus oryzae, R. arrhizus, Rhizopus arrhizus			soft rot on garlic bulb	
 False Negative	0.0		Located in			soft rot on garlic bulb			China	
 False Positive	0.0			Affects			garlic bulb soft rot			garlic

@@ -1,18 +1,18 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Located in	Located in	1.0	citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants	citrus plants	1.0	Italy	Italy
-Partial Match	0.5	True	Located in	Located in	1.0	Tristeza	Tristeza	0.5	Sicily, Sicily Region	Sicily
+Match	1.0	True	Located in	Located in	1.0	citrus plants, citrus, cultivation of citrus fruits, citrus fruits, citrus cultivation	citrus plants	1.0	Italy	Italy
+Match	1.0	True	Located in	Located in	1.0	Tristeza	Tristeza	1.0	Sicily, Sicily Region	Sicily
 Match	1.0	True	Located in	Located in	1.0	Tristeza	Tristeza	1.0	Italy	Italy
-Partial Match	0.5	True	Affects	Affects	1.0	Tristeza	Tristeza	0.5	citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants	citrus fruits
-Partial Match	0.5	True	Located in	Located in	1.0	citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants	citrus plants	0.5	Sicily, Sicily Region	Sicily
-False Negative	0.0		Located in			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants			Etnean capital	
+Match	1.0	True	Affects	Affects	1.0	Tristeza	Tristeza	1.0	citrus plants, citrus, cultivation of citrus fruits, citrus fruits, citrus cultivation	citrus fruits
+Match	1.0	True	Located in	Located in	1.0	citrus plants, citrus, cultivation of citrus fruits, citrus fruits, citrus cultivation	citrus plants	1.0	Sicily, Sicily Region	Sicily
+False Negative	0.0		Located in			citrus plants, citrus, cultivation of citrus fruits, citrus fruits, citrus cultivation			Etnean capital	
 False Negative	0.0		Located in			HLB			Spain	
 False Negative	0.0		Located in			HLB			USA, United States	
-False Negative	0.0		Affects			HLB			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants	
-False Negative	0.0		Located in			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants			Spain	
-False Negative	0.0		Located in			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants			USA, United States	
+False Negative	0.0		Affects			HLB			citrus plants, citrus, cultivation of citrus fruits, citrus fruits, citrus cultivation	
+False Negative	0.0		Located in			citrus plants, citrus, cultivation of citrus fruits, citrus fruits, citrus cultivation			Spain	
+False Negative	0.0		Located in			citrus plants, citrus, cultivation of citrus fruits, citrus fruits, citrus cultivation			USA, United States	
 False Negative	0.0		Located in			HLB			Mediterranean	
 False Negative	0.0		Located in			HLB disease			USA, United States	
-False Negative	0.0		Located in			citrus cultivation, citrus fruits, cultivation of citrus fruits, citrus, citrus plants			Acireale	
+False Negative	0.0		Located in			citrus plants, citrus, cultivation of citrus fruits, citrus fruits, citrus cultivation			Acireale	
 False Positive	0.0			Located in			Huanglongbing			United States
 False Positive	0.0			Have been found on			citrus plants			Californian Bitters
 False Positive	0.0			Have been found on			citrus plants			C35
