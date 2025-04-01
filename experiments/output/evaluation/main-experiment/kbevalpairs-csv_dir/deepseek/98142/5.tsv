@@ -1,11 +1,11 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Partial Match	0.5	True	Located in	Located in	1.0	citrus, citrus plants, citrus fruits, Citrus	citrus plants	0.5	Entre Ríos, northeast of Entre Ríos, province of Entre Ríos	Entre Ríos
-Partial Match	0.9	False	Affects	Have been found on	1.0	HLB	HLB	1.0	citrus, citrus plants, citrus fruits, Citrus	citrus plants
-Match	1.0	True	Affects	Affects	1.0	Huanglongbing	Huanglongbing	1.0	citrus, citrus plants, citrus fruits, Citrus	citrus plants
+Match	1.0	True	Located in	Located in	1.0	citrus plants, citrus, Citrus, citrus fruits	citrus plants	1.0	Entre Ríos, northeast of Entre Ríos, province of Entre Ríos	Entre Ríos
+Partial Match	0.9	False	Affects	Have been found on	1.0	HLB	HLB	1.0	citrus plants, citrus, Citrus, citrus fruits	citrus plants
+Match	1.0	True	Affects	Affects	1.0	Huanglongbing	Huanglongbing	1.0	citrus plants, citrus, Citrus, citrus fruits	citrus plants
 False Negative	0.0		Located in			HLB			Entre Ríos, northeast of Entre Ríos, province of Entre Ríos	
 False Negative	0.0		Located in			Huanglongbing			Entre Ríos, northeast of Entre Ríos, province of Entre Ríos	
 False Negative	0.0		Causes			Candidatus liberibacter			HLB	
-False Negative	0.0		Has been found on			Candidatus liberibacter			citrus, citrus plants, citrus fruits, Citrus	
+False Negative	0.0		Has been found on			Candidatus liberibacter			citrus plants, citrus, Citrus, citrus fruits	
 False Positive	0.0			Causes			HLB			Huanglongbing
 False Positive	0.0			Causes			Candidatus liberibacter			Huanglongbing
 False Positive	0.0			Located in			trifoliate rootstock			Entre Ríos

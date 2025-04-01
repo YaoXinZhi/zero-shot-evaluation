@@ -1,10 +1,10 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Has been found on	Have been found on	1.0	X. fastidiosa, Xylella fastidiosa	Xylella fastidiosa	1.0	olive cultivars, Leccino cultivars, Leccino, olive trees, FS17, “FS17” cultivars, Cellina di Nardò	Cellina di Nardò
-Match	1.0	True	Causes	Causes	1.0	Xylella fastidiosa subsp. pauca, Xfp	Xylella fastidiosa subsp. pauca	1.0	Olive quick decline syndrome, OQDS	olive quick decline syndrome
-Partial Match	0.5	True	Affects	Affects	1.0	Olive quick decline syndrome, OQDS	olive quick decline syndrome	0.5	olive cultivars, Leccino cultivars, Leccino, olive trees, FS17, “FS17” cultivars, Cellina di Nardò	olive
-False Negative	0.0		Located in			Olive quick decline syndrome, OQDS			Italy	
-False Negative	0.0		Located in			Xylella fastidiosa subsp. pauca, Xfp			Italy	
-False Negative	0.0		Has been found on			Xylella fastidiosa subsp. pauca, Xfp			olive cultivars, Leccino cultivars, Leccino, olive trees, FS17, “FS17” cultivars, Cellina di Nardò	
-False Negative	0.0		Located in			olive cultivars, Leccino cultivars, Leccino, olive trees, FS17, “FS17” cultivars, Cellina di Nardò			Italy	
-False Negative	0.0		Affects			OQDS			olive cultivars, Leccino cultivars, Leccino, olive trees, FS17, “FS17” cultivars, Cellina di Nardò	
-False Negative	0.0		Has been found on			X. fastidiosa, Xylella fastidiosa			olive	
+Match	1.0	True	Has been found on	Have been found on	1.0	Xylella fastidiosa, X. fastidiosa	Xylella fastidiosa	1.0	Cellina di Nardò, FS17, olive trees, “FS17” cultivars, olive cultivars, Leccino, Leccino cultivars	Cellina di Nardò
+Match	1.0	True	Causes	Causes	1.0	Xfp, Xylella fastidiosa subsp. pauca	Xylella fastidiosa subsp. pauca	1.0	OQDS, Olive quick decline syndrome	olive quick decline syndrome
+Partial Match	0.5	True	Affects	Affects	1.0	OQDS, Olive quick decline syndrome	olive quick decline syndrome	0.5	Cellina di Nardò, FS17, olive trees, “FS17” cultivars, olive cultivars, Leccino, Leccino cultivars	olive
+False Negative	0.0		Located in			OQDS, Olive quick decline syndrome			Italy	
+False Negative	0.0		Located in			Xfp, Xylella fastidiosa subsp. pauca			Italy	
+False Negative	0.0		Has been found on			Xfp, Xylella fastidiosa subsp. pauca			Cellina di Nardò, FS17, olive trees, “FS17” cultivars, olive cultivars, Leccino, Leccino cultivars	
+False Negative	0.0		Located in			Cellina di Nardò, FS17, olive trees, “FS17” cultivars, olive cultivars, Leccino, Leccino cultivars			Italy	
+False Negative	0.0		Affects			OQDS			Cellina di Nardò, FS17, olive trees, “FS17” cultivars, olive cultivars, Leccino, Leccino cultivars	
+False Negative	0.0		Has been found on			Xylella fastidiosa, X. fastidiosa			olive	
