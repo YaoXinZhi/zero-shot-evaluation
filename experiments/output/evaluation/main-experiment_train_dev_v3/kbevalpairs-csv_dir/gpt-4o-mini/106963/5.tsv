@@ -1,0 +1,14 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	golden-yellow yellowing	golden-yellow yellowing	1.0	Unterland	Unterland
+Match	1.0	True	Located in	Located in	1.0	golden-yellow yellowing	golden-yellow yellowing	1.0	South Tyrol, Burggrafenamt	Burggrafenamt
+Match	1.0	True	Affects	Affects	1.0	golden-yellow yellowing	golden-yellow yellowing	1.0	vineyards, Chardonnay, vines, white wine varieties, Pinot Grigio, vineyard, wine, red wine varieties, vine	vines
+Match	1.0	True	Causes	Causes	1.0	FDp, Flavescence dorèe phytoplasma	Flavescence dorèe phytoplasma	1.0	golden-yellow yellowing	golden-yellow yellowing
+Match	1.0	True	Transmits	Transmits	1.0	American leafhopper	American leafhopper	1.0	FDp, Flavescence dorèe phytoplasma	Flavescence dorèe phytoplasma
+False Negative	0.0		Located in			golden-yellow yellowing			Salurn	
+False Negative	0.0		Located in			vineyards, Chardonnay, vines, white wine varieties, Pinot Grigio, vineyard, wine, red wine varieties, vine			Unterland	
+False Negative	0.0		Located in			vineyards, Chardonnay, vines, white wine varieties, Pinot Grigio, vineyard, wine, red wine varieties, vine			South Tyrol, Burggrafenamt	
+False Negative	0.0		Located in			vineyards, Chardonnay, vines, white wine varieties, Pinot Grigio, vineyard, wine, red wine varieties, vine			Salurn	
+False Negative	0.0		Affects			Golden yellowing			vineyards, Chardonnay, vines, white wine varieties, Pinot Grigio, vineyard, wine, red wine varieties, vine	
+False Negative	0.0		Has been found on			FDp, Flavescence dorèe phytoplasma			vineyards, Chardonnay, vines, white wine varieties, Pinot Grigio, vineyard, wine, red wine varieties, vine	
+False Negative	0.0		Located in			American leafhopper			Europe	
+False Negative	0.0		Has been found on			American leafhopper			vineyards, Chardonnay, vines, white wine varieties, Pinot Grigio, vineyard, wine, red wine varieties, vine	

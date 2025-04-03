@@ -1,0 +1,24 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Partial Match	0.9	False	Has been found on	Affects	1.0	Xyella, Xylella, Xylella Fastidiosa, Xylella fastidiosa	Xylella	1.0	olive trees	olive trees
+Match	1.0	True	Located in	Located in	1.0	olive trees	olive trees	1.0	Polignano	Polignano
+Match	1.0	True	Located in	Located in	1.0	olive trees	olive trees	1.0	Martina Franca	Martina Franca
+Match	1.0	True	Located in	Located in	1.0	olive trees	olive trees	1.0	Fasano	Fasano
+Match	1.0	True	Located in	Located in	1.0	olive trees	olive trees	1.0	Locorotondo	Locorotondo
+Match	1.0	True	Located in	Located in	1.0	olive trees	olive trees	1.0	Apulian	Apulian
+Match	1.0	True	Located in	Located in	1.0	Xyella, Xylella, Xylella Fastidiosa, Xylella fastidiosa	Xylella fastidiosa	1.0	Italy	Italy
+Match	1.0	True	Located in	Located in	1.0	Xyella, Xylella, Xylella Fastidiosa, Xylella fastidiosa	Xylella fastidiosa	1.0	Europe	Europe
+Partial Match	0.6666666666666666	True	Located in	Located in	0.6666666666666666	Xylella fastidiosa pauca	Xylella fastidiosa	1.0	Greece	Greece
+Partial Match	0.6666666666666666	True	Located in	Located in	0.6666666666666666	Xylella fastidiosa pauca	Xylella fastidiosa	1.0	Spain	Spain
+Partial Match	0.3333333333333333	True	Has been found on	Have been found on	0.6666666666666666	Xylella fastidiosa pauca	Xylella fastidiosa	0.5	olive	olive trees
+False Negative	0.0		Located in			Xyella, Xylella, Xylella Fastidiosa, Xylella fastidiosa			Polignano	
+False Negative	0.0		Located in			Xyella, Xylella, Xylella Fastidiosa, Xylella fastidiosa			Martina Franca	
+False Negative	0.0		Located in			Xyella, Xylella, Xylella Fastidiosa, Xylella fastidiosa			Fasano	
+False Negative	0.0		Located in			Xyella, Xylella, Xylella Fastidiosa, Xylella fastidiosa			Locorotondo	
+False Negative	0.0		Located in			Xyella, Xylella, Xylella Fastidiosa, Xylella fastidiosa			Apulian	
+False Negative	0.0		Located in			olive			Apulian	
+False Negative	0.0		Located in			Xylella fastidiosa pauca			Italy	
+False Negative	0.0		Located in			olive			Greece	
+False Negative	0.0		Located in			olive			Italy	
+False Negative	0.0		Located in			olive			Spain	
+False Positive	0.0			Causes			Xylella fastidiosa			Xylella
+False Positive	0.0			Located in			olive trees			Puglia

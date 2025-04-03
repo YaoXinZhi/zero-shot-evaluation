@@ -1,0 +1,14 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Partial Match	0.9	False	Has been found on	Affects	1.0	TR4, Fusarium Race 4 Tropical, Fusarium (T4R ), R4T strain, Foc T4R	TR4	1.0	Cavendish varieties, Cavendish banana, variety of Cavendish banana, variety Cavendish, Cavendish banana plants	Cavendish banana
+Match	1.0	True	Located in	Located in	1.0	Cavendish varieties, Cavendish banana, variety of Cavendish banana, variety Cavendish, Cavendish banana plants	Cavendish banana	1.0	Philippines	Philippines
+Match	1.0	True	Located in	Located in	1.0	Cavendish varieties, Cavendish banana, variety of Cavendish banana, variety Cavendish, Cavendish banana plants	Cavendish banana	1.0	Israel	Israel
+Match	1.0	True	Located in	Located in	1.0	Cavendish varieties, Cavendish banana, variety of Cavendish banana, variety Cavendish, Cavendish banana plants	Cavendish banana	1.0	Netherlands	Netherlands
+Match	1.0	True	Affects	Affects	1.0	Panama disease	Panama disease	1.0	Cavendish varieties, Cavendish banana, variety of Cavendish banana, variety Cavendish, Cavendish banana plants	Cavendish banana
+Match	1.0	True	Has been found on	Have been found on	1.0	TR4, Fusarium Race 4 Tropical, Fusarium (T4R ), R4T strain, Foc T4R	Fusarium Race 4 Tropical	1.0	banana variety, banana, banana plants	banana plants
+False Negative	0.0		Causes			TR4, Fusarium Race 4 Tropical, Fusarium (T4R ), R4T strain, Foc T4R			Panama disease	
+False Negative	0.0		Affects			Panama disease			banana variety, banana, banana plants	
+False Negative	0.0		Located in			banana variety, banana, banana plants			Israel	
+False Negative	0.0		Located in			TR4, Fusarium Race 4 Tropical, Fusarium (T4R ), R4T strain, Foc T4R			Colombia	
+False Positive	0.0			Causes			Panama disease			Fusarium Race 4 Tropical
+False Positive	0.0			Causes			Panama disease			Foc T4R
+False Positive	0.0			Located in			Cavendish banana			Colombia

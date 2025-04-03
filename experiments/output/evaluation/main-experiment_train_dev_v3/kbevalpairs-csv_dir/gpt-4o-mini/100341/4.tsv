@@ -1,0 +1,37 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	fall armyworm, armyworm, Fall armyworm	fall armyworm	1.0	China, China’s northeastern region, China’s northeastern cornbelt, China northwestern provinces	China
+Partial Match	0.5	True	Located in	Located in	1.0	fall armyworm, armyworm, Fall armyworm	fall armyworm	0.5	Tianjin city	Tianjin
+Match	1.0	True	Located in	Located in	1.0	fall armyworm, armyworm, Fall armyworm	fall armyworm	1.0	Guizhou	Guizhou
+Match	1.0	True	Located in	Located in	1.0	fall armyworm, armyworm, Fall armyworm	fall armyworm	1.0	Anhui	Anhui
+Match	1.0	True	Located in	Located in	1.0	fall armyworm, armyworm, Fall armyworm	fall armyworm	1.0	Henan	Henan
+Match	1.0	True	Located in	Located in	1.0	fall armyworm, armyworm, Fall armyworm	fall armyworm	1.0	Shaanxi	Shaanxi
+Match	1.0	True	Located in	Located in	1.0	fall armyworm, armyworm, Fall armyworm	fall armyworm	1.0	Sichuan, southwestern Sichuan province	Sichuan
+Match	1.0	True	Located in	Located in	1.0	fall armyworm, armyworm, Fall armyworm	fall armyworm	1.0	Yunnan	Yunnan
+Partial Match	0.5	True	Located in	Located in	1.0	fall armyworm, armyworm, Fall armyworm	fall armyworm	0.5	Hebei province	Hebei
+Match	1.0	True	Located in	Located in	1.0	fall armyworm, armyworm, Fall armyworm	fall armyworm	1.0	Hunan	Hunan
+Partial Match	0.5	True	Located in	Located in	1.0	fall armyworm, armyworm, Fall armyworm	fall armyworm	0.5	Liaoning provinces, Liaoning province	Liaoning
+Match	1.0	True	Has been found on	Have been found on	1.0	fall armyworm, armyworm, Fall armyworm	fall armyworm	1.0	wheat crops, wheat	wheat
+Match	1.0	True	Has been found on	Have been found on	1.0	fall armyworm, armyworm, Fall armyworm	fall armyworm	1.0	sugar cane	sugar cane
+Match	1.0	True	Has been found on	Have been found on	1.0	fall armyworm, armyworm, Fall armyworm	fall armyworm	1.0	sorghum	sorghum
+Match	1.0	True	Has been found on	Have been found on	1.0	fall armyworm, armyworm, Fall armyworm	fall armyworm	1.0	corn	corn
+Match	1.0	True	Affects	Affects	1.0	corn rust	corn rust	1.0	corn	corn
+Match	1.0	True	Affects	Affects	1.0	leaf blight	leaf blight	1.0	corn	corn
+Match	1.0	True	Affects	Affects	1.0	stalk rot	stalk rot	1.0	corn	corn
+Match	1.0	True	Affects	Affects	1.0	Yellow rust	yellow rust	1.0	wheat crops, wheat	wheat
+Match	1.0	True	Located in	Located in	1.0	Yellow rust	yellow rust	1.0	Gansu	Gansu
+Match	1.0	True	Located in	Located in	1.0	Yellow rust	yellow rust	1.0	Ningxia	Ningxia
+Match	1.0	True	Located in	Located in	1.0	Yellow rust	yellow rust	1.0	Shaanxi	Shaanxi
+False Negative	0.0		Located in			corn			China, China’s northeastern region, China’s northeastern cornbelt, China northwestern provinces	
+False Negative	0.0		Located in			wheat crops, wheat			Sichuan, southwestern Sichuan province	
+False Negative	0.0		Located in			Yellow rust			China, China’s northeastern region, China’s northeastern cornbelt, China northwestern provinces	
+False Negative	0.0		Located in			wheat crops, wheat			Gansu	
+False Negative	0.0		Located in			wheat crops, wheat			Ningxia	
+False Negative	0.0		Located in			wheat crops, wheat			China, China’s northeastern region, China’s northeastern cornbelt, China northwestern provinces	
+False Negative	0.0		Located in			wheat crops, wheat			Shaanxi	
+False Negative	0.0		Located in			corn			Inner Mongolia region	
+False Negative	0.0		Located in			corn			Jilin provinces	
+False Negative	0.0		Located in			corn			Heilongjiang provinces	
+False Negative	0.0		Located in			corn			Liaoning provinces, Liaoning province	
+False Positive	0.0			Located in			fall armyworm			Heilongjiang
+False Positive	0.0			Located in			fall armyworm			Jilin
+False Positive	0.0			Located in			fall armyworm			Inner Mongolia

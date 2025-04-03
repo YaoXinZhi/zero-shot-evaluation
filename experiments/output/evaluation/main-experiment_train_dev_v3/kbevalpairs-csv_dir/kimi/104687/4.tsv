@@ -1,0 +1,10 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Causes	Causes	1.0	TR4, ST4, Fusarium oxysporum f. sp. cubense, Foc tropical race 4, Foc pathogen, Foc ST4, Foc, subtropical race 4	Fusarium oxysporum f. sp. cubense	1.0	Fusarium wilt	Fusarium wilt
+Match	1.0	True	Affects	Affects	1.0	Fusarium wilt	Fusarium wilt	1.0	banana, Musa spp, resistant banana cultivars, banana plants, Musaspp, Banana Cultivars	banana
+Match	1.0	True	Has been found on	Have been found on	1.0	TR4, ST4, Fusarium oxysporum f. sp. cubense, Foc tropical race 4, Foc pathogen, Foc ST4, Foc, subtropical race 4	Fusarium oxysporum f. sp. cubense	1.0	Grand Naine cultivars, BRS Platina, Cavendish type (Grand Naine), cultivar BRS Platina, BRS Platina cultivar, Prata-Anã, Prata-Anã cultivars	Prata-Anã
+False Negative	0.0		Has been found on			TR4, ST4, Fusarium oxysporum f. sp. cubense, Foc tropical race 4, Foc pathogen, Foc ST4, Foc, subtropical race 4			banana, Musa spp, resistant banana cultivars, banana plants, Musaspp, Banana Cultivars	
+False Negative	0.0		Has been found on			Foc R1, race 1			Grand Naine cultivars, BRS Platina, Cavendish type (Grand Naine), cultivar BRS Platina, BRS Platina cultivar, Prata-Anã, Prata-Anã cultivars	
+False Positive	0.0			Have been found on			Fusarium oxysporum f. sp. cubense			Musa spp.
+False Positive	0.0			Have been found on			Fusarium oxysporum f. sp. cubense			Prata-type cultivars
+False Positive	0.0			Have been found on			Fusarium oxysporum f. sp. cubense			Cavendish type
+False Positive	0.0			Have been found on			Fusarium oxysporum f. sp. cubense			Grand Naine

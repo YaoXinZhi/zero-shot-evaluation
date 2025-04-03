@@ -1,0 +1,13 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Partial Match	0.9	False	Has been found on	Causes	1.0	TR4 fungus, TR4, Tropical Race 4	TR4	1.0	variety of banana called Cavendish, Cavendish bananas, Cavendish, Cavendish cv Grand Naine bananas, Gros Michel variety, Cavendish plants, Cavendish banana plants	Cavendish bananas
+Partial Match	0.6	False	Has been found on	Causes	1.0	TR1, TR1 fungus	TR1	0.6666666666666666	variety of banana called Cavendish, Cavendish bananas, Cavendish, Cavendish cv Grand Naine bananas, Gros Michel variety, Cavendish plants, Cavendish banana plants	Gros Michel
+Partial Match	0.45	False	Has been found on	Affects	1.0	TR4 fungus, TR4, Tropical Race 4	TR4	0.5	bananas, banana crops, banana	Cavendish bananas
+False Negative	0.0		Has been found on			TR1, TR1 fungus			bananas, banana crops, banana	
+False Negative	0.0		Causes			TR4 fungus, TR4, Tropical Race 4			Fusarium wilt	
+False Negative	0.0		Affects			Fusarium wilt			bananas, banana crops, banana	
+False Negative	0.0		Affects			Fusarium wilt			variety of banana called Cavendish, Cavendish bananas, Cavendish, Cavendish cv Grand Naine bananas, Gros Michel variety, Cavendish plants, Cavendish banana plants	
+False Positive	0.0			Located in			Cavendish bananas			Colombia
+False Positive	0.0			Have been found on			Cavendish bananas			Cavendish
+False Positive	0.0			Affects			TR1			Gros Michel
+False Positive	0.0			Transmits			Fusarium			TR4
+False Positive	0.0			Transmits			Fusarium			TR1

@@ -1,0 +1,13 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	multiplex	multiplex	1.0	Balearic Islands	Balearic Islands
+Match	1.0	True	Located in	Located in	1.0	fastidiosa	fastidiosa	1.0	Balearic Islands	Balearic Islands
+Match	1.0	True	Located in	Located in	1.0	pauca	pauca	1.0	Ibiza	Ibiza
+False Negative	0.0		Located in			Xylella, Xylella fastidiosa			Balearic Islands	
+False Negative	0.0		Located in			Xylella, Xylella fastidiosa			Formentera	
+False Negative	0.0		Located in			almond trees			Balearic Islands	
+False Negative	0.0		Located in			multiplex			Ibiza	
+False Negative	0.0		Located in			fastidiosa			Ibiza	
+False Negative	0.0		Located in			pauca			Balearic Islands	
+False Positive	0.0			Located in			Balearic Islands			Xylella fastidiosa
+False Positive	0.0			Have been found on			Xylella fastidiosa			almond trees
+False Positive	0.0			Have been found on			Xylella fastidiosa			carob trees

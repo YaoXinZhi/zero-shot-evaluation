@@ -1,0 +1,10 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Causes	Causes	1.0	Liberibacter, Liberibacters	Liberibacter	1.0	citrus greening	citrus greening
+Match	1.0	True	Affects	Affects	1.0	Citrus greening, Huanglongbing	citrus greening	1.0	citrus trees	citrus trees
+Match	1.0	True	Has been found on	Have been found on	1.0	L. capsica	L. capsica	1.0	pepper, peppers, pepper plant	pepper plant
+Match	1.0	True	Located in	Located in	1.0	L. capsica	L. capsica	1.0	Brazil	Brazil
+False Negative	0.0		Causes			Liberibacter, Liberibacters			citrus greening disease	
+False Negative	0.0		Has been found on			Liberibacter, Liberibacters			potatoes	
+False Negative	0.0		Affects			citrus greening			potatoes	
+False Negative	0.0		Located in			pepper, peppers, pepper plant			Brazil	
+False Positive	0.0			Transmits			psyllids			L. capsica

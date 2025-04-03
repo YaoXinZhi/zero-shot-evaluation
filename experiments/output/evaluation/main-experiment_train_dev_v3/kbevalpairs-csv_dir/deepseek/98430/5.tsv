@@ -1,0 +1,13 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Has been found on	Have been found on	1.0	Spodoptera frugiperda, S. frugiperda, Spodoptera frugiperda (JE Smith)	Spodoptera frugiperda	1.0	maize crops, maize fields, maize, maize crop	maize
+Match	1.0	True	Located in	Located in	1.0	maize crops, maize fields, maize, maize crop	maize	1.0	Pirassununga	Pirassununga
+Match	1.0	True	Located in	Located in	1.0	maize crops, maize fields, maize, maize crop	maize	1.0	Brazil	Brazil
+Match	1.0	True	Located in	Located in	1.0	maize crops, maize fields, maize, maize crop	maize	1.0	São Paulo state	São Paulo state
+False Negative	0.0		Located in			Spodoptera frugiperda, S. frugiperda, Spodoptera frugiperda (JE Smith)			Pirassununga	
+False Negative	0.0		Located in			Spodoptera frugiperda, S. frugiperda, Spodoptera frugiperda (JE Smith)			Brazil	
+False Negative	0.0		Located in			Spodoptera frugiperda, S. frugiperda, Spodoptera frugiperda (JE Smith)			São Paulo state	
+False Positive	0.0			Have been found on			Spodoptera frugiperda			other crops
+False Positive	0.0			Transmits			ladybugs			Spodoptera frugiperda
+False Positive	0.0			Transmits			earwigs			Spodoptera frugiperda
+False Positive	0.0			Transmits			Hippodamia convergens			Spodoptera frugiperda
+False Positive	0.0			Transmits			Doru luteipes			Spodoptera frugiperda

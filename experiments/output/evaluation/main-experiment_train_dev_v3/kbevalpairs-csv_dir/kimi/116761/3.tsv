@@ -1,0 +1,9 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Has been found on	Have been found on	1.0	Fusarium oxysporum f. sp. cubense Tropical Race 4, Fusarium oxysporum f.sp. cubense Tropical Race 4, FocTR4	FocTR4	1.0	bananas, banana	bananas
+Match	1.0	True	Causes	Causes	1.0	Fusarium oxysporum f. sp. cubense Tropical Race 4, Fusarium oxysporum f.sp. cubense Tropical Race 4, FocTR4	Fusarium oxysporum f. sp. cubense Tropical Race 4	1.0	Panama disease	Panama disease
+False Negative	0.0		Causes			Fusarium oxysporum f. sp. cubense Tropical Race 4, Fusarium oxysporum f.sp. cubense Tropical Race 4, FocTR4			banana Panama disease	
+False Negative	0.0		Affects			banana Panama disease			bananas, banana	
+False Negative	0.0		Affects			Panama disease			bananas, banana	
+False Positive	0.0			Have been found on			FocR1			bananas
+False Positive	0.0			Suppresses			captan			Panama disease
+False Positive	0.0			Suppresses			lipophilic cations			Panama disease

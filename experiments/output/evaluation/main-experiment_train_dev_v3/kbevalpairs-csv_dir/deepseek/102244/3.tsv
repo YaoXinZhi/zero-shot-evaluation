@@ -1,0 +1,24 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Has been found on	Have been found on	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	almond tree	almond tree
+Match	1.0	True	Has been found on	Have been found on	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	Polygala mirtifolia	Polygala mirtifolia
+Partial Match	0.5	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	0.5	beginning of the province of Brindisi	province of Brindisi
+Partial Match	0.42857142857142855	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	0.42857142857142855	terminal part of the south-east of Bari	south-east of Bari
+Partial Match	0.18000000000000002	False	Located in	Causes	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	0.2	central-southern Puglia, north of Puglia, Puglia Region	epidemic that has hit the olive growing of central-southern Puglia
+Match	1.0	True	Has been found on	Have been found on	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	olive, olive trees	Olive
+Partial Match	0.5	True	Located in	Located in	1.0	olive, olive trees	Olive	0.5	central-southern Puglia, north of Puglia, Puglia Region	Puglia
+False Negative	0.0		Located in			Xylella, Xylella fastidiosa			Monopoli	
+False Negative	0.0		Located in			Xylella, Xylella fastidiosa			countryside of Fasano	
+False Negative	0.0		Located in			Xylella, Xylella fastidiosa			Polignano	
+False Negative	0.0		Located in			Xylella, Xylella fastidiosa			Alberobello area	
+False Negative	0.0		Located in			Xylella, Xylella fastidiosa			countryside. of Martina Franca	
+False Negative	0.0		Has been found on			Xylella, Xylella fastidiosa			olive trees	
+False Positive	0.0			Located in			Xylella fastidiosa			free zone
+False Positive	0.0			Located in			Xylella fastidiosa			buffer zone
+False Positive	0.0			Located in			Xylella fastidiosa			containment zone
+False Positive	0.0			Affects			epidemic that has hit the olive growing of central-southern Puglia			Olive
+False Positive	0.0			Located in			Polygala mirtifolia			Polignano
+False Positive	0.0			Located in			almond tree			Polignano
+False Positive	0.0			Located in			Olive			Monopoli
+False Positive	0.0			Located in			Olive			Fasano
+False Positive	0.0			Located in			Olive			Martina Franca
+False Positive	0.0			Located in			Olive			Alberobello

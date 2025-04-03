@@ -1,0 +1,10 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Affects	Affects	1.0	Huanglongbing	Huanglongbing	1.0	Citrus Groves, citrus trees, citrus, citrus plants	citrus
+Match	1.0	True	Causes	Causes	1.0	Ca. L. asiaticus, Candidatus Liberibacter asiaticus, Ca
+. L. asiaticus	Candidatus Liberibacter asiaticus	1.0	Huanglongbing	Huanglongbing
+False Negative	0.0		Has been found on			Ca. L. asiaticus, Candidatus Liberibacter asiaticus, Ca
+. L. asiaticus			Citrus Groves, citrus trees, citrus, citrus plants	
+False Negative	0.0		Has been found on			HLB pathogen			Citrus Groves, citrus trees, citrus, citrus plants	
+False Negative	0.0		Causes			HLB pathogen			Huanglongbing	
+False Negative	0.0		Affects			HLB disease			Citrus Groves, citrus trees, citrus, citrus plants	
+False Positive	0.0			Affects			Huanglongbing			citrus leaves

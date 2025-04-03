@@ -1,0 +1,12 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Partial Match	0.6666666666666666	True	Located in	Located in	0.6666666666666666	Cavendish banana variety, Cavendish, Cavendish banana plants	Cavendish banana	1.0	Colombia	Colombia
+Partial Match	0.19999999999999998	False	Has been found on	Affects	0.3333333333333333	TR4, Foc TR4	TR4 Panama disease	0.6666666666666666	Cavendish banana variety, Cavendish, Cavendish banana plants	Cavendish banana
+Partial Match	0.4444444444444444	True	Affects	Affects	0.6666666666666666	Panama disease	Panama disease TR4	0.6666666666666666	Cavendish banana variety, Cavendish, Cavendish banana plants	banana plants
+Partial Match	0.25	True	Affects	Affects	0.5	Fusarium Wilt	Fusarium Wilt (Foc TR4)	0.5	variety banana, Banana	banana plants
+False Negative	0.0		Located in			TR4, Foc TR4			Colombia	
+False Negative	0.0		Causes			TR4, Foc TR4			Panama disease	
+False Negative	0.0		Located in			Panama disease			Colombia	
+False Negative	0.0		Causes			TR4, Foc TR4			Fusarium Wilt	
+False Negative	0.0		Has been found on			TR4, Foc TR4			variety banana, Banana	
+False Positive	0.0			Located in			Cavendish banana			Israel
+False Positive	0.0			Located in			banana plants			Colombia
