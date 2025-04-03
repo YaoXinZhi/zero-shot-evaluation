@@ -1,0 +1,15 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Has been found on	Have been found on	1.0	brown rust virus, brown wrinkle virus, ToBRFV, tomato brown wrinkle virus	brown rust virus	1.0	tomato crops, tomatoes	tomato crops
+Partial Match	0.9	False	Has been found on	Affects	1.0	brown rust virus, brown wrinkle virus, ToBRFV, tomato brown wrinkle virus	brown rust virus	1.0	pepper crops, pepper, plants pepper	pepper
+Match	1.0	True	Located in	Located in	1.0	brown rust virus, brown wrinkle virus, ToBRFV, tomato brown wrinkle virus	brown rust virus	1.0	Arcadia	Arcadia
+Match	1.0	True	Has been found on	Have been found on	1.0	brown rust virus, brown wrinkle virus, ToBRFV, tomato brown wrinkle virus	brown rust virus	1.0	petunia	petunia
+Match	1.0	True	Has been found on	Have been found on	1.0	brown rust virus, brown wrinkle virus, ToBRFV, tomato brown wrinkle virus	brown rust virus	1.0	goosefoot	goosefoot
+Match	1.0	True	Has been found on	Have been found on	1.0	brown rust virus, brown wrinkle virus, ToBRFV, tomato brown wrinkle virus	brown rust virus	1.0	datula	datula
+False Negative	0.0		Located in			tomato crops, tomatoes			Arcadia	
+False Negative	0.0		Located in			brown rust virus, brown wrinkle virus, ToBRFV, tomato brown wrinkle virus			Levidi	
+False Negative	0.0		Located in			tomato crops, tomatoes			Levidi	
+False Positive	0.0			Have been found on			brown rust virus			tomato fruits
+False Positive	0.0			Affects			brown rust virus			tomato crops
+False Positive	0.0			Have been found on			brown rust virus			stypnus
+False Positive	0.0			Affects			tomato brown wrinkle virus (ToBRFV)			tomato crops
+False Positive	0.0			Affects			tomato brown wrinkle virus (ToBRFV)			pepper

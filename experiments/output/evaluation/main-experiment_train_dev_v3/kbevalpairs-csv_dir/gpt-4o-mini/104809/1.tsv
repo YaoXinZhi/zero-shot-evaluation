@@ -1,0 +1,8 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	olive trees, Olive, olive	olive trees	1.0	Puglia region, Puglia Region	Puglia Region
+Match	1.0	True	Located in	Located in	1.0	olive trees, Olive, olive	olive trees	1.0	Salento	Salento
+Partial Match	0.9	False	Has been found on	Affects	1.0	xylella	xylella	1.0	olive trees, Olive, olive	olive trees
+False Negative	0.0		Located in			xylella			Puglia region, Puglia Region	
+False Negative	0.0		Located in			xylella			Salento	
+False Positive	0.0			Have been found on			olive trees			infected area
+False Positive	0.0			Affects			bacteriosis			olive trees

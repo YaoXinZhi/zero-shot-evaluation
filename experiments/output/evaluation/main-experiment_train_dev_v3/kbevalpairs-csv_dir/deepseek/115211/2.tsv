@@ -1,0 +1,9 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	olive trees	olive trees	1.0	Salento area	Salento area
+Match	1.0	True	Located in	Located in	1.0	olive trees	olive trees	1.0	Puglia	Puglia
+False Negative	0.0		Located in			Xylella, Xylella fastidiosa			Salento area	
+False Negative	0.0		Located in			Xylella, Xylella fastidiosa			Puglia	
+False Negative	0.0		Has been found on			Xylella, Xylella fastidiosa			olive trees	
+False Positive	0.0			Causes			Xylella fastidiosa			plant disease
+False Positive	0.0			Affects			plant disease			olive trees
+False Positive	0.0			Located in			Xylella fastidiosa			Bari

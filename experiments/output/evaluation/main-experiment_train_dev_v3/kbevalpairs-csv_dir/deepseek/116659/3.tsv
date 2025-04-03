@@ -1,0 +1,11 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	citrus	citrus	1.0	European Union	European Union
+Partial Match	0.2	True	Located in	Located in	0.2	disease of citrus black spot	citrus	1.0	South Africa	South Africa
+Partial Match	0.6	True	Causes	Causes	1.0	Phyllosticta citricarpa	Phyllosticta citricarpa	0.6	disease of citrus black spot	citrus black spot
+False Negative	0.0		Located in			Phyllosticta citricarpa			South Africa	
+False Positive	0.0			Affects			citrus black spot			citrus
+False Positive	0.0			Have been found on			Phyllosticta citricarpa			citrus
+False Positive	0.0			Located in			citrus			Brazil
+False Positive	0.0			Located in			citrus			Argentina
+False Positive	0.0			Located in			citrus			Uruguay
+False Positive	0.0			Located in			citrus			Colombia

@@ -1,0 +1,26 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	citrus plants, citrus fruits, cultivation of citrus fruits, citrus, citrus cultivation	citrus fruits	1.0	Italy	Italy
+Match	1.0	True	Affects	Affects	1.0	Tristeza	Tristeza	1.0	citrus plants, citrus fruits, cultivation of citrus fruits, citrus, citrus cultivation	citrus fruits
+Match	1.0	True	Located in	Located in	1.0	citrus plants, citrus fruits, cultivation of citrus fruits, citrus, citrus cultivation	citrus fruits	1.0	Sicily Region, Sicily	Sicily
+False Negative	0.0		Located in			citrus plants, citrus fruits, cultivation of citrus fruits, citrus, citrus cultivation			Etnean capital	
+False Negative	0.0		Located in			Tristeza			Sicily Region, Sicily	
+False Negative	0.0		Located in			Tristeza			Italy	
+False Negative	0.0		Located in			HLB			Spain	
+False Negative	0.0		Located in			HLB			USA, United States	
+False Negative	0.0		Affects			HLB			citrus plants, citrus fruits, cultivation of citrus fruits, citrus, citrus cultivation	
+False Negative	0.0		Located in			citrus plants, citrus fruits, cultivation of citrus fruits, citrus, citrus cultivation			Spain	
+False Negative	0.0		Located in			citrus plants, citrus fruits, cultivation of citrus fruits, citrus, citrus cultivation			USA, United States	
+False Negative	0.0		Located in			HLB			Mediterranean	
+False Negative	0.0		Located in			HLB disease			USA, United States	
+False Negative	0.0		Located in			citrus plants, citrus fruits, cultivation of citrus fruits, citrus, citrus cultivation			Acireale	
+False Positive	0.0			Causes			Phytophthora			Huanglongbing (HLB)
+False Positive	0.0			Causes			CTV-Citrus tristeza virus			Tristeza
+False Positive	0.0			Affects			Huanglongbing (HLB)			citrus fruits
+False Positive	0.0			Have been found on			rootstocks			citrus fruits
+False Positive	0.0			Have been found on			C35			Tarocco Scirè
+False Positive	0.0			Have been found on			Carpenter			Tarocco Scirè
+False Positive	0.0			Have been found on			Bitters			Tarocco Scirè
+False Positive	0.0			Have been found on			Furr			Tarocco Scirè
+False Positive	0.0			Have been found on			Citrange Carrizo			Tarocco Scirè
+False Positive	0.0			Transmits			HLB disease			vector insects
+False Positive	0.0			Causes			Tristeza of citrus fruits			citrus fruits

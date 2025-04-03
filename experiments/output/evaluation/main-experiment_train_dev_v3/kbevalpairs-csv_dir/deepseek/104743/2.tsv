@@ -1,0 +1,7 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Has been found on	Have been found on	1.0	Xylella, Xylella Fastidiosa	Xylella Fastidiosa	1.0	olive trees, Olive	Olive trees
+Match	1.0	True	Located in	Located in	1.0	olive trees, Olive	Olive trees	1.0	Salento area	Salento area
+False Negative	0.0		Located in			Xylella, Xylella Fastidiosa			Salento area	
+False Positive	0.0			Causes			Xylella Fastidiosa			bacteriosis
+False Positive	0.0			Affects			bacteriosis			Olive trees
+False Positive	0.0			Located in			Olive trees			Puglia Region

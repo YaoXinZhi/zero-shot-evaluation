@@ -1,0 +1,20 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	C. truncatum, Colletotrichum truncatum (Schwein.) Andrus & W.D. Moore, Colletotrichum truncatum	Colletotrichum truncatum	1.0	India	India
+Match	1.0	True	Causes	Causes	1.0	C. truncatum, Colletotrichum truncatum (Schwein.) Andrus & W.D. Moore, Colletotrichum truncatum	Colletotrichum truncatum	1.0	anthracnose	anthracnose
+Match	1.0	True	Located in	Located in	1.0	C. truncatum, Colletotrichum truncatum (Schwein.) Andrus & W.D. Moore, Colletotrichum truncatum	Colletotrichum truncatum	1.0	China	China
+Match	1.0	True	Located in	Located in	1.0	C. truncatum, Colletotrichum truncatum (Schwein.) Andrus & W.D. Moore, Colletotrichum truncatum	Colletotrichum truncatum	1.0	Malaysia	Malaysia
+False Negative	0.0		Has been found on			C. truncatum, Colletotrichum truncatum (Schwein.) Andrus & W.D. Moore, Colletotrichum truncatum			dragon fruit, Hylocereus spp, Dragon fruit	
+False Negative	0.0		Has been found on			C. truncatum, Colletotrichum truncatum (Schwein.) Andrus & W.D. Moore, Colletotrichum truncatum			H. polyrhizus	
+False Negative	0.0		Has been found on			C. truncatum, Colletotrichum truncatum (Schwein.) Andrus & W.D. Moore, Colletotrichum truncatum			H. undatus	
+False Negative	0.0		Located in			anthracnose			India	
+False Negative	0.0		Affects			anthracnose			dragon fruit, Hylocereus spp, Dragon fruit	
+False Negative	0.0		Located in			dragon fruit, Hylocereus spp, Dragon fruit			India	
+False Negative	0.0		Affects			anthracnose			H. polyrhizus	
+False Negative	0.0		Affects			anthracnose			H. undatus	
+False Negative	0.0		Located in			dragon fruit, Hylocereus spp, Dragon fruit			China	
+False Negative	0.0		Located in			dragon fruit, Hylocereus spp, Dragon fruit			Malaysia	
+False Negative	0.0		Located in			anthracnose			China	
+False Negative	0.0		Located in			anthracnose			Malaysia	
+False Positive	0.0			Affects			anthracnose			Hylocereus spp.
+False Positive	0.0			Have been found on			Colletotrichum truncatum			Hylocereus spp.
+False Positive	0.0			Located in			Hylocereus spp.			India

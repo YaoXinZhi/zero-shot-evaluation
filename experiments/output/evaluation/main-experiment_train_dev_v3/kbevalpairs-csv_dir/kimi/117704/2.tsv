@@ -1,0 +1,12 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Partial Match	0.45	False	Affects	Located in	1.0	flavescence dorée, Vine flavescence	flavescence dorée	0.5	vineyards, vines, vineyard, red grape varieties, white grape varieties	Lot vineyards
+Partial Match	0.45	False	Has been found on	Located in	1.0	Scaphoidus titanus	Scaphoidus titanus	0.5	vineyards, vines, vineyard, red grape varieties, white grape varieties	Lot vineyards
+Partial Match	0.6666666666666666	True	Affects	Affects	1.0	flavescence dorée	flavescence dorée	0.6666666666666666	vineyards, vines, vineyard, red grape varieties, white grape varieties	grape varieties
+False Negative	0.0		Located in			vineyards, vines, vineyard, red grape varieties, white grape varieties			Lot	
+False Negative	0.0		Affects			golden flavescence			vineyards, vines, vineyard, red grape varieties, white grape varieties	
+False Negative	0.0		Affects			black wood			vineyards, vines, vineyard, red grape varieties, white grape varieties	
+False Positive	0.0			Transmits			Scaphoidus titanus			flavescence dorée
+False Positive	0.0			Affects			bois noir			grape varieties
+False Positive	0.0			Located in			FDGDON			Lot vineyards
+False Positive	0.0			Located in			Christophe FRANCEN			Lot vineyards
+False Positive	0.0			Located in			DRAAF			Lot vineyards

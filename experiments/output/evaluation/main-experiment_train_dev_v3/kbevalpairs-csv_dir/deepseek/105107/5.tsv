@@ -1,0 +1,10 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Partial Match	0.3333333333333333	True	Causes	Causes	1.0	Candidatus phytoplasma vitis	Candidatus phytoplasma vitis	0.3333333333333333	golden flavescence	flavescence dorée
+Match	1.0	True	Located in	Located in	1.0	flavescence dorée	flavescence dorée	1.0	France	France
+Match	1.0	True	Located in	Located in	1.0	flavescence dorée	flavescence dorée	1.0	Switzerland	Switzerland
+Match	1.0	True	Affects	Affects	1.0	flavescence dorée	flavescence dorée	1.0	vines, vine	vine
+False Negative	0.0		Affects			golden flavescence			vines, vine	
+False Negative	0.0		Located in			flavescence dorée			canton of Ticino	
+False Negative	0.0		Located in			vines, vine			Switzerland	
+False Negative	0.0		Located in			vines, vine			canton of Ticino	
+False Positive	0.0			Transmits			sharpshooter			Candidatus phytoplasma vitis

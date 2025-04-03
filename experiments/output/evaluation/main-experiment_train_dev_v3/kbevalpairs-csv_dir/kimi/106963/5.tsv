@@ -1,0 +1,20 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Partial Match	0.3333333333333333	True	Located in	Located in	0.3333333333333333	golden-yellow yellowing	yellowing diseases	1.0	Salurn	Salurn
+Partial Match	0.3333333333333333	True	Located in	Located in	0.3333333333333333	golden-yellow yellowing	yellowing diseases	1.0	Unterland	Unterland
+Partial Match	0.3333333333333333	True	Affects	Affects	0.3333333333333333	Golden yellowing	yellowing diseases	1.0	vineyards, Chardonnay, vines, white wine varieties, Pinot Grigio, vineyard, wine, red wine varieties, vine	vine
+Partial Match	0.75	True	Transmits	Transmits	1.0	American leafhopper	American leafhopper	0.75	FDp, Flavescence dorèe phytoplasma	Flavescence dorèe phytoplasma (FDp)
+False Negative	0.0		Located in			golden-yellow yellowing			South Tyrol, Burggrafenamt	
+False Negative	0.0		Affects			golden-yellow yellowing			vineyards, Chardonnay, vines, white wine varieties, Pinot Grigio, vineyard, wine, red wine varieties, vine	
+False Negative	0.0		Located in			vineyards, Chardonnay, vines, white wine varieties, Pinot Grigio, vineyard, wine, red wine varieties, vine			Unterland	
+False Negative	0.0		Located in			vineyards, Chardonnay, vines, white wine varieties, Pinot Grigio, vineyard, wine, red wine varieties, vine			South Tyrol, Burggrafenamt	
+False Negative	0.0		Located in			vineyards, Chardonnay, vines, white wine varieties, Pinot Grigio, vineyard, wine, red wine varieties, vine			Salurn	
+False Negative	0.0		Causes			FDp, Flavescence dorèe phytoplasma			golden-yellow yellowing	
+False Negative	0.0		Has been found on			FDp, Flavescence dorèe phytoplasma			vineyards, Chardonnay, vines, white wine varieties, Pinot Grigio, vineyard, wine, red wine varieties, vine	
+False Negative	0.0		Located in			American leafhopper			Europe	
+False Negative	0.0		Has been found on			American leafhopper			vineyards, Chardonnay, vines, white wine varieties, Pinot Grigio, vineyard, wine, red wine varieties, vine	
+False Positive	0.0			Located in			golden yellowing			Burggrafenamt
+False Positive	0.0			Located in			Flavescence dorée			South Tyrol
+False Positive	0.0			Causes			golden yellowing			Flavescence dorée
+False Positive	0.0			Affects			Flavescence dorée			Chardonnay
+False Positive	0.0			Affects			Flavescence dorée			Pinot Grigio
+False Positive	0.0			Causes			Flavescence dorèe phytoplasma (FDp)			golden yellowing

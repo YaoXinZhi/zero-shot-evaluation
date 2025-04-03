@@ -1,0 +1,46 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	orange groves, oranges, orange trees	orange trees	1.0	Seville	Seville
+Partial Match	0.5	True	Located in	Located in	0.5	citrus tree, citrus	citrus crops	1.0	Asia, Asian countries	Asia
+Partial Match	0.5	True	Located in	Located in	0.5	citrus tree, citrus	citrus crops	1.0	Latin America	Latin America
+Partial Match	0.5	True	Located in	Located in	0.5	citrus tree, citrus	citrus crops	1.0	United States	United States
+Match	1.0	True	Located in	Located in	1.0	HLB, huanglongbing	huanglongbing	1.0	Brazil	Brazil
+Match	1.0	True	Located in	Located in	1.0	HLB, huanglongbing	huanglongbing	1.0	United States	United States
+Match	1.0	True	Located in	Located in	1.0	HLB, huanglongbing	huanglongbing	1.0	Africa, African states	Africa
+Match	1.0	True	Located in	Located in	1.0	HLB, huanglongbing	huanglongbing	1.0	China	China
+Partial Match	0.5	True	Affects	Affects	1.0	HLB, huanglongbing	huanglongbing	0.5	citrus tree, citrus	citrus crops
+Match	1.0	True	Affects	Affects	1.0	HLB, huanglongbing	huanglongbing	1.0	orange groves, oranges, orange trees	orange trees
+Match	1.0	True	Causes	Causes	1.0	Candidatus liberibacter	Candidatus liberibacter	1.0	HLB, huanglongbing	huanglongbing
+Partial Match	0.5	True	Has been found on	Has been found on	1.0	Candidatus liberibacter	Candidatus liberibacter	0.5	citrus tree, citrus	citrus crops
+Match	1.0	True	Located in	Located in	1.0	Trioza eryteae	Trioza eryteae	1.0	Galicia	Galicia
+Match	1.0	True	Located in	Located in	1.0	Trioza eryteae	Trioza eryteae	1.0	southern Spain, Spain	Spain
+Match	1.0	True	Located in	Located in	1.0	Trioza eryteae	Trioza eryteae	1.0	Canary Islands	Canary Islands
+Match	1.0	True	Located in	Located in	1.0	Trioza eryteae	Trioza eryteae	1.0	Portugal	Portugal
+False Negative	0.0		Located in			Yellow dragon disease			Seville	
+False Negative	0.0		Located in			Yellow dragon disease			Asia, Asian countries	
+False Negative	0.0		Located in			Yellow dragon disease			Latin America	
+False Negative	0.0		Located in			Yellow dragon disease			United States	
+False Negative	0.0		Affects			Yellow dragon disease			orange groves, oranges, orange trees	
+False Negative	0.0		Affects			Yellow dragon disease			citrus tree, citrus	
+False Negative	0.0		Located in			HLB, huanglongbing			Portugal	
+False Negative	0.0		Located in			HLB, huanglongbing			France	
+False Negative	0.0		Located in			HLB, huanglongbing			Asia, Asian countries	
+False Negative	0.0		Located in			HLB, huanglongbing			Italy	
+False Negative	0.0		Located in			HLB, huanglongbing			southern Spain, Spain	
+False Negative	0.0		Located in			HLB, huanglongbing			Florida	
+False Negative	0.0		Located in			Candidatus liberibacter			Portugal	
+False Negative	0.0		Located in			Candidatus liberibacter			France	
+False Negative	0.0		Located in			Candidatus liberibacter			Asia, Asian countries	
+False Negative	0.0		Located in			Candidatus liberibacter			Italy	
+False Negative	0.0		Located in			Candidatus liberibacter			Brazil	
+False Negative	0.0		Located in			Candidatus liberibacter			United States	
+False Negative	0.0		Located in			Candidatus liberibacter			southern Spain, Spain	
+False Negative	0.0		Located in			Candidatus liberibacter			Africa, African states	
+False Negative	0.0		Located in			Candidatus liberibacter			Florida	
+False Negative	0.0		Located in			Candidatus liberibacter			China	
+False Negative	0.0		Has been found on			Candidatus liberibacter			orange groves, oranges, orange trees	
+False Negative	0.0		Located in			citrus tree, citrus			Portugal	
+False Negative	0.0		Located in			citrus tree, citrus			France	
+False Negative	0.0		Located in			citrus tree, citrus			Italy	
+False Negative	0.0		Located in			citrus tree, citrus			southern Spain, Spain	
+False Negative	0.0		Located in			orange groves, oranges, orange trees			Florida	
+False Positive	0.0			Transmits			Trioza eryteae			Candidatus liberibacter
