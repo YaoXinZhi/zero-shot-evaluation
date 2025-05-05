@@ -1,0 +1,40 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Partial Match	0.4	True	Affects	Affects	0.4	yellow dragon	Plague of the yellow dragon	1.0	citrus, citrus cultivation, citrus fruits, citrus plants	citrus
+Match	1.0	True	Located in	Located in	1.0	citrus, citrus cultivation, citrus fruits, citrus plants	citrus	1.0	Venezuela	Venezuela
+Match	1.0	True	Located in	Located in	1.0	citrus, citrus cultivation, citrus fruits, citrus plants	citrus	1.0	Maracaibo	Maracaibo
+Match	1.0	True	Located in	Located in	1.0	citrus, citrus cultivation, citrus fruits, citrus plants	citrus	1.0	San Francisco	San Francisco
+Match	1.0	True	Located in	Located in	1.0	citrus, citrus cultivation, citrus fruits, citrus plants	citrus	1.0	Zulia state	Zulia state
+Match	1.0	True	Located in	Located in	1.0	HLB	HLB	1.0	Venezuela	Venezuela
+Match	1.0	True	Located in	Located in	1.0	HLB	HLB	1.0	Maracaibo	Maracaibo
+Match	1.0	True	Located in	Located in	1.0	HLB	HLB	1.0	San Francisco	San Francisco
+Match	1.0	True	Located in	Located in	1.0	HLB	HLB	1.0	Zulia state	Zulia state
+Partial Match	0.3333333333333333	True	Located in	Located in	1.0	citrus, citrus cultivation, citrus fruits, citrus plants	citrus	0.3333333333333333	state of Aragua	Aragua
+False Negative	0.0		Located in			citrus, citrus cultivation, citrus fruits, citrus plants			Latin America	
+False Negative	0.0		Located in			HLB			Latin America	
+False Negative	0.0		Affects			HLB			citrus, citrus cultivation, citrus fruits, citrus plants	
+False Negative	0.0		Affects			huanglongbing			citrus, citrus cultivation, citrus fruits, citrus plants	
+False Positive	0.0			Causes			HLB			Plague of the yellow dragon
+False Positive	0.0			Causes			huanglongbing			Plague of the yellow dragon
+False Positive	0.0			Affects			Plague of the yellow dragon			citrus fruits
+False Positive	0.0			Located in			Plague of the yellow dragon			country
+False Positive	0.0			Located in			HLB			country
+False Positive	0.0			Located in			huanglongbing			country
+False Positive	0.0			Located in			citrus			country
+False Positive	0.0			Located in			citrus fruits			country
+False Positive	0.0			Located in			Plague of the yellow dragon			Venezuela
+False Positive	0.0			Located in			huanglongbing			Venezuela
+False Positive	0.0			Located in			Plague of the yellow dragon			Zulia state
+False Positive	0.0			Located in			huanglongbing			Zulia state
+False Positive	0.0			Located in			Plague of the yellow dragon			Maracaibo
+False Positive	0.0			Located in			huanglongbing			Maracaibo
+False Positive	0.0			Located in			Plague of the yellow dragon			San Francisco
+False Positive	0.0			Located in			huanglongbing			San Francisco
+False Positive	0.0			Located in			Plague of the yellow dragon			Costa Oriental del Lago
+False Positive	0.0			Located in			HLB			Costa Oriental del Lago
+False Positive	0.0			Located in			huanglongbing			Costa Oriental del Lago
+False Positive	0.0			Located in			citrus			Costa Oriental del Lago
+False Positive	0.0			Located in			citrus fruits			Costa Oriental del Lago
+False Positive	0.0			Located in			Plague of the yellow dragon			Aragua
+False Positive	0.0			Located in			HLB			Aragua
+False Positive	0.0			Located in			huanglongbing			Aragua
+False Positive	0.0			Located in			citrus fruits			Aragua

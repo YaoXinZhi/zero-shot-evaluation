@@ -1,0 +1,16 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Affects	Affects	1.0	HLB	HLB	1.0	citrus, citrus plants	citrus plants
+Match	1.0	True	Located in	Located in	1.0	HLB	HLB	1.0	province of Tucumán, Tucumán	Tucumán
+Partial Match	0.5	True	Located in	Located in	0.5	citrus, citrus plants	citrus seedlings	1.0	province of Tucumán, Tucumán	Tucumán
+False Positive	0.0			Causes			HLB			Huanglongbing
+False Positive	0.0			Transmits			HLB			insect
+False Positive	0.0			Located in			HLB			national territory
+False Positive	0.0			Located in			citrus seedlings			nursery
+False Positive	0.0			Have been found on			Senasa			citrus seedlings
+False Positive	0.0			Located in			Senasa			NOA Sur Regional Center
+False Positive	0.0			Located in			Senasa			Province
+False Positive	0.0			Have been found on			Senasa			citrus plants
+False Positive	0.0			Located in			Gustavo Dadda			Senasa Noa Sur Regional Center
+False Positive	0.0			Affects			citrus seedlings			national territory
+False Positive	0.0			Affects			HLB			national territory
+False Positive	0.0			Transmits			insect			HLB

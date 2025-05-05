@@ -1,0 +1,23 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Partial Match	0.4	True	Affects	Affects	0.4	yellow dragon	Plague of the yellow dragon	1.0	citrus, citrus cultivation, citrus fruits, citrus plants	citrus
+Match	1.0	True	Located in	Located in	1.0	citrus, citrus cultivation, citrus fruits, citrus plants	citrus	1.0	Venezuela	Venezuela
+Match	1.0	True	Located in	Located in	1.0	citrus, citrus cultivation, citrus fruits, citrus plants	citrus fruits	1.0	Zulia state	Zulia state
+False Negative	0.0		Located in			citrus, citrus cultivation, citrus fruits, citrus plants			Maracaibo	
+False Negative	0.0		Located in			citrus, citrus cultivation, citrus fruits, citrus plants			San Francisco	
+False Negative	0.0		Located in			citrus, citrus cultivation, citrus fruits, citrus plants			Latin America	
+False Negative	0.0		Located in			HLB			Venezuela	
+False Negative	0.0		Located in			HLB			Maracaibo	
+False Negative	0.0		Located in			HLB			San Francisco	
+False Negative	0.0		Located in			HLB			Zulia state	
+False Negative	0.0		Located in			HLB			Latin America	
+False Negative	0.0		Affects			HLB			citrus, citrus cultivation, citrus fruits, citrus plants	
+False Negative	0.0		Affects			huanglongbing			citrus, citrus cultivation, citrus fruits, citrus plants	
+False Negative	0.0		Located in			citrus, citrus cultivation, citrus fruits, citrus plants			state of Aragua	
+False Positive	0.0			Causes			HLB			Plague of the yellow dragon
+False Positive	0.0			Causes			huanglongbing			Plague of the yellow dragon
+False Positive	0.0			Located in			Plague of the yellow dragon			Venezuela
+False Positive	0.0			Located in			Zulia state			Venezuela
+False Positive	0.0			Located in			Maracaibo			Zulia state
+False Positive	0.0			Located in			San Francisco			Zulia state
+False Positive	0.0			Located in			Costa Oriental del Lago			Zulia state
+False Positive	0.0			Located in			Aragua			Venezuela

@@ -1,0 +1,43 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Has been found on	Have been found on	1.0	Trioza erytreae, African vector HB, African vector of HBL, African HBL vector, T.erytreae	Trioza erytreae	1.0	citrus	citrus
+Match	1.0	True	Located in	Located in	1.0	Trioza erytreae, African vector HB, African vector of HBL, African HBL vector, T.erytreae	Trioza erytreae	1.0	Asturias	Asturias
+Match	1.0	True	Located in	Located in	1.0	Trioza erytreae, African vector HB, African vector of HBL, African HBL vector, T.erytreae	Trioza erytreae	1.0	Cantabria	Cantabria
+Match	1.0	True	Located in	Located in	1.0	Trioza erytreae, African vector HB, African vector of HBL, African HBL vector, T.erytreae	Trioza erytreae	1.0	further north in Portugal, entire coastline of Portugal, Portugal	Portugal
+Partial Match	0.6666666666666666	True	Located in	Located in	1.0	Trioza erytreae, African vector HB, African vector of HBL, African HBL vector, T.erytreae	Trioza erytreae	0.6666666666666666	Basque Country	the Basque Country
+Match	1.0	True	Located in	Located in	1.0	Trioza erytreae, African vector HB, African vector of HBL, African HBL vector, T.erytreae	Trioza erytreae	1.0	Galicia	Galicia
+Match	1.0	True	Located in	Located in	1.0	Asian psyllid, D. citri, Diaphorina citri	Diaphorina citri	1.0	Israel	Israel
+Match	1.0	True	Located in	Located in	1.0	Trioza erytreae, African vector HB, African vector of HBL, African HBL vector, T.erytreae	Trioza erytreae	1.0	Huelva, province of Huelva	Huelva
+Match	1.0	True	Located in	Located in	1.0	Trioza erytreae, African vector HB, African vector of HBL, African HBL vector, T.erytreae	Trioza erytreae	1.0	Algarve coast	Algarve coast
+Partial Match	0.3333333333333333	True	Located in	Located in	1.0	Asian psyllid, D. citri, Diaphorina citri	Diaphorina citri	0.3333333333333333	coastal city north of Tel Aviv	Tel Aviv
+Match	1.0	True	Located in	Located in	1.0	Asian psyllid, D. citri, Diaphorina citri	Diaphorina citri	1.0	Hefer Valley	Hefer Valley
+Match	1.0	True	Located in	Located in	1.0	Asian psyllid, D. citri, Diaphorina citri	Diaphorina citri	1.0	Florida	Florida
+Match	1.0	True	Located in	Located in	1.0	Asian psyllid, D. citri, Diaphorina citri	Diaphorina citri	1.0	Brazil	Brazil
+Partial Match	0.25	True	Transmits	Transmits	1.0	Asian psyllid, D. citri, Diaphorina citri	Diaphorina citri	0.25	HLB	Asian strain of HLB
+Match	1.0	True	Located in	Located in	1.0	HLB	HLB	1.0	Florida	Florida
+Match	1.0	True	Located in	Located in	1.0	HLB	HLB	1.0	Brazil	Brazil
+Match	1.0	True	Located in	Located in	1.0	HLB	HLB	1.0	Israel	Israel
+Partial Match	0.2	True	Causes	Causes	0.2	HLB bacterium, Candidatus Liberibacter asiaticus	African strain of HLB	1.0	HLB	HLB
+Partial Match	0.45	False	Has been found on	Affects	0.5	HLB bacterium, Candidatus Liberibacter asiaticus	HLB	1.0	citrus	citrus
+Partial Match	0.5	True	Located in	Located in	0.5	HLB bacterium, Candidatus Liberibacter asiaticus	HLB	1.0	Spanish, Spain	Spain
+False Negative	0.0		Located in			citrus			Huelva, province of Huelva	
+False Negative	0.0		Located in			citrus			Ayamonte	
+False Negative	0.0		Located in			Trioza erytreae, African vector HB, African vector of HBL, African HBL vector, T.erytreae			Porto	
+False Negative	0.0		Located in			Huanglongbing			Israel	
+False Negative	0.0		Causes			African strain of HLB			Huanglongbing	
+False Negative	0.0		Transmits			Asian psyllid, D. citri, Diaphorina citri			Huanglongbing	
+False Negative	0.0		Located in			citrus			Spanish, Spain	
+False Negative	0.0		Located in			citrus			Algarve coast	
+False Negative	0.0		Located in			Asian psyllid, D. citri, Diaphorina citri			Mediterranean	
+False Negative	0.0		Located in			orange trees			Spanish, Spain	
+False Negative	0.0		Located in			mandarin trees			Spanish, Spain	
+False Negative	0.0		Located in			Citrange reed			Spanish, Spain	
+False Negative	0.0		Has been found on			Asian psyllid, D. citri, Diaphorina citri			Citrange reed	
+False Negative	0.0		Located in			Asian psyllid, D. citri, Diaphorina citri			Spanish, Spain	
+False Positive	0.0			Transmits			Trioza erytreae			African strain of HLB
+False Positive	0.0			Transmits			Diaphorina citri			African strain of HLB
+False Positive	0.0			Causes			Asian strain of HLB			HLB
+False Positive	0.0			Affects			HLB			orange trees
+False Positive	0.0			Affects			HLB			mandarin trees
+False Positive	0.0			Have been found on			Diaphorina citri			citrus
+False Positive	0.0			Located in			Trioza erytreae			Ayamonte
+False Positive	0.0			Have been found on			Citrange reed			Asian strain of HLB

@@ -1,0 +1,24 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	African Psila	African Psila	1.0	Cantabria, Cantabrian Coast	Cantabria
+Match	1.0	True	Has been found on	Have been found on	1.0	African Psila	African Psila	1.0	mandarin trees	mandarin trees
+Partial Match	0.5	True	Has been found on	Have been found on	1.0	African Psila	African Psila	0.5	lemon	lemon trees
+Partial Match	0.5	True	Has been found on	Have been found on	1.0	African Psila	African Psila	0.5	orange	orange trees
+Match	1.0	True	Located in	Located in	1.0	African Psila	African Psila	1.0	MOGRO, municipality of Miengo, town of Mogro, Miengo	Miengo
+Match	1.0	True	Located in	Located in	1.0	African Psila	African Psila	1.0	Canary Islands	Canary Islands
+Partial Match	0.5	True	Located in	Located in	1.0	African Psila	African Psila	0.5	northern Portugal	Portugal
+Match	1.0	True	Located in	Located in	1.0	African Psila	African Psila	1.0	Galicia	Galicia
+Match	1.0	True	Transmits	Transmits	1.0	African Psila	African Psila	1.0	HLB, Huanglongbing, greening of trees. citrus, Greening	Huanglongbing
+False Negative	0.0		Located in			varieties of citrus fruits, citrus trees			Cantabria, Cantabrian Coast	
+False Negative	0.0		Has been found on			African Psila			varieties of citrus fruits, citrus trees	
+False Negative	0.0		Located in			lemon			Cantabria, Cantabrian Coast	
+False Negative	0.0		Located in			orange			Cantabria, Cantabrian Coast	
+False Negative	0.0		Located in			mandarin trees			Cantabria, Cantabrian Coast	
+False Positive	0.0			Located in			Cantabria			African Psila
+False Positive	0.0			Causes			African Psila			Huanglongbing
+False Positive	0.0			Affects			Huanglongbing			citrus trees
+False Positive	0.0			Have been found on			Tamarixia dryi			citrus trees
+False Positive	0.0			Transmits			Tamarixia dryi			African Psila
+False Positive	0.0			Located in			Tamarixia dryi			Cantabria
+False Positive	0.0			Located in			Cantabria			citrus trees
+False Positive	0.0			Located in			Miengo			African Psila
+False Positive	0.0			Located in			Mogro			African Psila

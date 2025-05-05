@@ -1,0 +1,39 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation	citrus plants	1.0	Italy	Italy
+Partial Match	0.25	True	Located in	Located in	0.25	citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation	Citrus District of Sicily	1.0	Etnean capital	Etnean capital
+Match	1.0	True	Located in	Located in	1.0	Tristeza	Tristeza	1.0	Sicily Region, Sicily	Sicily
+Match	1.0	True	Located in	Located in	1.0	Tristeza	Tristeza	1.0	Italy	Italy
+Partial Match	0.9	False	Affects	Causes	1.0	Tristeza	Tristeza	1.0	citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation	citrus plants
+Match	1.0	True	Located in	Located in	1.0	citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation	citrus plants	1.0	Sicily Region, Sicily	Sicily
+Match	1.0	True	Located in	Located in	1.0	HLB	HLB	1.0	United States, USA	United States
+Partial Match	0.9	False	Affects	Causes	1.0	HLB	HLB	1.0	citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation	citrus plants
+Match	1.0	True	Located in	Located in	1.0	citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation	citrus plants	1.0	United States, USA	United States
+False Negative	0.0		Located in			HLB			Spain	
+False Negative	0.0		Located in			citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation			Spain	
+False Negative	0.0		Located in			HLB			Mediterranean	
+False Negative	0.0		Located in			HLB disease			United States, USA	
+False Negative	0.0		Located in			citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation			Acireale	
+False Positive	0.0			Affects			citrus plants			Tristeza
+False Positive	0.0			Affects			citrus plants			HLB
+False Positive	0.0			Affects			citrus plants			Citrus greening
+False Positive	0.0			Have been found on			citrus plants			Phytophthora
+False Positive	0.0			Have been found on			citrus plants			nematodes
+False Positive	0.0			Have been found on			citrus plants			CTV-Citrus tristeza virus
+False Positive	0.0			Transmits			HLB			vector insects
+False Positive	0.0			Causes			Citrus greening			citrus plants
+False Positive	0.0			Located in			HLB			Italy
+False Positive	0.0			Located in			Citrus greening			Italy
+False Positive	0.0			Located in			United States			HLB
+False Positive	0.0			Located in			United States			Citrus greening
+False Positive	0.0			Located in			University of Catania			Sicily
+False Positive	0.0			Located in			University of Catania			Italy
+False Positive	0.0			Located in			Acireale			Sicily
+False Positive	0.0			Located in			Acireale			Italy
+False Positive	0.0			Located in			Etnean capital			Sicily
+False Positive	0.0			Located in			Etnean capital			Italy
+False Positive	0.0			Located in			Di3A			University of Catania
+False Positive	0.0			Located in			Department of Agriculture, Food and Environment (Di3A)			University of Catania
+False Positive	0.0			Located in			FCP Cerea			Etnean capital
+False Positive	0.0			Located in			Fruit Communication			Etnean capital
+False Positive	0.0			Located in			Order of Agronomists			Etnean capital
+False Positive	0.0			Located in			Terra e Vita			Italy

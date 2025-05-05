@@ -1,0 +1,34 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Affects	Affects	1.0	BN, Bois noir	bois noir	1.0	Chardonnay vineyards, vine, grapevines, vineyard, vineyards, vines, grapevine	grapevine
+Match	1.0	True	Causes	Causes	1.0	CaPsol, Candidatus Phytoplasma solani, Candidatusphytoplasma solani, CandidatusPhytoplasma solani, stolbur phytoplasma	‘Candidatus Phytoplasma solani'	1.0	BN, Bois noir	bois noir
+Match	1.0	True	Located in	Located in	1.0	BN, Bois noir	bois noir	1.0	Euro-Mediterranean area	Euro-Mediterranean area
+Match	1.0	True	Transmits	Transmits	1.0	Hyalesthes obsoletus Signoret, Hyalesthes obsoletus, Hyalestes obsoletus	Hyalesthes obsoletus	1.0	CaPsol, Candidatus Phytoplasma solani, Candidatusphytoplasma solani, CandidatusPhytoplasma solani, stolbur phytoplasma	‘Candidatus Phytoplasma solani'
+Match	1.0	True	Located in	Located in	1.0	Chardonnay vineyards, vine, grapevines, vineyard, vineyards, vines, grapevine	grapevine	1.0	Franciacorta	Franciacorta
+Match	1.0	True	Transmits	Transmits	1.0	Reptalus quinquecostatus	Reptalus quinquecostatus	1.0	CaPsol, Candidatus Phytoplasma solani, Candidatusphytoplasma solani, CandidatusPhytoplasma solani, stolbur phytoplasma	‘Candidatus Phytoplasma solani'
+Match	1.0	True	Has been found on	Have been found on	1.0	Hyalesthes obsoletus Signoret, Hyalesthes obsoletus, Hyalestes obsoletus	Hyalesthes obsoletus	1.0	Convolvulus arvensis	Convolvulus arvensis
+Match	1.0	True	Has been found on	Have been found on	1.0	Hyalesthes obsoletus Signoret, Hyalesthes obsoletus, Hyalestes obsoletus	Hyalesthes obsoletus	1.0	Crepis foetida	Crepis foetida
+Match	1.0	True	Located in	Located in	1.0	Hyalesthes obsoletus Signoret, Hyalesthes obsoletus, Hyalestes obsoletus	Hyalesthes obsoletus	1.0	Montenegro	Montenegro
+Match	1.0	True	Has been found on	Have been found on	1.0	Hyalesthes obsoletus Signoret, Hyalesthes obsoletus, Hyalestes obsoletus	Hyalesthes obsoletus	1.0	Vitex agnus-castus	Vitex agnus-castus
+False Negative	0.0		Affects			bois noir disease			Chardonnay vineyards, vine, grapevines, vineyard, vineyards, vines, grapevine	
+False Negative	0.0		Has been found on			CaPsol, Candidatus Phytoplasma solani, Candidatusphytoplasma solani, CandidatusPhytoplasma solani, stolbur phytoplasma			Chardonnay vineyards, vine, grapevines, vineyard, vineyards, vines, grapevine	
+False Negative	0.0		Located in			Chardonnay vineyards, vine, grapevines, vineyard, vineyards, vines, grapevine			Euro-Mediterranean area	
+False Negative	0.0		Affects			BN			Chardonnay vineyards, vine, grapevines, vineyard, vineyards, vines, grapevine	
+False Negative	0.0		Causes			CaPsol, Candidatus Phytoplasma solani, Candidatusphytoplasma solani, CandidatusPhytoplasma solani, stolbur phytoplasma			BN	
+False Negative	0.0		Has been found on			Hyalesthes obsoletus Signoret, Hyalesthes obsoletus, Hyalestes obsoletus			Chardonnay vineyards, vine, grapevines, vineyard, vineyards, vines, grapevine	
+False Negative	0.0		Located in			Chardonnay vineyards, vine, grapevines, vineyard, vineyards, vines, grapevine			North Italy, Italy	
+False Negative	0.0		Located in			Chardonnay vineyards, vine, grapevines, vineyard, vineyards, vines, grapevine			province of Brescia	
+False Negative	0.0		Located in			Chardonnay vineyards, vine, grapevines, vineyard, vineyards, vines, grapevine			Gussago	
+False Negative	0.0		Located in			Chardonnay vineyards, vine, grapevines, vineyard, vineyards, vines, grapevine			Erbusco	
+False Negative	0.0		Located in			BN			Gussago	
+False Negative	0.0		Located in			Flavescence dorée			France	
+False Negative	0.0		Located in			Flavescence dorée			North Italy, Italy	
+False Negative	0.0		Causes			alder yellows phytoplasmaVitis			palatinate grapevine yellows	
+False Negative	0.0		Transmits			Reptalus panzeri			bois noir	
+False Negative	0.0		Causes			CaPsol, Candidatus Phytoplasma solani, Candidatusphytoplasma solani, CandidatusPhytoplasma solani, stolbur phytoplasma			bois noir disease	
+False Negative	0.0		Affects			Bois Noir			Vitex agnus-castus	
+False Negative	0.0		Affects			Bois Noir			Chardonnay vineyards, vine, grapevines, vineyard, vineyards, vines, grapevine	
+False Negative	0.0		Located in			Bois Noir			Montenegro	
+False Negative	0.0		Located in			Chardonnay vineyards, vine, grapevines, vineyard, vineyards, vines, grapevine			Montenegro	
+False Positive	0.0			Located in			Chardonnay			Franciacorta
+False Positive	0.0			Located in			Hyalesthes obsoletus			Franciacorta
+False Positive	0.0			Located in			Vitex agnus-castus			Montenegro

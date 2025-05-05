@@ -1,0 +1,13 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	ToBRFV, tomato brown rot virus, Tomato brown rot virus	Tomato brown rot virus	1.0	Finland, Finnish	Finland
+Match	1.0	True	Has been found on	Have been found on	1.0	ToBRFV, tomato brown rot virus, Tomato brown rot virus	Tomato brown rot virus	1.0	tomato, tomatoes, Tomato	tomato
+Match	1.0	True	Has been found on	Have been found on	1.0	ToBRFV, tomato brown rot virus, Tomato brown rot virus	Tomato brown rot virus	1.0	pepper, peppers	pepper
+Partial Match	0.5	True	Located in	Located in	1.0	ToBRFV, tomato brown rot virus, Tomato brown rot virus	Tomato brown rot virus	0.5	EU countries	EU
+Match	1.0	True	Located in	Located in	1.0	ToBRFV, tomato brown rot virus, Tomato brown rot virus	Tomato brown rot virus	1.0	Varsinais-Suomi	Varsinais-Suomi
+Partial Match	0.2	True	Located in	Located in	0.2	tomato, tomatoes, Tomato	Tomato brown rot virus (ToBRFV)	1.0	Finland, Finnish	Finland
+Match	1.0	True	Has been found on	Have been found on	1.0	ToBRFV, tomato brown rot virus, Tomato brown rot virus	Tomato brown rot virus	1.0	paprika	paprika
+False Negative	0.0		Located in			tomato, tomatoes, Tomato			Varsinais-Suomi	
+False Positive	0.0			Have been found on			Tomato brown rot virus			tomato farm
+False Positive	0.0			Have been found on			Tomato brown rot virus			tomato and pepper
+False Positive	0.0			Causes			Tomato brown rot virus			yield losses
+False Positive	0.0			Affects			yield losses			professional vegetable production

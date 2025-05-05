@@ -1,0 +1,10 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Has been found on	Have been found on	1.0	citrus psyllid, Diaphorina citri	Diaphorina citri	1.0	citrus, Citrus	citrus
+Match	1.0	True	Located in	Located in	1.0	citrus psyllid, Diaphorina citri	Diaphorina citri	1.0	Brazil	Brazil
+Match	1.0	True	Causes	Causes	1.0	Candidatus Liberibacter spp.	Candidatus Liberibacter spp.	1.0	HBL, Huanglongbing, Greening	Huanglongbing
+False Negative	0.0		Located in			citrus, Citrus			Brazil	
+False Positive	0.0			Transmits			Diaphorina citri			Candidatus Liberibacter spp.
+False Positive	0.0			Affects			Huanglongbing			citrus
+False Positive	0.0			Located in			Diaphorina citri			Murraya paniculata
+False Positive	0.0			Located in			Huanglongbing			Brazil
+False Positive	0.0			Located in			Brazil			citrus producing regions

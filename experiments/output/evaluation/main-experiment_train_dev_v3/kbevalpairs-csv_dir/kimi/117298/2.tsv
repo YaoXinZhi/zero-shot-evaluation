@@ -1,13 +1,13 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Affects	Affects	1.0	Panama disease	Panama disease	1.0	bananas, banana, banana plants, banana plant	banana plants
-Match	1.0	True	Causes	Causes	1.0	Fusarium oxysporum f. sp. cubense Tropical Race 4, Fusarium oxysporum f. sp. cubense, Tropical Race 4	Fusarium oxysporum f. sp. cubense	1.0	Panama disease	Panama disease
-Match	1.0	True	Has been found on	Have been found on	1.0	Fusarium oxysporum f. sp. cubense Tropical Race 4, Fusarium oxysporum f. sp. cubense, Tropical Race 4	Fusarium oxysporum f. sp. cubense	1.0	bananas, banana, banana plants, banana plant	banana plants
-Match	1.0	True	Affects	Affects	1.0	Panama disease	Panama disease	1.0	Cavendish bananas, Cavendish variety bananas, Cavendish banana plantations	Cavendish variety bananas
-Match	1.0	True	Has been found on	Have been found on	1.0	Fusarium oxysporum f. sp. cubense Tropical Race 4, Fusarium oxysporum f. sp. cubense, Tropical Race 4	Tropical Race 4	1.0	Cavendish bananas, Cavendish variety bananas, Cavendish banana plantations	Cavendish variety bananas
+Match	1.0	True	Affects	Affects	1.0	Panama disease	Panama disease	1.0	banana, banana plant, bananas, banana plants	banana plants
+Match	1.0	True	Causes	Causes	1.0	Tropical Race 4, Fusarium oxysporum f. sp. cubense, Fusarium oxysporum f. sp. cubense Tropical Race 4	Fusarium oxysporum f. sp. cubense	1.0	Panama disease	Panama disease
+Match	1.0	True	Has been found on	Have been found on	1.0	Tropical Race 4, Fusarium oxysporum f. sp. cubense, Fusarium oxysporum f. sp. cubense Tropical Race 4	Fusarium oxysporum f. sp. cubense	1.0	banana, banana plant, bananas, banana plants	banana plants
+Match	1.0	True	Affects	Affects	1.0	Panama disease	Panama disease	1.0	Cavendish banana plantations, Cavendish variety bananas, Cavendish bananas	Cavendish variety bananas
+Match	1.0	True	Has been found on	Have been found on	1.0	Tropical Race 4, Fusarium oxysporum f. sp. cubense, Fusarium oxysporum f. sp. cubense Tropical Race 4	Tropical Race 4	1.0	Cavendish banana plantations, Cavendish variety bananas, Cavendish bananas	Cavendish variety bananas
 False Negative	0.0		Causes			Fusarium oxysporum cubense Race 1			Panama disease	
-False Negative	0.0		Has been found on			Fusarium oxysporum cubense Race 1			bananas, banana, banana plants, banana plant	
-False Negative	0.0		Has been found on			Fusarium oxysporum cubense Race 1			Cavendish bananas, Cavendish variety bananas, Cavendish banana plantations	
-False Negative	0.0		Causes			Fusarium oxysporum f. sp. cubense Tropical Race 4, Fusarium oxysporum f. sp. cubense, Tropical Race 4			banana Panama disease	
+False Negative	0.0		Has been found on			Fusarium oxysporum cubense Race 1			banana, banana plant, bananas, banana plants	
+False Negative	0.0		Has been found on			Fusarium oxysporum cubense Race 1			Cavendish banana plantations, Cavendish variety bananas, Cavendish bananas	
+False Negative	0.0		Causes			Tropical Race 4, Fusarium oxysporum f. sp. cubense, Fusarium oxysporum f. sp. cubense Tropical Race 4			banana Panama disease	
 False Positive	0.0			Located in			banana plants			Exeter
 False Positive	0.0			Located in			Cavendish variety bananas			Exeter
 False Positive	0.0			Located in			Bananas			Britain

@@ -1,14 +1,14 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Located in	Located in	1.0	orange tree, orange, orange trees	orange trees	1.0	Buhaira Gardens, Buhaira Park	Buhaira Gardens
+Match	1.0	True	Located in	Located in	1.0	orange tree, orange trees, orange	orange trees	1.0	Buhaira Gardens, Buhaira Park	Buhaira Gardens
 Match	1.0	True	Located in	Located in	1.0	HBL, Huanglongbing	Huanglongbing	1.0	Spain	Spain
-Match	1.0	True	Affects	Affects	1.0	HBL, Huanglongbing	Huanglongbing	1.0	orange tree, orange, orange trees	orange trees
-Match	1.0	True	Located in	Located in	1.0	orange tree, orange, orange trees	orange trees	1.0	Seville	Seville
-False Negative	0.0		Located in			citrus trees, Citrus trees			Buhaira Gardens, Buhaira Park	
-False Negative	0.0		Located in			orange tree, orange, orange trees			Spain	
-False Negative	0.0		Located in			citrus trees, Citrus trees			Europe	
-False Negative	0.0		Located in			citrus trees, Citrus trees			Spain	
-False Negative	0.0		Located in			citrus trees, Citrus trees			Seville	
-False Negative	0.0		Located in			orange tree, orange, orange trees			Europe	
+Match	1.0	True	Affects	Affects	1.0	HBL, Huanglongbing	Huanglongbing	1.0	orange tree, orange trees, orange	orange trees
+Match	1.0	True	Located in	Located in	1.0	orange tree, orange trees, orange	orange trees	1.0	Seville	Seville
+False Negative	0.0		Located in			Citrus trees, citrus trees			Buhaira Gardens, Buhaira Park	
+False Negative	0.0		Located in			orange tree, orange trees, orange			Spain	
+False Negative	0.0		Located in			Citrus trees, citrus trees			Europe	
+False Negative	0.0		Located in			Citrus trees, citrus trees			Spain	
+False Negative	0.0		Located in			Citrus trees, citrus trees			Seville	
+False Negative	0.0		Located in			orange tree, orange trees, orange			Europe	
 False Positive	0.0			Causes			Huanglongbing			death of the tree
 False Positive	0.0			Have been found on			Huanglongbing			orange trees
 False Positive	0.0			Located in			Buhaira Gardens			Seville

@@ -1,0 +1,34 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Partial Match	0.5	True	Affects	Affects	0.5	fusariosis disease	fusariosis	1.0	banana, banana trees, banana cultivation, banana plantations	banana trees
+Match	1.0	True	Has been found on	Have been found on	1.0	Cosmopolites sordidus, C. sordidus, banana tree moleque, banana borers, banana borer	banana borer	1.0	banana, banana trees, banana cultivation, banana plantations	banana trees
+Match	1.0	True	Causes	Causes	1.0	fungus FOC, FOC, Fusarium oxysporum f. sp. cubense	Fusarium oxysporum f. sp. cubense	1.0	fusariosis	fusariosis
+False Negative	0.0		Located in			banana, banana trees, banana cultivation, banana plantations			region of Vale do Ribeira	
+False Positive	0.0			Causes			banana borer			fusariosis
+False Positive	0.0			Have been found on			fusariosis			banana trees
+False Positive	0.0			Transmits			banana borer			Fusarium oxysporum f. sp. cubense
+False Positive	0.0			Have been found on			Beauveria caledonica			banana borer
+False Positive	0.0			Located in			Beauveria caledonica			Vale do Ribeira
+False Positive	0.0			Located in			Beauveria caledonica			Brazil
+False Positive	0.0			Causes			Beauveria caledonica			banana borer
+False Positive	0.0			Causes			Beauveria caledonica			Fusarium oxysporum f. sp. cubense
+False Positive	0.0			Affects			Beauveria caledonica			Cosmopolites sordidus
+False Positive	0.0			Affects			Beauveria caledonica			Fusarium oxysporum f. sp. cubense
+False Positive	0.0			Have been found on			Beauveria caledonica			Cosmopolites sordidus
+False Positive	0.0			Have been found on			B. caledonica			Cosmopolites sordidus
+False Positive	0.0			Causes			B. caledonica			banana borer
+False Positive	0.0			Causes			B. caledonica			Fusarium oxysporum f. sp. cubense
+False Positive	0.0			Affects			B. caledonica			Cosmopolites sordidus
+False Positive	0.0			Affects			B. caledonica			Fusarium oxysporum f. sp. cubense
+False Positive	0.0			Located in			B. caledonica			Brazil
+False Positive	0.0			Located in			B. caledonica			Vale do Ribeira
+False Positive	0.0			Causes			banana borer			Cosmopolites sordidus
+False Positive	0.0			Located in			banana borer			banana trees
+False Positive	0.0			Located in			Cosmopolites sordidus			banana trees
+False Positive	0.0			Causes			Panama disease			fusariosis
+False Positive	0.0			Affects			fusariosis			banana trees
+False Positive	0.0			Affects			Fusarium oxysporum f. sp. cubense			banana trees
+False Positive	0.0			Located in			Beauveria caledonica			Campinas
+False Positive	0.0			Located in			Beauveria caledonica			São Paulo
+False Positive	0.0			Located in			Beauveria caledonica			Viçosa
+False Positive	0.0			Located in			Beauveria caledonica			Colombia
+False Positive	0.0			Located in			Beauveria caledonica			United States

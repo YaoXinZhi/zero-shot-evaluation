@@ -1,19 +1,19 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
 Partial Match	0.45	False	Located in	Affects	1.0	Yellow dragon disease	Yellow dragon disease	0.5	Seville	Seville oranges
-Match	1.0	True	Affects	Affects	1.0	Yellow dragon disease	Yellow dragon disease	1.0	orange groves, oranges, orange trees	orange trees
-Match	1.0	True	Affects	Affects	1.0	Yellow dragon disease	Yellow dragon disease	1.0	citrus tree, citrus	citrus tree
-Match	1.0	True	Located in	Located in	1.0	orange groves, oranges, orange trees	orange trees	1.0	Seville	Seville
-Partial Match	0.5	True	Located in	Located in	0.5	citrus tree, citrus	citrus crops	1.0	Asia, Asian countries	Asia
-Partial Match	0.5	True	Located in	Located in	0.5	citrus tree, citrus	citrus crops	1.0	Latin America	Latin America
-Partial Match	0.5	True	Located in	Located in	0.5	citrus tree, citrus	citrus crops	1.0	United States	United States
+Match	1.0	True	Affects	Affects	1.0	Yellow dragon disease	Yellow dragon disease	1.0	orange trees, orange groves, oranges	orange trees
+Match	1.0	True	Affects	Affects	1.0	Yellow dragon disease	Yellow dragon disease	1.0	citrus, citrus tree	citrus tree
+Match	1.0	True	Located in	Located in	1.0	orange trees, orange groves, oranges	orange trees	1.0	Seville	Seville
+Partial Match	0.5	True	Located in	Located in	0.5	citrus, citrus tree	citrus crops	1.0	Asia, Asian countries	Asia
+Partial Match	0.5	True	Located in	Located in	0.5	citrus, citrus tree	citrus crops	1.0	Latin America	Latin America
+Partial Match	0.5	True	Located in	Located in	0.5	citrus, citrus tree	citrus crops	1.0	United States	United States
 Partial Match	0.5	True	Located in	Located in	0.5	HLB, huanglongbing	huanglongbing (HLB)	1.0	Asia, Asian countries	Asia
 Partial Match	0.5	True	Located in	Located in	0.5	HLB, huanglongbing	huanglongbing (HLB)	1.0	Brazil	Brazil
 Partial Match	0.5	True	Located in	Located in	0.5	HLB, huanglongbing	huanglongbing (HLB)	1.0	United States	United States
-Partial Match	0.5	True	Located in	Located in	0.5	HLB, huanglongbing	huanglongbing (HLB)	1.0	Africa, African states	Africa
+Partial Match	0.5	True	Located in	Located in	0.5	HLB, huanglongbing	huanglongbing (HLB)	1.0	African states, Africa	Africa
 Partial Match	0.5	True	Located in	Located in	0.5	HLB, huanglongbing	huanglongbing (HLB)	1.0	Florida	Florida
 Partial Match	0.5	True	Located in	Located in	0.5	HLB, huanglongbing	huanglongbing (HLB)	1.0	China	China
 Partial Match	0.5	True	Causes	Causes	1.0	Candidatus liberibacter	Candidatus liberibacter	0.5	HLB, huanglongbing	huanglongbing (HLB)
-Match	1.0	True	Located in	Located in	1.0	orange groves, oranges, orange trees	orange groves	1.0	Florida	Florida
+Match	1.0	True	Located in	Located in	1.0	orange trees, orange groves, oranges	orange groves	1.0	Florida	Florida
 Match	1.0	True	Located in	Located in	1.0	Trioza eryteae	Trioza eryteae	1.0	Galicia	Galicia
 Match	1.0	True	Located in	Located in	1.0	Trioza eryteae	Trioza eryteae	1.0	Canary Islands	Canary Islands
 Match	1.0	True	Located in	Located in	1.0	Trioza eryteae	Trioza eryteae	1.0	Portugal	Portugal
@@ -23,26 +23,26 @@ False Negative	0.0		Located in			Yellow dragon disease			United States
 False Negative	0.0		Located in			HLB, huanglongbing			Portugal	
 False Negative	0.0		Located in			HLB, huanglongbing			France	
 False Negative	0.0		Located in			HLB, huanglongbing			Italy	
-False Negative	0.0		Located in			HLB, huanglongbing			southern Spain, Spain	
-False Negative	0.0		Affects			HLB, huanglongbing			citrus tree, citrus	
-False Negative	0.0		Affects			HLB, huanglongbing			orange groves, oranges, orange trees	
+False Negative	0.0		Located in			HLB, huanglongbing			Spain, southern Spain	
+False Negative	0.0		Affects			HLB, huanglongbing			citrus, citrus tree	
+False Negative	0.0		Affects			HLB, huanglongbing			orange trees, orange groves, oranges	
 False Negative	0.0		Located in			Candidatus liberibacter			Portugal	
 False Negative	0.0		Located in			Candidatus liberibacter			France	
 False Negative	0.0		Located in			Candidatus liberibacter			Asia, Asian countries	
 False Negative	0.0		Located in			Candidatus liberibacter			Italy	
 False Negative	0.0		Located in			Candidatus liberibacter			Brazil	
 False Negative	0.0		Located in			Candidatus liberibacter			United States	
-False Negative	0.0		Located in			Candidatus liberibacter			southern Spain, Spain	
-False Negative	0.0		Located in			Candidatus liberibacter			Africa, African states	
+False Negative	0.0		Located in			Candidatus liberibacter			Spain, southern Spain	
+False Negative	0.0		Located in			Candidatus liberibacter			African states, Africa	
 False Negative	0.0		Located in			Candidatus liberibacter			Florida	
 False Negative	0.0		Located in			Candidatus liberibacter			China	
-False Negative	0.0		Has been found on			Candidatus liberibacter			citrus tree, citrus	
-False Negative	0.0		Has been found on			Candidatus liberibacter			orange groves, oranges, orange trees	
-False Negative	0.0		Located in			citrus tree, citrus			Portugal	
-False Negative	0.0		Located in			citrus tree, citrus			France	
-False Negative	0.0		Located in			citrus tree, citrus			Italy	
-False Negative	0.0		Located in			citrus tree, citrus			southern Spain, Spain	
-False Negative	0.0		Located in			Trioza eryteae			southern Spain, Spain	
+False Negative	0.0		Has been found on			Candidatus liberibacter			citrus, citrus tree	
+False Negative	0.0		Has been found on			Candidatus liberibacter			orange trees, orange groves, oranges	
+False Negative	0.0		Located in			citrus, citrus tree			Portugal	
+False Negative	0.0		Located in			citrus, citrus tree			France	
+False Negative	0.0		Located in			citrus, citrus tree			Italy	
+False Negative	0.0		Located in			citrus, citrus tree			Spain, southern Spain	
+False Negative	0.0		Located in			Trioza eryteae			Spain, southern Spain	
 False Positive	0.0			Affects			Yellow dragon disease			citrus crops
 False Positive	0.0			Transmits			Trioza eryteae			Candidatus liberibacter
 False Positive	0.0			Located in			huanglongbing (HLB)			Latin America

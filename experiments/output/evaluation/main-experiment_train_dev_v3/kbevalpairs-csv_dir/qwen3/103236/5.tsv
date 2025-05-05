@@ -1,0 +1,16 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	HBL, Huanglongbing	HBL	1.0	Spain	Spain
+Match	1.0	True	Affects	Affects	1.0	HBL, Huanglongbing	Huanglongbing	1.0	orange tree, orange trees, orange	orange trees
+False Negative	0.0		Located in			orange tree, orange trees, orange			Buhaira Gardens, Buhaira Park	
+False Negative	0.0		Located in			Citrus trees, citrus trees			Buhaira Gardens, Buhaira Park	
+False Negative	0.0		Located in			orange tree, orange trees, orange			Spain	
+False Negative	0.0		Located in			orange tree, orange trees, orange			Seville	
+False Negative	0.0		Located in			Citrus trees, citrus trees			Europe	
+False Negative	0.0		Located in			Citrus trees, citrus trees			Spain	
+False Negative	0.0		Located in			Citrus trees, citrus trees			Seville	
+False Negative	0.0		Located in			orange tree, orange trees, orange			Europe	
+False Positive	0.0			Causes			HBL			Huanglongbing
+False Positive	0.0			Transmits			insects			HBL
+False Positive	0.0			Have been found on			ground cover meadows			orange trees
+False Positive	0.0			Located in			Buhaira Gardens			Seville
+False Positive	0.0			Located in			HBL			Europe

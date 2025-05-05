@@ -1,0 +1,10 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	Xylella	Xylella	1.0	Bari area	Bari area
+Match	1.0	True	Has been found on	Have been found on	1.0	Xylella	Xylella	1.0	olive trees	olive trees
+False Negative	0.0		Located in			Xylella			Polignano a Mare	
+False Negative	0.0		Located in			olive trees			Polignano a Mare	
+False Positive	0.0			Affects			Xylella			olive-growing
+False Positive	0.0			Affects			Xylella			labor
+False Positive	0.0			Affects			Xylella			tourism heritage
+False Positive	0.0			Located in			Polignano a Mare			Bari area
+False Positive	0.0			Located in			Coldiretti			Puglia

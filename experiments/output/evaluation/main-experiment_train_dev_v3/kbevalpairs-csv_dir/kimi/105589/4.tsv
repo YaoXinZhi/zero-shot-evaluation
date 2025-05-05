@@ -2,19 +2,19 @@ PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	
 Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	Torricella	Torricella
 Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	Manduria	Manduria
 Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	Ionian municipalities	Ionian municipalities
-Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	province of Lecce, Lecce, entire provinces of Lecce	Lecce
+Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	Lecce, entire provinces of Lecce, province of Lecce	Lecce
 Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	Maruggio	Maruggio
-Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	province of Taranto, Taranto	Taranto
+Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	Taranto, province of Taranto	Taranto
 Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	province of Bari	province of Bari
 Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	Avetrana	Avetrana
 Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	Sava	Sava
-Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	Brindisi, entire province of Brindisi, entire provinces of Brindisi	Brindisi
+Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	entire provinces of Brindisi, Brindisi, entire province of Brindisi	Brindisi
 Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	Polignano a Mare	Polignano a Mare
-Match	1.0	True	Has been found on	Have been found on	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	olive, olive groves, olive trees	olive trees
-Partial Match	0.75	True	Located in	Located in	1.0	olive, olive groves, olive trees	olive trees	0.75	Brindisi, entire province of Brindisi, entire provinces of Brindisi	province of Brindisi
-Match	1.0	True	Located in	Located in	1.0	olive trees, olive tree, olives	olive trees	1.0	province of Lecce, Lecce, entire provinces of Lecce	province of Lecce
-False Negative	0.0		Has been found on			Xylella, Xylella fastidiosa			olive trees, olive tree, olives	
-False Negative	0.0		Located in			olive trees, olive tree, olives			Polignano a Mare	
+Match	1.0	True	Has been found on	Have been found on	1.0	Xylella, Xylella fastidiosa	Xylella fastidiosa	1.0	olive groves, olive trees, olive	olive trees
+Partial Match	0.75	True	Located in	Located in	1.0	olive groves, olive trees, olive	olive trees	0.75	entire provinces of Brindisi, Brindisi, entire province of Brindisi	province of Brindisi
+Match	1.0	True	Located in	Located in	1.0	olives, olive tree, olive trees	olive trees	1.0	Lecce, entire provinces of Lecce, province of Lecce	province of Lecce
+False Negative	0.0		Has been found on			Xylella, Xylella fastidiosa			olives, olive tree, olive trees	
+False Negative	0.0		Located in			olives, olive tree, olive trees			Polignano a Mare	
 False Negative	0.0		Located in			Xylella, Xylella fastidiosa			San Marzano di San Giuseppe	
 False Negative	0.0		Located in			Xylella, Xylella fastidiosa			Pulsano	
 False Negative	0.0		Located in			Xylella, Xylella fastidiosa			Carosino	
@@ -26,9 +26,9 @@ False Negative	0.0		Located in			Xylella, Xylella fastidiosa			Lizzano
 False Negative	0.0		Located in			Xylella Fastidiosa - pauca strain			Apulian	
 False Negative	0.0		Located in			Xylella Fastidiosa - pauca strain			Italian	
 False Negative	0.0		Located in			Xylella Fastidiosa - pauca strain			European	
-False Negative	0.0		Has been found on			Xylella Fastidiosa - pauca strain			olive, olive groves, olive trees	
-False Negative	0.0		Located in			olive, olive groves, olive trees			European	
-False Negative	0.0		Located in			olive, olive groves, olive trees			Italian	
-False Negative	0.0		Located in			olive trees, olive tree, olives			countryside of Castellana Grotte	
+False Negative	0.0		Has been found on			Xylella Fastidiosa - pauca strain			olive groves, olive trees, olive	
+False Negative	0.0		Located in			olive groves, olive trees, olive			European	
+False Negative	0.0		Located in			olive groves, olive trees, olive			Italian	
+False Negative	0.0		Located in			olives, olive tree, olive trees			countryside of Castellana Grotte	
 False Positive	0.0			Located in			Xylella fastidiosa			province of Brindisi
 False Positive	0.0			Located in			olive trees			province of Bari

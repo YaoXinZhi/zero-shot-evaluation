@@ -1,0 +1,14 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa, Xyella	Xylella fastidiosa	1.0	Fasano, Fasano area, FASANO	Fasano
+Match	1.0	True	Has been found on	Have been found on	1.0	Xylella, Xylella fastidiosa, Xyella	Xylella fastidiosa	1.0	olive trees	olive trees
+Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa, Xyella	Xylella fastidiosa	1.0	Puglia, Apulian	Puglia
+Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa, Xyella	Xylella fastidiosa	1.0	Polignano	Polignano
+Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa, Xyella	Xylella fastidiosa	1.0	Martina Franca	Martina Franca
+Match	1.0	True	Located in	Located in	1.0	Xylella, Xylella fastidiosa, Xyella	Xylella fastidiosa	1.0	Locorotondo	Locorotondo
+Partial Match	0.45	False	Has been found on	Affects	1.0	Xylella, Xylella fastidiosa, Xyella	Xylella fastidiosa	0.5	olive	olive trees
+False Negative	0.0		Located in			olive trees			Fasano, Fasano area, FASANO	
+False Negative	0.0		Located in			olive trees			Puglia, Apulian	
+False Negative	0.0		Located in			olive trees			Polignano	
+False Negative	0.0		Located in			olive trees			Martina Franca	
+False Negative	0.0		Located in			olive trees			Locorotondo	
+False Negative	0.0		Located in			olive			Puglia, Apulian	

@@ -1,0 +1,21 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Has been found on	Have been found on	1.0	TR4, Tropical Race 4, TR4 fungus	TR4	1.0	Gros Michel variety, Cavendish banana plants, Cavendish plants, Cavendish, Cavendish bananas, Cavendish cv Grand Naine bananas, variety of banana called Cavendish	Cavendish bananas
+Partial Match	0.5	True	Has been found on	Have been found on	1.0	TR1, TR1 fungus	TR1	0.5	banana crops, banana, bananas	banana plants
+Partial Match	0.6666666666666666	True	Has been found on	Have been found on	1.0	TR1, TR1 fungus	TR1	0.6666666666666666	Gros Michel variety, Cavendish banana plants, Cavendish plants, Cavendish, Cavendish bananas, Cavendish cv Grand Naine bananas, variety of banana called Cavendish	Gros Michel
+Partial Match	0.45	False	Has been found on	Affects	1.0	TR4, Tropical Race 4, TR4 fungus	TR4	0.5	banana crops, banana, bananas	Cavendish bananas
+False Negative	0.0		Causes			TR4, Tropical Race 4, TR4 fungus			Fusarium wilt	
+False Negative	0.0		Affects			Fusarium wilt			banana crops, banana, bananas	
+False Negative	0.0		Affects			Fusarium wilt			Gros Michel variety, Cavendish banana plants, Cavendish plants, Cavendish, Cavendish bananas, Cavendish cv Grand Naine bananas, variety of banana called Cavendish	
+False Positive	0.0			Affects			TR1			banana plants
+False Positive	0.0			Affects			TR1			Gros Michel
+False Positive	0.0			Located in			Cavendish bananas			plantations
+False Positive	0.0			Located in			TR4			plantations
+False Positive	0.0			Located in			TR1			plantations
+False Positive	0.0			Located in			Wageningen University			Colombia
+False Positive	0.0			Have been found on			banana plants			plantations
+False Positive	0.0			Have been found on			Cavendish bananas			plantations
+False Positive	0.0			Causes			TR1			TR1
+False Positive	0.0			Causes			TR4			TR4
+False Positive	0.0			Affects			TR1			Grand Naine bananas
+False Positive	0.0			Affects			TR4			Grand Naine bananas
+False Positive	0.0			Have been found on			TR1			Grand Naine bananas

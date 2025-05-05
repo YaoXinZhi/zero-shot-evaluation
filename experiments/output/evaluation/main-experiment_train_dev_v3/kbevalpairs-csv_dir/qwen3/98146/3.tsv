@@ -1,0 +1,9 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	citrus, citrus plants	citrus plants	1.0	province of Tucumán, Tucumán	Tucumán
+False Negative	0.0		Affects			HLB			citrus, citrus plants	
+False Negative	0.0		Located in			HLB			province of Tucumán, Tucumán	
+False Positive	0.0			Affects			Huanglongbing			citrus
+False Positive	0.0			Transmits			aphid			Huanglongbing
+False Positive	0.0			Have been found on			citrus seedlings			citrus
+False Positive	0.0			Located in			citrus seedlings			Tucumán
+False Positive	0.0			Located in			San Miguel de Tucumán			Tucumán

@@ -1,0 +1,18 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	ToBRFV, Tomato Brown Wrinkle Virus, tomato brown wrinkle virus, virus of brown wrinkling	tomato brown wrinkle virus	1.0	Arcadia	Arcadia
+Match	1.0	True	Has been found on	Have been found on	1.0	ToBRFV, Tomato Brown Wrinkle Virus, tomato brown wrinkle virus, virus of brown wrinkling	tomato brown wrinkle virus	1.0	tomato, tomatoes	tomato
+Partial Match	0.5	True	Has been found on	Have been found on	1.0	ToBRFV, Tomato Brown Wrinkle Virus, tomato brown wrinkle virus, virus of brown wrinkling	tomato brown wrinkle virus	0.5	pepper plants, peppers	pepper
+Match	1.0	True	Located in	Located in	1.0	ToBRFV, Tomato Brown Wrinkle Virus, tomato brown wrinkle virus, virus of brown wrinkling	tomato brown wrinkle virus	1.0	Community of Levidi	Community of Levidi
+False Negative	0.0		Located in			tomato, tomatoes			Arcadia	
+False Negative	0.0		Located in			tomato, tomatoes			Community of Levidi	
+False Positive	0.0			Have been found on			tomato brown wrinkle virus			Troy variety
+False Positive	0.0			Affects			tomato brown wrinkle virus			tomato
+False Positive	0.0			Affects			tomato brown wrinkle virus			pepper
+False Positive	0.0			Located in			tomato brown wrinkle virus			P.E.
+False Positive	0.0			Transmits			tomato brown wrinkle virus			tomato
+False Positive	0.0			Transmits			tomato brown wrinkle virus			pepper
+False Positive	0.0			Transmits			tomato brown wrinkle virus			Troy variety
+False Positive	0.0			Have been found on			tomato brown wrinkle virus			stypnus
+False Positive	0.0			Have been found on			tomato brown wrinkle virus			datula
+False Positive	0.0			Have been found on			tomato brown wrinkle virus			goosefoot
+False Positive	0.0			Have been found on			tomato brown wrinkle virus			petunia

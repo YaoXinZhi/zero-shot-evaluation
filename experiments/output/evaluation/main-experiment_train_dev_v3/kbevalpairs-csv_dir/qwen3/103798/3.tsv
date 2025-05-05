@@ -1,0 +1,22 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	Colletotrichum truncatum (Schwein.) Andrus & W.D. Moore, Colletotrichum truncatum, C. truncatum	Colletotrichum truncatum	1.0	India	India
+Match	1.0	True	Causes	Causes	1.0	Colletotrichum truncatum (Schwein.) Andrus & W.D. Moore, Colletotrichum truncatum, C. truncatum	Colletotrichum truncatum	1.0	anthracnose	anthracnose
+Match	1.0	True	Affects	Affects	1.0	anthracnose	anthracnose	1.0	dragon fruit, Dragon fruit, Hylocereus spp	dragon fruit
+Match	1.0	True	Located in	Located in	1.0	Colletotrichum truncatum (Schwein.) Andrus & W.D. Moore, Colletotrichum truncatum, C. truncatum	Colletotrichum truncatum	1.0	China	China
+Match	1.0	True	Located in	Located in	1.0	Colletotrichum truncatum (Schwein.) Andrus & W.D. Moore, Colletotrichum truncatum, C. truncatum	Colletotrichum truncatum	1.0	Malaysia	Malaysia
+False Negative	0.0		Has been found on			Colletotrichum truncatum (Schwein.) Andrus & W.D. Moore, Colletotrichum truncatum, C. truncatum			dragon fruit, Dragon fruit, Hylocereus spp	
+False Negative	0.0		Has been found on			Colletotrichum truncatum (Schwein.) Andrus & W.D. Moore, Colletotrichum truncatum, C. truncatum			H. polyrhizus	
+False Negative	0.0		Has been found on			Colletotrichum truncatum (Schwein.) Andrus & W.D. Moore, Colletotrichum truncatum, C. truncatum			H. undatus	
+False Negative	0.0		Located in			anthracnose			India	
+False Negative	0.0		Located in			dragon fruit, Dragon fruit, Hylocereus spp			India	
+False Negative	0.0		Affects			anthracnose			H. polyrhizus	
+False Negative	0.0		Affects			anthracnose			H. undatus	
+False Negative	0.0		Located in			dragon fruit, Dragon fruit, Hylocereus spp			China	
+False Negative	0.0		Located in			dragon fruit, Dragon fruit, Hylocereus spp			Malaysia	
+False Negative	0.0		Located in			anthracnose			China	
+False Negative	0.0		Located in			anthracnose			Malaysia	
+False Positive	0.0			Affects			anthracnose			Hylocereus spp.
+False Positive	0.0			Have been found on			Colletotrichum truncatum			Hylocereus spp.
+False Positive	0.0			Located in			Hylocereus spp.			ICAR-National Institute of Abiotic Stress Management
+False Positive	0.0			Located in			ICAR-National Institute of Abiotic Stress Management			Baramati
+False Positive	0.0			Located in			Baramati			India

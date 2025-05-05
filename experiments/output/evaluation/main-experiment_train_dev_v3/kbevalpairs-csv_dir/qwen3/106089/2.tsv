@@ -1,0 +1,44 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Causes	Causes	1.0	Tomato brown fruit wrinkle virus, brown wrinkle virus, ToBRFV	brown wrinkle virus	1.0	Brown wrinkle syndrome	brown wrinkle syndrome
+Match	1.0	True	Has been found on	Have been found on	1.0	Tomato brown fruit wrinkle virus, brown wrinkle virus, ToBRFV	brown wrinkle virus	1.0	pepper, pepper plants, pepper crops	pepper
+Match	1.0	True	Has been found on	Have been found on	1.0	Tomato brown fruit wrinkle virus, brown wrinkle virus, ToBRFV	brown wrinkle virus	1.0	tomato crops, tomato plants, tomato, Troy variety	tomato
+Match	1.0	True	Located in	Located in	1.0	Tomato brown fruit wrinkle virus, brown wrinkle virus, ToBRFV	brown wrinkle virus	1.0	Arcadia	Arcadia
+Match	1.0	True	Located in	Located in	1.0	Tomato brown fruit wrinkle virus, brown wrinkle virus, ToBRFV	brown wrinkle virus	1.0	Community of Levidi	Community of Levidi
+False Negative	0.0		Located in			tomato crops, tomato plants, tomato, Troy variety			Arcadia	
+False Negative	0.0		Located in			tomato crops, tomato plants, tomato, Troy variety			Community of Levidi	
+False Positive	0.0			Affects			brown wrinkle syndrome			tomato
+False Positive	0.0			Affects			brown wrinkle syndrome			pepper
+False Positive	0.0			Located in			brown wrinkle virus			greenhouses
+False Positive	0.0			Located in			brown wrinkle virus			hydroponics
+False Positive	0.0			Have been found on			brown wrinkle virus			soil
+False Positive	0.0			Have been found on			brown wrinkle virus			tools
+False Positive	0.0			Have been found on			brown wrinkle virus			contaminated clothing
+False Positive	0.0			Have been found on			brown wrinkle virus			reusable plastic crates
+False Positive	0.0			Have been found on			brown wrinkle virus			pollinators
+False Positive	0.0			Have been found on			brown wrinkle virus			stypnus
+False Positive	0.0			Have been found on			brown wrinkle virus			datula
+False Positive	0.0			Have been found on			brown wrinkle virus			goosefoot
+False Positive	0.0			Have been found on			brown wrinkle virus			petunia
+False Positive	0.0			Transmits			brown wrinkle virus			tomato
+False Positive	0.0			Transmits			brown wrinkle virus			pepper
+False Positive	0.0			Transmits			pollinators			brown wrinkle virus
+False Positive	0.0			Transmits			tools			brown wrinkle virus
+False Positive	0.0			Transmits			contaminated clothing			brown wrinkle virus
+False Positive	0.0			Transmits			reusable plastic crates			brown wrinkle virus
+False Positive	0.0			Transmits			soil			brown wrinkle virus
+False Positive	0.0			Transmits			greenhouses			brown wrinkle virus
+False Positive	0.0			Transmits			hydroponics			brown wrinkle virus
+False Positive	0.0			Transmits			pollinators			tomato
+False Positive	0.0			Transmits			pollinators			pepper
+False Positive	0.0			Transmits			tools			tomato
+False Positive	0.0			Transmits			tools			pepper
+False Positive	0.0			Transmits			contaminated clothing			tomato
+False Positive	0.0			Transmits			contaminated clothing			pepper
+False Positive	0.0			Transmits			reusable plastic crates			tomato
+False Positive	0.0			Transmits			reusable plastic crates			pepper
+False Positive	0.0			Transmits			soil			tomato
+False Positive	0.0			Transmits			soil			pepper
+False Positive	0.0			Transmits			greenhouses			tomato
+False Positive	0.0			Transmits			greenhouses			pepper
+False Positive	0.0			Transmits			hydroponics			tomato
+False Positive	0.0			Transmits			hydroponics			pepper

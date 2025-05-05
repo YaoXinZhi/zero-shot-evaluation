@@ -1,0 +1,34 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation	citrus plants	1.0	Italy	Italy
+Match	1.0	True	Located in	Located in	1.0	Tristeza	Tristeza	1.0	Sicily Region, Sicily	Sicily
+Partial Match	0.5	True	Located in	Located in	1.0	Tristeza	Tristeza	0.5	Italy	citrus-growing Italy
+Match	1.0	True	Affects	Affects	1.0	Tristeza	Tristeza	1.0	citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation	citrus fruits
+Match	1.0	True	Located in	Located in	1.0	HLB	HLB	1.0	United States, USA	United States
+Match	1.0	True	Affects	Affects	1.0	HLB	HLB	1.0	citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation	citrus plants
+False Negative	0.0		Located in			citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation			Etnean capital	
+False Negative	0.0		Located in			citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation			Sicily Region, Sicily	
+False Negative	0.0		Located in			HLB			Spain	
+False Negative	0.0		Located in			citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation			Spain	
+False Negative	0.0		Located in			citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation			United States, USA	
+False Negative	0.0		Located in			HLB			Mediterranean	
+False Negative	0.0		Located in			HLB disease			United States, USA	
+False Negative	0.0		Located in			citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation			Acireale	
+False Positive	0.0			Located in			HLB			Italy
+False Positive	0.0			Causes			yellow branch disease			HLB
+False Positive	0.0			Have been found on			HLB			citrus plants
+False Positive	0.0			Located in			Bitters			California
+False Positive	0.0			Located in			C35			California
+False Positive	0.0			Located in			Carpenter			California
+False Positive	0.0			Located in			Furr			California
+False Positive	0.0			Have been found on			Tarocco Scirè			Bitters
+False Positive	0.0			Have been found on			Tarocco Scirè			C35
+False Positive	0.0			Have been found on			Tarocco Scirè			Carpenter
+False Positive	0.0			Have been found on			Tarocco Scirè			citrange Carrizo
+False Positive	0.0			Have been found on			Mandared			C35
+False Positive	0.0			Have been found on			Mandared			Bitters
+False Positive	0.0			Have been found on			Mandared			Carpenter
+False Positive	0.0			Have been found on			Mandared			Furr
+False Positive	0.0			Located in			C35			Italy
+False Positive	0.0			Located in			Bitters			Italy
+False Positive	0.0			Located in			Carpenter			Italy
+False Positive	0.0			Located in			Furr			Italy

@@ -1,0 +1,22 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV	ToBRFV	1.0	Dutch, Netherlands	Netherlands
+Match	1.0	True	Has been found on	Have been found on	1.0	ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV	ToBRFV	1.0	tomato, tomato farms, tomatoes	tomato farms
+Match	1.0	True	Located in	Located in	1.0	ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV	ToBRFV	1.0	Italy	Italy
+Match	1.0	True	Located in	Located in	1.0	ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV	ToBRFV	1.0	Jordan	Jordan
+Match	1.0	True	Located in	Located in	1.0	ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV	ToBRFV	1.0	Sicily	Sicily
+Match	1.0	True	Located in	Located in	1.0	ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV	ToBRFV	1.0	Germany	Germany
+Match	1.0	True	Located in	Located in	1.0	ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV	ToBRFV	1.0	Israel	Israel
+Match	1.0	True	Located in	Located in	1.0	ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV	ToBRFV	1.0	Europe	Europe
+Match	1.0	True	Located in	Located in	1.0	ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV	ToBRFV	1.0	Hungary	Hungary
+False Negative	0.0		Located in			tomato, tomato farms, tomatoes			Dutch, Netherlands	
+False Negative	0.0		Located in			brown wrinkling of tomatoes			Dutch, Netherlands	
+False Negative	0.0		Causes			ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV			brown wrinkling of tomatoes	
+False Negative	0.0		Affects			brown wrinkling of tomatoes			tomato, tomato farms, tomatoes	
+False Negative	0.0		Located in			tobamovirus, tobamoviruses			Dutch, Netherlands	
+False Negative	0.0		Has been found on			tobamovirus, tobamoviruses			tomato, tomato farms, tomatoes	
+False Negative	0.0		Located in			tomato, tomato farms, tomatoes			Europe	
+False Positive	0.0			Causes			ToBRFV			tomato brown shriveling
+False Positive	0.0			Affects			tomato brown shriveling			tomatoes
+False Positive	0.0			Located in			ToBRFV			NÉBIH
+False Positive	0.0			Located in			ToBRFV			European and Mediterranean Plant Protection Organization (EPPO)
+False Positive	0.0			Located in			ToBRFV			FruitVeB

@@ -1,19 +1,19 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Located in	Located in	1.0	ToBRFV-Virus, ToBRFV virus, Tomato brown rugose fruit virus, Jordan virus, TOBRFV, ToBRFV	ToBRFV	1.0	Netherlands, Dutch	Dutch
-Match	1.0	True	Has been found on	Have been found on	1.0	ToBRFV-Virus, ToBRFV virus, Tomato brown rugose fruit virus, Jordan virus, TOBRFV, ToBRFV	ToBRFV	1.0	tomatoes, tomato, tomato farms	tomatoes
-Match	1.0	True	Causes	Causes	1.0	ToBRFV-Virus, ToBRFV virus, Tomato brown rugose fruit virus, Jordan virus, TOBRFV, ToBRFV	Tomato brown rugose fruit virus	1.0	brown wrinkling of tomatoes	brown wrinkling of tomatoes
-Match	1.0	True	Affects	Affects	1.0	brown wrinkling of tomatoes	brown wrinkling of tomatoes	1.0	tomatoes, tomato, tomato farms	tomatoes
-Partial Match	0.9	False	Has been found on	Affects	1.0	tobamoviruses, tobamovirus	tobamovirus	1.0	tomatoes, tomato, tomato farms	tomatoes
-Match	1.0	True	Located in	Located in	1.0	ToBRFV-Virus, ToBRFV virus, Tomato brown rugose fruit virus, Jordan virus, TOBRFV, ToBRFV	ToBRFV	1.0	Italy	Italy
-Match	1.0	True	Located in	Located in	1.0	ToBRFV-Virus, ToBRFV virus, Tomato brown rugose fruit virus, Jordan virus, TOBRFV, ToBRFV	ToBRFV	1.0	Jordan	Jordan
-Match	1.0	True	Located in	Located in	1.0	ToBRFV-Virus, ToBRFV virus, Tomato brown rugose fruit virus, Jordan virus, TOBRFV, ToBRFV	ToBRFV	1.0	Sicily	Sicily
-Match	1.0	True	Located in	Located in	1.0	ToBRFV-Virus, ToBRFV virus, Tomato brown rugose fruit virus, Jordan virus, TOBRFV, ToBRFV	ToBRFV	1.0	Germany	Germany
-Match	1.0	True	Located in	Located in	1.0	ToBRFV-Virus, ToBRFV virus, Tomato brown rugose fruit virus, Jordan virus, TOBRFV, ToBRFV	ToBRFV	1.0	Israel	Israel
-Match	1.0	True	Located in	Located in	1.0	ToBRFV-Virus, ToBRFV virus, Tomato brown rugose fruit virus, Jordan virus, TOBRFV, ToBRFV	ToBRFV	1.0	Europe	Europe
-False Negative	0.0		Located in			tomatoes, tomato, tomato farms			Netherlands, Dutch	
-False Negative	0.0		Located in			brown wrinkling of tomatoes			Netherlands, Dutch	
-False Negative	0.0		Located in			tobamoviruses, tobamovirus			Netherlands, Dutch	
-False Negative	0.0		Located in			ToBRFV-Virus, ToBRFV virus, Tomato brown rugose fruit virus, Jordan virus, TOBRFV, ToBRFV			Hungary	
-False Negative	0.0		Located in			tomatoes, tomato, tomato farms			Europe	
+Match	1.0	True	Located in	Located in	1.0	ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV	ToBRFV	1.0	Dutch, Netherlands	Dutch
+Match	1.0	True	Has been found on	Have been found on	1.0	ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV	ToBRFV	1.0	tomato, tomato farms, tomatoes	tomatoes
+Match	1.0	True	Causes	Causes	1.0	ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV	Tomato brown rugose fruit virus	1.0	brown wrinkling of tomatoes	brown wrinkling of tomatoes
+Match	1.0	True	Affects	Affects	1.0	brown wrinkling of tomatoes	brown wrinkling of tomatoes	1.0	tomato, tomato farms, tomatoes	tomatoes
+Partial Match	0.9	False	Has been found on	Affects	1.0	tobamovirus, tobamoviruses	tobamovirus	1.0	tomato, tomato farms, tomatoes	tomatoes
+Match	1.0	True	Located in	Located in	1.0	ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV	ToBRFV	1.0	Italy	Italy
+Match	1.0	True	Located in	Located in	1.0	ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV	ToBRFV	1.0	Jordan	Jordan
+Match	1.0	True	Located in	Located in	1.0	ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV	ToBRFV	1.0	Sicily	Sicily
+Match	1.0	True	Located in	Located in	1.0	ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV	ToBRFV	1.0	Germany	Germany
+Match	1.0	True	Located in	Located in	1.0	ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV	ToBRFV	1.0	Israel	Israel
+Match	1.0	True	Located in	Located in	1.0	ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV	ToBRFV	1.0	Europe	Europe
+False Negative	0.0		Located in			tomato, tomato farms, tomatoes			Dutch, Netherlands	
+False Negative	0.0		Located in			brown wrinkling of tomatoes			Dutch, Netherlands	
+False Negative	0.0		Located in			tobamovirus, tobamoviruses			Dutch, Netherlands	
+False Negative	0.0		Located in			ToBRFV virus, Jordan virus, ToBRFV, ToBRFV-Virus, Tomato brown rugose fruit virus, TOBRFV			Hungary	
+False Negative	0.0		Located in			tomato, tomato farms, tomatoes			Europe	
 False Positive	0.0			Causes			ToBRFV			tomato brown shriveling
 False Positive	0.0			Affects			tomato brown shriveling			tomatoes

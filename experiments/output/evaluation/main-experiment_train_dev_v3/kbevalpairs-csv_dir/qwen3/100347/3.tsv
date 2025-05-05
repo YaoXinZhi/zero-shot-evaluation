@@ -1,0 +1,22 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	Fall armyworms, fall armyworm, fall armyworms	fall armyworm	1.0	New Haven	New Haven
+Match	1.0	True	Located in	Located in	1.0	Fall armyworms, fall armyworm, fall armyworms	fall armyworm	1.0	Mexico	Mexico
+Partial Match	0.5	True	Located in	Located in	1.0	Fall armyworms, fall armyworm, fall armyworms	fall armyworm	0.5	southern Texas	Texas
+Partial Match	0.3333333333333333	True	Located in	Located in	1.0	Fall armyworms, fall armyworm, fall armyworms	fall armyworm	0.3333333333333333	tip of Florida	Florida
+Match	1.0	True	Has been found on	Have been found on	1.0	Fall armyworms, fall armyworm, fall armyworms	fall armyworm	1.0	corn, corn fields, Bt corn	corn
+False Negative	0.0		Located in			Fall armyworms, fall armyworm, fall armyworms			U.S.	
+False Negative	0.0		Located in			corn, corn fields, Bt corn			U.S.	
+False Negative	0.0		Located in			corn, corn fields, Bt corn			ARROW ROCK, northwest of Arrow Rock	
+False Positive	0.0			Have been found on			fall armyworm			alfalfa
+False Positive	0.0			Have been found on			fall armyworm			Johnsongrass
+False Positive	0.0			Located in			fall armyworm			Missouri
+False Positive	0.0			Transmits			fall armyworm			fall armyworm moth
+False Positive	0.0			Transmits			fall armyworm moth			fall armyworm
+False Positive	0.0			Affects			fall armyworm			alfalfa
+False Positive	0.0			Affects			fall armyworm			corn
+False Positive	0.0			Affects			fall armyworm			Johnsongrass
+False Positive	0.0			Causes			fall armyworm			damage
+False Positive	0.0			Located in			fall armyworm			Arrow Rock
+False Positive	0.0			Located in			fall armyworm			Dade County
+False Positive	0.0			Located in			fall armyworm			Legacy Ridge Farms
+False Positive	0.0			Located in			fall armyworm			Pin Oak Farms

@@ -1,0 +1,25 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Affects	Affects	1.0	flavescence dorée, Vine flavescence	flavescence dorée	1.0	red grape varieties, vineyard, vineyards, white grape varieties, vines	vineyards
+Match	1.0	True	Located in	Located in	1.0	red grape varieties, vineyard, vineyards, white grape varieties, vines	vineyards	1.0	Lot	Lot
+Partial Match	0.9	False	Affects	Have been found on	1.0	flavescence dorée	flavescence dorée	1.0	red grape varieties, vineyard, vineyards, white grape varieties, vines	vineyards
+Partial Match	0.15	False	Affects	Located in	0.3333333333333333	golden flavescence	flavescence dorée	0.5	red grape varieties, vineyard, vineyards, white grape varieties, vines	Lot vineyards
+False Negative	0.0		Has been found on			Scaphoidus titanus			red grape varieties, vineyard, vineyards, white grape varieties, vines	
+False Negative	0.0		Affects			black wood			red grape varieties, vineyard, vineyards, white grape varieties, vines	
+False Positive	0.0			Transmits			Scaphoidus titanus			flavescence dorée
+False Positive	0.0			Affects			bois noir			vineyards
+False Positive	0.0			Have been found on			vine yellows disease			vineyards
+False Positive	0.0			Located in			vineyards			Parnac
+False Positive	0.0			Located in			vineyards			Pradines
+False Positive	0.0			Located in			vineyards			Mercuès
+False Positive	0.0			Located in			vineyards			Douelle
+False Positive	0.0			Located in			vineyards			Porte du Quercy
+False Positive	0.0			Located in			vineyards			Sauzet
+False Positive	0.0			Located in			vineyards			Luzech
+False Positive	0.0			Located in			vineyards			Prayssac
+False Positive	0.0			Located in			vineyards			Carnac
+False Positive	0.0			Located in			vineyards			Sérignac
+False Positive	0.0			Located in			vineyards			Saux
+False Positive	0.0			Located in			vineyards			Montcuq
+False Positive	0.0			Located in			vineyards			Glanes
+False Positive	0.0			Located in			FDGDON			Lot
+False Positive	0.0			Located in			DRAAF			Lot

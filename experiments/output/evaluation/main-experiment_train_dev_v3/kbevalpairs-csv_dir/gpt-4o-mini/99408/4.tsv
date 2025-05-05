@@ -1,9 +1,9 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Has been found on	Have been found on	1.0	PWN, PWNs, Pinewood Nematodes, pinewood nematode, pine wood nematodes	PWNs	1.0	Pinus rigida Mill., Pinus rigida, Pitch pine, P. rigida	Pinus rigida
-Match	1.0	True	Located in	Located in	1.0	Pinus rigida Mill., Pinus rigida, Pitch pine, P. rigida	Pinus rigida	1.0	North America	North America
-Partial Match	0.4	True	Has been found on	Have been found on	1.0	PWN, PWNs, Pinewood Nematodes, pinewood nematode, pine wood nematodes	PWNs	0.4	Pinus koraiensis (Sieb. et Zucc.), P. koraiensis	Pinus koraiensis
-Partial Match	0.4	True	Has been found on	Have been found on	1.0	PWN, PWNs, Pinewood Nematodes, pinewood nematode, pine wood nematodes	PWNs	0.4	P. densiflora, Pinus densiflora (Sieb. et Zucc.)	Pinus densiflora
-False Negative	0.0		Located in			PWN, PWNs, Pinewood Nematodes, pinewood nematode, pine wood nematodes			North America	
+Match	1.0	True	Has been found on	Have been found on	1.0	Pinewood Nematodes, PWN, pinewood nematode, pine wood nematodes, PWNs	PWNs	1.0	P. rigida, Pitch pine, Pinus rigida, Pinus rigida Mill.	Pinus rigida
+Match	1.0	True	Located in	Located in	1.0	P. rigida, Pitch pine, Pinus rigida, Pinus rigida Mill.	Pinus rigida	1.0	North America	North America
+Partial Match	0.4	True	Has been found on	Have been found on	1.0	Pinewood Nematodes, PWN, pinewood nematode, pine wood nematodes, PWNs	PWNs	0.4	P. koraiensis, Pinus koraiensis (Sieb. et Zucc.)	Pinus koraiensis
+Partial Match	0.4	True	Has been found on	Have been found on	1.0	Pinewood Nematodes, PWN, pinewood nematode, pine wood nematodes, PWNs	PWNs	0.4	P. densiflora, Pinus densiflora (Sieb. et Zucc.)	Pinus densiflora
+False Negative	0.0		Located in			Pinewood Nematodes, PWN, pinewood nematode, pine wood nematodes, PWNs			North America	
 False Positive	0.0			Have been found on			Pinus rigida			pinewood nematodes
 False Positive	0.0			Affects			pinewood nematodes			Pinus rigida
 False Positive	0.0			Causes			cis-3,5-dimethoxystilbene			PWN toxicity

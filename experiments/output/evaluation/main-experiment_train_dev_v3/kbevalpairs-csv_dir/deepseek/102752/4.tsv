@@ -1,9 +1,9 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Located in	Located in	1.0	Acrogonia, Acrogonia albertoi, Acrogonia specimens	Acrogonia albertoi	1.0	Flona Tapajós, Tapajós National Forest, Belterra	Tapajós National Forest
-Match	1.0	True	Located in	Located in	1.0	Diestostemma cavichiolii, Diestostemma specimens, Diestostemma	Diestostemma cavichiolii	1.0	Flona Tapajós, Tapajós National Forest, Belterra	Tapajós National Forest
-Match	1.0	True	Transmits	Transmits	1.0	Acrogonia, Acrogonia albertoi, Acrogonia specimens	Acrogonia	1.0	Xylella fastidiosa	Xylella fastidiosa
-False Negative	0.0		Located in			Acrogonia, Acrogonia albertoi, Acrogonia specimens			western Pará	
-False Negative	0.0		Located in			Diestostemma cavichiolii, Diestostemma specimens, Diestostemma			western Pará	
+Match	1.0	True	Located in	Located in	1.0	Acrogonia specimens, Acrogonia albertoi, Acrogonia	Acrogonia albertoi	1.0	Tapajós National Forest, Flona Tapajós, Belterra	Tapajós National Forest
+Match	1.0	True	Located in	Located in	1.0	Diestostemma, Diestostemma cavichiolii, Diestostemma specimens	Diestostemma cavichiolii	1.0	Tapajós National Forest, Flona Tapajós, Belterra	Tapajós National Forest
+Match	1.0	True	Transmits	Transmits	1.0	Acrogonia specimens, Acrogonia albertoi, Acrogonia	Acrogonia	1.0	Xylella fastidiosa	Xylella fastidiosa
+False Negative	0.0		Located in			Acrogonia specimens, Acrogonia albertoi, Acrogonia			western Pará	
+False Negative	0.0		Located in			Diestostemma, Diestostemma cavichiolii, Diestostemma specimens			western Pará	
 False Positive	0.0			Causes			Xylella fastidiosa			plant diseases
 False Positive	0.0			Affects			plant diseases			agricultural crops
 False Positive	0.0			Have been found on			Acrogonia			vascular plants

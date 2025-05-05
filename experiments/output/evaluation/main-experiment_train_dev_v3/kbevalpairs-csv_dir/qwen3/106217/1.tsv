@@ -1,0 +1,22 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	Xylella fastidiosa pauca ST53	Xylella fastidiosa pauca ST53	1.0	Puglia, Puglia Region, Northern Puglia	Puglia
+Match	1.0	True	Located in	Located in	1.0	Xylella fastidiosa pauca ST53	Xylella fastidiosa pauca ST53	1.0	countryside of Castellana Grotte, Castellana Grotte	Castellana Grotte
+Match	1.0	True	Has been found on	Have been found on	1.0	Xylella fastidiosa pauca ST53	Xylella fastidiosa pauca ST53	1.0	olive trees	olive trees
+Match	1.0	True	Located in	Located in	1.0	Xylella fastidiosa pauca ST53	Xylella fastidiosa pauca ST53	1.0	Alberobello	Alberobello
+Match	1.0	True	Located in	Located in	1.0	Xylella fastidiosa pauca ST53	Xylella fastidiosa pauca ST53	1.0	Monopoli	Monopoli
+Match	1.0	True	Located in	Located in	1.0	Xylella fastidiosa pauca ST53	Xylella fastidiosa pauca ST53	1.0	Polignano	Polignano
+Match	1.0	True	Located in	Located in	1.0	Xylella fastidiosa pauca ST53	Xylella fastidiosa pauca ST53	1.0	Locorotondo	Locorotondo
+Partial Match	0.45	False	Located in	Not located in	0.5	Xylella, Xylella fastidiosa	Xylella fastidiosa pauca ST53	1.0	Puglia, Puglia Region, Northern Puglia	Northern Puglia
+False Negative	0.0		Located in			Xylella, Xylella fastidiosa			Italy	
+False Negative	0.0		Located in			Xylella, Xylella fastidiosa			countryside of Castellana Grotte, Castellana Grotte	
+False Negative	0.0		Located in			olive trees			countryside of Castellana Grotte, Castellana Grotte	
+False Negative	0.0		Located in			Xylella fastidiosa pauca ST53			province of Bari	
+False Negative	0.0		Located in			olive trees			Alberobello	
+False Negative	0.0		Located in			olive trees			Monopoli	
+False Negative	0.0		Located in			olive trees			Polignano	
+False Negative	0.0		Located in			olive trees			Locorotondo	
+False Negative	0.0		Located in			olive trees			province of Bari	
+False Positive	0.0			Located in			Castellana Grotte			Puglia
+False Positive	0.0			Located in			Puglia			Italy
+False Positive	0.0			Located in			Castellana Grotte			Bari
+False Positive	0.0			Located in			Bari			Italy

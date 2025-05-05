@@ -1,0 +1,15 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Has been found on	Have been found on	1.0	ToBRFV, Tomato Brown Rugose Fruit Virus, Tomato brown rugose fruit virus	Tomato brown rugose fruit virus	1.0	tomato crops, tomato, tomatoes	tomatoes
+Match	1.0	True	Located in	Located in	1.0	tomato crops, tomato, tomatoes	tomatoes	1.0	Jordan Valley	Jordan Valley
+Match	1.0	True	Located in	Located in	1.0	tomato crops, tomato, tomatoes	tomatoes	1.0	Jordan	Jordan
+Match	1.0	True	Has been found on	Have been found on	1.0	ToBRFV, Tomato Brown Rugose Fruit Virus, Tomato brown rugose fruit virus	Tomato brown rugose fruit virus	1.0	Solanum nigrum	Solanum nigrum
+False Negative	0.0		Located in			ToBRFV, Tomato Brown Rugose Fruit Virus, Tomato brown rugose fruit virus			Mediterranean	
+False Negative	0.0		Located in			ToBRFV, Tomato Brown Rugose Fruit Virus, Tomato brown rugose fruit virus			Jordan Valley	
+False Negative	0.0		Has been found on			Tobamovirus			tomato crops, tomato, tomatoes	
+False Negative	0.0		Located in			Tobamovirus			Jordan Valley	
+False Negative	0.0		Located in			ToBRFV, Tomato Brown Rugose Fruit Virus, Tomato brown rugose fruit virus			Jordan	
+False Positive	0.0			Affects			Tomato brown rugose fruit virus			tomatoes
+False Positive	0.0			Have been found on			Tomato brown rugose fruit virus			Malva parviflora
+False Positive	0.0			Located in			Jordan Valley			Jordan
+False Positive	0.0			Located in			Solanum nigrum			Mediterranean Vegetation
+False Positive	0.0			Located in			Malva parviflora			Mediterranean Vegetation

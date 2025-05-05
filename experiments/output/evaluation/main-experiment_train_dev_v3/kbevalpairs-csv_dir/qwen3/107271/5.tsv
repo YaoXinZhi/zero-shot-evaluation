@@ -1,0 +1,19 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Partial Match	0.5	True	Located in	Located in	0.5	banana, bananas, banana variety, banana plant	Banana fungus	1.0	Africa, African countries, African continent	Africa
+Match	1.0	True	Located in	Located in	1.0	Panama disease	Panama disease	1.0	South America	South America
+False Negative	0.0		Located in			banana, bananas, banana variety, banana plant			Mozambique	
+False Negative	0.0		Located in			banana, bananas, banana variety, banana plant			Malawi	
+False Negative	0.0		Located in			banana, bananas, banana variety, banana plant			Tanzania	
+False Negative	0.0		Located in			banana, bananas, banana variety, banana plant			Rwanda	
+False Negative	0.0		Located in			banana, bananas, banana variety, banana plant			Uganda	
+False Negative	0.0		Affects			Panama disease			Cavendish, Cavendish bananas	
+False Negative	0.0		Located in			Cavendish, Cavendish bananas			South America	
+False Positive	0.0			Located in			Fusarium			Mozambique
+False Positive	0.0			Causes			Fusarium			Panama disease
+False Positive	0.0			Affects			Panama disease			banana
+False Positive	0.0			Have been found on			Fusarium			banana
+False Positive	0.0			Located in			Fusarium			African continent
+False Positive	0.0			Affects			Banana fungus			Africa's food security
+False Positive	0.0			Located in			Cavendish bananas			world market
+False Positive	0.0			Located in			Cavendish bananas			Europe
+False Positive	0.0			Affects			Fusarium			Cavendish bananas

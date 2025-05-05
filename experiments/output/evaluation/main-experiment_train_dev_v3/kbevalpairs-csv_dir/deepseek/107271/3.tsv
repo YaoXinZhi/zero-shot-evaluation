@@ -1,13 +1,13 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Located in	Located in	1.0	bananas, banana variety, banana, banana plant	banana	1.0	Africa, African continent, African countries	Africa
-Match	1.0	True	Located in	Located in	1.0	bananas, banana variety, banana, banana plant	banana	1.0	Malawi	Malawi
-Match	1.0	True	Located in	Located in	1.0	bananas, banana variety, banana, banana plant	banana	1.0	Tanzania	Tanzania
-Match	1.0	True	Located in	Located in	1.0	bananas, banana variety, banana, banana plant	banana	1.0	Rwanda	Rwanda
-Match	1.0	True	Located in	Located in	1.0	bananas, banana variety, banana, banana plant	banana	1.0	Uganda	Uganda
+Match	1.0	True	Located in	Located in	1.0	banana, bananas, banana variety, banana plant	banana	1.0	Africa, African countries, African continent	Africa
+Match	1.0	True	Located in	Located in	1.0	banana, bananas, banana variety, banana plant	banana	1.0	Malawi	Malawi
+Match	1.0	True	Located in	Located in	1.0	banana, bananas, banana variety, banana plant	banana	1.0	Tanzania	Tanzania
+Match	1.0	True	Located in	Located in	1.0	banana, bananas, banana variety, banana plant	banana	1.0	Rwanda	Rwanda
+Match	1.0	True	Located in	Located in	1.0	banana, bananas, banana variety, banana plant	banana	1.0	Uganda	Uganda
 Match	1.0	True	Located in	Located in	1.0	Panama disease	Panama disease	1.0	South America	South America
-Match	1.0	True	Affects	Affects	1.0	Panama disease	Panama disease	1.0	Cavendish bananas, Cavendish	Cavendish bananas
-False Negative	0.0		Located in			bananas, banana variety, banana, banana plant			Mozambique	
-False Negative	0.0		Located in			Cavendish bananas, Cavendish			South America	
+Match	1.0	True	Affects	Affects	1.0	Panama disease	Panama disease	1.0	Cavendish, Cavendish bananas	Cavendish bananas
+False Negative	0.0		Located in			banana, bananas, banana variety, banana plant			Mozambique	
+False Negative	0.0		Located in			Cavendish, Cavendish bananas			South America	
 False Positive	0.0			Located in			Fusarium fungus			Mozambique
 False Positive	0.0			Causes			Fusarium fungus			Panama disease
 False Positive	0.0			Affects			Panama disease			banana

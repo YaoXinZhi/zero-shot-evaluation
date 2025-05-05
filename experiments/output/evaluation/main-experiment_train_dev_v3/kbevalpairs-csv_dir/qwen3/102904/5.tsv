@@ -1,0 +1,21 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Causes	Causes	1.0	CLas, Candidatus Liberibacter asiaticus	CLas	1.0	HLB, Huanglongbing, greening	HLB
+Partial Match	0.18000000000000002	False	Affects	Located in	1.0	HLB, Huanglongbing, greening	Huanglongbing	0.2	citrus, citrus species	Citrus × sinensis (L.) Osbeck
+Partial Match	0.18000000000000002	False	Has been found on	Affects	1.0	CLas, Candidatus Liberibacter asiaticus	CLas	0.2	citrus, citrus species	Citrus × sinensis (L.) Osbeck
+False Negative	0.0		Has been found on			CLas, Candidatus Liberibacter asiaticus			Pera sweet orange, Sweet Orange, Citrus× sinensis(L.) Osbeck	
+False Positive	0.0			Located in			HLB			Citrus × sinensis (L.) Osbeck
+False Positive	0.0			Located in			greening			Citrus × sinensis (L.) Osbeck
+False Positive	0.0			Causes			‘Candidatus Liberibacter asiaticus			Huanglongbing
+False Positive	0.0			Affects			‘Candidatus Liberibacter asiaticus			Citrus × sinensis (L.) Osbeck
+False Positive	0.0			Have been found on			Transgenic Sweet Orange			Citrus × sinensis (L.) Osbeck
+False Positive	0.0			Have been found on			Sarcotoxin IA			flesh fly
+False Positive	0.0			Have been found on			stx IA			Sarcophaga peregrina
+False Positive	0.0			Have been found on			Pera sweet orange			Citrus × sinensis (L.) Osbeck
+False Positive	0.0			Have been found on			STX-5			Citrus × sinensis (L.) Osbeck
+False Positive	0.0			Have been found on			STX-11			Citrus × sinensis (L.) Osbeck
+False Positive	0.0			Have been found on			STX-12			Citrus × sinensis (L.) Osbeck
+False Positive	0.0			Have been found on			STX-13			Citrus × sinensis (L.) Osbeck
+False Positive	0.0			Have been found on			non-transgenic control			Citrus × sinensis (L.) Osbeck
+False Positive	0.0			Located in			Int. J. Mol. Sci.			2022
+False Positive	0.0			Have been found on			2022			23(16), 9300
+False Positive	0.0			Have been found on			23(16), 9300			https://doi.org/10.3390/ijms23169300

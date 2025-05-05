@@ -1,0 +1,9 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	xylella	xylella	1.0	Lecce	Lecce
+Match	1.0	True	Located in	Located in	1.0	xylella	xylella	1.0	Bari	Bari
+Match	1.0	True	Transmits	Transmits	1.0	spittoon	spittoon	1.0	xylella	xylella
+False Negative	0.0		Located in			xylella			Lecce-Bari state road	
+False Negative	0.0		Located in			xylella			Salento city	
+False Positive	0.0			Located in			spittoon			Bari
+False Positive	0.0			Located in			spittoon			Lecce
+False Positive	0.0			Have been found on			spittoon			vehicles

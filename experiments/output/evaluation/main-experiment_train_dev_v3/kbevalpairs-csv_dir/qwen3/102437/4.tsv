@@ -1,0 +1,19 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Causes	Causes	1.0	Liberibacters, Liberibacter	Liberibacter	1.0	citrus greening disease	citrus greening disease
+Match	1.0	True	Has been found on	Have been found on	1.0	Liberibacters, Liberibacter	Liberibacter	1.0	potatoes	potatoes
+Match	1.0	True	Affects	Affects	1.0	Huanglongbing, Citrus greening	Huanglongbing	1.0	citrus trees	citrus trees
+Match	1.0	True	Located in	Located in	1.0	L. capsica	L. capsica	1.0	Brazil	Brazil
+False Negative	0.0		Causes			Liberibacters, Liberibacter			citrus greening	
+False Negative	0.0		Affects			citrus greening			potatoes	
+False Negative	0.0		Has been found on			L. capsica			pepper, peppers, pepper plant	
+False Negative	0.0		Located in			pepper, peppers, pepper plant			Brazil	
+False Positive	0.0			Affects			citrus greening disease			citrus trees
+False Positive	0.0			Have been found on			Liberibacter			citrus trees
+False Positive	0.0			Transmits			psyllids			Liberibacter
+False Positive	0.0			Have been found on			L. capsica			psyllids
+False Positive	0.0			Have been found on			psyllids			pepper
+False Positive	0.0			Located in			psyllids			Brazil
+False Positive	0.0			Located in			Diana Percy			University of British Columbia
+False Positive	0.0			Located in			Allison Hansen			UC Riverside
+False Positive	0.0			Located in			Black Lives Matter movement			2020
+False Positive	0.0			Causes			Liberibacter			Huanglongbing

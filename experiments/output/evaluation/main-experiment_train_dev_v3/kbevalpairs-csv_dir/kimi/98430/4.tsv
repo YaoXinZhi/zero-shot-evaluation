@@ -1,11 +1,11 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Has been found on	Have been found on	1.0	Spodoptera frugiperda, S. frugiperda, Spodoptera frugiperda (JE Smith)	Spodoptera frugiperda	1.0	maize crops, maize fields, maize, maize crop	maize
-Partial Match	0.2	True	Located in	Located in	1.0	Spodoptera frugiperda, S. frugiperda, Spodoptera frugiperda (JE Smith)	Spodoptera frugiperda	0.2	Brazil	Pirassununga, São Paulo state, Brazil
-False Negative	0.0		Located in			Spodoptera frugiperda, S. frugiperda, Spodoptera frugiperda (JE Smith)			Pirassununga	
-False Negative	0.0		Located in			Spodoptera frugiperda, S. frugiperda, Spodoptera frugiperda (JE Smith)			São Paulo state	
-False Negative	0.0		Located in			maize crops, maize fields, maize, maize crop			Pirassununga	
-False Negative	0.0		Located in			maize crops, maize fields, maize, maize crop			Brazil	
-False Negative	0.0		Located in			maize crops, maize fields, maize, maize crop			São Paulo state	
+Match	1.0	True	Has been found on	Have been found on	1.0	Spodoptera frugiperda (JE Smith), S. frugiperda, Spodoptera frugiperda	Spodoptera frugiperda	1.0	maize, maize fields, maize crops, maize crop	maize
+Partial Match	0.2	True	Located in	Located in	1.0	Spodoptera frugiperda (JE Smith), S. frugiperda, Spodoptera frugiperda	Spodoptera frugiperda	0.2	Brazil	Pirassununga, São Paulo state, Brazil
+False Negative	0.0		Located in			Spodoptera frugiperda (JE Smith), S. frugiperda, Spodoptera frugiperda			Pirassununga	
+False Negative	0.0		Located in			Spodoptera frugiperda (JE Smith), S. frugiperda, Spodoptera frugiperda			São Paulo state	
+False Negative	0.0		Located in			maize, maize fields, maize crops, maize crop			Pirassununga	
+False Negative	0.0		Located in			maize, maize fields, maize crops, maize crop			Brazil	
+False Negative	0.0		Located in			maize, maize fields, maize crops, maize crop			São Paulo state	
 False Positive	0.0			Have been found on			ladybugs			Spodoptera frugiperda
 False Positive	0.0			Have been found on			earwigs			Spodoptera frugiperda
 False Positive	0.0			Have been found on			Hippodamia convergens			Spodoptera frugiperda

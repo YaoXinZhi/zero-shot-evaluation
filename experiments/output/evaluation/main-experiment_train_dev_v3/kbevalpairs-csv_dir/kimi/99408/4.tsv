@@ -1,9 +1,9 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Has been found on	Have been found on	1.0	PWN, PWNs, Pinewood Nematodes, pinewood nematode, pine wood nematodes	pine wood nematodes	1.0	Pinus rigida Mill., Pinus rigida, Pitch pine, P. rigida	Pinus rigida Mill.
-Match	1.0	True	Located in	Located in	1.0	Pinus rigida Mill., Pinus rigida, Pitch pine, P. rigida	Pitch pine	1.0	North America	North America
-Partial Match	0.4	True	Has been found on	Have been found on	1.0	PWN, PWNs, Pinewood Nematodes, pinewood nematode, pine wood nematodes	pine wood nematodes	0.4	Pinus koraiensis (Sieb. et Zucc.), P. koraiensis	Pinus koraiensis
-Partial Match	0.4	True	Has been found on	Have been found on	1.0	PWN, PWNs, Pinewood Nematodes, pinewood nematode, pine wood nematodes	pine wood nematodes	0.4	P. densiflora, Pinus densiflora (Sieb. et Zucc.)	Pinus densiflora
-False Negative	0.0		Located in			PWN, PWNs, Pinewood Nematodes, pinewood nematode, pine wood nematodes			North America	
+Match	1.0	True	Has been found on	Have been found on	1.0	Pinewood Nematodes, PWN, pinewood nematode, pine wood nematodes, PWNs	pine wood nematodes	1.0	P. rigida, Pitch pine, Pinus rigida, Pinus rigida Mill.	Pinus rigida Mill.
+Match	1.0	True	Located in	Located in	1.0	P. rigida, Pitch pine, Pinus rigida, Pinus rigida Mill.	Pitch pine	1.0	North America	North America
+Partial Match	0.4	True	Has been found on	Have been found on	1.0	Pinewood Nematodes, PWN, pinewood nematode, pine wood nematodes, PWNs	pine wood nematodes	0.4	P. koraiensis, Pinus koraiensis (Sieb. et Zucc.)	Pinus koraiensis
+Partial Match	0.4	True	Has been found on	Have been found on	1.0	Pinewood Nematodes, PWN, pinewood nematode, pine wood nematodes, PWNs	pine wood nematodes	0.4	P. densiflora, Pinus densiflora (Sieb. et Zucc.)	Pinus densiflora
+False Negative	0.0		Located in			Pinewood Nematodes, PWN, pinewood nematode, pine wood nematodes, PWNs			North America	
 False Positive	0.0			Contains			P. rigida resin			diterpenes
 False Positive	0.0			Contains			P. rigida resin			dehydroabietic aldehyde
 False Positive	0.0			Contains			P. rigida resin			methyl dehydroabietate

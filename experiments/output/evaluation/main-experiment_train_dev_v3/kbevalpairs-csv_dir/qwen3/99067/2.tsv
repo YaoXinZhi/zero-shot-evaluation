@@ -1,0 +1,37 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	Tristeza	Tristeza	1.0	Sicily Region, Sicily	Sicily
+Partial Match	0.5	True	Located in	Located in	1.0	Tristeza	Tristeza	0.5	Italy	citrus-growing Italy
+Match	1.0	True	Affects	Affects	1.0	Tristeza	Tristeza	1.0	citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation	citrus plants
+Match	1.0	True	Located in	Located in	1.0	HLB	HLB	1.0	United States, USA	United States
+Match	1.0	True	Affects	Affects	1.0	HLB	HLB	1.0	citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation	citrus plants
+False Negative	0.0		Located in			citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation			Italy	
+False Negative	0.0		Located in			citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation			Etnean capital	
+False Negative	0.0		Located in			citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation			Sicily Region, Sicily	
+False Negative	0.0		Located in			HLB			Spain	
+False Negative	0.0		Located in			citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation			Spain	
+False Negative	0.0		Located in			citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation			United States, USA	
+False Negative	0.0		Located in			HLB			Mediterranean	
+False Negative	0.0		Located in			HLB disease			United States, USA	
+False Negative	0.0		Located in			citrus fruits, citrus plants, citrus, cultivation of citrus fruits, citrus cultivation			Acireale	
+False Positive	0.0			Affects			citrus plants			Tristeza
+False Positive	0.0			Affects			citrus plants			Huanglongbing
+False Positive	0.0			Causes			Tristeza			citrus plants
+False Positive	0.0			Causes			Huanglongbing			citrus plants
+False Positive	0.0			Causes			HLB			citrus plants
+False Positive	0.0			Have been found on			US-942			citrus plants
+False Positive	0.0			Have been found on			US-897			citrus plants
+False Positive	0.0			Have been found on			Californian Bitters			Tarocco Scirè
+False Positive	0.0			Have been found on			C35			Tarocco Scirè
+False Positive	0.0			Have been found on			Carpenter			Tarocco Scirè
+False Positive	0.0			Have been found on			citrange Carrizo			Tarocco Scirè
+False Positive	0.0			Have been found on			C35			Mandared
+False Positive	0.0			Have been found on			Californian Bitters			Mandared
+False Positive	0.0			Have been found on			Carpenter			Mandared
+False Positive	0.0			Have been found on			Furr			Mandared
+False Positive	0.0			Have been found on			citrange Carrizo			Mandared
+False Positive	0.0			Located in			United States			HLB
+False Positive	0.0			Located in			Spain			HLB
+False Positive	0.0			Located in			Mediterranean environment			HLB
+False Positive	0.0			Located in			Acireale			Mediterranean environment
+False Positive	0.0			Located in			Etnean capital			Sicily
+False Positive	0.0			Located in			Ct			Acireale

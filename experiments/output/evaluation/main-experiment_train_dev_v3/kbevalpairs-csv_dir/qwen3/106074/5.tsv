@@ -1,0 +1,23 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Has been found on	Have been found on	1.0	ToBRFV, brown wrinkle virus, brown rust virus, tomato brown wrinkle virus	brown rust virus	1.0	tomato crops, tomatoes	tomato crops
+Match	1.0	True	Has been found on	Have been found on	1.0	ToBRFV, brown wrinkle virus, brown rust virus, tomato brown wrinkle virus	brown rust virus	1.0	pepper, plants pepper, pepper crops	pepper
+Match	1.0	True	Located in	Located in	1.0	ToBRFV, brown wrinkle virus, brown rust virus, tomato brown wrinkle virus	brown rust virus	1.0	Arcadia	Arcadia
+Match	1.0	True	Located in	Located in	1.0	ToBRFV, brown wrinkle virus, brown rust virus, tomato brown wrinkle virus	brown rust virus	1.0	Levidi	Levidi
+Match	1.0	True	Has been found on	Have been found on	1.0	ToBRFV, brown wrinkle virus, brown rust virus, tomato brown wrinkle virus	brown rust virus	1.0	petunia	petunia
+Match	1.0	True	Has been found on	Have been found on	1.0	ToBRFV, brown wrinkle virus, brown rust virus, tomato brown wrinkle virus	brown rust virus	1.0	goosefoot	goosefoot
+Match	1.0	True	Has been found on	Have been found on	1.0	ToBRFV, brown wrinkle virus, brown rust virus, tomato brown wrinkle virus	brown rust virus	1.0	datula	datula
+False Negative	0.0		Located in			tomato crops, tomatoes			Arcadia	
+False Negative	0.0		Located in			tomato crops, tomatoes			Levidi	
+False Positive	0.0			Have been found on			brown rust virus			tomato fruits
+False Positive	0.0			Have been found on			brown rust virus			stypnus
+False Positive	0.0			Affects			brown rust virus			tomato crops
+False Positive	0.0			Affects			brown rust virus			pepper
+False Positive	0.0			Causes			tomato brown wrinkle virus			tomato crops
+False Positive	0.0			Causes			tomato brown wrinkle virus			pepper
+False Positive	0.0			Affects			tomato brown wrinkle virus			tomato crops
+False Positive	0.0			Affects			tomato brown wrinkle virus			pepper
+False Positive	0.0			Located in			brown rust virus			greenhouses
+False Positive	0.0			Located in			brown rust virus			hydroponic crops
+False Positive	0.0			Transmits			brown rust virus			tomato crops
+False Positive	0.0			Transmits			brown rust virus			pepper
+False Positive	0.0			Transmits			brown rust virus			Cucurbitaceae

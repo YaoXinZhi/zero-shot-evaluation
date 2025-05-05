@@ -1,0 +1,22 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Affects	Affects	1.0	Panama disease	Panama disease	1.0	Cavendish banana, Cavendish, Gros Michel, Cavendish bananas, variety called Gros Michel, Cavendish banana plants	Cavendish banana plants
+Match	1.0	True	Has been found on	Have been found on	1.0	tropical race 1, TR1, TR1 fungus	TR1	1.0	Bananas, Banana plants, bananas, banana	Banana plants
+Match	1.0	True	Affects	Affects	1.0	Panama disease	Panama disease	1.0	Bananas, Banana plants, bananas, banana	Banana plants
+Match	1.0	True	Has been found on	Have been found on	1.0	tropical race 1, TR1, TR1 fungus	TR1	1.0	Cavendish banana, Cavendish, Gros Michel, Cavendish bananas, variety called Gros Michel, Cavendish banana plants	Cavendish banana plants
+Match	1.0	True	Has been found on	Have been found on	1.0	TR4	TR4	1.0	Cavendish banana, Cavendish, Gros Michel, Cavendish bananas, variety called Gros Michel, Cavendish banana plants	Cavendish banana plants
+Match	1.0	True	Located in	Located in	1.0	tropical race 1, TR1, TR1 fungus	TR1	1.0	Brazil	Brazil
+Match	1.0	True	Has been found on	Have been found on	1.0	TR4	TR4	1.0	Bananas, Banana plants, bananas, banana	Banana plants
+False Negative	0.0		Causes			tropical race 1, TR1, TR1 fungus			Panama disease	
+False Positive	0.0			Causes			Fusarium fungus			Panama disease
+False Positive	0.0			Causes			TR4			Panama disease
+False Positive	0.0			Have been found on			tropical race 1 (TR1)			Banana plants
+False Positive	0.0			Located in			Banana plants			the world
+False Positive	0.0			Located in			Panama disease			banana-producing areas
+False Positive	0.0			Located in			TR1			banana-producing areas
+False Positive	0.0			Located in			TR4			banana-producing areas
+False Positive	0.0			Located in			Gros Michel			Western countries
+False Positive	0.0			Located in			Cavendish banana			Western countries
+False Positive	0.0			Located in			Cavendish banana			banana-producing areas
+False Positive	0.0			Located in			Cavendish banana plants			banana-producing areas
+False Positive	0.0			Located in			Cavendish banana			the world
+False Positive	0.0			Located in			Cavendish banana plants			the world

@@ -1,0 +1,52 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Partial Match	0.45	False	Located in	Affects	1.0	Yellow dragon disease	Yellow dragon disease	0.5	Seville	Seville oranges
+Match	1.0	True	Located in	Located in	1.0	Yellow dragon disease	Yellow dragon disease	1.0	Asia, Asian countries	Asia
+Match	1.0	True	Located in	Located in	1.0	Yellow dragon disease	Yellow dragon disease	1.0	Latin America	Latin America
+Match	1.0	True	Located in	Located in	1.0	Yellow dragon disease	Yellow dragon disease	1.0	United States	United States
+Match	1.0	True	Affects	Affects	1.0	Yellow dragon disease	Yellow dragon disease	1.0	orange trees, orange groves, oranges	orange trees
+Partial Match	0.45	False	Affects	Have been found on	1.0	Yellow dragon disease	Yellow dragon disease	0.5	citrus, citrus tree	citrus crops
+Partial Match	0.5	True	Has been found on	Have been found on	1.0	Candidatus liberibacter	Candidatus liberibacter	0.5	citrus, citrus tree	citrus crops
+Match	1.0	True	Located in	Located in	1.0	Trioza eryteae	Trioza eryteae	1.0	Galicia	Galicia
+Partial Match	0.5	True	Located in	Located in	1.0	Trioza eryteae	Trioza eryteae	0.5	Spain, southern Spain	northwestern Spain
+Match	1.0	True	Located in	Located in	1.0	Trioza eryteae	Trioza eryteae	1.0	Canary Islands	Canary Islands
+Match	1.0	True	Located in	Located in	1.0	Trioza eryteae	Trioza eryteae	1.0	Portugal	Portugal
+False Negative	0.0		Located in			orange trees, orange groves, oranges			Seville	
+False Negative	0.0		Located in			citrus, citrus tree			Asia, Asian countries	
+False Negative	0.0		Located in			citrus, citrus tree			Latin America	
+False Negative	0.0		Located in			citrus, citrus tree			United States	
+False Negative	0.0		Located in			HLB, huanglongbing			Portugal	
+False Negative	0.0		Located in			HLB, huanglongbing			France	
+False Negative	0.0		Located in			HLB, huanglongbing			Asia, Asian countries	
+False Negative	0.0		Located in			HLB, huanglongbing			Italy	
+False Negative	0.0		Located in			HLB, huanglongbing			Brazil	
+False Negative	0.0		Located in			HLB, huanglongbing			United States	
+False Negative	0.0		Located in			HLB, huanglongbing			Spain, southern Spain	
+False Negative	0.0		Located in			HLB, huanglongbing			African states, Africa	
+False Negative	0.0		Located in			HLB, huanglongbing			Florida	
+False Negative	0.0		Located in			HLB, huanglongbing			China	
+False Negative	0.0		Affects			HLB, huanglongbing			citrus, citrus tree	
+False Negative	0.0		Affects			HLB, huanglongbing			orange trees, orange groves, oranges	
+False Negative	0.0		Causes			Candidatus liberibacter			HLB, huanglongbing	
+False Negative	0.0		Located in			Candidatus liberibacter			Portugal	
+False Negative	0.0		Located in			Candidatus liberibacter			France	
+False Negative	0.0		Located in			Candidatus liberibacter			Asia, Asian countries	
+False Negative	0.0		Located in			Candidatus liberibacter			Italy	
+False Negative	0.0		Located in			Candidatus liberibacter			Brazil	
+False Negative	0.0		Located in			Candidatus liberibacter			United States	
+False Negative	0.0		Located in			Candidatus liberibacter			Spain, southern Spain	
+False Negative	0.0		Located in			Candidatus liberibacter			African states, Africa	
+False Negative	0.0		Located in			Candidatus liberibacter			Florida	
+False Negative	0.0		Located in			Candidatus liberibacter			China	
+False Negative	0.0		Has been found on			Candidatus liberibacter			orange trees, orange groves, oranges	
+False Negative	0.0		Located in			citrus, citrus tree			Portugal	
+False Negative	0.0		Located in			citrus, citrus tree			France	
+False Negative	0.0		Located in			citrus, citrus tree			Italy	
+False Negative	0.0		Located in			citrus, citrus tree			Spain, southern Spain	
+False Negative	0.0		Located in			orange trees, orange groves, oranges			Florida	
+False Positive	0.0			Causes			Candidatus liberibacter			Yellow dragon disease
+False Positive	0.0			Transmits			Trioza eryteae			Candidatus liberibacter
+False Positive	0.0			Have been found on			Trioza eryteae			citrus crops
+False Positive	0.0			Located in			Yellow dragon disease			China
+False Positive	0.0			Located in			Yellow dragon disease			Africa
+False Positive	0.0			Located in			Yellow dragon disease			Brazil
+False Positive	0.0			Located in			Yellow dragon disease			Florida

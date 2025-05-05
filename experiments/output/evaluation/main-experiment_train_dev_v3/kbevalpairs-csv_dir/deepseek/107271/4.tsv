@@ -1,13 +1,13 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Partial Match	0.5	True	Located in	Located in	0.5	bananas, banana variety, banana, banana plant	Banana fungus	1.0	Mozambique	Mozambique
-Partial Match	0.5	True	Located in	Located in	0.5	bananas, banana variety, banana, banana plant	Banana fungus	1.0	Africa, African continent, African countries	Africa
-Match	1.0	True	Affects	Affects	1.0	Panama disease	Panama disease	1.0	Cavendish bananas, Cavendish	Cavendish bananas
-False Negative	0.0		Located in			bananas, banana variety, banana, banana plant			Malawi	
-False Negative	0.0		Located in			bananas, banana variety, banana, banana plant			Tanzania	
-False Negative	0.0		Located in			bananas, banana variety, banana, banana plant			Rwanda	
-False Negative	0.0		Located in			bananas, banana variety, banana, banana plant			Uganda	
+Partial Match	0.5	True	Located in	Located in	0.5	banana, bananas, banana variety, banana plant	Banana fungus	1.0	Mozambique	Mozambique
+Partial Match	0.5	True	Located in	Located in	0.5	banana, bananas, banana variety, banana plant	Banana fungus	1.0	Africa, African countries, African continent	Africa
+Match	1.0	True	Affects	Affects	1.0	Panama disease	Panama disease	1.0	Cavendish, Cavendish bananas	Cavendish bananas
+False Negative	0.0		Located in			banana, bananas, banana variety, banana plant			Malawi	
+False Negative	0.0		Located in			banana, bananas, banana variety, banana plant			Tanzania	
+False Negative	0.0		Located in			banana, bananas, banana variety, banana plant			Rwanda	
+False Negative	0.0		Located in			banana, bananas, banana variety, banana plant			Uganda	
 False Negative	0.0		Located in			Panama disease			South America	
-False Negative	0.0		Located in			Cavendish bananas, Cavendish			South America	
+False Negative	0.0		Located in			Cavendish, Cavendish bananas			South America	
 False Positive	0.0			Causes			Banana fungus			Panama disease
 False Positive	0.0			Have been found on			Banana fungus			banana plant
 False Positive	0.0			Affects			Panama disease			banana plant

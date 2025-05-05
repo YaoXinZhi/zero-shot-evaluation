@@ -1,12 +1,12 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Located in	Located in	1.0	greening disease, HLB, huanglongbing	greening disease	1.0	SP, São Paulo	São Paulo
-Match	1.0	True	Affects	Affects	1.0	greening disease, HLB, huanglongbing	greening disease	1.0	orange groves	orange groves
+Match	1.0	True	Located in	Located in	1.0	HLB, huanglongbing, greening disease	greening disease	1.0	SP, São Paulo	São Paulo
+Match	1.0	True	Affects	Affects	1.0	HLB, huanglongbing, greening disease	greening disease	1.0	orange groves	orange groves
 Partial Match	0.5	True	Causes	Causes	1.0	Candidatus Liberibacter spp.	Candidatus Liberibacter spp.	0.5	greening	greening disease
 False Negative	0.0		Located in			Greening			MG, southwest of Minas Gerais	
 False Negative	0.0		Located in			Greening			SP, São Paulo	
-False Negative	0.0		Located in			greening disease, HLB, huanglongbing			MG, southwest of Minas Gerais	
-False Negative	0.0		Located in			greening disease, HLB, huanglongbing			regions of Triângulo Mineiro, Triângulo	
-False Negative	0.0		Affects			greening disease, HLB, huanglongbing			citrus	
+False Negative	0.0		Located in			HLB, huanglongbing, greening disease			MG, southwest of Minas Gerais	
+False Negative	0.0		Located in			HLB, huanglongbing, greening disease			regions of Triângulo Mineiro, Triângulo	
+False Negative	0.0		Affects			HLB, huanglongbing, greening disease			citrus	
 False Negative	0.0		Located in			citrus			SP, São Paulo	
 False Negative	0.0		Located in			citrus			MG, southwest of Minas Gerais	
 False Negative	0.0		Located in			citrus			regions of Triângulo Mineiro, Triângulo	

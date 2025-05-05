@@ -1,19 +1,19 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Has been found on	Have been found on	1.0	Monochamus alternatus Hope, M. alternatus, pine sawyer beetle, Japanese pine sawyer, Monochamus alternatus, non-local pine sawyer	Monochamus alternatus	1.0	pines	pines
-Match	1.0	True	Transmits	Transmits	1.0	Monochamus alternatus Hope, M. alternatus, pine sawyer beetle, Japanese pine sawyer, Monochamus alternatus, non-local pine sawyer	Monochamus alternatus	1.0	pinewood nematode, pine wood nematode, Bursaphelenchus xylophilus	Bursaphelenchus xylophilus
-Match	1.0	True	Located in	Located in	1.0	pinewood nematode, pine wood nematode, Bursaphelenchus xylophilus	Bursaphelenchus xylophilus	1.0	Portugal	Portugal
-Match	1.0	True	Located in	Located in	1.0	pinewood nematode, pine wood nematode, Bursaphelenchus xylophilus	Bursaphelenchus xylophilus	1.0	China	China
-Match	1.0	True	Causes	Causes	1.0	pinewood nematode, pine wood nematode, Bursaphelenchus xylophilus	Bursaphelenchus xylophilus	1.0	pine wilt disease	pine wilt disease
+Match	1.0	True	Has been found on	Have been found on	1.0	Monochamus alternatus, Monochamus alternatus Hope, M. alternatus, non-local pine sawyer, pine sawyer beetle, Japanese pine sawyer	Monochamus alternatus	1.0	pines	pines
+Match	1.0	True	Transmits	Transmits	1.0	Monochamus alternatus, Monochamus alternatus Hope, M. alternatus, non-local pine sawyer, pine sawyer beetle, Japanese pine sawyer	Monochamus alternatus	1.0	pinewood nematode, Bursaphelenchus xylophilus, pine wood nematode	Bursaphelenchus xylophilus
+Match	1.0	True	Located in	Located in	1.0	pinewood nematode, Bursaphelenchus xylophilus, pine wood nematode	Bursaphelenchus xylophilus	1.0	Portugal	Portugal
+Match	1.0	True	Located in	Located in	1.0	pinewood nematode, Bursaphelenchus xylophilus, pine wood nematode	Bursaphelenchus xylophilus	1.0	China	China
+Match	1.0	True	Causes	Causes	1.0	pinewood nematode, Bursaphelenchus xylophilus, pine wood nematode	Bursaphelenchus xylophilus	1.0	pine wilt disease	pine wilt disease
 Match	1.0	True	Affects	Affects	1.0	pine wilt disease	pine wilt disease	1.0	pines	pines
-Match	1.0	True	Located in	Located in	1.0	Monochamus alternatus Hope, M. alternatus, pine sawyer beetle, Japanese pine sawyer, Monochamus alternatus, non-local pine sawyer	Monochamus alternatus	1.0	Yunnan	Yunnan
-False Negative	0.0		Located in			Monochamus alternatus Hope, M. alternatus, pine sawyer beetle, Japanese pine sawyer, Monochamus alternatus, non-local pine sawyer			Portugal	
-False Negative	0.0		Located in			Monochamus alternatus Hope, M. alternatus, pine sawyer beetle, Japanese pine sawyer, Monochamus alternatus, non-local pine sawyer			China	
-False Negative	0.0		Has been found on			pinewood nematode, pine wood nematode, Bursaphelenchus xylophilus			pines	
+Match	1.0	True	Located in	Located in	1.0	Monochamus alternatus, Monochamus alternatus Hope, M. alternatus, non-local pine sawyer, pine sawyer beetle, Japanese pine sawyer	Monochamus alternatus	1.0	Yunnan	Yunnan
+False Negative	0.0		Located in			Monochamus alternatus, Monochamus alternatus Hope, M. alternatus, non-local pine sawyer, pine sawyer beetle, Japanese pine sawyer			Portugal	
+False Negative	0.0		Located in			Monochamus alternatus, Monochamus alternatus Hope, M. alternatus, non-local pine sawyer, pine sawyer beetle, Japanese pine sawyer			China	
+False Negative	0.0		Has been found on			pinewood nematode, Bursaphelenchus xylophilus, pine wood nematode			pines	
 False Negative	0.0		Located in			pine wilt disease			Portugal	
 False Negative	0.0		Located in			pine wilt disease			China	
 False Negative	0.0		Located in			pines			Portugal	
 False Negative	0.0		Located in			pines			China	
 False Negative	0.0		Located in			Pine wilt disease			Yunnan	
 False Negative	0.0		Located in			Pine wilt disease			China	
-False Negative	0.0		Transmits			Monochamus alternatus Hope, M. alternatus, pine sawyer beetle, Japanese pine sawyer, Monochamus alternatus, non-local pine sawyer			Pine wilt disease	
-False Negative	0.0		Transmits			Monochamus spp.			pinewood nematode, pine wood nematode, Bursaphelenchus xylophilus	
+False Negative	0.0		Transmits			Monochamus alternatus, Monochamus alternatus Hope, M. alternatus, non-local pine sawyer, pine sawyer beetle, Japanese pine sawyer			Pine wilt disease	
+False Negative	0.0		Transmits			Monochamus spp.			pinewood nematode, Bursaphelenchus xylophilus, pine wood nematode	

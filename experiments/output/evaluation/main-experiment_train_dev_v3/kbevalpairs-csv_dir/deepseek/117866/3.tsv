@@ -1,8 +1,8 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Partial Match	0.5	True	Affects	Affects	0.5	fusariosis disease	fusariosis	1.0	banana trees, banana, banana plantations, banana cultivation	banana trees
-Partial Match	0.6	True	Located in	Located in	1.0	banana trees, banana, banana plantations, banana cultivation	banana trees	0.6	region of Vale do Ribeira	Vale do Ribeira
-Match	1.0	True	Causes	Causes	1.0	FOC, Fusarium oxysporum f. sp. cubense, fungus FOC	Fusarium oxysporum f. sp. cubense	1.0	fusariosis	fusariosis
-False Negative	0.0		Has been found on			C. sordidus, banana borers, banana borer, banana tree moleque, Cosmopolites sordidus			banana trees, banana, banana plantations, banana cultivation	
+Partial Match	0.5	True	Affects	Affects	0.5	fusariosis disease	fusariosis	1.0	banana, banana trees, banana cultivation, banana plantations	banana trees
+Partial Match	0.6	True	Located in	Located in	1.0	banana, banana trees, banana cultivation, banana plantations	banana trees	0.6	region of Vale do Ribeira	Vale do Ribeira
+Match	1.0	True	Causes	Causes	1.0	fungus FOC, FOC, Fusarium oxysporum f. sp. cubense	Fusarium oxysporum f. sp. cubense	1.0	fusariosis	fusariosis
+False Negative	0.0		Has been found on			Cosmopolites sordidus, C. sordidus, banana tree moleque, banana borers, banana borer			banana, banana trees, banana cultivation, banana plantations	
 False Positive	0.0			Have been found on			Beauveria caledonica			banana borer
 False Positive	0.0			Have been found on			Beauveria caledonica			Cosmopolites sordidus
 False Positive	0.0			Causes			banana borer			fusariosis

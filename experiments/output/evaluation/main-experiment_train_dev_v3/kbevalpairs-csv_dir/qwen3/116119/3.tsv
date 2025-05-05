@@ -1,0 +1,12 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Located in	Located in	1.0	citrus fruits	citrus fruits	1.0	Petite-Ile	Petite-Ile
+Partial Match	0.5	True	Has been found on	Have been found on	1.0	Bactrocera dorsalis	Bactrocera dorsalis	0.5	citrus fruits	fruits
+False Negative	0.0		Located in			Bactrocera dorsalis			Petite-Ile	
+False Positive	0.0			Have been found on			Bactrocera dorsalis			vegetables
+False Positive	0.0			Have been found on			fruit fly			citrus fruits
+False Positive	0.0			Transmits			flies			fruit fly
+False Positive	0.0			Affects			fruit fly			citrus fruits
+False Positive	0.0			Affects			fruit fly			fruits
+False Positive	0.0			Affects			fruit fly			vegetables
+False Positive	0.0			Located in			Réunion			South
+False Positive	0.0			Located in			augmentorium			Réunion

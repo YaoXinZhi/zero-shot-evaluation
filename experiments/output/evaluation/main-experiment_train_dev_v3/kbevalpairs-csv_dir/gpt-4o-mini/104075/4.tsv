@@ -1,5 +1,5 @@
 PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
-Match	1.0	True	Affects	Affects	1.0	huanglongbing disease	huanglongbing disease	1.0	CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees	citrus plants
+Match	1.0	True	Affects	Affects	1.0	huanglongbing disease	huanglongbing disease	1.0	citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS	citrus plants
 Match	1.0	True	Located in	Located in	1.0	huanglongbing disease	huanglongbing disease	1.0	California	California
 Match	1.0	True	Located in	Located in	1.0	huanglongbing disease	huanglongbing disease	1.0	South Carolina	South Carolina
 Match	1.0	True	Located in	Located in	1.0	huanglongbing disease	huanglongbing disease	1.0	Louisiana	Louisiana
@@ -8,43 +8,43 @@ Match	1.0	True	Located in	Located in	1.0	huanglongbing disease	huanglongbing dis
 Match	1.0	True	Located in	Located in	1.0	huanglongbing disease	huanglongbing disease	1.0	USA	USA
 Match	1.0	True	Located in	Located in	1.0	huanglongbing disease	huanglongbing disease	1.0	Texas	Texas
 Match	1.0	True	Located in	Located in	1.0	huanglongbing disease	huanglongbing disease	1.0	Florida	Florida
-Partial Match	0.5	True	Causes	Causes	1.0	Candidatus Liberibacter, Candidatus Liberibacter americanus, HLB bacteria, HLB-BACTERIA, HLB pathogen	Candidatus Liberibacter americanus	0.5	HLB, citrus greening disease, Huanglongbing	huanglongbing disease
-Partial Match	0.5	True	Causes	Causes	1.0	Candidatus Liberibacter africanus, Candidatus Liberibacter	Candidatus Liberibacter africanus	0.5	HLB, citrus greening disease, Huanglongbing	huanglongbing disease
-Partial Match	0.3333333333333333	True	Causes	Causes	0.6666666666666666	Candidatus Liberibacter, Candidatus Liberibacter americanus, HLB bacteria, HLB-BACTERIA, HLB pathogen	Candidatus Liberibacter asiaticus	0.5	huanglongbing	huanglongbing disease
-Match	1.0	True	Transmits	Transmits	1.0	Diaphorina citri Kuwayama	Diaphorina citri Kuwayama	1.0	Candidatus Liberibacter africanus, Candidatus Liberibacter	Candidatus Liberibacter africanus
+Partial Match	0.5	True	Causes	Causes	1.0	HLB-BACTERIA, HLB pathogen, Candidatus Liberibacter americanus, Candidatus Liberibacter, HLB bacteria	Candidatus Liberibacter americanus	0.5	HLB, Huanglongbing, citrus greening disease	huanglongbing disease
+Partial Match	0.5	True	Causes	Causes	1.0	Candidatus Liberibacter, Candidatus Liberibacter africanus	Candidatus Liberibacter africanus	0.5	HLB, Huanglongbing, citrus greening disease	huanglongbing disease
+Partial Match	0.3333333333333333	True	Causes	Causes	0.6666666666666666	HLB-BACTERIA, HLB pathogen, Candidatus Liberibacter americanus, Candidatus Liberibacter, HLB bacteria	Candidatus Liberibacter asiaticus	0.5	huanglongbing	huanglongbing disease
+Match	1.0	True	Transmits	Transmits	1.0	Diaphorina citri Kuwayama	Diaphorina citri Kuwayama	1.0	Candidatus Liberibacter, Candidatus Liberibacter africanus	Candidatus Liberibacter africanus
 Match	1.0	True	Transmits	Transmits	1.0	Diaphorina citri Kuwayama	Diaphorina citri Kuwayama	1.0	CLas, Candidatus Liberibacter asiaticus	Candidatus Liberibacter asiaticus
-Match	1.0	True	Transmits	Transmits	1.0	Diaphorina citri Kuwayama	Diaphorina citri Kuwayama	1.0	Candidatus Liberibacter, Candidatus Liberibacter americanus, HLB bacteria, HLB-BACTERIA, HLB pathogen	Candidatus Liberibacter americanus
-Partial Match	0.5	True	Transmits	Transmits	0.5	Trioza erytreae	Trioza erytreae Del Guercio	1.0	Candidatus Liberibacter africanus, Candidatus Liberibacter	Candidatus Liberibacter africanus
+Match	1.0	True	Transmits	Transmits	1.0	Diaphorina citri Kuwayama	Diaphorina citri Kuwayama	1.0	HLB-BACTERIA, HLB pathogen, Candidatus Liberibacter americanus, Candidatus Liberibacter, HLB bacteria	Candidatus Liberibacter americanus
+Partial Match	0.5	True	Transmits	Transmits	0.5	Trioza erytreae	Trioza erytreae Del Guercio	1.0	Candidatus Liberibacter, Candidatus Liberibacter africanus	Candidatus Liberibacter africanus
 Partial Match	0.5	True	Transmits	Transmits	0.5	Trioza erytreae	Trioza erytreae Del Guercio	1.0	CLas, Candidatus Liberibacter asiaticus	Candidatus Liberibacter asiaticus
-Partial Match	0.5	True	Transmits	Transmits	0.5	Trioza erytreae	Trioza erytreae Del Guercio	1.0	Candidatus Liberibacter, Candidatus Liberibacter americanus, HLB bacteria, HLB-BACTERIA, HLB pathogen	Candidatus Liberibacter americanus
-False Negative	0.0		Located in			CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees			California	
-False Negative	0.0		Located in			CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees			South Carolina	
-False Negative	0.0		Located in			CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees			Louisiana	
-False Negative	0.0		Located in			CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees			Arizona	
-False Negative	0.0		Located in			CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees			Georgia	
-False Negative	0.0		Located in			CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees			USA	
-False Negative	0.0		Located in			CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees			Texas	
-False Negative	0.0		Located in			CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees			Florida	
-False Negative	0.0		Affects			HLB, citrus greening disease, Huanglongbing			CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees	
-False Negative	0.0		Has been found on			Candidatus Liberibacter, Candidatus Liberibacter americanus, HLB bacteria, HLB-BACTERIA, HLB pathogen			CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees	
-False Negative	0.0		Affects			HLB			CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees	
-False Negative	0.0		Has been found on			Candidatus Liberibacter africanus, Candidatus Liberibacter			CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees	
-False Negative	0.0		Affects			huanglongbing			CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees	
-False Negative	0.0		Located in			HLB			China, South China	
+Partial Match	0.5	True	Transmits	Transmits	0.5	Trioza erytreae	Trioza erytreae Del Guercio	1.0	HLB-BACTERIA, HLB pathogen, Candidatus Liberibacter americanus, Candidatus Liberibacter, HLB bacteria	Candidatus Liberibacter americanus
+False Negative	0.0		Located in			citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS			California	
+False Negative	0.0		Located in			citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS			South Carolina	
+False Negative	0.0		Located in			citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS			Louisiana	
+False Negative	0.0		Located in			citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS			Arizona	
+False Negative	0.0		Located in			citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS			Georgia	
+False Negative	0.0		Located in			citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS			USA	
+False Negative	0.0		Located in			citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS			Texas	
+False Negative	0.0		Located in			citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS			Florida	
+False Negative	0.0		Affects			HLB, Huanglongbing, citrus greening disease			citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS	
+False Negative	0.0		Has been found on			HLB-BACTERIA, HLB pathogen, Candidatus Liberibacter americanus, Candidatus Liberibacter, HLB bacteria			citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS	
+False Negative	0.0		Affects			HLB			citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS	
+False Negative	0.0		Has been found on			Candidatus Liberibacter, Candidatus Liberibacter africanus			citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS	
+False Negative	0.0		Affects			huanglongbing			citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS	
+False Negative	0.0		Located in			HLB			South China, China	
 False Negative	0.0		Located in			HLB			Brazil	
 False Negative	0.0		Located in			HLB			India	
 False Negative	0.0		Located in			HLB			USA	
-False Negative	0.0		Located in			CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees			China, South China	
-False Negative	0.0		Located in			CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees			Brazil	
-False Negative	0.0		Located in			CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees			India	
-False Negative	0.0		Located in			Candidatus Liberibacter, Candidatus Liberibacter americanus, HLB bacteria, HLB-BACTERIA, HLB pathogen			Florida	
+False Negative	0.0		Located in			citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS			South China, China	
+False Negative	0.0		Located in			citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS			Brazil	
+False Negative	0.0		Located in			citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS			India	
+False Negative	0.0		Located in			HLB-BACTERIA, HLB pathogen, Candidatus Liberibacter americanus, Candidatus Liberibacter, HLB bacteria			Florida	
 False Negative	0.0		Located in			HLB			Florida	
-False Negative	0.0		Causes			Candidatus Liberibacter, Candidatus Liberibacter americanus, HLB bacteria, HLB-BACTERIA, HLB pathogen			HLB	
-False Negative	0.0		Located in			HLB			Southeast Asia, Asia	
+False Negative	0.0		Causes			HLB-BACTERIA, HLB pathogen, Candidatus Liberibacter americanus, Candidatus Liberibacter, HLB bacteria			HLB	
+False Negative	0.0		Located in			HLB			Asia, Southeast Asia	
 False Negative	0.0		Located in			HLB			Taiwan	
 False Negative	0.0		Located in			HLB			Japan	
-False Negative	0.0		Located in			CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees			Southeast Asia, Asia	
-False Negative	0.0		Located in			CITRUS, Citrus, citrus plants, citrus fruits, cultivation of citrus, citrus, citrus tree, citrus trees			Japan	
+False Negative	0.0		Located in			citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS			Asia, Southeast Asia	
+False Negative	0.0		Located in			citrus fruits, Citrus, citrus plants, cultivation of citrus, citrus tree, citrus, citrus trees, CITRUS			Japan	
 False Positive	0.0			Located in			huanglongbing disease			China
 False Positive	0.0			Located in			huanglongbing disease			Brazil
 False Positive	0.0			Located in			huanglongbing disease			India

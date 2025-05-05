@@ -1,0 +1,24 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Match	1.0	True	Affects	Affects	1.0	flavescence dorée, Vine flavescence	flavescence dorée	1.0	red grape varieties, vineyard, vineyards, white grape varieties, vines	vines
+Match	1.0	True	Located in	Located in	1.0	red grape varieties, vineyard, vineyards, white grape varieties, vines	vineyards	1.0	Lot	Lot
+Match	1.0	True	Has been found on	Have been found on	1.0	Scaphoidus titanus	Scaphoidus titanus	1.0	red grape varieties, vineyard, vineyards, white grape varieties, vines	vineyards
+False Negative	0.0		Affects			flavescence dorée			red grape varieties, vineyard, vineyards, white grape varieties, vines	
+False Negative	0.0		Affects			golden flavescence			red grape varieties, vineyard, vineyards, white grape varieties, vines	
+False Negative	0.0		Affects			black wood			red grape varieties, vineyard, vineyards, white grape varieties, vines	
+False Positive	0.0			Located in			flavescence dorée			Lot
+False Positive	0.0			Transmits			Scaphoidus titanus			flavescence dorée
+False Positive	0.0			Affects			bois noir			grape varieties
+False Positive	0.0			Located in			vineyards			Parnac
+False Positive	0.0			Located in			vineyards			Pradines
+False Positive	0.0			Located in			vineyards			Mercuès
+False Positive	0.0			Located in			vineyards			Douelle
+False Positive	0.0			Located in			vineyards			Porte du Quercy
+False Positive	0.0			Located in			vineyards			Sauzet
+False Positive	0.0			Located in			vineyards			Luzech
+False Positive	0.0			Located in			vineyards			Prayssac
+False Positive	0.0			Located in			vineyards			Carnac
+False Positive	0.0			Located in			vineyards			Sérignac
+False Positive	0.0			Located in			vineyards			Saux
+False Positive	0.0			Located in			vineyards			Montcuq
+False Positive	0.0			Located in			vineyards			Glanes
+False Positive	0.0			Have been found on			FDGDON			vineyards

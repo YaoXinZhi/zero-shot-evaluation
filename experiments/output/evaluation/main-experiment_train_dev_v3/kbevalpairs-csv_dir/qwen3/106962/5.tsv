@@ -1,0 +1,25 @@
+PAIR TYPE	SIMILARITY	SAME TYPE	REF TYPE	PRED TYPE	SOURCE SIMILARITY	REF SOURCES	PRED SOURCE	TARGET SIMILARITY	REF TARGETS	PRED TARGET
+Partial Match	0.19999999999999998	False	Affects	Have been found on	0.3333333333333333	Golden flavescence	flavescence dorée	0.6666666666666666	Chardonnay vineyards, vine, vineyard, vineyards, vines, Pinot Grigio vineyards, grapevine	Pinot Grigio
+Match	1.0	True	Located in	Located in	1.0	flavescence dorée	flavescence dorée	1.0	Burgraviato, South Tyrol, Bassa Atesina	Burgraviato
+Match	1.0	True	Affects	Affects	1.0	Flavescence dorée	flavescence dorée	1.0	Chardonnay vineyards, vine, vineyard, vineyards, vines, Pinot Grigio vineyards, grapevine	vineyards
+Partial Match	0.9	False	Affects	Have been found on	1.0	flavescence dorée	Flavescence dorée	1.0	Chardonnay vineyards, vine, vineyard, vineyards, vines, Pinot Grigio vineyards, grapevine	vines
+Match	1.0	True	Causes	Causes	1.0	FDp, Flavescence dorèe-Phytoplasma	Flavescence dorèe-Phytoplasma	1.0	flavescence dorée	Flavescence dorée
+Match	1.0	True	Transmits	Transmits	1.0	American vine leafhopper	American vine leafhopper	1.0	FDp, Flavescence dorèe-Phytoplasma	Flavescence dorèe-Phytoplasma
+False Negative	0.0		Located in			Golden flavescence			Burgraviato, South Tyrol, Bassa Atesina	
+False Negative	0.0		Located in			Chardonnay vineyards, vine, vineyard, vineyards, vines, Pinot Grigio vineyards, grapevine			Burgraviato, South Tyrol, Bassa Atesina	
+False Negative	0.0		Located in			yellow ones			Burgraviato, South Tyrol, Bassa Atesina	
+False Negative	0.0		Located in			yellow ones			Salorno	
+False Negative	0.0		Affects			yellow ones			Chardonnay vineyards, vine, vineyard, vineyards, vines, Pinot Grigio vineyards, grapevine	
+False Negative	0.0		Located in			Chardonnay vineyards, vine, vineyard, vineyards, vines, Pinot Grigio vineyards, grapevine			Salorno	
+False Negative	0.0		Located in			yellow lights			Burgraviato, South Tyrol, Bassa Atesina	
+False Negative	0.0		Located in			yellow lights			Salorno	
+False Negative	0.0		Affects			yellow lights			Chardonnay vineyards, vine, vineyard, vineyards, vines, Pinot Grigio vineyards, grapevine	
+False Negative	0.0		Has been found on			FDp, Flavescence dorèe-Phytoplasma			Chardonnay vineyards, vine, vineyard, vineyards, vines, Pinot Grigio vineyards, grapevine	
+False Negative	0.0		Located in			American vine leafhopper			Europe	
+False Negative	0.0		Has been found on			American vine leafhopper			Chardonnay vineyards, vine, vineyard, vineyards, vines, Pinot Grigio vineyards, grapevine	
+False Positive	0.0			Located in			flavescence dorée			Salorno
+False Positive	0.0			Have been found on			flavescence dorée			Chardonnay
+False Positive	0.0			Causes			flavescence dorée			Flavescence dorée
+False Positive	0.0			Have been found on			Flavescence dorée			Chardonnay
+False Positive	0.0			Have been found on			Flavescence dorée			Pinot Grigio
+False Positive	0.0			Located in			Flavescence dorée			Salorno
