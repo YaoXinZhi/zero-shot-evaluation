@@ -1,0 +1,253 @@
+{
+    "entities": [
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "alcohol",
+            "Name": "alcohol"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Alcohol",
+            "Name": "alcohol"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "ethanol",
+            "Name": "ethanol"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "opioid receptors (mu, delta and kappa)",
+            "Name": "opioidreceptorsmudeltaandkappa"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "opioid peptides",
+            "Name": "opioidpeptides"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "beta-endorphin",
+            "Name": "betaendorphin"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "enkephalins",
+            "Name": "enkephalins"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "enkephalins",
+            "Name": "enkephalins"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "dynorphins",
+            "Name": "dynorphins"
+        },
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "mu- and delta-receptor",
+            "Name": "muanddeltareceptor"
+        },
+        {
+            "id": "T36",
+            "type": "Gene",
+            "name": "kappa-receptors",
+            "Name": "kappareceptors"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "alcohol",
+            "Name": "alcohol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "alcohol",
+            "Name": "alcohol"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "aldehyde",
+            "Name": "aldehyde"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "tetrahydroisoquinolines",
+            "Name": "tetrahydroisoquinolines"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "alcohol",
+            "Name": "alcohol"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "opioid receptors",
+            "Name": "opioidreceptors"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "opioid peptide",
+            "Name": "opioidpeptide"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "beta-endorphin",
+            "Name": "betaendorphin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "alcohol",
+            "Name": "alcohol"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "alcohol",
+            "Name": "alcohol"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "alcohol",
+            "Name": "alcohol"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "naloxone",
+            "Name": "naloxone"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "naltrexone",
+            "Name": "naltrexone"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "opioid receptors",
+            "Name": "opioidreceptors"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "alcohol",
+            "Name": "alcohol"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "mu- or delta-receptor",
+            "Name": "muordeltareceptor"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "alcohol",
+            "Name": "alcohol"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "alcohol",
+            "Name": "alcohol"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "mu-opioid receptors",
+            "Name": "muopioidreceptors"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "delta-receptor",
+            "Name": "deltareceptor"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "beta-endorphin",
+            "Name": "betaendorphin"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "alcohol",
+            "Name": "alcohol"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T24"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T11",
+            "target": "T25"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T12",
+            "target": "T25"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T11",
+            "target": "T25"
+        },
+        {
+            "type": "Activator",
+            "source": "T12",
+            "target": "T25"
+        }
+    ]
+}

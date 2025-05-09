@@ -1,0 +1,99 @@
+T27	CHEMICAL 11 22	fenofibrate
+N1	Name Annotation:T27 Referent:fenofibrate
+T28	CHEMICAL 48 59	aldosterone
+N2	Name Annotation:T28 Referent:aldosterone
+T5	CHEMICAL 223 234	Fenofibrate
+N3	Name Annotation:T5 Referent:fenofibrate
+T9	CHEMICAL 246 257	aldosterone
+N4	Name Annotation:T9 Referent:aldosterone
+T39	GENE-N 288 312	matrix metalloproteinase
+N5	Name Annotation:T39 Referent:matrixmetalloproteinase
+T40	GENE-N 326 363	extracellular signal-regulated kinase
+N6	Name Annotation:T40 Referent:extracellularsignalregulatedkinase
+T41	GENE-Y 407 455	peroxisome proliferator-activated receptor-alpha
+N7	Name Annotation:T41 Referent:peroxisomeproliferatoractivatedreceptoralpha
+T19	CHEMICAL 465 476	fenofibrate
+N8	Name Annotation:T19 Referent:fenofibrate
+T20	CHEMICAL 520 531	aldosterone
+N9	Name Annotation:T20 Referent:aldosterone
+T21	CHEMICAL 628 632	NaCl
+N10	Name Annotation:T21 Referent:nacl
+T22	CHEMICAL 687 698	aldosterone
+N11	Name Annotation:T22 Referent:aldosterone
+T23	CHEMICAL 762 773	fenofibrate
+N12	Name Annotation:T23 Referent:fenofibrate
+T24	CHEMICAL 844 855	Aldosterone
+N13	Name Annotation:T24 Referent:aldosterone
+T25	CHEMICAL 999 1010	fenofibrate
+N14	Name Annotation:T25 Referent:fenofibrate
+T26	CHEMICAL 1028 1039	Aldosterone
+N15	Name Annotation:T26 Referent:aldosterone
+T1	CHEMICAL 1135 1146	fenofibrate
+N16	Name Annotation:T1 Referent:fenofibrate
+T2	CHEMICAL 1230 1241	Fenofibrate
+N17	Name Annotation:T2 Referent:fenofibrate
+T3	CHEMICAL 1257 1268	aldosterone
+N18	Name Annotation:T3 Referent:aldosterone
+T4	CHEMICAL 1435 1446	fenofibrate
+N19	Name Annotation:T4 Referent:fenofibrate
+T29	GENE-Y 1473 1499	matrix metalloproteinase-2
+N20	Name Annotation:T29 Referent:matrixmetalloproteinase2
+T30	GENE-Y 1500 1540	tissue inhibitors of metalloproteinase-2
+N21	Name Annotation:T30 Referent:tissueinhibitorsofmetalloproteinase2
+T6	CHEMICAL 1568 1579	aldosterone
+N22	Name Annotation:T6 Referent:aldosterone
+T7	CHEMICAL 1632 1643	aldosterone
+N23	Name Annotation:T7 Referent:aldosterone
+T8	CHEMICAL 1662 1673	fenofibrate
+N24	Name Annotation:T8 Referent:fenofibrate
+T31	GENE-N 1684 1715	transforming growth factor-beta
+N25	Name Annotation:T31 Referent:transforminggrowthfactorbeta
+T32	GENE-N 1717 1734	collagen type III
+N26	Name Annotation:T32 Referent:collagentypeiii
+T33	GENE-N 1758 1773	collagen type I
+N27	Name Annotation:T33 Referent:collagentypei
+T10	CHEMICAL 1814 1825	fenofibrate
+N28	Name Annotation:T10 Referent:fenofibrate
+T34	GENE-Y 1836 1884	peroxisome proliferator-activated receptor-alpha
+N29	Name Annotation:T34 Referent:peroxisomeproliferatoractivatedreceptoralpha
+T35	GENE-Y 1886 1953	peroxisome proliferator-activated receptor-gamma coactivator-1alpha
+N30	Name Annotation:T35 Referent:peroxisomeproliferatoractivatedreceptorgammacoactivator1alpha
+T11	CHEMICAL 1970 1987	acetyl coenzyme A
+N31	Name Annotation:T11 Referent:acetylcoenzymea
+T36	GENE-N 1970 1999	acetyl coenzyme A carboxylase
+N32	Name Annotation:T36 Referent:acetylcoenzymeacarboxylase
+T12	CHEMICAL 2036 2047	aldosterone
+N33	Name Annotation:T12 Referent:aldosterone
+T37	GENE-Y 2064 2084	uncoupling protein-3
+N34	Name Annotation:T37 Referent:uncouplingprotein3
+T38	GENE-Y 2089 2131	medium-chain acyl coenzyme A dehydrogenase
+N35	Name Annotation:T38 Referent:mediumchainacylcoenzymeadehydrogenase
+T13	CHEMICAL 2102 2117	acyl coenzyme A
+N36	Name Annotation:T13 Referent:acylcoenzymea
+T14	CHEMICAL 2166 2177	fenofibrate
+N37	Name Annotation:T14 Referent:fenofibrate
+T15	CHEMICAL 2219 2230	aldosterone
+N38	Name Annotation:T15 Referent:aldosterone
+T16	CHEMICAL 2306 2316	fatty acid
+N39	Name Annotation:T16 Referent:fattyacid
+T17	CHEMICAL 2334 2345	fenofibrate
+N40	Name Annotation:T17 Referent:fenofibrate
+T18	CHEMICAL 2355 2366	aldosterone
+N41	Name Annotation:T18 Referent:aldosterone
+R1	ACTIVATOR Arg1:T9 Arg2:T39
+R2	ACTIVATOR Arg1:T9 Arg2:T40
+R3	INHIBITOR Arg1:T5 Arg2:T39
+R4	INHIBITOR Arg1:T5 Arg2:T40
+R5	AGONIST Arg1:T19 Arg2:T41
+R6	INHIBITOR Arg1:T4 Arg2:T29
+R7	INHIBITOR Arg1:T4 Arg2:T30
+R8	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T31
+R9	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T32
+R10	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T33
+R11	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T34
+R12	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T35
+R13	ACTIVATOR Arg1:T10 Arg2:T36
+R14	INDIRECT-DOWNREGULATOR Arg1:T14 Arg2:T37
+R15	INDIRECT-DOWNREGULATOR Arg1:T14 Arg2:T38
+R16	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T37
+R17	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T38

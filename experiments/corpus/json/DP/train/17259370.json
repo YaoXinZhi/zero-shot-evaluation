@@ -1,0 +1,267 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "Rosiglitazone",
+            "Name": "rosiglitazone"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "acyl-CoA",
+            "Name": "acylcoa"
+        },
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "acyl-CoA synthetase",
+            "Name": "acylcoasynthetase"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "fatty acid",
+            "Name": "fattyacid"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "diacylglycerol",
+            "Name": "diacylglycerol"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "triacylglycerol",
+            "Name": "triacylglycerol"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "peroxisome proliferator-activated receptor-gamma",
+            "Name": "peroxisomeproliferatoractivatedreceptorgamma"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Rosiglitazone",
+            "Name": "rosiglitazone"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "peroxisome proliferator-activated receptor (PPAR)-gamma",
+            "Name": "peroxisomeproliferatoractivatedreceptorppargamma"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "rosiglitazone",
+            "Name": "rosiglitazone"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "long-chain acyl-CoA",
+            "Name": "longchainacylcoa"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "long-chain acyl-CoA synthetase (ACSL)-4",
+            "Name": "longchainacylcoasynthetaseacsl4"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "ACSL4",
+            "Name": "acsl4"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "rosiglitazone",
+            "Name": "rosiglitazone"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "ACSL",
+            "Name": "acsl"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "fatty acid",
+            "Name": "fattyacid"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "Acsl4",
+            "Name": "acsl4"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "rosiglitazone",
+            "Name": "rosiglitazone"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "Acsl",
+            "Name": "acsl"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "rosiglitazone",
+            "Name": "rosiglitazone"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "fatty acids",
+            "Name": "fattyacids"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "fatty acid",
+            "Name": "fattyacid"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "diacylglycerol",
+            "Name": "diacylglycerol"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "triacylglycerol",
+            "Name": "triacylglycerol"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "PPAR-gamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "ACSL4",
+            "Name": "acsl4"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "ACSL",
+            "Name": "acsl"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "fatty acid",
+            "Name": "fattyacid"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "rosiglitazone",
+            "Name": "rosiglitazone"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "ACSL",
+            "Name": "acsl"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "fatty acid",
+            "Name": "fattyacid"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "PPAR-gamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "ACSL4",
+            "Name": "acsl4"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "rosiglitazone",
+            "Name": "rosiglitazone"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "fatty acids",
+            "Name": "fattyacids"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T17",
+            "target": "T35"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T28"
+        },
+        {
+            "type": "Substrate",
+            "source": "T20",
+            "target": "T35"
+        },
+        {
+            "type": "Product of",
+            "source": "T21",
+            "target": "T35"
+        },
+        {
+            "type": "Product of",
+            "source": "T18",
+            "target": "T35"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T32"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T26"
+        }
+    ]
+}

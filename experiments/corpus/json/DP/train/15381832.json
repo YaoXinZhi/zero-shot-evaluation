@@ -1,0 +1,236 @@
+{
+    "entities": [
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "beta-adrenergic G protein-coupled receptor",
+            "Name": "betaadrenergicgproteincoupledreceptor"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "SRC",
+            "Name": "src"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "epidermal growth factor receptor",
+            "Name": "epidermalgrowthfactorreceptor"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "G protein-coupled receptor",
+            "Name": "gproteincoupledreceptor"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "epidermal growth factor receptor",
+            "Name": "epidermalgrowthfactorreceptor"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "G protein-coupled beta-adrenergic receptor",
+            "Name": "gproteincoupledbetaadrenergicreceptor"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "[14C]choline",
+            "Name": "14ccholine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "isoproterenol",
+            "Name": "isoproterenol"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "PD153035",
+            "Name": "pd153035"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "wortmannin",
+            "Name": "wortmannin"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "adenyl cyclase",
+            "Name": "adenylcyclase"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "forskolin",
+            "Name": "forskolin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "isoproterenol",
+            "Name": "isoproterenol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Src",
+            "Name": "src"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "PD98059",
+            "Name": "pd98059"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "forskolin",
+            "Name": "forskolin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Src",
+            "Name": "src"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "beta-adrenergic GPCR",
+            "Name": "betaadrenergicgpcr"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T28"
+        },
+        {
+            "type": "Activator",
+            "source": "T11",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T15"
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+T14	CHEMICAL 29 40	leukotriene
+N1	Name Annotation:T14 Referent:leukotriene
+T37	GENE-N 29 49	leukotriene receptor
+N2	Name Annotation:T37 Referent:leukotrienereceptor
+T15	CHEMICAL 64 78	leukotriene D4
+N3	Name Annotation:T15 Referent:leukotriened4
+T38	GENE-N 87 95	MUC2/5AC
+N4	Name Annotation:T38 Referent:muc25ac
+T36	GENE-N 116 121	mucin
+N5	Name Annotation:T36 Referent:mucin
+T19	GENE-N 178 183	Mucin
+N6	Name Annotation:T19 Referent:mucin
+T25	GENE-N 204 209	mucin
+N7	Name Annotation:T25 Referent:mucin
+T22	GENE-N 332 341	Cytokines
+N8	Name Annotation:T22 Referent:cytokines
+T5	CHEMICAL 404 417	prostaglandin
+N9	Name Annotation:T5 Referent:prostaglandin
+T6	CHEMICAL 422 433	leukotriene
+N10	Name Annotation:T6 Referent:leukotriene
+T23	GENE-N 481 486	mucin
+N11	Name Annotation:T23 Referent:mucin
+T7	CHEMICAL 517 529	leukotrienes
+N12	Name Annotation:T7 Referent:leukotrienes
+T24	GENE-N 535 540	mucin
+N13	Name Annotation:T24 Referent:mucin
+T26	GENE-N 609 617	MUC2/5AC
+N14	Name Annotation:T26 Referent:muc25ac
+T27	GENE-N 638 643	mucin
+N15	Name Annotation:T27 Referent:mucin
+T8	CHEMICAL 661 672	leukotriene
+N16	Name Annotation:T8 Referent:leukotriene
+T28	GENE-N 661 681	leukotriene receptor
+N17	Name Annotation:T28 Referent:leukotrienereceptor
+T9	CHEMICAL 739 755	leukotriene D(4)
+N18	Name Annotation:T9 Referent:leukotriened4
+T10	CHEMICAL 764 775	leukotriene
+N19	Name Annotation:T10 Referent:leukotriene
+T29	GENE-N 764 784	leukotriene receptor
+N20	Name Annotation:T29 Referent:leukotrienereceptor
+T11	CHEMICAL 797 815	pranlukast hydrate
+N21	Name Annotation:T11 Referent:pranlukasthydrate
+T12	CHEMICAL 817 825	ONO-1078
+N22	Name Annotation:T12 Referent:ono1078
+T30	GENE-N 848 856	MUC2/5AC
+N23	Name Annotation:T30 Referent:muc25ac
+T31	GENE-N 877 882	mucin
+N24	Name Annotation:T31 Referent:mucin
+T32	GENE-N 969 977	MUC2/5AC
+N25	Name Annotation:T32 Referent:muc25ac
+T33	GENE-N 996 1001	mucin
+N26	Name Annotation:T33 Referent:mucin
+T13	CHEMICAL 1104 1120	Leukotriene D(4)
+N27	Name Annotation:T13 Referent:leukotriened4
+T34	GENE-N 1133 1141	MUC2/5AC
+N28	Name Annotation:T34 Referent:muc25ac
+T35	GENE-N 1162 1167	mucin
+N29	Name Annotation:T35 Referent:mucin
+T1	CHEMICAL 1207 1225	Pranlukast hydrate
+N30	Name Annotation:T1 Referent:pranlukasthydrate
+T2	CHEMICAL 1227 1235	ONO-1078
+N31	Name Annotation:T2 Referent:ono1078
+T3	CHEMICAL 1267 1283	leukotriene D(4)
+N32	Name Annotation:T3 Referent:leukotriened4
+T16	GENE-N 1292 1300	MUC2/5AC
+N33	Name Annotation:T16 Referent:muc25ac
+T17	GENE-N 1321 1326	mucin
+N34	Name Annotation:T17 Referent:mucin
+T4	CHEMICAL 1381 1392	leukotriene
+N35	Name Annotation:T4 Referent:leukotriene
+T18	GENE-N 1381 1401	leukotriene receptor
+N36	Name Annotation:T18 Referent:leukotrienereceptor
+T20	GENE-N 1445 1453	MUC2/5AC
+N37	Name Annotation:T20 Referent:muc25ac
+T21	GENE-N 1474 1479	mucin
+N38	Name Annotation:T21 Referent:mucin
+R1	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T38
+R2	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T36
+R3	ANTAGONIST Arg1:T11 Arg2:T29
+R4	ANTAGONIST Arg1:T12 Arg2:T29
+R5	INDIRECT-UPREGULATOR Arg1:T13 Arg2:T34
+R6	INDIRECT-UPREGULATOR Arg1:T13 Arg2:T35
+R7	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T16
+R8	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T17
+R9	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T16
+R10	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T16
+R11	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T17
+R12	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T17

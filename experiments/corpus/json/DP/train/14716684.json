@@ -1,0 +1,182 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "norepinephrine transporter",
+            "Name": "norepinephrinetransporter"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "norepinephrine transporter",
+            "Name": "norepinephrinetransporter"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "catecholamines",
+            "Name": "catecholamines"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "bovine NET",
+            "Name": "bovinenet"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "[(131)I]meta-iodobenzylguanidine",
+            "Name": "131imetaiodobenzylguanidine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "[(131)I]MIBG",
+            "Name": "131imibg"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "imipramine",
+            "Name": "imipramine"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "[(123)I]MIBG",
+            "Name": "123imibg"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "[(131)I]MIBG",
+            "Name": "131imibg"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "imipramine",
+            "Name": "imipramine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "[(131)I]MIBG",
+            "Name": "131imibg"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "[(131)I]MIBG",
+            "Name": "131imibg"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "[(123)I]MIBG",
+            "Name": "123imibg"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "catecholamine",
+            "Name": "catecholamine"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T14"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T15"
+        }
+    ]
+}

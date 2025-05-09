@@ -1,0 +1,96 @@
+T26	CHEMICAL 0 10	Ergovaline
+N1	Name Annotation:T26 Referent:ergovaline
+T37	GENE-Y 37 58	D2 dopamine receptors
+N2	Name Annotation:T37 Referent:d2dopaminereceptors
+T27	CHEMICAL 40 48	dopamine
+N3	Name Annotation:T27 Referent:dopamine
+T1	CHEMICAL 76 86	Ergovaline
+N4	Name Annotation:T1 Referent:ergovaline
+T34	GENE-Y 128 148	D2 dopamine receptor
+N5	Name Annotation:T34 Referent:d2dopaminereceptor
+T12	CHEMICAL 131 139	dopamine
+N6	Name Annotation:T12 Referent:dopamine
+T21	CHEMICAL 153 167	ergot alkaloid
+N7	Name Annotation:T21 Referent:ergotalkaloid
+T28	GENE-Y 182 211	vasoactive intestinal peptide
+N8	Name Annotation:T28 Referent:vasoactiveintestinalpeptide
+T30	GENE-Y 213 216	VIP
+N9	Name Annotation:T30 Referent:vip
+T5	CHEMICAL 229 239	cyclic AMP
+N10	Name Annotation:T5 Referent:cyclicamp
+T31	GENE-Y 294 318	rat D2 dopamine receptor
+N11	Name Annotation:T31 Referent:ratd2dopaminereceptor
+T6	CHEMICAL 301 309	dopamine
+N12	Name Annotation:T6 Referent:dopamine
+T7	CHEMICAL 336 346	Ergovaline
+N13	Name Annotation:T7 Referent:ergovaline
+T32	GENE-Y 380 382	D2
+N14	Name Annotation:T32 Referent:d2
+T8	CHEMICAL 405 419	[3H]YM-09151-2
+N15	Name Annotation:T8 Referent:3hym091512
+T9	CHEMICAL 485 493	dopamine
+N16	Name Annotation:T9 Referent:dopamine
+T10	CHEMICAL 533 548	Ergot alkaloids
+N17	Name Annotation:T10 Referent:ergotalkaloids
+T33	GENE-Y 583 586	VIP
+N18	Name Annotation:T33 Referent:vip
+T11	CHEMICAL 598 608	cyclic AMP
+N19	Name Annotation:T11 Referent:cyclicamp
+T13	CHEMICAL 642 652	ergovaline
+N20	Name Annotation:T13 Referent:ergovaline
+T14	CHEMICAL 654 664	ergonovine
+N21	Name Annotation:T14 Referent:ergonovine
+T15	CHEMICAL 666 684	alpha-ergocryptine
+N22	Name Annotation:T15 Referent:alphaergocryptine
+T16	CHEMICAL 686 696	ergotamine
+N23	Name Annotation:T16 Referent:ergotamine
+T17	CHEMICAL 702 710	dopamine
+N24	Name Annotation:T17 Referent:dopamine
+T18	CHEMICAL 796 806	cyclic AMP
+N25	Name Annotation:T18 Referent:cyclicamp
+T19	CHEMICAL 821 831	ergovaline
+N26	Name Annotation:T19 Referent:ergovaline
+T20	CHEMICAL 851 859	dopamine
+N27	Name Annotation:T20 Referent:dopamine
+T35	GENE-N 851 868	dopamine receptor
+N28	Name Annotation:T35 Referent:dopaminereceptor
+T22	CHEMICAL 881 894	(-)-sulpiride
+N29	Name Annotation:T22 Referent:sulpiride
+T23	CHEMICAL 973 983	ergovaline
+N30	Name Annotation:T23 Referent:ergovaline
+T36	GENE-Y 993 1014	D2 dopamine receptors
+N31	Name Annotation:T36 Referent:d2dopaminereceptors
+T24	CHEMICAL 996 1004	dopamine
+N32	Name Annotation:T24 Referent:dopamine
+T25	CHEMICAL 1072 1080	dopamine
+N33	Name Annotation:T25 Referent:dopamine
+T2	CHEMICAL 1215 1230	ergot alkaloids
+N34	Name Annotation:T2 Referent:ergotalkaloids
+T3	CHEMICAL 1241 1251	ergovaline
+N35	Name Annotation:T3 Referent:ergovaline
+T29	GENE-Y 1267 1287	D2 dopamine receptor
+N36	Name Annotation:T29 Referent:d2dopaminereceptor
+T4	CHEMICAL 1270 1278	dopamine
+N37	Name Annotation:T4 Referent:dopamine
+R1	ACTIVATOR Arg1:T26 Arg2:T37
+R2	DIRECT-REGULATOR Arg1:T26 Arg2:T37
+R3	DIRECT-REGULATOR Arg1:T1 Arg2:T34
+R4	INHIBITOR Arg1:T21 Arg2:T28
+R5	INHIBITOR Arg1:T21 Arg2:T30
+R6	PRODUCT-OF Arg1:T5 Arg2:T28
+R7	PRODUCT-OF Arg1:T5 Arg2:T30
+R8	DIRECT-REGULATOR Arg1:T8 Arg2:T32
+R9	DIRECT-REGULATOR Arg1:T7 Arg2:T32
+R10	DIRECT-REGULATOR Arg1:T9 Arg2:T32
+R11	INHIBITOR Arg1:T10 Arg2:T33
+R12	PRODUCT-OF Arg1:T11 Arg2:T33
+R13	ANTAGONIST Arg1:T22 Arg2:T35
+R14	DIRECT-REGULATOR Arg1:T23 Arg2:T36
+R15	DIRECT-REGULATOR Arg1:T25 Arg2:T36
+R16	INHIBITOR Arg1:T13 Arg2:T33
+R17	INHIBITOR Arg1:T14 Arg2:T33
+R18	INHIBITOR Arg1:T15 Arg2:T33
+R19	INHIBITOR Arg1:T16 Arg2:T33
+R20	INHIBITOR Arg1:T17 Arg2:T33
+R21	ACTIVATOR Arg1:T3 Arg2:T29
+R22	ACTIVATOR Arg1:T2 Arg2:T29

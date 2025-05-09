@@ -1,0 +1,235 @@
+{
+    "entities": [
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "HERG",
+            "Name": "herg"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "DNA topoisomerase II",
+            "Name": "dnatopoisomeraseii"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "amsacrine",
+            "Name": "amsacrine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "amsacrine",
+            "Name": "amsacrine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "amsacrine",
+            "Name": "amsacrine"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "human ether-a-go-go-related gene",
+            "Name": "humanetheragogorelatedgene"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "ether",
+            "Name": "ether"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "HERG",
+            "Name": "herg"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "potassium",
+            "Name": "potassium"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "amsacrine",
+            "Name": "amsacrine"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "HERG channels",
+            "Name": "hergchannels"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "HERG channels",
+            "Name": "hergchannels"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "potassium",
+            "Name": "potassium"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Amsacrine",
+            "Name": "amsacrine"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "HERG",
+            "Name": "herg"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "HERG channels",
+            "Name": "hergchannels"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Amsacrine",
+            "Name": "amsacrine"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "HERG",
+            "Name": "herg"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "amsacrine",
+            "Name": "amsacrine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "S6 domain",
+            "Name": "s6domain"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Y652A",
+            "Name": "y652a"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "F656A",
+            "Name": "f656a"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "Y652A",
+            "Name": "y652a"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "F656A",
+            "Name": "f656a"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Y652A",
+            "Name": "y652a"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "F656A",
+            "Name": "f656a"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "HERG",
+            "Name": "herg"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "amsacrine",
+            "Name": "amsacrine"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "S6",
+            "Name": "s6"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "amsacrine",
+            "Name": "amsacrine"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "HERG potassium channels",
+            "Name": "hergpotassiumchannels"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "potassium",
+            "Name": "potassium"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "amsacrine",
+            "Name": "amsacrine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T33"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T32"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T4",
+            "target": "T25"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T24"
+        }
+    ]
+}

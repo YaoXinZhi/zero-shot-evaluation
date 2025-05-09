@@ -1,0 +1,42 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "GluN2B",
+            "Name": "glun2b"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Ro25-6981",
+            "Name": "ro256981"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "GluA2",
+            "Name": "glua2"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "AMPA",
+            "Name": "ampa"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "AMPA receptors",
+            "Name": "ampareceptors"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T3"
+        }
+    ]
+}

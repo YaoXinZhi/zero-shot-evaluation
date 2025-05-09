@@ -1,0 +1,60 @@
+T13	CHEMICAL 40 51	desipramine
+N1	Name Annotation:T13 Referent:desipramine
+T26	GENE 40 77	desipramine and cocaine binding sites
+N2	Name Annotation:T26 Referent:desipramineandcocainebindingsites
+T14	CHEMICAL 56 63	cocaine
+N3	Name Annotation:T14 Referent:cocaine
+T27	GENE 85 117	human norepinephrine transporter
+N4	Name Annotation:T27 Referent:humannorepinephrinetransporter
+T15	CHEMICAL 91 105	norepinephrine
+N5	Name Annotation:T15 Referent:norepinephrine
+T22	GENE 169 201	human norepinephrine transporter
+N6	Name Annotation:T22 Referent:humannorepinephrinetransporter
+T10	CHEMICAL 175 189	norepinephrine
+N7	Name Annotation:T10 Referent:norepinephrine
+T25	GENE 203 207	hNET
+N8	Name Annotation:T25 Referent:hnet
+T18	GENE 257 261	hNET
+N9	Name Annotation:T18 Referent:hnet
+T19	GENE 458 462	hNET
+N10	Name Annotation:T19 Referent:hnet
+T5	CHEMICAL 466 484	[3H]norepinephrine
+N11	Name Annotation:T5 Referent:3hnorepinephrine
+T6	CHEMICAL 507 519	[3H]dopamine
+N12	Name Annotation:T6 Referent:3hdopamine
+T20	GENE 546 572	human dopamine transporter
+N13	Name Annotation:T20 Referent:humandopaminetransporter
+T7	CHEMICAL 552 560	dopamine
+N14	Name Annotation:T7 Referent:dopamine
+T8	CHEMICAL 577 586	serotonin
+N15	Name Annotation:T8 Referent:serotonin
+T21	GENE 577 598	serotonin transporter
+N16	Name Annotation:T21 Referent:serotonintransporter
+T23	GENE 663 667	hNET
+N17	Name Annotation:T23 Referent:hnet
+T9	CHEMICAL 668 678	amino acid
+N18	Name Annotation:T9 Referent:aminoacid
+T24	GENE 721 747	human dopamine transporter
+N19	Name Annotation:T24 Referent:humandopaminetransporter
+T11	CHEMICAL 727 735	dopamine
+N20	Name Annotation:T11 Referent:dopamine
+T12	CHEMICAL 794 812	[3H]norepinephrine
+N21	Name Annotation:T12 Referent:3hnorepinephrine
+T1	CHEMICAL 1250 1261	desipramine
+N22	Name Annotation:T1 Referent:desipramine
+T2	CHEMICAL 1288 1302	norepinephrine
+N23	Name Annotation:T2 Referent:norepinephrine
+T16	GENE 1324 1329	hNETs
+N24	Name Annotation:T16 Referent:hnets
+T17	GENE 1359 1363	hNET
+N25	Name Annotation:T17 Referent:hnet
+T3	CHEMICAL 1443 1452	tricyclic
+N26	Name Annotation:T3 Referent:tricyclic
+T4	CHEMICAL 1473 1480	cocaine
+N27	Name Annotation:T4 Referent:cocaine
+R1	PART-OF Arg1:T9 Arg2:T23
+R2	SUBSTRATE Arg1:T5 Arg2:T19
+R3	SUBSTRATE Arg1:T6 Arg2:T19
+R4	SUBSTRATE Arg1:T2 Arg2:T16
+R5	DIRECT-REGULATOR Arg1:T3 Arg2:T17
+R6	DIRECT-REGULATOR Arg1:T4 Arg2:T17

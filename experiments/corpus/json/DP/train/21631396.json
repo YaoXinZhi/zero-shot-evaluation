@@ -1,0 +1,294 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Pseudoephedrine",
+            "Name": "pseudoephedrine"
+        },
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "NF-kappaB",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T36",
+            "type": "Gene",
+            "name": "NFAT",
+            "Name": "nfat"
+        },
+        {
+            "id": "T37",
+            "type": "Gene",
+            "name": "AP-1",
+            "Name": "ap1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Pseudoephedrine",
+            "Name": "pseudoephedrine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "PSE",
+            "Name": "pse"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "ephedrine",
+            "Name": "ephedrine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "PSE",
+            "Name": "pse"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "PSE",
+            "Name": "pse"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "interleukin-2",
+            "Name": "interleukin2"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "IL-2",
+            "Name": "il2"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "tumor necrosis factor (TNF) alpha",
+            "Name": "tumornecrosisfactortnfalpha"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "PSE",
+            "Name": "pse"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "nuclear factor kappa B",
+            "Name": "nuclearfactorkappab"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "NF-kappaB",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "nuclear factor of activated T cells",
+            "Name": "nuclearfactorofactivatedtcells"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "NFAT",
+            "Name": "nfat"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "activator protein-1",
+            "Name": "activatorprotein1"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "AP-1",
+            "Name": "ap1"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "PSE",
+            "Name": "pse"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "NF-kappaB",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "NF-kappaB inhibitory protein",
+            "Name": "nfkappabinhibitoryprotein"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "IkappaBalpha",
+            "Name": "ikappabalpha"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "p65",
+            "Name": "p65"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "RelA",
+            "Name": "rela"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "PSE",
+            "Name": "pse"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "PSE",
+            "Name": "pse"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "NFAT",
+            "Name": "nfat"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "calcium",
+            "Name": "calcium"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "NFAT",
+            "Name": "nfat"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "NFAT",
+            "Name": "nfat"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "c-Jun",
+            "Name": "cjun"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "AP-1",
+            "Name": "ap1"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "PSE",
+            "Name": "pse"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "JNK",
+            "Name": "jnk"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "AP-1",
+            "Name": "ap1"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "PSE",
+            "Name": "pse"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T35"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T36"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T37"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T32"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T22"
+        }
+    ]
+}

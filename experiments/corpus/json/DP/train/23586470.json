@@ -1,0 +1,100 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Histidine",
+            "Name": "histidine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Ni(2)(+)",
+            "Name": "ni2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "S",
+            "Name": "s"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Ni(2)(+)",
+            "Name": "ni2"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Ni",
+            "Name": "ni"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Ni(2)(+)",
+            "Name": "ni2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "histidine",
+            "Name": "histidine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Xenopus cadherin 11",
+            "Name": "xenopuscadherin11"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Xcad-11",
+            "Name": "xcad11"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "S",
+            "Name": "s"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Ni",
+            "Name": "ni"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "S",
+            "Name": "s"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Xcad-11",
+            "Name": "xcad11"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Part of",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Part of",
+            "source": "T2",
+            "target": "T13"
+        }
+    ]
+}

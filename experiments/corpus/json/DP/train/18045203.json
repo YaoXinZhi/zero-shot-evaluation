@@ -1,0 +1,112 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "human muscarinic receptor",
+            "Name": "humanmuscarinicreceptor"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "oxybutynin",
+            "Name": "oxybutynin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "N-desethyloxybutynin",
+            "Name": "ndesethyloxybutynin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Oxybutynin",
+            "Name": "oxybutynin"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "muscarinic receptor",
+            "Name": "muscarinicreceptor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "oxybutynin",
+            "Name": "oxybutynin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "desethyloxybutynin",
+            "Name": "desethyloxybutynin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "N-CT(3)-scopolamine chloride",
+            "Name": "nct3scopolaminechloride"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "(3)H-NMS",
+            "Name": "3hnms"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "human cloned muscarinic m1-5 receptors",
+            "Name": "humanclonedmuscarinicm15receptors"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "(3)H-NMS",
+            "Name": "3hnms"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "m1, m3 and m4 receptors",
+            "Name": "m1m3andm4receptors"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "m2",
+            "Name": "m2"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "m5",
+            "Name": "m5"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "m1 and m3 receptors",
+            "Name": "m1andm3receptors"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T12"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T13"
+        }
+    ]
+}

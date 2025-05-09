@@ -1,0 +1,133 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "phosphorylated acetylcholinesterase",
+            "Name": "phosphorylatedacetylcholinesterase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "diisopropyl phosphorofluoridate",
+            "Name": "diisopropylphosphorofluoridate"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "bovine serum acetylcholinesterase",
+            "Name": "bovineserumacetylcholinesterase"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "anticholinesterase",
+            "Name": "anticholinesterase"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "guanidine",
+            "Name": "guanidine"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "anticholinesterase",
+            "Name": "anticholinesterase"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "phosphorylated acetylcholinesterases",
+            "Name": "phosphorylatedacetylcholinesterases"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "organophosphates",
+            "Name": "organophosphates"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "P",
+            "Name": "p"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "CH3P(O)(O-)",
+            "Name": "ch3poo"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "organophosphoryl",
+            "Name": "organophosphoryl"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T9"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T8"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T8"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T8"
+        }
+    ]
+}

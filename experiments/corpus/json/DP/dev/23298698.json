@@ -1,0 +1,118 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "prostaglandin E2",
+            "Name": "prostaglandine2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Prostaglandin E2",
+            "Name": "prostaglandine2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "PGE2",
+            "Name": "pge2"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "PGE2",
+            "Name": "pge2"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "cytokine",
+            "Name": "cytokine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "PGE2",
+            "Name": "pge2"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "IL-4",
+            "Name": "il4"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "PGE2",
+            "Name": "pge2"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "GM-CSF",
+            "Name": "gmcsf"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "osteopontin",
+            "Name": "osteopontin"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "IL-10",
+            "Name": "il10"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "PGE2",
+            "Name": "pge2"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "IL-13",
+            "Name": "il13"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "osteopontin",
+            "Name": "osteopontin"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "GM-CSF",
+            "Name": "gmcsf"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "PGE2",
+            "Name": "pge2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T13"
+        }
+    ]
+}

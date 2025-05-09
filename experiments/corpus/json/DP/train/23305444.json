@@ -1,0 +1,112 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "mycobacterium protein tyrosine phosphatase B",
+            "Name": "mycobacteriumproteintyrosinephosphataseb"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "6-Hydroxy-benzofuran-5-carboxylic acid",
+            "Name": "6hydroxybenzofuran5carboxylicacid"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "Mycobacterium tuberculosis (Mtb) protein tyrosine phosphatase B",
+            "Name": "mycobacteriumtuberculosismtbproteintyrosinephosphataseb"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "mPTPB",
+            "Name": "mptpb"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "mPTPB",
+            "Name": "mptpb"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "benzofuran salicylic acid",
+            "Name": "benzofuransalicylicacid"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "mPTPB",
+            "Name": "mptpb"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "PTPs",
+            "Name": "ptps"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "bacterial phosphatase",
+            "Name": "bacterialphosphatase"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "IL-6",
+            "Name": "il6"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "interferon-\u03b3",
+            "Name": "interferon\u03b3"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "mPTPB",
+            "Name": "mptpb"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "salicylic acid",
+            "Name": "salicylicacid"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PTP",
+            "Name": "ptp"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T8"
+        }
+    ]
+}

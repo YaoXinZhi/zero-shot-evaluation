@@ -1,0 +1,314 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "Dexamethasone",
+            "Name": "dexamethasone"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T37",
+            "type": "Gene",
+            "name": "HDC",
+            "Name": "hdc"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "histidine",
+            "Name": "histidine"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "histidine decarboxylase",
+            "Name": "histidinedecarboxylase"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "HDC",
+            "Name": "hdc"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "L-histidine",
+            "Name": "lhistidine"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "HDC",
+            "Name": "hdc"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "HDC",
+            "Name": "hdc"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "HDC",
+            "Name": "hdc"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "toluene diisocyanate",
+            "Name": "toluenediisocyanate"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "TDI",
+            "Name": "tdi"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "dexamethasone",
+            "Name": "dexamethasone"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "TDI",
+            "Name": "tdi"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "Histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "HDC",
+            "Name": "hdc"
+        },
+        {
+            "id": "T36",
+            "type": "Gene",
+            "name": "HDC",
+            "Name": "hdc"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "TDI",
+            "Name": "tdi"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "HDC",
+            "Name": "hdc"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "HDC",
+            "Name": "hdc"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "TDI",
+            "Name": "tdi"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "dexamethasone",
+            "Name": "dexamethasone"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "HDC",
+            "Name": "hdc"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "HDC",
+            "Name": "hdc"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "TDI",
+            "Name": "tdi"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "TDI",
+            "Name": "tdi"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "HDC",
+            "Name": "hdc"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "HDC",
+            "Name": "hdc"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "HDC",
+            "Name": "hdc"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "HDC",
+            "Name": "hdc"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "dexamethasone",
+            "Name": "dexamethasone"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T20",
+            "target": "T37"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T20",
+            "target": "T37"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T32"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T34"
+        },
+        {
+            "type": "Substrate",
+            "source": "T18",
+            "target": "T32"
+        },
+        {
+            "type": "Substrate",
+            "source": "T18",
+            "target": "T34"
+        },
+        {
+            "type": "Product of",
+            "source": "T11",
+            "target": "T30"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T7",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T25"
+        },
+        {
+            "type": "Product of",
+            "source": "T9",
+            "target": "T26"
+        },
+        {
+            "type": "Product of",
+            "source": "T9",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T29"
+        }
+    ]
+}

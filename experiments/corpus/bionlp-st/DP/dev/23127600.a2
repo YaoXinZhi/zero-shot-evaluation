@@ -1,0 +1,35 @@
+T9	CHEMICAL 30 41	polyphenols
+N1	Name Annotation:T9 Referent:polyphenols
+T10	CHEMICAL 50 53	STZ
+N2	Name Annotation:T10 Referent:stz
+T2	CHEMICAL 235 246	polyphenols
+N3	Name Annotation:T2 Referent:polyphenols
+T3	CHEMICAL 319 333	streptozotocin
+N4	Name Annotation:T3 Referent:streptozotocin
+T4	CHEMICAL 361 366	sugar
+N5	Name Annotation:T4 Referent:sugar
+T5	CHEMICAL 473 480	glucose
+N6	Name Annotation:T5 Referent:glucose
+T6	CHEMICAL 508 515	glucose
+N7	Name Annotation:T6 Referent:glucose
+T13	GENE 508 523	glucose oxidase
+N8	Name Annotation:T13 Referent:glucoseoxidase
+T7	CHEMICAL 563 580	dimethyldiguanide
+N9	Name Annotation:T7 Referent:dimethyldiguanide
+T8	CHEMICAL 701 708	glucose
+N10	Name Annotation:T8 Referent:glucose
+T14	GENE 713 720	insulin
+N11	Name Annotation:T14 Referent:insulin
+T15	GENE 1041 1045	iNOS
+N12	Name Annotation:T15 Referent:inos
+T16	GENE 1047 1052	NF-κB
+N13	Name Annotation:T16 Referent:nfκb
+T1	CHEMICAL 1140 1151	polyphenols
+N14	Name Annotation:T1 Referent:polyphenols
+T11	GENE 1402 1406	iNOS
+N15	Name Annotation:T11 Referent:inos
+T12	GENE 1408 1413	NF-κB
+N16	Name Annotation:T12 Referent:nfκb
+R1	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T14
+R2	INHIBITOR Arg1:T1 Arg2:T11
+R3	INHIBITOR Arg1:T1 Arg2:T12

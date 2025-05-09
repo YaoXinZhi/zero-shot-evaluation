@@ -1,0 +1,147 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Dacarbazine",
+            "Name": "dacarbazine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "sorafenib",
+            "Name": "sorafenib"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "BRAF",
+            "Name": "braf"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "farnesyltransferase",
+            "Name": "farnesyltransferase"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "NRAS",
+            "Name": "nras"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "PD-0325901",
+            "Name": "pd0325901"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "mitogen-activated protein kinase",
+            "Name": "mitogenactivatedproteinkinase"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "extracellular signal-regulated kinase kinase",
+            "Name": "extracellularsignalregulatedkinasekinase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "rapamycin",
+            "Name": "rapamycin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "mammalian target of rapamycin",
+            "Name": "mammaliantargetofrapamycin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "rapamycin",
+            "Name": "rapamycin"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "vascular endothelial growth factor",
+            "Name": "vascularendothelialgrowthfactor"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "fibroblast growth factor receptor",
+            "Name": "fibroblastgrowthfactorreceptor"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "c-kit",
+            "Name": "ckit"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "platelet-derived growth factor receptor",
+            "Name": "plateletderivedgrowthfactorreceptor"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "c-met",
+            "Name": "cmet"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "chaperones",
+            "Name": "chaperones"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "proteasomes",
+            "Name": "proteasomes"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T17"
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Hexahydrochromeno[4,3-b]pyrrole",
+            "Name": "hexahydrochromeno43bpyrrole"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "caproctamine",
+            "Name": "caproctamine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "diamine",
+            "Name": "diamine"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "diamide",
+            "Name": "diamide"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "2-methoxybenzyl",
+            "Name": "2methoxybenzyl"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "tricyclic",
+            "Name": "tricyclic"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "hexahydrochromeno[4,3-b]pyrrole",
+            "Name": "hexahydrochromeno43bpyrrole"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "hexahydropyrrolo[2,3-b]indole of physostigmine",
+            "Name": "hexahydropyrrolo23bindoleofphysostigmine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "carbamates",
+            "Name": "carbamates"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "human AChE",
+            "Name": "humanache"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "BChE",
+            "Name": "bche"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "6-carbamate",
+            "Name": "6carbamate"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "physostigmine",
+            "Name": "physostigmine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T12"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T12"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T10",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T13"
+        }
+    ]
+}

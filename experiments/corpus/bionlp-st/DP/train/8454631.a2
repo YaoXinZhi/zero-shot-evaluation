@@ -1,0 +1,71 @@
+T15	CHEMICAL 27 40	prostaglandin
+N1	Name Annotation:T15 Referent:prostaglandin
+T27	GENE-N 27 62	prostaglandin endoperoxide synthase
+N2	Name Annotation:T27 Referent:prostaglandinendoperoxidesynthase
+T28	GENE-N 64 78	cyclooxygenase
+N3	Name Annotation:T28 Referent:cyclooxygenase
+T16	CHEMICAL 92 99	aspirin
+N4	Name Annotation:T16 Referent:aspirin
+T14	CHEMICAL 114 123	steroidal
+N5	Name Annotation:T14 Referent:steroidal
+T11	CHEMICAL 156 169	prostaglandin
+N6	Name Annotation:T11 Referent:prostaglandin
+T24	GENE-Y 156 199	prostaglandin endoperoxide (PGH) synthase-1
+N7	Name Annotation:T24 Referent:prostaglandinendoperoxidepghsynthase1
+T22	GENE-Y 204 218	PGH synthase-2
+N8	Name Annotation:T22 Referent:pghsynthase2
+T1	CHEMICAL 357 364	Aspirin
+N9	Name Annotation:T1 Referent:aspirin
+T19	GENE-Y 421 435	PGH synthase-1
+N10	Name Annotation:T19 Referent:pghsynthase1
+T2	CHEMICAL 450 457	aspirin
+N11	Name Annotation:T2 Referent:aspirin
+T20	GENE-Y 466 480	PGH synthase-2
+N12	Name Annotation:T20 Referent:pghsynthase2
+T3	CHEMICAL 519 550	15-hydroxyeicosatetraenoic acid
+N13	Name Annotation:T3 Referent:15hydroxyeicosatetraenoicacid
+T4	CHEMICAL 552 559	15-HETE
+N14	Name Annotation:T4 Referent:15hete
+T21	GENE-N 676 690	cyclooxygenase
+N15	Name Annotation:T21 Referent:cyclooxygenase
+T5	CHEMICAL 681 687	oxygen
+N16	Name Annotation:T5 Referent:oxygen
+T6	CHEMICAL 755 767	indomethacin
+N17	Name Annotation:T6 Referent:indomethacin
+T7	CHEMICAL 769 785	sulindac sulfide
+N18	Name Annotation:T7 Referent:sulindacsulfide
+T8	CHEMICAL 791 800	piroxicam
+N19	Name Annotation:T8 Referent:piroxicam
+T23	GENE-Y 826 840	PGH synthase-1
+N20	Name Annotation:T23 Referent:pghsynthase1
+T9	CHEMICAL 842 851	ibuprofen
+N21	Name Annotation:T9 Referent:ibuprofen
+T10	CHEMICAL 853 865	flurbiprofen
+N22	Name Annotation:T10 Referent:flurbiprofen
+T12	CHEMICAL 871 884	meclofenamate
+N23	Name Annotation:T12 Referent:meclofenamate
+T13	CHEMICAL 939 970	6-methoxy-2-naphthylacetic acid
+N24	Name Annotation:T13 Referent:6methoxy2naphthylaceticacid
+T25	GENE-Y 996 1010	PGH synthase-2
+N25	Name Annotation:T25 Referent:pghsynthase2
+T26	GENE-N 1051 1064	PGH synthases
+N26	Name Annotation:T26 Referent:pghsynthases
+T17	GENE-N 1161 1175	cyclooxygenase
+N27	Name Annotation:T17 Referent:cyclooxygenase
+T18	GENE-N 1285 1297	PGH synthase
+N28	Name Annotation:T18 Referent:pghsynthase
+R1	INHIBITOR Arg1:T16 Arg2:T27
+R2	INHIBITOR Arg1:T16 Arg2:T28
+R3	INHIBITOR Arg1:T1 Arg2:T19
+R4	PRODUCT-OF Arg1:T3 Arg2:T20
+R5	PRODUCT-OF Arg1:T4 Arg2:T20
+R6	INHIBITOR Arg1:T6 Arg2:T23
+R7	INHIBITOR Arg1:T7 Arg2:T23
+R8	INHIBITOR Arg1:T8 Arg2:T23
+R9	INHIBITOR Arg1:T13 Arg2:T25
+R10	INHIBITOR Arg1:T9 Arg2:T23
+R11	INHIBITOR Arg1:T10 Arg2:T23
+R12	INHIBITOR Arg1:T12 Arg2:T23
+R13	INHIBITOR Arg1:T9 Arg2:T25
+R14	INHIBITOR Arg1:T10 Arg2:T25
+R15	INHIBITOR Arg1:T12 Arg2:T25

@@ -1,0 +1,49 @@
+T11	CHEMICAL 27 29	Re
+N1	Name Annotation:T11 Referent:re
+T12	CHEMICAL 30 35	99mTc
+N2	Name Annotation:T12 Referent:99mtc
+T13	CHEMICAL 44 62	benzenesulfonamide
+N3	Name Annotation:T13 Referent:benzenesulfonamide
+T20	GENE-Y 63 84	carbonic anhydrase IX
+N4	Name Annotation:T20 Referent:carbonicanhydraseix
+T14	GENE-Y 136 157	Carbonic anhydrase IX
+N5	Name Annotation:T14 Referent:carbonicanhydraseix
+T15	GENE-Y 159 164	CA-IX
+N6	Name Annotation:T15 Referent:caix
+T1	CHEMICAL 353 371	benzenesulfonamide
+N7	Name Annotation:T1 Referent:benzenesulfonamide
+T16	GENE-Y 378 383	CA-IX
+N8	Name Annotation:T16 Referent:caix
+T2	CHEMICAL 451 459	M(CO)(3)
+N9	Name Annotation:T2 Referent:mco3
+T3	CHEMICAL 470 472	Re
+N10	Name Annotation:T3 Referent:re
+T4	CHEMICAL 476 483	(99m)Tc
+N11	Name Annotation:T4 Referent:99mtc
+T5	CHEMICAL 553 579	benzenesulfonamide rhenium
+N12	Name Annotation:T5 Referent:benzenesulfonamiderhenium
+T17	GENE-Y 648 653	CA-IX
+N13	Name Annotation:T17 Referent:caix
+T6	CHEMICAL 753 775	technetium tricarbonyl
+N14	Name Annotation:T6 Referent:technetiumtricarbonyl
+T7	CHEMICAL 777 796	{(99m)Tc(CO)(3)}(+)
+N15	Name Annotation:T7 Referent:99mtcco3
+T8	CHEMICAL 778 796	(99m)Tc(CO)(3)}(+)
+N16	Name Annotation:T8 Referent:99mtcco3
+T9	CHEMICAL 813 827	(99m)Tc(CO)(3)
+N17	Name Annotation:T9 Referent:99mtcco3
+T18	GENE-Y 916 921	CA-IX
+N18	Name Annotation:T18 Referent:caix
+T10	CHEMICAL 1038 1057	{(99m)Tc(CO)(3)}(+)
+N19	Name Annotation:T10 Referent:99mtcco3
+T19	GENE-Y 1071 1076	CA-IX
+N20	Name Annotation:T19 Referent:caix
+R1	INHIBITOR Arg1:T12 Arg2:T20
+R2	INHIBITOR Arg1:T11 Arg2:T20
+R3	INHIBITOR Arg1:T13 Arg2:T20
+R4	INHIBITOR Arg1:T1 Arg2:T16
+R5	DIRECT-REGULATOR Arg1:T5 Arg2:T17
+R6	INHIBITOR Arg1:T5 Arg2:T17
+R7	DIRECT-REGULATOR Arg1:T9 Arg2:T18
+R8	DIRECT-REGULATOR Arg1:T10 Arg2:T19
+R9	INHIBITOR Arg1:T10 Arg2:T19

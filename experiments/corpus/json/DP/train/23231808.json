@@ -1,0 +1,42 @@
+{
+    "entities": [
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Acetazolamide",
+            "Name": "acetazolamide"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Acetazolamide",
+            "Name": "acetazolamide"
+        },
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "carbonic anhydrase",
+            "Name": "carbonicanhydrase"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T3"
+        }
+    ]
+}

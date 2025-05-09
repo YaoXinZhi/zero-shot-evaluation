@@ -1,0 +1,209 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "3-Alkylindole",
+            "Name": "3alkylindole"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Myeloperoxidase",
+            "Name": "myeloperoxidase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "hypochlorous acid",
+            "Name": "hypochlorousacid"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "human myeloperoxidase",
+            "Name": "humanmyeloperoxidase"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "MPO",
+            "Name": "mpo"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "MPO",
+            "Name": "mpo"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "(Aminoalkyl)fluoroindole",
+            "Name": "aminoalkylfluoroindole"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "MPO",
+            "Name": "mpo"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "serotonin reuptake transporter",
+            "Name": "serotoninreuptaketransporter"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "MPO",
+            "Name": "mpo"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "3-alkylindole",
+            "Name": "3alkylindole"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "MPO",
+            "Name": "mpo"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "taurine",
+            "Name": "taurine"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "low-density lipoprotein",
+            "Name": "lowdensitylipoprotein"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "fluoroindole",
+            "Name": "fluoroindole"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "carbons",
+            "Name": "carbons"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "amide",
+            "Name": "amide"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "MPO",
+            "Name": "mpo"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T21"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T20"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T10"
+        }
+    ]
+}

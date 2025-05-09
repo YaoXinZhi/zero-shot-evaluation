@@ -1,0 +1,65 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "copper",
+            "Name": "copper"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Cu",
+            "Name": "cu"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Cu",
+            "Name": "cu"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Cu",
+            "Name": "cu"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "lactate",
+            "Name": "lactate"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "lactate dehydrogenase",
+            "Name": "lactatedehydrogenase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "interleukin-8",
+            "Name": "interleukin8"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T8"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T7"
+        }
+    ]
+}

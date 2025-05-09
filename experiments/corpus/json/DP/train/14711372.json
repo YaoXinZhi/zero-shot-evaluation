@@ -1,0 +1,255 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "carnitine",
+            "Name": "carnitine"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "carnitine palmitoyltransferase I",
+            "Name": "carnitinepalmitoyltransferasei"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "carnitine",
+            "Name": "carnitine"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "carnitine acetyltransferase",
+            "Name": "carnitineacetyltransferase"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "CPT I",
+            "Name": "cpti"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "carnitine",
+            "Name": "carnitine"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "carnitine palmitoyltransferase I",
+            "Name": "carnitinepalmitoyltransferasei"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "palmitoyl-CoA",
+            "Name": "palmitoylcoa"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "palmitoylcarnitine",
+            "Name": "palmitoylcarnitine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "L-carnitine",
+            "Name": "lcarnitine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "fatty acids",
+            "Name": "fattyacids"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "L-CPT I",
+            "Name": "lcpti"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "liver CPT I",
+            "Name": "livercpti"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "mouse carnitine acetyltransferase",
+            "Name": "mousecarnitineacetyltransferase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "carnitine",
+            "Name": "carnitine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "amino acids",
+            "Name": "aminoacids"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "L-CPT I",
+            "Name": "lcpti"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "carnitine",
+            "Name": "carnitine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "CoA",
+            "Name": "coa"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "palmitoyl",
+            "Name": "palmitoyl"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "amino acids",
+            "Name": "aminoacids"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "D477A",
+            "Name": "d477a"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "D567A",
+            "Name": "d567a"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "E590D",
+            "Name": "e590d"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "L-CPT I",
+            "Name": "lcpti"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "amino acids",
+            "Name": "aminoacids"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "T686A",
+            "Name": "t686a"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "S687",
+            "Name": "s687"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "carnitine",
+            "Name": "carnitine"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "S685A",
+            "Name": "s685a"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "K455A",
+            "Name": "k455a"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "K560A",
+            "Name": "k560a"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "L-CPT I",
+            "Name": "lcpti"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T9",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T9",
+            "target": "T28"
+        },
+        {
+            "type": "Product of",
+            "source": "T12",
+            "target": "T16"
+        },
+        {
+            "type": "Product of",
+            "source": "T12",
+            "target": "T28"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T28"
+        },
+        {
+            "type": "Part of",
+            "source": "T4",
+            "target": "T23"
+        },
+        {
+            "type": "Part of",
+            "source": "T11",
+            "target": "T29"
+        },
+        {
+            "type": "Part of",
+            "source": "T11",
+            "target": "T30"
+        },
+        {
+            "type": "Substrate",
+            "source": "T13",
+            "target": "T31"
+        }
+    ]
+}

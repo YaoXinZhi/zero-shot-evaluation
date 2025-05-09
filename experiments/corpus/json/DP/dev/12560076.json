@@ -1,0 +1,200 @@
+{
+    "entities": [
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "Mouse brain serine racemase",
+            "Name": "mousebrainserineracemase"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "L-serine",
+            "Name": "lserine"
+        },
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "pyruvate",
+            "Name": "pyruvate"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "D-Serine",
+            "Name": "dserine"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "glycine",
+            "Name": "glycine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "N-methyl-D-aspartate",
+            "Name": "nmethyldaspartate"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "N-methyl-D-aspartate (NMDA)-type receptors",
+            "Name": "nmethyldaspartatenmdatypereceptors"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "serine racemase",
+            "Name": "serineracemase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "pyridoxal 5'-phosphate",
+            "Name": "pyridoxal5phosphate"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "NMDA receptor",
+            "Name": "nmdareceptor"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "serine racemase",
+            "Name": "serineracemase"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "mouse serine racemase",
+            "Name": "mouseserineracemase"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Mg(2+)",
+            "Name": "mg2"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Ca(2+)",
+            "Name": "ca2"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Mn(2+)",
+            "Name": "mn2"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "L-Ser",
+            "Name": "lser"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "pyruvate",
+            "Name": "pyruvate"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "D-Serine",
+            "Name": "dserine"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "L-serine",
+            "Name": "lserine"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "alkaline",
+            "Name": "alkaline"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Part of",
+            "source": "T18",
+            "target": "T23"
+        },
+        {
+            "type": "Agonist",
+            "source": "T1",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T21",
+            "target": "T28"
+        },
+        {
+            "type": "Product of",
+            "source": "T22",
+            "target": "T28"
+        }
+    ]
+}

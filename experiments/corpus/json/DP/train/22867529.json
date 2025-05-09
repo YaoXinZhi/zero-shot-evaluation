@@ -1,0 +1,250 @@
+{
+    "entities": [
+        {
+            "id": "T25",
+            "type": "Chemical",
+            "name": "4-anilinoquinazoline",
+            "Name": "4anilinoquinazoline"
+        },
+        {
+            "id": "T26",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "4-anilinoquinazoline",
+            "Name": "4anilinoquinazoline"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "epidermal growth factor receptor",
+            "Name": "epidermalgrowthfactorreceptor"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "aniline",
+            "Name": "aniline"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "6-alkoxy",
+            "Name": "6alkoxy"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "6,7-dimethoxy-4-anilinoquinazoline",
+            "Name": "67dimethoxy4anilinoquinazoline"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "4-anilinoquinazoline",
+            "Name": "4anilinoquinazoline"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "anilino",
+            "Name": "anilino"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "6-alkoxy",
+            "Name": "6alkoxy"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "quinazoline",
+            "Name": "quinazoline"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "H",
+            "Name": "h"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "quinazoline",
+            "Name": "quinazoline"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "Thr",
+            "Name": "thr"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "quinazoline",
+            "Name": "quinazoline"
+        },
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "N-H",
+            "Name": "nh"
+        },
+        {
+            "id": "T23",
+            "type": "Chemical",
+            "name": "Met",
+            "Name": "met"
+        },
+        {
+            "id": "T24",
+            "type": "Chemical",
+            "name": "phenyl",
+            "Name": "phenyl"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "pyridinyl",
+            "Name": "pyridinyl"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "quinazoline",
+            "Name": "quinazoline"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "H",
+            "Name": "h"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "N-H",
+            "Name": "nh"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ethylenediamine",
+            "Name": "ethylenediamine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "6-alkoxy",
+            "Name": "6alkoxy"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Asp",
+            "Name": "asp"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Cys",
+            "Name": "cys"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T25",
+            "target": "T33"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T30"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T14",
+            "target": "T32"
+        },
+        {
+            "type": "Part of",
+            "source": "T20",
+            "target": "T32"
+        },
+        {
+            "type": "Part of",
+            "source": "T23",
+            "target": "T32"
+        },
+        {
+            "type": "Part of",
+            "source": "T8",
+            "target": "T27"
+        },
+        {
+            "type": "Part of",
+            "source": "T7",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T28"
+        }
+    ]
+}

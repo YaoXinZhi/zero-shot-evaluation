@@ -1,0 +1,141 @@
+{
+    "entities": [
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "2-Arylpropionic",
+            "Name": "2arylpropionic"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "CXC chemokine receptor 1",
+            "Name": "cxcchemokinereceptor1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "CXCR1",
+            "Name": "cxcr1"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "CXCL8",
+            "Name": "cxcl8"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "CXC chemokine",
+            "Name": "cxcchemokine"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "CXCL8",
+            "Name": "cxcl8"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "IL-8",
+            "Name": "il8"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "CXCL8",
+            "Name": "cxcl8"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "seven-transmembrane (7-TM) G-protein-coupled receptors",
+            "Name": "seventransmembrane7tmgproteincoupledreceptors"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "CXC chemokine receptor 1",
+            "Name": "cxcchemokinereceptor1"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "CXCR1",
+            "Name": "cxcr1"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "CXC chemokine receptor 2",
+            "Name": "cxcchemokinereceptor2"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "CXCR2",
+            "Name": "cxcr2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "(R)-Ketoprofen",
+            "Name": "rketoprofen"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "CXCL8",
+            "Name": "cxcl8"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "CXCR1",
+            "Name": "cxcr1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "alanine",
+            "Name": "alanine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "CXCL8",
+            "Name": "cxcl8"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "repertaxin",
+            "Name": "repertaxin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T19"
+        }
+    ]
+}

@@ -1,0 +1,97 @@
+T30	CHEMICAL 43 50	AS-8112
+N1	Name Annotation:T30 Referent:as8112
+T31	CHEMICAL 60 68	dopamine
+N2	Name Annotation:T31 Referent:dopamine
+T40	GENE-N 60 75	dopamine D2, D3
+N3	Name Annotation:T40 Referent:dopamined2d3
+T41	GENE-Y 80 95	5-HT3 receptors
+N4	Name Annotation:T41 Referent:5ht3receptors
+T15	CHEMICAL 155 162	AS-8112
+N5	Name Annotation:T15 Referent:as8112
+T16	CHEMICAL 164 284	(R)-5-bromo-N-(1-ethyl-4-methylhexahydro-1H-1,4-diazepin-6-yl)-2-methoxy-6-methy lamino-3-pyridinecarboxamide.2 fumarate
+N6	Name Annotation:T16 Referent:r5bromon1ethyl4methylhexahydro1h14diazepin6yl2methoxy6methylamino3pyridinecarboxamide2fumarate
+T11	CHEMICAL 306 314	dopamine
+N7	Name Annotation:T11 Referent:dopamine
+T34	GENE-N 306 321	dopamine D2, D3
+N8	Name Annotation:T34 Referent:dopamined2d3
+T12	CHEMICAL 326 345	5-hydroxytryptamine
+N9	Name Annotation:T12 Referent:5hydroxytryptamine
+T35	GENE-Y 326 365	5-hydroxytryptamine-3 (5-HT3) receptors
+N10	Name Annotation:T35 Referent:5hydroxytryptamine35ht3receptors
+T13	CHEMICAL 443 450	AS-8112
+N11	Name Annotation:T13 Referent:as8112
+T14	CHEMICAL 518 530	2-methyl-5HT
+N12	Name Annotation:T14 Referent:2methyl5ht
+T36	GENE-Y 534 548	5-HT3 receptor
+N13	Name Annotation:T36 Referent:5ht3receptor
+T37	GENE-Y 584 598	5-HT3 receptor
+N14	Name Annotation:T37 Referent:5ht3receptor
+T17	CHEMICAL 683 694	granisetron
+N15	Name Annotation:T17 Referent:granisetron
+T18	CHEMICAL 696 707	ondansetron
+N16	Name Annotation:T18 Referent:ondansetron
+T19	CHEMICAL 708 715	AS-8112
+N17	Name Annotation:T19 Referent:as8112
+T20	CHEMICAL 717 731	metoclopramide
+N18	Name Annotation:T20 Referent:metoclopramide
+T21	CHEMICAL 742 749	AS-8112
+N19	Name Annotation:T21 Referent:as8112
+T22	CHEMICAL 823 831	dopamine
+N20	Name Annotation:T22 Referent:dopamine
+T38	GENE-Y 823 843	dopamine D3 receptor
+N21	Name Annotation:T38 Referent:dopamined3receptor
+T23	CHEMICAL 853 867	R(+)-7-OH-DPAT
+N22	Name Annotation:T23 Referent:r7ohdpat
+T24	CHEMICAL 869 917	R(+)-7-hydroxy-2-(N,N-di-n-propylamino)tetraline
+N23	Name Annotation:T24 Referent:r7hydroxy2nndinpropylaminotetraline
+T25	CHEMICAL 941 952	Domperidone
+N24	Name Annotation:T25 Referent:domperidone
+T26	CHEMICAL 957 968	haloperidol
+N25	Name Annotation:T26 Referent:haloperidol
+T27	CHEMICAL 994 1002	dopamine
+N26	Name Annotation:T27 Referent:dopamine
+T39	GENE-Y 994 1014	dopamine D3 receptor
+N27	Name Annotation:T39 Referent:dopamined3receptor
+T28	CHEMICAL 1031 1045	R(+)-7-OH-DPAT
+N28	Name Annotation:T28 Referent:r7ohdpat
+T29	CHEMICAL 1087 1094	AS-8112
+N29	Name Annotation:T29 Referent:as8112
+T1	CHEMICAL 1140 1154	R(+)-7-OH-DPAT
+N30	Name Annotation:T1 Referent:r7ohdpat
+T2	CHEMICAL 1156 1167	apomorphine
+N31	Name Annotation:T2 Referent:apomorphine
+T3	CHEMICAL 1159 1167	morphine
+N32	Name Annotation:T3 Referent:morphine
+T4	CHEMICAL 1181 1190	cisplatin
+N33	Name Annotation:T4 Referent:cisplatin
+T5	CHEMICAL 1361 1368	AS-8112
+N34	Name Annotation:T5 Referent:as8112
+T6	CHEMICAL 1428 1435	AS-8112
+N35	Name Annotation:T6 Referent:as8112
+T7	CHEMICAL 1499 1515	cyclophosphamide
+N36	Name Annotation:T7 Referent:cyclophosphamide
+T8	CHEMICAL 1520 1531	doxorubicin
+N37	Name Annotation:T8 Referent:doxorubicin
+T9	CHEMICAL 1548 1555	AS-8112
+N38	Name Annotation:T9 Referent:as8112
+T10	CHEMICAL 1568 1576	dopamine
+N39	Name Annotation:T10 Referent:dopamine
+T32	GENE-N 1568 1583	dopamine D2, D3
+N40	Name Annotation:T32 Referent:dopamined2d3
+T33	GENE-Y 1588 1603	5-HT3 receptors
+N41	Name Annotation:T33 Referent:5ht3receptors
+R1	ANTAGONIST Arg1:T30 Arg2:T41
+R2	DIRECT-REGULATOR Arg1:T15 Arg2:T35
+R3	DIRECT-REGULATOR Arg1:T16 Arg2:T35
+R4	AGONIST Arg1:T14 Arg2:T36
+R5	ANTAGONIST Arg1:T17 Arg2:T37
+R6	ANTAGONIST Arg1:T18 Arg2:T37
+R7	ANTAGONIST Arg1:T19 Arg2:T37
+R8	ANTAGONIST Arg1:T20 Arg2:T37
+R9	INHIBITOR Arg1:T21 Arg2:T38
+R10	AGONIST Arg1:T23 Arg2:T38
+R11	AGONIST Arg1:T24 Arg2:T38
+R12	DIRECT-REGULATOR Arg1:T25 Arg2:T39
+R13	DIRECT-REGULATOR Arg1:T26 Arg2:T39
+R14	ANTAGONIST Arg1:T9 Arg2:T33
+R15	ANTAGONIST Arg1:T13 Arg2:T36

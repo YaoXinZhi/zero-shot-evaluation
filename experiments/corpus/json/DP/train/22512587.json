@@ -1,0 +1,76 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "thiazolidinedione",
+            "Name": "thiazolidinedione"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "PPAR\u03b3",
+            "Name": "ppar\u03b3"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "Peroxisome Proliferator Activated Receptors gamma",
+            "Name": "peroxisomeproliferatoractivatedreceptorsgamma"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "PPAR\u03b3",
+            "Name": "ppar\u03b3"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "ligand activated transcription factors",
+            "Name": "ligandactivatedtranscriptionfactors"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Thiazolidinedione",
+            "Name": "thiazolidinedione"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "PPARs",
+            "Name": "ppars"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "thiazolidinediones",
+            "Name": "thiazolidinediones"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "PPAR\u03b3",
+            "Name": "ppar\u03b3"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T5"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T6"
+        }
+    ]
+}

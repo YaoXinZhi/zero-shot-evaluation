@@ -1,0 +1,189 @@
+{
+    "entities": [
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "apolipoprotein A-I",
+            "Name": "apolipoproteinai"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "ApoA-I",
+            "Name": "apoai"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "LDL",
+            "Name": "ldl"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "LDL",
+            "Name": "ldl"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "LD",
+            "Name": "ld"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "HDL",
+            "Name": "hdl"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "HDL",
+            "Name": "hdl"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "Apolipoprotein A-",
+            "Name": "apolipoproteina"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "ApoA-I",
+            "Name": "apoai"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "HDL",
+            "Name": "hdl"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "ApoA-I",
+            "Name": "apoai"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "HDL",
+            "Name": "hdl"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "ApoA-I",
+            "Name": "apoai"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "ApoA-I",
+            "Name": "apoai"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "HDL",
+            "Name": "hdl"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "G-protein-coupled receptors",
+            "Name": "gproteincoupledreceptors"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "ion transporters",
+            "Name": "iontransporters"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "farnesyltransferase",
+            "Name": "farnesyltransferase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "FNTA",
+            "Name": "fnta"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "manumycin A",
+            "Name": "manumycina"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "ApoA-I",
+            "Name": "apoai"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "hApoA-I",
+            "Name": "hapoai"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "cholesterol ester",
+            "Name": "cholesterolester"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T15"
+        }
+    ]
+}

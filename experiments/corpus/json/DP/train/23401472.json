@@ -1,0 +1,187 @@
+{
+    "entities": [
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "UGT1A1",
+            "Name": "ugt1a1"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Human UDP-glucuronosyltransferase (UGT) 1A1",
+            "Name": "humanudpglucuronosyltransferaseugt1a1"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "UDP",
+            "Name": "udp"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "bilirubin",
+            "Name": "bilirubin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "SN-38",
+            "Name": "sn38"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "UGT1A1",
+            "Name": "ugt1a1"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "UGT1A1",
+            "Name": "ugt1a1"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Bisulfite",
+            "Name": "bisulfite"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "CpG",
+            "Name": "cpg"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "UGT1A1 promoter",
+            "Name": "ugt1a1promoter"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "histone H3",
+            "Name": "histoneh3"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "HNF1\u03b1",
+            "Name": "hnf1\u03b1"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "UGT1A1 promoter",
+            "Name": "ugt1a1promoter"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "UGT1A1",
+            "Name": "ugt1a1"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "UGT1A1",
+            "Name": "ugt1a1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "5-aza-2'-deoxycytidine",
+            "Name": "5aza2deoxycytidine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "5-Aza-dC",
+            "Name": "5azadc"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "UGT1A1",
+            "Name": "ugt1a1"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "HNF1\u03b1",
+            "Name": "hnf1\u03b1"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "UGT1A1",
+            "Name": "ugt1a1"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "5-Aza-dC",
+            "Name": "5azadc"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "histone",
+            "Name": "histone"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "HNF1\u03b1",
+            "Name": "hnf1\u03b1"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "UGT1A1",
+            "Name": "ugt1a1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "UGT1A1",
+            "Name": "ugt1a1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T9"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T9"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Part of",
+            "source": "T7",
+            "target": "T20"
+        }
+    ]
+}

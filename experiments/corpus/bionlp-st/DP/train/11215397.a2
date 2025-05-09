@@ -1,0 +1,27 @@
+T1	CHEMICAL 448 461	Phencyclidine
+N1	Name Annotation:T1 Referent:phencyclidine
+T2	CHEMICAL 465 473	dopamine
+N2	Name Annotation:T2 Referent:dopamine
+T3	CHEMICAL 601 614	phencyclidine
+N3	Name Annotation:T3 Referent:phencyclidine
+T4	CHEMICAL 693 702	serotonin
+N4	Name Annotation:T4 Referent:serotonin
+T10	GENE-Y 693 714	serotonin 2A receptor
+N5	Name Annotation:T10 Referent:serotonin2areceptor
+T5	CHEMICAL 732 740	dopamine
+N6	Name Annotation:T5 Referent:dopamine
+T11	GENE-Y 732 752	dopamine D2 receptor
+N7	Name Annotation:T11 Referent:dopamined2receptor
+T6	CHEMICAL 859 870	apomorphine
+N8	Name Annotation:T6 Referent:apomorphine
+T7	CHEMICAL 949 957	dopamine
+N9	Name Annotation:T7 Referent:dopamine
+T12	GENE-Y 949 969	dopamine D2 receptor
+N10	Name Annotation:T12 Referent:dopamined2receptor
+T8	CHEMICAL 1069 1072	PCP
+N11	Name Annotation:T8 Referent:pcp
+T9	CHEMICAL 1076 1078	DA
+N12	Name Annotation:T9 Referent:da
+R1	DIRECT-REGULATOR Arg1:T3 Arg2:T10
+R2	DIRECT-REGULATOR Arg1:T3 Arg2:T11
+R3	DIRECT-REGULATOR Arg1:T6 Arg2:T12

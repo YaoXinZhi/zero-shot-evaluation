@@ -1,0 +1,87 @@
+T10	CHEMICAL 0 8	Acyl-CoA
+N1	Name Annotation:T10 Referent:acylcoa
+T38	GENE-N 0 40	Acyl-CoA synthetase isoforms 1, 4, and 5
+N2	Name Annotation:T38 Referent:acylcoasynthetaseisoforms14and5
+T6	CHEMICAL 176 184	acyl-CoA
+N3	Name Annotation:T6 Referent:acylcoa
+T27	GENE-N 176 195	acyl-CoA synthetase
+N4	Name Annotation:T27 Referent:acylcoasynthetase
+T30	GENE-N 197 200	ACS
+N5	Name Annotation:T30 Referent:acs
+T1	CHEMICAL 242 251	acyl-CoAs
+N6	Name Annotation:T1 Referent:acylcoas
+T22	GENE-N 372 376	ACSs
+N7	Name Annotation:T22 Referent:acss
+T23	GENE-Y 509 513	ACS1
+N8	Name Annotation:T23 Referent:acs1
+T24	GENE-Y 515 519	ACS4
+N9	Name Annotation:T24 Referent:acs4
+T25	GENE-Y 525 529	ACS5
+N10	Name Annotation:T25 Referent:acs5
+T26	GENE-Y 531 535	ACS1
+N11	Name Annotation:T26 Referent:acs1
+T28	GENE-Y 655 659	ACS4
+N12	Name Annotation:T28 Referent:acs4
+T29	GENE-Y 705 709	ACS5
+N13	Name Annotation:T29 Referent:acs5
+T7	CHEMICAL 790 806	N-ethylmaleimide
+N14	Name Annotation:T7 Referent:nethylmaleimide
+T31	GENE-Y 824 828	ACS4
+N15	Name Annotation:T31 Referent:acs4
+T32	GENE-N 840 843	ACS
+N16	Name Annotation:T32 Referent:acs
+T8	CHEMICAL 898 910	Troglitazone
+N17	Name Annotation:T8 Referent:troglitazone
+T33	GENE-Y 921 925	ACS4
+N18	Name Annotation:T33 Referent:acs4
+T34	GENE-N 947 950	ACS
+N19	Name Annotation:T34 Referent:acs
+T9	CHEMICAL 1012 1022	Triacsin C
+N20	Name Annotation:T9 Referent:triacsinc
+T35	GENE-Y 1056 1060	ACS1
+N21	Name Annotation:T35 Referent:acs1
+T36	GENE-Y 1065 1069	ACS4
+N22	Name Annotation:T36 Referent:acs4
+T37	GENE-N 1081 1084	ACS
+N23	Name Annotation:T37 Referent:acs
+T2	CHEMICAL 1193 1201	triacsin
+N24	Name Annotation:T2 Referent:triacsin
+T11	GENE-N 1212 1215	ACS
+N25	Name Annotation:T11 Referent:acs
+T12	GENE-Y 1244 1248	ACS1
+N26	Name Annotation:T12 Referent:acs1
+T13	GENE-Y 1250 1254	ACS4
+N27	Name Annotation:T13 Referent:acs4
+T14	GENE-Y 1260 1264	ACS5
+N28	Name Annotation:T14 Referent:acs5
+T15	GENE-Y 1369 1373	ACS4
+N29	Name Annotation:T15 Referent:acs4
+T16	GENE-Y 1402 1406	ACS5
+N30	Name Annotation:T16 Referent:acs5
+T3	CHEMICAL 1441 1448	sucrose
+N31	Name Annotation:T3 Referent:sucrose
+T17	GENE-Y 1496 1500	ACS1
+N32	Name Annotation:T17 Referent:acs1
+T18	GENE-Y 1505 1509	ACS4
+N33	Name Annotation:T18 Referent:acs4
+T19	GENE-Y 1606 1610	ACS1
+N34	Name Annotation:T19 Referent:acs1
+T20	GENE-Y 1615 1619	ACS4
+N35	Name Annotation:T20 Referent:acs4
+T4	CHEMICAL 1637 1652	triacylglycerol
+N36	Name Annotation:T4 Referent:triacylglycerol
+T5	CHEMICAL 1702 1711	acyl-CoAs
+N37	Name Annotation:T5 Referent:acylcoas
+T21	GENE-N 1791 1794	ACS
+N38	Name Annotation:T21 Referent:acs
+R1	INHIBITOR Arg1:T7 Arg2:T31
+R2	INHIBITOR Arg1:T7 Arg2:T32
+R3	INHIBITOR Arg1:T8 Arg2:T33
+R4	INHIBITOR Arg1:T8 Arg2:T34
+R5	INHIBITOR Arg1:T9 Arg2:T35
+R6	INHIBITOR Arg1:T9 Arg2:T36
+R7	INHIBITOR Arg1:T9 Arg2:T37
+R8	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T17
+R9	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T18
+R10	PRODUCT-OF Arg1:T4 Arg2:T19
+R11	PRODUCT-OF Arg1:T4 Arg2:T20

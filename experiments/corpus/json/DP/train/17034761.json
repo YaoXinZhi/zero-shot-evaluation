@@ -1,0 +1,259 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Auranofin",
+            "Name": "auranofin"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "TLR4",
+            "Name": "tlr4"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Toll-like receptors (TLRs)",
+            "Name": "tolllikereceptorstlrs"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "TLR",
+            "Name": "tlr"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Auranofin",
+            "Name": "auranofin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Au(I)",
+            "Name": "aui"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "auranofin",
+            "Name": "auranofin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "auranofin",
+            "Name": "auranofin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "TLR4",
+            "Name": "tlr4"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "NF-kappaB",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "IRF3",
+            "Name": "irf3"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "auranofin",
+            "Name": "auranofin"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "TLR4",
+            "Name": "tlr4"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "auranofin",
+            "Name": "auranofin"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "NF-kappaB",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "MyD88",
+            "Name": "myd88"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "TLR4",
+            "Name": "tlr4"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "MyD88",
+            "Name": "myd88"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "IKKbeta",
+            "Name": "ikkbeta"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "p65",
+            "Name": "p65"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "IRF3",
+            "Name": "irf3"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "MyD88",
+            "Name": "myd88"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "TRIF",
+            "Name": "trif"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "TBK1",
+            "Name": "tbk1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "auranofin",
+            "Name": "auranofin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "auranofin",
+            "Name": "auranofin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "TLR4",
+            "Name": "tlr4"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "TLR4",
+            "Name": "tlr4"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "TLR4",
+            "Name": "tlr4"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "auranofin",
+            "Name": "auranofin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "auranofin",
+            "Name": "auranofin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T32"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T30"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T31"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T15"
+        }
+    ]
+}

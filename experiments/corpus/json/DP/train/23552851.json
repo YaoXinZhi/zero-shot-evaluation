@@ -1,0 +1,194 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Dioscin",
+            "Name": "dioscin"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "JNK",
+            "Name": "jnk"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "dioscin",
+            "Name": "dioscin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "dioscin",
+            "Name": "dioscin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "4'-6-diamidino-2-phenylindole",
+            "Name": "46diamidino2phenylindole"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "caspase-8",
+            "Name": "caspase8"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "dioscin",
+            "Name": "dioscin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "dioscin",
+            "Name": "dioscin"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "LC3-II",
+            "Name": "lc3ii"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "beclin-1",
+            "Name": "beclin1"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "bafilomycin A1",
+            "Name": "bafilomycina1"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "3-methyladenine",
+            "Name": "3methyladenine"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "dioscin",
+            "Name": "dioscin"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "ERK1/2",
+            "Name": "erk12"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "JNK1/2",
+            "Name": "jnk12"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "mTOR",
+            "Name": "mtor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "dioscin",
+            "Name": "dioscin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Dioscin",
+            "Name": "dioscin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "ERK1/2",
+            "Name": "erk12"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "JNK1/2",
+            "Name": "jnk12"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "dioscin",
+            "Name": "dioscin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T16"
+        }
+    ]
+}

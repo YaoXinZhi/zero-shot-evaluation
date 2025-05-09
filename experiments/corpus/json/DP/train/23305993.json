@@ -1,0 +1,264 @@
+{
+    "entities": [
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "peroxisome proliferator-activated receptor",
+            "Name": "peroxisomeproliferatoractivatedreceptor"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "(5Z)-5-[(5-bromo-1H-indol-3-yl)methylene]-3-(4-chlorobenzyl)-thiazolidine-2,4-dione",
+            "Name": "5z55bromo1hindol3ylmethylene34chlorobenzylthiazolidine24dione"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "LYSO-7",
+            "Name": "lyso7"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "peroxisome proliferator-activated receptor",
+            "Name": "peroxisomeproliferatoractivatedreceptor"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PPAR",
+            "Name": "ppar"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "LYSO-7",
+            "Name": "lyso7"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "LYSO-07",
+            "Name": "lyso07"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "PPAR",
+            "Name": "ppar"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "PPAR\u03b3",
+            "Name": "ppar\u03b3"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "PPAR\u03b1",
+            "Name": "ppar\u03b1"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "PPAR\u03b2/\u03b4",
+            "Name": "ppar\u03b2\u03b4"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "PPAR\u03b3",
+            "Name": "ppar\u03b3"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "interleukin 1 beta",
+            "Name": "interleukin1beta"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "IL-1\u03b2",
+            "Name": "il1\u03b2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "NO",
+            "Name": "no"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "GW9962",
+            "Name": "gw9962"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "PPAR\u03b3",
+            "Name": "ppar\u03b3"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "LYSO-7",
+            "Name": "lyso7"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "PPAR",
+            "Name": "ppar"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T13"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Activator",
+            "source": "T8",
+            "target": "T14"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Activator",
+            "source": "T8",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T18"
+        },
+        {
+            "type": "Agonist",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Agonist",
+            "source": "T5",
+            "target": "T20"
+        },
+        {
+            "type": "Agonist",
+            "source": "T5",
+            "target": "T21"
+        },
+        {
+            "type": "Agonist",
+            "source": "T5",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Activator",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T25"
+        }
+    ]
+}

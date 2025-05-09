@@ -1,0 +1,199 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Anagliptin",
+            "Name": "anagliptin"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "DPP-4",
+            "Name": "dpp4"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "apo E",
+            "Name": "apoe"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Dipeptyl",
+            "Name": "dipeptyl"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Dipeptyl peptidase-4",
+            "Name": "dipeptylpeptidase4"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "DPP-4",
+            "Name": "dpp4"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "apolipoprotein E",
+            "Name": "apolipoproteine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "apoE",
+            "Name": "apoe"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "DPP-4",
+            "Name": "dpp4"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "anagliptin",
+            "Name": "anagliptin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "anagliptin",
+            "Name": "anagliptin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "anagliptin",
+            "Name": "anagliptin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "oil red O",
+            "Name": "oilredo"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "DPP-4",
+            "Name": "dpp4"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "apoE",
+            "Name": "apoe"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "DPP-4",
+            "Name": "dpp4"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "DPP-4",
+            "Name": "dpp4"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "anagliptin",
+            "Name": "anagliptin"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "anagliptin",
+            "Name": "anagliptin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "TNF-\u03b1",
+            "Name": "tnf\u03b1"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "nuclear factor-\u03baB",
+            "Name": "nuclearfactor\u03bab"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "anagliptin",
+            "Name": "anagliptin"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "apoE",
+            "Name": "apoe"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "anagliptin",
+            "Name": "anagliptin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T15"
+        }
+    ]
+}

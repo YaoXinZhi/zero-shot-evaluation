@@ -1,0 +1,65 @@
+T16	CHEMICAL 0 18	Thiazolidinediones
+N1	Name Annotation:T16 Referent:thiazolidinediones
+T17	CHEMICAL 20 24	TZDs
+N2	Name Annotation:T17 Referent:tzds
+T18	CHEMICAL 90 93	TZD
+N3	Name Annotation:T18 Referent:tzd
+T29	GENE-Y 105 114	aromatase
+N4	Name Annotation:T29 Referent:aromatase
+T1	CHEMICAL 116 134	Thiazolidinediones
+N5	Name Annotation:T1 Referent:thiazolidinediones
+T5	CHEMICAL 136 140	TZDs
+N6	Name Annotation:T5 Referent:tzds
+T23	GENE-Y 146 153	insulin
+N7	Name Annotation:T23 Referent:insulin
+T3	CHEMICAL 231 235	TZDs
+N8	Name Annotation:T3 Referent:tzds
+T4	CHEMICAL 243 251	estrogen
+N9	Name Annotation:T4 Referent:estrogen
+T22	GENE-Y 276 285	aromatase
+N10	Name Annotation:T22 Referent:aromatase
+T6	CHEMICAL 370 374	TZDs
+N11	Name Annotation:T6 Referent:tzds
+T7	CHEMICAL 536 539	TZD
+N12	Name Annotation:T7 Referent:tzd
+T24	GENE-Y 554 563	aromatase
+N13	Name Annotation:T24 Referent:aromatase
+T8	CHEMICAL 710 722	testosterone
+N14	Name Annotation:T8 Referent:testosterone
+T9	CHEMICAL 724 736	pioglitazone
+N15	Name Annotation:T9 Referent:pioglitazone
+T10	CHEMICAL 740 753	rosiglitazone
+N16	Name Annotation:T10 Referent:rosiglitazone
+T25	GENE-N 787 807	alkaline phosphatase
+N17	Name Annotation:T25 Referent:alkalinephosphatase
+T26	GENE-Y 822 833	osteocalcin
+N18	Name Annotation:T26 Referent:osteocalcin
+T11	CHEMICAL 860 864	TZDs
+N19	Name Annotation:T11 Referent:tzds
+T12	CHEMICAL 875 884	estradiol
+N20	Name Annotation:T12 Referent:estradiol
+T13	CHEMICAL 946 950	TZDs
+N21	Name Annotation:T13 Referent:tzds
+T14	CHEMICAL 996 1006	oleic acid
+N22	Name Annotation:T14 Referent:oleicacid
+T15	CHEMICAL 1015 1019	TZDs
+N23	Name Annotation:T15 Referent:tzds
+T27	GENE-N 1035 1055	alkaline phosphatase
+N24	Name Annotation:T27 Referent:alkalinephosphatase
+T28	GENE-Y 1087 1098	osteocalcin
+N25	Name Annotation:T28 Referent:osteocalcin
+T2	CHEMICAL 1265 1268	TZD
+N26	Name Annotation:T2 Referent:tzd
+T19	GENE-N 1321 1341	alkaline phosphatase
+N27	Name Annotation:T19 Referent:alkalinephosphatase
+T20	GENE-Y 1346 1357	osteocalcin
+N28	Name Annotation:T20 Referent:osteocalcin
+T21	GENE-Y 1405 1414	aromatase
+N29	Name Annotation:T21 Referent:aromatase
+R1	INHIBITOR Arg1:T3 Arg2:T22
+R2	PRODUCT-OF Arg1:T4 Arg2:T22
+R3	INHIBITOR Arg1:T7 Arg2:T24
+R4	INHIBITOR Arg1:T15 Arg2:T27
+R5	INDIRECT-DOWNREGULATOR Arg1:T15 Arg2:T28
+R6	INHIBITOR Arg1:T2 Arg2:T19
+R7	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T20

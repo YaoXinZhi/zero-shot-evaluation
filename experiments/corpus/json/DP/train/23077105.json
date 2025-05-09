@@ -1,0 +1,347 @@
+{
+    "entities": [
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "multidrug resistance-associated protein 3",
+            "Name": "multidrugresistanceassociatedprotein3"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "ethynylestradiol",
+            "Name": "ethynylestradiol"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "estrogen receptor",
+            "Name": "estrogenreceptor"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Multidrug resistance-associated protein 3",
+            "Name": "multidrugresistanceassociatedprotein3"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "Mrp3",
+            "Name": "mrp3"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "Abcc3",
+            "Name": "abcc3"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ethynylestradiol",
+            "Name": "ethynylestradiol"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "multidrug resistance-associated protein 2",
+            "Name": "multidrugresistanceassociatedprotein2"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "Mrp2",
+            "Name": "mrp2"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "Mrp3",
+            "Name": "mrp3"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "Mrp2",
+            "Name": "mrp2"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "Mrp3",
+            "Name": "mrp3"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "estrogen receptor",
+            "Name": "estrogenreceptor"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "bile salts",
+            "Name": "bilesalts"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "Mrp3",
+            "Name": "mrp3"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "Mrp3",
+            "Name": "mrp3"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Mrp3",
+            "Name": "mrp3"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "actinomycin D",
+            "Name": "actinomycind"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "7\u03b1,17\u03b2-[9-[(4,4,5,5,5-Pentafluoropentyl)sulfinyl]nonyl]estra-1,3,5(10)-triene-3,17-diol",
+            "Name": "7\u03b117\u03b2944555pentafluoropentylsulfinylnonylestra13510triene317diol"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "ICI182/780",
+            "Name": "ici182780"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Mrp3",
+            "Name": "mrp3"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "ER-\u03b1",
+            "Name": "er\u03b1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "c-Jun",
+            "Name": "cjun"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ICI182/780",
+            "Name": "ici182780"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Mrp3",
+            "Name": "mrp3"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "ER-\u03b1",
+            "Name": "er\u03b1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T11",
+            "target": "T35"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T29"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T29"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T26"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T29"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T12"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T26"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T29"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T15"
+        }
+    ]
+}

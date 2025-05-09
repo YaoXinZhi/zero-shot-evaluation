@@ -1,0 +1,183 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Captopril",
+            "Name": "captopril"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "matrix metalloproteinase-2",
+            "Name": "matrixmetalloproteinase2"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Matrix metalloproteinase (MMP)-2",
+            "Name": "matrixmetalloproteinasemmp2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "angiotensin",
+            "Name": "angiotensin"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "angiotensin-converting enzyme",
+            "Name": "angiotensinconvertingenzyme"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "ACE",
+            "Name": "ace"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "captopril",
+            "Name": "captopril"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "MMP-2",
+            "Name": "mmp2"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "MMP-2",
+            "Name": "mmp2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "captopril",
+            "Name": "captopril"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "captopril",
+            "Name": "captopril"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "MMP-2",
+            "Name": "mmp2"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MMP-2",
+            "Name": "mmp2"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "captopril",
+            "Name": "captopril"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Captopril",
+            "Name": "captopril"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "MMP-2",
+            "Name": "mmp2"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "captopril",
+            "Name": "captopril"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "MMP-2",
+            "Name": "mmp2"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "ACE",
+            "Name": "ace"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "captopril",
+            "Name": "captopril"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "MMP-2",
+            "Name": "mmp2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T10"
+        }
+    ]
+}

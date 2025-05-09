@@ -1,0 +1,96 @@
+T41	GENE 0 42	Peroxisome proliferator-activated receptor
+N1	Name Annotation:T41 Referent:peroxisomeproliferatoractivatedreceptor
+T1	CHEMICAL 147 155	Fibrates
+N2	Name Annotation:T1 Referent:fibrates
+T5	CHEMICAL 160 178	thiazolidinediones
+N3	Name Annotation:T5 Referent:thiazolidinediones
+T4	CHEMICAL 262 270	Fibrates
+N4	Name Annotation:T4 Referent:fibrates
+T27	GENE 283 338	peroxisome proliferator-activated receptor (PPAR)-alpha
+N5	Name Annotation:T27 Referent:peroxisomeproliferatoractivatedreceptorpparalpha
+T8	CHEMICAL 344 362	thiazolidinediones
+N6	Name Annotation:T8 Referent:thiazolidinediones
+T31	GENE 378 388	PPAR-gamma
+N7	Name Annotation:T31 Referent:ppargamma
+T9	CHEMICAL 443 451	retinoid
+N8	Name Annotation:T9 Referent:retinoid
+T32	GENE 443 462	retinoid X receptor
+N9	Name Annotation:T32 Referent:retinoidxreceptor
+T33	GENE 618 628	PPAR-alpha
+N10	Name Annotation:T33 Referent:pparalpha
+T10	CHEMICAL 648 659	fenofibrate
+N11	Name Annotation:T10 Referent:fenofibrate
+T34	GENE 663 673	PPAR-gamma
+N12	Name Annotation:T34 Referent:ppargamma
+T11	CHEMICAL 691 704	rosiglitazone
+N13	Name Annotation:T11 Referent:rosiglitazone
+T35	GENE 712 729	PPAR-alpha/-gamma
+N14	Name Annotation:T35 Referent:pparalphagamma
+T12	CHEMICAL 741 747	GW2331
+N15	Name Annotation:T12 Referent:gw2331
+T13	CHEMICAL 888 895	glucose
+N16	Name Annotation:T13 Referent:glucose
+T14	CHEMICAL 900 912	triglyceride
+N17	Name Annotation:T14 Referent:triglyceride
+T15	CHEMICAL 921 932	Fenofibrate
+N18	Name Annotation:T15 Referent:fenofibrate
+T16	CHEMICAL 937 943	GW2331
+N19	Name Annotation:T16 Referent:gw2331
+T17	CHEMICAL 966 981	acyl-coenzyme A
+N20	Name Annotation:T17 Referent:acylcoenzymea
+T36	GENE 966 995	acyl-coenzyme A (CoA) oxidase
+N21	Name Annotation:T36 Referent:acylcoenzymeacoaoxidase
+T18	CHEMICAL 983 986	CoA
+N22	Name Annotation:T18 Referent:coa
+T19	CHEMICAL 1000 1009	enoyl-CoA
+N23	Name Annotation:T19 Referent:enoylcoa
+T37	GENE 1000 1019	enoyl-CoA hydratase
+N24	Name Annotation:T37 Referent:enoylcoahydratase
+T38	GENE 1032 1052	apolipoprotein C-III
+N25	Name Annotation:T38 Referent:apolipoproteinciii
+T20	CHEMICAL 1057 1076	phosphoenolpyruvate
+N26	Name Annotation:T20 Referent:phosphoenolpyruvate
+T39	GENE 1057 1090	phosphoenolpyruvate carboxykinase
+N27	Name Annotation:T39 Referent:phosphoenolpyruvatecarboxykinase
+T21	CHEMICAL 1098 1111	Rosiglitazone
+N28	Name Annotation:T21 Referent:rosiglitazone
+T40	GENE 1131 1151	apolipoprotein C-III
+N29	Name Annotation:T40 Referent:apolipoproteinciii
+T2	CHEMICAL 1255 1262	glucose
+N30	Name Annotation:T2 Referent:glucose
+T22	GENE 1255 1276	glucose transporter 4
+N31	Name Annotation:T22 Referent:glucosetransporter4
+T3	CHEMICAL 1281 1300	phosphoenolpyruvate
+N32	Name Annotation:T3 Referent:phosphoenolpyruvate
+T23	GENE 1281 1314	phosphoenolpyruvate carboxykinase
+N33	Name Annotation:T23 Referent:phosphoenolpyruvatecarboxykinase
+T24	GENE 1373 1418	mitogen-activated phosphokinase phosphatase 1
+N34	Name Annotation:T24 Referent:mitogenactivatedphosphokinasephosphatase1
+T25	GENE 1445 1455	PPAR-alpha
+N35	Name Annotation:T25 Referent:pparalpha
+T26	GENE 1477 1484	insulin
+N36	Name Annotation:T26 Referent:insulin
+T28	GENE 1526 1533	insulin
+N37	Name Annotation:T28 Referent:insulin
+T29	GENE 1601 1611	PPAR-alpha
+N38	Name Annotation:T29 Referent:pparalpha
+T30	GENE 1623 1633	PPAR-gamma
+N39	Name Annotation:T30 Referent:ppargamma
+T6	CHEMICAL 1678 1685	glucose
+N40	Name Annotation:T6 Referent:glucose
+T7	CHEMICAL 1690 1702	triglyceride
+N41	Name Annotation:T7 Referent:triglyceride
+R1	DIRECT-REGULATOR Arg1:T4 Arg2:T27
+R2	DIRECT-REGULATOR Arg1:T8 Arg2:T31
+R3	DIRECT-REGULATOR Arg1:T11 Arg2:T34
+R4	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T36
+R5	INDIRECT-UPREGULATOR Arg1:T16 Arg2:T36
+R6	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T37
+R7	INDIRECT-UPREGULATOR Arg1:T16 Arg2:T37
+R8	INDIRECT-DOWNREGULATOR Arg1:T15 Arg2:T38
+R9	INDIRECT-DOWNREGULATOR Arg1:T16 Arg2:T38
+R10	INDIRECT-DOWNREGULATOR Arg1:T15 Arg2:T39
+R11	INDIRECT-DOWNREGULATOR Arg1:T16 Arg2:T39
+R12	INDIRECT-UPREGULATOR Arg1:T21 Arg2:T40
+R13	INDIRECT-UPREGULATOR Arg1:T21 Arg2:T22
+R14	INDIRECT-UPREGULATOR Arg1:T21 Arg2:T23

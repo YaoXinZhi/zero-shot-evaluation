@@ -1,0 +1,171 @@
+{
+    "entities": [
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "AT1",
+            "Name": "at1"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "eprosartan",
+            "Name": "eprosartan"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "renin",
+            "Name": "renin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "angiotensin",
+            "Name": "angiotensin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "angiotensin",
+            "Name": "angiotensin"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "ACE",
+            "Name": "ace"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "angiotensin",
+            "Name": "angiotensin"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "angiotensin type 1 (AT1) receptor",
+            "Name": "angiotensintype1at1receptor"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "eprosartan",
+            "Name": "eprosartan"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "eprosartan",
+            "Name": "eprosartan"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Ang-II",
+            "Name": "angii"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Eprosartan",
+            "Name": "eprosartan"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Ang-II",
+            "Name": "angii"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Ang-II",
+            "Name": "angii"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Eprosartan",
+            "Name": "eprosartan"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "AT1",
+            "Name": "at1"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "eprosartan",
+            "Name": "eprosartan"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "angiotensin II",
+            "Name": "angiotensinii"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "angiotensin II",
+            "Name": "angiotensinii"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Ang II",
+            "Name": "angii"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Ang II",
+            "Name": "angii"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "angiotensin",
+            "Name": "angiotensin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "angiotensin type 1",
+            "Name": "angiotensintype1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "AT1",
+            "Name": "at1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T12",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T13"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T14"
+        }
+    ]
+}

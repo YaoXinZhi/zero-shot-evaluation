@@ -1,0 +1,72 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "steroids",
+            "Name": "steroids"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "hydroxyurea",
+            "Name": "hydroxyurea"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "interferon-alpha",
+            "Name": "interferonalpha"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "FIP1L1",
+            "Name": "fip1l1"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "PDGFRa",
+            "Name": "pdgfra"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "FIP1L1",
+            "Name": "fip1l1"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "PDGFRa",
+            "Name": "pdgfra"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "imatinib mesylate",
+            "Name": "imatinibmesylate"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T10"
+        }
+    ]
+}

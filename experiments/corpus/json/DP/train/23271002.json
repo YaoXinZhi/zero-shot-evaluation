@@ -1,0 +1,77 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "4-methoxy-5- hydroxycanthin-6-one",
+            "Name": "4methoxy5hydroxycanthin6one"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "4-methoxy-5- hydroxycanthin-6-one",
+            "Name": "4methoxy5hydroxycanthin6one"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "CAN",
+            "Name": "can"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "CAN",
+            "Name": "can"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "NO",
+            "Name": "no"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "TNF-\u03b1",
+            "Name": "tnf\u03b1"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "CAN",
+            "Name": "can"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "CAN",
+            "Name": "can"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "CAN",
+            "Name": "can"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T10"
+        }
+    ]
+}

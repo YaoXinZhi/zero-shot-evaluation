@@ -1,0 +1,90 @@
+T16	CHEMICAL 0 8	Melamine
+N1	Name Annotation:T16 Referent:melamine
+T33	GENE-N 19 23	NFκB
+N2	Name Annotation:T33 Referent:nfκb
+T34	GENE-Y 24 29	COX-2
+N3	Name Annotation:T34 Referent:cox2
+T17	CHEMICAL 57 62	NADPH
+N4	Name Annotation:T17 Referent:nadph
+T35	GENE-N 57 70	NADPH oxidase
+N5	Name Annotation:T35 Referent:nadphoxidase
+T1	CHEMICAL 145 153	Melamine
+N6	Name Annotation:T1 Referent:melamine
+T3	CHEMICAL 252 260	melamine
+N7	Name Annotation:T3 Referent:melamine
+T7	CHEMICAL 574 582	melamine
+N8	Name Annotation:T7 Referent:melamine
+T8	CHEMICAL 727 735	melamine
+N9	Name Annotation:T8 Referent:melamine
+T24	GENE-N 746 768	nuclear factor (NF)-κB
+N10	Name Annotation:T24 Referent:nuclearfactornfκb
+T25	GENE-Y 788 793	IκB-α
+N11	Name Annotation:T25 Referent:iκbα
+T26	GENE-N 810 815	NF-κB
+N12	Name Annotation:T26 Referent:nfκb
+T27	GENE-Y 816 819	p65
+N13	Name Annotation:T27 Referent:p65
+T28	GENE-Y 820 823	p50
+N14	Name Annotation:T28 Referent:p50
+T9	CHEMICAL 859 867	melamine
+N15	Name Annotation:T9 Referent:melamine
+T29	GENE-Y 892 897	COX-2
+N16	Name Annotation:T29 Referent:cox2
+T10	CHEMICAL 913 929	prostaglandin E2
+N17	Name Annotation:T10 Referent:prostaglandine2
+T11	CHEMICAL 931 935	PGE2
+N18	Name Annotation:T11 Referent:pge2
+T12	CHEMICAL 959 967	melamine
+N19	Name Annotation:T12 Referent:melamine
+T13	CHEMICAL 978 983	NADPH
+N20	Name Annotation:T13 Referent:nadph
+T30	GENE-N 978 991	NADPH oxidase
+N21	Name Annotation:T30 Referent:nadphoxidase
+T31	GENE-N 993 996	NOX
+N22	Name Annotation:T31 Referent:nox
+T32	GENE-N 1009 1022	NOX1, 2 and 4
+N23	Name Annotation:T32 Referent:nox12and4
+T14	CHEMICAL 1065 1071	oxygen
+N24	Name Annotation:T14 Referent:oxygen
+T15	CHEMICAL 1111 1119	melamine
+N25	Name Annotation:T15 Referent:melamine
+T2	CHEMICAL 1166 1174	apocynin
+N26	Name Annotation:T2 Referent:apocynin
+T18	GENE-N 1178 1181	NOX
+N27	Name Annotation:T18 Referent:nox
+T4	CHEMICAL 1229 1237	melamine
+N28	Name Annotation:T4 Referent:melamine
+T19	GENE-N 1300 1305	NF-κB
+N29	Name Annotation:T19 Referent:nfκb
+T20	GENE-Y 1306 1311	COX-2
+N30	Name Annotation:T20 Referent:cox2
+T21	GENE-N 1316 1319	NOX
+N31	Name Annotation:T21 Referent:nox
+T22	GENE-N 1373 1376	NOX
+N32	Name Annotation:T22 Referent:nox
+T5	CHEMICAL 1380 1388	melamine
+N33	Name Annotation:T5 Referent:melamine
+T23	GENE-N 1441 1444	NOX
+N34	Name Annotation:T23 Referent:nox
+T6	CHEMICAL 1463 1471	melamine
+N35	Name Annotation:T6 Referent:melamine
+R1	ACTIVATOR Arg1:T16 Arg2:T33
+R2	ACTIVATOR Arg1:T16 Arg2:T34
+R3	ACTIVATOR Arg1:T16 Arg2:T35
+R4	ACTIVATOR Arg1:T8 Arg2:T24
+R5	ACTIVATOR Arg1:T8 Arg2:T26
+R6	ACTIVATOR Arg1:T8 Arg2:T27
+R7	INHIBITOR Arg1:T8 Arg2:T28
+R8	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T29
+R9	PRODUCT-OF Arg1:T10 Arg2:T29
+R10	PRODUCT-OF Arg1:T11 Arg2:T29
+R11	ACTIVATOR Arg1:T12 Arg2:T30
+R12	ACTIVATOR Arg1:T12 Arg2:T31
+R13	ACTIVATOR Arg1:T15 Arg2:T18
+R14	INHIBITOR Arg1:T2 Arg2:T18
+R15	ACTIVATOR Arg1:T4 Arg2:T19
+R16	ACTIVATOR Arg1:T4 Arg2:T20
+R17	ACTIVATOR Arg1:T4 Arg2:T21
+R18	ACTIVATOR Arg1:T4 Arg2:T22
+R19	ACTIVATOR Arg1:T5 Arg2:T22
+R20	ACTIVATOR Arg1:T6 Arg2:T23

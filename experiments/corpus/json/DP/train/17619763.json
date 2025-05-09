@@ -1,0 +1,126 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "vascular endothelial growth factor",
+            "Name": "vascularendothelialgrowthfactor"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "VEGFR",
+            "Name": "vegfr"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "mammalian target of rapamycin",
+            "Name": "mammaliantargetofrapamycin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "rapamycin",
+            "Name": "rapamycin"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "mTOR",
+            "Name": "mtor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Sutent",
+            "Name": "sutent"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "sorafenib",
+            "Name": "sorafenib"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "VEGFR",
+            "Name": "vegfr"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "platelet derived growth factor receptor",
+            "Name": "plateletderivedgrowthfactorreceptor"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PDGFR",
+            "Name": "pdgfr"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Temsirolimus",
+            "Name": "temsirolimus"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "mTOR",
+            "Name": "mtor"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T13"
+        }
+    ]
+}

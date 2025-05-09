@@ -1,0 +1,96 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Sibutramine",
+            "Name": "sibutramine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Sibutramine",
+            "Name": "sibutramine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Orlistat",
+            "Name": "orlistat"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "pancreatic lipase",
+            "Name": "pancreaticlipase"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "Glucagon-like peptide 1",
+            "Name": "glucagonlikepeptide1"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "adiponectin",
+            "Name": "adiponectin"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "PPAR-gamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Phosphatase",
+            "Name": "phosphatase"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PPAR-gamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "UCP-1",
+            "Name": "ucp1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T14"
+        }
+    ]
+}

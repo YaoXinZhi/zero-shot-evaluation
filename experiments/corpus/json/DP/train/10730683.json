@@ -1,0 +1,106 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Orlistat",
+            "Name": "orlistat"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "lipase",
+            "Name": "lipase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Orlistat",
+            "Name": "orlistat"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "gastric and pancreatic lipases",
+            "Name": "gastricandpancreaticlipases"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "orlistat",
+            "Name": "orlistat"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Orlistat",
+            "Name": "orlistat"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "low-density lipoprotein",
+            "Name": "lowdensitylipoprotein"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "orlistat",
+            "Name": "orlistat"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "vitamins",
+            "Name": "vitamins"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "vitamin",
+            "Name": "vitamin"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "vitamin",
+            "Name": "vitamin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T13"
+        }
+    ]
+}

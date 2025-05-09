@@ -1,0 +1,89 @@
+T34	CHEMICAL 43 53	pyrimidine
+N1	Name Annotation:T34 Referent:pyrimidine
+T21	CHEMICAL 159 181	pyrimidine nucleotides
+N2	Name Annotation:T21 Referent:pyrimidinenucleotides
+T17	CHEMICAL 411 421	pyrimidine
+N3	Name Annotation:T17 Referent:pyrimidine
+T18	CHEMICAL 519 535	[14C]bicarbonate
+N4	Name Annotation:T18 Referent:14cbicarbonate
+T19	CHEMICAL 655 671	[14C]bicarbonate
+N5	Name Annotation:T19 Referent:14cbicarbonate
+T20	CHEMICAL 677 699	pyrimidine nucleotides
+N6	Name Annotation:T20 Referent:pyrimidinenucleotides
+T22	CHEMICAL 780 802	N-carbamyl-L-aspartate
+N7	Name Annotation:T22 Referent:ncarbamyllaspartate
+T23	CHEMICAL 805 821	L-dihydroorotate
+N8	Name Annotation:T23 Referent:ldihydroorotate
+T24	CHEMICAL 823 829	CA-asp
+N9	Name Annotation:T24 Referent:caasp
+T25	CHEMICAL 832 835	DHO
+N10	Name Annotation:T25 Referent:dho
+T37	GENE-N 850 873	malarial dihydroorotase
+N11	Name Annotation:T37 Referent:malarialdihydroorotase
+T26	CHEMICAL 890 912	L-6-thiodihydroorotate
+N12	Name Annotation:T26 Referent:l6thiodihydroorotate
+T27	CHEMICAL 914 918	TDHO
+N13	Name Annotation:T27 Referent:tdho
+T28	CHEMICAL 952 956	TDHO
+N14	Name Annotation:T28 Referent:tdho
+T29	CHEMICAL 965 974	free acid
+N15	Name Annotation:T29 Referent:freeacid
+T30	CHEMICAL 978 990	methyl ester
+N16	Name Annotation:T30 Referent:methylester
+T31	CHEMICAL 1024 1030	CA-asp
+N17	Name Annotation:T31 Referent:caasp
+T32	CHEMICAL 1043 1053	Atovaquone
+N18	Name Annotation:T32 Referent:atovaquone
+T33	CHEMICAL 1057 1071	naphthoquinone
+N19	Name Annotation:T33 Referent:naphthoquinone
+T1	CHEMICAL 1100 1114	dihydroorotate
+N20	Name Annotation:T1 Referent:dihydroorotate
+T35	GENE-Y 1100 1128	dihydroorotate dehydrogenase
+N21	Name Annotation:T35 Referent:dihydroorotatedehydrogenase
+T2	CHEMICAL 1190 1196	CA-asp
+N22	Name Annotation:T2 Referent:caasp
+T3	CHEMICAL 1201 1204	DHO
+N23	Name Annotation:T3 Referent:dho
+T4	CHEMICAL 1206 1217	Pyrazofurin
+N24	Name Annotation:T4 Referent:pyrazofurin
+T5	CHEMICAL 1242 1249	orotate
+N25	Name Annotation:T5 Referent:orotate
+T6	CHEMICAL 1254 1263	orotidine
+N26	Name Annotation:T6 Referent:orotidine
+T7	CHEMICAL 1306 1332	orotidine 5'-monophosphate
+N27	Name Annotation:T7 Referent:orotidine5monophosphate
+T36	GENE-Y 1306 1352	orotidine 5'-monophosphate (OMP) decarboxylase
+N28	Name Annotation:T36 Referent:orotidine5monophosphateompdecarboxylase
+T8	CHEMICAL 1334 1337	OMP
+N29	Name Annotation:T8 Referent:omp
+T9	CHEMICAL 1394 1397	OMP
+N30	Name Annotation:T9 Referent:omp
+T10	CHEMICAL 1420 1424	TDHO
+N31	Name Annotation:T10 Referent:tdho
+T11	CHEMICAL 1426 1436	atovaquone
+N32	Name Annotation:T11 Referent:atovaquone
+T12	CHEMICAL 1442 1453	pyrazofurin
+N33	Name Annotation:T12 Referent:pyrazofurin
+T13	CHEMICAL 1551 1566	5-Fluoroorotate
+N34	Name Annotation:T13 Referent:5fluoroorotate
+T14	CHEMICAL 1636 1651	5-fluorouridine
+N35	Name Annotation:T14 Referent:5fluorouridine
+T15	CHEMICAL 1652 1681	mono-, di-, and triphosphates
+N36	Name Annotation:T15 Referent:monodiandtriphosphates
+T16	CHEMICAL 1745 1767	pyrimidine nucleotides
+N37	Name Annotation:T16 Referent:pyrimidinenucleotides
+R1	SUBSTRATE Arg1:T22 Arg2:T37
+R2	SUBSTRATE Arg1:T24 Arg2:T37
+R3	PRODUCT-OF Arg1:T23 Arg2:T37
+R4	PRODUCT-OF Arg1:T25 Arg2:T37
+R5	INHIBITOR Arg1:T26 Arg2:T37
+R6	INHIBITOR Arg1:T27 Arg2:T37
+R7	INHIBITOR Arg1:T28 Arg2:T37
+R8	INHIBITOR Arg1:T33 Arg2:T35
+R9	INHIBITOR Arg1:T32 Arg2:T35
+R10	SUBSTRATE Arg1:T2 Arg2:T35
+R11	PRODUCT-OF Arg1:T3 Arg2:T35
+R12	SUBSTRATE Arg1:T5 Arg2:T36
+R13	SUBSTRATE Arg1:T6 Arg2:T36
+R14	INHIBITOR Arg1:T4 Arg2:T36
+R15	SUBSTRATE Arg1:T9 Arg2:T36

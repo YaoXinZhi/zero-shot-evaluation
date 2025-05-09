@@ -1,0 +1,93 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "adenosine",
+            "Name": "adenosine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "adenosine A3 receptor",
+            "Name": "adenosinea3receptor"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "methoxyaryl",
+            "Name": "methoxyaryl"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "N-(2,6-diarylpyrimidin-4-yl)acetamide",
+            "Name": "n26diarylpyrimidin4ylacetamide"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "methoxyphenyl",
+            "Name": "methoxyphenyl"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "N-(2,6-diarylpyrimidin-4-yl)acetamide",
+            "Name": "n26diarylpyrimidin4ylacetamide"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "A(3) adenosine receptor",
+            "Name": "a3adenosinereceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "adenosine",
+            "Name": "adenosine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "adenosine",
+            "Name": "adenosine"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "adenosine receptors",
+            "Name": "adenosinereceptors"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "A(3)AR",
+            "Name": "a3ar"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T6",
+            "target": "T11"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T7",
+            "target": "T11"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T4",
+            "target": "T8"
+        }
+    ]
+}

@@ -1,0 +1,164 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Alkylnitroquipazines",
+            "Name": "alkylnitroquipazines"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Serotonin Transporter",
+            "Name": "serotonintransporter"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "alkyl",
+            "Name": "alkyl"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "serotonin transporter",
+            "Name": "serotonintransporter"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "6-nitroquipazine",
+            "Name": "6nitroquipazine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "6-NQ",
+            "Name": "6nq"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "6-NQ",
+            "Name": "6nq"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "octyl",
+            "Name": "octyl"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "decyl",
+            "Name": "decyl"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "dodecyl",
+            "Name": "dodecyl"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "6-NQ",
+            "Name": "6nq"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T16"
+        }
+    ]
+}

@@ -1,0 +1,238 @@
+{
+    "entities": [
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "MAO",
+            "Name": "mao"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "2-Arylbenzofurans",
+            "Name": "2arylbenzofurans"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "3-Arylcoumarins",
+            "Name": "3arylcoumarins"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Monoamine oxidase",
+            "Name": "monoamineoxidase"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "MAO",
+            "Name": "mao"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "3-arylcoumarin",
+            "Name": "3arylcoumarin"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "trans-stilbene",
+            "Name": "transstilbene"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "2-arylbenzofuran",
+            "Name": "2arylbenzofuran"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "3-arylcoumarin",
+            "Name": "3arylcoumarin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "MAO",
+            "Name": "mao"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "MAO-A",
+            "Name": "maoa"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "5-Nitro-2-(4-methoxyphenyl)benzofuran",
+            "Name": "5nitro24methoxyphenylbenzofuran"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "benzofuran",
+            "Name": "benzofuran"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "3-(4'-Methoxyphenyl)-6-nitrocoumarin",
+            "Name": "34methoxyphenyl6nitrocoumarin"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "coumarin",
+            "Name": "coumarin"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "3-phenylcoumarin",
+            "Name": "3phenylcoumarin"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MAO-A",
+            "Name": "maoa"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "2-arylbenzofurans",
+            "Name": "2arylbenzofurans"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "3-arylcoumarins",
+            "Name": "3arylcoumarins"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T25"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T17"
+        }
+    ]
+}

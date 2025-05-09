@@ -1,0 +1,143 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Monoamines",
+            "Name": "monoamines"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "noradrenergic receptors",
+            "Name": "noradrenergicreceptors"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "serotonin receptors",
+            "Name": "serotoninreceptors"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "dopamine receptors",
+            "Name": "dopaminereceptors"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "histamine receptors",
+            "Name": "histaminereceptors"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "phentermine",
+            "Name": "phentermine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "diethylpropion",
+            "Name": "diethylpropion"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "mazindol benzphetamine",
+            "Name": "mazindolbenzphetamine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "phendimetrazine",
+            "Name": "phendimetrazine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Sibutramine",
+            "Name": "sibutramine"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Orlistat",
+            "Name": "orlistat"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "pancreatic lipase",
+            "Name": "pancreaticlipase"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "triglyceride",
+            "Name": "triglyceride"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "ephedrine",
+            "Name": "ephedrine"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "caffeine",
+            "Name": "caffeine"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Leptin",
+            "Name": "leptin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T20"
+        },
+        {
+            "type": "Substrate",
+            "source": "T13",
+            "target": "T20"
+        }
+    ]
+}

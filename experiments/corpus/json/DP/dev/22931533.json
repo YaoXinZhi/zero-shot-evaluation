@@ -1,0 +1,147 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "opioid receptor",
+            "Name": "opioidreceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Morphinans",
+            "Name": "morphinans"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Galantamine",
+            "Name": "galantamine"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "nicotinic acetylcholine receptors",
+            "Name": "nicotinicacetylcholinereceptors"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "acetylcholine",
+            "Name": "acetylcholine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "nAChR",
+            "Name": "nachr"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "morphinan",
+            "Name": "morphinan"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "codeine",
+            "Name": "codeine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "eseroline",
+            "Name": "eseroline"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "galantamine",
+            "Name": "galantamine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "nAChR",
+            "Name": "nachr"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "nAChR",
+            "Name": "nachr"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T12"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T12"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T12"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T13"
+        }
+    ]
+}

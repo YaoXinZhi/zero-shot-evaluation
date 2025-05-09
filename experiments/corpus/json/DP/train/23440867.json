@@ -1,0 +1,237 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "epidermal growth factor receptor",
+            "Name": "epidermalgrowthfactorreceptor"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "gefitinib",
+            "Name": "gefitinib"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "erlotinib",
+            "Name": "erlotinib"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "lapatinib",
+            "Name": "lapatinib"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "afatanib",
+            "Name": "afatanib"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "dacomitinib",
+            "Name": "dacomitinib"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "vascular endothelial growth factor receptor",
+            "Name": "vascularendothelialgrowthfactorreceptor"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "VEGFR",
+            "Name": "vegfr"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "sorafenib",
+            "Name": "sorafenib"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "sunitinib",
+            "Name": "sunitinib"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "vandetanib",
+            "Name": "vandetanib"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "phosphatidylinositol",
+            "Name": "phosphatidylinositol"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "phosphatidylinositol 3' kinase",
+            "Name": "phosphatidylinositol3kinase"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "AKT",
+            "Name": "akt"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "mammalian target of rapamycin",
+            "Name": "mammaliantargetofrapamycin"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "rapamycin",
+            "Name": "rapamycin"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "mTOR",
+            "Name": "mtor"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "MET",
+            "Name": "met"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "insulin-like growth factor receptor",
+            "Name": "insulinlikegrowthfactorreceptor"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "IGF-1R",
+            "Name": "igf1r"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T18"
+        }
+    ]
+}

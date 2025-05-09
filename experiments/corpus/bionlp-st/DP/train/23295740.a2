@@ -1,0 +1,69 @@
+T15	CHEMICAL 0 9	Tamoxifen
+N1	Name Annotation:T15 Referent:tamoxifen
+T31	GENE-N 20 27	miR-200
+N2	Name Annotation:T31 Referent:mir200
+T30	GENE-Y 105 110	c-Myc
+N3	Name Annotation:T30 Referent:cmyc
+T14	CHEMICAL 157 166	tamoxifen
+N4	Name Annotation:T14 Referent:tamoxifen
+T7	CHEMICAL 168 171	TAM
+N5	Name Annotation:T7 Referent:tam
+T10	CHEMICAL 186 194	estrogen
+N6	Name Annotation:T10 Referent:estrogen
+T22	GENE-Y 186 203	estrogen receptor
+N7	Name Annotation:T22 Referent:estrogenreceptor
+T5	CHEMICAL 294 302	estrogen
+N8	Name Annotation:T5 Referent:estrogen
+T8	CHEMICAL 394 397	TAM
+N9	Name Annotation:T8 Referent:tam
+T9	CHEMICAL 512 515	TAM
+N10	Name Annotation:T9 Referent:tam
+T23	GENE-N 626 633	miR-200
+N11	Name Annotation:T23 Referent:mir200
+T24	GENE-Y 684 689	c-Myc
+N12	Name Annotation:T24 Referent:cmyc
+T11	CHEMICAL 709 712	TAM
+N13	Name Annotation:T11 Referent:tam
+T25	GENE-N 813 820	miR-200
+N14	Name Annotation:T25 Referent:mir200
+T12	CHEMICAL 931 934	TAM
+N15	Name Annotation:T12 Referent:tam
+T13	CHEMICAL 962 966	zinc
+N16	Name Annotation:T13 Referent:zinc
+T26	GENE-Y 962 998	zinc finger E-box binding homeobox 2
+N17	Name Annotation:T26 Referent:zincfingereboxbindinghomeobox2
+T27	GENE-Y 1042 1050	miR-200b
+N18	Name Annotation:T27 Referent:mir200b
+T28	GENE-Y 1123 1128	Snail
+N19	Name Annotation:T28 Referent:snail
+T29	GENE-Y 1133 1143	N-cadherin
+N20	Name Annotation:T29 Referent:ncadherin
+T16	GENE-Y 1163 1173	E-cadherin
+N21	Name Annotation:T16 Referent:ecadherin
+T1	CHEMICAL 1191 1194	TAM
+N22	Name Annotation:T1 Referent:tam
+T2	CHEMICAL 1226 1229	TAM
+N23	Name Annotation:T2 Referent:tam
+T17	GENE-Y 1305 1310	c-Myc
+N24	Name Annotation:T17 Referent:cmyc
+T18	GENE-N 1359 1366	miR-200
+N25	Name Annotation:T18 Referent:mir200
+T3	CHEMICAL 1400 1403	TAM
+N26	Name Annotation:T3 Referent:tam
+T19	GENE-N 1469 1476	miR-200
+N27	Name Annotation:T19 Referent:mir200
+T4	CHEMICAL 1536 1539	TAM
+N28	Name Annotation:T4 Referent:tam
+T20	GENE-N 1556 1563	miR-200
+N29	Name Annotation:T20 Referent:mir200
+T21	GENE-Y 1611 1616	c-Myc
+N30	Name Annotation:T21 Referent:cmyc
+T6	CHEMICAL 1694 1697	TAM
+N31	Name Annotation:T6 Referent:tam
+R1	INDIRECT-DOWNREGULATOR Arg1:T15 Arg2:T31
+R2	INDIRECT-DOWNREGULATOR Arg1:T12 Arg2:T25
+R3	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T20
+R4	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T19
+R5	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T28
+R6	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T29
+R7	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T16

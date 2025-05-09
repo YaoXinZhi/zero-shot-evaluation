@@ -1,0 +1,231 @@
+{
+    "entities": [
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "CYP2J2",
+            "Name": "cyp2j2"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "EETs",
+            "Name": "eets"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "angiotensin II",
+            "Name": "angiotensinii"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "Cytochrome P450 epoxygenase 2J2",
+            "Name": "cytochromep450epoxygenase2j2"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "CYP2J2",
+            "Name": "cyp2j2"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "arachidonic acids",
+            "Name": "arachidonicacids"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "epoxyeicosatrienoic acids",
+            "Name": "epoxyeicosatrienoicacids"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "EETs",
+            "Name": "eets"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "EETs",
+            "Name": "eets"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "CYP2J2",
+            "Name": "cyp2j2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "CYP2J2",
+            "Name": "cyp2j2"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "angiotensin (Ang) II",
+            "Name": "angiotensinangii"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "CYP2J2",
+            "Name": "cyp2j2"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "CYP2J2",
+            "Name": "cyp2j2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "EETs",
+            "Name": "eets"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "CYP2J2",
+            "Name": "cyp2j2"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "matrix metalloproteinase",
+            "Name": "matrixmetalloproteinase"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "elastin",
+            "Name": "elastin"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "CYP2J2",
+            "Name": "cyp2j2"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "EETs",
+            "Name": "eets"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "Ang II",
+            "Name": "angii"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "cytokine",
+            "Name": "cytokine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "CYP2J2",
+            "Name": "cyp2j2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "EETs",
+            "Name": "eets"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Ang II",
+            "Name": "angii"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "peroxisome proliferator-activated receptor (PPAR)\u03b3",
+            "Name": "peroxisomeproliferatoractivatedreceptorppar\u03b3"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "CYP2J2",
+            "Name": "cyp2j2"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PPAR\u03b3",
+            "Name": "ppar\u03b3"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "EETs",
+            "Name": "eets"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Product of",
+            "source": "T7",
+            "target": "T17"
+        },
+        {
+            "type": "Product of",
+            "source": "T7",
+            "target": "T10"
+        },
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T17"
+        },
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T12"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+T15	CHEMICAL 17 33	dimethylarginine
+N1	Name Annotation:T15 Referent:dimethylarginine
+T25	GENE-Y 17 56	dimethylarginine dimethylaminohydrolase
+N2	Name Annotation:T25 Referent:dimethylargininedimethylaminohydrolase
+T1	CHEMICAL 81 97	Dimethylarginine
+N3	Name Annotation:T1 Referent:dimethylarginine
+T16	GENE-Y 81 120	Dimethylarginine dimethylaminohydrolase
+N4	Name Annotation:T16 Referent:dimethylargininedimethylaminohydrolase
+T20	GENE-Y 122 126	DDAH
+N5	Name Annotation:T20 Referent:ddah
+T8	CHEMICAL 151 167	dimethylarginine
+N6	Name Annotation:T8 Referent:dimethylarginine
+T14	CHEMICAL 180 192	L-citrulline
+N7	Name Annotation:T14 Referent:lcitrulline
+T18	GENE-Y 330 334	DDAH
+N8	Name Annotation:T18 Referent:ddah
+T2	CHEMICAL 345 357	L-citrulline
+N9	Name Annotation:T2 Referent:lcitrulline
+T3	CHEMICAL 421 425	urea
+N10	Name Annotation:T3 Referent:urea
+T19	GENE-N 431 437	urease
+N11	Name Annotation:T19 Referent:urease
+T4	CHEMICAL 457 461	urea
+N12	Name Annotation:T4 Referent:urea
+T5	CHEMICAL 519 538	sulfosalicylic acid
+N13	Name Annotation:T5 Referent:sulfosalicylicacid
+T21	GENE-N 572 580	protease
+N14	Name Annotation:T21 Referent:protease
+T6	CHEMICAL 641 650	phosphate
+N15	Name Annotation:T6 Referent:phosphate
+T22	GENE-N 744 752	Arginase
+N16	Name Annotation:T22 Referent:arginase
+T7	CHEMICAL 756 768	nitric oxide
+N17	Name Annotation:T7 Referent:nitricoxide
+T23	GENE-N 756 777	nitric oxide synthase
+N18	Name Annotation:T23 Referent:nitricoxidesynthase
+T9	CHEMICAL 817 829	L-citrulline
+N19	Name Annotation:T9 Referent:lcitrulline
+T10	CHEMICAL 856 868	L-citrulline
+N20	Name Annotation:T10 Referent:lcitrulline
+T24	GENE-Y 897 901	DDAH
+N21	Name Annotation:T24 Referent:ddah
+T11	CHEMICAL 980 996	dimethylarginine
+N22	Name Annotation:T11 Referent:dimethylarginine
+T12	CHEMICAL 1047 1057	superoxide
+N23	Name Annotation:T12 Referent:superoxide
+T13	CHEMICAL 1062 1074	nitric oxide
+N24	Name Annotation:T13 Referent:nitricoxide
+T17	GENE-Y 1098 1102	DDAH
+N25	Name Annotation:T17 Referent:ddah
+R1	SUBSTRATE Arg1:T8 Arg2:T16
+R2	SUBSTRATE Arg1:T8 Arg2:T20
+R3	PRODUCT-OF Arg1:T14 Arg2:T16
+R4	PRODUCT-OF Arg1:T14 Arg2:T20
+R5	PRODUCT-OF Arg1:T2 Arg2:T18
+R6	PRODUCT-OF Arg1:T10 Arg2:T24
+R7	INHIBITOR Arg1:T12 Arg2:T17
+R8	INHIBITOR Arg1:T13 Arg2:T17
+R9	SUBSTRATE Arg1:T3 Arg2:T19
+R10	SUBSTRATE Arg1:T11 Arg2:T24

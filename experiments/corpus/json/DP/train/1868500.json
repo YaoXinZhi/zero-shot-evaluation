@@ -1,0 +1,256 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "fibric acids",
+            "Name": "fibricacids"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "nicotinic acid",
+            "Name": "nicotinicacid"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "probucol",
+            "Name": "probucol"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "HMG-CoA",
+            "Name": "hmgcoa"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "HMG-CoA reductase",
+            "Name": "hmgcoareductase"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "plasma very-low-density lipoproteins",
+            "Name": "plasmaverylowdensitylipoproteins"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "VLDL",
+            "Name": "vldl"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "low-density lipoproteins",
+            "Name": "lowdensitylipoproteins"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "LDL",
+            "Name": "ldl"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Fibric acids",
+            "Name": "fibricacids"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "VLDL",
+            "Name": "vldl"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "LDL",
+            "Name": "ldl"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Nicotinic acid",
+            "Name": "nicotinicacid"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "LDL",
+            "Name": "ldl"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "VLDL",
+            "Name": "vldl"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "LDL",
+            "Name": "ldl"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Probucol",
+            "Name": "probucol"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "cholesteryl esters",
+            "Name": "cholesterylesters"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "high-density lipoproteins",
+            "Name": "highdensitylipoproteins"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "lower-density lipoproteins",
+            "Name": "lowerdensitylipoproteins"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "HMG-CoA",
+            "Name": "hmgcoa"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "HMG-CoA reductase",
+            "Name": "hmgcoareductase"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "lipoprotein receptors",
+            "Name": "lipoproteinreceptors"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "neomycin",
+            "Name": "neomycin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "beta-sitosterol",
+            "Name": "betasitosterol"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "bile acids",
+            "Name": "bileacids"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "LDL receptor",
+            "Name": "ldlreceptor"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T12",
+            "target": "T27"
+        },
+        {
+            "type": "Substrate",
+            "source": "T12",
+            "target": "T28"
+        }
+    ]
+}

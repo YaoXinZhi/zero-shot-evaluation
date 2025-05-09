@@ -1,0 +1,156 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "platelet-derived growth factor receptors",
+            "Name": "plateletderivedgrowthfactorreceptors"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PDGFRs",
+            "Name": "pdgfrs"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "vascular endothelial growth factor receptor",
+            "Name": "vascularendothelialgrowthfactorreceptor"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "VEGFR",
+            "Name": "vegfr"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "receptor tyrosine kinase",
+            "Name": "receptortyrosinekinase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "SU11248",
+            "Name": "su11248"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "PDGFR",
+            "Name": "pdgfr"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "VEGFR",
+            "Name": "vegfr"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "VEGFR",
+            "Name": "vegfr"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "cyclophosphamide",
+            "Name": "cyclophosphamide"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cyclophosphamide",
+            "Name": "cyclophosphamide"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "PDGFR",
+            "Name": "pdgfr"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "VEGFR",
+            "Name": "vegfr"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "PDFGR",
+            "Name": "pdfgr"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "VEGFR",
+            "Name": "vegfr"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T18"
+        }
+    ]
+}

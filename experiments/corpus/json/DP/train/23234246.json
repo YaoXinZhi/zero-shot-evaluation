@@ -1,0 +1,172 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Re",
+            "Name": "re"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "99mTc",
+            "Name": "99mtc"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "benzenesulfonamide",
+            "Name": "benzenesulfonamide"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "carbonic anhydrase IX",
+            "Name": "carbonicanhydraseix"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "Carbonic anhydrase IX",
+            "Name": "carbonicanhydraseix"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "CA-IX",
+            "Name": "caix"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "benzenesulfonamide",
+            "Name": "benzenesulfonamide"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "CA-IX",
+            "Name": "caix"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "M(CO)(3)",
+            "Name": "mco3"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Re",
+            "Name": "re"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "(99m)Tc",
+            "Name": "99mtc"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "benzenesulfonamide rhenium",
+            "Name": "benzenesulfonamiderhenium"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "CA-IX",
+            "Name": "caix"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "technetium tricarbonyl",
+            "Name": "technetiumtricarbonyl"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "{(99m)Tc(CO)(3)}(+)",
+            "Name": "99mtcco3"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "(99m)Tc(CO)(3)}(+)",
+            "Name": "99mtcco3"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "(99m)Tc(CO)(3)",
+            "Name": "99mtcco3"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "CA-IX",
+            "Name": "caix"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "{(99m)Tc(CO)(3)}(+)",
+            "Name": "99mtcco3"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "CA-IX",
+            "Name": "caix"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T10",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T19"
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+T17	CHEMICAL 14 17	AMP
+N1	Name Annotation:T17 Referent:amp
+T43	GENE-N 14 42	AMP-activated Protein Kinase
+N2	Name Annotation:T43 Referent:ampactivatedproteinkinase
+T44	GENE-Y 66 93	Glycogen Synthase Kinase3 β
+N3	Name Annotation:T44 Referent:glycogensynthasekinase3β
+T16	CHEMICAL 102 114	Ursolic Acid
+N4	Name Annotation:T16 Referent:ursolicacid
+T9	CHEMICAL 195 207	ursolic acid
+N5	Name Annotation:T9 Referent:ursolicacid
+T7	CHEMICAL 320 323	AMP
+N6	Name Annotation:T7 Referent:amp
+T27	GENE-N 320 348	AMP-activated protein kinase
+N7	Name Annotation:T27 Referent:ampactivatedproteinkinase
+T28	GENE-N 350 354	AMPK
+N8	Name Annotation:T28 Referent:ampk
+T29	GENE-Y 360 391	glycogen synthase kinase 3 beta
+N9	Name Annotation:T29 Referent:glycogensynthasekinase3beta
+T30	GENE-Y 393 398	GSK3β
+N10	Name Annotation:T30 Referent:gsk3β
+T8	CHEMICAL 489 501	Ursolic acid
+N11	Name Annotation:T8 Referent:ursolicacid
+T10	CHEMICAL 588 596	ethidium
+N12	Name Annotation:T10 Referent:ethidium
+T11	CHEMICAL 663 667	dUTP
+N13	Name Annotation:T11 Referent:dutp
+T12	CHEMICAL 762 777	poly-ADP-ribose
+N14	Name Annotation:T12 Referent:polyadpribose
+T31	GENE-N 762 788	poly-ADP-ribose polymerase
+N15	Name Annotation:T31 Referent:polyadpribosepolymerase
+T32	GENE-N 790 794	PARP
+N16	Name Annotation:T32 Referent:parp
+T33	GENE-Y 800 808	caspase3
+N17	Name Annotation:T33 Referent:caspase3
+T34	GENE-Y 839 862	astrocyte elevated gene
+N18	Name Annotation:T34 Referent:astrocyteelevatedgene
+T35	GENE-Y 864 868	AEG1
+N19	Name Annotation:T35 Referent:aeg1
+T36	GENE-Y 874 882	survivin
+N20	Name Annotation:T36 Referent:survivin
+T13	CHEMICAL 914 926	ursolic acid
+N21	Name Annotation:T13 Referent:ursolicacid
+T37	GENE-N 960 964	AMPK
+N22	Name Annotation:T37 Referent:ampk
+T38	GENE-N 969 991	coenzyme A carboxylase
+N23	Name Annotation:T38 Referent:coenzymeacarboxylase
+T39	GENE-Y 1029 1034	GSK3β
+N24	Name Annotation:T39 Referent:gsk3β
+T14	CHEMICAL 1052 1058	serine
+N25	Name Annotation:T14 Referent:serine
+T15	CHEMICAL 1070 1082	ursolic acid
+N26	Name Annotation:T15 Referent:ursolicacid
+T40	GENE-N 1117 1120	AKT
+N27	Name Annotation:T40 Referent:akt
+T41	GENE-Y 1125 1129	mTOR
+N28	Name Annotation:T41 Referent:mtor
+T42	GENE-N 1158 1162	AMPK
+N29	Name Annotation:T42 Referent:ampk
+T1	CHEMICAL 1173 1183	compound C
+N30	Name Annotation:T1 Referent:compoundc
+T18	GENE-Y 1187 1192	GSK3β
+N31	Name Annotation:T18 Referent:gsk3β
+T2	CHEMICAL 1203 1211	SB216763
+N32	Name Annotation:T2 Referent:sb216763
+T19	GENE-N 1237 1241	PARP
+N33	Name Annotation:T19 Referent:parp
+T20	GENE-Y 1246 1255	caspase 3
+N34	Name Annotation:T20 Referent:caspase3
+T3	CHEMICAL 1267 1279	ursolic acid
+N35	Name Annotation:T3 Referent:ursolicacid
+T4	CHEMICAL 1331 1336	MG132
+N36	Name Annotation:T4 Referent:mg132
+T21	GENE-N 1348 1352	AMPK
+N37	Name Annotation:T21 Referent:ampk
+T22	GENE-Y 1365 1370	GSK3β
+N38	Name Annotation:T22 Referent:gsk3β
+T23	GENE-N 1396 1400	PARP
+N39	Name Annotation:T23 Referent:parp
+T24	GENE-Y 1414 1419	AEG-1
+N40	Name Annotation:T24 Referent:aeg1
+T5	CHEMICAL 1431 1443	ursolic acid
+N41	Name Annotation:T5 Referent:ursolicacid
+T6	CHEMICAL 1495 1507	ursolic acid
+N42	Name Annotation:T6 Referent:ursolicacid
+T25	GENE-N 1545 1549	AMPK
+N43	Name Annotation:T25 Referent:ampk
+T26	GENE-Y 1565 1570	GSK3β
+N44	Name Annotation:T26 Referent:gsk3β
+R1	ACTIVATOR Arg1:T16 Arg2:T43
+R2	ACTIVATOR Arg1:T16 Arg2:T44
+R3	ACTIVATOR Arg1:T13 Arg2:T37
+R4	ACTIVATOR Arg1:T13 Arg2:T38
+R5	ACTIVATOR Arg1:T13 Arg2:T39
+R6	PART-OF Arg1:T14 Arg2:T39
+R7	INHIBITOR Arg1:T15 Arg2:T40
+R8	INHIBITOR Arg1:T15 Arg2:T41
+R9	INHIBITOR Arg1:T1 Arg2:T42
+R10	INHIBITOR Arg1:T2 Arg2:T18
+R11	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T19
+R12	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T20
+R13	INHIBITOR Arg1:T4 Arg2:T21
+R14	INHIBITOR Arg1:T4 Arg2:T22
+R15	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T24
+R16	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T24
+R17	ACTIVATOR Arg1:T6 Arg2:T25
+R18	ACTIVATOR Arg1:T6 Arg2:T26
+R19	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T20
+R20	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T20
+R21	ACTIVATOR Arg1:T5 Arg2:T21
+R22	ACTIVATOR Arg1:T5 Arg2:T22
+R23	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T24

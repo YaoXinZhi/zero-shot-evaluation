@@ -1,0 +1,165 @@
+{
+    "entities": [
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "phosphodiesterase-5",
+            "Name": "phosphodiesterase5"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "vardenafil",
+            "Name": "vardenafil"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "sildenafil",
+            "Name": "sildenafil"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Vardenafil",
+            "Name": "vardenafil"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "phosphodiesterase-5",
+            "Name": "phosphodiesterase5"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PDE5",
+            "Name": "pde5"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "sildenafil",
+            "Name": "sildenafil"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "PDE5A1 catalytic domain",
+            "Name": "pde5a1catalyticdomain"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "vardenafil",
+            "Name": "vardenafil"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PDE5A1",
+            "Name": "pde5a1"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "vardenafil",
+            "Name": "vardenafil"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PDE5",
+            "Name": "pde5"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "vardenafil",
+            "Name": "vardenafil"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "sildenafil",
+            "Name": "sildenafil"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PDE5",
+            "Name": "pde5"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "vardenafil",
+            "Name": "vardenafil"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "PDE",
+            "Name": "pde"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "PDE5",
+            "Name": "pde5"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T16"
+        }
+    ]
+}

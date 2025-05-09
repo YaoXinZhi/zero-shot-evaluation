@@ -1,0 +1,157 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "tert-Butylcarbamate",
+            "Name": "tertbutylcarbamate"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Histone Deacetylase",
+            "Name": "histonedeacetylase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "pyrrole",
+            "Name": "pyrrole"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "benzene",
+            "Name": "benzene"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "hydroxamates",
+            "Name": "hydroxamates"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "2'-aminoanilides",
+            "Name": "2aminoanilides"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "tert-butylcarbamate",
+            "Name": "tertbutylcarbamate"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "histone deacetylase",
+            "Name": "histonedeacetylase"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "HDAC",
+            "Name": "hdac"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "HDAC6",
+            "Name": "hdac6"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "hydroxamates",
+            "Name": "hydroxamates"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "acetyl-\u03b1-tubulin",
+            "Name": "acetyl\u03b1tubulin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "SAHA",
+            "Name": "saha"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "pyrrole anilide",
+            "Name": "pyrroleanilide"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "histone H3",
+            "Name": "histoneh3"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T11"
+        }
+    ]
+}

@@ -1,0 +1,177 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "sulforaphane",
+            "Name": "sulforaphane"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "6-hydroxydopamine",
+            "Name": "6hydroxydopamine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Sulforaphane",
+            "Name": "sulforaphane"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "SFN",
+            "Name": "sfn"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "SFN",
+            "Name": "sfn"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "6-hydroxydopamine",
+            "Name": "6hydroxydopamine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "6-OHDA",
+            "Name": "6ohda"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "SFN",
+            "Name": "sfn"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "6-OHDA",
+            "Name": "6ohda"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "6-OHDA",
+            "Name": "6ohda"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "SFN",
+            "Name": "sfn"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "SFN",
+            "Name": "sfn"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "6-OHDA",
+            "Name": "6ohda"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "SFN",
+            "Name": "sfn"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "6-OHDA",
+            "Name": "6ohda"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "SFN",
+            "Name": "sfn"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "glutathione-S-transferase",
+            "Name": "glutathionestransferase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "S",
+            "Name": "s"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "glutathione reductase",
+            "Name": "glutathionereductase"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "ERK1/2",
+            "Name": "erk12"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "SFN",
+            "Name": "sfn"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T17",
+            "target": "T25"
+        },
+        {
+            "type": "Activator",
+            "source": "T18",
+            "target": "T25"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T23"
+        }
+    ]
+}

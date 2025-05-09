@@ -1,0 +1,179 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Carbonic anhydrase",
+            "Name": "carbonicanhydrase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Benzenesulfonamides",
+            "Name": "benzenesulfonamides"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "cyanoacrylamide",
+            "Name": "cyanoacrylamide"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Saccharomyces cerevisiae \u03b2-carbonic anhydrase",
+            "Name": "saccharomycescerevisiae\u03b2carbonicanhydrase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "benzenesulfonamides",
+            "Name": "benzenesulfonamides"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cyanoacrylamide",
+            "Name": "cyanoacrylamide"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "tyrphostine",
+            "Name": "tyrphostine"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "\u03b2-carbonic anhydrase",
+            "Name": "\u03b2carbonicanhydrase"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "CA",
+            "Name": "ca"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "EC 4.2.1.1",
+            "Name": "ec4211"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "ScCA",
+            "Name": "scca"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "ScCA",
+            "Name": "scca"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "hCA I",
+            "Name": "hcai"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "ScCA",
+            "Name": "scca"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "hCA II",
+            "Name": "hcaii"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "azole",
+            "Name": "azole"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "sulfonamides",
+            "Name": "sulfonamides"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T11"
+        }
+    ]
+}

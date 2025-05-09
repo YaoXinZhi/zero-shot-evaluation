@@ -1,0 +1,182 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Beta-glucogallin",
+            "Name": "betaglucogallin"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "aldose",
+            "Name": "aldose"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "aldose reductase",
+            "Name": "aldosereductase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Aldose",
+            "Name": "aldose"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Aldose reductase",
+            "Name": "aldosereductase"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "AR",
+            "Name": "ar"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "aldehydes",
+            "Name": "aldehydes"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "alcohol",
+            "Name": "alcohol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Beta-glucogallin",
+            "Name": "betaglucogallin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "BGG",
+            "Name": "bgg"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "AR",
+            "Name": "ar"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "BGG",
+            "Name": "bgg"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "AR",
+            "Name": "ar"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "sorbitol",
+            "Name": "sorbitol"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "BGG",
+            "Name": "bgg"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "AR",
+            "Name": "ar"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "JNK",
+            "Name": "jnk"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "p38",
+            "Name": "p38"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "BGG",
+            "Name": "bgg"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "BGG",
+            "Name": "bgg"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T19"
+        },
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T13"
+        },
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T14"
+        },
+        {
+            "type": "Product of",
+            "source": "T9",
+            "target": "T13"
+        },
+        {
+            "type": "Product of",
+            "source": "T9",
+            "target": "T14"
+        }
+    ]
+}

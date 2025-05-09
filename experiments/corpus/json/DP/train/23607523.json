@@ -1,0 +1,252 @@
+{
+    "entities": [
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "Pyralomicin",
+            "Name": "pyralomicin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "pyralomicin",
+            "Name": "pyralomicin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "pyralomicin",
+            "Name": "pyralomicin"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "nonribosomal peptide synthetases",
+            "Name": "nonribosomalpeptidesynthetases"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "NRPS",
+            "Name": "nrps"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "polyketide synthases",
+            "Name": "polyketidesynthases"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "PKS",
+            "Name": "pks"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "benzopyranopyrrole",
+            "Name": "benzopyranopyrrole"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "halogenases",
+            "Name": "halogenases"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "O",
+            "Name": "o"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "O-methyltransferase",
+            "Name": "omethyltransferase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "N-glycosyltransferase",
+            "Name": "nglycosyltransferase"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "N-glycosyltransferase",
+            "Name": "nglycosyltransferase"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "cyclitol",
+            "Name": "cyclitol"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "C7",
+            "Name": "c7"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "cyclitol",
+            "Name": "cyclitol"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "benzopyranopyrrole",
+            "Name": "benzopyranopyrrole"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "N-glycosyltransferase",
+            "Name": "nglycosyltransferase"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "prlH",
+            "Name": "prlh"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "pyralomicin",
+            "Name": "pyralomicin"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "PrlA",
+            "Name": "prla"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "sugar",
+            "Name": "sugar"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "sugar phosphate cyclase",
+            "Name": "sugarphosphatecyclase"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "phosphate",
+            "Name": "phosphate"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "C7",
+            "Name": "c7"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cyclitol",
+            "Name": "cyclitol"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T22"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T19"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T20"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T21"
+        },
+        {
+            "type": "Product of",
+            "source": "T15",
+            "target": "T27"
+        },
+        {
+            "type": "Product of",
+            "source": "T15",
+            "target": "T28"
+        },
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T30"
+        },
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T30"
+        },
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T29"
+        },
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T29"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T25"
+        }
+    ]
+}

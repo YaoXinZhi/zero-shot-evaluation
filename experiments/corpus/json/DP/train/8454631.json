@@ -1,0 +1,250 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "prostaglandin",
+            "Name": "prostaglandin"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "prostaglandin endoperoxide synthase",
+            "Name": "prostaglandinendoperoxidesynthase"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "aspirin",
+            "Name": "aspirin"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "steroidal",
+            "Name": "steroidal"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "prostaglandin",
+            "Name": "prostaglandin"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "prostaglandin endoperoxide (PGH) synthase-1",
+            "Name": "prostaglandinendoperoxidepghsynthase1"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "PGH synthase-2",
+            "Name": "pghsynthase2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Aspirin",
+            "Name": "aspirin"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "PGH synthase-1",
+            "Name": "pghsynthase1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "aspirin",
+            "Name": "aspirin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "PGH synthase-2",
+            "Name": "pghsynthase2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "15-hydroxyeicosatetraenoic acid",
+            "Name": "15hydroxyeicosatetraenoicacid"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "15-HETE",
+            "Name": "15hete"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "indomethacin",
+            "Name": "indomethacin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "sulindac sulfide",
+            "Name": "sulindacsulfide"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "piroxicam",
+            "Name": "piroxicam"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "PGH synthase-1",
+            "Name": "pghsynthase1"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "ibuprofen",
+            "Name": "ibuprofen"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "flurbiprofen",
+            "Name": "flurbiprofen"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "meclofenamate",
+            "Name": "meclofenamate"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "6-methoxy-2-naphthylacetic acid",
+            "Name": "6methoxy2naphthylaceticacid"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "PGH synthase-2",
+            "Name": "pghsynthase2"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "PGH synthases",
+            "Name": "pghsynthases"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "PGH synthase",
+            "Name": "pghsynthase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T16",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T16",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T19"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T20"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T25"
+        }
+    ]
+}

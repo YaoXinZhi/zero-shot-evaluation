@@ -1,0 +1,97 @@
+T30	CHEMICAL 0 18	11β-Hydroxysteroid
+N1	Name Annotation:T30 Referent:11βhydroxysteroid
+T42	GENE-Y 0 39	11β-Hydroxysteroid dehydrogenase type 1
+N2	Name Annotation:T42 Referent:11βhydroxysteroiddehydrogenasetype1
+T31	CHEMICAL 75 107	7-keto- and 7-hydroxy-oxysterols
+N3	Name Annotation:T31 Referent:7ketoand7hydroxyoxysterols
+T1	CHEMICAL 117 135	11β-Hydroxysteroid
+N4	Name Annotation:T1 Referent:11βhydroxysteroid
+T32	GENE-Y 117 151	11β-Hydroxysteroid dehydrogenase 1
+N5	Name Annotation:T32 Referent:11βhydroxysteroiddehydrogenase1
+T36	GENE-Y 153 160	11βHSD1
+N6	Name Annotation:T36 Referent:11βhsd1
+T38	GENE-N 162 174	EC 1.1.1.146
+N7	Name Annotation:T38 Referent:ec111146
+T2	CHEMICAL 220 227	11-keto
+N8	Name Annotation:T2 Referent:11keto
+T16	CHEMICAL 307 341	7β-hydroxy- and 7-keto-cholesterol
+N9	Name Annotation:T16 Referent:7βhydroxyand7ketocholesterol
+T17	CHEMICAL 343 348	7βOHC
+N10	Name Annotation:T17 Referent:7βohc
+T18	CHEMICAL 350 353	7KC
+N11	Name Annotation:T18 Referent:7kc
+T37	GENE-Y 505 512	11βHSD1
+N12	Name Annotation:T37 Referent:11βhsd1
+T19	CHEMICAL 553 556	7KC
+N13	Name Annotation:T19 Referent:7kc
+T20	CHEMICAL 561 566	7βOHC
+N14	Name Annotation:T20 Referent:7βohc
+T21	CHEMICAL 640 650	oxysterols
+N15	Name Annotation:T21 Referent:oxysterols
+T22	CHEMICAL 729 732	7KC
+N16	Name Annotation:T22 Referent:7kc
+T23	CHEMICAL 737 742	7βOHC
+N17	Name Annotation:T23 Referent:7βohc
+T39	GENE-Y 834 838	ApoE
+N18	Name Annotation:T39 Referent:apoe
+T40	GENE-Y 899 906	11βHSD1
+N19	Name Annotation:T40 Referent:11βhsd1
+T24	CHEMICAL 938 941	7KC
+N20	Name Annotation:T24 Referent:7kc
+T25	CHEMICAL 942 947	7βOHC
+N21	Name Annotation:T25 Referent:7βohc
+T26	CHEMICAL 1019 1022	7KC
+N22	Name Annotation:T26 Referent:7kc
+T27	CHEMICAL 1023 1028	7βOHC
+N23	Name Annotation:T27 Referent:7βohc
+T28	CHEMICAL 1064 1069	NADPH
+N24	Name Annotation:T28 Referent:nadph
+T29	CHEMICAL 1113 1131	hexose-6-phosphate
+N25	Name Annotation:T29 Referent:hexose6phosphate
+T41	GENE-Y 1113 1145	hexose-6-phosphate dehydrogenase
+N26	Name Annotation:T41 Referent:hexose6phosphatedehydrogenase
+T3	CHEMICAL 1174 1186	7-oxysterols
+N27	Name Annotation:T3 Referent:7oxysterols
+T33	GENE-Y 1190 1204	murine 11βHSD1
+N28	Name Annotation:T33 Referent:murine11βhsd1
+T4	CHEMICAL 1295 1300	7βOHC
+N29	Name Annotation:T4 Referent:7βohc
+T5	CHEMICAL 1345 1359	corticosterone
+N30	Name Annotation:T5 Referent:corticosterone
+T6	CHEMICAL 1380 1383	7KC
+N31	Name Annotation:T6 Referent:7kc
+T7	CHEMICAL 1419 1443	11-dehydrocorticosterone
+N32	Name Annotation:T7 Referent:11dehydrocorticosterone
+T8	CHEMICAL 1473 1485	7-oxysterols
+N33	Name Annotation:T8 Referent:7oxysterols
+T9	CHEMICAL 1518 1529	cholesterol
+N34	Name Annotation:T9 Referent:cholesterol
+T34	GENE-Y 1630 1637	11βHSD1
+N35	Name Annotation:T34 Referent:11βhsd1
+T10	CHEMICAL 1711 1716	7βOHC
+N36	Name Annotation:T10 Referent:7βohc
+T11	CHEMICAL 1721 1724	7KC
+N37	Name Annotation:T11 Referent:7kc
+T12	CHEMICAL 1749 1752	7KC
+N38	Name Annotation:T12 Referent:7kc
+T13	CHEMICAL 1765 1777	7-oxysterols
+N39	Name Annotation:T13 Referent:7oxysterols
+T14	CHEMICAL 1859 1871	7-oxysterols
+N40	Name Annotation:T14 Referent:7oxysterols
+T15	CHEMICAL 1941 1955	corticosteroid
+N41	Name Annotation:T15 Referent:corticosteroid
+T35	GENE-N 1941 1965	corticosteroid receptors
+N42	Name Annotation:T35 Referent:corticosteroidreceptors
+R1	SUBSTRATE_PRODUCT-OF Arg1:T31 Arg2:T42
+R2	SUBSTRATE Arg1:T2 Arg2:T32
+R3	SUBSTRATE Arg1:T2 Arg2:T36
+R4	SUBSTRATE Arg1:T2 Arg2:T38
+R5	SUBSTRATE Arg1:T24 Arg2:T40
+R6	PRODUCT-OF Arg1:T25 Arg2:T40
+R7	SUBSTRATE Arg1:T3 Arg2:T33
+R8	PRODUCT-OF Arg1:T10 Arg2:T34
+R9	SUBSTRATE Arg1:T11 Arg2:T34
+R10	SUBSTRATE Arg1:T12 Arg2:T34
+R11	PRODUCT-OF Arg1:T28 Arg2:T41
+R12	PRODUCT-OF Arg1:T27 Arg2:T41
+R13	SUBSTRATE Arg1:T26 Arg2:T41

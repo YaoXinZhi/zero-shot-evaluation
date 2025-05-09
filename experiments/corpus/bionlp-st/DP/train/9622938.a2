@@ -1,0 +1,42 @@
+T10	CHEMICAL 36 66	delta1-pyrroline 5-carboxylate
+N1	Name Annotation:T10 Referent:delta1pyrroline5carboxylate
+T16	GENE-Y 36 77	delta1-pyrroline 5-carboxylate synthetase
+N2	Name Annotation:T16 Referent:delta1pyrroline5carboxylatesynthetase
+T1	CHEMICAL 91 122	delta 1-pyrroline 5-carboxylate
+N3	Name Annotation:T1 Referent:delta1pyrroline5carboxylate
+T11	GENE-Y 91 133	delta 1-pyrroline 5-carboxylate synthetase
+N4	Name Annotation:T11 Referent:delta1pyrroline5carboxylatesynthetase
+T13	GENE-Y 135 149	P5C synthetase
+N5	Name Annotation:T13 Referent:p5csynthetase
+T8	CHEMICAL 165 168	ATP
+N6	Name Annotation:T8 Referent:atp
+T9	CHEMICAL 177 184	NAD(P)H
+N7	Name Annotation:T9 Referent:nadph
+T2	CHEMICAL 209 220	L-glutamate
+N8	Name Annotation:T2 Referent:lglutamate
+T3	CHEMICAL 224 246	glutamate semialdehyde
+N9	Name Annotation:T3 Referent:glutamatesemialdehyde
+T4	CHEMICAL 248 251	GSA
+N10	Name Annotation:T4 Referent:gsa
+T5	CHEMICAL 290 297	proline
+N11	Name Annotation:T5 Referent:proline
+T12	GENE-Y 514 534	human P5C synthetase
+N12	Name Annotation:T12 Referent:humanp5csynthetase
+T6	CHEMICAL 653 664	amino acids
+N13	Name Annotation:T6 Referent:aminoacids
+T14	GENE-N 702 707	L396S
+N14	Name Annotation:T14 Referent:l396s
+T7	CHEMICAL 727 737	amino acid
+N15	Name Annotation:T7 Referent:aminoacid
+T15	GENE-Y 807 821	P5C synthetase
+N16	Name Annotation:T15 Referent:p5csynthetase
+R1	PART-OF Arg1:T7 Arg2:T14
+R2	PART-OF Arg1:T6 Arg2:T12
+R3	SUBSTRATE Arg1:T2 Arg2:T11
+R4	SUBSTRATE Arg1:T2 Arg2:T13
+R5	PRODUCT-OF Arg1:T3 Arg2:T11
+R6	PRODUCT-OF Arg1:T3 Arg2:T13
+R7	PRODUCT-OF Arg1:T4 Arg2:T11
+R8	PRODUCT-OF Arg1:T4 Arg2:T13
+R9	PRODUCT-OF Arg1:T5 Arg2:T11
+R10	PRODUCT-OF Arg1:T5 Arg2:T13

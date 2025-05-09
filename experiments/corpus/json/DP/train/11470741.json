@@ -1,0 +1,272 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "Cerivastatin",
+            "Name": "cerivastatin"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "HMG-CoA",
+            "Name": "hmgcoa"
+        },
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "HMG-CoA reductase",
+            "Name": "hmgcoareductase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Cerivastatin",
+            "Name": "cerivastatin"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "3-hydroxy 3-methylglutaryl coenzyme A",
+            "Name": "3hydroxy3methylglutarylcoenzymea"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "3-hydroxy 3-methylglutaryl coenzyme A reductase",
+            "Name": "3hydroxy3methylglutarylcoenzymeareductase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "farnesyl pyrophosphate",
+            "Name": "farnesylpyrophosphate"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "FPP",
+            "Name": "fpp"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "geranylgeranyl pyrophosphate",
+            "Name": "geranylgeranylpyrophosphate"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "GGPP",
+            "Name": "ggpp"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "Ras",
+            "Name": "ras"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "Rho",
+            "Name": "rho"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "Ras",
+            "Name": "ras"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "NFkappaB",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "RhoA",
+            "Name": "rhoa"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "cerivastatin",
+            "Name": "cerivastatin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "p21",
+            "Name": "p21"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Waf1",
+            "Name": "waf1"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "Cip1",
+            "Name": "cip1"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "RhoA",
+            "Name": "rhoa"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "actin",
+            "Name": "actin"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "RhoA",
+            "Name": "rhoa"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cerivastatin",
+            "Name": "cerivastatin"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "NFkappaB",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "RhoA",
+            "Name": "rhoa"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "urokinase",
+            "Name": "urokinase"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "metalloproteinase-9",
+            "Name": "metalloproteinase9"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "proteases",
+            "Name": "proteases"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "Ras",
+            "Name": "ras"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cerivastatin",
+            "Name": "cerivastatin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "FPP",
+            "Name": "fpp"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "cerivastatin",
+            "Name": "cerivastatin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "cerivastatin",
+            "Name": "cerivastatin"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "cerivastatin",
+            "Name": "cerivastatin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T35"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T31"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T31"
+        },
+        {
+            "type": "Product of",
+            "source": "T8",
+            "target": "T31"
+        },
+        {
+            "type": "Product of",
+            "source": "T10",
+            "target": "T31"
+        },
+        {
+            "type": "Product of",
+            "source": "T11",
+            "target": "T31"
+        },
+        {
+            "type": "Product of",
+            "source": "T12",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T26"
+        }
+    ]
+}

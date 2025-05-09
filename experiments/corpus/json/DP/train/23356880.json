@@ -1,0 +1,123 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "tocopherols",
+            "Name": "tocopherols"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "tocotrienols",
+            "Name": "tocotrienols"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "oleocanthal",
+            "Name": "oleocanthal"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "p-HPEA-EDA",
+            "Name": "phpeaeda"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "COX1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "COX2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "cycloxygenases",
+            "Name": "cycloxygenases"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "lipoxygenase",
+            "Name": "lipoxygenase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "LOX",
+            "Name": "lox"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "polyunsaturated fatty acids",
+            "Name": "polyunsaturatedfattyacids"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cis-cis-1,4-pentadiene",
+            "Name": "ciscis14pentadiene"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "trans-\u03b2-carotene",
+            "Name": "trans\u03b2carotene"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "xanthophylls",
+            "Name": "xanthophylls"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "lutein",
+            "Name": "lutein"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "violaxanthin",
+            "Name": "violaxanthin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "neoxanthin",
+            "Name": "neoxanthin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T12"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T13"
+        }
+    ]
+}

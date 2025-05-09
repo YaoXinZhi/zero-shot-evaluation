@@ -1,0 +1,79 @@
+T15	CHEMICAL 30 34	MPTP
+N1	Name Annotation:T15 Referent:mptp
+T16	CHEMICAL 60 68	dopamine
+N2	Name Annotation:T16 Referent:dopamine
+T32	GENE-Y 164 170	parkin
+N3	Name Annotation:T32 Referent:parkin
+T6	CHEMICAL 212 220	dopamine
+N4	Name Annotation:T6 Referent:dopamine
+T4	CHEMICAL 346 354	dopamine
+N5	Name Annotation:T4 Referent:dopamine
+T5	CHEMICAL 465 509	1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine
+N6	Name Annotation:T5 Referent:1methyl4phenyl1236tetrahydropyridine
+T7	CHEMICAL 511 515	MPTP
+N7	Name Annotation:T7 Referent:mptp
+T8	CHEMICAL 556 560	MPTP
+N8	Name Annotation:T8 Referent:mptp
+T29	GENE-Y 604 610	parkin
+N9	Name Annotation:T29 Referent:parkin
+T30	GENE-Y 615 655	ubiquitin carboxy-terminal hydrolase L-1
+N10	Name Annotation:T30 Referent:ubiquitincarboxyterminalhydrolasel1
+T9	CHEMICAL 625 632	carboxy
+N11	Name Annotation:T9 Referent:carboxy
+T31	GENE-Y 657 664	UCHL- 1
+N12	Name Annotation:T31 Referent:uchl1
+T10	CHEMICAL 736 740	MPTP
+N13	Name Annotation:T10 Referent:mptp
+T11	CHEMICAL 774 778	MPTP
+N14	Name Annotation:T11 Referent:mptp
+T12	CHEMICAL 850 854	MPTP
+N15	Name Annotation:T12 Referent:mptp
+T13	CHEMICAL 996 1000	MPTP
+N16	Name Annotation:T13 Referent:mptp
+T14	CHEMICAL 1084 1088	MPTP
+N17	Name Annotation:T14 Referent:mptp
+T1	CHEMICAL 1232 1240	tyrosine
+N18	Name Annotation:T1 Referent:tyrosine
+T17	GENE-Y 1232 1252	tyrosine hydroxylase
+N19	Name Annotation:T17 Referent:tyrosinehydroxylase
+T18	GENE-Y 1254 1256	TH
+N20	Name Annotation:T18 Referent:th
+T19	GENE-Y 1262 1276	DA transporter
+N21	Name Annotation:T19 Referent:datransporter
+T20	GENE-Y 1328 1330	TH
+N22	Name Annotation:T20 Referent:th
+T2	CHEMICAL 1398 1402	MPTP
+N23	Name Annotation:T2 Referent:mptp
+T21	GENE-Y 1478 1480	TH
+N24	Name Annotation:T21 Referent:th
+T22	GENE-Y 1582 1588	parkin
+N25	Name Annotation:T22 Referent:parkin
+T23	GENE-Y 1593 1599	UCHL-1
+N26	Name Annotation:T23 Referent:uchl1
+T3	CHEMICAL 1747 1751	MPTP
+N27	Name Annotation:T3 Referent:mptp
+T24	GENE-Y 1805 1811	UCHL-1
+N28	Name Annotation:T24 Referent:uchl1
+T25	GENE-Y 1841 1847	parkin
+N29	Name Annotation:T25 Referent:parkin
+T26	GENE-Y 2065 2071	parkin
+N30	Name Annotation:T26 Referent:parkin
+T27	GENE-Y 2121 2127	parkin
+N31	Name Annotation:T27 Referent:parkin
+T28	GENE-Y 2132 2138	UCHL-1
+N32	Name Annotation:T28 Referent:uchl1
+R1	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T32
+R2	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T29
+R3	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T30
+R4	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T31
+R5	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T29
+R6	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T30
+R7	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T31
+R8	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T29
+R9	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T30
+R10	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T31
+R11	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T17
+R12	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T18
+R13	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T19
+R14	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T24
+R15	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T25

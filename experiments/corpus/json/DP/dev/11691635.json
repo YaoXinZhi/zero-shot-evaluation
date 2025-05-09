@@ -1,0 +1,93 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "arginine",
+            "Name": "arginine"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "transamidinase",
+            "Name": "transamidinase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ornithine",
+            "Name": "ornithine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "proline",
+            "Name": "proline"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "ornithine",
+            "Name": "ornithine"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "ornithine aminotransferase",
+            "Name": "ornithineaminotransferase"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "OAT",
+            "Name": "oat"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "ornithine",
+            "Name": "ornithine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "proline",
+            "Name": "proline"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "OAT",
+            "Name": "oat"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "OAT",
+            "Name": "oat"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T8"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T9"
+        }
+    ]
+}

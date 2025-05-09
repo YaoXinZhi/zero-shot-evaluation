@@ -1,0 +1,98 @@
+T17	CHEMICAL 12 28	aryl hydrocarbon
+N1	Name Annotation:T17 Referent:arylhydrocarbon
+T43	GENE-Y 12 37	aryl hydrocarbon receptor
+N2	Name Annotation:T43 Referent:arylhydrocarbonreceptor
+T14	CHEMICAL 139 145	Pb(2+)
+N3	Name Annotation:T14 Referent:pb2
+T6	CHEMICAL 309 315	Pb(2+)
+N4	Name Annotation:T6 Referent:pb2
+T10	CHEMICAL 398 404	Pb(2+)
+N5	Name Annotation:T10 Referent:pb2
+T11	CHEMICAL 523 529	Pb(2+)
+N6	Name Annotation:T11 Referent:pb2
+T12	CHEMICAL 642 658	aryl hydrocarbon
+N7	Name Annotation:T12 Referent:arylhydrocarbon
+T39	GENE-Y 642 667	aryl hydrocarbon receptor
+N8	Name Annotation:T39 Referent:arylhydrocarbonreceptor
+T40	GENE-Y 669 672	AhR
+N9	Name Annotation:T40 Referent:ahr
+T41	GENE-Y 694 712	cytochrome P4501A1
+N10	Name Annotation:T41 Referent:cytochromep4501a1
+T42	GENE-Y 714 720	CYP1A1
+N11	Name Annotation:T42 Referent:cyp1a1
+T13	CHEMICAL 726 732	Pb(2+)
+N12	Name Annotation:T13 Referent:pb2
+T15	CHEMICAL 815 821	Pb(2+)
+N13	Name Annotation:T15 Referent:pb2
+T16	CHEMICAL 1071 1077	Pb(2+)
+N14	Name Annotation:T16 Referent:pb2
+T18	GENE-N 1140 1167	α- and β-myosin heavy chain
+N15	Name Annotation:T18 Referent:αandβmyosinheavychain
+T19	GENE-N 1169 1174	α-MHC
+N16	Name Annotation:T19 Referent:αmhc
+T20	GENE-N 1179 1184	β-MHC
+N17	Name Annotation:T20 Referent:βmhc
+T21	GENE-Y 1187 1212	brain Natriuretic Peptide
+N18	Name Annotation:T21 Referent:brainnatriureticpeptide
+T22	GENE-Y 1214 1217	BNP
+N19	Name Annotation:T22 Referent:bnp
+T23	GENE-Y 1224 1230	CYP1A1
+N20	Name Annotation:T23 Referent:cyp1a1
+T1	CHEMICAL 1363 1369	Pb(2+)
+N21	Name Annotation:T1 Referent:pb2
+T2	CHEMICAL 1467 1474	lactate
+N22	Name Annotation:T2 Referent:lactate
+T24	GENE-N 1467 1488	lactate dehydrogenase
+N23	Name Annotation:T24 Referent:lactatedehydrogenase
+T3	CHEMICAL 1493 1501	creatine
+N24	Name Annotation:T3 Referent:creatine
+T25	GENE-N 1493 1508	creatine kinase
+N25	Name Annotation:T25 Referent:creatinekinase
+T4	CHEMICAL 1561 1567	Pb(2+)
+N26	Name Annotation:T4 Referent:pb2
+T26	GENE-N 1586 1591	β-MHC
+N27	Name Annotation:T26 Referent:βmhc
+T27	GENE-Y 1596 1599	BNP
+N28	Name Annotation:T27 Referent:bnp
+T28	GENE-N 1618 1623	α-MHC
+N29	Name Annotation:T28 Referent:αmhc
+T5	CHEMICAL 1720 1726	Pb(2+)
+N30	Name Annotation:T5 Referent:pb2
+T29	GENE-N 1750 1755	β-MHC
+N31	Name Annotation:T29 Referent:βmhc
+T30	GENE-N 1760 1765	α-MHC
+N32	Name Annotation:T30 Referent:αmhc
+T31	GENE-Y 1908 1914	CYP1A1
+N33	Name Annotation:T31 Referent:cyp1a1
+T32	GENE-Y 1977 1983	CYP1A1
+N34	Name Annotation:T32 Referent:cyp1a1
+T33	GENE-Y 2046 2052	CYP1A1
+N35	Name Annotation:T33 Referent:cyp1a1
+T7	CHEMICAL 2091 2097	Pb(2+)
+N36	Name Annotation:T7 Referent:pb2
+T34	GENE-Y 2130 2133	AhR
+N37	Name Annotation:T34 Referent:ahr
+T8	CHEMICAL 2146 2157	resveratrol
+N38	Name Annotation:T8 Referent:resveratrol
+T9	CHEMICAL 2188 2194	Pb(2+)
+N39	Name Annotation:T9 Referent:pb2
+T35	GENE-N 2215 2220	β-MHC
+N40	Name Annotation:T35 Referent:βmhc
+T36	GENE-N 2225 2230	α-MHC
+N41	Name Annotation:T36 Referent:αmhc
+T37	GENE-Y 2311 2314	AhR
+N42	Name Annotation:T37 Referent:ahr
+T38	GENE-Y 2315 2321	CYP1A1
+N43	Name Annotation:T38 Referent:cyp1a1
+R1	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T24
+R2	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T25
+R3	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T26
+R4	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T27
+R5	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T28
+R6	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T29
+R7	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T30
+R8	ANTAGONIST Arg1:T8 Arg2:T34
+R9	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T35
+R10	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T36
+R11	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T35
+R12	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T36

@@ -1,0 +1,185 @@
+{
+    "entities": [
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "naltrindole",
+            "Name": "naltrindole"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "\u03ba-opioid receptor",
+            "Name": "\u03baopioidreceptor"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "\u03ba-opioid receptor",
+            "Name": "\u03baopioidreceptor"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "5'-(2-aminomethyl) naltrindole",
+            "Name": "52aminomethylnaltrindole"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "5'-AMN",
+            "Name": "5amn"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "N-((Naltrindol-5-yl) methyl) pentanimidamide",
+            "Name": "nnaltrindol5ylmethylpentanimidamide"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "5'-MABN",
+            "Name": "5mabn"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "naltrindole",
+            "Name": "naltrindole"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Opioid receptor",
+            "Name": "opioidreceptor"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "[(3)H]-diprenorphine",
+            "Name": "3hdiprenorphine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "guanosine-5'-O-(3-[35S]-thio) triphosphate",
+            "Name": "guanosine5o335sthiotriphosphate"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "[(35)S]-GTP\u03b3S",
+            "Name": "35sgtp\u03b3s"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "5'-AMN",
+            "Name": "5amn"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "5'-MABN",
+            "Name": "5mabn"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "5'-AMN",
+            "Name": "5amn"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "5'-MABN",
+            "Name": "5mabn"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "\u03ba-receptors",
+            "Name": "\u03bareceptors"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "\u03bc-receptor",
+            "Name": "\u03bcreceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "5'-AMN",
+            "Name": "5amn"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "5'-MABN",
+            "Name": "5mabn"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "U50,488",
+            "Name": "u50488"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "5'-AMN",
+            "Name": "5amn"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "5'-MABN",
+            "Name": "5mabn"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T11",
+            "target": "T21"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T18",
+            "target": "T23"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T12",
+            "target": "T21"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T13",
+            "target": "T21"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T16",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T17",
+            "target": "T22"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T16",
+            "target": "T19"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T17",
+            "target": "T19"
+        }
+    ]
+}

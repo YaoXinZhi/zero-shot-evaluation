@@ -1,0 +1,293 @@
+{
+    "entities": [
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "Src",
+            "Name": "src"
+        },
+        {
+            "id": "T36",
+            "type": "Gene",
+            "name": "actin",
+            "Name": "actin"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "adenosine dialdehyde",
+            "Name": "adenosinedialdehyde"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "methyl",
+            "Name": "methyl"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "S-adenosylmethionine",
+            "Name": "sadenosylmethionine"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "SAM",
+            "Name": "sam"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "adenosylhomocysteine",
+            "Name": "adenosylhomocysteine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "SAH",
+            "Name": "sah"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "adenosine dialdehyde",
+            "Name": "adenosinedialdehyde"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "AdOx",
+            "Name": "adox"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "adenosylhomocysteine",
+            "Name": "adenosylhomocysteine"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "adenosylhomocysteine (SAH) hydrolase",
+            "Name": "adenosylhomocysteinesahhydrolase"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "SAH",
+            "Name": "sah"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "SAHH",
+            "Name": "sahh"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "SAH",
+            "Name": "sah"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "AdOx",
+            "Name": "adox"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "Src",
+            "Name": "src"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "AdOx",
+            "Name": "adox"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "actin",
+            "Name": "actin"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "Src",
+            "Name": "src"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "p85",
+            "Name": "p85"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "SAH",
+            "Name": "sah"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "SAHH",
+            "Name": "sahh"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "3-deazaadenosine",
+            "Name": "3deazaadenosine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "DAZA",
+            "Name": "daza"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Src",
+            "Name": "src"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "actin",
+            "Name": "actin"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "actin",
+            "Name": "actin"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "Src",
+            "Name": "src"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "SAH",
+            "Name": "sah"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "SAHH",
+            "Name": "sahh"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "actin",
+            "Name": "actin"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "Src",
+            "Name": "src"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T32"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T32"
+        },
+        {
+            "type": "Substrate",
+            "source": "T13",
+            "target": "T31"
+        },
+        {
+            "type": "Substrate",
+            "source": "T13",
+            "target": "T32"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T15",
+            "target": "T33"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T34"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T22"
+        }
+    ]
+}

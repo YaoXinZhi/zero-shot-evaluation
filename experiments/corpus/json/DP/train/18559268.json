@@ -1,0 +1,115 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "taxane",
+            "Name": "taxane"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "microtubules",
+            "Name": "microtubules"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "paclitaxel",
+            "Name": "paclitaxel"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "microtubule",
+            "Name": "microtubule"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "taxanes",
+            "Name": "taxanes"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "epothilones",
+            "Name": "epothilones"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "paclitaxel",
+            "Name": "paclitaxel"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "microtubule",
+            "Name": "microtubule"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "docetaxel",
+            "Name": "docetaxel"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Taxanes",
+            "Name": "taxanes"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "microtubules",
+            "Name": "microtubules"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "P-glycoprotein",
+            "Name": "pglycoprotein"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "efflux pumps",
+            "Name": "effluxpumps"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T8"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T9"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T11"
+        }
+    ]
+}

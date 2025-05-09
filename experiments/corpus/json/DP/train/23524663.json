@@ -1,0 +1,95 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "3H",
+            "Name": "3h"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "(3)H",
+            "Name": "3h"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Br",
+            "Name": "br"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "(3)H",
+            "Name": "3h"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "(3)H",
+            "Name": "3h"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "(3)H",
+            "Name": "3h"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "(3)H",
+            "Name": "3h"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "MRP4",
+            "Name": "mrp4"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "(3)H",
+            "Name": "3h"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "(3)H",
+            "Name": "3h"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "nucleosides",
+            "Name": "nucleosides"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "nuclease",
+            "Name": "nuclease"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "nucleosides",
+            "Name": "nucleosides"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T12"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T13"
+        }
+    ]
+}

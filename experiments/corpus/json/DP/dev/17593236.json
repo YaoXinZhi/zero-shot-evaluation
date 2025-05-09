@@ -1,0 +1,82 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "dipeptidyl peptidase-4",
+            "Name": "dipeptidylpeptidase4"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "sitagliptin",
+            "Name": "sitagliptin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "glimepiride",
+            "Name": "glimepiride"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "glimepiride",
+            "Name": "glimepiride"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "metformin",
+            "Name": "metformin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "sitagliptin",
+            "Name": "sitagliptin"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "dipeptidyl peptidase-4",
+            "Name": "dipeptidylpeptidase4"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "DPP-4",
+            "Name": "dpp4"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "glycosylated haemoglobin",
+            "Name": "glycosylatedhaemoglobin"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "HbA(1c)",
+            "Name": "hba1c"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T7"
+        }
+    ]
+}

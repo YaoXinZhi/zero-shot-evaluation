@@ -1,0 +1,250 @@
+{
+    "entities": [
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "isoflavone",
+            "Name": "isoflavone"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "ABCA1",
+            "Name": "abca1"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Isoflavones",
+            "Name": "isoflavones"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "isoflavone",
+            "Name": "isoflavone"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "adenosine triphosphate",
+            "Name": "adenosinetriphosphate"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "adenosine triphosphate-binding cassette A1",
+            "Name": "adenosinetriphosphatebindingcassettea1"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "ABCA1",
+            "Name": "abca1"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "lipoprotein",
+            "Name": "lipoprotein"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "isoflavone",
+            "Name": "isoflavone"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "[H]-Cholesterol",
+            "Name": "hcholesterol"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "ABCA1",
+            "Name": "abca1"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "ABCA1",
+            "Name": "abca1"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "lipoprotein",
+            "Name": "lipoprotein"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "isoflavone",
+            "Name": "isoflavone"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "isoflavone",
+            "Name": "isoflavone"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "ABCA1",
+            "Name": "abca1"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "isoflavone",
+            "Name": "isoflavone"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "high-density lipoprotein",
+            "Name": "highdensitylipoprotein"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "pre-beta high-density lipoprotein",
+            "Name": "prebetahighdensitylipoprotein"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "ABCA1",
+            "Name": "abca1"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "equol",
+            "Name": "equol"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "equol",
+            "Name": "equol"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "isoflavone",
+            "Name": "isoflavone"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "ABCA1",
+            "Name": "abca1"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "pre-beta high-density lipoprotein",
+            "Name": "prebetahighdensitylipoprotein"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T15",
+            "target": "T28"
+        },
+        {
+            "type": "Substrate",
+            "source": "T15",
+            "target": "T29"
+        },
+        {
+            "type": "Substrate",
+            "source": "T18",
+            "target": "T32"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T25"
+        },
+        {
+            "type": "Substrate",
+            "source": "T12",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T27"
+        }
+    ]
+}

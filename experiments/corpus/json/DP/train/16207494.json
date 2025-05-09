@@ -1,0 +1,229 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "pyridoxal phosphate",
+            "Name": "pyridoxalphosphate"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "pyridoxal 5'-phosphate",
+            "Name": "pyridoxal5phosphate"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "PLP",
+            "Name": "plp"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "pyridoxal",
+            "Name": "pyridoxal"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "pyridoxal kinase",
+            "Name": "pyridoxalkinase"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "PLK",
+            "Name": "plk"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "pyridoxine 5'-phosphate",
+            "Name": "pyridoxine5phosphate"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "pyridoxine 5'-phosphate oxidase",
+            "Name": "pyridoxine5phosphateoxidase"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PNPO",
+            "Name": "pnpo"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PLK",
+            "Name": "plk"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "PNPO",
+            "Name": "pnpo"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "PLK",
+            "Name": "plk"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "PNPO",
+            "Name": "pnpo"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "PLK",
+            "Name": "plk"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "PNPO",
+            "Name": "pnpo"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "PLK",
+            "Name": "plk"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "PNPO",
+            "Name": "pnpo"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "PLK",
+            "Name": "plk"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "PNPO",
+            "Name": "pnpo"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "PLK",
+            "Name": "plk"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "PNPO",
+            "Name": "pnpo"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "PLK",
+            "Name": "plk"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "PNPO",
+            "Name": "pnpo"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "PLK",
+            "Name": "plk"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PNPO",
+            "Name": "pnpo"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "gamma-aminobutyric acid",
+            "Name": "gammaaminobutyricacid"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T27"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T10"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T14"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T27"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T12"
+        }
+    ]
+}

@@ -1,0 +1,47 @@
+T20	GENE 25 30	LDH-X
+N1	Name Annotation:T20 Referent:ldhx
+T11	CHEMICAL 66 74	gossypol
+N2	Name Annotation:T11 Referent:gossypol
+T2	CHEMICAL 117 143	(+)-, (-)-, (+/-)-gossypol
+N3	Name Annotation:T2 Referent:gossypol
+T5	CHEMICAL 148 174	(+/-)-gossypol acetic acid
+N4	Name Annotation:T5 Referent:gossypolaceticacid
+T12	GENE 201 206	LDH-X
+N5	Name Annotation:T12 Referent:ldhx
+T1	CHEMICAL 230 250	Gossypol acetic acid
+N6	Name Annotation:T1 Referent:gossypolaceticacid
+T13	GENE 277 282	LDH-X
+N7	Name Annotation:T13 Referent:ldhx
+T14	GENE 480 483	LDH
+N8	Name Annotation:T14 Referent:ldh
+T3	CHEMICAL 558 566	gossypol
+N9	Name Annotation:T3 Referent:gossypol
+T4	CHEMICAL 568 576	Gossypol
+N10	Name Annotation:T4 Referent:gossypol
+T15	GENE 628 651	human and hamster LDH-X
+N11	Name Annotation:T15 Referent:humanandhamsterldhx
+T6	CHEMICAL 681 685	NADH
+N12	Name Annotation:T6 Referent:nadh
+T16	GENE 713 724	human LDH-X
+N13	Name Annotation:T16 Referent:humanldhx
+T17	GENE 770 783	hamster LDH-X
+N14	Name Annotation:T17 Referent:hamsterldhx
+T7	CHEMICAL 814 832	alpha-ketobutyrate
+N15	Name Annotation:T7 Referent:alphaketobutyrate
+T18	GENE 853 872	human serum albumin
+N16	Name Annotation:T18 Referent:humanserumalbumin
+T8	CHEMICAL 876 889	poly-L-lysine
+N17	Name Annotation:T8 Referent:polyllysine
+T9	CHEMICAL 883 889	lysine
+N18	Name Annotation:T9 Referent:lysine
+T19	GENE 915 938	human and hamster LDH-X
+N19	Name Annotation:T19 Referent:humanandhamsterldhx
+T10	CHEMICAL 944 952	gossypol
+N20	Name Annotation:T10 Referent:gossypol
+R1	INHIBITOR Arg1:T11 Arg2:T20
+R2	INHIBITOR Arg1:T5 Arg2:T12
+R3	INHIBITOR Arg1:T2 Arg2:T12
+R4	INHIBITOR Arg1:T1 Arg2:T13
+R5	INHIBITOR Arg1:T4 Arg2:T15
+R6	INHIBITOR Arg1:T6 Arg2:T16
+R7	SUBSTRATE Arg1:T7 Arg2:T17

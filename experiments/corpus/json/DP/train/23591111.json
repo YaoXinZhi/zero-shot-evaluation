@@ -1,0 +1,95 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "histone deacetylase",
+            "Name": "histonedeacetylase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "\u03b2-cyclodextrin",
+            "Name": "\u03b2cyclodextrin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "\u03b2CD",
+            "Name": "\u03b2cd"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "histone deacetylase",
+            "Name": "histonedeacetylase"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "HDAC",
+            "Name": "hdac"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "zinc",
+            "Name": "zinc"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "hydroxamic acid",
+            "Name": "hydroxamicacid"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "HDAC",
+            "Name": "hdac"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "SAHA",
+            "Name": "saha"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "vorinostat",
+            "Name": "vorinostat"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "HDAC",
+            "Name": "hdac"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "SAHA",
+            "Name": "saha"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "HDAC8",
+            "Name": "hdac8"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T9"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T10"
+        }
+    ]
+}

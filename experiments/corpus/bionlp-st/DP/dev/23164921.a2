@@ -1,0 +1,48 @@
+T11	CHEMICAL 0 8	Catalpol
+N1	Name Annotation:T11 Referent:catalpol
+T20	GENE 27 32	IFN-γ
+N2	Name Annotation:T20 Referent:ifnγ
+T3	CHEMICAL 297 305	catalpol
+N3	Name Annotation:T3 Referent:catalpol
+T4	CHEMICAL 372 380	catalpol
+N4	Name Annotation:T4 Referent:catalpol
+T5	CHEMICAL 544 552	catalpol
+N5	Name Annotation:T5 Referent:catalpol
+T6	CHEMICAL 620 628	catalpol
+N6	Name Annotation:T6 Referent:catalpol
+T14	GENE 654 666	interferon-γ
+N7	Name Annotation:T14 Referent:interferonγ
+T7	CHEMICAL 713 715	NO
+N8	Name Annotation:T7 Referent:no
+T15	GENE 739 743	iNOS
+N9	Name Annotation:T15 Referent:inos
+T8	CHEMICAL 783 791	catalpol
+N10	Name Annotation:T8 Referent:catalpol
+T9	CHEMICAL 846 854	catalpol
+N11	Name Annotation:T9 Referent:catalpol
+T16	GENE 926 930	iNOS
+N12	Name Annotation:T16 Referent:inos
+T17	GENE 932 937	COX-2
+N13	Name Annotation:T17 Referent:cox2
+T18	GENE 942 946	TLR4
+N14	Name Annotation:T18 Referent:tlr4
+T10	CHEMICAL 1025 1033	catalpol
+N15	Name Annotation:T10 Referent:catalpol
+T19	GENE 1078 1095	nuclear factor-κB
+N16	Name Annotation:T19 Referent:nuclearfactorκb
+T12	GENE 1097 1102	NF-κB
+N17	Name Annotation:T12 Referent:nfκb
+T1	CHEMICAL 1157 1165	catalpol
+N18	Name Annotation:T1 Referent:catalpol
+T13	GENE 1263 1268	NF-κB
+N19	Name Annotation:T13 Referent:nfκb
+T2	CHEMICAL 1348 1356	catalpol
+N20	Name Annotation:T2 Referent:catalpol
+R1	INHIBITOR Arg1:T11 Arg2:T20
+R2	INHIBITOR Arg1:T8 Arg2:T15
+R3	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T16
+R4	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T17
+R5	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T18
+R6	INHIBITOR Arg1:T10 Arg2:T19
+R7	INHIBITOR Arg1:T10 Arg2:T12
+R8	INHIBITOR Arg1:T1 Arg2:T13

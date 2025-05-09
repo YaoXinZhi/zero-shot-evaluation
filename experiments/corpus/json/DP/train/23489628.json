@@ -1,0 +1,99 @@
+{
+    "entities": [
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "N-(thiophen-2-yl) benzamide",
+            "Name": "nthiophen2ylbenzamide"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "BRAF",
+            "Name": "braf"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "V600E",
+            "Name": "v600e"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "V600E",
+            "Name": "v600e"
+        },
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "BRAF",
+            "Name": "braf"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "MAPK",
+            "Name": "mapk"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "N-(thiophen-2-yl) benzamide",
+            "Name": "nthiophen2ylbenzamide"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "BRAF",
+            "Name": "braf"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "V600E",
+            "Name": "v600e"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "BRAF",
+            "Name": "braf"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "V600E",
+            "Name": "v600e"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T5"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T6"
+        }
+    ]
+}

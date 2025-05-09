@@ -1,0 +1,122 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "alpha1-acid glycoprotein",
+            "Name": "alpha1acidglycoprotein"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "tumor necrosis factor alpha",
+            "Name": "tumornecrosisfactoralpha"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "tumor necrosis factor alpha",
+            "Name": "tumornecrosisfactoralpha"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "alpha1-acid glycoprotein",
+            "Name": "alpha1acidglycoprotein"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "AGP",
+            "Name": "agp"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "human AGP",
+            "Name": "humanagp"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "tumor necrosis factor alpha",
+            "Name": "tumornecrosisfactoralpha"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "AGP",
+            "Name": "agp"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "thalidomide",
+            "Name": "thalidomide"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T8"
+        }
+    ]
+}

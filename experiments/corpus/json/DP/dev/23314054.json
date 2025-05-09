@@ -1,0 +1,81 @@
+{
+    "entities": [
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "N-substituted-5-(4-isopropylthiophenol)-2-hydroxynicotinamide",
+            "Name": "nsubstituted54isopropylthiophenol2hydroxynicotinamide"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Mcl-1",
+            "Name": "mcl1"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "Mcl-1",
+            "Name": "mcl1"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "3-thiomorpholin-8-oxo-8H-acenaphtho [1,2-b] pyrrole-9-carbonitrile",
+            "Name": "3thiomorpholin8oxo8hacenaphtho12bpyrrole9carbonitrile"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "Mcl-1",
+            "Name": "mcl1"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "Mcl-1",
+            "Name": "mcl1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "2-hydroxypyridine",
+            "Name": "2hydroxypyridine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "N-benzyl-5-(4-isopropylthiophenol)-2-hydroxyl nicotinamide",
+            "Name": "nbenzyl54isopropylthiophenol2hydroxylnicotinamide"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "Mcl-1",
+            "Name": "mcl1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T8"
+        }
+    ]
+}

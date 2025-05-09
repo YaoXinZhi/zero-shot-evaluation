@@ -1,0 +1,56 @@
+T10	CHEMICAL 0 11	Salidroside
+N1	Name Annotation:T10 Referent:salidroside
+T24	GENE-N 66 70	PI3K
+N2	Name Annotation:T24 Referent:pi3k
+T25	GENE-N 71 74	Akt
+N3	Name Annotation:T25 Referent:akt
+T7	CHEMICAL 141 152	salidroside
+N4	Name Annotation:T7 Referent:salidroside
+T14	GENE-N 252 256	PI3K
+N5	Name Annotation:T14 Referent:pi3k
+T15	GENE-N 257 260	Akt
+N6	Name Annotation:T15 Referent:akt
+T4	CHEMICAL 469 480	Salidroside
+N7	Name Annotation:T4 Referent:salidroside
+T5	CHEMICAL 484 495	salidroside
+N8	Name Annotation:T5 Referent:salidroside
+T16	GENE-N 496 500	PI3K
+N9	Name Annotation:T16 Referent:pi3k
+T6	CHEMICAL 512 520	LY294002
+N10	Name Annotation:T6 Referent:ly294002
+T8	CHEMICAL 650 654	dUTP
+N11	Name Annotation:T8 Referent:dutp
+T17	GENE-N 792 795	Akt
+N12	Name Annotation:T17 Referent:akt
+T18	GENE-N 800 818	phosphorylated Akt
+N13	Name Annotation:T18 Referent:phosphorylatedakt
+T19	GENE-N 820 825	p-Akt
+N14	Name Annotation:T19 Referent:pakt
+T9	CHEMICAL 918 929	salidroside
+N15	Name Annotation:T9 Referent:salidroside
+T20	GENE-Y 1033 1038	Bcl-2
+N16	Name Annotation:T20 Referent:bcl2
+T21	GENE-N 1043 1048	p-Akt
+N17	Name Annotation:T21 Referent:pakt
+T22	GENE-Y 1085 1088	Bax
+N18	Name Annotation:T22 Referent:bax
+T23	GENE-Y 1093 1102	caspase-3
+N19	Name Annotation:T23 Referent:caspase3
+T1	CHEMICAL 1230 1241	salidroside
+N20	Name Annotation:T1 Referent:salidroside
+T2	CHEMICAL 1259 1267	LY294002
+N21	Name Annotation:T2 Referent:ly294002
+T11	GENE-N 1301 1304	Akt
+N22	Name Annotation:T11 Referent:akt
+T3	CHEMICAL 1367 1378	salidroside
+N23	Name Annotation:T3 Referent:salidroside
+T12	GENE-N 1538 1542	PI3K
+N24	Name Annotation:T12 Referent:pi3k
+T13	GENE-N 1543 1546	Akt
+N25	Name Annotation:T13 Referent:akt
+R1	INHIBITOR Arg1:T6 Arg2:T16
+R2	INHIBITOR Arg1:T2 Arg2:T11
+R3	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T20
+R4	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T21
+R5	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T22
+R6	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T23

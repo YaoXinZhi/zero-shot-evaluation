@@ -1,0 +1,59 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "insulinase",
+            "Name": "insulinase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "bacitracin",
+            "Name": "bacitracin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Bacitracin",
+            "Name": "bacitracin"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "insulinase",
+            "Name": "insulinase"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "insulinase",
+            "Name": "insulinase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "bacitracin A",
+            "Name": "bacitracina"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "acrylamide",
+            "Name": "acrylamide"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T6"
+        }
+    ]
+}

@@ -1,0 +1,117 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "rivastigmine",
+            "Name": "rivastigmine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "acetylcholine",
+            "Name": "acetylcholine"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "AchE",
+            "Name": "ache"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "C-reactive protein",
+            "Name": "creactiveprotein"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "CRP",
+            "Name": "crp"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "nuclear factor kappa-B",
+            "Name": "nuclearfactorkappab"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "monocyte chemoattractant protein-1",
+            "Name": "monocytechemoattractantprotein1"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "MCP-1",
+            "Name": "mcp1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "AlCl3",
+            "Name": "alcl3"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "AchE",
+            "Name": "ache"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "CRP",
+            "Name": "crp"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "MCP-1",
+            "Name": "mcp1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T15"
+        }
+    ]
+}

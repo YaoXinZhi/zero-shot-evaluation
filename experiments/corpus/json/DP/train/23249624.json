@@ -1,0 +1,263 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "threonine",
+            "Name": "threonine"
+        },
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "threonine-protein kinase B-RaF",
+            "Name": "threonineproteinkinasebraf"
+        },
+        {
+            "id": "T36",
+            "type": "Gene",
+            "name": "V600E",
+            "Name": "v600e"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "dabrafenib",
+            "Name": "dabrafenib"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "BRAF",
+            "Name": "braf"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "serine/threonine-protein kinase B-Raf",
+            "Name": "serinethreonineproteinkinasebraf"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "threonine",
+            "Name": "threonine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "valine",
+            "Name": "valine"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "valine 600 to glutamic acid",
+            "Name": "valine600toglutamicacid"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "glutamic acid",
+            "Name": "glutamicacid"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "BRAF",
+            "Name": "braf"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "V600E",
+            "Name": "v600e"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "dabrafenib",
+            "Name": "dabrafenib"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "dabrafenib",
+            "Name": "dabrafenib"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "dabrafenib",
+            "Name": "dabrafenib"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "P-glycoprotein",
+            "Name": "pglycoprotein"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "P-gp",
+            "Name": "pgp"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "breast cancer resistance protein",
+            "Name": "breastcancerresistanceprotein"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "BCRP",
+            "Name": "bcrp"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "dabrafenib",
+            "Name": "dabrafenib"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "P-gp",
+            "Name": "pgp"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "BCRP",
+            "Name": "bcrp"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "P-gp",
+            "Name": "pgp"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Bcrp1",
+            "Name": "bcrp1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "dabrafenib",
+            "Name": "dabrafenib"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "Mdr1 a/b",
+            "Name": "mdr1ab"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Bcrp1",
+            "Name": "bcrp1"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Dabrafenib",
+            "Name": "dabrafenib"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Mdr1 a/b",
+            "Name": "mdr1ab"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Bcrp1",
+            "Name": "bcrp1"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "vemurafenib",
+            "Name": "vemurafenib"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "BRAF",
+            "Name": "braf"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "V600E",
+            "Name": "v600e"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "dabrafenib",
+            "Name": "dabrafenib"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "dabrafenib",
+            "Name": "dabrafenib"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T35"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T36"
+        },
+        {
+            "type": "Part of",
+            "source": "T8",
+            "target": "T26"
+        },
+        {
+            "type": "Part of",
+            "source": "T9",
+            "target": "T26"
+        },
+        {
+            "type": "Substrate",
+            "source": "T13",
+            "target": "T32"
+        },
+        {
+            "type": "Substrate",
+            "source": "T13",
+            "target": "T33"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T24"
+        }
+    ]
+}

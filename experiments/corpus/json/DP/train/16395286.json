@@ -1,0 +1,249 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "tetracyclines",
+            "Name": "tetracyclines"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "matrix metalloproteinase-9",
+            "Name": "matrixmetalloproteinase9"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "vascular endothelial growth factor",
+            "Name": "vascularendothelialgrowthfactor"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "Matrix metalloproteinase (MMP)-9",
+            "Name": "matrixmetalloproteinasemmp9"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Doxycycline",
+            "Name": "doxycycline"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "MMP-9",
+            "Name": "mmp9"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "vascular endothelial growth factor",
+            "Name": "vascularendothelialgrowthfactor"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "doxycycline",
+            "Name": "doxycycline"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "MMP-9",
+            "Name": "mmp9"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "doxycycline",
+            "Name": "doxycycline"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "MMP-9",
+            "Name": "mmp9"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "doxycycline",
+            "Name": "doxycycline"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "MMP-9",
+            "Name": "mmp9"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "doxycycline",
+            "Name": "doxycycline"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "MMP-9",
+            "Name": "mmp9"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "MMP-9",
+            "Name": "mmp9"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MMP-9",
+            "Name": "mmp9"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "tetracyclines",
+            "Name": "tetracyclines"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "doxycycline",
+            "Name": "doxycycline"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "MMP-9",
+            "Name": "mmp9"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "extracellular signaling-related kinase 1/2",
+            "Name": "extracellularsignalingrelatedkinase12"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "ERK1/2",
+            "Name": "erk12"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "tetracyclines",
+            "Name": "tetracyclines"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "MMP-9",
+            "Name": "mmp9"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T29"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T24"
+        }
+    ]
+}

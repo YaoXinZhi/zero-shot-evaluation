@@ -1,0 +1,222 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "Calcium",
+            "Name": "calcium"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "acid-sensing ion channel",
+            "Name": "acidsensingionchannel"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Acid-sensing ion channels",
+            "Name": "acidsensingionchannels"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "ASICs",
+            "Name": "asics"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Pb2+",
+            "Name": "pb2"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "ASIC",
+            "Name": "asic"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "ASIC",
+            "Name": "asic"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "ASIC1 and -3",
+            "Name": "asic1and3"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Pb2+",
+            "Name": "pb2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Pb2+",
+            "Name": "pb2"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "ASICs",
+            "Name": "asics"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Pb2+",
+            "Name": "pb2"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "ASIC",
+            "Name": "asic"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Pb2+",
+            "Name": "pb2"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "amiloride",
+            "Name": "amiloride"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Pb2+",
+            "Name": "pb2"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "ASICs",
+            "Name": "asics"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "Pb2+",
+            "Name": "pb2"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "ASIC",
+            "Name": "asic"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "amiloride",
+            "Name": "amiloride"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "ASIC1b and -3",
+            "Name": "asic1band3"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "ASIC1a",
+            "Name": "asic1a"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "ASIC",
+            "Name": "asic"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Pb2+",
+            "Name": "pb2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Pb2+",
+            "Name": "pb2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T17",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T26"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T28"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T19"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T20"
+        }
+    ]
+}

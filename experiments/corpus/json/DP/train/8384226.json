@@ -1,0 +1,235 @@
+{
+    "entities": [
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "cytokine",
+            "Name": "cytokine"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "nedocromil sodium",
+            "Name": "nedocromilsodium"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "granulocyte-macrophage colony-stimulating factor",
+            "Name": "granulocytemacrophagecolonystimulatingfactor"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "GM-CSF",
+            "Name": "gmcsf"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "interleukin-3",
+            "Name": "interleukin3"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "IL-3",
+            "Name": "il3"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "interleukin-5",
+            "Name": "interleukin5"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "IL-5",
+            "Name": "il5"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "formyl-methionyl-leucyl-phenylalanine",
+            "Name": "formylmethionylleucylphenylalanine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "FMLP",
+            "Name": "fmlp"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "neutrophil-activating factor",
+            "Name": "neutrophilactivatingfactor"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "NAF",
+            "Name": "naf"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "IL-8",
+            "Name": "il8"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "complement fragment C5a",
+            "Name": "complementfragmentc5a"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "C5a",
+            "Name": "c5a"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "nedocromil sodium",
+            "Name": "nedocromilsodium"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "GM-CSF",
+            "Name": "gmcsf"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "IL-3",
+            "Name": "il3"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "NAF",
+            "Name": "naf"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "IL-8",
+            "Name": "il8"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Nedocromil sodium",
+            "Name": "nedocromilsodium"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "FMLP",
+            "Name": "fmlp"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "NAF",
+            "Name": "naf"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "IL-8",
+            "Name": "il8"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "GM-CSF",
+            "Name": "gmcsf"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "IL-3",
+            "Name": "il3"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "C5a",
+            "Name": "c5a"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "nedocromil sodium",
+            "Name": "nedocromilsodium"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Nedocromil sodium",
+            "Name": "nedocromilsodium"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "FMLP",
+            "Name": "fmlp"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "nedocromil sodium",
+            "Name": "nedocromilsodium"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T33"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T31"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T32"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T11"
+        }
+    ]
+}

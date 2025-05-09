@@ -1,0 +1,106 @@
+T20	CHEMICAL 0 10	Mepyramine
+N1	Name Annotation:T20 Referent:mepyramine
+T21	CHEMICAL 14 23	histamine
+N2	Name Annotation:T21 Referent:histamine
+T39	GENE-N 14 35	histamine H1 receptor
+N3	Name Annotation:T39 Referent:histamineh1receptor
+T40	GENE-N 83 104	rat and human P450 2D
+N4	Name Annotation:T40 Referent:ratandhumanp4502d
+T13	CHEMICAL 158 168	mepyramine
+N5	Name Annotation:T13 Referent:mepyramine
+T33	GENE-N 175 203	rat hepatic cytochrome P450s
+N6	Name Annotation:T33 Referent:rathepaticcytochromep450s
+T37	GENE-N 198 203	P450s
+N7	Name Annotation:T37 Referent:p450s
+T5	CHEMICAL 252 262	mepyramine
+N8	Name Annotation:T5 Referent:mepyramine
+T25	GENE-N 289 306	rat hepatic P450s
+N9	Name Annotation:T25 Referent:rathepaticp450s
+T6	CHEMICAL 308 318	Mepyramine
+N10	Name Annotation:T6 Referent:mepyramine
+T26	GENE-Y 341 349	P450 2D1
+N11	Name Annotation:T26 Referent:p4502d1
+T27	GENE-N 383 390	P450 2D
+N12	Name Annotation:T27 Referent:p4502d
+T7	CHEMICAL 401 410	Histamine
+N13	Name Annotation:T7 Referent:histamine
+T28	GENE-Y 401 422	Histamine H1 receptor
+N14	Name Annotation:T28 Referent:histamineh1receptor
+T8	CHEMICAL 436 446	mepyramine
+N15	Name Annotation:T8 Referent:mepyramine
+T9	CHEMICAL 448 463	diphenhydramine
+N16	Name Annotation:T9 Referent:diphenhydramine
+T10	CHEMICAL 465 481	chlorpheniramine
+N17	Name Annotation:T10 Referent:chlorpheniramine
+T11	CHEMICAL 486 498	triprolidine
+N18	Name Annotation:T11 Referent:triprolidine
+T12	CHEMICAL 514 523	lidocaine
+N19	Name Annotation:T12 Referent:lidocaine
+T29	GENE-Y 562 570	P450 2D1
+N20	Name Annotation:T29 Referent:p4502d1
+T14	CHEMICAL 595 607	testosterone
+N21	Name Annotation:T14 Referent:testosterone
+T30	GENE-N 646 651	P450s
+N22	Name Annotation:T30 Referent:p450s
+T31	GENE-N 663 670	P450 2D
+N23	Name Annotation:T31 Referent:p4502d
+T32	GENE-Y 743 751	P450 2D1
+N24	Name Annotation:T32 Referent:p4502d1
+T15	CHEMICAL 790 797	quinine
+N25	Name Annotation:T15 Referent:quinine
+T16	CHEMICAL 802 811	quinidine
+N26	Name Annotation:T16 Referent:quinidine
+T34	GENE-N 846 853	P450 2D
+N27	Name Annotation:T34 Referent:p4502d
+T17	CHEMICAL 877 887	mepyramine
+N28	Name Annotation:T17 Referent:mepyramine
+T18	CHEMICAL 946 956	mepyramine
+N29	Name Annotation:T18 Referent:mepyramine
+T35	GENE-Y 960 974	human P450 2D6
+N30	Name Annotation:T35 Referent:humanp4502d6
+T36	GENE-N 1017 1027	human P450
+N31	Name Annotation:T36 Referent:humanp450
+T19	CHEMICAL 1048 1058	mepyramine
+N32	Name Annotation:T19 Referent:mepyramine
+T38	GENE-Y 1081 1089	P450 2D6
+N33	Name Annotation:T38 Referent:p4502d6
+T1	CHEMICAL 1139 1149	mepyramine
+N34	Name Annotation:T1 Referent:mepyramine
+T2	CHEMICAL 1164 1176	debrisoquine
+N35	Name Annotation:T2 Referent:debrisoquine
+T22	GENE-Y 1215 1223	P450 2D6
+N36	Name Annotation:T22 Referent:p4502d6
+T3	CHEMICAL 1253 1262	histamine
+N37	Name Annotation:T3 Referent:histamine
+T23	GENE-Y 1253 1274	histamine H1 receptor
+N38	Name Annotation:T23 Referent:histamineh1receptor
+T4	CHEMICAL 1295 1305	mepyramine
+N39	Name Annotation:T4 Referent:mepyramine
+T24	GENE-N 1331 1338	P450 2D
+N40	Name Annotation:T24 Referent:p4502d
+R1	ANTAGONIST Arg1:T20 Arg2:T39
+R2	INHIBITOR Arg1:T20 Arg2:T40
+R3	DIRECT-REGULATOR Arg1:T6 Arg2:T26
+R4	INHIBITOR Arg1:T6 Arg2:T27
+R5	ANTAGONIST Arg1:T8 Arg2:T28
+R6	ANTAGONIST Arg1:T9 Arg2:T28
+R7	ANTAGONIST Arg1:T10 Arg2:T28
+R8	ANTAGONIST Arg1:T11 Arg2:T28
+R9	SUBSTRATE Arg1:T12 Arg2:T29
+R10	SUBSTRATE Arg1:T14 Arg2:T30
+R11	DIRECT-REGULATOR Arg1:T19 Arg2:T38
+R12	SUBSTRATE Arg1:T2 Arg2:T22
+R13	INHIBITOR Arg1:T1 Arg2:T22
+R14	ANTAGONIST Arg1:T4 Arg2:T23
+R15	INHIBITOR Arg1:T4 Arg2:T24
+R16	INHIBITOR Arg1:T8 Arg2:T29
+R17	INHIBITOR Arg1:T9 Arg2:T29
+R18	INHIBITOR Arg1:T10 Arg2:T29
+R19	INHIBITOR Arg1:T11 Arg2:T29
+R20	SUBSTRATE Arg1:T14 Arg2:T31
+R21	INHIBITOR Arg1:T8 Arg2:T31
+R22	INHIBITOR Arg1:T9 Arg2:T31
+R23	INHIBITOR Arg1:T10 Arg2:T31
+R24	INHIBITOR Arg1:T11 Arg2:T31
+R25	INHIBITOR Arg1:T15 Arg2:T34
+R26	INHIBITOR Arg1:T16 Arg2:T34

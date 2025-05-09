@@ -1,0 +1,152 @@
+{
+    "entities": [
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "hedgehog",
+            "Name": "hedgehog"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "TAK-441",
+            "Name": "tak441"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Gli1",
+            "Name": "gli1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "6-Ethyl-N-[1-(hydroxyacetyl)piperidin-4-yl]-1-methyl-4-oxo-5-(2-oxo-2-phenylethyl)-3-(2,2,2-trifluoroethoxy)-4,5-dihydro-1H-pyrrolo[3,2-c]pyridine-2-carboxamide",
+            "Name": "6ethyln1hydroxyacetylpiperidin4yl1methyl4oxo52oxo2phenylethyl3222trifluoroethoxy45dihydro1hpyrrolo32cpyridine2carboxamide"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "TAK-441",
+            "Name": "tak441"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "hedgehog",
+            "Name": "hedgehog"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "Smo",
+            "Name": "smo"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "TAK-441",
+            "Name": "tak441"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Gli1",
+            "Name": "gli1"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "hedgehog",
+            "Name": "hedgehog"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "TAK-441",
+            "Name": "tak441"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Gli1",
+            "Name": "gli1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Gli1",
+            "Name": "gli1"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "Gli1",
+            "Name": "gli1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "TAK-441",
+            "Name": "tak441"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "Gli1",
+            "Name": "gli1"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Gli1",
+            "Name": "gli1"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "hedgehog",
+            "Name": "hedgehog"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Gli1",
+            "Name": "gli1"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "hedgehog",
+            "Name": "hedgehog"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T7"
+        }
+    ]
+}

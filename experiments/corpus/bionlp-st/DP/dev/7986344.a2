@@ -1,0 +1,66 @@
+T13	CHEMICAL 19 28	guanidine
+N1	Name Annotation:T13 Referent:guanidine
+T14	CHEMICAL 39 48	disulfide
+N2	Name Annotation:T14 Referent:disulfide
+T23	GENE 77 109	bovine pancreatic ribonuclease A
+N3	Name Annotation:T23 Referent:bovinepancreaticribonucleasea
+T6	CHEMICAL 137 146	guanidine
+N4	Name Annotation:T6 Referent:guanidine
+T9	CHEMICAL 157 166	disulfide
+N5	Name Annotation:T9 Referent:disulfide
+T20	GENE 174 206	bovine pancreatic ribonuclease A
+N6	Name Annotation:T20 Referent:bovinepancreaticribonucleasea
+T22	GENE 208 215	RNase A
+N7	Name Annotation:T22 Referent:rnasea
+T1	CHEMICAL 225 232	proline
+N8	Name Annotation:T1 Referent:proline
+T15	GENE 225 246	proline-42-to-alanine
+N9	Name Annotation:T15 Referent:proline42toalanine
+T2	CHEMICAL 239 246	alanine
+N10	Name Annotation:T2 Referent:alanine
+T16	GENE 255 263	Pro42Ala
+N11	Name Annotation:T16 Referent:pro42ala
+T3	CHEMICAL 297 305	tyrosine
+N12	Name Annotation:T3 Referent:tyrosine
+T4	CHEMICAL 317 342	2'-cytidine monophosphate
+N13	Name Annotation:T4 Referent:2cytidinemonophosphate
+T5	CHEMICAL 344 349	2'CMP
+N14	Name Annotation:T5 Referent:2cmp
+T17	GENE 401 408	RNase A
+N15	Name Annotation:T17 Referent:rnasea
+T7	CHEMICAL 452 457	2'CMP
+N16	Name Annotation:T7 Referent:2cmp
+T8	CHEMICAL 572 577	2'CMP
+N17	Name Annotation:T8 Referent:2cmp
+T10	CHEMICAL 609 614	2'CMP
+N18	Name Annotation:T10 Referent:2cmp
+T18	GENE 660 668	Pro42Ala
+N19	Name Annotation:T18 Referent:pro42ala
+T19	GENE 669 676	RNase A
+N20	Name Annotation:T19 Referent:rnasea
+T11	CHEMICAL 722 730	tyrosine
+N21	Name Annotation:T11 Referent:tyrosine
+T12	CHEMICAL 892 900	tyrosine
+N22	Name Annotation:T12 Referent:tyrosine
+T21	GENE 969 977	Pro42Ala
+N23	Name Annotation:T21 Referent:pro42ala
+R1	INHIBITOR Arg1:T7 Arg2:T17
+R2	DIRECT-REGULATOR Arg1:T10 Arg2:T18
+R3	DIRECT-REGULATOR Arg1:T10 Arg2:T19
+R4	DIRECT-REGULATOR Arg1:T11 Arg2:T18
+R5	DIRECT-REGULATOR Arg1:T11 Arg2:T19
+R6	DIRECT-REGULATOR Arg1:T14 Arg2:T23
+R7	DIRECT-REGULATOR Arg1:T9 Arg2:T20
+R8	DIRECT-REGULATOR Arg1:T9 Arg2:T22
+R9	PART-OF Arg1:T1 Arg2:T20
+R10	PART-OF Arg1:T2 Arg2:T20
+R11	PART-OF Arg1:T1 Arg2:T22
+R12	PART-OF Arg1:T2 Arg2:T22
+R13	INHIBITOR Arg1:T4 Arg2:T20
+R14	INHIBITOR Arg1:T4 Arg2:T22
+R15	INHIBITOR Arg1:T4 Arg2:T16
+R16	INHIBITOR Arg1:T5 Arg2:T20
+R17	INHIBITOR Arg1:T5 Arg2:T22
+R18	INHIBITOR Arg1:T5 Arg2:T16
+R19	INHIBITOR Arg1:T4 Arg2:T15
+R20	INHIBITOR Arg1:T5 Arg2:T15

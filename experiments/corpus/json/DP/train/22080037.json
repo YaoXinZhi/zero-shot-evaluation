@@ -1,0 +1,152 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Mercury",
+            "Name": "mercury"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "cyclooxygenase-2",
+            "Name": "cyclooxygenase2"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "inducible nitric oxide synthase",
+            "Name": "induciblenitricoxidesynthase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "Nuclear factor-\u03baB",
+            "Name": "nuclearfactor\u03bab"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "cyclooxygenase-2",
+            "Name": "cyclooxygenase2"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "inducible nitric oxide synthase",
+            "Name": "induciblenitricoxidesynthase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "mercury",
+            "Name": "mercury"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "mercury",
+            "Name": "mercury"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "mercury",
+            "Name": "mercury"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "mercury",
+            "Name": "mercury"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T20"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T18"
+        }
+    ]
+}

@@ -1,0 +1,59 @@
+T16	CHEMICAL 4 38	2,2',4,4'-tetrabromodiphenyl ether
+N1	Name Annotation:T16 Referent:2244tetrabromodiphenylether
+T17	CHEMICAL 64 75	5-OH-BDE-47
+N2	Name Annotation:T17 Referent:5ohbde47
+T18	CHEMICAL 80 91	6-OH-BDE-47
+N3	Name Annotation:T18 Referent:6ohbde47
+T15	CHEMICAL 102 111	estradiol
+N4	Name Annotation:T15 Referent:estradiol
+T24	GENE-N 149 158	aromatase
+N5	Name Annotation:T24 Referent:aromatase
+T10	CHEMICAL 232 251	hydroxylated BDE-47
+N6	Name Annotation:T10 Referent:hydroxylatedbde47
+T14	CHEMICAL 265 276	5-OH-BDE-47
+N7	Name Annotation:T14 Referent:5ohbde47
+T1	CHEMICAL 281 292	6-OH-BDE-47
+N8	Name Annotation:T1 Referent:6ohbde47
+T2	CHEMICAL 379 394	androstenedione
+N9	Name Annotation:T2 Referent:androstenedione
+T3	CHEMICAL 399 411	testosterone
+N10	Name Annotation:T3 Referent:testosterone
+T4	CHEMICAL 443 452	estradiol
+N11	Name Annotation:T4 Referent:estradiol
+T5	CHEMICAL 510 519	estradiol
+N12	Name Annotation:T5 Referent:estradiol
+T19	GENE-N 550 559	aromatase
+N13	Name Annotation:T19 Referent:aromatase
+T20	GENE-N 610 619	aromatase
+N14	Name Annotation:T20 Referent:aromatase
+T6	CHEMICAL 632 651	dibenzylfluorescein
+N15	Name Annotation:T6 Referent:dibenzylfluorescein
+T21	GENE-N 685 694	aromatase
+N16	Name Annotation:T21 Referent:aromatase
+T7	CHEMICAL 740 752	testosterone
+N17	Name Annotation:T7 Referent:testosterone
+T8	CHEMICAL 756 765	estradiol
+N18	Name Annotation:T8 Referent:estradiol
+T9	CHEMICAL 781 792	5-OH-BDE-47
+N19	Name Annotation:T9 Referent:5ohbde47
+T11	CHEMICAL 797 808	6-OH-BDE-47
+N20	Name Annotation:T11 Referent:6ohbde47
+T22	GENE-N 819 828	aromatase
+N21	Name Annotation:T22 Referent:aromatase
+T23	GENE-N 843 852	aromatase
+N22	Name Annotation:T23 Referent:aromatase
+T12	CHEMICAL 863 873	CGS 16949A
+N23	Name Annotation:T12 Referent:cgs16949a
+T13	CHEMICAL 922 931	estradiol
+N24	Name Annotation:T13 Referent:estradiol
+R1	INDIRECT-UPREGULATOR Arg1:T16 Arg2:T24
+R2	INDIRECT-UPREGULATOR Arg1:T17 Arg2:T24
+R3	INDIRECT-UPREGULATOR Arg1:T18 Arg2:T24
+R4	PRODUCT-OF Arg1:T15 Arg2:T24
+R5	PRODUCT-OF Arg1:T5 Arg2:T19
+R6	ACTIVATOR Arg1:T9 Arg2:T22
+R7	ACTIVATOR Arg1:T11 Arg2:T22
+R8	INHIBITOR Arg1:T12 Arg2:T23
+R9	PRODUCT-OF Arg1:T13 Arg2:T23
+R10	SUBSTRATE Arg1:T7 Arg2:T21
+R11	PRODUCT-OF Arg1:T8 Arg2:T21

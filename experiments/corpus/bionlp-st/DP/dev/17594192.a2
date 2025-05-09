@@ -1,0 +1,71 @@
+T15	CHEMICAL 0 10	Phenserine
+N1	Name Annotation:T15 Referent:phenserine
+T1	CHEMICAL 12 22	Phenserine
+N2	Name Annotation:T1 Referent:phenserine
+T7	CHEMICAL 40 53	physostigmine
+N3	Name Annotation:T7 Referent:physostigmine
+T27	GENE 94 114	acetylcholinesterase
+N4	Name Annotation:T27 Referent:acetylcholinesterase
+T16	GENE 116 120	AChE
+N5	Name Annotation:T16 Referent:ache
+T8	CHEMICAL 313 323	Phenserine
+N6	Name Annotation:T8 Referent:phenserine
+T20	GENE 406 410	AChE
+N7	Name Annotation:T20 Referent:ache
+T21	GENE 439 469	beta-amyloid precursor protein
+N8	Name Annotation:T21 Referent:betaamyloidprecursorprotein
+T22	GENE 471 474	APP
+N9	Name Annotation:T22 Referent:app
+T23	GENE 513 516	APP
+N10	Name Annotation:T23 Referent:app
+T9	CHEMICAL 575 585	phenserine
+N11	Name Annotation:T9 Referent:phenserine
+T24	GENE 649 652	APP
+N12	Name Annotation:T24 Referent:app
+T25	GENE 672 675	APP
+N13	Name Annotation:T25 Referent:app
+T10	CHEMICAL 688 698	Phenserine
+N14	Name Annotation:T10 Referent:phenserine
+T26	GENE 746 749	APP
+N15	Name Annotation:T26 Referent:app
+T11	CHEMICAL 816 820	iron
+N16	Name Annotation:T11 Referent:iron
+T12	CHEMICAL 831 835	iron
+N17	Name Annotation:T12 Referent:iron
+T13	CHEMICAL 874 884	phenserine
+N18	Name Annotation:T13 Referent:phenserine
+T28	GENE 893 905	beta-amyloid
+N19	Name Annotation:T28 Referent:betaamyloid
+T29	GENE 915 920	Abeta
+N20	Name Annotation:T29 Referent:abeta
+T14	CHEMICAL 954 964	Phenserine
+N21	Name Annotation:T14 Referent:phenserine
+T2	CHEMICAL 1029 1043	(-)-phenserine
+N22	Name Annotation:T2 Referent:phenserine
+T17	GENE 1087 1091	AChE
+N23	Name Annotation:T17 Referent:ache
+T3	CHEMICAL 1101 1115	(+)-phenserine
+N24	Name Annotation:T3 Referent:phenserine
+T4	CHEMICAL 1118 1126	posiphen
+N25	Name Annotation:T4 Referent:posiphen
+T18	GENE 1153 1157	AChE
+N26	Name Annotation:T18 Referent:ache
+T19	GENE 1248 1251	APP
+N27	Name Annotation:T19 Referent:app
+T5	CHEMICAL 1264 1276	(+)-Posiphen
+N28	Name Annotation:T5 Referent:posiphen
+T6	CHEMICAL 1338 1352	(-)-phenserine
+N29	Name Annotation:T6 Referent:phenserine
+R1	INHIBITOR Arg1:T1 Arg2:T27
+R2	INHIBITOR Arg1:T7 Arg2:T27
+R3	INHIBITOR Arg1:T1 Arg2:T16
+R4	INHIBITOR Arg1:T7 Arg2:T16
+R5	INHIBITOR Arg1:T8 Arg2:T20
+R6	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T23
+R7	DIRECT-REGULATOR Arg1:T9 Arg2:T24
+R8	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T26
+R9	INDIRECT-DOWNREGULATOR Arg1:T13 Arg2:T28
+R10	INDIRECT-DOWNREGULATOR Arg1:T13 Arg2:T29
+R11	INHIBITOR Arg1:T2 Arg2:T17
+R12	INHIBITOR Arg1:T3 Arg2:T18
+R13	INHIBITOR Arg1:T4 Arg2:T18

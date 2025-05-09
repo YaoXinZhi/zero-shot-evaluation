@@ -1,0 +1,77 @@
+T21	CHEMICAL 38 48	irinotecan
+N1	Name Annotation:T21 Referent:irinotecan
+T1	CHEMICAL 67 77	Irinotecan
+N2	Name Annotation:T1 Referent:irinotecan
+T4	CHEMICAL 79 85	CPT-11
+N3	Name Annotation:T4 Referent:cpt11
+T13	CHEMICAL 87 153	7-ethyl-10-[4-(1-piperidino)-1-piperidino] carbonyloxycamptothecin
+N4	Name Annotation:T13 Referent:7ethyl1041piperidino1piperidinocarbonyloxycamptothecin
+T30	GENE-Y 242 261	DNA topoisomerase I
+N5	Name Annotation:T30 Referent:dnatopoisomerasei
+T31	GENE-Y 263 269	Topo I
+N6	Name Annotation:T31 Referent:topoi
+T14	CHEMICAL 503 509	CPT-11
+N7	Name Annotation:T14 Referent:cpt11
+T15	CHEMICAL 599 605	CPT-11
+N8	Name Annotation:T15 Referent:cpt11
+T16	CHEMICAL 779 785	CPT-11
+N9	Name Annotation:T16 Referent:cpt11
+T32	GENE-Y 833 853	acetylcholinesterase
+N10	Name Annotation:T32 Referent:acetylcholinesterase
+T17	CHEMICAL 909 917	atropine
+N11	Name Annotation:T17 Referent:atropine
+T18	CHEMICAL 992 997	SN-38
+N12	Name Annotation:T18 Referent:sn38
+T19	CHEMICAL 999 1029	7-ethyl-10-hydroxycamptothecin
+N13	Name Annotation:T19 Referent:7ethyl10hydroxycamptothecin
+T20	CHEMICAL 1063 1069	CPT-11
+N14	Name Annotation:T20 Referent:cpt11
+T22	GENE-Y 1089 1095	Topo I
+N15	Name Annotation:T22 Referent:topoi
+T2	CHEMICAL 1222 1228	CPT-11
+N16	Name Annotation:T2 Referent:cpt11
+T3	CHEMICAL 1233 1238	SN-38
+N17	Name Annotation:T3 Referent:sn38
+T23	GENE-N 1293 1302	cytokines
+N18	Name Annotation:T23 Referent:cytokines
+T5	CHEMICAL 1307 1321	prostaglandins
+N19	Name Annotation:T5 Referent:prostaglandins
+T6	CHEMICAL 1323 1326	PGs
+N20	Name Annotation:T6 Referent:pgs
+T7	CHEMICAL 1360 1365	Na(+)
+N21	Name Annotation:T7 Referent:na
+T8	CHEMICAL 1370 1375	Cl(-)
+N22	Name Annotation:T8 Referent:cl
+T9	CHEMICAL 1443 1453	loperamide
+N23	Name Annotation:T9 Referent:loperamide
+T24	GENE-N 1698 1712	P-glycoprotein
+N24	Name Annotation:T24 Referent:pglycoprotein
+T25	GENE-N 1714 1717	PgP
+N25	Name Annotation:T25 Referent:pgp
+T26	GENE-Y 1731 1747	cyclooxygenase-2
+N26	Name Annotation:T26 Referent:cyclooxygenase2
+T27	GENE-Y 1749 1754	COX-2
+N27	Name Annotation:T27 Referent:cox2
+T28	GENE-Y 1768 1795	tumor necrosis factor-alpha
+N28	Name Annotation:T28 Referent:tumornecrosisfactoralpha
+T29	GENE-Y 1797 1806	TNF-alpha
+N29	Name Annotation:T29 Referent:tnfalpha
+T10	CHEMICAL 1856 1861	SN-38
+N30	Name Annotation:T10 Referent:sn38
+T11	CHEMICAL 1940 1946	CPT-11
+N31	Name Annotation:T11 Referent:cpt11
+T12	CHEMICAL 2002 2008	CPT-11
+N32	Name Annotation:T12 Referent:cpt11
+R1	INHIBITOR Arg1:T1 Arg2:T30
+R2	INHIBITOR Arg1:T4 Arg2:T30
+R3	INHIBITOR Arg1:T13 Arg2:T30
+R4	INHIBITOR Arg1:T1 Arg2:T31
+R5	INHIBITOR Arg1:T4 Arg2:T31
+R6	INHIBITOR Arg1:T13 Arg2:T31
+R7	INHIBITOR Arg1:T16 Arg2:T32
+R8	ACTIVATOR Arg1:T17 Arg2:T32
+R9	DIRECT-REGULATOR Arg1:T18 Arg2:T22
+R10	DIRECT-REGULATOR Arg1:T19 Arg2:T22
+R11	DIRECT-REGULATOR Arg1:T20 Arg2:T22
+R12	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T23
+R13	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T23

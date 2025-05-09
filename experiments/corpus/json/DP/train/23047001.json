@@ -1,0 +1,146 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "benzothiazepinones",
+            "Name": "benzothiazepinones"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "BTZs",
+            "Name": "btzs"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "glycogen synthase kinase-3\u03b2",
+            "Name": "glycogensynthasekinase3\u03b2"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "GSK-3\u03b2",
+            "Name": "gsk3\u03b2"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Glycogen synthase kinase-3\u03b2",
+            "Name": "glycogensynthasekinase3\u03b2"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "GSK-3\u03b2",
+            "Name": "gsk3\u03b2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "benzothiazepinones",
+            "Name": "benzothiazepinones"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "BTZs",
+            "Name": "btzs"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "GSK-3\u03b2",
+            "Name": "gsk3\u03b2"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "BTZ",
+            "Name": "btz"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "kinases",
+            "Name": "kinases"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T11"
+        }
+    ]
+}

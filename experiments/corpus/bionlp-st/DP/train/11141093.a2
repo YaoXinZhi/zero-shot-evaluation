@@ -1,0 +1,40 @@
+T11	CHEMICAL 0 31	Hexahydrochromeno[4,3-b]pyrrole
+N1	Name Annotation:T11 Referent:hexahydrochromeno43bpyrrole
+T17	GENE-Y 47 67	acetylcholinesterase
+N2	Name Annotation:T17 Referent:acetylcholinesterase
+T5	CHEMICAL 123 135	caproctamine
+N3	Name Annotation:T5 Referent:caproctamine
+T9	CHEMICAL 143 150	diamine
+N4	Name Annotation:T9 Referent:diamine
+T10	CHEMICAL 151 158	diamide
+N5	Name Annotation:T10 Referent:diamide
+T12	GENE-Y 187 191	AChE
+N6	Name Annotation:T12 Referent:ache
+T1	CHEMICAL 258 273	2-methoxybenzyl
+N7	Name Annotation:T1 Referent:2methoxybenzyl
+T2	CHEMICAL 316 325	tricyclic
+N8	Name Annotation:T2 Referent:tricyclic
+T13	GENE-Y 367 371	AChE
+N9	Name Annotation:T13 Referent:ache
+T3	CHEMICAL 400 431	hexahydrochromeno[4,3-b]pyrrole
+N10	Name Annotation:T3 Referent:hexahydrochromeno43bpyrrole
+T4	CHEMICAL 461 507	hexahydropyrrolo[2,3-b]indole of physostigmine
+N11	Name Annotation:T4 Referent:hexahydropyrrolo23bindoleofphysostigmine
+T6	CHEMICAL 546 556	carbamates
+N12	Name Annotation:T6 Referent:carbamates
+T14	GENE-Y 629 639	human AChE
+N13	Name Annotation:T14 Referent:humanache
+T15	GENE-Y 644 648	BChE
+N14	Name Annotation:T15 Referent:bche
+T7	CHEMICAL 654 665	6-carbamate
+N15	Name Annotation:T7 Referent:6carbamate
+T8	CHEMICAL 692 705	physostigmine
+N16	Name Annotation:T8 Referent:physostigmine
+T16	GENE-Y 947 951	AChE
+N17	Name Annotation:T16 Referent:ache
+R1	INHIBITOR Arg1:T11 Arg2:T17
+R2	DIRECT-REGULATOR Arg1:T5 Arg2:T12
+R3	DIRECT-REGULATOR Arg1:T9 Arg2:T12
+R4	DIRECT-REGULATOR Arg1:T10 Arg2:T12
+R5	INHIBITOR Arg1:T3 Arg2:T13
+R6	INHIBITOR Arg1:T4 Arg2:T13

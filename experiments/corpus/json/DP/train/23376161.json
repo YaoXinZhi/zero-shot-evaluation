@@ -1,0 +1,239 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Catalpol",
+            "Name": "catalpol"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "catalpol",
+            "Name": "catalpol"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Catalpol",
+            "Name": "catalpol"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "monocyte chemotactic protein-1",
+            "Name": "monocytechemotacticprotein1"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MCP-1",
+            "Name": "mcp1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "tumor necrosis factor-\u03b1",
+            "Name": "tumornecrosisfactor\u03b1"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "TNF-\u03b1",
+            "Name": "tnf\u03b1"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "inducible NO synthase",
+            "Name": "induciblenosynthase"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "NO",
+            "Name": "no"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "receptor for AGE",
+            "Name": "receptorforage"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "RAGE",
+            "Name": "rage"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "catalpol",
+            "Name": "catalpol"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "AP-1",
+            "Name": "ap1"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Catalpol",
+            "Name": "catalpol"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "mitogen activated protein (MAP) kinases",
+            "Name": "mitogenactivatedproteinmapkinases"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "I\u03baB\u03b1",
+            "Name": "i\u03bab\u03b1"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "catalpol",
+            "Name": "catalpol"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "NADPH",
+            "Name": "nadph"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "NADPH oxidase",
+            "Name": "nadphoxidase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "catalpol",
+            "Name": "catalpol"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "catalpol",
+            "Name": "catalpol"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T14"
+        }
+    ]
+}

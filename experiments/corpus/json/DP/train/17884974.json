@@ -1,0 +1,287 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "Acetaminophen",
+            "Name": "acetaminophen"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "paracetamol",
+            "Name": "paracetamol"
+        },
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "cyclooxygenase-2",
+            "Name": "cyclooxygenase2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "acetaminophen",
+            "Name": "acetaminophen"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "INN",
+            "Name": "inn"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "paracetamol",
+            "Name": "paracetamol"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "prostanoids",
+            "Name": "prostanoids"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "cyclooxygenase (COX)-3",
+            "Name": "cyclooxygenasecox3"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "acetaminophen",
+            "Name": "acetaminophen"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "acetaminophen",
+            "Name": "acetaminophen"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "thromboxane B(2)",
+            "Name": "thromboxaneb2"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "prostaglandin E(2)",
+            "Name": "prostaglandine2"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "acetaminophen",
+            "Name": "acetaminophen"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Acetaminophen",
+            "Name": "acetaminophen"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "acetaminophen",
+            "Name": "acetaminophen"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "acetaminophen",
+            "Name": "acetaminophen"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "acetaminophen",
+            "Name": "acetaminophen"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T35"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T35"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T27"
+        },
+        {
+            "type": "Product of",
+            "source": "T10",
+            "target": "T28"
+        },
+        {
+            "type": "Product of",
+            "source": "T11",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T32"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T22"
+        }
+    ]
+}

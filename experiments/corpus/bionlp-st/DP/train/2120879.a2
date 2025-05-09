@@ -1,0 +1,59 @@
+T14	CHEMICAL 22 29	calcium
+N1	Name Annotation:T14 Referent:calcium
+T24	GENE-Y 34 44	calmodulin
+N2	Name Annotation:T24 Referent:calmodulin
+T25	GENE-Y 48 57	prolactin
+N3	Name Annotation:T25 Referent:prolactin
+T26	GENE-Y 94 123	thyrotropin-releasing hormone
+N4	Name Annotation:T26 Referent:thyrotropinreleasinghormone
+T13	CHEMICAL 134 136	K+
+N5	Name Annotation:T13 Referent:k
+T21	GENE-Y 209 212	PRL
+N6	Name Annotation:T21 Referent:prl
+T16	GENE-Y 283 286	TRH
+N7	Name Annotation:T16 Referent:trh
+T2	CHEMICAL 300 302	K+
+N8	Name Annotation:T2 Referent:k
+T3	CHEMICAL 320 324	Ca2+
+N9	Name Annotation:T3 Referent:ca2
+T4	CHEMICAL 335 339	Ca2+
+N10	Name Annotation:T4 Referent:ca2
+T17	GENE-N 335 348	Ca2+ channels
+N11	Name Annotation:T17 Referent:ca2channels
+T5	CHEMICAL 365 374	verapamil
+N12	Name Annotation:T5 Referent:verapamil
+T18	GENE-Y 390 400	calmodulin
+N13	Name Annotation:T18 Referent:calmodulin
+T6	CHEMICAL 428 443	trifluoperazine
+N14	Name Annotation:T6 Referent:trifluoperazine
+T7	CHEMICAL 456 470	chlorpromazine
+N15	Name Annotation:T7 Referent:chlorpromazine
+T8	CHEMICAL 485 493	pimozide
+N16	Name Annotation:T8 Referent:pimozide
+T9	CHEMICAL 581 584	W-7
+N17	Name Annotation:T9 Referent:w7
+T10	CHEMICAL 642 648	Ca2(+)
+N18	Name Annotation:T10 Referent:ca2
+T19	GENE-Y 649 659	calmodulin
+N19	Name Annotation:T19 Referent:calmodulin
+T20	GENE-Y 705 708	PRL
+N20	Name Annotation:T20 Referent:prl
+T11	CHEMICAL 825 829	K(+)
+N21	Name Annotation:T11 Referent:k
+T22	GENE-Y 877 880	TRH
+N22	Name Annotation:T22 Referent:trh
+T23	GENE-Y 921 924	TRH
+N23	Name Annotation:T23 Referent:trh
+T12	CHEMICAL 949 951	K+
+N24	Name Annotation:T12 Referent:k
+T1	CHEMICAL 1253 1255	K+
+N25	Name Annotation:T1 Referent:k
+T15	GENE-Y 1361 1364	TRH
+N26	Name Annotation:T15 Referent:trh
+R1	INHIBITOR Arg1:T5 Arg2:T17
+R2	INHIBITOR Arg1:T6 Arg2:T18
+R3	INHIBITOR Arg1:T7 Arg2:T18
+R4	INHIBITOR Arg1:T8 Arg2:T18
+R5	DIRECT-REGULATOR Arg1:T10 Arg2:T19
+R6	DIRECT-REGULATOR Arg1:T9 Arg2:T19
+R7	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T20

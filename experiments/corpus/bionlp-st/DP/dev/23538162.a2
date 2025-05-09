@@ -1,0 +1,75 @@
+T30	GENE 11 34	glucocorticoid receptor
+N1	Name Annotation:T30 Referent:glucocorticoidreceptor
+T31	GENE 35 38	ERK
+N2	Name Annotation:T31 Referent:erk
+T12	CHEMICAL 72 87	ginsenoside Rg1
+N3	Name Annotation:T12 Referent:ginsenosiderg1
+T29	GENE 107 124	β-amyloid peptide
+N4	Name Annotation:T29 Referent:βamyloidpeptide
+T16	GENE 186 195	β-amyloid
+N5	Name Annotation:T16 Referent:βamyloid
+T17	GENE 197 199	Aβ
+N6	Name Annotation:T17 Referent:aβ
+T2	CHEMICAL 291 306	Ginsenoside Rg1
+N7	Name Annotation:T2 Referent:ginsenosiderg1
+T3	CHEMICAL 303 306	Rg1
+N8	Name Annotation:T3 Referent:rg1
+T18	GENE 500 502	Aβ
+N9	Name Annotation:T18 Referent:aβ
+T4	CHEMICAL 549 552	Rg1
+N10	Name Annotation:T4 Referent:rg1
+T5	CHEMICAL 581 584	Rg1
+N11	Name Annotation:T5 Referent:rg1
+T19	GENE 600 607	Aβ25-35
+N12	Name Annotation:T19 Referent:aβ2535
+T20	GENE 677 683	HIF-1α
+N13	Name Annotation:T20 Referent:hif1α
+T6	CHEMICAL 730 738	nitrogen
+N14	Name Annotation:T6 Referent:nitrogen
+T21	GENE 833 856	glucocorticoid receptor
+N15	Name Annotation:T21 Referent:glucocorticoidreceptor
+T22	GENE 858 860	GR
+N16	Name Annotation:T22 Referent:gr
+T7	CHEMICAL 873 878	RU486
+N17	Name Annotation:T7 Referent:ru486
+T23	GENE 882 887	p-ERK
+N18	Name Annotation:T23 Referent:perk
+T8	CHEMICAL 898 903	U0126
+N19	Name Annotation:T8 Referent:u0126
+T9	CHEMICAL 916 924	estrogen
+N20	Name Annotation:T9 Referent:estrogen
+T24	GENE 916 935	estrogen receptor α
+N21	Name Annotation:T24 Referent:estrogenreceptorα
+T10	CHEMICAL 947 957	ICI 82,780
+N22	Name Annotation:T10 Referent:ici82780
+T11	CHEMICAL 1002 1005	Rg1
+N23	Name Annotation:T11 Referent:rg1
+T25	GENE 1024 1031	Aβ25-35
+N24	Name Annotation:T25 Referent:aβ2535
+T26	GENE 1088 1090	GR
+N25	Name Annotation:T26 Referent:gr
+T27	GENE 1101 1104	ERK
+N26	Name Annotation:T27 Referent:erk
+T28	GENE 1151 1157	HIF-1α
+N27	Name Annotation:T28 Referent:hif1α
+T1	CHEMICAL 1305 1308	Rg1
+N28	Name Annotation:T1 Referent:rg1
+T13	GENE 1330 1337	Aβ25-35
+N29	Name Annotation:T13 Referent:aβ2535
+T14	GENE 1391 1393	GR
+N30	Name Annotation:T14 Referent:gr
+T15	GENE 1394 1397	ERK
+N31	Name Annotation:T15 Referent:erk
+R1	ACTIVATOR Arg1:T12 Arg2:T30
+R2	ACTIVATOR Arg1:T12 Arg2:T31
+R3	INHIBITOR Arg1:T12 Arg2:T29
+R4	INHIBITOR Arg1:T5 Arg2:T19
+R5	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T20
+R6	ANTAGONIST Arg1:T7 Arg2:T22
+R7	ANTAGONIST Arg1:T7 Arg2:T21
+R8	INHIBITOR Arg1:T8 Arg2:T23
+R9	ANTAGONIST Arg1:T10 Arg2:T24
+R10	INHIBITOR Arg1:T11 Arg2:T25
+R11	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T28
+R12	ACTIVATOR Arg1:T11 Arg2:T27
+R13	INHIBITOR Arg1:T1 Arg2:T13

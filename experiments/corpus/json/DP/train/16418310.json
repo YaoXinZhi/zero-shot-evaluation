@@ -1,0 +1,181 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "interleukin-2",
+            "Name": "interleukin2"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "IL-2",
+            "Name": "il2"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "interferon",
+            "Name": "interferon"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "EGF",
+            "Name": "egf"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "RAS",
+            "Name": "ras"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "RAF",
+            "Name": "raf"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MAP kinase",
+            "Name": "mapkinase"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "VEGF and EGF receptors",
+            "Name": "vegfandegfreceptors"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "RAF",
+            "Name": "raf"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "VEGFR",
+            "Name": "vegfr"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "sorafenib",
+            "Name": "sorafenib"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "sunitinib",
+            "Name": "sunitinib"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "AG 013736",
+            "Name": "ag013736"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "sorafenib",
+            "Name": "sorafenib"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T23"
+        }
+    ]
+}

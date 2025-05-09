@@ -1,0 +1,48 @@
+T11	CHEMICAL 11 18	fisetin
+N1	Name Annotation:T11 Referent:fisetin
+T12	CHEMICAL 62 69	glucose
+N2	Name Annotation:T12 Referent:glucose
+T4	CHEMICAL 160 167	fisetin
+N3	Name Annotation:T4 Referent:fisetin
+T2	CHEMICAL 342 354	triglyceride
+N4	Name Annotation:T2 Referent:triglyceride
+T3	CHEMICAL 395 402	glucose
+N5	Name Annotation:T3 Referent:glucose
+T5	CHEMICAL 471 478	fisetin
+N6	Name Annotation:T5 Referent:fisetin
+T13	GENE-Y 566 571	PPARγ
+N7	Name Annotation:T13 Referent:pparγ
+T14	GENE-Y 573 580	SREBP1C
+N8	Name Annotation:T14 Referent:srebp1c
+T15	GENE-Y 585 590	SCD-1
+N9	Name Annotation:T15 Referent:scd1
+T6	CHEMICAL 688 695	fisetin
+N10	Name Annotation:T6 Referent:fisetin
+T7	CHEMICAL 710 717	fisetin
+N11	Name Annotation:T7 Referent:fisetin
+T16	GENE-Y 782 785	FAS
+N12	Name Annotation:T16 Referent:fas
+T17	GENE-Y 787 792	ATPCL
+N13	Name Annotation:T17 Referent:atpcl
+T18	GENE-Y 797 803	G6Pase
+N14	Name Annotation:T18 Referent:g6pase
+T19	GENE-Y 873 878	GLUT4
+N15	Name Annotation:T19 Referent:glut4
+T8	CHEMICAL 910 917	fisetin
+N16	Name Annotation:T8 Referent:fisetin
+T20	GENE-Y 999 1004	GLUT4
+N17	Name Annotation:T20 Referent:glut4
+T9	CHEMICAL 1019 1026	fisetin
+N18	Name Annotation:T9 Referent:fisetin
+T10	CHEMICAL 1086 1093	Fisetin
+N19	Name Annotation:T10 Referent:fisetin
+T1	CHEMICAL 1200 1207	glucose
+N20	Name Annotation:T1 Referent:glucose
+R1	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T20
+R2	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T13
+R3	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T14
+R4	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T15
+R5	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T16
+R6	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T17
+R7	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T18
+R8	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T19

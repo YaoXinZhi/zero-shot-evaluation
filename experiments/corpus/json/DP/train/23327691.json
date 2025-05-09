@@ -1,0 +1,131 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "CJ-15,208",
+            "Name": "cj15208"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "cocaine",
+            "Name": "cocaine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "macrocyclic tetrapeptide",
+            "Name": "macrocyclictetrapeptide"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "CJ-15,208",
+            "Name": "cj15208"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "cyclo[Phe-d-Pro-Phe-Trp]",
+            "Name": "cyclophedprophetrp"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "kappa opioid receptor",
+            "Name": "kappaopioidreceptor"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "KOR",
+            "Name": "kor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "CJ-15,208",
+            "Name": "cj15208"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "KOR",
+            "Name": "kor"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "KOR",
+            "Name": "kor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "CJ-15,208",
+            "Name": "cj15208"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "cocaine",
+            "Name": "cocaine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "cocaine",
+            "Name": "cocaine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "CJ-15,208",
+            "Name": "cj15208"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T7",
+            "target": "T11"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T5",
+            "target": "T12"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T7",
+            "target": "T12"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T14"
+        }
+    ]
+}

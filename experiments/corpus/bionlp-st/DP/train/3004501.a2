@@ -1,0 +1,98 @@
+T32	CHEMICAL 18 29	leukotriene
+N1	Name Annotation:T32 Referent:leukotriene
+T41	GENE-N 18 40	leukotriene synthetase
+N2	Name Annotation:T41 Referent:leukotrienesynthetase
+T33	CHEMICAL 75 93	diethylcarbamazine
+N3	Name Annotation:T33 Referent:diethylcarbamazine
+T30	CHEMICAL 117 135	diethylcarbamazine
+N4	Name Annotation:T30 Referent:diethylcarbamazine
+T31	CHEMICAL 140 149	piriprost
+N5	Name Annotation:T31 Referent:piriprost
+T40	GENE-Y 153 167	5-lipoxygenase
+N6	Name Annotation:T40 Referent:5lipoxygenase
+T1	CHEMICAL 179 197	Diethylcarbamazine
+N7	Name Annotation:T1 Referent:diethylcarbamazine
+T18	CHEMICAL 225 252	sulfidopeptide leukotrienes
+N8	Name Annotation:T18 Referent:sulfidopeptideleukotrienes
+T12	CHEMICAL 389 403	leukotriene C4
+N9	Name Annotation:T12 Referent:leukotrienec4
+T13	CHEMICAL 405 409	LTC4
+N10	Name Annotation:T13 Referent:ltc4
+T37	GENE-Y 414 428	LTC synthetase
+N11	Name Annotation:T37 Referent:ltcsynthetase
+T14	CHEMICAL 527 531	LTA4
+N12	Name Annotation:T14 Referent:lta4
+T15	CHEMICAL 535 546	glutathione
+N13	Name Annotation:T15 Referent:glutathione
+T16	CHEMICAL 579 583	LTA4
+N14	Name Annotation:T16 Referent:lta4
+T17	CHEMICAL 587 591	LTC4
+N15	Name Annotation:T17 Referent:ltc4
+T19	CHEMICAL 709 722	leukotriene C
+N16	Name Annotation:T19 Referent:leukotrienec
+T38	GENE-Y 709 733	leukotriene C synthetase
+N17	Name Annotation:T38 Referent:leukotrienecsynthetase
+T20	CHEMICAL 780 784	LTA4
+N18	Name Annotation:T20 Referent:lta4
+T21	CHEMICAL 852 856	LTA4
+N19	Name Annotation:T21 Referent:lta4
+T22	CHEMICAL 885 889	LTA4
+N20	Name Annotation:T22 Referent:lta4
+T23	CHEMICAL 944 957	leukotriene C
+N21	Name Annotation:T23 Referent:leukotrienec
+T39	GENE-Y 944 968	leukotriene C synthetase
+N22	Name Annotation:T39 Referent:leukotrienecsynthetase
+T24	CHEMICAL 981 999	diethylcarbamazine
+N23	Name Annotation:T24 Referent:diethylcarbamazine
+T25	CHEMICAL 1032 1036	LTA4
+N24	Name Annotation:T25 Referent:lta4
+T26	CHEMICAL 1053 1071	diethylcarbamazine
+N25	Name Annotation:T26 Referent:diethylcarbamazine
+T27	CHEMICAL 1073 1082	piriprost
+N26	Name Annotation:T27 Referent:piriprost
+T28	CHEMICAL 1084 1092	U-60,257
+N27	Name Annotation:T28 Referent:u60257
+T29	CHEMICAL 1094 1150	6,9-deepoxy-6,9-(phenylimino)-delta 6,8-prostaglandin I1
+N28	Name Annotation:T29 Referent:69deepoxy69phenyliminodelta68prostaglandini1
+T2	CHEMICAL 1185 1211	sulfidopeptide leuktrienes
+N29	Name Annotation:T2 Referent:sulfidopeptideleuktrienes
+T34	GENE-Y 1232 1246	5-lipoxygenase
+N30	Name Annotation:T34 Referent:5lipoxygenase
+T3	CHEMICAL 1289 1300	leukotriene
+N31	Name Annotation:T3 Referent:leukotriene
+T35	GENE-N 1289 1311	leukotriene synthetase
+N32	Name Annotation:T35 Referent:leukotrienesynthetase
+T4	CHEMICAL 1369 1378	piriprost
+N33	Name Annotation:T4 Referent:piriprost
+T5	CHEMICAL 1429 1440	leukotriene
+N34	Name Annotation:T5 Referent:leukotriene
+T6	CHEMICAL 1513 1531	diethylcarbamazine
+N35	Name Annotation:T6 Referent:diethylcarbamazine
+T7	CHEMICAL 1596 1605	piriprost
+N36	Name Annotation:T7 Referent:piriprost
+T8	CHEMICAL 1610 1628	diethylcarbamazine
+N37	Name Annotation:T8 Referent:diethylcarbamazine
+T9	CHEMICAL 1637 1648	leukotriene
+N38	Name Annotation:T9 Referent:leukotriene
+T10	CHEMICAL 1814 1818	LTA4
+N39	Name Annotation:T10 Referent:lta4
+T11	CHEMICAL 1826 1839	leukotriene C
+N40	Name Annotation:T11 Referent:leukotrienec
+T36	GENE-Y 1826 1850	leukotriene C synthetase
+N41	Name Annotation:T36 Referent:leukotrienecsynthetase
+R1	INHIBITOR Arg1:T33 Arg2:T41
+R2	INHIBITOR Arg1:T30 Arg2:T40
+R3	INHIBITOR Arg1:T31 Arg2:T40
+R4	PRODUCT-OF Arg1:T12 Arg2:T37
+R5	PRODUCT-OF Arg1:T13 Arg2:T37
+R6	SUBSTRATE Arg1:T20 Arg2:T38
+R7	INHIBITOR Arg1:T24 Arg2:T39
+R8	DIRECT-REGULATOR Arg1:T25 Arg2:T39
+R9	PRODUCT-OF Arg1:T2 Arg2:T34
+R10	INHIBITOR Arg1:T26 Arg2:T35
+R11	INHIBITOR Arg1:T27 Arg2:T34
+R12	INHIBITOR Arg1:T28 Arg2:T34
+R13	INHIBITOR Arg1:T26 Arg2:T34
+R14	INHIBITOR Arg1:T29 Arg2:T34
+R15	SUBSTRATE Arg1:T10 Arg2:T36
+R16	SUBSTRATE Arg1:T14 Arg2:T37

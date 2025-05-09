@@ -1,0 +1,89 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "human immunoglobulin G",
+            "Name": "humanimmunoglobuling"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "human neonatal Fc receptor",
+            "Name": "humanneonatalfcreceptor"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "hIgG",
+            "Name": "higg"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "hFcRn",
+            "Name": "hfcrn"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "neonatal Fc receptor",
+            "Name": "neonatalfcreceptor"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "FcRn",
+            "Name": "fcrn"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "IgG",
+            "Name": "igg"
+        },
+        {
+            "id": "T2",
+            "type": "Gene",
+            "name": "human IgG",
+            "Name": "humanigg"
+        },
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "human FcRn",
+            "Name": "humanfcrn"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "quinoxalines",
+            "Name": "quinoxalines"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "IgG",
+            "Name": "igg"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "FcRn",
+            "Name": "fcrn"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T5"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T6"
+        }
+    ]
+}

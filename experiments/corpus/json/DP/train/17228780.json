@@ -1,0 +1,95 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "citrulline",
+            "Name": "citrulline"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "ammonia",
+            "Name": "ammonia"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "argininosuccinate",
+            "Name": "argininosuccinate"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "argininosuccinate synthetase",
+            "Name": "argininosuccinatesynthetase"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "ASS",
+            "Name": "ass"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "urea",
+            "Name": "urea"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "ASS",
+            "Name": "ass"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "citrin",
+            "Name": "citrin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "aspartate",
+            "Name": "aspartate"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "aspartate/glutamate transporter",
+            "Name": "aspartateglutamatetransporter"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "citrin",
+            "Name": "citrin"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "ASS",
+            "Name": "ass"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T10"
+        }
+    ]
+}

@@ -1,0 +1,272 @@
+{
+    "entities": [
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "monoamine oxidase-A",
+            "Name": "monoamineoxidasea"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "moclobemide",
+            "Name": "moclobemide"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "MAO",
+            "Name": "mao"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "5-HT",
+            "Name": "5ht"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "MAO-A",
+            "Name": "maoa"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "phenylethylamine",
+            "Name": "phenylethylamine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Moclobemide",
+            "Name": "moclobemide"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "MAO-A",
+            "Name": "maoa"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "toloxatone",
+            "Name": "toloxatone"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "clorgyline",
+            "Name": "clorgyline"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "harmaline",
+            "Name": "harmaline"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "cimoxatone",
+            "Name": "cimoxatone"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "brofaromine",
+            "Name": "brofaromine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Phenelzine",
+            "Name": "phenelzine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "isocarboxazid",
+            "Name": "isocarboxazid"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "tranylcypromine",
+            "Name": "tranylcypromine"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "MAO-A",
+            "Name": "maoa"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "moclobemide",
+            "Name": "moclobemide"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "MAO-A",
+            "Name": "maoa"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "clorgyline",
+            "Name": "clorgyline"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "brofaromine",
+            "Name": "brofaromine"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "cimoxatone",
+            "Name": "cimoxatone"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "harmaline",
+            "Name": "harmaline"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "Moclobemide",
+            "Name": "moclobemide"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "MAO-A",
+            "Name": "maoa"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "moclobemide",
+            "Name": "moclobemide"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "MAO-A",
+            "Name": "maoa"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T16",
+            "target": "T29"
+        },
+        {
+            "type": "Substrate",
+            "source": "T18",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T20",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T17",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T27"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+T20	CHEMICAL 26 36	nimesulide
+N1	Name Annotation:T20 Referent:nimesulide
+T30	GENE-Y 53 58	COX-2
+N2	Name Annotation:T30 Referent:cox2
+T21	CHEMICAL 78 95	pentylenetetrazol
+N3	Name Annotation:T21 Referent:pentylenetetrazol
+T22	CHEMICAL 97 100	PTZ
+N4	Name Annotation:T22 Referent:ptz
+T29	GENE-N 181 196	cyclooxygenases
+N5	Name Annotation:T29 Referent:cyclooxygenases
+T25	GENE-N 198 201	COX
+N6	Name Annotation:T25 Referent:cox
+T15	CHEMICAL 232 245	prostaglandin
+N7	Name Annotation:T15 Referent:prostaglandin
+T9	CHEMICAL 400 408	naproxen
+N8	Name Annotation:T9 Referent:naproxen
+T26	GENE-N 424 427	COX
+N9	Name Annotation:T26 Referent:cox
+T10	CHEMICAL 442 451	rofecoxib
+N10	Name Annotation:T10 Referent:rofecoxib
+T27	GENE-Y 463 468	COX-2
+N11	Name Annotation:T27 Referent:cox2
+T11	CHEMICAL 602 612	nimesulide
+N12	Name Annotation:T11 Referent:nimesulide
+T28	GENE-Y 629 634	COX-2
+N13	Name Annotation:T28 Referent:cox2
+T12	CHEMICAL 654 671	pentylenetetrazol
+N14	Name Annotation:T12 Referent:pentylenetetrazol
+T13	CHEMICAL 673 676	PTZ
+N15	Name Annotation:T13 Referent:ptz
+T14	CHEMICAL 733 736	PTZ
+N16	Name Annotation:T14 Referent:ptz
+T16	CHEMICAL 820 830	Nimesulide
+N17	Name Annotation:T16 Referent:nimesulide
+T17	CHEMICAL 901 904	PTZ
+N18	Name Annotation:T17 Referent:ptz
+T18	CHEMICAL 984 987	PTZ
+N19	Name Annotation:T18 Referent:ptz
+T19	CHEMICAL 1091 1094	PTZ
+N20	Name Annotation:T19 Referent:ptz
+T1	CHEMICAL 1225 1228	PTZ
+N21	Name Annotation:T1 Referent:ptz
+T2	CHEMICAL 1277 1292	malondialdehyde
+N22	Name Annotation:T2 Referent:malondialdehyde
+T3	CHEMICAL 1294 1301	nitrite
+N23	Name Annotation:T3 Referent:nitrite
+T23	GENE-Y 1303 1318	myeloperoxidase
+N24	Name Annotation:T23 Referent:myeloperoxidase
+T4	CHEMICAL 1351 1362	glutathione
+N25	Name Annotation:T4 Referent:glutathione
+T5	CHEMICAL 1417 1427	nimesulide
+N26	Name Annotation:T5 Referent:nimesulide
+T6	CHEMICAL 1594 1597	PTZ
+N27	Name Annotation:T6 Referent:ptz
+T7	CHEMICAL 1628 1638	nimesulide
+N28	Name Annotation:T7 Referent:nimesulide
+T24	GENE-Y 1655 1660	COX-2
+N29	Name Annotation:T24 Referent:cox2
+T8	CHEMICAL 1703 1706	PTZ
+N30	Name Annotation:T8 Referent:ptz
+R1	INHIBITOR Arg1:T20 Arg2:T30
+R2	PRODUCT-OF Arg1:T15 Arg2:T25
+R3	PRODUCT-OF Arg1:T15 Arg2:T29
+R4	INHIBITOR Arg1:T9 Arg2:T26
+R5	INHIBITOR Arg1:T10 Arg2:T27
+R6	INHIBITOR Arg1:T11 Arg2:T28
+R7	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T23
+R8	INHIBITOR Arg1:T7 Arg2:T24

@@ -1,0 +1,78 @@
+T18	CHEMICAL 31 41	progestins
+N1	Name Annotation:T18 Referent:progestins
+T19	CHEMICAL 43 47	4-MA
+N2	Name Annotation:T19 Referent:4ma
+T20	CHEMICAL 52 63	cyanoketone
+N3	Name Annotation:T20 Referent:cyanoketone
+T28	GENE-N 67 139	human placental 3 beta-hydroxysteroid dehydrogenase/5----4-ene-isomerase
+N4	Name Annotation:T28 Referent:humanplacental3betahydroxysteroiddehydrogenase54eneisomerase
+T21	CHEMICAL 83 104	3 beta-hydroxysteroid
+N5	Name Annotation:T21 Referent:3betahydroxysteroid
+T22	GENE-N 150 222	Human placental 3 beta-hydroxysteroid dehydrogenase/5----4-ene isomerase
+N6	Name Annotation:T22 Referent:humanplacental3betahydroxysteroiddehydrogenase54eneisomerase
+T3	CHEMICAL 166 187	3 beta-hydroxysteroid
+N7	Name Annotation:T3 Referent:3betahydroxysteroid
+T26	GENE-N 224 234	3 beta-HSD
+N8	Name Annotation:T26 Referent:3betahsd
+T1	CHEMICAL 282 294	pregnenolone
+N9	Name Annotation:T1 Referent:pregnenolone
+T2	CHEMICAL 299 328	17 alpha-hydroxy pregnenolone
+N10	Name Annotation:T2 Referent:17alphahydroxypregnenolone
+T4	CHEMICAL 347 369	dehydroepiandrosterone
+N11	Name Annotation:T4 Referent:dehydroepiandrosterone
+T5	CHEMICAL 374 408	androst-5-ene-3 beta, 17 beta-diol
+N12	Name Annotation:T5 Referent:androst5ene3beta17betadiol
+T6	CHEMICAL 442 463	3-keto-4-ene-steroids
+N13	Name Annotation:T6 Referent:3keto4enesteroids
+T7	CHEMICAL 542 552	Trilostane
+N14	Name Annotation:T7 Referent:trilostane
+T8	CHEMICAL 554 562	epostane
+N15	Name Annotation:T8 Referent:epostane
+T9	CHEMICAL 567 578	cyanoketone
+N16	Name Annotation:T9 Referent:cyanoketone
+T23	GENE-N 604 614	3 beta-HSD
+N17	Name Annotation:T23 Referent:3betahsd
+T10	CHEMICAL 654 658	4-MA
+N18	Name Annotation:T10 Referent:4ma
+T24	GENE-N 673 690	5 alpha-reductase
+N19	Name Annotation:T24 Referent:5alphareductase
+T25	GENE-N 732 742	3 beta-HSD
+N20	Name Annotation:T25 Referent:3betahsd
+T11	CHEMICAL 779 788	progestin
+N21	Name Annotation:T11 Referent:progestin
+T12	CHEMICAL 807 819	promegestone
+N22	Name Annotation:T12 Referent:promegestone
+T13	CHEMICAL 824 830	RU2323
+N23	Name Annotation:T13 Referent:ru2323
+T14	CHEMICAL 921 940	Cyproterone acetate
+N24	Name Annotation:T14 Referent:cyproteroneacetate
+T15	CHEMICAL 944 953	progestin
+N25	Name Annotation:T15 Referent:progestin
+T16	CHEMICAL 1026 1036	norgestrel
+N26	Name Annotation:T16 Referent:norgestrel
+T17	CHEMICAL 1041 1054	norethindrone
+N27	Name Annotation:T17 Referent:norethindrone
+T27	GENE-N 1112 1122	3 beta-HSD
+N28	Name Annotation:T27 Referent:3betahsd
+R1	INHIBITOR Arg1:T18 Arg2:T28
+R2	INHIBITOR Arg1:T19 Arg2:T28
+R3	INHIBITOR Arg1:T20 Arg2:T28
+R4	INHIBITOR Arg1:T7 Arg2:T23
+R5	INHIBITOR Arg1:T8 Arg2:T23
+R6	INHIBITOR Arg1:T9 Arg2:T23
+R7	INHIBITOR Arg1:T10 Arg2:T24
+R8	INHIBITOR Arg1:T10 Arg2:T25
+R9	INHIBITOR Arg1:T14 Arg2:T27
+R10	INHIBITOR Arg1:T15 Arg2:T27
+R11	INHIBITOR Arg1:T16 Arg2:T27
+R12	INHIBITOR Arg1:T17 Arg2:T27
+R13	SUBSTRATE Arg1:T1 Arg2:T22
+R14	SUBSTRATE Arg1:T2 Arg2:T22
+R15	SUBSTRATE Arg1:T4 Arg2:T22
+R16	SUBSTRATE Arg1:T5 Arg2:T22
+R17	PRODUCT-OF Arg1:T6 Arg2:T22
+R18	SUBSTRATE Arg1:T1 Arg2:T26
+R19	SUBSTRATE Arg1:T2 Arg2:T26
+R20	SUBSTRATE Arg1:T4 Arg2:T26
+R21	SUBSTRATE Arg1:T5 Arg2:T26
+R22	PRODUCT-OF Arg1:T6 Arg2:T26

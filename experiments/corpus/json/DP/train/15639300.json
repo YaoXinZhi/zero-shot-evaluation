@@ -1,0 +1,175 @@
+{
+    "entities": [
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Phosphodiesterase-4",
+            "Name": "phosphodiesterase4"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "phosphodiesterase type 4",
+            "Name": "phosphodiesterasetype4"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "PDE4",
+            "Name": "pde4"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "cyclic AMP",
+            "Name": "cyclicamp"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "PDE4",
+            "Name": "pde4"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "PDE4B",
+            "Name": "pde4b"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "PDE4D",
+            "Name": "pde4d"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "PDE4",
+            "Name": "pde4"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "cilomilast",
+            "Name": "cilomilast"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "roflumilast",
+            "Name": "roflumilast"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "N-oxide",
+            "Name": "noxide"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "cilomilast",
+            "Name": "cilomilast"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "cilomilast",
+            "Name": "cilomilast"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "roflumilast",
+            "Name": "roflumilast"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Roflumilast",
+            "Name": "roflumilast"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cilomilast",
+            "Name": "cilomilast"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Roflumilast",
+            "Name": "roflumilast"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "beclomethasone dipropionate",
+            "Name": "beclomethasonedipropionate"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PDE4",
+            "Name": "pde4"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "steroidal",
+            "Name": "steroidal"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "PDE4",
+            "Name": "pde4"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "theophylline",
+            "Name": "theophylline"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "phosphodiesterase",
+            "Name": "phosphodiesterase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T13",
+            "target": "T14"
+        },
+        {
+            "type": "Substrate",
+            "source": "T13",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T17"
+        }
+    ]
+}

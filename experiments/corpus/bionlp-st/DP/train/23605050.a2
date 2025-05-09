@@ -1,0 +1,81 @@
+T15	CHEMICAL 16 20	Iron
+N1	Name Annotation:T15 Referent:iron
+T16	CHEMICAL 25 32	Glucose
+N2	Name Annotation:T16 Referent:glucose
+T34	GENE-Y 80 84	Bcl2
+N3	Name Annotation:T34 Referent:bcl2
+T35	GENE-Y 86 89	Bax
+N4	Name Annotation:T35 Referent:bax
+T36	GENE-Y 95 99	Mfn2
+N5	Name Annotation:T36 Referent:mfn2
+T20	GENE-Y 311 315	Mfn2
+N6	Name Annotation:T20 Referent:mfn2
+T21	GENE-Y 352 356	Bcl2
+N7	Name Annotation:T21 Referent:bcl2
+T3	CHEMICAL 473 477	iron
+N8	Name Annotation:T3 Referent:iron
+T4	CHEMICAL 485 492	glucose
+N9	Name Annotation:T4 Referent:glucose
+T22	GENE-Y 513 517	Mfn2
+N10	Name Annotation:T22 Referent:mfn2
+T23	GENE-Y 519 522	Bax
+N11	Name Annotation:T23 Referent:bax
+T24	GENE-Y 528 532	Bcl2
+N12	Name Annotation:T24 Referent:bcl2
+T5	CHEMICAL 632 636	iron
+N13	Name Annotation:T5 Referent:iron
+T6	CHEMICAL 644 651	glucose
+N14	Name Annotation:T6 Referent:glucose
+T25	GENE-Y 707 711	Bcl2
+N15	Name Annotation:T25 Referent:bcl2
+T26	GENE-Y 712 715	Bax
+N16	Name Annotation:T26 Referent:bax
+T27	GENE-Y 729 733	Mfn2
+N17	Name Annotation:T27 Referent:mfn2
+T28	GENE-N 765 779	Heme oxygenase
+N18	Name Annotation:T28 Referent:hemeoxygenase
+T29	GENE-N 781 783	HO
+N19	Name Annotation:T29 Referent:ho
+T7	CHEMICAL 795 799	iron
+N20	Name Annotation:T7 Referent:iron
+T8	CHEMICAL 808 818	superoxide
+N21	Name Annotation:T8 Referent:superoxide
+T30	GENE-N 808 828	superoxide dismutase
+N22	Name Annotation:T30 Referent:superoxidedismutase
+T9	CHEMICAL 843 854	glutathione
+N23	Name Annotation:T9 Referent:glutathione
+T31	GENE-Y 889 893	Bcl2
+N24	Name Annotation:T31 Referent:bcl2
+T32	GENE-Y 894 897	Bax
+N25	Name Annotation:T32 Referent:bax
+T33	GENE-Y 918 922	Mfn2
+N26	Name Annotation:T33 Referent:mfn2
+T10	CHEMICAL 964 971	glucose
+N27	Name Annotation:T10 Referent:glucose
+T11	CHEMICAL 1016 1023	glucose
+N28	Name Annotation:T11 Referent:glucose
+T12	CHEMICAL 1028 1032	iron
+N29	Name Annotation:T12 Referent:iron
+T13	CHEMICAL 1087 1094	glucose
+N30	Name Annotation:T13 Referent:glucose
+T14	CHEMICAL 1095 1099	iron
+N31	Name Annotation:T14 Referent:iron
+T17	GENE-N 1116 1118	HO
+N32	Name Annotation:T17 Referent:ho
+T1	CHEMICAL 1158 1165	glucose
+N33	Name Annotation:T1 Referent:glucose
+T2	CHEMICAL 1166 1168	Fe
+N34	Name Annotation:T2 Referent:fe
+T18	GENE-Y 1225 1229	Bcl2
+N35	Name Annotation:T18 Referent:bcl2
+T19	GENE-Y 1230 1233	Bax
+N36	Name Annotation:T19 Referent:bax
+R1	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T31
+R2	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T32
+R3	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T33
+R4	ACTIVATOR Arg1:T13 Arg2:T17
+R5	ACTIVATOR Arg1:T14 Arg2:T17
+R6	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T18
+R7	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T19
+R8	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T19
+R9	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T18

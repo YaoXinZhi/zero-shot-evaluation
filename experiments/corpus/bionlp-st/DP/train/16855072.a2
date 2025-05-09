@@ -1,0 +1,46 @@
+T18	GENE-Y 57 62	DPP-4
+N1	Name Annotation:T18 Referent:dpp4
+T10	CHEMICAL 73 84	sitagliptin
+N2	Name Annotation:T10 Referent:sitagliptin
+T1	CHEMICAL 116 127	Sitagliptin
+N3	Name Annotation:T1 Referent:sitagliptin
+T2	CHEMICAL 129 136	MK-0431
+N4	Name Annotation:T2 Referent:mk0431
+T13	GENE-Y 172 195	dipeptidyl peptidase-IV
+N5	Name Annotation:T13 Referent:dipeptidylpeptidaseiv
+T17	GENE-Y 197 202	DPP-4
+N6	Name Annotation:T17 Referent:dpp4
+T3	CHEMICAL 391 402	sitagliptin
+N7	Name Annotation:T3 Referent:sitagliptin
+T4	CHEMICAL 532 543	sitagliptin
+N8	Name Annotation:T4 Referent:sitagliptin
+T5	CHEMICAL 634 645	sitagliptin
+N9	Name Annotation:T5 Referent:sitagliptin
+T6	CHEMICAL 751 762	Sitagliptin
+N10	Name Annotation:T6 Referent:sitagliptin
+T14	GENE-Y 819 824	DPP-4
+N11	Name Annotation:T14 Referent:dpp4
+T15	GENE-Y 852 875	glucagon-like peptide-1
+N12	Name Annotation:T15 Referent:glucagonlikepeptide1
+T16	GENE-Y 877 882	GLP-1
+N13	Name Annotation:T16 Referent:glp1
+T7	CHEMICAL 939 946	glucose
+N14	Name Annotation:T7 Referent:glucose
+T8	CHEMICAL 962 969	glucose
+N15	Name Annotation:T8 Referent:glucose
+T9	CHEMICAL 1065 1076	sitagliptin
+N16	Name Annotation:T9 Referent:sitagliptin
+T11	GENE-Y 1189 1194	DPP-4
+N17	Name Annotation:T11 Referent:dpp4
+T12	GENE-Y 1222 1227	GLP-1
+N18	Name Annotation:T12 Referent:glp1
+R1	INHIBITOR Arg1:T10 Arg2:T18
+R2	INHIBITOR Arg1:T1 Arg2:T13
+R3	INHIBITOR Arg1:T2 Arg2:T13
+R4	INHIBITOR Arg1:T1 Arg2:T17
+R5	INHIBITOR Arg1:T2 Arg2:T17
+R6	INHIBITOR Arg1:T6 Arg2:T14
+R7	INDIRECT-UPREGULATOR Arg1:T6 Arg2:T15
+R8	INDIRECT-UPREGULATOR Arg1:T6 Arg2:T16
+R9	INHIBITOR Arg1:T9 Arg2:T11
+R10	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T12

@@ -1,0 +1,88 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "dichlorphenamide",
+            "Name": "dichlorphenamide"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "carbonic",
+            "Name": "carbonic"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "carbonic anhydrase",
+            "Name": "carbonicanhydrase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "dichlorphenamide",
+            "Name": "dichlorphenamide"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "acetazolamide",
+            "Name": "acetazolamide"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "mexiletine",
+            "Name": "mexiletine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "morpholino",
+            "Name": "morpholino"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "CLCN1",
+            "Name": "clcn1"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "chloride",
+            "Name": "chloride"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "chloride channel transcripts",
+            "Name": "chloridechanneltranscripts"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "chloride",
+            "Name": "chloride"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T10"
+        }
+    ]
+}

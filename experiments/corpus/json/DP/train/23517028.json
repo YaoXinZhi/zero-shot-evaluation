@@ -1,0 +1,92 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "\u03b21-Adrenergic Receptor",
+            "Name": "\u03b21adrenergicreceptor"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Arylpiperazine",
+            "Name": "arylpiperazine"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "\u03b21-adrenergic receptor",
+            "Name": "\u03b21adrenergicreceptor"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "\u03b21AR",
+            "Name": "\u03b21ar"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "arylpiperazine",
+            "Name": "arylpiperazine"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "\u03b21AR",
+            "Name": "\u03b21ar"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "indole",
+            "Name": "indole"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "quinoline",
+            "Name": "quinoline"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "GPCR",
+            "Name": "gpcr"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "\u03b21AR",
+            "Name": "\u03b21ar"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T6"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T5"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T5"
+        }
+    ]
+}

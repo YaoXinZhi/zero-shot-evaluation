@@ -1,0 +1,68 @@
+T15	CHEMICAL 0 10	Salicylate
+N1	Name Annotation:T15 Referent:salicylate
+T12	CHEMICAL 128 135	aspirin
+N2	Name Annotation:T12 Referent:aspirin
+T8	CHEMICAL 397 407	salicylate
+N3	Name Annotation:T8 Referent:salicylate
+T9	CHEMICAL 421 428	aspirin
+N4	Name Annotation:T9 Referent:aspirin
+T10	CHEMICAL 430 447	sodium salicylate
+N5	Name Annotation:T10 Referent:sodiumsalicylate
+T11	CHEMICAL 453 466	sulfasalazine
+N6	Name Annotation:T11 Referent:sulfasalazine
+T26	GENE-N 589 603	cyclooxygenase
+N7	Name Annotation:T26 Referent:cyclooxygenase
+T27	GENE-N 636 657	nuclear factor-kappaB
+N8	Name Annotation:T27 Referent:nuclearfactorkappab
+T28	GENE-N 659 668	NF-kappaB
+N9	Name Annotation:T28 Referent:nfkappab
+T13	CHEMICAL 900 910	salicylate
+N10	Name Annotation:T13 Referent:salicylate
+T14	CHEMICAL 1083 1094	salicylates
+N11	Name Annotation:T14 Referent:salicylates
+T1	CHEMICAL 1184 1191	aspirin
+N12	Name Annotation:T1 Referent:aspirin
+T2	CHEMICAL 1220 1230	salicylate
+N13	Name Annotation:T2 Referent:salicylate
+T16	GENE-N 1278 1287	NF-kappaB
+N14	Name Annotation:T16 Referent:nfkappab
+T3	CHEMICAL 1437 1448	salicylates
+N15	Name Annotation:T3 Referent:salicylates
+T17	GENE-Y 1497 1500	p50
+N16	Name Annotation:T17 Referent:p50
+T18	GENE-N 1515 1524	NF-kappaB
+N17	Name Annotation:T18 Referent:nfkappab
+T19	GENE-Y 1627 1630	p50
+N18	Name Annotation:T19 Referent:p50
+T20	GENE-Y 1635 1638	p65
+N19	Name Annotation:T20 Referent:p65
+T4	CHEMICAL 1738 1751	Sulfasalazine
+N20	Name Annotation:T4 Referent:sulfasalazine
+T5	CHEMICAL 1785 1796	salicylates
+N21	Name Annotation:T5 Referent:salicylates
+T21	GENE-N 1904 1913	NF-kappaB
+N22	Name Annotation:T21 Referent:nfkappab
+T22	GENE-Y 1958 1991	intracellular adhesion molecule-1
+N23	Name Annotation:T22 Referent:intracellularadhesionmolecule1
+T23	GENE-Y 1993 2024	inducible nitric oxide synthase
+N24	Name Annotation:T23 Referent:induciblenitricoxidesynthase
+T6	CHEMICAL 2003 2015	nitric oxide
+N25	Name Annotation:T6 Referent:nitricoxide
+T24	GENE-Y 2030 2046	cyclooxygenase-2
+N26	Name Annotation:T24 Referent:cyclooxygenase2
+T7	CHEMICAL 2072 2083	Salicylates
+N27	Name Annotation:T7 Referent:salicylates
+T25	GENE-N 2138 2146	NF-kappa
+N28	Name Annotation:T25 Referent:nfkappa
+R1	INHIBITOR Arg1:T1 Arg2:T16
+R2	INHIBITOR Arg1:T2 Arg2:T16
+R3	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T17
+R4	INHIBITOR Arg1:T3 Arg2:T18
+R5	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T19
+R6	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T20
+R7	INHIBITOR Arg1:T4 Arg2:T21
+R8	INHIBITOR Arg1:T5 Arg2:T21
+R9	INHIBITOR Arg1:T4 Arg2:T22
+R10	INHIBITOR Arg1:T4 Arg2:T23
+R11	INHIBITOR Arg1:T4 Arg2:T24
+R12	INHIBITOR Arg1:T7 Arg2:T25

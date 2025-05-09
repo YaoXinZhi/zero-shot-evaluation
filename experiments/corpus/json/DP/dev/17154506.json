@@ -1,0 +1,242 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "carbon-11 labeled 2beta-carbomethoxy-3beta-(3'-((Z)-2-haloethenyl)phenyl)nortropanes",
+            "Name": "carbon11labeled2betacarbomethoxy3beta3z2haloethenylphenylnortropanes"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "serotonin transporter",
+            "Name": "serotonintransporter"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "2beta-carbomethoxy-3beta-(3'-((Z)-2-iodoethenyl)phenyl)nortropane",
+            "Name": "2betacarbomethoxy3beta3z2iodoethenylphenylnortropane"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "mZIENT",
+            "Name": "mzient"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "2beta-carbomethoxy-3beta-(3'-((Z)-2-bromoethenyl)phenyl)nortropane",
+            "Name": "2betacarbomethoxy3beta3z2bromoethenylphenylnortropane"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "mZBrENT",
+            "Name": "mzbrent"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "human serotonin, dopamine, and norepinephrine transporters",
+            "Name": "humanserotonindopamineandnorepinephrinetransporters"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "halogen",
+            "Name": "halogen"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "11C",
+            "Name": "11c"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "11C",
+            "Name": "11c"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "citalopram",
+            "Name": "citalopram"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "methylphenidate",
+            "Name": "methylphenidate"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T14",
+            "target": "T25"
+        },
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T9",
+            "target": "T23"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T11",
+            "target": "T24"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T12",
+            "target": "T24"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T10",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T10",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T10",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T18"
+        }
+    ]
+}

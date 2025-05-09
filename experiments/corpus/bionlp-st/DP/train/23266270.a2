@@ -1,0 +1,89 @@
+T15	CHEMICAL 29 70	trans-1,3-diphenyl-2,3-epoxypropane-1-one
+N1	Name Annotation:T15 Referent:trans13diphenyl23epoxypropane1one
+T8	CHEMICAL 212 253	trans-1,3-diphenyl-2,3-epoxypropane-1-one
+N2	Name Annotation:T8 Referent:trans13diphenyl23epoxypropane1one
+T14	CHEMICAL 255 259	DPEP
+N3	Name Annotation:T14 Referent:dpep
+T2	CHEMICAL 385 389	DPEP
+N4	Name Annotation:T2 Referent:dpep
+T19	GENE-Y 448 479	inducible nitric oxide synthase
+N5	Name Annotation:T19 Referent:induciblenitricoxidesynthase
+T3	CHEMICAL 458 470	nitric oxide
+N6	Name Annotation:T3 Referent:nitricoxide
+T20	GENE-Y 481 485	iNOS
+N7	Name Annotation:T20 Referent:inos
+T21	GENE-Y 491 507	cyclooxygenase-2
+N8	Name Annotation:T21 Referent:cyclooxygenase2
+T22	GENE-Y 509 514	COX-2
+N9	Name Annotation:T22 Referent:cox2
+T4	CHEMICAL 563 565	NO
+N10	Name Annotation:T4 Referent:no
+T5	CHEMICAL 570 588	prostaglandin E(2)
+N11	Name Annotation:T5 Referent:prostaglandine2
+T6	CHEMICAL 590 596	PGE(2)
+N12	Name Annotation:T6 Referent:pge2
+T7	CHEMICAL 613 617	DPEP
+N13	Name Annotation:T7 Referent:dpep
+T23	GENE-N 660 669	cytokines
+N14	Name Annotation:T23 Referent:cytokines
+T24	GENE-Y 681 704	tumor necrosis factor-α
+N15	Name Annotation:T24 Referent:tumornecrosisfactorα
+T25	GENE-Y 706 711	TNF-α
+N16	Name Annotation:T25 Referent:tnfα
+T26	GENE-Y 714 733	interleukin (IL)-1β
+N17	Name Annotation:T26 Referent:interleukinil1β
+T27	GENE-Y 739 743	IL-6
+N18	Name Annotation:T27 Referent:il6
+T9	CHEMICAL 784 788	DPEP
+N19	Name Annotation:T9 Referent:dpep
+T10	CHEMICAL 798 800	NO
+N20	Name Annotation:T10 Referent:no
+T11	CHEMICAL 805 811	PGE(2)
+N21	Name Annotation:T11 Referent:pge2
+T28	GENE-N 838 855	nuclear factor-κB
+N22	Name Annotation:T28 Referent:nuclearfactorκb
+T29	GENE-N 857 862	NF-κB
+N23	Name Annotation:T29 Referent:nfκb
+T30	GENE-N 886 918	mitogen-activated protein kinase
+N24	Name Annotation:T30 Referent:mitogenactivatedproteinkinase
+T31	GENE-N 920 924	MAPK
+N25	Name Annotation:T31 Referent:mapk
+T12	CHEMICAL 1006 1010	DPEP
+N26	Name Annotation:T12 Referent:dpep
+T32	GENE-N 1052 1055	ERK
+N27	Name Annotation:T32 Referent:erk
+T33	GENE-N 1057 1060	JNK
+N28	Name Annotation:T33 Referent:jnk
+T34	GENE-N 1066 1069	p38
+N29	Name Annotation:T34 Referent:p38
+T13	CHEMICAL 1084 1088	DPEP
+N30	Name Annotation:T13 Referent:dpep
+T35	GENE-Y 1134 1154	inhibitor κB (IκB)-α
+N31	Name Annotation:T35 Referent:inhibitorκbiκbα
+T36	GENE-N 1159 1164	NF-κB
+N32	Name Annotation:T36 Referent:nfκb
+T16	GENE-Y 1165 1168	p50
+N33	Name Annotation:T16 Referent:p50
+T1	CHEMICAL 1229 1233	DPEP
+N34	Name Annotation:T1 Referent:dpep
+T17	GENE-N 1287 1292	NF-κB
+N35	Name Annotation:T17 Referent:nfκb
+T18	GENE-N 1297 1301	MAPK
+N36	Name Annotation:T18 Referent:mapk
+R1	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T19
+R2	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T20
+R3	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T21
+R4	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T22
+R5	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T23
+R6	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T24
+R7	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T25
+R8	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T27
+R9	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T26
+R10	INHIBITOR Arg1:T12 Arg2:T32
+R11	INHIBITOR Arg1:T12 Arg2:T33
+R12	INHIBITOR Arg1:T12 Arg2:T34
+R13	INHIBITOR Arg1:T13 Arg2:T35
+R14	INHIBITOR Arg1:T13 Arg2:T36
+R15	INHIBITOR Arg1:T13 Arg2:T16
+R16	INHIBITOR Arg1:T1 Arg2:T17
+R17	INHIBITOR Arg1:T1 Arg2:T18

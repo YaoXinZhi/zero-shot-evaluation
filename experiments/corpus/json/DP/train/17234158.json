@@ -1,0 +1,237 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Pirfenidone",
+            "Name": "pirfenidone"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "TGF-beta",
+            "Name": "tgfbeta"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "cytokine",
+            "Name": "cytokine"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "transforming growth factor (TGF)-beta",
+            "Name": "transforminggrowthfactortgfbeta"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "5-methyl-1-phenyl-2-(1H)-pyridone",
+            "Name": "5methyl1phenyl21hpyridone"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "pirfenidone",
+            "Name": "pirfenidone"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "PFD",
+            "Name": "pfd"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "TGF-beta2",
+            "Name": "tgfbeta2"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "TGF-beta2",
+            "Name": "tgfbeta2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "PFD",
+            "Name": "pfd"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "TGF-beta",
+            "Name": "tgfbeta"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "TGF-beta",
+            "Name": "tgfbeta"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "PFD",
+            "Name": "pfd"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "TGF-beta2",
+            "Name": "tgfbeta2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "TGF-beta2",
+            "Name": "tgfbeta2"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "TGF-beta",
+            "Name": "tgfbeta"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "pro-protein convertase",
+            "Name": "proproteinconvertase"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "furin",
+            "Name": "furin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "PFD",
+            "Name": "pfd"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "matrix metalloproteinase (MMP)-11",
+            "Name": "matrixmetalloproteinasemmp11"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "TGF-beta",
+            "Name": "tgfbeta"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "furin",
+            "Name": "furin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "PFD",
+            "Name": "pfd"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "PFD",
+            "Name": "pfd"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "TGF-beta",
+            "Name": "tgfbeta"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T14"
+        }
+    ]
+}

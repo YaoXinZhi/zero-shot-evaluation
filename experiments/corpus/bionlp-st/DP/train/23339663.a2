@@ -1,0 +1,84 @@
+T15	CHEMICAL 34 49	organophosphate
+N1	Name Annotation:T15 Referent:organophosphate
+T16	CHEMICAL 50 54	CBDP
+N2	Name Annotation:T16 Referent:cbdp
+T34	GENE-Y 60 75	cholinesterases
+N3	Name Annotation:T34 Referent:cholinesterases
+T1	CHEMICAL 144 166	Tri-o-cresyl-phosphate
+N4	Name Annotation:T1 Referent:triocresylphosphate
+T10	CHEMICAL 168 172	TOCP
+N5	Name Annotation:T10 Referent:tocp
+T6	CHEMICAL 299 303	TOCP
+N6	Name Annotation:T6 Referent:tocp
+T8	CHEMICAL 322 348	cresyl saligenin phosphate
+N7	Name Annotation:T8 Referent:cresylsaligeninphosphate
+T9	CHEMICAL 350 354	CBDP
+N8	Name Annotation:T9 Referent:cbdp
+T21	GENE-Y 392 413	butyrylcholinesterase
+N9	Name Annotation:T21 Referent:butyrylcholinesterase
+T22	GENE-Y 415 419	BChE
+N10	Name Annotation:T22 Referent:bche
+T23	GENE-Y 477 497	acetylcholinesterase
+N11	Name Annotation:T23 Referent:acetylcholinesterase
+T24	GENE-Y 499 503	AChE
+N12	Name Annotation:T24 Referent:ache
+T25	GENE-Y 569 583	cholinesterase
+N13	Name Annotation:T25 Referent:cholinesterase
+T26	GENE-Y 585 588	ChE
+N14	Name Annotation:T26 Referent:che
+T27	GENE-Y 658 662	AChE
+N15	Name Annotation:T27 Referent:ache
+T11	CHEMICAL 666 670	CBDP
+N16	Name Annotation:T11 Referent:cbdp
+T28	GENE-Y 752 756	AChE
+N17	Name Annotation:T28 Referent:ache
+T12	CHEMICAL 790 794	CBDP
+N18	Name Annotation:T12 Referent:cbdp
+T13	CHEMICAL 922 926	CBDP
+N19	Name Annotation:T13 Referent:cbdp
+T29	GENE-Y 932 942	mouse AChE
+N20	Name Annotation:T29 Referent:mouseache
+T30	GENE-Y 947 957	human BChE
+N21	Name Annotation:T30 Referent:humanbche
+T31	GENE-Y 1013 1017	AChE
+N22	Name Annotation:T31 Referent:ache
+T32	GENE-Y 1022 1026	BChE
+N23	Name Annotation:T32 Referent:bche
+T14	CHEMICAL 1104 1107	Phe
+N24	Name Annotation:T14 Referent:phe
+T33	GENE-Y 1139 1143	AChE
+N25	Name Annotation:T33 Referent:ache
+T2	CHEMICAL 1149 1153	CBDP
+N26	Name Annotation:T2 Referent:cbdp
+T3	CHEMICAL 1209 1218	H(2)(16)O
+N27	Name Annotation:T3 Referent:h216o
+T4	CHEMICAL 1222 1231	H(2)(18)O
+N28	Name Annotation:T4 Referent:h218o
+T17	GENE-Y 1497 1501	AChE
+N29	Name Annotation:T17 Referent:ache
+T18	GENE-Y 1506 1510	BChE
+N30	Name Annotation:T18 Referent:bche
+T5	CHEMICAL 1549 1554	oxime
+N31	Name Annotation:T5 Referent:oxime
+T19	GENE-Y 1686 1690	AChE
+N32	Name Annotation:T19 Referent:ache
+T20	GENE-Y 1695 1699	BChE
+N33	Name Annotation:T20 Referent:bche
+T7	CHEMICAL 1703 1707	CBDP
+N34	Name Annotation:T7 Referent:cbdp
+R1	INHIBITOR Arg1:T15 Arg2:T34
+R2	INHIBITOR Arg1:T16 Arg2:T34
+R3	INHIBITOR Arg1:T8 Arg2:T21
+R4	INHIBITOR Arg1:T9 Arg2:T21
+R5	INHIBITOR Arg1:T8 Arg2:T22
+R6	INHIBITOR Arg1:T9 Arg2:T22
+R7	INHIBITOR Arg1:T8 Arg2:T23
+R8	INHIBITOR Arg1:T9 Arg2:T23
+R9	INHIBITOR Arg1:T8 Arg2:T24
+R10	INHIBITOR Arg1:T9 Arg2:T24
+R11	INHIBITOR Arg1:T11 Arg2:T27
+R12	PART-OF Arg1:T14 Arg2:T33
+R13	DIRECT-REGULATOR Arg1:T2 Arg2:T33
+R14	INHIBITOR Arg1:T7 Arg2:T19
+R15	INHIBITOR Arg1:T7 Arg2:T20
+R16	DIRECT-REGULATOR Arg1:T12 Arg2:T28

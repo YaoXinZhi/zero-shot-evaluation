@@ -1,0 +1,32 @@
+T7	CHEMICAL 16 22	taxane
+N1	Name Annotation:T7 Referent:taxane
+T13	GENE-N 34 46	microtubules
+N2	Name Annotation:T13 Referent:microtubules
+T6	CHEMICAL 134 144	paclitaxel
+N3	Name Annotation:T6 Referent:paclitaxel
+T8	GENE-N 150 161	microtubule
+N4	Name Annotation:T8 Referent:microtubule
+T3	CHEMICAL 206 213	taxanes
+N5	Name Annotation:T3 Referent:taxanes
+T1	CHEMICAL 425 436	epothilones
+N6	Name Annotation:T1 Referent:epothilones
+T2	CHEMICAL 636 646	paclitaxel
+N7	Name Annotation:T2 Referent:paclitaxel
+T9	GENE-N 773 784	microtubule
+N8	Name Annotation:T9 Referent:microtubule
+T4	CHEMICAL 791 800	docetaxel
+N9	Name Annotation:T4 Referent:docetaxel
+T5	CHEMICAL 802 809	Taxanes
+N10	Name Annotation:T5 Referent:taxanes
+T10	GENE-N 830 842	microtubules
+N11	Name Annotation:T10 Referent:microtubules
+T11	GENE-N 875 889	P-glycoprotein
+N12	Name Annotation:T11 Referent:pglycoprotein
+T12	GENE-N 1091 1103	efflux pumps
+N13	Name Annotation:T12 Referent:effluxpumps
+R1	DIRECT-REGULATOR Arg1:T7 Arg2:T13
+R2	DIRECT-REGULATOR Arg1:T6 Arg2:T13
+R3	DIRECT-REGULATOR Arg1:T3 Arg2:T8
+R4	DIRECT-REGULATOR Arg1:T4 Arg2:T9
+R5	DIRECT-REGULATOR Arg1:T5 Arg2:T10
+R6	DIRECT-REGULATOR Arg1:T5 Arg2:T11

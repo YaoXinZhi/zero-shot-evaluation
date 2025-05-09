@@ -1,0 +1,82 @@
+T31	CHEMICAL 32 44	thioxanthone
+N1	Name Annotation:T31 Referent:thioxanthone
+T25	CHEMICAL 114 137	2-isopropylthioxanthone
+N2	Name Annotation:T25 Referent:2isopropylthioxanthone
+T28	CHEMICAL 139 144	2-ITX
+N3	Name Annotation:T28 Referent:2itx
+T13	CHEMICAL 240 245	2-ITX
+N4	Name Annotation:T13 Referent:2itx
+T14	CHEMICAL 318 323	2-ITX
+N5	Name Annotation:T14 Referent:2itx
+T15	CHEMICAL 325 348	4-isopropylthioxanthone
+N6	Name Annotation:T15 Referent:4isopropylthioxanthone
+T16	CHEMICAL 350 355	4-ITX
+N7	Name Annotation:T16 Referent:4itx
+T17	CHEMICAL 358 382	2,4-diethylthio xanthone
+N8	Name Annotation:T17 Referent:24diethylthioxanthone
+T18	CHEMICAL 384 398	2,4-diethyl-TX
+N9	Name Annotation:T18 Referent:24diethyltx
+T19	CHEMICAL 401 421	2-chlorothioxanthone
+N10	Name Annotation:T19 Referent:2chlorothioxanthone
+T20	CHEMICAL 423 434	2-chloro-TX
+N11	Name Annotation:T20 Referent:2chlorotx
+T21	CHEMICAL 441 471	1-chloro-4-propoxythioxanthone
+N12	Name Annotation:T21 Referent:1chloro4propoxythioxanthone
+T22	CHEMICAL 473 494	1-chloro-4-propoxy-TX
+N13	Name Annotation:T22 Referent:1chloro4propoxytx
+T23	CHEMICAL 519 527	androgen
+N14	Name Annotation:T23 Referent:androgen
+T37	GENE-N 519 549	androgen and estrogen receptor
+N15	Name Annotation:T37 Referent:androgenandestrogenreceptor
+T24	CHEMICAL 532 540	estrogen
+N16	Name Annotation:T24 Referent:estrogen
+T26	CHEMICAL 824 829	2-ITX
+N17	Name Annotation:T26 Referent:2itx
+T27	CHEMICAL 831 836	4-ITX
+N18	Name Annotation:T27 Referent:4itx
+T29	CHEMICAL 842 856	2,4-diethyl-TX
+N19	Name Annotation:T29 Referent:24diethyltx
+T30	CHEMICAL 866 877	2-chloro-TX
+N20	Name Annotation:T30 Referent:2chlorotx
+T1	CHEMICAL 1087 1100	17ß-estradiol
+N21	Name Annotation:T1 Referent:17ßestradiol
+T2	CHEMICAL 1105 1112	estrone
+N22	Name Annotation:T2 Referent:estrone
+T3	CHEMICAL 1141 1146	2-ITX
+N23	Name Annotation:T3 Referent:2itx
+T4	CHEMICAL 1181 1189	androgen
+N24	Name Annotation:T4 Referent:androgen
+T5	CHEMICAL 1204 1216	pregnenolone
+N25	Name Annotation:T5 Referent:pregnenolone
+T6	CHEMICAL 1221 1233	progesterone
+N26	Name Annotation:T6 Referent:progesterone
+T32	GENE-Y 1319 1328	aromatase
+N27	Name Annotation:T32 Referent:aromatase
+T33	GENE-Y 1330 1337	CYP19A1
+N28	Name Annotation:T33 Referent:cyp19a1
+T7	CHEMICAL 1407 1412	2-ITX
+N29	Name Annotation:T7 Referent:2itx
+T8	CHEMICAL 1414 1419	4-ITX
+N30	Name Annotation:T8 Referent:4itx
+T9	CHEMICAL 1425 1439	2,4-diethyl-TX
+N31	Name Annotation:T9 Referent:24diethyltx
+T34	GENE-Y 1468 1475	CYP19A1
+N32	Name Annotation:T34 Referent:cyp19a1
+T10	CHEMICAL 1493 1498	2-ITX
+N33	Name Annotation:T10 Referent:2itx
+T35	GENE-Y 1531 1540	aromatase
+N34	Name Annotation:T35 Referent:aromatase
+T11	CHEMICAL 1623 1635	thioxanthone
+N35	Name Annotation:T11 Referent:thioxanthone
+T36	GENE-N 1711 1727	nuclear receptor
+N36	Name Annotation:T36 Referent:nuclearreceptor
+T12	CHEMICAL 1742 1749	steroid
+N37	Name Annotation:T12 Referent:steroid
+R1	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T32
+R2	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T33
+R3	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T32
+R4	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T33
+R5	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T32
+R6	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T33
+R7	ACTIVATOR Arg1:T10 Arg2:T35
+R8	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T34

@@ -1,0 +1,135 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "histamine H3 receptor",
+            "Name": "histamineh3receptor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "histamine H3 receptor",
+            "Name": "histamineh3receptor"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "N-methyltransferase",
+            "Name": "nmethyltransferase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "tacrine",
+            "Name": "tacrine"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "H3 receptor",
+            "Name": "h3receptor"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "acetylcholine",
+            "Name": "acetylcholine"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "butyrylcholinesterase",
+            "Name": "butyrylcholinesterase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "acetylcholine",
+            "Name": "acetylcholine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "cholinesterase",
+            "Name": "cholinesterase"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "tacrine",
+            "Name": "tacrine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T15"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T9",
+            "target": "T11"
+        }
+    ]
+}

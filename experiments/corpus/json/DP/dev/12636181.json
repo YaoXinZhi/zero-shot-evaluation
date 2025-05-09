@@ -1,0 +1,198 @@
+{
+    "entities": [
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Butyrylcholinesterase",
+            "Name": "butyrylcholinesterase"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "Acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "butyrylcholinesterase",
+            "Name": "butyrylcholinesterase"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "BuChE",
+            "Name": "buche"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "acetylcholine",
+            "Name": "acetylcholine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "ACh",
+            "Name": "ach"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "BuChE",
+            "Name": "buche"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "BuChE",
+            "Name": "buche"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cymserine",
+            "Name": "cymserine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "MF-8622",
+            "Name": "mf8622"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "BuChE",
+            "Name": "buche"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "rivastigmine",
+            "Name": "rivastigmine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "BuChE",
+            "Name": "buche"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "BuChE",
+            "Name": "buche"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "BuChE",
+            "Name": "buche"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "rivastigmine",
+            "Name": "rivastigmine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T7"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T18"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T7"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T8"
+        }
+    ]
+}

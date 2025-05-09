@@ -1,0 +1,133 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "pranlukast",
+            "Name": "pranlukast"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "leukotriene",
+            "Name": "leukotriene"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "leukotriene receptor",
+            "Name": "leukotrienereceptor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Leukotriene",
+            "Name": "leukotriene"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Pranlukast",
+            "Name": "pranlukast"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "CysLt1",
+            "Name": "cyslt1"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "leukotriene",
+            "Name": "leukotriene"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "leukotriene receptor",
+            "Name": "leukotrienereceptor"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "pranlukast",
+            "Name": "pranlukast"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "corticosteroids",
+            "Name": "corticosteroids"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "pranlukast",
+            "Name": "pranlukast"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Pranlukast",
+            "Name": "pranlukast"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "pranlukast",
+            "Name": "pranlukast"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "pranlukast",
+            "Name": "pranlukast"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Pranlukast",
+            "Name": "pranlukast"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "leukotriene",
+            "Name": "leukotriene"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T13",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T15"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T12",
+            "target": "T16"
+        }
+    ]
+}

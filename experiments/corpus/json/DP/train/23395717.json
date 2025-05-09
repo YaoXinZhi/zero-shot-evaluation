@@ -1,0 +1,133 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Xestospongin C",
+            "Name": "xestosponginc"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Xestospongin C",
+            "Name": "xestosponginc"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "bis-1-oxaquinolizidines",
+            "Name": "bis1oxaquinolizidines"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "sarcoendoplasmic reticulum calcium transport ATPase",
+            "Name": "sarcoendoplasmicreticulumcalciumtransportatpase"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "IP3 receptor",
+            "Name": "ip3receptor"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "nitroblue tetrazolium",
+            "Name": "nitrobluetetrazolium"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "CD11b",
+            "Name": "cd11b"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "CD14",
+            "Name": "cd14"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "tumor necrosis factor (TNF)-\u03b1",
+            "Name": "tumornecrosisfactortnf\u03b1"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "TNF receptors",
+            "Name": "tnfreceptors"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "extracellular signal-regulated kinase",
+            "Name": "extracellularsignalregulatedkinase"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "PD98059",
+            "Name": "pd98059"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T9"
+        }
+    ]
+}

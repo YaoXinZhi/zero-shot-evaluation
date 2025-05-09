@@ -1,0 +1,294 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "Sunitinib",
+            "Name": "sunitinib"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T37",
+            "type": "Gene",
+            "name": "cytochrome P450 1A1",
+            "Name": "cytochromep4501a1"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "aryl hydrocarbon",
+            "Name": "arylhydrocarbon"
+        },
+        {
+            "id": "T36",
+            "type": "Gene",
+            "name": "aryl hydrocarbon receptor",
+            "Name": "arylhydrocarbonreceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Sunitinib",
+            "Name": "sunitinib"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "SUN",
+            "Name": "sun"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "SUN",
+            "Name": "sun"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "cytochrome P450 1A1",
+            "Name": "cytochromep4501a1"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "CYP1A1",
+            "Name": "cyp1a1"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "SUN",
+            "Name": "sun"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "CYP1A1",
+            "Name": "cyp1a1"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "SUN",
+            "Name": "sun"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "CYP1A1",
+            "Name": "cyp1a1"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "CYP1A1",
+            "Name": "cyp1a1"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "SUN",
+            "Name": "sun"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "actinomycin D",
+            "Name": "actinomycind"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "SUN",
+            "Name": "sun"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "SUN",
+            "Name": "sun"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "aryl hydrocarbon",
+            "Name": "arylhydrocarbon"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "aryl hydrocarbon receptor",
+            "Name": "arylhydrocarbonreceptor"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "SUN",
+            "Name": "sun"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "CYP1A1",
+            "Name": "cyp1a1"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "SUN",
+            "Name": "sun"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "SUN",
+            "Name": "sun"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "SUN",
+            "Name": "sun"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "CYP1A1",
+            "Name": "cyp1a1"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T16",
+            "target": "T35"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T16",
+            "target": "T37"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T30"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T31"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T32"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T32"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T13",
+            "target": "T32"
+        },
+        {
+            "type": "Activator",
+            "source": "T14",
+            "target": "T33"
+        },
+        {
+            "type": "Activator",
+            "source": "T14",
+            "target": "T34"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T25"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T31"
+        }
+    ]
+}

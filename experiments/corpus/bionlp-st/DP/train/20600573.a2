@@ -1,0 +1,44 @@
+T13	CHEMICAL 0 10	Rasagiline
+N1	Name Annotation:T13 Referent:rasagiline
+T14	CHEMICAL 38 47	monoamine
+N2	Name Annotation:T14 Referent:monoamine
+T19	GENE-Y 38 57	monoamine oxidase-B
+N3	Name Annotation:T19 Referent:monoamineoxidaseb
+T1	CHEMICAL 99 109	Rasagiline
+N4	Name Annotation:T1 Referent:rasagiline
+T3	CHEMICAL 111 139	N-propargyl-1-(R)-aminoindan
+N5	Name Annotation:T3 Referent:npropargyl1raminoindan
+T11	CHEMICAL 180 189	monoamine
+N6	Name Annotation:T11 Referent:monoamine
+T18	GENE-Y 180 205	monoamine oxidase (MAO)-B
+N7	Name Annotation:T18 Referent:monoamineoxidasemaob
+T4	CHEMICAL 241 251	Rasagiline
+N8	Name Annotation:T4 Referent:rasagiline
+T5	CHEMICAL 294 300	L-Dopa
+N9	Name Annotation:T5 Referent:ldopa
+T6	CHEMICAL 374 381	TVP1022
+N10	Name Annotation:T6 Referent:tvp1022
+T15	GENE-Y 418 423	MAO-B
+N11	Name Annotation:T15 Referent:maob
+T7	CHEMICAL 621 631	rasagiline
+N12	Name Annotation:T7 Referent:rasagiline
+T16	GENE-Y 665 670	MAO-B
+N13	Name Annotation:T16 Referent:maob
+T8	CHEMICAL 706 717	N-propargyl
+N14	Name Annotation:T8 Referent:npropargyl
+T17	GENE-Y 818 823	Bcl-2
+N15	Name Annotation:T17 Referent:bcl2
+T9	CHEMICAL 898 908	rasagiline
+N16	Name Annotation:T9 Referent:rasagiline
+T10	CHEMICAL 910 926	1-(R)-aminoindan
+N17	Name Annotation:T10 Referent:1raminoindan
+T12	CHEMICAL 1047 1057	rasagiline
+N18	Name Annotation:T12 Referent:rasagiline
+T2	CHEMICAL 1136 1146	rasagiline
+N19	Name Annotation:T2 Referent:rasagiline
+R1	INHIBITOR Arg1:T13 Arg2:T19
+R2	INHIBITOR Arg1:T1 Arg2:T18
+R3	INHIBITOR Arg1:T3 Arg2:T18
+R4	INHIBITOR Arg1:T6 Arg2:T15
+R5	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T17
+R6	INHIBITOR Arg1:T7 Arg2:T16

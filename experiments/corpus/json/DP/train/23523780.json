@@ -1,0 +1,89 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "\u03c9-agatoxin IVA",
+            "Name": "\u03c9agatoxiniva"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "\u03c9-Agatoxin-IVA",
+            "Name": "\u03c9agatoxiniva"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "P/Q-type Ca(2+) channel",
+            "Name": "pqtypeca2channel"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Ca(2+)",
+            "Name": "ca2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Ca(2+)",
+            "Name": "ca2"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "P/Q-type voltage gated Ca(2+) channels",
+            "Name": "pqtypevoltagegatedca2channels"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Ca(2+)",
+            "Name": "ca2"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "\u03c9-agatoxin",
+            "Name": "\u03c9agatoxin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "bicuculline",
+            "Name": "bicuculline"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "GABAA",
+            "Name": "gabaa"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "\u03c9-agatoxin",
+            "Name": "\u03c9agatoxin"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "\u03c9-agatoxin",
+            "Name": "\u03c9agatoxin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T7"
+        }
+    ]
+}

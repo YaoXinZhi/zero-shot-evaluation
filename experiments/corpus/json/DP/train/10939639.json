@@ -1,0 +1,147 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Schisandrin B",
+            "Name": "schisandrinb"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "menadione",
+            "Name": "menadione"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "DT-diaphorase",
+            "Name": "dtdiaphorase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "schisandrin B",
+            "Name": "schisandrinb"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Sch B",
+            "Name": "schb"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "menadione",
+            "Name": "menadione"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "alanine aminotransferase",
+            "Name": "alanineaminotransferase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "malondialdehyde",
+            "Name": "malondialdehyde"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "menadione",
+            "Name": "menadione"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Sch B",
+            "Name": "schb"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "DT-diaphorase",
+            "Name": "dtdiaphorase"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "DTD",
+            "Name": "dtd"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Sch B",
+            "Name": "schb"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Sch B",
+            "Name": "schb"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "DTD",
+            "Name": "dtd"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "DTD",
+            "Name": "dtd"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "menadione",
+            "Name": "menadione"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Sch B",
+            "Name": "schb"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "DTD",
+            "Name": "dtd"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "menadione",
+            "Name": "menadione"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T12",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Activator",
+            "source": "T9",
+            "target": "T17"
+        },
+        {
+            "type": "Activator",
+            "source": "T11",
+            "target": "T19"
+        }
+    ]
+}

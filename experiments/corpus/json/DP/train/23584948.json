@@ -1,0 +1,113 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Vandetanib",
+            "Name": "vandetanib"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Vandetanib",
+            "Name": "vandetanib"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Caprelsa",
+            "Name": "caprelsa"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "growth-factor receptor tyrosine kinase",
+            "Name": "growthfactorreceptortyrosinekinase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "RET",
+            "Name": "ret"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "vascular endothelial growth-factor receptors 2 and 3",
+            "Name": "vascularendothelialgrowthfactorreceptors2and3"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "epidermal growth-factor receptors",
+            "Name": "epidermalgrowthfactorreceptors"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Vandetanib",
+            "Name": "vandetanib"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        }
+    ]
+}

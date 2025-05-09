@@ -1,0 +1,120 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Estradiol",
+            "Name": "estradiol"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "estradiol",
+            "Name": "estradiol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "glutamine",
+            "Name": "glutamine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "glutamine synthetase",
+            "Name": "glutaminesynthetase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "glutamine",
+            "Name": "glutamine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "glutamine",
+            "Name": "glutamine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "estradiol",
+            "Name": "estradiol"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "glutamine",
+            "Name": "glutamine"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "glutamine synthetase",
+            "Name": "glutaminesynthetase"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "estradiol",
+            "Name": "estradiol"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T12"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T13"
+        },
+        {
+            "type": "Substrate",
+            "source": "T9",
+            "target": "T13"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T13"
+        }
+    ]
+}

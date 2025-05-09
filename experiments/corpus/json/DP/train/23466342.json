@@ -1,0 +1,278 @@
+{
+    "entities": [
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "P-glycoprotein",
+            "Name": "pglycoprotein"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "mollugin",
+            "Name": "mollugin"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "P-glycoprotein",
+            "Name": "pglycoprotein"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "P-gp",
+            "Name": "pgp"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "MDR1",
+            "Name": "mdr1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "mollugin",
+            "Name": "mollugin"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "MDR1",
+            "Name": "mdr1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "adriamycin",
+            "Name": "adriamycin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Mollugin",
+            "Name": "mollugin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "MDR1",
+            "Name": "mdr1"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "MDR1",
+            "Name": "mdr1"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Mollugin",
+            "Name": "mollugin"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "P-gp",
+            "Name": "pgp"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "rhodamine-123",
+            "Name": "rhodamine123"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "MDR1 promoter",
+            "Name": "mdr1promoter"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "mollugin",
+            "Name": "mollugin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "AMP",
+            "Name": "amp"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "AMP-activated protein kinase",
+            "Name": "ampactivatedproteinkinase"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "mollugin",
+            "Name": "mollugin"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "MDR1",
+            "Name": "mdr1"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "CREB",
+            "Name": "creb"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "mollugin",
+            "Name": "mollugin"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "mollugin",
+            "Name": "mollugin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "P-gp",
+            "Name": "pgp"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "CRE",
+            "Name": "cre"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T21"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T22"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T24"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T30"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T16"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T31"
+        }
+    ]
+}

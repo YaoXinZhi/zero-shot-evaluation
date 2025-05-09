@@ -1,0 +1,282 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "ibuprofen",
+            "Name": "ibuprofen"
+        },
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "RhoA",
+            "Name": "rhoa"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Ibuprofen",
+            "Name": "ibuprofen"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "cyclooxygenases",
+            "Name": "cyclooxygenases"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "ibuprofen",
+            "Name": "ibuprofen"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "RhoA",
+            "Name": "rhoa"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "ibuprofen",
+            "Name": "ibuprofen"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "amyloid-beta42",
+            "Name": "amyloidbeta42"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "RhoA",
+            "Name": "rhoa"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "amyloid-beta42",
+            "Name": "amyloidbeta42"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "gamma-secretase complex",
+            "Name": "gammasecretasecomplex"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "ibuprofen",
+            "Name": "ibuprofen"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "RhoA",
+            "Name": "rhoa"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "peroxisome proliferator-activated receptor gamma",
+            "Name": "peroxisomeproliferatoractivatedreceptorgamma"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "ibuprofen",
+            "Name": "ibuprofen"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "RhoA",
+            "Name": "rhoa"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Ibuprofen",
+            "Name": "ibuprofen"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "RhoA",
+            "Name": "rhoa"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "ibuprofen",
+            "Name": "ibuprofen"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "ibuprofen",
+            "Name": "ibuprofen"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "RhoA",
+            "Name": "rhoa"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ibuprofen",
+            "Name": "ibuprofen"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "RhoA",
+            "Name": "rhoa"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "RhoA",
+            "Name": "rhoa"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ibuprofen",
+            "Name": "ibuprofen"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "ibuprofen",
+            "Name": "ibuprofen"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "RhoA",
+            "Name": "rhoa"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "RhoA",
+            "Name": "rhoa"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T35"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T28"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T32"
+        },
+        {
+            "type": "Activator",
+            "source": "T11",
+            "target": "T33"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T22"
+        }
+    ]
+}

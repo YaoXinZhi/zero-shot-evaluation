@@ -1,0 +1,244 @@
+{
+    "entities": [
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "nabumetone",
+            "Name": "nabumetone"
+        },
+        {
+            "id": "T23",
+            "type": "Chemical",
+            "name": "prostanoid",
+            "Name": "prostanoid"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "nabumetone",
+            "Name": "nabumetone"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "prostaglandin",
+            "Name": "prostaglandin"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "prostaglandin H synthase",
+            "Name": "prostaglandinhsynthase"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "PGHS",
+            "Name": "pghs"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "eicosanoid",
+            "Name": "eicosanoid"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "nabumetone",
+            "Name": "nabumetone"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "11-dehydro-thromboxane B2",
+            "Name": "11dehydrothromboxaneb2"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "TXB2",
+            "Name": "txb2"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "prostaglandin IF2 alpha",
+            "Name": "prostaglandinif2alpha"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "PGF2 alpha",
+            "Name": "pgf2alpha"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "arachidonate",
+            "Name": "arachidonate"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "PGHS-1",
+            "Name": "pghs1"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "TXB2",
+            "Name": "txb2"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "PGHS-1",
+            "Name": "pghs1"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "nabumetone",
+            "Name": "nabumetone"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "11-dehydro-TXB2",
+            "Name": "11dehydrotxb2"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "TXB2",
+            "Name": "txb2"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "PGF2 alpha",
+            "Name": "pgf2alpha"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "nabumetone",
+            "Name": "nabumetone"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "11-dehydro-TXB2",
+            "Name": "11dehydrotxb2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "TXB2",
+            "Name": "txb2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "aspirin",
+            "Name": "aspirin"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "PGHS-1",
+            "Name": "pghs1"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "11-dehydro-TXB2",
+            "Name": "11dehydrotxb2"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "TXB2",
+            "Name": "txb2"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Nabumetone",
+            "Name": "nabumetone"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "PGHS-1",
+            "Name": "pghs1"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "PGHS-2",
+            "Name": "pghs2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T17",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T17",
+            "target": "T28"
+        },
+        {
+            "type": "Product of",
+            "source": "T16",
+            "target": "T31"
+        },
+        {
+            "type": "Product of",
+            "source": "T16",
+            "target": "T32"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T24"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T24"
+        },
+        {
+            "type": "Product of",
+            "source": "T7",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T27"
+        }
+    ]
+}

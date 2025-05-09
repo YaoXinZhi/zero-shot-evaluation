@@ -1,0 +1,54 @@
+T23	GENE 4 8	PARP
+N1	Name Annotation:T23 Referent:parp
+T7	CHEMICAL 19 23	PJ34
+N2	Name Annotation:T7 Referent:pj34
+T22	GENE 48 51	NIS
+N3	Name Annotation:T22 Referent:nis
+T13	GENE 120 126	PARP-1
+N4	Name Annotation:T13 Referent:parp1
+T6	CHEMICAL 179 192	sodium iodide
+N5	Name Annotation:T6 Referent:sodiumiodide
+T15	GENE 179 202	sodium iodide symporter
+N6	Name Annotation:T15 Referent:sodiumiodidesymporter
+T19	GENE 204 207	NIS
+N7	Name Annotation:T19 Referent:nis
+T9	GENE 253 257	PARP
+N8	Name Annotation:T9 Referent:parp
+T1	CHEMICAL 268 272	PJ34
+N9	Name Annotation:T1 Referent:pj34
+T2	CHEMICAL 378 382	PJ34
+N10	Name Annotation:T2 Referent:pj34
+T10	GENE 412 415	NIS
+N11	Name Annotation:T10 Referent:nis
+T3	CHEMICAL 482 494	radio-iodine
+N12	Name Annotation:T3 Referent:radioiodine
+T4	CHEMICAL 596 600	PJ34
+N13	Name Annotation:T4 Referent:pj34
+T11	GENE 611 623	NIS promoter
+N14	Name Annotation:T11 Referent:nispromoter
+T12	GENE 651 657	PARP-1
+N15	Name Annotation:T12 Referent:parp1
+T14	GENE 738 750	NIS promoter
+N16	Name Annotation:T14 Referent:nispromoter
+T5	CHEMICAL 757 761	PJ34
+N17	Name Annotation:T5 Referent:pj34
+T16	GENE 821 858	histone modification activation marks
+N18	Name Annotation:T16 Referent:histonemodificationactivationmarks
+T17	GENE 860 869	H3K9K14ac
+N19	Name Annotation:T17 Referent:h3k9k14ac
+T18	GENE 871 878	H3K4me3
+N20	Name Annotation:T18 Referent:h3k4me3
+T20	GENE 1028 1032	PARP
+N21	Name Annotation:T20 Referent:parp
+T21	GENE 1054 1057	NIS
+N22	Name Annotation:T21 Referent:nis
+T8	GENE 1175 1179	PARP
+N23	Name Annotation:T8 Referent:parp
+R1	INHIBITOR Arg1:T7 Arg2:T23
+R2	INHIBITOR Arg1:T1 Arg2:T9
+R3	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T10
+R4	ACTIVATOR Arg1:T4 Arg2:T11
+R5	DIRECT-REGULATOR Arg1:T4 Arg2:T12
+R6	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T16
+R7	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T17
+R8	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T18

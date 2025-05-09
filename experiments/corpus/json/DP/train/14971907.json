@@ -1,0 +1,259 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "Carbonic",
+            "Name": "carbonic"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "Carbonic anhydrase",
+            "Name": "carbonicanhydrase"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "mitochondrial isozyme V",
+            "Name": "mitochondrialisozymev"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "mitochondrial isozyme carbonic anhydrase (CA) V",
+            "Name": "mitochondrialisozymecarbonicanhydrasecav"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "carbonic",
+            "Name": "carbonic"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "aromatic and heterocyclic sulfonamides",
+            "Name": "aromaticandheterocyclicsulfonamides"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "CA I",
+            "Name": "cai"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "CA II",
+            "Name": "caii"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "CA IV",
+            "Name": "caiv"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "CA V",
+            "Name": "cav"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "acylated sulfanilamide",
+            "Name": "acylatedsulfanilamide"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ureido-benzenesulfonamide",
+            "Name": "ureidobenzenesulfonamide"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "1,3,4-thiadiazole-2-sulfonamide",
+            "Name": "134thiadiazole2sulfonamide"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "aminobenzolamide",
+            "Name": "aminobenzolamide"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "acetazolamide",
+            "Name": "acetazolamide"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "methazolamide",
+            "Name": "methazolamide"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "ethoxzolamide",
+            "Name": "ethoxzolamide"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "dorzolamide",
+            "Name": "dorzolamide"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "brinzolamide",
+            "Name": "brinzolamide"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "topiramate",
+            "Name": "topiramate"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "CA V",
+            "Name": "cav"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "sulfonamides",
+            "Name": "sulfonamides"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "ureido-benzenesulfonamides",
+            "Name": "ureidobenzenesulfonamides"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "acylated sulfanilamides",
+            "Name": "acylatedsulfanilamides"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "CA V",
+            "Name": "cav"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "CA II",
+            "Name": "caii"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "CA II",
+            "Name": "caii"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "CA V",
+            "Name": "cav"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "CA II",
+            "Name": "caii"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "CA V",
+            "Name": "cav"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "sulfonamides",
+            "Name": "sulfonamides"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "CA",
+            "Name": "ca"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T26"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T14",
+            "target": "T29"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T15",
+            "target": "T29"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T16",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T22"
+        }
+    ]
+}

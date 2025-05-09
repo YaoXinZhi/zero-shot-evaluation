@@ -1,0 +1,33 @@
+T5	CHEMICAL 59 67	etodolac
+N1	Name Annotation:T5 Referent:etodolac
+T6	CHEMICAL 74 82	retinoid
+N2	Name Annotation:T6 Referent:retinoid
+T15	GENE-N 74 93	retinoid X receptor
+N3	Name Annotation:T15 Referent:retinoidxreceptor
+T1	CHEMICAL 453 461	etodolac
+N4	Name Annotation:T1 Referent:etodolac
+T2	CHEMICAL 688 696	retinoid
+N5	Name Annotation:T2 Referent:retinoid
+T7	GENE-N 688 707	retinoid X receptor
+N6	Name Annotation:T7 Referent:retinoidxreceptor
+T8	GENE-Y 709 717	RXRalpha
+N7	Name Annotation:T8 Referent:rxralpha
+T3	CHEMICAL 796 806	R-etodolac
+N8	Name Annotation:T3 Referent:retodolac
+T9	GENE-Y 838 846	RXRalpha
+N9	Name Annotation:T9 Referent:rxralpha
+T10	GENE-Y 858 866	RXRalpha
+N10	Name Annotation:T10 Referent:rxralpha
+T11	GENE-N 926 935	ubiquitin
+N11	Name Annotation:T11 Referent:ubiquitin
+T12	GENE-N 940 950	proteasome
+N12	Name Annotation:T12 Referent:proteasome
+T4	CHEMICAL 994 1004	R-etodolac
+N13	Name Annotation:T4 Referent:retodolac
+T13	GENE-Y 1050 1058	RXRalpha
+N14	Name Annotation:T13 Referent:rxralpha
+T14	GENE-Y 1123 1131	RXRalpha
+N15	Name Annotation:T14 Referent:rxralpha
+R1	DIRECT-REGULATOR Arg1:T5 Arg2:T15
+R2	DIRECT-REGULATOR Arg1:T3 Arg2:T9
+R3	INHIBITOR Arg1:T3 Arg2:T10

@@ -1,0 +1,199 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Amine",
+            "Name": "amine"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "Amine oxidase",
+            "Name": "amineoxidase"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "semicarbazide",
+            "Name": "semicarbazide"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "clorgyline",
+            "Name": "clorgyline"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Amine",
+            "Name": "amine"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "Amine oxidase",
+            "Name": "amineoxidase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "monoamine oxidase A",
+            "Name": "monoamineoxidasea"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "MAO",
+            "Name": "mao"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "semicarbazide",
+            "Name": "semicarbazide"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "semicarbazide-sensitive clorgyline-resistant amine oxidase",
+            "Name": "semicarbazidesensitiveclorgylineresistantamineoxidase"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "clorgyline",
+            "Name": "clorgyline"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "SSAO",
+            "Name": "ssao"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "borate",
+            "Name": "borate"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "SSAO",
+            "Name": "ssao"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "phosphodiesterase I",
+            "Name": "phosphodiesterasei"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "phosphodiesterase I",
+            "Name": "phosphodiesterasei"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "SSAO",
+            "Name": "ssao"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "MAO",
+            "Name": "mao"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "tryptamine",
+            "Name": "tryptamine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "SSAO",
+            "Name": "ssao"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "tyramine",
+            "Name": "tyramine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "benzylamine",
+            "Name": "benzylamine"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "SSAO",
+            "Name": "ssao"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "hydralazine",
+            "Name": "hydralazine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "semicarbazide",
+            "Name": "semicarbazide"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "SSAO",
+            "Name": "ssao"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T17"
+        }
+    ]
+}

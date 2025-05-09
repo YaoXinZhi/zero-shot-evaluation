@@ -1,0 +1,84 @@
+T27	CHEMICAL 16 25	cobalamin
+N1	Name Annotation:T27 Referent:cobalamin
+T28	CHEMICAL 90 99	cobalamin
+N2	Name Annotation:T28 Referent:cobalamin
+T11	CHEMICAL 141 150	cobalamin
+N3	Name Annotation:T11 Referent:cobalamin
+T13	CHEMICAL 152 155	Cbl
+N4	Name Annotation:T13 Referent:cbl
+T7	CHEMICAL 242 245	Cbl
+N5	Name Annotation:T7 Referent:cbl
+T8	CHEMICAL 289 292	Cbl
+N6	Name Annotation:T8 Referent:cbl
+T9	CHEMICAL 382 402	[57Co]cyanocobalamin
+N7	Name Annotation:T9 Referent:57cocyanocobalamin
+T10	CHEMICAL 404 410	CN-Cbl
+N8	Name Annotation:T10 Referent:cncbl
+T30	GENE 421 438	transcobalamin II
+N9	Name Annotation:T30 Referent:transcobalaminii
+T31	GENE 440 454	transcobalamin
+N10	Name Annotation:T31 Referent:transcobalamin
+T32	GENE 456 458	TC
+N11	Name Annotation:T32 Referent:tc
+T12	CHEMICAL 492 501	[57Co]Cbl
+N12	Name Annotation:T12 Referent:57cocbl
+T14	CHEMICAL 664 679	TC-[57Co]CN-Cbl
+N13	Name Annotation:T14 Referent:tc57cocncbl
+T15	CHEMICAL 676 679	Cbl
+N14	Name Annotation:T15 Referent:cbl
+T16	CHEMICAL 721 724	Cbl
+N15	Name Annotation:T16 Referent:cbl
+T17	CHEMICAL 788 800	[57Co]CN-Cbl
+N16	Name Annotation:T17 Referent:57cocncbl
+T18	CHEMICAL 818 834	hydroxocobalamin
+N17	Name Annotation:T18 Referent:hydroxocobalamin
+T19	CHEMICAL 836 842	OH-Cbl
+N18	Name Annotation:T19 Referent:ohcbl
+T20	CHEMICAL 845 860	methylcobalamin
+N19	Name Annotation:T20 Referent:methylcobalamin
+T21	CHEMICAL 862 868	Me-Cbl
+N20	Name Annotation:T21 Referent:mecbl
+T22	CHEMICAL 874 899	5'-deoxyadenosylcobalamin
+N21	Name Annotation:T22 Referent:5deoxyadenosylcobalamin
+T23	CHEMICAL 907 910	Cbl
+N22	Name Annotation:T23 Referent:cbl
+T24	CHEMICAL 1022 1031	[57Co]Cbl
+N23	Name Annotation:T24 Referent:57cocbl
+T25	CHEMICAL 1050 1060	methionine
+N24	Name Annotation:T25 Referent:methionine
+T33	GENE 1050 1069	methionine synthase
+N25	Name Annotation:T33 Referent:methioninesynthase
+T34	GENE 1071 1073	MS
+N26	Name Annotation:T34 Referent:ms
+T26	CHEMICAL 1079 1096	methylmalonyl-CoA
+N27	Name Annotation:T26 Referent:methylmalonylcoa
+T35	GENE 1079 1103	methylmalonyl-CoA mutase
+N28	Name Annotation:T35 Referent:methylmalonylcoamutase
+T36	GENE 1105 1107	MU
+N29	Name Annotation:T36 Referent:mu
+T1	CHEMICAL 1137 1140	Cbl
+N30	Name Annotation:T1 Referent:cbl
+T2	CHEMICAL 1177 1183	OH-Cbl
+N31	Name Annotation:T2 Referent:ohcbl
+T3	CHEMICAL 1223 1248	N5-methyltetrahydrofolate
+N32	Name Annotation:T3 Referent:n5methyltetrahydrofolate
+T4	CHEMICAL 1253 1265	homocysteine
+N33	Name Annotation:T4 Referent:homocysteine
+T29	GENE 1299 1301	MS
+N34	Name Annotation:T29 Referent:ms
+T5	CHEMICAL 1379 1385	Me-Cbl
+N35	Name Annotation:T5 Referent:mecbl
+T6	CHEMICAL 1382 1385	Cbl
+N36	Name Annotation:T6 Referent:cbl
+R1	DIRECT-REGULATOR Arg1:T9 Arg2:T30
+R2	DIRECT-REGULATOR Arg1:T10 Arg2:T30
+R3	DIRECT-REGULATOR Arg1:T9 Arg2:T31
+R4	DIRECT-REGULATOR Arg1:T10 Arg2:T31
+R5	DIRECT-REGULATOR Arg1:T9 Arg2:T32
+R6	DIRECT-REGULATOR Arg1:T10 Arg2:T32
+R7	ACTIVATOR Arg1:T4 Arg2:T29
+R8	ACTIVATOR Arg1:T3 Arg2:T29
+R9	DIRECT-REGULATOR Arg1:T24 Arg2:T33
+R10	DIRECT-REGULATOR Arg1:T24 Arg2:T34
+R11	DIRECT-REGULATOR Arg1:T24 Arg2:T35
+R12	DIRECT-REGULATOR Arg1:T24 Arg2:T36

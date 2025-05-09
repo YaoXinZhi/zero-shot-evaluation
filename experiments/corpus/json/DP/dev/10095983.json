@@ -1,0 +1,83 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "lipase",
+            "Name": "lipase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Orlistat",
+            "Name": "orlistat"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "pancreatic lipase",
+            "Name": "pancreaticlipase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "orlistat",
+            "Name": "orlistat"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "low-density lipoprotein",
+            "Name": "lowdensitylipoprotein"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Orlistat",
+            "Name": "orlistat"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "orlistat",
+            "Name": "orlistat"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T10"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T8"
+        }
+    ]
+}

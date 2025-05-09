@@ -1,0 +1,42 @@
+{
+    "entities": [
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "ABCA1",
+            "Name": "abca1"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "liver X receptor",
+            "Name": "liverxreceptor"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "miR-33",
+            "Name": "mir33"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T3"
+        }
+    ]
+}

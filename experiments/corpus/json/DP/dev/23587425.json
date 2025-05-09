@@ -1,0 +1,97 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "CHK1",
+            "Name": "chk1"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "MK2",
+            "Name": "mk2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "imidazo[1,2-a]pyrazine",
+            "Name": "imidazo12apyrazine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "imidazo[1,2-c]pyrimidine",
+            "Name": "imidazo12cpyrimidine"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "imidazo[1,2-a]pyrazines",
+            "Name": "imidazo12apyrazines"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "imidazo[1,2-c]pyrimidines",
+            "Name": "imidazo12cpyrimidines"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "kinases",
+            "Name": "kinases"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "CHK1",
+            "Name": "chk1"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "MK2",
+            "Name": "mk2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T10"
+        }
+    ]
+}

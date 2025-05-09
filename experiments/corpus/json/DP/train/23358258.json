@@ -1,0 +1,99 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "xanthine",
+            "Name": "xanthine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "dipeptidyl peptidase 4",
+            "Name": "dipeptidylpeptidase4"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "xanthine",
+            "Name": "xanthine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "methylene",
+            "Name": "methylene"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "xanthine",
+            "Name": "xanthine"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "dipeptidyl peptidase 4",
+            "Name": "dipeptidylpeptidase4"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "DPP-4",
+            "Name": "dpp4"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "4-methyl-quinazoline-2-yl-methyl",
+            "Name": "4methylquinazoline2ylmethyl"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "2-aminoethylaminomethyl",
+            "Name": "2aminoethylaminomethyl"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "DPP-4",
+            "Name": "dpp4"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "DPP-7",
+            "Name": "dpp7"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "DPP-8",
+            "Name": "dpp8"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T8"
+        }
+    ]
+}

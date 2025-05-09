@@ -1,0 +1,131 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Caffeine",
+            "Name": "caffeine"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "ATM",
+            "Name": "atm"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "caffeine",
+            "Name": "caffeine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Caffeine",
+            "Name": "caffeine"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Cds1",
+            "Name": "cds1"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Chk2",
+            "Name": "chk2"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "caffeine",
+            "Name": "caffeine"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "ATM",
+            "Name": "atm"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "caffeine",
+            "Name": "caffeine"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "ATM",
+            "Name": "atm"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "caffeine",
+            "Name": "caffeine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T9"
+        }
+    ]
+}

@@ -1,0 +1,93 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "5H-pyrrolo[2,3-b]pyrazine-2-phenyl ethers",
+            "Name": "5hpyrrolo23bpyrazine2phenylethers"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "JAK3",
+            "Name": "jak3"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "Janus kinase 3",
+            "Name": "januskinase3"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "JAK3",
+            "Name": "jak3"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "5H-pyrrolo[2,3-b]pyrazine",
+            "Name": "5hpyrrolo23bpyrazine"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "JAK",
+            "Name": "jak"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "JAK3",
+            "Name": "jak3"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "JAK",
+            "Name": "jak"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T9"
+        }
+    ]
+}

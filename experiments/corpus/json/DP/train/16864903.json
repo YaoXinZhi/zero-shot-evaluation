@@ -1,0 +1,197 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Olopatadine",
+            "Name": "olopatadine"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "S100A12",
+            "Name": "s100a12"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Olopatadine hydrochloride",
+            "Name": "olopatadinehydrochloride"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "olopatadine",
+            "Name": "olopatadine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "histamine H(1) receptor",
+            "Name": "histamineh1receptor"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "olopatadine",
+            "Name": "olopatadine"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "S100A12",
+            "Name": "s100a12"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "S100",
+            "Name": "s100"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "calcium",
+            "Name": "calcium"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "calcium-binding proteins",
+            "Name": "calciumbindingproteins"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "S100A12",
+            "Name": "s100a12"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "S100A12",
+            "Name": "s100a12"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "olopatadine",
+            "Name": "olopatadine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "S100A12",
+            "Name": "s100a12"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "S100A12",
+            "Name": "s100a12"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Amlexanox",
+            "Name": "amlexanox"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "S100A12",
+            "Name": "s100a12"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "S100A12",
+            "Name": "s100a12"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "histamine H(1) receptor",
+            "Name": "histamineh1receptor"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "S100A12",
+            "Name": "s100a12"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "S100A12",
+            "Name": "s100a12"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "histamine H(1) receptor",
+            "Name": "histamineh1receptor"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T20"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T5",
+            "target": "T20"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T22"
+        }
+    ]
+}

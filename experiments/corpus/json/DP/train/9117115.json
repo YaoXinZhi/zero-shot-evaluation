@@ -1,0 +1,172 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "tamsulosin",
+            "Name": "tamsulosin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "alpha 1A- and alpha 1D-adrenoceptor",
+            "Name": "alpha1aandalpha1dadrenoceptor"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "alpha 1-adrenoceptor",
+            "Name": "alpha1adrenoceptor"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "tamsulosin",
+            "Name": "tamsulosin"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "alpha 1-adrenoceptor",
+            "Name": "alpha1adrenoceptor"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "human prostate receptor",
+            "Name": "humanprostatereceptor"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "alpha 1D-adrenoceptors",
+            "Name": "alpha1dadrenoceptors"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "tamsulosin",
+            "Name": "tamsulosin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "alpha 1B-adrenoceptor",
+            "Name": "alpha1badrenoceptor"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "tamsulosin",
+            "Name": "tamsulosin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Tamsulosin",
+            "Name": "tamsulosin"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "alpha 1A-adrenoceptor",
+            "Name": "alpha1aadrenoceptor"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "phenylephrine",
+            "Name": "phenylephrine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "tamsulosin",
+            "Name": "tamsulosin"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "5-hydroxytryptamine",
+            "Name": "5hydroxytryptamine"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "5-HT",
+            "Name": "5ht"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "tamsulosin",
+            "Name": "tamsulosin"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "alpha 1B-adrenoceptor",
+            "Name": "alpha1badrenoceptor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "tamsulosin",
+            "Name": "tamsulosin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "alpha 1-adrenoceptors",
+            "Name": "alpha1adrenoceptors"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T6",
+            "target": "T16"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T5",
+            "target": "T18"
+        },
+        {
+            "type": "Agonist",
+            "source": "T7",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T2",
+            "target": "T13"
+        }
+    ]
+}

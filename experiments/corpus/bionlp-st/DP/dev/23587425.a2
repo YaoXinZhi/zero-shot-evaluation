@@ -1,0 +1,26 @@
+T9	GENE 23 27	CHK1
+N1	Name Annotation:T9 Referent:chk1
+T10	GENE 32 35	MK2
+N2	Name Annotation:T10 Referent:mk2
+T3	CHEMICAL 50 72	imidazo[1,2-a]pyrazine
+N3	Name Annotation:T3 Referent:imidazo12apyrazine
+T4	CHEMICAL 78 102	imidazo[1,2-c]pyrimidine
+N4	Name Annotation:T4 Referent:imidazo12cpyrimidine
+T8	GENE 109 115	kinase
+N5	Name Annotation:T8 Referent:kinase
+T1	CHEMICAL 172 195	imidazo[1,2-a]pyrazines
+N6	Name Annotation:T1 Referent:imidazo12apyrazines
+T2	CHEMICAL 200 225	imidazo[1,2-c]pyrimidines
+N7	Name Annotation:T2 Referent:imidazo12cpyrimidines
+T5	GENE 312 319	kinases
+N8	Name Annotation:T5 Referent:kinases
+T6	GENE 373 377	CHK1
+N9	Name Annotation:T6 Referent:chk1
+T7	GENE 382 385	MK2
+N10	Name Annotation:T7 Referent:mk2
+R1	INHIBITOR Arg1:T4 Arg2:T8
+R2	INHIBITOR Arg1:T3 Arg2:T8
+R3	INHIBITOR Arg1:T3 Arg2:T9
+R4	INHIBITOR Arg1:T4 Arg2:T10
+R5	INHIBITOR Arg1:T4 Arg2:T9
+R6	INHIBITOR Arg1:T3 Arg2:T10

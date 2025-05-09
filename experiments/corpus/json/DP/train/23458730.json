@@ -1,0 +1,260 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "baicalin",
+            "Name": "baicalin"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "dextromethorphan",
+            "Name": "dextromethorphan"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "CYP2D",
+            "Name": "cyp2d"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "CYP3A",
+            "Name": "cyp3a"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Baicalin",
+            "Name": "baicalin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "baicalin",
+            "Name": "baicalin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "dextromethorphan",
+            "Name": "dextromethorphan"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "DXM",
+            "Name": "dxm"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "CYP2D",
+            "Name": "cyp2d"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "CYP3A",
+            "Name": "cyp3a"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "baicalin",
+            "Name": "baicalin"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "CYP2D",
+            "Name": "cyp2d"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "CYP3A",
+            "Name": "cyp3a"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "baicalin",
+            "Name": "baicalin"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "DXM",
+            "Name": "dxm"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "DXM",
+            "Name": "dxm"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "DXM",
+            "Name": "dxm"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "baicalin",
+            "Name": "baicalin"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "baicalin",
+            "Name": "baicalin"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "DXM",
+            "Name": "dxm"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "CYP3A",
+            "Name": "cyp3a"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "baicalin",
+            "Name": "baicalin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "baicalin",
+            "Name": "baicalin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "CYP2D",
+            "Name": "cyp2d"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "baicalin",
+            "Name": "baicalin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "DXM",
+            "Name": "dxm"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "CYP2D",
+            "Name": "cyp2d"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "CYP3A",
+            "Name": "cyp3a"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T18",
+            "target": "T27"
+        },
+        {
+            "type": "Substrate",
+            "source": "T18",
+            "target": "T28"
+        },
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T17",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T17",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T21"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T22"
+        }
+    ]
+}

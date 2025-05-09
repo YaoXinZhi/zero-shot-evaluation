@@ -1,0 +1,381 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "Nitrogen",
+            "Name": "nitrogen"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "bisphosphonates",
+            "Name": "bisphosphonates"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "Ras",
+            "Name": "ras"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "Bim",
+            "Name": "bim"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Nitrogen",
+            "Name": "nitrogen"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "bisphosphonates",
+            "Name": "bisphosphonates"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "BPs",
+            "Name": "bps"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "G-proteins",
+            "Name": "gproteins"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "BPs",
+            "Name": "bps"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "geranylgeranyl pyrophosphate",
+            "Name": "geranylgeranylpyrophosphate"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "GGPP",
+            "Name": "ggpp"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "BPs",
+            "Name": "bps"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "phosphorylated extracellular signal-regulated kinase",
+            "Name": "phosphorylatedextracellularsignalregulatedkinase"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "mTOR",
+            "Name": "mtor"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Ras",
+            "Name": "ras"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "Bim",
+            "Name": "bim"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "BPs",
+            "Name": "bps"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "caspase-9",
+            "Name": "caspase9"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "Bim",
+            "Name": "bim"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "Ras",
+            "Name": "ras"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "MEK",
+            "Name": "mek"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "Ras",
+            "Name": "ras"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "mTOR",
+            "Name": "mtor"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "BPs",
+            "Name": "bps"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Ras",
+            "Name": "ras"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T16",
+            "target": "T33"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T17",
+            "target": "T33"
+        },
+        {
+            "type": "Activator",
+            "source": "T16",
+            "target": "T34"
+        },
+        {
+            "type": "Activator",
+            "source": "T17",
+            "target": "T34"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T24"
+        },
+        {
+            "type": "Activator",
+            "source": "T13",
+            "target": "T25"
+        },
+        {
+            "type": "Activator",
+            "source": "T13",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T13",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T32"
+        },
+        {
+            "type": "Activator",
+            "source": "T12",
+            "target": "T25"
+        },
+        {
+            "type": "Activator",
+            "source": "T12",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T32"
+        }
+    ]
+}

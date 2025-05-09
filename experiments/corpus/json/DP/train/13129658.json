@@ -1,0 +1,53 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "DRD4",
+            "Name": "drd4"
+        },
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "DRD4",
+            "Name": "drd4"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "dopamine receptor D4",
+            "Name": "dopaminereceptord4"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "clozapine",
+            "Name": "clozapine"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "DRD4",
+            "Name": "drd4"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T5"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T3"
+        }
+    ]
+}

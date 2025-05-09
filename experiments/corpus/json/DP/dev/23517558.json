@@ -1,0 +1,65 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "11\u03b2-HSD1",
+            "Name": "11\u03b2hsd1"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "AMG 221",
+            "Name": "amg221"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "11\u03b2-HSD1",
+            "Name": "11\u03b2hsd1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "AMG 221",
+            "Name": "amg221"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "AMG 221",
+            "Name": "amg221"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "[(14)C] AMG 221",
+            "Name": "14camg221"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "AMG 221",
+            "Name": "amg221"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "AMG 221",
+            "Name": "amg221"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T7"
+        }
+    ]
+}

@@ -1,0 +1,68 @@
+T14	CHEMICAL 0 16	Arsenic trioxide
+N1	Name Annotation:T14 Referent:arsenictrioxide
+T29	GENE-N 92 98	TGF-β1
+N2	Name Annotation:T29 Referent:tgfβ1
+T1	CHEMICAL 111 127	Arsenic trioxide
+N3	Name Annotation:T1 Referent:arsenictrioxide
+T5	CHEMICAL 129 134	As2O3
+N4	Name Annotation:T5 Referent:as2o3
+T7	CHEMICAL 136 139	ATO
+N5	Name Annotation:T7 Referent:ato
+T6	CHEMICAL 311 314	ATO
+N6	Name Annotation:T6 Referent:ato
+T8	CHEMICAL 519 522	ATO
+N7	Name Annotation:T8 Referent:ato
+T9	CHEMICAL 578 581	ATO
+N8	Name Annotation:T9 Referent:ato
+T10	CHEMICAL 627 630	ATO
+N9	Name Annotation:T10 Referent:ato
+T24	GENE-Y 686 695	Caspase-3
+N10	Name Annotation:T24 Referent:caspase3
+T25	GENE-Y 771 777	TGF-β1
+N11	Name Annotation:T25 Referent:tgfβ1
+T26	GENE-Y 798 801	Bax
+N12	Name Annotation:T26 Referent:bax
+T27	GENE-Y 802 807	Bcl-2
+N13	Name Annotation:T27 Referent:bcl2
+T28	GENE-N 818 824	ERK1/2
+N14	Name Annotation:T28 Referent:erk12
+T11	CHEMICAL 851 854	MTT
+N15	Name Annotation:T11 Referent:mtt
+T12	CHEMICAL 873 876	ATO
+N16	Name Annotation:T12 Referent:ato
+T13	CHEMICAL 1052 1055	ATO
+N17	Name Annotation:T13 Referent:ato
+T15	GENE-Y 1128 1134	TGF-β1
+N18	Name Annotation:T15 Referent:tgfβ1
+T16	GENE-Y 1153 1156	Bax
+N19	Name Annotation:T16 Referent:bax
+T17	GENE-Y 1157 1162	Bcl-2
+N20	Name Annotation:T17 Referent:bcl2
+T18	GENE-Y 1211 1220	Caspase-3
+N21	Name Annotation:T18 Referent:caspase3
+T19	GENE-N 1225 1231	ERK1/2
+N22	Name Annotation:T19 Referent:erk12
+T2	CHEMICAL 1260 1268	LY364947
+N23	Name Annotation:T2 Referent:ly364947
+T20	GENE-N 1286 1291	TGF-β
+N24	Name Annotation:T20 Referent:tgfβ
+T21	GENE-N 1369 1374	TGF-β
+N25	Name Annotation:T21 Referent:tgfβ
+T22	GENE-N 1401 1407	ERK1/2
+N26	Name Annotation:T22 Referent:erk12
+T23	GENE-N 1417 1422	TGF-β
+N27	Name Annotation:T23 Referent:tgfβ
+T3	CHEMICAL 1452 1455	ATO
+N28	Name Annotation:T3 Referent:ato
+T4	CHEMICAL 1515 1518	ATO
+N29	Name Annotation:T4 Referent:ato
+R1	INDIRECT-UPREGULATOR Arg1:T14 Arg2:T29
+R2	ACTIVATOR Arg1:T10 Arg2:T24
+R3	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T25
+R4	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T26
+R5	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T27
+R6	INDIRECT-UPREGULATOR Arg1:T13 Arg2:T15
+R7	INDIRECT-UPREGULATOR Arg1:T13 Arg2:T16
+R8	INDIRECT-UPREGULATOR Arg1:T13 Arg2:T17
+R9	ACTIVATOR Arg1:T13 Arg2:T18
+R10	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T20

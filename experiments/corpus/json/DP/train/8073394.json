@@ -1,0 +1,244 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "lysine",
+            "Name": "lysine"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "t-PA",
+            "Name": "tpa"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "lysine",
+            "Name": "lysine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "epsilon-aminocaproic acid",
+            "Name": "epsilonaminocaproicacid"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "EACA",
+            "Name": "eaca"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "trans-4-amino-methyl cyclohexane carboxylic acid",
+            "Name": "trans4aminomethylcyclohexanecarboxylicacid"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "AMCA",
+            "Name": "amca"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "tissue plasminogen activator",
+            "Name": "tissueplasminogenactivator"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "t-PA",
+            "Name": "tpa"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "t-PA",
+            "Name": "tpa"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "t-PA",
+            "Name": "tpa"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "125I",
+            "Name": "125i"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "fibrinogen",
+            "Name": "fibrinogen"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "lysine",
+            "Name": "lysine"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "t-PA",
+            "Name": "tpa"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "AMCA",
+            "Name": "amca"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "EACA",
+            "Name": "eaca"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "lysine",
+            "Name": "lysine"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "t-PA",
+            "Name": "tpa"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "t-PA",
+            "Name": "tpa"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "lysine",
+            "Name": "lysine"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "t-PA",
+            "Name": "tpa"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "lysine",
+            "Name": "lysine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "t-PA",
+            "Name": "tpa"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "fibrin",
+            "Name": "fibrin"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "plasminogen",
+            "Name": "plasminogen"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "fibrin",
+            "Name": "fibrin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "plasminogen",
+            "Name": "plasminogen"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "t-PA",
+            "Name": "tpa"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "fibrin",
+            "Name": "fibrin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "lysine",
+            "Name": "lysine"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "t-PA",
+            "Name": "tpa"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T32"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T29"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T15"
+        }
+    ]
+}

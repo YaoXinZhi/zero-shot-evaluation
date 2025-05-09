@@ -1,0 +1,90 @@
+T19	CHEMICAL 21 28	alcohol
+N1	Name Annotation:T19 Referent:alcohol
+T37	GENE-N 21 43	alcohol dehydrogenases
+N2	Name Annotation:T37 Referent:alcoholdehydrogenases
+T1	CHEMICAL 138 145	Alcohol
+N3	Name Annotation:T1 Referent:alcohol
+T20	GENE-N 138 160	Alcohol dehydrogenases
+N4	Name Annotation:T20 Referent:alcoholdehydrogenases
+T27	GENE-N 162 165	ADH
+N5	Name Annotation:T27 Referent:adh
+T3	CHEMICAL 254 263	aldehydes
+N6	Name Annotation:T3 Referent:aldehydes
+T5	CHEMICAL 267 275	alcohols
+N7	Name Annotation:T5 Referent:alcohols
+T26	GENE-N 351 354	ADH
+N8	Name Annotation:T26 Referent:adh
+T9	CHEMICAL 382 392	amino acid
+N9	Name Annotation:T9 Referent:aminoacid
+T28	GENE-N 485 492	Cm-ADH1
+N10	Name Annotation:T28 Referent:cmadh1
+T10	CHEMICAL 521 525	zinc
+N11	Name Annotation:T10 Referent:zinc
+T29	GENE-N 542 546	ADHs
+N12	Name Annotation:T29 Referent:adhs
+T30	GENE-N 576 579	ADH
+N13	Name Annotation:T30 Referent:adh
+T31	GENE-N 622 629	Cm-ADH2
+N14	Name Annotation:T31 Referent:cmadh2
+T32	GENE-N 665 669	ADHs
+N15	Name Annotation:T32 Referent:adhs
+T33	GENE-N 747 754	Cm-ADH1
+N16	Name Annotation:T33 Referent:cmadh1
+T11	CHEMICAL 781 786	NAPDH
+N17	Name Annotation:T11 Referent:napdh
+T34	GENE-N 811 818	Cm-ADH2
+N18	Name Annotation:T34 Referent:cmadh2
+T12	CHEMICAL 839 843	NADH
+N19	Name Annotation:T12 Referent:nadh
+T35	GENE-N 850 856	Cm-ADH
+N20	Name Annotation:T35 Referent:cmadh
+T13	CHEMICAL 953 962	aldehydes
+N21	Name Annotation:T13 Referent:aldehydes
+T14	CHEMICAL 966 974	alcohols
+N22	Name Annotation:T14 Referent:alcohols
+T15	CHEMICAL 1007 1015	alcohols
+N23	Name Annotation:T15 Referent:alcohols
+T16	CHEMICAL 1019 1028	aldehydes
+N24	Name Annotation:T16 Referent:aldehydes
+T17	CHEMICAL 1067 1085	aliphatic aldehyde
+N25	Name Annotation:T17 Referent:aliphaticaldehyde
+T36	GENE-N 1091 1098	Cm-ADH1
+N26	Name Annotation:T36 Referent:cmadh1
+T18	CHEMICAL 1131 1140	aldehydes
+N27	Name Annotation:T18 Referent:aldehydes
+T2	CHEMICAL 1149 1170	3-methylbutyraldehyde
+N28	Name Annotation:T2 Referent:3methylbutyraldehyde
+T21	GENE-N 1180 1187	Cm-ADH2
+N29	Name Annotation:T21 Referent:cmadh2
+T22	GENE-N 1201 1207	Cm-ADH
+N30	Name Annotation:T22 Referent:cmadh
+T23	GENE-N 1204 1207	ADH
+N31	Name Annotation:T23 Referent:adh
+T24	GENE-N 1366 1377	ACC oxidase
+N32	Name Annotation:T24 Referent:accoxidase
+T4	CHEMICAL 1421 1429	ethylene
+N33	Name Annotation:T4 Referent:ethylene
+T6	CHEMICAL 1441 1461	1-methylcyclopropene
+N34	Name Annotation:T6 Referent:1methylcyclopropene
+T7	CHEMICAL 1463 1468	1-MCP
+N35	Name Annotation:T7 Referent:1mcp
+T8	CHEMICAL 1507 1515	ethylene
+N36	Name Annotation:T8 Referent:ethylene
+T25	GENE-N 1553 1559	Cm-ADH
+N37	Name Annotation:T25 Referent:cmadh
+R1	SUBSTRATE Arg1:T3 Arg2:T20
+R2	PRODUCT-OF Arg1:T5 Arg2:T20
+R3	SUBSTRATE Arg1:T3 Arg2:T27
+R4	PRODUCT-OF Arg1:T5 Arg2:T27
+R5	PART-OF Arg1:T9 Arg2:T26
+R6	DIRECT-REGULATOR Arg1:T10 Arg2:T29
+R7	SUBSTRATE Arg1:T15 Arg2:T35
+R8	PRODUCT-OF Arg1:T16 Arg2:T35
+R9	SUBSTRATE Arg1:T18 Arg2:T36
+R10	SUBSTRATE Arg1:T2 Arg2:T36
+R11	SUBSTRATE Arg1:T17 Arg2:T36
+R12	SUBSTRATE Arg1:T17 Arg2:T21
+R13	INHIBITOR Arg1:T6 Arg2:T23
+R14	ANTAGONIST Arg1:T7 Arg2:T23
+R15	ACTIVATOR Arg1:T8 Arg2:T23
+R16	ACTIVATOR Arg1:T4 Arg2:T23

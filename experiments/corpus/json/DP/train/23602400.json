@@ -1,0 +1,115 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "4-amino-2-phenylpyrimidine",
+            "Name": "4amino2phenylpyrimidine"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PDE4",
+            "Name": "pde4"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "2-Phenyl-4-piperidinyl-6,7-dihydrothieno[3,4-d]pyrimidine",
+            "Name": "2phenyl4piperidinyl67dihydrothieno34dpyrimidine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PDE4",
+            "Name": "pde4"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "PDE4B",
+            "Name": "pde4b"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "4-amino",
+            "Name": "4amino"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "pyrimidines",
+            "Name": "pyrimidines"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "5,5-dioxo-7,8-dihydro-6H-thiopyrano[3,2-d]pyrimidine",
+            "Name": "55dioxo78dihydro6hthiopyrano32dpyrimidine"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "PDE4B",
+            "Name": "pde4b"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "N-propylacetamide",
+            "Name": "npropylacetamide"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "PDE4B",
+            "Name": "pde4b"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "TNF-\u03b1",
+            "Name": "tnf\u03b1"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "PDE4B",
+            "Name": "pde4b"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T9"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T10"
+        }
+    ]
+}

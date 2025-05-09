@@ -1,0 +1,123 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "pentahydroxy-pregn-14-ol, 20-one-\u03b2-d-thevetopyranoside",
+            "Name": "pentahydroxypregn14ol20one\u03b2dthevetopyranoside"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Polyhydroxy pregnane glycoside",
+            "Name": "polyhydroxypregnaneglycoside"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "PPG",
+            "Name": "ppg"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "steroidal glycoside",
+            "Name": "steroidalglycoside"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "PPG",
+            "Name": "ppg"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "PPG",
+            "Name": "ppg"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "PPG",
+            "Name": "ppg"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "N-acetyl",
+            "Name": "nacetyl"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "PPG",
+            "Name": "ppg"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "PPG",
+            "Name": "ppg"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "diclofenac sodium",
+            "Name": "diclofenacsodium"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "steroidal glycoside",
+            "Name": "steroidalglycoside"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "PPG",
+            "Name": "ppg"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "PPG",
+            "Name": "ppg"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T16"
+        }
+    ]
+}

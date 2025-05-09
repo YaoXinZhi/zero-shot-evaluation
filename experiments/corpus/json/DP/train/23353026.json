@@ -1,0 +1,206 @@
+{
+    "entities": [
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "manganese",
+            "Name": "manganese"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "alpha-synuclein",
+            "Name": "alphasynuclein"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "manganese",
+            "Name": "manganese"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Mn",
+            "Name": "mn"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Mn",
+            "Name": "mn"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "manganese",
+            "Name": "manganese"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "alpha-synuclein",
+            "Name": "alphasynuclein"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Mn",
+            "Name": "mn"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "propidium iodide",
+            "Name": "propidiumiodide"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "lactate",
+            "Name": "lactate"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "lactate dehydrogenase",
+            "Name": "lactatedehydrogenase"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "LDH",
+            "Name": "ldh"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Mn",
+            "Name": "mn"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "superoxide",
+            "Name": "superoxide"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "superoxide dismutase",
+            "Name": "superoxidedismutase"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "SOD",
+            "Name": "sod"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "Mn",
+            "Name": "mn"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "Mn",
+            "Name": "mn"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "alpha-synuclein",
+            "Name": "alphasynuclein"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "Alpha-synuclein",
+            "Name": "alphasynuclein"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "Mn",
+            "Name": "mn"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "alpha-synuclein",
+            "Name": "alphasynuclein"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Mn",
+            "Name": "mn"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "alpha-synuclein",
+            "Name": "alphasynuclein"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "GSH",
+            "Name": "gsh"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "H2O2",
+            "Name": "h2o2"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Mn",
+            "Name": "mn"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "alpha-synuclein",
+            "Name": "alphasynuclein"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T16",
+            "target": "T27"
+        }
+    ]
+}

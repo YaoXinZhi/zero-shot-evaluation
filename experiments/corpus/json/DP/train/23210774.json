@@ -1,0 +1,100 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "CK2",
+            "Name": "ck2"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "Protein kinase",
+            "Name": "proteinkinase"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "CK2",
+            "Name": "ck2"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "Casein Kinase 2",
+            "Name": "caseinkinase2"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "protein kinase",
+            "Name": "proteinkinase"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "CK2",
+            "Name": "ck2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "CX-4945",
+            "Name": "cx4945"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "CK2",
+            "Name": "ck2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "CK2",
+            "Name": "ck2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T10"
+        }
+    ]
+}

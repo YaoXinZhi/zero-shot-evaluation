@@ -1,0 +1,204 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "GlcNAc",
+            "Name": "glcnac"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "beta1,4-galactosyltransferase",
+            "Name": "beta14galactosyltransferase"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "beta4Gal-T1",
+            "Name": "beta4galt1"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "Y289L",
+            "Name": "y289l"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "beta4Gal-T1",
+            "Name": "beta4galt1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "GalNAc",
+            "Name": "galnac"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "UDP-GalNAc",
+            "Name": "udpgalnac"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "GlcNAc",
+            "Name": "glcnac"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "galactose",
+            "Name": "galactose"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "UDP-Gal",
+            "Name": "udpgal"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "galactose",
+            "Name": "galactose"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "UDP",
+            "Name": "udp"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "O-GlcNAc",
+            "Name": "oglcnac"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "O-GlcNAc",
+            "Name": "oglcnac"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "C2 keto",
+            "Name": "c2keto"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "galactose",
+            "Name": "galactose"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "GlcNAc",
+            "Name": "glcnac"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "ovalbumin",
+            "Name": "ovalbumin"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "asialo-agalacto IgG1",
+            "Name": "asialoagalactoigg1"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "galactose",
+            "Name": "galactose"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "PNGase F",
+            "Name": "pngasef"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "beta4Gal-T1",
+            "Name": "beta4galt1"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Y289L",
+            "Name": "y289l"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T25"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T25"
+        },
+        {
+            "type": "Substrate",
+            "source": "T16",
+            "target": "T27"
+        }
+    ]
+}

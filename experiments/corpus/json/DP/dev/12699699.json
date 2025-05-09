@@ -1,0 +1,152 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "heme binding protein",
+            "Name": "hemebindingprotein"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "YLR205c",
+            "Name": "ylr205c"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "heme oxygenase",
+            "Name": "hemeoxygenase"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "human HO-1",
+            "Name": "humanho1"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "YLR205 ORF",
+            "Name": "ylr205orf"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "YLR205c",
+            "Name": "ylr205c"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "NADPH",
+            "Name": "nadph"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "NADPH-cytochrome P450 reductase",
+            "Name": "nadphcytochromep450reductase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "NADH",
+            "Name": "nadh"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "NADH-putidaredoxin-putidaredoxin reductase",
+            "Name": "nadhputidaredoxinputidaredoxinreductase"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "heme oxygenase",
+            "Name": "hemeoxygenase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "H(2)O(2)",
+            "Name": "h2o2"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "peroxidase",
+            "Name": "peroxidase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "guaiacol",
+            "Name": "guaiacol"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "potassium iodide",
+            "Name": "potassiumiodide"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "2,2(')-azino-bis(3-ethylbenzothiazoline-6-sulfonic acid",
+            "Name": "22azinobis3ethylbenzothiazoline6sulfonicacid"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "ABTS",
+            "Name": "abts"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "YLR205c",
+            "Name": "ylr205c"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "hemoprotein",
+            "Name": "hemoprotein"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "peroxidase",
+            "Name": "peroxidase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T16"
+        }
+    ]
+}

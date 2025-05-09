@@ -1,0 +1,46 @@
+T13	CHEMICAL 26 36	Vardenafil
+N1	Name Annotation:T13 Referent:vardenafil
+T14	CHEMICAL 38 45	Levitra
+N2	Name Annotation:T14 Referent:levitra
+T1	CHEMICAL 49 59	Vardenafil
+N3	Name Annotation:T1 Referent:vardenafil
+T3	CHEMICAL 61 68	Levitra
+N4	Name Annotation:T3 Referent:levitra
+T15	GENE-Y 184 208	phosphodiesterase type 5
+N5	Name Annotation:T15 Referent:phosphodiesterasetype5
+T17	GENE-Y 210 214	PDE5
+N6	Name Annotation:T17 Referent:pde5
+T18	GENE-Y 269 273	PDE5
+N7	Name Annotation:T18 Referent:pde5
+T6	CHEMICAL 299 329	cyclic guanosine monophosphate
+N8	Name Annotation:T6 Referent:cyclicguanosinemonophosphate
+T7	CHEMICAL 331 335	GMPc
+N9	Name Annotation:T7 Referent:gmpc
+T8	CHEMICAL 488 498	vardenafil
+N10	Name Annotation:T8 Referent:vardenafil
+T9	CHEMICAL 656 666	Vardenafil
+N11	Name Annotation:T9 Referent:vardenafil
+T10	CHEMICAL 868 878	Vardenafil
+N12	Name Annotation:T10 Referent:vardenafil
+T19	GENE-Y 920 924	PDE5
+N13	Name Annotation:T19 Referent:pde5
+T11	CHEMICAL 939 949	sildenafil
+N14	Name Annotation:T11 Referent:sildenafil
+T12	CHEMICAL 953 962	tadalafil
+N15	Name Annotation:T12 Referent:tadalafil
+T2	CHEMICAL 1073 1083	vardenafil
+N16	Name Annotation:T2 Referent:vardenafil
+T4	CHEMICAL 1353 1365	nitric oxide
+N17	Name Annotation:T4 Referent:nitricoxide
+T5	CHEMICAL 1433 1443	vardenafil
+N18	Name Annotation:T5 Referent:vardenafil
+T16	GENE-Y 1474 1478	PDE5
+N19	Name Annotation:T16 Referent:pde5
+R1	INHIBITOR Arg1:T1 Arg2:T15
+R2	INHIBITOR Arg1:T1 Arg2:T17
+R3	INHIBITOR Arg1:T3 Arg2:T15
+R4	INHIBITOR Arg1:T3 Arg2:T17
+R5	SUBSTRATE Arg1:T6 Arg2:T18
+R6	SUBSTRATE Arg1:T7 Arg2:T18
+R7	INHIBITOR Arg1:T10 Arg2:T19
+R8	INHIBITOR Arg1:T5 Arg2:T16

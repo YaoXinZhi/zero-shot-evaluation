@@ -1,0 +1,188 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "inducible nitric oxide synthase",
+            "Name": "induciblenitricoxidesynthase"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "tetracyclines",
+            "Name": "tetracyclines"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "interleukin 1alpha",
+            "Name": "interleukin1alpha"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "IL-1alpha",
+            "Name": "il1alpha"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "NO",
+            "Name": "no"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "inducible NO synthase",
+            "Name": "induciblenosynthase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "NO",
+            "Name": "no"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "IL-lalpha",
+            "Name": "illalpha"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "NO",
+            "Name": "no"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "IL-1",
+            "Name": "il1"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "NO",
+            "Name": "no"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Diclofenac-Na",
+            "Name": "diclofenacna"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "nitrite",
+            "Name": "nitrite"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "tetracycline",
+            "Name": "tetracycline"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "doxycycline",
+            "Name": "doxycycline"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "meloxicam",
+            "Name": "meloxicam"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T13",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T24"
+        },
+        {
+            "type": "Product of",
+            "source": "T7",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T15"
+        }
+    ]
+}

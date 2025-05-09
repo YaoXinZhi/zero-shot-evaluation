@@ -1,0 +1,187 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "5-azacytidine",
+            "Name": "5azacytidine"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "procainamide",
+            "Name": "procainamide"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "CD3-zeta chain",
+            "Name": "cd3zetachain"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "DNA methyltransferase 1",
+            "Name": "dnamethyltransferase1"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "DNMT1",
+            "Name": "dnmt1"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "CD3-zeta (zeta) chain",
+            "Name": "cd3zetazetachain"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "T cell receptor",
+            "Name": "tcellreceptor"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "TCR",
+            "Name": "tcr"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "CD3",
+            "Name": "cd3"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "CD3-zeta chain",
+            "Name": "cd3zetachain"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "TCR",
+            "Name": "tcr"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "CD3",
+            "Name": "cd3"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "5'-azacytidine",
+            "Name": "5azacytidine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "AZC",
+            "Name": "azc"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "procainamide",
+            "Name": "procainamide"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "PCA",
+            "Name": "pca"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "DNMT1",
+            "Name": "dnmt1"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "AZC",
+            "Name": "azc"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "PCA",
+            "Name": "pca"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "CD3-zeta chain",
+            "Name": "cd3zetachain"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "AZC",
+            "Name": "azc"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "PCA",
+            "Name": "pca"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "CD3-zeta chain",
+            "Name": "cd3zetachain"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "DNMT1",
+            "Name": "dnmt1"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "CD3-zeta chain",
+            "Name": "cd3zetachain"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T23"
+        }
+    ]
+}

@@ -1,0 +1,163 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Opioid receptor",
+            "Name": "opioidreceptor"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "adenylyl",
+            "Name": "adenylyl"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "adenylyl cyclase",
+            "Name": "adenylylcyclase"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "dihydroetorphine",
+            "Name": "dihydroetorphine"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "etorphine",
+            "Name": "etorphine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "dihydroetorphine",
+            "Name": "dihydroetorphine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "dihydroetorphine",
+            "Name": "dihydroetorphine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "opioid receptor",
+            "Name": "opioidreceptor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "adenylyl",
+            "Name": "adenylyl"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "adenylyl cyclase",
+            "Name": "adenylylcyclase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "etorphine",
+            "Name": "etorphine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Dihydroetorphine",
+            "Name": "dihydroetorphine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "etorphine",
+            "Name": "etorphine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "(mu, delta, and kappa) of opioid receptors",
+            "Name": "mudeltaandkappaofopioidreceptors"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "forskolin",
+            "Name": "forskolin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "adenylyl",
+            "Name": "adenylyl"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "adenylyl cyclase",
+            "Name": "adenylylcyclase"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "dihydroetorphine",
+            "Name": "dihydroetorphine"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "DTNB",
+            "Name": "dtnb"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "etorphine",
+            "Name": "etorphine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "dihydroetorphine",
+            "Name": "dihydroetorphine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T21"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T19"
+        }
+    ]
+}

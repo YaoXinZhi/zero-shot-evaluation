@@ -1,0 +1,264 @@
+{
+    "entities": [
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "irinotecan",
+            "Name": "irinotecan"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Irinotecan",
+            "Name": "irinotecan"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "CPT-11",
+            "Name": "cpt11"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "7-ethyl-10-[4-(1-piperidino)-1-piperidino] carbonyloxycamptothecin",
+            "Name": "7ethyl1041piperidino1piperidinocarbonyloxycamptothecin"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "DNA topoisomerase I",
+            "Name": "dnatopoisomerasei"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "Topo I",
+            "Name": "topoi"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "CPT-11",
+            "Name": "cpt11"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "CPT-11",
+            "Name": "cpt11"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "CPT-11",
+            "Name": "cpt11"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "atropine",
+            "Name": "atropine"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "SN-38",
+            "Name": "sn38"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "7-ethyl-10-hydroxycamptothecin",
+            "Name": "7ethyl10hydroxycamptothecin"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "CPT-11",
+            "Name": "cpt11"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Topo I",
+            "Name": "topoi"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "CPT-11",
+            "Name": "cpt11"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "SN-38",
+            "Name": "sn38"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "prostaglandins",
+            "Name": "prostaglandins"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "PGs",
+            "Name": "pgs"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Na(+)",
+            "Name": "na"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Cl(-)",
+            "Name": "cl"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "loperamide",
+            "Name": "loperamide"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "P-glycoprotein",
+            "Name": "pglycoprotein"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "PgP",
+            "Name": "pgp"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "cyclooxygenase-2",
+            "Name": "cyclooxygenase2"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "tumor necrosis factor-alpha",
+            "Name": "tumornecrosisfactoralpha"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "TNF-alpha",
+            "Name": "tnfalpha"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "SN-38",
+            "Name": "sn38"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "CPT-11",
+            "Name": "cpt11"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "CPT-11",
+            "Name": "cpt11"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T16",
+            "target": "T32"
+        },
+        {
+            "type": "Activator",
+            "source": "T17",
+            "target": "T32"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T18",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T19",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T20",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T23"
+        }
+    ]
+}

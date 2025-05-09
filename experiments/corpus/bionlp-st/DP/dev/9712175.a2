@@ -1,0 +1,45 @@
+T8	CHEMICAL 10 20	lintitript
+N1	Name Annotation:T8 Referent:lintitript
+T20	GENE 28 42	CCK-A receptor
+N2	Name Annotation:T20 Referent:cckareceptor
+T11	GENE 121 136	cholecystokinin
+N3	Name Annotation:T11 Referent:cholecystokinin
+T16	GENE 138 141	CCK
+N4	Name Annotation:T16 Referent:cck
+T14	GENE 301 304	CCK
+N5	Name Annotation:T14 Referent:cck
+T15	GENE 394 408	CCK-A receptor
+N6	Name Annotation:T15 Referent:cckareceptor
+T3	CHEMICAL 420 430	lintitript
+N7	Name Annotation:T3 Referent:lintitript
+T4	CHEMICAL 566 576	lintitript
+N8	Name Annotation:T4 Referent:lintitript
+T5	CHEMICAL 713 725	99mTc-sulfur
+N9	Name Annotation:T5 Referent:99mtcsulfur
+T6	CHEMICAL 781 791	111In-DTPA
+N10	Name Annotation:T6 Referent:111indtpa
+T17	GENE 879 882	CCK
+N11	Name Annotation:T17 Referent:cck
+T18	GENE 887 909	pancreatic polypeptide
+N12	Name Annotation:T18 Referent:pancreaticpolypeptide
+T19	GENE 911 913	PP
+N13	Name Annotation:T19 Referent:pp
+T7	CHEMICAL 948 958	Lintitript
+N14	Name Annotation:T7 Referent:lintitript
+T1	CHEMICAL 1218 1228	Lintitript
+N15	Name Annotation:T1 Referent:lintitript
+T9	GENE 1268 1271	CCK
+N16	Name Annotation:T9 Referent:cck
+T10	GENE 1329 1331	PP
+N17	Name Annotation:T10 Referent:pp
+T12	GENE 1434 1437	CCK
+N18	Name Annotation:T12 Referent:cck
+T13	GENE 1576 1590	CCK-A receptor
+N19	Name Annotation:T13 Referent:cckareceptor
+T2	CHEMICAL 1602 1612	lintitript
+N20	Name Annotation:T2 Referent:lintitript
+R1	ANTAGONIST Arg1:T8 Arg2:T20
+R2	ANTAGONIST Arg1:T3 Arg2:T15
+R3	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T9
+R4	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T10
+R5	ANTAGONIST Arg1:T2 Arg2:T13

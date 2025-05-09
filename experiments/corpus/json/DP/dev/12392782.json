@@ -1,0 +1,233 @@
+{
+    "entities": [
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "Cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "5-lipoxygenase",
+            "Name": "5lipoxygenase"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "5-lipoxygenase",
+            "Name": "5lipoxygenase"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "5-LOX",
+            "Name": "5lox"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "prostaglandins",
+            "Name": "prostaglandins"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "5-LOX",
+            "Name": "5lox"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "leukotrienes",
+            "Name": "leukotrienes"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "NS-398",
+            "Name": "ns398"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ibuprofen",
+            "Name": "ibuprofen"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "NO",
+            "Name": "no"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "indomethacin",
+            "Name": "indomethacin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "ibuprofen",
+            "Name": "ibuprofen"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "flurbiprofen",
+            "Name": "flurbiprofen"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "5-LOX",
+            "Name": "5lox"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "REV 5901",
+            "Name": "rev5901"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "5-LOX activating protein",
+            "Name": "5loxactivatingprotein"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "FLAP",
+            "Name": "flap"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "MK-886",
+            "Name": "mk886"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "FLAP",
+            "Name": "flap"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "5-LOX",
+            "Name": "5lox"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "5-LOX",
+            "Name": "5lox"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T24"
+        }
+    ]
+}

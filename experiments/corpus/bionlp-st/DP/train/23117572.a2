@@ -1,0 +1,53 @@
+T9	CHEMICAL 0 6	Sodium
+N1	Name Annotation:T9 Referent:sodium
+T22	GENE-Y 0 23	Sodium/iodide symporter
+N2	Name Annotation:T22 Referent:sodiumiodidesymporter
+T10	CHEMICAL 7 13	iodide
+N3	Name Annotation:T10 Referent:iodide
+T5	CHEMICAL 291 302	Radioiodine
+N4	Name Annotation:T5 Referent:radioiodine
+T6	CHEMICAL 501 506	Na(+)
+N5	Name Annotation:T6 Referent:na
+T17	GENE-Y 501 521	Na(+)/I(-) symporter
+N6	Name Annotation:T17 Referent:naisymporter
+T7	CHEMICAL 507 511	I(-)
+N7	Name Annotation:T7 Referent:i
+T18	GENE-Y 523 526	NIS
+N8	Name Annotation:T18 Referent:nis
+T19	GENE-Y 528 534	SLC5A5
+N9	Name Annotation:T19 Referent:slc5a5
+T8	CHEMICAL 571 577	iodide
+N10	Name Annotation:T8 Referent:iodide
+T20	GENE-Y 667 670	NIS
+N11	Name Annotation:T20 Referent:nis
+T21	GENE-Y 948 951	NIS
+N12	Name Annotation:T21 Referent:nis
+T11	GENE-Y 1160 1163	NIS
+N13	Name Annotation:T11 Referent:nis
+T12	GENE-Y 1301 1304	NIS
+N14	Name Annotation:T12 Referent:nis
+T13	GENE-N 1404 1423	histone deacetylase
+N15	Name Annotation:T13 Referent:histonedeacetylase
+T1	CHEMICAL 1435 1439	SAHA
+N16	Name Annotation:T1 Referent:saha
+T2	CHEMICAL 1444 1457	valproic acid
+N17	Name Annotation:T2 Referent:valproicacid
+T14	GENE-Y 1485 1488	NIS
+N18	Name Annotation:T14 Referent:nis
+T3	CHEMICAL 1622 1633	radioiodine
+N19	Name Annotation:T3 Referent:radioiodine
+T15	GENE-Y 1658 1661	NIS
+N20	Name Annotation:T15 Referent:nis
+T16	GENE-Y 1778 1781	NIS
+N21	Name Annotation:T16 Referent:nis
+T4	CHEMICAL 1793 1804	radioiodine
+N22	Name Annotation:T4 Referent:radioiodine
+R1	SUBSTRATE Arg1:T8 Arg2:T17
+R2	SUBSTRATE Arg1:T8 Arg2:T18
+R3	SUBSTRATE Arg1:T8 Arg2:T19
+R4	INHIBITOR Arg1:T1 Arg2:T13
+R5	INHIBITOR Arg1:T2 Arg2:T13
+R6	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T14
+R7	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T14
+R8	SUBSTRATE Arg1:T3 Arg2:T14
+R9	SUBSTRATE Arg1:T4 Arg2:T16

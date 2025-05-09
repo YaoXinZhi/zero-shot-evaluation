@@ -1,0 +1,111 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "human alpha-lactalbumin",
+            "Name": "humanalphalactalbumin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "fatty acids",
+            "Name": "fattyacids"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "human alpha-lactalbumin",
+            "Name": "humanalphalactalbumin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "fatty acids",
+            "Name": "fattyacids"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Apo-alpha-lactalbumin",
+            "Name": "apoalphalactalbumin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "EDTA",
+            "Name": "edta"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "fatty acids",
+            "Name": "fattyacids"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "oleic and palmitic acids",
+            "Name": "oleicandpalmiticacids"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "holo-alpha-lactalbumin",
+            "Name": "holoalphalactalbumin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "fatty acids",
+            "Name": "fattyacids"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "fatty acids",
+            "Name": "fattyacids"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "holo-alpha-lactalbumin",
+            "Name": "holoalphalactalbumin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "alpha-lactalbumin",
+            "Name": "alphalactalbumin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "calcium",
+            "Name": "calcium"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T9"
+        }
+    ]
+}

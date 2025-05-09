@@ -1,0 +1,72 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "diaryltriazole",
+            "Name": "diaryltriazole"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "4-phenyl-5-pyridin-4-yl-2,3-dihydro-3H-1,2,4-triazole-3-thiones",
+            "Name": "4phenyl5pyridin4yl23dihydro3h124triazole3thiones"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Mannich bases",
+            "Name": "mannichbases"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "S-alkyl",
+            "Name": "salkyl"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "celocoxib",
+            "Name": "celocoxib"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T10"
+        }
+    ]
+}

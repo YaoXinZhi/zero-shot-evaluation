@@ -1,0 +1,38 @@
+T12	CHEMICAL 20 30	pranlukast
+N1	Name Annotation:T12 Referent:pranlukast
+T13	CHEMICAL 40 51	leukotriene
+N2	Name Annotation:T13 Referent:leukotriene
+T16	GENE 40 60	leukotriene receptor
+N3	Name Annotation:T16 Referent:leukotrienereceptor
+T2	CHEMICAL 162 173	Leukotriene
+N4	Name Annotation:T2 Referent:leukotriene
+T10	CHEMICAL 230 240	Pranlukast
+N5	Name Annotation:T10 Referent:pranlukast
+T14	GENE 289 295	CysLt1
+N6	Name Annotation:T14 Referent:cyslt1
+T6	CHEMICAL 296 307	leukotriene
+N7	Name Annotation:T6 Referent:leukotriene
+T15	GENE 296 316	leukotriene receptor
+N8	Name Annotation:T15 Referent:leukotrienereceptor
+T7	CHEMICAL 393 403	pranlukast
+N9	Name Annotation:T7 Referent:pranlukast
+T8	CHEMICAL 652 667	corticosteroids
+N10	Name Annotation:T8 Referent:corticosteroids
+T9	CHEMICAL 849 859	pranlukast
+N11	Name Annotation:T9 Referent:pranlukast
+T11	CHEMICAL 1029 1039	Pranlukast
+N12	Name Annotation:T11 Referent:pranlukast
+T1	CHEMICAL 1237 1247	pranlukast
+N13	Name Annotation:T1 Referent:pranlukast
+T3	CHEMICAL 1337 1347	pranlukast
+N14	Name Annotation:T3 Referent:pranlukast
+T4	CHEMICAL 1516 1526	Pranlukast
+N15	Name Annotation:T4 Referent:pranlukast
+T5	CHEMICAL 1536 1547	leukotriene
+N16	Name Annotation:T5 Referent:leukotriene
+R1	DIRECT-REGULATOR Arg1:T13 Arg2:T16
+R2	DIRECT-REGULATOR Arg1:T6 Arg2:T14
+R3	DIRECT-REGULATOR Arg1:T6 Arg2:T15
+R4	INHIBITOR Arg1:T10 Arg2:T14
+R5	INHIBITOR Arg1:T10 Arg2:T15
+R6	ANTAGONIST Arg1:T12 Arg2:T16

@@ -1,0 +1,233 @@
+{
+    "entities": [
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "sulfonylurea",
+            "Name": "sulfonylurea"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "glinide",
+            "Name": "glinide"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Sulfonylurea",
+            "Name": "sulfonylurea"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "glinide",
+            "Name": "glinide"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "ATP-sensitive K+ channels",
+            "Name": "atpsensitivekchannels"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "K+",
+            "Name": "k"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "sulfonylurea",
+            "Name": "sulfonylurea"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "glibenclamide",
+            "Name": "glibenclamide"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "glinide",
+            "Name": "glinide"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "mitiglinide",
+            "Name": "mitiglinide"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "sulfonylurea",
+            "Name": "sulfonylurea"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "sulfonylurea receptor 1",
+            "Name": "sulfonylureareceptor1"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "SUR1",
+            "Name": "sur1"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "mitiglinide",
+            "Name": "mitiglinide"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "glibenclamide",
+            "Name": "glibenclamide"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "sulfonylurea",
+            "Name": "sulfonylurea"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "glinide",
+            "Name": "glinide"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "mitiglinide",
+            "Name": "mitiglinide"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "mitiglinide",
+            "Name": "mitiglinide"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "SUR1",
+            "Name": "sur1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T28"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T14",
+            "target": "T29"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T15",
+            "target": "T29"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T19"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T20"
+        }
+    ]
+}

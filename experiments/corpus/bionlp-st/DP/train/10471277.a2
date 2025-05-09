@@ -1,0 +1,91 @@
+T32	CHEMICAL 12 22	salmeterol
+N1	Name Annotation:T32 Referent:salmeterol
+T40	GENE-N 43 69	beta 2-adrenergic receptor
+N2	Name Annotation:T40 Referent:beta2adrenergicreceptor
+T31	CHEMICAL 106 133	[(125)I]iodoazidosalmeterol
+N3	Name Annotation:T31 Referent:125iiodoazidosalmeterol
+T1	CHEMICAL 135 145	Salmeterol
+N4	Name Annotation:T1 Referent:salmeterol
+T37	GENE-N 163 188	beta2-adrenergic receptor
+N5	Name Annotation:T37 Referent:beta2adrenergicreceptor
+T39	GENE-N 190 198	beta 2AR
+N6	Name Annotation:T39 Referent:beta2ar
+T13	CHEMICAL 318 328	salmeterol
+N7	Name Annotation:T13 Referent:salmeterol
+T18	CHEMICAL 472 482	salmeterol
+N8	Name Annotation:T18 Referent:salmeterol
+T19	CHEMICAL 517 523	phenyl
+N9	Name Annotation:T19 Referent:phenyl
+T20	CHEMICAL 566 576	salmeterol
+N10	Name Annotation:T20 Referent:salmeterol
+T38	GENE-N 584 592	beta 2AR
+N11	Name Annotation:T38 Referent:beta2ar
+T21	CHEMICAL 667 694	[(125)I]iodoazidosalmeterol
+N12	Name Annotation:T21 Referent:125iiodoazidosalmeterol
+T22	CHEMICAL 696 705	[125I]IAS
+N13	Name Annotation:T22 Referent:125iias
+T23	CHEMICAL 718 726	adenylyl
+N14	Name Annotation:T23 Referent:adenylyl
+T24	CHEMICAL 761 769	adenylyl
+N15	Name Annotation:T24 Referent:adenylyl
+T25	CHEMICAL 860 863	IAS
+N16	Name Annotation:T25 Referent:ias
+T26	CHEMICAL 884 894	salmeterol
+N17	Name Annotation:T26 Referent:salmeterol
+T27	CHEMICAL 957 962	azide
+N18	Name Annotation:T27 Referent:azide
+T28	CHEMICAL 966 969	IAS
+N19	Name Annotation:T28 Referent:ias
+T29	CHEMICAL 991 997	phenyl
+N20	Name Annotation:T29 Referent:phenyl
+T30	CHEMICAL 1110 1119	[125I]IAS
+N21	Name Annotation:T30 Referent:125iias
+T33	GENE-N 1158 1172	human beta 2AR
+N22	Name Annotation:T33 Referent:humanbeta2ar
+T2	CHEMICAL 1248 1259	[(125)I]IAS
+N23	Name Annotation:T2 Referent:125iias
+T3	CHEMICAL 1285 1299	(-)-alprenolol
+N24	Name Annotation:T3 Referent:alprenolol
+T4	CHEMICAL 1329 1332	GTP
+N25	Name Annotation:T4 Referent:gtp
+T5	CHEMICAL 1346 1355	[125I]IAS
+N26	Name Annotation:T5 Referent:125iias
+T34	GENE-N 1412 1420	beta 2AR
+N27	Name Annotation:T34 Referent:beta2ar
+T6	CHEMICAL 1467 1496	[125I]iodoazidobenzylpindolol
+N28	Name Annotation:T6 Referent:125iiodoazidobenzylpindolol
+T7	CHEMICAL 1498 1508	[125I]IABP
+N29	Name Annotation:T7 Referent:125iiabp
+T8	CHEMICAL 1550 1556	nickel
+N30	Name Annotation:T8 Referent:nickel
+T35	GENE-N 1590 1599	factor Xa
+N31	Name Annotation:T35 Referent:factorxa
+T9	CHEMICAL 1762 1772	[125I]IABP
+N32	Name Annotation:T9 Referent:125iiabp
+T10	CHEMICAL 1796 1797	N
+N33	Name Annotation:T10 Referent:n
+T11	CHEMICAL 1870 1871	C
+N34	Name Annotation:T11 Referent:c
+T12	CHEMICAL 1939 1948	[125I]IAS
+N35	Name Annotation:T12 Referent:125iias
+T14	CHEMICAL 1977 1978	C
+N36	Name Annotation:T14 Referent:c
+T15	CHEMICAL 2076 2086	salmeterol
+N37	Name Annotation:T15 Referent:salmeterol
+T16	CHEMICAL 2126 2138	aryloxyalkyl
+N38	Name Annotation:T16 Referent:aryloxyalkyl
+T17	CHEMICAL 2192 2195	IAS
+N39	Name Annotation:T17 Referent:ias
+T36	GENE-N 2211 2219	beta 2AR
+N40	Name Annotation:T36 Referent:beta2ar
+R1	DIRECT-REGULATOR Arg1:T32 Arg2:T40
+R2	DIRECT-REGULATOR Arg1:T31 Arg2:T40
+R3	AGONIST Arg1:T1 Arg2:T37
+R4	AGONIST Arg1:T1 Arg2:T39
+R5	DIRECT-REGULATOR Arg1:T30 Arg2:T33
+R6	DIRECT-REGULATOR Arg1:T17 Arg2:T36
+R7	DIRECT-REGULATOR Arg1:T2 Arg2:T34
+R8	INHIBITOR Arg1:T3 Arg2:T34
+R9	INHIBITOR Arg1:T4 Arg2:T34
+R10	DIRECT-REGULATOR Arg1:T6 Arg2:T34
+R11	DIRECT-REGULATOR Arg1:T7 Arg2:T34

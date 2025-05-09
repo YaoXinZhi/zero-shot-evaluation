@@ -1,0 +1,169 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "arylpiperazines",
+            "Name": "arylpiperazines"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "arylpiperazines",
+            "Name": "arylpiperazines"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "rat dopamine, serotonin and alpha(1) receptors",
+            "Name": "ratdopamineserotoninandalpha1receptors"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "benztriazole",
+            "Name": "benztriazole"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "5-HT(2A)",
+            "Name": "5ht2a"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "D(2)",
+            "Name": "d2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "neuroleptics",
+            "Name": "neuroleptics"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "2, 5-[2-[4-(2,3-dimethyl-phenyl)-piperazin-1-yl]ethyl]1H-benzotriazole",
+            "Name": "252423dimethylphenylpiperazin1ylethyl1hbenzotriazole"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "clozapine",
+            "Name": "clozapine"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "D(2)",
+            "Name": "d2"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "5-HT(2A)",
+            "Name": "5ht2a"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "alpha 1 receptors",
+            "Name": "alpha1receptors"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "5-HT(1A)",
+            "Name": "5ht1a"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "clozapine",
+            "Name": "clozapine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "d-amphetamine",
+            "Name": "damphetamine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T17"
+        }
+    ]
+}

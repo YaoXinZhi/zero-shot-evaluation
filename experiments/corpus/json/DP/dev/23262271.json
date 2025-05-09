@@ -1,0 +1,70 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "tyrosinase",
+            "Name": "tyrosinase"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "tyrosinase",
+            "Name": "tyrosinase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "flavanol glucoside",
+            "Name": "flavanolglucoside"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "(2S,3S)-2,3-trans-dihydromorin-7-O-\u03b2-d-glucoside",
+            "Name": "2s3s23transdihydromorin7o\u03b2dglucoside"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "trans-dihydromorin",
+            "Name": "transdihydromorin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "oxyresveratrol",
+            "Name": "oxyresveratrol"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "steppogenin",
+            "Name": "steppogenin"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "tyrosinase",
+            "Name": "tyrosinase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T6"
+        }
+    ]
+}

@@ -1,0 +1,89 @@
+T32	GENE-Y 47 62	cholinesterases
+N1	Name Annotation:T32 Referent:cholinesterases
+T31	GENE-Y 100 127	human butyrylcholinesterase
+N2	Name Annotation:T31 Referent:humanbutyrylcholinesterase
+T1	CHEMICAL 129 139	Amino acid
+N3	Name Annotation:T1 Referent:aminoacid
+T17	CHEMICAL 201 220	aromatic amino acid
+N4	Name Annotation:T17 Referent:aromaticaminoacid
+T20	GENE-Y 264 284	acetylcholinesterase
+N5	Name Annotation:T20 Referent:acetylcholinesterase
+T6	CHEMICAL 301 321	aliphatic amino acid
+N6	Name Annotation:T6 Referent:aliphaticaminoacid
+T24	GENE-Y 334 355	butyrylcholinesterase
+N7	Name Annotation:T24 Referent:butyrylcholinesterase
+T25	GENE-N 386 406	acetylcholinesterase
+N8	Name Annotation:T25 Referent:acetylcholinesterase
+T26	GENE-Y 437 464	human butyrylcholinesterase
+N9	Name Annotation:T26 Referent:humanbutyrylcholinesterase
+T7	CHEMICAL 514 525	huperzine A
+N10	Name Annotation:T7 Referent:huperzinea
+T8	CHEMICAL 527 538	edrophonium
+N11	Name Annotation:T8 Referent:edrophonium
+T9	CHEMICAL 544 553	acridines
+N12	Name Annotation:T9 Referent:acridines
+T10	CHEMICAL 569 582	bisquaternary
+N13	Name Annotation:T10 Referent:bisquaternary
+T11	CHEMICAL 601 609	BW284C51
+N14	Name Annotation:T11 Referent:bw284c51
+T12	CHEMICAL 614 627	decamethonium
+N15	Name Annotation:T12 Referent:decamethonium
+T13	CHEMICAL 671 685	phenothiazines
+N16	Name Annotation:T13 Referent:phenothiazines
+T14	CHEMICAL 694 707	ethopropazine
+N17	Name Annotation:T14 Referent:ethopropazine
+T15	CHEMICAL 732 741	exocyclic
+N18	Name Annotation:T15 Referent:exocyclic
+T16	CHEMICAL 778 793	(-)-huperzine A
+N19	Name Annotation:T16 Referent:huperzinea
+T27	GENE-Y 799 826	human butyrylcholinesterase
+N20	Name Annotation:T27 Referent:humanbutyrylcholinesterase
+T28	GENE-Y 916 944	Torpedo acetylcholinesterase
+N21	Name Annotation:T28 Referent:torpedoacetylcholinesterase
+T29	GENE-N 924 944	acetylcholinesterase
+N22	Name Annotation:T29 Referent:acetylcholinesterase
+T30	GENE-Y 987 1007	acetylcholinesterase
+N23	Name Annotation:T30 Referent:acetylcholinesterase
+T18	CHEMICAL 1124 1135	huperzine A
+N24	Name Annotation:T18 Referent:huperzinea
+T2	CHEMICAL 1159 1172	ethopropazine
+N25	Name Annotation:T2 Referent:ethopropazine
+T19	GENE-Y 1178 1199	butyrylcholinesterase
+N26	Name Annotation:T19 Referent:butyrylcholinesterase
+T3	CHEMICAL 1378 1391	ethopropazine
+N27	Name Annotation:T3 Referent:ethopropazine
+T4	CHEMICAL 1483 1496	ethopropazine
+N28	Name Annotation:T4 Referent:ethopropazine
+T21	GENE-Y 1504 1524	acetylcholinesterase
+N29	Name Annotation:T21 Referent:acetylcholinesterase
+T22	GENE-Y 1663 1684	butyrylcholinesterase
+N30	Name Annotation:T22 Referent:butyrylcholinesterase
+T23	GENE-Y 1751 1771	acetylcholinesterase
+N31	Name Annotation:T23 Referent:acetylcholinesterase
+T5	CHEMICAL 1813 1826	ethopropazine
+N32	Name Annotation:T5 Referent:ethopropazine
+R1	PART-OF Arg1:T17 Arg2:T20
+R2	PART-OF Arg1:T6 Arg2:T24
+R3	PART-OF Arg1:T1 Arg2:T20
+R4	PART-OF Arg1:T1 Arg2:T24
+R5	DIRECT-REGULATOR Arg1:T7 Arg2:T25
+R6	DIRECT-REGULATOR Arg1:T8 Arg2:T25
+R7	DIRECT-REGULATOR Arg1:T9 Arg2:T25
+R8	DIRECT-REGULATOR Arg1:T7 Arg2:T26
+R9	DIRECT-REGULATOR Arg1:T8 Arg2:T26
+R10	DIRECT-REGULATOR Arg1:T9 Arg2:T26
+R11	DIRECT-REGULATOR Arg1:T10 Arg2:T25
+R12	DIRECT-REGULATOR Arg1:T10 Arg2:T26
+R13	DIRECT-REGULATOR Arg1:T11 Arg2:T25
+R14	DIRECT-REGULATOR Arg1:T11 Arg2:T26
+R15	DIRECT-REGULATOR Arg1:T12 Arg2:T25
+R16	DIRECT-REGULATOR Arg1:T12 Arg2:T26
+R17	INHIBITOR Arg1:T16 Arg2:T27
+R18	INHIBITOR Arg1:T16 Arg2:T28
+R19	INHIBITOR Arg1:T16 Arg2:T29
+R20	INHIBITOR Arg1:T16 Arg2:T30
+R21	DIRECT-REGULATOR Arg1:T18 Arg2:T30
+R22	INHIBITOR Arg1:T2 Arg2:T19
+R23	INHIBITOR Arg1:T4 Arg2:T21
+R24	DIRECT-REGULATOR Arg1:T5 Arg2:T23
+R25	DIRECT-REGULATOR Arg1:T5 Arg2:T22

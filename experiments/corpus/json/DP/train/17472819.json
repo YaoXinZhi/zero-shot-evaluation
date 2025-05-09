@@ -1,0 +1,77 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "arformoterol",
+            "Name": "arformoterol"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "arformoterol tartrate",
+            "Name": "arformoteroltartrate"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "beta(2)-adrenergic",
+            "Name": "beta2adrenergic"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "[R,R] isomer of formoterol",
+            "Name": "rrisomerofformoterol"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "salmeterol xinafoate",
+            "Name": "salmeterolxinafoate"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "arformoterol",
+            "Name": "arformoterol"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "salmeterol",
+            "Name": "salmeterol"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "arformoterol",
+            "Name": "arformoterol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "salmeterol",
+            "Name": "salmeterol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "salmeterol",
+            "Name": "salmeterol"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Agonist",
+            "source": "T8",
+            "target": "T10"
+        }
+    ]
+}

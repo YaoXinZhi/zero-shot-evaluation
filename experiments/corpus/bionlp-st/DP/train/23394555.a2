@@ -1,0 +1,63 @@
+T14	CHEMICAL 0 11	Thymidylate
+N1	Name Annotation:T14 Referent:thymidylate
+T26	GENE-Y 0 18	Thymidylate kinase
+N2	Name Annotation:T26 Referent:thymidylatekinase
+T1	CHEMICAL 58 69	Thymidylate
+N3	Name Annotation:T1 Referent:thymidylate
+T15	GENE-Y 58 76	Thymidylate kinase
+N4	Name Annotation:T15 Referent:thymidylatekinase
+T18	GENE-Y 78 82	TMPK
+N5	Name Annotation:T18 Referent:tmpk
+T11	CHEMICAL 104 114	pyrimidine
+N6	Name Annotation:T11 Referent:pyrimidine
+T2	CHEMICAL 163 189	thymidine 5'-monophosphate
+N7	Name Annotation:T2 Referent:thymidine5monophosphate
+T3	CHEMICAL 191 195	dTMP
+N8	Name Annotation:T3 Referent:dtmp
+T4	CHEMICAL 216 219	ATP
+N9	Name Annotation:T4 Referent:atp
+T5	CHEMICAL 224 230	Mg(2+)
+N10	Name Annotation:T5 Referent:mg2
+T6	CHEMICAL 239 263	thymidine 5'-diphosphate
+N11	Name Annotation:T6 Referent:thymidine5diphosphate
+T7	CHEMICAL 265 269	dTDP
+N12	Name Annotation:T7 Referent:dtdp
+T8	CHEMICAL 299 324	thymidine 5'-triphosphate
+N13	Name Annotation:T8 Referent:thymidine5triphosphate
+T9	CHEMICAL 326 330	dTTP
+N14	Name Annotation:T9 Referent:dttp
+T10	CHEMICAL 335 357	nucleoside-diphosphate
+N15	Name Annotation:T10 Referent:nucleosidediphosphate
+T19	GENE-Y 372 376	TMPK
+N16	Name Annotation:T19 Referent:tmpk
+T20	GENE-Y 515 519	TMPK
+N17	Name Annotation:T20 Referent:tmpk
+T12	CHEMICAL 634 644	nucleoside
+N18	Name Annotation:T12 Referent:nucleoside
+T21	GENE-Y 686 690	TMPK
+N19	Name Annotation:T21 Referent:tmpk
+T22	GENE-Y 825 835	human TMPK
+N20	Name Annotation:T22 Referent:humantmpk
+T13	CHEMICAL 880 891	doxorubicin
+N21	Name Annotation:T13 Referent:doxorubicin
+T23	GENE-Y 932 935	p53
+N22	Name Annotation:T23 Referent:p53
+T24	GENE-Y 987 992	TMPKs
+N23	Name Annotation:T24 Referent:tmpks
+T25	GENE-Y 1021 1026	TMPKs
+N24	Name Annotation:T25 Referent:tmpks
+T16	GENE-Y 1099 1104	TMPKs
+N25	Name Annotation:T16 Referent:tmpks
+T17	GENE-Y 1239 1244	TMPKs
+N26	Name Annotation:T17 Referent:tmpks
+R1	PRODUCT-OF Arg1:T11 Arg2:T15
+R2	PRODUCT-OF Arg1:T11 Arg2:T18
+R3	SUBSTRATE Arg1:T2 Arg2:T15
+R4	SUBSTRATE Arg1:T3 Arg2:T15
+R5	SUBSTRATE Arg1:T2 Arg2:T18
+R6	SUBSTRATE Arg1:T3 Arg2:T18
+R7	PRODUCT-OF Arg1:T6 Arg2:T15
+R8	PRODUCT-OF Arg1:T6 Arg2:T18
+R9	PRODUCT-OF Arg1:T7 Arg2:T15
+R10	PRODUCT-OF Arg1:T7 Arg2:T18
+R11	ACTIVATOR Arg1:T12 Arg2:T20

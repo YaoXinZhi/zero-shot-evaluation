@@ -1,0 +1,28 @@
+T6	CHEMICAL 18 27	steroidal
+N1	Name Annotation:T6 Referent:steroidal
+T1	CHEMICAL 1315 1322	aspirin
+N2	Name Annotation:T1 Referent:aspirin
+T2	CHEMICAL 1478 1485	aspirin
+N3	Name Annotation:T2 Referent:aspirin
+T3	CHEMICAL 1577 1584	aspirin
+N4	Name Annotation:T3 Referent:aspirin
+T7	GENE-N 1628 1650	cyclooxygenase (COX)-2
+N5	Name Annotation:T7 Referent:cyclooxygenasecox2
+T8	GENE-N 1750 1755	COX-1
+N6	Name Annotation:T8 Referent:cox1
+T4	CHEMICAL 1825 1832	aspirin
+N7	Name Annotation:T4 Referent:aspirin
+T5	CHEMICAL 1923 1929	PGE(2)
+N8	Name Annotation:T5 Referent:pge2
+T9	GENE-N 1952 1957	COX-2
+N9	Name Annotation:T9 Referent:cox2
+T10	GENE-N 2034 2043	TGF alpha
+N10	Name Annotation:T10 Referent:tgfalpha
+T11	GENE-N 2048 2052	VEGF
+N11	Name Annotation:T11 Referent:vegf
+R1	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T7
+R2	PRODUCT-OF Arg1:T5 Arg2:T9
+R3	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T9
+R4	ACTIVATOR Arg1:T4 Arg2:T9
+R5	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T10
+R6	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T11

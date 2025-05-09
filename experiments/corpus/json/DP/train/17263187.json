@@ -1,0 +1,140 @@
+{
+    "entities": [
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "type-2 chloride channels",
+            "Name": "type2chloridechannels"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "chloride",
+            "Name": "chloride"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "lactulose",
+            "Name": "lactulose"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "tegaserod",
+            "Name": "tegaserod"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "serotonin type 4 receptor",
+            "Name": "serotonintype4receptor"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "lubiprostone",
+            "Name": "lubiprostone"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Amitiza",
+            "Name": "amitiza"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "type-2 chloride channel",
+            "Name": "type2chloridechannel"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "chloride",
+            "Name": "chloride"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "ClC-2",
+            "Name": "clc2"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Lubiprostone",
+            "Name": "lubiprostone"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "bicyclic fatty acid",
+            "Name": "bicyclicfattyacid"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "ClC-2 channels",
+            "Name": "clc2channels"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "chloride",
+            "Name": "chloride"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "sodium",
+            "Name": "sodium"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "lubiprostone",
+            "Name": "lubiprostone"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Lubiprostone",
+            "Name": "lubiprostone"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T15"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T15"
+        },
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T16"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T16"
+        }
+    ]
+}

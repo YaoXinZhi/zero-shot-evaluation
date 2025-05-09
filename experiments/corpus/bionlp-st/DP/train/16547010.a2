@@ -1,0 +1,87 @@
+T25	CHEMICAL 46 52	HQL-79
+N1	Name Annotation:T25 Referent:hql79
+T35	GENE-Y 87 131	human hematopoietic prostaglandin D synthase
+N2	Name Annotation:T35 Referent:humanhematopoieticprostaglandindsynthase
+T24	CHEMICAL 107 122	prostaglandin D
+N3	Name Annotation:T24 Referent:prostaglandind
+T31	GENE-Y 172 221	human hematopoietic prostaglandin (PG) D synthase
+N4	Name Annotation:T31 Referent:humanhematopoieticprostaglandinpgdsynthase
+T18	CHEMICAL 192 212	prostaglandin (PG) D
+N5	Name Annotation:T18 Referent:prostaglandinpgd
+T34	GENE-Y 223 229	H-PGDS
+N6	Name Annotation:T34 Referent:hpgds
+T3	CHEMICAL 262 273	glutathione
+N7	Name Annotation:T3 Referent:glutathione
+T5	CHEMICAL 275 278	GSH
+N8	Name Annotation:T5 Referent:gsh
+T7	CHEMICAL 281 285	Mg2+
+N9	Name Annotation:T7 Referent:mg2
+T8	CHEMICAL 305 311	HQL-79
+N10	Name Annotation:T8 Referent:hql79
+T10	CHEMICAL 409 415	HQL-79
+N11	Name Annotation:T10 Referent:hql79
+T11	CHEMICAL 529 535	phenyl
+N12	Name Annotation:T11 Referent:phenyl
+T12	CHEMICAL 548 556	diphenyl
+N13	Name Annotation:T12 Referent:diphenyl
+T13	CHEMICAL 586 596	piperidine
+N14	Name Annotation:T13 Referent:piperidine
+T14	CHEMICAL 608 611	GSH
+N15	Name Annotation:T14 Referent:gsh
+T15	CHEMICAL 673 681	hydrogen
+N16	Name Annotation:T15 Referent:hydrogen
+T16	CHEMICAL 717 721	Mg2+
+N17	Name Annotation:T16 Referent:mg2
+T17	CHEMICAL 723 729	HQL-79
+N18	Name Annotation:T17 Referent:hql79
+T32	GENE-Y 740 752	human H-PGDS
+N19	Name Annotation:T32 Referent:humanhpgds
+T19	CHEMICAL 824 827	GSH
+N20	Name Annotation:T19 Referent:gsh
+T20	CHEMICAL 918 924	HQL-79
+N21	Name Annotation:T20 Referent:hql79
+T33	GENE-Y 934 940	H-PGDS
+N22	Name Annotation:T33 Referent:hpgds
+T21	CHEMICAL 1001 1004	GSH
+N23	Name Annotation:T21 Referent:gsh
+T22	CHEMICAL 1009 1013	Mg2+
+N24	Name Annotation:T22 Referent:mg2
+T23	CHEMICAL 1115 1119	Mg2+
+N25	Name Annotation:T23 Referent:mg2
+T26	GENE-Y 1165 1171	H-PGDS
+N26	Name Annotation:T26 Referent:hpgds
+T1	CHEMICAL 1176 1182	HQL-79
+N27	Name Annotation:T1 Referent:hql79
+T2	CHEMICAL 1275 1281	HQL-79
+N28	Name Annotation:T2 Referent:hql79
+T27	GENE-Y 1323 1329	H-PGDS
+N29	Name Annotation:T27 Referent:hpgds
+T4	CHEMICAL 1480 1491	prostanoids
+N30	Name Annotation:T4 Referent:prostanoids
+T28	GENE-Y 1544 1550	H-PGDS
+N31	Name Annotation:T28 Referent:hpgds
+T29	GENE-N 1555 1569	cyclooxygenase
+N32	Name Annotation:T29 Referent:cyclooxygenase
+T6	CHEMICAL 1591 1597	HQL-79
+N33	Name Annotation:T6 Referent:hql79
+T30	GENE-Y 1776 1788	human H-PGDS
+N34	Name Annotation:T30 Referent:humanhpgds
+T9	CHEMICAL 1919 1925	HQL-79
+N35	Name Annotation:T9 Referent:hql79
+R1	INHIBITOR Arg1:T25 Arg2:T35
+R2	DIRECT-REGULATOR Arg1:T3 Arg2:T31
+R3	DIRECT-REGULATOR Arg1:T3 Arg2:T34
+R4	DIRECT-REGULATOR Arg1:T5 Arg2:T31
+R5	DIRECT-REGULATOR Arg1:T5 Arg2:T34
+R6	DIRECT-REGULATOR Arg1:T7 Arg2:T31
+R7	DIRECT-REGULATOR Arg1:T7 Arg2:T34
+R8	INHIBITOR Arg1:T8 Arg2:T31
+R9	INHIBITOR Arg1:T8 Arg2:T34
+R10	DIRECT-REGULATOR Arg1:T8 Arg2:T31
+R11	DIRECT-REGULATOR Arg1:T8 Arg2:T34
+R12	INHIBITOR Arg1:T17 Arg2:T32
+R13	DIRECT-REGULATOR Arg1:T20 Arg2:T33
+R14	DIRECT-REGULATOR Arg1:T1 Arg2:T26
+R15	INHIBITOR Arg1:T2 Arg2:T27
+R16	PRODUCT-OF Arg1:T4 Arg2:T27
+R17	INHIBITOR Arg1:T6 Arg2:T30

@@ -1,0 +1,231 @@
+{
+    "entities": [
+        {
+            "id": "T24",
+            "type": "Chemical",
+            "name": "Diethyldithiocarbamate",
+            "Name": "diethyldithiocarbamate"
+        },
+        {
+            "id": "T25",
+            "type": "Chemical",
+            "name": "copper",
+            "Name": "copper"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "cytochrome c",
+            "Name": "cytochromec"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "caspase",
+            "Name": "caspase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Dithiocarbamates",
+            "Name": "dithiocarbamates"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "nitrogen",
+            "Name": "nitrogen"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "sulfur",
+            "Name": "sulfur"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "dithiocarbamates",
+            "Name": "dithiocarbamates"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "copper",
+            "Name": "copper"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "N,N-diethyldithiocarbamate",
+            "Name": "nndiethyldithiocarbamate"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "DEDTC",
+            "Name": "dedtc"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "copper",
+            "Name": "copper"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "DEDTC",
+            "Name": "dedtc"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "Cu-DEDTC",
+            "Name": "cudedtc"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "copper",
+            "Name": "copper"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "DEDTC",
+            "Name": "dedtc"
+        },
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "DEDTC",
+            "Name": "dedtc"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "death receptor",
+            "Name": "deathreceptor"
+        },
+        {
+            "id": "T23",
+            "type": "Chemical",
+            "name": "DEDTC-copper",
+            "Name": "dedtccopper"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "caspase 8",
+            "Name": "caspase8"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "cytochrome c",
+            "Name": "cytochromec"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "Apaf-1",
+            "Name": "apaf1"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "caspase 9",
+            "Name": "caspase9"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "caspase 9",
+            "Name": "caspase9"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "caspase 3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "DEDTC",
+            "Name": "dedtc"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "copper",
+            "Name": "copper"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "DEDTC",
+            "Name": "dedtc"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "copper",
+            "Name": "copper"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "copper",
+            "Name": "copper"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "DEDTC",
+            "Name": "dedtc"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "copper",
+            "Name": "copper"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "DEDTC",
+            "Name": "dedtc"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "copper",
+            "Name": "copper"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T24",
+            "target": "T33"
+        },
+        {
+            "type": "Activator",
+            "source": "T24",
+            "target": "T34"
+        },
+        {
+            "type": "Activator",
+            "source": "T23",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T23",
+            "target": "T32"
+        }
+    ]
+}

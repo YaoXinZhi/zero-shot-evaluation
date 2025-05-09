@@ -1,0 +1,64 @@
+{
+    "entities": [
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "methyl rosmarinate",
+            "Name": "methylrosmarinate"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "matrix metalloproteinase-1",
+            "Name": "matrixmetalloproteinase1"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "MMP-1",
+            "Name": "mmp1"
+        },
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "MMP-1",
+            "Name": "mmp1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "methyl rosmarinate",
+            "Name": "methylrosmarinate"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "MMP-1",
+            "Name": "mmp1"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "MMP-1",
+            "Name": "mmp1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T3"
+        }
+    ]
+}

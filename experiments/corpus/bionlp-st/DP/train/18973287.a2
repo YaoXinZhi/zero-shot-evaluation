@@ -1,0 +1,67 @@
+T17	CHEMICAL 28 39	eszopiclone
+N1	Name Annotation:T17 Referent:eszopiclone
+T18	CHEMICAL 44 52	zolpidem
+N2	Name Annotation:T18 Referent:zolpidem
+T19	CHEMICAL 68 91	gamma-aminobutyric acid
+N3	Name Annotation:T19 Referent:gammaaminobutyricacid
+T30	GENE-N 68 115	gamma-aminobutyric acid type-A (GABAA) receptor
+N4	Name Annotation:T30 Referent:gammaaminobutyricacidtypeagabaareceptor
+T2	CHEMICAL 146 154	zolpidem
+N5	Name Annotation:T2 Referent:zolpidem
+T6	CHEMICAL 159 170	eszopiclone
+N6	Name Annotation:T6 Referent:eszopiclone
+T14	CHEMICAL 220 243	gamma-aminobutyric acid
+N7	Name Annotation:T14 Referent:gammaaminobutyricacid
+T29	GENE-N 220 260	gamma-aminobutyric acid type-A receptors
+N8	Name Annotation:T29 Referent:gammaaminobutyricacidtypeareceptors
+T20	GENE-N 262 271	GABA(A)Rs
+N9	Name Annotation:T20 Referent:gabaars
+T3	CHEMICAL 358 366	cysteine
+N10	Name Annotation:T3 Referent:cysteine
+T4	CHEMICAL 384 398	benzodiazepine
+N11	Name Annotation:T4 Referent:benzodiazepine
+T21	GENE-N 384 417	benzodiazepine (BZD) binding site
+N12	Name Annotation:T21 Referent:benzodiazepinebzdbindingsite
+T5	CHEMICAL 400 403	BZD
+N13	Name Annotation:T5 Referent:bzd
+T22	GENE-N 421 454	alpha(1)beta(2)gamma(2) GABA(A)Rs
+N14	Name Annotation:T22 Referent:alpha1beta2gamma2gabaars
+T7	CHEMICAL 468 476	zolpidem
+N15	Name Annotation:T7 Referent:zolpidem
+T8	CHEMICAL 478 489	eszopiclone
+N16	Name Annotation:T8 Referent:eszopiclone
+T9	CHEMICAL 495 498	BZD
+N17	Name Annotation:T9 Referent:bzd
+T23	GENE-N 495 503	BZD-site
+N18	Name Annotation:T23 Referent:bzdsite
+T24	GENE-N 537 551	gamma(2)loop D
+N19	Name Annotation:T24 Referent:gamma2loopd
+T25	GENE-N 556 577	alpha(1)loops A and B
+N20	Name Annotation:T25 Referent:alpha1loopsaandb
+T10	CHEMICAL 668 671	BZD
+N21	Name Annotation:T10 Referent:bzd
+T26	GENE-N 668 677	BZD pocke
+N22	Name Annotation:T26 Referent:bzdpocke
+T27	GENE-N 714 728	gamma(2)loop E
+N23	Name Annotation:T27 Referent:gamma2loope
+T28	GENE-N 733 747	alpha(1)loop C
+N24	Name Annotation:T28 Referent:alpha1loopc
+T11	CHEMICAL 905 916	eszopiclone
+N25	Name Annotation:T11 Referent:eszopiclone
+T12	CHEMICAL 970 978	hydrogen
+N26	Name Annotation:T12 Referent:hydrogen
+T13	CHEMICAL 986 994	Zolpidem
+N27	Name Annotation:T13 Referent:zolpidem
+T15	CHEMICAL 1100 1111	eszopiclone
+N28	Name Annotation:T15 Referent:eszopiclone
+T16	CHEMICAL 1113 1121	zolpidem
+N29	Name Annotation:T16 Referent:zolpidem
+T1	CHEMICAL 1235 1243	zolpidem
+N30	Name Annotation:T1 Referent:zolpidem
+R1	DIRECT-REGULATOR Arg1:T17 Arg2:T30
+R2	DIRECT-REGULATOR Arg1:T18 Arg2:T30
+R3	DIRECT-REGULATOR Arg1:T2 Arg2:T29
+R4	DIRECT-REGULATOR Arg1:T6 Arg2:T29
+R5	DIRECT-REGULATOR Arg1:T2 Arg2:T20
+R6	DIRECT-REGULATOR Arg1:T6 Arg2:T20
+R7	PART-OF Arg1:T3 Arg2:T21

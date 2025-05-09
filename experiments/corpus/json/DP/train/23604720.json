@@ -1,0 +1,142 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Aldose Reductase",
+            "Name": "aldosereductase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "aldose",
+            "Name": "aldose"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "aldose reductase",
+            "Name": "aldosereductase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "AR",
+            "Name": "ar"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "galactitol",
+            "Name": "galactitol"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "caffeoylquinic acids",
+            "Name": "caffeoylquinicacids"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "phenolic",
+            "Name": "phenolic"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "rat lens AR",
+            "Name": "ratlensar"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "rAR",
+            "Name": "rar"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "human AR",
+            "Name": "humanar"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "rhAR",
+            "Name": "rhar"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "methyl-3,5-di-O-caffeoylquinate",
+            "Name": "methyl35diocaffeoylquinate"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "rAR",
+            "Name": "rar"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "rhAR",
+            "Name": "rhar"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "methyl-3,5-di-O-caffeoylquinate",
+            "Name": "methyl35diocaffeoylquinate"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "rhAR",
+            "Name": "rhar"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "methyl-3,5-di-O-caffeoylquinate",
+            "Name": "methyl35diocaffeoylquinate"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "galactitol",
+            "Name": "galactitol"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T11"
+        }
+    ]
+}

@@ -1,0 +1,253 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "retinoic acid",
+            "Name": "retinoicacid"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Retinoic acid",
+            "Name": "retinoicacid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "RA",
+            "Name": "ra"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "vitamin A",
+            "Name": "vitamina"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "RA",
+            "Name": "ra"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "retinal",
+            "Name": "retinal"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "retinal dehydrogenases",
+            "Name": "retinaldehydrogenases"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "RALDHs",
+            "Name": "raldhs"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "RA",
+            "Name": "ra"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "retinal",
+            "Name": "retinal"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "RALDH1 and 2",
+            "Name": "raldh1and2"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "RA",
+            "Name": "ra"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "pravastatin sodium",
+            "Name": "pravastatinsodium"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "RALDH1 and 2",
+            "Name": "raldh1and2"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "oxysterols",
+            "Name": "oxysterols"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "liver X receptor",
+            "Name": "liverxreceptor"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "LXR",
+            "Name": "lxr"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "sterol",
+            "Name": "sterol"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "sterol regulatory element binding protein-1c",
+            "Name": "sterolregulatoryelementbindingprotein1c"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "SREBP-1c",
+            "Name": "srebp1c"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "LXRalpha/beta",
+            "Name": "lxralphabeta"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "SREBP-1c",
+            "Name": "srebp1c"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "RALDH",
+            "Name": "raldh"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "SREBP-1c",
+            "Name": "srebp1c"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "SREBP-1c",
+            "Name": "srebp1c"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "RA",
+            "Name": "ra"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T23"
+        },
+        {
+            "type": "Product of",
+            "source": "T7",
+            "target": "T22"
+        },
+        {
+            "type": "Product of",
+            "source": "T7",
+            "target": "T23"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T15",
+            "target": "T26"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T15",
+            "target": "T27"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T14",
+            "target": "T26"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T14",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T14",
+            "target": "T28"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T15",
+            "target": "T28"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T14",
+            "target": "T29"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T15",
+            "target": "T29"
+        }
+    ]
+}

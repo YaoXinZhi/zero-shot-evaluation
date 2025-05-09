@@ -1,0 +1,49 @@
+T21	GENE-N 31 54	L-type calcium channels
+N1	Name Annotation:T21 Referent:ltypecalciumchannels
+T12	CHEMICAL 38 45	calcium
+N2	Name Annotation:T12 Referent:calcium
+T13	CHEMICAL 58 74	dihydropyridines
+N3	Name Annotation:T13 Referent:dihydropyridines
+T1	CHEMICAL 129 145	Dihydropyridines
+N4	Name Annotation:T1 Referent:dihydropyridines
+T8	CHEMICAL 147 151	DHPs
+N5	Name Annotation:T8 Referent:dhps
+T19	GENE-N 159 179	L-type Ca2+ channels
+N6	Name Annotation:T19 Referent:ltypeca2channels
+T9	CHEMICAL 166 170	Ca2+
+N7	Name Annotation:T9 Referent:ca2
+T4	CHEMICAL 294 305	Nisoldipine
+N8	Name Annotation:T4 Referent:nisoldipine
+T7	CHEMICAL 309 312	DHP
+N9	Name Annotation:T7 Referent:dhp
+T18	GENE-N 336 357	smooth muscle channel
+N10	Name Annotation:T18 Referent:smoothmusclechannel
+T20	GENE-Y 618 639	smooth muscle alpha1C
+N11	Name Annotation:T20 Referent:smoothmusclealpha1c
+T10	CHEMICAL 749 753	Ca2+
+N12	Name Annotation:T10 Referent:ca2
+T11	CHEMICAL 990 1001	nisoldipine
+N13	Name Annotation:T11 Referent:nisoldipine
+T14	GENE-N 1411 1427	cardiac channels
+N14	Name Annotation:T14 Referent:cardiacchannels
+T15	GENE-N 1463 1485	smooth muscle channels
+N15	Name Annotation:T15 Referent:smoothmusclechannels
+T2	CHEMICAL 1624 1635	nisoldipine
+N16	Name Annotation:T2 Referent:nisoldipine
+T16	GENE-N 1671 1699	cardiac L-type Ca2+ channels
+N17	Name Annotation:T16 Referent:cardiacltypeca2channels
+T3	CHEMICAL 1686 1690	Ca2+
+N18	Name Annotation:T3 Referent:ca2
+T5	CHEMICAL 1804 1807	DHP
+N19	Name Annotation:T5 Referent:dhp
+T17	GENE-N 1804 1816	DHP receptor
+N20	Name Annotation:T17 Referent:dhpreceptor
+T6	CHEMICAL 1913 1916	DHP
+N21	Name Annotation:T6 Referent:dhp
+R1	INHIBITOR Arg1:T13 Arg2:T21
+R2	INHIBITOR Arg1:T1 Arg2:T19
+R3	INHIBITOR Arg1:T8 Arg2:T19
+R4	INHIBITOR Arg1:T4 Arg2:T18
+R5	INHIBITOR Arg1:T7 Arg2:T18
+R6	INHIBITOR Arg1:T2 Arg2:T16
+R7	DIRECT-REGULATOR Arg1:T6 Arg2:T17

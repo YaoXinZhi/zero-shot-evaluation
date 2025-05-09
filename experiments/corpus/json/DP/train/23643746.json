@@ -1,0 +1,89 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "GABAA receptor",
+            "Name": "gabaareceptor"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "GABAAR",
+            "Name": "gabaar"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "bicuculline",
+            "Name": "bicuculline"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "AMPA",
+            "Name": "ampa"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "AMPA receptor",
+            "Name": "ampareceptor"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "AMPAR",
+            "Name": "ampar"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "NMDA receptor",
+            "Name": "nmdareceptor"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "NMDAR",
+            "Name": "nmdar"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "AMPA",
+            "Name": "ampa"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T7"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T8"
+        }
+    ]
+}

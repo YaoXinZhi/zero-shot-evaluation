@@ -1,0 +1,61 @@
+T14	CHEMICAL 32 41	glutamate
+N1	Name Annotation:T14 Referent:glutamate
+T26	GENE-Y 32 55	glutamate dehydrogenase
+N2	Name Annotation:T26 Referent:glutamatedehydrogenase
+T15	GENE-N 111 144	Mammalian glutamate dehydrogenase
+N3	Name Annotation:T15 Referent:mammalianglutamatedehydrogenase
+T1	CHEMICAL 121 130	glutamate
+N4	Name Annotation:T1 Referent:glutamate
+T19	GENE-N 146 149	GDH
+N5	Name Annotation:T19 Referent:gdh
+T4	CHEMICAL 232 243	l-glutamate
+N6	Name Annotation:T4 Referent:lglutamate
+T5	CHEMICAL 247 261	2-oxoglutarate
+N7	Name Annotation:T5 Referent:2oxoglutarate
+T6	CHEMICAL 268 277	NAD(P)(+)
+N8	Name Annotation:T6 Referent:nadp
+T18	GENE-N 343 356	mammalian GDH
+N9	Name Annotation:T18 Referent:mammaliangdh
+T20	GENE-Y 353 356	GDH
+N10	Name Annotation:T20 Referent:gdh
+T7	CHEMICAL 512 515	GTP
+N11	Name Annotation:T7 Referent:gtp
+T21	GENE-Y 546 553	insulin
+N12	Name Annotation:T21 Referent:insulin
+T22	GENE-Y 647 650	GDH
+N13	Name Annotation:T22 Referent:gdh
+T8	CHEMICAL 695 719	epigallocatechin gallate
+N14	Name Annotation:T8 Referent:epigallocatechingallate
+T9	CHEMICAL 724 743	epicatechin gallate
+N15	Name Annotation:T9 Referent:epicatechingallate
+T10	CHEMICAL 840 855	hexachlorophene
+N16	Name Annotation:T10 Referent:hexachlorophene
+T11	CHEMICAL 857 863	GW5074
+N17	Name Annotation:T11 Referent:gw5074
+T12	CHEMICAL 869 878	bithionol
+N18	Name Annotation:T12 Referent:bithionol
+T23	GENE-Y 913 916	GDH
+N19	Name Annotation:T23 Referent:gdh
+T13	CHEMICAL 955 970	Hexachlorophene
+N20	Name Annotation:T13 Referent:hexachlorophene
+T24	GENE-Y 1014 1017	GDH
+N21	Name Annotation:T24 Referent:gdh
+T25	GENE-Y 1078 1081	GDH
+N22	Name Annotation:T25 Referent:gdh
+T2	CHEMICAL 1145 1151	GW5074
+N23	Name Annotation:T2 Referent:gw5074
+T3	CHEMICAL 1156 1165	bithionol
+N24	Name Annotation:T3 Referent:bithionol
+T16	GENE-Y 1284 1287	GDH
+N25	Name Annotation:T16 Referent:gdh
+T17	GENE-Y 1736 1739	GDH
+N26	Name Annotation:T17 Referent:gdh
+R1	SUBSTRATE Arg1:T4 Arg2:T15
+R2	PRODUCT-OF Arg1:T5 Arg2:T15
+R3	SUBSTRATE Arg1:T4 Arg2:T19
+R4	PRODUCT-OF Arg1:T5 Arg2:T19
+R5	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T21
+R6	INHIBITOR Arg1:T8 Arg2:T22
+R7	INHIBITOR Arg1:T9 Arg2:T22
+R8	DIRECT-REGULATOR Arg1:T13 Arg2:T24
+R9	DIRECT-REGULATOR Arg1:T13 Arg2:T25

@@ -1,0 +1,171 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "(-)nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "(+)amphetamine",
+            "Name": "amphetamine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "(+)- and (-)threohydrobupropion",
+            "Name": "andthreohydrobupropion"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "R,R-hydroxybupropion",
+            "Name": "rrhydroxybupropion"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "(-)nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "(-)nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "S,S-Hydroxybupropion",
+            "Name": "sshydroxybupropion"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "(-)nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "(+)amphetamine",
+            "Name": "amphetamine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "S,S-hydroxybupropion",
+            "Name": "sshydroxybupropion"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "Bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "nicotinic acetylcholinergic receptors",
+            "Name": "nicotinicacetylcholinergicreceptors"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "(-)nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "alpha3beta4 nicotinic cholinergic receptors",
+            "Name": "alpha3beta4nicotiniccholinergicreceptors"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "S,S-Hydroxybupropion",
+            "Name": "sshydroxybupropion"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "dopamine transporter",
+            "Name": "dopaminetransporter"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "norepinephrine transporter",
+            "Name": "norepinephrinetransporter"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T14",
+            "target": "T22"
+        },
+        {
+            "type": "Agonist",
+            "source": "T15",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T16",
+            "target": "T23"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T16",
+            "target": "T24"
+        }
+    ]
+}

@@ -1,0 +1,161 @@
+{
+    "entities": [
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "Smoothened",
+            "Name": "smoothened"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "Hedgehog",
+            "Name": "hedgehog"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "Smoothened",
+            "Name": "smoothened"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "Smo",
+            "Name": "smo"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "Hedgehog",
+            "Name": "hedgehog"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Smo",
+            "Name": "smo"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "Smo receptors",
+            "Name": "smoreceptors"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "beta-arrestin2",
+            "Name": "betaarrestin2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "halcinonide",
+            "Name": "halcinonide"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "fluticasone",
+            "Name": "fluticasone"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "clobetasol",
+            "Name": "clobetasol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "fluocinonide",
+            "Name": "fluocinonide"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Smo",
+            "Name": "smo"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Hedgehog",
+            "Name": "hedgehog"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "Smo",
+            "Name": "smo"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Smo",
+            "Name": "smo"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Gli",
+            "Name": "gli"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Sonic Hedgehog protein",
+            "Name": "sonichedgehogprotein"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Hedgehog",
+            "Name": "hedgehog"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T1",
+            "target": "T12"
+        },
+        {
+            "type": "Agonist",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Agonist",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Agonist",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T13"
+        }
+    ]
+}

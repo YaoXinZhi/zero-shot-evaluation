@@ -1,0 +1,83 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "dihydrobenzo[b]thiophenes",
+            "Name": "dihydrobenzobthiophenes"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "5-amino-2,7-diaryl-2,3-dihydrobenzo[b]thiophene-4,6-dicarbonitriles",
+            "Name": "5amino27diaryl23dihydrobenzobthiophene46dicarbonitriles"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "5-aryldihydro-3(2H)-thiophenones",
+            "Name": "5aryldihydro32hthiophenones"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "malononitrile",
+            "Name": "malononitrile"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "aromatic aldehydes",
+            "Name": "aromaticaldehydes"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "morpholine",
+            "Name": "morpholine"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "5-amino-2,7-bis(4-methoxyphenyl)-2,3-dihydrobenzo[b]thiophene-4,6-dicarbonitrile",
+            "Name": "5amino27bis4methoxyphenyl23dihydrobenzobthiophene46dicarbonitrile"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T10"
+        }
+    ]
+}

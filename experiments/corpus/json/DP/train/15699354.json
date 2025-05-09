@@ -1,0 +1,112 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "etodolac",
+            "Name": "etodolac"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "retinoid",
+            "Name": "retinoid"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "retinoid X receptor",
+            "Name": "retinoidxreceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "etodolac",
+            "Name": "etodolac"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "retinoid",
+            "Name": "retinoid"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "retinoid X receptor",
+            "Name": "retinoidxreceptor"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "RXRalpha",
+            "Name": "rxralpha"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "R-etodolac",
+            "Name": "retodolac"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "RXRalpha",
+            "Name": "rxralpha"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "RXRalpha",
+            "Name": "rxralpha"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "ubiquitin",
+            "Name": "ubiquitin"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "proteasome",
+            "Name": "proteasome"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "R-etodolac",
+            "Name": "retodolac"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "RXRalpha",
+            "Name": "rxralpha"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "RXRalpha",
+            "Name": "rxralpha"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T10"
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+T18	CHEMICAL 0 13	Cycloheximide
+N1	Name Annotation:T18 Referent:cycloheximide
+T36	GENE-Y 25 59	suppressor of cytokine signaling-3
+N2	Name Annotation:T36 Referent:suppressorofcytokinesignaling3
+T35	GENE-N 105 142	extracellular signal-regulated kinase
+N3	Name Annotation:T35 Referent:extracellularsignalregulatedkinase
+T19	GENE-Y 152 193	Suppressor of cytokine signaling (SOCS)-3
+N4	Name Annotation:T19 Referent:suppressorofcytokinesignalingsocs3
+T33	GENE-N 166 174	cytokine
+N5	Name Annotation:T33 Referent:cytokine
+T3	CHEMICAL 353 366	cycloheximide
+N6	Name Annotation:T3 Referent:cycloheximide
+T25	GENE-Y 394 400	SOCS-3
+N7	Name Annotation:T25 Referent:socs3
+T4	CHEMICAL 457 470	cycloheximide
+N8	Name Annotation:T4 Referent:cycloheximide
+T26	GENE-Y 484 490	SOCS-3
+N9	Name Annotation:T26 Referent:socs3
+T5	CHEMICAL 559 572	actinomycin D
+N10	Name Annotation:T5 Referent:actinomycind
+T6	CHEMICAL 583 596	cycloheximide
+N11	Name Annotation:T6 Referent:cycloheximide
+T27	GENE-Y 608 614	SOCS-3
+N12	Name Annotation:T27 Referent:socs3
+T7	CHEMICAL 662 675	cycloheximide
+N13	Name Annotation:T7 Referent:cycloheximide
+T8	CHEMICAL 711 724	cycloheximide
+N14	Name Annotation:T8 Referent:cycloheximide
+T28	GENE-Y 761 765	MEK1
+N15	Name Annotation:T28 Referent:mek1
+T29	GENE-N 770 773	JNK
+N16	Name Annotation:T29 Referent:jnk
+T30	GENE-Y 846 850	MEK1
+N17	Name Annotation:T30 Referent:mek1
+T9	CHEMICAL 862 867	U0126
+N18	Name Annotation:T9 Referent:u0126
+T10	CHEMICAL 872 879	PD98059
+N19	Name Annotation:T10 Referent:pd98059
+T31	GENE-N 893 896	JNK
+N20	Name Annotation:T31 Referent:jnk
+T11	CHEMICAL 907 915	SP600125
+N21	Name Annotation:T11 Referent:sp600125
+T12	CHEMICAL 917 922	U0126
+N22	Name Annotation:T12 Referent:u0126
+T13	CHEMICAL 927 934	PD98059
+N23	Name Annotation:T13 Referent:pd98059
+T14	CHEMICAL 958 971	cycloheximide
+N24	Name Annotation:T14 Referent:cycloheximide
+T32	GENE-Y 983 989	SOCS-3
+N25	Name Annotation:T32 Referent:socs3
+T15	CHEMICAL 1011 1019	SP600125
+N26	Name Annotation:T15 Referent:sp600125
+T16	CHEMICAL 1039 1052	cycloheximide
+N27	Name Annotation:T16 Referent:cycloheximide
+T17	CHEMICAL 1071 1084	cycloheximide
+N28	Name Annotation:T17 Referent:cycloheximide
+T34	GENE-N 1133 1137	SOCS
+N29	Name Annotation:T34 Referent:socs
+T20	GENE-N 1162 1188	SOCS-1, -2, -4, -5, -6, -7
+N30	Name Annotation:T20 Referent:socs124567
+T21	GENE-Y 1194 1243	cytokine-inducible SH2-containing protein (CIS)-1
+N31	Name Annotation:T21 Referent:cytokineinduciblesh2containingproteincis1
+T1	CHEMICAL 1303 1316	cycloheximide
+N32	Name Annotation:T1 Referent:cycloheximide
+T22	GENE-Y 1363 1367	MEK1
+N33	Name Annotation:T22 Referent:mek1
+T23	GENE-N 1368 1371	ERK
+N34	Name Annotation:T23 Referent:erk
+T2	CHEMICAL 1410 1423	cycloheximide
+N35	Name Annotation:T2 Referent:cycloheximide
+T24	GENE-Y 1439 1445	SOCS-3
+N36	Name Annotation:T24 Referent:socs3
+R1	INDIRECT-UPREGULATOR Arg1:T18 Arg2:T36
+R2	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T26
+R3	INDIRECT-UPREGULATOR Arg1:T6 Arg2:T27
+R4	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T27
+R5	ACTIVATOR Arg1:T8 Arg2:T28
+R6	ACTIVATOR Arg1:T8 Arg2:T29
+R7	INHIBITOR Arg1:T9 Arg2:T30
+R8	INHIBITOR Arg1:T10 Arg2:T30
+R9	INHIBITOR Arg1:T11 Arg2:T31
+R10	INDIRECT-UPREGULATOR Arg1:T14 Arg2:T32
+R11	INDIRECT-DOWNREGULATOR Arg1:T12 Arg2:T32
+R12	INDIRECT-DOWNREGULATOR Arg1:T13 Arg2:T32
+R13	INDIRECT-UPREGULATOR Arg1:T17 Arg2:T34
+R14	INDIRECT-UPREGULATOR Arg1:T17 Arg2:T21
+R15	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T24

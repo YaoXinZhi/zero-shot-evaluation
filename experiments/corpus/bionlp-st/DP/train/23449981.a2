@@ -1,0 +1,60 @@
+T20	CHEMICAL 0 28	Ceramide phosphoethanolamine
+N1	Name Annotation:T20 Referent:ceramidephosphoethanolamine
+T21	CHEMICAL 16 28	ethanolamine
+N2	Name Annotation:T21 Referent:ethanolamine
+T28	GENE-N 80 111	ethanolamine phosphotransferase
+N3	Name Annotation:T28 Referent:ethanolaminephosphotransferase
+T1	CHEMICAL 132 145	Sphingomyelin
+N4	Name Annotation:T1 Referent:sphingomyelin
+T5	CHEMICAL 328 342	phosphocholine
+N5	Name Annotation:T5 Referent:phosphocholine
+T6	CHEMICAL 348 367	phosphatidylcholine
+N6	Name Annotation:T6 Referent:phosphatidylcholine
+T7	CHEMICAL 373 381	ceramide
+N7	Name Annotation:T7 Referent:ceramide
+T23	GENE-N 407 418	SM synthase
+N8	Name Annotation:T23 Referent:smsynthase
+T8	CHEMICAL 499 527	ceramide phosphoethanolamine
+N9	Name Annotation:T8 Referent:ceramidephosphoethanolamine
+T9	CHEMICAL 529 532	CPE
+N10	Name Annotation:T9 Referent:cpe
+T10	CHEMICAL 560 572	sphingolipid
+N11	Name Annotation:T10 Referent:sphingolipid
+T11	CHEMICAL 592 595	CPE
+N12	Name Annotation:T11 Referent:cpe
+T24	GENE-Y 592 604	CPE synthase
+N13	Name Annotation:T24 Referent:cpesynthase
+T12	CHEMICAL 765 768	CDP
+N14	Name Annotation:T12 Referent:cdp
+T13	CHEMICAL 769 781	ethanolamine
+N15	Name Annotation:T13 Referent:ethanolamine
+T14	CHEMICAL 782 790	ceramide
+N16	Name Annotation:T14 Referent:ceramide
+T25	GENE-N 782 822	ceramide ethanolamine phosphotransferase
+N17	Name Annotation:T25 Referent:ceramideethanolaminephosphotransferase
+T15	CHEMICAL 791 803	ethanolamine
+N18	Name Annotation:T15 Referent:ethanolamine
+T16	CHEMICAL 853 856	CPE
+N19	Name Annotation:T16 Referent:cpe
+T17	CHEMICAL 883 886	CPE
+N20	Name Annotation:T17 Referent:cpe
+T26	GENE-Y 883 895	CPE synthase
+N21	Name Annotation:T26 Referent:cpesynthase
+T18	CHEMICAL 932 935	CDP
+N22	Name Annotation:T18 Referent:cdp
+T27	GENE-N 932 962	CDP-alcohol phosphotransferase
+N23	Name Annotation:T27 Referent:cdpalcoholphosphotransferase
+T19	CHEMICAL 936 943	alcohol
+N24	Name Annotation:T19 Referent:alcohol
+T2	CHEMICAL 1256 1259	CDP
+N25	Name Annotation:T2 Referent:cdp
+T22	GENE-N 1256 1287	CDP-alcohol phosphotransferases
+N26	Name Annotation:T22 Referent:cdpalcoholphosphotransferases
+T3	CHEMICAL 1260 1267	alcohol
+N27	Name Annotation:T3 Referent:alcohol
+T4	CHEMICAL 1368 1371	CPE
+N28	Name Annotation:T4 Referent:cpe
+R1	PRODUCT-OF Arg1:T20 Arg2:T28
+R2	SUBSTRATE Arg1:T7 Arg2:T23
+R3	SUBSTRATE Arg1:T6 Arg2:T23
+R4	PRODUCT-OF Arg1:T16 Arg2:T25

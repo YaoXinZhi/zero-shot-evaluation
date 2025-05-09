@@ -1,0 +1,41 @@
+T9	CHEMICAL 11 17	silver
+N1	Name Annotation:T9 Referent:silver
+T6	CHEMICAL 407 413	Silver
+N2	Name Annotation:T6 Referent:silver
+T7	CHEMICAL 415 417	Ag
+N3	Name Annotation:T7 Referent:ag
+T8	CHEMICAL 1063 1065	Ag
+N4	Name Annotation:T8 Referent:ag
+T1	CHEMICAL 1317 1319	Ag
+N5	Name Annotation:T1 Referent:ag
+T2	CHEMICAL 1369 1376	lactate
+N6	Name Annotation:T2 Referent:lactate
+T10	GENE-N 1369 1390	lactate dehydrogenase
+N7	Name Annotation:T10 Referent:lactatedehydrogenase
+T11	GENE-Y 1454 1461	albumin
+N8	Name Annotation:T11 Referent:albumin
+T3	CHEMICAL 1538 1540	Ag
+N9	Name Annotation:T3 Referent:ag
+T4	CHEMICAL 1630 1632	Ag
+N10	Name Annotation:T4 Referent:ag
+T12	GENE-Y 1711 1724	interleukin-8
+N11	Name Annotation:T12 Referent:interleukin8
+T13	GENE-Y 1726 1730	IL-8
+N12	Name Annotation:T13 Referent:il8
+T14	GENE-N 1732 1765	macrophage inflammatory protein 2
+N13	Name Annotation:T14 Referent:macrophageinflammatoryprotein2
+T15	GENE-Y 1767 1773	IL-1RI
+N14	Name Annotation:T15 Referent:il1ri
+T16	GENE-Y 1779 1802	tumor necrosis factor-α
+N15	Name Annotation:T16 Referent:tumornecrosisfactorα
+T17	GENE-Y 1843 1847	IL-8
+N16	Name Annotation:T17 Referent:il8
+T5	CHEMICAL 1962 1964	Ag
+N17	Name Annotation:T5 Referent:ag
+R1	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T12
+R2	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T11
+R3	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T13
+R4	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T14
+R5	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T15
+R6	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T16
+R7	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T17

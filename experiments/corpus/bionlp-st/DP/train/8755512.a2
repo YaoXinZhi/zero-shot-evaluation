@@ -1,0 +1,35 @@
+T7	CHEMICAL 11 22	thalidomide
+N1	Name Annotation:T7 Referent:thalidomide
+T14	GENE-N 26 50	alpha1-acid glycoprotein
+N2	Name Annotation:T14 Referent:alpha1acidglycoprotein
+T15	GENE-Y 88 115	tumor necrosis factor alpha
+N3	Name Annotation:T15 Referent:tumornecrosisfactoralpha
+T2	CHEMICAL 192 203	thalidomide
+N4	Name Annotation:T2 Referent:thalidomide
+T10	GENE-Y 446 473	tumor necrosis factor alpha
+N5	Name Annotation:T10 Referent:tumornecrosisfactoralpha
+T3	CHEMICAL 549 560	thalidomide
+N6	Name Annotation:T3 Referent:thalidomide
+T4	CHEMICAL 655 666	thalidomide
+N7	Name Annotation:T4 Referent:thalidomide
+T11	GENE-Y 937 961	alpha1-acid glycoprotein
+N8	Name Annotation:T11 Referent:alpha1acidglycoprotein
+T12	GENE-Y 963 966	AGP
+N9	Name Annotation:T12 Referent:agp
+T5	CHEMICAL 997 1008	thalidomide
+N10	Name Annotation:T5 Referent:thalidomide
+T13	GENE-N 1042 1051	human AGP
+N11	Name Annotation:T13 Referent:humanagp
+T6	CHEMICAL 1074 1085	thalidomide
+N12	Name Annotation:T6 Referent:thalidomide
+T8	GENE-Y 1208 1235	tumor necrosis factor alpha
+N13	Name Annotation:T8 Referent:tumornecrosisfactoralpha
+T9	GENE-N 1274 1277	AGP
+N14	Name Annotation:T9 Referent:agp
+T1	CHEMICAL 1330 1341	thalidomide
+N15	Name Annotation:T1 Referent:thalidomide
+R1	DIRECT-REGULATOR Arg1:T7 Arg2:T14
+R2	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T15
+R3	INHIBITOR Arg1:T2 Arg2:T10
+R4	DIRECT-REGULATOR Arg1:T5 Arg2:T13
+R5	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T8

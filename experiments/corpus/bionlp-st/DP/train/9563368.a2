@@ -1,0 +1,86 @@
+T30	CHEMICAL 15 37	fluticasone propionate
+N1	Name Annotation:T30 Referent:fluticasonepropionate
+T1	CHEMICAL 89 111	Fluticasone propionate
+N2	Name Annotation:T1 Referent:fluticasonepropionate
+T14	CHEMICAL 113 115	FP
+N3	Name Annotation:T14 Referent:fp
+T26	CHEMICAL 165 175	androstane
+N4	Name Annotation:T26 Referent:androstane
+T15	CHEMICAL 379 399	17beta-carbothioates
+N5	Name Annotation:T15 Referent:17betacarbothioates
+T16	CHEMICAL 401 403	FP
+N6	Name Annotation:T16 Referent:fp
+T17	CHEMICAL 452 479	beclomethasone dipropionate
+N7	Name Annotation:T17 Referent:beclomethasonedipropionate
+T18	CHEMICAL 481 491	budesonide
+N8	Name Annotation:T18 Referent:budesonide
+T19	CHEMICAL 497 520	triamcinolone acetonide
+N9	Name Annotation:T19 Referent:triamcinoloneacetonide
+T34	GENE-Y 577 600	glucocorticoid receptor
+N10	Name Annotation:T34 Referent:glucocorticoidreceptor
+T20	CHEMICAL 669 701	beclomethasone-17-monopropionate
+N11	Name Annotation:T20 Referent:beclomethasone17monopropionate
+T21	CHEMICAL 703 709	17-BMP
+N12	Name Annotation:T21 Referent:17bmp
+T22	CHEMICAL 715 733	mometasone furoate
+N13	Name Annotation:T22 Referent:mometasonefuroate
+T23	CHEMICAL 754 764	budesonide
+N14	Name Annotation:T23 Referent:budesonide
+T24	CHEMICAL 790 801	flunisolide
+N15	Name Annotation:T24 Referent:flunisolide
+T25	CHEMICAL 806 829	triamcinolone acetonide
+N16	Name Annotation:T25 Referent:triamcinoloneacetonide
+T27	CHEMICAL 858 860	FP
+N17	Name Annotation:T27 Referent:fp
+T28	CHEMICAL 984 986	FP
+N18	Name Annotation:T28 Referent:fp
+T35	GENE-N 994 1010	steroid-receptor
+N19	Name Annotation:T35 Referent:steroidreceptor
+T29	CHEMICAL 1085 1095	budesonide
+N20	Name Annotation:T29 Referent:budesonide
+T2	CHEMICAL 1097 1103	17-BMP
+N21	Name Annotation:T2 Referent:17bmp
+T3	CHEMICAL 1109 1132	triamcinolone acetonide
+N22	Name Annotation:T3 Referent:triamcinoloneacetonide
+T4	CHEMICAL 1148 1150	FP
+N23	Name Annotation:T4 Referent:fp
+T31	GENE-Y 1180 1203	glucocorticoid receptor
+N24	Name Annotation:T31 Referent:glucocorticoidreceptor
+T5	CHEMICAL 1241 1248	steroid
+N25	Name Annotation:T5 Referent:steroid
+T32	GENE-N 1241 1258	steroid receptors
+N26	Name Annotation:T32 Referent:steroidreceptors
+T6	CHEMICAL 1260 1262	FP
+N27	Name Annotation:T6 Referent:fp
+T7	CHEMICAL 1283 1310	beclomethasone dipropionate
+N28	Name Annotation:T7 Referent:beclomethasonedipropionate
+T8	CHEMICAL 1312 1322	budesonide
+N29	Name Annotation:T8 Referent:budesonide
+T9	CHEMICAL 1324 1347	triamcinolone acetonide
+N30	Name Annotation:T9 Referent:triamcinoloneacetonide
+T10	CHEMICAL 1353 1371	mometasone furoate
+N31	Name Annotation:T10 Referent:mometasonefuroate
+T33	GENE-N 1451 1459	cytokine
+N32	Name Annotation:T33 Referent:cytokine
+T11	CHEMICAL 1473 1482	histamine
+N33	Name Annotation:T11 Referent:histamine
+T12	CHEMICAL 1639 1641	FP
+N34	Name Annotation:T12 Referent:fp
+T13	CHEMICAL 1885 1892	steroid
+N35	Name Annotation:T13 Referent:steroid
+R1	DIRECT-REGULATOR Arg1:T28 Arg2:T35
+R2	DIRECT-REGULATOR Arg1:T29 Arg2:T35
+R3	DIRECT-REGULATOR Arg1:T20 Arg2:T34
+R4	DIRECT-REGULATOR Arg1:T21 Arg2:T34
+R5	DIRECT-REGULATOR Arg1:T22 Arg2:T34
+R6	DIRECT-REGULATOR Arg1:T23 Arg2:T34
+R7	DIRECT-REGULATOR Arg1:T24 Arg2:T34
+R8	DIRECT-REGULATOR Arg1:T25 Arg2:T34
+R9	DIRECT-REGULATOR Arg1:T2 Arg2:T35
+R10	DIRECT-REGULATOR Arg1:T3 Arg2:T35
+R11	DIRECT-REGULATOR Arg1:T4 Arg2:T31
+R12	INHIBITOR Arg1:T6 Arg2:T33
+R13	INHIBITOR Arg1:T7 Arg2:T33
+R14	INHIBITOR Arg1:T8 Arg2:T33
+R15	INHIBITOR Arg1:T9 Arg2:T33
+R16	INHIBITOR Arg1:T10 Arg2:T33

@@ -1,0 +1,73 @@
+T5	CHEMICAL 318 330	fibric acids
+N1	Name Annotation:T5 Referent:fibricacids
+T6	CHEMICAL 332 346	nicotinic acid
+N2	Name Annotation:T6 Referent:nicotinicacid
+T7	CHEMICAL 348 356	probucol
+N3	Name Annotation:T7 Referent:probucol
+T8	CHEMICAL 358 365	HMG-CoA
+N4	Name Annotation:T8 Referent:hmgcoa
+T17	GENE-Y 358 375	HMG-CoA reductase
+N5	Name Annotation:T17 Referent:hmgcoareductase
+T18	GENE-N 395 431	plasma very-low-density lipoproteins
+N6	Name Annotation:T18 Referent:plasmaverylowdensitylipoproteins
+T19	GENE-N 433 437	VLDL
+N7	Name Annotation:T19 Referent:vldl
+T20	GENE-N 446 470	low-density lipoproteins
+N8	Name Annotation:T20 Referent:lowdensitylipoproteins
+T21	GENE-N 472 475	LDL
+N9	Name Annotation:T21 Referent:ldl
+T9	CHEMICAL 505 517	Fibric acids
+N10	Name Annotation:T9 Referent:fibricacids
+T22	GENE-N 571 575	VLDL
+N11	Name Annotation:T22 Referent:vldl
+T23	GENE-N 572 575	LDL
+N12	Name Annotation:T23 Referent:ldl
+T10	CHEMICAL 663 677	Nicotinic acid
+N13	Name Annotation:T10 Referent:nicotinicacid
+T24	GENE-N 726 729	LDL
+N14	Name Annotation:T24 Referent:ldl
+T25	GENE-N 768 772	VLDL
+N15	Name Annotation:T25 Referent:vldl
+T26	GENE-N 769 772	LDL
+N16	Name Annotation:T26 Referent:ldl
+T11	CHEMICAL 778 786	Probucol
+N17	Name Annotation:T11 Referent:probucol
+T12	CHEMICAL 863 881	cholesteryl esters
+N18	Name Annotation:T12 Referent:cholesterylesters
+T27	GENE-N 887 912	high-density lipoproteins
+N19	Name Annotation:T27 Referent:highdensitylipoproteins
+T28	GENE-N 916 942	lower-density lipoproteins
+N20	Name Annotation:T28 Referent:lowerdensitylipoproteins
+T13	CHEMICAL 953 960	HMG-CoA
+N21	Name Annotation:T13 Referent:hmgcoa
+T29	GENE-Y 953 970	HMG-CoA reductase
+N22	Name Annotation:T29 Referent:hmgcoareductase
+T14	CHEMICAL 1020 1031	cholesterol
+N23	Name Annotation:T14 Referent:cholesterol
+T15	GENE-N 1091 1112	lipoprotein receptors
+N24	Name Annotation:T15 Referent:lipoproteinreceptors
+T1	CHEMICAL 1159 1167	neomycin
+N25	Name Annotation:T1 Referent:neomycin
+T2	CHEMICAL 1169 1184	beta-sitosterol
+N26	Name Annotation:T2 Referent:betasitosterol
+T3	CHEMICAL 1217 1227	bile acids
+N27	Name Annotation:T3 Referent:bileacids
+T4	CHEMICAL 1260 1271	cholesterol
+N28	Name Annotation:T4 Referent:cholesterol
+T16	GENE-N 1365 1377	LDL receptor
+N29	Name Annotation:T16 Referent:ldlreceptor
+R1	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T18
+R2	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T18
+R3	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T18
+R4	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T19
+R5	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T19
+R6	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T19
+R7	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T20
+R8	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T21
+R9	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T20
+R10	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T21
+R11	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T21
+R12	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T20
+R13	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T22
+R14	SUBSTRATE Arg1:T12 Arg2:T27
+R15	SUBSTRATE Arg1:T12 Arg2:T28

@@ -1,0 +1,87 @@
+T13	CHEMICAL 0 15	Pseudoephedrine
+N1	Name Annotation:T13 Referent:pseudoephedrine
+T35	GENE-N 56 65	NF-kappaB
+N2	Name Annotation:T35 Referent:nfkappab
+T36	GENE-N 67 71	NFAT
+N3	Name Annotation:T36 Referent:nfat
+T37	GENE-Y 76 80	AP-1
+N4	Name Annotation:T37 Referent:ap1
+T1	CHEMICAL 101 116	Pseudoephedrine
+N5	Name Annotation:T1 Referent:pseudoephedrine
+T7	CHEMICAL 118 121	PSE
+N6	Name Annotation:T7 Referent:pse
+T10	CHEMICAL 144 153	ephedrine
+N7	Name Annotation:T10 Referent:ephedrine
+T8	CHEMICAL 382 385	PSE
+N8	Name Annotation:T8 Referent:pse
+T9	CHEMICAL 429 432	PSE
+N9	Name Annotation:T9 Referent:pse
+T23	GENE-Y 442 455	interleukin-2
+N10	Name Annotation:T23 Referent:interleukin2
+T24	GENE-Y 457 461	IL-2
+N11	Name Annotation:T24 Referent:il2
+T25	GENE-Y 467 500	tumor necrosis factor (TNF) alpha
+N12	Name Annotation:T25 Referent:tumornecrosisfactortnfalpha
+T11	CHEMICAL 636 639	PSE
+N13	Name Annotation:T11 Referent:pse
+T26	GENE-N 716 738	nuclear factor kappa B
+N14	Name Annotation:T26 Referent:nuclearfactorkappab
+T27	GENE-N 740 749	NF-kappaB
+N15	Name Annotation:T27 Referent:nfkappab
+T28	GENE-N 752 787	nuclear factor of activated T cells
+N16	Name Annotation:T28 Referent:nuclearfactorofactivatedtcells
+T29	GENE-N 789 793	NFAT
+N17	Name Annotation:T29 Referent:nfat
+T30	GENE-Y 800 819	activator protein-1
+N18	Name Annotation:T30 Referent:activatorprotein1
+T31	GENE-Y 821 825	AP-1
+N19	Name Annotation:T31 Referent:ap1
+T12	CHEMICAL 864 867	PSE
+N20	Name Annotation:T12 Referent:pse
+T32	GENE-N 878 887	NF-kappaB
+N21	Name Annotation:T32 Referent:nfkappab
+T33	GENE-Y 1004 1032	NF-kappaB inhibitory protein
+N22	Name Annotation:T33 Referent:nfkappabinhibitoryprotein
+T34	GENE-Y 1034 1046	IkappaBalpha
+N23	Name Annotation:T34 Referent:ikappabalpha
+T14	GENE-Y 1108 1111	p65
+N24	Name Annotation:T14 Referent:p65
+T15	GENE-Y 1112 1116	RelA
+N25	Name Annotation:T15 Referent:rela
+T2	CHEMICAL 1150 1153	PSE
+N26	Name Annotation:T2 Referent:pse
+T3	CHEMICAL 1188 1191	PSE
+N27	Name Annotation:T3 Referent:pse
+T16	GENE-N 1234 1238	NFAT
+N28	Name Annotation:T16 Referent:nfat
+T4	CHEMICAL 1268 1275	calcium
+N29	Name Annotation:T4 Referent:calcium
+T17	GENE-N 1284 1288	NFAT
+N30	Name Annotation:T17 Referent:nfat
+T18	GENE-N 1379 1383	NFAT
+N31	Name Annotation:T18 Referent:nfat
+T19	GENE-Y 1400 1405	c-Jun
+N32	Name Annotation:T19 Referent:cjun
+T20	GENE-Y 1425 1429	AP-1
+N33	Name Annotation:T20 Referent:ap1
+T5	CHEMICAL 1488 1491	PSE
+N34	Name Annotation:T5 Referent:pse
+T21	GENE-N 1507 1510	JNK
+N35	Name Annotation:T21 Referent:jnk
+T22	GENE-Y 1526 1530	AP-1
+N36	Name Annotation:T22 Referent:ap1
+T6	CHEMICAL 1655 1658	PSE
+N37	Name Annotation:T6 Referent:pse
+R1	INHIBITOR Arg1:T13 Arg2:T35
+R2	INHIBITOR Arg1:T13 Arg2:T36
+R3	INHIBITOR Arg1:T13 Arg2:T37
+R4	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T23
+R5	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T24
+R6	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T25
+R7	INHIBITOR Arg1:T12 Arg2:T32
+R8	INHIBITOR Arg1:T2 Arg2:T15
+R9	INHIBITOR Arg1:T3 Arg2:T16
+R10	INHIBITOR Arg1:T2 Arg2:T14
+R11	ACTIVATOR Arg1:T4 Arg2:T17
+R12	INHIBITOR Arg1:T5 Arg2:T21
+R13	INHIBITOR Arg1:T5 Arg2:T22

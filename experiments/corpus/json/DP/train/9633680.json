@@ -1,0 +1,209 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "levodopa",
+            "Name": "levodopa"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Levodopa",
+            "Name": "levodopa"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "aromatic-L-amino-acid decarboxylase",
+            "Name": "aromaticlaminoaciddecarboxylase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "L-amino-acid",
+            "Name": "laminoacid"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "AADC",
+            "Name": "aadc"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "catechol",
+            "Name": "catechol"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "catechol-O-methyltransferase",
+            "Name": "catecholomethyltransferase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "O",
+            "Name": "o"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "COMT",
+            "Name": "comt"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "AADC",
+            "Name": "aadc"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "COMT",
+            "Name": "comt"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "levodopa",
+            "Name": "levodopa"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "AADC",
+            "Name": "aadc"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "carbidopa",
+            "Name": "carbidopa"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "benserazide",
+            "Name": "benserazide"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "COMT",
+            "Name": "comt"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "levodopa",
+            "Name": "levodopa"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "AADC",
+            "Name": "aadc"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "dopamine receptors",
+            "Name": "dopaminereceptors"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "levodopa",
+            "Name": "levodopa"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "Dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "dopamine receptors",
+            "Name": "dopaminereceptors"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T18"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T19"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T20"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T21"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T22"
+        }
+    ]
+}

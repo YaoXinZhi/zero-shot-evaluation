@@ -1,0 +1,174 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "retinoid",
+            "Name": "retinoid"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "retinoid X receptor",
+            "Name": "retinoidxreceptor"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "bexarotene",
+            "Name": "bexarotene"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "LGD1069",
+            "Name": "lgd1069"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "targretin",
+            "Name": "targretin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "retinoid",
+            "Name": "retinoid"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "retinoid X receptor",
+            "Name": "retinoidxreceptor"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "bexarotene",
+            "Name": "bexarotene"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "bexarotene",
+            "Name": "bexarotene"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "bexarotene",
+            "Name": "bexarotene"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "vascular endothelial growth factor",
+            "Name": "vascularendothelialgrowthfactor"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "epidermal growth factor",
+            "Name": "epidermalgrowthfactor"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "fibroblast growth factor",
+            "Name": "fibroblastgrowthfactor"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "bexarotene",
+            "Name": "bexarotene"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "bexarotene",
+            "Name": "bexarotene"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "bexarotene",
+            "Name": "bexarotene"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "bexarotene",
+            "Name": "bexarotene"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "matrix metalloproteinases",
+            "Name": "matrixmetalloproteinases"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "matrix metalloproteinases",
+            "Name": "matrixmetalloproteinases"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "bexarotene",
+            "Name": "bexarotene"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "peroxisome proliferator-activated receptor gamma",
+            "Name": "peroxisomeproliferatoractivatedreceptorgamma"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "bexarotene",
+            "Name": "bexarotene"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T12",
+            "target": "T22"
+        },
+        {
+            "type": "Agonist",
+            "source": "T13",
+            "target": "T22"
+        },
+        {
+            "type": "Agonist",
+            "source": "T14",
+            "target": "T22"
+        },
+        {
+            "type": "Agonist",
+            "source": "T9",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Activator",
+            "source": "T2",
+            "target": "T17"
+        }
+    ]
+}

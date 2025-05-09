@@ -1,0 +1,83 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "fatty acid",
+            "Name": "fattyacid"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "triiodothyronine",
+            "Name": "triiodothyronine"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "peroxisome proliferator-activated receptor alpha",
+            "Name": "peroxisomeproliferatoractivatedreceptoralpha"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "bezafibrate",
+            "Name": "bezafibrate"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Bzf",
+            "Name": "bzf"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Bzf",
+            "Name": "bzf"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Bzf",
+            "Name": "bzf"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "cytochrome c oxidase",
+            "Name": "cytochromecoxidase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Bzf",
+            "Name": "bzf"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Bzf",
+            "Name": "bzf"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Agonist",
+            "source": "T4",
+            "target": "T10"
+        }
+    ]
+}

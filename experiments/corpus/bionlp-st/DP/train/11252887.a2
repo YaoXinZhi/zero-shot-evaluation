@@ -1,0 +1,37 @@
+T10	CHEMICAL 0 11	Gemcitabine
+N1	Name Annotation:T10 Referent:gemcitabine
+T11	CHEMICAL 16 35	Pemetrexed disodium
+N2	Name Annotation:T11 Referent:pemetrexeddisodium
+T1	CHEMICAL 63 82	Pemetrexed disodium
+N3	Name Annotation:T1 Referent:pemetrexeddisodium
+T4	CHEMICAL 84 90	Alimta
+N4	Name Annotation:T4 Referent:alimta
+T6	CHEMICAL 92 100	LY231514
+N5	Name Annotation:T6 Referent:ly231514
+T9	CHEMICAL 153 164	thymidylate
+N6	Name Annotation:T9 Referent:thymidylate
+T14	GENE-Y 153 173	thymidylate synthase
+N7	Name Annotation:T14 Referent:thymidylatesynthase
+T2	CHEMICAL 175 188	dihydrofolate
+N8	Name Annotation:T2 Referent:dihydrofolate
+T12	GENE-Y 175 198	dihydrofolate reductase
+N9	Name Annotation:T12 Referent:dihydrofolatereductase
+T3	CHEMICAL 204 237	glycinamide ribonucleotide formyl
+N10	Name Annotation:T3 Referent:glycinamideribonucleotideformyl
+T13	GENE-Y 204 249	glycinamide ribonucleotide formyl transferase
+N11	Name Annotation:T13 Referent:glycinamideribonucleotideformyltransferase
+T5	CHEMICAL 340 359	Pemetrexed disodium
+N12	Name Annotation:T5 Referent:pemetrexeddisodium
+T7	CHEMICAL 424 435	gemcitabine
+N13	Name Annotation:T7 Referent:gemcitabine
+T8	CHEMICAL 437 443	Gemzar
+N14	Name Annotation:T8 Referent:gemzar
+R1	INHIBITOR Arg1:T1 Arg2:T14
+R2	INHIBITOR Arg1:T1 Arg2:T12
+R3	INHIBITOR Arg1:T1 Arg2:T13
+R4	INHIBITOR Arg1:T4 Arg2:T14
+R5	INHIBITOR Arg1:T4 Arg2:T12
+R6	INHIBITOR Arg1:T4 Arg2:T13
+R7	INHIBITOR Arg1:T6 Arg2:T13
+R8	INHIBITOR Arg1:T6 Arg2:T14
+R9	INHIBITOR Arg1:T6 Arg2:T12

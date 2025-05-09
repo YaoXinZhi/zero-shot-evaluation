@@ -1,0 +1,87 @@
+T16	CHEMICAL 0 9	Phillyrin
+N1	Name Annotation:T16 Referent:phillyrin
+T18	CHEMICAL 26 33	glucose
+N2	Name Annotation:T18 Referent:glucose
+T35	GENE-Y 114 118	LKB1
+N3	Name Annotation:T35 Referent:lkb1
+T17	CHEMICAL 119 122	AMP
+N4	Name Annotation:T17 Referent:amp
+T36	GENE-N 119 147	AMP-activated protein kinase
+N5	Name Annotation:T36 Referent:ampactivatedproteinkinase
+T1	CHEMICAL 170 179	Phillyrin
+N6	Name Annotation:T1 Referent:phillyrin
+T3	CHEMICAL 397 406	phillyrin
+N7	Name Annotation:T3 Referent:phillyrin
+T4	CHEMICAL 433 440	glucose
+N8	Name Annotation:T4 Referent:glucose
+T5	CHEMICAL 510 519	phillyrin
+N9	Name Annotation:T5 Referent:phillyrin
+T6	CHEMICAL 536 543	glucose
+N10	Name Annotation:T6 Referent:glucose
+T7	CHEMICAL 587 596	Phillyrin
+N11	Name Annotation:T7 Referent:phillyrin
+T8	CHEMICAL 621 628	glucose
+N12	Name Annotation:T8 Referent:glucose
+T9	CHEMICAL 637 647	fatty acid
+N13	Name Annotation:T9 Referent:fattyacid
+T24	GENE-Y 637 656	fatty acid synthase
+N14	Name Annotation:T24 Referent:fattyacidsynthase
+T25	GENE-Y 658 661	FAS
+N15	Name Annotation:T25 Referent:fas
+T10	CHEMICAL 688 694	sterol
+N16	Name Annotation:T10 Referent:sterol
+T26	GENE-Y 688 732	sterol regulatory element-binding protein-1c
+N17	Name Annotation:T26 Referent:sterolregulatoryelementbindingprotein1c
+T27	GENE-Y 734 742	SREBP-1c
+N18	Name Annotation:T27 Referent:srebp1c
+T11	CHEMICAL 793 796	AMP
+N19	Name Annotation:T11 Referent:amp
+T28	GENE-N 793 821	AMP-activated protein kinase
+N20	Name Annotation:T28 Referent:ampactivatedproteinkinase
+T29	GENE-N 823 827	AMPK
+N21	Name Annotation:T29 Referent:ampk
+T12	CHEMICAL 839 849	compound C
+N22	Name Annotation:T12 Referent:compoundc
+T30	GENE-N 864 868	AMPK
+N23	Name Annotation:T30 Referent:ampk
+T31	GENE-Y 898 906	SREBP-1c
+N24	Name Annotation:T31 Referent:srebp1c
+T13	CHEMICAL 921 930	phillyrin
+N25	Name Annotation:T13 Referent:phillyrin
+T32	GENE-Y 969 984	liver kinase B1
+N26	Name Annotation:T32 Referent:liverkinaseb1
+T33	GENE-Y 986 990	LKB1
+N27	Name Annotation:T33 Referent:lkb1
+T14	CHEMICAL 1028 1037	phillyrin
+N28	Name Annotation:T14 Referent:phillyrin
+T34	GENE-N 1061 1065	AMPK
+N29	Name Annotation:T34 Referent:ampk
+T15	CHEMICAL 1116 1125	phillyrin
+N30	Name Annotation:T15 Referent:phillyrin
+T19	GENE-Y 1199 1207	SREBP-1c
+N31	Name Annotation:T19 Referent:srebp1c
+T20	GENE-Y 1212 1215	FAS
+N32	Name Annotation:T20 Referent:fas
+T21	GENE-Y 1224 1228	LKB1
+N33	Name Annotation:T21 Referent:lkb1
+T22	GENE-N 1229 1233	AMPK
+N34	Name Annotation:T22 Referent:ampk
+T2	CHEMICAL 1262 1271	phillyrin
+N35	Name Annotation:T2 Referent:phillyrin
+T23	GENE-N 1283 1287	AMPK
+N36	Name Annotation:T23 Referent:ampk
+R1	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T24
+R2	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T25
+R3	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T24
+R4	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T25
+R5	INHIBITOR Arg1:T12 Arg2:T28
+R6	INHIBITOR Arg1:T12 Arg2:T29
+R7	INHIBITOR Arg1:T12 Arg2:T30
+R8	ACTIVATOR Arg1:T14 Arg2:T34
+R9	INDIRECT-DOWNREGULATOR Arg1:T15 Arg2:T19
+R10	INDIRECT-DOWNREGULATOR Arg1:T15 Arg2:T20
+R11	ACTIVATOR Arg1:T15 Arg2:T21
+R12	ACTIVATOR Arg1:T15 Arg2:T22
+R13	ACTIVATOR Arg1:T2 Arg2:T23
+R14	ACTIVATOR Arg1:T16 Arg2:T35
+R15	ACTIVATOR Arg1:T16 Arg2:T36

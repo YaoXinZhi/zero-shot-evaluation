@@ -1,0 +1,88 @@
+T30	CHEMICAL 62 70	budipine
+N1	Name Annotation:T30 Referent:budipine
+T1	CHEMICAL 172 180	budipine
+N2	Name Annotation:T1 Referent:budipine
+T7	CHEMICAL 217 225	budipine
+N3	Name Annotation:T7 Referent:budipine
+T17	CHEMICAL 241 249	dopamine
+N4	Name Annotation:T17 Referent:dopamine
+T18	CHEMICAL 299 301	DA
+N5	Name Annotation:T18 Referent:da
+T19	CHEMICAL 326 335	monoamine
+N6	Name Annotation:T19 Referent:monoamine
+T33	GENE-Y 326 350	monoamine oxidase type B
+N7	Name Annotation:T33 Referent:monoamineoxidasetypeb
+T34	GENE-Y 352 357	MAO-B
+N8	Name Annotation:T34 Referent:maob
+T20	CHEMICAL 366 368	DA
+N9	Name Annotation:T20 Referent:da
+T21	CHEMICAL 401 422	aromatic L-amino acid
+N10	Name Annotation:T21 Referent:aromaticlaminoacid
+T35	GENE-Y 401 436	aromatic L-amino acid decarboxylase
+N11	Name Annotation:T35 Referent:aromaticlaminoaciddecarboxylase
+T36	GENE-Y 438 442	AADC
+N12	Name Annotation:T36 Referent:aadc
+T22	CHEMICAL 576 596	N-methyl-D-aspartate
+N13	Name Annotation:T22 Referent:nmethyldaspartate
+T37	GENE-N 576 627	N-methyl-D-aspartate (NMDA) type glutamate receptor
+N14	Name Annotation:T37 Referent:nmethyldaspartatenmdatypeglutamatereceptor
+T23	CHEMICAL 598 602	NMDA
+N15	Name Annotation:T23 Referent:nmda
+T24	CHEMICAL 609 618	glutamate
+N16	Name Annotation:T24 Referent:glutamate
+T25	CHEMICAL 641 649	budipine
+N17	Name Annotation:T25 Referent:budipine
+T26	CHEMICAL 752 765	phencyclidine
+N18	Name Annotation:T26 Referent:phencyclidine
+T27	CHEMICAL 767 770	PCP
+N19	Name Annotation:T27 Referent:pcp
+T28	CHEMICAL 819 829	amantadine
+N20	Name Annotation:T28 Referent:amantadine
+T29	CHEMICAL 933 941	budipine
+N21	Name Annotation:T29 Referent:budipine
+T38	GENE-N 996 1012	muscarinic M1-M3
+N22	Name Annotation:T38 Referent:muscarinicm1m3
+T39	GENE-N 1017 1049	human recombinant m1-m5 receptor
+N23	Name Annotation:T39 Referent:humanrecombinantm1m5receptor
+T2	CHEMICAL 1107 1116	biperiden
+N24	Name Annotation:T2 Referent:biperiden
+T3	CHEMICAL 1300 1309	biperiden
+N25	Name Annotation:T3 Referent:biperiden
+T4	CHEMICAL 1394 1417	gamma-aminobutyric acid
+N26	Name Annotation:T4 Referent:gammaaminobutyricacid
+T5	CHEMICAL 1419 1423	GABA
+N27	Name Annotation:T5 Referent:gaba
+T6	CHEMICAL 1436 1444	budipine
+N28	Name Annotation:T6 Referent:budipine
+T8	CHEMICAL 1596 1604	budipine
+N29	Name Annotation:T8 Referent:budipine
+T9	CHEMICAL 1631 1644	noradrenaline
+N30	Name Annotation:T9 Referent:noradrenaline
+T10	CHEMICAL 1649 1658	serotonin
+N31	Name Annotation:T10 Referent:serotonin
+T31	GENE-Y 1679 1701	brain sigma1 receptors
+N32	Name Annotation:T31 Referent:brainsigma1receptors
+T11	CHEMICAL 1718 1727	histamine
+N33	Name Annotation:T11 Referent:histamine
+T32	GENE-Y 1718 1740	histamine H1 receptors
+N34	Name Annotation:T32 Referent:histamineh1receptors
+T12	CHEMICAL 1799 1807	budipine
+N35	Name Annotation:T12 Referent:budipine
+T13	CHEMICAL 1877 1879	DA
+N36	Name Annotation:T13 Referent:da
+T14	CHEMICAL 1981 1990	glutamate
+N37	Name Annotation:T14 Referent:glutamate
+T15	CHEMICAL 1992 2005	acetylcholine
+N38	Name Annotation:T15 Referent:acetylcholine
+T16	CHEMICAL 2007 2011	GABA
+N39	Name Annotation:T16 Referent:gaba
+R1	INHIBITOR Arg1:T7 Arg2:T33
+R2	INHIBITOR Arg1:T7 Arg2:T34
+R3	SUBSTRATE Arg1:T7 Arg2:T35
+R4	SUBSTRATE Arg1:T7 Arg2:T36
+R5	ACTIVATOR Arg1:T7 Arg2:T35
+R6	ACTIVATOR Arg1:T7 Arg2:T36
+R7	ANTAGONIST Arg1:T25 Arg2:T37
+R8	DIRECT-REGULATOR Arg1:T26 Arg2:T37
+R9	DIRECT-REGULATOR Arg1:T27 Arg2:T37
+R10	DIRECT-REGULATOR Arg1:T28 Arg2:T37

@@ -1,0 +1,212 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Trimethoprim",
+            "Name": "trimethoprim"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "heat shock proteins",
+            "Name": "heatshockproteins"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Trimethoprim",
+            "Name": "trimethoprim"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "TMP",
+            "Name": "tmp"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "dihydrofolate",
+            "Name": "dihydrofolate"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "dihydrofolate reductase",
+            "Name": "dihydrofolatereductase"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "tetrahydrofolate",
+            "Name": "tetrahydrofolate"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "carbon",
+            "Name": "carbon"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "nucleotides",
+            "Name": "nucleotides"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "panthotenate",
+            "Name": "panthotenate"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "TMP",
+            "Name": "tmp"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "heat shock proteins",
+            "Name": "heatshockproteins"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "Hsps",
+            "Name": "hsps"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "TMP",
+            "Name": "tmp"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "DnaK",
+            "Name": "dnak"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "DnaJ",
+            "Name": "dnaj"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "GroEL",
+            "Name": "groel"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "ClpB",
+            "Name": "clpb"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "IbpA/B",
+            "Name": "ibpab"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Hsps",
+            "Name": "hsps"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Hsps",
+            "Name": "hsps"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "IbpA/B",
+            "Name": "ibpab"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "TMP",
+            "Name": "tmp"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "folate",
+            "Name": "folate"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "ibpA/B",
+            "Name": "ibpab"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T12",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Activator",
+            "source": "T7",
+            "target": "T16"
+        },
+        {
+            "type": "Activator",
+            "source": "T7",
+            "target": "T17"
+        },
+        {
+            "type": "Activator",
+            "source": "T7",
+            "target": "T18"
+        },
+        {
+            "type": "Activator",
+            "source": "T7",
+            "target": "T19"
+        },
+        {
+            "type": "Activator",
+            "source": "T7",
+            "target": "T21"
+        },
+        {
+            "type": "Activator",
+            "source": "T9",
+            "target": "T22"
+        }
+    ]
+}

@@ -1,0 +1,216 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "glutathione disulfide",
+            "Name": "glutathionedisulfide"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "NF-kappaB",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "dinucleotides",
+            "Name": "dinucleotides"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "NF-kappaB",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "interleukin-6",
+            "Name": "interleukin6"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "IL-6",
+            "Name": "il6"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "tumor necrosis factor-alpha",
+            "Name": "tumornecrosisfactoralpha"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "TNF-alpha",
+            "Name": "tnfalpha"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "glutathione disulfide",
+            "Name": "glutathionedisulfide"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "GSH",
+            "Name": "gsh"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "GSSG",
+            "Name": "gssg"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "GSH",
+            "Name": "gsh"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "GSSG",
+            "Name": "gssg"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "BCNU",
+            "Name": "bcnu"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "glutathione reductase",
+            "Name": "glutathionereductase"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "GR",
+            "Name": "gr"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "GSH",
+            "Name": "gsh"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "GSSG",
+            "Name": "gssg"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "NF-kappaB",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "IL-6",
+            "Name": "il6"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "TNF-alpha",
+            "Name": "tnfalpha"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "GSSG",
+            "Name": "gssg"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "GSSG",
+            "Name": "gssg"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "NF-kappaB",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "GSSG",
+            "Name": "gssg"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T16",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T28"
+        },
+        {
+            "type": "Activator",
+            "source": "T14",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T14",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T14",
+            "target": "T19"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T20"
+        }
+    ]
+}

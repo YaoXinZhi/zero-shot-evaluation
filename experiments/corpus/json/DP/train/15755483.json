@@ -1,0 +1,119 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "aspirin",
+            "Name": "aspirin"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "3-hydroxy-3-methylglutaryl-coenzyme A",
+            "Name": "3hydroxy3methylglutarylcoenzymea"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase",
+            "Name": "3hydroxy3methylglutarylcoenzymeahmgcoareductase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "HMG-CoA",
+            "Name": "hmgcoa"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "clopidogrel",
+            "Name": "clopidogrel"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "ticlopidine",
+            "Name": "ticlopidine"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "atorvastatine",
+            "Name": "atorvastatine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "clopidogrel",
+            "Name": "clopidogrel"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "ticlopidine",
+            "Name": "ticlopidine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "atorvastatine",
+            "Name": "atorvastatine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "NADH",
+            "Name": "nadh"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "acetylsalicylic acid",
+            "Name": "acetylsalicylicacid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "clopidogrel",
+            "Name": "clopidogrel"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "ticlopidine",
+            "Name": "ticlopidine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "HMG-CoA",
+            "Name": "hmgcoa"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "HMG-CoA reductase",
+            "Name": "hmgcoareductase"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "atorvastatine",
+            "Name": "atorvastatine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T16"
+        }
+    ]
+}

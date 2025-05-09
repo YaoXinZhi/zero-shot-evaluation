@@ -1,0 +1,55 @@
+T9	CHEMICAL 3 17	angiotensin II
+N1	Name Annotation:T9 Referent:angiotensinii
+T22	GENE 3 30	angiotensin II AT1 receptor
+N2	Name Annotation:T22 Referent:angiotensiniiat1receptor
+T10	CHEMICAL 43 54	telmisartan
+N3	Name Annotation:T10 Referent:telmisartan
+T11	CHEMICAL 64 71	glucose
+N4	Name Annotation:T11 Referent:glucose
+T23	GENE 83 88	GLUT4
+N5	Name Annotation:T23 Referent:glut4
+T4	CHEMICAL 172 186	angiotensin II
+N6	Name Annotation:T4 Referent:angiotensinii
+T13	GENE 172 199	angiotensin II AT1 receptor
+N7	Name Annotation:T13 Referent:angiotensiniiat1receptor
+T20	GENE 217 224	insulin
+N8	Name Annotation:T20 Referent:insulin
+T1	CHEMICAL 278 289	telmisartan
+N9	Name Annotation:T1 Referent:telmisartan
+T12	GENE 293 300	insulin
+N10	Name Annotation:T12 Referent:insulin
+T2	CHEMICAL 390 401	telmisartan
+N11	Name Annotation:T2 Referent:telmisartan
+T3	CHEMICAL 553 564	telmisartan
+N12	Name Annotation:T3 Referent:telmisartan
+T14	GENE 617 626	PPARgamma
+N13	Name Annotation:T14 Referent:ppargamma
+T15	GENE 648 651	aP2
+N14	Name Annotation:T15 Referent:ap2
+T16	GENE 656 667	adiponectin
+N15	Name Annotation:T16 Referent:adiponectin
+T5	CHEMICAL 682 693	telmisartan
+N16	Name Annotation:T5 Referent:telmisartan
+T6	CHEMICAL 705 726	11beta-hydroxysteroid
+N17	Name Annotation:T6 Referent:11betahydroxysteroid
+T17	GENE 705 747	11beta-hydroxysteroid dehydrogenase type 1
+N18	Name Annotation:T17 Referent:11betahydroxysteroiddehydrogenasetype1
+T7	CHEMICAL 838 849	telmisartan
+N19	Name Annotation:T7 Referent:telmisartan
+T18	GENE 860 865	GLUT4
+N20	Name Annotation:T18 Referent:glut4
+T8	CHEMICAL 889 904	2-deoxy glucose
+N21	Name Annotation:T8 Referent:2deoxyglucose
+T19	GENE 930 937	insulin
+N22	Name Annotation:T19 Referent:insulin
+T21	GENE 1016 1023	insulin
+N23	Name Annotation:T21 Referent:insulin
+R1	ANTAGONIST Arg1:T10 Arg2:T22
+R2	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T23
+R3	SUBSTRATE Arg1:T11 Arg2:T23
+R4	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T14
+R5	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T15
+R6	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T16
+R7	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T17
+R8	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T18
+R9	SUBSTRATE Arg1:T8 Arg2:T18

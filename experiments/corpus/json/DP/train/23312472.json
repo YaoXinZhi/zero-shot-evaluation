@@ -1,0 +1,92 @@
+{
+    "entities": [
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "2,4-diaminopyrimidine-5-carboxamide",
+            "Name": "24diaminopyrimidine5carboxamide"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Sky",
+            "Name": "sky"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "2,4-diaminopyrimidine-5-carboxamide",
+            "Name": "24diaminopyrimidine5carboxamide"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "Sky",
+            "Name": "sky"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "2-Aminophenethyl",
+            "Name": "2aminophenethyl"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "2-aminobenzyl",
+            "Name": "2aminobenzyl"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T6"
+        }
+    ]
+}

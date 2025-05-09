@@ -1,0 +1,106 @@
+T19	CHEMICAL 0 8	Mazindol
+N1	Name Annotation:T19 Referent:mazindol
+T20	CHEMICAL 50 57	cocaine
+N2	Name Annotation:T20 Referent:cocaine
+T35	GENE-N 50 70	cocaine binding site
+N3	Name Annotation:T35 Referent:cocainebindingsite
+T21	CHEMICAL 78 86	dopamine
+N4	Name Annotation:T21 Referent:dopamine
+T36	GENE-Y 78 98	dopamine transporter
+N5	Name Annotation:T36 Referent:dopaminetransporter
+T1	CHEMICAL 112 120	mazindol
+N6	Name Annotation:T1 Referent:mazindol
+T7	CHEMICAL 129 141	homomazindol
+N7	Name Annotation:T7 Referent:homomazindol
+T2	CHEMICAL 239 243	aryl
+N8	Name Annotation:T2 Referent:aryl
+T3	CHEMICAL 258 263	benzo
+N9	Name Annotation:T3 Referent:benzo
+T4	CHEMICAL 286 293	methoxy
+N10	Name Annotation:T4 Referent:methoxy
+T5	CHEMICAL 299 304	alkyl
+N11	Name Annotation:T5 Referent:alkyl
+T6	CHEMICAL 326 334	hydroxyl
+N12	Name Annotation:T6 Referent:hydroxyl
+T8	CHEMICAL 395 403	dopamine
+N13	Name Annotation:T8 Referent:dopamine
+T22	GENE-N 395 415	dopamine transporter
+N14	Name Annotation:T22 Referent:dopaminetransporter
+T23	GENE-N 417 420	DAT
+N15	Name Annotation:T23 Referent:dat
+T9	CHEMICAL 561 563	DA
+N16	Name Annotation:T9 Referent:da
+T10	CHEMICAL 565 569	5-HT
+N17	Name Annotation:T10 Referent:5ht
+T11	CHEMICAL 575 577	NE
+N18	Name Annotation:T11 Referent:ne
+T12	CHEMICAL 601 616	[(125)I] RTI-55
+N19	Name Annotation:T12 Referent:125irti55
+T24	GENE-Y 624 628	hDAT
+N20	Name Annotation:T24 Referent:hdat
+T25	GENE-Y 634 639	hSERT
+N21	Name Annotation:T25 Referent:hsert
+T26	GENE-Y 649 653	hNET
+N22	Name Annotation:T26 Referent:hnet
+T13	CHEMICAL 661 670	Mazindane
+N23	Name Annotation:T13 Referent:mazindane
+T14	CHEMICAL 715 718	5-H
+N24	Name Annotation:T14 Referent:5h
+T15	CHEMICAL 723 727	5-OH
+N25	Name Annotation:T15 Referent:5oh
+T16	CHEMICAL 732 740	mazindol
+N26	Name Annotation:T16 Referent:mazindol
+T27	GENE-Y 775 779	hDAT
+N27	Name Annotation:T27 Referent:hdat
+T17	CHEMICAL 791 807	4',7,8-trichloro
+N28	Name Annotation:T17 Referent:478trichloro
+T18	CHEMICAL 825 833	mazindol
+N29	Name Annotation:T18 Referent:mazindol
+T28	GENE-Y 883 887	hDAT
+N30	Name Annotation:T28 Referent:hdat
+T29	GENE-Y 884 887	DAT
+N31	Name Annotation:T29 Referent:dat
+T30	GENE-Y 914 918	SERT
+N32	Name Annotation:T30 Referent:sert
+T31	GENE-Y 919 922	DAT
+N33	Name Annotation:T31 Referent:dat
+T32	GENE-Y 934 937	NET
+N34	Name Annotation:T32 Referent:net
+T33	GENE-Y 938 941	DAT
+N35	Name Annotation:T33 Referent:dat
+T34	GENE-Y 1051 1054	DAT
+N36	Name Annotation:T34 Referent:dat
+R1	INHIBITOR Arg1:T19 Arg2:T35
+R2	INHIBITOR Arg1:T19 Arg2:T36
+R3	DIRECT-REGULATOR Arg1:T1 Arg2:T22
+R4	DIRECT-REGULATOR Arg1:T7 Arg2:T22
+R5	DIRECT-REGULATOR Arg1:T2 Arg2:T22
+R6	DIRECT-REGULATOR Arg1:T3 Arg2:T22
+R7	DIRECT-REGULATOR Arg1:T4 Arg2:T22
+R8	DIRECT-REGULATOR Arg1:T5 Arg2:T22
+R9	DIRECT-REGULATOR Arg1:T6 Arg2:T22
+R10	DIRECT-REGULATOR Arg1:T1 Arg2:T23
+R11	DIRECT-REGULATOR Arg1:T7 Arg2:T23
+R12	DIRECT-REGULATOR Arg1:T2 Arg2:T23
+R13	DIRECT-REGULATOR Arg1:T3 Arg2:T23
+R14	DIRECT-REGULATOR Arg1:T4 Arg2:T23
+R15	DIRECT-REGULATOR Arg1:T5 Arg2:T23
+R16	DIRECT-REGULATOR Arg1:T6 Arg2:T23
+R17	DIRECT-REGULATOR Arg1:T12 Arg2:T24
+R18	DIRECT-REGULATOR Arg1:T12 Arg2:T25
+R19	DIRECT-REGULATOR Arg1:T12 Arg2:T26
+R20	SUBSTRATE Arg1:T9 Arg2:T24
+R21	SUBSTRATE Arg1:T10 Arg2:T25
+R22	SUBSTRATE Arg1:T11 Arg2:T26
+R23	DIRECT-REGULATOR Arg1:T17 Arg2:T28
+R24	DIRECT-REGULATOR Arg1:T17 Arg2:T29
+R25	DIRECT-REGULATOR Arg1:T17 Arg2:T30
+R26	DIRECT-REGULATOR Arg1:T17 Arg2:T31
+R27	DIRECT-REGULATOR Arg1:T17 Arg2:T33
+R28	DIRECT-REGULATOR Arg1:T17 Arg2:T32
+R29	DIRECT-REGULATOR Arg1:T18 Arg2:T28
+R30	DIRECT-REGULATOR Arg1:T18 Arg2:T29
+R31	DIRECT-REGULATOR Arg1:T18 Arg2:T30
+R32	DIRECT-REGULATOR Arg1:T18 Arg2:T31
+R33	DIRECT-REGULATOR Arg1:T18 Arg2:T32
+R34	DIRECT-REGULATOR Arg1:T18 Arg2:T33

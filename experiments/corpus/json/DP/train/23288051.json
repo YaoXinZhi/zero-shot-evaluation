@@ -1,0 +1,135 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "methyl",
+            "Name": "methyl"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "ethylmethanesulfonate",
+            "Name": "ethylmethanesulfonate"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "methylnitrosourea",
+            "Name": "methylnitrosourea"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "MNU",
+            "Name": "mnu"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "ethylnitrosourea",
+            "Name": "ethylnitrosourea"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "MNU",
+            "Name": "mnu"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "MNU",
+            "Name": "mnu"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "MNU",
+            "Name": "mnu"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "hypoxanthine",
+            "Name": "hypoxanthine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "hypoxanthine (guanine) phosphoribosyltransferase",
+            "Name": "hypoxanthineguaninephosphoribosyltransferase"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "guanine",
+            "Name": "guanine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "O(6)-methylguanine",
+            "Name": "o6methylguanine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "O(6)MeG",
+            "Name": "o6meg"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "O(6)MeG",
+            "Name": "o6meg"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "O(6)MeG-DNA methyltransferase",
+            "Name": "o6megdnamethyltransferase"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "MGMT",
+            "Name": "mgmt"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MGMT",
+            "Name": "mgmt"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "MNU",
+            "Name": "mnu"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T15"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T16"
+        }
+    ]
+}

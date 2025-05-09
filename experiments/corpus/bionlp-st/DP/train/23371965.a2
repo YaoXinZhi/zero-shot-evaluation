@@ -1,0 +1,104 @@
+T40	GENE-Y 20 32	human CYP2E1
+N1	Name Annotation:T40 Referent:humancyp2e1
+T25	CHEMICAL 36 60	phenethyl isothiocyanate
+N2	Name Annotation:T25 Referent:phenethylisothiocyanate
+T1	CHEMICAL 140 163	Phenethylisothiocyanate
+N3	Name Annotation:T1 Referent:phenethylisothiocyanate
+T11	CHEMICAL 165 170	PEITC
+N4	Name Annotation:T11 Referent:peitc
+T16	CHEMICAL 195 209	isothiocyanate
+N5	Name Annotation:T16 Referent:isothiocyanate
+T32	GENE-N 309 324	cytochrome P450
+N6	Name Annotation:T32 Referent:cytochromep450
+T33	GENE-N 320 324	P450
+N7	Name Annotation:T33 Referent:p450
+T34	GENE-Y 349 355	CYP2E1
+N8	Name Annotation:T34 Referent:cyp2e1
+T12	CHEMICAL 412 417	PEITC
+N9	Name Annotation:T12 Referent:peitc
+T35	GENE-N 480 485	P450s
+N10	Name Annotation:T35 Referent:p450s
+T36	GENE-Y 551 563	human CYP2E1
+N11	Name Annotation:T36 Referent:humancyp2e1
+T13	CHEMICAL 567 572	PEITC
+N12	Name Annotation:T13 Referent:peitc
+T14	CHEMICAL 658 663	PEITC
+N13	Name Annotation:T14 Referent:peitc
+T15	CHEMICAL 665 670	PEITC
+N14	Name Annotation:T15 Referent:peitc
+T37	GENE-Y 695 701	CYP2E1
+N15	Name Annotation:T37 Referent:cyp2e1
+T17	CHEMICAL 790 801	glutathione
+N16	Name Annotation:T17 Referent:glutathione
+T18	CHEMICAL 803 806	GSH
+N17	Name Annotation:T18 Referent:gsh
+T38	GENE-Y 865 871	CYP2E1
+N18	Name Annotation:T38 Referent:cyp2e1
+T19	CHEMICAL 875 880	PEITC
+N19	Name Annotation:T19 Referent:peitc
+T20	CHEMICAL 997 1000	GSH
+N20	Name Annotation:T20 Referent:gsh
+T21	CHEMICAL 1012 1032	phenethyl isocyanate
+N21	Name Annotation:T21 Referent:phenethylisocyanate
+T22	CHEMICAL 1034 1037	PIC
+N22	Name Annotation:T22 Referent:pic
+T23	CHEMICAL 1043 1057	phenethylamine
+N23	Name Annotation:T23 Referent:phenethylamine
+T39	GENE-Y 1097 1103	CYP2E1
+N24	Name Annotation:T39 Referent:cyp2e1
+T24	CHEMICAL 1129 1132	PIC
+N25	Name Annotation:T24 Referent:pic
+T26	GENE-N 1170 1174	P450
+N26	Name Annotation:T26 Referent:p450
+T2	CHEMICAL 1204 1209	PEITC
+N27	Name Annotation:T2 Referent:peitc
+T3	CHEMICAL 1225 1228	PIC
+N28	Name Annotation:T3 Referent:pic
+T27	GENE-Y 1249 1255	CYP2E1
+N29	Name Annotation:T27 Referent:cyp2e1
+T28	GENE-Y 1383 1389	CYP2E1
+N30	Name Annotation:T28 Referent:cyp2e1
+T4	CHEMICAL 1427 1433	sulfur
+N31	Name Annotation:T4 Referent:sulfur
+T5	CHEMICAL 1475 1480	PEITC
+N32	Name Annotation:T5 Referent:peitc
+T29	GENE-Y 1516 1522	CYP2E1
+N33	Name Annotation:T29 Referent:cyp2e1
+T6	CHEMICAL 1564 1569	PEITC
+N34	Name Annotation:T6 Referent:peitc
+T30	GENE-Y 1573 1579	CYP2E1
+N35	Name Annotation:T30 Referent:cyp2e1
+T31	GENE-Y 1616 1622	CYP2E1
+N36	Name Annotation:T31 Referent:cyp2e1
+T7	CHEMICAL 1684 1690	sulfur
+N37	Name Annotation:T7 Referent:sulfur
+T8	CHEMICAL 1721 1730	parathion
+N38	Name Annotation:T8 Referent:parathion
+T9	CHEMICAL 1804 1807	Cys
+N39	Name Annotation:T9 Referent:cys
+T10	CHEMICAL 1843 1846	PIC
+N40	Name Annotation:T10 Referent:pic
+R1	INHIBITOR Arg1:T25 Arg2:T40
+R2	INHIBITOR Arg1:T1 Arg2:T32
+R3	INHIBITOR Arg1:T11 Arg2:T32
+R4	INHIBITOR Arg1:T16 Arg2:T32
+R5	INHIBITOR Arg1:T1 Arg2:T33
+R6	INHIBITOR Arg1:T11 Arg2:T33
+R7	INHIBITOR Arg1:T16 Arg2:T33
+R8	INHIBITOR Arg1:T1 Arg2:T34
+R9	INHIBITOR Arg1:T11 Arg2:T34
+R10	INHIBITOR Arg1:T16 Arg2:T34
+R11	INHIBITOR Arg1:T12 Arg2:T35
+R12	INHIBITOR Arg1:T13 Arg2:T36
+R13	INHIBITOR Arg1:T15 Arg2:T37
+R14	INHIBITOR Arg1:T19 Arg2:T38
+R15	PRODUCT-OF Arg1:T24 Arg2:T39
+R16	SUBSTRATE Arg1:T23 Arg2:T39
+R17	SUBSTRATE Arg1:T2 Arg2:T26
+R18	DIRECT-REGULATOR Arg1:T3 Arg2:T27
+R19	INHIBITOR Arg1:T5 Arg2:T29
+R20	INHIBITOR Arg1:T4 Arg2:T29
+R21	SUBSTRATE Arg1:T6 Arg2:T30
+R22	INHIBITOR Arg1:T6 Arg2:T31
+R23	INHIBITOR Arg1:T7 Arg2:T31
+R24	INHIBITOR Arg1:T8 Arg2:T31

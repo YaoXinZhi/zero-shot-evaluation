@@ -1,0 +1,96 @@
+T18	CHEMICAL 0 7	Ethanol
+N1	Name Annotation:T18 Referent:ethanol
+T19	CHEMICAL 17 26	glutamate
+N2	Name Annotation:T19 Referent:glutamate
+T20	CHEMICAL 59 63	NMDA
+N3	Name Annotation:T20 Referent:nmda
+T34	GENE-N 59 72	NMDA receptor
+N4	Name Annotation:T34 Referent:nmdareceptor
+T15	CHEMICAL 91 102	L-glutamate
+N5	Name Annotation:T15 Referent:lglutamate
+T2	CHEMICAL 103 110	glycine
+N6	Name Annotation:T2 Referent:glycine
+T11	CHEMICAL 145 152	ethanol
+N7	Name Annotation:T11 Referent:ethanol
+T1	CHEMICAL 214 218	NMDA
+N8	Name Annotation:T1 Referent:nmda
+T21	GENE-N 214 228	NMDA receptors
+N9	Name Annotation:T21 Referent:nmdareceptors
+T22	GENE-Y 243 246	NR1
+N10	Name Annotation:T22 Referent:nr1
+T23	GENE-Y 247 251	NR2A
+N11	Name Annotation:T23 Referent:nr2a
+T24	GENE-Y 253 256	NR1
+N12	Name Annotation:T24 Referent:nr1
+T25	GENE-Y 257 261	NR2B
+N13	Name Annotation:T25 Referent:nr2b
+T26	GENE-Y 267 270	NR1
+N14	Name Annotation:T26 Referent:nr1
+T27	GENE-Y 271 275	NR2C
+N15	Name Annotation:T27 Referent:nr2c
+T3	CHEMICAL 349 356	ethanol
+N16	Name Annotation:T3 Referent:ethanol
+T4	CHEMICAL 396 402	Ca(2+)
+N17	Name Annotation:T4 Referent:ca2
+T5	CHEMICAL 418 424	Ca(2+)
+N18	Name Annotation:T5 Referent:ca2
+T6	CHEMICAL 436 442	Ba(2+)
+N19	Name Annotation:T6 Referent:ba2
+T7	CHEMICAL 454 460	Mg(2+)
+N20	Name Annotation:T7 Referent:mg2
+T28	GENE-Y 477 480	NR1
+N21	Name Annotation:T28 Referent:nr1
+T29	GENE-Y 481 485	NR2C
+N22	Name Annotation:T29 Referent:nr2c
+T8	CHEMICAL 527 534	ethanol
+N23	Name Annotation:T8 Referent:ethanol
+T9	CHEMICAL 585 591	Ca(2+)
+N24	Name Annotation:T9 Referent:ca2
+T10	CHEMICAL 603 609	Ba(2+)
+N25	Name Annotation:T10 Referent:ba2
+T30	GENE-Y 702 705	NR1
+N26	Name Annotation:T30 Referent:nr1
+T31	GENE-Y 706 710	NR2A
+N27	Name Annotation:T31 Referent:nr2a
+T32	GENE-N 711 716	N595Q
+N28	Name Annotation:T32 Referent:n595q
+T12	CHEMICAL 737 743	Mg(2+)
+N29	Name Annotation:T12 Referent:mg2
+T13	CHEMICAL 813 820	ethanol
+N30	Name Annotation:T13 Referent:ethanol
+T14	CHEMICAL 842 846	Mg2+
+N31	Name Annotation:T14 Referent:mg2
+T16	CHEMICAL 904 908	NMDA
+N32	Name Annotation:T16 Referent:nmda
+T33	GENE-N 904 917	NMDA receptor
+N33	Name Annotation:T33 Referent:nmdareceptor
+T17	CHEMICAL 967 974	ethanol
+N34	Name Annotation:T17 Referent:ethanol
+R1	INHIBITOR Arg1:T8 Arg2:T29
+R2	INHIBITOR Arg1:T8 Arg2:T28
+R3	INHIBITOR Arg1:T18 Arg2:T34
+R4	ACTIVATOR Arg1:T19 Arg2:T34
+R5	INHIBITOR Arg1:T11 Arg2:T21
+R6	INHIBITOR Arg1:T11 Arg2:T22
+R7	INHIBITOR Arg1:T11 Arg2:T23
+R8	INHIBITOR Arg1:T11 Arg2:T24
+R9	INHIBITOR Arg1:T11 Arg2:T25
+R10	INHIBITOR Arg1:T11 Arg2:T26
+R11	INHIBITOR Arg1:T11 Arg2:T27
+R12	ACTIVATOR Arg1:T15 Arg2:T21
+R13	ACTIVATOR Arg1:T2 Arg2:T21
+R14	ACTIVATOR Arg1:T15 Arg2:T22
+R15	ACTIVATOR Arg1:T2 Arg2:T22
+R16	ACTIVATOR Arg1:T15 Arg2:T23
+R17	ACTIVATOR Arg1:T2 Arg2:T23
+R18	ACTIVATOR Arg1:T15 Arg2:T24
+R19	ACTIVATOR Arg1:T2 Arg2:T24
+R20	ACTIVATOR Arg1:T15 Arg2:T25
+R21	ACTIVATOR Arg1:T2 Arg2:T25
+R22	ACTIVATOR Arg1:T15 Arg2:T26
+R23	ACTIVATOR Arg1:T15 Arg2:T27
+R24	ACTIVATOR Arg1:T2 Arg2:T26
+R25	ACTIVATOR Arg1:T2 Arg2:T27
+R26	INHIBITOR Arg1:T13 Arg2:T30
+R27	INHIBITOR Arg1:T13 Arg2:T31
+R28	INHIBITOR Arg1:T13 Arg2:T32

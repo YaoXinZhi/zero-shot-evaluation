@@ -1,0 +1,157 @@
+{
+    "entities": [
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "1,3,4-Oxadiazol-2-ones",
+            "Name": "134oxadiazol2ones"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "fatty-acid amide",
+            "Name": "fattyacidamide"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "fatty-acid amide hydrolase",
+            "Name": "fattyacidamidehydrolase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "monoacylglycerol",
+            "Name": "monoacylglycerol"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "monoacylglycerol lipase",
+            "Name": "monoacylglycerollipase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "fatty acid amide",
+            "Name": "fattyacidamide"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "fatty acid amide hydrolase",
+            "Name": "fattyacidamidehydrolase"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "FAAH",
+            "Name": "faah"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "monoacylglycerol",
+            "Name": "monoacylglycerol"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "monoacylglycerol lipase",
+            "Name": "monoacylglycerollipase"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "MAGL",
+            "Name": "magl"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "1,3,4-oxadiazol-2-ones",
+            "Name": "134oxadiazol2ones"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "FAAH",
+            "Name": "faah"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "MAGL",
+            "Name": "magl"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "FAAH",
+            "Name": "faah"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "MAGL",
+            "Name": "magl"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "MAGL",
+            "Name": "magl"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "FAAH",
+            "Name": "faah"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "FAAH",
+            "Name": "faah"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MAGL",
+            "Name": "magl"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        }
+    ]
+}

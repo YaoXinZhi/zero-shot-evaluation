@@ -1,0 +1,200 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "methylphenidate",
+            "Name": "methylphenidate"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "Dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "Dopamine transporter",
+            "Name": "dopaminetransporter"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Methylphenidate",
+            "Name": "methylphenidate"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "dopamine and norepinephrine transporters",
+            "Name": "dopamineandnorepinephrinetransporters"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "methylphenidate",
+            "Name": "methylphenidate"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "cocaine",
+            "Name": "cocaine"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "cocaine",
+            "Name": "cocaine"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "methylphenidate",
+            "Name": "methylphenidate"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Methylphenidate",
+            "Name": "methylphenidate"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "methylphenidate",
+            "Name": "methylphenidate"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "methylphenidate",
+            "Name": "methylphenidate"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "methylphenidate",
+            "Name": "methylphenidate"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "methylphenidate",
+            "Name": "methylphenidate"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "cocaine",
+            "Name": "cocaine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T25"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T19"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T2",
+            "type": "Gene",
+            "name": "cyclooxygenase (COX)-2",
+            "Name": "cyclooxygenasecox2"
+        },
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "etoricoxib",
+            "Name": "etoricoxib"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T4"
+        }
+    ]
+}

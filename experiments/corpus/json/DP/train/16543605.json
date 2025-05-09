@@ -1,0 +1,207 @@
+{
+    "entities": [
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "CYP51",
+            "Name": "cyp51"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "cytochrome P450",
+            "Name": "cytochromep450"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "CYP51",
+            "Name": "cyp51"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "sterol",
+            "Name": "sterol"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "methyl",
+            "Name": "methyl"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "lanosterol",
+            "Name": "lanosterol"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "obtusifoliol",
+            "Name": "obtusifoliol"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "Azoles",
+            "Name": "azoles"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "CYP51",
+            "Name": "cyp51"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "sterol",
+            "Name": "sterol"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "sterol",
+            "Name": "sterol"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "CYP51",
+            "Name": "cyp51"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "lanosterol",
+            "Name": "lanosterol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "azoles",
+            "Name": "azoles"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "CYP51",
+            "Name": "cyp51"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "econazole",
+            "Name": "econazole"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ketoconazole",
+            "Name": "ketoconazole"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "itraconazole",
+            "Name": "itraconazole"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "fluconazole",
+            "Name": "fluconazole"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "voriconazole",
+            "Name": "voriconazole"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "econazole",
+            "Name": "econazole"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "ketoconazole",
+            "Name": "ketoconazole"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Itraconazole",
+            "Name": "itraconazole"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "voriconazole",
+            "Name": "voriconazole"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "fluconazole",
+            "Name": "fluconazole"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T17",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T18",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T20"
+        },
+        {
+            "type": "Substrate",
+            "source": "T13",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T13",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T15",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T15",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T16",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T16",
+            "target": "T23"
+        }
+    ]
+}

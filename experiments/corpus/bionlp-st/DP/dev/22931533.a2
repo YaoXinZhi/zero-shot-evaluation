@@ -1,0 +1,40 @@
+T15	GENE 26 41	opioid receptor
+N1	Name Annotation:T15 Referent:opioidreceptor
+T1	CHEMICAL 97 107	Morphinans
+N2	Name Annotation:T1 Referent:morphinans
+T2	CHEMICAL 293 304	Galantamine
+N3	Name Annotation:T2 Referent:galantamine
+T8	GENE 334 354	acetylcholinesterase
+N4	Name Annotation:T8 Referent:acetylcholinesterase
+T9	GENE 356 360	AChE
+N5	Name Annotation:T9 Referent:ache
+T10	GENE 410 443	nicotinic acetylcholine receptors
+N6	Name Annotation:T10 Referent:nicotinicacetylcholinereceptors
+T3	CHEMICAL 420 433	acetylcholine
+N7	Name Annotation:T3 Referent:acetylcholine
+T11	GENE 445 450	nAChR
+N8	Name Annotation:T11 Referent:nachr
+T4	CHEMICAL 505 514	morphinan
+N9	Name Annotation:T4 Referent:morphinan
+T5	CHEMICAL 563 570	codeine
+N10	Name Annotation:T5 Referent:codeine
+T6	CHEMICAL 575 584	eseroline
+N11	Name Annotation:T6 Referent:eseroline
+T7	CHEMICAL 591 602	galantamine
+N12	Name Annotation:T7 Referent:galantamine
+T12	GENE 613 618	nAChR
+N13	Name Annotation:T12 Referent:nachr
+T13	GENE 665 669	AChE
+N14	Name Annotation:T13 Referent:ache
+T14	GENE 723 728	nAChR
+N15	Name Annotation:T14 Referent:nachr
+R1	INHIBITOR Arg1:T2 Arg2:T8
+R2	INHIBITOR Arg1:T2 Arg2:T9
+R3	DIRECT-REGULATOR Arg1:T2 Arg2:T10
+R4	DIRECT-REGULATOR Arg1:T2 Arg2:T11
+R5	DIRECT-REGULATOR Arg1:T5 Arg2:T12
+R6	DIRECT-REGULATOR Arg1:T6 Arg2:T12
+R7	DIRECT-REGULATOR Arg1:T7 Arg2:T12
+R8	DIRECT-REGULATOR Arg1:T5 Arg2:T13
+R9	DIRECT-REGULATOR Arg1:T6 Arg2:T13
+R10	DIRECT-REGULATOR Arg1:T7 Arg2:T13

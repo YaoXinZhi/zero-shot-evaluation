@@ -1,0 +1,119 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "N-acetylcysteine",
+            "Name": "nacetylcysteine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "NAC",
+            "Name": "nac"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "c-jun N-terminal kinase",
+            "Name": "cjunnterminalkinase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "JNK",
+            "Name": "jnk"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "SP600125",
+            "Name": "sp600125"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "p21",
+            "Name": "p21"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "CIP1",
+            "Name": "cip1"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "WAF1",
+            "Name": "waf1"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "JNK2",
+            "Name": "jnk2"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "p27",
+            "Name": "p27"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "p53",
+            "Name": "p53"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "cyclin E",
+            "Name": "cycline"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "interleukin (IL)-8",
+            "Name": "interleukinil8"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "IL-8",
+            "Name": "il8"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "JNK",
+            "Name": "jnk"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T9"
+        }
+    ]
+}

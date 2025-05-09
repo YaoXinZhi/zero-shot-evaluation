@@ -1,0 +1,81 @@
+T19	CHEMICAL 0 12	Paeoniflorin
+N1	Name Annotation:T19 Referent:paeoniflorin
+T33	GENE-Y 122 144	NF-E2-related factor 2
+N2	Name Annotation:T33 Referent:nfe2relatedfactor2
+T20	CHEMICAL 145 149	heme
+N3	Name Annotation:T20 Referent:heme
+T34	GENE-Y 145 161	heme oxygenase-1
+N4	Name Annotation:T34 Referent:hemeoxygenase1
+T7	CHEMICAL 343 355	Paeoniflorin
+N5	Name Annotation:T7 Referent:paeoniflorin
+T8	CHEMICAL 500 512	Paeoniflorin
+N6	Name Annotation:T8 Referent:paeoniflorin
+T9	CHEMICAL 648 660	Paeoniflorin
+N7	Name Annotation:T9 Referent:paeoniflorin
+T10	CHEMICAL 835 847	Paeoniflorin
+N8	Name Annotation:T10 Referent:paeoniflorin
+T11	CHEMICAL 910 916	oxygen
+N9	Name Annotation:T11 Referent:oxygen
+T12	CHEMICAL 945 960	malondialdehyde
+N10	Name Annotation:T12 Referent:malondialdehyde
+T13	CHEMICAL 962 965	MDA
+N11	Name Annotation:T13 Referent:mda
+T14	CHEMICAL 971 978	lactate
+N12	Name Annotation:T14 Referent:lactate
+T29	GENE-N 971 992	lactate dehydrogenase
+N13	Name Annotation:T29 Referent:lactatedehydrogenase
+T30	GENE-N 994 997	LDH
+N14	Name Annotation:T30 Referent:ldh
+T15	CHEMICAL 1064 1075	glutathione
+N15	Name Annotation:T15 Referent:glutathione
+T16	CHEMICAL 1077 1080	GSH
+N16	Name Annotation:T16 Referent:gsh
+T17	CHEMICAL 1086 1096	superoxide
+N17	Name Annotation:T17 Referent:superoxide
+T31	GENE-N 1086 1106	superoxide dismutase
+N18	Name Annotation:T31 Referent:superoxidedismutase
+T32	GENE-N 1108 1111	SOD
+N19	Name Annotation:T32 Referent:sod
+T18	CHEMICAL 1162 1174	Paeoniflorin
+N20	Name Annotation:T18 Referent:paeoniflorin
+T21	GENE-Y 1197 1201	HO-1
+N21	Name Annotation:T21 Referent:ho1
+T1	CHEMICAL 1224 1236	Paeoniflorin
+N22	Name Annotation:T1 Referent:paeoniflorin
+T22	GENE-Y 1275 1318	nuclear factor erythroid 2 related factor-2
+N23	Name Annotation:T22 Referent:nuclearfactorerythroid2relatedfactor2
+T23	GENE-Y 1320 1325	Nrf-2
+N24	Name Annotation:T23 Referent:nrf2
+T2	CHEMICAL 1332 1344	Paeoniflorin
+N25	Name Annotation:T2 Referent:paeoniflorin
+T24	GENE-Y 1353 1357	HO-1
+N26	Name Annotation:T24 Referent:ho1
+T25	GENE-Y 1386 1390	Nrf2
+N27	Name Annotation:T25 Referent:nrf2
+T26	GENE-Y 1425 1429	HO-1
+N28	Name Annotation:T26 Referent:ho1
+T3	CHEMICAL 1435 1457	zinc protoporphyrin IX
+N29	Name Annotation:T3 Referent:zincprotoporphyrinix
+T4	CHEMICAL 1459 1463	ZNPP
+N30	Name Annotation:T4 Referent:znpp
+T5	CHEMICAL 1513 1525	Paeoniflorin
+N31	Name Annotation:T5 Referent:paeoniflorin
+T6	CHEMICAL 1606 1618	Paeoniflorin
+N32	Name Annotation:T6 Referent:paeoniflorin
+T27	GENE-Y 1689 1693	Nrf2
+N33	Name Annotation:T27 Referent:nrf2
+T28	GENE-Y 1694 1698	HO-1
+N34	Name Annotation:T28 Referent:ho1
+R1	ACTIVATOR Arg1:T19 Arg2:T33
+R2	ACTIVATOR Arg1:T19 Arg2:T34
+R3	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T29
+R4	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T30
+R5	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T31
+R6	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T32
+R7	INDIRECT-UPREGULATOR Arg1:T18 Arg2:T21
+R8	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T24
+R9	INHIBITOR Arg1:T3 Arg2:T26
+R10	INHIBITOR Arg1:T4 Arg2:T26
+R11	ACTIVATOR Arg1:T5 Arg2:T26
+R12	ACTIVATOR Arg1:T6 Arg2:T28
+R13	ACTIVATOR Arg1:T6 Arg2:T27

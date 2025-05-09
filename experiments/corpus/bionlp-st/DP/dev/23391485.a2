@@ -1,0 +1,31 @@
+T11	CHEMICAL 19 30	Bisphenol A
+N1	Name Annotation:T11 Referent:bisphenola
+T5	CHEMICAL 158 169	Bisphenol A
+N2	Name Annotation:T5 Referent:bisphenola
+T6	CHEMICAL 171 174	BPA
+N3	Name Annotation:T6 Referent:bpa
+T4	CHEMICAL 454 457	BPA
+N4	Name Annotation:T4 Referent:bpa
+T7	CHEMICAL 897 900	BPA
+N5	Name Annotation:T7 Referent:bpa
+T8	CHEMICAL 963 967	DMSO
+N6	Name Annotation:T8 Referent:dmso
+T9	CHEMICAL 995 1009	17-β-estrodiol
+N7	Name Annotation:T9 Referent:17βestrodiol
+T10	CHEMICAL 1082 1085	BPA
+N8	Name Annotation:T10 Referent:bpa
+T12	GENE 1179 1183	Oct4
+N9	Name Annotation:T12 Referent:oct4
+T13	GENE 1188 1193	Nanog
+N10	Name Annotation:T13 Referent:nanog
+T1	CHEMICAL 1215 1218	BPA
+N11	Name Annotation:T1 Referent:bpa
+T14	GENE 1256 1266	E-cadherin
+N12	Name Annotation:T14 Referent:ecadherin
+T2	CHEMICAL 1355 1358	BPA
+N13	Name Annotation:T2 Referent:bpa
+T3	CHEMICAL 1503 1506	BPA
+N14	Name Annotation:T3 Referent:bpa
+R1	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T12
+R2	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T13
+R3	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T14

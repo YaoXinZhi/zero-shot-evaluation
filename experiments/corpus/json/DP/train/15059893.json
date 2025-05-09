@@ -1,0 +1,177 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Tazarotene",
+            "Name": "tazarotene"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "Tazarotene-induced gene 1",
+            "Name": "tazaroteneinducedgene1"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Tazarotene",
+            "Name": "tazarotene"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Tazarotene-induced gene 1 (TIG1) promoter",
+            "Name": "tazaroteneinducedgene1tig1promoter"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "TIG1",
+            "Name": "tig1"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "cytosine",
+            "Name": "cytosine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "TIG1 promoter",
+            "Name": "tig1promoter"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "retinoic acid",
+            "Name": "retinoicacid"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "TIG1",
+            "Name": "tig1"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "TIG1",
+            "Name": "tig1"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "TIG1 promoter",
+            "Name": "tig1promoter"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "TIG1 promoter",
+            "Name": "tig1promoter"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "retinoid acid",
+            "Name": "retinoidacid"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "retinoid acid receptor beta2",
+            "Name": "retinoidacidreceptorbeta2"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "RARbeta2",
+            "Name": "rarbeta2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "retinoic",
+            "Name": "retinoic"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "retinoic-induced putative tumor suppressor gene",
+            "Name": "retinoicinducedputativetumorsuppressorgene"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "DNA methyltransferase",
+            "Name": "dnamethyltransferase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "5-aza-2'-deoxycytidine",
+            "Name": "5aza2deoxycytidine"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "TIG1",
+            "Name": "tig1"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "TIG1",
+            "Name": "tig1"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "all-trans-retinoic acid",
+            "Name": "alltransretinoicacid"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "all-trans-retinoic acid",
+            "Name": "alltransretinoicacid"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "TIG1 promoter",
+            "Name": "tig1promoter"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "retinoic acid",
+            "Name": "retinoicacid"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Part of",
+            "source": "T7",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T14"
+        }
+    ]
+}

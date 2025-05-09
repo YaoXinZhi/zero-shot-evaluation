@@ -1,0 +1,286 @@
+{
+    "entities": [
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "RANKL",
+            "Name": "rankl"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "receptor activator of NF-\u03baB ligand",
+            "Name": "receptoractivatorofnf\u03babligand"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "RANKL",
+            "Name": "rankl"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Tyr",
+            "Name": "tyr"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Asp",
+            "Name": "asp"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Tyr",
+            "Name": "tyr"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Glu",
+            "Name": "glu"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Leu",
+            "Name": "leu"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Arg",
+            "Name": "arg"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "RANKL",
+            "Name": "rankl"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Leu",
+            "Name": "leu"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Arg",
+            "Name": "arg"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "RANK",
+            "Name": "rank"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "RANKL",
+            "Name": "rankl"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "RANKL",
+            "Name": "rankl"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "celecoxib",
+            "Name": "celecoxib"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "YR-11",
+            "Name": "yr11"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cysteine",
+            "Name": "cysteine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "RANK",
+            "Name": "rank"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "RANKL",
+            "Name": "rankl"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "RANKL",
+            "Name": "rankl"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "TRAP",
+            "Name": "trap"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "YR-11",
+            "Name": "yr11"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "TNF-\u03b1",
+            "Name": "tnf\u03b1"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "IL-1\u03b2",
+            "Name": "il1\u03b2"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "IL-6",
+            "Name": "il6"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "YR-11",
+            "Name": "yr11"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "RANKL",
+            "Name": "rankl"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T26"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T19"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T16"
+        }
+    ]
+}

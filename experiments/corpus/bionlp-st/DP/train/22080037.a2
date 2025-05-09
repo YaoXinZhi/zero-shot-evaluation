@@ -1,0 +1,45 @@
+T6	CHEMICAL 0 7	Mercury
+N1	Name Annotation:T6 Referent:mercury
+T19	GENE-Y 34 50	cyclooxygenase-2
+N2	Name Annotation:T19 Referent:cyclooxygenase2
+T20	GENE-Y 55 86	inducible nitric oxide synthase
+N3	Name Annotation:T20 Referent:induciblenitricoxidesynthase
+T7	CHEMICAL 65 77	nitric oxide
+N4	Name Annotation:T7 Referent:nitricoxide
+T8	GENE-N 88 105	Nuclear factor-κB
+N5	Name Annotation:T8 Referent:nuclearfactorκb
+T10	GENE-N 107 112	NF-κB
+N6	Name Annotation:T10 Referent:nfκb
+T9	GENE-N 248 253	NF-κB
+N7	Name Annotation:T9 Referent:nfκb
+T11	GENE-N 322 331	cytokines
+N8	Name Annotation:T11 Referent:cytokines
+T12	GENE-Y 333 349	cyclooxygenase-2
+N9	Name Annotation:T12 Referent:cyclooxygenase2
+T13	GENE-Y 351 356	COX-2
+N10	Name Annotation:T13 Referent:cox2
+T14	GENE-Y 363 394	inducible nitric oxide synthase
+N11	Name Annotation:T14 Referent:induciblenitricoxidesynthase
+T1	CHEMICAL 373 385	nitric oxide
+N12	Name Annotation:T1 Referent:nitricoxide
+T15	GENE-Y 396 400	iNOS
+N13	Name Annotation:T15 Referent:inos
+T2	CHEMICAL 428 435	mercury
+N14	Name Annotation:T2 Referent:mercury
+T3	CHEMICAL 483 490	mercury
+N15	Name Annotation:T3 Referent:mercury
+T4	CHEMICAL 737 744	mercury
+N16	Name Annotation:T4 Referent:mercury
+T16	GENE-N 759 764	NF-κB
+N17	Name Annotation:T16 Referent:nfκb
+T17	GENE-Y 816 821	COX-2
+N18	Name Annotation:T17 Referent:cox2
+T18	GENE-Y 826 830	iNOS
+N19	Name Annotation:T18 Referent:inos
+T5	CHEMICAL 857 864	mercury
+N20	Name Annotation:T5 Referent:mercury
+R1	INDIRECT-UPREGULATOR Arg1:T6 Arg2:T19
+R2	INDIRECT-UPREGULATOR Arg1:T6 Arg2:T20
+R3	ACTIVATOR Arg1:T4 Arg2:T16
+R4	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T17
+R5	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T18

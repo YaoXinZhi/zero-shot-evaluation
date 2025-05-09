@@ -1,0 +1,214 @@
+{
+    "entities": [
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "voltage-gated calcium channel",
+            "Name": "voltagegatedcalciumchannel"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "calcium",
+            "Name": "calcium"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "NMDA receptor",
+            "Name": "nmdareceptor"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "sigma-receptor",
+            "Name": "sigmareceptor"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "thiazolidinedione",
+            "Name": "thiazolidinedione"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "glitazones",
+            "Name": "glitazones"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "mitoNEET",
+            "Name": "mitoneet"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "ladostigil",
+            "Name": "ladostigil"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "rivastigmine",
+            "Name": "rivastigmine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "monoamine oxidase-B",
+            "Name": "monoamineoxidaseb"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "rasagiline",
+            "Name": "rasagiline"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "stilbene",
+            "Name": "stilbene"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "flavonoid",
+            "Name": "flavonoid"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "resveratrol",
+            "Name": "resveratrol"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "stilbene",
+            "Name": "stilbene"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "beta-amyloid",
+            "Name": "betaamyloid"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "beta-amyloid",
+            "Name": "betaamyloid"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "stilbene",
+            "Name": "stilbene"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "MAO",
+            "Name": "mao"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "xanthine",
+            "Name": "xanthine"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "adenosine",
+            "Name": "adenosine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "adenosine A2A receptor",
+            "Name": "adenosinea2areceptor"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T21"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T9",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T18"
+        }
+    ]
+}

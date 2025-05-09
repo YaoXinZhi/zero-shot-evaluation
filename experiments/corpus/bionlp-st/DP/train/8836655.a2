@@ -1,0 +1,84 @@
+T21	CHEMICAL 0 10	Epinastine
+N1	Name Annotation:T21 Referent:epinastine
+T22	CHEMICAL 12 21	WAL 801CL
+N2	Name Annotation:T22 Referent:wal801cl
+T35	GENE-N 114 133	5-HT1-like receptor
+N3	Name Annotation:T35 Referent:5ht1likereceptor
+T12	CHEMICAL 336 346	Epinastine
+N4	Name Annotation:T12 Referent:epinastine
+T13	CHEMICAL 348 357	WAL 801CL
+N5	Name Annotation:T13 Referent:wal801cl
+T31	GENE-N 445 471	alpha-adrenergic receptors
+N6	Name Annotation:T31 Referent:alphaadrenergicreceptors
+T14	CHEMICAL 484 493	serotonin
+N7	Name Annotation:T14 Referent:serotonin
+T32	GENE-N 484 509	serotonin (5-HT) receptor
+N8	Name Annotation:T32 Referent:serotonin5htreceptor
+T15	CHEMICAL 495 499	5-HT
+N9	Name Annotation:T15 Referent:5ht
+T16	CHEMICAL 643 653	epinastine
+N10	Name Annotation:T16 Referent:epinastine
+T17	CHEMICAL 775 785	Epinastine
+N11	Name Annotation:T17 Referent:epinastine
+T33	GENE-N 980 985	5-HT1
+N12	Name Annotation:T33 Referent:5ht1
+T34	GENE-N 986 991	5-HT2
+N13	Name Annotation:T34 Referent:5ht2
+T18	CHEMICAL 1005 1017	methysergide
+N14	Name Annotation:T18 Referent:methysergide
+T19	CHEMICAL 1032 1044	methiothepin
+N15	Name Annotation:T19 Referent:methiothepin
+T20	CHEMICAL 1109 1119	epinastine
+N16	Name Annotation:T20 Referent:epinastine
+T1	CHEMICAL 1173 1184	tropisetron
+N17	Name Annotation:T1 Referent:tropisetron
+T23	GENE-N 1199 1204	5-HT3
+N18	Name Annotation:T23 Referent:5ht3
+T2	CHEMICAL 1217 1227	ketanserin
+N19	Name Annotation:T2 Referent:ketanserin
+T24	GENE-N 1243 1248	5-HT2
+N20	Name Annotation:T24 Referent:5ht2
+T3	CHEMICAL 1261 1273	thioperamide
+N21	Name Annotation:T3 Referent:thioperamide
+T4	CHEMICAL 1289 1298	histamine
+N22	Name Annotation:T4 Referent:histamine
+T25	GENE-Y 1289 1301	histamine H3
+N23	Name Annotation:T25 Referent:histamineh3
+T5	CHEMICAL 1317 1329	phentolamine
+N24	Name Annotation:T5 Referent:phentolamine
+T6	CHEMICAL 1399 1415	Chlorpheniramine
+N25	Name Annotation:T6 Referent:chlorpheniramine
+T7	CHEMICAL 1437 1446	histamine
+N26	Name Annotation:T7 Referent:histamine
+T26	GENE-Y 1437 1458	histamine H1 receptor
+N27	Name Annotation:T26 Referent:histamineh1receptor
+T8	CHEMICAL 1490 1494	5-HT
+N28	Name Annotation:T8 Referent:5ht
+T27	GENE-N 1490 1503	5-HT receptor
+N29	Name Annotation:T27 Referent:5htreceptor
+T9	CHEMICAL 1579 1589	Epinastine
+N30	Name Annotation:T9 Referent:epinastine
+T28	GENE-Y 1667 1678	substance P
+N31	Name Annotation:T28 Referent:substancep
+T10	CHEMICAL 1724 1734	epinastine
+N32	Name Annotation:T10 Referent:epinastine
+T11	CHEMICAL 1761 1765	5-HT
+N33	Name Annotation:T11 Referent:5ht
+T29	GENE-N 1788 1793	5-HT1
+N34	Name Annotation:T29 Referent:5ht1
+T30	GENE-N 1915 1934	5-HT1-like receptor
+N35	Name Annotation:T30 Referent:5ht1likereceptor
+R1	ANTAGONIST Arg1:T18 Arg2:T34
+R2	ANTAGONIST Arg1:T19 Arg2:T34
+R3	ANTAGONIST Arg1:T18 Arg2:T33
+R4	ANTAGONIST Arg1:T19 Arg2:T33
+R5	ANTAGONIST Arg1:T1 Arg2:T23
+R6	ANTAGONIST Arg1:T2 Arg2:T24
+R7	ANTAGONIST Arg1:T3 Arg2:T25
+R8	ANTAGONIST Arg1:T6 Arg2:T26
+R9	DIRECT-REGULATOR Arg1:T12 Arg2:T31
+R10	DIRECT-REGULATOR Arg1:T13 Arg2:T31
+R11	DIRECT-REGULATOR Arg1:T12 Arg2:T32
+R12	DIRECT-REGULATOR Arg1:T13 Arg2:T32
+R13	AGONIST Arg1:T10 Arg2:T29
+R14	ACTIVATOR Arg1:T10 Arg2:T30

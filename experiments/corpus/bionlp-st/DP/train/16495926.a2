@@ -1,0 +1,51 @@
+T11	CHEMICAL 12 20	retinoid
+N1	Name Annotation:T11 Referent:retinoid
+T22	GENE-N 12 31	retinoid X receptor
+N2	Name Annotation:T22 Referent:retinoidxreceptor
+T12	CHEMICAL 40 50	bexarotene
+N3	Name Annotation:T12 Referent:bexarotene
+T13	CHEMICAL 52 59	LGD1069
+N4	Name Annotation:T13 Referent:lgd1069
+T14	CHEMICAL 61 70	targretin
+N5	Name Annotation:T14 Referent:targretin
+T6	CHEMICAL 175 183	retinoid
+N6	Name Annotation:T6 Referent:retinoid
+T21	GENE-N 175 194	retinoid X receptor
+N7	Name Annotation:T21 Referent:retinoidxreceptor
+T9	CHEMICAL 203 213	bexarotene
+N8	Name Annotation:T9 Referent:bexarotene
+T4	CHEMICAL 332 342	bexarotene
+N9	Name Annotation:T4 Referent:bexarotene
+T5	CHEMICAL 480 490	bexarotene
+N10	Name Annotation:T5 Referent:bexarotene
+T18	GENE-Y 534 568	vascular endothelial growth factor
+N11	Name Annotation:T18 Referent:vascularendothelialgrowthfactor
+T19	GENE-Y 570 593	epidermal growth factor
+N12	Name Annotation:T19 Referent:epidermalgrowthfactor
+T20	GENE-N 604 628	fibroblast growth factor
+N13	Name Annotation:T20 Referent:fibroblastgrowthfactor
+T7	CHEMICAL 811 821	bexarotene
+N14	Name Annotation:T7 Referent:bexarotene
+T8	CHEMICAL 844 854	bexarotene
+N15	Name Annotation:T8 Referent:bexarotene
+T10	CHEMICAL 948 958	bexarotene
+N16	Name Annotation:T10 Referent:bexarotene
+T1	CHEMICAL 1227 1237	bexarotene
+N17	Name Annotation:T1 Referent:bexarotene
+T15	GENE-N 1288 1313	matrix metalloproteinases
+N18	Name Annotation:T15 Referent:matrixmetalloproteinases
+T16	GENE-N 1352 1377	matrix metalloproteinases
+N19	Name Annotation:T16 Referent:matrixmetalloproteinases
+T2	CHEMICAL 1394 1404	bexarotene
+N20	Name Annotation:T2 Referent:bexarotene
+T17	GENE-Y 1506 1554	peroxisome proliferator-activated receptor gamma
+N21	Name Annotation:T17 Referent:peroxisomeproliferatoractivatedreceptorgamma
+T3	CHEMICAL 1600 1610	bexarotene
+N22	Name Annotation:T3 Referent:bexarotene
+R1	AGONIST Arg1:T12 Arg2:T22
+R2	AGONIST Arg1:T13 Arg2:T22
+R3	AGONIST Arg1:T14 Arg2:T22
+R4	AGONIST Arg1:T9 Arg2:T21
+R5	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T15
+R6	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T16
+R7	ACTIVATOR Arg1:T2 Arg2:T17

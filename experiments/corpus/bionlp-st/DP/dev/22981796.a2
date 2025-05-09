@@ -1,0 +1,18 @@
+T1	CHEMICAL 683 689	copper
+N1	Name Annotation:T1 Referent:copper
+T2	CHEMICAL 691 693	Cu
+N2	Name Annotation:T2 Referent:cu
+T3	CHEMICAL 847 849	Cu
+N3	Name Annotation:T3 Referent:cu
+T4	CHEMICAL 948 950	Cu
+N4	Name Annotation:T4 Referent:cu
+T5	CHEMICAL 1042 1049	lactate
+N5	Name Annotation:T5 Referent:lactate
+T8	GENE 1042 1063	lactate dehydrogenase
+N6	Name Annotation:T8 Referent:lactatedehydrogenase
+T6	CHEMICAL 1088 1094	oxygen
+N7	Name Annotation:T6 Referent:oxygen
+T7	GENE 1107 1120	interleukin-8
+N8	Name Annotation:T7 Referent:interleukin8
+R1	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T8
+R2	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T7

@@ -1,0 +1,28 @@
+T9	CHEMICAL 24 25	N
+N1	Name Annotation:T9 Referent:n
+T10	CHEMICAL 42 54	nor-lobelane
+N2	Name Annotation:T10 Referent:norlobelane
+T12	GENE-Y 79 84	VMAT2
+N3	Name Annotation:T12 Referent:vmat2
+T8	CHEMICAL 147 162	methamphetamine
+N4	Name Annotation:T8 Referent:methamphetamine
+T1	CHEMICAL 182 183	N
+N5	Name Annotation:T1 Referent:n
+T5	CHEMICAL 196 204	lobelane
+N6	Name Annotation:T5 Referent:lobelane
+T7	CHEMICAL 255 281	[(3)H]dihydrotetrabenazine
+N7	Name Annotation:T7 Referent:3hdihydrotetrabenazine
+T11	GENE-N 306 337	vesicular monoamine transporter
+N8	Name Annotation:T11 Referent:vesicularmonoaminetransporter
+T2	CHEMICAL 316 325	monoamine
+N9	Name Annotation:T2 Referent:monoamine
+T3	CHEMICAL 376 390	[(3)H]dopamine
+N10	Name Annotation:T3 Referent:3hdopamine
+T4	CHEMICAL 431 455	N-1,2(R)-dihydroxypropyl
+N11	Name Annotation:T4 Referent:n12rdihydroxypropyl
+T6	CHEMICAL 538 553	methamphetamine
+N12	Name Annotation:T6 Referent:methamphetamine
+R1	DIRECT-REGULATOR Arg1:T7 Arg2:T11
+R2	SUBSTRATE Arg1:T3 Arg2:T11
+R3	DIRECT-REGULATOR Arg1:T5 Arg2:T11
+R4	DIRECT-REGULATOR Arg1:T1 Arg2:T11

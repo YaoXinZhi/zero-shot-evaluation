@@ -1,0 +1,67 @@
+T26	GENE-N 0 3	MAO
+N1	Name Annotation:T26 Referent:mao
+T13	CHEMICAL 27 44	2-Arylbenzofurans
+N2	Name Annotation:T13 Referent:2arylbenzofurans
+T14	CHEMICAL 52 67	3-Arylcoumarins
+N3	Name Annotation:T14 Referent:3arylcoumarins
+T1	CHEMICAL 122 131	Monoamine
+N4	Name Annotation:T1 Referent:monoamine
+T15	GENE-N 122 139	Monoamine oxidase
+N5	Name Annotation:T15 Referent:monoamineoxidase
+T19	GENE-N 141 144	MAO
+N6	Name Annotation:T19 Referent:mao
+T2	CHEMICAL 227 241	3-arylcoumarin
+N7	Name Annotation:T2 Referent:3arylcoumarin
+T18	GENE-Y 305 310	MAO-B
+N8	Name Annotation:T18 Referent:maob
+T5	CHEMICAL 338 352	trans-stilbene
+N9	Name Annotation:T5 Referent:transstilbene
+T6	CHEMICAL 376 392	2-arylbenzofuran
+N10	Name Annotation:T6 Referent:2arylbenzofuran
+T7	CHEMICAL 411 425	3-arylcoumarin
+N11	Name Annotation:T7 Referent:3arylcoumarin
+T20	GENE-N 491 494	MAO
+N12	Name Annotation:T20 Referent:mao
+T21	GENE-Y 505 510	MAO-A
+N13	Name Annotation:T21 Referent:maoa
+T22	GENE-Y 515 520	MAO-B
+N14	Name Annotation:T22 Referent:maob
+T23	GENE-Y 587 592	MAO-B
+N15	Name Annotation:T23 Referent:maob
+T8	CHEMICAL 656 693	5-Nitro-2-(4-methoxyphenyl)benzofuran
+N16	Name Annotation:T8 Referent:5nitro24methoxyphenylbenzofuran
+T9	CHEMICAL 683 693	benzofuran
+N17	Name Annotation:T9 Referent:benzofuran
+T24	GENE-Y 763 768	MAO-B
+N18	Name Annotation:T24 Referent:maob
+T10	CHEMICAL 823 859	3-(4'-Methoxyphenyl)-6-nitrocoumarin
+N19	Name Annotation:T10 Referent:34methoxyphenyl6nitrocoumarin
+T25	GENE-Y 956 961	MAO-B
+N20	Name Annotation:T25 Referent:maob
+T11	CHEMICAL 979 987	coumarin
+N21	Name Annotation:T11 Referent:coumarin
+T12	CHEMICAL 1018 1034	3-phenylcoumarin
+N22	Name Annotation:T12 Referent:3phenylcoumarin
+T16	GENE-Y 1214 1219	MAO-B
+N23	Name Annotation:T16 Referent:maob
+T17	GENE-Y 1224 1229	MAO-A
+N24	Name Annotation:T17 Referent:maoa
+T3	CHEMICAL 1313 1330	2-arylbenzofurans
+N25	Name Annotation:T3 Referent:2arylbenzofurans
+T4	CHEMICAL 1335 1350	3-arylcoumarins
+N26	Name Annotation:T4 Referent:3arylcoumarins
+R1	INHIBITOR Arg1:T13 Arg2:T26
+R2	INHIBITOR Arg1:T14 Arg2:T26
+R3	INHIBITOR Arg1:T2 Arg2:T18
+R4	INHIBITOR Arg1:T8 Arg2:T24
+R5	INHIBITOR Arg1:T9 Arg2:T24
+R6	INHIBITOR Arg1:T10 Arg2:T25
+R7	INHIBITOR Arg1:T11 Arg2:T25
+R8	DIRECT-REGULATOR Arg1:T3 Arg2:T16
+R9	DIRECT-REGULATOR Arg1:T4 Arg2:T16
+R10	DIRECT-REGULATOR Arg1:T3 Arg2:T17
+R11	DIRECT-REGULATOR Arg1:T4 Arg2:T17
+R12	INHIBITOR Arg1:T3 Arg2:T16
+R13	INHIBITOR Arg1:T3 Arg2:T17
+R14	INHIBITOR Arg1:T4 Arg2:T16
+R15	INHIBITOR Arg1:T4 Arg2:T17

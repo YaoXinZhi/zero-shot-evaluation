@@ -1,0 +1,113 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "(-)-Pentazocine",
+            "Name": "pentazocine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "sigma receptor",
+            "Name": "sigmareceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "(-)-Pentazocine",
+            "Name": "pentazocine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "haloperidol",
+            "Name": "haloperidol"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "sigma 1 receptors",
+            "Name": "sigma1receptors"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "(+)-Pentazocine",
+            "Name": "pentazocine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "haloperidol",
+            "Name": "haloperidol"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "(-)-pentazocine",
+            "Name": "pentazocine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "nor-binaltorphimine",
+            "Name": "norbinaltorphimine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "mu-selective opioid receptor",
+            "Name": "muselectiveopioidreceptor"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "beta-funaltrexamine",
+            "Name": "betafunaltrexamine"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "kappa 1-opioid receptor",
+            "Name": "kappa1opioidreceptor"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "oligodeoxynucleotides",
+            "Name": "oligodeoxynucleotides"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "KOR-1",
+            "Name": "kor1"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "kappa 1-opioid receptor",
+            "Name": "kappa1opioidreceptor"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "(-)-pentazocine",
+            "Name": "pentazocine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T7",
+            "target": "T12"
+        }
+    ]
+}

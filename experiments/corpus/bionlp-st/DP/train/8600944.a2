@@ -1,0 +1,105 @@
+T6	CHEMICAL 159 162	GCS
+N1	Name Annotation:T6 Referent:gcs
+T11	CHEMICAL 199 202	GCS
+N2	Name Annotation:T11 Referent:gcs
+T18	GENE-Y 249 262	interleukin-4
+N3	Name Annotation:T18 Referent:interleukin4
+T22	GENE-Y 264 268	IL-4
+N4	Name Annotation:T22 Referent:il4
+T25	GENE-Y 274 278	IL-5
+N5	Name Annotation:T25 Referent:il5
+T28	GENE-Y 333 342	IFN-gamma
+N6	Name Annotation:T28 Referent:ifngamma
+T29	GENE-N 427 436	cytokines
+N7	Name Annotation:T29 Referent:cytokines
+T7	CHEMICAL 440 443	GCS
+N8	Name Annotation:T7 Referent:gcs
+T8	CHEMICAL 471 474	GCS
+N9	Name Annotation:T8 Referent:gcs
+T9	CHEMICAL 592 605	Dexamethasone
+N10	Name Annotation:T9 Referent:dexamethasone
+T10	CHEMICAL 607 610	DEX
+N11	Name Annotation:T10 Referent:dex
+T30	GENE-N 631 634	CD3
+N12	Name Annotation:T30 Referent:cd3
+T31	GENE-Y 657 661	IL-4
+N13	Name Annotation:T31 Referent:il4
+T32	GENE-Y 663 667	IL-5
+N14	Name Annotation:T32 Referent:il5
+T33	GENE-Y 672 681	IFN-gamma
+N15	Name Annotation:T33 Referent:ifngamma
+T34	GENE-Y 707 716	IFN-gamma
+N16	Name Annotation:T34 Referent:ifngamma
+T35	GENE-Y 766 770	IL-4
+N17	Name Annotation:T35 Referent:il4
+T36	GENE-Y 775 779	IL-5
+N18	Name Annotation:T36 Referent:il5
+T12	CHEMICAL 781 784	DEX
+N19	Name Annotation:T12 Referent:dex
+T37	GENE-Y 804 813	IFN-gamma
+N20	Name Annotation:T37 Referent:ifngamma
+T38	GENE-Y 814 818	IL-4
+N21	Name Annotation:T38 Referent:il4
+T13	CHEMICAL 983 986	GCS
+N22	Name Annotation:T13 Referent:gcs
+T39	GENE-Y 990 994	IL-2
+N23	Name Annotation:T39 Referent:il2
+T40	GENE-Y 1010 1021	IL-2R alpha
+N24	Name Annotation:T40 Referent:il2ralpha
+T41	GENE-Y 1062 1066	IL-2
+N25	Name Annotation:T41 Referent:il2
+T14	CHEMICAL 1077 1080	DEX
+N26	Name Annotation:T14 Referent:dex
+T42	GENE-Y 1089 1093	IL-2
+N27	Name Annotation:T42 Referent:il2
+T43	GENE-Y 1119 1130	IL-2R alpha
+N28	Name Annotation:T43 Referent:il2ralpha
+T15	GENE-Y 1172 1176	IL-2
+N29	Name Annotation:T15 Referent:il2
+T1	CHEMICAL 1187 1190	DEX
+N30	Name Annotation:T1 Referent:dex
+T16	GENE-Y 1201 1205	IL-2
+N31	Name Annotation:T16 Referent:il2
+T17	GENE-Y 1240 1251	IL-2R alpha
+N32	Name Annotation:T17 Referent:il2ralpha
+T19	GENE-Y 1287 1291	IL-2
+N33	Name Annotation:T19 Referent:il2
+T20	GENE-Y 1301 1311	IL2R alpha
+N34	Name Annotation:T20 Referent:il2ralpha
+T2	CHEMICAL 1324 1327	DEX
+N35	Name Annotation:T2 Referent:dex
+T21	GENE-Y 1384 1388	IL-2
+N36	Name Annotation:T21 Referent:il2
+T23	GENE-Y 1459 1463	IL-4
+N37	Name Annotation:T23 Referent:il4
+T24	GENE-Y 1468 1472	IL-5
+N38	Name Annotation:T24 Referent:il5
+T3	CHEMICAL 1561 1564	DEX
+N39	Name Annotation:T3 Referent:dex
+T26	GENE-Y 1578 1587	IFN-gamma
+N40	Name Annotation:T26 Referent:ifngamma
+T4	CHEMICAL 1712 1715	DEX
+N41	Name Annotation:T4 Referent:dex
+T27	GENE-Y 1753 1757	IL-2
+N42	Name Annotation:T27 Referent:il2
+T5	CHEMICAL 1866 1874	steroids
+N43	Name Annotation:T5 Referent:steroids
+R1	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T18
+R2	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T22
+R3	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T25
+R4	INHIBITOR Arg1:T7 Arg2:T29
+R5	INHIBITOR Arg1:T9 Arg2:T30
+R6	INHIBITOR Arg1:T10 Arg2:T30
+R7	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T31
+R8	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T32
+R9	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T33
+R10	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T31
+R11	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T32
+R12	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T33
+R13	INDIRECT-DOWNREGULATOR Arg1:T14 Arg2:T42
+R14	INDIRECT-DOWNREGULATOR Arg1:T14 Arg2:T43
+R15	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T16
+R16	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T17
+R17	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T23
+R18	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T24
+R19	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T26

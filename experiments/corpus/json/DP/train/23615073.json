@@ -1,0 +1,176 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Vitamin C",
+            "Name": "vitaminc"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "vitamin C",
+            "Name": "vitaminc"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "I-\u03baB\u03b5",
+            "Name": "i\u03bab\u03b5"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "c-Rel",
+            "Name": "crel"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "p50",
+            "Name": "p50"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "vitamin C",
+            "Name": "vitaminc"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "I-\u03baB\u03b5",
+            "Name": "i\u03bab\u03b5"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "c-Rel",
+            "Name": "crel"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "vitamin C",
+            "Name": "vitaminc"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "I-\u03baB\u03b5",
+            "Name": "i\u03bab\u03b5"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "c-Rel",
+            "Name": "crel"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "vitamin C",
+            "Name": "vitaminc"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "c-Rel",
+            "Name": "crel"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "vitamin C",
+            "Name": "vitaminc"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "vitamin C",
+            "Name": "vitaminc"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "c-Rel",
+            "Name": "crel"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "vitamin C",
+            "Name": "vitaminc"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T21"
+        }
+    ]
+}

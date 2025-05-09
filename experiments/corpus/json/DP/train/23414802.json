@@ -1,0 +1,94 @@
+{
+    "entities": [
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "2-hydroxydiarylamide",
+            "Name": "2hydroxydiarylamide"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "TMPRSS4",
+            "Name": "tmprss4"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "TMPRSS4",
+            "Name": "tmprss4"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "type II transmembrane serine protease",
+            "Name": "typeiitransmembraneserineprotease"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "2-hydroxydiarylamide",
+            "Name": "2hydroxydiarylamide"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "TMPRSS4",
+            "Name": "tmprss4"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "serine protease",
+            "Name": "serineprotease"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "TMPRSS4",
+            "Name": "tmprss4"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "serine protease",
+            "Name": "serineprotease"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "TMPRSS4",
+            "Name": "tmprss4"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T8"
+        }
+    ]
+}

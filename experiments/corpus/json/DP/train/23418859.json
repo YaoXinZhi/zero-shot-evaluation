@@ -1,0 +1,187 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Salidroside",
+            "Name": "salidroside"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "salidroside",
+            "Name": "salidroside"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Salidroside",
+            "Name": "salidroside"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "salidroside",
+            "Name": "salidroside"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "LY294002",
+            "Name": "ly294002"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "dUTP",
+            "Name": "dutp"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "phosphorylated Akt",
+            "Name": "phosphorylatedakt"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "p-Akt",
+            "Name": "pakt"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "salidroside",
+            "Name": "salidroside"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Bcl-2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "p-Akt",
+            "Name": "pakt"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Bax",
+            "Name": "bax"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "salidroside",
+            "Name": "salidroside"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "LY294002",
+            "Name": "ly294002"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "salidroside",
+            "Name": "salidroside"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T23"
+        }
+    ]
+}

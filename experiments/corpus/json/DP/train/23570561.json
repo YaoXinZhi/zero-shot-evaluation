@@ -1,0 +1,95 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Urea",
+            "Name": "urea"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Rho Kinase",
+            "Name": "rhokinase"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "RhoA",
+            "Name": "rhoa"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "ROCK",
+            "Name": "rock"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "myosin light chain",
+            "Name": "myosinlightchain"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "MLC",
+            "Name": "mlc"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "RhoA",
+            "Name": "rhoa"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "ROCK",
+            "Name": "rock"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "urea",
+            "Name": "urea"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "ROCK",
+            "Name": "rock"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "ROCK",
+            "Name": "rock"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "urea",
+            "Name": "urea"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "ROCK",
+            "Name": "rock"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T10"
+        }
+    ]
+}

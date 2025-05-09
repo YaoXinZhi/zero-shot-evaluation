@@ -1,0 +1,72 @@
+T17	CHEMICAL 0 11	Sitagliptin
+N1	Name Annotation:T17 Referent:sitagliptin
+T1	CHEMICAL 13 24	Sitagliptin
+N2	Name Annotation:T1 Referent:sitagliptin
+T22	GENE-Y 34 56	dipeptidyl peptidase-4
+N3	Name Annotation:T22 Referent:dipeptidylpeptidase4
+T26	GENE-Y 58 63	DPP-4
+N4	Name Annotation:T26 Referent:dpp4
+T18	GENE-Y 117 122	DPP-4
+N5	Name Annotation:T18 Referent:dpp4
+T19	GENE-N 143 160	incretin hormones
+N6	Name Annotation:T19 Referent:incretinhormones
+T20	GENE-Y 161 184	glucagon-like peptide-1
+N7	Name Annotation:T20 Referent:glucagonlikepeptide1
+T11	CHEMICAL 189 196	glucose
+N8	Name Annotation:T11 Referent:glucose
+T21	GENE-Y 189 233	glucose-dependent insulinotropic polypeptide
+N9	Name Annotation:T21 Referent:glucosedependentinsulinotropicpolypeptide
+T23	GENE-N 257 265	incretin
+N10	Name Annotation:T23 Referent:incretin
+T24	GENE-Y 270 277	insulin
+N11	Name Annotation:T24 Referent:insulin
+T25	GENE-Y 300 308	glucagon
+N12	Name Annotation:T25 Referent:glucagon
+T12	CHEMICAL 325 332	glucose
+N13	Name Annotation:T12 Referent:glucose
+T13	CHEMICAL 338 345	glucose
+N14	Name Annotation:T13 Referent:glucose
+T14	CHEMICAL 441 452	sitagliptin
+N15	Name Annotation:T14 Referent:sitagliptin
+T27	GENE-Y 642 649	insulin
+N16	Name Annotation:T27 Referent:insulin
+T28	GENE-Y 718 742	glycosylated haemoglobin
+N17	Name Annotation:T28 Referent:glycosylatedhaemoglobin
+T29	GENE-Y 744 751	HbA(1c)
+N18	Name Annotation:T29 Referent:hba1c
+T15	CHEMICAL 785 796	sitagliptin
+N19	Name Annotation:T15 Referent:sitagliptin
+T16	CHEMICAL 968 979	sitagliptin
+N20	Name Annotation:T16 Referent:sitagliptin
+T30	GENE-Y 989 996	HbA(1c)
+N21	Name Annotation:T30 Referent:hba1c
+T2	CHEMICAL 1058 1067	metformin
+N22	Name Annotation:T2 Referent:metformin
+T3	CHEMICAL 1071 1083	pioglitazone
+N23	Name Annotation:T3 Referent:pioglitazone
+T4	CHEMICAL 1107 1116	glipizide
+N24	Name Annotation:T4 Referent:glipizide
+T5	CHEMICAL 1131 1140	metformin
+N25	Name Annotation:T5 Referent:metformin
+T6	CHEMICAL 1142 1153	Sitagliptin
+N26	Name Annotation:T6 Referent:sitagliptin
+T7	CHEMICAL 1349 1360	sitagliptin
+N27	Name Annotation:T7 Referent:sitagliptin
+T8	CHEMICAL 1419 1428	metformin
+N28	Name Annotation:T8 Referent:metformin
+T9	CHEMICAL 1451 1460	glipizide
+N29	Name Annotation:T9 Referent:glipizide
+T10	CHEMICAL 1462 1473	Sitagliptin
+N30	Name Annotation:T10 Referent:sitagliptin
+R1	INHIBITOR Arg1:T1 Arg2:T22
+R2	INHIBITOR Arg1:T1 Arg2:T26
+R3	INHIBITOR Arg1:T1 Arg2:T18
+R4	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T19
+R5	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T20
+R6	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T21
+R7	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T28
+R8	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T29
+R9	INDIRECT-UPREGULATOR Arg1:T16 Arg2:T30
+R10	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T30
+R11	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T30
+R12	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T30

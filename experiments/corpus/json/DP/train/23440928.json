@@ -1,0 +1,188 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "Carnosine",
+            "Name": "carnosine"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "A\u03b2(42)",
+            "Name": "a\u03b242"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "H",
+            "Name": "h"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "amyloid-\u03b2",
+            "Name": "amyloid\u03b2"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "A\u03b2",
+            "Name": "a\u03b2"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "A\u03b2",
+            "Name": "a\u03b2"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "carnosine",
+            "Name": "carnosine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "dipeptide",
+            "Name": "dipeptide"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "A\u03b2",
+            "Name": "a\u03b2"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "thioflavin T",
+            "Name": "thioflavint"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "carnosine",
+            "Name": "carnosine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "A\u03b242",
+            "Name": "a\u03b242"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "amyloid",
+            "Name": "amyloid"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "carnosine",
+            "Name": "carnosine"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "A\u03b242",
+            "Name": "a\u03b242"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "A\u03b212-28",
+            "Name": "a\u03b21228"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "carnosine",
+            "Name": "carnosine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "carnosine",
+            "Name": "carnosine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "hydrogen",
+            "Name": "hydrogen"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "A\u03b2",
+            "Name": "a\u03b2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "heptapeptide",
+            "Name": "heptapeptide"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "carnosine",
+            "Name": "carnosine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "hydrogen",
+            "Name": "hydrogen"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "carnosine",
+            "Name": "carnosine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "A\u03b2",
+            "Name": "a\u03b2"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "hydrogen",
+            "Name": "hydrogen"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T14",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T23"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T16"
+        }
+    ]
+}

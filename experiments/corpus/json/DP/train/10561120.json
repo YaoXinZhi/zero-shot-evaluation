@@ -1,0 +1,60 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "cytochrome P-450",
+            "Name": "cytochromep450"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "resorufin",
+            "Name": "resorufin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "resorufin",
+            "Name": "resorufin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Dicumarol",
+            "Name": "dicumarol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "quinone",
+            "Name": "quinone"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "quinone oxidoreductase",
+            "Name": "quinoneoxidoreductase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "resorufin",
+            "Name": "resorufin"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "cytochrome P-450 1A1",
+            "Name": "cytochromep4501a1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T6"
+        }
+    ]
+}

@@ -1,0 +1,258 @@
+{
+    "entities": [
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "glucocorticoid receptor",
+            "Name": "glucocorticoidreceptor"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "ginsenoside Rg1",
+            "Name": "ginsenosiderg1"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "\u03b2-amyloid peptide",
+            "Name": "\u03b2amyloidpeptide"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "\u03b2-amyloid",
+            "Name": "\u03b2amyloid"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "A\u03b2",
+            "Name": "a\u03b2"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Ginsenoside Rg1",
+            "Name": "ginsenosiderg1"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Rg1",
+            "Name": "rg1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "A\u03b2",
+            "Name": "a\u03b2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Rg1",
+            "Name": "rg1"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Rg1",
+            "Name": "rg1"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "A\u03b225-35",
+            "Name": "a\u03b22535"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "HIF-1\u03b1",
+            "Name": "hif1\u03b1"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "nitrogen",
+            "Name": "nitrogen"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "glucocorticoid receptor",
+            "Name": "glucocorticoidreceptor"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "GR",
+            "Name": "gr"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "RU486",
+            "Name": "ru486"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "p-ERK",
+            "Name": "perk"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "U0126",
+            "Name": "u0126"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "estrogen receptor \u03b1",
+            "Name": "estrogenreceptor\u03b1"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "ICI 82,780",
+            "Name": "ici82780"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Rg1",
+            "Name": "rg1"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "A\u03b225-35",
+            "Name": "a\u03b22535"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "GR",
+            "Name": "gr"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "HIF-1\u03b1",
+            "Name": "hif1\u03b1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Rg1",
+            "Name": "rg1"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "A\u03b225-35",
+            "Name": "a\u03b22535"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "GR",
+            "Name": "gr"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T12",
+            "target": "T30"
+        },
+        {
+            "type": "Activator",
+            "source": "T12",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T20"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T7",
+            "target": "T22"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T7",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T23"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T10",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T28"
+        },
+        {
+            "type": "Activator",
+            "source": "T11",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T13"
+        }
+    ]
+}

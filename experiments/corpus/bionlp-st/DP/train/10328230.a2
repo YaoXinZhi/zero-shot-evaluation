@@ -1,0 +1,59 @@
+T24	GENE-Y 14 26	gelatinase A
+N1	Name Annotation:T24 Referent:gelatinasea
+T25	GENE-Y 28 33	MMP-2
+N2	Name Annotation:T25 Referent:mmp2
+T15	CHEMICAL 38 48	batimastat
+N3	Name Annotation:T15 Referent:batimastat
+T16	CHEMICAL 53 62	captopril
+N4	Name Annotation:T16 Referent:captopril
+T21	GENE-N 188 212	matrix metalloproteinase
+N5	Name Annotation:T21 Referent:matrixmetalloproteinase
+T13	CHEMICAL 224 234	batimastat
+N6	Name Annotation:T13 Referent:batimastat
+T14	CHEMICAL 236 241	BB-94
+N7	Name Annotation:T14 Referent:bb94
+T1	CHEMICAL 251 262	angiotensin
+N8	Name Annotation:T1 Referent:angiotensin
+T17	GENE-Y 251 280	angiotensin-converting enzyme
+N9	Name Annotation:T17 Referent:angiotensinconvertingenzyme
+T4	CHEMICAL 292 301	captopril
+N10	Name Annotation:T4 Referent:captopril
+T20	GENE-N 306 323	metalloproteinase
+N11	Name Annotation:T20 Referent:metalloproteinase
+T7	CHEMICAL 511 516	BB-94
+N12	Name Annotation:T7 Referent:bb94
+T8	CHEMICAL 521 530	captopril
+N13	Name Annotation:T8 Referent:captopril
+T9	CHEMICAL 616 625	captopril
+N14	Name Annotation:T9 Referent:captopril
+T22	GENE-Y 694 706	gelatinase A
+N15	Name Annotation:T22 Referent:gelatinasea
+T10	CHEMICAL 726 731	BB-94
+N16	Name Annotation:T10 Referent:bb94
+T23	GENE-N 786 804	gelatinase A and B
+N17	Name Annotation:T23 Referent:gelatinaseaandb
+T11	CHEMICAL 895 900	BB-94
+N18	Name Annotation:T11 Referent:bb94
+T12	CHEMICAL 911 920	captopril
+N19	Name Annotation:T12 Referent:captopril
+T2	CHEMICAL 1260 1265	BB-94
+N20	Name Annotation:T2 Referent:bb94
+T3	CHEMICAL 1270 1279	captopril
+N21	Name Annotation:T3 Referent:captopril
+T18	GENE-N 1442 1462	metalloproteinase(s)
+N22	Name Annotation:T18 Referent:metalloproteinases
+T19	GENE-N 1567 1585	metalloproteinases
+N23	Name Annotation:T19 Referent:metalloproteinases
+T5	CHEMICAL 1644 1649	BB-94
+N24	Name Annotation:T5 Referent:bb94
+T6	CHEMICAL 1654 1663	captopril
+N25	Name Annotation:T6 Referent:captopril
+R1	INHIBITOR Arg1:T15 Arg2:T24
+R2	INHIBITOR Arg1:T15 Arg2:T25
+R3	INHIBITOR Arg1:T16 Arg2:T24
+R4	INHIBITOR Arg1:T16 Arg2:T25
+R5	INHIBITOR Arg1:T13 Arg2:T21
+R6	INHIBITOR Arg1:T14 Arg2:T21
+R7	INHIBITOR Arg1:T4 Arg2:T17
+R8	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T22
+R9	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T23

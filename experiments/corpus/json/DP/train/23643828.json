@@ -1,0 +1,218 @@
+{
+    "entities": [
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "C1 domain",
+            "Name": "c1domain"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "isophthalate",
+            "Name": "isophthalate"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "GAP-43",
+            "Name": "gap43"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "PKC\u03b1",
+            "Name": "pkc\u03b1"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Protein kinase C",
+            "Name": "proteinkinasec"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "PKC",
+            "Name": "pkc"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "serine/threonine phosphotransferases",
+            "Name": "serinethreoninephosphotransferases"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "threonine",
+            "Name": "threonine"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "C1 domain",
+            "Name": "c1domain"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "PKC",
+            "Name": "pkc"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "PKC",
+            "Name": "pkc"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Dialkyl 5-(hydroxymethyl)isophthalates",
+            "Name": "dialkyl5hydroxymethylisophthalates"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "C1 domain",
+            "Name": "c1domain"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "isophthalates",
+            "Name": "isophthalates"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "isophthalates",
+            "Name": "isophthalates"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "GAP-43",
+            "Name": "gap43"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "PKC\u03b1",
+            "Name": "pkc\u03b1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "G\u00f66976",
+            "Name": "g\u00f66976"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "GAP-43",
+            "Name": "gap43"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PKC\u03b1",
+            "Name": "pkc\u03b1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "G\u00f66976",
+            "Name": "g\u00f66976"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PKC",
+            "Name": "pkc"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PKC",
+            "Name": "pkc"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "ERK1/2",
+            "Name": "erk12"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "ERK1/2",
+            "Name": "erk12"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "ERK1/2",
+            "Name": "erk12"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "PKC\u03b1",
+            "Name": "pkc\u03b1"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "ERK1/2",
+            "Name": "erk12"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "PKC",
+            "Name": "pkc"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "PKC",
+            "Name": "pkc"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T31"
+        },
+        {
+            "type": "Activator",
+            "source": "T8",
+            "target": "T29"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T13"
+        }
+    ]
+}

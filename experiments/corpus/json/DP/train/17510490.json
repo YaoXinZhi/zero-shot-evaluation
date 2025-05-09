@@ -1,0 +1,239 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "L-serine",
+            "Name": "lserine"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "3-phosphoglycerate",
+            "Name": "3phosphoglycerate"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "3-phosphoglycerate dehydrogenase",
+            "Name": "3phosphoglyceratedehydrogenase"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "neutral amino acid",
+            "Name": "neutralaminoacid"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "neutral amino acid transporter",
+            "Name": "neutralaminoacidtransporter"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "ASCT1",
+            "Name": "asct1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "3-Phosphoglycerate",
+            "Name": "3phosphoglycerate"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "3-Phosphoglycerate dehydrogenase",
+            "Name": "3phosphoglyceratedehydrogenase"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Phgdh",
+            "Name": "phgdh"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "phosphorylated",
+            "Name": "phosphorylated"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "L-serine",
+            "Name": "lserine"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Phgdh",
+            "Name": "phgdh"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "L-serine",
+            "Name": "lserine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "L-serine",
+            "Name": "lserine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Phgdh",
+            "Name": "phgdh"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Phgdh",
+            "Name": "phgdh"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "neutral amino acid",
+            "Name": "neutralaminoacid"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "neutral amino acid transporter",
+            "Name": "neutralaminoacidtransporter"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "ASCT1",
+            "Name": "asct1"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "alanine",
+            "Name": "alanine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "cysteine",
+            "Name": "cysteine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "threonine",
+            "Name": "threonine"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Phgdh",
+            "Name": "phgdh"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Phgdh",
+            "Name": "phgdh"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "ASCT1",
+            "Name": "asct1"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "L-serine",
+            "Name": "lserine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Product of",
+            "source": "T13",
+            "target": "T27"
+        },
+        {
+            "type": "Product of",
+            "source": "T13",
+            "target": "T26"
+        },
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T21"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T16"
+        },
+        {
+            "type": "Product of",
+            "source": "T7",
+            "target": "T18"
+        },
+        {
+            "type": "Product of",
+            "source": "T7",
+            "target": "T19"
+        }
+    ]
+}

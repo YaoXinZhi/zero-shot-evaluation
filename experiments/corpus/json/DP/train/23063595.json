@@ -1,0 +1,106 @@
+{
+    "entities": [
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "polyphenols",
+            "Name": "polyphenols"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "chemokine",
+            "Name": "chemokine"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "CCL2",
+            "Name": "ccl2"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "CCL2",
+            "Name": "ccl2"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "CCR2",
+            "Name": "ccr2"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "AMP",
+            "Name": "amp"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "AMP-activated protein kinase",
+            "Name": "ampactivatedproteinkinase"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "polyphenols",
+            "Name": "polyphenols"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "histone deacetylase",
+            "Name": "histonedeacetylase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "polyphenols",
+            "Name": "polyphenols"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T13"
+        }
+    ]
+}

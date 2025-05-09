@@ -1,0 +1,135 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Resveratrol",
+            "Name": "resveratrol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "resveratrol",
+            "Name": "resveratrol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Resveratrol",
+            "Name": "resveratrol"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Resveratrol",
+            "Name": "resveratrol"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "glycolytic enzymes",
+            "Name": "glycolyticenzymes"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "pyruvate kinase",
+            "Name": "pyruvatekinase"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "lactate dehydrogenase",
+            "Name": "lactatedehydrogenase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "citrate",
+            "Name": "citrate"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "citrate synthase",
+            "Name": "citratesynthase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "resveratrol",
+            "Name": "resveratrol"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "leptin",
+            "Name": "leptin"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "c-Myc",
+            "Name": "cmyc"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "vascular endothelial growth factor",
+            "Name": "vascularendothelialgrowthfactor"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "caspases 3 and 8",
+            "Name": "caspases3and8"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Bax",
+            "Name": "bax"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "BCl2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "resveratrol",
+            "Name": "resveratrol"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T15"
+        }
+    ]
+}

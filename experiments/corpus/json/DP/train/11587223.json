@@ -1,0 +1,187 @@
+{
+    "entities": [
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "Sulfasalazine",
+            "Name": "sulfasalazine"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "x(c)- cystine transporter",
+            "Name": "xccystinetransporter"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "cystine",
+            "Name": "cystine"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "cyst(e)ine",
+            "Name": "cysteine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "non-essential amino acid",
+            "Name": "nonessentialaminoacid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "cyst(e)ine",
+            "Name": "cysteine"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "x(c)- plasma membrane cystine transporter",
+            "Name": "xcplasmamembranecystinetransporter"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "cystine",
+            "Name": "cystine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "cyst(e)ine",
+            "Name": "cysteine"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "cystine",
+            "Name": "cystine"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "cysteine",
+            "Name": "cysteine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "x(c)",
+            "Name": "xc"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Sulfasalazine",
+            "Name": "sulfasalazine"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "x(c)- transporter",
+            "Name": "xctransporter"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "x(c)",
+            "Name": "xc"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "cystine",
+            "Name": "cystine"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "sulfapyridine",
+            "Name": "sulfapyridine"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "5-aminosalicylic acid",
+            "Name": "5aminosalicylicacid"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "Sulfasalazine",
+            "Name": "sulfasalazine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "sulfasalazine",
+            "Name": "sulfasalazine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cysteine",
+            "Name": "cysteine"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "x(c)- cystine transporter",
+            "Name": "xccystinetransporter"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "cystine",
+            "Name": "cystine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "sulfasalazine",
+            "Name": "sulfasalazine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "cyst(e)ine",
+            "Name": "cysteine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T18",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T13",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T20"
+        }
+    ]
+}

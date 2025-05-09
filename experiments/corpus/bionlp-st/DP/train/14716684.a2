@@ -1,0 +1,55 @@
+T13	CHEMICAL 11 25	norepinephrine
+N1	Name Annotation:T13 Referent:norepinephrine
+T25	GENE-Y 11 37	norepinephrine transporter
+N2	Name Annotation:T25 Referent:norepinephrinetransporter
+T3	CHEMICAL 129 143	norepinephrine
+N3	Name Annotation:T3 Referent:norepinephrine
+T18	GENE-Y 129 155	norepinephrine transporter
+N4	Name Annotation:T18 Referent:norepinephrinetransporter
+T22	GENE-Y 157 160	NET
+N5	Name Annotation:T22 Referent:net
+T9	CHEMICAL 197 211	catecholamines
+N6	Name Annotation:T9 Referent:catecholamines
+T20	GENE-Y 335 338	NET
+N7	Name Annotation:T20 Referent:net
+T21	GENE-Y 536 546	bovine NET
+N8	Name Annotation:T21 Referent:bovinenet
+T5	CHEMICAL 612 644	[(131)I]meta-iodobenzylguanidine
+N9	Name Annotation:T5 Referent:131imetaiodobenzylguanidine
+T6	CHEMICAL 646 658	[(131)I]MIBG
+N10	Name Annotation:T6 Referent:131imibg
+T23	GENE-Y 723 726	NET
+N11	Name Annotation:T23 Referent:net
+T7	CHEMICAL 737 747	imipramine
+N12	Name Annotation:T7 Referent:imipramine
+T24	GENE-Y 810 813	NET
+N13	Name Annotation:T24 Referent:net
+T8	CHEMICAL 877 889	[(123)I]MIBG
+N14	Name Annotation:T8 Referent:123imibg
+T10	CHEMICAL 1016 1028	[(131)I]MIBG
+N15	Name Annotation:T10 Referent:131imibg
+T11	CHEMICAL 1073 1083	imipramine
+N16	Name Annotation:T11 Referent:imipramine
+T12	CHEMICAL 1092 1104	[(131)I]MIBG
+N17	Name Annotation:T12 Referent:131imibg
+T1	CHEMICAL 1301 1313	[(131)I]MIBG
+N18	Name Annotation:T1 Referent:131imibg
+T14	GENE-Y 1354 1357	NET
+N19	Name Annotation:T14 Referent:net
+T15	GENE-Y 1436 1439	NET
+N20	Name Annotation:T15 Referent:net
+T2	CHEMICAL 1477 1489	[(123)I]MIBG
+N21	Name Annotation:T2 Referent:123imibg
+T16	GENE-Y 1640 1643	NET
+N22	Name Annotation:T16 Referent:net
+T17	GENE-Y 1698 1701	NET
+N23	Name Annotation:T17 Referent:net
+T4	CHEMICAL 1766 1779	catecholamine
+N24	Name Annotation:T4 Referent:catecholamine
+T19	GENE-Y 1841 1844	NET
+N25	Name Annotation:T19 Referent:net
+R1	DIRECT-REGULATOR Arg1:T9 Arg2:T18
+R2	DIRECT-REGULATOR Arg1:T9 Arg2:T22
+R3	INHIBITOR Arg1:T7 Arg2:T23
+R4	SUBSTRATE Arg1:T1 Arg2:T14
+R5	SUBSTRATE Arg1:T2 Arg2:T15

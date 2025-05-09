@@ -1,0 +1,59 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "pyripyropene A",
+            "Name": "pyripyropenea"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "acyl-CoA",
+            "Name": "acylcoa"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "acyl-CoA:cholesterol acyltransferase 2",
+            "Name": "acylcoacholesterolacyltransferase2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "ACAT2",
+            "Name": "acat2"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "7-O-p-cyanobenzoyl pyripyropene A",
+            "Name": "7opcyanobenzoylpyripyropenea"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "di-tert-butylsilylene acetal",
+            "Name": "ditertbutylsilyleneacetal"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T7"
+        }
+    ]
+}

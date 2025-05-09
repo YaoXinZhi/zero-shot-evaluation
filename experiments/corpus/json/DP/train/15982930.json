@@ -1,0 +1,240 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "bcl-2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "TNFalpha",
+            "Name": "tnfalpha"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "cytochrome c",
+            "Name": "cytochromec"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "bcl-2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "TNFalpha",
+            "Name": "tnfalpha"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "cytochrome c",
+            "Name": "cytochromec"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T33"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T29"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T30"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T31"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T32"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T21"
+        }
+    ]
+}

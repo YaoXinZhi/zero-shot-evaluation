@@ -1,0 +1,220 @@
+{
+    "entities": [
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "glycine",
+            "Name": "glycine"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "glycine",
+            "Name": "glycine"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "glycine decarboxylase",
+            "Name": "glycinedecarboxylase"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "serine hydroxymethyltransferase",
+            "Name": "serinehydroxymethyltransferase"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "glycine",
+            "Name": "glycine"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "NAD+",
+            "Name": "nad"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "tetrahydropteroyl-L-glutamic acid",
+            "Name": "tetrahydropteroyllglutamicacid"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "H4 folate",
+            "Name": "h4folate"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "Serine hydroxymethyltransferase",
+            "Name": "serinehydroxymethyltransferase"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "SHMT",
+            "Name": "shmt"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "glycine",
+            "Name": "glycine"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "pyridoxal phosphate",
+            "Name": "pyridoxalphosphate"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "P-protein",
+            "Name": "pprotein"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "H-protein",
+            "Name": "hprotein"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "lipoamide dehydrogenase",
+            "Name": "lipoamidedehydrogenase"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "L-protein",
+            "Name": "lprotein"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "H4 folate",
+            "Name": "h4folate"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "T-protein",
+            "Name": "tprotein"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "phenyl",
+            "Name": "phenyl"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "Sephacryl S-300",
+            "Name": "sephacryls300"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "KCl",
+            "Name": "kcl"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "glycine",
+            "Name": "glycine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "5,10-methylene-H4 folate",
+            "Name": "510methyleneh4folate"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "glycine",
+            "Name": "glycine"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "SHMT",
+            "Name": "shmt"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "H4 folate",
+            "Name": "h4folate"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "glycine",
+            "Name": "glycine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "NADH",
+            "Name": "nadh"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "NAD+",
+            "Name": "nad"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "NADH",
+            "Name": "nadh"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "lipoamide dehydrogenase",
+            "Name": "lipoamidedehydrogenase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T23"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T24"
+        }
+    ]
+}

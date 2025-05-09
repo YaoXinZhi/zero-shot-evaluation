@@ -1,0 +1,112 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "LDL",
+            "Name": "ldl"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "low-density lipoprotein",
+            "Name": "lowdensitylipoprotein"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "LDL",
+            "Name": "ldl"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "HMG-CoA",
+            "Name": "hmgcoa"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "HMG-CoA reductase",
+            "Name": "hmgcoareductase"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "LDL",
+            "Name": "ldl"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "LDL",
+            "Name": "ldl"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "LDL",
+            "Name": "ldl"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "ezetimibe",
+            "Name": "ezetimibe"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "bile acid",
+            "Name": "bileacid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "fibrates",
+            "Name": "fibrates"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "LDL",
+            "Name": "ldl"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "LDL",
+            "Name": "ldl"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T11"
+        }
+    ]
+}

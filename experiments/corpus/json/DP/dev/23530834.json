@@ -1,0 +1,82 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "(S)-Phenylalanine",
+            "Name": "sphenylalanine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "2-Cyanopyrrolidine",
+            "Name": "2cyanopyrrolidine"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "Dipeptidyl Peptidase 4",
+            "Name": "dipeptidylpeptidase4"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "(S)-phenylalanine",
+            "Name": "sphenylalanine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "2-cyanopyrrolidine",
+            "Name": "2cyanopyrrolidine"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "dipeptidyl peptidase 4",
+            "Name": "dipeptidylpeptidase4"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "DPP-4",
+            "Name": "dpp4"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cyclopropyl-substituted phenylalanine",
+            "Name": "cyclopropylsubstitutedphenylalanine"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "DPP-4",
+            "Name": "dpp4"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "DPP-4",
+            "Name": "dpp4"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T8"
+        }
+    ]
+}

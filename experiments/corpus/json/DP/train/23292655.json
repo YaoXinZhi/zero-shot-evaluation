@@ -1,0 +1,77 @@
+{
+    "entities": [
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "ligand-gated ion channels",
+            "Name": "ligandgatedionchannels"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "LGICs",
+            "Name": "lgics"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "amino acids",
+            "Name": "aminoacids"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "aminoacyl-tRNA synthetase",
+            "Name": "aminoacyltrnasynthetase"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "aaRS",
+            "Name": "aars"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "N-methyl-D-aspartate",
+            "Name": "nmethyldaspartate"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "N-methyl-D-aspartate receptors",
+            "Name": "nmethyldaspartatereceptors"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "NMDARs",
+            "Name": "nmdars"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "LGICs",
+            "Name": "lgics"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Part of",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Part of",
+            "source": "T2",
+            "target": "T9"
+        }
+    ]
+}

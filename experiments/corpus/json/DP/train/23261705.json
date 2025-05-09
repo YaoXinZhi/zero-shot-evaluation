@@ -1,0 +1,226 @@
+{
+    "entities": [
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "MTORC1",
+            "Name": "mtorc1"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "mammalian target of rapamycin complex 1",
+            "Name": "mammaliantargetofrapamycincomplex1"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "rapamycin",
+            "Name": "rapamycin"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "MTORC1",
+            "Name": "mtorc1"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "MTORC1",
+            "Name": "mtorc1"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "ERK1/2",
+            "Name": "erk12"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "RPS6KB1",
+            "Name": "rps6kb1"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "RPS6",
+            "Name": "rps6"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PI3-kinase",
+            "Name": "pi3kinase"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "MTORC1",
+            "Name": "mtorc1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "rapamycin",
+            "Name": "rapamycin"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "EIF4EBP1",
+            "Name": "eif4ebp1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "RPS6KB1",
+            "Name": "rps6kb1"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "RPS6",
+            "Name": "rps6"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Mtor",
+            "Name": "mtor"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "MTORC1",
+            "Name": "mtorc1"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "cell cycle regulatory proteins",
+            "Name": "cellcycleregulatoryproteins"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "CDK4",
+            "Name": "cdk4"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "CCND3",
+            "Name": "ccnd3"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "PCNA",
+            "Name": "pcna"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "rapamycin",
+            "Name": "rapamycin"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "MTORC1",
+            "Name": "mtorc1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T4"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T24"
+        }
+    ]
+}

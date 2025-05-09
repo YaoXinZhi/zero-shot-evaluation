@@ -1,0 +1,158 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "NaCl",
+            "Name": "nacl"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "aldosterone",
+            "Name": "aldosterone"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "renin",
+            "Name": "renin"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "angiotensin",
+            "Name": "angiotensin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "angiotensin",
+            "Name": "angiotensin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Losartan",
+            "Name": "losartan"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Perindopril",
+            "Name": "perindopril"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "9 alpha-fluorocortisol",
+            "Name": "9alphafluorocortisol"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "aldosterone",
+            "Name": "aldosterone"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "mineralocorticoid receptor",
+            "Name": "mineralocorticoidreceptor"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "MR",
+            "Name": "mr"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "RU28318",
+            "Name": "ru28318"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "MR",
+            "Name": "mr"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "MR",
+            "Name": "mr"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "potassium canrenoate",
+            "Name": "potassiumcanrenoate"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "collagen",
+            "Name": "collagen"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "aldosterone",
+            "Name": "aldosterone"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "MR",
+            "Name": "mr"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "aldosterone",
+            "Name": "aldosterone"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MR",
+            "Name": "mr"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "aldosterone",
+            "Name": "aldosterone"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T12",
+            "target": "T20"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T12",
+            "target": "T21"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T13"
+        }
+    ]
+}

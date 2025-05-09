@@ -1,0 +1,176 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "thyroid hormone",
+            "Name": "thyroidhormone"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "thyroid hormone deiodinase",
+            "Name": "thyroidhormonedeiodinase"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "OH-BDE",
+            "Name": "ohbde"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Polybrominated diphenyl ethers",
+            "Name": "polybrominateddiphenylethers"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "PBDEs",
+            "Name": "pbdes"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "hydroxylated PBDEs",
+            "Name": "hydroxylatedpbdes"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "OH-BDEs",
+            "Name": "ohbdes"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "thyroid hormone",
+            "Name": "thyroidhormone"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "thyroid hormone",
+            "Name": "thyroidhormone"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "OH-BDE",
+            "Name": "ohbde"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "PBDEs",
+            "Name": "pbdes"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "OH-BDEs",
+            "Name": "ohbdes"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "deiodionases",
+            "Name": "deiodionases"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "thyroid hormone",
+            "Name": "thyroidhormone"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "deiodinase 1",
+            "Name": "deiodinase1"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Dio1",
+            "Name": "dio1"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "deiodinase 2",
+            "Name": "deiodinase2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Dio2",
+            "Name": "dio2"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "deiodinase 3",
+            "Name": "deiodinase3"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Dio3",
+            "Name": "dio3"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "6-OH-BDE-47",
+            "Name": "6ohbde47"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Dio1",
+            "Name": "dio1"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Dio3",
+            "Name": "dio3"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "OH-BDEs",
+            "Name": "ohbdes"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T12",
+            "target": "T23"
+        }
+    ]
+}

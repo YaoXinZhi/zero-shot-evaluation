@@ -1,0 +1,153 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "delta1-pyrroline 5-carboxylate",
+            "Name": "delta1pyrroline5carboxylate"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "delta1-pyrroline 5-carboxylate synthetase",
+            "Name": "delta1pyrroline5carboxylatesynthetase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "delta 1-pyrroline 5-carboxylate",
+            "Name": "delta1pyrroline5carboxylate"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "delta 1-pyrroline 5-carboxylate synthetase",
+            "Name": "delta1pyrroline5carboxylatesynthetase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "P5C synthetase",
+            "Name": "p5csynthetase"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "NAD(P)H",
+            "Name": "nadph"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "L-glutamate",
+            "Name": "lglutamate"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "glutamate semialdehyde",
+            "Name": "glutamatesemialdehyde"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "GSA",
+            "Name": "gsa"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "proline",
+            "Name": "proline"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "human P5C synthetase",
+            "Name": "humanp5csynthetase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "amino acids",
+            "Name": "aminoacids"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "L396S",
+            "Name": "l396s"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "P5C synthetase",
+            "Name": "p5csynthetase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Part of",
+            "source": "T7",
+            "target": "T14"
+        },
+        {
+            "type": "Part of",
+            "source": "T6",
+            "target": "T12"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T13"
+        }
+    ]
+}

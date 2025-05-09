@@ -1,0 +1,138 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Ibrutinib",
+            "Name": "ibrutinib"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Ibrutinib",
+            "Name": "ibrutinib"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Imbruvica(R)",
+            "Name": "imbruvicar"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Bruton's tyrosine kinase",
+            "Name": "brutonstyrosinekinase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "BTK",
+            "Name": "btk"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "B-cell antigen receptor",
+            "Name": "bcellantigenreceptor"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "BTK",
+            "Name": "btk"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ibrutinib",
+            "Name": "ibrutinib"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "TP53",
+            "Name": "tp53"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "ibrutinib",
+            "Name": "ibrutinib"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "ibrutinib",
+            "Name": "ibrutinib"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "ibrutinib",
+            "Name": "ibrutinib"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Ibrutinib",
+            "Name": "ibrutinib"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ibrutinib",
+            "Name": "ibrutinib"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "TP53",
+            "Name": "tp53"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T14"
+        }
+    ]
+}

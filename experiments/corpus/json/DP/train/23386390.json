@@ -1,0 +1,178 @@
+{
+    "entities": [
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "DPP-4",
+            "Name": "dpp4"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "sitagliptin",
+            "Name": "sitagliptin"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "sitagliptin",
+            "Name": "sitagliptin"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "sulfonylureas",
+            "Name": "sulfonylureas"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "\u03b1-glucosidase",
+            "Name": "\u03b1glucosidase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "metformin",
+            "Name": "metformin"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "hemoglobin A1c",
+            "Name": "hemoglobina1c"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "HbA1c",
+            "Name": "hba1c"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "sitagliptin",
+            "Name": "sitagliptin"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "HbA1c",
+            "Name": "hba1c"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "glycated albumin",
+            "Name": "glycatedalbumin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "sitagliptin",
+            "Name": "sitagliptin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "sitagliptin",
+            "Name": "sitagliptin"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "sitagliptin",
+            "Name": "sitagliptin"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "sitagliptin",
+            "Name": "sitagliptin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T22"
+        }
+    ]
+}

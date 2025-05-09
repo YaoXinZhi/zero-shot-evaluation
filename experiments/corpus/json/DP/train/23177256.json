@@ -1,0 +1,156 @@
+{
+    "entities": [
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "c-Myc",
+            "Name": "cmyc"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "10074-G5",
+            "Name": "10074g5"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "c-Myc",
+            "Name": "cmyc"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Myc",
+            "Name": "myc"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "10074-G5",
+            "Name": "10074g5"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "N-([1,1'-biphenyl]-2-yl)-7-nitrobenzo[c][1,2,5]oxadiazol-4-amine",
+            "Name": "n11biphenyl2yl7nitrobenzoc125oxadiazol4amine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Myc",
+            "Name": "myc"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "arginine",
+            "Name": "arginine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "7-nitrobenzofurazan",
+            "Name": "7nitrobenzofurazan"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "ortho-biphenyl",
+            "Name": "orthobiphenyl"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "para-carboxyphenyl",
+            "Name": "paracarboxyphenyl"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "JY-3-094",
+            "Name": "jy3094"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Myc",
+            "Name": "myc"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "Max",
+            "Name": "max"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "JY-3-094",
+            "Name": "jy3094"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Max",
+            "Name": "max"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Max",
+            "Name": "max"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "JY-3-094",
+            "Name": "jy3094"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Myc",
+            "Name": "myc"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T18"
+        },
+        {
+            "type": "Part of",
+            "source": "T1",
+            "target": "T11"
+        }
+    ]
+}

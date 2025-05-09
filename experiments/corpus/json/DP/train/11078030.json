@@ -1,0 +1,102 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "cholinesterase",
+            "Name": "cholinesterase"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "cholinesterase",
+            "Name": "cholinesterase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "donepezil",
+            "Name": "donepezil"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "rivastigmine",
+            "Name": "rivastigmine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "galantamine",
+            "Name": "galantamine"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Rivastigmine",
+            "Name": "rivastigmine"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "BuChE",
+            "Name": "buche"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Galantamine",
+            "Name": "galantamine"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "nicotinic receptors",
+            "Name": "nicotinicreceptors"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T8"
+        }
+    ]
+}

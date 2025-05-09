@@ -1,0 +1,108 @@
+T40	GENE-Y 14 17	EGF
+N1	Name Annotation:T40 Referent:egf
+T41	GENE-Y 18 22	EGFR
+N2	Name Annotation:T41 Referent:egfr
+T11	CHEMICAL 39 68	naphtho[1,2-b]furan-4,5-dione
+N3	Name Annotation:T11 Referent:naphtho12bfuran45dione
+T1	CHEMICAL 120 149	Naphtho[1,2-b]furan-4,5-dione
+N4	Name Annotation:T1 Referent:naphtho12bfuran45dione
+T4	CHEMICAL 151 154	NFD
+N5	Name Annotation:T4 Referent:nfd
+T20	GENE-Y 269 301	epidermal growth factor receptor
+N6	Name Annotation:T20 Referent:epidermalgrowthfactorreceptor
+T21	GENE-Y 303 307	EGFR
+N7	Name Annotation:T21 Referent:egfr
+T22	GENE-Y 432 435	EGF
+N8	Name Annotation:T22 Referent:egf
+T5	CHEMICAL 509 512	NFD
+N9	Name Annotation:T5 Referent:nfd
+T6	CHEMICAL 545 548	NFD
+N10	Name Annotation:T6 Referent:nfd
+T23	GENE-Y 560 563	EGF
+N11	Name Annotation:T23 Referent:egf
+T24	GENE-Y 591 596	c-Jun
+N12	Name Annotation:T24 Referent:cjun
+T25	GENE-Y 601 606	c-Fos
+N13	Name Annotation:T25 Referent:cfos
+T26	GENE-Y 620 625	MMP-9
+N14	Name Annotation:T26 Referent:mmp9
+T7	CHEMICAL 760 763	NFD
+N15	Name Annotation:T7 Referent:nfd
+T27	GENE-Y 774 777	EGF
+N16	Name Annotation:T27 Referent:egf
+T28	GENE-Y 805 817	EGF receptor
+N17	Name Annotation:T28 Referent:egfreceptor
+T29	GENE-Y 819 823	EGFR
+N18	Name Annotation:T29 Referent:egfr
+T8	CHEMICAL 829 849	phosphatidylinositol
+N19	Name Annotation:T8 Referent:phosphatidylinositol
+T30	GENE-N 829 858	phosphatidylinositol 3-kinase
+N20	Name Annotation:T30 Referent:phosphatidylinositol3kinase
+T31	GENE-N 860 864	PI3K
+N21	Name Annotation:T31 Referent:pi3k
+T32	GENE-N 866 869	Akt
+N22	Name Annotation:T32 Referent:akt
+T33	GENE-N 884 888	PI3K
+N23	Name Annotation:T33 Referent:pi3k
+T9	CHEMICAL 900 910	wortmannin
+N24	Name Annotation:T9 Referent:wortmannin
+T34	GENE-Y 934 937	EGF
+N25	Name Annotation:T34 Referent:egf
+T35	GENE-Y 992 996	EGFR
+N26	Name Annotation:T35 Referent:egfr
+T10	CHEMICAL 1007 1013	AG1478
+N27	Name Annotation:T10 Referent:ag1478
+T36	GENE-Y 1024 1027	EGF
+N28	Name Annotation:T36 Referent:egf
+T37	GENE-Y 1036 1041	MMP-9
+N29	Name Annotation:T37 Referent:mmp9
+T38	GENE-N 1112 1116	PI3K
+N30	Name Annotation:T38 Referent:pi3k
+T39	GENE-N 1117 1120	Akt
+N31	Name Annotation:T39 Referent:akt
+T12	GENE-N 1138 1142	PI3K
+N32	Name Annotation:T12 Referent:pi3k
+T13	GENE-N 1143 1146	Akt
+N33	Name Annotation:T13 Referent:akt
+T14	GENE-Y 1178 1182	EGFR
+N34	Name Annotation:T14 Referent:egfr
+T2	CHEMICAL 1223 1226	NFD
+N35	Name Annotation:T2 Referent:nfd
+T15	GENE-Y 1241 1244	EGF
+N36	Name Annotation:T15 Referent:egf
+T16	GENE-Y 1300 1304	EGFR
+N37	Name Annotation:T16 Referent:egfr
+T17	GENE-N 1315 1319	PI3K
+N38	Name Annotation:T17 Referent:pi3k
+T18	GENE-N 1320 1323	Akt
+N39	Name Annotation:T18 Referent:akt
+T19	GENE-Y 1369 1374	MMP-9
+N40	Name Annotation:T19 Referent:mmp9
+T3	CHEMICAL 1450 1453	NFD
+N41	Name Annotation:T3 Referent:nfd
+R1	INHIBITOR Arg1:T11 Arg2:T40
+R2	INHIBITOR Arg1:T11 Arg2:T41
+R3	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T24
+R4	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T25
+R5	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T26
+R6	INHIBITOR Arg1:T6 Arg2:T26
+R7	INHIBITOR Arg1:T7 Arg2:T28
+R8	INHIBITOR Arg1:T7 Arg2:T29
+R9	INHIBITOR Arg1:T7 Arg2:T30
+R10	INHIBITOR Arg1:T7 Arg2:T31
+R11	INHIBITOR Arg1:T7 Arg2:T32
+R12	INHIBITOR Arg1:T9 Arg2:T33
+R13	INHIBITOR Arg1:T9 Arg2:T34
+R14	INHIBITOR Arg1:T10 Arg2:T35
+R15	INHIBITOR Arg1:T10 Arg2:T36
+R16	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T37
+R17	INHIBITOR Arg1:T10 Arg2:T38
+R18	INHIBITOR Arg1:T10 Arg2:T39
+R19	INHIBITOR Arg1:T10 Arg2:T12
+R20	INHIBITOR Arg1:T10 Arg2:T13
+R21	INHIBITOR Arg1:T10 Arg2:T14
+R22	INHIBITOR Arg1:T2 Arg2:T15
+R23	INHIBITOR Arg1:T2 Arg2:T16
+R24	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T17
+R25	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T18
+R26	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T19

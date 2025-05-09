@@ -1,0 +1,163 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "translocator protein TSPO",
+            "Name": "translocatorproteintspo"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "translocator protein (18-kDa) TSPO",
+            "Name": "translocatorprotein18kdatspo"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "carboxy",
+            "Name": "carboxy"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "TSPO",
+            "Name": "tspo"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "ApoE",
+            "Name": "apoe"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "ApoE",
+            "Name": "apoe"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "creatine",
+            "Name": "creatine"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "creatine kinase",
+            "Name": "creatinekinase"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "TSPO",
+            "Name": "tspo"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Part of",
+            "source": "T14",
+            "target": "T21"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T18"
+        },
+        {
+            "type": "Part of",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Part of",
+            "source": "T7",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T15"
+        }
+    ]
+}

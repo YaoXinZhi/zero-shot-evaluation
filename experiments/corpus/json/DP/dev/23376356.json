@@ -1,0 +1,233 @@
+{
+    "entities": [
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "PI3 k",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "p38",
+            "Name": "p38"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "AKT",
+            "Name": "akt"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "mitogen-activated protein kinase",
+            "Name": "mitogenactivatedproteinkinase"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "MAPK",
+            "Name": "mapk"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "AKT",
+            "Name": "akt"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "LY294002",
+            "Name": "ly294002"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "AKT",
+            "Name": "akt"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "p38",
+            "Name": "p38"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "MAPK",
+            "Name": "mapk"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "c-Jun",
+            "Name": "cjun"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "JNK",
+            "Name": "jnk"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "SB203580",
+            "Name": "sb203580"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "p38",
+            "Name": "p38"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "SP600125",
+            "Name": "sp600125"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "JNK",
+            "Name": "jnk"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "LY294002",
+            "Name": "ly294002"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "c-Jun",
+            "Name": "cjun"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "dp5",
+            "Name": "dp5"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "c-Jun",
+            "Name": "cjun"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "AKT",
+            "Name": "akt"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "p38",
+            "Name": "p38"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "MAPK",
+            "Name": "mapk"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "c-Jun",
+            "Name": "cjun"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "dp5",
+            "Name": "dp5"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T17"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T18"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T19"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T20"
+        }
+    ]
+}

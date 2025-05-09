@@ -1,0 +1,216 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "Thiazolidinediones",
+            "Name": "thiazolidinediones"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "TZDs",
+            "Name": "tzds"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "TZD",
+            "Name": "tzd"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "aromatase",
+            "Name": "aromatase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Thiazolidinediones",
+            "Name": "thiazolidinediones"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "TZDs",
+            "Name": "tzds"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "TZDs",
+            "Name": "tzds"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "aromatase",
+            "Name": "aromatase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "TZDs",
+            "Name": "tzds"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "TZD",
+            "Name": "tzd"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "aromatase",
+            "Name": "aromatase"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "testosterone",
+            "Name": "testosterone"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "pioglitazone",
+            "Name": "pioglitazone"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "rosiglitazone",
+            "Name": "rosiglitazone"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "alkaline phosphatase",
+            "Name": "alkalinephosphatase"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "osteocalcin",
+            "Name": "osteocalcin"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "TZDs",
+            "Name": "tzds"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "estradiol",
+            "Name": "estradiol"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "TZDs",
+            "Name": "tzds"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "oleic acid",
+            "Name": "oleicacid"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "TZDs",
+            "Name": "tzds"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "alkaline phosphatase",
+            "Name": "alkalinephosphatase"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "osteocalcin",
+            "Name": "osteocalcin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "TZD",
+            "Name": "tzd"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "alkaline phosphatase",
+            "Name": "alkalinephosphatase"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "osteocalcin",
+            "Name": "osteocalcin"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "aromatase",
+            "Name": "aromatase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T22"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T15",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T20"
+        }
+    ]
+}

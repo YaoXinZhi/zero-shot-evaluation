@@ -1,0 +1,107 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "(99m)Tc-EDDA/tricine-HYNIC-Q-Litorin",
+            "Name": "99mtceddatricinehynicqlitorin"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "gastrin-releasing peptide receptor",
+            "Name": "gastrinreleasingpeptidereceptor"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Bombesin",
+            "Name": "bombesin"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "gastrin-releasing peptide receptor",
+            "Name": "gastrinreleasingpeptidereceptor"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "GRPr",
+            "Name": "grpr"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "hydrazinonicotinamide",
+            "Name": "hydrazinonicotinamide"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "HYNIC",
+            "Name": "hynic"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Litorin",
+            "Name": "litorin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "(99m)Tc",
+            "Name": "99mtc"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "tricine",
+            "Name": "tricine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "ethylenediamine diacetic acid",
+            "Name": "ethylenediaminediaceticacid"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "EDDA",
+            "Name": "edda"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "cysteine",
+            "Name": "cysteine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "(99m)Tc-EDDA-HYNIC-Q-Litorin",
+            "Name": "99mtceddahynicqlitorin"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "(99m)Tc-tricine-HYNIC-Q-Litorin",
+            "Name": "99mtctricinehynicqlitorin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T11",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T11",
+            "target": "T13"
+        }
+    ]
+}

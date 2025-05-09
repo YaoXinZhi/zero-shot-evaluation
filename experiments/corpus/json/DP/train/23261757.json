@@ -1,0 +1,111 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "albumin",
+            "Name": "albumin"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "hemopexin",
+            "Name": "hemopexin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "transferrin",
+            "Name": "transferrin"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "VDBP",
+            "Name": "vdbp"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "gentamicin",
+            "Name": "gentamicin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "nitrate",
+            "Name": "nitrate"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "gentamicin",
+            "Name": "gentamicin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "gentamicin",
+            "Name": "gentamicin"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "albumin",
+            "Name": "albumin"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "hemopexin",
+            "Name": "hemopexin"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "transferrin",
+            "Name": "transferrin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "vitamin D",
+            "Name": "vitamind"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "vitamin D binding protein",
+            "Name": "vitamindbindingprotein"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "gentamicin",
+            "Name": "gentamicin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T14"
+        }
+    ]
+}

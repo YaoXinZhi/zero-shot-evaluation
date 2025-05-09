@@ -1,0 +1,102 @@
+T16	CHEMICAL 0 8	Nitrogen
+N1	Name Annotation:T16 Referent:nitrogen
+T17	CHEMICAL 20 35	bisphosphonates
+N2	Name Annotation:T17 Referent:bisphosphonates
+T33	GENE-N 100 103	Ras
+N3	Name Annotation:T33 Referent:ras
+T34	GENE-Y 127 130	Bim
+N4	Name Annotation:T34 Referent:bim
+T1	CHEMICAL 187 195	Nitrogen
+N5	Name Annotation:T1 Referent:nitrogen
+T3	CHEMICAL 207 222	bisphosphonates
+N6	Name Annotation:T3 Referent:bisphosphonates
+T6	CHEMICAL 224 225	N
+N7	Name Annotation:T6 Referent:n
+T7	CHEMICAL 226 229	BPs
+N8	Name Annotation:T7 Referent:bps
+T19	GENE-N 302 312	G-proteins
+N9	Name Annotation:T19 Referent:gproteins
+T4	CHEMICAL 447 448	N
+N10	Name Annotation:T4 Referent:n
+T5	CHEMICAL 449 452	BPs
+N11	Name Annotation:T5 Referent:bps
+T8	CHEMICAL 583 611	geranylgeranyl pyrophosphate
+N12	Name Annotation:T8 Referent:geranylgeranylpyrophosphate
+T9	CHEMICAL 613 617	GGPP
+N13	Name Annotation:T9 Referent:ggpp
+T10	CHEMICAL 646 647	N
+N14	Name Annotation:T10 Referent:n
+T11	CHEMICAL 648 651	BPs
+N15	Name Annotation:T11 Referent:bps
+T20	GENE-N 676 728	phosphorylated extracellular signal-regulated kinase
+N16	Name Annotation:T20 Referent:phosphorylatedextracellularsignalregulatedkinase
+T21	GENE-N 730 733	ERK
+N17	Name Annotation:T21 Referent:erk
+T22	GENE-Y 739 743	mTOR
+N18	Name Annotation:T22 Referent:mtor
+T23	GENE-N 763 766	Ras
+N19	Name Annotation:T23 Referent:ras
+T24	GENE-Y 792 795	Bim
+N20	Name Annotation:T24 Referent:bim
+T12	CHEMICAL 843 844	N
+N21	Name Annotation:T12 Referent:n
+T13	CHEMICAL 845 848	BPs
+N22	Name Annotation:T13 Referent:bps
+T25	GENE-Y 952 961	caspase-9
+N23	Name Annotation:T25 Referent:caspase9
+T26	GENE-Y 966 975	caspase-3
+N24	Name Annotation:T26 Referent:caspase3
+T27	GENE-Y 991 994	Bim
+N25	Name Annotation:T27 Referent:bim
+T28	GENE-N 1032 1035	Ras
+N26	Name Annotation:T28 Referent:ras
+T29	GENE-N 1036 1039	MEK
+N27	Name Annotation:T29 Referent:mek
+T30	GENE-N 1040 1043	ERK
+N28	Name Annotation:T30 Referent:erk
+T31	GENE-N 1048 1051	Ras
+N29	Name Annotation:T31 Referent:ras
+T32	GENE-Y 1052 1056	mTOR
+N30	Name Annotation:T32 Referent:mtor
+T14	CHEMICAL 1087 1088	N
+N31	Name Annotation:T14 Referent:n
+T15	CHEMICAL 1089 1092	BPs
+N32	Name Annotation:T15 Referent:bps
+T18	GENE-N 1188 1191	Ras
+N33	Name Annotation:T18 Referent:ras
+T2	CHEMICAL 1281 1282	N
+N34	Name Annotation:T2 Referent:n
+R1	INHIBITOR Arg1:T16 Arg2:T33
+R2	INHIBITOR Arg1:T17 Arg2:T33
+R3	ACTIVATOR Arg1:T16 Arg2:T34
+R4	ACTIVATOR Arg1:T17 Arg2:T34
+R5	INHIBITOR Arg1:T1 Arg2:T19
+R6	INHIBITOR Arg1:T3 Arg2:T19
+R7	INHIBITOR Arg1:T6 Arg2:T19
+R8	INHIBITOR Arg1:T7 Arg2:T19
+R9	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T20
+R10	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T22
+R11	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T21
+R12	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T20
+R13	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T21
+R14	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T22
+R15	INHIBITOR Arg1:T10 Arg2:T23
+R16	INHIBITOR Arg1:T11 Arg2:T23
+R17	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T24
+R18	INDIRECT-UPREGULATOR Arg1:T11 Arg2:T24
+R19	ACTIVATOR Arg1:T13 Arg2:T25
+R20	ACTIVATOR Arg1:T13 Arg2:T26
+R21	INDIRECT-UPREGULATOR Arg1:T13 Arg2:T27
+R22	INHIBITOR Arg1:T13 Arg2:T28
+R23	INHIBITOR Arg1:T13 Arg2:T29
+R24	INHIBITOR Arg1:T13 Arg2:T30
+R25	INHIBITOR Arg1:T13 Arg2:T31
+R26	INHIBITOR Arg1:T13 Arg2:T32
+R27	ACTIVATOR Arg1:T12 Arg2:T25
+R28	ACTIVATOR Arg1:T12 Arg2:T26
+R29	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T27
+R30	INHIBITOR Arg1:T12 Arg2:T28
+R31	INHIBITOR Arg1:T12 Arg2:T29
+R32	INHIBITOR Arg1:T12 Arg2:T30
+R33	INHIBITOR Arg1:T12 Arg2:T31
+R34	INHIBITOR Arg1:T12 Arg2:T32

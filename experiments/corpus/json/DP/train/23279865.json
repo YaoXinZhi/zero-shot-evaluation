@@ -1,0 +1,71 @@
+{
+    "entities": [
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "anthra[1,2-d]imidazole-6,11-dione",
+            "Name": "anthra12dimidazole611dione"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "telomerase",
+            "Name": "telomerase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "anthra[1,2-d]imidazole-6,11-dione",
+            "Name": "anthra12dimidazole611dione"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "telomerase",
+            "Name": "telomerase"
+        },
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "hTERT",
+            "Name": "htert"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "hTERT",
+            "Name": "htert"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "hTERT",
+            "Name": "htert"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "telomerase",
+            "Name": "telomerase"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "telomerase",
+            "Name": "telomerase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T8"
+        }
+    ]
+}

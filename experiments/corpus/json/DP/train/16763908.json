@@ -1,0 +1,42 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "amino acids",
+            "Name": "aminoacids"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "acylcarnitines",
+            "Name": "acylcarnitines"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "acarbose",
+            "Name": "acarbose"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "maltase glucoamylase",
+            "Name": "maltaseglucoamylase"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "acid alpha-glucosidase",
+            "Name": "acidalphaglucosidase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T4"
+        }
+    ]
+}

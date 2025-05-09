@@ -1,0 +1,39 @@
+T16	GENE-Y 38 76	human NAD+-dependent deacetylase SIRT5
+N1	Name Annotation:T16 Referent:humannaddependentdeacetylasesirt5
+T8	CHEMICAL 44 48	NAD+
+N2	Name Annotation:T8 Referent:nad
+T9	CHEMICAL 80 87	suramin
+N3	Name Annotation:T9 Referent:suramin
+T1	CHEMICAL 102 108	NAD(+)
+N4	Name Annotation:T1 Referent:nad
+T10	GENE-N 297 304	sirtuin
+N5	Name Annotation:T10 Referent:sirtuin
+T11	GENE-N 415 422	sirtuin
+N6	Name Annotation:T11 Referent:sirtuin
+T2	CHEMICAL 476 483	suramin
+N7	Name Annotation:T2 Referent:suramin
+T12	GENE-Y 512 523	human SIRT5
+N8	Name Annotation:T12 Referent:humansirt5
+T13	GENE-Y 552 586	SIRT5 NAD(+)-dependent deacetylase
+N9	Name Annotation:T13 Referent:sirt5naddependentdeacetylase
+T3	CHEMICAL 558 564	NAD(+)
+N10	Name Annotation:T3 Referent:nad
+T14	GENE-Y 743 748	SIRT5
+N11	Name Annotation:T14 Referent:sirt5
+T4	CHEMICAL 770 773	ADP
+N12	Name Annotation:T4 Referent:adp
+T5	CHEMICAL 801 808	suramin
+N13	Name Annotation:T5 Referent:suramin
+T15	GENE-N 888 895	sirtuin
+N14	Name Annotation:T15 Referent:sirtuin
+T6	CHEMICAL 923 930	suramin
+N15	Name Annotation:T6 Referent:suramin
+T7	CHEMICAL 946 952	NAD(+)
+N16	Name Annotation:T7 Referent:nad
+R1	INHIBITOR Arg1:T9 Arg2:T16
+R2	DIRECT-REGULATOR Arg1:T2 Arg2:T12
+R3	INHIBITOR Arg1:T2 Arg2:T13
+R4	DIRECT-REGULATOR Arg1:T4 Arg2:T14
+R5	DIRECT-REGULATOR Arg1:T5 Arg2:T14
+R6	DIRECT-REGULATOR Arg1:T6 Arg2:T15
+R7	PART-OF Arg1:T7 Arg2:T15

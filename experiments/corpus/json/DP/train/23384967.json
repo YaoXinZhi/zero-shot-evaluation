@@ -1,0 +1,253 @@
+{
+    "entities": [
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "human CYP3A4",
+            "Name": "humancyp3a4"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "rat CYP3A1",
+            "Name": "ratcyp3a1"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "bisphenol A",
+            "Name": "bisphenola"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "diethylstilbestrol",
+            "Name": "diethylstilbestrol"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Bisphenol A",
+            "Name": "bisphenola"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "BPA",
+            "Name": "bpa"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "diethylstilbestrol",
+            "Name": "diethylstilbestrol"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "DES",
+            "Name": "des"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "human pregnane X receptor",
+            "Name": "humanpregnanexreceptor"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "PXR",
+            "Name": "pxr"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "CYP3A4",
+            "Name": "cyp3a4"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "steroid",
+            "Name": "steroid"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "PXR",
+            "Name": "pxr"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "BPA",
+            "Name": "bpa"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "DES",
+            "Name": "des"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "CYP3A4 promoter",
+            "Name": "cyp3a4promoter"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "PXR",
+            "Name": "pxr"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "rat PXR",
+            "Name": "ratpxr"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "BPA",
+            "Name": "bpa"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "DES",
+            "Name": "des"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "CYP3A4",
+            "Name": "cyp3a4"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "BPA",
+            "Name": "bpa"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "human PXR",
+            "Name": "humanpxr"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "CYP3A4",
+            "Name": "cyp3a4"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "BPA",
+            "Name": "bpa"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "DES",
+            "Name": "des"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T19"
+        },
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T20"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T22"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T24"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T24"
+        }
+    ]
+}

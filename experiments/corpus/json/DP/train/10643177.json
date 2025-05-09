@@ -1,0 +1,57 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "cyclooxygenase-2",
+            "Name": "cyclooxygenase2"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "celecoxib",
+            "Name": "celecoxib"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "rofecoxib",
+            "Name": "rofecoxib"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T3"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T3"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T4"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T4"
+        }
+    ]
+}

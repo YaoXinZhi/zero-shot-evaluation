@@ -1,0 +1,94 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "opiate receptors",
+            "Name": "opiatereceptors"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "mu opiate receptor",
+            "Name": "muopiatereceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "11C-carfentanil",
+            "Name": "11ccarfentanil"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "opiate receptor",
+            "Name": "opiatereceptor"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "11C-diprenorphine",
+            "Name": "11cdiprenorphine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "DPN",
+            "Name": "dpn"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "18F-FDG",
+            "Name": "18ffdg"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "11C-diprenorphine",
+            "Name": "11cdiprenorphine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "DPN",
+            "Name": "dpn"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "DPN",
+            "Name": "dpn"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "opiate receptors",
+            "Name": "opiatereceptors"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T10"
+        }
+    ]
+}

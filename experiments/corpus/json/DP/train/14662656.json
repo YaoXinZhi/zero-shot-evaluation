@@ -1,0 +1,154 @@
+{
+    "entities": [
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "complex I",
+            "Name": "complexi"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "cytochrome c oxidase",
+            "Name": "cytochromecoxidase"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "lactic",
+            "Name": "lactic"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "human NDUFV1",
+            "Name": "humanndufv1"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "51 kDa active site subunit of the NADH-ubiquinone oxidoreductase",
+            "Name": "51kdaactivesitesubunitofthenadhubiquinoneoxidoreductase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "NADH",
+            "Name": "nadh"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "complex I",
+            "Name": "complexi"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "nuo-1",
+            "Name": "nuo1"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "NDUFV1",
+            "Name": "ndufv1"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "complex I",
+            "Name": "complexi"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "NADH",
+            "Name": "nadh"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "NDUFV1",
+            "Name": "ndufv1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "riboflavin",
+            "Name": "riboflavin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "thiamine",
+            "Name": "thiamine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "sodium dichloroacetate",
+            "Name": "sodiumdichloroacetate"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "pyruvate",
+            "Name": "pyruvate"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "pyruvate dehydrogenase complex",
+            "Name": "pyruvatedehydrogenasecomplex"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "cytochrome c oxidase",
+            "Name": "cytochromecoxidase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "complexes I and IV",
+            "Name": "complexesiandiv"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "complex I",
+            "Name": "complexi"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "NADH",
+            "Name": "nadh"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T14"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T20"
+        }
+    ]
+}

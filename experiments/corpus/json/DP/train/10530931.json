@@ -1,0 +1,88 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "muscarinic receptor",
+            "Name": "muscarinicreceptor"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "2-carbonyl",
+            "Name": "2carbonyl"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "diphenidol",
+            "Name": "diphenidol"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "2-carbonyl",
+            "Name": "2carbonyl"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "diphenidol",
+            "Name": "diphenidol"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "M2 and M3 muscarinic receptor",
+            "Name": "m2andm3muscarinicreceptor"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "M2",
+            "Name": "m2"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "M1 and M4 receptors",
+            "Name": "m1andm4receptors"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "M2",
+            "Name": "m2"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "diphenidol",
+            "Name": "diphenidol"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "M2",
+            "Name": "m2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T2",
+            "target": "T10"
+        }
+    ]
+}

@@ -1,0 +1,185 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "(R)-4-benzamido-5-oxopentanoic acid",
+            "Name": "r4benzamido5oxopentanoicacid"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "(R)-4-benzamido-5-oxopentanoic acid",
+            "Name": "r4benzamido5oxopentanoicacid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "125I",
+            "Name": "125i"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "CCK-8",
+            "Name": "cck8"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "CCK-A",
+            "Name": "ccka"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "CCK-B",
+            "Name": "cckb"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "CCK receptors",
+            "Name": "cckreceptors"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "[3H]pentagastrin",
+            "Name": "3hpentagastrin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "pentagastrin",
+            "Name": "pentagastrin"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "lorglumide",
+            "Name": "lorglumide"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "CCK-A receptor",
+            "Name": "cckareceptor"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "lorglumide",
+            "Name": "lorglumide"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "CCK-B",
+            "Name": "cckb"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "gastrin receptors",
+            "Name": "gastrinreceptors"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "gastrin receptor",
+            "Name": "gastrinreceptor"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "CCK-B1 receptor",
+            "Name": "cckb1receptor"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "CCK central receptor",
+            "Name": "cckcentralreceptor"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "CCK-B2",
+            "Name": "cckb2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "(R)-4-(3,5-dichlorobenzamido)-5-(8-azaspiro[4.5]decan- 8-yl)-5-oxopentanoic acid",
+            "Name": "r435dichlorobenzamido58azaspiro45decan8yl5oxopentanoicacid"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "CR 2194",
+            "Name": "cr2194"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "pentagastrin",
+            "Name": "pentagastrin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "CR 2194",
+            "Name": "cr2194"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "gastrin receptor",
+            "Name": "gastrinreceptor"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T15"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T9",
+            "target": "T17"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T10",
+            "target": "T18"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T10",
+            "target": "T19"
+        }
+    ]
+}

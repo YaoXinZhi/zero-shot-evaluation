@@ -1,0 +1,65 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Neostigmine",
+            "Name": "neostigmine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Neostigmine",
+            "Name": "neostigmine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "acetylcholine",
+            "Name": "acetylcholine"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "neostigmine",
+            "Name": "neostigmine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "neostigmine",
+            "Name": "neostigmine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "neostigmine",
+            "Name": "neostigmine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "neostigmine",
+            "Name": "neostigmine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T8"
+        }
+    ]
+}

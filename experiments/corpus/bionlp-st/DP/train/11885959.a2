@@ -1,0 +1,64 @@
+T20	GENE-N 37 51	cyclooxygenase
+N1	Name Annotation:T20 Referent:cyclooxygenase
+T5	CHEMICAL 68 77	steroidal
+N2	Name Annotation:T5 Referent:steroidal
+T17	GENE-N 141 155	cyclooxygenase
+N3	Name Annotation:T17 Referent:cyclooxygenase
+T19	GENE-N 157 160	COX
+N4	Name Annotation:T19 Referent:cox
+T2	CHEMICAL 204 218	prostaglandins
+N5	Name Annotation:T2 Referent:prostaglandins
+T3	CHEMICAL 223 235	thromboxanes
+N6	Name Annotation:T3 Referent:thromboxanes
+T4	CHEMICAL 241 257	arachidonic acid
+N7	Name Annotation:T4 Referent:arachidonicacid
+T14	GENE-N 324 336	COX-1 and -2
+N8	Name Annotation:T14 Referent:cox1and2
+T15	GENE-N 399 402	COX
+N9	Name Annotation:T15 Referent:cox
+T16	GENE-N 593 596	COX
+N10	Name Annotation:T16 Referent:cox
+T18	GENE-N 917 920	COX
+N11	Name Annotation:T18 Referent:cox
+T6	CHEMICAL 980 989	rofecoxib
+N12	Name Annotation:T6 Referent:rofecoxib
+T7	CHEMICAL 991 1001	ketoprofen
+N13	Name Annotation:T7 Referent:ketoprofen
+T8	CHEMICAL 1003 1011	suprofen
+N14	Name Annotation:T8 Referent:suprofen
+T9	CHEMICAL 1013 1022	carprofen
+N15	Name Annotation:T9 Referent:carprofen
+T10	CHEMICAL 1024 1033	zomepirac
+N16	Name Annotation:T10 Referent:zomepirac
+T11	CHEMICAL 1035 1047	indomethacin
+N17	Name Annotation:T11 Referent:indomethacin
+T12	CHEMICAL 1049 1059	diclofenac
+N18	Name Annotation:T12 Referent:diclofenac
+T1	CHEMICAL 1064 1081	meclofenamic acid
+N19	Name Annotation:T1 Referent:meclofenamicacid
+T13	GENE-N 1261 1264	COX
+N20	Name Annotation:T13 Referent:cox
+R1	INHIBITOR Arg1:T5 Arg2:T17
+R2	INHIBITOR Arg1:T5 Arg2:T19
+R3	SUBSTRATE Arg1:T4 Arg2:T17
+R4	SUBSTRATE Arg1:T4 Arg2:T19
+R5	PRODUCT-OF Arg1:T2 Arg2:T17
+R6	PRODUCT-OF Arg1:T2 Arg2:T19
+R7	PRODUCT-OF Arg1:T3 Arg2:T17
+R8	PRODUCT-OF Arg1:T3 Arg2:T19
+R9	DIRECT-REGULATOR Arg1:T6 Arg2:T18
+R10	DIRECT-REGULATOR Arg1:T7 Arg2:T18
+R11	DIRECT-REGULATOR Arg1:T8 Arg2:T18
+R12	DIRECT-REGULATOR Arg1:T9 Arg2:T18
+R13	DIRECT-REGULATOR Arg1:T10 Arg2:T18
+R14	DIRECT-REGULATOR Arg1:T11 Arg2:T18
+R15	DIRECT-REGULATOR Arg1:T12 Arg2:T18
+R16	DIRECT-REGULATOR Arg1:T1 Arg2:T18
+R17	INHIBITOR Arg1:T6 Arg2:T18
+R18	INHIBITOR Arg1:T7 Arg2:T18
+R19	INHIBITOR Arg1:T8 Arg2:T18
+R20	INHIBITOR Arg1:T9 Arg2:T18
+R21	INHIBITOR Arg1:T10 Arg2:T18
+R22	INHIBITOR Arg1:T11 Arg2:T18
+R23	INHIBITOR Arg1:T12 Arg2:T18
+R24	INHIBITOR Arg1:T1 Arg2:T18

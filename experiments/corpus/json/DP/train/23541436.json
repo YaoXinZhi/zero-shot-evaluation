@@ -1,0 +1,205 @@
+{
+    "entities": [
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "JNK",
+            "Name": "jnk"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "limonene",
+            "Name": "limonene"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "\u03b3-terpinene",
+            "Name": "\u03b3terpinene"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "NO",
+            "Name": "no"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "prostaglandin E2",
+            "Name": "prostaglandine2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "PGE2",
+            "Name": "pge2"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "inducible nitric oxide synthase",
+            "Name": "induciblenitricoxidesynthase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "cyclooxygenase (COX)-2",
+            "Name": "cyclooxygenasecox2"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "tumor necrosis factor-\u03b1",
+            "Name": "tumornecrosisfactor\u03b1"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "TNF-\u03b1",
+            "Name": "tnf\u03b1"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "interleukin (IL)-1\u03b2",
+            "Name": "interleukinil1\u03b2"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "IL-6",
+            "Name": "il6"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "nuclear factor-\u03baB",
+            "Name": "nuclearfactor\u03bab"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "inhibitor \u03baB-\u03b1",
+            "Name": "inhibitor\u03bab\u03b1"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "c-Jun N-terminal kinase",
+            "Name": "cjunnterminalkinase"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "JNK",
+            "Name": "jnk"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "extracellular signal-regulated kinase",
+            "Name": "extracellularsignalregulatedkinase"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "p38 mitogen-activated protein kinase",
+            "Name": "p38mitogenactivatedproteinkinase"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "JNK",
+            "Name": "jnk"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T13"
+        }
+    ]
+}

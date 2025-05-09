@@ -1,0 +1,168 @@
+{
+    "entities": [
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "L-type calcium channels",
+            "Name": "ltypecalciumchannels"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "calcium",
+            "Name": "calcium"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "dihydropyridines",
+            "Name": "dihydropyridines"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Dihydropyridines",
+            "Name": "dihydropyridines"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "DHPs",
+            "Name": "dhps"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "L-type Ca2+ channels",
+            "Name": "ltypeca2channels"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Nisoldipine",
+            "Name": "nisoldipine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "DHP",
+            "Name": "dhp"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "smooth muscle channel",
+            "Name": "smoothmusclechannel"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "smooth muscle alpha1C",
+            "Name": "smoothmusclealpha1c"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "nisoldipine",
+            "Name": "nisoldipine"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "cardiac channels",
+            "Name": "cardiacchannels"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "smooth muscle channels",
+            "Name": "smoothmusclechannels"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "nisoldipine",
+            "Name": "nisoldipine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "cardiac L-type Ca2+ channels",
+            "Name": "cardiacltypeca2channels"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "DHP",
+            "Name": "dhp"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "DHP receptor",
+            "Name": "dhpreceptor"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "DHP",
+            "Name": "dhp"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T17"
+        }
+    ]
+}

@@ -1,0 +1,199 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "melatonin",
+            "Name": "melatonin"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "melatonin",
+            "Name": "melatonin"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "silymarin",
+            "Name": "silymarin"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Melatonin",
+            "Name": "melatonin"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "silymarin",
+            "Name": "silymarin"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "GSH",
+            "Name": "gsh"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "GSSG",
+            "Name": "gssg"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "Melatonin",
+            "Name": "melatonin"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "silymarin",
+            "Name": "silymarin"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "Bax-alpha",
+            "Name": "baxalpha"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "melatonin",
+            "Name": "melatonin"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "silymarin",
+            "Name": "silymarin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "biliverdin",
+            "Name": "biliverdin"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "biliverdin-IX alpha reductase",
+            "Name": "biliverdinixalphareductase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "sodium",
+            "Name": "sodium"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "vitamin C",
+            "Name": "vitaminc"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "SVCT1",
+            "Name": "svct1"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "SVCT2",
+            "Name": "svct2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "melatonin",
+            "Name": "melatonin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "biliverdin",
+            "Name": "biliverdin"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "biliverdin-IX alpha reductase",
+            "Name": "biliverdinixalphareductase"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "SVCT2",
+            "Name": "svct2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "melatonin",
+            "Name": "melatonin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "silymarin",
+            "Name": "silymarin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "melatonin",
+            "Name": "melatonin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T16",
+            "target": "T26"
+        },
+        {
+            "type": "Activator",
+            "source": "T17",
+            "target": "T26"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T23"
+        }
+    ]
+}

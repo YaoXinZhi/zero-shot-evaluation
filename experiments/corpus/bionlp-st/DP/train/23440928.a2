@@ -1,0 +1,57 @@
+T14	CHEMICAL 0 9	Carnosine
+N1	Name Annotation:T14 Referent:carnosine
+T26	GENE-Y 19 25	Aβ(42)
+N2	Name Annotation:T26 Referent:aβ42
+T15	CHEMICAL 56 57	H
+N3	Name Annotation:T15 Referent:h
+T19	GENE-Y 137 146	amyloid-β
+N4	Name Annotation:T19 Referent:amyloidβ
+T21	GENE-Y 156 158	Aβ
+N5	Name Annotation:T21 Referent:aβ
+T17	GENE-Y 262 264	Aβ
+N6	Name Annotation:T17 Referent:aβ
+T8	CHEMICAL 408 417	carnosine
+N7	Name Annotation:T8 Referent:carnosine
+T9	CHEMICAL 421 430	dipeptide
+N8	Name Annotation:T9 Referent:dipeptide
+T20	GENE-Y 468 470	Aβ
+N9	Name Annotation:T20 Referent:aβ
+T10	CHEMICAL 534 546	thioflavin T
+N10	Name Annotation:T10 Referent:thioflavint
+T11	CHEMICAL 584 593	carnosine
+N11	Name Annotation:T11 Referent:carnosine
+T22	GENE-Y 641 645	Aβ42
+N12	Name Annotation:T22 Referent:aβ42
+T23	GENE-N 671 678	amyloid
+N13	Name Annotation:T23 Referent:amyloid
+T12	CHEMICAL 738 747	carnosine
+N14	Name Annotation:T12 Referent:carnosine
+T24	GENE-Y 785 789	Aβ42
+N15	Name Annotation:T24 Referent:aβ42
+T25	GENE-Y 983 990	Aβ12-28
+N16	Name Annotation:T25 Referent:aβ1228
+T13	CHEMICAL 1069 1078	carnosine
+N17	Name Annotation:T13 Referent:carnosine
+T1	CHEMICAL 1171 1180	carnosine
+N18	Name Annotation:T1 Referent:carnosine
+T2	CHEMICAL 1250 1258	hydrogen
+N19	Name Annotation:T2 Referent:hydrogen
+T16	GENE-Y 1380 1382	Aβ
+N20	Name Annotation:T16 Referent:aβ
+T3	CHEMICAL 1383 1395	heptapeptide
+N21	Name Annotation:T3 Referent:heptapeptide
+T4	CHEMICAL 1415 1424	carnosine
+N22	Name Annotation:T4 Referent:carnosine
+T5	CHEMICAL 1480 1488	hydrogen
+N23	Name Annotation:T5 Referent:hydrogen
+T6	CHEMICAL 1646 1655	carnosine
+N24	Name Annotation:T6 Referent:carnosine
+T18	GENE-Y 1685 1687	Aβ
+N25	Name Annotation:T18 Referent:aβ
+T7	CHEMICAL 1758 1766	hydrogen
+N26	Name Annotation:T7 Referent:hydrogen
+R1	INDIRECT-DOWNREGULATOR Arg1:T14 Arg2:T26
+R2	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T22
+R3	INHIBITOR Arg1:T11 Arg2:T23
+R4	DIRECT-REGULATOR Arg1:T3 Arg2:T16
+R5	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T16

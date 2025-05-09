@@ -1,0 +1,79 @@
+T13	CHEMICAL 0 9	Metformin
+N1	Name Annotation:T13 Referent:metformin
+T32	GENE-Y 28 35	ghrelin
+N2	Name Annotation:T32 Referent:ghrelin
+T14	CHEMICAL 54 57	AMP
+N3	Name Annotation:T14 Referent:amp
+T33	GENE-Y 54 82	AMP-activated protein kinase
+N4	Name Annotation:T33 Referent:ampactivatedproteinkinase
+T3	CHEMICAL 135 144	Metformin
+N5	Name Annotation:T3 Referent:metformin
+T12	CHEMICAL 211 220	Metformin
+N6	Name Annotation:T12 Referent:metformin
+T16	GENE-N 287 305	orexigenic hormone
+N7	Name Annotation:T16 Referent:orexigenichormone
+T17	GENE-Y 306 313	ghrelin
+N8	Name Annotation:T17 Referent:ghrelin
+T2	CHEMICAL 331 340	Metformin
+N9	Name Annotation:T2 Referent:metformin
+T18	GENE-Y 358 365	ghrelin
+N10	Name Annotation:T18 Referent:ghrelin
+T4	CHEMICAL 417 426	Metformin
+N11	Name Annotation:T4 Referent:metformin
+T19	GENE-Y 445 452	ghrelin
+N12	Name Annotation:T19 Referent:ghrelin
+T20	GENE-Y 464 474	proghrelin
+N13	Name Annotation:T20 Referent:proghrelin
+T5	CHEMICAL 509 532	adenosine monophosphate
+N14	Name Annotation:T5 Referent:adenosinemonophosphate
+T21	GENE-Y 509 557	adenosine monophosphate-activated protein kinase
+N15	Name Annotation:T21 Referent:adenosinemonophosphateactivatedproteinkinase
+T22	GENE-Y 559 563	AMPK
+N16	Name Annotation:T22 Referent:ampk
+T6	CHEMICAL 580 589	Metformin
+N17	Name Annotation:T6 Referent:metformin
+T23	GENE-Y 612 619	ghrelin
+N18	Name Annotation:T23 Referent:ghrelin
+T24	GENE-Y 634 644	proghrelin
+N19	Name Annotation:T24 Referent:proghrelin
+T25	GENE-Y 723 727	AMPK
+N20	Name Annotation:T25 Referent:ampk
+T7	CHEMICAL 738 748	compound C
+N21	Name Annotation:T7 Referent:compoundc
+T26	GENE-Y 767 771	AMPK
+N22	Name Annotation:T26 Referent:ampk
+T8	CHEMICAL 782 833	5-amino-1-β-D-ribofuranosyl-imidazole-4-carboxamide
+N23	Name Annotation:T8 Referent:5amino1βdribofuranosylimidazole4carboxamide
+T9	CHEMICAL 835 840	AICAR
+N24	Name Annotation:T9 Referent:aicar
+T27	GENE-Y 866 873	ghrelin
+N25	Name Annotation:T27 Referent:ghrelin
+T28	GENE-Y 899 906	ghrelin
+N26	Name Annotation:T28 Referent:ghrelin
+T29	GENE-Y 935 939	AMPK
+N27	Name Annotation:T29 Referent:ampk
+T10	CHEMICAL 950 959	Metformin
+N28	Name Annotation:T10 Referent:metformin
+T30	GENE-Y 1016 1044	phosphorylated (active) AMPK
+N29	Name Annotation:T30 Referent:phosphorylatedactiveampk
+T11	CHEMICAL 1068 1077	Metformin
+N30	Name Annotation:T11 Referent:metformin
+T31	GENE-Y 1104 1111	ghrelin
+N31	Name Annotation:T31 Referent:ghrelin
+T15	GENE-Y 1145 1149	AMPK
+N32	Name Annotation:T15 Referent:ampk
+T1	CHEMICAL 1223 1232	Metformin
+N33	Name Annotation:T1 Referent:metformin
+R1	INDIRECT-DOWNREGULATOR Arg1:T13 Arg2:T32
+R2	INDIRECT-DOWNREGULATOR Arg1:T12 Arg2:T16
+R3	INDIRECT-DOWNREGULATOR Arg1:T12 Arg2:T17
+R4	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T23
+R5	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T24
+R6	INHIBITOR Arg1:T7 Arg2:T25
+R7	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T23
+R8	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T24
+R9	ACTIVATOR Arg1:T8 Arg2:T26
+R10	ACTIVATOR Arg1:T9 Arg2:T26
+R11	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T27
+R12	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T30
+R13	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T31

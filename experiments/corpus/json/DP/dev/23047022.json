@@ -1,0 +1,284 @@
+{
+    "entities": [
+        {
+            "id": "T37",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T36",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "acetylcholine",
+            "Name": "acetylcholine"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "amyloid precursor protein",
+            "Name": "amyloidprecursorprotein"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "APP",
+            "Name": "app"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "transmembrane domain",
+            "Name": "transmembranedomain"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Proline",
+            "Name": "proline"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "Proline Rich Membrane Anchor",
+            "Name": "prolinerichmembraneanchor"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "PRiMA",
+            "Name": "prima"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "butyrylcholinesterase",
+            "Name": "butyrylcholinesterase"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "BChE",
+            "Name": "bche"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "BChE",
+            "Name": "bche"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "EDTA",
+            "Name": "edta"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "batimastat",
+            "Name": "batimastat"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "GM6001",
+            "Name": "gm6001"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "metalloprotease",
+            "Name": "metalloprotease"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "thiol",
+            "Name": "thiol"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "thiol isomerase",
+            "Name": "thiolisomerase"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "muscarinic acetylcholine receptor",
+            "Name": "muscarinicacetylcholinereceptor"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "acetylcholine",
+            "Name": "acetylcholine"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "mAChR",
+            "Name": "machr"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "carbachol",
+            "Name": "carbachol"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "muscarine",
+            "Name": "muscarine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "carbachol",
+            "Name": "carbachol"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "mAChR",
+            "Name": "machr"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "atropine",
+            "Name": "atropine"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "amyloid fibrils",
+            "Name": "amyloidfibrils"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "BChE",
+            "Name": "bche"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T36"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T24"
+        },
+        {
+            "type": "Agonist",
+            "source": "T7",
+            "target": "T16"
+        },
+        {
+            "type": "Agonist",
+            "source": "T8",
+            "target": "T16"
+        },
+        {
+            "type": "Agonist",
+            "source": "T7",
+            "target": "T17"
+        },
+        {
+            "type": "Agonist",
+            "source": "T8",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T15"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T10",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T15"
+        }
+    ]
+}

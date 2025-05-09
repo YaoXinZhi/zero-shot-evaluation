@@ -1,0 +1,67 @@
+T22	GENE-Y 49 69	acetylcholinesterase
+N1	Name Annotation:T22 Referent:acetylcholinesterase
+T16	CHEMICAL 81 97	organophosphates
+N2	Name Annotation:T16 Referent:organophosphates
+T19	GENE-Y 126 152	mouse acetylcholinesterase
+N3	Name Annotation:T19 Referent:mouseacetylcholinesterase
+T20	GENE-Y 154 158	AChE
+N4	Name Annotation:T20 Referent:ache
+T21	GENE-Y 160 170	EC 3.1.1.7
+N5	Name Annotation:T21 Referent:ec3117
+T13	CHEMICAL 175 183	paraoxon
+N6	Name Annotation:T13 Referent:paraoxon
+T14	CHEMICAL 185 192	haloxon
+N7	Name Annotation:T14 Referent:haloxon
+T15	CHEMICAL 194 198	DDVP
+N8	Name Annotation:T15 Referent:ddvp
+T2	CHEMICAL 226 257	alkyl methylphosphonyl thioates
+N9	Name Annotation:T2 Referent:alkylmethylphosphonylthioates
+T3	CHEMICAL 271 306	alkyl methylphosphonyl thiocholines
+N10	Name Annotation:T3 Referent:alkylmethylphosphonylthiocholines
+T18	GENE-Y 352 356	AChE
+N11	Name Annotation:T18 Referent:ache
+T4	CHEMICAL 385 394	gallamine
+N12	Name Annotation:T4 Referent:gallamine
+T5	CHEMICAL 396 410	d-tubocurarine
+N13	Name Annotation:T5 Referent:dtubocurarine
+T6	CHEMICAL 412 421	propidium
+N14	Name Annotation:T6 Referent:propidium
+T7	CHEMICAL 423 431	atropine
+N15	Name Annotation:T7 Referent:atropine
+T8	CHEMICAL 451 459	coumarin
+N16	Name Annotation:T8 Referent:coumarin
+T9	CHEMICAL 485 494	coumarins
+N17	Name Annotation:T9 Referent:coumarins
+T10	CHEMICAL 572 588	organophosphates
+N18	Name Annotation:T10 Referent:organophosphates
+T11	CHEMICAL 627 643	organophosphates
+N19	Name Annotation:T11 Referent:organophosphates
+T12	CHEMICAL 851 855	DDVP
+N20	Name Annotation:T12 Referent:ddvp
+T17	GENE-Y 1142 1146	AChE
+N21	Name Annotation:T17 Referent:ache
+T1	CHEMICAL 1211 1226	organophosphate
+N22	Name Annotation:T1 Referent:organophosphate
+R1	INHIBITOR Arg1:T16 Arg2:T22
+R2	INHIBITOR Arg1:T13 Arg2:T19
+R3	INHIBITOR Arg1:T13 Arg2:T20
+R4	INHIBITOR Arg1:T13 Arg2:T21
+R5	INHIBITOR Arg1:T14 Arg2:T19
+R6	INHIBITOR Arg1:T14 Arg2:T20
+R7	INHIBITOR Arg1:T14 Arg2:T21
+R8	INHIBITOR Arg1:T15 Arg2:T19
+R9	INHIBITOR Arg1:T15 Arg2:T20
+R10	INHIBITOR Arg1:T15 Arg2:T21
+R11	INHIBITOR Arg1:T2 Arg2:T19
+R12	INHIBITOR Arg1:T2 Arg2:T20
+R13	INHIBITOR Arg1:T2 Arg2:T21
+R14	INHIBITOR Arg1:T3 Arg2:T19
+R15	INHIBITOR Arg1:T3 Arg2:T20
+R16	INHIBITOR Arg1:T3 Arg2:T21
+R17	INHIBITOR Arg1:T4 Arg2:T18
+R18	INHIBITOR Arg1:T5 Arg2:T18
+R19	INHIBITOR Arg1:T6 Arg2:T18
+R20	INHIBITOR Arg1:T7 Arg2:T18
+R21	INHIBITOR Arg1:T8 Arg2:T18
+R22	INHIBITOR Arg1:T1 Arg2:T17
+R23	DIRECT-REGULATOR Arg1:T1 Arg2:T17

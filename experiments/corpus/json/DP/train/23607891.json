@@ -1,0 +1,168 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Magnetite",
+            "Name": "magnetite"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "magnetite",
+            "Name": "magnetite"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "magnetite",
+            "Name": "magnetite"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "superoxide",
+            "Name": "superoxide"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "GSH",
+            "Name": "gsh"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "magnetite",
+            "Name": "magnetite"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "catalase",
+            "Name": "catalase"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "CAT",
+            "Name": "cat"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "diphenyleneiodonium",
+            "Name": "diphenyleneiodonium"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "DPI",
+            "Name": "dpi"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "NADPH",
+            "Name": "nadph"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "NADPH-oxidase",
+            "Name": "nadphoxidase"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "NOX",
+            "Name": "nox"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "NOX",
+            "Name": "nox"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "apocynin",
+            "Name": "apocynin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "iron",
+            "Name": "iron"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "p53",
+            "Name": "p53"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "p21",
+            "Name": "p21"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "magnetite",
+            "Name": "magnetite"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "p21",
+            "Name": "p21"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "caspase 3/7",
+            "Name": "caspase37"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T8",
+            "target": "T18"
+        },
+        {
+            "type": "Activator",
+            "source": "T8",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T13"
+        }
+    ]
+}

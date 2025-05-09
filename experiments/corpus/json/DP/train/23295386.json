@@ -1,0 +1,206 @@
+{
+    "entities": [
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "human hepatic cytochrome P450 3A4",
+            "Name": "humanhepaticcytochromep4503a4"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "CYP3A4",
+            "Name": "cyp3a4"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "peroxisome proliferator-activated receptor alpha",
+            "Name": "peroxisomeproliferatoractivatedreceptoralpha"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "PPAR\u03b1",
+            "Name": "ppar\u03b1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "nuclear receptor",
+            "Name": "nuclearreceptor"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "peroxisome proliferator-activated receptor (PPAR)\u03b1",
+            "Name": "peroxisomeproliferatoractivatedreceptorppar\u03b1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "fatty acid",
+            "Name": "fattyacid"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "PPAR\u03b1",
+            "Name": "ppar\u03b1"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "cytochrome P450 3A4",
+            "Name": "cytochromep4503a4"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "PPAR\u03b1-binding regions",
+            "Name": "ppar\u03b1bindingregions"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "PBR-I, -II, and -III",
+            "Name": "pbriiiandiii"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "CYP3A4",
+            "Name": "cyp3a4"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "humanized CYP3A4/3A7",
+            "Name": "humanizedcyp3a43a7"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "CYP3A4",
+            "Name": "cyp3a4"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "4-chloro-6-(2,3-xylidino)-2-pyrimidinylthio]acetic acid",
+            "Name": "4chloro623xylidino2pyrimidinylthioaceticacid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "WY14,643",
+            "Name": "wy14643"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "PBRs",
+            "Name": "pbrs"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "PPAR\u03b1",
+            "Name": "ppar\u03b1"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "WY14,643",
+            "Name": "wy14643"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "PPAR\u03b1",
+            "Name": "ppar\u03b1"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "CYPs, including 1A1, 1A2, 2B6, 2C8, 3A4, and 7A1",
+            "Name": "cypsincluding1a11a22b62c83a4and7a1"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "2C9, 2C19, 2D6, or 2E1",
+            "Name": "2c92c192d6or2e1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "1-palmitoyl-2-oleoyl-sn-glycerol-3-phosphocholine",
+            "Name": "1palmitoyl2oleoylsnglycerol3phosphocholine"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "PPAR\u03b1",
+            "Name": "ppar\u03b1"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "CYP3A4",
+            "Name": "cyp3a4"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "WY14,643",
+            "Name": "wy14643"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PPAR\u03b1",
+            "Name": "ppar\u03b1"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "CYP3A4",
+            "Name": "cyp3a4"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PPAR\u03b1",
+            "Name": "ppar\u03b1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T23"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T11"
+        }
+    ]
+}

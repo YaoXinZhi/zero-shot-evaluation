@@ -1,0 +1,143 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "nicotinamide",
+            "Name": "nicotinamide"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "BRN-103",
+            "Name": "brn103"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "nicotinamide",
+            "Name": "nicotinamide"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "vascular endothelial growth factor",
+            "Name": "vascularendothelialgrowthfactor"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "nicotinamide",
+            "Name": "nicotinamide"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "2-{1-[1-(6-chloro-5-fluoropyrimidin-4-yl)ethyl]piperidin-4-ylamino}-N-(3-chlorophenyl) pyridine-3-carboxamide",
+            "Name": "2116chloro5fluoropyrimidin4ylethylpiperidin4ylaminon3chlorophenylpyridine3carboxamide"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "BRN-250",
+            "Name": "brn250"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "BRN-250",
+            "Name": "brn250"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "VEGF receptor 2",
+            "Name": "vegfreceptor2"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "VEGFR2",
+            "Name": "vegfr2"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "AKT",
+            "Name": "akt"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "BRN-250",
+            "Name": "brn250"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T16"
+        }
+    ]
+}

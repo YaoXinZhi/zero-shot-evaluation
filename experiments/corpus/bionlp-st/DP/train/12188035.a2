@@ -1,0 +1,56 @@
+T23	GENE-Y 36 59	glucocorticoid receptor
+N1	Name Annotation:T23 Referent:glucocorticoidreceptor
+T12	CHEMICAL 103 123	betamethasone-esters
+N2	Name Annotation:T12 Referent:betamethasoneesters
+T17	GENE-Y 392 415	glucocorticoid receptor
+N3	Name Annotation:T17 Referent:glucocorticoidreceptor
+T18	GENE-Y 417 419	GR
+N4	Name Annotation:T18 Referent:gr
+T19	GENE-Y 650 652	GR
+N5	Name Annotation:T19 Referent:gr
+T5	CHEMICAL 654 667	Dexamethasone
+N6	Name Annotation:T5 Referent:dexamethasone
+T6	CHEMICAL 669 672	DEX
+N7	Name Annotation:T6 Referent:dex
+T7	CHEMICAL 675 688	betamethasone
+N8	Name Annotation:T7 Referent:betamethasone
+T8	CHEMICAL 690 692	BM
+N9	Name Annotation:T8 Referent:bm
+T20	GENE-N 833 848	human or rat GR
+N10	Name Annotation:T20 Referent:humanorratgr
+T21	GENE-Y 940 948	human GR
+N11	Name Annotation:T21 Referent:humangr
+T9	CHEMICAL 965 967	BM
+N12	Name Annotation:T9 Referent:bm
+T22	GENE-Y 1056 1062	rat GR
+N13	Name Annotation:T22 Referent:ratgr
+T10	CHEMICAL 1072 1074	BM
+N14	Name Annotation:T10 Referent:bm
+T11	CHEMICAL 1090 1093	DEX
+N15	Name Annotation:T11 Referent:dex
+T1	CHEMICAL 1195 1197	BM
+N16	Name Annotation:T1 Referent:bm
+T2	CHEMICAL 1215 1223	tyrosine
+N17	Name Annotation:T2 Referent:tyrosine
+T13	GENE-Y 1215 1240	tyrosine aminotransferase
+N18	Name Annotation:T13 Referent:tyrosineaminotransferase
+T14	GENE-Y 1264 1266	GR
+N19	Name Annotation:T14 Referent:gr
+T15	GENE-N 1385 1401	human and rat GR
+N20	Name Annotation:T15 Referent:humanandratgr
+T3	CHEMICAL 1467 1469	BM
+N21	Name Annotation:T3 Referent:bm
+T16	GENE-Y 1482 1488	rat GR
+N22	Name Annotation:T16 Referent:ratgr
+T4	CHEMICAL 1672 1674	BM
+N23	Name Annotation:T4 Referent:bm
+R1	DIRECT-REGULATOR Arg1:T12 Arg2:T23
+R2	AGONIST Arg1:T5 Arg2:T20
+R3	AGONIST Arg1:T6 Arg2:T20
+R4	AGONIST Arg1:T7 Arg2:T20
+R5	AGONIST Arg1:T8 Arg2:T20
+R6	AGONIST Arg1:T9 Arg2:T22
+R7	AGONIST-ACTIVATOR Arg1:T10 Arg2:T22
+R8	AGONIST-ACTIVATOR Arg1:T11 Arg2:T22
+R9	AGONIST Arg1:T1 Arg2:T14
+R10	AGONIST Arg1:T3 Arg2:T16

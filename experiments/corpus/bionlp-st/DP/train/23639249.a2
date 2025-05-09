@@ -1,0 +1,81 @@
+T14	CHEMICAL 0 17	Indoxyl 3-sulfate
+N1	Name Annotation:T14 Referent:indoxyl3sulfate
+T29	GENE-Y 79 84	c-Src
+N2	Name Annotation:T29 Referent:csrc
+T30	GENE-Y 89 94	STAT3
+N3	Name Annotation:T30 Referent:stat3
+T26	GENE-Y 157 160	AhR
+N4	Name Annotation:T26 Referent:ahr
+T18	GENE-Y 336 339	AhR
+N5	Name Annotation:T18 Referent:ahr
+T4	CHEMICAL 354 371	indoxyl 3-sulfate
+N6	Name Annotation:T4 Referent:indoxyl3sulfate
+T5	CHEMICAL 373 376	I3S
+N7	Name Annotation:T5 Referent:i3s
+T6	CHEMICAL 459 462	I3S
+N8	Name Annotation:T6 Referent:i3s
+T19	GENE-Y 487 492	RORγt
+N9	Name Annotation:T19 Referent:rorγt
+T7	CHEMICAL 616 651	2,3,7,8-tetrachlorodibenzo-p-dioxin
+N10	Name Annotation:T7 Referent:2378tetrachlorodibenzopdioxin
+T8	CHEMICAL 653 657	TCDD
+N11	Name Annotation:T8 Referent:tcdd
+T20	GENE-Y 675 678	AhR
+N12	Name Annotation:T20 Referent:ahr
+T21	GENE-Y 701 706	STAT3
+N13	Name Annotation:T21 Referent:stat3
+T22	GENE-Y 739 743	IL-6
+N14	Name Annotation:T22 Referent:il6
+T9	CHEMICAL 838 841	I3S
+N15	Name Annotation:T9 Referent:i3s
+T10	CHEMICAL 846 850	TCDD
+N16	Name Annotation:T10 Referent:tcdd
+T23	GENE-Y 871 876	c-Src
+N17	Name Annotation:T23 Referent:csrc
+T24	GENE-Y 913 916	AhR
+N18	Name Annotation:T24 Referent:ahr
+T11	CHEMICAL 948 951	I3S
+N19	Name Annotation:T11 Referent:i3s
+T12	CHEMICAL 956 960	TCDD
+N20	Name Annotation:T12 Referent:tcdd
+T25	GENE-Y 978 983	c-Src
+N21	Name Annotation:T25 Referent:csrc
+T13	CHEMICAL 996 1060	4-amino-5-(4-chlorophenyl)-7-(t-butyl) pyrazolo[3,4-d]pyrimidine
+N22	Name Annotation:T13 Referent:4amino54chlorophenyl7tbutylpyrazolo34dpyrimidine
+T27	GENE-Y 1101 1106	c-Src
+N23	Name Annotation:T27 Referent:csrc
+T28	GENE-Y 1111 1116	STAT3
+N24	Name Annotation:T28 Referent:stat3
+T1	CHEMICAL 1171 1174	I3S
+N25	Name Annotation:T1 Referent:i3s
+T2	CHEMICAL 1179 1183	TCDD
+N26	Name Annotation:T2 Referent:tcdd
+T15	GENE-Y 1258 1263	c-Src
+N27	Name Annotation:T15 Referent:csrc
+T16	GENE-Y 1290 1295	STAT3
+N28	Name Annotation:T16 Referent:stat3
+T3	CHEMICAL 1331 1334	I3S
+N29	Name Annotation:T3 Referent:i3s
+T17	GENE-Y 1463 1468	IL-17
+N30	Name Annotation:T17 Referent:il17
+R1	ACTIVATOR Arg1:T14 Arg2:T29
+R2	ACTIVATOR Arg1:T14 Arg2:T30
+R3	ACTIVATOR Arg1:T4 Arg2:T18
+R4	ACTIVATOR Arg1:T5 Arg2:T18
+R5	INDIRECT-UPREGULATOR Arg1:T6 Arg2:T19
+R6	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T19
+R7	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T19
+R8	DIRECT-REGULATOR Arg1:T7 Arg2:T20
+R9	DIRECT-REGULATOR Arg1:T8 Arg2:T20
+R10	ACTIVATOR Arg1:T9 Arg2:T21
+R11	ACTIVATOR Arg1:T10 Arg2:T21
+R12	ACTIVATOR Arg1:T11 Arg2:T23
+R13	ACTIVATOR Arg1:T12 Arg2:T23
+R14	INHIBITOR Arg1:T13 Arg2:T25
+R15	INHIBITOR Arg1:T13 Arg2:T27
+R16	INHIBITOR Arg1:T13 Arg2:T28
+R17	ACTIVATOR Arg1:T1 Arg2:T15
+R18	ACTIVATOR Arg1:T2 Arg2:T15
+R19	ACTIVATOR Arg1:T1 Arg2:T16
+R20	ACTIVATOR Arg1:T2 Arg2:T16
+R21	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T17

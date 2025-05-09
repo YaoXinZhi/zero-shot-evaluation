@@ -1,0 +1,158 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Curcumin",
+            "Name": "curcumin"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "ovalbumin",
+            "Name": "ovalbumin"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "curcumin",
+            "Name": "curcumin"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "ovalbumin",
+            "Name": "ovalbumin"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "OVA",
+            "Name": "ova"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "ovalbumin",
+            "Name": "ovalbumin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "dexamethasone",
+            "Name": "dexamethasone"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "curcumin",
+            "Name": "curcumin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "hematoxylin",
+            "Name": "hematoxylin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "eosin",
+            "Name": "eosin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "curcumin",
+            "Name": "curcumin"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "OVA",
+            "Name": "ova"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "interleukin (IL)-17A",
+            "Name": "interleukinil17a"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "IL-10",
+            "Name": "il10"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "curcumin",
+            "Name": "curcumin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "OVA",
+            "Name": "ova"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "curcumin",
+            "Name": "curcumin"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "ovalbumin",
+            "Name": "ovalbumin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "curcumin",
+            "Name": "curcumin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "curcumin",
+            "Name": "curcumin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T20"
+        }
+    ]
+}

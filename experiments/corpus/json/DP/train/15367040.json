@@ -1,0 +1,53 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "levetiracetam",
+            "Name": "levetiracetam"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "synaptic vesicle protein",
+            "Name": "synapticvesicleprotein"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "levetiracetam",
+            "Name": "levetiracetam"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Levetiracetam",
+            "Name": "levetiracetam"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "synaptic vesicle protein",
+            "Name": "synapticvesicleprotein"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "SV2A",
+            "Name": "sv2a"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T4"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T5"
+        }
+    ]
+}

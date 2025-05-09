@@ -1,0 +1,242 @@
+{
+    "entities": [
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "propargylamines",
+            "Name": "propargylamines"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "type B monoamine oxidase",
+            "Name": "typebmonoamineoxidase"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "(-)deprenyl",
+            "Name": "deprenyl"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "selegiline",
+            "Name": "selegiline"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "selegiline",
+            "Name": "selegiline"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "selegiline",
+            "Name": "selegiline"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "propargylamines",
+            "Name": "propargylamines"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "(R)(+)-N-propargyl-1-aminoindan",
+            "Name": "rnpropargyl1aminoindan"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "rasagiline",
+            "Name": "rasagiline"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "rasagiline",
+            "Name": "rasagiline"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "N-methyl(R)salsolinol",
+            "Name": "nmethylrsalsolinol"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "NM(R)Sal",
+            "Name": "nmrsal"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "NM(R)Sal",
+            "Name": "nmrsal"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Rasagiline",
+            "Name": "rasagiline"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Bcl-2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "neurotrophic factor",
+            "Name": "neurotrophicfactor"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "glial cell line-derived neurotrophic factor",
+            "Name": "glialcelllinederivedneurotrophicfactor"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "GDNF",
+            "Name": "gdnf"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "propargylamines",
+            "Name": "propargylamines"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "superoxide",
+            "Name": "superoxide"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "superoxide dismutase",
+            "Name": "superoxidedismutase"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "SOD",
+            "Name": "sod"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "catalase",
+            "Name": "catalase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Rasagiline",
+            "Name": "rasagiline"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "propargylamines",
+            "Name": "propargylamines"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T30"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T25"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T26"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T27"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T28"
+        }
+    ]
+}

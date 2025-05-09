@@ -1,0 +1,95 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Aromatase",
+            "Name": "aromatase"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "aromatase",
+            "Name": "aromatase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "fadrozole",
+            "Name": "fadrozole"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "FAD",
+            "Name": "fad"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "gonadotropin",
+            "Name": "gonadotropin"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "LH",
+            "Name": "lh"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "FSH",
+            "Name": "fsh"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "17\u03b2-estradiol",
+            "Name": "17\u03b2estradiol"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "cytochrome P450 (CYP) 19A aromatase",
+            "Name": "cytochromep450cyp19aaromatase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "FAD",
+            "Name": "fad"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "CYP19A",
+            "Name": "cyp19a"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "FAD",
+            "Name": "fad"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "aromatase",
+            "Name": "aromatase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T7"
+        }
+    ]
+}

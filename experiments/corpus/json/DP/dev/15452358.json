@@ -1,0 +1,174 @@
+{
+    "entities": [
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "NR2B",
+            "Name": "nr2b"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "NR2B",
+            "Name": "nr2b"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "CP-101,606",
+            "Name": "cp101606"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "NR2B",
+            "Name": "nr2b"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "CP-101,606",
+            "Name": "cp101606"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "CP-101,606",
+            "Name": "cp101606"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "CP-101,606",
+            "Name": "cp101606"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "CP-101,606",
+            "Name": "cp101606"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "[3H]CP-101,606",
+            "Name": "3hcp101606"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "NR2B",
+            "Name": "nr2b"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "CP-101,606",
+            "Name": "cp101606"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "NR2B",
+            "Name": "nr2b"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "memantine",
+            "Name": "memantine"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "NR2B",
+            "Name": "nr2b"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T12",
+            "target": "T22"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T12",
+            "target": "T21"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T10",
+            "target": "T19"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T10",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T11",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T14"
+        }
+    ]
+}

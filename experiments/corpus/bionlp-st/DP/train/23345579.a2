@@ -1,0 +1,89 @@
+T23	CHEMICAL 55 71	Sp- and Rp-tabun
+N1	Name Annotation:T23 Referent:spandrptabun
+T36	GENE-Y 83 110	human butyrylcholinesterase
+N2	Name Annotation:T36 Referent:humanbutyrylcholinesterase
+T22	CHEMICAL 136 139	P-N
+N3	Name Annotation:T22 Referent:pn
+T11	CHEMICAL 150 165	phosphoramidate
+N4	Name Annotation:T11 Referent:phosphoramidate
+T9	CHEMICAL 178 183	tabun
+N5	Name Annotation:T9 Referent:tabun
+T29	GENE-Y 193 214	butyrylcholinesterase
+N6	Name Annotation:T29 Referent:butyrylcholinesterase
+T32	GENE-Y 216 220	BChE
+N7	Name Annotation:T32 Referent:bche
+T34	GENE-Y 226 246	acetylcholinesterase
+N8	Name Annotation:T34 Referent:acetylcholinesterase
+T6	CHEMICAL 292 298	serine
+N9	Name Annotation:T6 Referent:serine
+T7	CHEMICAL 320 325	alkyl
+N10	Name Annotation:T7 Referent:alkyl
+T8	CHEMICAL 389 394	tabun
+N11	Name Annotation:T8 Referent:tabun
+T10	CHEMICAL 528 529	O
+N12	Name Annotation:T10 Referent:o
+T12	CHEMICAL 544 545	O
+N13	Name Annotation:T12 Referent:o
+T13	CHEMICAL 669 701	tetraisopropyl pyrophosphoramide
+N14	Name Annotation:T13 Referent:tetraisopropylpyrophosphoramide
+T30	GENE-Y 712 716	BChE
+N15	Name Annotation:T30 Referent:bche
+T14	CHEMICAL 745 748	P-N
+N16	Name Annotation:T14 Referent:pn
+T15	CHEMICAL 785 788	P-N
+N17	Name Annotation:T15 Referent:pn
+T31	GENE-N 814 821	trypsin
+N18	Name Annotation:T31 Referent:trypsin
+T33	GENE-N 864 870	pepsin
+N19	Name Annotation:T33 Referent:pepsin
+T16	CHEMICAL 894 897	P-N
+N20	Name Annotation:T16 Referent:pn
+T17	CHEMICAL 906 911	tabun
+N21	Name Annotation:T17 Referent:tabun
+T18	CHEMICAL 946 949	P-O
+N22	Name Annotation:T18 Referent:po
+T19	CHEMICAL 948 949	O
+N23	Name Annotation:T19 Referent:o
+T20	CHEMICAL 1070 1073	P-N
+N24	Name Annotation:T20 Referent:pn
+T35	GENE-Y 1080 1084	BChE
+N25	Name Annotation:T35 Referent:bche
+T21	CHEMICAL 1104 1132	Sp- and Rp-tabun thiocholine
+N26	Name Annotation:T21 Referent:spandrptabunthiocholine
+T1	CHEMICAL 1115 1120	tabun
+N27	Name Annotation:T1 Referent:tabun
+T24	GENE-N 1264 1270	pepsin
+N28	Name Annotation:T24 Referent:pepsin
+T25	GENE-N 1288 1300	FGES198AGAAS
+N29	Name Annotation:T25 Referent:fges198agaas
+T2	CHEMICAL 1306 1326	Sp-tabun thiocholine
+N30	Name Annotation:T2 Referent:sptabunthiocholine
+T26	GENE-N 1429 1441	FGES198AGAAS
+N31	Name Annotation:T26 Referent:fges198agaas
+T3	CHEMICAL 1447 1467	Rp-tabun thiocholine
+N32	Name Annotation:T3 Referent:rptabunthiocholine
+T4	CHEMICAL 1541 1542	O
+N33	Name Annotation:T4 Referent:o
+T27	GENE-Y 1557 1561	BChE
+N34	Name Annotation:T27 Referent:bche
+T5	CHEMICAL 1586 1599	racemic tabun
+N35	Name Annotation:T5 Referent:racemictabun
+T28	GENE-Y 1691 1695	BChE
+N36	Name Annotation:T28 Referent:bche
+R1	INHIBITOR Arg1:T9 Arg2:T29
+R2	INHIBITOR Arg1:T11 Arg2:T29
+R3	INHIBITOR Arg1:T11 Arg2:T32
+R4	INHIBITOR Arg1:T9 Arg2:T32
+R5	INHIBITOR Arg1:T11 Arg2:T34
+R6	INHIBITOR Arg1:T9 Arg2:T34
+R7	PART-OF Arg1:T6 Arg2:T29
+R8	PART-OF Arg1:T6 Arg2:T32
+R9	PART-OF Arg1:T6 Arg2:T34
+R10	INHIBITOR Arg1:T21 Arg2:T35
+R11	INHIBITOR Arg1:T5 Arg2:T27
+R12	DIRECT-REGULATOR Arg1:T5 Arg2:T28
+R13	DIRECT-REGULATOR Arg1:T13 Arg2:T30
+R14	DIRECT-REGULATOR Arg1:T14 Arg2:T30
+R15	SUBSTRATE Arg1:T15 Arg2:T33
+R16	SUBSTRATE Arg1:T2 Arg2:T24
+R17	SUBSTRATE Arg1:T3 Arg2:T24

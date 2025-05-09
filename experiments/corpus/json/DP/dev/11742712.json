@@ -1,0 +1,133 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Gemcitabine",
+            "Name": "gemcitabine"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "pemetrexed disodium",
+            "Name": "pemetrexeddisodium"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Pemetrexed disodium",
+            "Name": "pemetrexeddisodium"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "ALIMTA",
+            "Name": "alimta"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "folate",
+            "Name": "folate"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "thymidylate",
+            "Name": "thymidylate"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "thymidylate synthase",
+            "Name": "thymidylatesynthase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "dihydrofolate",
+            "Name": "dihydrofolate"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "dihydrofolate reductase",
+            "Name": "dihydrofolatereductase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "glycinamide ribonucleotide",
+            "Name": "glycinamideribonucleotide"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "glycinamide ribonucleotide formyltransferase",
+            "Name": "glycinamideribonucleotideformyltransferase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Pemetrexed disodium",
+            "Name": "pemetrexeddisodium"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Gemcitabine",
+            "Name": "gemcitabine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "pyrimidine nucleoside",
+            "Name": "pyrimidinenucleoside"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "gemcitabine",
+            "Name": "gemcitabine"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "pemetrexed",
+            "Name": "pemetrexed"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T16"
+        }
+    ]
+}

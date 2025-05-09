@@ -1,0 +1,212 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Statins",
+            "Name": "statins"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "p21",
+            "Name": "p21"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "histone deacetylase",
+            "Name": "histonedeacetylase"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "HDAC1/2",
+            "Name": "hdac12"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Statins",
+            "Name": "statins"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "3-hydroxy-3-methylglutaryl-CoA",
+            "Name": "3hydroxy3methylglutarylcoa"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "3-hydroxy-3-methylglutaryl-CoA reductase",
+            "Name": "3hydroxy3methylglutarylcoareductase"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "histone deacetylase",
+            "Name": "histonedeacetylase"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "HDAC",
+            "Name": "hdac"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "acetylated histone-H3",
+            "Name": "acetylatedhistoneh3"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "p21",
+            "Name": "p21"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "WAF",
+            "Name": "waf"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "CIP",
+            "Name": "cip"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "carboxylic acid",
+            "Name": "carboxylicacid"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "HDAC2",
+            "Name": "hdac2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "lovastatin",
+            "Name": "lovastatin"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "HDAC2",
+            "Name": "hdac2"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "Sp1",
+            "Name": "sp1"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "p53",
+            "Name": "p53"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "statins-responsive element",
+            "Name": "statinsresponsiveelement"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "p21",
+            "Name": "p21"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "HDAC1/2",
+            "Name": "hdac12"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "CBP",
+            "Name": "cbp"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "histone-H3",
+            "Name": "histoneh3"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "Sp1",
+            "Name": "sp1"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "p21 promoter",
+            "Name": "p21promoter"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "HDAC",
+            "Name": "hdac"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "histone-H3",
+            "Name": "histoneh3"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "p21",
+            "Name": "p21"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "HDAC",
+            "Name": "hdac"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T18"
+        }
+    ]
+}

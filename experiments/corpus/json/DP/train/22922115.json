@@ -1,0 +1,83 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "cholinesterases",
+            "Name": "cholinesterases"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "human butyrylcholinesterase",
+            "Name": "humanbutyrylcholinesterase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Organophosphorus",
+            "Name": "organophosphorus"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "cholinesterases",
+            "Name": "cholinesterases"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "oximes",
+            "Name": "oximes"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "oximes",
+            "Name": "oximes"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "soman",
+            "Name": "soman"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "human butyrylcholinesterase",
+            "Name": "humanbutyrylcholinesterase"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "butyrylcholinesterase",
+            "Name": "butyrylcholinesterase"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "butyrylcholinesterase",
+            "Name": "butyrylcholinesterase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T6"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T7"
+        }
+    ]
+}

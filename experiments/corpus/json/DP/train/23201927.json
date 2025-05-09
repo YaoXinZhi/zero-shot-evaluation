@@ -1,0 +1,230 @@
+{
+    "entities": [
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "salvianolic acid B",
+            "Name": "salvianolicacidb"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "arsenic trioxide",
+            "Name": "arsenictrioxide"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "arsenic trioxide",
+            "Name": "arsenictrioxide"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "ATO",
+            "Name": "ato"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "salvianolic acid B",
+            "Name": "salvianolicacidb"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Sal B",
+            "Name": "salb"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Sal B",
+            "Name": "salb"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "ATO",
+            "Name": "ato"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "MTT",
+            "Name": "mtt"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "LDH",
+            "Name": "ldh"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Hoechst 33342",
+            "Name": "hoechst33342"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Sal B",
+            "Name": "salb"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "ATO",
+            "Name": "ato"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "LY294002",
+            "Name": "ly294002"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "Sal B",
+            "Name": "salb"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "ATO",
+            "Name": "ato"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "Sal B",
+            "Name": "salb"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "Bcl-2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "Bcl-xl",
+            "Name": "bclxl"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Bax",
+            "Name": "bax"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Sal B",
+            "Name": "salb"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "ATO",
+            "Name": "ato"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Sal B",
+            "Name": "salb"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ATO",
+            "Name": "ato"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T18",
+            "target": "T30"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T18",
+            "target": "T31"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T18",
+            "target": "T21"
+        }
+    ]
+}

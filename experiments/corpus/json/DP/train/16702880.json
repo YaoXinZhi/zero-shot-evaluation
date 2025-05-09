@@ -1,0 +1,172 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "maltose",
+            "Name": "maltose"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "acarbose",
+            "Name": "acarbose"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "maltase-glucoamylase",
+            "Name": "maltaseglucoamylase"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "acid alpha-glucosidase",
+            "Name": "acidalphaglucosidase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "acarbose",
+            "Name": "acarbose"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "maltose",
+            "Name": "maltose"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "maltase-glucoamylase",
+            "Name": "maltaseglucoamylase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "acid alpha-glucosidase",
+            "Name": "acidalphaglucosidase"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "acid alpha-glucosidase",
+            "Name": "acidalphaglucosidase"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Acid alpha-glucosidase",
+            "Name": "acidalphaglucosidase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "4-methylumbelliferyl-alpha-D-pyranoside",
+            "Name": "4methylumbelliferylalphadpyranoside"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Acarbose",
+            "Name": "acarbose"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "maltose",
+            "Name": "maltose"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "maltase-glucoamylase",
+            "Name": "maltaseglucoamylase"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "alpha-glucosidase",
+            "Name": "alphaglucosidase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "acarbose",
+            "Name": "acarbose"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "acarbose",
+            "Name": "acarbose"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "maltose",
+            "Name": "maltose"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "acarbose",
+            "Name": "acarbose"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Acid alpha-glucosidase",
+            "Name": "acidalphaglucosidase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T18"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T17"
+        }
+    ]
+}

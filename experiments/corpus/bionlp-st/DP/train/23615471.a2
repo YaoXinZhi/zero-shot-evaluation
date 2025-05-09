@@ -1,0 +1,99 @@
+T18	CHEMICAL 0 28	Caffeic Acid Phenethyl Ester
+N1	Name Annotation:T18 Referent:caffeicacidphenethylester
+T39	GENE-N 118 121	Akt
+N2	Name Annotation:T39 Referent:akt
+T1	CHEMICAL 133 161	Caffeic acid phenethyl ester
+N3	Name Annotation:T1 Referent:caffeicacidphenethylester
+T5	CHEMICAL 163 167	CAPE
+N4	Name Annotation:T5 Referent:cape
+T3	CHEMICAL 265 269	CAPE
+N5	Name Annotation:T3 Referent:cape
+T4	CHEMICAL 406 410	CAPE
+N6	Name Annotation:T4 Referent:cape
+T6	CHEMICAL 548 552	CAPE
+N7	Name Annotation:T6 Referent:cape
+T19	GENE-N 584 587	Akt
+N8	Name Annotation:T19 Referent:akt
+T20	GENE-Y 589 593	Akt1
+N9	Name Annotation:T20 Referent:akt1
+T21	GENE-Y 595 599	Akt2
+N10	Name Annotation:T21 Referent:akt2
+T22	GENE-Y 601 605	Akt3
+N11	Name Annotation:T22 Referent:akt3
+T7	CHEMICAL 607 614	phospho
+N12	Name Annotation:T7 Referent:phospho
+T23	GENE-N 607 618	phospho-Akt
+N13	Name Annotation:T23 Referent:phosphoakt
+T8	CHEMICAL 619 622	Ser
+N14	Name Annotation:T8 Referent:ser
+T9	CHEMICAL 627 634	phospho
+N15	Name Annotation:T9 Referent:phospho
+T24	GENE-N 627 638	phospho-Akt
+N16	Name Annotation:T24 Referent:phosphoakt
+T25	GENE-Y 648 653	GSK3β
+N17	Name Annotation:T25 Referent:gsk3β
+T26	GENE-Y 655 660	FOXO1
+N18	Name Annotation:T26 Referent:foxo1
+T27	GENE-Y 662 668	FOXO3a
+N19	Name Annotation:T27 Referent:foxo3a
+T10	CHEMICAL 670 677	phospho
+N20	Name Annotation:T10 Referent:phospho
+T28	GENE-Y 670 683	phospho-FOXO1
+N21	Name Annotation:T28 Referent:phosphofoxo1
+T11	CHEMICAL 691 698	phospho
+N22	Name Annotation:T11 Referent:phospho
+T29	GENE-Y 691 705	phospho-FoxO3a
+N23	Name Annotation:T29 Referent:phosphofoxo3a
+T30	GENE-N 713 718	NF-κB
+N24	Name Annotation:T30 Referent:nfκb
+T12	CHEMICAL 720 727	phospho
+N25	Name Annotation:T12 Referent:phospho
+T31	GENE-N 720 733	phospho-NF-κB
+N26	Name Annotation:T31 Referent:phosphonfκb
+T32	GENE-Y 742 744	Rb
+N27	Name Annotation:T32 Referent:rb
+T13	CHEMICAL 746 753	phospho
+N28	Name Annotation:T13 Referent:phospho
+T33	GENE-Y 746 756	phospho-Rb
+N29	Name Annotation:T33 Referent:phosphorb
+T14	CHEMICAL 757 760	Ser
+N30	Name Annotation:T14 Referent:ser
+T34	GENE-Y 769 773	Skp2
+N31	Name Annotation:T34 Referent:skp2
+T35	GENE-Y 779 788	cyclin D1
+N32	Name Annotation:T35 Referent:cyclind1
+T36	GENE-Y 825 831	p27Kip
+N33	Name Annotation:T36 Referent:p27kip
+T37	GENE-Y 851 855	Akt1
+N34	Name Annotation:T37 Referent:akt1
+T38	GENE-Y 859 863	Akt2
+N35	Name Annotation:T38 Referent:akt2
+T15	CHEMICAL 915 919	CAPE
+N36	Name Annotation:T15 Referent:cape
+T16	CHEMICAL 960 964	CAPE
+N37	Name Annotation:T16 Referent:cape
+T17	CHEMICAL 969 983	5-fluorouracil
+N38	Name Annotation:T17 Referent:5fluorouracil
+T2	CHEMICAL 1134 1138	CAPE
+N39	Name Annotation:T2 Referent:cape
+R1	INDIRECT-DOWNREGULATOR Arg1:T18 Arg2:T39
+R2	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T19
+R3	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T20
+R4	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T21
+R5	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T22
+R6	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T23
+R7	PART-OF Arg1:T8 Arg2:T23
+R8	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T24
+R9	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T25
+R10	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T26
+R11	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T27
+R12	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T28
+R13	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T29
+R14	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T30
+R15	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T31
+R16	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T32
+R17	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T33
+R18	PART-OF Arg1:T14 Arg2:T33
+R19	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T34
+R20	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T35
+R21	INDIRECT-UPREGULATOR Arg1:T6 Arg2:T36

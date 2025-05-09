@@ -1,0 +1,88 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Perhexiline",
+            "Name": "perhexiline"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Perhexiline",
+            "Name": "perhexiline"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "2-(2,2-dicyclohexylethyl)piperidine",
+            "Name": "222dicyclohexylethylpiperidine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Perhexiline",
+            "Name": "perhexiline"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "fatty acid",
+            "Name": "fattyacid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "carnitine",
+            "Name": "carnitine"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "carnitine palmitoyltransferase",
+            "Name": "carnitinepalmitoyltransferase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "long-chain fatty acids",
+            "Name": "longchainfattyacids"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "CYP2D6",
+            "Name": "cyp2d6"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T10"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T10"
+        }
+    ]
+}

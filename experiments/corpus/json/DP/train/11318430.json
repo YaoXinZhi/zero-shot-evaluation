@@ -1,0 +1,87 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "nordihydroguaiaretic acid",
+            "Name": "nordihydroguaiareticacid"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Nordihydroguaiaretic acid",
+            "Name": "nordihydroguaiareticacid"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "NDGA",
+            "Name": "ndga"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "5-lipoxygenase",
+            "Name": "5lipoxygenase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "ornithine",
+            "Name": "ornithine"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "ornithine decarboxylase",
+            "Name": "ornithinedecarboxylase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "NDGA",
+            "Name": "ndga"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "NDGA",
+            "Name": "ndga"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "NDGA",
+            "Name": "ndga"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "NDGA",
+            "Name": "ndga"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T10"
+        }
+    ]
+}

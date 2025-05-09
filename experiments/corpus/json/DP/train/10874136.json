@@ -1,0 +1,223 @@
+{
+    "entities": [
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "DT-diaphorase",
+            "Name": "dtdiaphorase"
+        },
+        {
+            "id": "T24",
+            "type": "Chemical",
+            "name": "menadione",
+            "Name": "menadione"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "2-methyl-1, 4-naphthoquinone",
+            "Name": "2methyl14naphthoquinone"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "menadione",
+            "Name": "menadione"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "quinone",
+            "Name": "quinone"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "menadione",
+            "Name": "menadione"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "semiquinone",
+            "Name": "semiquinone"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "NADH",
+            "Name": "nadh"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "NADH: ubiquinone oxidoreductase",
+            "Name": "nadhubiquinoneoxidoreductase"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "ubiquinone",
+            "Name": "ubiquinone"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "hydroquinone",
+            "Name": "hydroquinone"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "DT-diaphorase",
+            "Name": "dtdiaphorase"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "GSH",
+            "Name": "gsh"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "glutathione S-transferase",
+            "Name": "glutathionestransferase"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "DT-diaphorase",
+            "Name": "dtdiaphorase"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "menadione",
+            "Name": "menadione"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "dicoumarol",
+            "Name": "dicoumarol"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "beta-naphthoflavone",
+            "Name": "betanaphthoflavone"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "quinone",
+            "Name": "quinone"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "dicoumarol",
+            "Name": "dicoumarol"
+        },
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "menadione",
+            "Name": "menadione"
+        },
+        {
+            "id": "T23",
+            "type": "Chemical",
+            "name": "quinone",
+            "Name": "quinone"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "beta-naphthoflavone",
+            "Name": "betanaphthoflavone"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "DT-diaphorase",
+            "Name": "dtdiaphorase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "menadione",
+            "Name": "menadione"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "beta-naphthoflavone",
+            "Name": "betanaphthoflavone"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "menadione",
+            "Name": "menadione"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "GSH",
+            "Name": "gsh"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "DT-diaphorase",
+            "Name": "dtdiaphorase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T27"
+        },
+        {
+            "type": "Product of",
+            "source": "T9",
+            "target": "T27"
+        },
+        {
+            "type": "Product of",
+            "source": "T12",
+            "target": "T28"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T13",
+            "target": "T28"
+        },
+        {
+            "type": "Substrate",
+            "source": "T13",
+            "target": "T29"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T25"
+        }
+    ]
+}

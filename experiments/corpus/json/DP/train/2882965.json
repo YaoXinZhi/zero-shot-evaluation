@@ -1,0 +1,170 @@
+{
+    "entities": [
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "5-lipoxygenase",
+            "Name": "5lipoxygenase"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "arachidonic acid",
+            "Name": "arachidonicacid"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "sulfasalazine",
+            "Name": "sulfasalazine"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "5-aminosalicylic acid",
+            "Name": "5aminosalicylicacid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "sulfasalazine",
+            "Name": "sulfasalazine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "5-aminosalicylic acid",
+            "Name": "5aminosalicylicacid"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "acetyl-5-aminosalicylic acid",
+            "Name": "acetyl5aminosalicylicacid"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "arachidonic acid",
+            "Name": "arachidonicacid"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "[1-14C]arachidonic acid",
+            "Name": "114carachidonicacid"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "calcium ionophore A23187",
+            "Name": "calciumionophorea23187"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "eicosanoids",
+            "Name": "eicosanoids"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "leukotriene B4",
+            "Name": "leukotrieneb4"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "5-hydroxyeicosatetraenoic acid",
+            "Name": "5hydroxyeicosatetraenoicacid"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "5-HETE",
+            "Name": "5hete"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "sulfasalazine",
+            "Name": "sulfasalazine"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "5-aminosalicylic acid",
+            "Name": "5aminosalicylicacid"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "acetylated derivative of 5-aminosalicylic acid",
+            "Name": "acetylatedderivativeof5aminosalicylicacid"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "arachidonic acid",
+            "Name": "arachidonicacid"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "sulfasalazine",
+            "Name": "sulfasalazine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "5-aminosalicylic acid",
+            "Name": "5aminosalicylicacid"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "lipoxygenase",
+            "Name": "lipoxygenase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "steroid",
+            "Name": "steroid"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "arachidonic acid",
+            "Name": "arachidonicacid"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T20",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T21",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T19",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T22"
+        }
+    ]
+}

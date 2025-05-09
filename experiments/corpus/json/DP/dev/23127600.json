@@ -1,0 +1,118 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "polyphenols",
+            "Name": "polyphenols"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "STZ",
+            "Name": "stz"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "polyphenols",
+            "Name": "polyphenols"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "streptozotocin",
+            "Name": "streptozotocin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "sugar",
+            "Name": "sugar"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "glucose oxidase",
+            "Name": "glucoseoxidase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "dimethyldiguanide",
+            "Name": "dimethyldiguanide"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "polyphenols",
+            "Name": "polyphenols"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T12"
+        }
+    ]
+}

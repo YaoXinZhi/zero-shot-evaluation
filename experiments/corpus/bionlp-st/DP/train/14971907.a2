@@ -1,0 +1,76 @@
+T17	CHEMICAL 0 8	Carbonic
+N1	Name Annotation:T17 Referent:carbonic
+T31	GENE-N 0 18	Carbonic anhydrase
+N2	Name Annotation:T31 Referent:carbonicanhydrase
+T32	GENE-N 45 68	mitochondrial isozyme V
+N3	Name Annotation:T32 Referent:mitochondrialisozymev
+T27	GENE-Y 148 195	mitochondrial isozyme carbonic anhydrase (CA) V
+N4	Name Annotation:T27 Referent:mitochondrialisozymecarbonicanhydrasecav
+T7	CHEMICAL 170 178	carbonic
+N5	Name Annotation:T7 Referent:carbonic
+T1	CHEMICAL 232 270	aromatic and heterocyclic sulfonamides
+N6	Name Annotation:T1 Referent:aromaticandheterocyclicsulfonamides
+T23	GENE-Y 326 330	CA I
+N7	Name Annotation:T23 Referent:cai
+T24	GENE-Y 335 340	CA II
+N8	Name Annotation:T24 Referent:caii
+T25	GENE-Y 372 377	CA IV
+N9	Name Annotation:T25 Referent:caiv
+T26	GENE-Y 456 460	CA V
+N10	Name Annotation:T26 Referent:cav
+T3	CHEMICAL 553 575	acylated sulfanilamide
+N11	Name Annotation:T3 Referent:acylatedsulfanilamide
+T4	CHEMICAL 577 602	ureido-benzenesulfonamide
+N12	Name Annotation:T4 Referent:ureidobenzenesulfonamide
+T5	CHEMICAL 604 635	1,3,4-thiadiazole-2-sulfonamide
+N13	Name Annotation:T5 Referent:134thiadiazole2sulfonamide
+T6	CHEMICAL 641 657	aminobenzolamide
+N14	Name Annotation:T6 Referent:aminobenzolamide
+T8	CHEMICAL 708 721	acetazolamide
+N15	Name Annotation:T8 Referent:acetazolamide
+T9	CHEMICAL 723 736	methazolamide
+N16	Name Annotation:T9 Referent:methazolamide
+T10	CHEMICAL 738 751	ethoxzolamide
+N17	Name Annotation:T10 Referent:ethoxzolamide
+T11	CHEMICAL 753 764	dorzolamide
+N18	Name Annotation:T11 Referent:dorzolamide
+T12	CHEMICAL 766 778	brinzolamide
+N19	Name Annotation:T12 Referent:brinzolamide
+T13	CHEMICAL 784 794	topiramate
+N20	Name Annotation:T13 Referent:topiramate
+T28	GENE-Y 833 837	CA V
+N21	Name Annotation:T28 Referent:cav
+T14	CHEMICAL 930 942	sulfonamides
+N22	Name Annotation:T14 Referent:sulfonamides
+T15	CHEMICAL 956 982	ureido-benzenesulfonamides
+N23	Name Annotation:T15 Referent:ureidobenzenesulfonamides
+T16	CHEMICAL 991 1014	acylated sulfanilamides
+N24	Name Annotation:T16 Referent:acylatedsulfanilamides
+T29	GENE-Y 1042 1046	CA V
+N25	Name Annotation:T29 Referent:cav
+T30	GENE-Y 1076 1081	CA II
+N26	Name Annotation:T30 Referent:caii
+T18	GENE-Y 1198 1203	CA II
+N27	Name Annotation:T18 Referent:caii
+T19	GENE-Y 1284 1288	CA V
+N28	Name Annotation:T19 Referent:cav
+T20	GENE-Y 1316 1321	CA II
+N29	Name Annotation:T20 Referent:caii
+T21	GENE-Y 1326 1330	CA V
+N30	Name Annotation:T21 Referent:cav
+T2	CHEMICAL 1407 1419	sulfonamides
+N31	Name Annotation:T2 Referent:sulfonamides
+T22	GENE-N 1490 1492	CA
+N32	Name Annotation:T22 Referent:ca
+R1	INHIBITOR Arg1:T1 Arg2:T27
+R2	INHIBITOR Arg1:T3 Arg2:T26
+R3	INHIBITOR Arg1:T4 Arg2:T26
+R4	INHIBITOR Arg1:T5 Arg2:T26
+R5	INHIBITOR Arg1:T6 Arg2:T26
+R6	DIRECT-REGULATOR Arg1:T14 Arg2:T29
+R7	DIRECT-REGULATOR Arg1:T15 Arg2:T29
+R8	DIRECT-REGULATOR Arg1:T16 Arg2:T29
+R9	INHIBITOR Arg1:T2 Arg2:T19
+R10	INHIBITOR Arg1:T2 Arg2:T20
+R11	INHIBITOR Arg1:T2 Arg2:T21
+R12	INHIBITOR Arg1:T2 Arg2:T22

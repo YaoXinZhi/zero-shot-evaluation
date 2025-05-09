@@ -1,0 +1,190 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "l-deprenyl",
+            "Name": "ldeprenyl"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "selegiline",
+            "Name": "selegiline"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "l-Deprenyl",
+            "Name": "ldeprenyl"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "selegiline",
+            "Name": "selegiline"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "monoamine oxidase type B",
+            "Name": "monoamineoxidasetypeb"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MAO",
+            "Name": "mao"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "selegiline",
+            "Name": "selegiline"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "selegiline",
+            "Name": "selegiline"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "selegiline",
+            "Name": "selegiline"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "MAO",
+            "Name": "mao"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "MAO",
+            "Name": "mao"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Selegiline",
+            "Name": "selegiline"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "l-(-)-desmethylselegiline",
+            "Name": "ldesmethylselegiline"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "l-(-)-methamphetamine",
+            "Name": "lmethamphetamine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "l-(-)-amphetamine",
+            "Name": "lamphetamine"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "P-450",
+            "Name": "p450"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "l-(-)-methamphetamine",
+            "Name": "lmethamphetamine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "l-(-)-Desmethylselegiline",
+            "Name": "ldesmethylselegiline"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T12",
+            "target": "T15"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T16"
+        }
+    ]
+}

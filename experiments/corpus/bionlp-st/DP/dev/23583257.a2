@@ -1,0 +1,76 @@
+T15	CHEMICAL 0 7	Quinone
+N1	Name Annotation:T15 Referent:quinone
+T16	CHEMICAL 62 67	NADPH
+N2	Name Annotation:T16 Referent:nadph
+T31	GENE 62 75	NADPH oxidase
+N3	Name Annotation:T31 Referent:nadphoxidase
+T32	GENE 76 80	Nox4
+N4	Name Annotation:T32 Referent:nox4
+T1	CHEMICAL 82 87	NADPH
+N5	Name Annotation:T1 Referent:nadph
+T17	GENE 82 95	NADPH oxidase
+N6	Name Annotation:T17 Referent:nadphoxidase
+T19	GENE 96 100	Nox4
+N7	Name Annotation:T19 Referent:nox4
+T2	CHEMICAL 202 208	oxygen
+N8	Name Annotation:T2 Referent:oxygen
+T20	GENE 252 256	Nox4
+N9	Name Annotation:T20 Referent:nox4
+T21	GENE 257 264	oxidase
+N10	Name Annotation:T21 Referent:oxidase
+T4	CHEMICAL 415 422	quinone
+N11	Name Annotation:T4 Referent:quinone
+T22	GENE 519 523	Nox4
+N12	Name Annotation:T22 Referent:nox4
+T5	CHEMICAL 538 545	quinone
+N13	Name Annotation:T5 Referent:quinone
+T6	CHEMICAL 559 565	AA-861
+N14	Name Annotation:T6 Referent:aa861
+T7	CHEMICAL 567 573	tBuBHQ
+N15	Name Annotation:T7 Referent:tbubhq
+T8	CHEMICAL 575 580	tBuBQ
+N16	Name Annotation:T8 Referent:tbubq
+T9	CHEMICAL 586 597	duroquinone
+N17	Name Annotation:T9 Referent:duroquinone
+T23	GENE 741 745	Nox4
+N18	Name Annotation:T23 Referent:nox4
+T24	GENE 753 757	Nox2
+N19	Name Annotation:T24 Referent:nox2
+T10	CHEMICAL 787 794	NAD(P)H
+N20	Name Annotation:T10 Referent:nadph
+T25	GENE 787 817	NAD(P)H:quinone oxidoreductase
+N21	Name Annotation:T25 Referent:nadphquinoneoxidoreductase
+T11	CHEMICAL 795 802	quinone
+N22	Name Annotation:T11 Referent:quinone
+T26	GENE 819 823	NQO1
+N23	Name Annotation:T26 Referent:nqo1
+T27	GENE 877 881	Nox4
+N24	Name Annotation:T27 Referent:nox4
+T12	CHEMICAL 963 972	disulfide
+N25	Name Annotation:T12 Referent:disulfide
+T13	CHEMICAL 981 984	Cys
+N26	Name Annotation:T13 Referent:cys
+T14	CHEMICAL 989 992	Cys
+N27	Name Annotation:T14 Referent:cys
+T28	GENE 1012 1032	extracellular E-loop
+N28	Name Annotation:T28 Referent:extracellulareloop
+T29	GENE 1036 1040	Nox4
+N29	Name Annotation:T29 Referent:nox4
+T30	GENE 1056 1060	Nox4
+N30	Name Annotation:T30 Referent:nox4
+T3	CHEMICAL 1307 1315	quinones
+N31	Name Annotation:T3 Referent:quinones
+T18	GENE 1320 1324	Nox4
+N32	Name Annotation:T18 Referent:nox4
+R1	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T20
+R2	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T21
+R3	ACTIVATOR Arg1:T5 Arg2:T22
+R4	ACTIVATOR Arg1:T6 Arg2:T22
+R5	ACTIVATOR Arg1:T7 Arg2:T22
+R6	ACTIVATOR Arg1:T8 Arg2:T22
+R7	ACTIVATOR Arg1:T9 Arg2:T22
+R8	PART-OF Arg1:T13 Arg2:T29
+R9	PART-OF Arg1:T14 Arg2:T29
+R10	ACTIVATOR Arg1:T3 Arg2:T30
+R11	ACTIVATOR Arg1:T4 Arg2:T20
+R12	ACTIVATOR Arg1:T4 Arg2:T21

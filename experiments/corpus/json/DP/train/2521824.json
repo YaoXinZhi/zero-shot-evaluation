@@ -1,0 +1,192 @@
+{
+    "entities": [
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "Androgens",
+            "Name": "androgens"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "androgens",
+            "Name": "androgens"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "[3H]thymidine",
+            "Name": "3hthymidine"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "alkaline phosphatase",
+            "Name": "alkalinephosphatase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Dihydrotestosterone",
+            "Name": "dihydrotestosterone"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "DHT",
+            "Name": "dht"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "DHT",
+            "Name": "dht"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Testosterone",
+            "Name": "testosterone"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "fluoxymesterone",
+            "Name": "fluoxymesterone"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "steroid",
+            "Name": "steroid"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "methenolone",
+            "Name": "methenolone"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "steroid",
+            "Name": "steroid"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "DHT",
+            "Name": "dht"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "hydroxyflutamide",
+            "Name": "hydroxyflutamide"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "cyproterone acetate",
+            "Name": "cyproteroneacetate"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "androgen",
+            "Name": "androgen"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "androgen receptor",
+            "Name": "androgenreceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "DHT",
+            "Name": "dht"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "alkaline phosphatase",
+            "Name": "alkalinephosphatase"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "ALP",
+            "Name": "alp"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "androgens",
+            "Name": "androgens"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "osteoblast-line differentiation marker",
+            "Name": "osteoblastlinedifferentiationmarker"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "ALP",
+            "Name": "alp"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "androgen",
+            "Name": "androgen"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "androgen receptor",
+            "Name": "androgenreceptor"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T16",
+            "target": "T25"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T15",
+            "target": "T25"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T14",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T22"
+        }
+    ]
+}

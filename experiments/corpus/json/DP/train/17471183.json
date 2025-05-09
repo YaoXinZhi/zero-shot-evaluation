@@ -1,0 +1,125 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "Tricyclic",
+            "Name": "tricyclic"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "tricyclic",
+            "Name": "tricyclic"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "human cloned CNS receptors",
+            "Name": "humanclonedcnsreceptors"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "cytochrome P450",
+            "Name": "cytochromep450"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "monoamine oxidase",
+            "Name": "monoamineoxidase"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "nortriptyline",
+            "Name": "nortriptyline"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "desipramine",
+            "Name": "desipramine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "noradrenaline",
+            "Name": "noradrenaline"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Clomipramine",
+            "Name": "clomipramine"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "noradrenaline",
+            "Name": "noradrenaline"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "duloxetine",
+            "Name": "duloxetine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "venlafaxine",
+            "Name": "venlafaxine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "sertraline",
+            "Name": "sertraline"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "nortriptyline",
+            "Name": "nortriptyline"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "venlafaxine",
+            "Name": "venlafaxine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T16"
+        }
+    ]
+}

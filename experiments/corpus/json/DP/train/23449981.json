@@ -1,0 +1,195 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "Ceramide phosphoethanolamine",
+            "Name": "ceramidephosphoethanolamine"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "ethanolamine",
+            "Name": "ethanolamine"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "ethanolamine phosphotransferase",
+            "Name": "ethanolaminephosphotransferase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Sphingomyelin",
+            "Name": "sphingomyelin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "phosphocholine",
+            "Name": "phosphocholine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "phosphatidylcholine",
+            "Name": "phosphatidylcholine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "ceramide",
+            "Name": "ceramide"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "SM synthase",
+            "Name": "smsynthase"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "ceramide phosphoethanolamine",
+            "Name": "ceramidephosphoethanolamine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "CPE",
+            "Name": "cpe"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "sphingolipid",
+            "Name": "sphingolipid"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "CPE",
+            "Name": "cpe"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "CPE synthase",
+            "Name": "cpesynthase"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "CDP",
+            "Name": "cdp"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "ethanolamine",
+            "Name": "ethanolamine"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "ceramide",
+            "Name": "ceramide"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "ceramide ethanolamine phosphotransferase",
+            "Name": "ceramideethanolaminephosphotransferase"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "ethanolamine",
+            "Name": "ethanolamine"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "CPE",
+            "Name": "cpe"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "CPE",
+            "Name": "cpe"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "CPE synthase",
+            "Name": "cpesynthase"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "CDP",
+            "Name": "cdp"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "CDP-alcohol phosphotransferase",
+            "Name": "cdpalcoholphosphotransferase"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "alcohol",
+            "Name": "alcohol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "CDP",
+            "Name": "cdp"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "CDP-alcohol phosphotransferases",
+            "Name": "cdpalcoholphosphotransferases"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "alcohol",
+            "Name": "alcohol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "CPE",
+            "Name": "cpe"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Product of",
+            "source": "T20",
+            "target": "T28"
+        },
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Product of",
+            "source": "T16",
+            "target": "T25"
+        }
+    ]
+}

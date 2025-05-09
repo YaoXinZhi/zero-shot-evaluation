@@ -1,0 +1,95 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Angiotensin",
+            "Name": "angiotensin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Angiotensin AT1 receptor",
+            "Name": "angiotensinat1receptor"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "losartan",
+            "Name": "losartan"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Angiotensin II",
+            "Name": "angiotensinii"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "Angiotensin II",
+            "Name": "angiotensinii"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "angiotensin",
+            "Name": "angiotensin"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "angiotensin AT1 receptors",
+            "Name": "angiotensinat1receptors"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "angiotensin II",
+            "Name": "angiotensinii"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "angiotensin II",
+            "Name": "angiotensinii"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "AT1 receptor",
+            "Name": "at1receptor"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "pancuronium bromide",
+            "Name": "pancuroniumbromide"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "AT1 receptor",
+            "Name": "at1receptor"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "AT1 receptors",
+            "Name": "at1receptors"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T10"
+        }
+    ]
+}

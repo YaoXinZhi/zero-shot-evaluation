@@ -1,0 +1,82 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "tricyclic bispyran sulfone",
+            "Name": "tricyclicbispyransulfone"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "\u03b3-secretase",
+            "Name": "\u03b3secretase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "sulfone",
+            "Name": "sulfone"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "SCH 900229",
+            "Name": "sch900229"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "PS1",
+            "Name": "ps1"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "\u03b3-secretase",
+            "Name": "\u03b3secretase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "4-CF(3)",
+            "Name": "4cf3"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "4-Br",
+            "Name": "4br"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "arylsulfone",
+            "Name": "arylsulfone"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "sulfone",
+            "Name": "sulfone"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T8"
+        }
+    ]
+}

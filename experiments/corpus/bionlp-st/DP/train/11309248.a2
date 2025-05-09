@@ -1,0 +1,84 @@
+T24	CHEMICAL 41 53	progesterone
+N1	Name Annotation:T24 Referent:progesterone
+T1	CHEMICAL 88 95	Digoxin
+N2	Name Annotation:T1 Referent:digoxin
+T13	CHEMICAL 119 128	digitoxin
+N3	Name Annotation:T13 Referent:digitoxin
+T34	GENE-N 173 201	human chorionic gonadotropin
+N4	Name Annotation:T34 Referent:humanchorionicgonadotropin
+T26	GENE-N 203 206	hCG
+N5	Name Annotation:T26 Referent:hcg
+T8	CHEMICAL 230 242	progesterone
+N6	Name Annotation:T8 Referent:progesterone
+T9	CHEMICAL 269 276	Digoxin
+N7	Name Annotation:T9 Referent:digoxin
+T10	CHEMICAL 291 300	digitoxin
+N8	Name Annotation:T10 Referent:digitoxin
+T11	CHEMICAL 350 359	forskolin
+N9	Name Annotation:T11 Referent:forskolin
+T12	CHEMICAL 364 410	8-bromo-cyclic 3' : 5'-adenosine monophosphate
+N10	Name Annotation:T12 Referent:8bromocyclic35adenosinemonophosphate
+T14	CHEMICAL 412 421	8-Br-cAMP
+N11	Name Annotation:T14 Referent:8brcamp
+T15	CHEMICAL 426 438	progesterone
+N12	Name Annotation:T15 Referent:progesterone
+T16	CHEMICAL 473 480	Digoxin
+N13	Name Annotation:T16 Referent:digoxin
+T17	CHEMICAL 495 504	digitoxin
+N14	Name Annotation:T17 Referent:digitoxin
+T29	GENE-Y 526 568	cytochrome P450 side chain cleavage enzyme
+N15	Name Annotation:T29 Referent:cytochromep450sidechaincleavageenzyme
+T30	GENE-Y 570 590	cytochrome P450(scc)
+N16	Name Annotation:T30 Referent:cytochromep450scc
+T18	CHEMICAL 616 639	25-hydroxyl cholesterol
+N17	Name Annotation:T18 Referent:25hydroxylcholesterol
+T19	CHEMICAL 643 655	pregnenolone
+N18	Name Annotation:T19 Referent:pregnenolone
+T20	CHEMICAL 718 738	3beta-hydroxysteroid
+N19	Name Annotation:T20 Referent:3betahydroxysteroid
+T31	GENE-N 718 752	3beta-hydroxysteroid dehydrogenase
+N20	Name Annotation:T31 Referent:3betahydroxysteroiddehydrogenase
+T32	GENE-N 754 763	3beta-HSD
+N21	Name Annotation:T32 Referent:3betahsd
+T21	CHEMICAL 774 786	progesterone
+N22	Name Annotation:T21 Referent:progesterone
+T33	GENE-Y 802 809	P450scc
+N23	Name Annotation:T33 Referent:p450scc
+T22	CHEMICAL 888 895	Digoxin
+N24	Name Annotation:T22 Referent:digoxin
+T23	CHEMICAL 910 919	digitoxin
+N25	Name Annotation:T23 Referent:digitoxin
+T35	GENE-Y 977 984	P450scc
+N26	Name Annotation:T35 Referent:p450scc
+T36	GENE-Y 989 1034	steroidogenic acute regulatory (StAR) protein
+N27	Name Annotation:T36 Referent:steroidogenicacuteregulatorystarprotein
+T2	CHEMICAL 1092 1099	digoxin
+N28	Name Annotation:T2 Referent:digoxin
+T3	CHEMICAL 1104 1113	digitoxin
+N29	Name Annotation:T3 Referent:digitoxin
+T4	CHEMICAL 1127 1139	progesterone
+N30	Name Annotation:T4 Referent:progesterone
+T5	CHEMICAL 1173 1178	Na(+)
+N31	Name Annotation:T5 Referent:na
+T25	GENE-N 1173 1190	Na(+),K(+)-ATPase
+N32	Name Annotation:T25 Referent:nakatpase
+T6	CHEMICAL 1179 1183	K(+)
+N33	Name Annotation:T6 Referent:k
+T7	CHEMICAL 1246 1256	cyclic AMP
+N34	Name Annotation:T7 Referent:cyclicamp
+T27	GENE-Y 1266 1283	cytochrome P450sc
+N35	Name Annotation:T27 Referent:cytochromep450sc
+T28	GENE-Y 1289 1293	StAR
+N36	Name Annotation:T28 Referent:star
+R1	INHIBITOR Arg1:T16 Arg2:T29
+R2	INHIBITOR Arg1:T17 Arg2:T29
+R3	INHIBITOR Arg1:T16 Arg2:T30
+R4	INHIBITOR Arg1:T17 Arg2:T30
+R5	INDIRECT-DOWNREGULATOR Arg1:T22 Arg2:T35
+R6	INDIRECT-DOWNREGULATOR Arg1:T23 Arg2:T35
+R7	INDIRECT-DOWNREGULATOR Arg1:T22 Arg2:T36
+R8	INDIRECT-DOWNREGULATOR Arg1:T23 Arg2:T36
+R9	SUBSTRATE Arg1:T18 Arg2:T29
+R10	SUBSTRATE Arg1:T18 Arg2:T30
+R11	PRODUCT-OF Arg1:T19 Arg2:T29
+R12	PRODUCT-OF Arg1:T19 Arg2:T30

@@ -1,0 +1,86 @@
+T14	CHEMICAL 0 11	Simvastatin
+N1	Name Annotation:T14 Referent:simvastatin
+T35	GENE-Y 20 34	interleukin-18
+N2	Name Annotation:T35 Referent:interleukin18
+T9	CHEMICAL 161 198	3-hydroxy-3-methylglutaryl coenzyme-A
+N3	Name Annotation:T9 Referent:3hydroxy3methylglutarylcoenzymea
+T27	GENE-Y 161 218	3-hydroxy-3-methylglutaryl coenzyme-A (HMG-CoA) reductase
+N4	Name Annotation:T27 Referent:3hydroxy3methylglutarylcoenzymeahmgcoareductase
+T4	CHEMICAL 200 207	HMG-CoA
+N5	Name Annotation:T4 Referent:hmgcoa
+T16	GENE-Y 223 268	leukocyte function-associated antigen (LFA)-1
+N6	Name Annotation:T16 Referent:leukocytefunctionassociatedantigenlfa1
+T17	GENE-Y 291 331	intercellular adhesion molecule (ICAM)-1
+N7	Name Annotation:T17 Referent:intercellularadhesionmoleculeicam1
+T5	CHEMICAL 333 344	Simvastatin
+N8	Name Annotation:T5 Referent:simvastatin
+T6	CHEMICAL 349 356	HMG-CoA
+N9	Name Annotation:T6 Referent:hmgcoa
+T18	GENE-Y 349 366	HMG-CoA reductase
+N10	Name Annotation:T18 Referent:hmgcoareductase
+T19	GENE-Y 401 406	LFA-1
+N11	Name Annotation:T19 Referent:lfa1
+T20	GENE-Y 434 453	interleukin (IL)-18
+N12	Name Annotation:T20 Referent:interleukinil18
+T21	GENE-Y 455 488	tumor necrosis factor (TNF)-alpha
+N13	Name Annotation:T21 Referent:tumornecrosisfactortnfalpha
+T22	GENE-Y 493 515	interferon (IFN)-gamma
+N14	Name Annotation:T22 Referent:interferonifngamma
+T23	GENE-Y 572 577	IL-18
+N15	Name Annotation:T23 Referent:il18
+T24	GENE-N 616 624	cytokine
+N16	Name Annotation:T24 Referent:cytokine
+T7	CHEMICAL 646 657	simvastatin
+N17	Name Annotation:T7 Referent:simvastatin
+T8	CHEMICAL 669 680	simvastatin
+N18	Name Annotation:T8 Referent:simvastatin
+T25	GENE-Y 735 741	ICAM-1
+N19	Name Annotation:T25 Referent:icam1
+T26	GENE-Y 772 776	CD40
+N20	Name Annotation:T26 Referent:cd40
+T28	GENE-Y 810 815	IL-18
+N21	Name Annotation:T28 Referent:il18
+T10	CHEMICAL 817 828	simvastatin
+N22	Name Annotation:T10 Referent:simvastatin
+T29	GENE-Y 858 864	ICAM-1
+N23	Name Annotation:T29 Referent:icam1
+T30	GENE-Y 869 873	CD40
+N24	Name Annotation:T30 Referent:cd40
+T31	GENE-N 903 908	IL-12
+N25	Name Annotation:T31 Referent:il12
+T32	GENE-Y 910 919	TNF-alpha
+N26	Name Annotation:T32 Referent:tnfalpha
+T33	GENE-Y 924 933	IFN-gamma
+N27	Name Annotation:T33 Referent:ifngamma
+T11	CHEMICAL 991 1002	simvastatin
+N28	Name Annotation:T11 Referent:simvastatin
+T12	CHEMICAL 1019 1030	simvastatin
+N29	Name Annotation:T12 Referent:simvastatin
+T13	CHEMICAL 1084 1091	HMG-CoA
+N30	Name Annotation:T13 Referent:hmgcoa
+T34	GENE-Y 1084 1101	HMG-CoA reductase
+N31	Name Annotation:T34 Referent:hmgcoareductase
+T1	CHEMICAL 1103 1113	mevalonate
+N32	Name Annotation:T1 Referent:mevalonate
+T2	CHEMICAL 1145 1152	HMG-CoA
+N33	Name Annotation:T2 Referent:hmgcoa
+T15	GENE-Y 1145 1162	HMG-CoA reductase
+N34	Name Annotation:T15 Referent:hmgcoareductase
+T3	CHEMICAL 1180 1191	simvastatin
+N35	Name Annotation:T3 Referent:simvastatin
+R1	INDIRECT-UPREGULATOR Arg1:T14 Arg2:T35
+R2	INHIBITOR Arg1:T5 Arg2:T18
+R3	INHIBITOR Arg1:T5 Arg2:T19
+R4	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T20
+R5	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T21
+R6	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T22
+R7	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T23
+R8	ACTIVATOR Arg1:T7 Arg2:T24
+R9	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T25
+R10	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T26
+R11	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T29
+R12	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T30
+R13	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T31
+R14	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T32
+R15	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T33
+R16	PRODUCT-OF Arg1:T1 Arg2:T34

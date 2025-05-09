@@ -1,0 +1,76 @@
+T24	CHEMICAL 21 32	bisphenol a
+N1	Name Annotation:T24 Referent:bisphenola
+T1	CHEMICAL 123 134	Bisphenol A
+N2	Name Annotation:T1 Referent:bisphenola
+T7	CHEMICAL 136 139	BPA
+N3	Name Annotation:T7 Referent:bpa
+T5	CHEMICAL 245 248	BPA
+N4	Name Annotation:T5 Referent:bpa
+T15	CHEMICAL 290 297	calcium
+N5	Name Annotation:T15 Referent:calcium
+T16	CHEMICAL 407 410	BPA
+N6	Name Annotation:T16 Referent:bpa
+T17	CHEMICAL 542 545	BPA
+N7	Name Annotation:T17 Referent:bpa
+T18	CHEMICAL 703 706	BPA
+N8	Name Annotation:T18 Referent:bpa
+T19	CHEMICAL 802 805	BPA
+N9	Name Annotation:T19 Referent:bpa
+T20	CHEMICAL 996 999	BPA
+N10	Name Annotation:T20 Referent:bpa
+T21	CHEMICAL 1013 1020	calcium
+N11	Name Annotation:T21 Referent:calcium
+T30	GENE-Y 1042 1078	sarcoendoplasmic reticulum ATPase 2a
+N12	Name Annotation:T30 Referent:sarcoendoplasmicreticulumatpase2a
+T31	GENE-Y 1080 1087	SERCA2a
+N13	Name Annotation:T31 Referent:serca2a
+T22	CHEMICAL 1090 1096	sodium
+N14	Name Annotation:T22 Referent:sodium
+T32	GENE-Y 1090 1116	sodium calcium exchanger-1
+N15	Name Annotation:T32 Referent:sodiumcalciumexchanger1
+T23	CHEMICAL 1097 1104	calcium
+N16	Name Annotation:T23 Referent:calcium
+T33	GENE-Y 1118 1131	phospholamban
+N17	Name Annotation:T33 Referent:phospholamban
+T25	GENE-Y 1133 1136	PLB
+N18	Name Annotation:T25 Referent:plb
+T2	CHEMICAL 1139 1146	phospho
+N19	Name Annotation:T2 Referent:phospho
+T26	GENE-Y 1139 1150	phospho-PLB
+N20	Name Annotation:T26 Referent:phosphoplb
+T27	GENE-Y 1156 1171	calsequestrin 2
+N21	Name Annotation:T27 Referent:calsequestrin2
+T3	CHEMICAL 1264 1271	calcium
+N22	Name Annotation:T3 Referent:calcium
+T4	CHEMICAL 1302 1309	calcium
+N23	Name Annotation:T4 Referent:calcium
+T28	GENE-Y 1371 1395	DNA methyltransferase 3a
+N24	Name Annotation:T28 Referent:dnamethyltransferase3a
+T6	CHEMICAL 1428 1431	BPA
+N25	Name Annotation:T6 Referent:bpa
+T8	CHEMICAL 1442 1445	BPA
+N26	Name Annotation:T8 Referent:bpa
+T9	CHEMICAL 1473 1476	BPA
+N27	Name Annotation:T9 Referent:bpa
+T10	CHEMICAL 1530 1533	BPA
+N28	Name Annotation:T10 Referent:bpa
+T11	CHEMICAL 1559 1562	BPA
+N29	Name Annotation:T11 Referent:bpa
+T12	CHEMICAL 1576 1579	BPA
+N30	Name Annotation:T12 Referent:bpa
+T13	CHEMICAL 1637 1640	CpG
+N31	Name Annotation:T13 Referent:cpg
+T29	GENE-Y 1654 1669	calsequestrin 2
+N32	Name Annotation:T29 Referent:calsequestrin2
+T14	CHEMICAL 1731 1734	BPA
+N33	Name Annotation:T14 Referent:bpa
+R1	INDIRECT-UPREGULATOR Arg1:T6 Arg2:T28
+R2	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T28
+R3	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T28
+R4	SUBSTRATE Arg1:T21 Arg2:T30
+R5	SUBSTRATE Arg1:T21 Arg2:T31
+R6	SUBSTRATE Arg1:T21 Arg2:T32
+R7	SUBSTRATE Arg1:T21 Arg2:T33
+R8	SUBSTRATE Arg1:T21 Arg2:T25
+R9	SUBSTRATE Arg1:T21 Arg2:T26
+R10	SUBSTRATE Arg1:T21 Arg2:T27

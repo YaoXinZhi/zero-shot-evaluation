@@ -1,0 +1,76 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "mAChR",
+            "Name": "machr"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "TBPB",
+            "Name": "tbpb"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "VU0357017",
+            "Name": "vu0357017"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "TPBP",
+            "Name": "tpbp"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "piperidine",
+            "Name": "piperidine"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "mAChR",
+            "Name": "machr"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "VU0357017",
+            "Name": "vu0357017"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "mAChR",
+            "Name": "machr"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "mAChR",
+            "Name": "machr"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T2",
+            "target": "T6"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T6"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T7"
+        }
+    ]
+}

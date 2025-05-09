@@ -1,0 +1,203 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "norepinephrine transporter",
+            "Name": "norepinephrinetransporter"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "catecholamines",
+            "Name": "catecholamines"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "desipramine",
+            "Name": "desipramine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "norepinephrine transporter",
+            "Name": "norepinephrinetransporter"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "adrenoreceptor",
+            "Name": "adrenoreceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "NE",
+            "Name": "ne"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "dopamine beta-hydroxylase",
+            "Name": "dopaminebetahydroxylase"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Dbh",
+            "Name": "dbh"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "NE",
+            "Name": "ne"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "NE",
+            "Name": "ne"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "tyrosine hydroxylase",
+            "Name": "tyrosinehydroxylase"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Th",
+            "Name": "th"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "NE",
+            "Name": "ne"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "DA",
+            "Name": "da"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "catecholamines",
+            "Name": "catecholamines"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "NE",
+            "Name": "ne"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "desipramine",
+            "Name": "desipramine"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "Dbh",
+            "Name": "dbh"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "NE",
+            "Name": "ne"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T27"
+        }
+    ]
+}

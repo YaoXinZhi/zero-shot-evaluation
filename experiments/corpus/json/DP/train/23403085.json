@@ -1,0 +1,83 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "mercaptoethylleonurine",
+            "Name": "mercaptoethylleonurine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "mercaptoethylguanidine",
+            "Name": "mercaptoethylguanidine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "hydrogen peroxide",
+            "Name": "hydrogenperoxide"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "mercaptoethylleonurine",
+            "Name": "mercaptoethylleonurine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "mercaptoethylguanidine",
+            "Name": "mercaptoethylguanidine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "H2O2",
+            "Name": "h2o2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "H2O2",
+            "Name": "h2o2"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "Bax",
+            "Name": "bax"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Bcl-2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "JNK",
+            "Name": "jnk"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T8"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T9"
+        }
+    ]
+}

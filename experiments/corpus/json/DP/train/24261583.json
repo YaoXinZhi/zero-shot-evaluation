@@ -1,0 +1,92 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "macitentan",
+            "Name": "macitentan"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "endothelin receptor",
+            "Name": "endothelinreceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Macitentan",
+            "Name": "macitentan"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "endothelin receptor",
+            "Name": "endothelinreceptor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "macitentan",
+            "Name": "macitentan"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "macitentan",
+            "Name": "macitentan"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "macitentan",
+            "Name": "macitentan"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "bosentan",
+            "Name": "bosentan"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "ambrisentan",
+            "Name": "ambrisentan"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "hemoglobin",
+            "Name": "hemoglobin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T7",
+            "target": "T10"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T8"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T8"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T8"
+        }
+    ]
+}

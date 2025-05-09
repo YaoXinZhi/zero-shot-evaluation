@@ -1,0 +1,241 @@
+{
+    "entities": [
+        {
+            "id": "T26",
+            "type": "Chemical",
+            "name": "oxysterol",
+            "Name": "oxysterol"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "lipid raft microdomains",
+            "Name": "lipidraftmicrodomains"
+        },
+        {
+            "id": "T27",
+            "type": "Chemical",
+            "name": "calcium",
+            "Name": "calcium"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "7-ketocholesterol",
+            "Name": "7ketocholesterol"
+        },
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "7KC",
+            "Name": "7kc"
+        },
+        {
+            "id": "T25",
+            "type": "Chemical",
+            "name": "7\u03b2-hydroxycholesterol",
+            "Name": "7\u03b2hydroxycholesterol"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "7\u03b2OHC",
+            "Name": "7\u03b2ohc"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "oxysterols",
+            "Name": "oxysterols"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "7KC",
+            "Name": "7kc"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "7\u03b2OHC",
+            "Name": "7\u03b2ohc"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "GSK3",
+            "Name": "gsk3"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "Mcl-1",
+            "Name": "mcl1"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "27-hydroxycholesterol",
+            "Name": "27hydroxycholesterol"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "Fura-2",
+            "Name": "fura2"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "Ca(2+)",
+            "Name": "ca2"
+        },
+        {
+            "id": "T23",
+            "type": "Chemical",
+            "name": "oxysterols",
+            "Name": "oxysterols"
+        },
+        {
+            "id": "T24",
+            "type": "Chemical",
+            "name": "ionomycin",
+            "Name": "ionomycin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "7KC",
+            "Name": "7kc"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "7\u03b2OHC",
+            "Name": "7\u03b2ohc"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "27OHC",
+            "Name": "27ohc"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "\u03b1-tocopherol",
+            "Name": "\u03b1tocopherol"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ellagic acid",
+            "Name": "ellagicacid"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "resveratrol",
+            "Name": "resveratrol"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "7KC",
+            "Name": "7kc"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "7\u03b2OHC",
+            "Name": "7\u03b2ohc"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "7KC",
+            "Name": "7kc"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "27OHC",
+            "Name": "27ohc"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "oxysterols",
+            "Name": "oxysterols"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "GSK-3",
+            "Name": "gsk3"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Ca(2+)",
+            "Name": "ca2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T15",
+            "target": "T32"
+        },
+        {
+            "type": "Activator",
+            "source": "T16",
+            "target": "T32"
+        },
+        {
+            "type": "Activator",
+            "source": "T16",
+            "target": "T33"
+        },
+        {
+            "type": "Activator",
+            "source": "T15",
+            "target": "T33"
+        },
+        {
+            "type": "Activator",
+            "source": "T12",
+            "target": "T28"
+        },
+        {
+            "type": "Activator",
+            "source": "T12",
+            "target": "T29"
+        }
+    ]
+}

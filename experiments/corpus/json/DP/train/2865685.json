@@ -1,0 +1,222 @@
+{
+    "entities": [
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "Beta 1- and beta 2-adrenoceptor",
+            "Name": "beta1andbeta2adrenoceptor"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "beta 1- and beta 2-adrenoceptors",
+            "Name": "beta1andbeta2adrenoceptors"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "beta-adrenoceptor",
+            "Name": "betaadrenoceptor"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "[125I](-)pindolol",
+            "Name": "125ipindolol"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "125IPIN",
+            "Name": "125ipin"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "125IPIN",
+            "Name": "125ipin"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "125IPIN",
+            "Name": "125ipin"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "l-propranolol",
+            "Name": "lpropranolol"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "d-propranolol",
+            "Name": "dpropranolol"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "beta 1- and beta 2-adrenoceptor",
+            "Name": "beta1andbeta2adrenoceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "practolol",
+            "Name": "practolol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "atenolol",
+            "Name": "atenolol"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "metoprolol",
+            "Name": "metoprolol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ICI 118,551",
+            "Name": "ici118551"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "beta 1- and beta 2-adrenoceptors",
+            "Name": "beta1andbeta2adrenoceptors"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "beta 2-adrenoceptors",
+            "Name": "beta2adrenoceptors"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "beta 2-adrenoceptors",
+            "Name": "beta2adrenoceptors"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "beta-adrenoceptor",
+            "Name": "betaadrenoceptor"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "beta-adrenoceptor",
+            "Name": "betaadrenoceptor"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "isoprenaline",
+            "Name": "isoprenaline"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "125IPIN",
+            "Name": "125ipin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "isoprenaline",
+            "Name": "isoprenaline"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "beta 1-adrenoceptors",
+            "Name": "beta1adrenoceptors"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "beta 2-adrenoceptors",
+            "Name": "beta2adrenoceptors"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "procaterol",
+            "Name": "procaterol"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "zinterol",
+            "Name": "zinterol"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "beta 1-adrenoceptors",
+            "Name": "beta1adrenoceptors"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "beta 2-adrenoceptors",
+            "Name": "beta2adrenoceptors"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "ICI 118,551",
+            "Name": "ici118551"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "beta 1-adrenoceptors",
+            "Name": "beta1adrenoceptors"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T5",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T24"
+        },
+        {
+            "type": "Agonist",
+            "source": "T7",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T27"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T28"
+        },
+        {
+            "type": "Activator",
+            "source": "T11",
+            "target": "T28"
+        }
+    ]
+}

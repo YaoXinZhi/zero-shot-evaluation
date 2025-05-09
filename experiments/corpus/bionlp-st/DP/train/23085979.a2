@@ -1,0 +1,49 @@
+T6	CHEMICAL 0 16	Aryl hydrocarbon
+N1	Name Annotation:T6 Referent:arylhydrocarbon
+T20	GENE-Y 0 25	Aryl hydrocarbon receptor
+N2	Name Annotation:T20 Referent:arylhydrocarbonreceptor
+T21	GENE-Y 87 97	connexin43
+N3	Name Annotation:T21 Referent:connexin43
+T2	CHEMICAL 179 195	aryl hydrocarbon
+N4	Name Annotation:T2 Referent:arylhydrocarbon
+T16	GENE-Y 179 204	aryl hydrocarbon receptor
+N5	Name Annotation:T16 Referent:arylhydrocarbonreceptor
+T15	GENE-Y 206 209	AhR
+N6	Name Annotation:T15 Referent:ahr
+T11	GENE-Y 368 378	connexin43
+N7	Name Annotation:T11 Referent:connexin43
+T12	GENE-Y 380 384	Cx43
+N8	Name Annotation:T12 Referent:cx43
+T13	GENE-Y 390 394	Cx43
+N9	Name Annotation:T13 Referent:cx43
+T14	GENE-Y 465 468	AhR
+N10	Name Annotation:T14 Referent:ahr
+T17	GENE-Y 879 882	AhR
+N11	Name Annotation:T17 Referent:ahr
+T3	CHEMICAL 891 926	2,3,7,8-tetrachlorodibenzo-p-dioxin
+N12	Name Annotation:T3 Referent:2378tetrachlorodibenzopdioxin
+T4	CHEMICAL 928 932	TCDD
+N13	Name Annotation:T4 Referent:tcdd
+T5	CHEMICAL 937 969	polycyclic aromatic hydrocarbons
+N14	Name Annotation:T5 Referent:polycyclicaromatichydrocarbons
+T18	GENE-Y 1007 1011	Cx43
+N15	Name Annotation:T18 Referent:cx43
+T19	GENE-Y 1164 1167	AhR
+N16	Name Annotation:T19 Referent:ahr
+T7	GENE-Y 1227 1231	Cx43
+N17	Name Annotation:T7 Referent:cx43
+T1	CHEMICAL 1305 1309	TCDD
+N18	Name Annotation:T1 Referent:tcdd
+T8	GENE-Y 1326 1330	Cx43
+N19	Name Annotation:T8 Referent:cx43
+T9	GENE-Y 1456 1460	Cx43
+N20	Name Annotation:T9 Referent:cx43
+T10	GENE-Y 1727 1730	AhR
+N21	Name Annotation:T10 Referent:ahr
+R1	DIRECT-REGULATOR Arg1:T3 Arg2:T17
+R2	DIRECT-REGULATOR Arg1:T4 Arg2:T17
+R3	DIRECT-REGULATOR Arg1:T5 Arg2:T17
+R4	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T18
+R5	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T18
+R6	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T18
+R7	INHIBITOR Arg1:T1 Arg2:T7

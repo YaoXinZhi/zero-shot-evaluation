@@ -1,0 +1,36 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Thalidomide",
+            "Name": "thalidomide"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "TNF alpha",
+            "Name": "tnfalpha"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "thalidomide",
+            "Name": "thalidomide"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T4"
+        }
+    ]
+}

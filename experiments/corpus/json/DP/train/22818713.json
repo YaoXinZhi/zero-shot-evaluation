@@ -1,0 +1,207 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "Silibinin",
+            "Name": "silibinin"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "phenylephrine",
+            "Name": "phenylephrine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "silibinin",
+            "Name": "silibinin"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "flavonolignan",
+            "Name": "flavonolignan"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "hydrogen peroxide",
+            "Name": "hydrogenperoxide"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "H2O2",
+            "Name": "h2o2"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "phenylephrine",
+            "Name": "phenylephrine"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "silibinin",
+            "Name": "silibinin"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "silibinin",
+            "Name": "silibinin"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "H2O2",
+            "Name": "h2o2"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "silibinin",
+            "Name": "silibinin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "phenylephrine",
+            "Name": "phenylephrine"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "atrial natriuretic peptide",
+            "Name": "atrialnatriureticpeptide"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "silibinin",
+            "Name": "silibinin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "phenylephrine",
+            "Name": "phenylephrine"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "ERK1/2",
+            "Name": "erk12"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "kinases",
+            "Name": "kinases"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "phenylephrine",
+            "Name": "phenylephrine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "silibinin",
+            "Name": "silibinin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "phenylephrine",
+            "Name": "phenylephrine"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "ERK1/2",
+            "Name": "erk12"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "MAPKs",
+            "Name": "mapks"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T21"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T25"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T24"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T16",
+            "target": "T19"
+        }
+    ]
+}

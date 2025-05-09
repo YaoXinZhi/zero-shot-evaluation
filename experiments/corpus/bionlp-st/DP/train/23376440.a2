@@ -1,0 +1,109 @@
+T21	CHEMICAL 0 15	Sodium arsenite
+N1	Name Annotation:T21 Referent:sodiumarsenite
+T45	GENE-Y 24 40	cyclooxygenase-2
+N2	Name Annotation:T45 Referent:cyclooxygenase2
+T46	GENE-N 89 93	MAPK
+N3	Name Annotation:T46 Referent:mapk
+T22	CHEMICAL 126 132	oxygen
+N4	Name Annotation:T22 Referent:oxygen
+T1	CHEMICAL 152 159	Arsenic
+N5	Name Annotation:T1 Referent:arsenic
+T12	CHEMICAL 180 186	oxygen
+N6	Name Annotation:T12 Referent:oxygen
+T9	CHEMICAL 294 301	arsenic
+N7	Name Annotation:T9 Referent:arsenic
+T29	GENE-Y 307 323	cyclooxygenase-2
+N8	Name Annotation:T29 Referent:cyclooxygenase2
+T30	GENE-Y 325 330	COX-2
+N9	Name Annotation:T30 Referent:cox2
+T10	CHEMICAL 362 369	arsenic
+N10	Name Annotation:T10 Referent:arsenic
+T11	CHEMICAL 426 433	arsenic
+N11	Name Annotation:T11 Referent:arsenic
+T31	GENE-Y 442 447	COX-2
+N12	Name Annotation:T31 Referent:cox2
+T13	CHEMICAL 516 523	arsenic
+N13	Name Annotation:T13 Referent:arsenic
+T32	GENE-Y 594 599	COX-2
+N14	Name Annotation:T32 Referent:cox2
+T14	CHEMICAL 682 697	sodium arsenite
+N15	Name Annotation:T14 Referent:sodiumarsenite
+T33	GENE-Y 702 707	COX-2
+N16	Name Annotation:T33 Referent:cox2
+T34	GENE-N 720 752	mitogen-activated protein kinase
+N17	Name Annotation:T34 Referent:mitogenactivatedproteinkinase
+T35	GENE-N 754 758	MAPK
+N18	Name Annotation:T35 Referent:mapk
+T15	CHEMICAL 777 788	glutathione
+N19	Name Annotation:T15 Referent:glutathione
+T16	CHEMICAL 790 793	GSH
+N20	Name Annotation:T16 Referent:gsh
+T36	GENE-Y 821 825	Nrf2
+N21	Name Annotation:T36 Referent:nrf2
+T17	CHEMICAL 883 891	arsenite
+N22	Name Annotation:T17 Referent:arsenite
+T37	GENE-Y 911 916	COX-2
+N23	Name Annotation:T37 Referent:cox2
+T18	CHEMICAL 929 932	GSH
+N24	Name Annotation:T18 Referent:gsh
+T38	GENE-Y 949 953	Nrf2
+N25	Name Annotation:T38 Referent:nrf2
+T19	CHEMICAL 966 974	Arsenite
+N26	Name Annotation:T19 Referent:arsenite
+T39	GENE-N 1023 1026	ERK
+N27	Name Annotation:T39 Referent:erk
+T40	GENE-N 1031 1034	p38
+N28	Name Annotation:T40 Referent:p38
+T41	GENE-N 1044 1047	JNK
+N29	Name Annotation:T41 Referent:jnk
+T42	GENE-Y 1080 1085	Cox-2
+N30	Name Annotation:T42 Referent:cox2
+T20	CHEMICAL 1101 1109	arsenite
+N31	Name Annotation:T20 Referent:arsenite
+T43	GENE-N 1142 1145	ERK
+N32	Name Annotation:T43 Referent:erk
+T44	GENE-N 1147 1150	p38
+N33	Name Annotation:T44 Referent:p38
+T23	GENE-N 1155 1158	JNK
+N34	Name Annotation:T23 Referent:jnk
+T2	CHEMICAL 1160 1168	Arsenite
+N35	Name Annotation:T2 Referent:arsenite
+T24	GENE-Y 1196 1201	COX-2
+N36	Name Annotation:T24 Referent:cox2
+T3	CHEMICAL 1261 1270	melatonin
+N37	Name Annotation:T3 Referent:melatonin
+T4	CHEMICAL 1306 1338	DL-buthionine-(S, R)-sulfoximine
+N38	Name Annotation:T4 Referent:dlbuthioninesrsulfoximine
+T5	CHEMICAL 1340 1343	BSO
+N39	Name Annotation:T5 Referent:bso
+T6	CHEMICAL 1361 1383	gamma-glutamylcysteine
+N40	Name Annotation:T6 Referent:gammaglutamylcysteine
+T25	GENE-Y 1361 1394	gamma-glutamylcysteine synthetase
+N41	Name Annotation:T25 Referent:gammaglutamylcysteinesynthetase
+T26	GENE-Y 1396 1401	γ-GCS
+N42	Name Annotation:T26 Referent:γgcs
+T7	CHEMICAL 1422 1425	GSH
+N43	Name Annotation:T7 Referent:gsh
+T8	CHEMICAL 1478 1486	arsenite
+N44	Name Annotation:T8 Referent:arsenite
+T27	GENE-Y 1550 1555	COX-2
+N45	Name Annotation:T27 Referent:cox2
+T28	GENE-N 1593 1597	MAPK
+N46	Name Annotation:T28 Referent:mapk
+R1	INDIRECT-UPREGULATOR Arg1:T21 Arg2:T45
+R2	ACTIVATOR Arg1:T21 Arg2:T46
+R3	INDIRECT-UPREGULATOR Arg1:T17 Arg2:T37
+R4	INDIRECT-UPREGULATOR Arg1:T17 Arg2:T38
+R5	INDIRECT-UPREGULATOR Arg1:T19 Arg2:T39
+R6	INDIRECT-UPREGULATOR Arg1:T19 Arg2:T40
+R7	INDIRECT-UPREGULATOR Arg1:T20 Arg2:T42
+R8	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T24
+R9	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T24
+R10	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T24
+R11	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T24
+R12	INHIBITOR Arg1:T4 Arg2:T25
+R13	INHIBITOR Arg1:T5 Arg2:T25
+R14	INHIBITOR Arg1:T4 Arg2:T26
+R15	INHIBITOR Arg1:T5 Arg2:T26
+R16	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T27
+R17	ACTIVATOR Arg1:T8 Arg2:T28

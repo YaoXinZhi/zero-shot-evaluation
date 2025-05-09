@@ -1,0 +1,76 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "[6]-gingerol",
+            "Name": "6gingerol"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "AT\u2081",
+            "Name": "at\u2081"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "angiotensin II type 1 receptor",
+            "Name": "angiotensiniitype1receptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "[6]-Gingerol",
+            "Name": "6gingerol"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "angiotensin II type 1 receptor",
+            "Name": "angiotensiniitype1receptor"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "GPCRs",
+            "Name": "gpcrs"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "endothelin receptors",
+            "Name": "endothelinreceptors"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "[6]-gingerol",
+            "Name": "6gingerol"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "angiotensin II type 1 receptor",
+            "Name": "angiotensiniitype1receptor"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T5"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T8"
+        }
+    ]
+}

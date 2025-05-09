@@ -1,0 +1,55 @@
+T16	CHEMICAL 19 27	alkylene
+N1	Name Annotation:T16 Referent:alkylene
+T17	CHEMICAL 35 58	bis-pyridiniumaldoximes
+N2	Name Annotation:T17 Referent:bispyridiniumaldoximes
+T22	GENE-Y 71 91	acetylcholinesterase
+N3	Name Annotation:T22 Referent:acetylcholinesterase
+T4	CHEMICAL 132 145	2-pralidoxime
+N4	Name Annotation:T4 Referent:2pralidoxime
+T7	CHEMICAL 147 152	2-PAM
+N5	Name Annotation:T7 Referent:2pam
+T11	CHEMICAL 167 182	organophosphate
+N6	Name Annotation:T11 Referent:organophosphate
+T1	CHEMICAL 207 212	2-PAM
+N7	Name Annotation:T1 Referent:2pam
+T18	GENE-Y 291 317	human acetylcholinesterase
+N8	Name Annotation:T18 Referent:humanacetylcholinesterase
+T19	GENE-Y 319 324	hAChE
+N9	Name Annotation:T19 Referent:hache
+T2	CHEMICAL 341 354	isoflurophate
+N10	Name Annotation:T2 Referent:isoflurophate
+T3	CHEMICAL 356 403	1,7-Heptylene-bis-N,N'-syn-2-pyridiniumaldoxime
+N11	Name Annotation:T3 Referent:17heptylenebisnnsyn2pyridiniumaldoxime
+T5	CHEMICAL 428 436	alkylene
+N12	Name Annotation:T5 Referent:alkylene
+T6	CHEMICAL 496 507	bistriflate
+N13	Name Annotation:T6 Referent:bistriflate
+T8	CHEMICAL 542 547	2-PAM
+N14	Name Annotation:T8 Referent:2pam
+T20	GENE-Y 564 569	hAChE
+N15	Name Annotation:T20 Referent:hache
+T9	CHEMICAL 582 595	isoflurophate
+N16	Name Annotation:T9 Referent:isoflurophate
+T10	CHEMICAL 649 654	2-PAM
+N17	Name Annotation:T10 Referent:2pam
+T12	CHEMICAL 782 788	oximes
+N18	Name Annotation:T12 Referent:oximes
+T13	CHEMICAL 831 836	oxime
+N19	Name Annotation:T13 Referent:oxime
+T14	CHEMICAL 857 874	diisopropyl ester
+N20	Name Annotation:T14 Referent:diisopropylester
+T21	GENE-Y 900 905	hAChE
+N21	Name Annotation:T21 Referent:hache
+T15	CHEMICAL 1016 1020	acyl
+N22	Name Annotation:T15 Referent:acyl
+R1	ACTIVATOR Arg1:T17 Arg2:T22
+R2	ACTIVATOR Arg1:T16 Arg2:T22
+R3	INHIBITOR Arg1:T2 Arg2:T18
+R4	INHIBITOR Arg1:T2 Arg2:T19
+R5	INHIBITOR Arg1:T9 Arg2:T20
+R6	ACTIVATOR Arg1:T8 Arg2:T20
+R7	ACTIVATOR Arg1:T3 Arg2:T20
+R8	ACTIVATOR Arg1:T5 Arg2:T20
+R9	ACTIVATOR Arg1:T6 Arg2:T20
+R10	DIRECT-REGULATOR Arg1:T13 Arg2:T21
+R11	DIRECT-REGULATOR Arg1:T14 Arg2:T21

@@ -1,0 +1,39 @@
+T11	CHEMICAL 0 13	Canagliflozin
+N1	Name Annotation:T11 Referent:canagliflozin
+T12	CHEMICAL 32 46	sodium-glucose
+N2	Name Annotation:T12 Referent:sodiumglucose
+T18	GENE-Y 32 62	sodium-glucose cotransporter 2
+N3	Name Annotation:T18 Referent:sodiumglucosecotransporter2
+T4	CHEMICAL 125 138	Canagliflozin
+N4	Name Annotation:T4 Referent:canagliflozin
+T8	CHEMICAL 165 179	sodium glucose
+N5	Name Annotation:T8 Referent:sodiumglucose
+T16	GENE-Y 165 195	sodium glucose cotransporter 2
+N6	Name Annotation:T16 Referent:sodiumglucosecotransporter2
+T3	CHEMICAL 253 266	Canagliflozin
+N7	Name Annotation:T3 Referent:canagliflozin
+T15	GENE-Y 299 306	insulin
+N8	Name Annotation:T15 Referent:insulin
+T5	CHEMICAL 349 356	glucose
+N9	Name Annotation:T5 Referent:glucose
+T6	CHEMICAL 529 542	canagliflozin
+N10	Name Annotation:T6 Referent:canagliflozin
+T7	CHEMICAL 611 624	canagliflozin
+N11	Name Annotation:T7 Referent:canagliflozin
+T9	CHEMICAL 695 708	canagliflozin
+N12	Name Annotation:T9 Referent:canagliflozin
+T10	CHEMICAL 774 787	Canagliflozin
+N13	Name Annotation:T10 Referent:canagliflozin
+T17	GENE-Y 828 833	HbA1c
+N14	Name Annotation:T17 Referent:hba1c
+T13	GENE-N 1187 1210	low-density lipoprotein
+N15	Name Annotation:T13 Referent:lowdensitylipoprotein
+T1	CHEMICAL 1211 1222	cholesterol
+N16	Name Annotation:T1 Referent:cholesterol
+T14	GENE-N 1224 1227	LDL
+N17	Name Annotation:T14 Referent:ldl
+T2	CHEMICAL 1272 1285	Canagliflozin
+N18	Name Annotation:T2 Referent:canagliflozin
+R1	INHIBITOR Arg1:T11 Arg2:T18
+R2	INHIBITOR Arg1:T4 Arg2:T16
+R3	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T17

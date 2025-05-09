@@ -1,0 +1,124 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "amifostine",
+            "Name": "amifostine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Ethyol",
+            "Name": "ethyol"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "amifostine",
+            "Name": "amifostine"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "alkaline phosphatase",
+            "Name": "alkalinephosphatase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "WR-1065",
+            "Name": "wr1065"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "WR-2721",
+            "Name": "wr2721"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "amifostine",
+            "Name": "amifostine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "amifostine",
+            "Name": "amifostine"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "NaCl",
+            "Name": "nacl"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "proliferating cell nuclear antigen",
+            "Name": "proliferatingcellnuclearantigen"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "NaCl",
+            "Name": "nacl"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "amifostine",
+            "Name": "amifostine"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PCNA",
+            "Name": "pcna"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PCNA",
+            "Name": "pcna"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "amifostine",
+            "Name": "amifostine"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PCNA",
+            "Name": "pcna"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "amifostine",
+            "Name": "amifostine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T17"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T15"
+        }
+    ]
+}

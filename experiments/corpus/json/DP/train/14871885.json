@@ -1,0 +1,215 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Metformin",
+            "Name": "metformin"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "AMP",
+            "Name": "amp"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "AMP-activated protein kinase",
+            "Name": "ampactivatedproteinkinase"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Metformin",
+            "Name": "metformin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "AMP",
+            "Name": "amp"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "AMP-activated protein kinase",
+            "Name": "ampactivatedproteinkinase"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "metformin",
+            "Name": "metformin"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "metformin",
+            "Name": "metformin"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "metformin",
+            "Name": "metformin"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "metformin",
+            "Name": "metformin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "metformin",
+            "Name": "metformin"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T13",
+            "target": "T27"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T17"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T18"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T25"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T16"
+        }
+    ]
+}

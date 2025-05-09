@@ -1,0 +1,117 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Coenzyme Q10",
+            "Name": "coenzymeq10"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "cisplatin",
+            "Name": "cisplatin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "coenzyme Q10",
+            "Name": "coenzymeq10"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "CoQ10",
+            "Name": "coq10"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "cisplatin",
+            "Name": "cisplatin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "CoQ10",
+            "Name": "coq10"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "cisplatin",
+            "Name": "cisplatin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "CoQ10",
+            "Name": "coq10"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Tp53",
+            "Name": "tp53"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "cisplatin",
+            "Name": "cisplatin"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "nerve growth factor",
+            "Name": "nervegrowthfactor"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "NGF",
+            "Name": "ngf"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "CoQ10",
+            "Name": "coq10"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "cisplatin",
+            "Name": "cisplatin"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "CoQ10",
+            "Name": "coq10"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T15"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T15"
+        }
+    ]
+}

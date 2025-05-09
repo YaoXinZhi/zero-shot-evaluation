@@ -1,0 +1,63 @@
+T27	GENE 32 90	human placental 3 beta-hydroxy-5-ene-steroid dehydrogenase
+N1	Name Annotation:T27 Referent:humanplacental3betahydroxy5enesteroiddehydrogenase
+T19	CHEMICAL 48 76	3 beta-hydroxy-5-ene-steroid
+N2	Name Annotation:T19 Referent:3betahydroxy5enesteroid
+T28	GENE 95 123	steroid 5----4-ene-isomerase
+N3	Name Annotation:T28 Referent:steroid54eneisomerase
+T18	CHEMICAL 130 169	5'-[p-(fluorosulfonyl)benzoyl]adenosine
+N4	Name Annotation:T18 Referent:5pfluorosulfonylbenzoyladenosine
+T1	CHEMICAL 209 237	3 beta-Hydroxy-5-ene-steroid
+N5	Name Annotation:T1 Referent:3betahydroxy5enesteroid
+T20	GENE 209 251	3 beta-Hydroxy-5-ene-steroid dehydrogenase
+N6	Name Annotation:T20 Referent:3betahydroxy5enesteroiddehydrogenase
+T24	GENE 256 284	steroid 5----4-ene-isomerase
+N7	Name Annotation:T24 Referent:steroid54eneisomerase
+T7	CHEMICAL 387 417	alpha-bromoacetoxyprogesterone
+N8	Name Annotation:T7 Referent:alphabromoacetoxyprogesterone
+T23	GENE 436 449	dehydrogenase
+N9	Name Annotation:T23 Referent:dehydrogenase
+T8	CHEMICAL 474 482	steroids
+N10	Name Annotation:T8 Referent:steroids
+T9	CHEMICAL 551 555	NADH
+N11	Name Annotation:T9 Referent:nadh
+T10	CHEMICAL 626 635	progestin
+N12	Name Annotation:T10 Referent:progestin
+T11	CHEMICAL 761 781	3-keto-5-ene-steroid
+N13	Name Annotation:T11 Referent:3keto5enesteroid
+T25	GENE 761 791	3-keto-5-ene-steroid isomerase
+N14	Name Annotation:T25 Referent:3keto5enesteroidisomerase
+T12	CHEMICAL 839 868	diphosphopyridine nucleotides
+N15	Name Annotation:T12 Referent:diphosphopyridinenucleotides
+T13	CHEMICAL 870 874	NADH
+N16	Name Annotation:T13 Referent:nadh
+T14	CHEMICAL 876 880	NAD+
+N17	Name Annotation:T14 Referent:nad
+T15	CHEMICAL 905 915	nucleotide
+N18	Name Annotation:T15 Referent:nucleotide
+T16	CHEMICAL 924 963	5'-[p-(fluorosulfonyl)benzoyl]adenosine
+N19	Name Annotation:T16 Referent:5pfluorosulfonylbenzoyladenosine
+T17	CHEMICAL 965 968	FSA
+N20	Name Annotation:T17 Referent:fsa
+T26	GENE 987 1000	dehydrogenase
+N21	Name Annotation:T26 Referent:dehydrogenase
+T2	CHEMICAL 1275 1279	NAD+
+N22	Name Annotation:T2 Referent:nad
+T21	GENE 1293 1306	dehydrogenase
+N23	Name Annotation:T21 Referent:dehydrogenase
+T3	CHEMICAL 1443 1446	FSA
+N24	Name Annotation:T3 Referent:fsa
+T4	CHEMICAL 1563 1584	3 beta-hydroxysteroid
+N25	Name Annotation:T4 Referent:3betahydroxysteroid
+T5	CHEMICAL 1596 1608	pregnenolone
+N26	Name Annotation:T5 Referent:pregnenolone
+T22	GENE 1640 1653	dehydrogenase
+N27	Name Annotation:T22 Referent:dehydrogenase
+T6	CHEMICAL 1675 1678	FSA
+N28	Name Annotation:T6 Referent:fsa
+R1	DIRECT-REGULATOR Arg1:T18 Arg2:T27
+R2	DIRECT-REGULATOR Arg1:T18 Arg2:T28
+R3	SUBSTRATE Arg1:T8 Arg2:T23
+R4	INHIBITOR Arg1:T15 Arg2:T26
+R5	INHIBITOR Arg1:T16 Arg2:T26
+R6	INHIBITOR Arg1:T17 Arg2:T26
+R7	INHIBITOR Arg1:T6 Arg2:T22

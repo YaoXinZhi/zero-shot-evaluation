@@ -1,0 +1,94 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "N-Aryl pyrido-quinazolines",
+            "Name": "narylpyridoquinazolines"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "pyrido-quinazolines",
+            "Name": "pyridoquinazolines"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Alkylideno/arylideno-bis-ureas",
+            "Name": "alkylidenoarylidenobisureas"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "1H",
+            "Name": "1h"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "TK",
+            "Name": "tk"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T6"
+        }
+    ]
+}

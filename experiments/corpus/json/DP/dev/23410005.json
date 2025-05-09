@@ -1,0 +1,126 @@
+{
+    "entities": [
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "5-morpholino-7H-thieno[3,2-b]pyran-7-ones",
+            "Name": "5morpholino7hthieno32bpyran7ones"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "phosphatidylinositol-3-kinase",
+            "Name": "phosphatidylinositol3kinase"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "LY294002",
+            "Name": "ly294002"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "SF1126",
+            "Name": "sf1126"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "5-morpholino-7H-thieno[3,2-b]pyran-7-one",
+            "Name": "5morpholino7hthieno32bpyran7one"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T14"
+        }
+    ]
+}

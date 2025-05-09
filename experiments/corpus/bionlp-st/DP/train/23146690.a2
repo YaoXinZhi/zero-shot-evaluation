@@ -1,0 +1,56 @@
+T10	CHEMICAL 35 46	resveratrol
+N1	Name Annotation:T10 Referent:resveratrol
+T11	CHEMICAL 74 85	clofarabine
+N2	Name Annotation:T11 Referent:clofarabine
+T3	CHEMICAL 456 467	clofarabine
+N3	Name Annotation:T3 Referent:clofarabine
+T4	CHEMICAL 573 584	resveratrol
+N4	Name Annotation:T4 Referent:resveratrol
+T5	CHEMICAL 589 600	clofarabine
+N5	Name Annotation:T5 Referent:clofarabine
+T16	GENE-Y 742 745	Sp1
+N6	Name Annotation:T16 Referent:sp1
+T17	GENE-N 764 769	p-Akt
+N7	Name Annotation:T17 Referent:pakt
+T18	GENE-Y 771 774	Sp1
+N8	Name Annotation:T18 Referent:sp1
+T19	GENE-Y 776 781	c-Met
+N9	Name Annotation:T19 Referent:cmet
+T20	GENE-Y 783 792	cyclin D1
+N10	Name Annotation:T20 Referent:cyclind1
+T21	GENE-Y 798 801	p21
+N11	Name Annotation:T21 Referent:p21
+T6	CHEMICAL 884 895	clofarabine
+N12	Name Annotation:T6 Referent:clofarabine
+T7	CHEMICAL 912 923	resveratrol
+N13	Name Annotation:T7 Referent:resveratrol
+T22	GENE-Y 950 953	Sp1
+N14	Name Annotation:T22 Referent:sp1
+T8	CHEMICAL 1060 1076	phosphoinositide
+N15	Name Annotation:T8 Referent:phosphoinositide
+T23	GENE-N 1060 1085	phosphoinositide 3-kinase
+N16	Name Annotation:T23 Referent:phosphoinositide3kinase
+T9	CHEMICAL 1092 1100	Ly294002
+N17	Name Annotation:T9 Referent:ly294002
+T24	GENE-Y 1129 1132	p21
+N18	Name Annotation:T24 Referent:p21
+T12	GENE-Y 1223 1226	Sp1
+N19	Name Annotation:T12 Referent:sp1
+T13	GENE-Y 1231 1240	cyclin D1
+N20	Name Annotation:T13 Referent:cyclind1
+T1	CHEMICAL 1333 1344	resveratrol
+N21	Name Annotation:T1 Referent:resveratrol
+T2	CHEMICAL 1349 1360	clofarabine
+N22	Name Annotation:T2 Referent:clofarabine
+T14	GENE-N 1392 1395	Akt
+N23	Name Annotation:T14 Referent:akt
+T15	GENE-Y 1400 1403	Sp1
+N24	Name Annotation:T15 Referent:sp1
+R1	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T22
+R2	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T22
+R3	INHIBITOR Arg1:T9 Arg2:T23
+R4	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T24
+R5	INHIBITOR Arg1:T1 Arg2:T14
+R6	INHIBITOR Arg1:T1 Arg2:T15
+R7	INHIBITOR Arg1:T2 Arg2:T14
+R8	INHIBITOR Arg1:T2 Arg2:T15

@@ -1,0 +1,157 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Serotonin transporter",
+            "Name": "serotonintransporter"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "RTI-76",
+            "Name": "rti76"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "serotonin transporter",
+            "Name": "serotonintransporter"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "RTI-76",
+            "Name": "rti76"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "RTI-76",
+            "Name": "rti76"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Citalopram",
+            "Name": "citalopram"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "RTI-76",
+            "Name": "rti76"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "RTI-76",
+            "Name": "rti76"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "[3H]-5-HT",
+            "Name": "3h5ht"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T11"
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "G protein-coupled receptors",
+            "Name": "gproteincoupledreceptors"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "halothane",
+            "Name": "halothane"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "G protein-coupled receptor",
+            "Name": "gproteincoupledreceptor"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "bovine rhodopsin",
+            "Name": "bovinerhodopsin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Tryptophan",
+            "Name": "tryptophan"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "[(14)C]halothane",
+            "Name": "14chalothane"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "halothane",
+            "Name": "halothane"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "halothane",
+            "Name": "halothane"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "[(14)C]halothane",
+            "Name": "14chalothane"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "rhodopsin",
+            "Name": "rhodopsin"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "halothane",
+            "Name": "halothane"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "halothane",
+            "Name": "halothane"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "halothane",
+            "Name": "halothane"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Part of",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Part of",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T14"
+        },
+        {
+            "type": "Part of",
+            "source": "T10",
+            "target": "T14"
+        }
+    ]
+}

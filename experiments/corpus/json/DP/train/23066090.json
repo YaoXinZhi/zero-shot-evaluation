@@ -1,0 +1,223 @@
+{
+    "entities": [
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "EPAC",
+            "Name": "epac"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "Exchange protein directly activated by cAMP",
+            "Name": "exchangeproteindirectlyactivatedbycamp"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "EPAC",
+            "Name": "epac"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "cAMP-dependent protein kinase",
+            "Name": "campdependentproteinkinase"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "PKA",
+            "Name": "pka"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "EPAC",
+            "Name": "epac"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "3-(5-tert-butyl-isoxazol-3-yl)-2-[(3-chloro-phenyl)-hydrazono]-3-oxo-propionitrile",
+            "Name": "35tertbutylisoxazol3yl23chlorophenylhydrazono3oxopropionitrile"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ESI-09",
+            "Name": "esi09"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "nucleotide",
+            "Name": "nucleotide"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "EPAC",
+            "Name": "epac"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "EPAC",
+            "Name": "epac"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Rap1",
+            "Name": "rap1"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "EPAC",
+            "Name": "epac"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "EPAC",
+            "Name": "epac"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "EPAC1",
+            "Name": "epac1"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "EPAC1",
+            "Name": "epac1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T4",
+            "target": "T10"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T16"
+        }
+    ]
+}

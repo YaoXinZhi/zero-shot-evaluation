@@ -1,0 +1,106 @@
+T34	CHEMICAL 0 16	Hydrogen sulfide
+N1	Name Annotation:T34 Referent:hydrogensulfide
+T36	CHEMICAL 27 39	nitric oxide
+N2	Name Annotation:T36 Referent:nitricoxide
+T37	CHEMICAL 56 63	calcium
+N3	Name Annotation:T37 Referent:calcium
+T47	GENE-Y 88 121	endothelial nitric oxide synthase
+N4	Name Annotation:T47 Referent:endothelialnitricoxidesynthase
+T35	CHEMICAL 100 112	nitric oxide
+N5	Name Annotation:T35 Referent:nitricoxide
+T1	CHEMICAL 144 160	Hydrogen sulfide
+N6	Name Annotation:T1 Referent:hydrogensulfide
+T13	CHEMICAL 162 167	H(2)S
+N7	Name Annotation:T13 Referent:h2s
+T12	CHEMICAL 295 300	H(2)S
+N8	Name Annotation:T12 Referent:h2s
+T14	CHEMICAL 417 422	H(2)S
+N9	Name Annotation:T14 Referent:h2s
+T15	CHEMICAL 522 534	nitric oxide
+N10	Name Annotation:T15 Referent:nitricoxide
+T16	CHEMICAL 536 538	NO
+N11	Name Annotation:T16 Referent:no
+T17	CHEMICAL 581 586	H(2)S
+N12	Name Annotation:T17 Referent:h2s
+T43	GENE-Y 606 629	endothelial NO synthase
+N13	Name Annotation:T43 Referent:endothelialnosynthase
+T18	CHEMICAL 618 620	NO
+N14	Name Annotation:T18 Referent:no
+T44	GENE-Y 631 635	eNOS
+N15	Name Annotation:T44 Referent:enos
+T19	CHEMICAL 632 634	NO
+N16	Name Annotation:T19 Referent:no
+T20	CHEMICAL 686 690	NaHS
+N17	Name Annotation:T20 Referent:nahs
+T21	CHEMICAL 694 699	H(2)S
+N18	Name Annotation:T21 Referent:h2s
+T22	CHEMICAL 734 736	NO
+N19	Name Annotation:T22 Referent:no
+T23	CHEMICAL 810 817	calcium
+N20	Name Annotation:T23 Referent:calcium
+T24	CHEMICAL 828 836	BAPTA-AM
+N21	Name Annotation:T24 Referent:baptaam
+T25	CHEMICAL 879 886	calcium
+N22	Name Annotation:T25 Referent:calcium
+T26	CHEMICAL 892 896	NaHS
+N23	Name Annotation:T26 Referent:nahs
+T27	CHEMICAL 905 907	NO
+N24	Name Annotation:T27 Referent:no
+T28	CHEMICAL 958 967	ryanodine
+N25	Name Annotation:T28 Referent:ryanodine
+T45	GENE-N 958 976	ryanodine receptor
+N26	Name Annotation:T45 Referent:ryanodinereceptor
+T29	CHEMICAL 978 988	dantrolene
+N27	Name Annotation:T29 Referent:dantrolene
+T30	CHEMICAL 993 1020	inositol 1,4,5-triphosphate
+N28	Name Annotation:T30 Referent:inositol145triphosphate
+T46	GENE-N 993 1029	inositol 1,4,5-triphosphate receptor
+N29	Name Annotation:T46 Referent:inositol145triphosphatereceptor
+T31	CHEMICAL 1031 1045	xestospongin C
+N30	Name Annotation:T31 Referent:xestosponginc
+T32	CHEMICAL 1048 1052	NaHS
+N31	Name Annotation:T32 Referent:nahs
+T33	CHEMICAL 1091 1098	calcium
+N32	Name Annotation:T33 Referent:calcium
+T2	CHEMICAL 1149 1159	dantrolene
+N33	Name Annotation:T2 Referent:dantrolene
+T3	CHEMICAL 1163 1177	xestospongin C
+N34	Name Annotation:T3 Referent:xestosponginc
+T4	CHEMICAL 1179 1183	NaHS
+N35	Name Annotation:T4 Referent:nahs
+T38	GENE-Y 1211 1215	eNOS
+N36	Name Annotation:T38 Referent:enos
+T5	CHEMICAL 1234 1247	phosphoserine
+N37	Name Annotation:T5 Referent:phosphoserine
+T6	CHEMICAL 1266 1270	NaHS
+N38	Name Annotation:T6 Referent:nahs
+T39	GENE-Y 1279 1283	eNOS
+N39	Name Annotation:T39 Referent:enos
+T7	CHEMICAL 1280 1282	NO
+N40	Name Annotation:T7 Referent:no
+T40	GENE-N 1341 1345	PI3K
+N41	Name Annotation:T40 Referent:pi3k
+T41	GENE-N 1346 1349	Akt
+N42	Name Annotation:T41 Referent:akt
+T8	CHEMICAL 1361 1371	wortmannin
+N43	Name Annotation:T8 Referent:wortmannin
+T9	CHEMICAL 1410 1415	H(2)S
+N44	Name Annotation:T9 Referent:h2s
+T42	GENE-Y 1461 1465	eNOS
+N45	Name Annotation:T42 Referent:enos
+T10	CHEMICAL 1462 1464	NO
+N46	Name Annotation:T10 Referent:no
+T11	CHEMICAL 1508 1515	calcium
+N47	Name Annotation:T11 Referent:calcium
+R1	ACTIVATOR Arg1:T34 Arg2:T47
+R2	PRODUCT-OF Arg1:T36 Arg2:T47
+R3	INHIBITOR Arg1:T29 Arg2:T45
+R4	INHIBITOR Arg1:T31 Arg2:T46
+R5	ACTIVATOR Arg1:T4 Arg2:T38
+R6	PART-OF Arg1:T5 Arg2:T38
+R7	ACTIVATOR Arg1:T6 Arg2:T39
+R8	PRODUCT-OF Arg1:T7 Arg2:T39
+R9	INHIBITOR Arg1:T8 Arg2:T40
+R10	INHIBITOR Arg1:T8 Arg2:T41
+R11	ACTIVATOR Arg1:T9 Arg2:T42
+R12	PRODUCT-OF Arg1:T10 Arg2:T42

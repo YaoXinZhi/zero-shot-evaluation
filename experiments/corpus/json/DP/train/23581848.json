@@ -1,0 +1,135 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "tetrahydroisoquinoline",
+            "Name": "tetrahydroisoquinoline"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "hydroxamate",
+            "Name": "hydroxamate"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "ZYJ-34v",
+            "Name": "zyj34v"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "histone deacetylase",
+            "Name": "histonedeacetylase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "tetrahydroisoquinoline",
+            "Name": "tetrahydroisoquinoline"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "hydroxamic acid",
+            "Name": "hydroxamicacid"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "histone deacetylase",
+            "Name": "histonedeacetylase"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "HDAC",
+            "Name": "hdac"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "ZYJ-34c",
+            "Name": "zyj34c"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "ZYJ-34v",
+            "Name": "zyj34v"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "HDAC1, 2, 3 and 6",
+            "Name": "hdac123and6"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "HDAC",
+            "Name": "hdac"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "SAHA",
+            "Name": "saha"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T10"
+        }
+    ]
+}

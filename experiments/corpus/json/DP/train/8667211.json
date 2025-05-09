@@ -1,0 +1,245 @@
+{
+    "entities": [
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "carbonic anhydrase",
+            "Name": "carbonicanhydrase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "prostaglandins",
+            "Name": "prostaglandins"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "PGs",
+            "Name": "pgs"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "carbonic anhydrase",
+            "Name": "carbonicanhydrase"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "CA",
+            "Name": "ca"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "CA",
+            "Name": "ca"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "PGs",
+            "Name": "pgs"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "CA I",
+            "Name": "cai"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "CA II",
+            "Name": "caii"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Ca",
+            "Name": "ca"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "acetazolamide",
+            "Name": "acetazolamide"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "PG",
+            "Name": "pg"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "CA I",
+            "Name": "cai"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "CA II",
+            "Name": "caii"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Ca",
+            "Name": "ca"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "CA II",
+            "Name": "caii"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "acetazolamide",
+            "Name": "acetazolamide"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "CA I",
+            "Name": "cai"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "CA II",
+            "Name": "caii"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Indomethacin",
+            "Name": "indomethacin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "acetazolamide",
+            "Name": "acetazolamide"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "CA I",
+            "Name": "cai"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "CA II",
+            "Name": "caii"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "CA",
+            "Name": "ca"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "CA",
+            "Name": "ca"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "CA",
+            "Name": "ca"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "CA",
+            "Name": "ca"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T14"
+        },
+        {
+            "type": "Activator",
+            "source": "T12",
+            "target": "T13"
+        },
+        {
+            "type": "Activator",
+            "source": "T12",
+            "target": "T14"
+        }
+    ]
+}

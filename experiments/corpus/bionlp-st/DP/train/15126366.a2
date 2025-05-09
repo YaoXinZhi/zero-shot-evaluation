@@ -1,0 +1,92 @@
+T23	CHEMICAL 39 57	ingenol 3-angelate
+N1	Name Annotation:T23 Referent:ingenol3angelate
+T37	GENE-N 63 79	protein kinase C
+N2	Name Annotation:T37 Referent:proteinkinasec
+T1	CHEMICAL 81 99	Ingenol 3-angelate
+N3	Name Annotation:T1 Referent:ingenol3angelate
+T10	CHEMICAL 101 104	I3A
+N4	Name Annotation:T10 Referent:i3a
+T9	CHEMICAL 253 256	I3A
+N5	Name Annotation:T9 Referent:i3a
+T28	GENE-N 262 278	protein kinase C
+N6	Name Annotation:T28 Referent:proteinkinasec
+T29	GENE-N 280 283	PKC
+N7	Name Annotation:T29 Referent:pkc
+T11	CHEMICAL 293 296	I3A
+N8	Name Annotation:T11 Referent:i3a
+T30	GENE-Y 306 315	PKC-alpha
+N9	Name Annotation:T30 Referent:pkcalpha
+T12	CHEMICAL 335 353	phosphatidylserine
+N10	Name Annotation:T12 Referent:phosphatidylserine
+T31	GENE-N 420 423	PKC
+N11	Name Annotation:T31 Referent:pkc
+T32	GENE-N 458 461	PKC
+N12	Name Annotation:T32 Referent:pkc
+T13	CHEMICAL 541 544	I3A
+N13	Name Annotation:T13 Referent:i3a
+T14	CHEMICAL 549 580	phorbol 12-myristate 13-acetate
+N14	Name Annotation:T14 Referent:phorbol12myristate13acetate
+T15	CHEMICAL 582 585	PMA
+N15	Name Annotation:T15 Referent:pma
+T16	CHEMICAL 660 663	I3A
+N16	Name Annotation:T16 Referent:i3a
+T17	CHEMICAL 730 733	PMA
+N17	Name Annotation:T17 Referent:pma
+T18	CHEMICAL 759 762	I3A
+N18	Name Annotation:T18 Referent:i3a
+T33	GENE-Y 797 822	green fluorescent protein
+N19	Name Annotation:T33 Referent:greenfluorescentprotein
+T34	GENE-N 830 833	PKC
+N20	Name Annotation:T34 Referent:pkc
+T19	CHEMICAL 913 916	PMA
+N21	Name Annotation:T19 Referent:pma
+T35	GENE-Y 918 927	PKC-delta
+N22	Name Annotation:T35 Referent:pkcdelta
+T20	CHEMICAL 1001 1004	I3A
+N23	Name Annotation:T20 Referent:i3a
+T21	CHEMICAL 1009 1012	PMA
+N24	Name Annotation:T21 Referent:pma
+T22	CHEMICAL 1014 1017	I3A
+N25	Name Annotation:T22 Referent:i3a
+T36	GENE-N 1074 1082	cytokine
+N26	Name Annotation:T36 Referent:cytokine
+T24	GENE-Y 1083 1096	interleukin 6
+N27	Name Annotation:T24 Referent:interleukin6
+T2	CHEMICAL 1111 1114	PMA
+N28	Name Annotation:T2 Referent:pma
+T3	CHEMICAL 1208 1211	I3A
+N29	Name Annotation:T3 Referent:i3a
+T25	GENE-N 1270 1280	C1b domain
+N30	Name Annotation:T25 Referent:c1bdomain
+T26	GENE-Y 1284 1293	PKC-delta
+N31	Name Annotation:T26 Referent:pkcdelta
+T4	CHEMICAL 1321 1324	PMA
+N32	Name Annotation:T4 Referent:pma
+T5	CHEMICAL 1356 1370	diacylglycerol
+N33	Name Annotation:T5 Referent:diacylglycerol
+T27	GENE-Y 1516 1525	PKC-alpha
+N34	Name Annotation:T27 Referent:pkcalpha
+T6	CHEMICAL 1537 1540	I3A
+N35	Name Annotation:T6 Referent:i3a
+T7	CHEMICAL 1572 1575	PMA
+N36	Name Annotation:T7 Referent:pma
+T8	CHEMICAL 1610 1613	I3A
+N37	Name Annotation:T8 Referent:i3a
+R1	DIRECT-REGULATOR Arg1:T9 Arg2:T28
+R2	DIRECT-REGULATOR Arg1:T9 Arg2:T29
+R3	DIRECT-REGULATOR Arg1:T11 Arg2:T30
+R4	DIRECT-REGULATOR Arg1:T11 Arg2:T31
+R5	DIRECT-REGULATOR Arg1:T18 Arg2:T34
+R6	DIRECT-REGULATOR Arg1:T19 Arg2:T34
+R7	DIRECT-REGULATOR Arg1:T20 Arg2:T35
+R8	DIRECT-REGULATOR Arg1:T21 Arg2:T35
+R9	INDIRECT-UPREGULATOR Arg1:T22 Arg2:T36
+R10	INDIRECT-UPREGULATOR Arg1:T22 Arg2:T24
+R11	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T36
+R12	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T24
+R13	DIRECT-REGULATOR Arg1:T5 Arg2:T26
+R14	DIRECT-REGULATOR Arg1:T4 Arg2:T26
+R15	ACTIVATOR Arg1:T6 Arg2:T27
+R16	ACTIVATOR Arg1:T7 Arg2:T27
+R17	DIRECT-REGULATOR Arg1:T4 Arg2:T25
+R18	DIRECT-REGULATOR Arg1:T5 Arg2:T25

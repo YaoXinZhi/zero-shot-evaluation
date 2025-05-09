@@ -1,0 +1,66 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "\u03b1-Amino-\u03b1\u00b4-Halomethylketones",
+            "Name": "\u03b1amino\u03b1halomethylketones"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Serine and Cysteine Protease",
+            "Name": "serineandcysteineprotease"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Cysteine",
+            "Name": "cysteine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "\u03b1-Amino-\u03b1\u00b4-halomethylketones",
+            "Name": "\u03b1amino\u03b1halomethylketones"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "carbons",
+            "Name": "carbons"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "serine and cysteine proteases",
+            "Name": "serineandcysteineproteases"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cysteine",
+            "Name": "cysteine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T9"
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "IMPDH1",
+            "Name": "impdh1"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "IMPDH2",
+            "Name": "impdh2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Inosine monophosphate",
+            "Name": "inosinemonophosphate"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "Inosine monophosphate dehydrogenase",
+            "Name": "inosinemonophosphatedehydrogenase"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "IMPDH",
+            "Name": "impdh"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "guanine nucleotide",
+            "Name": "guaninenucleotide"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "IMPDH",
+            "Name": "impdh"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "IMPDH",
+            "Name": "impdh"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "IMPDH",
+            "Name": "impdh"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "mycophenolic acid",
+            "Name": "mycophenolicacid"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "IMPDH1",
+            "Name": "impdh1"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "IMPDH2",
+            "Name": "impdh2"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "IMPDH1 and 2",
+            "Name": "impdh1and2"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "mycophenolate mofetil",
+            "Name": "mycophenolatemofetil"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "steroids",
+            "Name": "steroids"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "IMPDH",
+            "Name": "impdh"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T12"
+        }
+    ]
+}

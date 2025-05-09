@@ -1,0 +1,212 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "bile salt",
+            "Name": "bilesalt"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "bile salt export pump",
+            "Name": "bilesaltexportpump"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "BSEP",
+            "Name": "bsep"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "ABCB11",
+            "Name": "abcb11"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "multidrug resistance associated protein-2",
+            "Name": "multidrugresistanceassociatedprotein2"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "MRP2",
+            "Name": "mrp2"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "ABCC2",
+            "Name": "abcc2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "bile acid",
+            "Name": "bileacid"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "cloxacillin",
+            "Name": "cloxacillin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "cyclosporin A",
+            "Name": "cyclosporina"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "midecamycin",
+            "Name": "midecamycin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "BSEP",
+            "Name": "bsep"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "cyclosporin A",
+            "Name": "cyclosporina"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "midecamycin",
+            "Name": "midecamycin"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "MRP2",
+            "Name": "mrp2"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "BSEP",
+            "Name": "bsep"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "MRP2",
+            "Name": "mrp2"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "midecamycin",
+            "Name": "midecamycin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "cyclosporin A",
+            "Name": "cyclosporina"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "BSEP",
+            "Name": "bsep"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cloxacillin",
+            "Name": "cloxacillin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "glibenclamide",
+            "Name": "glibenclamide"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "BSEP",
+            "Name": "bsep"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "MRP2",
+            "Name": "mrp2"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "BSEP",
+            "Name": "bsep"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T12"
+        }
+    ]
+}

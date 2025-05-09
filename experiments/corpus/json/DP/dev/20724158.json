@@ -1,0 +1,144 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "cyclooxygenase-2",
+            "Name": "cyclooxygenase2"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "steroidal",
+            "Name": "steroidal"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "cyclooxygenase-2",
+            "Name": "cyclooxygenase2"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "cox-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "celecoxib",
+            "Name": "celecoxib"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "rofecoxib",
+            "Name": "rofecoxib"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "valdecoxib",
+            "Name": "valdecoxib"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Celecoxib",
+            "Name": "celecoxib"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "rofecoxib",
+            "Name": "rofecoxib"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Acetaminophen",
+            "Name": "acetaminophen"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "rofecoxib",
+            "Name": "rofecoxib"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T13"
+        }
+    ]
+}

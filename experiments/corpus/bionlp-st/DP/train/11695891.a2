@@ -1,0 +1,52 @@
+T13	CHEMICAL 21 33	nitric oxide
+N1	Name Annotation:T13 Referent:nitricoxide
+T21	GENE-N 21 42	nitric oxide synthase
+N2	Name Annotation:T21 Referent:nitricoxidesynthase
+T14	CHEMICAL 52 66	nitro indazole
+N3	Name Annotation:T14 Referent:nitroindazole
+T1	CHEMICAL 107 119	Nitric oxide
+N4	Name Annotation:T1 Referent:nitricoxide
+T2	CHEMICAL 210 222	nitric oxide
+N5	Name Annotation:T2 Referent:nitricoxide
+T15	GENE-N 210 231	nitric oxide synthase
+N6	Name Annotation:T15 Referent:nitricoxidesynthase
+T16	GENE-N 233 236	NOS
+N7	Name Annotation:T16 Referent:nos
+T17	GENE-N 269 272	NOS
+N8	Name Annotation:T17 Referent:nos
+T3	CHEMICAL 274 294	3-Br-7-nitroindazole
+N9	Name Annotation:T3 Referent:3br7nitroindazole
+T4	CHEMICAL 296 302	7-NIBr
+N10	Name Annotation:T4 Referent:7nibr
+T18	GENE-N 424 445	catalytic heme domain
+N11	Name Annotation:T18 Referent:catalytichemedomain
+T19	GENE-Y 449 464	endothelial NOS
+N12	Name Annotation:T19 Referent:endothelialnos
+T5	CHEMICAL 480 486	7-NIBr
+N13	Name Annotation:T5 Referent:7nibr
+T6	CHEMICAL 536 542	7-NIBr
+N14	Name Annotation:T6 Referent:7nibr
+T20	GENE-Y 584 588	eNOS
+N15	Name Annotation:T20 Referent:enos
+T7	CHEMICAL 632 641	glutamate
+N16	Name Annotation:T7 Referent:glutamate
+T8	CHEMICAL 679 694	heme propionate
+N17	Name Annotation:T8 Referent:hemepropionate
+T9	CHEMICAL 723 738	heme propionate
+N18	Name Annotation:T9 Referent:hemepropionate
+T10	CHEMICAL 774 793	tetrahydrobiopterin
+N19	Name Annotation:T10 Referent:tetrahydrobiopterin
+T11	CHEMICAL 794 798	heme
+N20	Name Annotation:T11 Referent:heme
+T12	CHEMICAL 914 920	7-NIBr
+N21	Name Annotation:T12 Referent:7nibr
+R1	DIRECT-REGULATOR Arg1:T14 Arg2:T21
+R2	PRODUCT-OF Arg1:T1 Arg2:T15
+R3	PRODUCT-OF Arg1:T1 Arg2:T16
+R4	INHIBITOR Arg1:T3 Arg2:T17
+R5	INHIBITOR Arg1:T4 Arg2:T17
+R6	DIRECT-REGULATOR Arg1:T5 Arg2:T18
+R7	DIRECT-REGULATOR Arg1:T5 Arg2:T19
+R8	PART-OF Arg1:T7 Arg2:T20
+R9	DIRECT-REGULATOR Arg1:T6 Arg2:T20
+R10	PART-OF Arg1:T8 Arg2:T20

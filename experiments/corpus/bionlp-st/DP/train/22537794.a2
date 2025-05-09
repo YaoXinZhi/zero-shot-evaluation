@@ -1,0 +1,105 @@
+T28	CHEMICAL 0 11	R-modafinil
+N1	Name Annotation:T28 Referent:rmodafinil
+T29	CHEMICAL 13 24	armodafinil
+N2	Name Annotation:T29 Referent:armodafinil
+T30	CHEMICAL 36 44	dopamine
+N3	Name Annotation:T30 Referent:dopamine
+T3	CHEMICAL 126 141	(+/-)-Modafinil
+N4	Name Annotation:T3 Referent:modafinil
+T6	CHEMICAL 252 277	R-enantiomer of modafinil
+N5	Name Annotation:T6 Referent:renantiomerofmodafinil
+T14	CHEMICAL 369 384	(+/-)-Modafinil
+N6	Name Annotation:T14 Referent:modafinil
+T15	CHEMICAL 468 483	[(3)H] dopamine
+N7	Name Annotation:T15 Referent:3hdopamine
+T16	CHEMICAL 485 487	DA
+N8	Name Annotation:T16 Referent:da
+T17	CHEMICAL 500 515	[(3)H]WIN 35428
+N9	Name Annotation:T17 Referent:3hwin35428
+T39	GENE-Y 527 553	human dopamine transporter
+N10	Name Annotation:T39 Referent:humandopaminetransporter
+T18	CHEMICAL 533 541	dopamine
+N11	Name Annotation:T18 Referent:dopamine
+T40	GENE-Y 555 558	DAT
+N12	Name Annotation:T40 Referent:dat
+T19	CHEMICAL 646 653	cocaine
+N13	Name Annotation:T19 Referent:cocaine
+T20	CHEMICAL 671 673	DA
+N14	Name Annotation:T20 Referent:da
+T21	CHEMICAL 692 699	JHW 007
+N15	Name Annotation:T21 Referent:jhw007
+T22	CHEMICAL 701 719	R- and S-modafinil
+N16	Name Annotation:T22 Referent:randsmodafinil
+T23	CHEMICAL 811 818	cocaine
+N17	Name Annotation:T23 Referent:cocaine
+T24	CHEMICAL 854 881	(+/-)-, R-, and S-modafinil
+N18	Name Annotation:T24 Referent:randsmodafinil
+T41	GENE-Y 894 897	DAT
+N19	Name Annotation:T41 Referent:dat
+T25	CHEMICAL 910 912	DA
+N20	Name Annotation:T25 Referent:da
+T26	CHEMICAL 939 946	cocaine
+N21	Name Annotation:T26 Referent:cocaine
+T27	CHEMICAL 953 964	R-modafinil
+N22	Name Annotation:T27 Referent:rmodafinil
+T1	CHEMICAL 1127 1138	R-modafinil
+N23	Name Annotation:T1 Referent:rmodafinil
+T31	GENE-Y 1176 1179	DAT
+N24	Name Annotation:T31 Referent:dat
+T32	GENE-N 1180 1185	Y156F
+N25	Name Annotation:T32 Referent:y156f
+T33	GENE-Y 1217 1220	DAT
+N26	Name Annotation:T33 Referent:dat
+T2	CHEMICAL 1230 1241	S-modafinil
+N27	Name Annotation:T2 Referent:smodafinil
+T34	GENE-N 1278 1283	Y335A
+N28	Name Annotation:T34 Referent:y335a
+T35	GENE-Y 1284 1287	DAT
+N29	Name Annotation:T35 Referent:dat
+T4	CHEMICAL 1385 1392	cocaine
+N30	Name Annotation:T4 Referent:cocaine
+T5	CHEMICAL 1425 1474	[2-(trimethylammonium)ethyl]-methanethiosulfonate
+N31	Name Annotation:T5 Referent:2trimethylammoniumethylmethanethiosulfonate
+T36	GENE-Y 1493 1496	DAT
+N32	Name Annotation:T36 Referent:dat
+T37	GENE-N 1497 1500	E2C
+N33	Name Annotation:T37 Referent:e2c
+T38	GENE-N 1501 1506	I159C
+N34	Name Annotation:T38 Referent:i159c
+T7	CHEMICAL 1553 1571	R- and S-modafinil
+N35	Name Annotation:T7 Referent:randsmodafinil
+T8	CHEMICAL 1608 1610	DA
+N36	Name Annotation:T8 Referent:da
+T9	CHEMICAL 1681 1688	cocaine
+N37	Name Annotation:T9 Referent:cocaine
+T10	CHEMICAL 1794 1801	cocaine
+N38	Name Annotation:T10 Referent:cocaine
+T11	CHEMICAL 1828 1839	R-modafinil
+N39	Name Annotation:T11 Referent:rmodafinil
+T12	CHEMICAL 1884 1891	cocaine
+N40	Name Annotation:T12 Referent:cocaine
+T13	CHEMICAL 1912 1923	R-modafinil
+N41	Name Annotation:T13 Referent:rmodafinil
+R1	DIRECT-REGULATOR Arg1:T24 Arg2:T41
+R2	SUBSTRATE Arg1:T15 Arg2:T39
+R3	SUBSTRATE Arg1:T16 Arg2:T39
+R4	SUBSTRATE Arg1:T15 Arg2:T40
+R5	SUBSTRATE Arg1:T16 Arg2:T40
+R6	DIRECT-REGULATOR Arg1:T17 Arg2:T39
+R7	DIRECT-REGULATOR Arg1:T17 Arg2:T40
+R8	DIRECT-REGULATOR Arg1:T14 Arg2:T39
+R9	DIRECT-REGULATOR Arg1:T14 Arg2:T40
+R10	SUBSTRATE Arg1:T25 Arg2:T41
+R11	DIRECT-REGULATOR Arg1:T26 Arg2:T41
+R12	DIRECT-REGULATOR Arg1:T27 Arg2:T41
+R13	DIRECT-REGULATOR Arg1:T1 Arg2:T31
+R14	DIRECT-REGULATOR Arg1:T1 Arg2:T32
+R15	DIRECT-REGULATOR Arg1:T1 Arg2:T33
+R16	DIRECT-REGULATOR Arg1:T2 Arg2:T33
+R17	DIRECT-REGULATOR Arg1:T2 Arg2:T31
+R18	DIRECT-REGULATOR Arg1:T2 Arg2:T32
+R19	DIRECT-REGULATOR Arg1:T4 Arg2:T34
+R20	DIRECT-REGULATOR Arg1:T4 Arg2:T35
+R21	DIRECT-REGULATOR Arg1:T5 Arg2:T36
+R22	DIRECT-REGULATOR Arg1:T5 Arg2:T37
+R23	DIRECT-REGULATOR Arg1:T5 Arg2:T38

@@ -1,0 +1,217 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "Fingolimod",
+            "Name": "fingolimod"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Fingolimod",
+            "Name": "fingolimod"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "FTY720",
+            "Name": "fty720"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "sphingosine-1-phosphate",
+            "Name": "sphingosine1phosphate"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "sphingosine-1-phosphate receptor",
+            "Name": "sphingosine1phosphatereceptor"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "S1PR",
+            "Name": "s1pr"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "FTY720",
+            "Name": "fty720"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "S1PRs",
+            "Name": "s1prs"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "FTY720",
+            "Name": "fty720"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "FTY720-P",
+            "Name": "fty720p"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "sphingosine-1-phosphate",
+            "Name": "sphingosine1phosphate"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "S1P",
+            "Name": "s1p"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "N-methyl-d-aspartate",
+            "Name": "nmethyldaspartate"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "FTY720",
+            "Name": "fty720"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "FTY720-P",
+            "Name": "fty720p"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "S1P",
+            "Name": "s1p"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "pertussis toxin",
+            "Name": "pertussistoxin"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "type-1 S1PR",
+            "Name": "type1s1pr"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "S1P1R",
+            "Name": "s1p1r"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "W146",
+            "Name": "w146"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "mitogen associated protein kinase",
+            "Name": "mitogenassociatedproteinkinase"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "MAPK",
+            "Name": "mapk"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "phosphatidylinositol",
+            "Name": "phosphatidylinositol"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "phosphatidylinositol-3-kinase",
+            "Name": "phosphatidylinositol3kinase"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "PtdIns-3-K",
+            "Name": "ptdins3k"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "FTY720",
+            "Name": "fty720"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "FTY720-P",
+            "Name": "fty720p"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "FTY720",
+            "Name": "fty720"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T27"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T28"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T27"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T28"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T2",
+            "target": "T22"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T2",
+            "target": "T21"
+        }
+    ]
+}

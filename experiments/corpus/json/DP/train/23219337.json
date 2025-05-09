@@ -1,0 +1,184 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "wogonin",
+            "Name": "wogonin"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "vascular endothelial growth factor",
+            "Name": "vascularendothelialgrowthfactor"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "VEGF-C",
+            "Name": "vegfc"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "VEGF receptor (VEGFR)-2",
+            "Name": "vegfreceptorvegfr2"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "VEGFR-3",
+            "Name": "vegfr3"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "wogonin",
+            "Name": "wogonin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Wogonin",
+            "Name": "wogonin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Wogonin",
+            "Name": "wogonin"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "IL-1\u03b2",
+            "Name": "il1\u03b2"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "cyclooxygenase (COX)-2",
+            "Name": "cyclooxygenasecox2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Wogonin",
+            "Name": "wogonin"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "VEGF-C",
+            "Name": "vegfc"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "VEGFR-3",
+            "Name": "vegfr3"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "VEGF-C",
+            "Name": "vegfc"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "VEGFR-3",
+            "Name": "vegfr3"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "wogonin",
+            "Name": "wogonin"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "VEGF-C",
+            "Name": "vegfc"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "VEGF-C",
+            "Name": "vegfc"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "VEGFR-3",
+            "Name": "vegfr3"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "IL-1\u03b2",
+            "Name": "il1\u03b2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T17"
+        }
+    ]
+}

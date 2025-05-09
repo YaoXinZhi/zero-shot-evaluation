@@ -1,0 +1,67 @@
+T10	CHEMICAL 54 65	chelidonine
+N1	Name Annotation:T10 Referent:chelidonine
+T4	CHEMICAL 260 271	chelidonine
+N2	Name Annotation:T4 Referent:chelidonine
+T5	CHEMICAL 335 386	protoberberine and benzo[c]phenanthridine alkaloids
+N3	Name Annotation:T5 Referent:protoberberineandbenzocphenanthridinealkaloids
+T20	GENE-N 476 492	ABC-transporters
+N4	Name Annotation:T20 Referent:abctransporters
+T21	GENE-Y 494 500	CYP3A4
+N5	Name Annotation:T21 Referent:cyp3a4
+T22	GENE-N 505 508	GST
+N6	Name Annotation:T22 Referent:gst
+T6	CHEMICAL 560 571	Chelidonine
+N7	Name Annotation:T6 Referent:chelidonine
+T23	GENE-N 607 611	P-gp
+N8	Name Annotation:T23 Referent:pgp
+T24	GENE-Y 612 616	MDR1
+N9	Name Annotation:T24 Referent:mdr1
+T7	CHEMICAL 707 718	doxorubicin
+N10	Name Annotation:T7 Referent:doxorubicin
+T8	CHEMICAL 744 755	chelidonine
+N11	Name Annotation:T8 Referent:chelidonine
+T25	GENE-Y 834 840	CYP3A4
+N12	Name Annotation:T25 Referent:cyp3a4
+T26	GENE-N 845 848	GST
+N13	Name Annotation:T26 Referent:gst
+T27	GENE-N 964 982	caspase-3, -8,-6/9
+N14	Name Annotation:T27 Referent:caspase3869
+T9	CHEMICAL 988 1007	phosphatidyl serine
+N15	Name Annotation:T9 Referent:phosphatidylserine
+T1	CHEMICAL 1112 1123	chelidonine
+N16	Name Annotation:T1 Referent:chelidonine
+T2	CHEMICAL 1339 1350	chelidonine
+N17	Name Annotation:T2 Referent:chelidonine
+T11	GENE-N 1419 1423	P-gp
+N18	Name Annotation:T11 Referent:pgp
+T12	GENE-Y 1424 1428	MDR1
+N19	Name Annotation:T12 Referent:mdr1
+T13	GENE-Y 1430 1434	MRP1
+N20	Name Annotation:T13 Referent:mrp1
+T14	GENE-Y 1436 1440	BCRP
+N21	Name Annotation:T14 Referent:bcrp
+T15	GENE-Y 1442 1448	CYP3A4
+N22	Name Annotation:T15 Referent:cyp3a4
+T16	GENE-N 1450 1453	GST
+N23	Name Annotation:T16 Referent:gst
+T17	GENE-Y 1459 1463	hPXR
+N24	Name Annotation:T17 Referent:hpxr
+T18	GENE-Y 1497 1506	caspase-3
+N25	Name Annotation:T18 Referent:caspase3
+T19	GENE-Y 1511 1520	caspase-8
+N26	Name Annotation:T19 Referent:caspase8
+T3	CHEMICAL 1533 1544	chelidonine
+N27	Name Annotation:T3 Referent:chelidonine
+R1	INHIBITOR Arg1:T6 Arg2:T23
+R2	INHIBITOR Arg1:T6 Arg2:T24
+R3	INHIBITOR Arg1:T8 Arg2:T25
+R4	INHIBITOR Arg1:T8 Arg2:T26
+R5	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T11
+R6	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T12
+R7	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T13
+R8	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T14
+R9	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T15
+R10	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T16
+R11	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T17
+R12	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T18
+R13	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T19

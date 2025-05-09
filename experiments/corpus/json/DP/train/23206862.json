@@ -1,0 +1,48 @@
+{
+    "entities": [
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "benzimidazole",
+            "Name": "benzimidazole"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "NPY Y5 receptor",
+            "Name": "npyy5receptor"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "NPY Y5 receptor",
+            "Name": "npyy5receptor"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "CYP450",
+            "Name": "cyp450"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "NPY Y5",
+            "Name": "npyy5"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T2",
+            "target": "T6"
+        }
+    ]
+}

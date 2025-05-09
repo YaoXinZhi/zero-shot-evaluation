@@ -1,0 +1,39 @@
+T10	CHEMICAL 18 28	benzofuran
+N1	Name Annotation:T10 Referent:benzofuran
+T11	CHEMICAL 65 81	leukotriene A(4)
+N2	Name Annotation:T11 Referent:leukotrienea4
+T16	GENE-Y 65 91	leukotriene A(4) hydrolase
+N3	Name Annotation:T16 Referent:leukotrienea4hydrolase
+T1	CHEMICAL 93 105	Leukotrienes
+N4	Name Annotation:T1 Referent:leukotrienes
+T9	CHEMICAL 185 201	Leukotriene A(4)
+N5	Name Annotation:T9 Referent:leukotrienea4
+T15	GENE-Y 185 211	Leukotriene A(4) hydrolase
+N6	Name Annotation:T15 Referent:leukotrienea4hydrolase
+T12	GENE-Y 213 220	LTA(4)H
+N7	Name Annotation:T12 Referent:lta4h
+T2	CHEMICAL 299 305	LTA(4)
+N8	Name Annotation:T2 Referent:lta4
+T3	CHEMICAL 309 315	LTB(4)
+N9	Name Annotation:T3 Referent:ltb4
+T4	CHEMICAL 317 323	LTB(4)
+N10	Name Annotation:T4 Referent:ltb4
+T5	CHEMICAL 431 442	benzofurans
+N11	Name Annotation:T5 Referent:benzofurans
+T13	GENE-Y 446 453	LTH(4)H
+N12	Name Annotation:T13 Referent:lth4h
+T6	CHEMICAL 470 480	benzofuran
+N13	Name Annotation:T6 Referent:benzofuran
+T7	CHEMICAL 537 543	LTB(4)
+N14	Name Annotation:T7 Referent:ltb4
+T8	CHEMICAL 625 635	Benzofuran
+N15	Name Annotation:T8 Referent:benzofuran
+T14	GENE-Y 720 727	LTA(4)H
+N16	Name Annotation:T14 Referent:lta4h
+R1	INHIBITOR Arg1:T10 Arg2:T16
+R2	SUBSTRATE Arg1:T2 Arg2:T15
+R3	PRODUCT-OF Arg1:T3 Arg2:T15
+R4	PRODUCT-OF Arg1:T3 Arg2:T12
+R5	SUBSTRATE Arg1:T2 Arg2:T12
+R6	INHIBITOR Arg1:T5 Arg2:T13
+R7	INHIBITOR Arg1:T8 Arg2:T14

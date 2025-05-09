@@ -1,0 +1,187 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "taurine",
+            "Name": "taurine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "taurine",
+            "Name": "taurine"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Tau",
+            "Name": "tau"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Tau",
+            "Name": "tau"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "sodium taurocholate",
+            "Name": "sodiumtaurocholate"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Tau",
+            "Name": "tau"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "serum amylase",
+            "Name": "serumamylase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "malondialdehyde",
+            "Name": "malondialdehyde"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "myeloperoxidase",
+            "Name": "myeloperoxidase"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "MPO",
+            "Name": "mpo"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Tau",
+            "Name": "tau"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Tau",
+            "Name": "tau"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "tumor necrosis factor-\u03b1",
+            "Name": "tumornecrosisfactor\u03b1"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "interleukin (IL)-1\u03b2",
+            "Name": "interleukinil1\u03b2"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "IL-6",
+            "Name": "il6"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Tau",
+            "Name": "tau"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Tau",
+            "Name": "tau"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "Tau",
+            "Name": "tau"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "superoxide",
+            "Name": "superoxide"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "superoxide dismutase",
+            "Name": "superoxidedismutase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "glutathione peroxidase",
+            "Name": "glutathioneperoxidase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "sodium taurocholate",
+            "Name": "sodiumtaurocholate"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T14",
+            "target": "T16"
+        },
+        {
+            "type": "Activator",
+            "source": "T14",
+            "target": "T17"
+        },
+        {
+            "type": "Activator",
+            "source": "T14",
+            "target": "T18"
+        }
+    ]
+}

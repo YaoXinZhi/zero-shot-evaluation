@@ -1,0 +1,99 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "human serine dehydratase",
+            "Name": "humanserinedehydratase"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "L-Serine",
+            "Name": "lserine"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "L-Serine dehydratase",
+            "Name": "lserinedehydratase"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "SDH",
+            "Name": "sdh"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "pyridoxal phosphate",
+            "Name": "pyridoxalphosphate"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "L-serine",
+            "Name": "lserine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "pyruvate",
+            "Name": "pyruvate"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "human serine dehydratase",
+            "Name": "humanserinedehydratase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "(NH4)(2)SO4",
+            "Name": "nh42so4"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Cu",
+            "Name": "cu"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T9"
+        },
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T11"
+        },
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T11"
+        }
+    ]
+}

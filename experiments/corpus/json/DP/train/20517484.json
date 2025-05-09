@@ -1,0 +1,82 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "rasagiline",
+            "Name": "rasagiline"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Rasagiline",
+            "Name": "rasagiline"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "monoamine oxidase type B",
+            "Name": "monoamineoxidasetypeb"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Rasagiline",
+            "Name": "rasagiline"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "rasagiline",
+            "Name": "rasagiline"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "rasagiline",
+            "Name": "rasagiline"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "rasagiline",
+            "Name": "rasagiline"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T10"
+        }
+    ]
+}

@@ -1,0 +1,132 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Sulfonamide",
+            "Name": "sulfonamide"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Thiol",
+            "Name": "thiol"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "\u03b1-Carbonic Anhydrase",
+            "Name": "\u03b1carbonicanhydrase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "\u03b1-carbonic anhydrase",
+            "Name": "\u03b1carbonicanhydrase"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "CA",
+            "Name": "ca"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "EC 4.2.1.1",
+            "Name": "ec4211"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "TcCA",
+            "Name": "tcca"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "CO(2)",
+            "Name": "co2"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "hCA II",
+            "Name": "hcaii"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "His",
+            "Name": "his"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "aromatic/heterocyclic sulfonamides",
+            "Name": "aromaticheterocyclicsulfonamides"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "5-mercapto-1,3,4-thiadiazoles",
+            "Name": "5mercapto134thiadiazoles"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "TcCA",
+            "Name": "tcca"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "aromatic sulfonamides",
+            "Name": "aromaticsulfonamides"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "thiols",
+            "Name": "thiols"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T14"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T12"
+        },
+        {
+            "type": "Part of",
+            "source": "T2",
+            "target": "T12"
+        }
+    ]
+}

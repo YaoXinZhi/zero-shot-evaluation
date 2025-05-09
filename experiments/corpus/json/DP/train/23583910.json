@@ -1,0 +1,131 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Aminopropylindenes",
+            "Name": "aminopropylindenes"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Grundmann's ketone",
+            "Name": "grundmannsketone"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "oxidosqualene cyclase",
+            "Name": "oxidosqualenecyclase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "aminopropylindenes",
+            "Name": "aminopropylindenes"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "oxidosqualene",
+            "Name": "oxidosqualene"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "oxidosqualene cyclase(1)",
+            "Name": "oxidosqualenecyclase1"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "OSC",
+            "Name": "osc"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "2,3-oxidosqualen",
+            "Name": "23oxidosqualen"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "lanosterol",
+            "Name": "lanosterol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Grundmann's ketone",
+            "Name": "grundmannsketone"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "OSCs",
+            "Name": "oscs"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "N,N-dimethylaminopropyl",
+            "Name": "nndimethylaminopropyl"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Trypanosoma cruzi OSC",
+            "Name": "trypanosomacruziosc"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T12"
+        },
+        {
+            "type": "Product of",
+            "source": "T6",
+            "target": "T12"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T10"
+        }
+    ]
+}

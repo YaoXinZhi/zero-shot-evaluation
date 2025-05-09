@@ -1,0 +1,132 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "sildenafil",
+            "Name": "sildenafil"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "PDE5",
+            "Name": "pde5"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "PDE5",
+            "Name": "pde5"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cGMP",
+            "Name": "cgmp"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "sildenafil",
+            "Name": "sildenafil"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Viagra",
+            "Name": "viagra"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "PDE",
+            "Name": "pde"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Sildenafil",
+            "Name": "sildenafil"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PDE5",
+            "Name": "pde5"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PDE",
+            "Name": "pde"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PDE6",
+            "Name": "pde6"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "sildenafil",
+            "Name": "sildenafil"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PDE5",
+            "Name": "pde5"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "sildenafil",
+            "Name": "sildenafil"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "PDE5",
+            "Name": "pde5"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T14"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T10"
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+T12	CHEMICAL 0 12	Trimethoprim
+N1	Name Annotation:T12 Referent:trimethoprim
+T25	GENE-N 21 40	heat shock proteins
+N2	Name Annotation:T25 Referent:heatshockproteins
+T1	CHEMICAL 83 95	Trimethoprim
+N3	Name Annotation:T1 Referent:trimethoprim
+T3	CHEMICAL 97 100	TMP
+N4	Name Annotation:T3 Referent:tmp
+T8	CHEMICAL 119 132	dihydrofolate
+N5	Name Annotation:T8 Referent:dihydrofolate
+T15	GENE-Y 119 142	dihydrofolate reductase
+N6	Name Annotation:T15 Referent:dihydrofolatereductase
+T11	CHEMICAL 167 183	tetrahydrofolate
+N7	Name Annotation:T11 Referent:tetrahydrofolate
+T2	CHEMICAL 198 204	carbon
+N8	Name Annotation:T2 Referent:carbon
+T4	CHEMICAL 231 242	nucleotides
+N9	Name Annotation:T4 Referent:nucleotides
+T5	CHEMICAL 258 270	panthotenate
+N10	Name Annotation:T5 Referent:panthotenate
+T6	CHEMICAL 343 346	TMP
+N11	Name Annotation:T6 Referent:tmp
+T13	GENE-N 411 430	heat shock proteins
+N12	Name Annotation:T13 Referent:heatshockproteins
+T14	GENE-N 432 436	Hsps
+N13	Name Annotation:T14 Referent:hsps
+T7	CHEMICAL 439 442	TMP
+N14	Name Annotation:T7 Referent:tmp
+T16	GENE-Y 463 467	DnaK
+N15	Name Annotation:T16 Referent:dnak
+T17	GENE-Y 469 473	DnaJ
+N16	Name Annotation:T17 Referent:dnaj
+T18	GENE-Y 475 480	GroEL
+N17	Name Annotation:T18 Referent:groel
+T19	GENE-Y 482 486	ClpB
+N18	Name Annotation:T19 Referent:clpb
+T20	GENE-N 492 498	IbpA/B
+N19	Name Annotation:T20 Referent:ibpab
+T21	GENE-N 499 503	Hsps
+N20	Name Annotation:T21 Referent:hsps
+T22	GENE-N 517 521	Hsps
+N21	Name Annotation:T22 Referent:hsps
+T23	GENE-N 523 529	IbpA/B
+N22	Name Annotation:T23 Referent:ibpab
+T9	CHEMICAL 563 566	TMP
+N23	Name Annotation:T9 Referent:tmp
+T10	CHEMICAL 618 624	folate
+N24	Name Annotation:T10 Referent:folate
+T24	GENE-N 655 661	ibpA/B
+N25	Name Annotation:T24 Referent:ibpab
+R1	ACTIVATOR Arg1:T12 Arg2:T25
+R2	INHIBITOR Arg1:T1 Arg2:T15
+R3	INHIBITOR Arg1:T3 Arg2:T15
+R4	ACTIVATOR Arg1:T6 Arg2:T13
+R5	ACTIVATOR Arg1:T6 Arg2:T14
+R6	ACTIVATOR Arg1:T7 Arg2:T16
+R7	ACTIVATOR Arg1:T7 Arg2:T17
+R8	ACTIVATOR Arg1:T7 Arg2:T18
+R9	ACTIVATOR Arg1:T7 Arg2:T19
+R10	ACTIVATOR Arg1:T7 Arg2:T21
+R11	ACTIVATOR Arg1:T9 Arg2:T22

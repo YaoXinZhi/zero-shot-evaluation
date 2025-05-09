@@ -1,0 +1,64 @@
+T11	CHEMICAL 0 9	Metformin
+N1	Name Annotation:T11 Referent:metformin
+T12	CHEMICAL 37 40	AMP
+N2	Name Annotation:T12 Referent:amp
+T28	GENE-N 37 65	AMP-activated protein kinase
+N3	Name Annotation:T28 Referent:ampactivatedproteinkinase
+T13	CHEMICAL 98 105	glucose
+N4	Name Annotation:T13 Referent:glucose
+T27	GENE-N 117 124	insulin
+N5	Name Annotation:T27 Referent:insulin
+T1	CHEMICAL 136 145	Metformin
+N6	Name Annotation:T1 Referent:metformin
+T5	CHEMICAL 297 300	AMP
+N7	Name Annotation:T5 Referent:amp
+T17	GENE-N 297 325	AMP-activated protein kinase
+N8	Name Annotation:T17 Referent:ampactivatedproteinkinase
+T18	GENE-N 327 331	AMPK
+N9	Name Annotation:T18 Referent:ampk
+T6	CHEMICAL 342 351	metformin
+N10	Name Annotation:T6 Referent:metformin
+T19	GENE-N 404 408	AMPK
+N11	Name Annotation:T19 Referent:ampk
+T20	GENE-N 523 527	AMPK
+N12	Name Annotation:T20 Referent:ampk
+T21	GENE-N 545 552	insulin
+N13	Name Annotation:T21 Referent:insulin
+T7	CHEMICAL 714 721	glucose
+N14	Name Annotation:T7 Referent:glucose
+T8	CHEMICAL 723 732	metformin
+N15	Name Annotation:T8 Referent:metformin
+T22	GENE-N 754 758	AMPK
+N16	Name Annotation:T22 Referent:ampk
+T23	GENE-N 835 839	AMPK
+N17	Name Annotation:T23 Referent:ampk
+T24	GENE-Y 858 865	insulin
+N18	Name Annotation:T24 Referent:insulin
+T9	CHEMICAL 908 915	glucose
+N19	Name Annotation:T9 Referent:glucose
+T25	GENE-N 972 976	AMPK
+N20	Name Annotation:T25 Referent:ampk
+T10	CHEMICAL 1098 1107	metformin
+N21	Name Annotation:T10 Referent:metformin
+T26	GENE-N 1129 1133	AMPK
+N22	Name Annotation:T26 Referent:ampk
+T14	GENE-N 1209 1216	insulin
+N23	Name Annotation:T14 Referent:insulin
+T15	GENE-N 1320 1324	AMPK
+N24	Name Annotation:T15 Referent:ampk
+T2	CHEMICAL 1367 1374	glucose
+N25	Name Annotation:T2 Referent:glucose
+T3	CHEMICAL 1379 1388	metformin
+N26	Name Annotation:T3 Referent:metformin
+T4	CHEMICAL 1459 1468	metformin
+N27	Name Annotation:T4 Referent:metformin
+T16	GENE-N 1472 1479	insulin
+N28	Name Annotation:T16 Referent:insulin
+R1	INDIRECT-UPREGULATOR Arg1:T13 Arg2:T27
+R2	ACTIVATOR Arg1:T1 Arg2:T17
+R3	ACTIVATOR Arg1:T1 Arg2:T18
+R4	ACTIVATOR Arg1:T6 Arg2:T19
+R5	INHIBITOR Arg1:T9 Arg2:T25
+R6	ACTIVATOR Arg1:T10 Arg2:T26
+R7	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T14
+R8	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T16

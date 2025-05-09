@@ -1,0 +1,60 @@
+T17	CHEMICAL 0 9	Silibinin
+N1	Name Annotation:T17 Referent:silibinin
+T18	CHEMICAL 73 86	phenylephrine
+N2	Name Annotation:T18 Referent:phenylephrine
+T7	CHEMICAL 371 377	oxygen
+N3	Name Annotation:T7 Referent:oxygen
+T8	CHEMICAL 431 440	silibinin
+N4	Name Annotation:T8 Referent:silibinin
+T9	CHEMICAL 450 463	flavonolignan
+N5	Name Annotation:T9 Referent:flavonolignan
+T10	CHEMICAL 574 591	hydrogen peroxide
+N6	Name Annotation:T10 Referent:hydrogenperoxide
+T11	CHEMICAL 593 597	H2O2
+N7	Name Annotation:T11 Referent:h2o2
+T12	CHEMICAL 644 657	phenylephrine
+N8	Name Annotation:T12 Referent:phenylephrine
+T13	CHEMICAL 772 781	silibinin
+N9	Name Annotation:T13 Referent:silibinin
+T14	CHEMICAL 901 910	silibinin
+N10	Name Annotation:T14 Referent:silibinin
+T15	CHEMICAL 975 979	H2O2
+N11	Name Annotation:T15 Referent:h2o2
+T16	CHEMICAL 1106 1115	silibinin
+N12	Name Annotation:T16 Referent:silibinin
+T1	CHEMICAL 1131 1144	phenylephrine
+N13	Name Annotation:T1 Referent:phenylephrine
+T19	GENE-Y 1241 1267	atrial natriuretic peptide
+N14	Name Annotation:T19 Referent:atrialnatriureticpeptide
+T2	CHEMICAL 1319 1328	silibinin
+N15	Name Annotation:T2 Referent:silibinin
+T3	CHEMICAL 1343 1356	phenylephrine
+N16	Name Annotation:T3 Referent:phenylephrine
+T20	GENE-N 1384 1390	ERK1/2
+N17	Name Annotation:T20 Referent:erk12
+T21	GENE-N 1391 1398	kinases
+N18	Name Annotation:T21 Referent:kinases
+T4	CHEMICAL 1453 1466	phenylephrine
+N19	Name Annotation:T4 Referent:phenylephrine
+T22	GENE-N 1486 1489	Akt
+N20	Name Annotation:T22 Referent:akt
+T5	CHEMICAL 1513 1522	silibinin
+N21	Name Annotation:T5 Referent:silibinin
+T6	CHEMICAL 1541 1554	phenylephrine
+N22	Name Annotation:T6 Referent:phenylephrine
+T23	GENE-N 1710 1716	ERK1/2
+N23	Name Annotation:T23 Referent:erk12
+T24	GENE-N 1717 1722	MAPKs
+N24	Name Annotation:T24 Referent:mapks
+T25	GENE-N 1727 1730	Akt
+N25	Name Annotation:T25 Referent:akt
+R1	ACTIVATOR Arg1:T3 Arg2:T21
+R2	INHIBITOR Arg1:T2 Arg2:T21
+R3	ACTIVATOR Arg1:T4 Arg2:T22
+R4	INHIBITOR Arg1:T2 Arg2:T22
+R5	INHIBITOR Arg1:T5 Arg2:T24
+R6	INHIBITOR Arg1:T5 Arg2:T25
+R7	ACTIVATOR Arg1:T6 Arg2:T24
+R8	ACTIVATOR Arg1:T6 Arg2:T25
+R9	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T19
+R10	INDIRECT-UPREGULATOR Arg1:T16 Arg2:T19

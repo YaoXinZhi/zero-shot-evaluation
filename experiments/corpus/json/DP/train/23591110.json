@@ -1,0 +1,87 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "aryl ureas",
+            "Name": "arylureas"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "aryl amides",
+            "Name": "arylamides"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "histamine H3 receptor",
+            "Name": "histamineh3receptor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "aryl ureas",
+            "Name": "arylureas"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "histamine H3 receptor",
+            "Name": "histamineh3receptor"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "H3R",
+            "Name": "h3r"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "human-H3R",
+            "Name": "humanh3r"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "rhesus monkey H3R",
+            "Name": "rhesusmonkeyh3r"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T4",
+            "target": "T10"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T2",
+            "target": "T6"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T2",
+            "target": "T7"
+        }
+    ]
+}

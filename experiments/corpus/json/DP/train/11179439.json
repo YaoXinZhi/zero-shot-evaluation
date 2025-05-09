@@ -1,0 +1,235 @@
+{
+    "entities": [
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "DNA topoisomerase II",
+            "Name": "dnatopoisomeraseii"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "dexrazoxane",
+            "Name": "dexrazoxane"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "ICRF-187",
+            "Name": "icrf187"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "bisdioxopiperazines",
+            "Name": "bisdioxopiperazines"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ICRF-187",
+            "Name": "icrf187"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "dexrazoxane",
+            "Name": "dexrazoxane"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "ICRF-193",
+            "Name": "icrf193"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "ICRF-154",
+            "Name": "icrf154"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "DNA topoisomerase II",
+            "Name": "dnatopoisomeraseii"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "bisdioxopiperazines",
+            "Name": "bisdioxopiperazines"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Dexrazoxane",
+            "Name": "dexrazoxane"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "DNA topoisomerase II",
+            "Name": "dnatopoisomeraseii"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "hemoglobin",
+            "Name": "hemoglobin"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Bcr",
+            "Name": "bcr"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "Abl",
+            "Name": "abl"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "STI-571",
+            "Name": "sti571"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "Bcl-xL",
+            "Name": "bclxl"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "dexrazoxane",
+            "Name": "dexrazoxane"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "dexrazoxane",
+            "Name": "dexrazoxane"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Bcr",
+            "Name": "bcr"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Abl",
+            "Name": "abl"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "Bcl-xL",
+            "Name": "bclxl"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "dexrazoxane",
+            "Name": "dexrazoxane"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "bisdioxopiperazines",
+            "Name": "bisdioxopiperazines"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T26"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T16"
+        }
+    ]
+}

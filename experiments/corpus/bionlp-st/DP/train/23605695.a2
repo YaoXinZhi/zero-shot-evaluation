@@ -1,0 +1,53 @@
+T18	CHEMICAL 0 11	Pasireotide
+N1	Name Annotation:T18 Referent:pasireotide
+T1	CHEMICAL 55 66	Pasireotide
+N2	Name Annotation:T1 Referent:pasireotide
+T5	CHEMICAL 68 76	Signifor
+N3	Name Annotation:T5 Referent:signifor
+T13	CHEMICAL 103 115	somatostatin
+N4	Name Annotation:T13 Referent:somatostatin
+T23	GENE-Y 103 115	somatostatin
+N5	Name Annotation:T23 Referent:somatostatin
+T16	CHEMICAL 139 151	somatostatin
+N6	Name Annotation:T16 Referent:somatostatin
+T24	GENE-N 139 161	somatostatin receptors
+N7	Name Annotation:T24 Referent:somatostatinreceptors
+T20	GENE-Y 190 203	corticotropin
+N8	Name Annotation:T20 Referent:corticotropin
+T9	CHEMICAL 267 278	Pasireotide
+N9	Name Annotation:T9 Referent:pasireotide
+T10	CHEMICAL 346 358	somatostatin
+N10	Name Annotation:T10 Referent:somatostatin
+T21	GENE-Y 346 358	somatostatin
+N11	Name Annotation:T21 Referent:somatostatin
+T11	CHEMICAL 400 412	somatostatin
+N12	Name Annotation:T11 Referent:somatostatin
+T22	GENE-Y 400 431	somatostatin receptor subtype 5
+N13	Name Annotation:T22 Referent:somatostatinreceptorsubtype5
+T12	CHEMICAL 497 508	Pasireotide
+N14	Name Annotation:T12 Referent:pasireotide
+T14	CHEMICAL 670 681	pasireotide
+N15	Name Annotation:T14 Referent:pasireotide
+T15	CHEMICAL 746 754	cortisol
+N16	Name Annotation:T15 Referent:cortisol
+T17	CHEMICAL 1013 1024	pasireotide
+N17	Name Annotation:T17 Referent:pasireotide
+T2	CHEMICAL 1103 1114	pasireotide
+N18	Name Annotation:T2 Referent:pasireotide
+T3	CHEMICAL 1176 1184	cortisol
+N19	Name Annotation:T3 Referent:cortisol
+T4	CHEMICAL 1323 1334	Pasireotide
+N20	Name Annotation:T4 Referent:pasireotide
+T19	GENE-Y 1397 1409	somatostatin
+N21	Name Annotation:T19 Referent:somatostatin
+T6	CHEMICAL 1397 1409	somatostatin
+N22	Name Annotation:T6 Referent:somatostatin
+T7	CHEMICAL 1536 1543	glucose
+N23	Name Annotation:T7 Referent:glucose
+T8	CHEMICAL 1611 1622	pasireotide
+N24	Name Annotation:T8 Referent:pasireotide
+R1	DIRECT-REGULATOR Arg1:T1 Arg2:T24
+R2	DIRECT-REGULATOR Arg1:T5 Arg2:T24
+R3	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T20
+R4	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T20
+R5	DIRECT-REGULATOR Arg1:T9 Arg2:T22

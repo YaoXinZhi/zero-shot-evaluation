@@ -1,0 +1,54 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "acetylsalicylic acid",
+            "Name": "acetylsalicylicacid"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "ADP",
+            "Name": "adp"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "ADP-receptor",
+            "Name": "adpreceptor"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "clopidogrel",
+            "Name": "clopidogrel"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "prasugrel",
+            "Name": "prasugrel"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ticagrelor",
+            "Name": "ticagrelor"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "clopidogrel",
+            "Name": "clopidogrel"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T7"
+        }
+    ]
+}

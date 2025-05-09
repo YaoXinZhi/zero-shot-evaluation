@@ -1,0 +1,185 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "monoamine receptors",
+            "Name": "monoaminereceptors"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "5-HT2A",
+            "Name": "5ht2a"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "5-hydroxytryptamine",
+            "Name": "5hydroxytryptamine"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "5-hydroxytryptamine (5-HT)(2) receptor",
+            "Name": "5hydroxytryptamine5ht2receptor"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "5-HT",
+            "Name": "5ht"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "5-HT(2)",
+            "Name": "5ht2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "dopamine D(2)",
+            "Name": "dopamined2"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "monoamine receptors",
+            "Name": "monoaminereceptors"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "olanzapine",
+            "Name": "olanzapine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "clozapine",
+            "Name": "clozapine"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "5-HT(2A)",
+            "Name": "5ht2a"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "5-HT(2C)",
+            "Name": "5ht2c"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "ziprasidone",
+            "Name": "ziprasidone"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "quetiapine",
+            "Name": "quetiapine"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "5-HT(1A)",
+            "Name": "5ht1a"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "aripiprazole",
+            "Name": "aripiprazole"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "5-HT(1A)",
+            "Name": "5ht1a"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "dopamine D(2) receptor",
+            "Name": "dopamined2receptor"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T8",
+            "target": "T19"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T7",
+            "target": "T19"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T7",
+            "target": "T20"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T8",
+            "target": "T20"
+        },
+        {
+            "type": "Agonist",
+            "source": "T9",
+            "target": "T21"
+        },
+        {
+            "type": "Agonist",
+            "source": "T10",
+            "target": "T21"
+        },
+        {
+            "type": "Agonist",
+            "source": "T11",
+            "target": "T13"
+        },
+        {
+            "type": "Agonist",
+            "source": "T11",
+            "target": "T14"
+        }
+    ]
+}

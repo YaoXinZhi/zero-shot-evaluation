@@ -1,0 +1,172 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Cytokine",
+            "Name": "cytokine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "beta-2-adrenergic receptor",
+            "Name": "beta2adrenergicreceptor"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "beta2AR",
+            "Name": "beta2ar"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "beta2AR",
+            "Name": "beta2ar"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "terbutaline",
+            "Name": "terbutaline"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Th1 cytokines",
+            "Name": "th1cytokines"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "terbutaline",
+            "Name": "terbutaline"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "beta2AR",
+            "Name": "beta2ar"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "IL-2",
+            "Name": "il2"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "CD3",
+            "Name": "cd3"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "CD28",
+            "Name": "cd28"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "terbutaline",
+            "Name": "terbutaline"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "adrenergic receptor",
+            "Name": "adrenergicreceptor"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T16"
+        }
+    ]
+}

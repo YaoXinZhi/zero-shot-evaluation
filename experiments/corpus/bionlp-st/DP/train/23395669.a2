@@ -1,0 +1,53 @@
+T7	CHEMICAL 0 12	Sophocarpine
+N1	Name Annotation:T7 Referent:sophocarpine
+T22	GENE-Y 64 68	AMPK
+N2	Name Annotation:T22 Referent:ampk
+T1	CHEMICAL 88 100	Sophocarpine
+N3	Name Annotation:T1 Referent:sophocarpine
+T15	GENE-N 269 282	adipocytokine
+N4	Name Annotation:T15 Referent:adipocytokine
+T16	GENE-N 305 319	adipocytokines
+N5	Name Annotation:T16 Referent:adipocytokines
+T17	GENE-Y 366 370	AMPK
+N6	Name Annotation:T17 Referent:ampk
+T4	CHEMICAL 523 533	oleic acid
+N7	Name Annotation:T4 Referent:oleicacid
+T5	CHEMICAL 587 599	sophocarpine
+N8	Name Annotation:T5 Referent:sophocarpine
+T18	GENE-Y 872 878	leptin
+N9	Name Annotation:T18 Referent:leptin
+T19	GENE-Y 893 904	adiponectin
+N10	Name Annotation:T19 Referent:adiponectin
+T6	CHEMICAL 929 941	sophocarpine
+N11	Name Annotation:T6 Referent:sophocarpine
+T20	GENE-Y 1031 1037	leptin
+N12	Name Annotation:T20 Referent:leptin
+T21	GENE-Y 1078 1089	adiponectin
+N13	Name Annotation:T21 Referent:adiponectin
+T2	CHEMICAL 1156 1168	sophocarpine
+N14	Name Annotation:T2 Referent:sophocarpine
+T8	GENE-N 1198 1205	P-AMPKα
+N15	Name Annotation:T8 Referent:pampkα
+T9	GENE-N 1200 1205	AMPKα
+N16	Name Annotation:T9 Referent:ampkα
+T10	GENE-N 1243 1246	ACC
+N17	Name Annotation:T10 Referent:acc
+T11	GENE-N 1292 1297	P-ACC
+N18	Name Annotation:T11 Referent:pacc
+T12	GENE-Y 1315 1321	HNF-4α
+N19	Name Annotation:T12 Referent:hnf4α
+T13	GENE-Y 1378 1386	Srebp-1c
+N20	Name Annotation:T13 Referent:srebp1c
+T3	CHEMICAL 1466 1478	sophocarpine
+N21	Name Annotation:T3 Referent:sophocarpine
+T14	GENE-Y 1588 1592	AMPK
+N22	Name Annotation:T14 Referent:ampk
+R1	ACTIVATOR Arg1:T7 Arg2:T22
+R2	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T20
+R3	INDIRECT-UPREGULATOR Arg1:T6 Arg2:T21
+R4	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T8
+R5	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T9
+R6	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T10
+R7	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T11
+R8	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T12
+R9	ACTIVATOR Arg1:T3 Arg2:T14

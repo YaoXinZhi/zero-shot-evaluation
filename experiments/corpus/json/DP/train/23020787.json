@@ -1,0 +1,176 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "gemifloxacin",
+            "Name": "gemifloxacin"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "quinolone",
+            "Name": "quinolone"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "efflux transporters",
+            "Name": "effluxtransporters"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "gemifloxacin mesylate",
+            "Name": "gemifloxacinmesylate"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "efflux transporters",
+            "Name": "effluxtransporters"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "gemifloxacin",
+            "Name": "gemifloxacin"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "MRP2",
+            "Name": "mrp2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "MK571",
+            "Name": "mk571"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "BCRP",
+            "Name": "bcrp"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Ko143",
+            "Name": "ko143"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "P-gp",
+            "Name": "pgp"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MRP2",
+            "Name": "mrp2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "BCRP",
+            "Name": "bcrp"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "MRP2",
+            "Name": "mrp2"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "BCRP",
+            "Name": "bcrp"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "P-gp",
+            "Name": "pgp"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "verapamil",
+            "Name": "verapamil"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Ko143",
+            "Name": "ko143"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "MK571",
+            "Name": "mk571"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Ko143",
+            "Name": "ko143"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "MK571",
+            "Name": "mk571"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "verapamil",
+            "Name": "verapamil"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Efflux transporters",
+            "Name": "effluxtransporters"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "gemifloxacin",
+            "Name": "gemifloxacin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T12",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T13",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T15"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T23"
+        }
+    ]
+}

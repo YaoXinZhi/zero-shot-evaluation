@@ -1,0 +1,36 @@
+T10	CHEMICAL 0 15	Bisphosphonates
+N1	Name Annotation:T10 Referent:bisphosphonates
+T1	CHEMICAL 98 113	bisphosphonates
+N2	Name Annotation:T1 Referent:bisphosphonates
+T2	CHEMICAL 723 731	nitrogen
+N3	Name Annotation:T2 Referent:nitrogen
+T3	CHEMICAL 758 769	alendronate
+N4	Name Annotation:T3 Referent:alendronate
+T4	CHEMICAL 771 782	risedronate
+N5	Name Annotation:T4 Referent:risedronate
+T5	CHEMICAL 784 795	ibandronate
+N6	Name Annotation:T5 Referent:ibandronate
+T6	CHEMICAL 801 812	zoledronate
+N7	Name Annotation:T6 Referent:zoledronate
+T7	CHEMICAL 871 893	farnesyl pyrophosphate
+N8	Name Annotation:T7 Referent:farnesylpyrophosphate
+T11	GENE-Y 871 902	farnesyl pyrophosphate synthase
+N9	Name Annotation:T11 Referent:farnesylpyrophosphatesynthase
+T12	GENE-Y 904 908	FPPS
+N10	Name Annotation:T12 Referent:fpps
+T8	CHEMICAL 944 954	mevalonate
+N11	Name Annotation:T8 Referent:mevalonate
+T13	GENE-Y 964 968	FPPS
+N12	Name Annotation:T13 Referent:fpps
+T9	CHEMICAL 1050 1053	GTP
+N13	Name Annotation:T9 Referent:gtp
+T14	GENE-N 1050 1070	GTP-binding proteins
+N14	Name Annotation:T14 Referent:gtpbindingproteins
+R1	INHIBITOR Arg1:T3 Arg2:T11
+R2	INHIBITOR Arg1:T4 Arg2:T11
+R3	INHIBITOR Arg1:T5 Arg2:T11
+R4	INHIBITOR Arg1:T6 Arg2:T11
+R5	INHIBITOR Arg1:T3 Arg2:T12
+R6	INHIBITOR Arg1:T4 Arg2:T12
+R7	INHIBITOR Arg1:T5 Arg2:T12
+R8	INHIBITOR Arg1:T6 Arg2:T12

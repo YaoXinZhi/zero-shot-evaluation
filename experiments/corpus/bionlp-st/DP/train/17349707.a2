@@ -1,0 +1,80 @@
+T18	CHEMICAL 14 40	N-acetyl-D-neuraminic acid
+N1	Name Annotation:T18 Referent:nacetyldneuraminicacid
+T35	GENE-Y 79 130	Anabaena sp. CH1 N-acetyl-D-glucosamine 2-epimerase
+N2	Name Annotation:T35 Referent:anabaenaspch1nacetyldglucosamine2epimerase
+T20	CHEMICAL 96 118	N-acetyl-D-glucosamine
+N3	Name Annotation:T20 Referent:nacetyldglucosamine
+T34	GENE-Y 135 184	Escherichia coli N-acetyl-D-neuraminic acid lyase
+N4	Name Annotation:T34 Referent:escherichiacolinacetyldneuraminicacidlyase
+T19	CHEMICAL 152 178	N-acetyl-D-neuraminic acid
+N5	Name Annotation:T19 Referent:nacetyldneuraminicacid
+T1	CHEMICAL 186 212	N-acetyl-d-neuraminic acid
+N6	Name Annotation:T1 Referent:nacetyldneuraminicacid
+T10	CHEMICAL 214 219	NeuAc
+N7	Name Annotation:T10 Referent:neuac
+T12	CHEMICAL 221 232	sialic acid
+N8	Name Annotation:T12 Referent:sialicacid
+T8	CHEMICAL 372 377	NeuAc
+N9	Name Annotation:T8 Referent:neuac
+T24	GENE-Y 399 450	Anabaena sp. CH1 N-acetyl-d-glucosamine 2-epimerase
+N10	Name Annotation:T24 Referent:anabaenaspch1nacetyldglucosamine2epimerase
+T9	CHEMICAL 416 438	N-acetyl-d-glucosamine
+N11	Name Annotation:T9 Referent:nacetyldglucosamine
+T25	GENE-Y 452 456	bage
+N12	Name Annotation:T25 Referent:bage
+T26	GENE-Y 462 511	Escherichia coli N-acetyl-d-neuraminic acid lyase
+N13	Name Annotation:T26 Referent:escherichiacolinacetyldneuraminicacidlyase
+T11	CHEMICAL 479 505	N-acetyl-d-neuraminic acid
+N14	Name Annotation:T11 Referent:nacetyldneuraminicacid
+T27	GENE-Y 513 517	nanA
+N15	Name Annotation:T27 Referent:nana
+T28	GENE-Y 582 601	bGlcNAc 2-epimerase
+N16	Name Annotation:T28 Referent:bglcnac2epimerase
+T29	GENE-Y 683 687	bage
+N17	Name Annotation:T29 Referent:bage
+T13	CHEMICAL 707 713	nickel
+N18	Name Annotation:T13 Referent:nickel
+T30	GENE-Y 773 792	bGlcNAc 2-epimerase
+N19	Name Annotation:T30 Referent:bglcnac2epimerase
+T31	GENE-Y 882 901	bGlcNAc 2-epimerase
+N20	Name Annotation:T31 Referent:bglcnac2epimerase
+T14	CHEMICAL 967 970	ATP
+N21	Name Annotation:T14 Referent:atp
+T32	GENE-Y 1018 1037	bGlcNAc 2-epimerase
+N22	Name Annotation:T32 Referent:bglcnac2epimerase
+T15	CHEMICAL 1081 1103	N-acetyl-d-glucosamine
+N23	Name Annotation:T15 Referent:nacetyldglucosamine
+T16	CHEMICAL 1107 1128	N-acetyl-d-manosamine
+N24	Name Annotation:T16 Referent:nacetyldmanosamine
+T33	GENE-Y 1169 1211	porcine N-acetyl-d-glucosamine 2-epimerase
+N25	Name Annotation:T33 Referent:porcinenacetyldglucosamine2epimerase
+T17	CHEMICAL 1177 1199	N-acetyl-d-glucosamine
+N26	Name Annotation:T17 Referent:nacetyldglucosamine
+T21	GENE-Y 1284 1287	age
+N27	Name Annotation:T21 Referent:age
+T2	CHEMICAL 1319 1324	NeuAc
+N28	Name Annotation:T2 Referent:neuac
+T22	GENE-Y 1319 1330	NeuAc lyase
+N29	Name Annotation:T22 Referent:neuaclyase
+T3	CHEMICAL 1400 1406	GlcNAc
+N30	Name Annotation:T3 Referent:glcnac
+T4	CHEMICAL 1423 1428	NeuAc
+N31	Name Annotation:T4 Referent:neuac
+T5	CHEMICAL 1510 1516	GlcNAc
+N32	Name Annotation:T5 Referent:glcnac
+T6	CHEMICAL 1713 1716	ATP
+N33	Name Annotation:T6 Referent:atp
+T7	CHEMICAL 1752 1758	GlcNAc
+N34	Name Annotation:T7 Referent:glcnac
+T23	GENE-Y 1752 1770	GlcNAc 2-epimerase
+N35	Name Annotation:T23 Referent:glcnac2epimerase
+R1	PRODUCT-OF Arg1:T18 Arg2:T35
+R2	PRODUCT-OF Arg1:T18 Arg2:T34
+R3	ACTIVATOR Arg1:T14 Arg2:T31
+R4	SUBSTRATE Arg1:T15 Arg2:T32
+R5	PRODUCT-OF Arg1:T16 Arg2:T32
+R6	SUBSTRATE Arg1:T15 Arg2:T33
+R7	PRODUCT-OF Arg1:T16 Arg2:T33
+R8	SUBSTRATE Arg1:T3 Arg2:T22
+R9	PRODUCT-OF Arg1:T4 Arg2:T22
+R10	ACTIVATOR Arg1:T6 Arg2:T23

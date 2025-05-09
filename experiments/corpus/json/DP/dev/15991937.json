@@ -1,0 +1,214 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "Losartan",
+            "Name": "losartan"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "angiotensin II",
+            "Name": "angiotensinii"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "angiotensin II type 1 (AT1) receptor",
+            "Name": "angiotensiniitype1at1receptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Losartan",
+            "Name": "losartan"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "COZAAR",
+            "Name": "cozaar"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "angiotensin II",
+            "Name": "angiotensinii"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "angiotensin II (AII) type 1 (AT(1)) receptor",
+            "Name": "angiotensiniiaiitype1at1receptor"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "AII",
+            "Name": "aii"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "AII",
+            "Name": "aii"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "AII",
+            "Name": "aii"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "AT(1) receptor",
+            "Name": "at1receptor"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "AT(1) receptor",
+            "Name": "at1receptor"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Losartan",
+            "Name": "losartan"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "AT(1) receptor",
+            "Name": "at1receptor"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "Losartan",
+            "Name": "losartan"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "AT(1) receptor",
+            "Name": "at1receptor"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "losartan",
+            "Name": "losartan"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "captopril",
+            "Name": "captopril"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "angiotensin",
+            "Name": "angiotensin"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "angiotensin-converting-enzyme",
+            "Name": "angiotensinconvertingenzyme"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "losartan",
+            "Name": "losartan"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "AT(1) receptor",
+            "Name": "at1receptor"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "losartan",
+            "Name": "losartan"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Losartan",
+            "Name": "losartan"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Losartan",
+            "Name": "losartan"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Losartan",
+            "Name": "losartan"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Losartan",
+            "Name": "losartan"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T17",
+            "target": "T27"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T25"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T2",
+            "target": "T25"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T13",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T26"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T14",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T20"
+        }
+    ]
+}

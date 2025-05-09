@@ -1,0 +1,46 @@
+T18	GENE-Y 34 53	phosphodiesterase-5
+N1	Name Annotation:T18 Referent:phosphodiesterase5
+T8	CHEMICAL 131 141	vardenafil
+N2	Name Annotation:T8 Referent:vardenafil
+T9	CHEMICAL 146 156	sildenafil
+N3	Name Annotation:T9 Referent:sildenafil
+T1	CHEMICAL 158 168	Vardenafil
+N4	Name Annotation:T1 Referent:vardenafil
+T11	GENE-Y 192 211	phosphodiesterase-5
+N5	Name Annotation:T11 Referent:phosphodiesterase5
+T14	GENE-Y 213 217	PDE5
+N6	Name Annotation:T14 Referent:pde5
+T6	CHEMICAL 224 234	sildenafil
+N7	Name Annotation:T6 Referent:sildenafil
+T10	GENE-N 495 518	PDE5A1 catalytic domain
+N8	Name Annotation:T10 Referent:pde5a1catalyticdomain
+T2	CHEMICAL 535 545	vardenafil
+N9	Name Annotation:T2 Referent:vardenafil
+T12	GENE-Y 610 616	PDE5A1
+N10	Name Annotation:T12 Referent:pde5a1
+T3	CHEMICAL 617 627	vardenafil
+N11	Name Annotation:T3 Referent:vardenafil
+T13	GENE-Y 702 706	PDE5
+N12	Name Annotation:T13 Referent:pde5
+T4	CHEMICAL 790 800	vardenafil
+N13	Name Annotation:T4 Referent:vardenafil
+T5	CHEMICAL 822 832	sildenafil
+N14	Name Annotation:T5 Referent:sildenafil
+T15	GENE-Y 847 851	PDE5
+N15	Name Annotation:T15 Referent:pde5
+T7	CHEMICAL 890 900	vardenafil
+N16	Name Annotation:T7 Referent:vardenafil
+T16	GENE-N 996 999	PDE
+N17	Name Annotation:T16 Referent:pde
+T17	GENE-Y 1049 1053	PDE5
+N18	Name Annotation:T17 Referent:pde5
+R1	DIRECT-REGULATOR Arg1:T1 Arg2:T11
+R2	DIRECT-REGULATOR Arg1:T1 Arg2:T14
+R3	DIRECT-REGULATOR Arg1:T6 Arg2:T11
+R4	DIRECT-REGULATOR Arg1:T6 Arg2:T14
+R5	INHIBITOR Arg1:T9 Arg2:T18
+R6	DIRECT-REGULATOR Arg1:T2 Arg2:T10
+R7	DIRECT-REGULATOR Arg1:T3 Arg2:T12
+R8	DIRECT-REGULATOR Arg1:T4 Arg2:T15
+R9	DIRECT-REGULATOR Arg1:T5 Arg2:T15
+R10	DIRECT-REGULATOR Arg1:T7 Arg2:T16

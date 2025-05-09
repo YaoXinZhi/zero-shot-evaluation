@@ -1,0 +1,72 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "2-aryl propionic acid",
+            "Name": "2arylpropionicacid"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "flurbiprofen",
+            "Name": "flurbiprofen"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "ibuprofen",
+            "Name": "ibuprofen"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "halogen",
+            "Name": "halogen"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "carboxylate",
+            "Name": "carboxylate"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "flurbiprofen",
+            "Name": "flurbiprofen"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ester",
+            "Name": "ester"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "amide",
+            "Name": "amide"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T10"
+        }
+    ]
+}

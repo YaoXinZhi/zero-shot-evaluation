@@ -1,0 +1,149 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "flavaglines",
+            "Name": "flavaglines"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "cyclopenta[b]benzopyran",
+            "Name": "cyclopentabbenzopyran"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "cyclopenta[b]benzofuran",
+            "Name": "cyclopentabbenzofuran"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cycloartane triterpenoids",
+            "Name": "cycloartanetriterpenoids"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "chloroform",
+            "Name": "chloroform"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "methanol",
+            "Name": "methanol"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "diol",
+            "Name": "diol"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "dimolybdenum tetraacetate",
+            "Name": "dimolybdenumtetraacetate"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Mo2(AcO)4",
+            "Name": "mo2aco4"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "rocaglate",
+            "Name": "rocaglate"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "rocaglaol",
+            "Name": "rocaglaol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "perviridicin B",
+            "Name": "perviridicinb"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "rocaglate",
+            "Name": "rocaglate"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "sesquiterpene",
+            "Name": "sesquiterpene"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "2-oxaisodauc-5-en-12-al",
+            "Name": "2oxaisodauc5en12al"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "p65",
+            "Name": "p65"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T17"
+        }
+    ]
+}

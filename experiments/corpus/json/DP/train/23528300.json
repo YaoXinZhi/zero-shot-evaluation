@@ -1,0 +1,52 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "2-substituted benzoxazoles",
+            "Name": "2substitutedbenzoxazoles"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "PTP1B",
+            "Name": "ptp1b"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "benzoxazole",
+            "Name": "benzoxazole"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "oxamic acid",
+            "Name": "oxamicacid"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "PTP1B",
+            "Name": "ptp1b"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T5"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T4"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T4"
+        }
+    ]
+}

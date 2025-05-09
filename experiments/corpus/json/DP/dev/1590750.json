@@ -1,0 +1,243 @@
+{
+    "entities": [
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "human lung alcohol and aldehyde dehydrogenases",
+            "Name": "humanlungalcoholandaldehydedehydrogenases"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "alcohol",
+            "Name": "alcohol"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "aldehyde",
+            "Name": "aldehyde"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "ethanol",
+            "Name": "ethanol"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Alcohol",
+            "Name": "alcohol"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "Alcohol dehydrogenase",
+            "Name": "alcoholdehydrogenase"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "ADH",
+            "Name": "adh"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "aldehyde",
+            "Name": "aldehyde"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "aldehyde dehydrogenase",
+            "Name": "aldehydedehydrogenase"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "ALDH",
+            "Name": "aldh"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "ADH",
+            "Name": "adh"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "ALDH",
+            "Name": "aldh"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "beta-ADHs",
+            "Name": "betaadhs"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "ethanol",
+            "Name": "ethanol"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "ethanol",
+            "Name": "ethanol"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "4-methylpyrazole",
+            "Name": "4methylpyrazole"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "1,10-phenanthroline",
+            "Name": "110phenanthroline"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "polypeptide",
+            "Name": "polypeptide"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "ADH",
+            "Name": "adh"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "ADH2 2-2",
+            "Name": "adh222"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "ADH2 1-1",
+            "Name": "adh211"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "ADH2 2-1",
+            "Name": "adh221"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "ALDH2",
+            "Name": "aldh2"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "ALDH2",
+            "Name": "aldh2"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "ethanol",
+            "Name": "ethanol"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "ADH2",
+            "Name": "adh2"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "ALDH2",
+            "Name": "aldh2"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "beta 2-ADH",
+            "Name": "beta2adh"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "ALDH2",
+            "Name": "aldh2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "acetaldehyde",
+            "Name": "acetaldehyde"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "alcohol",
+            "Name": "alcohol"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T18"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T19"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T20"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T20"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T21"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T21"
+        }
+    ]
+}

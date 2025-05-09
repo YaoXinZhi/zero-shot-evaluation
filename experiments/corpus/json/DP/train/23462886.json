@@ -1,0 +1,163 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "MSDC-0160",
+            "Name": "msdc0160"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "thiazolidinediones",
+            "Name": "thiazolidinediones"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "peroxisome proliferator-activated receptor-\u03b3",
+            "Name": "peroxisomeproliferatoractivatedreceptor\u03b3"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "PPAR-\u03b3",
+            "Name": "ppar\u03b3"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "MSDC-0160",
+            "Name": "msdc0160"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "pioglitazone HCl",
+            "Name": "pioglitazonehcl"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "PPAR-\u03b3",
+            "Name": "ppar\u03b3"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "glycated hemoglobin",
+            "Name": "glycatedhemoglobin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "HbA1c",
+            "Name": "hba1c"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "MSDC-0160",
+            "Name": "msdc0160"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "pioglitazone",
+            "Name": "pioglitazone"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "MSDC-0160",
+            "Name": "msdc0160"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "MSDC-0160",
+            "Name": "msdc0160"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "pioglitazone",
+            "Name": "pioglitazone"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "MSDC-0160",
+            "Name": "msdc0160"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "pioglitazone",
+            "Name": "pioglitazone"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PPAR-\u03b3",
+            "Name": "ppar\u03b3"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T20"
+        },
+        {
+            "type": "Agonist",
+            "source": "T5",
+            "target": "T18"
+        },
+        {
+            "type": "Agonist",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T20"
+        }
+    ]
+}

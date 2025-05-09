@@ -1,0 +1,52 @@
+T9	CHEMICAL 0 9	Captopril
+N1	Name Annotation:T9 Referent:captopril
+T21	GENE-Y 28 54	matrix metalloproteinase-2
+N2	Name Annotation:T21 Referent:matrixmetalloproteinase2
+T11	GENE-Y 130 162	Matrix metalloproteinase (MMP)-2
+N3	Name Annotation:T11 Referent:matrixmetalloproteinasemmp2
+T1	CHEMICAL 370 381	angiotensin
+N4	Name Annotation:T1 Referent:angiotensin
+T12	GENE-Y 370 399	angiotensin-converting enzyme
+N5	Name Annotation:T12 Referent:angiotensinconvertingenzyme
+T13	GENE-Y 401 404	ACE
+N6	Name Annotation:T13 Referent:ace
+T2	CHEMICAL 417 426	captopril
+N7	Name Annotation:T2 Referent:captopril
+T14	GENE-Y 437 442	MMP-2
+N8	Name Annotation:T14 Referent:mmp2
+T15	GENE-Y 537 542	MMP-2
+N9	Name Annotation:T15 Referent:mmp2
+T3	CHEMICAL 543 552	captopril
+N10	Name Annotation:T3 Referent:captopril
+T4	CHEMICAL 596 605	captopril
+N11	Name Annotation:T4 Referent:captopril
+T16	GENE-Y 609 614	MMP-2
+N12	Name Annotation:T16 Referent:mmp2
+T17	GENE-Y 711 716	MMP-2
+N13	Name Annotation:T17 Referent:mmp2
+T5	CHEMICAL 717 726	captopril
+N14	Name Annotation:T5 Referent:captopril
+T6	CHEMICAL 821 830	Captopril
+N15	Name Annotation:T6 Referent:captopril
+T18	GENE-Y 850 855	MMP-2
+N16	Name Annotation:T18 Referent:mmp2
+T7	CHEMICAL 943 952	captopril
+N17	Name Annotation:T7 Referent:captopril
+T19	GENE-Y 968 973	MMP-2
+N18	Name Annotation:T19 Referent:mmp2
+T20	GENE-Y 1066 1069	ACE
+N19	Name Annotation:T20 Referent:ace
+T8	CHEMICAL 1090 1099	captopril
+N20	Name Annotation:T8 Referent:captopril
+T10	GENE-Y 1143 1148	MMP-2
+N21	Name Annotation:T10 Referent:mmp2
+R1	INHIBITOR Arg1:T9 Arg2:T21
+R2	INHIBITOR Arg1:T2 Arg2:T12
+R3	INHIBITOR Arg1:T2 Arg2:T13
+R4	DIRECT-REGULATOR Arg1:T3 Arg2:T15
+R5	INHIBITOR Arg1:T4 Arg2:T16
+R6	DIRECT-REGULATOR Arg1:T5 Arg2:T17
+R7	INHIBITOR Arg1:T6 Arg2:T18
+R8	DIRECT-REGULATOR Arg1:T7 Arg2:T19
+R9	INHIBITOR Arg1:T8 Arg2:T20
+R10	INHIBITOR Arg1:T8 Arg2:T10

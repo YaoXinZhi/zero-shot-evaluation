@@ -1,0 +1,70 @@
+T31	GENE-N 30 37	insulin
+N1	Name Annotation:T31 Referent:insulin
+T16	CHEMICAL 79 91	sulfonylurea
+N2	Name Annotation:T16 Referent:sulfonylurea
+T17	CHEMICAL 96 103	glinide
+N3	Name Annotation:T17 Referent:glinide
+T30	GENE-N 184 191	insulin
+N4	Name Annotation:T30 Referent:insulin
+T1	CHEMICAL 202 214	Sulfonylurea
+N5	Name Annotation:T1 Referent:sulfonylurea
+T6	CHEMICAL 219 226	glinide
+N6	Name Annotation:T6 Referent:glinide
+T28	GENE-N 299 306	insulin
+N7	Name Annotation:T28 Referent:insulin
+T4	CHEMICAL 353 356	ATP
+N8	Name Annotation:T4 Referent:atp
+T21	GENE-N 353 378	ATP-sensitive K+ channels
+N9	Name Annotation:T21 Referent:atpsensitivekchannels
+T5	CHEMICAL 367 369	K+
+N10	Name Annotation:T5 Referent:k
+T22	GENE-N 428 435	insulin
+N11	Name Annotation:T22 Referent:insulin
+T23	GENE-N 587 594	insulin
+N12	Name Annotation:T23 Referent:insulin
+T7	CHEMICAL 645 657	sulfonylurea
+N13	Name Annotation:T7 Referent:sulfonylurea
+T8	CHEMICAL 663 676	glibenclamide
+N14	Name Annotation:T8 Referent:glibenclamide
+T9	CHEMICAL 684 691	glinide
+N15	Name Annotation:T9 Referent:glinide
+T10	CHEMICAL 697 708	mitiglinide
+N16	Name Annotation:T10 Referent:mitiglinide
+T24	GENE-N 778 785	insulin
+N17	Name Annotation:T24 Referent:insulin
+T11	CHEMICAL 936 948	sulfonylurea
+N18	Name Annotation:T11 Referent:sulfonylurea
+T25	GENE-Y 936 959	sulfonylurea receptor 1
+N19	Name Annotation:T25 Referent:sulfonylureareceptor1
+T26	GENE-Y 961 965	SUR1
+N20	Name Annotation:T26 Referent:sur1
+T12	CHEMICAL 1011 1022	mitiglinide
+N21	Name Annotation:T12 Referent:mitiglinide
+T13	CHEMICAL 1032 1045	glibenclamide
+N22	Name Annotation:T13 Referent:glibenclamide
+T27	GENE-N 1073 1080	insulin
+N23	Name Annotation:T27 Referent:insulin
+T14	CHEMICAL 1158 1170	sulfonylurea
+N24	Name Annotation:T14 Referent:sulfonylurea
+T15	CHEMICAL 1175 1182	glinide
+N25	Name Annotation:T15 Referent:glinide
+T29	GENE-N 1197 1204	insulin
+N26	Name Annotation:T29 Referent:insulin
+T18	GENE-N 1289 1296	insulin
+N27	Name Annotation:T18 Referent:insulin
+T2	CHEMICAL 1319 1330	mitiglinide
+N28	Name Annotation:T2 Referent:mitiglinide
+T19	GENE-N 1342 1349	insulin
+N29	Name Annotation:T19 Referent:insulin
+T3	CHEMICAL 1388 1399	mitiglinide
+N30	Name Annotation:T3 Referent:mitiglinide
+T20	GENE-Y 1411 1415	SUR1
+N31	Name Annotation:T20 Referent:sur1
+R1	INDIRECT-UPREGULATOR Arg1:T6 Arg2:T28
+R2	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T28
+R3	INHIBITOR Arg1:T1 Arg2:T21
+R4	INHIBITOR Arg1:T6 Arg2:T21
+R5	INDIRECT-UPREGULATOR Arg1:T14 Arg2:T29
+R6	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T29
+R7	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T19
+R8	DIRECT-REGULATOR Arg1:T3 Arg2:T20

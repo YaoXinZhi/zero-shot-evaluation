@@ -1,0 +1,73 @@
+T25	CHEMICAL 84 96	Carbohydrate
+N1	Name Annotation:T25 Referent:carbohydrate
+T18	CHEMICAL 553 568	ω-3 fatty acids
+N2	Name Annotation:T18 Referent:ω3fattyacids
+T19	CHEMICAL 573 580	lignans
+N3	Name Annotation:T19 Referent:lignans
+T20	CHEMICAL 767 779	lead acetate
+N4	Name Annotation:T20 Referent:leadacetate
+T21	CHEMICAL 781 785	PbAc
+N5	Name Annotation:T21 Referent:pbac
+T22	CHEMICAL 901 913	lead acetate
+N6	Name Annotation:T22 Referent:leadacetate
+T23	CHEMICAL 1031 1043	carbohydrate
+N7	Name Annotation:T23 Referent:carbohydrate
+T24	CHEMICAL 1135 1139	PbAc
+N8	Name Annotation:T24 Referent:pbac
+T1	CHEMICAL 1192 1202	creatinine
+N9	Name Annotation:T1 Referent:creatinine
+T2	CHEMICAL 1213 1217	urea
+N10	Name Annotation:T2 Referent:urea
+T3	CHEMICAL 1218 1226	nitrogen
+N11	Name Annotation:T3 Referent:nitrogen
+T4	CHEMICAL 1228 1232	PbAc
+N12	Name Annotation:T4 Referent:pbac
+T5	CHEMICAL 1261 1268	lactate
+N13	Name Annotation:T5 Referent:lactate
+T26	GENE-N 1261 1282	lactate dehydrogenase
+N14	Name Annotation:T26 Referent:lactatedehydrogenase
+T6	CHEMICAL 1287 1291	NADP
+N15	Name Annotation:T6 Referent:nadp
+T27	GENE-N 1287 1304	NADP-malic enzyme
+N16	Name Annotation:T27 Referent:nadpmalicenzyme
+T7	CHEMICAL 1327 1333	malate
+N17	Name Annotation:T7 Referent:malate
+T28	GENE-N 1327 1371	malate and glucose-6-phosphate dehydrogenase
+N18	Name Annotation:T28 Referent:malateandglucose6phosphatedehydrogenase
+T8	CHEMICAL 1338 1357	glucose-6-phosphate
+N19	Name Annotation:T8 Referent:glucose6phosphate
+T9	CHEMICAL 1373 1380	glucose
+N20	Name Annotation:T9 Referent:glucose
+T29	GENE-Y 1373 1394	glucose-6-phosphatase
+N21	Name Annotation:T29 Referent:glucose6phosphatase
+T10	CHEMICAL 1396 1404	fructose
+N22	Name Annotation:T10 Referent:fructose
+T30	GENE-N 1396 1424	fructose-1, 6-bisphosphatase
+N23	Name Annotation:T30 Referent:fructose16bisphosphatase
+T11	CHEMICAL 1453 1457	PbAc
+N24	Name Annotation:T11 Referent:pbac
+T12	CHEMICAL 1569 1579	superoxide
+N25	Name Annotation:T12 Referent:superoxide
+T31	GENE-N 1569 1589	superoxide dismutase
+N26	Name Annotation:T31 Referent:superoxidedismutase
+T13	CHEMICAL 1591 1602	glutathione
+N27	Name Annotation:T13 Referent:glutathione
+T32	GENE-N 1591 1613	glutathione peroxidase
+N28	Name Annotation:T32 Referent:glutathioneperoxidase
+T33	GENE-Y 1619 1627	catalase
+N29	Name Annotation:T33 Referent:catalase
+T14	CHEMICAL 1686 1698	carbohydrate
+N30	Name Annotation:T14 Referent:carbohydrate
+T15	CHEMICAL 1763 1767	PbAc
+N31	Name Annotation:T15 Referent:pbac
+T16	CHEMICAL 1813 1817	PbAc
+N32	Name Annotation:T16 Referent:pbac
+T17	CHEMICAL 1903 1907	PbAc
+N33	Name Annotation:T17 Referent:pbac
+R1	ACTIVATOR Arg1:T4 Arg2:T26
+R2	ACTIVATOR Arg1:T4 Arg2:T27
+R3	INHIBITOR Arg1:T4 Arg2:T29
+R4	INHIBITOR Arg1:T4 Arg2:T30
+R5	INHIBITOR Arg1:T11 Arg2:T31
+R6	INHIBITOR Arg1:T11 Arg2:T32
+R7	INHIBITOR Arg1:T11 Arg2:T33

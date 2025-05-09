@@ -1,0 +1,58 @@
+T16	CHEMICAL 38 47	genistein
+N1	Name Annotation:T16 Referent:genistein
+T12	CHEMICAL 703 713	isoflavone
+N2	Name Annotation:T12 Referent:isoflavone
+T13	CHEMICAL 714 723	genistein
+N3	Name Annotation:T13 Referent:genistein
+T23	GENE-Y 789 793	PTEN
+N4	Name Annotation:T23 Referent:pten
+T24	GENE-Y 798 808	E-cadherin
+N5	Name Annotation:T24 Referent:ecadherin
+T14	CHEMICAL 882 891	genistein
+N6	Name Annotation:T14 Referent:genistein
+T15	CHEMICAL 996 1005	genistein
+N7	Name Annotation:T15 Referent:genistein
+T1	CHEMICAL 1175 1184	genistein
+N8	Name Annotation:T1 Referent:genistein
+T2	CHEMICAL 1232 1244	triglyceride
+N9	Name Annotation:T2 Referent:triglyceride
+T17	GENE-Y 1263 1268	PPARγ
+N10	Name Annotation:T17 Referent:pparγ
+T3	CHEMICAL 1273 1283	fatty acid
+N11	Name Annotation:T3 Referent:fattyacid
+T18	GENE-Y 1273 1292	fatty acid synthase
+N12	Name Annotation:T18 Referent:fattyacidsynthase
+T4	CHEMICAL 1312 1321	Genistein
+N13	Name Annotation:T4 Referent:genistein
+T5	CHEMICAL 1389 1397	estrogen
+N14	Name Annotation:T5 Referent:estrogen
+T19	GENE-Y 1389 1413	estrogen receptor (ER)-β
+N15	Name Annotation:T19 Referent:estrogenreceptorerβ
+T20	GENE-Y 1464 1467	ERβ
+N16	Name Annotation:T20 Referent:erβ
+T6	CHEMICAL 1486 1525	2,3-bis (4-hydroxyphenyl)-propionitrile
+N17	Name Annotation:T6 Referent:23bis4hydroxyphenylpropionitrile
+T7	CHEMICAL 1527 1530	DPN
+N18	Name Annotation:T7 Referent:dpn
+T21	GENE-Y 1546 1549	ERβ
+N19	Name Annotation:T21 Referent:erβ
+T22	GENE-Y 1590 1595	PPARγ
+N20	Name Annotation:T22 Referent:pparγ
+T8	CHEMICAL 1704 1713	genistein
+N21	Name Annotation:T8 Referent:genistein
+T9	CHEMICAL 1722 1725	DPN
+N22	Name Annotation:T9 Referent:dpn
+T10	CHEMICAL 1751 1760	genistein
+N23	Name Annotation:T10 Referent:genistein
+T11	CHEMICAL 1945 1954	genistein
+N24	Name Annotation:T11 Referent:genistein
+R1	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T23
+R2	INDIRECT-UPREGULATOR Arg1:T13 Arg2:T23
+R3	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T24
+R4	INDIRECT-UPREGULATOR Arg1:T13 Arg2:T24
+R5	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T17
+R6	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T18
+R7	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T19
+R8	AGONIST Arg1:T6 Arg2:T20
+R9	AGONIST Arg1:T7 Arg2:T20
+R10	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T22

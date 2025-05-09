@@ -1,0 +1,99 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "bicyclic pyrazinone and pyrimidinone amides",
+            "Name": "bicyclicpyrazinoneandpyrimidinoneamides"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "TF",
+            "Name": "tf"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "FVIIa",
+            "Name": "fviia"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Bicyclic pyrazinone and pyrimidinone amides",
+            "Name": "bicyclicpyrazinoneandpyrimidinoneamides"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "TF",
+            "Name": "tf"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "FVIIa",
+            "Name": "fviia"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "FVIIa",
+            "Name": "fviia"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "FVIIa",
+            "Name": "fviia"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "hydrogen",
+            "Name": "hydrogen"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "FVIIa",
+            "Name": "fviia"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "FIXa, Xa, XIa",
+            "Name": "fixaxaxia"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "chymotrypsin",
+            "Name": "chymotrypsin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T10"
+        }
+    ]
+}

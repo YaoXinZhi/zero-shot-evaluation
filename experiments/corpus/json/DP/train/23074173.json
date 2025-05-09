@@ -1,0 +1,216 @@
+{
+    "entities": [
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "iron",
+            "Name": "iron"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "deferasirox",
+            "Name": "deferasirox"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Deferasirox",
+            "Name": "deferasirox"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "iron",
+            "Name": "iron"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Fe",
+            "Name": "fe"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "iron",
+            "Name": "iron"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "desferrioxamine",
+            "Name": "desferrioxamine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "DFO",
+            "Name": "dfo"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "DFO",
+            "Name": "dfo"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "iron",
+            "Name": "iron"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "deferasirox",
+            "Name": "deferasirox"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Deferasirox",
+            "Name": "deferasirox"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "DFO",
+            "Name": "dfo"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "deferasirox",
+            "Name": "deferasirox"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "DFO",
+            "Name": "dfo"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "(59)Fe",
+            "Name": "59fe"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "human transferrin",
+            "Name": "humantransferrin"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "deferasirox",
+            "Name": "deferasirox"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "deferasirox",
+            "Name": "deferasirox"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "deferasirox",
+            "Name": "deferasirox"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "protein N-myc downstream-regulated gene 1",
+            "Name": "proteinnmycdownstreamregulatedgene1"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "cyclin-dependent kinase inhibitor p21",
+            "Name": "cyclindependentkinaseinhibitorp21"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "CIP1",
+            "Name": "cip1"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "WAF1",
+            "Name": "waf1"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "cyclin D1",
+            "Name": "cyclind1"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "poly(ADP-ribose)",
+            "Name": "polyadpribose"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "poly(ADP-ribose) polymerase 1",
+            "Name": "polyadpribosepolymerase1"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "deferasirox",
+            "Name": "deferasirox"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T29"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T16",
+            "target": "T29"
+        }
+    ]
+}

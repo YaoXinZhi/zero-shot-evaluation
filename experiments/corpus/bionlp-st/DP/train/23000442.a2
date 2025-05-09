@@ -1,0 +1,44 @@
+T11	CHEMICAL 32 40	mollugin
+N1	Name Annotation:T11 Referent:mollugin
+T18	GENE-Y 44 50	CYP1A2
+N2	Name Annotation:T18 Referent:cyp1a2
+T1	CHEMICAL 78 86	Mollugin
+N3	Name Annotation:T1 Referent:mollugin
+T2	CHEMICAL 339 347	mollugin
+N4	Name Annotation:T2 Referent:mollugin
+T13	GENE-N 351 366	cytochrome P450
+N5	Name Annotation:T13 Referent:cytochromep450
+T14	GENE-N 368 371	CYP
+N6	Name Annotation:T14 Referent:cyp
+T15	GENE-N 462 466	CYPs
+N7	Name Annotation:T15 Referent:cyps
+T3	CHEMICAL 472 480	mollugin
+N8	Name Annotation:T3 Referent:mollugin
+T16	GENE-Y 530 536	CYP1A2
+N9	Name Annotation:T16 Referent:cyp1a2
+T4	CHEMICAL 547 557	phenacetin
+N10	Name Annotation:T4 Referent:phenacetin
+T5	CHEMICAL 558 559	O
+N11	Name Annotation:T5 Referent:o
+T6	CHEMICAL 662 670	Mollugin
+N12	Name Annotation:T6 Referent:mollugin
+T7	CHEMICAL 692 702	phenacetin
+N13	Name Annotation:T7 Referent:phenacetin
+T8	CHEMICAL 703 704	O
+N14	Name Annotation:T8 Referent:o
+T9	CHEMICAL 883 891	mollugin
+N15	Name Annotation:T9 Referent:mollugin
+T17	GENE-N 928 942	CYP1A1 and 1A2
+N16	Name Annotation:T17 Referent:cyp1a1and1a2
+T10	CHEMICAL 1003 1011	mollugin
+N17	Name Annotation:T10 Referent:mollugin
+T12	GENE-Y 1078 1084	CYP1A2
+N18	Name Annotation:T12 Referent:cyp1a2
+R1	INHIBITOR Arg1:T3 Arg2:T15
+R2	INHIBITOR Arg1:T3 Arg2:T16
+R3	SUBSTRATE Arg1:T4 Arg2:T16
+R4	SUBSTRATE Arg1:T5 Arg2:T16
+R5	INHIBITOR Arg1:T10 Arg2:T12
+R6	INHIBITOR Arg1:T11 Arg2:T18
+R7	INHIBITOR Arg1:T2 Arg2:T13
+R8	INHIBITOR Arg1:T2 Arg2:T14

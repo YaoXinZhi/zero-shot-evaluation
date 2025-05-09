@@ -1,0 +1,76 @@
+T27	CHEMICAL 0 15	Benzodiazepines
+N1	Name Annotation:T27 Referent:benzodiazepines
+T28	CHEMICAL 25 40	beta carbolines
+N2	Name Annotation:T28 Referent:betacarbolines
+T4	CHEMICAL 153 168	benzodiazepines
+N3	Name Annotation:T4 Referent:benzodiazepines
+T12	CHEMICAL 170 174	BDZs
+N4	Name Annotation:T12 Referent:bdzs
+T15	CHEMICAL 180 195	beta carbolines
+N5	Name Annotation:T15 Referent:betacarbolines
+T22	CHEMICAL 197 205	beta CCs
+N6	Name Annotation:T22 Referent:betaccs
+T13	CHEMICAL 514 518	BDZs
+N7	Name Annotation:T13 Referent:bdzs
+T14	CHEMICAL 520 528	diazepam
+N8	Name Annotation:T14 Referent:diazepam
+T16	CHEMICAL 530 540	clonazepam
+N9	Name Annotation:T16 Referent:clonazepam
+T17	CHEMICAL 542 552	nitrazepam
+N10	Name Annotation:T17 Referent:nitrazepam
+T18	CHEMICAL 557 566	lorazepam
+N11	Name Annotation:T18 Referent:lorazepam
+T19	CHEMICAL 624 627	BDZ
+N12	Name Annotation:T19 Referent:bdz
+T20	CHEMICAL 665 668	BDZ
+N13	Name Annotation:T20 Referent:bdz
+T33	GENE-N 665 678	BDZ receptors
+N14	Name Annotation:T33 Referent:bdzreceptors
+T21	CHEMICAL 680 689	Ro 5-4864
+N15	Name Annotation:T21 Referent:ro54864
+T23	CHEMICAL 733 736	BDZ
+N16	Name Annotation:T23 Referent:bdz
+T34	GENE-N 733 745	BDZ receptor
+N17	Name Annotation:T34 Referent:bdzreceptor
+T24	CHEMICAL 768 778	Ro 15-1788
+N18	Name Annotation:T24 Referent:ro151788
+T25	CHEMICAL 922 928	sodium
+N19	Name Annotation:T25 Referent:sodium
+T26	CHEMICAL 1078 1086	diazepam
+N20	Name Annotation:T26 Referent:diazepam
+T1	CHEMICAL 1143 1146	BDZ
+N21	Name Annotation:T1 Referent:bdz
+T29	GENE-N 1143 1155	BDZ receptor
+N22	Name Annotation:T29 Referent:bdzreceptor
+T2	CHEMICAL 1167 1177	Ro 15-1788
+N23	Name Annotation:T2 Referent:ro151788
+T3	CHEMICAL 1186 1194	beta CCs
+N24	Name Annotation:T3 Referent:betaccs
+T5	CHEMICAL 1269 1273	BDZs
+N25	Name Annotation:T5 Referent:bdzs
+T6	CHEMICAL 1283 1291	beta CCs
+N26	Name Annotation:T6 Referent:betaccs
+T30	GENE-N 1296 1329	voltage-dependent sodium channels
+N27	Name Annotation:T30 Referent:voltagedependentsodiumchannels
+T7	CHEMICAL 1314 1320	sodium
+N28	Name Annotation:T7 Referent:sodium
+T8	CHEMICAL 1363 1366	BDZ
+N29	Name Annotation:T8 Referent:bdz
+T31	GENE-N 1363 1376	BDZ receptors
+N30	Name Annotation:T31 Referent:bdzreceptors
+T9	CHEMICAL 1387 1391	BDZs
+N31	Name Annotation:T9 Referent:bdzs
+T10	CHEMICAL 1425 1431	sodium
+N32	Name Annotation:T10 Referent:sodium
+T32	GENE-N 1425 1440	sodium channels
+N33	Name Annotation:T32 Referent:sodiumchannels
+T11	CHEMICAL 1532 1536	BDZs
+N34	Name Annotation:T11 Referent:bdzs
+R1	AGONIST Arg1:T24 Arg2:T34
+R2	AGONIST-INHIBITOR Arg1:T2 Arg2:T29
+R3	AGONIST Arg1:T2 Arg2:T29
+R4	AGONIST-INHIBITOR Arg1:T3 Arg2:T29
+R5	AGONIST Arg1:T3 Arg2:T29
+R6	DIRECT-REGULATOR Arg1:T5 Arg2:T30
+R7	ACTIVATOR Arg1:T9 Arg2:T32
+R8	DIRECT-REGULATOR Arg1:T5 Arg2:T31

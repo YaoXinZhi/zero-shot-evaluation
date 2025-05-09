@@ -1,0 +1,107 @@
+T20	CHEMICAL 0 18	Bis(12)-hupyridone
+N1	Name Annotation:T20 Referent:bis12hupyridone
+T43	GENE-Y 28 48	acetylcholinesterase
+N2	Name Annotation:T43 Referent:acetylcholinesterase
+T23	CHEMICAL 77 86	glutamate
+N3	Name Annotation:T23 Referent:glutamate
+T40	GENE-Y 134 169	α7 nicotinic acetylcholine receptor
+N4	Name Annotation:T40 Referent:α7nicotinicacetylcholinereceptor
+T21	CHEMICAL 147 160	acetylcholine
+N5	Name Annotation:T21 Referent:acetylcholine
+T22	CHEMICAL 170 186	phosphoinositide
+N6	Name Annotation:T22 Referent:phosphoinositide
+T41	GENE-N 170 195	phosphoinositide 3-kinase
+N7	Name Annotation:T41 Referent:phosphoinositide3kinase
+T42	GENE-N 196 199	Akt
+N8	Name Annotation:T42 Referent:akt
+T1	CHEMICAL 209 227	Bis(12)-hupyridone
+N9	Name Annotation:T1 Referent:bis12hupyridone
+T7	CHEMICAL 229 233	B12H
+N10	Name Annotation:T7 Referent:b12h
+T15	CHEMICAL 281 292	huperzine A
+N11	Name Annotation:T15 Referent:huperzinea
+T28	GENE-Y 329 349	acetylcholinesterase
+N12	Name Annotation:T28 Referent:acetylcholinesterase
+T30	GENE-Y 351 355	AChE
+N13	Name Annotation:T30 Referent:ache
+T6	CHEMICAL 398 402	B12H
+N14	Name Annotation:T6 Referent:b12h
+T8	CHEMICAL 443 452	glutamate
+N15	Name Annotation:T8 Referent:glutamate
+T9	CHEMICAL 594 598	B12H
+N16	Name Annotation:T9 Referent:b12h
+T10	CHEMICAL 663 667	NMDA
+N17	Name Annotation:T10 Referent:nmda
+T31	GENE-N 663 676	NMDA receptor
+N18	Name Annotation:T31 Referent:nmdareceptor
+T11	CHEMICAL 737 741	B12H
+N19	Name Annotation:T11 Referent:b12h
+T12	CHEMICAL 792 796	NMDA
+N20	Name Annotation:T12 Referent:nmda
+T32	GENE-N 792 805	NMDA receptor
+N21	Name Annotation:T32 Referent:nmdareceptor
+T33	GENE-Y 847 886	alpha7-nicotinic acetylcholine receptor
+N22	Name Annotation:T33 Referent:alpha7nicotinicacetylcholinereceptor
+T13	CHEMICAL 864 877	acetylcholine
+N23	Name Annotation:T13 Referent:acetylcholine
+T34	GENE-Y 888 895	α7nAChR
+N24	Name Annotation:T34 Referent:α7nachr
+T35	GENE-N 906 939	muscarinic acetylcholine receptor
+N25	Name Annotation:T35 Referent:muscarinicacetylcholinereceptor
+T14	CHEMICAL 917 930	acetylcholine
+N26	Name Annotation:T14 Referent:acetylcholine
+T36	GENE-N 941 946	mAChR
+N27	Name Annotation:T36 Referent:machr
+T37	GENE-N 951 960	α4β2nAChR
+N28	Name Annotation:T37 Referent:α4β2nachr
+T16	CHEMICAL 995 999	B12H
+N29	Name Annotation:T16 Referent:b12h
+T17	CHEMICAL 1024 1028	B12H
+N30	Name Annotation:T17 Referent:b12h
+T38	GENE-N 1085 1090	PI3-K
+N31	Name Annotation:T38 Referent:pi3k
+T18	CHEMICAL 1116 1120	B12H
+N32	Name Annotation:T18 Referent:b12h
+T39	GENE-N 1163 1166	Akt
+N33	Name Annotation:T39 Referent:akt
+T19	CHEMICAL 1185 1194	glutamate
+N34	Name Annotation:T19 Referent:glutamate
+T2	CHEMICAL 1240 1244	pSer
+N35	Name Annotation:T2 Referent:pser
+T24	GENE-N 1248 1251	Akt
+N36	Name Annotation:T24 Referent:akt
+T3	CHEMICAL 1256 1260	pSer
+N37	Name Annotation:T3 Referent:pser
+T25	GENE-Y 1262 1267	GSK3β
+N38	Name Annotation:T25 Referent:gsk3β
+T4	CHEMICAL 1300 1304	B12H
+N39	Name Annotation:T4 Referent:b12h
+T5	CHEMICAL 1342 1351	glutamate
+N40	Name Annotation:T5 Referent:glutamate
+T26	GENE-Y 1399 1406	α7nAChR
+N41	Name Annotation:T26 Referent:α7nachr
+T27	GENE-N 1407 1412	PI3-K
+N42	Name Annotation:T27 Referent:pi3k
+T29	GENE-N 1413 1416	Akt
+N43	Name Annotation:T29 Referent:akt
+R1	INHIBITOR Arg1:T20 Arg2:T43
+R2	ACTIVATOR Arg1:T20 Arg2:T40
+R3	INHIBITOR Arg1:T15 Arg2:T28
+R4	INHIBITOR Arg1:T7 Arg2:T28
+R5	INHIBITOR Arg1:T1 Arg2:T28
+R6	INHIBITOR Arg1:T1 Arg2:T30
+R7	INHIBITOR Arg1:T7 Arg2:T30
+R8	INHIBITOR Arg1:T15 Arg2:T30
+R9	INHIBITOR Arg1:T9 Arg2:T31
+R10	ACTIVATOR Arg1:T18 Arg2:T39
+R11	INHIBITOR Arg1:T19 Arg2:T39
+R12	PART-OF Arg1:T2 Arg2:T24
+R13	PART-OF Arg1:T19 Arg2:T25
+R14	INDIRECT-DOWNREGULATOR Arg1:T19 Arg2:T24
+R15	INDIRECT-DOWNREGULATOR Arg1:T19 Arg2:T25
+R16	INHIBITOR Arg1:T5 Arg2:T26
+R17	INHIBITOR Arg1:T5 Arg2:T27
+R18	INHIBITOR Arg1:T5 Arg2:T29
+R19	ACTIVATOR Arg1:T4 Arg2:T26
+R20	ACTIVATOR Arg1:T4 Arg2:T27
+R21	ACTIVATOR Arg1:T4 Arg2:T29

@@ -1,0 +1,52 @@
+T9	CHEMICAL 17 27	spermidine
+N1	Name Annotation:T9 Referent:spermidine
+T22	GENE-Y 17 57	spermidine/spermine N1-acetyltransferase
+N2	Name Annotation:T22 Referent:spermidinesperminen1acetyltransferase
+T10	CHEMICAL 28 36	spermine
+N3	Name Annotation:T10 Referent:spermine
+T23	GENE-Y 59 63	SSAT
+N4	Name Annotation:T23 Referent:ssat
+T2	CHEMICAL 183 193	spermidine
+N5	Name Annotation:T2 Referent:spermidine
+T13	GENE-Y 183 225	spermidine/spermine N(1)-acetyltransferase
+N6	Name Annotation:T13 Referent:spermidinesperminen1acetyltransferase
+T4	CHEMICAL 194 202	spermine
+N7	Name Annotation:T4 Referent:spermine
+T20	GENE-Y 227 231	SSAT
+N8	Name Annotation:T20 Referent:ssat
+T1	CHEMICAL 288 298	polyamines
+N9	Name Annotation:T1 Referent:polyamines
+T11	GENE-Y 387 391	SSAT
+N10	Name Annotation:T11 Referent:ssat
+T12	GENE-Y 405 409	SSAT
+N11	Name Annotation:T12 Referent:ssat
+T14	GENE-Y 535 539	SSAT
+N12	Name Annotation:T14 Referent:ssat
+T3	CHEMICAL 574 586	testosterone
+N13	Name Annotation:T3 Referent:testosterone
+T15	GENE-Y 622 626	SSAT
+N14	Name Annotation:T15 Referent:ssat
+T5	CHEMICAL 675 688	Catecholamine
+N15	Name Annotation:T5 Referent:catecholamine
+T6	CHEMICAL 745 751	folate
+N16	Name Annotation:T6 Referent:folate
+T7	CHEMICAL 772 792	S-adenosylmethionine
+N17	Name Annotation:T7 Referent:sadenosylmethionine
+T16	GENE-N 772 806	S-adenosylmethionine decarboxylase
+N18	Name Annotation:T16 Referent:sadenosylmethioninedecarboxylase
+T17	GENE-N 808 816	AdoMetDC
+N19	Name Annotation:T17 Referent:adometdc
+T8	CHEMICAL 832 841	polyamine
+N20	Name Annotation:T8 Referent:polyamine
+T18	GENE-Y 877 881	SSAT
+N21	Name Annotation:T18 Referent:ssat
+T19	GENE-Y 953 957	SSAT
+N22	Name Annotation:T19 Referent:ssat
+T21	GENE-Y 1112 1116	SSAT
+N23	Name Annotation:T21 Referent:ssat
+R1	INHIBITOR Arg1:T3 Arg2:T14
+R2	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T15
+R3	ACTIVATOR Arg1:T6 Arg2:T16
+R4	ACTIVATOR Arg1:T6 Arg2:T17
+R5	PRODUCT-OF Arg1:T8 Arg2:T16
+R6	PRODUCT-OF Arg1:T8 Arg2:T17

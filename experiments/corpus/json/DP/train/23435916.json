@@ -1,0 +1,165 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "pristimerin",
+            "Name": "pristimerin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Pristimerin",
+            "Name": "pristimerin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "quinonemethide triterpenoid",
+            "Name": "quinonemethidetriterpenoid"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "pristimerin",
+            "Name": "pristimerin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Pristimerin",
+            "Name": "pristimerin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "NO",
+            "Name": "no"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "prostaglandin E2",
+            "Name": "prostaglandine2"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "inducible NO synthase",
+            "Name": "induciblenosynthase"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "NO",
+            "Name": "no"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "cyclooxygenase-2",
+            "Name": "cyclooxygenase2"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "pristimerin",
+            "Name": "pristimerin"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "tumor necrosis factor-\u03b1",
+            "Name": "tumornecrosisfactor\u03b1"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "interleukin-6",
+            "Name": "interleukin6"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "pristimerin",
+            "Name": "pristimerin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "nuclear factor-\u03baB",
+            "Name": "nuclearfactor\u03bab"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "mitogen-activated protein kinase",
+            "Name": "mitogenactivatedproteinkinase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T12"
+        },
+        {
+            "type": "Product of",
+            "source": "T6",
+            "target": "T12"
+        },
+        {
+            "type": "Product of",
+            "source": "T7",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T18"
+        }
+    ]
+}

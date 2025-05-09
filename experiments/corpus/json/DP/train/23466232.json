@@ -1,0 +1,106 @@
+{
+    "entities": [
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "N2-substituted-5-(p-toluenesulfonylamino)phthalimide",
+            "Name": "n2substituted5ptoluenesulfonylaminophthalimide"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "\u03b1-glucosidase",
+            "Name": "\u03b1glucosidase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "sugar",
+            "Name": "sugar"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "\u03b1-glycosidase",
+            "Name": "\u03b1glycosidase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "5-(p-toluenesulfonylamino)phthalimide",
+            "Name": "5ptoluenesulfonylaminophthalimide"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "yeast \u03b1-glycosidase",
+            "Name": "yeast\u03b1glycosidase"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "rat intestinal \u03b1-glycosidase",
+            "Name": "ratintestinal\u03b1glycosidase"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "yeast \u03b1-glycosidase",
+            "Name": "yeast\u03b1glycosidase"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "rat intestinal \u03b1-glycosidase",
+            "Name": "ratintestinal\u03b1glycosidase"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "rat intestinal maltase",
+            "Name": "ratintestinalmaltase"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "lactase",
+            "Name": "lactase"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "rat intestinal \u03b1-amylase",
+            "Name": "ratintestinal\u03b1amylase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "5-(p-toluenesulfonylamino)phthalimide",
+            "Name": "5ptoluenesulfonylaminophthalimide"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "\u03b1-glucosidase",
+            "Name": "\u03b1glucosidase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T13"
+        }
+    ]
+}

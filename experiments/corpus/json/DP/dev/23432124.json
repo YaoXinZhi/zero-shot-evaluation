@@ -1,0 +1,156 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "(S)-2-amino-3-(3-hydroxy-5-methyl-4-isoxazolyl)propionic acid",
+            "Name": "s2amino33hydroxy5methyl4isoxazolylpropionicacid"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "(AMPA) receptor",
+            "Name": "ampareceptor"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "AMPA",
+            "Name": "ampa"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "IKM-159",
+            "Name": "ikm159"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "IKM-159",
+            "Name": "ikm159"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "AMPA",
+            "Name": "ampa"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "AMPA receptor",
+            "Name": "ampareceptor"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "IKM-159",
+            "Name": "ikm159"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "IKM-159",
+            "Name": "ikm159"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "(R)-2-amino-2-(4-methoxyphenyl)ethanol",
+            "Name": "r2amino24methoxyphenylethanol"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "(2R)-IKM-159",
+            "Name": "2rikm159"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "(2R)-IKM-159",
+            "Name": "2rikm159"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Racemic IKM-159",
+            "Name": "racemicikm159"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "GluA2",
+            "Name": "glua2"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "(2R)-IKM-159",
+            "Name": "2rikm159"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "(2R)-IKM-159",
+            "Name": "2rikm159"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "GluA2",
+            "Name": "glua2"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "AMPA receptors",
+            "Name": "ampareceptors"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T12",
+            "target": "T19"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T17"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T9",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T10",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T15"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T11",
+            "target": "T16"
+        }
+    ]
+}

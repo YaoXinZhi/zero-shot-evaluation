@@ -1,0 +1,95 @@
+T40	GENE-N 14 31	cytochrome P450 1
+N1	Name Annotation:T40 Referent:cytochromep4501
+T41	GENE-N 33 37	Cyp1
+N2	Name Annotation:T41 Referent:cyp1
+T23	CHEMICAL 42 50	vanadium
+N3	Name Annotation:T23 Referent:vanadium
+T16	CHEMICAL 178 186	vanadium
+N4	Name Annotation:T16 Referent:vanadium
+T18	CHEMICAL 188 193	V(5+)
+N5	Name Annotation:T18 Referent:v5
+T38	GENE-N 198 202	Cyp1
+N6	Name Annotation:T38 Referent:cyp1
+T7	CHEMICAL 342 347	V(5+)
+N7	Name Annotation:T7 Referent:v5
+T8	CHEMICAL 389 424	2,3,7,8-tetrachlorodibenzo-p-dioxin
+N8	Name Annotation:T8 Referent:2378tetrachlorodibenzopdioxin
+T9	CHEMICAL 426 430	TCDD
+N9	Name Annotation:T9 Referent:tcdd
+T10	CHEMICAL 528 533	V(5+)
+N10	Name Annotation:T10 Referent:v5
+T11	CHEMICAL 584 588	TCDD
+N11	Name Annotation:T11 Referent:tcdd
+T12	CHEMICAL 629 634	V(5+)
+N12	Name Annotation:T12 Referent:v5
+T31	GENE-Y 669 675	Cyp1a1
+N13	Name Annotation:T31 Referent:cyp1a1
+T32	GENE-Y 677 683	Cyp1a2
+N14	Name Annotation:T32 Referent:cyp1a2
+T33	GENE-Y 688 694	Cyp1b1
+N15	Name Annotation:T33 Referent:cyp1b1
+T13	CHEMICAL 760 765	V(5+)
+N16	Name Annotation:T13 Referent:v5
+T14	CHEMICAL 770 774	TCDD
+N17	Name Annotation:T14 Referent:tcdd
+T15	CHEMICAL 776 781	V(5+)
+N18	Name Annotation:T15 Referent:v5
+T17	CHEMICAL 812 816	TCDD
+N19	Name Annotation:T17 Referent:tcdd
+T34	GENE-Y 843 849	Cyp1a1
+N20	Name Annotation:T34 Referent:cyp1a1
+T35	GENE-Y 851 857	Cyp1a2
+N21	Name Annotation:T35 Referent:cyp1a2
+T36	GENE-Y 863 869	Cyp1b1
+N22	Name Annotation:T36 Referent:cyp1b1
+T19	CHEMICAL 934 939	V(5+)
+N23	Name Annotation:T19 Referent:v5
+T20	CHEMICAL 954 958	TCDD
+N24	Name Annotation:T20 Referent:tcdd
+T37	GENE-Y 981 987	Cyp1a1
+N25	Name Annotation:T37 Referent:cyp1a1
+T21	CHEMICAL 1047 1052	V(5+)
+N26	Name Annotation:T21 Referent:v5
+T22	CHEMICAL 1081 1085	TCDD
+N27	Name Annotation:T22 Referent:tcdd
+T39	GENE-Y 1094 1097	AhR
+N28	Name Annotation:T39 Referent:ahr
+T1	CHEMICAL 1129 1134	V(5+)
+N29	Name Annotation:T1 Referent:v5
+T24	GENE-N 1150 1166	serum hemoglobin
+N30	Name Annotation:T24 Referent:serumhemoglobin
+T25	GENE-N 1168 1170	Hb
+N31	Name Annotation:T25 Referent:hb
+T26	GENE-N 1252 1254	Hb
+N32	Name Annotation:T26 Referent:hb
+T2	CHEMICAL 1283 1287	TCDD
+N33	Name Annotation:T2 Referent:tcdd
+T27	GENE-Y 1318 1321	AhR
+N34	Name Annotation:T27 Referent:ahr
+T3	CHEMICAL 1405 1410	V(5+)
+N35	Name Annotation:T3 Referent:v5
+T4	CHEMICAL 1430 1434	TCDD
+N36	Name Annotation:T4 Referent:tcdd
+T28	GENE-N 1501 1503	Hb
+N37	Name Annotation:T28 Referent:hb
+T5	CHEMICAL 1543 1547	TCDD
+N38	Name Annotation:T5 Referent:tcdd
+T29	GENE-Y 1639 1645	Cyp1a1
+N39	Name Annotation:T29 Referent:cyp1a1
+T6	CHEMICAL 1649 1654	V(5+)
+N40	Name Annotation:T6 Referent:v5
+T30	GENE-N 1720 1722	Hb
+N41	Name Annotation:T30 Referent:hb
+R1	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T34
+R2	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T35
+R3	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T36
+R4	INDIRECT-UPREGULATOR Arg1:T17 Arg2:T34
+R5	INDIRECT-UPREGULATOR Arg1:T17 Arg2:T35
+R6	INDIRECT-UPREGULATOR Arg1:T17 Arg2:T36
+R7	INDIRECT-UPREGULATOR Arg1:T20 Arg2:T37
+R8	INDIRECT-DOWNREGULATOR Arg1:T19 Arg2:T37
+R9	INDIRECT-UPREGULATOR Arg1:T22 Arg2:T39
+R10	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T24
+R11	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T25
+R12	INDIRECT-DOWNREGULATOR Arg1:T21 Arg2:T39
+R13	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T27

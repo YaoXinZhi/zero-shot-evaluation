@@ -1,0 +1,200 @@
+{
+    "entities": [
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "beta-adrenoceptor",
+            "Name": "betaadrenoceptor"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "human beta1-, beta2- and beta3-adrenoceptors",
+            "Name": "humanbeta1beta2andbeta3adrenoceptors"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "beta-adrenoceptor",
+            "Name": "betaadrenoceptor"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "human beta-adrenoceptors",
+            "Name": "humanbetaadrenoceptors"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "human beta(1), beta(2) or beta(3)-adrenoceptor",
+            "Name": "humanbeta1beta2orbeta3adrenoceptor"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "[(3)H]-CGP 12177",
+            "Name": "3hcgp12177"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "[(3)H]-cAMP",
+            "Name": "3hcamp"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "salmeterol",
+            "Name": "salmeterol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "formoterol",
+            "Name": "formoterol"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "beta(2)-adrenoceptor",
+            "Name": "beta2adrenoceptor"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "beta(1)",
+            "Name": "beta1"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "beta(3)",
+            "Name": "beta3"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "isoprenaline",
+            "Name": "isoprenaline"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "salmeterol",
+            "Name": "salmeterol"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "formoterol",
+            "Name": "formoterol"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "isoprenaline",
+            "Name": "isoprenaline"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "denopamine",
+            "Name": "denopamine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "beta(1)",
+            "Name": "beta1"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "clenbuterol",
+            "Name": "clenbuterol"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "AZ 40140d",
+            "Name": "az40140d"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "salbutamol",
+            "Name": "salbutamol"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "beta(2)",
+            "Name": "beta2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "beta(1)- and beta(3)-adrenoceptors",
+            "Name": "beta1andbeta3adrenoceptors"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Agonist",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Agonist",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T16"
+        },
+        {
+            "type": "Agonist",
+            "source": "T1",
+            "target": "T14"
+        },
+        {
+            "type": "Agonist",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Agonist",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Agonist",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T10",
+            "target": "T17"
+        }
+    ]
+}

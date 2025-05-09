@@ -1,0 +1,90 @@
+T23	CHEMICAL 0 9	Vitamin E
+N1	Name Annotation:T23 Referent:vitamine
+T38	GENE-N 33 36	HDL
+N2	Name Annotation:T38 Referent:hdl
+T26	CHEMICAL 37 48	cholesterol
+N3	Name Annotation:T26 Referent:cholesterol
+T39	GENE-Y 67 78	paraoxonase
+N4	Name Annotation:T39 Referent:paraoxonase
+T24	CHEMICAL 108 119	cholesterol
+N5	Name Annotation:T24 Referent:cholesterol
+T25	CHEMICAL 142 150	probucol
+N6	Name Annotation:T25 Referent:probucol
+T1	CHEMICAL 152 161	Vitamin E
+N7	Name Annotation:T1 Referent:vitamine
+T6	CHEMICAL 166 174	probucol
+N8	Name Annotation:T6 Referent:probucol
+T7	CHEMICAL 327 336	vitamin E
+N9	Name Annotation:T7 Referent:vitamine
+T8	CHEMICAL 346 354	probucol
+N10	Name Annotation:T8 Referent:probucol
+T9	CHEMICAL 370 381	cholesterol
+N11	Name Annotation:T9 Referent:cholesterol
+T10	CHEMICAL 405 414	Vitamin E
+N12	Name Annotation:T10 Referent:vitamine
+T11	CHEMICAL 419 427	probucol
+N13	Name Annotation:T11 Referent:probucol
+T12	CHEMICAL 481 492	cholesterol
+N14	Name Annotation:T12 Referent:cholesterol
+T31	GENE-N 507 530	low-density lipoprotein
+N15	Name Annotation:T31 Referent:lowdensitylipoprotein
+T13	CHEMICAL 531 542	cholesterol
+N16	Name Annotation:T13 Referent:cholesterol
+T32	GENE-N 589 613	high-density lipoprotein
+N17	Name Annotation:T32 Referent:highdensitylipoprotein
+T14	CHEMICAL 614 625	cholesterol
+N18	Name Annotation:T14 Referent:cholesterol
+T33	GENE-N 627 630	HDL
+N19	Name Annotation:T33 Referent:hdl
+T34	GENE-N 638 641	HDL
+N20	Name Annotation:T34 Referent:hdl
+T35	GENE-Y 676 687	paraoxonase
+N21	Name Annotation:T35 Referent:paraoxonase
+T15	CHEMICAL 731 740	vitamin E
+N22	Name Annotation:T15 Referent:vitamine
+T36	GENE-Y 770 774	ACAT
+N23	Name Annotation:T36 Referent:acat
+T16	CHEMICAL 816 825	vitamin E
+N24	Name Annotation:T16 Referent:vitamine
+T17	CHEMICAL 830 838	probucol
+N25	Name Annotation:T17 Referent:probucol
+T18	CHEMICAL 878 885	HMG-CoA
+N26	Name Annotation:T18 Referent:hmgcoa
+T37	GENE-Y 878 895	HMG-CoA reductase
+N27	Name Annotation:T37 Referent:hmgcoareductase
+T19	CHEMICAL 933 941	probucol
+N28	Name Annotation:T19 Referent:probucol
+T20	CHEMICAL 961 967	sterol
+N29	Name Annotation:T20 Referent:sterol
+T21	CHEMICAL 1004 1012	probucol
+N30	Name Annotation:T21 Referent:probucol
+T22	CHEMICAL 1017 1026	vitamin E
+N31	Name Annotation:T22 Referent:vitamine
+T27	GENE-Y 1206 1215	apo B-100
+N32	Name Annotation:T27 Referent:apob100
+T28	GENE-Y 1220 1229	apo C-III
+N33	Name Annotation:T28 Referent:apociii
+T2	CHEMICAL 1258 1266	probucol
+N34	Name Annotation:T2 Referent:probucol
+T3	CHEMICAL 1295 1304	Vitamin E
+N35	Name Annotation:T3 Referent:vitamine
+T29	GENE-N 1351 1354	HDL
+N36	Name Annotation:T29 Referent:hdl
+T4	CHEMICAL 1385 1393	probucol
+N37	Name Annotation:T4 Referent:probucol
+T5	CHEMICAL 1442 1453	cholesterol
+N38	Name Annotation:T5 Referent:cholesterol
+T30	GENE-N 1515 1518	HDL
+N39	Name Annotation:T30 Referent:hdl
+R1	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T31
+R2	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T31
+R3	ACTIVATOR Arg1:T15 Arg2:T35
+R4	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T32
+R5	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T33
+R6	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T34
+R7	INHIBITOR Arg1:T16 Arg2:T36
+R8	INHIBITOR Arg1:T17 Arg2:T36
+R9	ACTIVATOR Arg1:T19 Arg2:T37
+R10	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T27
+R11	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T28
+R12	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T30

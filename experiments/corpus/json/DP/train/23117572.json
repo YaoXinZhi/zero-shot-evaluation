@@ -1,0 +1,184 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Sodium",
+            "Name": "sodium"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Sodium/iodide symporter",
+            "Name": "sodiumiodidesymporter"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "iodide",
+            "Name": "iodide"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Radioiodine",
+            "Name": "radioiodine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Na(+)",
+            "Name": "na"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Na(+)/I(-) symporter",
+            "Name": "naisymporter"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "I(-)",
+            "Name": "i"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "NIS",
+            "Name": "nis"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "SLC5A5",
+            "Name": "slc5a5"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "iodide",
+            "Name": "iodide"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "NIS",
+            "Name": "nis"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "NIS",
+            "Name": "nis"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "NIS",
+            "Name": "nis"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "NIS",
+            "Name": "nis"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "histone deacetylase",
+            "Name": "histonedeacetylase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "SAHA",
+            "Name": "saha"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "valproic acid",
+            "Name": "valproicacid"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "NIS",
+            "Name": "nis"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "radioiodine",
+            "Name": "radioiodine"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "NIS",
+            "Name": "nis"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "NIS",
+            "Name": "nis"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "radioiodine",
+            "Name": "radioiodine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T17"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T18"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T16"
+        }
+    ]
+}

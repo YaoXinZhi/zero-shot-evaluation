@@ -1,0 +1,112 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "cyclooxygenase-2",
+            "Name": "cyclooxygenase2"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "carprofen",
+            "Name": "carprofen"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "gamma-secretase",
+            "Name": "gammasecretase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "N-sulfonylated",
+            "Name": "nsulfonylated"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "N-alkylated",
+            "Name": "nalkylated"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "carprofen",
+            "Name": "carprofen"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "gamma-secretase",
+            "Name": "gammasecretase"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "carprofen",
+            "Name": "carprofen"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "gamma-secretase",
+            "Name": "gammasecretase"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Abeta42",
+            "Name": "abeta42"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "Abeta38",
+            "Name": "abeta38"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "gamma-secretase",
+            "Name": "gammasecretase"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "e-site",
+            "Name": "esite"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T7"
+        }
+    ]
+}

@@ -1,0 +1,87 @@
+T16	CHEMICAL 0 9	Sunitinib
+N1	Name Annotation:T16 Referent:sunitinib
+T17	CHEMICAL 13 21	tyrosine
+N2	Name Annotation:T17 Referent:tyrosine
+T35	GENE-N 13 28	tyrosine kinase
+N3	Name Annotation:T35 Referent:tyrosinekinase
+T37	GENE-Y 48 67	cytochrome P450 1A1
+N4	Name Annotation:T37 Referent:cytochromep4501a1
+T18	CHEMICAL 134 150	aryl hydrocarbon
+N5	Name Annotation:T18 Referent:arylhydrocarbon
+T36	GENE-Y 134 159	aryl hydrocarbon receptor
+N6	Name Annotation:T36 Referent:arylhydrocarbonreceptor
+T1	CHEMICAL 172 181	Sunitinib
+N7	Name Annotation:T1 Referent:sunitinib
+T2	CHEMICAL 183 186	SUN
+N8	Name Annotation:T2 Referent:sun
+T9	CHEMICAL 217 225	tyrosine
+N9	Name Annotation:T9 Referent:tyrosine
+T30	GENE-N 217 232	tyrosine kinase
+N10	Name Annotation:T30 Referent:tyrosinekinase
+T7	CHEMICAL 366 369	SUN
+N11	Name Annotation:T7 Referent:sun
+T27	GENE-Y 404 423	cytochrome P450 1A1
+N12	Name Annotation:T27 Referent:cytochromep4501a1
+T28	GENE-Y 425 431	CYP1A1
+N13	Name Annotation:T28 Referent:cyp1a1
+T8	CHEMICAL 578 581	SUN
+N14	Name Annotation:T8 Referent:sun
+T29	GENE-Y 592 598	CYP1A1
+N15	Name Annotation:T29 Referent:cyp1a1
+T10	CHEMICAL 723 726	SUN
+N16	Name Annotation:T10 Referent:sun
+T31	GENE-Y 739 745	CYP1A1
+N17	Name Annotation:T31 Referent:cyp1a1
+T32	GENE-Y 848 854	CYP1A1
+N18	Name Annotation:T32 Referent:cyp1a1
+T11	CHEMICAL 863 866	SUN
+N19	Name Annotation:T11 Referent:sun
+T12	CHEMICAL 924 937	actinomycin D
+N20	Name Annotation:T12 Referent:actinomycind
+T13	CHEMICAL 953 956	SUN
+N21	Name Annotation:T13 Referent:sun
+T14	CHEMICAL 1018 1021	SUN
+N22	Name Annotation:T14 Referent:sun
+T15	CHEMICAL 1082 1098	aryl hydrocarbon
+N23	Name Annotation:T15 Referent:arylhydrocarbon
+T33	GENE-Y 1082 1107	aryl hydrocarbon receptor
+N24	Name Annotation:T33 Referent:arylhydrocarbonreceptor
+T34	GENE-Y 1109 1112	AhR
+N25	Name Annotation:T34 Referent:ahr
+T19	GENE-Y 1241 1244	AhR
+N26	Name Annotation:T19 Referent:ahr
+T20	GENE-Y 1285 1288	AhR
+N27	Name Annotation:T20 Referent:ahr
+T3	CHEMICAL 1315 1318	SUN
+N28	Name Annotation:T3 Referent:sun
+T21	GENE-Y 1327 1333	CYP1A1
+N29	Name Annotation:T21 Referent:cyp1a1
+T22	GENE-Y 1387 1390	AhR
+N30	Name Annotation:T22 Referent:ahr
+T4	CHEMICAL 1449 1452	SUN
+N31	Name Annotation:T4 Referent:sun
+T23	GENE-Y 1512 1515	AhR
+N32	Name Annotation:T23 Referent:ahr
+T5	CHEMICAL 1580 1583	SUN
+N33	Name Annotation:T5 Referent:sun
+T24	GENE-Y 1619 1622	AhR
+N34	Name Annotation:T24 Referent:ahr
+T6	CHEMICAL 1694 1697	SUN
+N35	Name Annotation:T6 Referent:sun
+T25	GENE-Y 1708 1714	CYP1A1
+N36	Name Annotation:T25 Referent:cyp1a1
+T26	GENE-Y 1753 1756	AhR
+N37	Name Annotation:T26 Referent:ahr
+R1	INHIBITOR Arg1:T16 Arg2:T35
+R2	INDIRECT-UPREGULATOR Arg1:T16 Arg2:T37
+R3	INHIBITOR Arg1:T1 Arg2:T30
+R4	INHIBITOR Arg1:T2 Arg2:T30
+R5	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T31
+R6	INDIRECT-UPREGULATOR Arg1:T11 Arg2:T32
+R7	INHIBITOR Arg1:T12 Arg2:T32
+R8	INDIRECT-UPREGULATOR Arg1:T13 Arg2:T32
+R9	ACTIVATOR Arg1:T14 Arg2:T33
+R10	ACTIVATOR Arg1:T14 Arg2:T34
+R11	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T21
+R12	INDIRECT-UPREGULATOR Arg1:T6 Arg2:T25
+R13	ACTIVATOR Arg1:T10 Arg2:T31

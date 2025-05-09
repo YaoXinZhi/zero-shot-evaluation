@@ -1,0 +1,93 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "O6-alkylguanine",
+            "Name": "o6alkylguanine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "O6-alkylguanine-DNA alkyltransferase",
+            "Name": "o6alkylguaninednaalkyltransferase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "6-(benzyloxy)-2-(aryldiazenyl)-9H-purines",
+            "Name": "6benzyloxy2aryldiazenyl9hpurines"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "O6-benzylguanine",
+            "Name": "o6benzylguanine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "O(6)-Alkylguanine",
+            "Name": "o6alkylguanine"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "O(6)-Alkylguanine-DNA alkyltransferase",
+            "Name": "o6alkylguaninednaalkyltransferase"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "AGT",
+            "Name": "agt"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "guanine",
+            "Name": "guanine"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "AGT",
+            "Name": "agt"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "AGT",
+            "Name": "agt"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "AGT",
+            "Name": "agt"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T6"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T11"
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+T18	CHEMICAL 8 16	tyrosine
+N1	Name Annotation:T18 Referent:tyrosine
+T40	GENE-N 8 23	tyrosine kinase
+N2	Name Annotation:T40 Referent:tyrosinekinase
+T17	CHEMICAL 49 57	imatinib
+N3	Name Annotation:T17 Referent:imatinib
+T19	GENE-Y 105 108	KIT
+N4	Name Annotation:T19 Referent:kit
+T35	GENE-Y 112 157	alpha-platelet-derived growth factor receptor
+N5	Name Annotation:T35 Referent:alphaplateletderivedgrowthfactorreceptor
+T30	GENE-Y 159 170	alpha-PDGFR
+N6	Name Annotation:T30 Referent:alphapdgfr
+T6	CHEMICAL 312 329	imatinib mesylate
+N7	Name Annotation:T6 Referent:imatinibmesylate
+T7	CHEMICAL 331 333	IM
+N8	Name Annotation:T7 Referent:im
+T8	CHEMICAL 376 378	IM
+N9	Name Annotation:T8 Referent:im
+T9	CHEMICAL 422 424	IM
+N10	Name Annotation:T9 Referent:im
+T10	CHEMICAL 488 490	IM
+N11	Name Annotation:T10 Referent:im
+T11	CHEMICAL 556 558	IM
+N12	Name Annotation:T11 Referent:im
+T29	GENE-Y 601 604	KIT
+N13	Name Annotation:T29 Referent:kit
+T12	CHEMICAL 647 649	IM
+N14	Name Annotation:T12 Referent:im
+T13	CHEMICAL 698 700	IM
+N15	Name Annotation:T13 Referent:im
+T31	GENE-N 734 768	oncogenic receptor tyrosine kinase
+N16	Name Annotation:T31 Referent:oncogenicreceptortyrosinekinase
+T14	CHEMICAL 753 761	tyrosine
+N17	Name Annotation:T14 Referent:tyrosine
+T32	GENE-Y 771 774	AXL
+N18	Name Annotation:T32 Referent:axl
+T33	GENE-N 783 789	kinase
+N19	Name Annotation:T33 Referent:kinase
+T15	CHEMICAL 816 818	IM
+N20	Name Annotation:T15 Referent:im
+T34	GENE-Y 851 854	AXL
+N21	Name Annotation:T34 Referent:axl
+T36	GENE-Y 863 868	c-Kit
+N22	Name Annotation:T36 Referent:ckit
+T37	GENE-Y 865 868	Kit
+N23	Name Annotation:T37 Referent:kit
+T38	GENE-Y 1049 1052	AXL
+N24	Name Annotation:T38 Referent:axl
+T39	GENE-Y 1065 1068	AXL
+N25	Name Annotation:T39 Referent:axl
+T16	CHEMICAL 1072 1080	tyrosine
+N26	Name Annotation:T16 Referent:tyrosine
+T20	GENE-Y 1111 1140	growth-arrest-specific gene 6
+N27	Name Annotation:T20 Referent:growtharrestspecificgene6
+T21	GENE-N 1193 1199	kinase
+N28	Name Annotation:T21 Referent:kinase
+T22	GENE-N 1304 1317	kinase domain
+N29	Name Annotation:T22 Referent:kinasedomain
+T23	GENE-Y 1328 1333	c-Kit
+N30	Name Annotation:T23 Referent:ckit
+T24	GENE-N 1335 1340	V654A
+N31	Name Annotation:T24 Referent:v654a
+T25	GENE-Y 1346 1349	AXL
+N32	Name Annotation:T25 Referent:axl
+T1	CHEMICAL 1371 1373	IM
+N33	Name Annotation:T1 Referent:im
+T2	CHEMICAL 1399 1404	MP470
+N34	Name Annotation:T2 Referent:mp470
+T26	GENE-Y 1414 1419	c-Kit
+N35	Name Annotation:T26 Referent:ckit
+T27	GENE-Y 1420 1423	AXL
+N36	Name Annotation:T27 Referent:axl
+T28	GENE-N 1424 1430	kinase
+N37	Name Annotation:T28 Referent:kinase
+T3	CHEMICAL 1442 1447	MP470
+N38	Name Annotation:T3 Referent:mp470
+T4	CHEMICAL 1464 1473	docetaxel
+N39	Name Annotation:T4 Referent:docetaxel
+T5	CHEMICAL 1475 1483	taxotere
+N40	Name Annotation:T5 Referent:taxotere
+R1	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T29
+R2	INDIRECT-DOWNREGULATOR Arg1:T12 Arg2:T29
+R3	INHIBITOR Arg1:T2 Arg2:T26
+R4	INHIBITOR Arg1:T2 Arg2:T27
+R5	INHIBITOR Arg1:T2 Arg2:T28
+R6	DIRECT-REGULATOR Arg1:T2 Arg2:T22
+R7	DIRECT-REGULATOR Arg1:T2 Arg2:T23
+R8	DIRECT-REGULATOR Arg1:T2 Arg2:T25
+R9	DIRECT-REGULATOR Arg1:T2 Arg2:T24
+R10	PART-OF Arg1:T16 Arg2:T39

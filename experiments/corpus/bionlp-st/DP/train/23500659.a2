@@ -1,0 +1,61 @@
+T1	CHEMICAL 151 159	Androgen
+N1	Name Annotation:T1 Referent:androgen
+T5	CHEMICAL 164 172	estrogen
+N2	Name Annotation:T5 Referent:estrogen
+T3	CHEMICAL 255 263	Estrogen
+N3	Name Annotation:T3 Referent:estrogen
+T6	CHEMICAL 303 311	estrogen
+N4	Name Annotation:T6 Referent:estrogen
+T12	GENE-Y 303 321	estrogen receptors
+N5	Name Annotation:T12 Referent:estrogenreceptors
+T13	GENE-Y 323 326	ERs
+N6	Name Annotation:T13 Referent:ers
+T14	GENE-Y 335 339	ER-α
+N7	Name Annotation:T14 Referent:erα
+T15	GENE-Y 343 347	ER-β
+N8	Name Annotation:T15 Referent:erβ
+T7	CHEMICAL 495 507	testosterone
+N9	Name Annotation:T7 Referent:testosterone
+T8	CHEMICAL 728 740	testosterone
+N10	Name Annotation:T8 Referent:testosterone
+T9	CHEMICAL 742 754	Testosterone
+N11	Name Annotation:T9 Referent:testosterone
+T16	GENE-Y 779 783	ER-β
+N12	Name Annotation:T16 Referent:erβ
+T17	GENE-Y 798 802	ER-α
+N13	Name Annotation:T17 Referent:erα
+T18	GENE-Y 807 809	AR
+N14	Name Annotation:T18 Referent:ar
+T10	CHEMICAL 961 973	testosterone
+N15	Name Annotation:T10 Referent:testosterone
+T19	GENE-Y 1013 1016	P21
+N16	Name Annotation:T19 Referent:p21
+T20	GENE-Y 1017 1021	WAF1
+N17	Name Annotation:T20 Referent:waf1
+T21	GENE-Y 1022 1026	Cip1
+N18	Name Annotation:T21 Referent:cip1
+T22	GENE-Y 1032 1035	Bax
+N19	Name Annotation:T22 Referent:bax
+T23	GENE-Y 1036 1042	Bcl-xl
+N20	Name Annotation:T23 Referent:bclxl
+T24	GENE-Y 1060 1069	caspase-3
+N21	Name Annotation:T24 Referent:caspase3
+T25	GENE-Y 1108 1142	proliferating cell nuclear antigen
+N22	Name Annotation:T25 Referent:proliferatingcellnuclearantigen
+T26	GENE-Y 1144 1148	PCNA
+N23	Name Annotation:T26 Referent:pcna
+T2	CHEMICAL 1180 1192	testosterone
+N24	Name Annotation:T2 Referent:testosterone
+T11	GENE-N 1258 1263	NF-κB
+N25	Name Annotation:T11 Referent:nfκb
+T4	CHEMICAL 1436 1448	testosterone
+N26	Name Annotation:T4 Referent:testosterone
+R1	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T16
+R2	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T17
+R3	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T18
+R4	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T19
+R5	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T20
+R6	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T21
+R7	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T22
+R8	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T23
+R9	INHIBITOR Arg1:T10 Arg2:T24

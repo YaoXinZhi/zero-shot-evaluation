@@ -1,0 +1,98 @@
+T29	CHEMICAL 0 11	Agomelatine
+N1	Name Annotation:T29 Referent:agomelatine
+T30	CHEMICAL 75 86	paracetamol
+N2	Name Annotation:T30 Referent:paracetamol
+T1	CHEMICAL 117 128	Paracetamol
+N3	Name Annotation:T1 Referent:paracetamol
+T27	CHEMICAL 207 218	Agomelatine
+N4	Name Annotation:T27 Referent:agomelatine
+T4	CHEMICAL 238 247	melatonin
+N5	Name Annotation:T4 Referent:melatonin
+T36	GENE 238 256	melatonin receptor
+N6	Name Annotation:T36 Referent:melatoninreceptor
+T13	CHEMICAL 411 420	melatonin
+N7	Name Annotation:T13 Referent:melatonin
+T14	CHEMICAL 507 518	agomelatine
+N8	Name Annotation:T14 Referent:agomelatine
+T15	CHEMICAL 522 533	paracetamol
+N9	Name Annotation:T15 Referent:paracetamol
+T16	CHEMICAL 634 645	agomelatine
+N10	Name Annotation:T16 Referent:agomelatine
+T42	GENE 689 698	cytokines
+N11	Name Annotation:T42 Referent:cytokines
+T17	CHEMICAL 799 810	agomelatine
+N12	Name Annotation:T17 Referent:agomelatine
+T18	CHEMICAL 826 842	N-acetylcysteine
+N13	Name Annotation:T18 Referent:nacetylcysteine
+T19	CHEMICAL 844 847	NAC
+N14	Name Annotation:T19 Referent:nac
+T20	CHEMICAL 861 872	paracetamol
+N15	Name Annotation:T20 Referent:paracetamol
+T21	CHEMICAL 885 896	paracetamol
+N16	Name Annotation:T21 Referent:paracetamol
+T22	CHEMICAL 909 912	NAC
+N17	Name Annotation:T22 Referent:nac
+T23	CHEMICAL 925 936	paracetamol
+N18	Name Annotation:T23 Referent:paracetamol
+T24	CHEMICAL 948 959	agomelatine
+N19	Name Annotation:T24 Referent:agomelatine
+T25	CHEMICAL 976 987	paracetamol
+N20	Name Annotation:T25 Referent:paracetamol
+T26	CHEMICAL 999 1010	agomelatine
+N21	Name Annotation:T26 Referent:agomelatine
+T28	CHEMICAL 1019 1030	Paracetamol
+N22	Name Annotation:T28 Referent:paracetamol
+T2	CHEMICAL 1215 1224	aspartate
+N23	Name Annotation:T2 Referent:aspartate
+T31	GENE 1215 1241	aspartate aminotransferase
+N24	Name Annotation:T31 Referent:aspartateaminotransferase
+T3	CHEMICAL 1243 1250	alanine
+N25	Name Annotation:T3 Referent:alanine
+T32	GENE 1243 1267	alanine aminotransferase
+N26	Name Annotation:T32 Referent:alanineaminotransferase
+T33	GENE 1279 1306	tumor necrosis factor-alpha
+N27	Name Annotation:T33 Referent:tumornecrosisfactoralpha
+T34	GENE 1308 1313	TNF-α
+N28	Name Annotation:T34 Referent:tnfα
+T35	GENE 1319 1332	interleukin-6
+N29	Name Annotation:T35 Referent:interleukin6
+T37	GENE 1334 1338	IL-6
+N30	Name Annotation:T37 Referent:il6
+T5	CHEMICAL 1344 1358	8-iso-prostane
+N31	Name Annotation:T5 Referent:8isoprostane
+T6	CHEMICAL 1393 1403	superoxide
+N32	Name Annotation:T6 Referent:superoxide
+T38	GENE 1393 1413	superoxide dismutase
+N33	Name Annotation:T38 Referent:superoxidedismutase
+T7	CHEMICAL 1427 1438	glutathione
+N34	Name Annotation:T7 Referent:glutathione
+T8	CHEMICAL 1465 1476	paracetamol
+N35	Name Annotation:T8 Referent:paracetamol
+T9	CHEMICAL 1496 1507	agomelatine
+N36	Name Annotation:T9 Referent:agomelatine
+T10	CHEMICAL 1512 1515	NAC
+N37	Name Annotation:T10 Referent:nac
+T11	CHEMICAL 1580 1591	agomelatine
+N38	Name Annotation:T11 Referent:agomelatine
+T12	CHEMICAL 1633 1644	paracetamol
+N39	Name Annotation:T12 Referent:paracetamol
+T39	GENE 1721 1730	cytokines
+N40	Name Annotation:T39 Referent:cytokines
+T40	GENE 1740 1745	TNF-α
+N41	Name Annotation:T40 Referent:tnfα
+T41	GENE 1750 1754	IL-6
+N42	Name Annotation:T41 Referent:il6
+R1	AGONIST Arg1:T27 Arg2:T36
+R2	INHIBITOR Arg1:T8 Arg2:T38
+R3	ACTIVATOR Arg1:T8 Arg2:T31
+R4	ACTIVATOR Arg1:T8 Arg2:T32
+R5	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T33
+R6	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T34
+R7	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T35
+R8	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T37
+R9	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T39
+R10	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T40
+R11	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T41
+R12	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T39
+R13	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T40
+R14	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T41

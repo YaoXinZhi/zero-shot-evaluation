@@ -1,0 +1,310 @@
+{
+    "entities": [
+        {
+            "id": "T23",
+            "type": "Chemical",
+            "name": "Desvenlafaxine succinate",
+            "Name": "desvenlafaxinesuccinate"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "human norepinephrine transporter",
+            "Name": "humannorepinephrinetransporter"
+        },
+        {
+            "id": "T24",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Desvenlafaxine succinate",
+            "Name": "desvenlafaxinesuccinate"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "DVS",
+            "Name": "dvs"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "human norepinephrine and serotonin transporters",
+            "Name": "humannorepinephrineandserotonintransporters"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "hNET",
+            "Name": "hnet"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "hSERT",
+            "Name": "hsert"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "DVS",
+            "Name": "dvs"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "hNET",
+            "Name": "hnet"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "[(3)H]nisoxetine",
+            "Name": "3hnisoxetine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "NIS",
+            "Name": "nis"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "hNET",
+            "Name": "hnet"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "DVS",
+            "Name": "dvs"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "[(3)H]NIS",
+            "Name": "3hnis"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "DVS",
+            "Name": "dvs"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "DVS",
+            "Name": "dvs"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "rac-(1-[1-(3-chloro-phenyl)-2-(4-methylpiperazin-1-yl)-ethyl]cyclohexanol",
+            "Name": "rac113chlorophenyl24methylpiperazin1ylethylcyclohexanol"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "WY-46824",
+            "Name": "wy46824"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "methylphenidate",
+            "Name": "methylphenidate"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "cocaine",
+            "Name": "cocaine"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "3beta-(4-iodophenyl)tropane-2beta-carboxylic acid methyl ester",
+            "Name": "3beta4iodophenyltropane2betacarboxylicacidmethylester"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "RTI-55",
+            "Name": "rti55"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "hNET",
+            "Name": "hnet"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "NIS",
+            "Name": "nis"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "mazindol",
+            "Name": "mazindol"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "tricyclic",
+            "Name": "tricyclic"
+        },
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "cocaine",
+            "Name": "cocaine"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "hNET",
+            "Name": "hnet"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "hNET transmembrane domain 3",
+            "Name": "hnettransmembranedomain3"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "NIS",
+            "Name": "nis"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T23",
+            "target": "T33"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T25"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T25"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T27"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T27"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T29"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T29"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T30"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T30"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T18",
+            "target": "T32"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T19",
+            "target": "T32"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T20",
+            "target": "T32"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T22",
+            "target": "T32"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T11",
+            "target": "T30"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T12",
+            "target": "T30"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T13",
+            "target": "T30"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T15",
+            "target": "T30"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T16",
+            "target": "T30"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T17",
+            "target": "T30"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T9",
+            "target": "T30"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T10",
+            "target": "T30"
+        }
+    ]
+}

@@ -1,0 +1,239 @@
+{
+    "entities": [
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "glucose transporters",
+            "Name": "glucosetransporters"
+        },
+        {
+            "id": "T23",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "cGMP",
+            "Name": "cgmp"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "cGMP",
+            "Name": "cgmp"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "glucose transporters 1 and 4",
+            "Name": "glucosetransporters1and4"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "GLUTS",
+            "Name": "gluts"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "fatty acid",
+            "Name": "fattyacid"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "calcium",
+            "Name": "calcium"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "calmodulin",
+            "Name": "calmodulin"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "GLUT 1",
+            "Name": "glut1"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "GLUT4",
+            "Name": "glut4"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "GLUT4",
+            "Name": "glut4"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Trifluoperazine",
+            "Name": "trifluoperazine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "calcium",
+            "Name": "calcium"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "calmodulin",
+            "Name": "calmodulin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "GLUT 4",
+            "Name": "glut4"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "calcium",
+            "Name": "calcium"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T18",
+            "target": "T30"
+        },
+        {
+            "type": "Substrate",
+            "source": "T23",
+            "target": "T32"
+        },
+        {
+            "type": "Substrate",
+            "source": "T20",
+            "target": "T31"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T21",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T25"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T26"
+        }
+    ]
+}

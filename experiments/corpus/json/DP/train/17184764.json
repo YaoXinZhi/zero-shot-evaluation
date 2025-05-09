@@ -1,0 +1,205 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Retinoids",
+            "Name": "retinoids"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "retinoic acid",
+            "Name": "retinoicacid"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "RA",
+            "Name": "ra"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "retinaldehyde",
+            "Name": "retinaldehyde"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "retinaldehyde dehydrogenase 2",
+            "Name": "retinaldehydedehydrogenase2"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "RALDH2",
+            "Name": "raldh2"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "RA",
+            "Name": "ra"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "mouse Raldh2",
+            "Name": "mouseraldh2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "retinoids",
+            "Name": "retinoids"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "vitamin-A",
+            "Name": "vitamina"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Raldh2",
+            "Name": "raldh2"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Raldh3",
+            "Name": "raldh3"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "retinoids",
+            "Name": "retinoids"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "SHH",
+            "Name": "shh"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "FGF8",
+            "Name": "fgf8"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "Raldh",
+            "Name": "raldh"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "retinoids",
+            "Name": "retinoids"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "FGF8",
+            "Name": "fgf8"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "WNT",
+            "Name": "wnt"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "BMP4",
+            "Name": "bmp4"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "FGF8",
+            "Name": "fgf8"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "BMP4",
+            "Name": "bmp4"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "Pax6",
+            "Name": "pax6"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Tbx5",
+            "Name": "tbx5"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Bmp4",
+            "Name": "bmp4"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Otx2",
+            "Name": "otx2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Mitf",
+            "Name": "mitf"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "retinoids",
+            "Name": "retinoids"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T22"
+        },
+        {
+            "type": "Product of",
+            "source": "T6",
+            "target": "T22"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T28"
+        },
+        {
+            "type": "Product of",
+            "source": "T6",
+            "target": "T28"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T24"
+        }
+    ]
+}

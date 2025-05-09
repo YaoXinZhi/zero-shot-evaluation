@@ -1,0 +1,284 @@
+{
+    "entities": [
+        {
+            "id": "T37",
+            "type": "Gene",
+            "name": "human phosphodiesterase",
+            "Name": "humanphosphodiesterase"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "cGMP",
+            "Name": "cgmp"
+        },
+        {
+            "id": "T36",
+            "type": "Gene",
+            "name": "PDE10A",
+            "Name": "pde10a"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "phosphodiesterase",
+            "Name": "phosphodiesterase"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "PDE",
+            "Name": "pde"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "PDE10A",
+            "Name": "pde10a"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "amino acids",
+            "Name": "aminoacids"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "cGMP",
+            "Name": "cgmp"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "cGMP binding sequence",
+            "Name": "cgmpbindingsequence"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "amino",
+            "Name": "amino"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "PDE",
+            "Name": "pde"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "PDE10A",
+            "Name": "pde10a"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "cGMP",
+            "Name": "cgmp"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "cGMP",
+            "Name": "cgmp"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "PDE",
+            "Name": "pde"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "dipyridamole",
+            "Name": "dipyridamole"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "cGMP",
+            "Name": "cgmp"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "cGMP",
+            "Name": "cgmp"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "cGMP",
+            "Name": "cgmp"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "PDE10A",
+            "Name": "pde10a"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "cAMP PDE",
+            "Name": "camppde"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "cAMP-inhibited cGMP PDE",
+            "Name": "campinhibitedcgmppde"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "cGMP",
+            "Name": "cgmp"
+        },
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "PDE10A",
+            "Name": "pde10a"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "PDE10A",
+            "Name": "pde10a"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "PDE10A",
+            "Name": "pde10a"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "PDE",
+            "Name": "pde"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T20",
+            "target": "T37"
+        },
+        {
+            "type": "Substrate",
+            "source": "T21",
+            "target": "T37"
+        },
+        {
+            "type": "Part of",
+            "source": "T5",
+            "target": "T28"
+        },
+        {
+            "type": "Part of",
+            "source": "T4",
+            "target": "T28"
+        },
+        {
+            "type": "Part of",
+            "source": "T1",
+            "target": "T28"
+        },
+        {
+            "type": "Part of",
+            "source": "T2",
+            "target": "T28"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T29"
+        },
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T31"
+        },
+        {
+            "type": "Substrate",
+            "source": "T20",
+            "target": "T36"
+        },
+        {
+            "type": "Substrate",
+            "source": "T21",
+            "target": "T36"
+        }
+    ]
+}

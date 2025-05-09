@@ -1,0 +1,172 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "4-Hydroxypyridazin-3(2H)-one",
+            "Name": "4hydroxypyridazin32hone"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "d-Amino Acid",
+            "Name": "daminoacid"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "d-Amino Acid Oxidase",
+            "Name": "daminoacidoxidase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "d-Amino acid",
+            "Name": "daminoacid"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "d-Amino acid oxidase",
+            "Name": "daminoacidoxidase"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "DAAO",
+            "Name": "daao"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "d-amino acids",
+            "Name": "daminoacids"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "d-serine",
+            "Name": "dserine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "N-methyl-d-aspartate",
+            "Name": "nmethyldaspartate"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "N-methyl-d-aspartate receptor",
+            "Name": "nmethyldaspartatereceptor"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "4-hydroxypyridazin-3(2H)-one",
+            "Name": "4hydroxypyridazin32hone"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "DAAO",
+            "Name": "daao"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Tyr",
+            "Name": "tyr"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "3-hydroxy-pyridine-2(1H)-one",
+            "Name": "3hydroxypyridine21hone"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "3-Hydroxy-5-(2-phenylethyl)pyridine-2(1H)-one",
+            "Name": "3hydroxy52phenylethylpyridine21hone"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "human DAAO",
+            "Name": "humandaao"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "4-hydroxypyridazin-3(2H)-one",
+            "Name": "4hydroxypyridazin32hone"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "3-hydroxy-pyridine-2(1H)-one",
+            "Name": "3hydroxypyridine21hone"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "6-[2-(3,5-Difluorophenyl)ethyl]-4-hydroxypyridazin-3(2H)-one",
+            "Name": "6235difluorophenylethyl4hydroxypyridazin32hone"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "MK-801",
+            "Name": "mk801"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T20"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T15"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T18"
+        },
+        {
+            "type": "Substrate",
+            "source": "T11",
+            "target": "T15"
+        },
+        {
+            "type": "Substrate",
+            "source": "T11",
+            "target": "T18"
+        },
+        {
+            "type": "Agonist",
+            "source": "T11",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T19"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T10",
+            "target": "T19"
+        }
+    ]
+}

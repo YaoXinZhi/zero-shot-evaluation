@@ -1,0 +1,270 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Metformin",
+            "Name": "metformin"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "ghrelin",
+            "Name": "ghrelin"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "AMP",
+            "Name": "amp"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "AMP-activated protein kinase",
+            "Name": "ampactivatedproteinkinase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Metformin",
+            "Name": "metformin"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Metformin",
+            "Name": "metformin"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "orexigenic hormone",
+            "Name": "orexigenichormone"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "ghrelin",
+            "Name": "ghrelin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Metformin",
+            "Name": "metformin"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "ghrelin",
+            "Name": "ghrelin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Metformin",
+            "Name": "metformin"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "ghrelin",
+            "Name": "ghrelin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "proghrelin",
+            "Name": "proghrelin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "adenosine monophosphate",
+            "Name": "adenosinemonophosphate"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "adenosine monophosphate-activated protein kinase",
+            "Name": "adenosinemonophosphateactivatedproteinkinase"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Metformin",
+            "Name": "metformin"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "ghrelin",
+            "Name": "ghrelin"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "proghrelin",
+            "Name": "proghrelin"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "compound C",
+            "Name": "compoundc"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "5-amino-1-\u03b2-D-ribofuranosyl-imidazole-4-carboxamide",
+            "Name": "5amino1\u03b2dribofuranosylimidazole4carboxamide"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "AICAR",
+            "Name": "aicar"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "ghrelin",
+            "Name": "ghrelin"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "ghrelin",
+            "Name": "ghrelin"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Metformin",
+            "Name": "metformin"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "phosphorylated (active) AMPK",
+            "Name": "phosphorylatedactiveampk"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Metformin",
+            "Name": "metformin"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "ghrelin",
+            "Name": "ghrelin"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Metformin",
+            "Name": "metformin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T13",
+            "target": "T32"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T24"
+        },
+        {
+            "type": "Activator",
+            "source": "T8",
+            "target": "T26"
+        },
+        {
+            "type": "Activator",
+            "source": "T9",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T30"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T31"
+        }
+    ]
+}

@@ -1,0 +1,131 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Bisphosphonates",
+            "Name": "bisphosphonates"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "bisphosphonates",
+            "Name": "bisphosphonates"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "nitrogen",
+            "Name": "nitrogen"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "alendronate",
+            "Name": "alendronate"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "risedronate",
+            "Name": "risedronate"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ibandronate",
+            "Name": "ibandronate"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "zoledronate",
+            "Name": "zoledronate"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "farnesyl pyrophosphate",
+            "Name": "farnesylpyrophosphate"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "farnesyl pyrophosphate synthase",
+            "Name": "farnesylpyrophosphatesynthase"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "FPPS",
+            "Name": "fpps"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "mevalonate",
+            "Name": "mevalonate"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "FPPS",
+            "Name": "fpps"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "GTP",
+            "Name": "gtp"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "GTP-binding proteins",
+            "Name": "gtpbindingproteins"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T12"
+        }
+    ]
+}

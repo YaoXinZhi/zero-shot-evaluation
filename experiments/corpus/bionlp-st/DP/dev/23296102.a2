@@ -1,0 +1,50 @@
+T11	CHEMICAL 0 8	Acrolein
+N1	Name Annotation:T11 Referent:acrolein
+T7	CHEMICAL 161 169	Acrolein
+N2	Name Annotation:T7 Referent:acrolein
+T3	CHEMICAL 365 373	Acrolein
+N3	Name Annotation:T3 Referent:acrolein
+T4	CHEMICAL 427 435	Acrolein
+N4	Name Annotation:T4 Referent:acrolein
+T5	CHEMICAL 522 530	Acrolein
+N5	Name Annotation:T5 Referent:acrolein
+T14	GENE 561 586	amyloid precursor protein
+N6	Name Annotation:T14 Referent:amyloidprecursorprotein
+T15	GENE 588 591	APP
+N7	Name Annotation:T15 Referent:app
+T16	GENE 594 605	β-secretase
+N8	Name Annotation:T16 Referent:βsecretase
+T17	GENE 607 613	BACE-1
+N9	Name Annotation:T17 Referent:bace1
+T18	GENE 623 652	amyloid β-peptide transporter
+N10	Name Annotation:T18 Referent:amyloidβpeptidetransporter
+T19	GENE 653 697	receptor for advanced glycation end products
+N11	Name Annotation:T19 Referent:receptorforadvancedglycationendproducts
+T20	GENE 713 756	A-disintegrin and metalloprotease (ADAM) 10
+N12	Name Annotation:T20 Referent:adisintegrinandmetalloproteaseadam10
+T6	CHEMICAL 799 807	Acrolein
+N13	Name Annotation:T6 Referent:acrolein
+T8	CHEMICAL 955 965	superoxide
+N14	Name Annotation:T8 Referent:superoxide
+T21	GENE 955 975	superoxide dismutase
+N15	Name Annotation:T21 Referent:superoxidedismutase
+T9	CHEMICAL 1014 1029	malondialdehyde
+N16	Name Annotation:T9 Referent:malondialdehyde
+T10	CHEMICAL 1071 1079	Acrolein
+N17	Name Annotation:T10 Referent:acrolein
+T12	GENE 1135 1141	BACE-1
+N18	Name Annotation:T12 Referent:bace1
+T13	GENE 1175 1182	ADAM-10
+N19	Name Annotation:T13 Referent:adam10
+T1	CHEMICAL 1264 1272	Acrolein
+N20	Name Annotation:T1 Referent:acrolein
+T2	CHEMICAL 1332 1340	Acrolein
+N21	Name Annotation:T2 Referent:acrolein
+R1	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T14
+R2	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T16
+R3	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T17
+R4	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T18
+R5	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T19
+R6	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T20
+R7	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T12
+R8	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T13

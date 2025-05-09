@@ -1,0 +1,32 @@
+T7	CHEMICAL 0 21	Monocarbonyl Curcumin
+N1	Name Annotation:T7 Referent:monocarbonylcurcumin
+T13	GENE-N 58 64	Kinase
+N2	Name Annotation:T13 Referent:kinase
+T1	CHEMICAL 112 120	Curcumin
+N3	Name Annotation:T1 Referent:curcumin
+T8	GENE-N 362 369	kinases
+N4	Name Annotation:T8 Referent:kinases
+T2	CHEMICAL 575 583	curcumin
+N5	Name Annotation:T2 Referent:curcumin
+T9	GENE-Y 649 653	IKKβ
+N6	Name Annotation:T9 Referent:ikkβ
+T10	GENE-Y 658 662	AKT2
+N7	Name Annotation:T10 Referent:akt2
+T3	CHEMICAL 720 723	ATP
+N8	Name Annotation:T3 Referent:atp
+T4	CHEMICAL 752 760	curcumin
+N9	Name Annotation:T4 Referent:curcumin
+T5	CHEMICAL 798 801	Ser
+N10	Name Annotation:T5 Referent:ser
+T11	GENE-N 798 813	Ser/Thr kinases
+N11	Name Annotation:T11 Referent:serthrkinases
+T6	CHEMICAL 802 805	Thr
+N12	Name Annotation:T6 Referent:thr
+T12	GENE-N 806 812	kinase
+N13	Name Annotation:T12 Referent:kinase
+R1	INHIBITOR Arg1:T7 Arg2:T13
+R2	INHIBITOR Arg1:T2 Arg2:T9
+R3	INHIBITOR Arg1:T2 Arg2:T10
+R4	DIRECT-REGULATOR Arg1:T3 Arg2:T10
+R5	DIRECT-REGULATOR Arg1:T3 Arg2:T9
+R6	INHIBITOR Arg1:T4 Arg2:T11

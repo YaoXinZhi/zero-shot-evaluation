@@ -1,0 +1,197 @@
+{
+    "entities": [
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "alpha(2A)-adrenoceptors",
+            "Name": "alpha2aadrenoceptors"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Human alpha(2A)-adrenoceptors",
+            "Name": "humanalpha2aadrenoceptors"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "noradrenaline",
+            "Name": "noradrenaline"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "alpha(2A)-adrenoceptor",
+            "Name": "alpha2aadrenoceptor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "A-54741",
+            "Name": "a54741"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "dexmedetomidine",
+            "Name": "dexmedetomidine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "UK-14304",
+            "Name": "uk14304"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "B-HT 920",
+            "Name": "bht920"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "noradrenaline",
+            "Name": "noradrenaline"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "A-54741",
+            "Name": "a54741"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "UK-14304",
+            "Name": "uk14304"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "noradrenaline",
+            "Name": "noradrenaline"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "dexmedetomidine",
+            "Name": "dexmedetomidine"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "B-HT 920",
+            "Name": "bht920"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "alpha(2)-adrenoceptor",
+            "Name": "alpha2adrenoceptor"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "rauwolscine",
+            "Name": "rauwolscine"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "noradrenaline",
+            "Name": "noradrenaline"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "alpha(1)-adrenoceptor",
+            "Name": "alpha1adrenoceptor"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "prazosin",
+            "Name": "prazosin"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "doxazosin",
+            "Name": "doxazosin"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "noradrenaline",
+            "Name": "noradrenaline"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "pertussis toxin",
+            "Name": "pertussistoxin"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "human alpha(2A)-adrenoceptor",
+            "Name": "humanalpha2aadrenoceptor"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "pertussis toxin",
+            "Name": "pertussistoxin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "G(i/o) proteins",
+            "Name": "gioproteins"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T2",
+            "target": "T22"
+        },
+        {
+            "type": "Agonist",
+            "source": "T3",
+            "target": "T22"
+        },
+        {
+            "type": "Agonist",
+            "source": "T4",
+            "target": "T22"
+        },
+        {
+            "type": "Agonist",
+            "source": "T5",
+            "target": "T22"
+        },
+        {
+            "type": "Agonist",
+            "source": "T6",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T12",
+            "target": "T23"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T14",
+            "target": "T24"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T15",
+            "target": "T24"
+        }
+    ]
+}

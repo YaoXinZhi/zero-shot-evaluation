@@ -1,0 +1,239 @@
+{
+    "entities": [
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "Thymidylate",
+            "Name": "thymidylate"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "Thymidylate synthase",
+            "Name": "thymidylatesynthase"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Thymidylate",
+            "Name": "thymidylate"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "Thymidylate synthase",
+            "Name": "thymidylatesynthase"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "TS",
+            "Name": "ts"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "5-fluorouracil",
+            "Name": "5fluorouracil"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "5-FU",
+            "Name": "5fu"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "UFT",
+            "Name": "uft"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "LV",
+            "Name": "lv"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "Orzel",
+            "Name": "orzel"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "capecitabine",
+            "Name": "capecitabine"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "Xeloda",
+            "Name": "xeloda"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "S-1",
+            "Name": "s1"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "2-deoxythymidine-5-monophosphate",
+            "Name": "2deoxythymidine5monophosphate"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "fluoropyrimidine",
+            "Name": "fluoropyrimidine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "ZD1694",
+            "Name": "zd1694"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "raltitrexed",
+            "Name": "raltitrexed"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Tomudex",
+            "Name": "tomudex"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "AG337",
+            "Name": "ag337"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Thymitag",
+            "Name": "thymitag"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "TS",
+            "Name": "ts"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "thymidylate synthase",
+            "Name": "thymidylatesynthase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "fluoropyrimidine",
+            "Name": "fluoropyrimidine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Tomudex",
+            "Name": "tomudex"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "TS",
+            "Name": "ts"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "TS",
+            "Name": "ts"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "5-FU",
+            "Name": "5fu"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "thymidine",
+            "Name": "thymidine"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "thymidine phosphorylase",
+            "Name": "thymidinephosphorylase"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "5-FU",
+            "Name": "5fu"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "TS",
+            "Name": "ts"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "TS",
+            "Name": "ts"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Product of",
+            "source": "T21",
+            "target": "T30"
+        },
+        {
+            "type": "Product of",
+            "source": "T21",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T11",
+            "target": "T27"
+        }
+    ]
+}

@@ -1,0 +1,189 @@
+{
+    "entities": [
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "nuclear factor of activated T-cells",
+            "Name": "nuclearfactorofactivatedtcells"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Nuclear factor of activated T-cells",
+            "Name": "nuclearfactorofactivatedtcells"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "NFATc",
+            "Name": "nfatc"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Ca(2+)",
+            "Name": "ca2"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Ca(2+)-dependent protein phosphatase",
+            "Name": "ca2dependentproteinphosphatase"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "calcineurin",
+            "Name": "calcineurin"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "NFATc1-c4",
+            "Name": "nfatc1c4"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "NFATc1-c4",
+            "Name": "nfatc1c4"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "NFATc1-c3",
+            "Name": "nfatc1c3"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "NFATc4",
+            "Name": "nfatc4"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "C-C chemokine receptor type 2",
+            "Name": "ccchemokinereceptortype2"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "CCR2",
+            "Name": "ccr2"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "NFATc1-c4",
+            "Name": "nfatc1c4"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "dephosphorylated NFATc4",
+            "Name": "dephosphorylatednfatc4"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "NFATc",
+            "Name": "nfatc"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "calcineurin",
+            "Name": "calcineurin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "FK-506",
+            "Name": "fk506"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "tacrolimus",
+            "Name": "tacrolimus"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "FK-506",
+            "Name": "fk506"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "NFATc4",
+            "Name": "nfatc4"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "CCR2",
+            "Name": "ccr2"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "large-conductance Ca(2+)-activated K(+) channels",
+            "Name": "largeconductanceca2activatedkchannels"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Ca(2+)",
+            "Name": "ca2"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "K(+)",
+            "Name": "k"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "NFATc1-c4",
+            "Name": "nfatc1c4"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Calcineurin",
+            "Name": "calcineurin"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "NFATc",
+            "Name": "nfatc"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T10"
+        }
+    ]
+}

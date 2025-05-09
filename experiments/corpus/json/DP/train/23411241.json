@@ -1,0 +1,158 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "CCl4",
+            "Name": "ccl4"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "DPPH",
+            "Name": "dpph"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "HO",
+            "Name": "ho"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "O(2)(-)",
+            "Name": "o2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ferric",
+            "Name": "ferric"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "CCl(4)",
+            "Name": "ccl4"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "serum alanine aminotransferase",
+            "Name": "serumalanineaminotransferase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "alanine",
+            "Name": "alanine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "aspartate",
+            "Name": "aspartate"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "aspartate aminotransferase",
+            "Name": "aspartateaminotransferase"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "lactic dehydrogenase",
+            "Name": "lacticdehydrogenase"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "malondialdehyde",
+            "Name": "malondialdehyde"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "superoxide",
+            "Name": "superoxide"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "superoxide dismutase",
+            "Name": "superoxidedismutase"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "glutathione peroxidase",
+            "Name": "glutathioneperoxidase"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "CCl(4)",
+            "Name": "ccl4"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "CCl(4)",
+            "Name": "ccl4"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "arabinose",
+            "Name": "arabinose"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "galactose",
+            "Name": "galactose"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "galacturonic acid",
+            "Name": "galacturonicacid"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T18"
+        },
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T21"
+        }
+    ]
+}

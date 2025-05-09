@@ -1,0 +1,52 @@
+T12	CHEMICAL 11 20	baicalein
+N1	Name Annotation:T12 Referent:baicalein
+T1	CHEMICAL 100 109	Baicalein
+N2	Name Annotation:T1 Referent:baicalein
+T5	CHEMICAL 125 134	flavonoid
+N3	Name Annotation:T5 Referent:flavonoid
+T4	CHEMICAL 326 335	baicalein
+N4	Name Annotation:T4 Referent:baicalein
+T6	CHEMICAL 380 389	baicalein
+N5	Name Annotation:T6 Referent:baicalein
+T7	CHEMICAL 452 461	baicalein
+N6	Name Annotation:T7 Referent:baicalein
+T8	CHEMICAL 568 577	baicalein
+N7	Name Annotation:T8 Referent:baicalein
+T15	GENE-N 677 684	caspase
+N8	Name Annotation:T15 Referent:caspase
+T16	GENE-Y 708 717	caspase-3
+N9	Name Annotation:T16 Referent:caspase3
+T17	GENE-Y 762 767	Bcl-2
+N10	Name Annotation:T17 Referent:bcl2
+T18	GENE-Y 795 798	Bax
+N11	Name Annotation:T18 Referent:bax
+T19	GENE-Y 803 806	Bim
+N12	Name Annotation:T19 Referent:bim
+T9	CHEMICAL 853 862	baicalein
+N13	Name Annotation:T9 Referent:baicalein
+T10	CHEMICAL 894 903	baicalein
+N14	Name Annotation:T10 Referent:baicalein
+T20	GENE-Y 947 956	cyclin D1
+N15	Name Annotation:T20 Referent:cyclind1
+T21	GENE-Y 961 986	cyclin-dependent kinase 4
+N16	Name Annotation:T21 Referent:cyclindependentkinase4
+T22	GENE-Y 988 992	CDK4
+N17	Name Annotation:T22 Referent:cdk4
+T11	CHEMICAL 1031 1040	baicalein
+N18	Name Annotation:T11 Referent:baicalein
+T13	GENE-Y 1209 1242	matrix metalloproteinases (MMP)-2
+N19	Name Annotation:T13 Referent:matrixmetalloproteinasesmmp2
+T14	GENE-Y 1247 1252	MMP-9
+N20	Name Annotation:T14 Referent:mmp9
+T2	CHEMICAL 1286 1295	baicalein
+N21	Name Annotation:T2 Referent:baicalein
+T3	CHEMICAL 1347 1356	baicalein
+N22	Name Annotation:T3 Referent:baicalein
+R1	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T20
+R2	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T17
+R3	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T18
+R4	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T19
+R5	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T21
+R6	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T22
+R7	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T13
+R8	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T14

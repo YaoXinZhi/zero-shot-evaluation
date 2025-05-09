@@ -1,0 +1,81 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Curcumin",
+            "Name": "curcumin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Curcumin",
+            "Name": "curcumin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "curcumin",
+            "Name": "curcumin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "curcumin",
+            "Name": "curcumin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Curcumin",
+            "Name": "curcumin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "curcumin",
+            "Name": "curcumin"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "matrix metalloproteinase-9",
+            "Name": "matrixmetalloproteinase9"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "MMP-9",
+            "Name": "mmp9"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "curcumin",
+            "Name": "curcumin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T9"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T8"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T9"
+        }
+    ]
+}
