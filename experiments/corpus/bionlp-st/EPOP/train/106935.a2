@@ -1,0 +1,21 @@
+T6	Disease 8 25	Flavescence dorée
+T7	Disease 82 99	Flavescence dorée
+T8	Disease 252 269	flavescence dorée
+T9	Vector 410 428	Scaphodeus Titanus
+T10	Plant 437 441	vine
+T11	Plant 466 476	wild vines
+T12	Disease 535 552	Flavescence dorée
+T13	Location 556 564	Burgundy
+T14	Location 593 604	New Zealand
+T15	Disease 657 666	leaf roll
+N1	NCBI_Taxonomy Annotation:T9 Referent:376741
+N2	NCBI_Taxonomy Annotation:T10 Referent:29760
+N3	NCBI_Taxonomy Annotation:T11 Referent:3603
+N4	GeoNames Annotation:T13 Referent:3030967
+N5	GeoNames Annotation:T14 Referent:2186224
+R1	Found_on Organism:T9 Habitat:T10
+R2	Found_on Organism:T9 Habitat:T11
+R3	Located_in Object:T12 Location:T13
+E1	Nary Plante:T10 Vecteur:T9
+E2	Nary Plante:T11 Vecteur:T9
+E3	Nary Maladie:T12 Lieu:T13

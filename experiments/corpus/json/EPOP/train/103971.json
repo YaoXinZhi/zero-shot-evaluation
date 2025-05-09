@@ -1,0 +1,223 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Pest",
+            "name": "Pinewood Nematode",
+            "NCBI_Taxonomy": "6326"
+        },
+        {
+            "id": "T9",
+            "type": "Pest",
+            "name": "Bursaphelenchus xylophilus",
+            "NCBI_Taxonomy": "6326"
+        },
+        {
+            "id": "T10",
+            "type": "Pest",
+            "name": "pinewood nematode",
+            "NCBI_Taxonomy": "6326"
+        },
+        {
+            "id": "T11",
+            "type": "Pest",
+            "name": "PWN",
+            "NCBI_Taxonomy": "6326"
+        },
+        {
+            "id": "T12",
+            "type": "Pest",
+            "name": "Bursaphelenchus xylophilus",
+            "NCBI_Taxonomy": "6326"
+        },
+        {
+            "id": "T13",
+            "type": "Plant",
+            "name": "pine trees",
+            "NCBI_Taxonomy": "3337"
+        },
+        {
+            "id": "T14",
+            "type": "Disease",
+            "name": "pine wilt disease"
+        },
+        {
+            "id": "T15",
+            "type": "Disease",
+            "name": "PWD"
+        },
+        {
+            "id": "T16",
+            "type": "Pest",
+            "name": "Pinewood Nematode",
+            "NCBI_Taxonomy": "6326"
+        },
+        {
+            "id": "T17",
+            "type": "Pest",
+            "name": "Bursaphelenchus xylophilus",
+            "NCBI_Taxonomy": "6326"
+        },
+        {
+            "id": "T18",
+            "type": "Pest",
+            "name": "pinewood nematode",
+            "NCBI_Taxonomy": "6326"
+        },
+        {
+            "id": "T19",
+            "type": "Pest",
+            "name": "PWN",
+            "NCBI_Taxonomy": "6326"
+        },
+        {
+            "id": "T20",
+            "type": "Pest",
+            "name": "Bursaphelenchus xylophilus",
+            "NCBI_Taxonomy": "6326"
+        },
+        {
+            "id": "T21",
+            "type": "Plant",
+            "name": "pine trees",
+            "NCBI_Taxonomy": "3337"
+        },
+        {
+            "id": "T22",
+            "type": "Disease",
+            "name": "pine wilt disease"
+        },
+        {
+            "id": "T23",
+            "type": "Disease",
+            "name": "PWD"
+        },
+        {
+            "id": "T24",
+            "type": "Plant",
+            "name": "pine species",
+            "NCBI_Taxonomy": "3337"
+        },
+        {
+            "id": "T25",
+            "type": "Plant",
+            "name": "pines",
+            "NCBI_Taxonomy": "3337"
+        },
+        {
+            "id": "T26",
+            "type": "Disease",
+            "name": "PWD"
+        },
+        {
+            "id": "T27",
+            "type": "Pest",
+            "name": "PWNs",
+            "NCBI_Taxonomy": "6326"
+        },
+        {
+            "id": "T28",
+            "type": "Pest",
+            "name": "PWNs",
+            "NCBI_Taxonomy": "6326"
+        },
+        {
+            "id": "T29",
+            "type": "Pest",
+            "name": "Bursaphelenchus",
+            "NCBI_Taxonomy": "6324"
+        },
+        {
+            "id": "T30",
+            "type": "Pest",
+            "name": "PWN",
+            "NCBI_Taxonomy": "6326"
+        },
+        {
+            "id": "T31",
+            "type": "Pest",
+            "name": "PWN",
+            "NCBI_Taxonomy": "6326"
+        }
+    ],
+    "equivalences": [
+        [
+            "T14",
+            "T15"
+        ],
+        [
+            "T16",
+            "T17"
+        ],
+        [
+            "T22",
+            "T23"
+        ],
+        [
+            "T8",
+            "T9"
+        ],
+        [
+            "T18",
+            "T20",
+            "T19"
+        ],
+        [
+            "T10",
+            "T12",
+            "T11"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Has been found on",
+            "source": "T12",
+            "target": "T13"
+        },
+        {
+            "type": "Causes",
+            "source": "T12",
+            "target": "T14"
+        },
+        {
+            "type": "Affects",
+            "source": "T14",
+            "target": "T13"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T20",
+            "target": "T21"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T20",
+            "target": "T24"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T20",
+            "target": "T25"
+        },
+        {
+            "type": "Causes",
+            "source": "T20",
+            "target": "T22"
+        },
+        {
+            "type": "Affects",
+            "source": "T22",
+            "target": "T21"
+        },
+        {
+            "type": "Affects",
+            "source": "T22",
+            "target": "T24"
+        },
+        {
+            "type": "Affects",
+            "source": "T22",
+            "target": "T25"
+        }
+    ]
+}

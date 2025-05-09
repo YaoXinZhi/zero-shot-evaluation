@@ -1,0 +1,107 @@
+T14	Plant 21 27	citrus
+T15	Location 64 87	Porto Metropolitan Area
+T16	Pest 219 237	Xylella Fastidiosa
+T17	Location 279 302	Porto Metropolitan Area
+T18	Plant 314 320	citrus
+T19	Date 369 380	this Monday
+T20	Pest 496 514	Xylella Fastidiosa
+T21	Location 564 581	Vila Nova de Gaia
+T22	Location 583 603	Santa Maria da Feira
+T23	Location 605 610	Porto
+T24	Location 615 622	Espinho
+T25	Location 735 761	metropolitan area of Porto
+T26	Date 971 977	So far
+T27	Plant 1018 1035	acacia longifolia
+T28	Plant 1039 1051	citrus limon
+T29	Plant 1058 1082	citrus reticulata blanco
+T30	Plant 1186 1192	citrus
+T31	Vector 1270 1289	Philaenus spumarius
+T32	Vector 1310 1320	spittlebug
+T33	Date 1381 1390	in spring
+T34	Plant 1487 1492	olive
+T35	Plant 1494 1500	almond
+T36	Plant 1502 1506	vine
+T37	Plant 1510 1513	fig
+T38	Date 1515 1534	On January 18, 2019
+T39	Pest 1623 1641	Xylella fastidiosa
+T40	Plant 1646 1661	lavender plants
+T41	Location 1681 1707	'zoo' in Vila Nova de Gaia
+T42	Location 1712 1717	Porto
+N1	NCBI_Taxonomy Annotation:T14 Referent:2706
+N2	GeoNames Annotation:T15 Referent:2735941
+N3	NCBI_Taxonomy Annotation:T16 Referent:2371
+N4	GeoNames Annotation:T17 Referent:2735941
+N5	NCBI_Taxonomy Annotation:T18 Referent:2706
+N6	NCBI_Taxonomy Annotation:T20 Referent:2371
+N7	GeoNames Annotation:T21 Referent:8010592
+N8	GeoNames Annotation:T22 Referent:8010421
+N9	GeoNames Annotation:T23 Referent:2735941
+N10	GeoNames Annotation:T24 Referent:8010419
+N11	GeoNames Annotation:T25 Referent:2735941
+N12	NCBI_Taxonomy Annotation:T27 Referent:139010
+N13	NCBI_Taxonomy Annotation:T28 Referent:2708
+N14	NCBI_Taxonomy Annotation:T29 Referent:85571
+N15	NCBI_Taxonomy Annotation:T30 Referent:2706
+N16	NCBI_Taxonomy Annotation:T31 Referent:36667
+N17	NCBI_Taxonomy Annotation:T32 Referent:36667
+N18	NCBI_Taxonomy Annotation:T34 Referent:158383
+N19	NCBI_Taxonomy Annotation:T35 Referent:3755
+N20	NCBI_Taxonomy Annotation:T36 Referent:29760
+N21	NCBI_Taxonomy Annotation:T37 Referent:3494
+N22	NCBI_Taxonomy Annotation:T39 Referent:2371
+N23	NCBI_Taxonomy Annotation:T40 Referent:39169
+N24	GeoNames Annotation:T41 Referent:11807123
+N25	GeoNames Annotation:T42 Referent:2735941
+R1	Located_in Object:T14 Location:T15
+R2	Located_in Object:T16 Location:T17
+R3	Located_in Object:T16 Location:T15
+R4	Found_on Organism:T16 Habitat:T14
+R5	Found_on Organism:T16 Habitat:T18
+R6	Located_in Object:T18 Location:T23
+R7	Located_in Object:T18 Location:T17
+R8	Located_in Object:T18 Location:T21
+R9	Located_in Object:T18 Location:T25
+R10	Located_in Object:T18 Location:T24
+R11	Located_in Object:T18 Location:T22
+R12	Located_in Object:T20 Location:T23
+R13	Located_in Object:T20 Location:T21
+R14	Located_in Object:T20 Location:T25
+R15	Located_in Object:T20 Location:T24
+R16	Located_in Object:T20 Location:T22
+R17	Found_on Organism:T20 Habitat:T28
+R18	Found_on Organism:T20 Habitat:T18
+R19	Found_on Organism:T20 Habitat:T29
+R20	Found_on Organism:T20 Habitat:T27
+R21	Detected_on Object:T31 Date:T33
+R22	Located_in Object:T39 Location:T42
+R23	Located_in Object:T39 Location:T41
+R24	Found_on Organism:T39 Habitat:T36
+R25	Found_on Organism:T39 Habitat:T37
+R26	Found_on Organism:T39 Habitat:T35
+R27	Found_on Organism:T39 Habitat:T40
+R28	Found_on Organism:T39 Habitat:T34
+R29	Detected_on Object:T39 Date:T38
+R30	Detected_on Object:T39 Date:T38
+R31	Located_in Object:T40 Location:T42
+R32	Located_in Object:T40 Location:T41
+R33	Detected_on Object:T40 Date:T38
+R34	Detected_on Object:T40 Date:T38
+E1	Nary Plante:T14 Lieu:T15
+E2	Nary Organisme_nuisible:T16 Plante:T18 Lieu:T17
+E3	Nary Organisme_nuisible:T16 Plante:T14 Lieu:T15
+E4	Nary Organisme_nuisible:T20 Plante:T18 Lieu:T23
+E5	Nary Organisme_nuisible:T20 Plante:T18 Lieu:T21
+E6	Nary Organisme_nuisible:T20 Plante:T18 Lieu:T25
+E7	Nary Organisme_nuisible:T20 Plante:T18 Lieu:T24
+E8	Nary Organisme_nuisible:T20 Plante:T18 Lieu:T22
+E9	Nary Organisme_nuisible:T20 Plante:T28
+E10	Nary Organisme_nuisible:T20 Plante:T29
+E11	Nary Organisme_nuisible:T20 Plante:T27
+E12	Nary Vecteur:T31 Date:T33
+E13	Nary Organisme_nuisible:T39 Plante:T36
+E14	Nary Organisme_nuisible:T39 Plante:T37
+E15	Nary Organisme_nuisible:T39 Plante:T35
+E16	Nary Organisme_nuisible:T39 Plante:T34
+E17	Nary Organisme_nuisible:T39 Plante:T40 Lieu:T42 Date:T38
+E18	Nary Organisme_nuisible:T39 Plante:T40 Lieu:T41 Date:T38
+*	Equiv T31 T32

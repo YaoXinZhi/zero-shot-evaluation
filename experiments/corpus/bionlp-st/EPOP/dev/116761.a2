@@ -1,0 +1,58 @@
+T6	Disease 31 52	banana Panama disease
+T7	Pest 64 113	Fusarium oxysporum f. sp. cubense Tropical Race 4
+T8	Plant 130 136	banana
+T9	Disease 175 189	Panama disease
+T10	Pest 201 249	Fusarium oxysporum f.sp. cubense Tropical Race 4
+T11	Pest 251 257	FocTR4
+T12	Pest 523 529	FocTR4
+T13	Pest 534 543	Foc Race1
+T14	Pest 545 550	FocR1
+T15	Pest 620 626	FocTR4
+T16	Pest 700 706	FocTR4
+T17	Disease 729 743	Panama disease
+T18	Plant 747 754	bananas
+T19	Pest 802 808	FocTR4
+T20	Pest 1112 1118	FocTR4
+T21	Pest 1426 1432	FocTR4
+T22	Pest 1437 1457	Zymoseptoria tritici
+T23	Pest 1540 1546	FocTR4
+T24	Pest 1561 1567	FocTR4
+T25	Plant 1684 1691	bananas
+T26	Disease 1781 1795	Panama disease
+T27	Plant 1845 1852	bananas
+T28	Pest 1881 1887	FocTR4
+N1	NCBI_Taxonomy Annotation:T7 Referent:2502994
+N2	NCBI_Taxonomy Annotation:T8 Referent:4640
+N3	NCBI_Taxonomy Annotation:T10 Referent:2502994
+N4	NCBI_Taxonomy Annotation:T11 Referent:2502994
+N5	NCBI_Taxonomy Annotation:T12 Referent:2502994
+N6	NCBI_Taxonomy Annotation:T13 Referent:1229664
+N7	NCBI_Taxonomy Annotation:T14 Referent:1229664
+N8	NCBI_Taxonomy Annotation:T15 Referent:2502994
+N9	NCBI_Taxonomy Annotation:T16 Referent:2502994
+N10	NCBI_Taxonomy Annotation:T18 Referent:4640
+N11	NCBI_Taxonomy Annotation:T19 Referent:2502994
+N12	NCBI_Taxonomy Annotation:T20 Referent:2502994
+N13	NCBI_Taxonomy Annotation:T21 Referent:2502994
+N14	NCBI_Taxonomy Annotation:T22 Referent:1047171
+N15	NCBI_Taxonomy Annotation:T23 Referent:2502994
+N16	NCBI_Taxonomy Annotation:T24 Referent:2502994
+N17	NCBI_Taxonomy Annotation:T25 Referent:4640
+N18	NCBI_Taxonomy Annotation:T27 Referent:4640
+N19	NCBI_Taxonomy Annotation:T28 Referent:2502994
+R1	Causes Pest:T7 Disease:T6
+R2	Expressed_by Disease:T6 Plant:T8
+R3	Found_on Organism:T7 Habitat:T8
+R4	Causes Pest:T10 Disease:T9
+R5	Expressed_by Disease:T9 Plant:T8
+R6	Found_on Organism:T10 Habitat:T8
+R7	Found_on Organism:T16 Habitat:T18
+R8	Causes Pest:T16 Disease:T17
+R9	Expressed_by Disease:T17 Plant:T18
+R10	Found_on Organism:T28 Habitat:T27
+E1	Nary Organisme_nuisible:T7 Plante:T8 Maladie:T6
+E2	Nary Organisme_nuisible:T10 Plante:T8 Maladie:T9
+E3	Nary Organisme_nuisible:T16 Plante:T18 Maladie:T17
+E4	Nary Organisme_nuisible:T28 Plante:T27
+*	Equiv T11 T10
+*	Equiv T14 T13

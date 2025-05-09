@@ -1,0 +1,34 @@
+T7	Pest 19 26	xylella
+T8	Location 37 58	Lecce-Bari state road
+T9	Dissemination_pathway 103 123	grooves of the tires
+T10	Pest 129 136	xylella
+T11	Location 149 153	Bari
+T12	Location 154 159	Lecce
+T13	Location 476 488	Salento city
+T14	Vector 494 502	spittoon
+T15	Pest 610 617	xylella
+T16	Location 628 649	Lecce-Bari state road
+T17	Dissemination_pathway 694 714	grooves of the tires
+T18	Location 851 858	Pescara
+N1	NCBI_Taxonomy Annotation:T7 Referent:2371
+N2	GeoNames Annotation:T8 Referent:3169778
+N3	OntoBiotope Annotation:T9 Referent:OBT:000162
+N4	NCBI_Taxonomy Annotation:T10 Referent:2371
+N5	GeoNames Annotation:T11 Referent:3182350
+N6	GeoNames Annotation:T12 Referent:3174952
+N7	GeoNames Annotation:T13 Referent:6540006
+N8	NCBI_Taxonomy Annotation:T14 Referent:36667
+N9	NCBI_Taxonomy Annotation:T15 Referent:2371
+N10	GeoNames Annotation:T16 Referent:3169778
+N11	OntoBiotope Annotation:T17 Referent:OBT:000162
+N12	GeoNames Annotation:T18 Referent:3171163
+R1	Located_in Object:T7 Location:T8
+R2	Located_in Object:T10 Location:T12
+R3	Located_in Object:T10 Location:T11
+R4	Located_in Object:T10 Location:T13
+R5	Located_in Object:T15 Location:T16
+E1	Nary Organisme_nuisible:T7 Lieu:T8
+E2	Nary Organisme_nuisible:T10 Lieu:T12
+E3	Nary Organisme_nuisible:T10 Lieu:T11
+E4	Nary Organisme_nuisible:T10 Lieu:T13
+E5	Nary Organisme_nuisible:T15 Lieu:T16

@@ -1,0 +1,71 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Habitat",
+            "name": "Dairy",
+            "OntoBiotope": "OBT:001208"
+        },
+        {
+            "id": "T2",
+            "type": "Microorganism",
+            "name": "propionibacteria",
+            "NCBI_Taxonomy": "1743"
+        },
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "P. freudenreichii subsp. shermanii",
+            "NCBI_Taxonomy": "1752"
+        },
+        {
+            "id": "T4",
+            "type": "Phenotype",
+            "name": "EPS\n biosynthesis",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T5",
+            "type": "Microorganism",
+            "name": "propionibacteria",
+            "NCBI_Taxonomy": "1743"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "P. freudenreichii subsp. shermanii",
+            "NCBI_Taxonomy": "1752"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "TL 34",
+            "NCBI_Taxonomy": "1752"
+        },
+        {
+            "id": "T8",
+            "type": "Phenotype",
+            "name": "ropy-producing",
+            "OntoBiotope": "OBT:001288"
+        },
+        {
+            "id": "T9",
+            "type": "Phenotype",
+            "name": "production of EPS",
+            "OntoBiotope": "OBT:000019"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T5",
+            "target": "T4"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T7",
+            "target": "T8"
+        }
+    ]
+}

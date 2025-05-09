@@ -1,0 +1,48 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Habitat",
+            "name": "frog",
+            "OntoBiotope": "OBT:003052"
+        },
+        {
+            "id": "T4",
+            "type": "Habitat",
+            "name": "food",
+            "OntoBiotope": "OBT:000094"
+        },
+        {
+            "id": "T5",
+            "type": "Phenotype",
+            "name": "pathogen",
+            "OntoBiotope": "OBT:000375"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "Escherichia coli O157:H7",
+            "NCBI_Taxonomy": "83334"
+        },
+        {
+            "id": "T7",
+            "type": "Habitat",
+            "name": "commercial apple juice",
+            "OntoBiotope": "OBT:003575"
+        },
+        {
+            "id": "T8",
+            "type": "Phenotype",
+            "name": "pathogens",
+            "OntoBiotope": "OBT:000375"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T6",
+            "target": "T5"
+        }
+    ]
+}

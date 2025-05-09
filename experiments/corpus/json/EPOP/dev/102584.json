@@ -1,0 +1,138 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Disease",
+            "name": "flavescence dor\u00e9e"
+        },
+        {
+            "id": "T12",
+            "type": "Plant",
+            "name": "vine",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T14",
+            "type": "Plant",
+            "name": "vine",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T15",
+            "type": "Disease",
+            "name": "flavescence dor\u00e9e"
+        },
+        {
+            "id": "T17",
+            "type": "Plant",
+            "name": "vine",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T18",
+            "type": "Disease",
+            "name": "flavescence dor\u00e9e"
+        },
+        {
+            "id": "T20",
+            "type": "Disease",
+            "name": "Flavescence dor\u00e9e"
+        },
+        {
+            "id": "T23",
+            "type": "Location",
+            "name": "canton of Ticino",
+            "GeoNames": "2658370"
+        },
+        {
+            "id": "T25",
+            "type": "Location",
+            "name": "cantons Grisons",
+            "GeoNames": "2660522"
+        },
+        {
+            "id": "T26",
+            "type": "Location",
+            "name": "cantons of Vaud",
+            "GeoNames": "2658182"
+        },
+        {
+            "id": "T27",
+            "type": "Location",
+            "name": "cantons Valais",
+            "GeoNames": "2658205"
+        },
+        {
+            "id": "T28",
+            "type": "Plant",
+            "name": "vines",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T29",
+            "type": "Pest",
+            "name": "phytoplasmas",
+            "NCBI_Taxonomy": "33926"
+        },
+        {
+            "id": "T30",
+            "type": "Pest",
+            "name": "phytoplasmas",
+            "NCBI_Taxonomy": "33926"
+        },
+        {
+            "id": "T31",
+            "type": "Location",
+            "name": "Switzerland",
+            "GeoNames": "2658434"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Affects",
+            "source": "T11",
+            "target": "T12"
+        },
+        {
+            "type": "Causes",
+            "source": "T29",
+            "target": "T11"
+        },
+        {
+            "type": "Affects",
+            "source": "T15",
+            "target": "T14"
+        },
+        {
+            "type": "Affects",
+            "source": "T18",
+            "target": "T17"
+        },
+        {
+            "type": "Affects",
+            "source": "T20",
+            "target": "T28"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T25"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T27"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T26"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T23"
+        }
+    ]
+}

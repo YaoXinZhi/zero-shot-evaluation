@@ -1,0 +1,47 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Methylocella",
+            "NCBI_Taxonomy": "120652"
+        },
+        {
+            "id": "T4",
+            "type": "Phenotype",
+            "name": "methanotrophs",
+            "OntoBiotope": "OBT:001205"
+        },
+        {
+            "id": "T5",
+            "type": "Phenotype",
+            "name": "ability to grow simultaneously on methane and longer chain alkanes",
+            "OntoBiotope": "OBT:001205"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "Methylocella silvestris",
+            "NCBI_Taxonomy": "199596"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "Methylocella",
+            "NCBI_Taxonomy": "199596"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T3",
+            "target": "T4"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T6",
+            "target": "T5"
+        }
+    ]
+}

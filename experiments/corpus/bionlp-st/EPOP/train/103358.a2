@@ -1,0 +1,22 @@
+T3	Pest 13 28	Japanese beetle
+T4	Location 39 56	Baden-Württemberg
+T5	Pest 97 113	Japanese beetles
+T6	Date 114 125	last autumn
+T7	Date 130 137	in July
+T8	Location 145 158	Freiburg area
+T9	Location 205 222	Baden-Württemberg
+T10	Date 223 241	for the first time
+N1	NCBI_Taxonomy Annotation:T3 Referent:7064
+N2	GeoNames Annotation:T4 Referent:2953481
+N3	NCBI_Taxonomy Annotation:T5 Referent:7064
+N4	GeoNames Annotation:T8 Referent:2925180
+N5	GeoNames Annotation:T9 Referent:2953481
+R1	Located_in Object:T3 Location:T4
+R2	Located_in Object:T5 Location:T9
+R3	Located_in Object:T5 Location:T8
+R4	Detected_on Object:T5 Date:T6
+R5	Detected_on Object:T5 Date:T7
+E1	Nary Organisme_nuisible:T3 Lieu:T4
+E2	Nary Organisme_nuisible:T5 Lieu:T9
+E3	Nary Organisme_nuisible:T5 Lieu:T8 Date:T6
+E4	Nary Organisme_nuisible:T5 Lieu:T8 Date:T7

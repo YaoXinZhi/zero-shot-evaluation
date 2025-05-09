@@ -1,0 +1,47 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Phenotype",
+            "name": "human pathogens",
+            "OntoBiotope": "OBT:002806"
+        },
+        {
+            "id": "T4",
+            "type": "Habitat",
+            "name": "human",
+            "OntoBiotope": "OBT:002488"
+        },
+        {
+            "id": "T5",
+            "type": "Microorganism",
+            "name": "Staphylococcus aureus",
+            "NCBI_Taxonomy": "1280"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "Escherichia coli",
+            "NCBI_Taxonomy": "562"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "S. aureus",
+            "NCBI_Taxonomy": "1280"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T5",
+            "target": "T3"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T6",
+            "target": "T3"
+        }
+    ]
+}

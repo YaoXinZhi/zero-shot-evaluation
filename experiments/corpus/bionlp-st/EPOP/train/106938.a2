@@ -1,0 +1,43 @@
+T3	Disease 33 50	Flavescence Dorée
+T4	Disease 157 174	Flavescence dorée
+T5	Disease 177 179	FD
+T6	Plant 186 196	grape vine
+T7	Pest 236 264	Candidatus Phytoplasma vitis
+T8	Vector 295 319	Scaphoideus titanus Ball
+T9	Location 388 394	Europe
+T10	Plant 410 414	vine
+T11	Plant 439 443	vine
+T12	Plant 671 679	vineyard
+T13	Date 775 785	every year
+T14	Plant 795 803	vineyard
+T15	Disease 935 937	FD
+T16	Plant 1118 1122	vine
+T17	Plant 1391 1395	vine
+T18	Disease 1495 1497	FD
+T19	Disease 1518 1522	Esca
+T20	Disease 1612 1614	FD
+N1	NCBI_Taxonomy Annotation:T6 Referent:29760
+N2	NCBI_Taxonomy Annotation:T7 Referent:131152
+N3	NCBI_Taxonomy Annotation:T8 Referent:376741
+N4	GeoNames Annotation:T9 Referent:6255148
+N5	NCBI_Taxonomy Annotation:T10 Referent:29760
+N6	NCBI_Taxonomy Annotation:T11 Referent:29760
+N7	NCBI_Taxonomy Annotation:T12 Referent:29760
+N8	NCBI_Taxonomy Annotation:T14 Referent:29760
+N9	NCBI_Taxonomy Annotation:T16 Referent:29760
+N10	NCBI_Taxonomy Annotation:T17 Referent:29760
+R1	Located_in Object:T4 Location:T9
+R2	Causes Pest:T7 Disease:T4
+R3	Expressed_by Disease:T4 Plant:T11
+R4	Expressed_by Disease:T4 Plant:T10
+R5	Expressed_by Disease:T4 Plant:T6
+R6	Found_on Organism:T7 Habitat:T11
+R7	Found_on Organism:T7 Habitat:T10
+R8	Found_on Organism:T7 Habitat:T6
+R9	Vected_by Nuisance:T7 Vector:T8
+R10	Found_on Organism:T8 Habitat:T6
+E1	Nary Maladie:T4 Lieu:T9
+E2	Nary Organisme_nuisible:T7 Plante:T11 Maladie:T4
+E3	Nary Organisme_nuisible:T7 Plante:T10 Maladie:T4
+E4	Nary Organisme_nuisible:T7 Plante:T6 Vecteur:T8 Maladie:T4
+*	Equiv T5 T4 T3

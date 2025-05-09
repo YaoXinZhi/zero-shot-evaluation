@@ -1,0 +1,59 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Habitat",
+            "name": "cheese model",
+            "OntoBiotope": "OBT:001480"
+        },
+        {
+            "id": "T2",
+            "type": "Habitat",
+            "name": "cheese",
+            "OntoBiotope": "OBT:001480"
+        },
+        {
+            "id": "T3",
+            "type": "Phenotype",
+            "name": "high capacity to produce VSC",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "H. alvei",
+            "NCBI_Taxonomy": "569"
+        },
+        {
+            "id": "T5",
+            "type": "Phenotype",
+            "name": "high capacity to convert \nmethionine or cysteine into aroma compounds",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "H. alvei",
+            "NCBI_Taxonomy": "569"
+        },
+        {
+            "id": "T7",
+            "type": "Habitat",
+            "name": "beef models",
+            "OntoBiotope": "OBT:001899"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T3"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T5"
+        }
+    ]
+}

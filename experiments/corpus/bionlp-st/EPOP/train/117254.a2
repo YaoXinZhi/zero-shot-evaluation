@@ -1,0 +1,21 @@
+T3	Disease 106 119	Fusarium wilt
+T4	Plant 123 129	banana
+T5	Plant 152 174	banana cultivar MaÃ§Ã£
+T6	Pest 229 261	Fusarium oxysporum f.sp. cubense
+T7	Disease 311 324	Fusarium wilt
+T8	Pest 334 357	Fusarium kalimantanense
+N1	NCBI_Taxonomy Annotation:T4 Referent:4640
+N2	NCBI_Taxonomy Annotation:T5 Referent:485264
+N3	NCBI_Taxonomy Annotation:T6 Referent:61366
+N4	NCBI_Taxonomy Annotation:T6 Referent:2502994
+N5	NCBI_Taxonomy Annotation:T8 Referent:2750197
+R1	Expressed_by Disease:T3 Plant:T5
+R2	Expressed_by Disease:T3 Plant:T4
+R3	Causes Pest:T6 Disease:T3
+R4	Causes Pest:T8 Disease:T7
+R5	Causes Pest:T6 Disease:T7
+E1	Nary Plante:T4 Maladie:T3
+E2	Nary Plante:T5 Maladie:T3
+E3	Nary Organisme_nuisible:T6 Maladie:T3
+E4	Nary Organisme_nuisible:T6 Maladie:T7
+E5	Nary Organisme_nuisible:T8 Maladie:T7

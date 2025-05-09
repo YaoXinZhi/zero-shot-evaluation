@@ -1,0 +1,14 @@
+T3	Phenotype 204 219	human pathogens
+T4	Habitat 204 209	human
+T5	Microorganism 221 242	Staphylococcus aureus
+T6	Microorganism 247 263	Escherichia coli
+T7	Microorganism 308 317	S. aureus
+N1	OntoBiotope Annotation:T4 Referent:OBT:002488
+N2	OntoBiotope Annotation:T3 Referent:OBT:002806
+N3	NCBI_Taxonomy Annotation:T5 Referent:1280
+N4	NCBI_Taxonomy Annotation:T6 Referent:562
+N5	NCBI_Taxonomy Annotation:T7 Referent:1280
+R1	Lives_In Microorganism:T5 Location:T4
+R2	Exhibits Microorganism:T5 Property:T3
+R3	Lives_In Microorganism:T6 Location:T4
+R4	Exhibits Microorganism:T6 Property:T3

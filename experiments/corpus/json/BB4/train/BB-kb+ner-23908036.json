@@ -1,0 +1,64 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Pseudomonas aeruginosa",
+            "NCBI_Taxonomy": "287"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "Pseudomonas aeruginosa",
+            "NCBI_Taxonomy": "287"
+        },
+        {
+            "id": "T5",
+            "type": "Phenotype",
+            "name": "Gram-negative",
+            "OntoBiotope": "OBT:000648"
+        },
+        {
+            "id": "T6",
+            "type": "Habitat",
+            "name": "susceptible individuals",
+            "OntoBiotope": "OBT:002488"
+        },
+        {
+            "id": "T7",
+            "type": "Phenotype",
+            "name": "resistant to most clinically available antimicrobials",
+            "OntoBiotope": "OBT:002337"
+        },
+        {
+            "id": "T8",
+            "type": "Microorganism",
+            "name": "P. aeruginosa PAO1",
+            "NCBI_Taxonomy": "208964"
+        },
+        {
+            "id": "T9",
+            "type": "Phenotype",
+            "name": "pathogen",
+            "OntoBiotope": "OBT:002806"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T5"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T7"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T8",
+            "target": "T9"
+        }
+    ]
+}

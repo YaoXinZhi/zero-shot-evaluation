@@ -1,0 +1,84 @@
+T15	Pest 28 43	Japanese beetle
+T16	Location 47 55	Freiburg
+T17	Location 59 67	Freiburg
+T18	Pest 109 124	Japanese beetle
+T19	Location 128 136	Freiburg
+T20	Pest 307 322	Japanese beetle
+T21	Pest 324 341	Popillia japonica
+T22	Pest 399 414	Japanese beetle
+T23	Location 429 437	Freiburg
+T24	Date 447 463	Thu Jul 28, 2022
+T25	Pest 476 491	Japanese beetle
+T26	Location 566 574	Freiburg
+T27	Pest 616 631	Japanese beetle
+T28	Location 635 643	Freiburg
+T29	Pest 814 829	Japanese beetle
+T30	Pest 831 848	Popillia japonica
+T31	Date 962 973	last autumn
+T32	Dissemination_pathway 1052 1059	freight
+T33	Dissemination_pathway 1063 1078	tourist traffic
+T34	Location 1084 1098	northern Italy
+T35	Date 1100 1114	Since May 2022
+T36	Location 1120 1133	Freiburg area
+T37	Location 1238 1255	Baden-Württemberg
+T38	Pest 1324 1340	Japanese beetles
+T39	Pest 1443 1458	Japanese beetle
+T40	Location 1563 1569	Europe
+T41	Location 1585 1589	Asia
+T42	Pest 1726 1741	Japanese beetle
+T43	Pest 1892 1907	Japanese beetle
+N1	NCBI_Taxonomy Annotation:T15 Referent:7064
+N2	GeoNames Annotation:T16 Referent:2925180
+N3	GeoNames Annotation:T17 Referent:2925180
+N4	NCBI_Taxonomy Annotation:T18 Referent:7064
+N5	GeoNames Annotation:T19 Referent:2925180
+N6	NCBI_Taxonomy Annotation:T20 Referent:7064
+N7	NCBI_Taxonomy Annotation:T21 Referent:7064
+N8	NCBI_Taxonomy Annotation:T22 Referent:7064
+N9	GeoNames Annotation:T23 Referent:2925180
+N10	NCBI_Taxonomy Annotation:T25 Referent:7064
+N11	GeoNames Annotation:T26 Referent:2925180
+N12	NCBI_Taxonomy Annotation:T27 Referent:7064
+N13	GeoNames Annotation:T28 Referent:2925180
+N14	NCBI_Taxonomy Annotation:T29 Referent:7064
+N15	NCBI_Taxonomy Annotation:T30 Referent:7064
+N16	OntoBiotope Annotation:T32 Referent:OBT:000289
+N17	OntoBiotope Annotation:T33 Referent:OBT:000405
+N18	GeoNames Annotation:T34 Referent:12089030
+N19	GeoNames Annotation:T34 Referent:12089031
+N20	GeoNames Annotation:T36 Referent:2925180
+N21	GeoNames Annotation:T37 Referent:2953481
+N22	NCBI_Taxonomy Annotation:T38 Referent:7064
+N23	NCBI_Taxonomy Annotation:T39 Referent:7064
+N24	GeoNames Annotation:T40 Referent:6255148
+N25	GeoNames Annotation:T41 Referent:6255147
+N26	NCBI_Taxonomy Annotation:T42 Referent:7064
+N27	NCBI_Taxonomy Annotation:T43 Referent:7064
+R1	Located_in Object:T15 Location:T16
+R2	Located_in Object:T18 Location:T19
+R3	Located_in Object:T22 Location:T23
+R4	Located_in Object:T27 Location:T28
+R5	Found_on Organism:T29 Habitat:T32
+R6	Found_on Organism:T29 Habitat:T33
+R7	Located_in Object:T29 Location:T36
+R8	Located_in Object:T29 Location:T34
+R9	Located_in Object:T29 Location:T34
+R10	Located_in Object:T29 Location:T36
+R11	Located_in Object:T32 Location:T34
+R12	Located_in Object:T32 Location:T36
+R13	Located_in Object:T33 Location:T36
+R14	Located_in Object:T33 Location:T34
+R15	Located_in Object:T38 Location:T37
+R16	Located_in Object:T39 Location:T41
+E1	Nary Organisme_nuisible:T15 Lieu:T16
+E2	Nary Organisme_nuisible:T18 Lieu:T19
+E3	Nary Organisme_nuisible:T22 Lieu:T23
+E4	Nary Organisme_nuisible:T27 Lieu:T28
+E5	Nary Organisme_nuisible:T29 Voie_de_dispersion:T33 Lieu:T36
+E6	Nary Organisme_nuisible:T29 Voie_de_dispersion:T33 Lieu:T34
+E7	Nary Organisme_nuisible:T29 Voie_de_dispersion:T32 Lieu:T34
+E8	Nary Organisme_nuisible:T29 Voie_de_dispersion:T32 Lieu:T36
+E9	Nary Organisme_nuisible:T38 Lieu:T37
+E10	Nary Organisme_nuisible:T39 Lieu:T41
+*	Equiv T21 T20
+*	Equiv T29 T30

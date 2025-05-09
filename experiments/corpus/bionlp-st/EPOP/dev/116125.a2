@@ -1,0 +1,73 @@
+T15	Pest 0 18	Oriental Fruit Fly
+T16	Location 33 47	Florida County
+T17	Date 153 164	on Sept. 23
+T18	Pest 174 192	oriental fruit fly
+T19	Date 286 297	on Sept. 23
+T20	Pest 307 325	oriental fruit fly
+T21	Pest 327 346	Bactrocera dorsalis
+T22	Location 373 388	Pinellas County
+T23	Date 390 397	In June
+T24	Pest 454 474	oriental fruit flies
+T25	Location 615 629	St. Petersburg
+T26	Date 737 751	As of Sept. 23
+T27	Pest 784 802	oriental fruit fly
+T28	Pest 962 982	Oriental fruit flies
+T29	Location 1329 1336	Florida
+T30	Pest 1534 1552	oriental fruit fly
+T31	Pest 1614 1632	Oriental fruit fly
+T32	Location 1667 1674	Florida
+T33	Date 1675 1685	since 1964
+T34	Plant 1927 1930	fig
+T35	Plant 1932 1938	loquat
+T36	Plant 1940 1945	mango
+T37	Plant 1947 1953	orange
+T38	Plant 1955 1960	peach
+T39	Plant 1962 1966	plum
+T40	Plant 1968 1974	sapote
+T41	Plant 1976 1983	soursop
+T42	Plant 1985 1999	Surinam cherry
+T43	Plant 2001 2010	tangerine
+T44	Plant 2012 2027	tropical almond
+T45	Plant 2032 2037	guava
+N1	NCBI_Taxonomy Annotation:T15 Referent:27457
+N2	GeoNames Annotation:T16 Referent:4155751
+N3	NCBI_Taxonomy Annotation:T18 Referent:27457
+N4	NCBI_Taxonomy Annotation:T20 Referent:27457
+N5	NCBI_Taxonomy Annotation:T21 Referent:27457
+N6	GeoNames Annotation:T22 Referent:4168618
+N7	NCBI_Taxonomy Annotation:T24 Referent:27457
+N8	GeoNames Annotation:T25 Referent:4171563
+N9	NCBI_Taxonomy Annotation:T27 Referent:27457
+N10	NCBI_Taxonomy Annotation:T28 Referent:27457
+N11	GeoNames Annotation:T29 Referent:4155751
+N12	NCBI_Taxonomy Annotation:T30 Referent:27457
+N13	NCBI_Taxonomy Annotation:T31 Referent:27457
+N14	GeoNames Annotation:T32 Referent:4155751
+N15	NCBI_Taxonomy Annotation:T34 Referent:3494
+N16	NCBI_Taxonomy Annotation:T35 Referent:2843217
+N17	NCBI_Taxonomy Annotation:T36 Referent:29780
+N18	NCBI_Taxonomy Annotation:T37 Referent:2711
+N19	NCBI_Taxonomy Annotation:T38 Referent:3760
+N20	NCBI_Taxonomy Annotation:T39 Referent:3758
+N21	NCBI_Taxonomy Annotation:T40 Referent:3741
+N22	NCBI_Taxonomy Annotation:T41 Referent:13337
+N23	NCBI_Taxonomy Annotation:T42 Referent:119951
+N24	NCBI_Taxonomy Annotation:T43 Referent:85571
+N25	NCBI_Taxonomy Annotation:T44 Referent:39993
+N26	NCBI_Taxonomy Annotation:T45 Referent:120290
+R1	Located_in Object:T15 Location:T16
+R2	Located_in Object:T20 Location:T22
+R3	Located_in Object:T24 Location:T25
+R4	Detected_on Object:T24 Date:T23
+R5	Detected_on Object:T27 Date:T26
+R6	Located_in Object:T28 Location:T29
+R7	Located_in Object:T31 Location:T32
+R8	Detected_on Object:T31 Date:T33
+E1	Nary Organisme_nuisible:T15 Lieu:T16
+E2	Nary Organisme_nuisible:T20 Lieu:T22
+E3	Nary Organisme_nuisible:T24 Lieu:T25
+E4	Nary Organisme_nuisible:T24 Date:T23
+E5	Nary Organisme_nuisible:T27 Date:T26
+E6	Nary Organisme_nuisible:T28 Lieu:T29
+E7	Nary Organisme_nuisible:T31 Lieu:T32 Date:T33
+*	Equiv T20 T21

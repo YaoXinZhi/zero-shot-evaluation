@@ -1,0 +1,172 @@
+{
+    "entities": [
+        {
+            "id": "T71",
+            "type": "Location",
+            "name": "Botucatu",
+            "GeoNames": "6322151"
+        },
+        {
+            "id": "T72",
+            "type": "Location",
+            "name": "Botucatu",
+            "GeoNames": "6322151"
+        },
+        {
+            "id": "T74",
+            "type": "Location",
+            "name": "Brazil",
+            "GeoNames": "3469034"
+        },
+        {
+            "id": "T75",
+            "type": "Vector",
+            "name": "citrus psyllid",
+            "NCBI_Taxonomy": "121845"
+        },
+        {
+            "id": "T76",
+            "type": "Vector",
+            "name": "Diaphorina citri",
+            "NCBI_Taxonomy": "121845"
+        },
+        {
+            "id": "T77",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T78",
+            "type": "Vector",
+            "name": "citrus psyllid",
+            "NCBI_Taxonomy": "121845"
+        },
+        {
+            "id": "T79",
+            "type": "Plant",
+            "name": "myrtle",
+            "NCBI_Taxonomy": "43711"
+        },
+        {
+            "id": "T80",
+            "type": "Plant",
+            "name": "Murraya paniculata",
+            "NCBI_Taxonomy": "43711"
+        },
+        {
+            "id": "T81",
+            "type": "Pest",
+            "name": "Candidatus Liberibacter spp.",
+            "NCBI_Taxonomy": "309868"
+        },
+        {
+            "id": "T82",
+            "type": "Disease",
+            "name": "HBL"
+        },
+        {
+            "id": "T83",
+            "type": "Disease",
+            "name": "Huanglongbing"
+        },
+        {
+            "id": "T84",
+            "type": "Disease",
+            "name": "Greening"
+        },
+        {
+            "id": "T85",
+            "type": "Disease",
+            "name": "greening"
+        },
+        {
+            "id": "T86",
+            "type": "Vector",
+            "name": "citrus psyllid",
+            "NCBI_Taxonomy": "121845"
+        },
+        {
+            "id": "T87",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T89",
+            "type": "Location",
+            "name": "Brazil",
+            "GeoNames": "3469034"
+        },
+        {
+            "id": "T90",
+            "type": "Plant",
+            "name": "Citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T91",
+            "type": "Vector",
+            "name": "citrus psyllid",
+            "NCBI_Taxonomy": "121845"
+        },
+        {
+            "id": "T92",
+            "type": "Vector",
+            "name": "citrus psyllid",
+            "NCBI_Taxonomy": "121845"
+        }
+    ],
+    "equivalences": [
+        [
+            "T80",
+            "T79"
+        ],
+        [
+            "T76",
+            "T75"
+        ],
+        [
+            "T83",
+            "T84",
+            "T82"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Has been found on",
+            "source": "T76",
+            "target": "T77"
+        },
+        {
+            "type": "Located in",
+            "source": "T76",
+            "target": "T74"
+        },
+        {
+            "type": "Located in",
+            "source": "T77",
+            "target": "T74"
+        },
+        {
+            "type": "Causes",
+            "source": "T81",
+            "target": "T82"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T86",
+            "target": "T87"
+        },
+        {
+            "type": "Located in",
+            "source": "T86",
+            "target": "T89"
+        },
+        {
+            "type": "Located in",
+            "source": "T87",
+            "target": "T89"
+        }
+    ]
+}

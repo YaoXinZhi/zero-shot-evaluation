@@ -1,0 +1,110 @@
+T1	Microorganism 11 15;67 96	S3 + Lactococcus lactis sp. lactis
+T2	Phenotype 24 41	protease-negative
+T3	Microorganism 50 53;67 96	S3- Lactococcus lactis sp. lactis
+T4	Habitat 111 117	cheese
+T5	Habitat 166 181	model community
+T6	Microorganism 208 231	Lactobacillus casei FH1
+T7	Microorganism 233 264	Arthrobacter arilaitensis Re117
+T8	Microorganism 266 293	Corynebacterium casei Mu120
+T9	Microorganism 295 314	C. flavescens Mu128
+T10	Microorganism 316 334	C. variabile Mu129
+T11	Microorganism 336 363	Staphylococcus xylosus Com1
+T12	Microorganism 368 382	S. equorum Mu2
+T13	Microorganism 403 419	D. hansenii DH68
+T14	Microorganism 421 438	G. candidum GC129
+T15	Microorganism 440 458	Y. lipolytica CI35
+T16	Microorganism 463 478	K. lactis  KL65
+T17	Habitat 535 553	smear soft  cheese
+T18	Habitat 604 611	Munster
+T19	Microorganism 624 629	Re117
+T20	Habitat 631 640	Reblochon
+T21	Microorganism 643 647	Com1
+T22	Microorganism 662 665	FH1
+T23	Habitat 667 679	St. Nectaire
+T24	Phenotype 687 700	Gram-negative
+T25	Microorganism 719 730	P. celer 91
+T26	Microorganism 735 750	H. alvei  2 920
+T27	Habitat 766 773	Livarot
+T28	Habitat 778 792	Munster cheese
+T29	Habitat 834 840	cheese
+T30	Phenotype 900 929	sensitivity to 24 antibiotics
+T31	Phenotype 934 964	production of biogenic  amines
+T32	Habitat 968 983	synthetic media
+T33	Phenotype 991 1023	growth under anaerobic condition
+N1	NCBI_Taxonomy Annotation:T1 Referent:1360
+N2	OntoBiotope Annotation:T2 Referent:OBT:000019
+N3	NCBI_Taxonomy Annotation:T3 Referent:1360
+N4	OntoBiotope Annotation:T4 Referent:OBT:001480
+N5	OntoBiotope Annotation:T5 Referent:OBT:000113
+N6	NCBI_Taxonomy Annotation:T6 Referent:1582
+N7	NCBI_Taxonomy Annotation:T7 Referent:861360
+N8	NCBI_Taxonomy Annotation:T8 Referent:160386
+N9	NCBI_Taxonomy Annotation:T9 Referent:1255670
+N10	NCBI_Taxonomy Annotation:T10 Referent:1727
+N11	NCBI_Taxonomy Annotation:T11 Referent:1288
+N12	NCBI_Taxonomy Annotation:T12 Referent:246432
+N13	NCBI_Taxonomy Annotation:T13 Referent:4959
+N14	NCBI_Taxonomy Annotation:T14 Referent:1173061
+N15	NCBI_Taxonomy Annotation:T15 Referent:4952
+N16	NCBI_Taxonomy Annotation:T16 Referent:28985
+N17	OntoBiotope Annotation:T17 Referent:OBT:003494
+N18	OntoBiotope Annotation:T18 Referent:OBT:003512
+N19	NCBI_Taxonomy Annotation:T19 Referent:861360
+N20	OntoBiotope Annotation:T20 Referent:OBT:003516
+N21	NCBI_Taxonomy Annotation:T21 Referent:1288
+N22	NCBI_Taxonomy Annotation:T22 Referent:1582
+N23	OntoBiotope Annotation:T23 Referent:OBT:003519
+N24	OntoBiotope Annotation:T24 Referent:OBT:000648
+N25	NCBI_Taxonomy Annotation:T25 Referent:306572
+N26	NCBI_Taxonomy Annotation:T26 Referent:569
+N27	OntoBiotope Annotation:T27 Referent:OBT:003510
+N28	OntoBiotope Annotation:T28 Referent:OBT:003512
+N29	OntoBiotope Annotation:T29 Referent:OBT:001480
+N30	OntoBiotope Annotation:T30 Referent:OBT:002675
+N31	OntoBiotope Annotation:T31 Referent:OBT:000019
+N32	OntoBiotope Annotation:T32 Referent:OBT:000007
+N33	OntoBiotope Annotation:T33 Referent:OBT:000189
+R1	Lives_In Microorganism:T1 Location:T4
+R2	Lives_In Microorganism:T3 Location:T4
+R3	Exhibits Microorganism:T3 Property:T2
+R4	Lives_In Microorganism:T6 Location:T17
+R5	Lives_In Microorganism:T6 Location:T5
+R6	Lives_In Microorganism:T7 Location:T5
+R7	Lives_In Microorganism:T7 Location:T17
+R8	Lives_In Microorganism:T8 Location:T5
+R9	Lives_In Microorganism:T8 Location:T18
+R10	Lives_In Microorganism:T8 Location:T17
+R11	Lives_In Microorganism:T9 Location:T5
+R12	Lives_In Microorganism:T9 Location:T17
+R13	Lives_In Microorganism:T9 Location:T18
+R14	Lives_In Microorganism:T10 Location:T5
+R15	Lives_In Microorganism:T10 Location:T18
+R16	Lives_In Microorganism:T10 Location:T17
+R17	Lives_In Microorganism:T11 Location:T18
+R18	Lives_In Microorganism:T11 Location:T5
+R19	Lives_In Microorganism:T11 Location:T17
+R20	Lives_In Microorganism:T12 Location:T5
+R21	Lives_In Microorganism:T12 Location:T17
+R22	Lives_In Microorganism:T12 Location:T18
+R23	Lives_In Microorganism:T13 Location:T5
+R24	Lives_In Microorganism:T13 Location:T18
+R25	Lives_In Microorganism:T13 Location:T17
+R26	Lives_In Microorganism:T14 Location:T17
+R27	Lives_In Microorganism:T14 Location:T5
+R28	Lives_In Microorganism:T14 Location:T18
+R29	Lives_In Microorganism:T15 Location:T18
+R30	Lives_In Microorganism:T15 Location:T17
+R31	Lives_In Microorganism:T15 Location:T5
+R32	Lives_In Microorganism:T16 Location:T17
+R33	Lives_In Microorganism:T16 Location:T5
+R34	Lives_In Microorganism:T16 Location:T18
+R35	Lives_In Microorganism:T19 Location:T20
+R36	Lives_In Microorganism:T22 Location:T23
+R37	Lives_In Microorganism:T25 Location:T32
+R38	Lives_In Microorganism:T25 Location:T27
+R39	Exhibits Microorganism:T25 Property:T24
+R40	Exhibits Microorganism:T25 Property:T30
+R41	Lives_In Microorganism:T26 Location:T32
+R42	Lives_In Microorganism:T26 Location:T28
+R43	Exhibits Microorganism:T26 Property:T30
+R44	Exhibits Microorganism:T26 Property:T24

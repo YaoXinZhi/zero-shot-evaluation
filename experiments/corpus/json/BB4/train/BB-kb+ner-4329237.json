@@ -1,0 +1,48 @@
+{
+    "entities": [
+        {
+            "id": "T2",
+            "type": "Habitat",
+            "name": "Macaca mulatta sensitized with bacille Calmette Guerin cell wall vaccine",
+            "OntoBiotope": "OBT:002201"
+        },
+        {
+            "id": "T3",
+            "type": "Habitat",
+            "name": "Macaca mulatta infected with virulent Mycobacterium tuberculosis",
+            "OntoBiotope": "OBT:002201"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "bacille Calmette Guerin",
+            "NCBI_Taxonomy": "33892"
+        },
+        {
+            "id": "T5",
+            "type": "Habitat",
+            "name": "bacille Calmette Guerin cell wall vaccine",
+            "OntoBiotope": "OBT:000464"
+        },
+        {
+            "id": "T6",
+            "type": "Phenotype",
+            "name": "virulent",
+            "OntoBiotope": "OBT:002669"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "Mycobacterium tuberculosis",
+            "NCBI_Taxonomy": "1773"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T7",
+            "target": "T6"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Disease",
+            "name": "Flavescence dor\u00e9e"
+        },
+        {
+            "id": "T7",
+            "type": "Disease",
+            "name": "Flavescence dor\u00e9e"
+        },
+        {
+            "id": "T8",
+            "type": "Disease",
+            "name": "flavescence dor\u00e9e"
+        },
+        {
+            "id": "T9",
+            "type": "Vector",
+            "name": "Scaphodeus Titanus",
+            "NCBI_Taxonomy": "376741"
+        },
+        {
+            "id": "T10",
+            "type": "Plant",
+            "name": "vine",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T11",
+            "type": "Plant",
+            "name": "wild vines",
+            "NCBI_Taxonomy": "3603"
+        },
+        {
+            "id": "T12",
+            "type": "Disease",
+            "name": "Flavescence dor\u00e9e"
+        },
+        {
+            "id": "T13",
+            "type": "Location",
+            "name": "Burgundy",
+            "GeoNames": "3030967"
+        },
+        {
+            "id": "T14",
+            "type": "Location",
+            "name": "New Zealand",
+            "GeoNames": "2186224"
+        },
+        {
+            "id": "T15",
+            "type": "Disease",
+            "name": "leaf roll"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Has been found on",
+            "source": "T9",
+            "target": "T10"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T9",
+            "target": "T11"
+        },
+        {
+            "type": "Located in",
+            "source": "T12",
+            "target": "T13"
+        }
+    ]
+}

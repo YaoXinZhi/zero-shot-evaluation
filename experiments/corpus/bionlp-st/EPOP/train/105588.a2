@@ -1,0 +1,69 @@
+T14	Pest 54 61	Xylella
+T15	Pest 464 482	Xylella fastidiosa
+T16	Date 617 623	So far
+T17	Location 632 648	Balearic Islands
+T18	Location 757 767	Formentera
+T19	Date 788 801	at the moment
+T20	Date 1036 1051	in October 2019
+T21	Location 1115 1131	Balearic Islands
+T22	Location 1424 1440	Balearic Islands
+T23	Location 1640 1656	Balearic Islands
+T24	Plant 1707 1719	almond trees
+T25	Date 1720 1729	this year
+T26	Location 1775 1791	Balearic Islands
+T27	Date 1793 1808	in October 2016
+T28	Location 1908 1924	Balearic Islands
+T29	Pest 2035 2044	multiplex
+T30	Pest 2047 2057	fastidiosa
+T31	Pest 2062 2067	pauca
+T32	Location 2085 2090	Ibiza
+T33	Pest 2126 2133	Xylella
+T34	Pest 2389 2407	Xylella fastidiosa
+T35	Plant 2867 2873;2884 2889	almond trees
+T36	Plant 2878 2889	carob trees
+T37	Plant 2931 2943	almond trees
+N1	NCBI_Taxonomy Annotation:T14 Referent:2371
+N2	NCBI_Taxonomy Annotation:T15 Referent:2371
+N3	GeoNames Annotation:T17 Referent:2521383
+N4	GeoNames Annotation:T18 Referent:6356033
+N5	GeoNames Annotation:T21 Referent:2521383
+N6	GeoNames Annotation:T22 Referent:2521383
+N7	GeoNames Annotation:T23 Referent:2521383
+N8	NCBI_Taxonomy Annotation:T24 Referent:3755
+N9	GeoNames Annotation:T26 Referent:2521383
+N10	GeoNames Annotation:T28 Referent:2521383
+N11	NCBI_Taxonomy Annotation:T29 Referent:644357
+N12	NCBI_Taxonomy Annotation:T30 Referent:644356
+N13	NCBI_Taxonomy Annotation:T31 Referent:698414
+N14	GeoNames Annotation:T32 Referent:2516477
+N15	NCBI_Taxonomy Annotation:T33 Referent:2371
+N16	NCBI_Taxonomy Annotation:T34 Referent:2371
+N17	NCBI_Taxonomy Annotation:T35 Referent:3755
+N18	NCBI_Taxonomy Annotation:T36 Referent:20340
+N19	NCBI_Taxonomy Annotation:T37 Referent:3755
+R1	Detected_on Object:T14 Date:T27
+R2	Located_in Object:T14 Location:T26
+R3	Detected_on Object:T15 Date:T16
+R4	Located_in Object:T15 Location:T17
+R5	Located_in Object:T15 Location:T18
+R6	Detected_on Object:T24 Date:T25
+R7	Located_in Object:T24 Location:T23
+R8	Detected_on Object:T29 Date:T27
+R9	Located_in Object:T29 Location:T32
+R10	Located_in Object:T29 Location:T28
+R11	Detected_on Object:T30 Date:T27
+R12	Located_in Object:T30 Location:T32
+R13	Located_in Object:T30 Location:T28
+R14	Located_in Object:T31 Location:T28
+R15	Located_in Object:T31 Location:T32
+E1	Nary Organisme_nuisible:T14 Lieu:T26 Date:T27
+E2	Nary Organisme_nuisible:T15 Lieu:T17 Date:T16
+E3	Nary Organisme_nuisible:T15 Lieu:T18
+E4	Nary Plante:T24 Lieu:T23 Date:T25
+E5	Nary Organisme_nuisible:T29 Lieu:T28 Date:T27
+E6	Nary Organisme_nuisible:T29 Lieu:T32
+E7	Nary Organisme_nuisible:T30 Lieu:T28 Date:T27
+E8	Nary Organisme_nuisible:T30 Lieu:T32
+E9	Nary Organisme_nuisible:T31 Lieu:T28
+E10	Nary Organisme_nuisible:T31 Lieu:T32
+*	Equiv T22 T28 T26 T23

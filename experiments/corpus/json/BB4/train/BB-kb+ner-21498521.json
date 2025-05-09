@@ -1,0 +1,123 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Vibrio fischeri",
+            "NCBI_Taxonomy": "668"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "Vibrio fischeri",
+            "NCBI_Taxonomy": "668"
+        },
+        {
+            "id": "T5",
+            "type": "Phenotype",
+            "name": "bioluminescent",
+            "OntoBiotope": "OBT:000055"
+        },
+        {
+            "id": "T6",
+            "type": "Habitat",
+            "name": "marine",
+            "OntoBiotope": "OBT:000338"
+        },
+        {
+            "id": "T7",
+            "type": "Phenotype",
+            "name": "exclusive symbiotic relationship",
+            "OntoBiotope": "OBT:003183"
+        },
+        {
+            "id": "T8",
+            "type": "Habitat",
+            "name": "Hawaiian bobtail squid",
+            "OntoBiotope": "OBT:003123"
+        },
+        {
+            "id": "T9",
+            "type": "Habitat",
+            "name": "Euprymna scolopes",
+            "OntoBiotope": "OBT:003123"
+        },
+        {
+            "id": "T10",
+            "type": "Habitat",
+            "name": "light organ",
+            "OntoBiotope": "OBT:000708"
+        },
+        {
+            "id": "T11",
+            "type": "Microorganism",
+            "name": "V. fischeri",
+            "NCBI_Taxonomy": "668"
+        },
+        {
+            "id": "T12",
+            "type": "Habitat",
+            "name": "juvenile squid's light organ",
+            "OntoBiotope": "OBT:000708"
+        },
+        {
+            "id": "T13",
+            "type": "Habitat",
+            "name": "juvenile squid",
+            "OntoBiotope": "OBT:001849"
+        },
+        {
+            "id": "T14",
+            "type": "Microorganism",
+            "name": "V. fischeri ES114",
+            "NCBI_Taxonomy": "312309"
+        },
+        {
+            "id": "T15",
+            "type": "Habitat",
+            "name": "microheterogeneous mixture of mono- and diphosphorylated diglucosamine disaccharides",
+            "OntoBiotope": "OBT:000007"
+        },
+        {
+            "id": "T16",
+            "type": "Microorganism",
+            "name": "V. fischeri",
+            "NCBI_Taxonomy": "668"
+        },
+        {
+            "id": "T17",
+            "type": "Habitat",
+            "name": "E. scolopes",
+            "OntoBiotope": "OBT:003123"
+        },
+        {
+            "id": "T18",
+            "type": "Phenotype",
+            "name": "symbiotic",
+            "OntoBiotope": "OBT:003183"
+        }
+    ],
+    "equivalences": [
+        [
+            "T8",
+            "T9"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T5"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T7"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T16",
+            "target": "T18"
+        }
+    ]
+}

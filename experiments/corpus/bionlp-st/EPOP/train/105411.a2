@@ -1,0 +1,47 @@
+T6	Plant 0 5	Olive
+T7	Pest 50 68	Xylella Fastidiosa
+T8	Plant 106 111	Olive
+T9	Pest 156 174	Xylella Fastidiosa
+T10	Location 227 231	Rome
+T11	Date 233 250	08 September 2022
+T12	Plant 297 302	Olive
+T13	Pest 353 371	Xylella Fastidiosa
+T14	Date 442 451	last July
+T15	Plant 581 592	olive trees
+T16	Location 608 620	Salento area
+T17	Plant 689 700	olive trees
+T18	Date 866 870	2013
+T19	Date 872 876	2016
+T20	Date 881 885	2019
+T21	Plant 892 897	olive
+T22	Plant 1412 1417	olive
+T23	Location 1511 1524	Puglia Region
+T24	Location 1858 1864	Puglia
+T25	Plant 1865 1870	olive
+N1	NCBI_Taxonomy Annotation:T6 Referent:4146
+N2	NCBI_Taxonomy Annotation:T7 Referent:2371
+N3	NCBI_Taxonomy Annotation:T8 Referent:4146
+N4	NCBI_Taxonomy Annotation:T9 Referent:2371
+N5	GeoNames Annotation:T10 Referent:3169070
+N6	NCBI_Taxonomy Annotation:T12 Referent:158383
+N7	NCBI_Taxonomy Annotation:T13 Referent:2371
+N8	NCBI_Taxonomy Annotation:T15 Referent:158383
+N9	GeoNames Annotation:T16 Referent:6540006
+N10	NCBI_Taxonomy Annotation:T17 Referent:158383
+N11	NCBI_Taxonomy Annotation:T21 Referent:158383
+N12	NCBI_Taxonomy Annotation:T22 Referent:158383
+N13	GeoNames Annotation:T23 Referent:3169778
+N14	GeoNames Annotation:T24 Referent:3169778
+N15	NCBI_Taxonomy Annotation:T25 Referent:158383
+R1	Found_on Organism:T7 Habitat:T6
+R2	Found_on Organism:T9 Habitat:T8
+R3	Found_on Organism:T13 Habitat:T12
+R4	Located_in Object:T15 Location:T16
+R5	Located_in Object:T22 Location:T23
+R6	Located_in Object:T25 Location:T24
+E1	Nary Organisme_nuisible:T7 Plante:T6
+E2	Nary Organisme_nuisible:T9 Plante:T8
+E3	Nary Organisme_nuisible:T13 Plante:T12
+E4	Nary Plante:T15 Lieu:T16
+E5	Nary Plante:T22 Lieu:T23
+E6	Nary Plante:T25 Lieu:T24

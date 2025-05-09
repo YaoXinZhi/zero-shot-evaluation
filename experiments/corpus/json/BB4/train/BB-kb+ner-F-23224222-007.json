@@ -1,0 +1,106 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Microorganism",
+            "name": "Lactococcus lactis",
+            "NCBI_Taxonomy": "1358"
+        },
+        {
+            "id": "T2",
+            "type": "Microorganism",
+            "name": "Lactococcus lactis subsp. lactis",
+            "NCBI_Taxonomy": "1360"
+        },
+        {
+            "id": "T3",
+            "type": "Habitat",
+            "name": "cheese",
+            "OntoBiotope": "OBT:001480"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "Lc. lactis subsp. cremoris",
+            "NCBI_Taxonomy": "1359"
+        },
+        {
+            "id": "T5",
+            "type": "Microorganism",
+            "name": "Lc. lactis subsp. cremoris",
+            "NCBI_Taxonomy": "1359"
+        },
+        {
+            "id": "T6",
+            "type": "Habitat",
+            "name": "cheeses",
+            "OntoBiotope": "OBT:001480"
+        },
+        {
+            "id": "T7",
+            "type": "Phenotype",
+            "name": "LAB",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T8",
+            "type": "Habitat",
+            "name": "starter culture",
+            "OntoBiotope": "OBT:001030"
+        },
+        {
+            "id": "T9",
+            "type": "Phenotype",
+            "name": "NSLAB",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T10",
+            "type": "Microorganism",
+            "name": "Lactobacillus paracasei",
+            "NCBI_Taxonomy": "1597"
+        },
+        {
+            "id": "T11",
+            "type": "Habitat",
+            "name": "cheeses",
+            "OntoBiotope": "OBT:001480"
+        },
+        {
+            "id": "T12",
+            "type": "Microorganism",
+            "name": "Lb. paracasei",
+            "NCBI_Taxonomy": "1597"
+        },
+        {
+            "id": "T13",
+            "type": "Phenotype",
+            "name": "NSLAB",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T14",
+            "type": "Habitat",
+            "name": "Danbo cheeses",
+            "OntoBiotope": "OBT:003458"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T5",
+            "target": "T7"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T10",
+            "target": "T9"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T12",
+            "target": "T13"
+        }
+    ]
+}

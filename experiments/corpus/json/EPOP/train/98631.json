@@ -1,0 +1,207 @@
+{
+    "entities": [
+        {
+            "id": "T45",
+            "type": "Pest",
+            "name": "Spodoptera frugiperda",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T47",
+            "type": "Location",
+            "name": "Africa",
+            "GeoNames": "6255146"
+        },
+        {
+            "id": "T48",
+            "type": "Pest",
+            "name": "fall armyworm",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T49",
+            "type": "Pest",
+            "name": "FAW",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T50",
+            "type": "Pest",
+            "name": "Spodoptera frugiperda (JE Smith)",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T51",
+            "type": "Location",
+            "name": "African continent",
+            "GeoNames": "6255146"
+        },
+        {
+            "id": "T52",
+            "type": "Plant",
+            "name": "maize",
+            "NCBI_Taxonomy": "381124"
+        },
+        {
+            "id": "T53",
+            "type": "Pest",
+            "name": "fall armyworm",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T54",
+            "type": "Pest",
+            "name": "FAW",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T55",
+            "type": "Pest",
+            "name": "Spodoptera frugiperda",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T57",
+            "type": "Location",
+            "name": "Africa",
+            "GeoNames": "6255146"
+        },
+        {
+            "id": "T60",
+            "type": "Pest",
+            "name": "Spodoptera frugiperda",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T62",
+            "type": "Location",
+            "name": "Africa",
+            "GeoNames": "6255146"
+        },
+        {
+            "id": "T63",
+            "type": "Pest",
+            "name": "fall armyworm",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T64",
+            "type": "Pest",
+            "name": "FAW",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T65",
+            "type": "Pest",
+            "name": "Spodoptera frugiperda (JE Smith)",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T66",
+            "type": "Location",
+            "name": "African continent",
+            "GeoNames": "6255146"
+        },
+        {
+            "id": "T67",
+            "type": "Plant",
+            "name": "maize",
+            "NCBI_Taxonomy": "381124"
+        },
+        {
+            "id": "T68",
+            "type": "Pest",
+            "name": "fall armyworm",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T69",
+            "type": "Pest",
+            "name": "FAW",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T71",
+            "type": "Plant",
+            "name": "MAIZE",
+            "NCBI_Taxonomy": "381124"
+        },
+        {
+            "id": "T72",
+            "type": "Location",
+            "name": "Africa",
+            "GeoNames": "6255146"
+        },
+        {
+            "id": "T73",
+            "type": "Location",
+            "name": "Western Africa",
+            "GeoNames": "7729885"
+        },
+        {
+            "id": "T74",
+            "type": "Location",
+            "name": "Benin",
+            "GeoNames": "2395170"
+        }
+    ],
+    "equivalences": [
+        [
+            "T49",
+            "T50",
+            "T48"
+        ],
+        [
+            "T65",
+            "T64",
+            "T63"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T45",
+            "target": "T47"
+        },
+        {
+            "type": "Located in",
+            "source": "T50",
+            "target": "T51"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T50",
+            "target": "T52"
+        },
+        {
+            "type": "Located in",
+            "source": "T52",
+            "target": "T51"
+        },
+        {
+            "type": "Located in",
+            "source": "T55",
+            "target": "T57"
+        },
+        {
+            "type": "Located in",
+            "source": "T60",
+            "target": "T62"
+        },
+        {
+            "type": "Located in",
+            "source": "T65",
+            "target": "T66"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T65",
+            "target": "T67"
+        },
+        {
+            "type": "Located in",
+            "source": "T67",
+            "target": "T66"
+        }
+    ]
+}

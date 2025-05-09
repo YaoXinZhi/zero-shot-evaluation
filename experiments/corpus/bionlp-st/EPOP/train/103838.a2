@@ -1,0 +1,26 @@
+T12	Dissemination_pathway 214 233	transport of plants
+T13	Location 253 259	France
+T14	Location 296 305	Occitanie
+T15	Pest 337 355	Xylella fastidiosa
+T16	Date 370 377	in 2020
+T17	Pest 383 398	Asian capricorn
+T18	Pest 399 420	Xylotrechus chinensis
+T19	Location 441 448	Hérault
+T20	Date 449 459	since 2018
+T21	Pest 715 733	Xylella fastidiosa
+N1	OntoBiotope Annotation:T12 Referent:OBT:000394
+N2	GeoNames Annotation:T13 Referent:3017382
+N3	GeoNames Annotation:T14 Referent:11071623
+N4	NCBI_Taxonomy Annotation:T15 Referent:2371
+N5	NCBI_Taxonomy Annotation:T17 Referent:320461
+N6	NCBI_Taxonomy Annotation:T18 Referent:320461
+N7	GeoNames Annotation:T19 Referent:3013500
+N8	NCBI_Taxonomy Annotation:T21 Referent:2371
+R1	Detected_on Object:T15 Date:T16
+R2	Located_in Object:T15 Location:T14
+R3	Located_in Object:T17 Location:T19
+R4	Detected_on Object:T18 Date:T20
+R5	Located_in Object:T18 Location:T19
+E1	Nary Organisme_nuisible:T15 Lieu:T14 Date:T16
+E2	Nary Organisme_nuisible:T17 Lieu:T19
+E3	Nary Organisme_nuisible:T18 Lieu:T19 Date:T20

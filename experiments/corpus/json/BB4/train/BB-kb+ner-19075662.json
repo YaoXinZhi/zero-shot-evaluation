@@ -1,0 +1,129 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Staphylococcus",
+            "NCBI_Taxonomy": "1279"
+        },
+        {
+            "id": "T4",
+            "type": "Habitat",
+            "name": "biofilms",
+            "OntoBiotope": "OBT:000054"
+        },
+        {
+            "id": "T5",
+            "type": "Microorganism",
+            "name": "Staphylococcus",
+            "NCBI_Taxonomy": "1279"
+        },
+        {
+            "id": "T6",
+            "type": "Habitat",
+            "name": "medical devices",
+            "OntoBiotope": "OBT:000108"
+        },
+        {
+            "id": "T7",
+            "type": "Habitat",
+            "name": "Biomaterial",
+            "OntoBiotope": "OBT:000108"
+        },
+        {
+            "id": "T8",
+            "type": "Microorganism",
+            "name": "Staphylococcus epidermidis",
+            "NCBI_Taxonomy": "1282"
+        },
+        {
+            "id": "T9",
+            "type": "Microorganism",
+            "name": "Staphylococcus aureus",
+            "NCBI_Taxonomy": "1280"
+        },
+        {
+            "id": "T10",
+            "type": "Phenotype",
+            "name": "development of a biofilm",
+            "OntoBiotope": "OBT:001444"
+        },
+        {
+            "id": "T11",
+            "type": "Habitat",
+            "name": "biofilm",
+            "OntoBiotope": "OBT:000054"
+        },
+        {
+            "id": "T12",
+            "type": "Habitat",
+            "name": "host immune system",
+            "OntoBiotope": "OBT:000321"
+        },
+        {
+            "id": "T13",
+            "type": "Microorganism",
+            "name": "S. aureus",
+            "NCBI_Taxonomy": "1280"
+        },
+        {
+            "id": "T14",
+            "type": "Microorganism",
+            "name": "S. epidermidis",
+            "NCBI_Taxonomy": "1282"
+        },
+        {
+            "id": "T15",
+            "type": "Habitat",
+            "name": "biofilm",
+            "OntoBiotope": "OBT:000054"
+        },
+        {
+            "id": "T16",
+            "type": "Phenotype",
+            "name": "biofilm development",
+            "OntoBiotope": "OBT:001444"
+        },
+        {
+            "id": "T17",
+            "type": "Habitat",
+            "name": "biofilm",
+            "OntoBiotope": "OBT:000054"
+        },
+        {
+            "id": "T18",
+            "type": "Phenotype",
+            "name": "biofilm formation",
+            "OntoBiotope": "OBT:001444"
+        },
+        {
+            "id": "T19",
+            "type": "Habitat",
+            "name": "established mature biofilms",
+            "OntoBiotope": "OBT:000054"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T8",
+            "target": "T10"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T9",
+            "target": "T10"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T13",
+            "target": "T16"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T14",
+            "target": "T16"
+        }
+    ]
+}

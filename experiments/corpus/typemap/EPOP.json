@@ -1,0 +1,38 @@
+{
+    "entities": {
+	"Disease": "Disease",
+	"Location": "Location",
+	"Pest": "Pest",
+	"Plant": "Plant",
+	"Vector": "Vector"
+    },
+    "normalizations": {
+    },
+    "relations": {
+	"Causes": {
+	    "type": "Causes",
+	    "source": "Pest",
+	    "target": "Disease"
+	},
+	"Expressed_by": {
+	    "type": "Affects",
+	    "source": "Disease",
+	    "target": "Plant"
+	},
+	"Found_on": {
+	    "type": "Has been found on",
+	    "source": "Organism",
+	    "target": "Habitat"
+	},
+	"Located_in": {
+	    "type": "Located in",
+	    "source": "Object",
+	    "target": "Location"
+	},
+	"Vected_by": {
+	    "type": "Transmits",
+	    "source": "Vector",
+	    "target": "Nuisance"
+	}
+    }
+}

@@ -1,0 +1,93 @@
+T12	Location 58 64	MADRID
+T13	Dissemination_pathway 186 192	plants
+T14	Dissemination_pathway 196 204	cuttings
+T15	Location 229 234	Spain
+T16	Pest 282 289	Xylella
+T17	Location 428 434	MADRID
+T18	Dissemination_pathway 517 545	everyone who goes on holiday
+T19	Dissemination_pathway 556 562	plants
+T20	Dissemination_pathway 566 574	cuttings
+T21	Location 599 604	Spain
+T22	Pest 652 659	Xylella
+T23	Location 843 854	Netherlands
+T24	Location 878 883	Spain
+T25	Dissemination_pathway 983 992	specimens
+T26	Dissemination_pathway 996 1004	cuttings
+T27	Location 1017 1028	Netherlands
+T28	Pest 1238 1256	Xylella fastidiosa
+T29	Location 1336 1347	Netherlands
+T30	Pest 1353 1360	Xylella
+T31	Date 1455 1465	since 2013
+T32	Plant 1476 1487	olive trees
+T33	Location 1510 1515	Italy
+T34	Plant 1566 1578	blackberries
+T35	Plant 1580 1588	oleander
+T36	Plant 1593 1596	oak
+T37	Location 1617 1622	Spain
+T38	Location 1643 1659	Balearic Islands
+T39	Location 1681 1698	province Alicante
+T40	Pest 1710 1728	Xylella fastidiosa
+T41	Plant 1743 1754	olive trees
+T42	Pest 1847 1865	Xylella fastidiosa
+T43	Pest 1891 1898	Xylella
+T44	Dissemination_pathway 2156 2173	susceptible plant
+T45	Date 2193 2204	for 4 years
+N1	GeoNames Annotation:T12 Referent:3117732
+N2	OntoBiotope Annotation:T13 Referent:OBT:000394
+N3	OntoBiotope Annotation:T14 Referent:OBT:002190
+N4	GeoNames Annotation:T15 Referent:2510769
+N5	NCBI_Taxonomy Annotation:T16 Referent:2371
+N6	GeoNames Annotation:T17 Referent:3117732
+N7	OntoBiotope Annotation:T18 Referent:OBT:003308
+N8	OntoBiotope Annotation:T19 Referent:OBT:000394
+N9	OntoBiotope Annotation:T20 Referent:OBT:002190
+N10	GeoNames Annotation:T21 Referent:2510769
+N11	NCBI_Taxonomy Annotation:T22 Referent:2371
+N12	GeoNames Annotation:T23 Referent:2750405
+N13	GeoNames Annotation:T24 Referent:2510769
+N14	OntoBiotope Annotation:T25 Referent:OBT:000394
+N15	OntoBiotope Annotation:T26 Referent:OBT:002190
+N16	GeoNames Annotation:T27 Referent:2750405
+N17	NCBI_Taxonomy Annotation:T28 Referent:2371
+N18	GeoNames Annotation:T29 Referent:2750405
+N19	NCBI_Taxonomy Annotation:T30 Referent:2371
+N20	NCBI_Taxonomy Annotation:T32 Referent:4146
+N21	GeoNames Annotation:T33 Referent:3175395
+N22	NCBI_Taxonomy Annotation:T34 Referent:23216
+N23	NCBI_Taxonomy Annotation:T35 Referent:63479
+N24	NCBI_Taxonomy Annotation:T36 Referent:3511
+N25	GeoNames Annotation:T37 Referent:2510769
+N26	GeoNames Annotation:T38 Referent:2521383
+N27	GeoNames Annotation:T39 Referent:2521976
+N28	NCBI_Taxonomy Annotation:T40 Referent:2371
+N29	NCBI_Taxonomy Annotation:T41 Referent:4146
+N30	NCBI_Taxonomy Annotation:T42 Referent:2371
+N31	NCBI_Taxonomy Annotation:T43 Referent:2371
+N32	OntoBiotope Annotation:T44 Referent:OBT:000394
+R1	Found_on Organism:T16 Habitat:T14
+R2	Found_on Organism:T16 Habitat:T13
+R3	Located_in Object:T22 Location:T21
+R4	Found_on Organism:T30 Habitat:T34
+R5	Found_on Organism:T30 Habitat:T35
+R6	Found_on Organism:T30 Habitat:T32
+R7	Found_on Organism:T30 Habitat:T36
+R8	Located_in Object:T30 Location:T33
+R9	Located_in Object:T32 Location:T33
+R10	Found_on Organism:T40 Habitat:T41
+R11	Located_in Object:T40 Location:T37
+R12	Located_in Object:T40 Location:T39
+R13	Located_in Object:T40 Location:T38
+R14	Located_in Object:T41 Location:T37
+R15	Located_in Object:T41 Location:T39
+R16	Located_in Object:T41 Location:T38
+E1	Nary Organisme_nuisible:T16 Voie_de_dispersion:T14
+E2	Nary Organisme_nuisible:T16 Voie_de_dispersion:T13
+E3	Nary Organisme_nuisible:T22 Lieu:T21
+E4	Nary Organisme_nuisible:T30 Plante:T34
+E5	Nary Organisme_nuisible:T30 Plante:T35
+E6	Nary Organisme_nuisible:T30 Plante:T36
+E7	Nary Organisme_nuisible:T30 Plante:T32 Lieu:T33
+E8	Nary Organisme_nuisible:T40 Plante:T41 Lieu:T37
+E9	Nary Organisme_nuisible:T40 Plante:T41 Lieu:T39
+E10	Nary Organisme_nuisible:T40 Plante:T41 Lieu:T38
+*	Equiv T30 T28

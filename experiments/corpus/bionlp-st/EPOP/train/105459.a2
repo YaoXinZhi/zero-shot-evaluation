@@ -1,0 +1,26 @@
+T8	Location 0 9	Magdeburg
+T9	Location 84 93	Magdeburg
+T10	Pest 127 151	Asian long-horned beetle
+T11	Date 182 210	Wednesday, September 7, 2022
+T12	Location 211 220	Magdeburg
+T13	Pest 266 287	Asian longhorn beetle
+T14	Location 295 305	Wiesenpark
+T15	Date 445 451	in May
+T16	Plant 543 550	poplars
+T17	Plant 555 562	willows
+N1	GeoNames Annotation:T8 Referent:2874544
+N2	GeoNames Annotation:T9 Referent:2874544
+N3	NCBI_Taxonomy Annotation:T10 Referent:217634
+N4	GeoNames Annotation:T12 Referent:2874544
+N5	NCBI_Taxonomy Annotation:T13 Referent:217634
+N6	GeoNames Annotation:T14 Referent:2874544
+N7	NCBI_Taxonomy Annotation:T16 Referent:3689
+N8	NCBI_Taxonomy Annotation:T17 Referent:40685
+R1	Located_in Object:T10 Location:T9
+R2	Detected_on Object:T13 Date:T15
+R3	Located_in Object:T13 Location:T12
+R4	Located_in Object:T13 Location:T14
+E1	Nary Organisme_nuisible:T10 Lieu:T9
+E2	Nary Organisme_nuisible:T13 Date:T15
+E3	Nary Organisme_nuisible:T13 Lieu:T12
+E4	Nary Organisme_nuisible:T13 Lieu:T14

@@ -1,0 +1,94 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Pest",
+            "name": "Xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T5",
+            "type": "Pest",
+            "name": "Xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T7",
+            "type": "Pest",
+            "name": "Xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T8",
+            "type": "Location",
+            "name": "Southern Europe",
+            "GeoNames": "9408658"
+        },
+        {
+            "id": "T9",
+            "type": "Plant",
+            "name": "olive trees",
+            "NCBI_Taxonomy": "4146"
+        },
+        {
+            "id": "T10",
+            "type": "Plant",
+            "name": "citrus trees",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T11",
+            "type": "Plant",
+            "name": "lavender",
+            "NCBI_Taxonomy": "39329"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T7",
+            "target": "T8"
+        },
+        {
+            "type": "Located in",
+            "source": "T7",
+            "target": "T8"
+        },
+        {
+            "type": "Located in",
+            "source": "T7",
+            "target": "T8"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T7",
+            "target": "T9"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T7",
+            "target": "T11"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T7",
+            "target": "T10"
+        },
+        {
+            "type": "Located in",
+            "source": "T9",
+            "target": "T8"
+        },
+        {
+            "type": "Located in",
+            "source": "T10",
+            "target": "T8"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T8"
+        }
+    ]
+}

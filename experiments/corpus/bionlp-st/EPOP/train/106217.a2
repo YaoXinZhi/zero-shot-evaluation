@@ -1,0 +1,83 @@
+T13	Pest 0 7	Xylella
+T14	Location 32 49	Castellana Grotte
+T15	Location 52 57	Italy
+T16	Pest 88 117	Xylella fastidiosa pauca ST53
+T17	Location 178 184	Puglia
+T18	Date 301 318	as of 9 September
+T19	Plant 370 381	olive trees
+T20	Location 395 427	countryside of Castellana Grotte
+T21	Pest 475 504	Xylella fastidiosa pauca ST53
+T22	Location 565 571	Puglia
+T23	Date 688 705	as of 9 September
+T24	Plant 757 768	olive trees
+T25	Location 782 814	countryside of Castellana Grotte
+T26	Location 842 858	province of Bari
+T27	Location 864 875	Locorotondo
+T28	Location 877 885	Monopoli
+T29	Location 887 896	Polignano
+T30	Location 901 912	Alberobello
+T31	Date 939 970	Between June and September 2022
+T32	Location 1060 1073	Puglia Region
+T33	Pest 1099 1117	Xylella fastidiosa
+T34	Date 1144 1172	between June and August 2022
+T35	Date 1408 1414	So far
+T36	Location 1448 1463	Northern Puglia
+N1	NCBI_Taxonomy Annotation:T13 Referent:2371
+N2	GeoNames Annotation:T14 Referent:6536401
+N3	GeoNames Annotation:T15 Referent:3175395
+N4	NCBI_Taxonomy Annotation:T16 Referent:698414
+N5	GeoNames Annotation:T17 Referent:3169778
+N6	NCBI_Taxonomy Annotation:T19 Referent:4146
+N7	GeoNames Annotation:T20 Referent:6536401
+N8	NCBI_Taxonomy Annotation:T21 Referent:698414
+N9	GeoNames Annotation:T22 Referent:3169778
+N10	NCBI_Taxonomy Annotation:T24 Referent:4146
+N11	GeoNames Annotation:T25 Referent:6536401
+N12	GeoNames Annotation:T26 Referent:3182350
+N13	GeoNames Annotation:T27 Referent:6538944
+N14	GeoNames Annotation:T28 Referent:6541257
+N15	GeoNames Annotation:T29 Referent:6537556
+N16	GeoNames Annotation:T30 Referent:6541733
+N17	GeoNames Annotation:T32 Referent:3169778
+N18	NCBI_Taxonomy Annotation:T33 Referent:2371
+N19	GeoNames Annotation:T36 Referent:3169778
+R1	Located_in Object:T13 Location:T15
+R2	Located_in Object:T13 Location:T14
+R3	Located_in Object:T16 Location:T17
+R4	Located_in Object:T16 Location:T20
+R5	Detected_on Object:T16 Date:T18
+R6	Found_on Organism:T16 Habitat:T19
+R7	Located_in Object:T19 Location:T20
+R8	Located_in Object:T21 Location:T22
+R9	Located_in Object:T21 Location:T25
+R10	Located_in Object:T21 Location:T30
+R11	Located_in Object:T21 Location:T28
+R12	Located_in Object:T21 Location:T29
+R13	Located_in Object:T21 Location:T27
+R14	Located_in Object:T21 Location:T26
+R15	Detected_on Object:T21 Date:T23
+R16	Found_on Organism:T21 Habitat:T24
+R17	Located_in Object:T24 Location:T25
+R18	Located_in Object:T24 Location:T30
+R19	Located_in Object:T24 Location:T28
+R20	Located_in Object:T24 Location:T29
+R21	Located_in Object:T24 Location:T27
+R22	Located_in Object:T24 Location:T26
+R23	Located_in Object:T33 Location:T36
+R24	Detected_on Object:T33 Date:T34
+R25	Detected_on Object:T33 Date:T35
+E1	Nary Organisme_nuisible:T13 Lieu:T15
+E2	Nary Organisme_nuisible:T13 Lieu:T14
+E3	Nary Organisme_nuisible:T16 Plante:T19 Lieu:T20
+E4	Nary Organisme_nuisible:T16 Lieu:T17
+E5	Nary Organisme_nuisible:T16 Date:T18
+E6	Nary Organisme_nuisible:T21 Plante:T24 Lieu:T25
+E7	Nary Organisme_nuisible:T21 Lieu:T22
+E8	Nary Organisme_nuisible:T21 Plante:T24 Lieu:T30
+E9	Nary Organisme_nuisible:T21 Plante:T24 Lieu:T28
+E10	Nary Organisme_nuisible:T21 Plante:T24 Lieu:T29
+E11	Nary Organisme_nuisible:T21 Plante:T24 Lieu:T27
+E12	Nary Organisme_nuisible:T21 Plante:T24 Lieu:T26
+E13	Nary Organisme_nuisible:T21 Date:T23
+E14	Nary Organisme_nuisible:T33 Date:T34
+E15	Nary Organisme_nuisible:T33 Lieu:T36 Date:T35

@@ -1,0 +1,60 @@
+T32	Pest 57 74	Pinewood Nematode
+T33	Pest 75 101	Bursaphelenchus xylophilus
+T34	Pest 106 123	pinewood nematode
+T35	Pest 125 128	PWN
+T36	Pest 131 157	Bursaphelenchus xylophilus
+T37	Plant 196 206	pine trees
+T38	Disease 219 236	pine wilt disease
+T39	Disease 238 241	PWD
+T40	Plant 288 300	pine species
+T41	Plant 384 389	pines
+T42	Disease 475 478	PWD
+T43	Pest 917 921	PWNs
+T44	Pest 1041 1045	PWNs
+T45	Pest 1072 1087	Bursaphelenchus
+T46	Pest 1194 1197	PWN
+T47	Pest 1274 1277	PWN
+T48	Pest 1355 1372	Pinewood Nematode
+T49	Pest 1373 1399	Bursaphelenchus xylophilus
+T50	Date 1410 1414	2022
+T51	Pest 1613 1630	Pinewood Nematode
+T52	Pest 1631 1657	Bursaphelenchus xylophilus
+T53	Pest 1821 1838	Pinewood Nematode
+T54	Pest 1839 1865	Bursaphelenchus xylophilus
+T55	Pest 2074 2091	Pinewood Nematode
+T56	Pest 2092 2118	Bursaphelenchus xylophilus
+N1	NCBI_Taxonomy Annotation:T32 Referent:6326
+N2	NCBI_Taxonomy Annotation:T33 Referent:6326
+N3	NCBI_Taxonomy Annotation:T34 Referent:6326
+N4	NCBI_Taxonomy Annotation:T35 Referent:6326
+N5	NCBI_Taxonomy Annotation:T36 Referent:6326
+N6	NCBI_Taxonomy Annotation:T37 Referent:3337
+N7	NCBI_Taxonomy Annotation:T40 Referent:3337
+N8	NCBI_Taxonomy Annotation:T41 Referent:3337
+N9	NCBI_Taxonomy Annotation:T43 Referent:6326
+N10	NCBI_Taxonomy Annotation:T44 Referent:6326
+N11	NCBI_Taxonomy Annotation:T45 Referent:6324
+N12	NCBI_Taxonomy Annotation:T46 Referent:6326
+N13	NCBI_Taxonomy Annotation:T47 Referent:6326
+N14	NCBI_Taxonomy Annotation:T48 Referent:6326
+N15	NCBI_Taxonomy Annotation:T49 Referent:6326
+N16	NCBI_Taxonomy Annotation:T51 Referent:6326
+N17	NCBI_Taxonomy Annotation:T52 Referent:6326
+N18	NCBI_Taxonomy Annotation:T53 Referent:6326
+N19	NCBI_Taxonomy Annotation:T54 Referent:6326
+N20	NCBI_Taxonomy Annotation:T55 Referent:6326
+N21	NCBI_Taxonomy Annotation:T56 Referent:6326
+R1	Found_on Organism:T36 Habitat:T40
+R2	Found_on Organism:T36 Habitat:T37
+R3	Causes Pest:T36 Disease:T38
+R4	Expressed_by Disease:T38 Plant:T40
+R5	Expressed_by Disease:T38 Plant:T37
+E1	Nary Organisme_nuisible:T36 Plante:T40 Maladie:T38
+E2	Nary Organisme_nuisible:T36 Plante:T37 Maladie:T38
+*	Equiv T38 T39
+*	Equiv T34 T35 T36
+*	Equiv T48 T49
+*	Equiv T55 T56
+*	Equiv T53 T54
+*	Equiv T51 T52
+*	Equiv T32 T33

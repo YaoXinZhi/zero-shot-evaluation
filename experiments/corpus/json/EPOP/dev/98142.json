@@ -1,0 +1,213 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Plant",
+            "name": "citrus plants",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T17",
+            "type": "Location",
+            "name": "Entre R\u00edos",
+            "GeoNames": "3434137"
+        },
+        {
+            "id": "T18",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T19",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T20",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T21",
+            "type": "Plant",
+            "name": "citrus plants",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T22",
+            "type": "Location",
+            "name": "province of Entre R\u00edos",
+            "GeoNames": "3434137"
+        },
+        {
+            "id": "T23",
+            "type": "Disease",
+            "name": "Huanglongbing"
+        },
+        {
+            "id": "T24",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T25",
+            "type": "Location",
+            "name": "town of Osvaldo Magnasco",
+            "GeoNames": "3430270"
+        },
+        {
+            "id": "T26",
+            "type": "Location",
+            "name": "department of Concordia",
+            "GeoNames": "3435260"
+        },
+        {
+            "id": "T27",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T28",
+            "type": "Pest",
+            "name": "Candidatus liberibacter",
+            "NCBI_Taxonomy": "34021"
+        },
+        {
+            "id": "T29",
+            "type": "Plant",
+            "name": "citrus fruits",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T31",
+            "type": "Plant",
+            "name": "citrus plants",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T32",
+            "type": "Plant",
+            "name": "poncirus trifoliata",
+            "NCBI_Taxonomy": "37690"
+        },
+        {
+            "id": "T33",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T34",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T35",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T36",
+            "type": "Location",
+            "name": "Entre R\u00edos",
+            "GeoNames": "3434137"
+        },
+        {
+            "id": "T37",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T38",
+            "type": "Plant",
+            "name": "Citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T39",
+            "type": "Location",
+            "name": "northeast of Entre R\u00edos",
+            "GeoNames": "3434137"
+        },
+        {
+            "id": "T40",
+            "type": "Disease",
+            "name": "HLB"
+        }
+    ],
+    "equivalences": [
+        [
+            "T24",
+            "T23"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T16",
+            "target": "T17"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T17"
+        },
+        {
+            "type": "Affects",
+            "source": "T18",
+            "target": "T16"
+        },
+        {
+            "type": "Affects",
+            "source": "T19",
+            "target": "T20"
+        },
+        {
+            "type": "Located in",
+            "source": "T21",
+            "target": "T22"
+        },
+        {
+            "type": "Located in",
+            "source": "T23",
+            "target": "T22"
+        },
+        {
+            "type": "Affects",
+            "source": "T23",
+            "target": "T21"
+        },
+        {
+            "type": "Affects",
+            "source": "T27",
+            "target": "T29"
+        },
+        {
+            "type": "Causes",
+            "source": "T28",
+            "target": "T27"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T28",
+            "target": "T29"
+        },
+        {
+            "type": "Affects",
+            "source": "T33",
+            "target": "T34"
+        },
+        {
+            "type": "Located in",
+            "source": "T37",
+            "target": "T36"
+        },
+        {
+            "type": "Located in",
+            "source": "T38",
+            "target": "T39"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "entities": [
+        {
+            "id": "T28",
+            "type": "Location",
+            "name": "Midlands",
+            "GeoNames": "2642562"
+        },
+        {
+            "id": "T29",
+            "type": "Plant",
+            "name": "strawberries",
+            "NCBI_Taxonomy": "3747"
+        },
+        {
+            "id": "T30",
+            "type": "Pest",
+            "name": "potato aphid",
+            "NCBI_Taxonomy": "13131"
+        },
+        {
+            "id": "T34",
+            "type": "Location",
+            "name": "Central Europe",
+            "GeoNames": "12217848"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T29",
+            "target": "T28"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T30",
+            "target": "T29"
+        },
+        {
+            "type": "Located in",
+            "source": "T30",
+            "target": "T28"
+        }
+    ]
+}

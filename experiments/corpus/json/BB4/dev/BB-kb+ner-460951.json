@@ -1,0 +1,101 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "mycobacteria",
+            "NCBI_Taxonomy": "1763"
+        },
+        {
+            "id": "T4",
+            "type": "Phenotype",
+            "name": "causing non-pulmonary disease",
+            "OntoBiotope": "OBT:002806"
+        },
+        {
+            "id": "T5",
+            "type": "Habitat",
+            "name": "pulmonary",
+            "OntoBiotope": "OBT:000716"
+        },
+        {
+            "id": "T6",
+            "type": "Habitat",
+            "name": "Tuberculosis Reference Laboratory",
+            "OntoBiotope": "OBT:001169"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "mycobacteria",
+            "NCBI_Taxonomy": "1763"
+        },
+        {
+            "id": "T8",
+            "type": "Habitat",
+            "name": "pulmonary",
+            "OntoBiotope": "OBT:000716"
+        },
+        {
+            "id": "T9",
+            "type": "Phenotype",
+            "name": "complicity in disease",
+            "OntoBiotope": "OBT:002806"
+        },
+        {
+            "id": "T10",
+            "type": "Habitat",
+            "name": "lymph node",
+            "OntoBiotope": "OBT:000718"
+        },
+        {
+            "id": "T11",
+            "type": "Habitat",
+            "name": "lymph",
+            "OntoBiotope": "OBT:000717"
+        },
+        {
+            "id": "T12",
+            "type": "Habitat",
+            "name": "children",
+            "OntoBiotope": "OBT:003269"
+        },
+        {
+            "id": "T13",
+            "type": "Microorganism",
+            "name": "M. fortuitum-chelonei complex",
+            "NCBI_Taxonomy": "1774"
+        },
+        {
+            "id": "T14",
+            "type": "Habitat",
+            "name": "superficial abscesses",
+            "OntoBiotope": "OBT:000476"
+        },
+        {
+            "id": "T15",
+            "type": "Microorganism",
+            "name": "M. marinum",
+            "NCBI_Taxonomy": "1781"
+        },
+        {
+            "id": "T16",
+            "type": "Microorganism",
+            "name": "M. ulcerans",
+            "NCBI_Taxonomy": "1809"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T3",
+            "target": "T4"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T7",
+            "target": "T9"
+        }
+    ]
+}

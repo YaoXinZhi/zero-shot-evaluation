@@ -1,0 +1,48 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Streptococcus pneumoniae",
+            "NCBI_Taxonomy": "1313"
+        },
+        {
+            "id": "T4",
+            "type": "Phenotype",
+            "name": "bacterial pathogenesis",
+            "OntoBiotope": "OBT:000375"
+        },
+        {
+            "id": "T5",
+            "type": "Phenotype",
+            "name": "virulence",
+            "OntoBiotope": "OBT:000375"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "Streptococcus pneumoniae",
+            "NCBI_Taxonomy": "1313"
+        },
+        {
+            "id": "T7",
+            "type": "Phenotype",
+            "name": "Gram-positive",
+            "OntoBiotope": "OBT:000649"
+        },
+        {
+            "id": "T8",
+            "type": "Phenotype",
+            "name": "virulence",
+            "OntoBiotope": "OBT:000375"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T6",
+            "target": "T7"
+        }
+    ]
+}

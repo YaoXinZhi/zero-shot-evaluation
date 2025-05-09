@@ -1,0 +1,152 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Location",
+            "name": "European Union",
+            "GeoNames": "6695072"
+        },
+        {
+            "id": "T24",
+            "type": "Location",
+            "name": "Mercosur countries",
+            "GeoNames": "11812364"
+        },
+        {
+            "id": "T25",
+            "type": "Location",
+            "name": "Brazil",
+            "GeoNames": "3469034"
+        },
+        {
+            "id": "T26",
+            "type": "Location",
+            "name": "Argentina",
+            "GeoNames": "3865483"
+        },
+        {
+            "id": "T27",
+            "type": "Location",
+            "name": "Uruguay",
+            "GeoNames": "3439705"
+        },
+        {
+            "id": "T29",
+            "type": "Location",
+            "name": "Brazil",
+            "GeoNames": "3469034"
+        },
+        {
+            "id": "T31",
+            "type": "Location",
+            "name": "Argentina",
+            "GeoNames": "3865483"
+        },
+        {
+            "id": "T32",
+            "type": "Location",
+            "name": "Uruguay",
+            "GeoNames": "3439705"
+        },
+        {
+            "id": "T34",
+            "type": "Location",
+            "name": "Colombia",
+            "GeoNames": "3686110"
+        },
+        {
+            "id": "T37",
+            "type": "Location",
+            "name": "South Africa",
+            "GeoNames": "953987"
+        },
+        {
+            "id": "T38",
+            "type": "Location",
+            "name": "South Africa",
+            "GeoNames": "953987"
+        },
+        {
+            "id": "T44",
+            "type": "Pest",
+            "name": "Phyllosticta citricarpa",
+            "NCBI_Taxonomy": "55181"
+        },
+        {
+            "id": "T45",
+            "type": "Disease",
+            "name": "citrus black spot disease"
+        },
+        {
+            "id": "T46",
+            "type": "Location",
+            "name": "EU",
+            "GeoNames": "6695072"
+        },
+        {
+            "id": "T48",
+            "type": "Pest",
+            "name": "Xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T49",
+            "type": "Pest",
+            "name": "South African Cotonet",
+            "NCBI_Taxonomy": "1112575"
+        }
+    ],
+    "equivalences": [
+        [
+            "T37",
+            "T38"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T44",
+            "target": "T38"
+        },
+        {
+            "type": "Located in",
+            "source": "T44",
+            "target": "T38"
+        },
+        {
+            "type": "Located in",
+            "source": "T44",
+            "target": "T38"
+        },
+        {
+            "type": "Located in",
+            "source": "T45",
+            "target": "T38"
+        },
+        {
+            "type": "Located in",
+            "source": "T45",
+            "target": "T38"
+        },
+        {
+            "type": "Located in",
+            "source": "T45",
+            "target": "T38"
+        },
+        {
+            "type": "Causes",
+            "source": "T44",
+            "target": "T45"
+        },
+        {
+            "type": "Located in",
+            "source": "T48",
+            "target": "T46"
+        },
+        {
+            "type": "Located in",
+            "source": "T49",
+            "target": "T46"
+        }
+    ]
+}

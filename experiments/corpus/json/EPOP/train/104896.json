@@ -1,0 +1,92 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Pest",
+            "name": "EASTERN FRUIT MOSCOW",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T13",
+            "type": "Location",
+            "name": "NAPLES",
+            "GeoNames": "3172391"
+        },
+        {
+            "id": "T14",
+            "type": "Pest",
+            "name": "Bactrocera dorsalis",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T15",
+            "type": "Pest",
+            "name": "Eastern fruit fly",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T16",
+            "type": "Location",
+            "name": "NAPLES",
+            "GeoNames": "3172391"
+        },
+        {
+            "id": "T17",
+            "type": "Pest",
+            "name": "Bactrocera dorsalis",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T18",
+            "type": "Pest",
+            "name": "Eastern fruit fly",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T19",
+            "type": "Location",
+            "name": "limited area of Campania",
+            "GeoNames": "3181042"
+        },
+        {
+            "id": "T20",
+            "type": "Location",
+            "name": "territory of Palma Campania",
+            "GeoNames": "6537345"
+        },
+        {
+            "id": "T21",
+            "type": "Location",
+            "name": "Campania Region",
+            "GeoNames": "3181042"
+        },
+        {
+            "id": "T22",
+            "type": "Pest",
+            "name": "B. dorsalis",
+            "NCBI_Taxonomy": "27457"
+        }
+    ],
+    "equivalences": [
+        [
+            "T18",
+            "T17"
+        ],
+        [
+            "T14",
+            "T15"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T17",
+            "target": "T20"
+        },
+        {
+            "type": "Located in",
+            "source": "T17",
+            "target": "T19"
+        }
+    ]
+}

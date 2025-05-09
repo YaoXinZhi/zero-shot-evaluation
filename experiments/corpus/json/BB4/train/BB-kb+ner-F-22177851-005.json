@@ -1,0 +1,77 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Microorganism",
+            "name": "Proteus vulgaris\n 1 M10",
+            "NCBI_Taxonomy": "585"
+        },
+        {
+            "id": "T2",
+            "type": "Habitat",
+            "name": "model cheese",
+            "OntoBiotope": "OBT:001480"
+        },
+        {
+            "id": "T3",
+            "type": "Habitat",
+            "name": "human",
+            "OntoBiotope": "OBT:002488"
+        },
+        {
+            "id": "T4",
+            "type": "Phenotype",
+            "name": "Gram-negative",
+            "OntoBiotope": "OBT:000648"
+        },
+        {
+            "id": "T5",
+            "type": "Microorganism",
+            "name": "Psychrobacter celer",
+            "NCBI_Taxonomy": "306572"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "H. alvei",
+            "NCBI_Taxonomy": "569"
+        },
+        {
+            "id": "T7",
+            "type": "Habitat",
+            "name": "microbial populations",
+            "OntoBiotope": "OBT:000113"
+        },
+        {
+            "id": "T8",
+            "type": "Habitat",
+            "name": "surface of experimental smear soft \ncheese",
+            "OntoBiotope": "OBT:001341"
+        },
+        {
+            "id": "T9",
+            "type": "Habitat",
+            "name": "experimental smear soft \ncheese",
+            "OntoBiotope": "OBT:003494"
+        },
+        {
+            "id": "T10",
+            "type": "Habitat",
+            "name": "cheeses",
+            "OntoBiotope": "OBT:001480"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T5",
+            "target": "T4"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T6",
+            "target": "T4"
+        }
+    ]
+}

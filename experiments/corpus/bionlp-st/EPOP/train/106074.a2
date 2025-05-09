@@ -1,0 +1,114 @@
+T34	Date 0 18	For the first time
+T35	Pest 24 40	brown rust virus
+T36	Plant 47 59	tomato crops
+T37	Date 64 82	for the first time
+T38	Location 86 93	Arcadia
+T39	Pest 98 117	brown wrinkle virus
+T40	Location 259 266	Arcadia
+T41	Plant 333 345	tomato crops
+T42	Location 361 367	Levidi
+T43	Plant 376 384	tomatoes
+T44	Plant 407 420	plants pepper
+T45	Dissemination_pathway 595 600	plant
+T46	Dissemination_pathway 602 606	seed
+T47	Dissemination_pathway 609 617	Clothing
+T48	Dissemination_pathway 619 624	tools
+T49	Dissemination_pathway 629 635	crates
+T50	Dissemination_pathway 711 715	soil
+T51	Date 770 787	within six months
+T52	Dissemination_pathway 863 892	surface of various structures
+T53	Dissemination_pathway 1000 1012	water system
+T54	Dissemination_pathway 1081 1087	pollen
+T55	Plant 1170 1177	stypnus
+T56	Plant 1179 1185	datula
+T57	Plant 1187 1196	goosefoot
+T58	Plant 1234 1241	petunia
+T59	Pest 1264 1280	brown rust virus
+T60	Plant 1382 1394	tomato crops
+T61	Plant 1696 1702	pepper
+T62	Pest 1865 1891	tomato brown wrinkle virus
+T63	Pest 1893 1899	ToBRFV
+T64	Dissemination_pathway 2628 2676	hands that have been in contact with sick plants
+T65	Plant 3445 3451;3463 3468	tomato crops
+T66	Plant 3456 3468	pepper crops
+T67	Pest 3686 3702	brown rust virus
+T68	Plant 3707 3719	tomato crops
+N1	NCBI_Taxonomy Annotation:T35 Referent:1761477
+N2	NCBI_Taxonomy Annotation:T36 Referent:4081
+N3	GeoNames Annotation:T38 Referent:264644
+N4	NCBI_Taxonomy Annotation:T39 Referent:1761477
+N5	GeoNames Annotation:T40 Referent:264644
+N6	NCBI_Taxonomy Annotation:T41 Referent:4081
+N7	GeoNames Annotation:T42 Referent:258458
+N8	NCBI_Taxonomy Annotation:T43 Referent:4081
+N9	NCBI_Taxonomy Annotation:T44 Referent:4071
+N10	OntoBiotope Annotation:T45 Referent:OBT:000394
+N11	OntoBiotope Annotation:T46 Referent:OBT:001765
+N12	OntoBiotope Annotation:T47 Referent:OBT:000560
+N13	OntoBiotope Annotation:T48 Referent:OBT:000185
+N14	OntoBiotope Annotation:T49 Referent:OBT:001110
+N15	OntoBiotope Annotation:T50 Referent:OBT:000427
+N16	OntoBiotope Annotation:T53 Referent:OBT:001380
+N17	OntoBiotope Annotation:T54 Referent:OBT:002194
+N18	NCBI_Taxonomy Annotation:T55 Referent:13747
+N19	NCBI_Taxonomy Annotation:T56 Referent:4074
+N20	NCBI_Taxonomy Annotation:T57 Referent:66214
+N21	NCBI_Taxonomy Annotation:T58 Referent:4101
+N22	NCBI_Taxonomy Annotation:T59 Referent:1761477
+N23	NCBI_Taxonomy Annotation:T60 Referent:4081
+N24	NCBI_Taxonomy Annotation:T61 Referent:4071
+N25	NCBI_Taxonomy Annotation:T62 Referent:1761477
+N26	NCBI_Taxonomy Annotation:T63 Referent:1761477
+N27	NCBI_Taxonomy Annotation:T65 Referent:4081
+N28	NCBI_Taxonomy Annotation:T66 Referent:4071
+N29	NCBI_Taxonomy Annotation:T67 Referent:1761477
+N30	NCBI_Taxonomy Annotation:T68 Referent:4081
+R1	Found_on Organism:T35 Habitat:T60
+R2	Found_on Organism:T35 Habitat:T36
+R3	Found_on Organism:T35 Habitat:T61
+R4	Detected_on Object:T35 Date:T34
+R5	Detected_on Object:T36 Date:T34
+R6	Detected_on Object:T36 Date:T37
+R7	Located_in Object:T36 Location:T38
+R8	Found_on Organism:T39 Habitat:T44
+R9	Found_on Organism:T39 Habitat:T43
+R10	Found_on Organism:T39 Habitat:T36
+R11	Found_on Organism:T39 Habitat:T41
+R12	Detected_on Object:T39 Date:T37
+R13	Located_in Object:T39 Location:T38
+R14	Located_in Object:T39 Location:T42
+R15	Located_in Object:T41 Location:T42
+R16	Dispersed_by Nuisance:T39 Dissemination_pathway:T45
+R17	Dispersed_by Nuisance:T39 Dissemination_pathway:T46
+R18	Dispersed_by Nuisance:T39 Dissemination_pathway:T47
+R19	Dispersed_by Nuisance:T39 Dissemination_pathway:T48
+R20	Dispersed_by Nuisance:T39 Dissemination_pathway:T49
+R21	Dispersed_by Nuisance:T39 Dissemination_pathway:T50
+R22	Dispersed_by Nuisance:T39 Dissemination_pathway:T52
+R23	Dispersed_by Nuisance:T39 Dissemination_pathway:T53
+R24	Dispersed_by Nuisance:T39 Dissemination_pathway:T54
+R25	Found_on Organism:T59 Habitat:T58
+R26	Found_on Organism:T59 Habitat:T57
+R27	Found_on Organism:T59 Habitat:T56
+R28	Found_on Organism:T67 Habitat:T68
+E1	Nary Organisme_nuisible:T35 Plante:T60
+E2	Nary Organisme_nuisible:T35 Plante:T61
+E3	Nary Organisme_nuisible:T35 Plante:T36 Date:T34
+E4	Nary Organisme_nuisible:T39 Plante:T44
+E5	Nary Organisme_nuisible:T39 Plante:T43
+E6	Nary Organisme_nuisible:T39 Voie_de_dispersion:T46
+E7	Nary Organisme_nuisible:T39 Voie_de_dispersion:T50
+E8	Nary Organisme_nuisible:T39 Voie_de_dispersion:T47
+E9	Nary Organisme_nuisible:T39 Voie_de_dispersion:T49
+E10	Nary Organisme_nuisible:T39 Voie_de_dispersion:T48
+E11	Nary Organisme_nuisible:T39 Voie_de_dispersion:T52
+E12	Nary Organisme_nuisible:T39 Voie_de_dispersion:T54
+E13	Nary Organisme_nuisible:T39 Voie_de_dispersion:T45
+E14	Nary Organisme_nuisible:T39 Voie_de_dispersion:T53
+E15	Nary Organisme_nuisible:T39 Plante:T36 Lieu:T38 Date:T37
+E16	Nary Organisme_nuisible:T39 Plante:T41 Lieu:T42
+E17	Nary Organisme_nuisible:T59 Plante:T58
+E18	Nary Organisme_nuisible:T59 Plante:T57
+E19	Nary Organisme_nuisible:T59 Plante:T56
+E20	Nary Organisme_nuisible:T67 Plante:T68
+*	Equiv T62 T63

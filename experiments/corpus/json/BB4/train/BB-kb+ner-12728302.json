@@ -1,0 +1,139 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Phenotype",
+            "name": "thermotolerance",
+            "OntoBiotope": "OBT:002290"
+        },
+        {
+            "id": "T4",
+            "type": "Phenotype",
+            "name": "nitrogen-fixing",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T5",
+            "type": "Microorganism",
+            "name": "cyanobacterium",
+            "NCBI_Taxonomy": "1117"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "Anabaena sp. strain L-31",
+            "NCBI_Taxonomy": "29412"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "Escherichia coli",
+            "NCBI_Taxonomy": "562"
+        },
+        {
+            "id": "T8",
+            "type": "Phenotype",
+            "name": "nitrogen-fixing",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T9",
+            "type": "Habitat",
+            "name": "soil",
+            "OntoBiotope": "OBT:000427"
+        },
+        {
+            "id": "T10",
+            "type": "Microorganism",
+            "name": "cyanobacterium",
+            "NCBI_Taxonomy": "1117"
+        },
+        {
+            "id": "T11",
+            "type": "Microorganism",
+            "name": "Anabaena sp. strain L-31",
+            "NCBI_Taxonomy": "29412"
+        },
+        {
+            "id": "T12",
+            "type": "Phenotype",
+            "name": "abilities to survive prolonged and continuous heat stress",
+            "OntoBiotope": "OBT:002480"
+        },
+        {
+            "id": "T13",
+            "type": "Microorganism",
+            "name": "Anabaena sp. strain L-31",
+            "NCBI_Taxonomy": "29412"
+        },
+        {
+            "id": "T14",
+            "type": "Microorganism",
+            "name": "E. coli",
+            "NCBI_Taxonomy": "562"
+        },
+        {
+            "id": "T15",
+            "type": "Phenotype",
+            "name": "Nitrogenase activity",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T16",
+            "type": "Microorganism",
+            "name": "Anabaena",
+            "NCBI_Taxonomy": "29412"
+        },
+        {
+            "id": "T17",
+            "type": "Microorganism",
+            "name": "L-31",
+            "NCBI_Taxonomy": "29412"
+        },
+        {
+            "id": "T18",
+            "type": "Microorganism",
+            "name": "E. coli",
+            "NCBI_Taxonomy": "562"
+        },
+        {
+            "id": "T19",
+            "type": "Phenotype",
+            "name": "thermotolerance",
+            "OntoBiotope": "OBT:002290"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T6",
+            "target": "T4"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T6",
+            "target": "T3"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T11",
+            "target": "T12"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T11",
+            "target": "T8"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T17",
+            "target": "T15"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T17",
+            "target": "T19"
+        }
+    ]
+}

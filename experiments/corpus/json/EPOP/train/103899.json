@@ -1,0 +1,102 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Pest",
+            "name": "xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T6",
+            "type": "Location",
+            "name": "Lecce-Bari state road",
+            "GeoNames": "3169778"
+        },
+        {
+            "id": "T8",
+            "type": "Pest",
+            "name": "xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T9",
+            "type": "Location",
+            "name": "Bari",
+            "GeoNames": "3182350"
+        },
+        {
+            "id": "T10",
+            "type": "Location",
+            "name": "Lecce",
+            "GeoNames": "3174952"
+        },
+        {
+            "id": "T11",
+            "type": "Pest",
+            "name": "xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T12",
+            "type": "Location",
+            "name": "Bari",
+            "GeoNames": "3182350"
+        },
+        {
+            "id": "T13",
+            "type": "Location",
+            "name": "Lecce",
+            "GeoNames": "3174952"
+        },
+        {
+            "id": "T14",
+            "type": "Location",
+            "name": "Salento city",
+            "GeoNames": "6540006"
+        },
+        {
+            "id": "T15",
+            "type": "Vector",
+            "name": "spittoon",
+            "NCBI_Taxonomy": "36667"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T5",
+            "target": "T6"
+        },
+        {
+            "type": "Located in",
+            "source": "T8",
+            "target": "T10"
+        },
+        {
+            "type": "Located in",
+            "source": "T8",
+            "target": "T9"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T14"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T13"
+        },
+        {
+            "type": "Transmits",
+            "source": "T15",
+            "target": "T11"
+        }
+    ]
+}

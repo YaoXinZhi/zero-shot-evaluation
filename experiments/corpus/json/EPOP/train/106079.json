@@ -1,0 +1,223 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Pest",
+            "name": "Tomato Brown Wrinkle Virus",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T13",
+            "type": "Location",
+            "name": "Arcadia",
+            "GeoNames": "264644"
+        },
+        {
+            "id": "T14",
+            "type": "Pest",
+            "name": "virus of brown wrinkling",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T15",
+            "type": "Plant",
+            "name": "tomato",
+            "NCBI_Taxonomy": "4081"
+        },
+        {
+            "id": "T16",
+            "type": "Location",
+            "name": "Arcadia",
+            "GeoNames": "264644"
+        },
+        {
+            "id": "T17",
+            "type": "Location",
+            "name": "Arcadia",
+            "GeoNames": "264644"
+        },
+        {
+            "id": "T18",
+            "type": "Pest",
+            "name": "virus of brown wrinkling",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T19",
+            "type": "Plant",
+            "name": "tomato",
+            "NCBI_Taxonomy": "4081"
+        },
+        {
+            "id": "T20",
+            "type": "Location",
+            "name": "Arcadia",
+            "GeoNames": "264644"
+        },
+        {
+            "id": "T21",
+            "type": "Location",
+            "name": "Arcadia",
+            "GeoNames": "264644"
+        },
+        {
+            "id": "T22",
+            "type": "Plant",
+            "name": "tomatoes",
+            "NCBI_Taxonomy": "4081"
+        },
+        {
+            "id": "T23",
+            "type": "Plant",
+            "name": "peppers",
+            "NCBI_Taxonomy": "4071"
+        },
+        {
+            "id": "T24",
+            "type": "Location",
+            "name": "Arcadia",
+            "GeoNames": "264644"
+        },
+        {
+            "id": "T25",
+            "type": "Pest",
+            "name": "tomato brown wrinkle virus",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T26",
+            "type": "Pest",
+            "name": "ToBRFV",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T28",
+            "type": "Plant",
+            "name": "tomato",
+            "NCBI_Taxonomy": "4081"
+        },
+        {
+            "id": "T29",
+            "type": "Location",
+            "name": "Community of Levidi",
+            "GeoNames": "8133668"
+        },
+        {
+            "id": "T30",
+            "type": "Plant",
+            "name": "tomato",
+            "NCBI_Taxonomy": "4081"
+        },
+        {
+            "id": "T31",
+            "type": "Plant",
+            "name": "pepper plants",
+            "NCBI_Taxonomy": "4071"
+        },
+        {
+            "id": "T45",
+            "type": "Plant",
+            "name": "stypnus",
+            "NCBI_Taxonomy": "13747"
+        },
+        {
+            "id": "T46",
+            "type": "Plant",
+            "name": "datula",
+            "NCBI_Taxonomy": "4074"
+        },
+        {
+            "id": "T47",
+            "type": "Plant",
+            "name": "goosefoot",
+            "NCBI_Taxonomy": "66214"
+        },
+        {
+            "id": "T48",
+            "type": "Plant",
+            "name": "petunia",
+            "NCBI_Taxonomy": "4101"
+        }
+    ],
+    "equivalences": [
+        [
+            "T21",
+            "T20"
+        ],
+        [
+            "T25",
+            "T26"
+        ],
+        [
+            "T17",
+            "T16"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T12",
+            "target": "T13"
+        },
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T16"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T14",
+            "target": "T15"
+        },
+        {
+            "type": "Located in",
+            "source": "T15",
+            "target": "T16"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T20"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T18",
+            "target": "T23"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T18",
+            "target": "T22"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T18",
+            "target": "T19"
+        },
+        {
+            "type": "Located in",
+            "source": "T19",
+            "target": "T20"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T25",
+            "target": "T31"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T29"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T26",
+            "target": "T28"
+        },
+        {
+            "type": "Located in",
+            "source": "T28",
+            "target": "T29"
+        }
+    ]
+}

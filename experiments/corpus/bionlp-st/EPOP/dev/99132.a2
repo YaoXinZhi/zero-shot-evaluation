@@ -1,0 +1,20 @@
+T7	Pest 0 8	Popillia
+T8	Plant 21 30	vineyards
+T9	Location 38 44	Novara
+T10	Pest 169 177	Popillia
+T11	Plant 190 199	vineyards
+T12	Location 207 213	Novara
+N1	NCBI_Taxonomy Annotation:T7 Referent:7064
+N2	NCBI_Taxonomy Annotation:T8 Referent:29760
+N3	GeoNames Annotation:T9 Referent:3172188
+N4	NCBI_Taxonomy Annotation:T10 Referent:7064
+N5	NCBI_Taxonomy Annotation:T11 Referent:29760
+N6	GeoNames Annotation:T12 Referent:3172188
+R1	Found_on Organism:T7 Habitat:T8
+R2	Located_in Object:T7 Location:T9
+R3	Located_in Object:T8 Location:T9
+R4	Found_on Organism:T10 Habitat:T11
+R5	Located_in Object:T10 Location:T12
+R6	Located_in Object:T11 Location:T12
+E1	Nary Organisme_nuisible:T7 Plante:T8 Lieu:T9
+E2	Nary Organisme_nuisible:T10 Plante:T11 Lieu:T12

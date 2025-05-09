@@ -1,0 +1,76 @@
+T45	Pest 25 46	Spodoptera frugiperda
+T46	Date 47 54	6 years
+T47	Location 73 79	Africa
+T48	Pest 110 123	fall armyworm
+T49	Pest 125 128	FAW
+T50	Pest 130 162	Spodoptera frugiperda (JE Smith)
+T51	Location 195 212	African continent
+T52	Plant 259 264	maize
+T53	Pest 555 568	fall armyworm
+T54	Pest 724 727	FAW
+T55	Pest 817 838	Spodoptera frugiperda
+T56	Date 839 846	6 years
+T57	Location 865 871	Africa
+T58	Date 887 894	2022-08
+T59	Date 1158 1162	2022
+T60	Pest 1190 1211	Spodoptera frugiperda
+T61	Date 1212 1219	6 years
+T62	Location 1238 1244	Africa
+T63	Pest 1427 1440	fall armyworm
+T64	Pest 1442 1445	FAW
+T65	Pest 1447 1479	Spodoptera frugiperda (JE Smith)
+T66	Location 1512 1529	African continent
+T67	Plant 1576 1581	maize
+T68	Pest 1872 1885	fall armyworm
+T69	Pest 2041 2044	FAW
+T70	Date 2264 2275	06 May 2022
+T71	Plant 2383 2388	MAIZE
+T72	Location 2478 2484	Africa
+T73	Location 2486 2500	Western Africa
+T74	Location 2626 2631	Benin
+N1	NCBI_Taxonomy Annotation:T45 Referent:7108
+N2	GeoNames Annotation:T47 Referent:6255146
+N3	NCBI_Taxonomy Annotation:T48 Referent:7108
+N4	NCBI_Taxonomy Annotation:T49 Referent:7108
+N5	NCBI_Taxonomy Annotation:T50 Referent:7108
+N6	GeoNames Annotation:T51 Referent:6255146
+N7	NCBI_Taxonomy Annotation:T52 Referent:381124
+N8	NCBI_Taxonomy Annotation:T53 Referent:7108
+N9	NCBI_Taxonomy Annotation:T54 Referent:7108
+N10	NCBI_Taxonomy Annotation:T55 Referent:7108
+N11	GeoNames Annotation:T57 Referent:6255146
+N12	NCBI_Taxonomy Annotation:T60 Referent:7108
+N13	GeoNames Annotation:T62 Referent:6255146
+N14	NCBI_Taxonomy Annotation:T63 Referent:7108
+N15	NCBI_Taxonomy Annotation:T64 Referent:7108
+N16	NCBI_Taxonomy Annotation:T65 Referent:7108
+N17	GeoNames Annotation:T66 Referent:6255146
+N18	NCBI_Taxonomy Annotation:T67 Referent:381124
+N19	NCBI_Taxonomy Annotation:T68 Referent:7108
+N20	NCBI_Taxonomy Annotation:T69 Referent:7108
+N21	NCBI_Taxonomy Annotation:T71 Referent:381124
+N22	GeoNames Annotation:T72 Referent:6255146
+N23	GeoNames Annotation:T73 Referent:7729885
+N24	GeoNames Annotation:T74 Referent:2395170
+R1	Detected_on Object:T45 Date:T46
+R2	Located_in Object:T45 Location:T47
+R3	Located_in Object:T50 Location:T51
+R4	Found_on Organism:T50 Habitat:T52
+R5	Located_in Object:T52 Location:T51
+R6	Detected_on Object:T55 Date:T56
+R7	Located_in Object:T55 Location:T57
+R8	Detected_on Object:T60 Date:T61
+R9	Located_in Object:T60 Location:T62
+R10	Located_in Object:T65 Location:T66
+R11	Found_on Organism:T65 Habitat:T67
+R12	Located_in Object:T67 Location:T66
+E1	Nary Organisme_nuisible:T45 Date:T46
+E2	Nary Organisme_nuisible:T45 Lieu:T47
+E3	Nary Organisme_nuisible:T50 Plante:T52 Lieu:T51
+E4	Nary Organisme_nuisible:T55 Date:T56
+E5	Nary Organisme_nuisible:T55 Lieu:T57
+E6	Nary Organisme_nuisible:T60 Date:T61
+E7	Nary Organisme_nuisible:T60 Lieu:T62
+E8	Nary Organisme_nuisible:T65 Plante:T67 Lieu:T66
+*	Equiv T50 T48 T49
+*	Equiv T65 T63 T64

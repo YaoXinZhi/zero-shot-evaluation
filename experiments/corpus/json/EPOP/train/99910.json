@@ -1,0 +1,227 @@
+{
+    "entities": [
+        {
+            "id": "T18",
+            "type": "Disease",
+            "name": "yellow dragon"
+        },
+        {
+            "id": "T19",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T20",
+            "type": "Plant",
+            "name": "citrus fruits",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T21",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T22",
+            "type": "Location",
+            "name": "Venezuela",
+            "GeoNames": "3625428"
+        },
+        {
+            "id": "T23",
+            "type": "Location",
+            "name": "Zulia state",
+            "GeoNames": "3625035"
+        },
+        {
+            "id": "T24",
+            "type": "Location",
+            "name": "Maracaibo",
+            "GeoNames": "3633009"
+        },
+        {
+            "id": "T25",
+            "type": "Location",
+            "name": "San Francisco",
+            "GeoNames": "8129238"
+        },
+        {
+            "id": "T26",
+            "type": "Location",
+            "name": "Latin America",
+            "GeoNames": "7730009"
+        },
+        {
+            "id": "T27",
+            "type": "Plant",
+            "name": "citrus fruits",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T28",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T29",
+            "type": "Disease",
+            "name": "huanglongbing"
+        },
+        {
+            "id": "T30",
+            "type": "Disease",
+            "name": "yellow dragon"
+        },
+        {
+            "id": "T31",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T32",
+            "type": "Disease",
+            "name": "huanglongbing"
+        },
+        {
+            "id": "T33",
+            "type": "Disease",
+            "name": "yellow dragon"
+        },
+        {
+            "id": "T34",
+            "type": "Plant",
+            "name": "citrus fruits",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T35",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T36",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T37",
+            "type": "Location",
+            "name": "state of Aragua",
+            "GeoNames": "3649110"
+        },
+        {
+            "id": "T38",
+            "type": "Plant",
+            "name": "citrus fruits",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T39",
+            "type": "Plant",
+            "name": "citrus plants",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T40",
+            "type": "Plant",
+            "name": "citrus cultivation",
+            "NCBI_Taxonomy": "2706"
+        }
+    ],
+    "equivalences": [
+        [
+            "T31",
+            "T33",
+            "T32"
+        ],
+        [
+            "T30",
+            "T29",
+            "T28"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Affects",
+            "source": "T18",
+            "target": "T19"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T22"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T24"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T25"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T23"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T26"
+        },
+        {
+            "type": "Located in",
+            "source": "T21",
+            "target": "T22"
+        },
+        {
+            "type": "Located in",
+            "source": "T21",
+            "target": "T24"
+        },
+        {
+            "type": "Located in",
+            "source": "T21",
+            "target": "T25"
+        },
+        {
+            "type": "Located in",
+            "source": "T21",
+            "target": "T23"
+        },
+        {
+            "type": "Located in",
+            "source": "T21",
+            "target": "T26"
+        },
+        {
+            "type": "Affects",
+            "source": "T21",
+            "target": "T20"
+        },
+        {
+            "type": "Affects",
+            "source": "T29",
+            "target": "T27"
+        },
+        {
+            "type": "Affects",
+            "source": "T32",
+            "target": "T34"
+        },
+        {
+            "type": "Located in",
+            "source": "T38",
+            "target": "T37"
+        },
+        {
+            "type": "Located in",
+            "source": "T39",
+            "target": "T37"
+        }
+    ]
+}

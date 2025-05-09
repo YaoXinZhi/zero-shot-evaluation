@@ -1,0 +1,110 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Habitat",
+            "name": "Cheeses",
+            "OntoBiotope": "OBT:003428"
+        },
+        {
+            "id": "T2",
+            "type": "Habitat",
+            "name": "complex microbiota",
+            "OntoBiotope": "OBT:000113"
+        },
+        {
+            "id": "T3",
+            "type": "Habitat",
+            "name": "milk",
+            "OntoBiotope": "OBT:001645"
+        },
+        {
+            "id": "T4",
+            "type": "Habitat",
+            "name": "cheese",
+            "OntoBiotope": "OBT:003428"
+        },
+        {
+            "id": "T5",
+            "type": "Phenotype",
+            "name": "lactic acid bacteria",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T6",
+            "type": "Phenotype",
+            "name": "LAB",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T7",
+            "type": "Habitat",
+            "name": "starter cultures",
+            "OntoBiotope": "OBT:001030"
+        },
+        {
+            "id": "T8",
+            "type": "Phenotype",
+            "name": "mesophilic",
+            "OntoBiotope": "OBT:000343"
+        },
+        {
+            "id": "T9",
+            "type": "Microorganism",
+            "name": "Lactocococcus lactis",
+            "NCBI_Taxonomy": "1358"
+        },
+        {
+            "id": "T10",
+            "type": "Phenotype",
+            "name": "thermophilic",
+            "OntoBiotope": "OBT:000449"
+        },
+        {
+            "id": "T11",
+            "type": "Microorganism",
+            "name": "Streptococcus thermophilus",
+            "NCBI_Taxonomy": "1308"
+        },
+        {
+            "id": "T12",
+            "type": "Phenotype",
+            "name": "LAB",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T13",
+            "type": "Habitat",
+            "name": "starter",
+            "OntoBiotope": "OBT:001030"
+        }
+    ],
+    "equivalences": [
+        [
+            "T5",
+            "T6"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T9",
+            "target": "T5"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T9",
+            "target": "T8"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T11",
+            "target": "T10"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T11",
+            "target": "T5"
+        }
+    ]
+}

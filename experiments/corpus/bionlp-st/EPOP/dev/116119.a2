@@ -1,0 +1,21 @@
+T20	Location 76 83	Réunion
+T21	Location 229 236	Reunion
+T22	Location 257 264	Reunion
+T23	Plant 320 333	citrus fruits
+T24	Location 337 347	Petite-Ile
+T25	Location 437 444	Reunion
+T26	Pest 530 549	Bactrocera dorsalis
+T27	Date 613 628	for a few years
+T28	Date 2318 2327	This year
+N1	GeoNames Annotation:T20 Referent:935317
+N2	GeoNames Annotation:T21 Referent:935317
+N3	GeoNames Annotation:T22 Referent:935317
+N4	NCBI_Taxonomy Annotation:T23 Referent:2706
+N5	GeoNames Annotation:T24 Referent:935213
+N6	GeoNames Annotation:T25 Referent:935317
+N7	NCBI_Taxonomy Annotation:T26 Referent:27457
+R1	Located_in Object:T23 Location:T24
+R2	Located_in Object:T26 Location:T24
+R3	Found_on Organism:T26 Habitat:T23
+E1	Nary Plante:T23 Lieu:T24
+E2	Nary Organisme_nuisible:T26 Plante:T23 Lieu:T24

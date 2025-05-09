@@ -1,0 +1,21 @@
+{
+    "entities": {
+	"Habitat": "Habitat",
+	"Microorganism": "Microorganism",
+	"Phenotype": "Phenotype"
+    },
+    "normalizations": {
+    },
+    "relations": {
+	"Exhibits": {
+	    "type": "Exhibits",
+	    "source": "Microorganism",
+	    "target": "Property"
+	},
+	"Lives_in": {
+	    "type": "Lives in",
+	    "source": "Microorganism",
+	    "target": "Location"
+	}
+    }
+}

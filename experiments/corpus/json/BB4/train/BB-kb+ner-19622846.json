@@ -1,0 +1,219 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Staphylococcus aureus",
+            "NCBI_Taxonomy": "1280"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "MRSA",
+            "NCBI_Taxonomy": "1280"
+        },
+        {
+            "id": "T5",
+            "type": "Phenotype",
+            "name": "MRSA",
+            "OntoBiotope": "OBT:002817"
+        },
+        {
+            "id": "T6",
+            "type": "Habitat",
+            "name": "environmental surfaces in a jail setting",
+            "OntoBiotope": "OBT:000006"
+        },
+        {
+            "id": "T7",
+            "type": "Habitat",
+            "name": "jail",
+            "OntoBiotope": "OBT:000695"
+        },
+        {
+            "id": "T8",
+            "type": "Habitat",
+            "name": "jail",
+            "OntoBiotope": "OBT:000695"
+        },
+        {
+            "id": "T9",
+            "type": "Habitat",
+            "name": "jail environmental surfaces",
+            "OntoBiotope": "OBT:000006"
+        },
+        {
+            "id": "T10",
+            "type": "Phenotype",
+            "name": "methicillin-resistant",
+            "OntoBiotope": "OBT:002817"
+        },
+        {
+            "id": "T11",
+            "type": "Microorganism",
+            "name": "Staphylococcus aureus",
+            "NCBI_Taxonomy": "1280"
+        },
+        {
+            "id": "T12",
+            "type": "Microorganism",
+            "name": "MRSA",
+            "NCBI_Taxonomy": "1280"
+        },
+        {
+            "id": "T13",
+            "type": "Phenotype",
+            "name": "MRSA",
+            "OntoBiotope": "OBT:002817"
+        },
+        {
+            "id": "T14",
+            "type": "Habitat",
+            "name": "primary and secondary mannitol salts",
+            "OntoBiotope": "OBT:000007"
+        },
+        {
+            "id": "T15",
+            "type": "Habitat",
+            "name": "oxacillin-resistant screening agar",
+            "OntoBiotope": "OBT:000031"
+        },
+        {
+            "id": "T16",
+            "type": "Phenotype",
+            "name": "oxacillin-resistant",
+            "OntoBiotope": "OBT:002920"
+        },
+        {
+            "id": "T17",
+            "type": "Microorganism",
+            "name": "S. aureus",
+            "NCBI_Taxonomy": "1280"
+        },
+        {
+            "id": "T18",
+            "type": "Phenotype",
+            "name": "methicillin resistance",
+            "OntoBiotope": "OBT:002817"
+        },
+        {
+            "id": "T19",
+            "type": "Phenotype",
+            "name": "oxacillin resistance",
+            "OntoBiotope": "OBT:002920"
+        },
+        {
+            "id": "T20",
+            "type": "Microorganism",
+            "name": "S. aureus",
+            "NCBI_Taxonomy": "1280"
+        },
+        {
+            "id": "T21",
+            "type": "Microorganism",
+            "name": "MRSA",
+            "NCBI_Taxonomy": "1280"
+        },
+        {
+            "id": "T22",
+            "type": "Phenotype",
+            "name": "MRSA",
+            "OntoBiotope": "OBT:002817"
+        },
+        {
+            "id": "T23",
+            "type": "Phenotype",
+            "name": "resistant",
+            "OntoBiotope": "OBT:002920"
+        },
+        {
+            "id": "T24",
+            "type": "Habitat",
+            "name": "inmates' nasal",
+            "OntoBiotope": "OBT:000767"
+        },
+        {
+            "id": "T25",
+            "type": "Habitat",
+            "name": "inmates",
+            "OntoBiotope": "OBT:003291"
+        },
+        {
+            "id": "T26",
+            "type": "Microorganism",
+            "name": "MRSA",
+            "NCBI_Taxonomy": "1280"
+        },
+        {
+            "id": "T27",
+            "type": "Phenotype",
+            "name": "MRSA",
+            "OntoBiotope": "OBT:002817"
+        },
+        {
+            "id": "T28",
+            "type": "Habitat",
+            "name": "correctional facilities",
+            "OntoBiotope": "OBT:000695"
+        },
+        {
+            "id": "T29",
+            "type": "Microorganism",
+            "name": "MRSA",
+            "NCBI_Taxonomy": "1280"
+        },
+        {
+            "id": "T30",
+            "type": "Phenotype",
+            "name": "MRSA",
+            "OntoBiotope": "OBT:002817"
+        }
+    ],
+    "equivalences": [
+        [
+            "T13",
+            "T10"
+        ],
+        [
+            "T11",
+            "T12"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T5"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T11",
+            "target": "T10"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T12",
+            "target": "T13"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T20",
+            "target": "T22"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T21",
+            "target": "T22"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T26",
+            "target": "T27"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T29",
+            "target": "T30"
+        }
+    ]
+}

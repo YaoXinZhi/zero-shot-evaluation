@@ -1,0 +1,111 @@
+T20	Disease 55 68	Huanglongbing
+T21	Plant 78 91	Citrus Groves
+T22	Disease 137 150	Huanglongbing
+T23	Disease 152 155	HLB
+T24	Pest 207 240	Candidatus Liberibacter asiaticus
+T25	Plant 283 289	citrus
+T26	Disease 364 375	HLB disease
+T27	Date 376 391	in recent years
+T28	Disease 585 588	HLB
+T29	Pest 982 998	Ca. L. asiaticus
+T30	Plant 1010 1023	citrus plants
+T31	Pest 1436 1452	Ca. L. asiaticus
+T32	Plant 1667 1673	citrus
+T33	Pest 1833 1849	Ca. L. asiaticus
+T34	Plant 1860 1872	citrus trees
+T35	Pest 2005 2021	Ca. L. asiaticus
+T36	Plant 2092 2104	citrus trees
+T37	Pest 2182 2198	Ca. L. asiaticus
+T38	Plant 2353 2359	citrus
+T39	Pest 2469 2481	HLB pathogen
+T40	Plant 2578 2590	citrus trees
+T41	Disease 2592 2605	Huanglongbing
+T42	Disease 2607 2610	HLB
+T43	Pest 2663 2696	Candidatus Liberibacter asiaticus
+T44	Plant 2739 2745	citrus
+T45	Disease 2820 2831	HLB disease
+T46	Date 2832 2847	in recent years
+T47	Disease 3041 3044	HLB
+T48	Pest 3439 3456	Ca\n. L. asiaticus
+T49	Plant 3468 3481	citrus plants
+T50	Pest 3895 3912	Ca\n. L. asiaticus
+T51	Pest 4294 4310	Ca. L. asiaticus
+T52	Plant 4321 4333	citrus trees
+T53	Pest 4467 4483	Ca. L. asiaticus
+T54	Plant 4554 4566	citrus trees
+T55	Pest 4644 4660	Ca. L. asiaticus
+T56	Plant 4815 4821	citrus
+T57	Pest 4931 4943	HLB pathogen
+T58	Plant 5040 5052	citrus trees
+N1	NCBI_Taxonomy Annotation:T21 Referent:2706
+N2	NCBI_Taxonomy Annotation:T24 Referent:34021
+N3	NCBI_Taxonomy Annotation:T25 Referent:2706
+N4	NCBI_Taxonomy Annotation:T29 Referent:34021
+N5	NCBI_Taxonomy Annotation:T30 Referent:2706
+N6	NCBI_Taxonomy Annotation:T31 Referent:34021
+N7	NCBI_Taxonomy Annotation:T32 Referent:2706
+N8	NCBI_Taxonomy Annotation:T33 Referent:34021
+N9	NCBI_Taxonomy Annotation:T34 Referent:2706
+N10	NCBI_Taxonomy Annotation:T35 Referent:34021
+N11	NCBI_Taxonomy Annotation:T36 Referent:2706
+N12	NCBI_Taxonomy Annotation:T37 Referent:34021
+N13	NCBI_Taxonomy Annotation:T38 Referent:2706
+N14	NCBI_Taxonomy Annotation:T39 Referent:34021
+N15	NCBI_Taxonomy Annotation:T39 Referent:34020
+N16	NCBI_Taxonomy Annotation:T39 Referent:309868
+N17	NCBI_Taxonomy Annotation:T40 Referent:2706
+N18	NCBI_Taxonomy Annotation:T43 Referent:34021
+N19	NCBI_Taxonomy Annotation:T44 Referent:2706
+N20	NCBI_Taxonomy Annotation:T48 Referent:34021
+N21	NCBI_Taxonomy Annotation:T49 Referent:2706
+N22	NCBI_Taxonomy Annotation:T50 Referent:34021
+N23	NCBI_Taxonomy Annotation:T51 Referent:34021
+N24	NCBI_Taxonomy Annotation:T52 Referent:2706
+N25	NCBI_Taxonomy Annotation:T53 Referent:34021
+N26	NCBI_Taxonomy Annotation:T54 Referent:2706
+N27	NCBI_Taxonomy Annotation:T55 Referent:34021
+N28	NCBI_Taxonomy Annotation:T56 Referent:2706
+N29	NCBI_Taxonomy Annotation:T57 Referent:34021
+N30	NCBI_Taxonomy Annotation:T57 Referent:34020
+N31	NCBI_Taxonomy Annotation:T57 Referent:309868
+N32	NCBI_Taxonomy Annotation:T58 Referent:2706
+R1	Expressed_by Disease:T20 Plant:T21
+R2	Expressed_by Disease:T22 Plant:T25
+R3	Causes Pest:T24 Disease:T22
+R4	Found_on Organism:T24 Habitat:T25
+R5	Detected_on Object:T26 Date:T27
+R6	Found_on Organism:T29 Habitat:T30
+R7	Found_on Organism:T31 Habitat:T32
+R8	Found_on Organism:T33 Habitat:T34
+R9	Found_on Organism:T35 Habitat:T36
+R10	Found_on Organism:T39 Habitat:T40
+R11	Causes Pest:T39 Disease:T41
+R12	Expressed_by Disease:T41 Plant:T44
+R13	Expressed_by Disease:T41 Plant:T40
+R14	Causes Pest:T43 Disease:T41
+R15	Found_on Organism:T43 Habitat:T44
+R16	Detected_on Object:T44 Date:T46
+R17	Detected_on Object:T45 Date:T46
+R18	Expressed_by Disease:T45 Plant:T44
+R19	Found_on Organism:T48 Habitat:T49
+R20	Found_on Organism:T51 Habitat:T52
+R21	Found_on Organism:T53 Habitat:T54
+R22	Found_on Organism:T57 Habitat:T58
+E1	Nary Plante:T21 Maladie:T20
+E2	Nary Organisme_nuisible:T24 Plante:T25 Maladie:T22
+E3	Nary Maladie:T26 Date:T27
+E4	Nary Organisme_nuisible:T29 Plante:T30
+E5	Nary Organisme_nuisible:T31 Plante:T32
+E6	Nary Organisme_nuisible:T33 Plante:T34
+E7	Nary Organisme_nuisible:T35 Plante:T36
+E8	Nary Organisme_nuisible:T39 Plante:T40 Maladie:T41
+E9	Nary Organisme_nuisible:T43 Plante:T44 Maladie:T41
+E10	Nary Plante:T44 Maladie:T45 Date:T46
+E11	Nary Organisme_nuisible:T48 Plante:T49
+E12	Nary Organisme_nuisible:T51 Plante:T52
+E13	Nary Organisme_nuisible:T53 Plante:T54
+E14	Nary Organisme_nuisible:T57 Plante:T58
+*	Equiv T37 T39
+*	Equiv T41 T42
+*	Equiv T22 T23
+*	Equiv T56 T58

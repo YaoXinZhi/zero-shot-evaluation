@@ -1,0 +1,20 @@
+T3	Pest 0 18	xylella fastidiosa
+T4	Location 39 43	Gard
+T5	Pest 90 108	Xylella fastidiosa
+T6	Location 248 254	France
+T7	Date 255 273	since October 2015
+T8	Date 309 329	since September 2020
+T9	Location 333 337	Aude
+N1	NCBI_Taxonomy Annotation:T3 Referent:2371
+N2	GeoNames Annotation:T4 Referent:3016670
+N3	NCBI_Taxonomy Annotation:T5 Referent:2371
+N4	GeoNames Annotation:T6 Referent:3017382
+N5	GeoNames Annotation:T9 Referent:3036264
+R1	Detected_on Object:T5 Date:T7
+R2	Detected_on Object:T5 Date:T8
+R3	Located_in Object:T5 Location:T9
+R4	Located_in Object:T5 Location:T6
+E1	Nary Organisme_nuisible:T5 Date:T7
+E2	Nary Organisme_nuisible:T5 Date:T8
+E3	Nary Organisme_nuisible:T5 Lieu:T9
+E4	Nary Organisme_nuisible:T5 Lieu:T6

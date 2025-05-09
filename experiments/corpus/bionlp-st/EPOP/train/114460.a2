@@ -1,0 +1,61 @@
+T13	Pest 21 39	Oriental Fruit Fly
+T14	Pest 41 60	Bactrocera dorsalis
+T15	Location 76 91	Fountain Valley
+T16	Location 93 106	Orange County
+T17	Location 108 118	California
+T18	Date 155 173	September 27, 2022
+T19	Date 232 253	On September 16, 2022
+T20	Date 249 253	2022
+T21	Pest 386 404	Oriental fruit fly
+T22	Pest 406 425	Bactrocera dorsalis
+T23	Pest 429 432	OFF
+T24	Location 452 472	Fountain Valley area
+T25	Location 476 489	Orange County
+T26	Location 491 501	California
+T27	Pest 605 608	OFF
+T28	Location 635 655	Fountain Valley area
+T29	Date 664 698	between August 15 and September 12
+T30	Pest 947 950	OFF
+T31	Location 980 993	United States
+T32	Location 1100 1113	Orange County
+T33	Pest 1610 1628	Oriental fruit fly
+T34	Location 2372 2379	America
+N1	NCBI_Taxonomy Annotation:T13 Referent:27457
+N2	NCBI_Taxonomy Annotation:T14 Referent:27457
+N3	GeoNames Annotation:T15 Referent:11788634
+N4	GeoNames Annotation:T16 Referent:5379524
+N5	GeoNames Annotation:T17 Referent:5332921
+N6	NCBI_Taxonomy Annotation:T21 Referent:27457
+N7	NCBI_Taxonomy Annotation:T22 Referent:27457
+N8	NCBI_Taxonomy Annotation:T23 Referent:27457
+N9	GeoNames Annotation:T24 Referent:11788634
+N10	GeoNames Annotation:T25 Referent:5379524
+N11	GeoNames Annotation:T26 Referent:5332921
+N12	NCBI_Taxonomy Annotation:T27 Referent:27457
+N13	GeoNames Annotation:T28 Referent:11788634
+N14	NCBI_Taxonomy Annotation:T30 Referent:27457
+N15	GeoNames Annotation:T31 Referent:6252001
+N16	GeoNames Annotation:T32 Referent:5379524
+N17	NCBI_Taxonomy Annotation:T33 Referent:27457
+N18	GeoNames Annotation:T34 Referent:6252001
+R1	Located_in Object:T14 Location:T17
+R2	Located_in Object:T14 Location:T16
+R3	Located_in Object:T14 Location:T15
+R4	Detected_on Object:T21 Date:T29
+R5	Detected_on Object:T21 Date:T20
+R6	Located_in Object:T21 Location:T25
+R7	Located_in Object:T21 Location:T26
+R8	Located_in Object:T21 Location:T24
+R9	Located_in Object:T27 Location:T28
+R10	Located_in Object:T30 Location:T32
+E1	Nary Organisme_nuisible:T14 Lieu:T17
+E2	Nary Organisme_nuisible:T14 Lieu:T16
+E3	Nary Organisme_nuisible:T14 Lieu:T15
+E4	Nary Organisme_nuisible:T21 Lieu:T24 Date:T29
+E5	Nary Organisme_nuisible:T21 Lieu:T24 Date:T20
+E6	Nary Organisme_nuisible:T21 Lieu:T25
+E7	Nary Organisme_nuisible:T21 Lieu:T26
+E8	Nary Organisme_nuisible:T27 Lieu:T28
+E9	Nary Organisme_nuisible:T30 Lieu:T32
+*	Equiv T13 T14
+*	Equiv T21 T23 T22

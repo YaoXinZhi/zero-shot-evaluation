@@ -1,0 +1,32 @@
+T11	Pest 0 20	Eastern Fruit Moscow
+T12	Location 113 121	Campania
+T13	Pest 329 348	Bactrocera dorsalis
+T14	Pest 357 374	Eastern fruit fly
+T15	Pest 379 396	Eastern fruit fly
+T16	Location 477 485	Campania
+T17	Pest 693 712	Bactrocera dorsalis
+T18	Pest 721 738	Eastern fruit fly
+T19	Location 858 882	limited area of Campania
+T20	Location 884 911	territory of Palma Campania
+T21	Location 1221 1236	Campania Region
+T22	Pest 1690 1701	B. dorsalis
+N1	NCBI_Taxonomy Annotation:T11 Referent:27457
+N2	GeoNames Annotation:T12 Referent:3181042
+N3	NCBI_Taxonomy Annotation:T13 Referent:27457
+N4	NCBI_Taxonomy Annotation:T14 Referent:27457
+N5	NCBI_Taxonomy Annotation:T15 Referent:27457
+N6	GeoNames Annotation:T16 Referent:3181042
+N7	NCBI_Taxonomy Annotation:T17 Referent:27457
+N8	NCBI_Taxonomy Annotation:T18 Referent:27457
+N9	GeoNames Annotation:T19 Referent:3181042
+N10	GeoNames Annotation:T20 Referent:6537345
+N11	GeoNames Annotation:T21 Referent:3181042
+N12	NCBI_Taxonomy Annotation:T22 Referent:27457
+R1	Located_in Object:T13 Location:T12
+R2	Located_in Object:T17 Location:T19
+R3	Located_in Object:T17 Location:T20
+E1	Nary Organisme_nuisible:T13 Lieu:T12
+E2	Nary Organisme_nuisible:T17 Lieu:T19
+E3	Nary Organisme_nuisible:T17 Lieu:T20
+*	Equiv T18 T17
+*	Equiv T11 T13 T14

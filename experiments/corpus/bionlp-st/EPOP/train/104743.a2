@@ -1,0 +1,29 @@
+T5	Pest 0 7	Xylella
+T6	Plant 119 124	Olive
+T7	Pest 175 193	Xylella Fastidiosa
+T8	Plant 315 320	Olive
+T9	Pest 371 389	Xylella Fastidiosa
+T10	Date 473 482	last July
+T11	Plant 613 624	olive trees
+T12	Location 640 652	Salento area
+T13	Plant 721 732	olive trees
+T14	Date 898 902	2013
+T15	Date 904 908	2016
+T16	Date 913 917	2019
+N1	NCBI_Taxonomy Annotation:T5 Referent:2371
+N2	NCBI_Taxonomy Annotation:T6 Referent:158383
+N3	NCBI_Taxonomy Annotation:T7 Referent:2371
+N4	NCBI_Taxonomy Annotation:T8 Referent:158383
+N5	NCBI_Taxonomy Annotation:T9 Referent:2371
+N6	NCBI_Taxonomy Annotation:T11 Referent:158383
+N7	GeoNames Annotation:T12 Referent:6540006
+N8	NCBI_Taxonomy Annotation:T13 Referent:158383
+R1	Found_on Organism:T7 Habitat:T6
+R2	Found_on Organism:T9 Habitat:T11
+R3	Found_on Organism:T9 Habitat:T8
+R4	Located_in Object:T9 Location:T12
+R5	Located_in Object:T11 Location:T12
+E1	Nary Organisme_nuisible:T7 Plante:T6
+E2	Nary Organisme_nuisible:T9 Plante:T8
+E3	Nary Organisme_nuisible:T9 Plante:T11 Lieu:T12
+*	Equiv T13 T11

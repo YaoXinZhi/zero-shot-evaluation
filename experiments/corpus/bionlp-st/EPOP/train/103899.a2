@@ -1,0 +1,44 @@
+T5	Pest 19 26	xylella
+T6	Location 37 58	Lecce-Bari state road
+T7	Dissemination_pathway 103 123	grooves of the tires
+T8	Pest 170 177	xylella
+T9	Location 190 194	Bari
+T10	Location 195 200	Lecce
+T11	Pest 369 376	xylella
+T12	Location 389 393	Bari
+T13	Location 394 399	Lecce
+T14	Location 716 728	Salento city
+T15	Vector 734 742	spittoon
+T16	Dissemination_pathway 795 803	vehicles
+T17	Dissemination_pathway 859 879	grooves of the tires
+N1	NCBI_Taxonomy Annotation:T5 Referent:2371
+N2	GeoNames Annotation:T6 Referent:3169778
+N3	OntoBiotope Annotation:T7 Referent:OBT:000162
+N4	NCBI_Taxonomy Annotation:T8 Referent:2371
+N5	GeoNames Annotation:T9 Referent:3182350
+N6	GeoNames Annotation:T10 Referent:3174952
+N7	NCBI_Taxonomy Annotation:T11 Referent:2371
+N8	GeoNames Annotation:T12 Referent:3182350
+N9	GeoNames Annotation:T13 Referent:3174952
+N10	GeoNames Annotation:T14 Referent:6540006
+N11	NCBI_Taxonomy Annotation:T15 Referent:36667
+N12	OntoBiotope Annotation:T16 Referent:OBT:000162
+N13	OntoBiotope Annotation:T17 Referent:OBT:000162
+R1	Located_in Object:T5 Location:T6
+R2	Located_in Object:T8 Location:T10
+R3	Located_in Object:T8 Location:T9
+R4	Located_in Object:T11 Location:T14
+R5	Located_in Object:T11 Location:T12
+R6	Located_in Object:T11 Location:T13
+R7	Found_on Organism:T15 Habitat:T16
+R8	Found_on Organism:T15 Habitat:T17
+R9	Vected_by Nuisance:T11 Vector:T15
+E1	Nary Organisme_nuisible:T5 Lieu:T6
+E2	Nary Organisme_nuisible:T8 Lieu:T10
+E3	Nary Organisme_nuisible:T8 Lieu:T9
+E4	Nary Organisme_nuisible:T11 Lieu:T14
+E5	Nary Organisme_nuisible:T11 Lieu:T12
+E6	Nary Organisme_nuisible:T11 Lieu:T13
+E7	Nary Organisme_nuisible:T11 Vecteur:T15
+E8	Nary Vecteur:T15 Voie_de_dispersion:T16
+E9	Nary Vecteur:T15 Voie_de_dispersion:T17

@@ -1,0 +1,81 @@
+T12	Location 0 12	Cumanayaguan
+T13	Disease 43 59	plantain disease
+T14	Plant 189 195;209 220	banana plantations
+T15	Plant 200 220	plantain plantations
+T16	Pest 230 263	Fusarium oxysporum f. sp. Cubense
+T17	Pest 279 297	race four tropical
+T18	Plant 432 439	bananas
+T19	Plant 444 453	plantains
+T20	Pest 467 500	Fusarium oxysporum F. sp. Cubense
+T21	Pest 516 534	race four tropical
+T22	Plant 762 768	banana
+T23	Date 790 796	so far
+T24	Location 826 830	Cuba
+T25	Plant 980 989	plantains
+T26	Plant 1045 1063	banana plantations
+T27	Plant 1083 1097	Zacate borrego
+T28	Plant 1099 1105	Ensete
+T29	Plant 1108 1112	vain
+T30	Plant 1114 1124	milky milk
+T31	Plant 1129 1138	toad milk
+T32	Pest 1140 1158	Fusarium Oxysporum
+T33	Dissemination_pathway 1392 1421	movement of planting material
+T34	Dissemination_pathway 1464 1495	ground adhering to the footwear
+T35	Dissemination_pathway 1511 1521	work tools
+T36	Dissemination_pathway 1523 1552	vehicles that enter the crops
+T37	Dissemination_pathway 1554 1566	water runoff
+T38	Dissemination_pathway 1568 1584	domestic animals
+T39	Vector 1640 1653	banana weevil
+T40	Disease 1768 1782	banana disease
+N1	GeoNames Annotation:T12 Referent:11288191
+N2	NCBI_Taxonomy Annotation:T14 Referent:4640
+N3	NCBI_Taxonomy Annotation:T15 Referent:4640
+N4	NCBI_Taxonomy Annotation:T16 Referent:2502994
+N5	NCBI_Taxonomy Annotation:T17 Referent:2502994
+N6	NCBI_Taxonomy Annotation:T18 Referent:4640
+N7	NCBI_Taxonomy Annotation:T19 Referent:4640
+N8	NCBI_Taxonomy Annotation:T20 Referent:2502994
+N9	NCBI_Taxonomy Annotation:T21 Referent:2502994
+N10	NCBI_Taxonomy Annotation:T22 Referent:4640
+N11	GeoNames Annotation:T24 Referent:3562981
+N12	NCBI_Taxonomy Annotation:T25 Referent:4640
+N13	NCBI_Taxonomy Annotation:T26 Referent:4640
+N14	NCBI_Taxonomy Annotation:T27 Referent:28909
+N15	NCBI_Taxonomy Annotation:T28 Referent:4638
+N16	NCBI_Taxonomy Annotation:T29 Referent:141466
+N17	NCBI_Taxonomy Annotation:T30 Referent:3649
+N18	NCBI_Taxonomy Annotation:T31 Referent:212910
+N19	NCBI_Taxonomy Annotation:T32 Referent:171631
+N20	OntoBiotope Annotation:T33 Referent:OBT:001258
+N21	OntoBiotope Annotation:T34 Referent:OBT:000427
+N22	OntoBiotope Annotation:T35 Referent:OBT:000185
+N23	OntoBiotope Annotation:T36 Referent:OBT:000162
+N24	OntoBiotope Annotation:T37 Referent:OBT:000269
+N25	OntoBiotope Annotation:T38 Referent:OBT:000193
+N26	NCBI_Taxonomy Annotation:T39 Referent:206492
+R1	Located_in Object:T13 Location:T12
+R2	Located_in Object:T13 Location:T24
+R3	Located_in Object:T14 Location:T12
+R4	Located_in Object:T15 Location:T12
+R5	Found_on Organism:T16 Habitat:T15
+R6	Found_on Organism:T16 Habitat:T14
+R7	Located_in Object:T16 Location:T12
+R8	Located_in Object:T16 Location:T12
+R9	Located_in Object:T18 Location:T12
+R10	Located_in Object:T19 Location:T12
+R11	Found_on Organism:T20 Habitat:T18
+R12	Found_on Organism:T20 Habitat:T22
+R13	Found_on Organism:T20 Habitat:T19
+R14	Located_in Object:T20 Location:T12
+R15	Located_in Object:T20 Location:T12
+R16	Located_in Object:T20 Location:T24
+R17	Located_in Object:T22 Location:T24
+E1	Nary Maladie:T13 Lieu:T12
+E2	Nary Maladie:T13 Lieu:T24
+E3	Nary Organisme_nuisible:T16 Plante:T14 Lieu:T12
+E4	Nary Organisme_nuisible:T16 Plante:T15 Lieu:T12
+E5	Nary Organisme_nuisible:T20 Plante:T19 Lieu:T12
+E6	Nary Organisme_nuisible:T20 Plante:T18 Lieu:T12
+E7	Nary Organisme_nuisible:T20 Plante:T22 Lieu:T24
+*	Equiv T16 T17
+*	Equiv T20 T21

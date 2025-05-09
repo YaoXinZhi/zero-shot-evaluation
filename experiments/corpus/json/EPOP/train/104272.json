@@ -1,0 +1,90 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Disease",
+            "name": "golden flavescence"
+        },
+        {
+            "id": "T15",
+            "type": "Pest",
+            "name": "Flavescence dor\u00e9e phytoplasma",
+            "NCBI_Taxonomy": "131152"
+        },
+        {
+            "id": "T16",
+            "type": "Disease",
+            "name": "golden flavescence"
+        },
+        {
+            "id": "T17",
+            "type": "Vector",
+            "name": "Scaphoideus titanus Ball",
+            "NCBI_Taxonomy": "376741"
+        },
+        {
+            "id": "T18",
+            "type": "Vector",
+            "name": "Scaphoideus titanus Ball",
+            "NCBI_Taxonomy": "376741"
+        },
+        {
+            "id": "T21",
+            "type": "Vector",
+            "name": "Scaphoideus titanus Ball",
+            "NCBI_Taxonomy": "376741"
+        },
+        {
+            "id": "T23",
+            "type": "Pest",
+            "name": "Flavescence dor\u00e9e phytoplasma",
+            "NCBI_Taxonomy": "131152"
+        },
+        {
+            "id": "T24",
+            "type": "Vector",
+            "name": "Scaphoideus titanus Ball",
+            "NCBI_Taxonomy": "376741"
+        },
+        {
+            "id": "T25",
+            "type": "Pest",
+            "name": "phytoplasma Flavescence dor\u00e9e phytoplasma",
+            "NCBI_Taxonomy": "131152"
+        },
+        {
+            "id": "T26",
+            "type": "Vector",
+            "name": "Scaphoideus titanus Ball",
+            "NCBI_Taxonomy": "376741"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Transmits",
+            "source": "T17",
+            "target": "T15"
+        },
+        {
+            "type": "Causes",
+            "source": "T15",
+            "target": "T16"
+        },
+        {
+            "type": "Transmits",
+            "source": "T21",
+            "target": "T23"
+        },
+        {
+            "type": "Transmits",
+            "source": "T24",
+            "target": "T23"
+        },
+        {
+            "type": "Transmits",
+            "source": "T26",
+            "target": "T25"
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Pest",
+            "name": "Spodoptera frugiperda",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T8",
+            "type": "Pest",
+            "name": "Spodoptera litura",
+            "NCBI_Taxonomy": "69820"
+        },
+        {
+            "id": "T9",
+            "type": "Pest",
+            "name": "Spodoptera frugiperda",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T10",
+            "type": "Pest",
+            "name": "Spodoptera litura",
+            "NCBI_Taxonomy": "69820"
+        },
+        {
+            "id": "T12",
+            "type": "Location",
+            "name": "China",
+            "GeoNames": "1814991"
+        },
+        {
+            "id": "T13",
+            "type": "Pest",
+            "name": "Spodoptera frugiperda",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T14",
+            "type": "Pest",
+            "name": "Spodoptera litura",
+            "NCBI_Taxonomy": "69820"
+        },
+        {
+            "id": "T15",
+            "type": "Pest",
+            "name": "S. frugiperda",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T16",
+            "type": "Pest",
+            "name": "S. litura",
+            "NCBI_Taxonomy": "69820"
+        },
+        {
+            "id": "T17",
+            "type": "Pest",
+            "name": "Spodoptera",
+            "NCBI_Taxonomy": "69820"
+        },
+        {
+            "id": "T18",
+            "type": "Pest",
+            "name": "S. litura",
+            "NCBI_Taxonomy": "69820"
+        },
+        {
+            "id": "T19",
+            "type": "Pest",
+            "name": "S. frugiperda",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T20",
+            "type": "Pest",
+            "name": "S. frugiperda",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T21",
+            "type": "Location",
+            "name": "China",
+            "GeoNames": "1814991"
+        }
+    ],
+    "equivalences": [
+        [
+            "T14",
+            "T16"
+        ],
+        [
+            "T13",
+            "T15"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T13",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T21"
+        }
+    ]
+}

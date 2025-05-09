@@ -1,0 +1,112 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Pest",
+            "name": "ToBRFV",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T4",
+            "type": "Plant",
+            "name": "tomato",
+            "NCBI_Taxonomy": "4081"
+        },
+        {
+            "id": "T5",
+            "type": "Plant",
+            "name": "bell pepper",
+            "NCBI_Taxonomy": "4072"
+        },
+        {
+            "id": "T6",
+            "type": "Plant",
+            "name": "chili",
+            "NCBI_Taxonomy": "4073"
+        },
+        {
+            "id": "T7",
+            "type": "Pest",
+            "name": "Tomato brown rugose fruit virus",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T8",
+            "type": "Pest",
+            "name": "ToBRFV",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T9",
+            "type": "Plant",
+            "name": "tomato",
+            "NCBI_Taxonomy": "4081"
+        },
+        {
+            "id": "T10",
+            "type": "Plant",
+            "name": "Solanum lycopersicum",
+            "NCBI_Taxonomy": "4081"
+        },
+        {
+            "id": "T11",
+            "type": "Plant",
+            "name": "paprika",
+            "NCBI_Taxonomy": "4072"
+        },
+        {
+            "id": "T12",
+            "type": "Plant",
+            "name": "chili pepper",
+            "NCBI_Taxonomy": "4073"
+        },
+        {
+            "id": "T13",
+            "type": "Plant",
+            "name": "Capsicum spp",
+            "NCBI_Taxonomy": "4071"
+        }
+    ],
+    "equivalences": [
+        [
+            "T10",
+            "T9"
+        ],
+        [
+            "T8",
+            "T7"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Has been found on",
+            "source": "T3",
+            "target": "T6"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T3",
+            "target": "T4"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T3",
+            "target": "T5"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T7",
+            "target": "T11"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T7",
+            "target": "T9"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T7",
+            "target": "T12"
+        }
+    ]
+}

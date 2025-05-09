@@ -1,0 +1,132 @@
+T32	Plant 26 39	citrus fruits
+T33	Location 43 48	Italy
+T34	Plant 108 121	citrus plants
+T35	Plant 229 247	citrus cultivation
+T36	Plant 629 635	citrus
+T37	Location 661 675	Etnean capital
+T38	Location 771 777	Sicily
+T39	Date 817 832	in recent years
+T40	Disease 896 904	Tristeza
+T41	Plant 916 922	citrus
+T42	Location 931 936	Italy
+T43	Location 958 964	Sicily
+T44	Plant 985 991	citrus
+T45	Plant 1185 1191	citrus
+T46	Plant 1277 1305	cultivation of citrus fruits
+T47	Pest 1386 1398	Phytophthora
+T48	Pest 1433 1436	CTV
+T49	Pest 1437 1458	Citrus tristeza virus
+T50	Disease 1460 1473	Huanglongbing
+T51	Disease 1475 1478	HLB
+T52	Disease 1483 1498	Citrus greening
+T53	Disease 1661 1664	HLB
+T54	Plant 1674 1680	citrus
+T55	Location 1763 1776	United States
+T56	Location 1781 1786	Spain
+T57	Disease 1856 1877	yellow branch disease
+T58	Disease 1882 1885	HLB
+T59	Location 2003 2016	United States
+T60	Disease 2232 2235	HLB
+T61	Disease 2414 2417	HLB
+T62	Location 2478 2491	Mediterranean
+T63	Plant 2524 2550	pigmented orange cultivars
+T64	Location 2645 2648	USA
+T65	Location 2888 2901	United States
+T66	Disease 2910 2921	HLB disease
+T67	Location 2999 3004	Italy
+T68	Dissemination_pathway 3111 3125	plant material
+T69	Date 3166 3181	in recent years
+T70	Plant 3213 3219	citrus
+T71	Location 3235 3248	United States
+T72	Disease 3266 3274	Tristeza
+T73	Disease 3311 3319	Tristeza
+T74	Plant 3323 3336	citrus fruits
+T75	Date 3420 3440	In the last 12 years
+T76	Location 3484 3497	Sicily Region
+T77	Disease 3505 3513	Tristeza
+T78	Plant 3828 3841	Tarocco Scirè
+T79	Plant 3934 3950	citrange Carrizo
+T80	Plant 4299 4312	Tarocco Scirè
+T81	Date 4337 4350	in nine years
+T82	Date 4352 4369	from 2014 to 2022
+T83	Plant 4799 4804	Olive
+T84	Plant 4832 4838	citrus
+T85	Location 4850 4858	Acireale
+T86	Plant 4918 4935	Citrus clementina
+T87	Plant 4938 4953	Citrus sinensis
+T88	Date 5140 5153	in five years
+T89	Plant 5271 5284	citrus fruits
+N1	NCBI_Taxonomy Annotation:T32 Referent:2706
+N2	GeoNames Annotation:T33 Referent:3175395
+N3	NCBI_Taxonomy Annotation:T34 Referent:2706
+N4	NCBI_Taxonomy Annotation:T35 Referent:2706
+N5	NCBI_Taxonomy Annotation:T36 Referent:2706
+N6	GeoNames Annotation:T37 Referent:6541468
+N7	GeoNames Annotation:T38 Referent:2523118
+N8	NCBI_Taxonomy Annotation:T41 Referent:2706
+N9	GeoNames Annotation:T42 Referent:3175395
+N10	GeoNames Annotation:T43 Referent:2523118
+N11	NCBI_Taxonomy Annotation:T44 Referent:2706
+N12	NCBI_Taxonomy Annotation:T45 Referent:2706
+N13	NCBI_Taxonomy Annotation:T46 Referent:2706
+N14	NCBI_Taxonomy Annotation:T47 Referent:4783
+N15	NCBI_Taxonomy Annotation:T48 Referent:12162
+N16	NCBI_Taxonomy Annotation:T49 Referent:12162
+N17	NCBI_Taxonomy Annotation:T54 Referent:2706
+N18	GeoNames Annotation:T55 Referent:6252001
+N19	GeoNames Annotation:T56 Referent:2510769
+N20	GeoNames Annotation:T59 Referent:6252001
+N21	GeoNames Annotation:T62 Referent:12217088
+N22	NCBI_Taxonomy Annotation:T63 Referent:2711
+N23	GeoNames Annotation:T64 Referent:6252001
+N24	GeoNames Annotation:T65 Referent:6252001
+N25	GeoNames Annotation:T67 Referent:3175395
+N26	NCBI_Taxonomy Annotation:T70 Referent:2706
+N27	GeoNames Annotation:T71 Referent:6252001
+N28	NCBI_Taxonomy Annotation:T74 Referent:2706
+N29	GeoNames Annotation:T76 Referent:2523118
+N30	NCBI_Taxonomy Annotation:T78 Referent:2711
+N31	NCBI_Taxonomy Annotation:T79 Referent:2711
+N32	NCBI_Taxonomy Annotation:T80 Referent:2711
+N33	NCBI_Taxonomy Annotation:T83 Referent:4146
+N34	NCBI_Taxonomy Annotation:T84 Referent:2706
+N35	GeoNames Annotation:T85 Referent:6540849
+N36	NCBI_Taxonomy Annotation:T86 Referent:85681
+N37	NCBI_Taxonomy Annotation:T87 Referent:2711
+N38	NCBI_Taxonomy Annotation:T89 Referent:2706
+R1	Located_in Object:T32 Location:T33
+R2	Located_in Object:T36 Location:T37
+R3	Located_in Object:T40 Location:T43
+R4	Located_in Object:T40 Location:T42
+R5	Expressed_by Disease:T40 Plant:T41
+R6	Located_in Object:T41 Location:T43
+R7	Located_in Object:T41 Location:T42
+R8	Located_in Object:T53 Location:T56
+R9	Located_in Object:T53 Location:T55
+R10	Expressed_by Disease:T53 Plant:T54
+R11	Located_in Object:T54 Location:T56
+R12	Located_in Object:T54 Location:T55
+R13	Located_in Object:T61 Location:T62
+R14	Located_in Object:T66 Location:T65
+R15	Dispersed_by Nuisance:T66 Dissemination_pathway:T68
+R16	Located_in Object:T70 Location:T71
+R17	Expressed_by Disease:T73 Plant:T74
+R18	Located_in Object:T77 Location:T76
+R19	Located_in Object:T84 Location:T85
+E1	Nary Plante:T32 Lieu:T33
+E2	Nary Plante:T36 Lieu:T37
+E3	Nary Plante:T41 Maladie:T40 Lieu:T43
+E4	Nary Plante:T41 Maladie:T40 Lieu:T42
+E5	Nary Plante:T54 Maladie:T53 Lieu:T56
+E6	Nary Plante:T54 Maladie:T53 Lieu:T55
+E7	Nary Maladie:T61 Lieu:T62
+E8	Nary Maladie:T66 Lieu:T65
+E9	Nary Voie_de_dispersion:T68 Maladie:T66
+E10	Nary Plante:T70 Lieu:T71
+E11	Nary Plante:T74 Maladie:T73
+E12	Nary Maladie:T77 Lieu:T76
+E13	Nary Plante:T84 Lieu:T85
+*	Equiv T57 T58
+*	Equiv T48 T49
+*	Equiv T50 T51 T52
+*	Equiv T43 T38

@@ -1,0 +1,55 @@
+T24	Location 4 19	Buhaira Gardens
+T25	Plant 88 100	orange trees
+T26	Location 258 273	Buhaira Gardens
+T27	Plant 515 527	citrus trees
+T28	Plant 548 560	orange trees
+T29	Disease 863 866	HBL
+T30	Disease 868 881	Huanglongbing
+T31	Location 1097 1109	Buhaira Park
+T32	Plant 1219 1225	orange
+T33	Location 1405 1410	Spain
+T34	Plant 1791 1803	orange trees
+T35	Plant 3419 3431	orange trees
+T36	Location 3437 3444	Seville
+T37	Plant 3613 3625	Citrus trees
+T38	Plant 3634 3645	orange tree
+T39	Location 3830 3836	Europe
+T40	Location 3841 3846	Spain
+N1	GeoNames Annotation:T24 Referent:12023371
+N2	NCBI_Taxonomy Annotation:T25 Referent:2711
+N3	GeoNames Annotation:T26 Referent:12023371
+N4	NCBI_Taxonomy Annotation:T27 Referent:2706
+N5	NCBI_Taxonomy Annotation:T28 Referent:2711
+N6	GeoNames Annotation:T31 Referent:12023371
+N7	NCBI_Taxonomy Annotation:T32 Referent:2711
+N8	GeoNames Annotation:T33 Referent:2510769
+N9	NCBI_Taxonomy Annotation:T34 Referent:2711
+N10	NCBI_Taxonomy Annotation:T35 Referent:2711
+N11	GeoNames Annotation:T36 Referent:2510910
+N12	NCBI_Taxonomy Annotation:T37 Referent:2706
+N13	NCBI_Taxonomy Annotation:T38 Referent:2711
+N14	GeoNames Annotation:T39 Referent:6255148
+N15	GeoNames Annotation:T40 Referent:2510769
+R1	Located_in Object:T25 Location:T24
+R2	Located_in Object:T27 Location:T26
+R3	Located_in Object:T28 Location:T26
+R4	Located_in Object:T30 Location:T33
+R5	Expressed_by Disease:T30 Plant:T32
+R6	Located_in Object:T32 Location:T33
+R7	Located_in Object:T35 Location:T36
+R8	Located_in Object:T37 Location:T39
+R9	Located_in Object:T37 Location:T40
+R10	Located_in Object:T37 Location:T36
+R11	Located_in Object:T38 Location:T39
+R12	Located_in Object:T38 Location:T36
+E1	Nary Plante:T25 Lieu:T24
+E2	Nary Plante:T27 Lieu:T26
+E3	Nary Plante:T28 Lieu:T26
+E4	Nary Plante:T32 Maladie:T30 Lieu:T33
+E5	Nary Plante:T35 Lieu:T36
+E6	Nary Plante:T37 Lieu:T39
+E7	Nary Plante:T37 Lieu:T40
+E8	Nary Plante:T37 Lieu:T36
+E9	Nary Plante:T38 Lieu:T39
+E10	Nary Plante:T38 Lieu:T36
+*	Equiv T30 T29

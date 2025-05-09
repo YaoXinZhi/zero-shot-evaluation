@@ -1,0 +1,176 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Habitat",
+            "name": "milk",
+            "OntoBiotope": "OBT:001645"
+        },
+        {
+            "id": "T2",
+            "type": "Phenotype",
+            "name": "lactic acid bacteria",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Lactococcus lactis",
+            "NCBI_Taxonomy": "1358"
+        },
+        {
+            "id": "T4",
+            "type": "Habitat",
+            "name": "curd",
+            "OntoBiotope": "OBT:001208"
+        },
+        {
+            "id": "T5",
+            "type": "Phenotype",
+            "name": "acid-tolerant",
+            "OntoBiotope": "OBT:002883"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "Debaryomyces hansenii",
+            "NCBI_Taxonomy": "4959"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "Geotrichum candidum",
+            "NCBI_Taxonomy": "1173061"
+        },
+        {
+            "id": "T8",
+            "type": "Microorganism",
+            "name": "Kluyveromyces sp.",
+            "NCBI_Taxonomy": "4910"
+        },
+        {
+            "id": "T9",
+            "type": "Microorganism",
+            "name": "Yarrowia lipolytica",
+            "NCBI_Taxonomy": "4952"
+        },
+        {
+            "id": "T10",
+            "type": "Habitat",
+            "name": "cheese surface",
+            "OntoBiotope": "OBT:001341"
+        },
+        {
+            "id": "T11",
+            "type": "Habitat",
+            "name": "cheese",
+            "OntoBiotope": "OBT:001480"
+        },
+        {
+            "id": "T12",
+            "type": "Phenotype",
+            "name": "less acid-tolerant",
+            "OntoBiotope": "OBT:002883"
+        },
+        {
+            "id": "T13",
+            "type": "Phenotype",
+            "name": "aerobic",
+            "OntoBiotope": "OBT:000179"
+        },
+        {
+            "id": "T14",
+            "type": "Phenotype",
+            "name": "facultative \nanaerobic",
+            "OntoBiotope": "OBT:000279"
+        },
+        {
+            "id": "T15",
+            "type": "Phenotype",
+            "name": "catalase-positive",
+            "OntoBiotope": "OBT:000222"
+        },
+        {
+            "id": "T16",
+            "type": "Phenotype",
+            "name": "halo-tolerant",
+            "OntoBiotope": "OBT:002711"
+        },
+        {
+            "id": "T17",
+            "type": "Phenotype",
+            "name": "Gram-positive",
+            "OntoBiotope": "OBT:000649"
+        },
+        {
+            "id": "T18",
+            "type": "Microorganism",
+            "name": "Brevibacterium aurantiacum",
+            "NCBI_Taxonomy": "273384"
+        },
+        {
+            "id": "T19",
+            "type": "Microorganism",
+            "name": "Corynebacterium",
+            "NCBI_Taxonomy": "1716"
+        },
+        {
+            "id": "T20",
+            "type": "Microorganism",
+            "name": "Arthrobacter",
+            "NCBI_Taxonomy": "1663"
+        },
+        {
+            "id": "T21",
+            "type": "Microorganism",
+            "name": "Staphylococcus spp.",
+            "NCBI_Taxonomy": "29387"
+        },
+        {
+            "id": "T22",
+            "type": "Habitat",
+            "name": "cheese",
+            "OntoBiotope": "OBT:001480"
+        },
+        {
+            "id": "T23",
+            "type": "Habitat",
+            "name": "cheese surface",
+            "OntoBiotope": "OBT:001341"
+        },
+        {
+            "id": "T24",
+            "type": "Habitat",
+            "name": "smear surface-ripened cheese",
+            "OntoBiotope": "OBT:003494"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T3",
+            "target": "T2"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T6",
+            "target": "T5"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T7",
+            "target": "T5"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T8",
+            "target": "T5"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T9",
+            "target": "T5"
+        }
+    ]
+}

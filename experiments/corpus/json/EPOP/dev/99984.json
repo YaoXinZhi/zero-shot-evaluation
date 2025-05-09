@@ -1,0 +1,40 @@
+{
+    "entities": [
+        {
+            "id": "T2",
+            "type": "Pest",
+            "name": "Popillia japonica",
+            "NCBI_Taxonomy": "7064"
+        },
+        {
+            "id": "T3",
+            "type": "Location",
+            "name": "Piedmont",
+            "GeoNames": "3170831"
+        },
+        {
+            "id": "T4",
+            "type": "Plant",
+            "name": "hazelnuts",
+            "NCBI_Taxonomy": "13451"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T2",
+            "target": "T3"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T2",
+            "target": "T4"
+        },
+        {
+            "type": "Located in",
+            "source": "T4",
+            "target": "T3"
+        }
+    ]
+}

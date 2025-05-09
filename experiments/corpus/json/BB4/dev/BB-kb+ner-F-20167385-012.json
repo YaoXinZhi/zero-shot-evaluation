@@ -1,0 +1,46 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Phenotype",
+            "name": "Gram negative",
+            "OntoBiotope": "OBT:000648"
+        },
+        {
+            "id": "T2",
+            "type": "Microorganism",
+            "name": "Microbacterium foliorum",
+            "NCBI_Taxonomy": "104336"
+        },
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Psychrobacter sp.",
+            "NCBI_Taxonomy": "56811"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "Proteus vulgaris",
+            "NCBI_Taxonomy": "585"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T2",
+            "target": "T1"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T3",
+            "target": "T1"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T1"
+        }
+    ]
+}

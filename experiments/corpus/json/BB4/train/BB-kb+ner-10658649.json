@@ -1,0 +1,150 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Phenotype",
+            "name": "glycoprotein-binding activity",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "Streptococcus pyogenes",
+            "NCBI_Taxonomy": "1314"
+        },
+        {
+            "id": "T5",
+            "type": "Microorganism",
+            "name": "Streptococcus pyogenes",
+            "NCBI_Taxonomy": "1314"
+        },
+        {
+            "id": "T6",
+            "type": "Habitat",
+            "name": "host cell",
+            "OntoBiotope": "OBT:000061"
+        },
+        {
+            "id": "T7",
+            "type": "Phenotype",
+            "name": "adhesion mechanisms",
+            "OntoBiotope": "OBT:000029"
+        },
+        {
+            "id": "T8",
+            "type": "Habitat",
+            "name": "host cell",
+            "OntoBiotope": "OBT:000061"
+        },
+        {
+            "id": "T9",
+            "type": "Habitat",
+            "name": "vaccines",
+            "OntoBiotope": "OBT:000464"
+        },
+        {
+            "id": "T10",
+            "type": "Phenotype",
+            "name": "glycoprotein-binding activities",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T11",
+            "type": "Microorganism",
+            "name": "streptococcal",
+            "NCBI_Taxonomy": "1314"
+        },
+        {
+            "id": "T12",
+            "type": "Phenotype",
+            "name": "activity binding to fetuin",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T13",
+            "type": "Phenotype",
+            "name": "activity binding to asialofetuin",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T14",
+            "type": "Phenotype",
+            "name": "activity binding to thyroglobulin",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T15",
+            "type": "Phenotype",
+            "name": "activity binding to mucin",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T16",
+            "type": "Microorganism",
+            "name": "S. pyogenes",
+            "NCBI_Taxonomy": "1314"
+        },
+        {
+            "id": "T17",
+            "type": "Phenotype",
+            "name": "glycoprotein-binding activity",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T18",
+            "type": "Phenotype",
+            "name": "adherence",
+            "OntoBiotope": "OBT:000029"
+        },
+        {
+            "id": "T19",
+            "type": "Microorganism",
+            "name": "S. pyogenes",
+            "NCBI_Taxonomy": "1314"
+        },
+        {
+            "id": "T20",
+            "type": "Phenotype",
+            "name": "virulence",
+            "OntoBiotope": "OBT:000375"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T3"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T5",
+            "target": "T7"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T16",
+            "target": "T13"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T16",
+            "target": "T15"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T16",
+            "target": "T12"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T16",
+            "target": "T14"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T19",
+            "target": "T20"
+        }
+    ]
+}

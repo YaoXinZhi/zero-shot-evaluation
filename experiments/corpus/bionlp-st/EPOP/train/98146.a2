@@ -1,0 +1,39 @@
+T22	Disease 14 17	HLB
+T23	Plant 26 32	citrus
+T24	Location 75 82	Tucumán
+T25	Disease 255 258	HLB
+T26	Plant 267 273	citrus
+T27	Location 316 323	Tucumán
+T28	Location 482 503	San Miguel de Tucumán
+T29	Disease 567 580	Huanglongbing
+T30	Disease 582 585	HLB
+T31	Plant 680 686	citrus
+T32	Location 722 729	Tucumán
+T33	Plant 878 884	citrus
+T34	Location 902 921	province of Tucumán
+T35	Disease 1284 1287	HLB
+T36	Plant 1907 1920	citrus plants
+T37	Disease 2289 2292	HLB
+N1	NCBI_Taxonomy Annotation:T23 Referent:2706
+N2	GeoNames Annotation:T24 Referent:3833578
+N3	NCBI_Taxonomy Annotation:T26 Referent:2706
+N4	GeoNames Annotation:T27 Referent:3833578
+N5	GeoNames Annotation:T28 Referent:3862748
+N6	NCBI_Taxonomy Annotation:T31 Referent:2706
+N7	GeoNames Annotation:T32 Referent:3833578
+N8	NCBI_Taxonomy Annotation:T33 Referent:2706
+N9	GeoNames Annotation:T34 Referent:3833578
+N10	NCBI_Taxonomy Annotation:T36 Referent:2706
+R1	Expressed_by Disease:T22 Plant:T23
+R2	Located_in Object:T22 Location:T24
+R3	Located_in Object:T23 Location:T24
+R4	Expressed_by Disease:T25 Plant:T26
+R5	Located_in Object:T25 Location:T27
+R6	Located_in Object:T26 Location:T27
+R7	Located_in Object:T31 Location:T32
+R8	Located_in Object:T33 Location:T34
+E1	Nary Plante:T23 Maladie:T22 Lieu:T24
+E2	Nary Plante:T26 Maladie:T25 Lieu:T27
+E3	Nary Plante:T31 Lieu:T32
+E4	Nary Plante:T33 Lieu:T34
+*	Equiv T29 T30

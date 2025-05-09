@@ -1,0 +1,103 @@
+{
+    "entities": [
+        {
+            "id": "T4",
+            "type": "Pest",
+            "name": "Xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T5",
+            "type": "Location",
+            "name": "Puglia",
+            "GeoNames": "3169778"
+        },
+        {
+            "id": "T6",
+            "type": "Pest",
+            "name": "Xylella fastidiosa",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T7",
+            "type": "Plant",
+            "name": "olive trees",
+            "NCBI_Taxonomy": "4146"
+        },
+        {
+            "id": "T8",
+            "type": "Location",
+            "name": "BARI",
+            "GeoNames": "3182350"
+        },
+        {
+            "id": "T10",
+            "type": "Pest",
+            "name": "Xylella fastidiosa",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T11",
+            "type": "Plant",
+            "name": "olive trees",
+            "NCBI_Taxonomy": "4146"
+        },
+        {
+            "id": "T12",
+            "type": "Location",
+            "name": "Salento area",
+            "GeoNames": "6540006"
+        },
+        {
+            "id": "T13",
+            "type": "Location",
+            "name": "Apulian provinces",
+            "GeoNames": "3169778"
+        },
+        {
+            "id": "T14",
+            "type": "Pest",
+            "name": "Xylella fastidiosa",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T16",
+            "type": "Location",
+            "name": "Bari",
+            "GeoNames": "3182350"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Has been found on",
+            "source": "T6",
+            "target": "T7"
+        },
+        {
+            "type": "Located in",
+            "source": "T10",
+            "target": "T13"
+        },
+        {
+            "type": "Located in",
+            "source": "T10",
+            "target": "T12"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T10",
+            "target": "T11"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T13"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T12"
+        }
+    ]
+}

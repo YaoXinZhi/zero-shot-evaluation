@@ -1,0 +1,91 @@
+T11	Plant 23 40	Cavendish bananas
+T12	Pest 58 68	TR4 fungus
+T13	Location 172 180	Colombia
+T14	Plant 215 232	Cavendish bananas
+T15	Pest 250 260	TR4 fungus
+T16	Plant 351 374	Cavendish banana plants
+T17	Pest 438 441	TR4
+T18	Date 443 458	Until the 1920s
+T19	Plant 465 472	bananas
+T20	Plant 505 524	Gros Michel variety
+T21	Pest 566 569	TR1
+T22	Plant 587 599	banana crops
+T23	Plant 670 704	variety of banana called Cavendish
+T24	Pest 731 741	TR1 fungus
+T25	Pest 820 823	TR4
+T26	Plant 846 863	Cavendish bananas
+T27	Dissemination_pathway 990 1039	transferred from one person to another plantation
+T28	Plant 1136 1152	Cavendish plants
+T29	Pest 1182 1185	TR4
+T30	Plant 1507 1516	Cavendish
+T31	Pest 1527 1530	TR1
+T32	Pest 1563 1566	TR4
+T33	Pest 1657 1667	TR1 fungus
+T34	Pest 1715 1718	TR4
+T35	Pest 1810 1813	TR1
+T36	Pest 1847 1850	TR4
+T37	Date 1851 1868	for up to 10 days
+T38	Pest 2132 2135	TR4
+T39	Plant 2204 2210	banana
+T40	Disease 2225 2238	Fusarium wilt
+T41	Pest 2249 2264	Tropical Race 4
+T42	Plant 2268 2300	Cavendish cv Grand Naine bananas
+N1	NCBI_Taxonomy Annotation:T11 Referent:214697
+N2	NCBI_Taxonomy Annotation:T12 Referent:2502994
+N3	GeoNames Annotation:T13 Referent:3686110
+N4	NCBI_Taxonomy Annotation:T14 Referent:214697
+N5	NCBI_Taxonomy Annotation:T15 Referent:2502994
+N6	NCBI_Taxonomy Annotation:T16 Referent:214697
+N7	NCBI_Taxonomy Annotation:T17 Referent:2502994
+N8	NCBI_Taxonomy Annotation:T19 Referent:4640
+N9	NCBI_Taxonomy Annotation:T20 Referent:214697
+N10	NCBI_Taxonomy Annotation:T21 Referent:1229664
+N11	NCBI_Taxonomy Annotation:T22 Referent:4640
+N12	NCBI_Taxonomy Annotation:T23 Referent:214697
+N13	NCBI_Taxonomy Annotation:T24 Referent:1229664
+N14	NCBI_Taxonomy Annotation:T25 Referent:2502994
+N15	NCBI_Taxonomy Annotation:T26 Referent:214697
+N16	NCBI_Taxonomy Annotation:T28 Referent:214697
+N17	NCBI_Taxonomy Annotation:T29 Referent:2502994
+N18	NCBI_Taxonomy Annotation:T30 Referent:214697
+N19	NCBI_Taxonomy Annotation:T31 Referent:1229664
+N20	NCBI_Taxonomy Annotation:T32 Referent:2502994
+N21	NCBI_Taxonomy Annotation:T33 Referent:1229664
+N22	NCBI_Taxonomy Annotation:T34 Referent:2502994
+N23	NCBI_Taxonomy Annotation:T35 Referent:1229664
+N24	NCBI_Taxonomy Annotation:T36 Referent:2502994
+N25	NCBI_Taxonomy Annotation:T38 Referent:2502994
+N26	NCBI_Taxonomy Annotation:T39 Referent:4640
+N27	NCBI_Taxonomy Annotation:T41 Referent:2502994
+N28	NCBI_Taxonomy Annotation:T42 Referent:214697
+R1	Found_on Organism:T12 Habitat:T11
+R2	Found_on Organism:T15 Habitat:T14
+R3	Found_on Organism:T17 Habitat:T16
+R4	Found_on Organism:T21 Habitat:T22
+R5	Found_on Organism:T24 Habitat:T23
+R6	Found_on Organism:T25 Habitat:T26
+R7	Dispersed_by Nuisance:T25 Dissemination_pathway:T27
+R8	Found_on Organism:T29 Habitat:T28
+R9	Found_on Organism:T31 Habitat:T30
+R10	Found_on Organism:T32 Habitat:T30
+R11	Detected_on Object:T36 Date:T37
+R12	Causes Pest:T41 Disease:T40
+R13	Expressed_by Disease:T40 Plant:T39
+R14	Expressed_by Disease:T40 Plant:T42
+R15	Found_on Organism:T41 Habitat:T39
+R16	Found_on Organism:T41 Habitat:T42
+E1	Nary Organisme_nuisible:T12 Plante:T11
+E2	Nary Organisme_nuisible:T15 Plante:T14
+E3	Nary Organisme_nuisible:T17 Plante:T16
+E4	Nary Organisme_nuisible:T21 Plante:T22
+E5	Nary Organisme_nuisible:T24 Plante:T23
+E6	Nary Organisme_nuisible:T25 Plante:T26
+E7	Nary Organisme_nuisible:T25 Voie_de_dispersion:T27
+E8	Nary Organisme_nuisible:T29 Plante:T28
+E9	Nary Organisme_nuisible:T31 Plante:T30
+E10	Nary Organisme_nuisible:T32 Plante:T30
+E11	Nary Organisme_nuisible:T36 Date:T37
+E12	Nary Organisme_nuisible:T41 Plante:T39 Maladie:T40
+E13	Nary Organisme_nuisible:T41 Plante:T42 Maladie:T40
+*	Equiv T34 T32
+*	Equiv T33 T31

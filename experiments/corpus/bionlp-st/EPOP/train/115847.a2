@@ -1,0 +1,34 @@
+T4	Pest 0 7	Xylella
+T5	Location 63 69	Puglia
+T6	Pest 119 137	Xylella fastidiosa
+T7	Plant 280 291	olive trees
+T8	Location 326 330	BARI
+T9	Date 332 338	07 OCT
+T10	Pest 388 406	Xylella fastidiosa
+T11	Plant 563 574	olive trees
+T12	Location 582 594	Salento area
+T13	Location 628 645	Apulian provinces
+T14	Pest 1092 1110	Xylella fastidiosa
+T15	Date 1115 1121	so far
+T16	Location 1402 1406	Bari
+T17	Date 2125 2131	so far
+N1	NCBI_Taxonomy Annotation:T4 Referent:2371
+N2	GeoNames Annotation:T5 Referent:3169778
+N3	NCBI_Taxonomy Annotation:T6 Referent:2371
+N4	NCBI_Taxonomy Annotation:T7 Referent:4146
+N5	GeoNames Annotation:T8 Referent:3182350
+N6	NCBI_Taxonomy Annotation:T10 Referent:2371
+N7	NCBI_Taxonomy Annotation:T11 Referent:4146
+N8	GeoNames Annotation:T12 Referent:6540006
+N9	GeoNames Annotation:T13 Referent:3169778
+N10	NCBI_Taxonomy Annotation:T14 Referent:2371
+N11	GeoNames Annotation:T16 Referent:3182350
+R1	Found_on Organism:T6 Habitat:T7
+R2	Located_in Object:T10 Location:T13
+R3	Located_in Object:T10 Location:T12
+R4	Found_on Organism:T10 Habitat:T11
+R5	Located_in Object:T11 Location:T13
+R6	Located_in Object:T11 Location:T12
+E1	Nary Organisme_nuisible:T6 Plante:T7
+E2	Nary Organisme_nuisible:T10 Plante:T11 Lieu:T13
+E3	Nary Organisme_nuisible:T10 Plante:T11 Lieu:T12

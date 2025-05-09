@@ -1,0 +1,73 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Pest",
+            "name": "Popillia",
+            "NCBI_Taxonomy": "7064"
+        },
+        {
+            "id": "T8",
+            "type": "Plant",
+            "name": "vineyards",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T9",
+            "type": "Location",
+            "name": "Novara",
+            "GeoNames": "3172188"
+        },
+        {
+            "id": "T10",
+            "type": "Pest",
+            "name": "Popillia",
+            "NCBI_Taxonomy": "7064"
+        },
+        {
+            "id": "T11",
+            "type": "Plant",
+            "name": "vineyards",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T12",
+            "type": "Location",
+            "name": "Novara",
+            "GeoNames": "3172188"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Has been found on",
+            "source": "T7",
+            "target": "T8"
+        },
+        {
+            "type": "Located in",
+            "source": "T7",
+            "target": "T9"
+        },
+        {
+            "type": "Located in",
+            "source": "T8",
+            "target": "T9"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T10",
+            "target": "T11"
+        },
+        {
+            "type": "Located in",
+            "source": "T10",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T12"
+        }
+    ]
+}

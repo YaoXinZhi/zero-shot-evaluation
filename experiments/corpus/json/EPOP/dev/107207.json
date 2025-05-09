@@ -1,0 +1,242 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Plant",
+            "name": "olive cultivars",
+            "NCBI_Taxonomy": "158383"
+        },
+        {
+            "id": "T4",
+            "type": "Pest",
+            "name": "Xylella fastidiosa",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T5",
+            "type": "Disease",
+            "name": "Olive quick decline syndrome"
+        },
+        {
+            "id": "T6",
+            "type": "Disease",
+            "name": "OQDS"
+        },
+        {
+            "id": "T7",
+            "type": "Location",
+            "name": "Italy",
+            "GeoNames": "3175395"
+        },
+        {
+            "id": "T9",
+            "type": "Pest",
+            "name": "Xylella fastidiosa subsp. pauca",
+            "NCBI_Taxonomy": "698414"
+        },
+        {
+            "id": "T10",
+            "type": "Pest",
+            "name": "Xfp",
+            "NCBI_Taxonomy": "698414"
+        },
+        {
+            "id": "T11",
+            "type": "Plant",
+            "name": "olive cultivars",
+            "NCBI_Taxonomy": "158383"
+        },
+        {
+            "id": "T12",
+            "type": "Plant",
+            "name": "olive cultivars",
+            "NCBI_Taxonomy": "158383"
+        },
+        {
+            "id": "T13",
+            "type": "Disease",
+            "name": "OQDS"
+        },
+        {
+            "id": "T14",
+            "type": "Pest",
+            "name": "Xfp",
+            "NCBI_Taxonomy": "698414"
+        },
+        {
+            "id": "T15",
+            "type": "Plant",
+            "name": "olive trees",
+            "NCBI_Taxonomy": "158383"
+        },
+        {
+            "id": "T16",
+            "type": "Pest",
+            "name": "Xfp",
+            "NCBI_Taxonomy": "698414"
+        },
+        {
+            "id": "T17",
+            "type": "Plant",
+            "name": "Cellina di Nard\u00f2",
+            "NCBI_Taxonomy": "158383"
+        },
+        {
+            "id": "T18",
+            "type": "Plant",
+            "name": "Leccino cultivars",
+            "NCBI_Taxonomy": "158383"
+        },
+        {
+            "id": "T19",
+            "type": "Plant",
+            "name": "\u201cFS17\u201d cultivars",
+            "NCBI_Taxonomy": "158383"
+        },
+        {
+            "id": "T20",
+            "type": "Pest",
+            "name": "Xfp",
+            "NCBI_Taxonomy": "698414"
+        },
+        {
+            "id": "T21",
+            "type": "Plant",
+            "name": "Cellina di Nard\u00f2",
+            "NCBI_Taxonomy": "158383"
+        },
+        {
+            "id": "T22",
+            "type": "Plant",
+            "name": "Leccino",
+            "NCBI_Taxonomy": "158383"
+        },
+        {
+            "id": "T23",
+            "type": "Plant",
+            "name": "FS17",
+            "NCBI_Taxonomy": "158383"
+        },
+        {
+            "id": "T24",
+            "type": "Plant",
+            "name": "olive cultivars",
+            "NCBI_Taxonomy": "158383"
+        },
+        {
+            "id": "T25",
+            "type": "Pest",
+            "name": "Xfp",
+            "NCBI_Taxonomy": "698414"
+        },
+        {
+            "id": "T26",
+            "type": "Plant",
+            "name": "olive",
+            "NCBI_Taxonomy": "4146"
+        },
+        {
+            "id": "T27",
+            "type": "Pest",
+            "name": "X. fastidiosa",
+            "NCBI_Taxonomy": "2371"
+        }
+    ],
+    "equivalences": [
+        [
+            "T6",
+            "T5"
+        ],
+        [
+            "T10",
+            "T9"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Has been found on",
+            "source": "T4",
+            "target": "T3"
+        },
+        {
+            "type": "Located in",
+            "source": "T5",
+            "target": "T7"
+        },
+        {
+            "type": "Causes",
+            "source": "T9",
+            "target": "T5"
+        },
+        {
+            "type": "Affects",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Located in",
+            "source": "T9",
+            "target": "T7"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T9",
+            "target": "T11"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T7"
+        },
+        {
+            "type": "Affects",
+            "source": "T13",
+            "target": "T12"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T14",
+            "target": "T15"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T16",
+            "target": "T18"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T16",
+            "target": "T17"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T16",
+            "target": "T19"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T20",
+            "target": "T23"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T20",
+            "target": "T22"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T20",
+            "target": "T21"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T25",
+            "target": "T24"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T27",
+            "target": "T26"
+        }
+    ]
+}

@@ -1,0 +1,35 @@
+T13	Disease 24 42	golden flavescence
+T14	Date 165 177	on 24 August
+T15	Pest 301 330	Flavescence dorée phytoplasma
+T16	Disease 379 397	golden flavescence
+T17	Vector 454 478	Scaphoideus titanus Ball
+T18	Vector 631 655	Scaphoideus titanus Ball
+T19	Date 672 680	for 2022
+T20	Date 730 737	in 2021
+T21	Vector 970 994	Scaphoideus titanus Ball
+T22	Date 1020 1028	for 2021
+T23	Pest 1064 1093	Flavescence dorée phytoplasma
+T24	Vector 1153 1177	Scaphoideus titanus Ball
+T25	Pest 1212 1253	phytoplasma Flavescence dorée phytoplasma
+T26	Vector 1592 1616	Scaphoideus titanus Ball
+N1	NCBI_Taxonomy Annotation:T15 Referent:131152
+N2	NCBI_Taxonomy Annotation:T17 Referent:376741
+N3	NCBI_Taxonomy Annotation:T18 Referent:376741
+N4	NCBI_Taxonomy Annotation:T21 Referent:376741
+N5	NCBI_Taxonomy Annotation:T23 Referent:131152
+N6	NCBI_Taxonomy Annotation:T24 Referent:376741
+N7	NCBI_Taxonomy Annotation:T25 Referent:131152
+N8	NCBI_Taxonomy Annotation:T26 Referent:376741
+R1	Vected_by Nuisance:T15 Vector:T17
+R2	Causes Pest:T15 Disease:T16
+R3	Detected_on Object:T18 Date:T19
+R4	Detected_on Object:T21 Date:T20
+R5	Vected_by Nuisance:T23 Vector:T21
+R6	Vected_by Nuisance:T23 Vector:T24
+R7	Vected_by Nuisance:T25 Vector:T26
+E1	Nary Organisme_nuisible:T15 Vecteur:T17 Maladie:T16
+E2	Nary Vecteur:T18 Date:T19
+E3	Nary Vecteur:T21 Date:T20
+E4	Nary Organisme_nuisible:T23 Vecteur:T24
+E5	Nary Organisme_nuisible:T23 Vecteur:T21
+E6	Nary Organisme_nuisible:T25 Vecteur:T26

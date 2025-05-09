@@ -1,0 +1,92 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Pest",
+            "name": "Eastern fruit fly",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T11",
+            "type": "Location",
+            "name": "territory of Palma Campania",
+            "GeoNames": "6537345"
+        },
+        {
+            "id": "T12",
+            "type": "Pest",
+            "name": "Eastern fruit fly",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T13",
+            "type": "Location",
+            "name": "territory of Palma Campania",
+            "GeoNames": "6537345"
+        },
+        {
+            "id": "T14",
+            "type": "Pest",
+            "name": "Bactrocera dorsalis",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T15",
+            "type": "Pest",
+            "name": "Eastern fruit fly",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T16",
+            "type": "Location",
+            "name": "limited area of Campania",
+            "GeoNames": "3181042"
+        },
+        {
+            "id": "T17",
+            "type": "Location",
+            "name": "territory of Palma Campania",
+            "GeoNames": "6537345"
+        },
+        {
+            "id": "T18",
+            "type": "Location",
+            "name": "Campania Region",
+            "GeoNames": "3181042"
+        },
+        {
+            "id": "T19",
+            "type": "Pest",
+            "name": "B. dorsalis",
+            "NCBI_Taxonomy": "27457"
+        }
+    ],
+    "equivalences": [
+        [
+            "T15",
+            "T14"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T10",
+            "target": "T11"
+        },
+        {
+            "type": "Located in",
+            "source": "T12",
+            "target": "T13"
+        },
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T16"
+        },
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T17"
+        }
+    ]
+}

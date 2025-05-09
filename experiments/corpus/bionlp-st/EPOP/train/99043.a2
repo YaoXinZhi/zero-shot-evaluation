@@ -1,0 +1,44 @@
+T20	Disease 14 17	HLB
+T21	Dissemination_pathway 19 35	Citrus seedlings
+T22	Location 100 119	province of Tucumán
+T23	Disease 235 238	HLB
+T24	Dissemination_pathway 240 256	Citrus seedlings
+T25	Location 321 340	province of Tucumán
+T26	Location 442 463	San Miguel de Tucumán
+T27	Dissemination_pathway 563 604	citrus seedlings without certified origin
+T28	Location 661 680	town of Los Vasquez
+T29	Location 682 701	province of Tucumán
+T30	Disease 721 734	Huanglongbing
+T31	Disease 736 739	HLB
+T32	Plant 1023 1036	citrus plants
+T33	Plant 1463 1476	citrus plants
+T34	Disease 1653 1656	HLB
+T35	Plant 1679 1692	citrus fruits
+T36	Date 1697 1703	so far
+N1	OntoBiotope Annotation:T21 Referent:OBT:001304
+N2	GeoNames Annotation:T22 Referent:3833578
+N3	OntoBiotope Annotation:T24 Referent:OBT:001304
+N4	GeoNames Annotation:T25 Referent:3833578
+N5	GeoNames Annotation:T26 Referent:3862748
+N6	OntoBiotope Annotation:T27 Referent:OBT:001304
+N7	GeoNames Annotation:T28 Referent:3862748
+N8	GeoNames Annotation:T29 Referent:3833578
+N9	NCBI_Taxonomy Annotation:T32 Referent:2706
+N10	NCBI_Taxonomy Annotation:T33 Referent:2706
+N11	NCBI_Taxonomy Annotation:T35 Referent:2706
+R1	Located_in Object:T27 Location:T29
+R2	Located_in Object:T27 Location:T28
+R3	Dispersed_by Nuisance:T30 Dissemination_pathway:T27
+R4	Located_in Object:T30 Location:T29
+R5	Located_in Object:T30 Location:T28
+R6	Located_in Object:T32 Location:T29
+R7	Located_in Object:T32 Location:T26
+R8	Located_in Object:T32 Location:T28
+R9	Expressed_by Disease:T34 Plant:T35
+E1	Nary Voie_de_dispersion:T27 Maladie:T30 Lieu:T29
+E2	Nary Voie_de_dispersion:T27 Maladie:T30 Lieu:T28
+E3	Nary Plante:T32 Lieu:T29
+E4	Nary Plante:T32 Lieu:T26
+E5	Nary Plante:T32 Lieu:T28
+E6	Nary Plante:T35 Maladie:T34
+*	Equiv T31 T30

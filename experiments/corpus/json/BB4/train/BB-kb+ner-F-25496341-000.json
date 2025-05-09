@@ -1,0 +1,59 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Habitat",
+            "name": "cheese",
+            "OntoBiotope": "OBT:001480"
+        },
+        {
+            "id": "T2",
+            "type": "Habitat",
+            "name": "dairy",
+            "OntoBiotope": "OBT:001208"
+        },
+        {
+            "id": "T3",
+            "type": "Habitat",
+            "name": "traditional cheese",
+            "OntoBiotope": "OBT:001480"
+        },
+        {
+            "id": "T4",
+            "type": "Phenotype",
+            "name": "Gram-negative",
+            "OntoBiotope": "OBT:000648"
+        },
+        {
+            "id": "T5",
+            "type": "Microorganism",
+            "name": "Pseudoalteromonas haloplanktis",
+            "NCBI_Taxonomy": "228"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "Psychrobacter immobilis",
+            "NCBI_Taxonomy": "498"
+        },
+        {
+            "id": "T7",
+            "type": "Habitat",
+            "name": "cheese produced through traditional methods",
+            "OntoBiotope": "OBT:001480"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T5",
+            "target": "T4"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T6",
+            "target": "T4"
+        }
+    ]
+}

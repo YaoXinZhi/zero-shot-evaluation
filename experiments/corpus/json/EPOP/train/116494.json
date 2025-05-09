@@ -1,0 +1,208 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Plant",
+            "name": "Cavendish banana variety",
+            "NCBI_Taxonomy": "214697"
+        },
+        {
+            "id": "T9",
+            "type": "Pest",
+            "name": "TR4",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T10",
+            "type": "Disease",
+            "name": "Panama disease"
+        },
+        {
+            "id": "T12",
+            "type": "Plant",
+            "name": "Cavendish banana variety",
+            "NCBI_Taxonomy": "214697"
+        },
+        {
+            "id": "T13",
+            "type": "Pest",
+            "name": "TR4",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T14",
+            "type": "Disease",
+            "name": "Panama disease"
+        },
+        {
+            "id": "T16",
+            "type": "Location",
+            "name": "Israel",
+            "GeoNames": "294640"
+        },
+        {
+            "id": "T17",
+            "type": "Plant",
+            "name": "Cavendish banana plants",
+            "NCBI_Taxonomy": "214697"
+        },
+        {
+            "id": "T18",
+            "type": "Disease",
+            "name": "Panama disease"
+        },
+        {
+            "id": "T19",
+            "type": "Pest",
+            "name": "TR4",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T20",
+            "type": "Plant",
+            "name": "Cavendish",
+            "NCBI_Taxonomy": "214697"
+        },
+        {
+            "id": "T21",
+            "type": "Location",
+            "name": "Philippines",
+            "GeoNames": "1694008"
+        },
+        {
+            "id": "T22",
+            "type": "Location",
+            "name": "Colombia",
+            "GeoNames": "3686110"
+        },
+        {
+            "id": "T23",
+            "type": "Pest",
+            "name": "TR4",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T24",
+            "type": "Location",
+            "name": "Colombia",
+            "GeoNames": "3686110"
+        },
+        {
+            "id": "T26",
+            "type": "Disease",
+            "name": "Fusarium Wilt"
+        },
+        {
+            "id": "T27",
+            "type": "Pest",
+            "name": "Foc TR4",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T28",
+            "type": "Plant",
+            "name": "Banana",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T30",
+            "type": "Plant",
+            "name": "variety banana",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T31",
+            "type": "Pest",
+            "name": "TR4",
+            "NCBI_Taxonomy": "2502994"
+        }
+    ],
+    "equivalences": [
+        [
+            "T24",
+            "T22"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T8",
+            "target": "T24"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T9",
+            "target": "T8"
+        },
+        {
+            "type": "Located in",
+            "source": "T9",
+            "target": "T24"
+        },
+        {
+            "type": "Causes",
+            "source": "T9",
+            "target": "T10"
+        },
+        {
+            "type": "Located in",
+            "source": "T10",
+            "target": "T24"
+        },
+        {
+            "type": "Affects",
+            "source": "T10",
+            "target": "T8"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T13",
+            "target": "T12"
+        },
+        {
+            "type": "Causes",
+            "source": "T13",
+            "target": "T14"
+        },
+        {
+            "type": "Affects",
+            "source": "T14",
+            "target": "T12"
+        },
+        {
+            "type": "Causes",
+            "source": "T19",
+            "target": "T18"
+        },
+        {
+            "type": "Affects",
+            "source": "T18",
+            "target": "T17"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T19",
+            "target": "T17"
+        },
+        {
+            "type": "Located in",
+            "source": "T23",
+            "target": "T24"
+        },
+        {
+            "type": "Causes",
+            "source": "T27",
+            "target": "T26"
+        },
+        {
+            "type": "Affects",
+            "source": "T26",
+            "target": "T28"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T27",
+            "target": "T28"
+        }
+    ]
+}

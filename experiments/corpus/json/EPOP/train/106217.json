@@ -1,0 +1,226 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Pest",
+            "name": "Xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T14",
+            "type": "Location",
+            "name": "Castellana Grotte",
+            "GeoNames": "6536401"
+        },
+        {
+            "id": "T15",
+            "type": "Location",
+            "name": "Italy",
+            "GeoNames": "3175395"
+        },
+        {
+            "id": "T16",
+            "type": "Pest",
+            "name": "Xylella fastidiosa pauca ST53",
+            "NCBI_Taxonomy": "698414"
+        },
+        {
+            "id": "T17",
+            "type": "Location",
+            "name": "Puglia",
+            "GeoNames": "3169778"
+        },
+        {
+            "id": "T19",
+            "type": "Plant",
+            "name": "olive trees",
+            "NCBI_Taxonomy": "4146"
+        },
+        {
+            "id": "T20",
+            "type": "Location",
+            "name": "countryside of Castellana Grotte",
+            "GeoNames": "6536401"
+        },
+        {
+            "id": "T21",
+            "type": "Pest",
+            "name": "Xylella fastidiosa pauca ST53",
+            "NCBI_Taxonomy": "698414"
+        },
+        {
+            "id": "T22",
+            "type": "Location",
+            "name": "Puglia",
+            "GeoNames": "3169778"
+        },
+        {
+            "id": "T24",
+            "type": "Plant",
+            "name": "olive trees",
+            "NCBI_Taxonomy": "4146"
+        },
+        {
+            "id": "T25",
+            "type": "Location",
+            "name": "countryside of Castellana Grotte",
+            "GeoNames": "6536401"
+        },
+        {
+            "id": "T26",
+            "type": "Location",
+            "name": "province of Bari",
+            "GeoNames": "3182350"
+        },
+        {
+            "id": "T27",
+            "type": "Location",
+            "name": "Locorotondo",
+            "GeoNames": "6538944"
+        },
+        {
+            "id": "T28",
+            "type": "Location",
+            "name": "Monopoli",
+            "GeoNames": "6541257"
+        },
+        {
+            "id": "T29",
+            "type": "Location",
+            "name": "Polignano",
+            "GeoNames": "6537556"
+        },
+        {
+            "id": "T30",
+            "type": "Location",
+            "name": "Alberobello",
+            "GeoNames": "6541733"
+        },
+        {
+            "id": "T32",
+            "type": "Location",
+            "name": "Puglia Region",
+            "GeoNames": "3169778"
+        },
+        {
+            "id": "T33",
+            "type": "Pest",
+            "name": "Xylella fastidiosa",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T36",
+            "type": "Location",
+            "name": "Northern Puglia",
+            "GeoNames": "3169778"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T13",
+            "target": "T15"
+        },
+        {
+            "type": "Located in",
+            "source": "T13",
+            "target": "T14"
+        },
+        {
+            "type": "Located in",
+            "source": "T16",
+            "target": "T17"
+        },
+        {
+            "type": "Located in",
+            "source": "T16",
+            "target": "T20"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T16",
+            "target": "T19"
+        },
+        {
+            "type": "Located in",
+            "source": "T19",
+            "target": "T20"
+        },
+        {
+            "type": "Located in",
+            "source": "T21",
+            "target": "T22"
+        },
+        {
+            "type": "Located in",
+            "source": "T21",
+            "target": "T25"
+        },
+        {
+            "type": "Located in",
+            "source": "T21",
+            "target": "T30"
+        },
+        {
+            "type": "Located in",
+            "source": "T21",
+            "target": "T28"
+        },
+        {
+            "type": "Located in",
+            "source": "T21",
+            "target": "T29"
+        },
+        {
+            "type": "Located in",
+            "source": "T21",
+            "target": "T27"
+        },
+        {
+            "type": "Located in",
+            "source": "T21",
+            "target": "T26"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T21",
+            "target": "T24"
+        },
+        {
+            "type": "Located in",
+            "source": "T24",
+            "target": "T25"
+        },
+        {
+            "type": "Located in",
+            "source": "T24",
+            "target": "T30"
+        },
+        {
+            "type": "Located in",
+            "source": "T24",
+            "target": "T28"
+        },
+        {
+            "type": "Located in",
+            "source": "T24",
+            "target": "T29"
+        },
+        {
+            "type": "Located in",
+            "source": "T24",
+            "target": "T27"
+        },
+        {
+            "type": "Located in",
+            "source": "T24",
+            "target": "T26"
+        },
+        {
+            "type": "Located in",
+            "source": "T33",
+            "target": "T36"
+        }
+    ]
+}

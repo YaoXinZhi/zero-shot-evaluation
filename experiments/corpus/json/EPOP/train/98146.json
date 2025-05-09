@@ -1,0 +1,142 @@
+{
+    "entities": [
+        {
+            "id": "T22",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T23",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T24",
+            "type": "Location",
+            "name": "Tucum\u00e1n",
+            "GeoNames": "3833578"
+        },
+        {
+            "id": "T25",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T26",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T27",
+            "type": "Location",
+            "name": "Tucum\u00e1n",
+            "GeoNames": "3833578"
+        },
+        {
+            "id": "T28",
+            "type": "Location",
+            "name": "San Miguel de Tucum\u00e1n",
+            "GeoNames": "3862748"
+        },
+        {
+            "id": "T29",
+            "type": "Disease",
+            "name": "Huanglongbing"
+        },
+        {
+            "id": "T30",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T31",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T32",
+            "type": "Location",
+            "name": "Tucum\u00e1n",
+            "GeoNames": "3833578"
+        },
+        {
+            "id": "T33",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T34",
+            "type": "Location",
+            "name": "province of Tucum\u00e1n",
+            "GeoNames": "3833578"
+        },
+        {
+            "id": "T35",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T36",
+            "type": "Plant",
+            "name": "citrus plants",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T37",
+            "type": "Disease",
+            "name": "HLB"
+        }
+    ],
+    "equivalences": [
+        [
+            "T29",
+            "T30"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Affects",
+            "source": "T22",
+            "target": "T23"
+        },
+        {
+            "type": "Located in",
+            "source": "T22",
+            "target": "T24"
+        },
+        {
+            "type": "Located in",
+            "source": "T23",
+            "target": "T24"
+        },
+        {
+            "type": "Affects",
+            "source": "T25",
+            "target": "T26"
+        },
+        {
+            "type": "Located in",
+            "source": "T25",
+            "target": "T27"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T27"
+        },
+        {
+            "type": "Located in",
+            "source": "T31",
+            "target": "T32"
+        },
+        {
+            "type": "Located in",
+            "source": "T33",
+            "target": "T34"
+        }
+    ]
+}

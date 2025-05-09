@@ -1,0 +1,56 @@
+T12	Location 0 2	UK
+T13	Disease 59 73	Panama disease
+T14	Plant 77 84	bananas
+T15	Date 278 290	In the 1950s
+T16	Disease 292 306	Panama disease
+T17	Pest 329 362	Fusarium oxysporum cubense Race 1
+T18	Plant 458 483	Cavendish variety bananas
+T19	Pest 529 544	Tropical Race 4
+T20	Plant 599 627	Cavendish banana plantations
+T21	Disease 638 652	Panama disease
+T22	Plant 693 710	Cavendish bananas
+T23	Plant 825 842	Cavendish bananas
+T24	Date 849 855	so far
+T25	Disease 974 988	Panama disease
+T26	Disease 1276 1290	Panama disease
+T27	Disease 1712 1726	Panama disease
+T28	Plant 1740 1752	banana plant
+T29	Disease 2077 2091	Panama disease
+T30	Plant 2194 2201	bananas
+T31	Plant 2252 2259	bananas
+T32	Disease 2265 2279	Panama disease
+T33	Plant 2372 2378	banana
+T34	Date 2481 2499	over several years
+N1	GeoNames Annotation:T12 Referent:2635167
+N2	NCBI_Taxonomy Annotation:T14 Referent:4640
+N3	NCBI_Taxonomy Annotation:T17 Referent:1229664
+N4	NCBI_Taxonomy Annotation:T18 Referent:214697
+N5	NCBI_Taxonomy Annotation:T19 Referent:2502994
+N6	NCBI_Taxonomy Annotation:T20 Referent:214697
+N7	NCBI_Taxonomy Annotation:T22 Referent:214697
+N8	NCBI_Taxonomy Annotation:T23 Referent:214697
+N9	NCBI_Taxonomy Annotation:T28 Referent:4640
+N10	NCBI_Taxonomy Annotation:T30 Referent:4640
+N11	NCBI_Taxonomy Annotation:T31 Referent:4640
+N12	NCBI_Taxonomy Annotation:T33 Referent:4640
+R1	Expressed_by Disease:T13 Plant:T14
+R2	Detected_on Object:T14 Date:T15
+R3	Expressed_by Disease:T16 Plant:T14
+R4	Causes Pest:T17 Disease:T16
+R5	Detected_on Object:T16 Date:T15
+R6	Found_on Organism:T17 Habitat:T14
+R7	Detected_on Object:T17 Date:T15
+R8	Found_on Organism:T19 Habitat:T20
+R9	Found_on Organism:T19 Habitat:T23
+R10	Found_on Organism:T19 Habitat:T22
+R11	Expressed_by Disease:T21 Plant:T20
+R12	Expressed_by Disease:T21 Plant:T23
+R13	Expressed_by Disease:T21 Plant:T22
+R14	Causes Pest:T19 Disease:T21
+R15	Expressed_by Disease:T32 Plant:T31
+E1	Nary Plante:T14 Maladie:T13
+E2	Nary Organisme_nuisible:T17 Plante:T14 Maladie:T16 Date:T15
+E3	Nary Organisme_nuisible:T19 Plante:T20 Maladie:T21
+E4	Nary Organisme_nuisible:T19 Plante:T23 Maladie:T21
+E5	Nary Organisme_nuisible:T19 Plante:T22 Maladie:T21
+E6	Nary Plante:T31 Maladie:T32

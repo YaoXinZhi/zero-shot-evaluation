@@ -1,0 +1,145 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Plant",
+            "name": "Olive",
+            "NCBI_Taxonomy": "158383"
+        },
+        {
+            "id": "T7",
+            "type": "Plant",
+            "name": "olive trees",
+            "NCBI_Taxonomy": "158383"
+        },
+        {
+            "id": "T8",
+            "type": "Location",
+            "name": "BARI",
+            "GeoNames": "3182350"
+        },
+        {
+            "id": "T9",
+            "type": "Plant",
+            "name": "olive",
+            "NCBI_Taxonomy": "158383"
+        },
+        {
+            "id": "T10",
+            "type": "Location",
+            "name": "Puglia Region",
+            "GeoNames": "3169778"
+        },
+        {
+            "id": "T11",
+            "type": "Pest",
+            "name": "xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T12",
+            "type": "Location",
+            "name": "Salento",
+            "GeoNames": "6540006"
+        },
+        {
+            "id": "T13",
+            "type": "Plant",
+            "name": "olive",
+            "NCBI_Taxonomy": "158383"
+        },
+        {
+            "id": "T14",
+            "type": "Plant",
+            "name": "olive trees",
+            "NCBI_Taxonomy": "158383"
+        },
+        {
+            "id": "T15",
+            "type": "Location",
+            "name": "Puglia region",
+            "GeoNames": "3169778"
+        },
+        {
+            "id": "T17",
+            "type": "Plant",
+            "name": "olive trees",
+            "NCBI_Taxonomy": "158383"
+        },
+        {
+            "id": "T18",
+            "type": "Pest",
+            "name": "xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T19",
+            "type": "Plant",
+            "name": "olive",
+            "NCBI_Taxonomy": "158383"
+        }
+    ],
+    "equivalences": [
+        [
+            "T14",
+            "T13",
+            "T7"
+        ],
+        [
+            "T6",
+            "T9"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T7",
+            "target": "T10"
+        },
+        {
+            "type": "Located in",
+            "source": "T7",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T9",
+            "target": "T15"
+        },
+        {
+            "type": "Located in",
+            "source": "T9",
+            "target": "T10"
+        },
+        {
+            "type": "Located in",
+            "source": "T9",
+            "target": "T12"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T11",
+            "target": "T9"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T15"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T10"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T12"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T18",
+            "target": "T17"
+        }
+    ]
+}

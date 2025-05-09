@@ -1,0 +1,297 @@
+{
+    "entities": [
+        {
+            "id": "T33",
+            "type": "Plant",
+            "name": "banana",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T34",
+            "type": "Disease",
+            "name": "banana bunchy"
+        },
+        {
+            "id": "T35",
+            "type": "Plant",
+            "name": "banana",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T36",
+            "type": "Plant",
+            "name": "banana",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T38",
+            "type": "Location",
+            "name": "Arua district",
+            "GeoNames": "443328"
+        },
+        {
+            "id": "T39",
+            "type": "Location",
+            "name": "West Nile region",
+            "GeoNames": "226074"
+        },
+        {
+            "id": "T40",
+            "type": "Location",
+            "name": "Uganda",
+            "GeoNames": "226074"
+        },
+        {
+            "id": "T41",
+            "type": "Plant",
+            "name": "banana",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T42",
+            "type": "Plant",
+            "name": "banana",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T43",
+            "type": "Disease",
+            "name": "banana bunchy"
+        },
+        {
+            "id": "T44",
+            "type": "Plant",
+            "name": "banana",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T45",
+            "type": "Disease",
+            "name": "Banana bunchy top disease"
+        },
+        {
+            "id": "T46",
+            "type": "Plant",
+            "name": "bananas",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T48",
+            "type": "Location",
+            "name": "Kasese district",
+            "GeoNames": "443342"
+        },
+        {
+            "id": "T49",
+            "type": "Location",
+            "name": "Mpondwe",
+            "GeoNames": "8657869"
+        },
+        {
+            "id": "T50",
+            "type": "Location",
+            "name": "Kamwenge",
+            "GeoNames": "448216"
+        },
+        {
+            "id": "T51",
+            "type": "Location",
+            "name": "Kitagwenda",
+            "GeoNames": "7732901"
+        },
+        {
+            "id": "T52",
+            "type": "Location",
+            "name": "Mpondwe",
+            "GeoNames": "8657869"
+        },
+        {
+            "id": "T53",
+            "type": "Location",
+            "name": "Rwenzori Mountains",
+            "GeoNames": "206041"
+        },
+        {
+            "id": "T54",
+            "type": "Location",
+            "name": "Kasese District",
+            "GeoNames": "443342"
+        },
+        {
+            "id": "T55",
+            "type": "Location",
+            "name": "Democratic Republic of the Congo",
+            "GeoNames": "203312"
+        },
+        {
+            "id": "T56",
+            "type": "Location",
+            "name": "DRC",
+            "GeoNames": "203312"
+        },
+        {
+            "id": "T60",
+            "type": "Location",
+            "name": "Democratic Republic of Congo",
+            "GeoNames": "203312"
+        },
+        {
+            "id": "T61",
+            "type": "Location",
+            "name": "DRC",
+            "GeoNames": "203312"
+        },
+        {
+            "id": "T62",
+            "type": "Location",
+            "name": "Arua",
+            "GeoNames": "443328"
+        },
+        {
+            "id": "T63",
+            "type": "Plant",
+            "name": "banana",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T64",
+            "type": "Location",
+            "name": "Buganda",
+            "GeoNames": "8334579"
+        },
+        {
+            "id": "T65",
+            "type": "Location",
+            "name": "Ankole",
+            "GeoNames": "232037"
+        },
+        {
+            "id": "T66",
+            "type": "Location",
+            "name": "Malawi",
+            "GeoNames": "927384"
+        },
+        {
+            "id": "T68",
+            "type": "Plant",
+            "name": "banana plantation",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T69",
+            "type": "Plant",
+            "name": "maize",
+            "NCBI_Taxonomy": "381124"
+        },
+        {
+            "id": "T70",
+            "type": "Location",
+            "name": "Asia",
+            "GeoNames": "6255147"
+        },
+        {
+            "id": "T71",
+            "type": "Plant",
+            "name": "banana plantations",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T73",
+            "type": "Disease",
+            "name": "banana bacterial wilt"
+        },
+        {
+            "id": "T75",
+            "type": "Location",
+            "name": "Uganda",
+            "GeoNames": "226074"
+        },
+        {
+            "id": "T76",
+            "type": "Plant",
+            "name": "banana variety",
+            "NCBI_Taxonomy": "4640"
+        }
+    ],
+    "equivalences": [
+        [
+            "T43",
+            "T45"
+        ],
+        [
+            "T60",
+            "T61"
+        ],
+        [
+            "T56",
+            "T55"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Affects",
+            "source": "T34",
+            "target": "T33"
+        },
+        {
+            "type": "Affects",
+            "source": "T34",
+            "target": "T35"
+        },
+        {
+            "type": "Located in",
+            "source": "T36",
+            "target": "T39"
+        },
+        {
+            "type": "Located in",
+            "source": "T36",
+            "target": "T38"
+        },
+        {
+            "type": "Affects",
+            "source": "T43",
+            "target": "T44"
+        },
+        {
+            "type": "Located in",
+            "source": "T45",
+            "target": "T48"
+        },
+        {
+            "type": "Located in",
+            "source": "T45",
+            "target": "T49"
+        },
+        {
+            "type": "Affects",
+            "source": "T45",
+            "target": "T46"
+        },
+        {
+            "type": "Located in",
+            "source": "T63",
+            "target": "T65"
+        },
+        {
+            "type": "Located in",
+            "source": "T63",
+            "target": "T64"
+        },
+        {
+            "type": "Located in",
+            "source": "T68",
+            "target": "T66"
+        },
+        {
+            "type": "Located in",
+            "source": "T69",
+            "target": "T66"
+        },
+        {
+            "type": "Located in",
+            "source": "T71",
+            "target": "T70"
+        }
+    ]
+}

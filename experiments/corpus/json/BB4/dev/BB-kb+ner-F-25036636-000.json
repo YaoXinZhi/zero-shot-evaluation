@@ -1,0 +1,105 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Habitat",
+            "name": "community",
+            "OntoBiotope": "OBT:000113"
+        },
+        {
+            "id": "T2",
+            "type": "Habitat",
+            "name": "cheese",
+            "OntoBiotope": "OBT:001480"
+        },
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Yaniella",
+            "NCBI_Taxonomy": "225447"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "Nocardiopsis",
+            "NCBI_Taxonomy": "2013"
+        },
+        {
+            "id": "T5",
+            "type": "Habitat",
+            "name": "food",
+            "OntoBiotope": "OBT:000094"
+        },
+        {
+            "id": "T6",
+            "type": "Phenotype",
+            "name": "halotolerant",
+            "OntoBiotope": "OBT:002711"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "\u03b3-Proteobacteria",
+            "NCBI_Taxonomy": "1236"
+        },
+        {
+            "id": "T8",
+            "type": "Microorganism",
+            "name": "Vibrio",
+            "NCBI_Taxonomy": "662"
+        },
+        {
+            "id": "T9",
+            "type": "Microorganism",
+            "name": "Halomonas",
+            "NCBI_Taxonomy": "2745"
+        },
+        {
+            "id": "T10",
+            "type": "Microorganism",
+            "name": "Pseudoalteromonas",
+            "NCBI_Taxonomy": "53246"
+        },
+        {
+            "id": "T11",
+            "type": "Habitat",
+            "name": "marine environments",
+            "OntoBiotope": "OBT:000338"
+        },
+        {
+            "id": "T12",
+            "type": "Habitat",
+            "name": "cheese",
+            "OntoBiotope": "OBT:001480"
+        },
+        {
+            "id": "T13",
+            "type": "Habitat",
+            "name": "cheese communities",
+            "OntoBiotope": "OBT:000113"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T7",
+            "target": "T6"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T8",
+            "target": "T6"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T9",
+            "target": "T6"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T10",
+            "target": "T6"
+        }
+    ]
+}

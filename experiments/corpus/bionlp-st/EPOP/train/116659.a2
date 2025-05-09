@@ -1,0 +1,89 @@
+T12	Dissemination_pathway 17 23	citrus
+T13	Date 74 89	until September
+T14	Plant 195 201	citrus
+T15	Location 209 223	European Union
+T16	Dissemination_pathway 225 231	Citrus
+T17	Date 300 315	up to September
+T18	Date 325 337	to last year
+T19	Plant 491 497	citrus
+T20	Location 505 519	European Union
+T21	Dissemination_pathway 521 527	Citrus
+T22	Date 596 611	up to September
+T23	Date 621 633	to last year
+T24	Location 697 715	Mercosur countries
+T25	Location 717 723	Brazil
+T26	Location 725 734	Argentina
+T27	Location 739 746	Uruguay
+T28	Date 787 823	in the first nine months of the year
+T29	Location 825 831	Brazil
+T30	Date 861 868	in 2021
+T31	Location 909 918	Argentina
+T32	Location 943 950	Uruguay
+T33	Date 962 971	last year
+T34	Location 1010 1024	Mercosur State
+T35	Location 1033 1041	Colombia
+T36	Date 1063 1072	this year
+T37	Date 1087 1096	last year
+T38	Location 1098 1110	South Africa
+T39	Date 1222 1234	in September
+T40	Dissemination_pathway 1261 1275	orange exports
+T41	Dissemination_pathway 1358 1367	shipments
+T42	Date 1411 1427	so far this year
+T43	Date 1439 1451	in September
+T44	Pest 1561 1584	Phyllosticta citricarpa
+T45	Disease 1619 1647	disease of citrus black spot
+T46	Pest 2624 2631	Xylella
+T47	Pest 2640 2661	South African Cotonet
+T48	Plant 3528 3534	citrus
+N1	OntoBiotope Annotation:T12 Referent:OBT:002971
+N2	NCBI_Taxonomy Annotation:T14 Referent:2706
+N3	GeoNames Annotation:T15 Referent:6695072
+N4	OntoBiotope Annotation:T16 Referent:OBT:002971
+N5	NCBI_Taxonomy Annotation:T19 Referent:2706
+N6	GeoNames Annotation:T20 Referent:6695072
+N7	OntoBiotope Annotation:T21 Referent:OBT:002971
+N8	GeoNames Annotation:T24 Referent:11812364
+N9	GeoNames Annotation:T25 Referent:3469034
+N10	GeoNames Annotation:T26 Referent:3865483
+N11	GeoNames Annotation:T27 Referent:3439705
+N12	GeoNames Annotation:T29 Referent:3469034
+N13	GeoNames Annotation:T31 Referent:3865483
+N14	GeoNames Annotation:T32 Referent:3439705
+N15	GeoNames Annotation:T34 Referent:11812364
+N16	GeoNames Annotation:T35 Referent:3686110
+N17	GeoNames Annotation:T38 Referent:953987
+N18	OntoBiotope Annotation:T40 Referent:OBT:003009
+N19	OntoBiotope Annotation:T41 Referent:OBT:000418
+N20	NCBI_Taxonomy Annotation:T44 Referent:55181
+N21	NCBI_Taxonomy Annotation:T46 Referent:2371
+N22	NCBI_Taxonomy Annotation:T47 Referent:1112575
+N23	NCBI_Taxonomy Annotation:T48 Referent:2706
+R1	Located_in Object:T14 Location:T15
+R2	Detected_on Object:T16 Date:T17
+R3	Located_in Object:T19 Location:T20
+R4	Detected_on Object:T21 Date:T23
+R5	Detected_on Object:T21 Date:T22
+R6	Detected_on Object:T40 Date:T39
+R7	Detected_on Object:T40 Date:T42
+R8	Located_in Object:T40 Location:T38
+R9	Detected_on Object:T41 Date:T43
+R10	Located_in Object:T41 Location:T38
+R11	Detected_on Object:T44 Date:T42
+R12	Detected_on Object:T44 Date:T43
+R13	Located_in Object:T44 Location:T38
+R14	Located_in Object:T44 Location:T38
+R15	Detected_on Object:T45 Date:T42
+R16	Detected_on Object:T45 Date:T43
+R17	Located_in Object:T45 Location:T38
+R18	Located_in Object:T45 Location:T38
+R19	Causes Pest:T44 Disease:T45
+R20	Dispersed_by Nuisance:T45 Dissemination_pathway:T40
+R21	Dispersed_by Nuisance:T45 Dissemination_pathway:T41
+E1	Nary Plante:T14 Lieu:T15
+E2	Nary Voie_de_dispersion:T16 Date:T17
+E3	Nary Plante:T19 Lieu:T20
+E4	Nary Voie_de_dispersion:T21 Date:T23
+E5	Nary Voie_de_dispersion:T21 Date:T22
+E6	Nary Voie_de_dispersion:T40 Date:T39
+E7	Nary Organisme_nuisible:T44 Voie_de_dispersion:T40 Maladie:T45 Lieu:T38 Date:T42
+E8	Nary Organisme_nuisible:T44 Voie_de_dispersion:T41 Maladie:T45 Lieu:T38 Date:T43

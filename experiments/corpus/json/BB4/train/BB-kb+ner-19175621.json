@@ -1,0 +1,124 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Phenotype",
+            "name": "beta-lactamase-producing",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "Salmonella enterica",
+            "NCBI_Taxonomy": "28901"
+        },
+        {
+            "id": "T5",
+            "type": "Habitat",
+            "name": "animals",
+            "OntoBiotope": "OBT:000193"
+        },
+        {
+            "id": "T6",
+            "type": "Habitat",
+            "name": "humans",
+            "OntoBiotope": "OBT:002488"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "Salmonella enterica",
+            "NCBI_Taxonomy": "28901"
+        },
+        {
+            "id": "T8",
+            "type": "Habitat",
+            "name": "Spanish hospitals",
+            "OntoBiotope": "OBT:002714"
+        },
+        {
+            "id": "T9",
+            "type": "Microorganism",
+            "name": "Virchow",
+            "NCBI_Taxonomy": "48409"
+        },
+        {
+            "id": "T10",
+            "type": "Microorganism",
+            "name": "Livingstone",
+            "NCBI_Taxonomy": "260680"
+        },
+        {
+            "id": "T11",
+            "type": "Phenotype",
+            "name": "extended-spectrum beta-lactamase (ESBL) producer",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T12",
+            "type": "Microorganism",
+            "name": "S. enterica Livingstone",
+            "NCBI_Taxonomy": "260680"
+        },
+        {
+            "id": "T13",
+            "type": "Microorganism",
+            "name": "S. enterica Virchow",
+            "NCBI_Taxonomy": "48409"
+        },
+        {
+            "id": "T14",
+            "type": "Microorganism",
+            "name": "Virchow",
+            "NCBI_Taxonomy": "48409"
+        },
+        {
+            "id": "T15",
+            "type": "Habitat",
+            "name": "animals",
+            "OntoBiotope": "OBT:000193"
+        },
+        {
+            "id": "T16",
+            "type": "Phenotype",
+            "name": "ESBL production",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T17",
+            "type": "Phenotype",
+            "name": "resistance",
+            "OntoBiotope": "OBT:000598"
+        },
+        {
+            "id": "T18",
+            "type": "Microorganism",
+            "name": "S. enterica",
+            "NCBI_Taxonomy": "28901"
+        },
+        {
+            "id": "T19",
+            "type": "Habitat",
+            "name": "hospitals",
+            "OntoBiotope": "OBT:002714"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T3"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T9",
+            "target": "T11"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T10",
+            "target": "T11"
+        }
+    ]
+}

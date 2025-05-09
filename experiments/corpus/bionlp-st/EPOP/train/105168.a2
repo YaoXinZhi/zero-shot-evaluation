@@ -1,0 +1,51 @@
+T10	Pest 29 60	tomato brown rugose fruit virus
+T11	Location 64 71	Finland
+T12	Pest 157 188	tomato brown rugose fruit virus
+T13	Pest 190 201	Tobamovirus
+T14	Pest 203 209	ToBRFV
+T15	Date 244 256	In July 2022
+T16	Plant 362 382	Solanum lycopersicum
+T17	Location 391 412	municipality of Turku
+T18	Location 414 439	region of Varsinais-Suomi
+T19	Plant 442 455	Tomato plants
+T20	Pest 687 718	tomato brown rugose fruit virus
+T21	Location 722 729	Finland
+N1	NCBI_Taxonomy Annotation:T10 Referent:1761477
+N2	GeoNames Annotation:T11 Referent:660013
+N3	NCBI_Taxonomy Annotation:T12 Referent:1761477
+N4	NCBI_Taxonomy Annotation:T13 Referent:12234
+N5	NCBI_Taxonomy Annotation:T14 Referent:1761477
+N6	NCBI_Taxonomy Annotation:T16 Referent:4081
+N7	GeoNames Annotation:T17 Referent:633679
+N8	GeoNames Annotation:T18 Referent:830708
+N9	NCBI_Taxonomy Annotation:T19 Referent:4081
+N10	NCBI_Taxonomy Annotation:T20 Referent:1761477
+N11	GeoNames Annotation:T21 Referent:660013
+R1	Located_in Object:T10 Location:T11
+R2	Located_in Object:T13 Location:T18
+R3	Located_in Object:T13 Location:T17
+R4	Detected_on Object:T13 Date:T15
+R5	Detected_on Object:T13 Date:T15
+R6	Found_on Organism:T13 Habitat:T16
+R7	Located_in Object:T14 Location:T17
+R8	Located_in Object:T14 Location:T18
+R9	Detected_on Object:T14 Date:T15
+R10	Detected_on Object:T14 Date:T15
+R11	Found_on Organism:T14 Habitat:T16
+R12	Located_in Object:T16 Location:T18
+R13	Located_in Object:T16 Location:T17
+R14	Located_in Object:T16 Location:T18
+R15	Located_in Object:T16 Location:T17
+R16	Detected_on Object:T16 Date:T15
+R17	Detected_on Object:T16 Date:T15
+R18	Detected_on Object:T16 Date:T15
+R19	Detected_on Object:T16 Date:T15
+R20	Located_in Object:T20 Location:T21
+E1	Nary Organisme_nuisible:T10 Lieu:T11
+E2	Nary Organisme_nuisible:T13 Plante:T16 Lieu:T18 Date:T15
+E3	Nary Organisme_nuisible:T13 Plante:T16 Lieu:T17 Date:T15
+E4	Nary Organisme_nuisible:T14 Plante:T16 Lieu:T17 Date:T15
+E5	Nary Organisme_nuisible:T14 Plante:T16 Lieu:T18 Date:T15
+E6	Nary Organisme_nuisible:T20 Lieu:T21
+*	Equiv T19 T16
+*	Equiv T14 T12

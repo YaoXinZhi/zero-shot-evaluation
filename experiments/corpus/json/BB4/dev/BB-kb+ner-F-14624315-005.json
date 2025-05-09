@@ -1,0 +1,79 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Microorganism",
+            "name": "L. lactis subsp. cremoris B697",
+            "NCBI_Taxonomy": "1359"
+        },
+        {
+            "id": "T2",
+            "type": "Phenotype",
+            "name": "high hydroxy acid dehydrogenase activity",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T3",
+            "type": "Phenotype",
+            "name": "transaminase activity",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "L. lactis subsp. cremoris strain B1157",
+            "NCBI_Taxonomy": "1359"
+        },
+        {
+            "id": "T5",
+            "type": "Phenotype",
+            "name": "transaminase activities",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T6",
+            "type": "Phenotype",
+            "name": "hydroxy acid dehydrogenase activities",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "B697",
+            "NCBI_Taxonomy": "1359"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T1",
+            "target": "T3"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T1",
+            "target": "T2"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T6"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T5"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T7",
+            "target": "T5"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T7",
+            "target": "T6"
+        }
+    ]
+}

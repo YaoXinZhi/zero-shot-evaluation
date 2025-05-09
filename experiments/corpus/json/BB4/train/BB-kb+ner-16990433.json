@@ -1,0 +1,197 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Phenotype",
+            "name": "type III secretion",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "Escherichia coli O157",
+            "NCBI_Taxonomy": "1045010"
+        },
+        {
+            "id": "T5",
+            "type": "Microorganism",
+            "name": "lambdoid phages",
+            "NCBI_Taxonomy": "186765"
+        },
+        {
+            "id": "T6",
+            "type": "Phenotype",
+            "name": "pathogenic",
+            "OntoBiotope": "OBT:002806"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "Escherichia coli",
+            "NCBI_Taxonomy": "562"
+        },
+        {
+            "id": "T8",
+            "type": "Phenotype",
+            "name": "type III secretion",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T9",
+            "type": "Habitat",
+            "name": "human cells",
+            "OntoBiotope": "OBT:000061"
+        },
+        {
+            "id": "T10",
+            "type": "Habitat",
+            "name": "human",
+            "OntoBiotope": "OBT:002488"
+        },
+        {
+            "id": "T11",
+            "type": "Habitat",
+            "name": "eukaryotic cell",
+            "OntoBiotope": "OBT:000061"
+        },
+        {
+            "id": "T12",
+            "type": "Microorganism",
+            "name": "Sakai",
+            "NCBI_Taxonomy": "386585"
+        },
+        {
+            "id": "T13",
+            "type": "Phenotype",
+            "name": "enterohemorrhagic",
+            "OntoBiotope": "OBT:002806"
+        },
+        {
+            "id": "T14",
+            "type": "Microorganism",
+            "name": "E. coli (EHEC) O157:H7",
+            "NCBI_Taxonomy": "83334"
+        },
+        {
+            "id": "T15",
+            "type": "Phenotype",
+            "name": "EHEC",
+            "OntoBiotope": "OBT:002806"
+        },
+        {
+            "id": "T16",
+            "type": "Phenotype",
+            "name": "EHEC",
+            "OntoBiotope": "OBT:002806"
+        },
+        {
+            "id": "T17",
+            "type": "Microorganism",
+            "name": "EHEC",
+            "NCBI_Taxonomy": "386585"
+        },
+        {
+            "id": "T18",
+            "type": "Microorganism",
+            "name": "Sakai",
+            "NCBI_Taxonomy": "386585"
+        },
+        {
+            "id": "T19",
+            "type": "Phenotype",
+            "name": "EHEC",
+            "OntoBiotope": "OBT:002806"
+        },
+        {
+            "id": "T20",
+            "type": "Microorganism",
+            "name": "EHEC",
+            "NCBI_Taxonomy": "562"
+        },
+        {
+            "id": "T21",
+            "type": "Phenotype",
+            "name": "plant pathogens",
+            "OntoBiotope": "OBT:002732"
+        },
+        {
+            "id": "T22",
+            "type": "Habitat",
+            "name": "plant",
+            "OntoBiotope": "OBT:000393"
+        },
+        {
+            "id": "T23",
+            "type": "Microorganism",
+            "name": "Shigella",
+            "NCBI_Taxonomy": "620"
+        },
+        {
+            "id": "T24",
+            "type": "Microorganism",
+            "name": "lambdoid prophages",
+            "NCBI_Taxonomy": "186765"
+        },
+        {
+            "id": "T25",
+            "type": "Phenotype",
+            "name": "type III secretion",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T26",
+            "type": "Microorganism",
+            "name": "E. coli",
+            "NCBI_Taxonomy": "562"
+        },
+        {
+            "id": "T27",
+            "type": "Phenotype",
+            "name": "pathogenicity",
+            "OntoBiotope": "OBT:002806"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T3"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T7",
+            "target": "T6"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T7",
+            "target": "T8"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T14",
+            "target": "T13"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T14",
+            "target": "T15"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T17",
+            "target": "T16"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T20",
+            "target": "T19"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T26",
+            "target": "T25"
+        }
+    ]
+}

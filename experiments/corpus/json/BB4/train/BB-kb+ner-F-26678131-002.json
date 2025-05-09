@@ -1,0 +1,66 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Microorganism",
+            "name": "Ln. pseudomesenteroides (M7)",
+            "NCBI_Taxonomy": "33968"
+        },
+        {
+            "id": "T2",
+            "type": "Microorganism",
+            "name": "Ln. citreum (M2)",
+            "NCBI_Taxonomy": "33964"
+        },
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Lb. plantarum (FH3)",
+            "NCBI_Taxonomy": "1590"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "M. caseolyticus (RP8)",
+            "NCBI_Taxonomy": "69966"
+        },
+        {
+            "id": "T5",
+            "type": "Microorganism",
+            "name": "Listeria monocytogenes",
+            "NCBI_Taxonomy": "1639"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "H. alvei",
+            "NCBI_Taxonomy": "569"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "STEC O26:H11",
+            "NCBI_Taxonomy": "244319"
+        },
+        {
+            "id": "T8",
+            "type": "Phenotype",
+            "name": "STEC",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T9",
+            "type": "Habitat",
+            "name": "uncooked pressed model cheese",
+            "OntoBiotope": "OBT:001480"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T7",
+            "target": "T8"
+        }
+    ]
+}

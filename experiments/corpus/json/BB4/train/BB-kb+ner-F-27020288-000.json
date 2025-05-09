@@ -1,0 +1,100 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Phenotype",
+            "name": "production of exopolysaccharides",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T2",
+            "type": "Phenotype",
+            "name": "LAB",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Streptococcus thermophilus",
+            "NCBI_Taxonomy": "1308"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "Lactobacillus plantarum",
+            "NCBI_Taxonomy": "1590"
+        },
+        {
+            "id": "T5",
+            "type": "Microorganism",
+            "name": "Lactococcus lactis",
+            "NCBI_Taxonomy": "1358"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "Pediococcus damnsosus",
+            "NCBI_Taxonomy": "51663"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "L. plantarum WCFS1",
+            "NCBI_Taxonomy": "220668"
+        },
+        {
+            "id": "T8",
+            "type": "Phenotype",
+            "name": "surface polysaccharide production",
+            "OntoBiotope": "OBT:000019"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T3",
+            "target": "T1"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T3",
+            "target": "T2"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T2"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T1"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T5",
+            "target": "T1"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T5",
+            "target": "T2"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T6",
+            "target": "T2"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T6",
+            "target": "T1"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T7",
+            "target": "T8"
+        }
+    ]
+}

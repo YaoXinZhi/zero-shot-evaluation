@@ -1,0 +1,499 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Disease",
+            "name": "Yellow dragon disease"
+        },
+        {
+            "id": "T12",
+            "type": "Location",
+            "name": "Seville",
+            "GeoNames": "2510910"
+        },
+        {
+            "id": "T13",
+            "type": "Plant",
+            "name": "oranges",
+            "NCBI_Taxonomy": "2711"
+        },
+        {
+            "id": "T14",
+            "type": "Location",
+            "name": "Seville",
+            "GeoNames": "2510910"
+        },
+        {
+            "id": "T15",
+            "type": "Plant",
+            "name": "orange trees",
+            "NCBI_Taxonomy": "2711"
+        },
+        {
+            "id": "T16",
+            "type": "Location",
+            "name": "Seville",
+            "GeoNames": "2510910"
+        },
+        {
+            "id": "T17",
+            "type": "Plant",
+            "name": "orange trees",
+            "NCBI_Taxonomy": "2711"
+        },
+        {
+            "id": "T18",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T19",
+            "type": "Location",
+            "name": "Asia",
+            "GeoNames": "6255147"
+        },
+        {
+            "id": "T20",
+            "type": "Location",
+            "name": "Latin America",
+            "GeoNames": "7730009"
+        },
+        {
+            "id": "T21",
+            "type": "Location",
+            "name": "United States",
+            "GeoNames": "6252001"
+        },
+        {
+            "id": "T22",
+            "type": "Location",
+            "name": "Spain",
+            "GeoNames": "2510769"
+        },
+        {
+            "id": "T23",
+            "type": "Location",
+            "name": "Portugal",
+            "GeoNames": "2264397"
+        },
+        {
+            "id": "T24",
+            "type": "Location",
+            "name": "France",
+            "GeoNames": "3017382"
+        },
+        {
+            "id": "T25",
+            "type": "Location",
+            "name": "Italy",
+            "GeoNames": "3175395"
+        },
+        {
+            "id": "T26",
+            "type": "Disease",
+            "name": "huanglongbing"
+        },
+        {
+            "id": "T27",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T28",
+            "type": "Pest",
+            "name": "Candidatus liberibacter",
+            "NCBI_Taxonomy": "34021"
+        },
+        {
+            "id": "T29",
+            "type": "Plant",
+            "name": "citrus tree",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T31",
+            "type": "Location",
+            "name": "Asian countries",
+            "GeoNames": "6255147"
+        },
+        {
+            "id": "T32",
+            "type": "Location",
+            "name": "African states",
+            "GeoNames": "6255146"
+        },
+        {
+            "id": "T33",
+            "type": "Location",
+            "name": "Brazil",
+            "GeoNames": "3469034"
+        },
+        {
+            "id": "T34",
+            "type": "Location",
+            "name": "United States",
+            "GeoNames": "6252001"
+        },
+        {
+            "id": "T35",
+            "type": "Location",
+            "name": "China",
+            "GeoNames": "1814991"
+        },
+        {
+            "id": "T37",
+            "type": "Location",
+            "name": "Africa",
+            "GeoNames": "6255146"
+        },
+        {
+            "id": "T40",
+            "type": "Plant",
+            "name": "orange groves",
+            "NCBI_Taxonomy": "2711"
+        },
+        {
+            "id": "T41",
+            "type": "Location",
+            "name": "Florida",
+            "GeoNames": "4155751"
+        },
+        {
+            "id": "T42",
+            "type": "Location",
+            "name": "Europe",
+            "GeoNames": "6255148"
+        },
+        {
+            "id": "T43",
+            "type": "Vector",
+            "name": "Trioza eryteae",
+            "NCBI_Taxonomy": "1778831"
+        },
+        {
+            "id": "T44",
+            "type": "Location",
+            "name": "Canary Islands",
+            "GeoNames": "2520308"
+        },
+        {
+            "id": "T45",
+            "type": "Location",
+            "name": "Portugal",
+            "GeoNames": "2264397"
+        },
+        {
+            "id": "T46",
+            "type": "Location",
+            "name": "Galicia",
+            "GeoNames": "3336902"
+        },
+        {
+            "id": "T47",
+            "type": "Location",
+            "name": "Spain",
+            "GeoNames": "2510769"
+        },
+        {
+            "id": "T48",
+            "type": "Location",
+            "name": "Andalusia",
+            "GeoNames": "2593109"
+        },
+        {
+            "id": "T49",
+            "type": "Location",
+            "name": "southern Spain",
+            "GeoNames": "2510769"
+        }
+    ],
+    "equivalences": [
+        [
+            "T27",
+            "T26"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T19"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T20"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T21"
+        },
+        {
+            "type": "Affects",
+            "source": "T11",
+            "target": "T13"
+        },
+        {
+            "type": "Affects",
+            "source": "T11",
+            "target": "T18"
+        },
+        {
+            "type": "Located in",
+            "source": "T13",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T15",
+            "target": "T14"
+        },
+        {
+            "type": "Located in",
+            "source": "T17",
+            "target": "T16"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T19"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T20"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T21"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T23"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T24"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T31"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T25"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T33"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T34"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T22"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T32"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T41"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T37"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T35"
+        },
+        {
+            "type": "Affects",
+            "source": "T26",
+            "target": "T29"
+        },
+        {
+            "type": "Affects",
+            "source": "T26",
+            "target": "T29"
+        },
+        {
+            "type": "Affects",
+            "source": "T26",
+            "target": "T29"
+        },
+        {
+            "type": "Affects",
+            "source": "T26",
+            "target": "T29"
+        },
+        {
+            "type": "Affects",
+            "source": "T26",
+            "target": "T40"
+        },
+        {
+            "type": "Affects",
+            "source": "T26",
+            "target": "T29"
+        },
+        {
+            "type": "Causes",
+            "source": "T28",
+            "target": "T26"
+        },
+        {
+            "type": "Located in",
+            "source": "T28",
+            "target": "T23"
+        },
+        {
+            "type": "Located in",
+            "source": "T28",
+            "target": "T24"
+        },
+        {
+            "type": "Located in",
+            "source": "T28",
+            "target": "T31"
+        },
+        {
+            "type": "Located in",
+            "source": "T28",
+            "target": "T25"
+        },
+        {
+            "type": "Located in",
+            "source": "T28",
+            "target": "T33"
+        },
+        {
+            "type": "Located in",
+            "source": "T28",
+            "target": "T34"
+        },
+        {
+            "type": "Located in",
+            "source": "T28",
+            "target": "T22"
+        },
+        {
+            "type": "Located in",
+            "source": "T28",
+            "target": "T32"
+        },
+        {
+            "type": "Located in",
+            "source": "T28",
+            "target": "T41"
+        },
+        {
+            "type": "Located in",
+            "source": "T28",
+            "target": "T37"
+        },
+        {
+            "type": "Located in",
+            "source": "T28",
+            "target": "T35"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T28",
+            "target": "T29"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T28",
+            "target": "T29"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T28",
+            "target": "T29"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T28",
+            "target": "T29"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T28",
+            "target": "T40"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T28",
+            "target": "T29"
+        },
+        {
+            "type": "Located in",
+            "source": "T29",
+            "target": "T23"
+        },
+        {
+            "type": "Located in",
+            "source": "T29",
+            "target": "T24"
+        },
+        {
+            "type": "Located in",
+            "source": "T29",
+            "target": "T25"
+        },
+        {
+            "type": "Located in",
+            "source": "T29",
+            "target": "T22"
+        },
+        {
+            "type": "Located in",
+            "source": "T40",
+            "target": "T41"
+        },
+        {
+            "type": "Located in",
+            "source": "T43",
+            "target": "T46"
+        },
+        {
+            "type": "Located in",
+            "source": "T43",
+            "target": "T47"
+        },
+        {
+            "type": "Located in",
+            "source": "T43",
+            "target": "T44"
+        },
+        {
+            "type": "Located in",
+            "source": "T43",
+            "target": "T45"
+        }
+    ]
+}

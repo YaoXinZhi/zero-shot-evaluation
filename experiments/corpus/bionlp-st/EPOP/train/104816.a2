@@ -1,0 +1,79 @@
+T33	Vector 25 43	pine sawyer beetle
+T34	Vector 378 396	pine sawyer beetle
+T35	Vector 542 560	pine sawyer beetle
+T36	Vector 735 755	Japanese pine sawyer
+T37	Vector 757 783	Monochamus alternatus Hope
+T38	Pest 803 821	pine wood nematode
+T39	Pest 823 849	Bursaphelenchus xylophilus
+T40	Disease 879 896	pine wilt disease
+T41	Plant 933 938	pines
+T42	Location 942 947	China
+T43	Location 952 960	Portugal
+T44	Vector 1134 1147	M. alternatus
+T45	Vector 1233 1246	M. alternatus
+T46	Vector 1339 1352	M. alternatus
+T47	Vector 1664 1677	M. alternatus
+T48	Vector 2305 2326	Monochamus alternatus
+T49	Disease 2400 2417	Pine wilt disease
+T50	Location 2421 2427	Yunnan
+T51	Location 2429 2434	China
+T52	Vector 2448 2469	non-local pine sawyer
+T53	Vector 2470 2491	Monochamus alternatus
+T54	Pest 2601 2627	Bursaphelenchus xylophilus
+T55	Pest 2633 2650	pinewood nematode
+T56	Pest 2787 2813	Bursaphelenchus xylophilus
+T57	Vector 2833 2848	Monochamus spp.
+N1	NCBI_Taxonomy Annotation:T33 Referent:192382
+N2	NCBI_Taxonomy Annotation:T34 Referent:192382
+N3	NCBI_Taxonomy Annotation:T35 Referent:192382
+N4	NCBI_Taxonomy Annotation:T36 Referent:192382
+N5	NCBI_Taxonomy Annotation:T37 Referent:192382
+N6	NCBI_Taxonomy Annotation:T38 Referent:6326
+N7	NCBI_Taxonomy Annotation:T39 Referent:6326
+N8	NCBI_Taxonomy Annotation:T41 Referent:3337
+N9	GeoNames Annotation:T42 Referent:1814991
+N10	GeoNames Annotation:T43 Referent:2264397
+N11	NCBI_Taxonomy Annotation:T44 Referent:192382
+N12	NCBI_Taxonomy Annotation:T45 Referent:192382
+N13	NCBI_Taxonomy Annotation:T46 Referent:192382
+N14	NCBI_Taxonomy Annotation:T47 Referent:192382
+N15	NCBI_Taxonomy Annotation:T48 Referent:192382
+N16	GeoNames Annotation:T50 Referent:1785694
+N17	GeoNames Annotation:T51 Referent:1814991
+N18	NCBI_Taxonomy Annotation:T52 Referent:192382
+N19	NCBI_Taxonomy Annotation:T53 Referent:192382
+N20	NCBI_Taxonomy Annotation:T54 Referent:6326
+N21	NCBI_Taxonomy Annotation:T55 Referent:6326
+N22	NCBI_Taxonomy Annotation:T56 Referent:6326
+N23	NCBI_Taxonomy Annotation:T57 Referent:192381
+R1	Located_in Object:T37 Location:T43
+R2	Located_in Object:T37 Location:T42
+R3	Found_on Organism:T37 Habitat:T41
+R4	Found_on Organism:T37 Habitat:T41
+R5	Vected_by Nuisance:T39 Vector:T37
+R6	Vected_by Nuisance:T39 Vector:T37
+R7	Located_in Object:T39 Location:T43
+R8	Located_in Object:T39 Location:T42
+R9	Found_on Organism:T39 Habitat:T41
+R10	Found_on Organism:T39 Habitat:T41
+R11	Causes Pest:T39 Disease:T40
+R12	Located_in Object:T40 Location:T43
+R13	Located_in Object:T40 Location:T42
+R14	Expressed_by Disease:T40 Plant:T41
+R15	Expressed_by Disease:T40 Plant:T41
+R16	Located_in Object:T41 Location:T43
+R17	Located_in Object:T41 Location:T42
+R18	Located_in Object:T49 Location:T50
+R19	Located_in Object:T49 Location:T51
+R20	Vected_by Nuisance:T49 Vector:T53
+R21	Located_in Object:T53 Location:T50
+R22	Located_in Object:T53 Location:T51
+R23	Vected_by Nuisance:T56 Vector:T57
+E1	Nary Organisme_nuisible:T39 Plante:T41 Vecteur:T37 Maladie:T40 Lieu:T43
+E2	Nary Organisme_nuisible:T39 Plante:T41 Vecteur:T37 Maladie:T40 Lieu:T42
+E3	Nary Vecteur:T53 Maladie:T49 Lieu:T50
+E4	Nary Vecteur:T53 Maladie:T49 Lieu:T51
+E5	Nary Organisme_nuisible:T56 Vecteur:T57
+*	Equiv T38 T39
+*	Equiv T54 T55
+*	Equiv T44 T36 T37 T33

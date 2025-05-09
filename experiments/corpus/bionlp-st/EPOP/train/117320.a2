@@ -1,0 +1,40 @@
+T10	Disease 60 78	Scots pine dieback
+T11	Location 116 132	southeast France
+T12	Plant 817 827	Scots pine
+T13	Plant 829 845	Pinus sylvestris
+T14	Location 885 891	Europe
+T15	Location 915 942	southeastern part of France
+T16	Pest 1142 1165	pine processionary moth
+T17	Pest 1167 1205	Thaumetopoea pityocampa Den. & Schiff.
+T18	Pest 1211 1220	mistletoe
+T19	Pest 1222 1236	Viscum album L
+T20	Pest 1618 1636	processionary moth
+T21	Pest 1641 1650	mistletoe
+T22	Pest 1952 1961	mistletoe
+T23	Pest 1966 1984	processionary moth
+N1	GeoNames Annotation:T11 Referent:2985244
+N2	GeoNames Annotation:T11 Referent:11071625
+N3	GeoNames Annotation:T11 Referent:3023519
+N4	NCBI_Taxonomy Annotation:T12 Referent:3349
+N5	NCBI_Taxonomy Annotation:T13 Referent:3349
+N6	GeoNames Annotation:T14 Referent:6255148
+N7	GeoNames Annotation:T15 Referent:2985244
+N8	GeoNames Annotation:T15 Referent:11071625
+N9	GeoNames Annotation:T15 Referent:3023519
+N10	NCBI_Taxonomy Annotation:T16 Referent:208016
+N11	NCBI_Taxonomy Annotation:T17 Referent:208016
+N12	NCBI_Taxonomy Annotation:T18 Referent:3972
+N13	NCBI_Taxonomy Annotation:T19 Referent:3972
+N14	NCBI_Taxonomy Annotation:T20 Referent:208016
+N15	NCBI_Taxonomy Annotation:T21 Referent:3972
+N16	NCBI_Taxonomy Annotation:T22 Referent:3972
+N17	NCBI_Taxonomy Annotation:T23 Referent:208016
+R1	Located_in Object:T10 Location:T11
+R2	Found_on Organism:T17 Habitat:T13
+R3	Found_on Organism:T19 Habitat:T13
+E1	Nary Maladie:T10 Lieu:T11
+E2	Nary Organisme_nuisible:T17 Plante:T13
+E3	Nary Organisme_nuisible:T19 Plante:T13
+*	Equiv T12 T13
+*	Equiv T17 T16
+*	Equiv T18 T19
