@@ -1,0 +1,227 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Phenotype",
+            "name": "pathogens",
+            "OntoBiotope": "OBT:000375"
+        },
+        {
+            "id": "T4",
+            "type": "Phenotype",
+            "name": "susceptibility to antibiotics",
+            "OntoBiotope": "OBT:002675"
+        },
+        {
+            "id": "T5",
+            "type": "Habitat",
+            "name": "hematology ward",
+            "OntoBiotope": "OBT:000097"
+        },
+        {
+            "id": "T6",
+            "type": "Phenotype",
+            "name": "pathogens",
+            "OntoBiotope": "OBT:000375"
+        },
+        {
+            "id": "T7",
+            "type": "Habitat",
+            "name": "hematological ward",
+            "OntoBiotope": "OBT:000097"
+        },
+        {
+            "id": "T8",
+            "type": "Habitat",
+            "name": "patients received chemotherapy",
+            "OntoBiotope": "OBT:003220"
+        },
+        {
+            "id": "T9",
+            "type": "Phenotype",
+            "name": "pathogens",
+            "OntoBiotope": "OBT:000375"
+        },
+        {
+            "id": "T10",
+            "type": "Habitat",
+            "name": "blood of patients who accepted chemotherapy",
+            "OntoBiotope": "OBT:000521"
+        },
+        {
+            "id": "T11",
+            "type": "Habitat",
+            "name": "urine of patients who accepted chemotherapy",
+            "OntoBiotope": "OBT:001367"
+        },
+        {
+            "id": "T12",
+            "type": "Habitat",
+            "name": "sputum of patients who accepted chemotherapy",
+            "OntoBiotope": "OBT:001335"
+        },
+        {
+            "id": "T13",
+            "type": "Habitat",
+            "name": "patients who accepted chemotherapy",
+            "OntoBiotope": "OBT:003220"
+        },
+        {
+            "id": "T14",
+            "type": "Phenotype",
+            "name": "Gram-negative",
+            "OntoBiotope": "OBT:000648"
+        },
+        {
+            "id": "T15",
+            "type": "Habitat",
+            "name": "nosocomial",
+            "OntoBiotope": "OBT:000011"
+        },
+        {
+            "id": "T16",
+            "type": "Microorganism",
+            "name": "Pseudomonas aeruginosa",
+            "NCBI_Taxonomy": "287"
+        },
+        {
+            "id": "T17",
+            "type": "Microorganism",
+            "name": "Enterobacter cloacae",
+            "NCBI_Taxonomy": "550"
+        },
+        {
+            "id": "T18",
+            "type": "Microorganism",
+            "name": "E. coli",
+            "NCBI_Taxonomy": "110766"
+        },
+        {
+            "id": "T19",
+            "type": "Phenotype",
+            "name": "Gram negative",
+            "OntoBiotope": "OBT:000648"
+        },
+        {
+            "id": "T20",
+            "type": "Phenotype",
+            "name": "resistant to broad-spectrum penicillin",
+            "OntoBiotope": "OBT:002829"
+        },
+        {
+            "id": "T21",
+            "type": "Microorganism",
+            "name": "Acinetobacter baumannii",
+            "NCBI_Taxonomy": "470"
+        },
+        {
+            "id": "T22",
+            "type": "Phenotype",
+            "name": "gram positive",
+            "OntoBiotope": "OBT:000649"
+        },
+        {
+            "id": "T23",
+            "type": "Microorganism",
+            "name": "Enterococcus",
+            "NCBI_Taxonomy": "1350"
+        },
+        {
+            "id": "T24",
+            "type": "Microorganism",
+            "name": "Candida",
+            "NCBI_Taxonomy": "1535326"
+        },
+        {
+            "id": "T25",
+            "type": "Microorganism",
+            "name": "Enterococcus",
+            "NCBI_Taxonomy": "1350"
+        },
+        {
+            "id": "T26",
+            "type": "Phenotype",
+            "name": "Gram-positive",
+            "OntoBiotope": "OBT:000649"
+        },
+        {
+            "id": "T27",
+            "type": "Phenotype",
+            "name": "Vancomycin resistance",
+            "OntoBiotope": "OBT:002874"
+        },
+        {
+            "id": "T28",
+            "type": "Phenotype",
+            "name": "Gram-negative",
+            "OntoBiotope": "OBT:000648"
+        },
+        {
+            "id": "T29",
+            "type": "Habitat",
+            "name": "nosocomial",
+            "OntoBiotope": "OBT:000011"
+        },
+        {
+            "id": "T30",
+            "type": "Habitat",
+            "name": "patients with hematological malignancies",
+            "OntoBiotope": "OBT:003220"
+        },
+        {
+            "id": "T31",
+            "type": "Phenotype",
+            "name": "Gram positive",
+            "OntoBiotope": "OBT:000649"
+        },
+        {
+            "id": "T32",
+            "type": "Phenotype",
+            "name": "resistant to antimicrobial agents",
+            "OntoBiotope": "OBT:002337"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T16",
+            "target": "T20"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T16",
+            "target": "T19"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T17",
+            "target": "T20"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T17",
+            "target": "T19"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T18",
+            "target": "T19"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T18",
+            "target": "T20"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T23",
+            "target": "T22"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T25",
+            "target": "T26"
+        }
+    ]
+}

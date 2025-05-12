@@ -1,0 +1,64 @@
+T15	CHEMICAL 0 10	Mesalamine
+N1	Name Annotation:T15 Referent:mesalamine
+T29	GENE 66 89	p-21 activated kinase-1
+N2	Name Annotation:T29 Referent:p21activatedkinase1
+T1	CHEMICAL 91 101	Mesalamine
+N3	Name Annotation:T1 Referent:mesalamine
+T2	CHEMICAL 103 108	5-ASA
+N4	Name Annotation:T2 Referent:5asa
+T7	CHEMICAL 294 299	5-ASA
+N5	Name Annotation:T7 Referent:5asa
+T8	CHEMICAL 491 496	5-ASA
+N6	Name Annotation:T8 Referent:5asa
+T9	CHEMICAL 610 615	5-ASA
+N7	Name Annotation:T9 Referent:5asa
+T10	CHEMICAL 744 749	5-ASA
+N8	Name Annotation:T10 Referent:5asa
+T24	GENE 751 755	MAPK
+N9	Name Annotation:T24 Referent:mapk
+T25	GENE 756 759	ERK
+N10	Name Annotation:T25 Referent:erk
+T26	GENE 787 796	β-catenin
+N11	Name Annotation:T26 Referent:βcatenin
+T27	GENE 797 800	Wnt
+N12	Name Annotation:T27 Referent:wnt
+T28	GENE 812 816	PAK1
+N13	Name Annotation:T28 Referent:pak1
+T11	CHEMICAL 850 855	5-ASA
+N14	Name Annotation:T11 Referent:5asa
+T12	CHEMICAL 925 930	5-ASA
+N15	Name Annotation:T12 Referent:5asa
+T13	CHEMICAL 949 954	5-ASA
+N16	Name Annotation:T13 Referent:5asa
+T14	CHEMICAL 1073 1078	5-ASA
+N17	Name Annotation:T14 Referent:5asa
+T16	GENE 1142 1152	E-cadherin
+N18	Name Annotation:T16 Referent:ecadherin
+T17	GENE 1157 1166	β-catenin
+N19	Name Annotation:T17 Referent:βcatenin
+T18	GENE 1176 1180	PAK1
+N20	Name Annotation:T18 Referent:pak1
+T19	GENE 1268 1272	PAK1
+N21	Name Annotation:T19 Referent:pak1
+T20	GENE 1323 1327	PAK1
+N22	Name Annotation:T20 Referent:pak1
+T3	CHEMICAL 1375 1380	5-ASA
+N23	Name Annotation:T3 Referent:5asa
+T4	CHEMICAL 1472 1482	mesalamine
+N24	Name Annotation:T4 Referent:mesalamine
+T21	GENE 1526 1530	PAK1
+N25	Name Annotation:T21 Referent:pak1
+T22	GENE 1584 1588	PAK1
+N26	Name Annotation:T22 Referent:pak1
+T5	CHEMICAL 1603 1608	5-ASA
+N27	Name Annotation:T5 Referent:5asa
+T23	GENE 1695 1699	PAK1
+N28	Name Annotation:T23 Referent:pak1
+T6	CHEMICAL 1777 1782	5-ASA
+N29	Name Annotation:T6 Referent:5asa
+R1	INHIBITOR Arg1:T15 Arg2:T29
+R2	INDIRECT-UPREGULATOR Arg1:T14 Arg2:T16
+R3	INDIRECT-UPREGULATOR Arg1:T14 Arg2:T17
+R4	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T20
+R5	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T22
+R6	INHIBITOR Arg1:T6 Arg2:T23

@@ -1,0 +1,149 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Phenotype",
+            "name": "resistance to antibiotics",
+            "OntoBiotope": "OBT:002674"
+        },
+        {
+            "id": "T6",
+            "type": "Phenotype",
+            "name": "antimicrobial susceptibility",
+            "OntoBiotope": "OBT:002338"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "Neisseria gonorrhoeae",
+            "NCBI_Taxonomy": "485"
+        },
+        {
+            "id": "T8",
+            "type": "Habitat",
+            "name": "laboratories",
+            "OntoBiotope": "OBT:001169"
+        },
+        {
+            "id": "T9",
+            "type": "Microorganism",
+            "name": "N. gonorrhoeae",
+            "NCBI_Taxonomy": "485"
+        },
+        {
+            "id": "T10",
+            "type": "Phenotype",
+            "name": "antimicrobial susceptibility",
+            "OntoBiotope": "OBT:002338"
+        },
+        {
+            "id": "T11",
+            "type": "Phenotype",
+            "name": "penicillin-resistant",
+            "OntoBiotope": "OBT:002829"
+        },
+        {
+            "id": "T12",
+            "type": "Microorganism",
+            "name": "N. gonorrhoeae",
+            "NCBI_Taxonomy": "485"
+        },
+        {
+            "id": "T13",
+            "type": "Phenotype",
+            "name": "resistance",
+            "OntoBiotope": "OBT:002829"
+        },
+        {
+            "id": "T14",
+            "type": "Phenotype",
+            "name": "penicillin-resistant",
+            "OntoBiotope": "OBT:002829"
+        },
+        {
+            "id": "T15",
+            "type": "Phenotype",
+            "name": "resistance",
+            "OntoBiotope": "OBT:002869"
+        },
+        {
+            "id": "T16",
+            "type": "Phenotype",
+            "name": "resistance",
+            "OntoBiotope": "OBT:002869"
+        },
+        {
+            "id": "T17",
+            "type": "Phenotype",
+            "name": "ciprofloxacin-resistant",
+            "OntoBiotope": "OBT:002773"
+        },
+        {
+            "id": "T18",
+            "type": "Microorganism",
+            "name": "N. gonorrhoeae",
+            "NCBI_Taxonomy": "485"
+        },
+        {
+            "id": "T19",
+            "type": "Phenotype",
+            "name": "decreased susceptibility to azithromycin",
+            "OntoBiotope": "OBT:002864"
+        },
+        {
+            "id": "T20",
+            "type": "Phenotype",
+            "name": "decreased susceptibility to ciprofloxacin",
+            "OntoBiotope": "OBT:002774"
+        },
+        {
+            "id": "T21",
+            "type": "Phenotype",
+            "name": "spectinomycin-resistant",
+            "OntoBiotope": "OBT:002857"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T12",
+            "target": "T16"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T12",
+            "target": "T11"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T12",
+            "target": "T14"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T12",
+            "target": "T15"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T12",
+            "target": "T13"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T18",
+            "target": "T20"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T18",
+            "target": "T19"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T18",
+            "target": "T21"
+        }
+    ]
+}

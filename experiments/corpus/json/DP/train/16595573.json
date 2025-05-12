@@ -1,0 +1,117 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "cyclophosphamide",
+            "Name": "cyclophosphamide"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "roxithromycin",
+            "Name": "roxithromycin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "cyclophosphamide",
+            "Name": "cyclophosphamide"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cyclophosphamide",
+            "Name": "cyclophosphamide"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "roxithromycin",
+            "Name": "roxithromycin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "cyclophosphamide",
+            "Name": "cyclophosphamide"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "roxithromycin",
+            "Name": "roxithromycin"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "CYP3A4",
+            "Name": "cyp3a4"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "cyclophosphamide",
+            "Name": "cyclophosphamide"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "roxithromycin",
+            "Name": "roxithromycin"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "P-glycoprotein",
+            "Name": "pglycoprotein"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "cyclophosphamide",
+            "Name": "cyclophosphamide"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "cyclophosphamide",
+            "Name": "cyclophosphamide"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "roxithromycin",
+            "Name": "roxithromycin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cyclophosphamide",
+            "Name": "cyclophosphamide"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T14"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T15"
+        },
+        {
+            "type": "Substrate",
+            "source": "T10",
+            "target": "T15"
+        }
+    ]
+}

@@ -1,0 +1,105 @@
+T14	Plant 4 31	variety of Cavendish banana
+T15	Pest 61 64	TR4
+T16	Location 115 121	Israel
+T17	Location 127 138	Netherlands
+T18	Location 163 174	Philippines
+T19	Plant 233 249	Cavendish banana
+T20	Disease 266 280	Panama disease
+T21	Pest 304 328	Fusarium Race 4 Tropical
+T22	Pest 330 337	Foc T4R
+T23	Plant 397 403	banana
+T24	Plant 592 615	Cavendish banana plants
+T25	Location 770 776	Israel
+T26	Location 782 793	Netherlands
+T27	Location 817 828	Philippines
+T28	Plant 891 907	Cavendish banana
+T29	Disease 943 957	Panama disease
+T30	Date 1012 1036	at the beginning of 2024
+T31	Pest 1142 1152	R4T strain
+T32	Disease 1156 1170	Panama disease
+T33	Plant 1415 1431	Cavendish banana
+T34	Plant 1522 1539	variety Cavendish
+T35	Date 1549 1570	more than seven years
+T36	Pest 1671 1686	Fusarium (T4R )
+T37	Plant 1762 1775	banana plants
+T38	Location 1799 1805	Israel
+T39	Plant 1859 1878	Cavendish varieties
+T40	Location 1976 1987	Netherlands
+T41	Pest 2042 2045	TR4
+T42	Location 2082 2093	Philippines
+T43	Date 2148 2155	in 2022
+T44	Plant 2181 2195	banana variety
+T45	Plant 2274 2282	cabbages
+T46	Location 2290 2301	Philippines
+T47	Location 2317 2325	Colombia
+T48	Date 2350 2357	in 2023
+T49	Pest 2403 2406	TR4
+N1	NCBI_Taxonomy Annotation:T14 Referent:214697
+N2	NCBI_Taxonomy Annotation:T15 Referent:2502994
+N3	GeoNames Annotation:T16 Referent:294640
+N4	GeoNames Annotation:T17 Referent:2750405
+N5	GeoNames Annotation:T18 Referent:1694008
+N6	NCBI_Taxonomy Annotation:T19 Referent:214697
+N7	NCBI_Taxonomy Annotation:T21 Referent:2502994
+N8	NCBI_Taxonomy Annotation:T22 Referent:2502994
+N9	NCBI_Taxonomy Annotation:T23 Referent:4640
+N10	NCBI_Taxonomy Annotation:T24 Referent:214697
+N11	GeoNames Annotation:T25 Referent:294640
+N12	GeoNames Annotation:T26 Referent:2750405
+N13	GeoNames Annotation:T27 Referent:1694008
+N14	NCBI_Taxonomy Annotation:T28 Referent:214697
+N15	NCBI_Taxonomy Annotation:T31 Referent:2502994
+N16	NCBI_Taxonomy Annotation:T33 Referent:214697
+N17	NCBI_Taxonomy Annotation:T34 Referent:214697
+N18	NCBI_Taxonomy Annotation:T36 Referent:2502994
+N19	NCBI_Taxonomy Annotation:T37 Referent:4640
+N20	GeoNames Annotation:T38 Referent:294640
+N21	NCBI_Taxonomy Annotation:T39 Referent:214697
+N22	GeoNames Annotation:T40 Referent:2750405
+N23	NCBI_Taxonomy Annotation:T41 Referent:2502994
+N24	GeoNames Annotation:T42 Referent:1694008
+N25	NCBI_Taxonomy Annotation:T44 Referent:4640
+N26	NCBI_Taxonomy Annotation:T45 Referent:3712
+N27	GeoNames Annotation:T46 Referent:1694008
+N28	GeoNames Annotation:T47 Referent:3686110
+N29	NCBI_Taxonomy Annotation:T49 Referent:2502994
+R1	Found_on Organism:T15 Habitat:T14
+R2	Located_in Object:T19 Location:T18
+R3	Located_in Object:T19 Location:T16
+R4	Located_in Object:T19 Location:T17
+R5	Causes Pest:T21 Disease:T20
+R6	Expressed_by Disease:T20 Plant:T23
+R7	Expressed_by Disease:T20 Plant:T24
+R8	Found_on Organism:T21 Habitat:T23
+R9	Found_on Organism:T21 Habitat:T24
+R10	Located_in Object:T28 Location:T27
+R11	Located_in Object:T28 Location:T25
+R12	Located_in Object:T28 Location:T26
+R13	Detected_on Object:T28 Date:T30
+R14	Detected_on Object:T29 Date:T30
+R15	Expressed_by Disease:T29 Plant:T28
+R16	Causes Pest:T31 Disease:T32
+R17	Detected_on Object:T34 Date:T35
+R18	Found_on Organism:T36 Habitat:T34
+R19	Detected_on Object:T36 Date:T35
+R20	Located_in Object:T37 Location:T38
+R21	Found_on Organism:T41 Habitat:T39
+R22	Found_on Organism:T41 Habitat:T44
+R23	Located_in Object:T49 Location:T47
+E1	Nary Organisme_nuisible:T15 Plante:T14
+E2	Nary Plante:T19 Lieu:T18
+E3	Nary Plante:T19 Lieu:T16
+E4	Nary Plante:T19 Lieu:T17
+E5	Nary Organisme_nuisible:T21 Plante:T23 Maladie:T20
+E6	Nary Organisme_nuisible:T21 Plante:T24 Maladie:T20
+E7	Nary Plante:T28 Lieu:T27
+E8	Nary Plante:T28 Lieu:T25
+E9	Nary Plante:T28 Lieu:T26
+E10	Nary Plante:T28 Maladie:T29 Date:T30
+E11	Nary Organisme_nuisible:T31 Maladie:T32
+E12	Nary Organisme_nuisible:T36 Plante:T34 Date:T35
+E13	Nary Plante:T37 Lieu:T38
+E14	Nary Organisme_nuisible:T41 Plante:T39
+E15	Nary Organisme_nuisible:T41 Plante:T44
+E16	Nary Organisme_nuisible:T49 Lieu:T47
+*	Equiv T21 T22

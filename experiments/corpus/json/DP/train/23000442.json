@@ -1,0 +1,155 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "mollugin",
+            "Name": "mollugin"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "CYP1A2",
+            "Name": "cyp1a2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Mollugin",
+            "Name": "mollugin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "mollugin",
+            "Name": "mollugin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "cytochrome P450",
+            "Name": "cytochromep450"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "CYP",
+            "Name": "cyp"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "CYPs",
+            "Name": "cyps"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "mollugin",
+            "Name": "mollugin"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "CYP1A2",
+            "Name": "cyp1a2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "phenacetin",
+            "Name": "phenacetin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "O",
+            "Name": "o"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Mollugin",
+            "Name": "mollugin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "phenacetin",
+            "Name": "phenacetin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "O",
+            "Name": "o"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "mollugin",
+            "Name": "mollugin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "CYP1A1 and 1A2",
+            "Name": "cyp1a1and1a2"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "mollugin",
+            "Name": "mollugin"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "CYP1A2",
+            "Name": "cyp1a2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T14"
+        }
+    ]
+}

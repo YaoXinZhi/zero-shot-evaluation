@@ -1,0 +1,142 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "glucokinase",
+            "Name": "glucokinase"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "AZD1656",
+            "Name": "azd1656"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "glucokinase",
+            "Name": "glucokinase"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "AZD1656",
+            "Name": "azd1656"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "AZD1656",
+            "Name": "azd1656"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "glycated haemoglobin",
+            "Name": "glycatedhaemoglobin"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "HbA1c",
+            "Name": "hba1c"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "HbA1c",
+            "Name": "hba1c"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "AZD1656",
+            "Name": "azd1656"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "AZD1656",
+            "Name": "azd1656"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "HbA1c",
+            "Name": "hba1c"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "AZD1656",
+            "Name": "azd1656"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "AZD1656",
+            "Name": "azd1656"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "AZD1656",
+            "Name": "azd1656"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "HbA1c",
+            "Name": "hba1c"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "HbA1c",
+            "Name": "hba1c"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "AZD1656",
+            "Name": "azd1656"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "AZD1656",
+            "Name": "azd1656"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T12",
+            "target": "T20"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T17"
+        }
+    ]
+}

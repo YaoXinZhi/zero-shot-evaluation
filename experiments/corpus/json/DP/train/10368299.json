@@ -1,0 +1,207 @@
+{
+    "entities": [
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "E2020",
+            "Name": "e2020"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Aricept",
+            "Name": "aricept"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "cholinesterase",
+            "Name": "cholinesterase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Aricept",
+            "Name": "aricept"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "N-benzylpiperidine",
+            "Name": "nbenzylpiperidine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Torpedo californica AChE",
+            "Name": "torpedocalifornicaache"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "TcAChE",
+            "Name": "tcache"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "electric eel and mouse AChE",
+            "Name": "electriceelandmouseache"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "E2020",
+            "Name": "e2020"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "TcAChE",
+            "Name": "tcache"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "E2020",
+            "Name": "e2020"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "aromatic acid",
+            "Name": "aromaticacid"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "E2020",
+            "Name": "e2020"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "E2020",
+            "Name": "e2020"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "butyrylcholinesterase",
+            "Name": "butyrylcholinesterase"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "BChE",
+            "Name": "bche"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "E2020",
+            "Name": "e2020"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "E2020",
+            "Name": "e2020"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T10",
+            "target": "T25"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T11",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T19"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T24"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T14"
+        }
+    ]
+}

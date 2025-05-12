@@ -1,0 +1,95 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "methanol",
+            "Name": "methanol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "aflatoxin",
+            "Name": "aflatoxin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "aflatoxin B(1)",
+            "Name": "aflatoxinb1"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "malondialdehyde",
+            "Name": "malondialdehyde"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "superoxide",
+            "Name": "superoxide"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "superoxide dismutase",
+            "Name": "superoxidedismutase"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "glutathione peroxidase",
+            "Name": "glutathioneperoxidase"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "aflatoxin",
+            "Name": "aflatoxin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "N-methyl-N'-nitro-N-nitrosoguanidine",
+            "Name": "nmethylnnitronnitrosoguanidine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "acridin",
+            "Name": "acridin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "aflatoxin",
+            "Name": "aflatoxin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T13"
+        }
+    ]
+}

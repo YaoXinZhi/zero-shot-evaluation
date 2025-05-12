@@ -1,0 +1,107 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "nuclear receptors",
+            "Name": "nuclearreceptors"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "human estrogen receptor alpha",
+            "Name": "humanestrogenreceptoralpha"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "ERalpha",
+            "Name": "eralpha"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "17beta-estradiol",
+            "Name": "17betaestradiol"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "diethylstilbestrol",
+            "Name": "diethylstilbestrol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "raloxifene",
+            "Name": "raloxifene"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "4-hydroxytamoxifen",
+            "Name": "4hydroxytamoxifen"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "tamoxifen",
+            "Name": "tamoxifen"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "genistein",
+            "Name": "genistein"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "ginsenosides",
+            "Name": "ginsenosides"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "ERalpha",
+            "Name": "eralpha"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Rb1(S)",
+            "Name": "rb1s"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "20(S)-Rg3",
+            "Name": "20srg3"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "peroxisome proliferator-activated receptor gamma",
+            "Name": "peroxisomeproliferatoractivatedreceptorgamma"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T10",
+            "target": "T15"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Disease",
+            "name": "Fusarium wilt"
+        },
+        {
+            "id": "T4",
+            "type": "Plant",
+            "name": "banana",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T5",
+            "type": "Plant",
+            "name": "banana cultivar Ma\u00c3\u00a7\u00c3\u00a3",
+            "NCBI_Taxonomy": "485264"
+        },
+        {
+            "id": "T6",
+            "type": "Pest",
+            "name": "Fusarium oxysporum f.sp. cubense",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T7",
+            "type": "Disease",
+            "name": "Fusarium wilt"
+        },
+        {
+            "id": "T8",
+            "type": "Pest",
+            "name": "Fusarium kalimantanense",
+            "NCBI_Taxonomy": "2750197"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Affects",
+            "source": "T3",
+            "target": "T5"
+        },
+        {
+            "type": "Affects",
+            "source": "T3",
+            "target": "T4"
+        },
+        {
+            "type": "Causes",
+            "source": "T6",
+            "target": "T3"
+        },
+        {
+            "type": "Causes",
+            "source": "T8",
+            "target": "T7"
+        },
+        {
+            "type": "Causes",
+            "source": "T6",
+            "target": "T7"
+        }
+    ]
+}

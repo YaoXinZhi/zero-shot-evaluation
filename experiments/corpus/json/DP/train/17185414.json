@@ -1,0 +1,176 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "NVP-TAE684",
+            "Name": "nvptae684"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "NPM",
+            "Name": "npm"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "ALK",
+            "Name": "alk"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "NPM",
+            "Name": "npm"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "ALK",
+            "Name": "alk"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "ALK",
+            "Name": "alk"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "NVP-TAE684",
+            "Name": "nvptae684"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "ALK",
+            "Name": "alk"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "NVP-TAE684",
+            "Name": "nvptae684"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "NPM",
+            "Name": "npm"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "ALK",
+            "Name": "alk"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "NVP-TAE684",
+            "Name": "nvptae684"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "ALK",
+            "Name": "alk"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "NVP-TAE684",
+            "Name": "nvptae684"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "CD30",
+            "Name": "cd30"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "CD30",
+            "Name": "cd30"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "NPM",
+            "Name": "npm"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "ALK",
+            "Name": "alk"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T17"
+        }
+    ]
+}

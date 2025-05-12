@@ -1,0 +1,67 @@
+T15	CHEMICAL 0 16	Sulindac sulfone
+N1	Name Annotation:T15 Referent:sulindacsulfone
+T28	GENE-Y 26 31	K-ras
+N2	Name Annotation:T28 Referent:kras
+T29	GENE-Y 42 58	cyclooxygenase-2
+N3	Name Annotation:T29 Referent:cyclooxygenase2
+T12	CHEMICAL 108 115	sulfide
+N4	Name Annotation:T12 Referent:sulfide
+T6	CHEMICAL 120 127	sulfone
+N5	Name Annotation:T6 Referent:sulfone
+T9	CHEMICAL 143 151	sulindac
+N6	Name Annotation:T9 Referent:sulindac
+T5	CHEMICAL 249 265	Sulindac sulfide
+N7	Name Annotation:T5 Referent:sulindacsulfide
+T19	GENE-N 275 289	cyclooxygenase
+N8	Name Annotation:T19 Referent:cyclooxygenase
+T20	GENE-N 291 294	COX
+N9	Name Annotation:T20 Referent:cox
+T21	GENE-N 348 351	ras
+N10	Name Annotation:T21 Referent:ras
+T7	CHEMICAL 406 422	sulindac sulfone
+N11	Name Annotation:T7 Referent:sulindacsulfone
+T8	CHEMICAL 500 508	sulindac
+N12	Name Annotation:T8 Referent:sulindac
+T22	GENE-Y 609 614	K-ras
+N13	Name Annotation:T22 Referent:kras
+T23	GENE-Y 676 681	COX-2
+N14	Name Annotation:T23 Referent:cox2
+T24	GENE-Y 730 735	K-ras
+N15	Name Annotation:T24 Referent:kras
+T10	CHEMICAL 923 931	sulindac
+N16	Name Annotation:T10 Referent:sulindac
+T11	CHEMICAL 933 949	Sulindac sulfone
+N17	Name Annotation:T11 Referent:sulindacsulfone
+T25	GENE-Y 960 965	COX-2
+N18	Name Annotation:T25 Referent:cox2
+T13	CHEMICAL 1018 1031	prostaglandin
+N19	Name Annotation:T13 Referent:prostaglandin
+T26	GENE-Y 1018 1043	prostaglandin synthase E2
+N20	Name Annotation:T26 Referent:prostaglandinsynthasee2
+T14	CHEMICAL 1056 1072	Sulindac sulfide
+N21	Name Annotation:T14 Referent:sulindacsulfide
+T27	GENE-Y 1094 1099	COX-2
+N22	Name Annotation:T27 Referent:cox2
+T1	CHEMICAL 1132 1145	prostaglandin
+N23	Name Annotation:T1 Referent:prostaglandin
+T16	GENE-Y 1132 1157	prostaglandin synthase E2
+N24	Name Annotation:T16 Referent:prostaglandinsynthasee2
+T17	GENE-N 1195 1198	COX
+N25	Name Annotation:T17 Referent:cox
+T2	CHEMICAL 1245 1252	sulfide
+N26	Name Annotation:T2 Referent:sulfide
+T3	CHEMICAL 1257 1264	sulfone
+N27	Name Annotation:T3 Referent:sulfone
+T4	CHEMICAL 1280 1288	sulindac
+N28	Name Annotation:T4 Referent:sulindac
+T18	GENE-N 1295 1298	COX
+N29	Name Annotation:T18 Referent:cox
+R1	INHIBITOR Arg1:T15 Arg2:T28
+R2	INDIRECT-DOWNREGULATOR Arg1:T15 Arg2:T29
+R3	INHIBITOR Arg1:T5 Arg2:T19
+R4	INHIBITOR Arg1:T5 Arg2:T20
+R5	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T21
+R6	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T25
+R7	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T26
+R8	INDIRECT-DOWNREGULATOR Arg1:T14 Arg2:T16
+R9	INHIBITOR Arg1:T14 Arg2:T17

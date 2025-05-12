@@ -1,0 +1,200 @@
+{
+    "entities": [
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "cytochrome P450 3A",
+            "Name": "cytochromep4503a"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "dexamethasone",
+            "Name": "dexamethasone"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "cytochrome P450 3A",
+            "Name": "cytochromep4503a"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "CYP3A",
+            "Name": "cyp3a"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "dexamethasone 21-phosphate",
+            "Name": "dexamethasone21phosphate"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "DEX-P",
+            "Name": "dexp"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "midazolam",
+            "Name": "midazolam"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "MDZ",
+            "Name": "mdz"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "CYP3A",
+            "Name": "cyp3a"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "DEX-P",
+            "Name": "dexp"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "CYP3A",
+            "Name": "cyp3a"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "DEX-P",
+            "Name": "dexp"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "DEX-P",
+            "Name": "dexp"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "CYP3A",
+            "Name": "cyp3a"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "CYP3A",
+            "Name": "cyp3a"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "DEX-P",
+            "Name": "dexp"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "DEX-P",
+            "Name": "dexp"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "DEX-P",
+            "Name": "dexp"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "CYP3A",
+            "Name": "cyp3a"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "DEX-P",
+            "Name": "dexp"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "CYP3A",
+            "Name": "cyp3a"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "CYP3A",
+            "Name": "cyp3a"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T17"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T17"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Activator",
+            "source": "T12",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T17"
+        },
+        {
+            "type": "Activator",
+            "source": "T2",
+            "target": "T17"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T21"
+        },
+        {
+            "type": "Activator",
+            "source": "T11",
+            "target": "T21"
+        }
+    ]
+}

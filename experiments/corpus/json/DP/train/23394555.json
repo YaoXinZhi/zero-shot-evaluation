@@ -1,0 +1,218 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "Thymidylate",
+            "Name": "thymidylate"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "Thymidylate kinase",
+            "Name": "thymidylatekinase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Thymidylate",
+            "Name": "thymidylate"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Thymidylate kinase",
+            "Name": "thymidylatekinase"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "TMPK",
+            "Name": "tmpk"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "pyrimidine",
+            "Name": "pyrimidine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "thymidine 5'-monophosphate",
+            "Name": "thymidine5monophosphate"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "dTMP",
+            "Name": "dtmp"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Mg(2+)",
+            "Name": "mg2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "thymidine 5'-diphosphate",
+            "Name": "thymidine5diphosphate"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "dTDP",
+            "Name": "dtdp"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "thymidine 5'-triphosphate",
+            "Name": "thymidine5triphosphate"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "dTTP",
+            "Name": "dttp"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "nucleoside-diphosphate",
+            "Name": "nucleosidediphosphate"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "TMPK",
+            "Name": "tmpk"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "TMPK",
+            "Name": "tmpk"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "nucleoside",
+            "Name": "nucleoside"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "TMPK",
+            "Name": "tmpk"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "human TMPK",
+            "Name": "humantmpk"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "doxorubicin",
+            "Name": "doxorubicin"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "p53",
+            "Name": "p53"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "TMPKs",
+            "Name": "tmpks"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "TMPKs",
+            "Name": "tmpks"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "TMPKs",
+            "Name": "tmpks"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "TMPKs",
+            "Name": "tmpks"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Product of",
+            "source": "T11",
+            "target": "T15"
+        },
+        {
+            "type": "Product of",
+            "source": "T11",
+            "target": "T18"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T18"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T18"
+        },
+        {
+            "type": "Product of",
+            "source": "T6",
+            "target": "T15"
+        },
+        {
+            "type": "Product of",
+            "source": "T6",
+            "target": "T18"
+        },
+        {
+            "type": "Product of",
+            "source": "T7",
+            "target": "T15"
+        },
+        {
+            "type": "Product of",
+            "source": "T7",
+            "target": "T18"
+        },
+        {
+            "type": "Activator",
+            "source": "T12",
+            "target": "T20"
+        }
+    ]
+}

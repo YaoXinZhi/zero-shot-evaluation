@@ -1,0 +1,84 @@
+T24	CHEMICAL 0 6	Copper
+N1	Name Annotation:T24 Referent:copper
+T25	CHEMICAL 35 47	homocysteine
+N2	Name Annotation:T25 Referent:homocysteine
+T14	CHEMICAL 115 121	copper
+N3	Name Annotation:T14 Referent:copper
+T22	CHEMICAL 151 163	homocysteine
+N4	Name Annotation:T22 Referent:homocysteine
+T5	CHEMICAL 188 198	methionine
+N5	Name Annotation:T5 Referent:methionine
+T8	CHEMICAL 330 332	Cu
+N6	Name Annotation:T8 Referent:cu
+T9	CHEMICAL 398 410	homocysteine
+N7	Name Annotation:T9 Referent:homocysteine
+T10	CHEMICAL 451 462	glutathione
+N8	Name Annotation:T10 Referent:glutathione
+T11	CHEMICAL 508 510	Cu
+N9	Name Annotation:T11 Referent:cu
+T12	CHEMICAL 590 599	glutamate
+N10	Name Annotation:T12 Referent:glutamate
+T30	GENE-N 590 615	glutamate-cysteine ligase
+N11	Name Annotation:T30 Referent:glutamatecysteineligase
+T13	CHEMICAL 600 608	cysteine
+N12	Name Annotation:T13 Referent:cysteine
+T31	GENE-N 617 620	Gcl
+N13	Name Annotation:T31 Referent:gcl
+T15	CHEMICAL 672 683	glutathione
+N14	Name Annotation:T15 Referent:glutathione
+T32	GENE-Y 716 720	Gclc
+N15	Name Annotation:T32 Referent:gclc
+T33	GENE-N 747 750	Gcl
+N16	Name Annotation:T33 Referent:gcl
+T16	CHEMICAL 771 773	Cu
+N17	Name Annotation:T16 Referent:cu
+T34	GENE-Y 786 790	Gclm
+N18	Name Annotation:T34 Referent:gclm
+T17	CHEMICAL 840 847	betaine
+N19	Name Annotation:T17 Referent:betaine
+T35	GENE-Y 840 878	betaine-homocysteine methyltransferase
+N20	Name Annotation:T35 Referent:betainehomocysteinemethyltransferase
+T18	CHEMICAL 848 860	homocysteine
+N21	Name Annotation:T18 Referent:homocysteine
+T36	GENE-Y 880 884	Bhmt
+N22	Name Annotation:T36 Referent:bhmt
+T19	CHEMICAL 928 940	homocysteine
+N23	Name Annotation:T19 Referent:homocysteine
+T20	CHEMICAL 964 974	methionine
+N24	Name Annotation:T20 Referent:methionine
+T21	CHEMICAL 997 999	Cu
+N25	Name Annotation:T21 Referent:cu
+T23	CHEMICAL 1020 1022	Cu
+N26	Name Annotation:T23 Referent:cu
+T26	GENE-Y 1061 1065	Gclc
+N27	Name Annotation:T26 Referent:gclc
+T1	CHEMICAL 1105 1116	glutathione
+N28	Name Annotation:T1 Referent:glutathione
+T2	CHEMICAL 1155 1167	homocysteine
+N29	Name Annotation:T2 Referent:homocysteine
+T27	GENE-Y 1235 1239	Bhmt
+N30	Name Annotation:T27 Referent:bhmt
+T3	CHEMICAL 1263 1275	homocysteine
+N31	Name Annotation:T3 Referent:homocysteine
+T4	CHEMICAL 1308 1318	methionine
+N32	Name Annotation:T4 Referent:methionine
+T28	GENE-Y 1454 1458	Gclc
+N33	Name Annotation:T28 Referent:gclc
+T29	GENE-Y 1473 1477	Bhmt
+N34	Name Annotation:T29 Referent:bhmt
+T6	CHEMICAL 1501 1513	homocysteine
+N35	Name Annotation:T6 Referent:homocysteine
+T7	CHEMICAL 1529 1531	Cu
+N36	Name Annotation:T7 Referent:cu
+R1	PRODUCT-OF Arg1:T15 Arg2:T30
+R2	PRODUCT-OF Arg1:T15 Arg2:T31
+R3	SUBSTRATE Arg1:T19 Arg2:T35
+R4	SUBSTRATE Arg1:T19 Arg2:T36
+R5	PRODUCT-OF Arg1:T20 Arg2:T35
+R6	PRODUCT-OF Arg1:T20 Arg2:T36
+R7	PRODUCT-OF Arg1:T1 Arg2:T26
+R8	SUBSTRATE Arg1:T3 Arg2:T27
+R9	PRODUCT-OF Arg1:T4 Arg2:T27
+R10	SUBSTRATE Arg1:T6 Arg2:T29
+R11	SUBSTRATE Arg1:T6 Arg2:T28
+R12	SUBSTRATE Arg1:T2 Arg2:T26

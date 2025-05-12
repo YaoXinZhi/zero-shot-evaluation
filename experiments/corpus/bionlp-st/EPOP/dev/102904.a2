@@ -1,0 +1,73 @@
+T53	Plant 11 23	Sweet Orange
+T54	Pest 110 143	Candidatus Liberibacter asiaticus
+T55	Disease 145 158	Huanglongbing
+T56	Disease 179 182	HLB
+T57	Disease 186 194	greening
+T58	Plant 230 236	citrus
+T59	Disease 256 259	HLB
+T60	Pest 322 355	Candidatus Liberibacter asiaticus
+T61	Pest 358 362	CLas
+T62	Plant 389 403	citrus species
+T63	Pest 417 421	CLas
+T64	Plant 727 744	Pera sweet orange
+T65	Vector 820 840	Sarcophaga peregrina
+T66	Pest 861 865	CLas
+T67	Pest 1053 1057	CLas
+T68	Pest 1127 1131	CLas
+T69	Disease 1202 1205	HLB
+T70	Pest 1282 1286	CLas
+T71	Disease 1855 1858	HLB
+T72	Plant 1871 1883	Sweet Orange
+T73	Pest 1970 2003	Candidatus Liberibacter asiaticus
+T74	Plant 2100 2127	Citrus× sinensis(L.) Osbeck
+T75	Plant 2165 2171	citrus
+T76	Disease 2208 2221	huanglongbing
+T77	Disease 2223 2226	HLB
+T78	Plant 2411 2423	Sweet Orange
+T79	Pest 2510 2543	Candidatus Liberibacter asiaticus
+T80	Plant 2703 2715	Sweet Orange
+T81	Pest 2802 2835	Candidatus Liberibacter asiaticus
+T82	Plant 3103 3115	Sweet Orange
+T83	Pest 3202 3235	Candidatus Liberibacter asiaticus
+N1	NCBI_Taxonomy Annotation:T53 Referent:2711
+N2	NCBI_Taxonomy Annotation:T54 Referent:34021
+N3	NCBI_Taxonomy Annotation:T58 Referent:2706
+N4	NCBI_Taxonomy Annotation:T60 Referent:34021
+N5	NCBI_Taxonomy Annotation:T61 Referent:34021
+N6	NCBI_Taxonomy Annotation:T62 Referent:2706
+N7	NCBI_Taxonomy Annotation:T63 Referent:34021
+N8	NCBI_Taxonomy Annotation:T64 Referent:2711
+N9	NCBI_Taxonomy Annotation:T65 Referent:7386
+N10	NCBI_Taxonomy Annotation:T66 Referent:34021
+N11	NCBI_Taxonomy Annotation:T67 Referent:34021
+N12	NCBI_Taxonomy Annotation:T68 Referent:34021
+N13	NCBI_Taxonomy Annotation:T70 Referent:34021
+N14	NCBI_Taxonomy Annotation:T72 Referent:2711
+N15	NCBI_Taxonomy Annotation:T73 Referent:34021
+N16	NCBI_Taxonomy Annotation:T74 Referent:2711
+N17	NCBI_Taxonomy Annotation:T75 Referent:2706
+N18	NCBI_Taxonomy Annotation:T78 Referent:2711
+N19	NCBI_Taxonomy Annotation:T79 Referent:34021
+N20	NCBI_Taxonomy Annotation:T80 Referent:2711
+N21	NCBI_Taxonomy Annotation:T81 Referent:34021
+N22	NCBI_Taxonomy Annotation:T82 Referent:2711
+N23	NCBI_Taxonomy Annotation:T83 Referent:34021
+R1	Found_on Organism:T54 Habitat:T53
+R2	Causes Pest:T60 Disease:T55
+R3	Expressed_by Disease:T55 Plant:T58
+R4	Found_on Organism:T60 Habitat:T58
+R5	Found_on Organism:T63 Habitat:T62
+R6	Found_on Organism:T73 Habitat:T72
+R7	Found_on Organism:T79 Habitat:T78
+R8	Found_on Organism:T81 Habitat:T80
+R9	Found_on Organism:T83 Habitat:T82
+E1	Nary Organisme_nuisible:T54 Plante:T53
+E2	Nary Organisme_nuisible:T60 Plante:T58 Maladie:T55
+E3	Nary Organisme_nuisible:T63 Plante:T62
+E4	Nary Organisme_nuisible:T73 Plante:T72
+E5	Nary Organisme_nuisible:T79 Plante:T78
+E6	Nary Organisme_nuisible:T81 Plante:T80
+E7	Nary Organisme_nuisible:T83 Plante:T82
+*	Equiv T55 T56 T57
+*	Equiv T76 T77
+*	Equiv T60 T61

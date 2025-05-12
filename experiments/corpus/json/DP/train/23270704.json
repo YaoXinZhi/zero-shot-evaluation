@@ -1,0 +1,211 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Apocynin",
+            "Name": "apocynin"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "raisanberine",
+            "Name": "raisanberine"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "StAR",
+            "Name": "star"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "3\u03b2-HSD",
+            "Name": "3\u03b2hsd"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "testosterone",
+            "Name": "testosterone"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "p66Shc",
+            "Name": "p66shc"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "NADPH",
+            "Name": "nadph"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "NADPH oxidase",
+            "Name": "nadphoxidase"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "NOX",
+            "Name": "nox"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "APO",
+            "Name": "apo"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "apocynin",
+            "Name": "apocynin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "NOX",
+            "Name": "nox"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "raisanberine",
+            "Name": "raisanberine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "calcium",
+            "Name": "calcium"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "APO",
+            "Name": "apo"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "H2O2",
+            "Name": "h2o2"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "testosterone",
+            "Name": "testosterone"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "LH",
+            "Name": "lh"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "FSH",
+            "Name": "fsh"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "p22/p47(phox)",
+            "Name": "p22p47phox"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "NOX2",
+            "Name": "nox2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "MMP9",
+            "Name": "mmp9"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "PERK",
+            "Name": "perk"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "p66Shc",
+            "Name": "p66shc"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "StAR",
+            "Name": "star"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "3\u03b2-HSD",
+            "Name": "3\u03b2hsd"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Cx43",
+            "Name": "cx43"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "APO",
+            "Name": "apo"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "p66Shc",
+            "Name": "p66shc"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T11",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T25"
+        }
+    ]
+}

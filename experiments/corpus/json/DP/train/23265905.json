@@ -1,0 +1,66 @@
+{
+    "entities": [
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "2-methyl-4,5-substitutedbenzo[f]-3,3a,4,5-tetrahydro-pyrazolo[1,5-d][1,4]oxazepin-8(7H)-one",
+            "Name": "2methyl45substitutedbenzof33a45tetrahydropyrazolo15d14oxazepin87hone"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "telomerase",
+            "Name": "telomerase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "4,5-tetrahydropyrazolo[1,5-d][1,4]oxazepine",
+            "Name": "45tetrahydropyrazolo15d14oxazepine"
+        },
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "telomerase",
+            "Name": "telomerase"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "Cyclin D1",
+            "Name": "cyclind1"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "TERT",
+            "Name": "tert"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "phospho-AKT",
+            "Name": "phosphoakt"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "AKT",
+            "Name": "akt"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T9"
+        }
+    ]
+}

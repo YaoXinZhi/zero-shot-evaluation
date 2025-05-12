@@ -1,0 +1,65 @@
+T18	Disease 14 27	yellow dragon
+T19	Plant 43 49	citrus
+T20	Plant 227 240	citrus fruits
+T21	Disease 270 273	HLB
+T22	Location 305 314	Venezuela
+T23	Location 332 343	Zulia state
+T24	Location 346 355	Maracaibo
+T25	Location 357 370	San Francisco
+T26	Location 478 491	Latin America
+T27	Plant 723 736	citrus fruits
+T28	Disease 776 779	HLB
+T29	Disease 783 796	huanglongbing
+T30	Disease 815 828	yellow dragon
+T31	Disease 854 857	HLB
+T32	Disease 861 874	huanglongbing
+T33	Disease 876 889	yellow dragon
+T34	Plant 908 921	citrus fruits
+T35	Disease 1147 1150	HLB
+T36	Plant 1231 1237	citrus
+T37	Location 1480 1495	state of Aragua
+T38	Plant 1551 1564	citrus fruits
+T39	Plant 1647 1660	citrus plants
+T40	Plant 1808 1826	citrus cultivation
+N1	NCBI_Taxonomy Annotation:T19 Referent:2706
+N2	NCBI_Taxonomy Annotation:T20 Referent:2706
+N3	GeoNames Annotation:T22 Referent:3625428
+N4	GeoNames Annotation:T23 Referent:3625035
+N5	GeoNames Annotation:T24 Referent:3633009
+N6	GeoNames Annotation:T25 Referent:8129238
+N7	GeoNames Annotation:T26 Referent:7730009
+N8	NCBI_Taxonomy Annotation:T27 Referent:2706
+N9	NCBI_Taxonomy Annotation:T34 Referent:2706
+N10	NCBI_Taxonomy Annotation:T36 Referent:2706
+N11	GeoNames Annotation:T37 Referent:3649110
+N12	NCBI_Taxonomy Annotation:T38 Referent:2706
+N13	NCBI_Taxonomy Annotation:T39 Referent:2706
+N14	NCBI_Taxonomy Annotation:T40 Referent:2706
+R1	Expressed_by Disease:T18 Plant:T19
+R2	Located_in Object:T20 Location:T22
+R3	Located_in Object:T20 Location:T24
+R4	Located_in Object:T20 Location:T25
+R5	Located_in Object:T20 Location:T23
+R6	Located_in Object:T20 Location:T26
+R7	Located_in Object:T21 Location:T22
+R8	Located_in Object:T21 Location:T24
+R9	Located_in Object:T21 Location:T25
+R10	Located_in Object:T21 Location:T23
+R11	Located_in Object:T21 Location:T26
+R12	Expressed_by Disease:T21 Plant:T20
+R13	Expressed_by Disease:T29 Plant:T27
+R14	Expressed_by Disease:T32 Plant:T34
+R15	Located_in Object:T38 Location:T37
+R16	Located_in Object:T39 Location:T37
+E1	Nary Plante:T19 Maladie:T18
+E2	Nary Plante:T20 Maladie:T21 Lieu:T22
+E3	Nary Plante:T20 Maladie:T21 Lieu:T24
+E4	Nary Plante:T20 Maladie:T21 Lieu:T25
+E5	Nary Plante:T20 Maladie:T21 Lieu:T23
+E6	Nary Plante:T20 Maladie:T21 Lieu:T26
+E7	Nary Plante:T27 Maladie:T29
+E8	Nary Plante:T34 Maladie:T32
+E9	Nary Plante:T38 Lieu:T37
+E10	Nary Plante:T39 Lieu:T37
+*	Equiv T33 T32 T31
+*	Equiv T28 T29 T30

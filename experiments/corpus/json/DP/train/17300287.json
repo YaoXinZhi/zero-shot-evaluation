@@ -1,0 +1,83 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "itopride",
+            "Name": "itopride"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Itopride",
+            "Name": "itopride"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "dopamine D2",
+            "Name": "dopamined2"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "itopride",
+            "Name": "itopride"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "itopride",
+            "Name": "itopride"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "itopride",
+            "Name": "itopride"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "itopride",
+            "Name": "itopride"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "itopride",
+            "Name": "itopride"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "itopride",
+            "Name": "itopride"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T11"
+        }
+    ]
+}

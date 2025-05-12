@@ -1,0 +1,228 @@
+{
+    "entities": [
+        {
+            "id": "T23",
+            "type": "Pest",
+            "name": "Liberibacter",
+            "NCBI_Taxonomy": "34019"
+        },
+        {
+            "id": "T24",
+            "type": "Disease",
+            "name": "citrus greening disease"
+        },
+        {
+            "id": "T25",
+            "type": "Disease",
+            "name": "citrus greening disease"
+        },
+        {
+            "id": "T26",
+            "type": "Disease",
+            "name": "citrus greening disease"
+        },
+        {
+            "id": "T27",
+            "type": "Pest",
+            "name": "Liberibacter",
+            "NCBI_Taxonomy": "34019"
+        },
+        {
+            "id": "T28",
+            "type": "Pest",
+            "name": "Liberibacter",
+            "NCBI_Taxonomy": "34019"
+        },
+        {
+            "id": "T29",
+            "type": "Plant",
+            "name": "potatoes",
+            "NCBI_Taxonomy": "4113"
+        },
+        {
+            "id": "T30",
+            "type": "Disease",
+            "name": "citrus greening"
+        },
+        {
+            "id": "T31",
+            "type": "Disease",
+            "name": "Citrus greening"
+        },
+        {
+            "id": "T32",
+            "type": "Disease",
+            "name": "Huanglongbing"
+        },
+        {
+            "id": "T33",
+            "type": "Plant",
+            "name": "citrus trees",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T34",
+            "type": "Pest",
+            "name": "L. capsica",
+            "NCBI_Taxonomy": "2884028"
+        },
+        {
+            "id": "T35",
+            "type": "Pest",
+            "name": "Liberibacter",
+            "NCBI_Taxonomy": "34019"
+        },
+        {
+            "id": "T36",
+            "type": "Pest",
+            "name": "Liberibacters",
+            "NCBI_Taxonomy": "34019"
+        },
+        {
+            "id": "T37",
+            "type": "Pest",
+            "name": "L. capsica",
+            "NCBI_Taxonomy": "2884028"
+        },
+        {
+            "id": "T38",
+            "type": "Pest",
+            "name": "L. capsica",
+            "NCBI_Taxonomy": "2884028"
+        },
+        {
+            "id": "T39",
+            "type": "Plant",
+            "name": "pepper plant",
+            "NCBI_Taxonomy": "4071"
+        },
+        {
+            "id": "T40",
+            "type": "Location",
+            "name": "Brazil",
+            "GeoNames": "3469034"
+        },
+        {
+            "id": "T41",
+            "type": "Plant",
+            "name": "pepper",
+            "NCBI_Taxonomy": "4071"
+        },
+        {
+            "id": "T42",
+            "type": "Pest",
+            "name": "L. capsica",
+            "NCBI_Taxonomy": "2884028"
+        },
+        {
+            "id": "T43",
+            "type": "Plant",
+            "name": "peppers",
+            "NCBI_Taxonomy": "4071"
+        },
+        {
+            "id": "T44",
+            "type": "Plant",
+            "name": "pepper",
+            "NCBI_Taxonomy": "4071"
+        },
+        {
+            "id": "T45",
+            "type": "Pest",
+            "name": "L. capsica",
+            "NCBI_Taxonomy": "2884028"
+        },
+        {
+            "id": "T46",
+            "type": "Location",
+            "name": "Brazil",
+            "GeoNames": "3469034"
+        },
+        {
+            "id": "T47",
+            "type": "Location",
+            "name": "Brazil",
+            "GeoNames": "3469034"
+        },
+        {
+            "id": "T48",
+            "type": "Pest",
+            "name": "Liberibacter",
+            "NCBI_Taxonomy": "34019"
+        },
+        {
+            "id": "T50",
+            "type": "Pest",
+            "name": "L. capsica",
+            "NCBI_Taxonomy": "2884028"
+        },
+        {
+            "id": "T51",
+            "type": "Pest",
+            "name": "Liberibacter",
+            "NCBI_Taxonomy": "34019"
+        }
+    ],
+    "equivalences": [
+        [
+            "T27",
+            "T28"
+        ],
+        [
+            "T31",
+            "T32"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Causes",
+            "source": "T23",
+            "target": "T24"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T28",
+            "target": "T29"
+        },
+        {
+            "type": "Causes",
+            "source": "T28",
+            "target": "T30"
+        },
+        {
+            "type": "Affects",
+            "source": "T30",
+            "target": "T29"
+        },
+        {
+            "type": "Affects",
+            "source": "T32",
+            "target": "T33"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T38",
+            "target": "T39"
+        },
+        {
+            "type": "Located in",
+            "source": "T38",
+            "target": "T40"
+        },
+        {
+            "type": "Located in",
+            "source": "T39",
+            "target": "T40"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T42",
+            "target": "T43"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T45",
+            "target": "T44"
+        }
+    ]
+}

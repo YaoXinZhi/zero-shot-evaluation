@@ -1,0 +1,285 @@
+{
+    "entities": [
+        {
+            "id": "T33",
+            "type": "Vector",
+            "name": "pine sawyer beetle",
+            "NCBI_Taxonomy": "192382"
+        },
+        {
+            "id": "T34",
+            "type": "Vector",
+            "name": "pine sawyer beetle",
+            "NCBI_Taxonomy": "192382"
+        },
+        {
+            "id": "T35",
+            "type": "Vector",
+            "name": "pine sawyer beetle",
+            "NCBI_Taxonomy": "192382"
+        },
+        {
+            "id": "T36",
+            "type": "Vector",
+            "name": "Japanese pine sawyer",
+            "NCBI_Taxonomy": "192382"
+        },
+        {
+            "id": "T37",
+            "type": "Vector",
+            "name": "Monochamus alternatus Hope",
+            "NCBI_Taxonomy": "192382"
+        },
+        {
+            "id": "T38",
+            "type": "Pest",
+            "name": "pine wood nematode",
+            "NCBI_Taxonomy": "6326"
+        },
+        {
+            "id": "T39",
+            "type": "Pest",
+            "name": "Bursaphelenchus xylophilus",
+            "NCBI_Taxonomy": "6326"
+        },
+        {
+            "id": "T40",
+            "type": "Disease",
+            "name": "pine wilt disease"
+        },
+        {
+            "id": "T41",
+            "type": "Plant",
+            "name": "pines",
+            "NCBI_Taxonomy": "3337"
+        },
+        {
+            "id": "T42",
+            "type": "Location",
+            "name": "China",
+            "GeoNames": "1814991"
+        },
+        {
+            "id": "T43",
+            "type": "Location",
+            "name": "Portugal",
+            "GeoNames": "2264397"
+        },
+        {
+            "id": "T44",
+            "type": "Vector",
+            "name": "M. alternatus",
+            "NCBI_Taxonomy": "192382"
+        },
+        {
+            "id": "T45",
+            "type": "Vector",
+            "name": "M. alternatus",
+            "NCBI_Taxonomy": "192382"
+        },
+        {
+            "id": "T46",
+            "type": "Vector",
+            "name": "M. alternatus",
+            "NCBI_Taxonomy": "192382"
+        },
+        {
+            "id": "T47",
+            "type": "Vector",
+            "name": "M. alternatus",
+            "NCBI_Taxonomy": "192382"
+        },
+        {
+            "id": "T48",
+            "type": "Vector",
+            "name": "Monochamus alternatus",
+            "NCBI_Taxonomy": "192382"
+        },
+        {
+            "id": "T49",
+            "type": "Disease",
+            "name": "Pine wilt disease"
+        },
+        {
+            "id": "T50",
+            "type": "Location",
+            "name": "Yunnan",
+            "GeoNames": "1785694"
+        },
+        {
+            "id": "T51",
+            "type": "Location",
+            "name": "China",
+            "GeoNames": "1814991"
+        },
+        {
+            "id": "T52",
+            "type": "Vector",
+            "name": "non-local pine sawyer",
+            "NCBI_Taxonomy": "192382"
+        },
+        {
+            "id": "T53",
+            "type": "Vector",
+            "name": "Monochamus alternatus",
+            "NCBI_Taxonomy": "192382"
+        },
+        {
+            "id": "T54",
+            "type": "Pest",
+            "name": "Bursaphelenchus xylophilus",
+            "NCBI_Taxonomy": "6326"
+        },
+        {
+            "id": "T55",
+            "type": "Pest",
+            "name": "pinewood nematode",
+            "NCBI_Taxonomy": "6326"
+        },
+        {
+            "id": "T56",
+            "type": "Pest",
+            "name": "Bursaphelenchus xylophilus",
+            "NCBI_Taxonomy": "6326"
+        },
+        {
+            "id": "T57",
+            "type": "Vector",
+            "name": "Monochamus spp.",
+            "NCBI_Taxonomy": "192381"
+        }
+    ],
+    "equivalences": [
+        [
+            "T39",
+            "T38"
+        ],
+        [
+            "T54",
+            "T55"
+        ],
+        [
+            "T37",
+            "T33",
+            "T44",
+            "T36"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T37",
+            "target": "T43"
+        },
+        {
+            "type": "Located in",
+            "source": "T37",
+            "target": "T42"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T37",
+            "target": "T41"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T37",
+            "target": "T41"
+        },
+        {
+            "type": "Transmits",
+            "source": "T37",
+            "target": "T39"
+        },
+        {
+            "type": "Transmits",
+            "source": "T37",
+            "target": "T39"
+        },
+        {
+            "type": "Located in",
+            "source": "T39",
+            "target": "T43"
+        },
+        {
+            "type": "Located in",
+            "source": "T39",
+            "target": "T42"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T39",
+            "target": "T41"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T39",
+            "target": "T41"
+        },
+        {
+            "type": "Causes",
+            "source": "T39",
+            "target": "T40"
+        },
+        {
+            "type": "Located in",
+            "source": "T40",
+            "target": "T43"
+        },
+        {
+            "type": "Located in",
+            "source": "T40",
+            "target": "T42"
+        },
+        {
+            "type": "Affects",
+            "source": "T40",
+            "target": "T41"
+        },
+        {
+            "type": "Affects",
+            "source": "T40",
+            "target": "T41"
+        },
+        {
+            "type": "Located in",
+            "source": "T41",
+            "target": "T43"
+        },
+        {
+            "type": "Located in",
+            "source": "T41",
+            "target": "T42"
+        },
+        {
+            "type": "Located in",
+            "source": "T49",
+            "target": "T50"
+        },
+        {
+            "type": "Located in",
+            "source": "T49",
+            "target": "T51"
+        },
+        {
+            "type": "Transmits",
+            "source": "T53",
+            "target": "T49"
+        },
+        {
+            "type": "Located in",
+            "source": "T53",
+            "target": "T50"
+        },
+        {
+            "type": "Located in",
+            "source": "T53",
+            "target": "T51"
+        },
+        {
+            "type": "Transmits",
+            "source": "T57",
+            "target": "T56"
+        }
+    ]
+}

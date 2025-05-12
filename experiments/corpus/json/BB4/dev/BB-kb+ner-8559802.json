@@ -1,0 +1,65 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Salmonella typhimurium",
+            "NCBI_Taxonomy": "90371"
+        },
+        {
+            "id": "T4",
+            "type": "Phenotype",
+            "name": "drug-resistant",
+            "OntoBiotope": "OBT:000598"
+        },
+        {
+            "id": "T5",
+            "type": "Microorganism",
+            "name": "Salmonella typhimurium (993)",
+            "NCBI_Taxonomy": "90371"
+        },
+        {
+            "id": "T6",
+            "type": "Phenotype",
+            "name": "wild strain",
+            "OntoBiotope": "OBT:000169"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "Salmonella",
+            "NCBI_Taxonomy": "590"
+        },
+        {
+            "id": "T8",
+            "type": "Microorganism",
+            "name": "993",
+            "NCBI_Taxonomy": "90371"
+        },
+        {
+            "id": "T9",
+            "type": "Phenotype",
+            "name": "ampicillin-resistant",
+            "OntoBiotope": "OBT:002762"
+        },
+        {
+            "id": "T10",
+            "type": "Microorganism",
+            "name": "S. typhimurium",
+            "NCBI_Taxonomy": "90371"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T5",
+            "target": "T4"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T7",
+            "target": "T6"
+        }
+    ]
+}

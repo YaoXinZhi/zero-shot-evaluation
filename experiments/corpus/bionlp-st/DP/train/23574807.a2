@@ -1,0 +1,45 @@
+T10	CHEMICAL 71 91	Alkylnitroquipazines
+N1	Name Annotation:T10 Referent:alkylnitroquipazines
+T11	CHEMICAL 95 104	Serotonin
+N2	Name Annotation:T11 Referent:serotonin
+T17	GENE-Y 95 116	Serotonin Transporter
+N3	Name Annotation:T17 Referent:serotonintransporter
+T4	CHEMICAL 136 141	alkyl
+N4	Name Annotation:T4 Referent:alkyl
+T2	CHEMICAL 180 189	serotonin
+N5	Name Annotation:T2 Referent:serotonin
+T13	GENE-Y 180 201	serotonin transporter
+N6	Name Annotation:T13 Referent:serotonintransporter
+T16	GENE-Y 203 207	SERT
+N7	Name Annotation:T16 Referent:sert
+T9	CHEMICAL 219 235	6-nitroquipazine
+N8	Name Annotation:T9 Referent:6nitroquipazine
+T1	CHEMICAL 237 241	6-NQ
+N9	Name Annotation:T1 Referent:6nq
+T12	GENE-Y 446 450	SERT
+N10	Name Annotation:T12 Referent:sert
+T14	GENE-Y 726 730	SERT
+N11	Name Annotation:T14 Referent:sert
+T3	CHEMICAL 777 781	6-NQ
+N12	Name Annotation:T3 Referent:6nq
+T15	GENE-Y 810 814	SERT
+N13	Name Annotation:T15 Referent:sert
+T5	CHEMICAL 849 854	octyl
+N14	Name Annotation:T5 Referent:octyl
+T6	CHEMICAL 860 865	decyl
+N15	Name Annotation:T6 Referent:decyl
+T7	CHEMICAL 875 882	dodecyl
+N16	Name Annotation:T7 Referent:dodecyl
+T8	CHEMICAL 888 892	6-NQ
+N17	Name Annotation:T8 Referent:6nq
+R1	INHIBITOR Arg1:T10 Arg2:T17
+R2	INHIBITOR Arg1:T9 Arg2:T13
+R3	INHIBITOR Arg1:T1 Arg2:T13
+R4	INHIBITOR Arg1:T9 Arg2:T16
+R5	INHIBITOR Arg1:T1 Arg2:T16
+R6	INHIBITOR Arg1:T4 Arg2:T13
+R7	INHIBITOR Arg1:T4 Arg2:T16
+R8	DIRECT-REGULATOR Arg1:T9 Arg2:T13
+R9	DIRECT-REGULATOR Arg1:T1 Arg2:T13
+R10	DIRECT-REGULATOR Arg1:T9 Arg2:T16
+R11	DIRECT-REGULATOR Arg1:T1 Arg2:T16

@@ -1,0 +1,224 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "6-OHDA",
+            "Name": "6ohda"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "Nrf2",
+            "Name": "nrf2"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "6-Hydroxydopamine",
+            "Name": "6hydroxydopamine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "6-OHDA",
+            "Name": "6ohda"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "6-OHDA",
+            "Name": "6ohda"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "6-OHDA",
+            "Name": "6ohda"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "caspases",
+            "Name": "caspases"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "kinases",
+            "Name": "kinases"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "ERK 1/2",
+            "Name": "erk12"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "SAP",
+            "Name": "sap"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "JNK",
+            "Name": "jnk"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "p38",
+            "Name": "p38"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "nuclear factor kappa B",
+            "Name": "nuclearfactorkappab"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "nuclear factor-erythroid-2-related factor 2",
+            "Name": "nuclearfactorerythroid2relatedfactor2"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Nrf2",
+            "Name": "nrf2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "6-OHDA",
+            "Name": "6ohda"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "mitochondrial complex I",
+            "Name": "mitochondrialcomplexi"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "cytochrome c",
+            "Name": "cytochromec"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "apoptosis-inducing factor",
+            "Name": "apoptosisinducingfactor"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "AIF",
+            "Name": "aif"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "caspases 9 and 3",
+            "Name": "caspases9and3"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "Nrf2",
+            "Name": "nrf2"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "SAP",
+            "Name": "sap"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "JNK",
+            "Name": "jnk"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "p38",
+            "Name": "p38"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "6-OHDA",
+            "Name": "6ohda"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T27"
+        },
+        {
+            "type": "Activator",
+            "source": "T2",
+            "target": "T12"
+        }
+    ]
+}

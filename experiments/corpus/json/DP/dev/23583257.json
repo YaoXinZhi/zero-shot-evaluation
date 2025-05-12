@@ -1,0 +1,259 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "Quinone",
+            "Name": "quinone"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "NADPH",
+            "Name": "nadph"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "NADPH oxidase",
+            "Name": "nadphoxidase"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "Nox4",
+            "Name": "nox4"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "NADPH",
+            "Name": "nadph"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "NADPH oxidase",
+            "Name": "nadphoxidase"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "Nox4",
+            "Name": "nox4"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Nox4",
+            "Name": "nox4"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "oxidase",
+            "Name": "oxidase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "quinone",
+            "Name": "quinone"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Nox4",
+            "Name": "nox4"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "quinone",
+            "Name": "quinone"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "AA-861",
+            "Name": "aa861"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "tBuBHQ",
+            "Name": "tbubhq"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "tBuBQ",
+            "Name": "tbubq"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "duroquinone",
+            "Name": "duroquinone"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Nox4",
+            "Name": "nox4"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "Nox2",
+            "Name": "nox2"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "NAD(P)H",
+            "Name": "nadph"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "NAD(P)H:quinone oxidoreductase",
+            "Name": "nadphquinoneoxidoreductase"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "quinone",
+            "Name": "quinone"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "NQO1",
+            "Name": "nqo1"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "Nox4",
+            "Name": "nox4"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "disulfide",
+            "Name": "disulfide"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Cys",
+            "Name": "cys"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "Cys",
+            "Name": "cys"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "extracellular E-loop",
+            "Name": "extracellulareloop"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "Nox4",
+            "Name": "nox4"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "Nox4",
+            "Name": "nox4"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "quinones",
+            "Name": "quinones"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Nox4",
+            "Name": "nox4"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T21"
+        },
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T22"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T22"
+        },
+        {
+            "type": "Activator",
+            "source": "T7",
+            "target": "T22"
+        },
+        {
+            "type": "Activator",
+            "source": "T8",
+            "target": "T22"
+        },
+        {
+            "type": "Activator",
+            "source": "T9",
+            "target": "T22"
+        },
+        {
+            "type": "Part of",
+            "source": "T13",
+            "target": "T29"
+        },
+        {
+            "type": "Part of",
+            "source": "T14",
+            "target": "T29"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T30"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T20"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T21"
+        }
+    ]
+}

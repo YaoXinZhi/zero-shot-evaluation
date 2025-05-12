@@ -1,0 +1,190 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "angiotensin II",
+            "Name": "angiotensinii"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "angiotensin II AT1 receptor",
+            "Name": "angiotensiniiat1receptor"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "telmisartan",
+            "Name": "telmisartan"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "GLUT4",
+            "Name": "glut4"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "angiotensin II",
+            "Name": "angiotensinii"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "angiotensin II AT1 receptor",
+            "Name": "angiotensiniiat1receptor"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "telmisartan",
+            "Name": "telmisartan"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "telmisartan",
+            "Name": "telmisartan"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "telmisartan",
+            "Name": "telmisartan"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "aP2",
+            "Name": "ap2"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "adiponectin",
+            "Name": "adiponectin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "telmisartan",
+            "Name": "telmisartan"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "11beta-hydroxysteroid",
+            "Name": "11betahydroxysteroid"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "11beta-hydroxysteroid dehydrogenase type 1",
+            "Name": "11betahydroxysteroiddehydrogenasetype1"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "telmisartan",
+            "Name": "telmisartan"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "GLUT4",
+            "Name": "glut4"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "2-deoxy glucose",
+            "Name": "2deoxyglucose"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T10",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T11",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T18"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T18"
+        }
+    ]
+}

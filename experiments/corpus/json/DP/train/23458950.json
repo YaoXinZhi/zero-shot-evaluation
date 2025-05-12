@@ -1,0 +1,77 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Meroterpenoids",
+            "Name": "meroterpenoids"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "meroterpenoids",
+            "Name": "meroterpenoids"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "cystodiones A-F",
+            "Name": "cystodionesaf"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "meroterpenes",
+            "Name": "meroterpenes"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "cystodiones A (1) and B",
+            "Name": "cystodionesa1andb"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "6-cis-amentadione-1'-methyl ether",
+            "Name": "6cisamentadione1methylether"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "amentadione-1'-methyl ether",
+            "Name": "amentadione1methylether"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "usneoidone Z",
+            "Name": "usneoidonez"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "cytokine",
+            "Name": "cytokine"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "TNF-\u03b1",
+            "Name": "tnf\u03b1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T9"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T10"
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+T27	CHEMICAL 0 14	Angiotensin II
+N1	Name Annotation:T27 Referent:angiotensinii
+T47	GENE-Y 0 14	Angiotensin II
+N2	Name Annotation:T47 Referent:angiotensinii
+T48	GENE-Y 58 63	renin
+N3	Name Annotation:T48 Referent:renin
+T29	CHEMICAL 74 83	Aliskiren
+N4	Name Annotation:T29 Referent:aliskiren
+T30	CHEMICAL 85 91	SPP100
+N5	Name Annotation:T30 Referent:spp100
+T28	CHEMICAL 110 119	enalapril
+N6	Name Annotation:T28 Referent:enalapril
+T31	GENE-Y 121 126	Renin
+N7	Name Annotation:T31 Referent:renin
+T19	CHEMICAL 154 174	angiotensin (Ang) II
+N8	Name Annotation:T19 Referent:angiotensinangii
+T43	GENE-Y 154 174	angiotensin (Ang) II
+N9	Name Annotation:T43 Referent:angiotensinangii
+T2	CHEMICAL 234 240	Ang II
+N10	Name Annotation:T2 Referent:angii
+T33	GENE-Y 234 240	Ang II
+N11	Name Annotation:T33 Referent:angii
+T35	GENE-Y 272 277	renin
+N12	Name Annotation:T35 Referent:renin
+T36	GENE-Y 296 301	renin
+N13	Name Annotation:T36 Referent:renin
+T42	GENE-Y 398 403	renin
+N14	Name Annotation:T42 Referent:renin
+T16	CHEMICAL 414 420	SPP100
+N15	Name Annotation:T16 Referent:spp100
+T17	CHEMICAL 422 431	Aliskiren
+N16	Name Annotation:T17 Referent:aliskiren
+T18	CHEMICAL 436 446	octanamide
+N17	Name Annotation:T18 Referent:octanamide
+T20	CHEMICAL 568 574	sodium
+N18	Name Annotation:T20 Referent:sodium
+T21	CHEMICAL 729 738	Aliskiren
+N19	Name Annotation:T21 Referent:aliskiren
+T22	CHEMICAL 820 829	enalapril
+N20	Name Annotation:T22 Referent:enalapril
+T23	CHEMICAL 831 840	Aliskiren
+N21	Name Annotation:T23 Referent:aliskiren
+T44	GENE-Y 1006 1011	renin
+N22	Name Annotation:T44 Referent:renin
+T24	CHEMICAL 1022 1027	Ang I
+N23	Name Annotation:T24 Referent:angi
+T45	GENE-Y 1022 1027	Ang I
+N24	Name Annotation:T45 Referent:angi
+T25	CHEMICAL 1033 1039	Ang II
+N25	Name Annotation:T25 Referent:angii
+T46	GENE-Y 1033 1039	Ang II
+N26	Name Annotation:T46 Referent:angii
+T26	CHEMICAL 1066 1075	Aliskiren
+N27	Name Annotation:T26 Referent:aliskiren
+T1	CHEMICAL 1189 1195	Ang II
+N28	Name Annotation:T1 Referent:angii
+T32	GENE-Y 1189 1195	Ang II
+N29	Name Annotation:T32 Referent:angii
+T3	CHEMICAL 1274 1283	Aliskiren
+N30	Name Annotation:T3 Referent:aliskiren
+T34	GENE-Y 1348 1353	renin
+N31	Name Annotation:T34 Referent:renin
+T4	CHEMICAL 1407 1416	Aliskiren
+N32	Name Annotation:T4 Referent:aliskiren
+T5	CHEMICAL 1440 1449	Aliskiren
+N33	Name Annotation:T5 Referent:aliskiren
+T6	CHEMICAL 1685 1696	aldosterone
+N34	Name Annotation:T6 Referent:aldosterone
+T7	CHEMICAL 1734 1743	Aliskiren
+N35	Name Annotation:T7 Referent:aliskiren
+T8	CHEMICAL 1766 1775	enalapril
+N36	Name Annotation:T8 Referent:enalapril
+T9	CHEMICAL 1777 1786	Aliskiren
+N37	Name Annotation:T9 Referent:aliskiren
+T10	CHEMICAL 1922 1931	enalapril
+N38	Name Annotation:T10 Referent:enalapril
+T37	GENE-Y 1990 1995	renin
+N39	Name Annotation:T37 Referent:renin
+T11	CHEMICAL 2006 2015	Aliskiren
+N40	Name Annotation:T11 Referent:aliskiren
+T12	CHEMICAL 2043 2049	Ang II
+N41	Name Annotation:T12 Referent:angii
+T38	GENE-Y 2043 2049	Ang II
+N42	Name Annotation:T38 Referent:angii
+T13	CHEMICAL 2182 2191	enalapril
+N43	Name Annotation:T13 Referent:enalapril
+T14	CHEMICAL 2193 2202	Aliskiren
+N44	Name Annotation:T14 Referent:aliskiren
+T39	GENE-Y 2255 2260	renin
+N45	Name Annotation:T39 Referent:renin
+T40	GENE-Y 2307 2310	ACE
+N46	Name Annotation:T40 Referent:ace
+T15	CHEMICAL 2326 2332	Ang II
+N47	Name Annotation:T15 Referent:angii
+T41	GENE-N 2326 2341	Ang II receptor
+N48	Name Annotation:T41 Referent:angiireceptor
+R1	INHIBITOR Arg1:T29 Arg2:T48
+R2	INHIBITOR Arg1:T30 Arg2:T48
+R3	INHIBITOR Arg1:T16 Arg2:T42
+R4	INHIBITOR Arg1:T17 Arg2:T42
+R5	INHIBITOR Arg1:T18 Arg2:T42
+R6	INDIRECT-DOWNREGULATOR Arg1:T29 Arg2:T47
+R7	INDIRECT-DOWNREGULATOR Arg1:T30 Arg2:T47
+R8	INHIBITOR Arg1:T26 Arg2:T44
+R9	INDIRECT-DOWNREGULATOR Arg1:T26 Arg2:T45
+R10	INDIRECT-DOWNREGULATOR Arg1:T26 Arg2:T46
+R11	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T32
+R12	ACTIVATOR Arg1:T4 Arg2:T34
+R13	INHIBITOR Arg1:T11 Arg2:T37
+R14	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T38
+R15	INHIBITOR Arg1:T14 Arg2:T39
+R16	INHIBITOR Arg1:T14 Arg2:T40
+R17	ANTAGONIST Arg1:T14 Arg2:T41

@@ -1,0 +1,65 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "Tyrosinase",
+            "Name": "tyrosinase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "coumarinolignoid",
+            "Name": "coumarinolignoid"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "8'-epi-cleomiscosin A",
+            "Name": "8epicleomiscosina"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "8-O-beta-D-glucopyranosyl-6-hydroxy-2-methyl-4H-1-benzopyrane-4-one",
+            "Name": "8obetadglucopyranosyl6hydroxy2methyl4h1benzopyrane4one"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "Tyrosinase",
+            "Name": "tyrosinase"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "tyrosinase",
+            "Name": "tyrosinase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "kojic acid",
+            "Name": "kojicacid"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "L-mimosine",
+            "Name": "lmimosine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T7"
+        }
+    ]
+}

@@ -1,0 +1,181 @@
+{
+    "entities": [
+        {
+            "id": "T30",
+            "type": "Pest",
+            "name": "Citrus Greening Disease Bacteria",
+            "NCBI_Taxonomy": "34019"
+        },
+        {
+            "id": "T31",
+            "type": "Location",
+            "name": "Brazil",
+            "GeoNames": "3469034"
+        },
+        {
+            "id": "T32",
+            "type": "Pest",
+            "name": "Liberibacter",
+            "NCBI_Taxonomy": "34019"
+        },
+        {
+            "id": "T33",
+            "type": "Pest",
+            "name": "L. capsica",
+            "NCBI_Taxonomy": "2884028"
+        },
+        {
+            "id": "T34",
+            "type": "Disease",
+            "name": "citrus greening"
+        },
+        {
+            "id": "T35",
+            "type": "Pest",
+            "name": "L. capsicais",
+            "NCBI_Taxonomy": "2884028"
+        },
+        {
+            "id": "T36",
+            "type": "Pest",
+            "name": "L. capsica",
+            "NCBI_Taxonomy": "2884028"
+        },
+        {
+            "id": "T37",
+            "type": "Location",
+            "name": "Brazil",
+            "GeoNames": "3469034"
+        },
+        {
+            "id": "T38",
+            "type": "Pest",
+            "name": "L. capsica",
+            "NCBI_Taxonomy": "2884028"
+        },
+        {
+            "id": "T39",
+            "type": "Pest",
+            "name": "Liberibacter",
+            "NCBI_Taxonomy": "34019"
+        },
+        {
+            "id": "T40",
+            "type": "Pest",
+            "name": "Liberibacter",
+            "NCBI_Taxonomy": "34019"
+        },
+        {
+            "id": "T41",
+            "type": "Disease",
+            "name": "Huanglongbing"
+        },
+        {
+            "id": "T42",
+            "type": "Disease",
+            "name": "citrus greening"
+        },
+        {
+            "id": "T43",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T44",
+            "type": "Pest",
+            "name": "L. capsica",
+            "NCBI_Taxonomy": "2884028"
+        },
+        {
+            "id": "T45",
+            "type": "Pest",
+            "name": "Liberibacter",
+            "NCBI_Taxonomy": "34019"
+        },
+        {
+            "id": "T46",
+            "type": "Pest",
+            "name": "L. capsica",
+            "NCBI_Taxonomy": "2884028"
+        },
+        {
+            "id": "T47",
+            "type": "Pest",
+            "name": "L. capsica",
+            "NCBI_Taxonomy": "2884028"
+        },
+        {
+            "id": "T48",
+            "type": "Pest",
+            "name": "L. capsica",
+            "NCBI_Taxonomy": "2884028"
+        },
+        {
+            "id": "T49",
+            "type": "Plant",
+            "name": "pepper plant",
+            "NCBI_Taxonomy": "4071"
+        },
+        {
+            "id": "T50",
+            "type": "Location",
+            "name": "Brazil",
+            "GeoNames": "3469034"
+        },
+        {
+            "id": "T51",
+            "type": "Pest",
+            "name": "Liberibacter",
+            "NCBI_Taxonomy": "34019"
+        }
+    ],
+    "equivalences": [
+        [
+            "T42",
+            "T41"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T30",
+            "target": "T31"
+        },
+        {
+            "type": "Causes",
+            "source": "T33",
+            "target": "T34"
+        },
+        {
+            "type": "Located in",
+            "source": "T36",
+            "target": "T37"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T38",
+            "target": "T43"
+        },
+        {
+            "type": "Causes",
+            "source": "T38",
+            "target": "T42"
+        },
+        {
+            "type": "Affects",
+            "source": "T42",
+            "target": "T43"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T48",
+            "target": "T49"
+        },
+        {
+            "type": "Located in",
+            "source": "T51",
+            "target": "T50"
+        }
+    ]
+}

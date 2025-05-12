@@ -1,0 +1,95 @@
+T26	CHEMICAL 0 10	Meperidine
+N1	Name Annotation:T26 Referent:meperidine
+T41	GENE-Y 42 64	alpha(2B)-adrenoceptor
+N2	Name Annotation:T41 Referent:alpha2badrenoceptor
+T15	CHEMICAL 105 115	meperidine
+N3	Name Annotation:T15 Referent:meperidine
+T36	GENE-N 292 314	alpha(2) adrenoceptors
+N4	Name Annotation:T36 Referent:alpha2adrenoceptors
+T14	CHEMICAL 324 333	clonidine
+N5	Name Annotation:T14 Referent:clonidine
+T16	CHEMICAL 416 426	meperidine
+N6	Name Annotation:T16 Referent:meperidine
+T37	GENE-N 442 464	alpha(2) adrenoceptors
+N7	Name Annotation:T37 Referent:alpha2adrenoceptors
+T17	CHEMICAL 511 521	meperidine
+N8	Name Annotation:T17 Referent:meperidine
+T38	GENE-N 555 576	alpha(2)-adrenoceptor
+N9	Name Annotation:T38 Referent:alpha2adrenoceptor
+T18	CHEMICAL 640 650	meperidine
+N10	Name Annotation:T18 Referent:meperidine
+T19	CHEMICAL 674 683	forskolin
+N11	Name Annotation:T19 Referent:forskolin
+T20	CHEMICAL 695 725	cyclic adenosine monophosphate
+N12	Name Annotation:T20 Referent:cyclicadenosinemonophosphate
+T39	GENE-N 761 782	alpha(2)-adrenoceptor
+N13	Name Annotation:T39 Referent:alpha2adrenoceptor
+T21	CHEMICAL 887 895	naloxone
+N14	Name Annotation:T21 Referent:naloxone
+T40	GENE-N 904 925	alpha(2)-adrenoceptor
+N15	Name Annotation:T40 Referent:alpha2adrenoceptor
+T22	CHEMICAL 938 947	yohimbine
+N16	Name Annotation:T22 Referent:yohimbine
+T23	CHEMICAL 952 960	RX821002
+N17	Name Annotation:T23 Referent:rx821002
+T24	CHEMICAL 994 1004	meperidine
+N18	Name Annotation:T24 Referent:meperidine
+T25	CHEMICAL 1061 1071	meperidine
+N19	Name Annotation:T25 Referent:meperidine
+T27	GENE-Y 1088 1110	alpha(2B) adrenoceptor
+N20	Name Annotation:T27 Referent:alpha2badrenoceptor
+T1	CHEMICAL 1170 1180	Meperidine
+N21	Name Annotation:T1 Referent:meperidine
+T28	GENE-N 1194 1213	alpha2-adrenoceptor
+N22	Name Annotation:T28 Referent:alpha2adrenoceptor
+T2	CHEMICAL 1374 1382	Morphine
+N23	Name Annotation:T2 Referent:morphine
+T3	CHEMICAL 1443 1453	Meperidine
+N24	Name Annotation:T3 Referent:meperidine
+T4	CHEMICAL 1482 1491	forskolin
+N25	Name Annotation:T4 Referent:forskolin
+T5	CHEMICAL 1503 1533	cyclic adenosine monophosphate
+N26	Name Annotation:T5 Referent:cyclicadenosinemonophosphate
+T29	GENE-Y 1598 1620	alpha(2B) adrenoceptor
+N27	Name Annotation:T29 Referent:alpha2badrenoceptor
+T30	GENE-N 1763 1782	alpha2-adrenoceptor
+N28	Name Annotation:T30 Referent:alpha2adrenoceptor
+T6	CHEMICAL 1791 1806	dexmedetomidine
+N29	Name Annotation:T6 Referent:dexmedetomidine
+T7	CHEMICAL 1832 1842	meperidine
+N30	Name Annotation:T7 Referent:meperidine
+T8	CHEMICAL 1858 1866	naloxone
+N31	Name Annotation:T8 Referent:naloxone
+T31	GENE-N 1882 1902	alpha 2-adrenoceptor
+N32	Name Annotation:T31 Referent:alpha2adrenoceptor
+T9	CHEMICAL 1915 1924	yohimbine
+N33	Name Annotation:T9 Referent:yohimbine
+T10	CHEMICAL 1929 1937	RX821002
+N34	Name Annotation:T10 Referent:rx821002
+T11	CHEMICAL 1978 1988	meperidine
+N35	Name Annotation:T11 Referent:meperidine
+T32	GENE-Y 2006 2028	alpha(2B)-adrenoceptor
+N36	Name Annotation:T32 Referent:alpha2badrenoceptor
+T12	CHEMICAL 2050 2060	Meperidine
+N37	Name Annotation:T12 Referent:meperidine
+T33	GENE-N 2088 2108	alpha2 adrenoceptors
+N38	Name Annotation:T33 Referent:alpha2adrenoceptors
+T34	GENE-Y 2170 2192	alpha(2B)-adrenoceptor
+N39	Name Annotation:T34 Referent:alpha2badrenoceptor
+T35	GENE-Y 2220 2238	alpha(2B) receptor
+N40	Name Annotation:T35 Referent:alpha2breceptor
+T13	CHEMICAL 2300 2310	meperidine
+N41	Name Annotation:T13 Referent:meperidine
+R1	AGONIST Arg1:T26 Arg2:T41
+R2	AGONIST Arg1:T14 Arg2:T36
+R3	ANTAGONIST Arg1:T22 Arg2:T40
+R4	ANTAGONIST Arg1:T23 Arg2:T40
+R5	DIRECT-REGULATOR Arg1:T25 Arg2:T27
+R6	DIRECT-REGULATOR Arg1:T1 Arg2:T28
+R7	AGONIST Arg1:T6 Arg2:T30
+R8	ANTAGONIST Arg1:T9 Arg2:T31
+R9	ANTAGONIST Arg1:T10 Arg2:T31
+R10	DIRECT-REGULATOR Arg1:T11 Arg2:T32
+R11	AGONIST Arg1:T12 Arg2:T33
+R12	AGONIST Arg1:T12 Arg2:T34
+R13	ACTIVATOR Arg1:T3 Arg2:T29

@@ -1,0 +1,49 @@
+T15	CHEMICAL 0 8	Agmatine
+N1	Name Annotation:T15 Referent:agmatine
+T16	CHEMICAL 24 33	clonidine
+N2	Name Annotation:T16 Referent:clonidine
+T1	CHEMICAL 69 78	Clonidine
+N3	Name Annotation:T1 Referent:clonidine
+T19	GENE-N 115 159	alpha 2-adrenergic and imidazoline receptors
+N4	Name Annotation:T19 Referent:alpha2adrenergicandimidazolinereceptors
+T14	CHEMICAL 138 149	imidazoline
+N5	Name Annotation:T14 Referent:imidazoline
+T2	CHEMICAL 187 198	imidazoline
+N6	Name Annotation:T2 Referent:imidazoline
+T17	GENE-N 187 208	imidazoline receptors
+N7	Name Annotation:T17 Referent:imidazolinereceptors
+T3	CHEMICAL 218 227	clonidine
+N8	Name Annotation:T3 Referent:clonidine
+T4	CHEMICAL 300 309	clonidine
+N9	Name Annotation:T4 Referent:clonidine
+T5	CHEMICAL 386 394	agmatine
+N10	Name Annotation:T5 Referent:agmatine
+T6	CHEMICAL 396 419	decarboxylated arginine
+N11	Name Annotation:T6 Referent:decarboxylatedarginine
+T7	CHEMICAL 456 464	Agmatine
+N12	Name Annotation:T7 Referent:agmatine
+T18	GENE-N 474 518	alpha 2-adrenergic and imidazoline receptors
+N13	Name Annotation:T18 Referent:alpha2adrenergicandimidazolinereceptors
+T8	CHEMICAL 497 508	imidazoline
+N14	Name Annotation:T8 Referent:imidazoline
+T9	CHEMICAL 545 559	catecholamines
+N15	Name Annotation:T9 Referent:catecholamines
+T10	CHEMICAL 616 624	arginine
+N16	Name Annotation:T10 Referent:arginine
+T20	GENE-Y 616 638	arginine decarboxylase
+N17	Name Annotation:T20 Referent:argininedecarboxylase
+T11	CHEMICAL 661 669	Agmatine
+N18	Name Annotation:T11 Referent:agmatine
+T12	CHEMICAL 720 731	imidazoline
+N19	Name Annotation:T12 Referent:imidazoline
+T21	GENE-N 720 741	imidazoline receptors
+N20	Name Annotation:T21 Referent:imidazolinereceptors
+T13	CHEMICAL 745 761	noncatecholamine
+N21	Name Annotation:T13 Referent:noncatecholamine
+T22	GENE-N 772 800	alpha 2-adrenergic receptors
+N22	Name Annotation:T22 Referent:alpha2adrenergicreceptors
+R1	DIRECT-REGULATOR Arg1:T1 Arg2:T19
+R2	DIRECT-REGULATOR Arg1:T3 Arg2:T17
+R3	DIRECT-REGULATOR Arg1:T7 Arg2:T18
+R4	AGONIST Arg1:T11 Arg2:T21
+R5	DIRECT-REGULATOR Arg1:T11 Arg2:T22

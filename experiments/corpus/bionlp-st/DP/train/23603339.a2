@@ -1,0 +1,94 @@
+T22	CHEMICAL 0 22	Dehydroepiandrosterone
+N1	Name Annotation:T22 Referent:dehydroepiandrosterone
+T42	GENE-Y 55 61	CYP1A2
+N2	Name Annotation:T42 Referent:cyp1a2
+T23	CHEMICAL 82 90	androgen
+N3	Name Annotation:T23 Referent:androgen
+T43	GENE-Y 82 99	androgen receptor
+N4	Name Annotation:T43 Referent:androgenreceptor
+T9	CHEMICAL 131 153	dehydroepiandrosterone
+N5	Name Annotation:T9 Referent:dehydroepiandrosterone
+T11	CHEMICAL 155 159	DHEA
+N6	Name Annotation:T11 Referent:dhea
+T5	CHEMICAL 245 249	DHEA
+N7	Name Annotation:T5 Referent:dhea
+T31	GENE-N 314 319	CYP1A
+N8	Name Annotation:T31 Referent:cyp1a
+T10	CHEMICAL 493 497	DHEA
+N9	Name Annotation:T10 Referent:dhea
+T32	GENE-N 550 555	CYP1A
+N10	Name Annotation:T32 Referent:cyp1a
+T33	GENE-N 607 612	CYP1A
+N11	Name Annotation:T33 Referent:cyp1a
+T12	CHEMICAL 655 659	DHEA
+N12	Name Annotation:T12 Referent:dhea
+T34	GENE-N 687 692	CYP1A
+N13	Name Annotation:T34 Referent:cyp1a
+T13	CHEMICAL 705 722	7-ethoxyresorufin
+N14	Name Annotation:T13 Referent:7ethoxyresorufin
+T14	CHEMICAL 723 724	O
+N15	Name Annotation:T14 Referent:o
+T15	CHEMICAL 742 752	phenacetin
+N16	Name Annotation:T15 Referent:phenacetin
+T16	CHEMICAL 753 754	O
+N17	Name Annotation:T16 Referent:o
+T35	GENE-Y 776 782	CYP1A2
+N18	Name Annotation:T35 Referent:cyp1a2
+T17	CHEMICAL 805 825	3-methylcholanthrene
+N19	Name Annotation:T17 Referent:3methylcholanthrene
+T36	GENE-Y 859 865	CYP1A1
+N20	Name Annotation:T36 Referent:cyp1a1
+T37	GENE-Y 870 876	CYP1B1
+N21	Name Annotation:T37 Referent:cyp1b1
+T18	CHEMICAL 887 895	androgen
+N22	Name Annotation:T18 Referent:androgen
+T38	GENE-Y 887 904	androgen receptor
+N23	Name Annotation:T38 Referent:androgenreceptor
+T19	CHEMICAL 930 934	DHEA
+N24	Name Annotation:T19 Referent:dhea
+T39	GENE-Y 960 966	CYP1A2
+N25	Name Annotation:T39 Referent:cyp1a2
+T20	CHEMICAL 1018 1030	bicalutamide
+N26	Name Annotation:T20 Referent:bicalutamide
+T21	CHEMICAL 1036 1044	androgen
+N27	Name Annotation:T21 Referent:androgen
+T40	GENE-Y 1036 1053	androgen receptor
+N28	Name Annotation:T40 Referent:androgenreceptor
+T41	GENE-Y 1092 1115	glucocorticoid receptor
+N29	Name Annotation:T41 Referent:glucocorticoidreceptor
+T1	CHEMICAL 1120 1128	estrogen
+N30	Name Annotation:T1 Referent:estrogen
+T24	GENE-Y 1120 1137	estrogen receptor
+N31	Name Annotation:T24 Referent:estrogenreceptor
+T2	CHEMICAL 1141 1145	DHEA
+N32	Name Annotation:T2 Referent:dhea
+T25	GENE-Y 1167 1173	CYP1A2
+N33	Name Annotation:T25 Referent:cyp1a2
+T26	GENE-Y 1235 1241	CYP1A2
+N34	Name Annotation:T26 Referent:cyp1a2
+T27	GENE-Y 1265 1271	CYP1A2
+N35	Name Annotation:T27 Referent:cyp1a2
+T3	CHEMICAL 1382 1386	DHEA
+N36	Name Annotation:T3 Referent:dhea
+T28	GENE-Y 1412 1418	CYP1A2
+N37	Name Annotation:T28 Referent:cyp1a2
+T4	CHEMICAL 1477 1490	actinomycin D
+N38	Name Annotation:T4 Referent:actinomycind
+T29	GENE-Y 1576 1582	CYP1A2
+N39	Name Annotation:T29 Referent:cyp1a2
+T6	CHEMICAL 1638 1642	DHEA
+N40	Name Annotation:T6 Referent:dhea
+T7	CHEMICAL 1666 1670	DHEA
+N41	Name Annotation:T7 Referent:dhea
+T30	GENE-Y 1694 1700	CYP1A2
+N42	Name Annotation:T30 Referent:cyp1a2
+T8	CHEMICAL 1758 1762	DHEA
+N43	Name Annotation:T8 Referent:dhea
+R1	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T31
+R2	INHIBITOR Arg1:T12 Arg2:T34
+R3	INDIRECT-DOWNREGULATOR Arg1:T12 Arg2:T35
+R4	INDIRECT-UPREGULATOR Arg1:T17 Arg2:T35
+R5	SUBSTRATE Arg1:T13 Arg2:T34
+R6	SUBSTRATE Arg1:T14 Arg2:T34
+R7	ANTAGONIST Arg1:T20 Arg2:T40
+R8	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T29

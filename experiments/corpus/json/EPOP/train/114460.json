@@ -1,0 +1,165 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Pest",
+            "name": "Oriental Fruit Fly",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T14",
+            "type": "Pest",
+            "name": "Bactrocera dorsalis",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T15",
+            "type": "Location",
+            "name": "Fountain Valley",
+            "GeoNames": "11788634"
+        },
+        {
+            "id": "T16",
+            "type": "Location",
+            "name": "Orange County",
+            "GeoNames": "5379524"
+        },
+        {
+            "id": "T17",
+            "type": "Location",
+            "name": "California",
+            "GeoNames": "5332921"
+        },
+        {
+            "id": "T21",
+            "type": "Pest",
+            "name": "Oriental fruit fly",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T22",
+            "type": "Pest",
+            "name": "Bactrocera dorsalis",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T23",
+            "type": "Pest",
+            "name": "OFF",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T24",
+            "type": "Location",
+            "name": "Fountain Valley area",
+            "GeoNames": "11788634"
+        },
+        {
+            "id": "T25",
+            "type": "Location",
+            "name": "Orange County",
+            "GeoNames": "5379524"
+        },
+        {
+            "id": "T26",
+            "type": "Location",
+            "name": "California",
+            "GeoNames": "5332921"
+        },
+        {
+            "id": "T27",
+            "type": "Pest",
+            "name": "OFF",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T28",
+            "type": "Location",
+            "name": "Fountain Valley area",
+            "GeoNames": "11788634"
+        },
+        {
+            "id": "T30",
+            "type": "Pest",
+            "name": "OFF",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T31",
+            "type": "Location",
+            "name": "United States",
+            "GeoNames": "6252001"
+        },
+        {
+            "id": "T32",
+            "type": "Location",
+            "name": "Orange County",
+            "GeoNames": "5379524"
+        },
+        {
+            "id": "T33",
+            "type": "Pest",
+            "name": "Oriental fruit fly",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T34",
+            "type": "Location",
+            "name": "America",
+            "GeoNames": "6252001"
+        }
+    ],
+    "equivalences": [
+        [
+            "T14",
+            "T13"
+        ],
+        [
+            "T22",
+            "T23",
+            "T21"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T17"
+        },
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T16"
+        },
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T15"
+        },
+        {
+            "type": "Located in",
+            "source": "T21",
+            "target": "T25"
+        },
+        {
+            "type": "Located in",
+            "source": "T21",
+            "target": "T26"
+        },
+        {
+            "type": "Located in",
+            "source": "T21",
+            "target": "T24"
+        },
+        {
+            "type": "Located in",
+            "source": "T27",
+            "target": "T28"
+        },
+        {
+            "type": "Located in",
+            "source": "T30",
+            "target": "T32"
+        }
+    ]
+}

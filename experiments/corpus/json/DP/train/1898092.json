@@ -1,0 +1,206 @@
+{
+    "entities": [
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "methylmalonate semialdehyde",
+            "Name": "methylmalonatesemialdehyde"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "methylmalonate semialdehyde dehydrogenase",
+            "Name": "methylmalonatesemialdehydedehydrogenase"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "rat liver methylmalonate semialdehyde dehydrogenase",
+            "Name": "ratlivermethylmalonatesemialdehydedehydrogenase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "methylmalonate semialdehyde",
+            "Name": "methylmalonatesemialdehyde"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "lysylendopeptidase C",
+            "Name": "lysylendopeptidasec"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "chymotrypsin",
+            "Name": "chymotrypsin"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "trypsin",
+            "Name": "trypsin"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "MMSDH",
+            "Name": "mmsdh"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "NAD+",
+            "Name": "nad"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "C",
+            "Name": "c"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "NADH",
+            "Name": "nadh"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "NAD(+)",
+            "Name": "nad"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "NAD(+)-binding domain",
+            "Name": "nadbindingdomain"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "MMSDH",
+            "Name": "mmsdh"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "CoA",
+            "Name": "coa"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "MMSDH",
+            "Name": "mmsdh"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "CoA",
+            "Name": "coa"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "NAD+",
+            "Name": "nad"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "acetyl-CoA",
+            "Name": "acetylcoa"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "propionyl-CoA",
+            "Name": "propionylcoa"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "butyryl-CoA",
+            "Name": "butyrylcoa"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "p-Nitrophenyl acetate",
+            "Name": "pnitrophenylacetate"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "esterase",
+            "Name": "esterase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "NAD+",
+            "Name": "nad"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "S",
+            "Name": "s"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "MMSDH",
+            "Name": "mmsdh"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "NAD+",
+            "Name": "nad"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Part of",
+            "source": "T10",
+            "target": "T26"
+        },
+        {
+            "type": "Substrate",
+            "source": "T17",
+            "target": "T20"
+        },
+        {
+            "type": "Part of",
+            "source": "T10",
+            "target": "T24"
+        },
+        {
+            "type": "Part of",
+            "source": "T2",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T22"
+        }
+    ]
+}

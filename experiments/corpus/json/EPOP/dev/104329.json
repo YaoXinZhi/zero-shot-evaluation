@@ -1,0 +1,129 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Location",
+            "name": "Finland",
+            "GeoNames": "660013"
+        },
+        {
+            "id": "T14",
+            "type": "Pest",
+            "name": "Tomato brown rugose fruit virus",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T15",
+            "type": "Pest",
+            "name": "ToBRFV",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T17",
+            "type": "Location",
+            "name": "Finnish",
+            "GeoNames": "660013"
+        },
+        {
+            "id": "T18",
+            "type": "Location",
+            "name": "Finland",
+            "GeoNames": "660013"
+        },
+        {
+            "id": "T19",
+            "type": "Pest",
+            "name": "Tomato brown rugose fruit virus",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T20",
+            "type": "Pest",
+            "name": "ToBRFV",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T22",
+            "type": "Location",
+            "name": "Finnish",
+            "GeoNames": "660013"
+        },
+        {
+            "id": "T24",
+            "type": "Plant",
+            "name": "Tomatoes",
+            "NCBI_Taxonomy": "4081"
+        },
+        {
+            "id": "T25",
+            "type": "Plant",
+            "name": "peppers",
+            "NCBI_Taxonomy": "4071"
+        },
+        {
+            "id": "T26",
+            "type": "Pest",
+            "name": "ToBRFV virus",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T27",
+            "type": "Pest",
+            "name": "Tomato Brown Rugose Fruit Virus",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T28",
+            "type": "Pest",
+            "name": "ToBRFV",
+            "NCBI_Taxonomy": "1761477"
+        }
+    ],
+    "equivalences": [
+        [
+            "T26",
+            "T19",
+            "T20"
+        ],
+        [
+            "T15",
+            "T14"
+        ],
+        [
+            "T27",
+            "T28"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T17"
+        },
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T13"
+        },
+        {
+            "type": "Located in",
+            "source": "T19",
+            "target": "T18"
+        },
+        {
+            "type": "Located in",
+            "source": "T19",
+            "target": "T22"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T26",
+            "target": "T24"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T26",
+            "target": "T25"
+        }
+    ]
+}

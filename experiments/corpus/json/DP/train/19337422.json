@@ -1,0 +1,135 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Tolvaptan",
+            "Name": "tolvaptan"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Tolvaptan",
+            "Name": "tolvaptan"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "arginine vasopressin",
+            "Name": "argininevasopressin"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "arginine vasopressin (AVP) V(2) receptor",
+            "Name": "argininevasopressinavpv2receptor"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "AVP",
+            "Name": "avp"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "sodium",
+            "Name": "sodium"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Tolvaptan",
+            "Name": "tolvaptan"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "tolvaptan",
+            "Name": "tolvaptan"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "AVP",
+            "Name": "avp"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "AVP",
+            "Name": "avp"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "V(1A) receptors",
+            "Name": "v1areceptors"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "tolvaptan",
+            "Name": "tolvaptan"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "tolvaptan",
+            "Name": "tolvaptan"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "CYP3A4",
+            "Name": "cyp3a4"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Tolvaptan",
+            "Name": "tolvaptan"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "AVP",
+            "Name": "avp"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "AVP",
+            "Name": "avp"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "antidiuretic hormone",
+            "Name": "antidiuretichormone"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T16"
+        },
+        {
+            "type": "Activator",
+            "source": "T8",
+            "target": "T17"
+        },
+        {
+            "type": "Substrate",
+            "source": "T11",
+            "target": "T18"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+T13	Location 84 91	Finland
+T14	Pest 112 143	Tomato brown rugose fruit virus
+T15	Pest 145 151	ToBRFV
+T16	Date 168 186	for the first time
+T17	Location 192 199	Finnish
+T18	Location 430 437	Finland
+T19	Pest 458 489	Tomato brown rugose fruit virus
+T20	Pest 491 497	ToBRFV
+T21	Date 514 532	for the first time
+T22	Location 538 545	Finnish
+T23	Date 551 565	in August 2022
+T24	Plant 634 642	Tomatoes
+T25	Plant 647 654	peppers
+T26	Pest 671 683	ToBRFV virus
+T27	Pest 825 856	Tomato Brown Rugose Fruit Virus
+T28	Pest 858 864	ToBRFV
+N1	GeoNames Annotation:T13 Referent:660013
+N2	NCBI_Taxonomy Annotation:T14 Referent:1761477
+N3	NCBI_Taxonomy Annotation:T15 Referent:1761477
+N4	GeoNames Annotation:T17 Referent:660013
+N5	GeoNames Annotation:T18 Referent:660013
+N6	NCBI_Taxonomy Annotation:T19 Referent:1761477
+N7	NCBI_Taxonomy Annotation:T20 Referent:1761477
+N8	GeoNames Annotation:T22 Referent:660013
+N9	NCBI_Taxonomy Annotation:T24 Referent:4081
+N10	NCBI_Taxonomy Annotation:T25 Referent:4071
+N11	NCBI_Taxonomy Annotation:T26 Referent:1761477
+N12	NCBI_Taxonomy Annotation:T27 Referent:1761477
+N13	NCBI_Taxonomy Annotation:T28 Referent:1761477
+R1	Located_in Object:T14 Location:T17
+R2	Located_in Object:T14 Location:T13
+R3	Detected_on Object:T14 Date:T16
+R4	Located_in Object:T19 Location:T18
+R5	Located_in Object:T19 Location:T22
+R6	Detected_on Object:T19 Date:T23
+R7	Detected_on Object:T19 Date:T21
+R8	Found_on Organism:T26 Habitat:T24
+R9	Found_on Organism:T26 Habitat:T25
+E1	Nary Organisme_nuisible:T14 Lieu:T13
+E2	Nary Organisme_nuisible:T14 Lieu:T17 Date:T16
+E3	Nary Organisme_nuisible:T19 Lieu:T18
+E4	Nary Organisme_nuisible:T19 Lieu:T22 Date:T23
+E5	Nary Organisme_nuisible:T19 Lieu:T22 Date:T21
+E6	Nary Organisme_nuisible:T26 Plante:T24
+E7	Nary Organisme_nuisible:T26 Plante:T25
+*	Equiv T19 T20 T26
+*	Equiv T14 T15
+*	Equiv T28 T27

@@ -1,0 +1,139 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "human recombinant UDP-glucuronosyltransferase",
+            "Name": "humanrecombinantudpglucuronosyltransferase"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "UDP",
+            "Name": "udp"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "laropiprant",
+            "Name": "laropiprant"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "MK-0524",
+            "Name": "mk0524"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "prostaglandin D2",
+            "Name": "prostaglandind2"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "prostaglandin D2 receptor 1",
+            "Name": "prostaglandind2receptor1"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "laropiprant",
+            "Name": "laropiprant"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "uridine diphosphate",
+            "Name": "uridinediphosphate"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "uridine diphosphate-glucuronosyltransferase",
+            "Name": "uridinediphosphateglucuronosyltransferase"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "UGT",
+            "Name": "ugt"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "UGT1A1, 1A9 and 2B7",
+            "Name": "ugt1a11a9and2b7"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "human UGT",
+            "Name": "humanugt"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "laropiprant",
+            "Name": "laropiprant"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "laropiprant",
+            "Name": "laropiprant"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "laropiprant",
+            "Name": "laropiprant"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "UGT1A1, 1A9 and 2B7",
+            "Name": "ugt1a11a9and2b7"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "UGT1A9 and 2B7",
+            "Name": "ugt1a9and2b7"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T10"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T11"
+        },
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T17"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T17"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T13"
+        }
+    ]
+}

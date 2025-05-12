@@ -1,0 +1,71 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Microorganism",
+            "name": "Arthrobacter",
+            "NCBI_Taxonomy": "1663"
+        },
+        {
+            "id": "T2",
+            "type": "Habitat",
+            "name": "cheese",
+            "OntoBiotope": "OBT:001480"
+        },
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Arthrobacter",
+            "NCBI_Taxonomy": "1663"
+        },
+        {
+            "id": "T4",
+            "type": "Habitat",
+            "name": "soil",
+            "OntoBiotope": "OBT:000427"
+        },
+        {
+            "id": "T5",
+            "type": "Phenotype",
+            "name": "ubiquitous",
+            "OntoBiotope": "OBT:000164"
+        },
+        {
+            "id": "T6",
+            "type": "Habitat",
+            "name": "cheese",
+            "OntoBiotope": "OBT:001480"
+        },
+        {
+            "id": "T7",
+            "type": "Habitat",
+            "name": "cheese habitat",
+            "OntoBiotope": "OBT:001480"
+        },
+        {
+            "id": "T8",
+            "type": "Phenotype",
+            "name": "catabolism of D-galactonate",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T9",
+            "type": "Microorganism",
+            "name": "Arthrobacter arilaitensis Re117",
+            "NCBI_Taxonomy": "861360"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T3",
+            "target": "T5"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T9",
+            "target": "T8"
+        }
+    ]
+}

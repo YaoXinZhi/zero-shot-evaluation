@@ -1,0 +1,41 @@
+{
+    "entities": [
+        {
+            "id": "T4",
+            "type": "Pest",
+            "name": "Japanese beetle",
+            "NCBI_Taxonomy": "7064"
+        },
+        {
+            "id": "T5",
+            "type": "Location",
+            "name": "Weil am Rhein",
+            "GeoNames": "6558146"
+        },
+        {
+            "id": "T6",
+            "type": "Pest",
+            "name": "Japanese beetle",
+            "NCBI_Taxonomy": "7064"
+        },
+        {
+            "id": "T8",
+            "type": "Location",
+            "name": "Weil am Rhein in the customs area",
+            "GeoNames": "6558146"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T4",
+            "target": "T5"
+        },
+        {
+            "type": "Located in",
+            "source": "T6",
+            "target": "T8"
+        }
+    ]
+}

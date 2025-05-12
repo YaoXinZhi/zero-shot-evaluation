@@ -1,0 +1,94 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Dopamine D2 receptor",
+            "Name": "dopamined2receptor"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "risperidone",
+            "Name": "risperidone"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "dopamine D2 receptor",
+            "Name": "dopamined2receptor"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "risperidone",
+            "Name": "risperidone"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "(123)I-IBZM",
+            "Name": "123iibzm"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "risperidone",
+            "Name": "risperidone"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Risperidone",
+            "Name": "risperidone"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "D2 receptor",
+            "Name": "d2receptor"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "D2 receptor",
+            "Name": "d2receptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "risperidone",
+            "Name": "risperidone"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T12"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T9"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T11"
+        }
+    ]
+}

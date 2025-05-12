@@ -1,0 +1,87 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "argininosuccinate",
+            "Name": "argininosuccinate"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "argininosuccinate synthase",
+            "Name": "argininosuccinatesynthase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "citrulline",
+            "Name": "citrulline"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "arginine",
+            "Name": "arginine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "argininosuccinate",
+            "Name": "argininosuccinate"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "argininosuccinate synthase",
+            "Name": "argininosuccinatesynthase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "citrulline",
+            "Name": "citrulline"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "aspartate",
+            "Name": "aspartate"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "citrulline",
+            "Name": "citrulline"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "arginine",
+            "Name": "arginine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T10"
+        },
+        {
+            "type": "Product of",
+            "source": "T7",
+            "target": "T10"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T9"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T9"
+        }
+    ]
+}

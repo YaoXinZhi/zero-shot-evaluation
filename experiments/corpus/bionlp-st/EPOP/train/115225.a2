@@ -1,0 +1,122 @@
+T8	Pest 0 7	Xylella
+T9	Location 72 78	Ostuni
+T10	Plant 123 134	olive trees
+T11	Plant 253 264	olive trees
+T12	Location 268 277	Polignano
+T13	Plant 384 395	olive trees
+T14	Pest 431 449	Xylella fastidiosa
+T15	Plant 544 555	olive trees
+T16	Location 559 568	Polignano
+T17	Plant 709 720	olive trees
+T18	Location 724 730	Fasano
+T19	Location 738 752	Martina Franca
+T20	Location 762 773	Locorotondo
+T21	Plant 823 834	olive trees
+T22	Pest 847 854	Xylella
+T23	Location 858 867	Polignano
+T24	Plant 1034 1045	olive trees
+T25	Pest 1055 1062	Xylella
+T26	Location 1096 1103	Apulian
+T27	Plant 1104 1109	olive
+T28	Date 1441 1452	in the year
+T29	Dissemination_pathway 1686 1700	lots of plants
+T30	Location 1757 1769	port of Bari
+T31	Pest 2171 2178	Xylella
+T32	Pest 2277 2295	Xylella Fastidiosa
+T33	Date 2325 2347	over the next 50 years
+T34	Location 2351 2357	Europe
+T35	Location 2368 2373	Italy
+T36	Location 2636 2660	United States of America
+T37	Pest 2697 2721	Xylella fastidiosa pauca
+T38	Plant 2725 2730	olive
+T39	Location 2742 2747	Italy
+T40	Location 2749 2755	Greece
+T41	Location 2760 2765	Spain
+T42	Location 2919 2930	Netherlands
+T43	Pest 2937 2943	Xyella
+T44	Plant 3019 3030	olive trees
+N1	NCBI_Taxonomy Annotation:T8 Referent:2371
+N2	GeoNames Annotation:T9 Referent:6538961
+N3	NCBI_Taxonomy Annotation:T10 Referent:4146
+N4	NCBI_Taxonomy Annotation:T11 Referent:4146
+N5	GeoNames Annotation:T12 Referent:6537556
+N6	NCBI_Taxonomy Annotation:T13 Referent:4146
+N7	NCBI_Taxonomy Annotation:T14 Referent:2371
+N8	NCBI_Taxonomy Annotation:T15 Referent:4146
+N9	GeoNames Annotation:T16 Referent:6537556
+N10	NCBI_Taxonomy Annotation:T17 Referent:4146
+N11	GeoNames Annotation:T18 Referent:6540025
+N12	GeoNames Annotation:T19 Referent:6538954
+N13	GeoNames Annotation:T20 Referent:6538944
+N14	NCBI_Taxonomy Annotation:T21 Referent:4146
+N15	NCBI_Taxonomy Annotation:T22 Referent:2371
+N16	GeoNames Annotation:T23 Referent:6537556
+N17	NCBI_Taxonomy Annotation:T24 Referent:4146
+N18	NCBI_Taxonomy Annotation:T25 Referent:2371
+N19	GeoNames Annotation:T26 Referent:3169778
+N20	NCBI_Taxonomy Annotation:T27 Referent:158383
+N21	OntoBiotope Annotation:T29 Referent:OBT:000393
+N22	GeoNames Annotation:T30 Referent:9796638
+N23	NCBI_Taxonomy Annotation:T31 Referent:2371
+N24	NCBI_Taxonomy Annotation:T32 Referent:2371
+N25	GeoNames Annotation:T34 Referent:6255148
+N26	GeoNames Annotation:T35 Referent:3175395
+N27	GeoNames Annotation:T36 Referent:6252001
+N28	NCBI_Taxonomy Annotation:T37 Referent:698414
+N29	NCBI_Taxonomy Annotation:T38 Referent:158383
+N30	GeoNames Annotation:T39 Referent:3175395
+N31	GeoNames Annotation:T40 Referent:390903
+N32	GeoNames Annotation:T41 Referent:2510769
+N33	GeoNames Annotation:T42 Referent:2750405
+N34	NCBI_Taxonomy Annotation:T43 Referent:2371
+N35	NCBI_Taxonomy Annotation:T44 Referent:4146
+R1	Located_in Object:T8 Location:T12
+R2	Found_on Organism:T8 Habitat:T11
+R3	Found_on Organism:T8 Habitat:T10
+R4	Located_in Object:T11 Location:T12
+R5	Located_in Object:T14 Location:T19
+R6	Located_in Object:T14 Location:T16
+R7	Located_in Object:T14 Location:T18
+R8	Located_in Object:T14 Location:T20
+R9	Found_on Organism:T14 Habitat:T15
+R10	Found_on Organism:T14 Habitat:T17
+R11	Found_on Organism:T14 Habitat:T13
+R12	Located_in Object:T15 Location:T16
+R13	Located_in Object:T17 Location:T19
+R14	Located_in Object:T17 Location:T18
+R15	Located_in Object:T17 Location:T20
+R16	Located_in Object:T21 Location:T23
+R17	Located_in Object:T22 Location:T23
+R18	Found_on Organism:T22 Habitat:T21
+R19	Located_in Object:T24 Location:T26
+R20	Located_in Object:T25 Location:T26
+R21	Found_on Organism:T25 Habitat:T24
+R22	Located_in Object:T27 Location:T26
+R23	Located_in Object:T29 Location:T30
+R24	Located_in Object:T32 Location:T35
+R25	Located_in Object:T32 Location:T34
+R26	Located_in Object:T37 Location:T40
+R27	Located_in Object:T37 Location:T39
+R28	Located_in Object:T37 Location:T41
+R29	Found_on Organism:T37 Habitat:T38
+R30	Located_in Object:T38 Location:T40
+R31	Located_in Object:T38 Location:T39
+R32	Located_in Object:T38 Location:T41
+R33	Found_on Organism:T43 Habitat:T44
+E1	Nary Organisme_nuisible:T8 Plante:T11 Lieu:T12
+E2	Nary Organisme_nuisible:T8 Plante:T10
+E3	Nary Organisme_nuisible:T14 Plante:T17 Lieu:T19
+E4	Nary Organisme_nuisible:T14 Plante:T15 Lieu:T16
+E5	Nary Organisme_nuisible:T14 Plante:T17 Lieu:T18
+E6	Nary Organisme_nuisible:T14 Plante:T17 Lieu:T20
+E7	Nary Organisme_nuisible:T14 Plante:T13
+E8	Nary Organisme_nuisible:T22 Plante:T21 Lieu:T23
+E9	Nary Organisme_nuisible:T25 Plante:T24 Lieu:T26
+E10	Nary Plante:T27 Lieu:T26
+E11	Nary Voie_de_dispersion:T29 Lieu:T30
+E12	Nary Organisme_nuisible:T32 Lieu:T35
+E13	Nary Organisme_nuisible:T32 Lieu:T34
+E14	Nary Organisme_nuisible:T37 Plante:T38 Lieu:T40
+E15	Nary Organisme_nuisible:T37 Plante:T38 Lieu:T39
+E16	Nary Organisme_nuisible:T37 Plante:T38 Lieu:T41
+E17	Nary Organisme_nuisible:T43 Plante:T44

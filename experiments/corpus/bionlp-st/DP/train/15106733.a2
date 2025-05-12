@@ -1,0 +1,117 @@
+T9	CHEMICAL 0 10	Salicylate
+N1	Name Annotation:T9 Referent:salicylate
+T46	GENE-Y 21 26	COX-2
+N2	Name Annotation:T46 Referent:cox2
+T47	GENE-N 46 49	ERK
+N3	Name Annotation:T47 Referent:erk
+T48	GENE-N 65 74	NF-kappaB
+N4	Name Annotation:T48 Referent:nfkappab
+T22	GENE-Y 120 136	cyclooxygenase-2
+N5	Name Annotation:T22 Referent:cyclooxygenase2
+T30	GENE-Y 138 143	COX-2
+N6	Name Annotation:T30 Referent:cox2
+T2	CHEMICAL 216 233	sodium salicylate
+N7	Name Annotation:T2 Referent:sodiumsalicylate
+T19	GENE-Y 235 244	TNF-alpha
+N8	Name Annotation:T19 Referent:tnfalpha
+T20	GENE-Y 250 259	IFN-gamma
+N9	Name Annotation:T20 Referent:ifngamma
+T21	GENE-N 271 308	extracellular signal-regulated kinase
+N10	Name Annotation:T21 Referent:extracellularsignalregulatedkinase
+T23	GENE-N 310 313	ERK
+N11	Name Annotation:T23 Referent:erk
+T24	GENE-N 316 319	IKK
+N12	Name Annotation:T24 Referent:ikk
+T25	GENE-N 321 328	IkappaB
+N13	Name Annotation:T25 Referent:ikappab
+T26	GENE-N 345 354	NF-kappaB
+N14	Name Annotation:T26 Referent:nfkappab
+T27	GENE-N 389 392	ERK
+N15	Name Annotation:T27 Referent:erk
+T4	CHEMICAL 427 435	PD098059
+N16	Name Annotation:T4 Referent:pd098059
+T28	GENE-N 445 453	cytokine
+N17	Name Annotation:T28 Referent:cytokine
+T29	GENE-Y 462 467	COX-2
+N18	Name Annotation:T29 Referent:cox2
+T5	CHEMICAL 497 507	Salicylate
+N19	Name Annotation:T5 Referent:salicylate
+T31	GENE-Y 528 533	COX-2
+N20	Name Annotation:T31 Referent:cox2
+T32	GENE-Y 556 565	TNF-alpha
+N21	Name Annotation:T32 Referent:tnfalpha
+T33	GENE-Y 566 575	IFN-gamma
+N22	Name Annotation:T33 Referent:ifngamma
+T34	GENE-N 608 611	ERK
+N23	Name Annotation:T34 Referent:erk
+T35	GENE-N 613 616	IKK
+N24	Name Annotation:T35 Referent:ikk
+T36	GENE-N 621 628	IkappaB
+N25	Name Annotation:T36 Referent:ikappab
+T37	GENE-N 656 665	NF-kappaB
+N26	Name Annotation:T37 Referent:nfkappab
+T38	GENE-Y 722 730	catalase
+N27	Name Annotation:T38 Referent:catalase
+T6	CHEMICAL 732 749	N-acetyl-cysteine
+N28	Name Annotation:T6 Referent:nacetylcysteine
+T7	CHEMICAL 761 772	glutathione
+N29	Name Annotation:T7 Referent:glutathione
+T39	GENE-Y 784 789	COX-2
+N30	Name Annotation:T39 Referent:cox2
+T40	GENE-N 813 822	cytokines
+N31	Name Annotation:T40 Referent:cytokines
+T41	GENE-N 890 893	ERK
+N32	Name Annotation:T41 Referent:erk
+T42	GENE-N 895 898	IKK
+N33	Name Annotation:T42 Referent:ikk
+T43	GENE-N 903 912	NF-kappaB
+N34	Name Annotation:T43 Referent:nfkappab
+T44	GENE-Y 950 959	TNF-alpha
+N35	Name Annotation:T44 Referent:tnfalpha
+T45	GENE-Y 960 969	IFN-gamma
+N36	Name Annotation:T45 Referent:ifngamma
+T8	CHEMICAL 1021 1031	salicylate
+N37	Name Annotation:T8 Referent:salicylate
+T1	CHEMICAL 1109 1119	salicylate
+N38	Name Annotation:T1 Referent:salicylate
+T10	GENE-N 1148 1151	ERK
+N39	Name Annotation:T10 Referent:erk
+T11	GENE-N 1156 1159	IKK
+N40	Name Annotation:T11 Referent:ikk
+T12	GENE-N 1161 1168	IkappaB
+N41	Name Annotation:T12 Referent:ikappab
+T13	GENE-N 1185 1194	NF-kappaB
+N42	Name Annotation:T13 Referent:nfkappab
+T3	CHEMICAL 1252 1262	salicylate
+N43	Name Annotation:T3 Referent:salicylate
+T14	GENE-N 1333 1336	ERK
+N44	Name Annotation:T14 Referent:erk
+T15	GENE-N 1338 1341	IKK
+N45	Name Annotation:T15 Referent:ikk
+T16	GENE-N 1343 1350	IkappaB
+N46	Name Annotation:T16 Referent:ikappab
+T17	GENE-N 1352 1361	NF-kappaB
+N47	Name Annotation:T17 Referent:nfkappab
+T18	GENE-Y 1376 1381	COX-2
+N48	Name Annotation:T18 Referent:cox2
+R1	ACTIVATOR Arg1:T9 Arg2:T48
+R2	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T22
+R3	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T30
+R4	INHIBITOR Arg1:T4 Arg2:T27
+R5	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T31
+R6	INHIBITOR Arg1:T4 Arg2:T28
+R7	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T29
+R8	INHIBITOR Arg1:T5 Arg2:T32
+R9	INHIBITOR Arg1:T5 Arg2:T33
+R10	ACTIVATOR Arg1:T5 Arg2:T37
+R11	INHIBITOR Arg1:T5 Arg2:T34
+R12	INHIBITOR Arg1:T5 Arg2:T35
+R13	INHIBITOR Arg1:T5 Arg2:T36
+R14	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T39
+R15	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T39
+R16	INHIBITOR Arg1:T1 Arg2:T13
+R17	INHIBITOR Arg1:T3 Arg2:T14
+R18	INHIBITOR Arg1:T3 Arg2:T15
+R19	INHIBITOR Arg1:T3 Arg2:T16
+R20	INHIBITOR Arg1:T3 Arg2:T17
+R21	INHIBITOR Arg1:T3 Arg2:T18

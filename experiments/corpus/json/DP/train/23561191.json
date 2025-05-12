@@ -1,0 +1,114 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "alkylresorcinols",
+            "Name": "alkylresorcinols"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "cytochrome P450",
+            "Name": "cytochromep450"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Alkylresorcinols",
+            "Name": "alkylresorcinols"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "phenolic",
+            "Name": "phenolic"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "3,5-dihydroxybenzoic acid",
+            "Name": "35dihydroxybenzoicacid"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "3-(3,5-dihydroxyphenyl)-1-propanoic acid",
+            "Name": "335dihydroxyphenyl1propanoicacid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "DHPPA",
+            "Name": "dhppa"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "human cytochrome P450 4F2",
+            "Name": "humancytochromep4504f2"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "CYP4F2",
+            "Name": "cyp4f2"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "CYP4F2",
+            "Name": "cyp4f2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "DHPPA",
+            "Name": "dhppa"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "CYP4F2",
+            "Name": "cyp4f2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T12"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T8"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T8"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T9"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T8"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T9"
+        }
+    ]
+}

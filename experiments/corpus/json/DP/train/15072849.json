@@ -1,0 +1,173 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Imiquimod",
+            "Name": "imiquimod"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Toll-like receptor-7",
+            "Name": "tolllikereceptor7"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "perforin",
+            "Name": "perforin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Imiquimod",
+            "Name": "imiquimod"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "IMQ",
+            "Name": "imq"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Toll-like receptor-7",
+            "Name": "tolllikereceptor7"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "TLR-7",
+            "Name": "tlr7"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "perforin",
+            "Name": "perforin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "IMQ",
+            "Name": "imq"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "perforin",
+            "Name": "perforin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "perforin",
+            "Name": "perforin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "IMQ",
+            "Name": "imq"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "perforin",
+            "Name": "perforin"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "perforin",
+            "Name": "perforin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "perforin",
+            "Name": "perforin"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "perforin",
+            "Name": "perforin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "IMQ",
+            "Name": "imq"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "Perforin",
+            "Name": "perforin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "IMQ",
+            "Name": "imq"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "IMQ",
+            "Name": "imq"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "perforin",
+            "Name": "perforin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T8",
+            "target": "T20"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T15"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T18"
+        }
+    ]
+}

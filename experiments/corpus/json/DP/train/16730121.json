@@ -1,0 +1,155 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "ramelteon",
+            "Name": "ramelteon"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "TAK-375",
+            "Name": "tak375"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "MT1/MT2 receptor",
+            "Name": "mt1mt2receptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "(S)-N-[2-(1,6,7,8-tetrahydro-2H-indeno-[5,4-b]furan-8-yl)ethyl]propionamide",
+            "Name": "sn21678tetrahydro2hindeno54bfuran8ylethylpropionamide"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "ramelteon",
+            "Name": "ramelteon"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "TAK-375",
+            "Name": "tak375"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "MT1/MT2 receptor",
+            "Name": "mt1mt2receptor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Ramelteon",
+            "Name": "ramelteon"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Melatonin",
+            "Name": "melatonin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "N-acetyl-5-hydroxytryptamine",
+            "Name": "nacetyl5hydroxytryptamine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "N-acetyl-5-HT",
+            "Name": "nacetyl5ht"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MT3",
+            "Name": "mt3"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "diazepam",
+            "Name": "diazepam"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "melatonin",
+            "Name": "melatonin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "N-acetyl-5-HT",
+            "Name": "nacetyl5ht"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "diazepam",
+            "Name": "diazepam"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Ramelteon",
+            "Name": "ramelteon"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "diazepam",
+            "Name": "diazepam"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T14",
+            "target": "T18"
+        },
+        {
+            "type": "Agonist",
+            "source": "T15",
+            "target": "T18"
+        },
+        {
+            "type": "Agonist",
+            "source": "T13",
+            "target": "T16"
+        },
+        {
+            "type": "Agonist",
+            "source": "T12",
+            "target": "T16"
+        },
+        {
+            "type": "Agonist",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T17"
+        }
+    ]
+}

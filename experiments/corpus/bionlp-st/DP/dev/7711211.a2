@@ -1,0 +1,69 @@
+T17	CHEMICAL 0 14	Norethisterone
+N1	Name Annotation:T17 Referent:norethisterone
+T28	GENE 40 51	uteroglobin
+N2	Name Annotation:T28 Referent:uteroglobin
+T18	CHEMICAL 56 68	progesterone
+N3	Name Annotation:T18 Referent:progesterone
+T29	GENE 56 77	progesterone receptor
+N4	Name Annotation:T29 Referent:progesteronereceptor
+T1	CHEMICAL 118 132	Norethisterone
+N5	Name Annotation:T1 Referent:norethisterone
+T7	CHEMICAL 134 137	NET
+N6	Name Annotation:T7 Referent:net
+T10	CHEMICAL 154 163	progestin
+N7	Name Annotation:T10 Referent:progestin
+T5	CHEMICAL 242 253	5 alpha-NET
+N8	Name Annotation:T5 Referent:5alphanet
+T6	CHEMICAL 258 276	3 beta,5 alpha-NET
+N9	Name Annotation:T6 Referent:3beta5alphanet
+T19	GENE 384 395	uteroglobin
+N10	Name Annotation:T19 Referent:uteroglobin
+T20	GENE 397 399	UG
+N11	Name Annotation:T20 Referent:ug
+T8	CHEMICAL 405 417	progesterone
+N12	Name Annotation:T8 Referent:progesterone
+T21	GENE 405 426	progesterone receptor
+N13	Name Annotation:T21 Referent:progesteronereceptor
+T22	GENE 428 430	PR
+N14	Name Annotation:T22 Referent:pr
+T9	CHEMICAL 457 474	progesterone (P4)
+N15	Name Annotation:T9 Referent:progesteronep4
+T11	CHEMICAL 662 673	5 alpha-NET
+N16	Name Annotation:T11 Referent:5alphanet
+T23	GENE 699 701	UG
+N17	Name Annotation:T23 Referent:ug
+T12	CHEMICAL 807 813	RU-486
+N18	Name Annotation:T12 Referent:ru486
+T13	CHEMICAL 836 854	3 beta,5 alpha-NET
+N19	Name Annotation:T13 Referent:3beta5alphanet
+T14	CHEMICAL 859 868	estradiol
+N20	Name Annotation:T14 Referent:estradiol
+T24	GENE 908 910	UG
+N21	Name Annotation:T24 Referent:ug
+T15	CHEMICAL 947 958	5 alpha-NET
+N22	Name Annotation:T15 Referent:5alphanet
+T16	CHEMICAL 963 981	3 beta,5 alpha-NET
+N23	Name Annotation:T16 Referent:3beta5alphanet
+T25	GENE 994 996	PR
+N24	Name Annotation:T25 Referent:pr
+T26	GENE 1095 1097	UG
+N25	Name Annotation:T26 Referent:ug
+T27	GENE 1112 1114	PR
+N26	Name Annotation:T27 Referent:pr
+T2	CHEMICAL 1134 1145	5 alpha-NET
+N27	Name Annotation:T2 Referent:5alphanet
+T3	CHEMICAL 1150 1168	3 beta,5 alpha-NET
+N28	Name Annotation:T3 Referent:3beta5alphanet
+T4	CHEMICAL 1165 1168	NET
+N29	Name Annotation:T4 Referent:net
+R1	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T23
+R2	INDIRECT-DOWNREGULATOR Arg1:T13 Arg2:T24
+R3	INDIRECT-DOWNREGULATOR Arg1:T14 Arg2:T24
+R4	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T25
+R5	INDIRECT-UPREGULATOR Arg1:T16 Arg2:T25
+R6	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T27
+R7	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T27
+R8	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T27
+R9	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T26
+R10	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T26
+R11	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T26

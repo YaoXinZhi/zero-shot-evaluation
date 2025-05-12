@@ -1,0 +1,107 @@
+T24	CHEMICAL 0 11	Methimazole
+N1	Name Annotation:T24 Referent:methimazole
+T25	CHEMICAL 16 32	propylthiouracil
+N2	Name Annotation:T25 Referent:propylthiouracil
+T39	GENE-Y 51 69	thyroid peroxidase
+N3	Name Annotation:T39 Referent:thyroidperoxidase
+T40	GENE-Y 83 101	thyroid peroxidase
+N4	Name Annotation:T40 Referent:thyroidperoxidase
+T1	CHEMICAL 146 157	Methimazole
+N5	Name Annotation:T1 Referent:methimazole
+T7	CHEMICAL 159 162	MMI
+N6	Name Annotation:T7 Referent:mmi
+T8	CHEMICAL 168 184	propylthiouracil
+N7	Name Annotation:T8 Referent:propylthiouracil
+T11	CHEMICAL 186 189	PTU
+N8	Name Annotation:T11 Referent:ptu
+T31	GENE-Y 277 295	thyroid peroxidase
+N9	Name Annotation:T31 Referent:thyroidperoxidase
+T32	GENE-Y 297 300	TPO
+N10	Name Annotation:T32 Referent:tpo
+T33	GENE-Y 396 399	TPO
+N11	Name Annotation:T33 Referent:tpo
+T9	CHEMICAL 499 510	thyrotropin
+N12	Name Annotation:T9 Referent:thyrotropin
+T10	CHEMICAL 512 515	TSH
+N13	Name Annotation:T10 Referent:tsh
+T12	CHEMICAL 560 563	MMI
+N14	Name Annotation:T12 Referent:mmi
+T13	CHEMICAL 567 570	PTU
+N15	Name Annotation:T13 Referent:ptu
+T34	GENE-Y 616 619	TPO
+N16	Name Annotation:T34 Referent:tpo
+T14	CHEMICAL 699 707	guaiacol
+N17	Name Annotation:T14 Referent:guaiacol
+T15	CHEMICAL 738 741	MMI
+N18	Name Annotation:T15 Referent:mmi
+T16	CHEMICAL 770 773	PTU
+N19	Name Annotation:T16 Referent:ptu
+T35	GENE-Y 854 857	TPO
+N20	Name Annotation:T35 Referent:tpo
+T17	CHEMICAL 879 882	MMI
+N21	Name Annotation:T17 Referent:mmi
+T36	GENE-Y 902 905	TPO
+N22	Name Annotation:T36 Referent:tpo
+T18	CHEMICAL 932 962	cyclic adenosine monophosphate
+N23	Name Annotation:T18 Referent:cyclicadenosinemonophosphate
+T19	CHEMICAL 964 968	cAMP
+N24	Name Annotation:T19 Referent:camp
+T20	CHEMICAL 989 998	forskolin
+N25	Name Annotation:T20 Referent:forskolin
+T21	CHEMICAL 1029 1032	MMI
+N26	Name Annotation:T21 Referent:mmi
+T37	GENE-Y 1042 1045	TPO
+N27	Name Annotation:T37 Referent:tpo
+T22	CHEMICAL 1056 1069	Cyclohexamide
+N28	Name Annotation:T22 Referent:cyclohexamide
+T23	CHEMICAL 1080 1083	MMI
+N29	Name Annotation:T23 Referent:mmi
+T38	GENE-Y 1093 1096	TPO
+N30	Name Annotation:T38 Referent:tpo
+T26	GENE-Y 1173 1176	TPO
+N31	Name Annotation:T26 Referent:tpo
+T27	GENE-Y 1266 1269	TPO
+N32	Name Annotation:T27 Referent:tpo
+T2	CHEMICAL 1278 1281	PTU
+N33	Name Annotation:T2 Referent:ptu
+T3	CHEMICAL 1285 1288	MMI
+N34	Name Annotation:T3 Referent:mmi
+T4	CHEMICAL 1305 1308	MMI
+N35	Name Annotation:T4 Referent:mmi
+T5	CHEMICAL 1313 1316	PTU
+N36	Name Annotation:T5 Referent:ptu
+T28	GENE-Y 1360 1363	TPO
+N37	Name Annotation:T28 Referent:tpo
+T29	GENE-Y 1382 1385	TPO
+N38	Name Annotation:T29 Referent:tpo
+T30	GENE-Y 1429 1432	TPO
+N39	Name Annotation:T30 Referent:tpo
+T6	CHEMICAL 1433 1437	H2O2
+N40	Name Annotation:T6 Referent:h2o2
+R1	ACTIVATOR Arg1:T24 Arg2:T39
+R2	ACTIVATOR Arg1:T25 Arg2:T39
+R3	INDIRECT-UPREGULATOR Arg1:T24 Arg2:T40
+R4	INDIRECT-UPREGULATOR Arg1:T25 Arg2:T40
+R5	INHIBITOR Arg1:T1 Arg2:T31
+R6	INHIBITOR Arg1:T7 Arg2:T31
+R7	INHIBITOR Arg1:T8 Arg2:T31
+R8	INHIBITOR Arg1:T11 Arg2:T31
+R9	INHIBITOR Arg1:T1 Arg2:T32
+R10	INHIBITOR Arg1:T7 Arg2:T32
+R11	INHIBITOR Arg1:T8 Arg2:T32
+R12	INHIBITOR Arg1:T11 Arg2:T32
+R13	ACTIVATOR Arg1:T15 Arg2:T35
+R14	ACTIVATOR Arg1:T16 Arg2:T35
+R15	INHIBITOR Arg1:T17 Arg2:T36
+R16	ACTIVATOR Arg1:T21 Arg2:T37
+R17	ACTIVATOR Arg1:T20 Arg2:T37
+R18	ACTIVATOR Arg1:T23 Arg2:T38
+R19	INHIBITOR Arg1:T22 Arg2:T38
+R20	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T27
+R21	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T27
+R22	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T28
+R23	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T28
+R24	ACTIVATOR Arg1:T4 Arg2:T29
+R25	ACTIVATOR Arg1:T5 Arg2:T29
+R26	INHIBITOR Arg1:T4 Arg2:T30
+R27	INHIBITOR Arg1:T5 Arg2:T30

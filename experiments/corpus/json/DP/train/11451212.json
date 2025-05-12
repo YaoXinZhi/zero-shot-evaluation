@@ -1,0 +1,194 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "olmesartan medoxomil",
+            "Name": "olmesartanmedoxomil"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "angiotensin II",
+            "Name": "angiotensinii"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "angiotensin II type AT1 receptor",
+            "Name": "angiotensiniitypeat1receptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Olmesartan medoxomil",
+            "Name": "olmesartanmedoxomil"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "angiotensin (A) II",
+            "Name": "angiotensinaii"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "angiotensin (A) II",
+            "Name": "angiotensinaii"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "olmesartan",
+            "Name": "olmesartan"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "RNH-6270",
+            "Name": "rnh6270"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "olmesartan",
+            "Name": "olmesartan"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "All AT1 receptor",
+            "Name": "allat1receptor"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "AT2",
+            "Name": "at2"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "AT4 receptors",
+            "Name": "at4receptors"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Olmesartan",
+            "Name": "olmesartan"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "losartan",
+            "Name": "losartan"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "olmesartan",
+            "Name": "olmesartan"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "All",
+            "Name": "all"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "olmesartan medoxomil",
+            "Name": "olmesartanmedoxomil"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "All",
+            "Name": "all"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "olmesartan",
+            "Name": "olmesartan"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "candesartan cilexetil",
+            "Name": "candesartancilexetil"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "losartan",
+            "Name": "losartan"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "olmesartan medoxomil",
+            "Name": "olmesartanmedoxomil"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "renin",
+            "Name": "renin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "renin",
+            "Name": "renin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "olmesartan",
+            "Name": "olmesartan"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "olmesartan medoxomil",
+            "Name": "olmesartanmedoxomil"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Olmesartan medoxomil",
+            "Name": "olmesartanmedoxomil"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T17",
+            "target": "T27"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T24"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T9",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T14",
+            "target": "T26"
+        }
+    ]
+}

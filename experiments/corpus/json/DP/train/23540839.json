@@ -1,0 +1,161 @@
+{
+    "entities": [
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "HIV Protease",
+            "Name": "hivprotease"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "indole-6-carboxylic acid",
+            "Name": "indole6carboxylicacid"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "HIV protease",
+            "Name": "hivprotease"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "PR",
+            "Name": "pr"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "pepstatin",
+            "Name": "pepstatin"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "PR",
+            "Name": "pr"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "PR",
+            "Name": "pr"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "3-indolepropionic acid",
+            "Name": "3indolepropionicacid"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PR",
+            "Name": "pr"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "pepstatin",
+            "Name": "pepstatin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PR",
+            "Name": "pr"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PR",
+            "Name": "pr"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PR",
+            "Name": "pr"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "pepstatin",
+            "Name": "pepstatin"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "PR",
+            "Name": "pr"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "PR",
+            "Name": "pr"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "pepstatin",
+            "Name": "pepstatin"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "PR",
+            "Name": "pr"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "HIV PR",
+            "Name": "hivpr"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T8"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T18"
+        }
+    ]
+}

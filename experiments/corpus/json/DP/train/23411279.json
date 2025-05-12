@@ -1,0 +1,116 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Phenolics",
+            "Name": "phenolics"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "acetone",
+            "Name": "acetone"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "ethanol",
+            "Name": "ethanol"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "phenolic",
+            "Name": "phenolic"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Acetone",
+            "Name": "acetone"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "tannins",
+            "Name": "tannins"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "DPPH",
+            "Name": "dpph"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "ethanol",
+            "Name": "ethanol"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "15-LOX",
+            "Name": "15lox"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "LOX",
+            "Name": "lox"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T14"
+        }
+    ]
+}

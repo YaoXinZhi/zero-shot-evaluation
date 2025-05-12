@@ -1,0 +1,231 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Pest",
+            "name": "Xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T6",
+            "type": "Plant",
+            "name": "olive trees",
+            "NCBI_Taxonomy": "4146"
+        },
+        {
+            "id": "T7",
+            "type": "Pest",
+            "name": "Xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T8",
+            "type": "Plant",
+            "name": "olive trees",
+            "NCBI_Taxonomy": "4146"
+        },
+        {
+            "id": "T9",
+            "type": "Location",
+            "name": "BARI",
+            "GeoNames": "3182350"
+        },
+        {
+            "id": "T11",
+            "type": "Pest",
+            "name": "Xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T12",
+            "type": "Location",
+            "name": "province of Bari",
+            "GeoNames": "3182350"
+        },
+        {
+            "id": "T13",
+            "type": "Plant",
+            "name": "olive trees",
+            "NCBI_Taxonomy": "4146"
+        },
+        {
+            "id": "T14",
+            "type": "Plant",
+            "name": "olive trees",
+            "NCBI_Taxonomy": "4146"
+        },
+        {
+            "id": "T15",
+            "type": "Location",
+            "name": "Fasano",
+            "GeoNames": "6540025"
+        },
+        {
+            "id": "T16",
+            "type": "Location",
+            "name": "Martina Franca",
+            "GeoNames": "6538954"
+        },
+        {
+            "id": "T17",
+            "type": "Location",
+            "name": "Locorotondo",
+            "GeoNames": "6538944"
+        },
+        {
+            "id": "T18",
+            "type": "Plant",
+            "name": "olive trees",
+            "NCBI_Taxonomy": "4146"
+        },
+        {
+            "id": "T19",
+            "type": "Pest",
+            "name": "Xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T20",
+            "type": "Location",
+            "name": "Polignano",
+            "GeoNames": "6537556"
+        },
+        {
+            "id": "T21",
+            "type": "Plant",
+            "name": "olive trees",
+            "NCBI_Taxonomy": "4146"
+        },
+        {
+            "id": "T22",
+            "type": "Pest",
+            "name": "Xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T23",
+            "type": "Location",
+            "name": "Apulian",
+            "GeoNames": "3169778"
+        },
+        {
+            "id": "T24",
+            "type": "Plant",
+            "name": "olive",
+            "NCBI_Taxonomy": "158383"
+        }
+    ],
+    "equivalences": [
+        [
+            "T9",
+            "T12"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Has been found on",
+            "source": "T5",
+            "target": "T6"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T7",
+            "target": "T8"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T16"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T15"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T17"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T12"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T11",
+            "target": "T13"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T11",
+            "target": "T14"
+        },
+        {
+            "type": "Located in",
+            "source": "T13",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T16"
+        },
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T15"
+        },
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T17"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T20"
+        },
+        {
+            "type": "Located in",
+            "source": "T19",
+            "target": "T20"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T19",
+            "target": "T18"
+        },
+        {
+            "type": "Located in",
+            "source": "T21",
+            "target": "T23"
+        },
+        {
+            "type": "Located in",
+            "source": "T22",
+            "target": "T23"
+        },
+        {
+            "type": "Located in",
+            "source": "T22",
+            "target": "T23"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T22",
+            "target": "T21"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T22",
+            "target": "T24"
+        },
+        {
+            "type": "Located in",
+            "source": "T24",
+            "target": "T23"
+        }
+    ]
+}

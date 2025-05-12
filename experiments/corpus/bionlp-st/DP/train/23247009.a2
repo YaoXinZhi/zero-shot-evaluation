@@ -1,0 +1,51 @@
+T11	CHEMICAL 0 16	Beta-glucogallin
+N1	Name Annotation:T11 Referent:betaglucogallin
+T12	CHEMICAL 108 114	aldose
+N2	Name Annotation:T12 Referent:aldose
+T20	GENE-Y 108 124	aldose reductase
+N3	Name Annotation:T20 Referent:aldosereductase
+T1	CHEMICAL 167 173	Aldose
+N4	Name Annotation:T1 Referent:aldose
+T13	GENE-Y 167 183	Aldose reductase
+N5	Name Annotation:T13 Referent:aldosereductase
+T14	GENE-Y 185 187	AR
+N6	Name Annotation:T14 Referent:ar
+T7	CHEMICAL 228 237	aldehydes
+N7	Name Annotation:T7 Referent:aldehydes
+T9	CHEMICAL 247 254	alcohol
+N8	Name Annotation:T9 Referent:alcohol
+T2	CHEMICAL 337 353	Beta-glucogallin
+N9	Name Annotation:T2 Referent:betaglucogallin
+T3	CHEMICAL 355 358	BGG
+N10	Name Annotation:T3 Referent:bgg
+T15	GENE-Y 382 384	AR
+N11	Name Annotation:T15 Referent:ar
+T4	CHEMICAL 500 503	BGG
+N12	Name Annotation:T4 Referent:bgg
+T16	GENE-Y 585 587	AR
+N13	Name Annotation:T16 Referent:ar
+T5	CHEMICAL 626 634	sorbitol
+N14	Name Annotation:T5 Referent:sorbitol
+T6	CHEMICAL 662 665	BGG
+N15	Name Annotation:T6 Referent:bgg
+T17	GENE-Y 689 691	AR
+N16	Name Annotation:T17 Referent:ar
+T18	GENE-N 728 731	JNK
+N17	Name Annotation:T18 Referent:jnk
+T19	GENE-N 736 739	p38
+N18	Name Annotation:T19 Referent:p38
+T8	CHEMICAL 933 936	BGG
+N19	Name Annotation:T8 Referent:bgg
+T10	CHEMICAL 1083 1086	BGG
+N20	Name Annotation:T10 Referent:bgg
+R1	INHIBITOR Arg1:T11 Arg2:T20
+R2	INHIBITOR Arg1:T2 Arg2:T15
+R3	INHIBITOR Arg1:T3 Arg2:T15
+R4	INHIBITOR Arg1:T4 Arg2:T16
+R5	INHIBITOR Arg1:T6 Arg2:T17
+R6	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T18
+R7	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T19
+R8	SUBSTRATE Arg1:T7 Arg2:T13
+R9	SUBSTRATE Arg1:T7 Arg2:T14
+R10	PRODUCT-OF Arg1:T9 Arg2:T13
+R11	PRODUCT-OF Arg1:T9 Arg2:T14

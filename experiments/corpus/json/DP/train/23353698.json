@@ -1,0 +1,198 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "ABT-737",
+            "Name": "abt737"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "pleiotropic kinase",
+            "Name": "pleiotropickinase"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "quercetin",
+            "Name": "quercetin"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "Mcl-1",
+            "Name": "mcl1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Bcl-2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ABT-737",
+            "Name": "abt737"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "ABT-737",
+            "Name": "abt737"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "Bcl-2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Bcl-XL",
+            "Name": "bclxl"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Bcl-w",
+            "Name": "bclw"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Mcl-1",
+            "Name": "mcl1"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Bfl-1",
+            "Name": "bfl1"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "quercetin",
+            "Name": "quercetin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "flavonoid",
+            "Name": "flavonoid"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "Mcl-1",
+            "Name": "mcl1"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "ABT-737",
+            "Name": "abt737"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "quercetin",
+            "Name": "quercetin"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "quercetin",
+            "Name": "quercetin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "quercetin",
+            "Name": "quercetin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "ABT-737",
+            "Name": "abt737"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "quercetin",
+            "Name": "quercetin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "quercetin",
+            "Name": "quercetin"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "Mcl-1",
+            "Name": "mcl1"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Mcl-1",
+            "Name": "mcl1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T25"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T19"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T20"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T5",
+            "target": "T18"
+        }
+    ]
+}

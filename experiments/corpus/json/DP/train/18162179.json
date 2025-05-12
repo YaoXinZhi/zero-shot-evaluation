@@ -1,0 +1,41 @@
+{
+    "entities": [
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "stathmin",
+            "Name": "stathmin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "lomustine",
+            "Name": "lomustine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "1-(2-chloroethyl)-3-cyclohexyl-1-nitroso-urea",
+            "Name": "12chloroethyl3cyclohexyl1nitrosourea"
+        },
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "stathmin",
+            "Name": "stathmin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T3"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T3"
+        }
+    ]
+}

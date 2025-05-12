@@ -1,0 +1,123 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "monocyte chemotactic protein-1",
+            "Name": "monocytechemotacticprotein1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "danazol",
+            "Name": "danazol"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "GnRH",
+            "Name": "gnrh"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "monocyte chemotactic protein-1",
+            "Name": "monocytechemotacticprotein1"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "MCP-1",
+            "Name": "mcp1"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "steroid",
+            "Name": "steroid"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "MCP-1",
+            "Name": "mcp1"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "MCP-1",
+            "Name": "mcp1"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Buserelin acetate",
+            "Name": "buserelinacetate"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "GnRH",
+            "Name": "gnrh"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "MCP-1",
+            "Name": "mcp1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "danazol",
+            "Name": "danazol"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "testosterone",
+            "Name": "testosterone"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "dexamethasone",
+            "Name": "dexamethasone"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "MCP-1",
+            "Name": "mcp1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T9"
+        },
+        {
+            "type": "Agonist",
+            "source": "T6",
+            "target": "T15"
+        }
+    ]
+}

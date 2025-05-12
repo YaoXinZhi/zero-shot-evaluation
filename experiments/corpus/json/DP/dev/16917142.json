@@ -1,0 +1,235 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "Estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "Estrogen Receptor",
+            "Name": "estrogenreceptor"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "estrogen receptor",
+            "Name": "estrogenreceptor"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "tamoxifen",
+            "Name": "tamoxifen"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Tamoxifen",
+            "Name": "tamoxifen"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "tamoxifen",
+            "Name": "tamoxifen"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "tamoxifen",
+            "Name": "tamoxifen"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "tamoxifen",
+            "Name": "tamoxifen"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "toremifene",
+            "Name": "toremifene"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "droloxifene",
+            "Name": "droloxifene"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "idoxifene",
+            "Name": "idoxifene"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "keoxifene",
+            "Name": "keoxifene"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "tamoxifen",
+            "Name": "tamoxifen"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "tamoxifen",
+            "Name": "tamoxifen"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "aromatase",
+            "Name": "aromatase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Fulvestrant",
+            "Name": "fulvestrant"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "tamoxifen",
+            "Name": "tamoxifen"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "tamoxifen",
+            "Name": "tamoxifen"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "aromatase",
+            "Name": "aromatase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "anastrozole",
+            "Name": "anastrozole"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "tamoxifen",
+            "Name": "tamoxifen"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T11",
+            "target": "T30"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T12",
+            "target": "T30"
+        },
+        {
+            "type": "Agonist",
+            "source": "T11",
+            "target": "T31"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T11",
+            "target": "T31"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T4",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T24"
+        }
+    ]
+}

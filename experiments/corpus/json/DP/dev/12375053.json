@@ -1,0 +1,65 @@
+{
+    "entities": [
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "sodium",
+            "Name": "sodium"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "basic fibroblast growth factor",
+            "Name": "basicfibroblastgrowthfactor"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "bFGF",
+            "Name": "bfgf"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "sodium",
+            "Name": "sodium"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "bFGF",
+            "Name": "bfgf"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "diethylstilbestrol",
+            "Name": "diethylstilbestrol"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T8"
+        }
+    ]
+}

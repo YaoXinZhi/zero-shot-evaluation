@@ -1,0 +1,211 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Phenotype",
+            "name": "hydrogen cyanide (HCN) and ammonia (NH\u2083) emitted",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "Pseudomonas aeruginosa",
+            "NCBI_Taxonomy": "287"
+        },
+        {
+            "id": "T5",
+            "type": "Phenotype",
+            "name": "hydrogen cyanide (HCN) production",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "Pseudomonas aeruginosa",
+            "NCBI_Taxonomy": "287"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "P. aeruginosa",
+            "NCBI_Taxonomy": "287"
+        },
+        {
+            "id": "T8",
+            "type": "Phenotype",
+            "name": "production of ammonia (NH3)",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T9",
+            "type": "Habitat",
+            "name": "clinical",
+            "OntoBiotope": "OBT:003220"
+        },
+        {
+            "id": "T10",
+            "type": "Habitat",
+            "name": "patients with CF",
+            "OntoBiotope": "OBT:003220"
+        },
+        {
+            "id": "T11",
+            "type": "Phenotype",
+            "name": "pathogens",
+            "OntoBiotope": "OBT:002806"
+        },
+        {
+            "id": "T12",
+            "type": "Habitat",
+            "name": "lungs of CF patients",
+            "OntoBiotope": "OBT:000716"
+        },
+        {
+            "id": "T13",
+            "type": "Habitat",
+            "name": "airways of CF patients",
+            "OntoBiotope": "OBT:000408"
+        },
+        {
+            "id": "T14",
+            "type": "Habitat",
+            "name": "CF patients",
+            "OntoBiotope": "OBT:003220"
+        },
+        {
+            "id": "T15",
+            "type": "Phenotype",
+            "name": "Hydrogen cyanide production",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T16",
+            "type": "Microorganism",
+            "name": "P. aeruginosa",
+            "NCBI_Taxonomy": "287"
+        },
+        {
+            "id": "T17",
+            "type": "Microorganism",
+            "name": "P. aeruginosa",
+            "NCBI_Taxonomy": "1276719"
+        },
+        {
+            "id": "T18",
+            "type": "Phenotype",
+            "name": "produced HCN",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T19",
+            "type": "Phenotype",
+            "name": "HCN production",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T20",
+            "type": "Microorganism",
+            "name": "Burkholderia cepacia",
+            "NCBI_Taxonomy": "292"
+        },
+        {
+            "id": "T21",
+            "type": "Phenotype",
+            "name": "produced HCN",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T22",
+            "type": "Phenotype",
+            "name": "pathogens",
+            "OntoBiotope": "OBT:000375"
+        },
+        {
+            "id": "T23",
+            "type": "Microorganism",
+            "name": "Aspergillus fumigatus",
+            "NCBI_Taxonomy": "746128"
+        },
+        {
+            "id": "T24",
+            "type": "Microorganism",
+            "name": "Stenotrophomonas maltophilia",
+            "NCBI_Taxonomy": "40324"
+        },
+        {
+            "id": "T25",
+            "type": "Microorganism",
+            "name": "Mycobacterium abscessus",
+            "NCBI_Taxonomy": "36809"
+        },
+        {
+            "id": "T26",
+            "type": "Phenotype",
+            "name": "HCN production",
+            "OntoBiotope": "OBT:000019"
+        }
+    ],
+    "equivalences": [
+        [
+            "T6",
+            "T7"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T3"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T6",
+            "target": "T5"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T7",
+            "target": "T5"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T16",
+            "target": "T15"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T17",
+            "target": "T18"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T17",
+            "target": "T19"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T20",
+            "target": "T21"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T20",
+            "target": "T22"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T23",
+            "target": "T22"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T24",
+            "target": "T22"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T25",
+            "target": "T22"
+        }
+    ]
+}

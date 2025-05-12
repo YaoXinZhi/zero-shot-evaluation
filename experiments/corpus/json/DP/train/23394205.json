@@ -1,0 +1,103 @@
+{
+    "entities": [
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "4-{4-[(3R)-3-Methylmorpholin-4-yl]-6-[1-(methylsulfonyl)cyclopropyl]pyrimidin-2-yl}-1H-indole",
+            "Name": "443r3methylmorpholin4yl61methylsulfonylcyclopropylpyrimidin2yl1hindole"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "AZ20",
+            "Name": "az20"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "ATR protein kinase",
+            "Name": "atrproteinkinase"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "ATR",
+            "Name": "atr"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "sulfonylmorpholinopyrimidines",
+            "Name": "sulfonylmorpholinopyrimidines"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "ATR",
+            "Name": "atr"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "AZ20",
+            "Name": "az20"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "ATR",
+            "Name": "atr"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "ATR",
+            "Name": "atr"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Chk1",
+            "Name": "chk1"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "ATR",
+            "Name": "atr"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T9"
+        }
+    ]
+}

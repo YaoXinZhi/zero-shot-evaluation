@@ -1,0 +1,240 @@
+{
+    "entities": [
+        {
+            "id": "T25",
+            "type": "Chemical",
+            "name": "Carbohydrate",
+            "Name": "carbohydrate"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "\u03c9-3 fatty acids",
+            "Name": "\u03c93fattyacids"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "lignans",
+            "Name": "lignans"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "lead acetate",
+            "Name": "leadacetate"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "PbAc",
+            "Name": "pbac"
+        },
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "lead acetate",
+            "Name": "leadacetate"
+        },
+        {
+            "id": "T23",
+            "type": "Chemical",
+            "name": "carbohydrate",
+            "Name": "carbohydrate"
+        },
+        {
+            "id": "T24",
+            "type": "Chemical",
+            "name": "PbAc",
+            "Name": "pbac"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "creatinine",
+            "Name": "creatinine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "urea",
+            "Name": "urea"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "nitrogen",
+            "Name": "nitrogen"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "PbAc",
+            "Name": "pbac"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "lactate",
+            "Name": "lactate"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "lactate dehydrogenase",
+            "Name": "lactatedehydrogenase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "NADP",
+            "Name": "nadp"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "NADP-malic enzyme",
+            "Name": "nadpmalicenzyme"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "malate",
+            "Name": "malate"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "malate and glucose-6-phosphate dehydrogenase",
+            "Name": "malateandglucose6phosphatedehydrogenase"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "glucose-6-phosphate",
+            "Name": "glucose6phosphate"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "glucose-6-phosphatase",
+            "Name": "glucose6phosphatase"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "fructose",
+            "Name": "fructose"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "fructose-1, 6-bisphosphatase",
+            "Name": "fructose16bisphosphatase"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "PbAc",
+            "Name": "pbac"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "superoxide",
+            "Name": "superoxide"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "superoxide dismutase",
+            "Name": "superoxidedismutase"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "glutathione peroxidase",
+            "Name": "glutathioneperoxidase"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "catalase",
+            "Name": "catalase"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "carbohydrate",
+            "Name": "carbohydrate"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "PbAc",
+            "Name": "pbac"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "PbAc",
+            "Name": "pbac"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "PbAc",
+            "Name": "pbac"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T26"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T32"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T33"
+        }
+    ]
+}

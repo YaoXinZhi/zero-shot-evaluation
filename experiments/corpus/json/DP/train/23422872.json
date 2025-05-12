@@ -1,0 +1,30 @@
+{
+    "entities": [
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "peramivir",
+            "Name": "peramivir"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "peramivir",
+            "Name": "peramivir"
+        },
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "neuraminidase",
+            "Name": "neuraminidase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T3"
+        }
+    ]
+}

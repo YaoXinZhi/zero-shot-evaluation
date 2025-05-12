@@ -1,0 +1,184 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Sophocarpine",
+            "Name": "sophocarpine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Sophocarpine",
+            "Name": "sophocarpine"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "adipocytokine",
+            "Name": "adipocytokine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "adipocytokines",
+            "Name": "adipocytokines"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "oleic acid",
+            "Name": "oleicacid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "sophocarpine",
+            "Name": "sophocarpine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "leptin",
+            "Name": "leptin"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "adiponectin",
+            "Name": "adiponectin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "sophocarpine",
+            "Name": "sophocarpine"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "leptin",
+            "Name": "leptin"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "adiponectin",
+            "Name": "adiponectin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "sophocarpine",
+            "Name": "sophocarpine"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "P-AMPK\u03b1",
+            "Name": "pampk\u03b1"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "AMPK\u03b1",
+            "Name": "ampk\u03b1"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "ACC",
+            "Name": "acc"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "P-ACC",
+            "Name": "pacc"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "HNF-4\u03b1",
+            "Name": "hnf4\u03b1"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Srebp-1c",
+            "Name": "srebp1c"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "sophocarpine",
+            "Name": "sophocarpine"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "AMPK",
+            "Name": "ampk"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T7",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T14"
+        }
+    ]
+}

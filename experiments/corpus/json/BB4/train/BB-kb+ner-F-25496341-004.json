@@ -1,0 +1,30 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Microorganism",
+            "name": "Streptococcus infantarius",
+            "NCBI_Taxonomy": "102684"
+        },
+        {
+            "id": "T2",
+            "type": "Phenotype",
+            "name": "ability to ferment \nlactose",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "CJ18",
+            "NCBI_Taxonomy": "1069533"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T1",
+            "target": "T2"
+        }
+    ]
+}

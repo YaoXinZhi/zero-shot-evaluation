@@ -1,0 +1,140 @@
+{
+    "entities": [
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Thieno[3,2-d]pyrimidine-6-carboxamides",
+            "Name": "thieno32dpyrimidine6carboxamides"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "SIRT1",
+            "Name": "sirt1"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "SIRT2",
+            "Name": "sirt2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "SIRT3",
+            "Name": "sirt3"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "sirtuins SIRT1",
+            "Name": "sirtuinssirt1"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "SIRT2",
+            "Name": "sirt2"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "SIRT3",
+            "Name": "sirt3"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "NAD(+)",
+            "Name": "nad"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "NAD(+) dependent deacetylases",
+            "Name": "naddependentdeacetylases"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "SIRT1/2/3",
+            "Name": "sirt123"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "SIRT1",
+            "Name": "sirt1"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "SIRT2",
+            "Name": "sirt2"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "SIRT3",
+            "Name": "sirt3"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "SIRT3",
+            "Name": "sirt3"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "carboxamide",
+            "Name": "carboxamide"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "nicotinamide",
+            "Name": "nicotinamide"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "SIRT1/2/3",
+            "Name": "sirt123"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "sirtuin",
+            "Name": "sirtuin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Part of",
+            "source": "T3",
+            "target": "T14"
+        }
+    ]
+}

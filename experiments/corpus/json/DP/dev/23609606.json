@@ -1,0 +1,129 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "fenclozic acid",
+            "Name": "fenclozicacid"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "carboxylic acid",
+            "Name": "carboxylicacid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "fenclozic acid",
+            "Name": "fenclozicacid"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "[(14)C]-fenclozic acid",
+            "Name": "14cfenclozicacid"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "NADPH",
+            "Name": "nadph"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "taurine",
+            "Name": "taurine"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "acyl glucuronide",
+            "Name": "acylglucuronide"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "UDPGA",
+            "Name": "udpga"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "UDPGA",
+            "Name": "udpga"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "fenclozic acid",
+            "Name": "fenclozicacid"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "P450",
+            "Name": "p450"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "P450",
+            "Name": "p450"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "human cytochrome P450",
+            "Name": "humancytochromep450"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "efflux transporters",
+            "Name": "effluxtransporters"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "BSEP",
+            "Name": "bsep"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MRP2",
+            "Name": "mrp2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "fenclozic acid",
+            "Name": "fenclozicacid"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T17"
+        }
+    ]
+}

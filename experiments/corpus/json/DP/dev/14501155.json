@@ -1,0 +1,216 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "tricyclic",
+            "Name": "tricyclic"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "clomipramine",
+            "Name": "clomipramine"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "tricyclic",
+            "Name": "tricyclic"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "clomipramine",
+            "Name": "clomipramine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Clomipramine",
+            "Name": "clomipramine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "clomipramine",
+            "Name": "clomipramine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "5-hydroxytryptamine",
+            "Name": "5hydroxytryptamine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "5-HT",
+            "Name": "5ht"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "p-chlorophenylalanine",
+            "Name": "pchlorophenylalanine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "5-HT(1/2/5/7)-receptor",
+            "Name": "5ht1257receptor"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "5-HT(2A/2B/2C)-receptor",
+            "Name": "5ht2a2b2creceptor"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "LY 53857",
+            "Name": "ly53857"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "clomipramine",
+            "Name": "clomipramine"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "5-HT(1A/1B)-receptor",
+            "Name": "5ht1a1breceptor"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "(-)-propranolol",
+            "Name": "propranolol"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "5-HT(3/4)-receptor",
+            "Name": "5ht34receptor"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "tropisetron",
+            "Name": "tropisetron"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "5-HT(2B/2C)-receptor",
+            "Name": "5ht2b2creceptor"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "SB 206553",
+            "Name": "sb206553"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "clomipramine",
+            "Name": "clomipramine"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "5-HT(2A)",
+            "Name": "5ht2a"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "ketanserin",
+            "Name": "ketanserin"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "Clomipramine",
+            "Name": "clomipramine"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "clomipramine",
+            "Name": "clomipramine"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "5-HT(2B )",
+            "Name": "5ht2b"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "5-HT(2C)",
+            "Name": "5ht2c"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "adrenaline",
+            "Name": "adrenaline"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T8",
+            "target": "T23"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T10",
+            "target": "T24"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T11",
+            "target": "T25"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T13",
+            "target": "T26"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T15",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T17",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T17",
+            "target": "T29"
+        }
+    ]
+}

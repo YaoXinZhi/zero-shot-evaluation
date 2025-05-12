@@ -1,0 +1,117 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "gonyautoxin 2,3",
+            "Name": "gonyautoxin23"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "GTX2,3",
+            "Name": "gtx23"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "GTX2,3-aldehyde",
+            "Name": "gtx23aldehyde"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "NH2",
+            "Name": "nh2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "aldehydes",
+            "Name": "aldehydes"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "GTX2,3-aldehyde",
+            "Name": "gtx23aldehyde"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "bovine serum albumin",
+            "Name": "bovineserumalbumin"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "BSA",
+            "Name": "bsa"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "GTX2,3-aldehyde",
+            "Name": "gtx23aldehyde"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "keyhole limpet hemocyanin",
+            "Name": "keyholelimpethemocyanin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "KLH",
+            "Name": "klh"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "BSA",
+            "Name": "bsa"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "KLH",
+            "Name": "klh"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "GTX2,3",
+            "Name": "gtx23"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T12"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T11"
+        }
+    ]
+}

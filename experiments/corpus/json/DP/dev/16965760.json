@@ -1,0 +1,250 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "D-myo-inositol 1-phosphate",
+            "Name": "dmyoinositol1phosphate"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "D-myo-inositol 1,4,5-tris phosphate",
+            "Name": "dmyoinositol145trisphosphate"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "G protein-coupled receptor",
+            "Name": "gproteincoupledreceptor"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Phospholipase C beta",
+            "Name": "phospholipasecbeta"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "PLC-beta",
+            "Name": "plcbeta"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "G protein-coupled receptor",
+            "Name": "gproteincoupledreceptor"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "GPCR",
+            "Name": "gpcr"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "D-myo-inositol 1,4,5-trisphosphate",
+            "Name": "dmyoinositol145trisphosphate"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "IP3",
+            "Name": "ip3"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "PLC-beta",
+            "Name": "plcbeta"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "inositol phosphate",
+            "Name": "inositolphosphate"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "IP3",
+            "Name": "ip3"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "IP3",
+            "Name": "ip3"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "IP3",
+            "Name": "ip3"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "GPCR",
+            "Name": "gpcr"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "IP3",
+            "Name": "ip3"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "inositol phosphate",
+            "Name": "inositolphosphate"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "lithium chloride",
+            "Name": "lithiumchloride"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "LiCl",
+            "Name": "licl"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "D-myo-inositol 1-phosphate",
+            "Name": "dmyoinositol1phosphate"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "GPCR",
+            "Name": "gpcr"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "inositol monophosphatase",
+            "Name": "inositolmonophosphatase"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "IP3",
+            "Name": "ip3"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "IP1",
+            "Name": "ip1"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "IP3",
+            "Name": "ip3"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "GPCR",
+            "Name": "gpcr"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "GPCR",
+            "Name": "gpcr"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "PLC-beta",
+            "Name": "plcbeta"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "D-myo-inositol 1 monophosphate",
+            "Name": "dmyoinositol1monophosphate"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "IP1",
+            "Name": "ip1"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "inositol phosphates",
+            "Name": "inositolphosphates"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T25"
+        },
+        {
+            "type": "Product of",
+            "source": "T7",
+            "target": "T25"
+        },
+        {
+            "type": "Product of",
+            "source": "T8",
+            "target": "T25"
+        },
+        {
+            "type": "Activator",
+            "source": "T14",
+            "target": "T29"
+        },
+        {
+            "type": "Activator",
+            "source": "T15",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T31"
+        },
+        {
+            "type": "Substrate",
+            "source": "T17",
+            "target": "T31"
+        },
+        {
+            "type": "Substrate",
+            "source": "T16",
+            "target": "T31"
+        }
+    ]
+}

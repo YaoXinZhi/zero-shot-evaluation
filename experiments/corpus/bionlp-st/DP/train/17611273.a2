@@ -1,0 +1,63 @@
+T17	CHEMICAL 0 15	Methylphenidate
+N1	Name Annotation:T17 Referent:methylphenidate
+T8	CHEMICAL 163 178	methylphenidate
+N2	Name Annotation:T8 Referent:methylphenidate
+T9	CHEMICAL 180 183	MPH
+N3	Name Annotation:T9 Referent:mph
+T10	CHEMICAL 185 192	Ritalin
+N4	Name Annotation:T10 Referent:ritalin
+T4	CHEMICAL 295 298	MPH
+N5	Name Annotation:T4 Referent:mph
+T6	CHEMICAL 340 347	Ritalin
+N6	Name Annotation:T6 Referent:ritalin
+T7	CHEMICAL 400 403	MPH
+N7	Name Annotation:T7 Referent:mph
+T11	CHEMICAL 680 683	MPH
+N8	Name Annotation:T11 Referent:mph
+T12	CHEMICAL 774 777	MPH
+N9	Name Annotation:T12 Referent:mph
+T13	CHEMICAL 828 841	catecholamine
+N10	Name Annotation:T13 Referent:catecholamine
+T14	CHEMICAL 849 857	tyrosine
+N11	Name Annotation:T14 Referent:tyrosine
+T22	GENE-Y 849 869	tyrosine hydroxylase
+N12	Name Annotation:T22 Referent:tyrosinehydroxylase
+T23	GENE-Y 871 873	TH
+N13	Name Annotation:T23 Referent:th
+T15	CHEMICAL 919 933	norepinephrine
+N14	Name Annotation:T15 Referent:norepinephrine
+T24	GENE-Y 919 945	norepinephrine transporter
+N15	Name Annotation:T24 Referent:norepinephrinetransporter
+T25	GENE-Y 947 950	NET
+N16	Name Annotation:T25 Referent:net
+T16	CHEMICAL 994 997	MPH
+N17	Name Annotation:T16 Referent:mph
+T26	GENE-Y 1038 1041	NET
+N18	Name Annotation:T26 Referent:net
+T27	GENE-Y 1112 1116	NCAM
+N19	Name Annotation:T27 Referent:ncam
+T18	GENE-Y 1141 1170	neural cell adhesion molecule
+N20	Name Annotation:T18 Referent:neuralcelladhesionmolecule
+T19	GENE-Y 1193 1195	TH
+N21	Name Annotation:T19 Referent:th
+T20	GENE-Y 1237 1251	neuropeptide Y
+N22	Name Annotation:T20 Referent:neuropeptidey
+T1	CHEMICAL 1275 1278	MPH
+N23	Name Annotation:T1 Referent:mph
+T21	GENE-Y 1401 1403	TH
+N24	Name Annotation:T21 Referent:th
+T2	CHEMICAL 1491 1494	MPH
+N25	Name Annotation:T2 Referent:mph
+T3	CHEMICAL 1585 1588	MPH
+N26	Name Annotation:T3 Referent:mph
+T5	CHEMICAL 1836 1839	MPH
+N27	Name Annotation:T5 Referent:mph
+R1	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T23
+R2	INDIRECT-DOWNREGULATOR Arg1:T12 Arg2:T24
+R3	INDIRECT-DOWNREGULATOR Arg1:T12 Arg2:T25
+R4	INDIRECT-DOWNREGULATOR Arg1:T16 Arg2:T26
+R5	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T22
+R6	INDIRECT-UPREGULATOR Arg1:T16 Arg2:T27
+R7	INDIRECT-UPREGULATOR Arg1:T16 Arg2:T18
+R8	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T19
+R9	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T20

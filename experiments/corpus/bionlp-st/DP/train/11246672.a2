@@ -1,0 +1,57 @@
+T13	CHEMICAL 0 11	Minocycline
+N1	Name Annotation:T13 Referent:minocycline
+T26	GENE-Y 39 70	inducible nitric oxide synthase
+N2	Name Annotation:T26 Referent:induciblenitricoxidesynthase
+T14	CHEMICAL 49 61	nitric oxide
+N3	Name Annotation:T14 Referent:nitricoxide
+T4	CHEMICAL 146 159	tetracyclines
+N4	Name Annotation:T4 Referent:tetracyclines
+T16	GENE-Y 202 220	interleukin 1alpha
+N5	Name Annotation:T16 Referent:interleukin1alpha
+T17	GENE-Y 222 231	IL-1alpha
+N6	Name Annotation:T17 Referent:il1alpha
+T2	CHEMICAL 241 243	NO
+N7	Name Annotation:T2 Referent:no
+T18	GENE-Y 275 296	inducible NO synthase
+N8	Name Annotation:T18 Referent:induciblenosynthase
+T3	CHEMICAL 285 287	NO
+N9	Name Annotation:T3 Referent:no
+T19	GENE-Y 298 302	iNOS
+N10	Name Annotation:T19 Referent:inos
+T20	GENE-Y 417 426	IL-lalpha
+N11	Name Annotation:T20 Referent:illalpha
+T21	GENE-Y 513 517	iNOS
+N12	Name Annotation:T21 Referent:inos
+T22	GENE-Y 610 614	iNOS
+N13	Name Annotation:T22 Referent:inos
+T5	CHEMICAL 611 613	NO
+N14	Name Annotation:T5 Referent:no
+T6	CHEMICAL 732 743	Minocycline
+N15	Name Annotation:T6 Referent:minocycline
+T23	GENE-N 769 773	IL-1
+N16	Name Annotation:T23 Referent:il1
+T7	CHEMICAL 785 787	NO
+N17	Name Annotation:T7 Referent:no
+T24	GENE-Y 904 908	iNOS
+N18	Name Annotation:T24 Referent:inos
+T8	CHEMICAL 910 923	Diclofenac-Na
+N19	Name Annotation:T8 Referent:diclofenacna
+T9	CHEMICAL 976 983	nitrite
+N20	Name Annotation:T9 Referent:nitrite
+T25	GENE-Y 1020 1024	iNOS
+N21	Name Annotation:T25 Referent:inos
+T10	CHEMICAL 1055 1067	tetracycline
+N22	Name Annotation:T10 Referent:tetracycline
+T11	CHEMICAL 1069 1080	doxycycline
+N23	Name Annotation:T11 Referent:doxycycline
+T12	CHEMICAL 1086 1095	meloxicam
+N24	Name Annotation:T12 Referent:meloxicam
+T15	GENE-Y 1123 1127	iNOS
+N25	Name Annotation:T15 Referent:inos
+T1	CHEMICAL 1186 1197	minocycline
+N26	Name Annotation:T1 Referent:minocycline
+R1	INDIRECT-DOWNREGULATOR Arg1:T13 Arg2:T26
+R2	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T24
+R3	PRODUCT-OF Arg1:T7 Arg2:T24
+R4	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T25
+R5	INHIBITOR Arg1:T1 Arg2:T15

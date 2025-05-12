@@ -1,0 +1,87 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "4-amino-N-[(1S)-1-(4-chlorophenyl)-3-hydroxypropyl]-1-(7H-pyrrolo[2,3-d]pyrimidin-4-yl)piperidine-4-carboxamide",
+            "Name": "4aminon1s14chlorophenyl3hydroxypropyl17hpyrrolo23dpyrimidin4ylpiperidine4carboxamide"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "AZD5363",
+            "Name": "azd5363"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "kinases",
+            "Name": "kinases"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "AZD5363",
+            "Name": "azd5363"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "hERG",
+            "Name": "herg"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "AGC kinase",
+            "Name": "agckinase"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "ROCK",
+            "Name": "rock"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T10"
+        }
+    ]
+}

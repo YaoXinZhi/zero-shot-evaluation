@@ -1,0 +1,167 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "pyridoxal-5'-phosphate",
+            "Name": "pyridoxal5phosphate"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "serine dehydratase",
+            "Name": "serinedehydratase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "L-serine",
+            "Name": "lserine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "L-serine dehydratase",
+            "Name": "lserinedehydratase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "SDH",
+            "Name": "sdh"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "pyridoxal phosphate",
+            "Name": "pyridoxalphosphate"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "L-serine",
+            "Name": "lserine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "L-threonine",
+            "Name": "lthreonine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "pyruvate",
+            "Name": "pyruvate"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "2-oxobutyrate",
+            "Name": "2oxobutyrate"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "L-serine",
+            "Name": "lserine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "L-serine dehydratase",
+            "Name": "lserinedehydratase"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "hSDH",
+            "Name": "hsdh"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PLP-binding domain",
+            "Name": "plpbindingdomain"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "rSDH",
+            "Name": "rsdh"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "O-methylserine",
+            "Name": "omethylserine"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "hSDH",
+            "Name": "hsdh"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "hSDH",
+            "Name": "hsdh"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "SDH",
+            "Name": "sdh"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T13"
+        }
+    ]
+}

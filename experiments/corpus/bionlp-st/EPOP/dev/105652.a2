@@ -1,0 +1,23 @@
+T3	Pest 0 7	Xylella
+T4	Location 29 38	Bari area
+T5	Pest 57 64	Xylella
+T6	Location 92 101	Bari area
+T7	Location 106 122	Polignano a Mare
+T8	Plant 126 137	olive trees
+T9	Date 189 195	so far
+T10	Plant 350 355	olive
+N1	NCBI_Taxonomy Annotation:T3 Referent:2371
+N2	GeoNames Annotation:T4 Referent:3182350
+N3	NCBI_Taxonomy Annotation:T5 Referent:2371
+N4	GeoNames Annotation:T6 Referent:3182350
+N5	GeoNames Annotation:T7 Referent:6537556
+N6	NCBI_Taxonomy Annotation:T8 Referent:4146
+N7	NCBI_Taxonomy Annotation:T10 Referent:158383
+R1	Located_in Object:T3 Location:T4
+R2	Located_in Object:T5 Location:T6
+R3	Located_in Object:T5 Location:T7
+R4	Found_on Organism:T5 Habitat:T8
+R5	Located_in Object:T8 Location:T7
+E1	Nary Organisme_nuisible:T3 Lieu:T4
+E2	Nary Organisme_nuisible:T5 Plante:T8 Lieu:T7
+E3	Nary Organisme_nuisible:T5 Lieu:T6

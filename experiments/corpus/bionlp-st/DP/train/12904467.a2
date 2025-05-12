@@ -1,0 +1,55 @@
+T23	GENE-Y 24 29	GluR5
+N1	Name Annotation:T23 Referent:glur5
+T12	CHEMICAL 30 37	kainate
+N2	Name Annotation:T12 Referent:kainate
+T24	GENE-N 30 46	kainate-receptor
+N3	Name Annotation:T24 Referent:kainatereceptor
+T13	CHEMICAL 77 87	topiramate
+N4	Name Annotation:T13 Referent:topiramate
+T1	CHEMICAL 125 135	Topiramate
+N5	Name Annotation:T1 Referent:topiramate
+T16	GENE-N 273 284	ion channel
+N6	Name Annotation:T16 Referent:ionchannel
+T3	CHEMICAL 302 306	AMPA
+N7	Name Annotation:T3 Referent:ampa
+T17	GENE-N 302 324	AMPA/kainate receptors
+N8	Name Annotation:T17 Referent:ampakainatereceptors
+T4	CHEMICAL 307 314	kainate
+N9	Name Annotation:T4 Referent:kainate
+T5	CHEMICAL 421 431	topiramate
+N10	Name Annotation:T5 Referent:topiramate
+T6	CHEMICAL 577 584	kainate
+N11	Name Annotation:T6 Referent:kainate
+T18	GENE-N 577 594	kainate receptors
+N12	Name Annotation:T18 Referent:kainatereceptors
+T19	GENE-Y 610 615	GluR5
+N13	Name Annotation:T19 Referent:glur5
+T7	CHEMICAL 625 635	Topiramate
+N14	Name Annotation:T7 Referent:topiramate
+T8	CHEMICAL 675 679	AMPA
+N15	Name Annotation:T8 Referent:ampa
+T20	GENE-N 675 688	AMPA-receptor
+N16	Name Annotation:T20 Referent:ampareceptor
+T9	CHEMICAL 730 740	Topiramate
+N17	Name Annotation:T9 Referent:topiramate
+T21	GENE-Y 984 989	GluR5
+N18	Name Annotation:T21 Referent:glur5
+T10	CHEMICAL 990 997	kainate
+N19	Name Annotation:T10 Referent:kainate
+T22	GENE-N 990 1007	kainate receptors
+N20	Name Annotation:T22 Referent:kainatereceptors
+T11	CHEMICAL 1082 1092	topiramate
+N21	Name Annotation:T11 Referent:topiramate
+T14	GENE-Y 1143 1148	GluR5
+N22	Name Annotation:T14 Referent:glur5
+T2	CHEMICAL 1149 1156	kainate
+N23	Name Annotation:T2 Referent:kainate
+T15	GENE-N 1149 1166	kainate receptors
+N24	Name Annotation:T15 Referent:kainatereceptors
+R1	ANTAGONIST Arg1:T13 Arg2:T23
+R2	ANTAGONIST Arg1:T13 Arg2:T24
+R3	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T20
+R4	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T18
+R5	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T19
+R6	INHIBITOR Arg1:T11 Arg2:T21
+R7	INHIBITOR Arg1:T11 Arg2:T22

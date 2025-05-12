@@ -1,0 +1,208 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "glutamate dehydrogenase",
+            "Name": "glutamatedehydrogenase"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Mammalian glutamate dehydrogenase",
+            "Name": "mammalianglutamatedehydrogenase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "GDH",
+            "Name": "gdh"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "l-glutamate",
+            "Name": "lglutamate"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "2-oxoglutarate",
+            "Name": "2oxoglutarate"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "NAD(P)(+)",
+            "Name": "nadp"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "mammalian GDH",
+            "Name": "mammaliangdh"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "GDH",
+            "Name": "gdh"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "GTP",
+            "Name": "gtp"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "GDH",
+            "Name": "gdh"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "epigallocatechin gallate",
+            "Name": "epigallocatechingallate"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "epicatechin gallate",
+            "Name": "epicatechingallate"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "hexachlorophene",
+            "Name": "hexachlorophene"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "GW5074",
+            "Name": "gw5074"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "bithionol",
+            "Name": "bithionol"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "GDH",
+            "Name": "gdh"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Hexachlorophene",
+            "Name": "hexachlorophene"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "GDH",
+            "Name": "gdh"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "GDH",
+            "Name": "gdh"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "GW5074",
+            "Name": "gw5074"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "bithionol",
+            "Name": "bithionol"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "GDH",
+            "Name": "gdh"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "GDH",
+            "Name": "gdh"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T15"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T19"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T13",
+            "target": "T24"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T13",
+            "target": "T25"
+        }
+    ]
+}

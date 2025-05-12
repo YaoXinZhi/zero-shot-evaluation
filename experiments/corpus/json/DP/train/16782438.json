@@ -1,0 +1,199 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "RET",
+            "Name": "ret"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "RET",
+            "Name": "ret"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "tyrosine kinase receptor",
+            "Name": "tyrosinekinasereceptor"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "RET receptors",
+            "Name": "retreceptors"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "RET",
+            "Name": "ret"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Y1062",
+            "Name": "y1062"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "3-[4,5-dimethylthiazol-2-yl]-2,5-diphenyltetrazolium bromide",
+            "Name": "345dimethylthiazol2yl25diphenyltetrazoliumbromide"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "propidium iodide",
+            "Name": "propidiumiodide"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "RET",
+            "Name": "ret"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "Y1062",
+            "Name": "y1062"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "RET",
+            "Name": "ret"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Y1062",
+            "Name": "y1062"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "RET",
+            "Name": "ret"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "RET",
+            "Name": "ret"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "RET",
+            "Name": "ret"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "imatinib",
+            "Name": "imatinib"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T18"
+        }
+    ]
+}

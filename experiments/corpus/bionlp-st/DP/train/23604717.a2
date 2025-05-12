@@ -1,0 +1,96 @@
+T25	CHEMICAL 21 51	salicylideneamino-2-thiophenol
+N1	Name Annotation:T25 Referent:salicylideneamino2thiophenol
+T39	GENE-N 55 60	NF-κB
+N2	Name Annotation:T39 Referent:nfκb
+T40	GENE-Y 83 99	cyclooxygenase-2
+N3	Name Annotation:T40 Referent:cyclooxygenase2
+T24	CHEMICAL 103 106	HNE
+N4	Name Annotation:T24 Referent:hne
+T11	CHEMICAL 188 218	salicylideneamino-2-thiophenol
+N5	Name Annotation:T11 Referent:salicylideneamino2thiophenol
+T20	CHEMICAL 220 225	SAL-2
+N6	Name Annotation:T20 Referent:sal2
+T2	CHEMICAL 244 254	salicylate
+N7	Name Annotation:T2 Referent:salicylate
+T4	CHEMICAL 276 292	4-hydroxynonenal
+N8	Name Annotation:T4 Referent:4hydroxynonenal
+T5	CHEMICAL 294 297	HNE
+N9	Name Annotation:T5 Referent:hne
+T6	CHEMICAL 432 437	SAL-2
+N10	Name Annotation:T6 Referent:sal2
+T29	GENE-Y 486 491	COX-2
+N11	Name Annotation:T29 Referent:cox2
+T30	GENE-Y 496 500	iNOS
+N12	Name Annotation:T30 Referent:inos
+T31	GENE-N 540 545	NF-κB
+N13	Name Annotation:T31 Referent:nfκb
+T7	CHEMICAL 582 587	SAL-2
+N14	Name Annotation:T7 Referent:sal2
+T8	CHEMICAL 610 613	HNE
+N15	Name Annotation:T8 Referent:hne
+T9	CHEMICAL 669 672	GSH
+N16	Name Annotation:T9 Referent:gsh
+T10	CHEMICAL 673 677	GSSG
+N17	Name Annotation:T10 Referent:gssg
+T12	CHEMICAL 699 706	(PG) E2
+N18	Name Annotation:T12 Referent:pge2
+T13	CHEMICAL 732 748	arachidonic acid
+N19	Name Annotation:T13 Referent:arachidonicacid
+T14	CHEMICAL 767 772	SAL-2
+N20	Name Annotation:T14 Referent:sal2
+T15	CHEMICAL 774 779	SAL-2
+N21	Name Annotation:T15 Referent:sal2
+T32	GENE-Y 799 804	COX-2
+N22	Name Annotation:T32 Referent:cox2
+T33	GENE-Y 809 813	iNOS
+N23	Name Annotation:T33 Referent:inos
+T16	CHEMICAL 836 839	HNE
+N24	Name Annotation:T16 Referent:hne
+T17	CHEMICAL 845 855	salicylate
+N25	Name Annotation:T17 Referent:salicylate
+T18	CHEMICAL 879 884	SAL-2
+N26	Name Annotation:T18 Referent:sal2
+T19	CHEMICAL 895 898	HNE
+N27	Name Annotation:T19 Referent:hne
+T34	GENE-N 908 911	IKK
+N28	Name Annotation:T34 Referent:ikk
+T35	GENE-Y 929 933	IκBα
+N29	Name Annotation:T35 Referent:iκbα
+T36	GENE-Y 975 978	p65
+N30	Name Annotation:T36 Referent:p65
+T37	GENE-N 999 1004	NF-κB
+N31	Name Annotation:T37 Referent:nfκb
+T21	CHEMICAL 1030 1035	SAL-2
+N32	Name Annotation:T21 Referent:sal2
+T22	CHEMICAL 1046 1049	HNE
+N33	Name Annotation:T22 Referent:hne
+T38	GENE-N 1072 1105	mitogen-activated protein kinases
+N34	Name Annotation:T38 Referent:mitogenactivatedproteinkinases
+T23	CHEMICAL 1121 1126	SAL-2
+N35	Name Annotation:T23 Referent:sal2
+T26	GENE-Y 1137 1142	COX-2
+N36	Name Annotation:T26 Referent:cox2
+T27	GENE-Y 1147 1151	iNOS
+N37	Name Annotation:T27 Referent:inos
+T28	GENE-N 1191 1196	NF-κB
+N38	Name Annotation:T28 Referent:nfκb
+T1	CHEMICAL 1226 1230	PGE2
+N39	Name Annotation:T1 Referent:pge2
+T3	CHEMICAL 1357 1362	SAL-2
+N40	Name Annotation:T3 Referent:sal2
+R1	INHIBITOR Arg1:T25 Arg2:T39
+R2	INHIBITOR Arg1:T25 Arg2:T40
+R3	INDIRECT-DOWNREGULATOR Arg1:T15 Arg2:T32
+R4	INDIRECT-DOWNREGULATOR Arg1:T15 Arg2:T33
+R5	INDIRECT-UPREGULATOR Arg1:T16 Arg2:T32
+R6	INDIRECT-UPREGULATOR Arg1:T16 Arg2:T33
+R7	ACTIVATOR Arg1:T19 Arg2:T34
+R8	INHIBITOR Arg1:T18 Arg2:T34
+R9	ACTIVATOR Arg1:T19 Arg2:T37
+R10	INHIBITOR Arg1:T18 Arg2:T37
+R11	ACTIVATOR Arg1:T22 Arg2:T38
+R12	INHIBITOR Arg1:T21 Arg2:T38
+R13	INDIRECT-DOWNREGULATOR Arg1:T23 Arg2:T26
+R14	INDIRECT-DOWNREGULATOR Arg1:T23 Arg2:T27
+R15	INDIRECT-DOWNREGULATOR Arg1:T23 Arg2:T28
+R16	PRODUCT-OF Arg1:T1 Arg2:T26

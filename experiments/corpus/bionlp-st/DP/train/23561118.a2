@@ -1,0 +1,41 @@
+T18	GENE-Y 114 121	insulin
+N1	Name Annotation:T18 Referent:insulin
+T1	CHEMICAL 296 303	ethanol
+N2	Name Annotation:T1 Referent:ethanol
+T2	CHEMICAL 412 420	phenolic
+N3	Name Annotation:T2 Referent:phenolic
+T3	CHEMICAL 425 434	flavonoid
+N4	Name Annotation:T3 Referent:flavonoid
+T4	CHEMICAL 455 468	polyphenolics
+N5	Name Annotation:T4 Referent:polyphenolics
+T5	CHEMICAL 470 482	ferulic acid
+N6	Name Annotation:T5 Referent:ferulicacid
+T6	CHEMICAL 487 496	quercetin
+N7	Name Annotation:T6 Referent:quercetin
+T7	CHEMICAL 554 566	ferulic acid
+N8	Name Annotation:T7 Referent:ferulicacid
+T8	CHEMICAL 571 580	quercetin
+N9	Name Annotation:T8 Referent:quercetin
+T9	CHEMICAL 713 722	quercetin
+N10	Name Annotation:T9 Referent:quercetin
+T10	CHEMICAL 731 743	ferulic acid
+N11	Name Annotation:T10 Referent:ferulicacid
+T11	CHEMICAL 879 885	oxygen
+N12	Name Annotation:T11 Referent:oxygen
+T13	GENE-Y 990 999	caspase-9
+N13	Name Annotation:T13 Referent:caspase9
+T14	GENE-Y 1004 1013	caspase-3
+N14	Name Annotation:T14 Referent:caspase3
+T12	CHEMICAL 1034 1051	poly (ADP-ribose)
+N15	Name Annotation:T12 Referent:polyadpribose
+T15	GENE-N 1034 1062	poly (ADP-ribose) polymerase
+N16	Name Annotation:T15 Referent:polyadpribosepolymerase
+T16	GENE-N 1105 1115	homeobox 1
+N17	Name Annotation:T16 Referent:homeobox1
+T17	GENE-Y 1140 1147	insulin
+N18	Name Annotation:T17 Referent:insulin
+R1	INHIBITOR Arg1:T9 Arg2:T13
+R2	INHIBITOR Arg1:T9 Arg2:T14
+R3	INHIBITOR Arg1:T9 Arg2:T15
+R4	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T16
+R5	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T17

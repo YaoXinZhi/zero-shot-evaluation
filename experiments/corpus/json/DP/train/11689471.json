@@ -1,0 +1,209 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Aspirin",
+            "Name": "aspirin"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "salicylate",
+            "Name": "salicylate"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "immunoglobulin heavy chain binding protein",
+            "Name": "immunoglobulinheavychainbindingprotein"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "BiP",
+            "Name": "bip"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "ATPase",
+            "Name": "atpase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Salicylic acid",
+            "Name": "salicylicacid"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "SA",
+            "Name": "sa"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Aspirin",
+            "Name": "aspirin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "sodium salicylate",
+            "Name": "sodiumsalicylate"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "salicylates",
+            "Name": "salicylates"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "salicylate binding protein",
+            "Name": "salicylatebindingprotein"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "immunoglobulin heavy chain binding protein",
+            "Name": "immunoglobulinheavychainbindingprotein"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "BiP",
+            "Name": "bip"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "SA",
+            "Name": "sa"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "BiP",
+            "Name": "bip"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "BiP",
+            "Name": "bip"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "chaperone protein",
+            "Name": "chaperoneprotein"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "heptapeptide sequence",
+            "Name": "heptapeptidesequence"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "ATP binding site",
+            "Name": "atpbindingsite"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "SA",
+            "Name": "sa"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Salicylates",
+            "Name": "salicylates"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "ATPase",
+            "Name": "atpase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "BiP",
+            "Name": "bip"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "salicylates",
+            "Name": "salicylates"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "BiP",
+            "Name": "bip"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T12",
+            "target": "T25"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T13",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T27"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T24"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T24"
+        }
+    ]
+}

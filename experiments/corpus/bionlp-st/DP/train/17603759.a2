@@ -1,0 +1,88 @@
+T20	CHEMICAL 123 143	L-2-hydroxyglutarate
+N1	Name Annotation:T20 Referent:l2hydroxyglutarate
+T5	CHEMICAL 198 218	L-2-hydroxyglutarate
+N2	Name Annotation:T5 Referent:l2hydroxyglutarate
+T31	GENE-Y 198 232	L-2-hydroxyglutarate dehydrogenase
+N3	Name Annotation:T31 Referent:l2hydroxyglutaratedehydrogenase
+T11	CHEMICAL 268 288	L-2-hydroxyglutarate
+N4	Name Annotation:T11 Referent:l2hydroxyglutarate
+T12	CHEMICAL 292 311	alpha-ketoglutarate
+N5	Name Annotation:T12 Referent:alphaketoglutarate
+T13	CHEMICAL 331 351	L-2-hydroxyglutarate
+N6	Name Annotation:T13 Referent:l2hydroxyglutarate
+T14	CHEMICAL 333 351	2-hydroxyglutarate
+N7	Name Annotation:T14 Referent:2hydroxyglutarate
+T15	CHEMICAL 471 490	alpha-ketoglutarate
+N8	Name Annotation:T15 Referent:alphaketoglutarate
+T16	CHEMICAL 511 531	L-2-hydroxyglutarate
+N9	Name Annotation:T16 Referent:l2hydroxyglutarate
+T17	CHEMICAL 587 606	alpha-ketoglutarate
+N10	Name Annotation:T17 Referent:alphaketoglutarate
+T18	CHEMICAL 612 615	NAD
+N11	Name Annotation:T18 Referent:nad
+T34	GENE-N 612 646	NAD- or NADP-linked oxidoreductase
+N12	Name Annotation:T34 Referent:nadornadplinkedoxidoreductase
+T19	CHEMICAL 620 624	NADP
+N13	Name Annotation:T19 Referent:nadp
+T21	CHEMICAL 776 795	alpha-ketoglutarate
+N14	Name Annotation:T21 Referent:alphaketoglutarate
+T22	CHEMICAL 815 819	NADH
+N15	Name Annotation:T22 Referent:nadh
+T35	GENE-Y 850 882	cytosolic L-malate dehydrogenase
+N16	Name Annotation:T35 Referent:cytosoliclmalatedehydrogenase
+T23	CHEMICAL 860 868	L-malate
+N17	Name Annotation:T23 Referent:lmalate
+T36	GENE-Y 884 888	cMDH
+N18	Name Annotation:T36 Referent:cmdh
+T24	CHEMICAL 921 935	Blue Sepharose
+N19	Name Annotation:T24 Referent:bluesepharose
+T25	CHEMICAL 979 983	NADH
+N20	Name Annotation:T25 Referent:nadh
+T26	CHEMICAL 993 1012	alpha-ketoglutarate
+N21	Name Annotation:T26 Referent:alphaketoglutarate
+T37	GENE-Y 993 1022	alpha-ketoglutarate reductase
+N22	Name Annotation:T37 Referent:alphaketoglutaratereductase
+T38	GENE-Y 1058 1094	mitochondrial L-malate dehydrogenase
+N23	Name Annotation:T38 Referent:mitochondriallmalatedehydrogenase
+T1	CHEMICAL 1072 1080	L-malate
+N24	Name Annotation:T1 Referent:lmalate
+T27	GENE-Y 1096 1100	mMDH
+N25	Name Annotation:T27 Referent:mmdh
+T28	GENE-Y 1112 1116	mMDH
+N26	Name Annotation:T28 Referent:mmdh
+T2	CHEMICAL 1144 1163	alpha-ketoglutarate
+N27	Name Annotation:T2 Referent:alphaketoglutarate
+T3	CHEMICAL 1167 1187	L-2-hydroxyglutarate
+N28	Name Annotation:T3 Referent:l2hydroxyglutarate
+T4	CHEMICAL 1272 1284	oxaloacetate
+N29	Name Annotation:T4 Referent:oxaloacetate
+T29	GENE-Y 1393 1397	cMDH
+N30	Name Annotation:T29 Referent:cmdh
+T30	GENE-Y 1402 1406	mMDH
+N31	Name Annotation:T30 Referent:mmdh
+T6	CHEMICAL 1440 1459	alpha-ketoglutarate
+N32	Name Annotation:T6 Referent:alphaketoglutarate
+T7	CHEMICAL 1487 1499	oxaloacetate
+N33	Name Annotation:T7 Referent:oxaloacetate
+T32	GENE-Y 1601 1605	mMDH
+N34	Name Annotation:T32 Referent:mmdh
+T8	CHEMICAL 1609 1628	alpha-ketoglutarate
+N35	Name Annotation:T8 Referent:alphaketoglutarate
+T9	CHEMICAL 1672 1692	L-2-hydroxyglutarate
+N36	Name Annotation:T9 Referent:l2hydroxyglutarate
+T10	CHEMICAL 1746 1766	L-2-hydroxyglutarate
+N37	Name Annotation:T10 Referent:l2hydroxyglutarate
+T33	GENE-Y 1746 1780	L-2-hydroxyglutarate dehydrogenase
+N38	Name Annotation:T33 Referent:l2hydroxyglutaratedehydrogenase
+R1	SUBSTRATE Arg1:T20 Arg2:T31
+R2	SUBSTRATE Arg1:T11 Arg2:T31
+R3	PRODUCT-OF Arg1:T12 Arg2:T31
+R4	SUBSTRATE Arg1:T2 Arg2:T28
+R5	PRODUCT-OF Arg1:T3 Arg2:T28
+R6	SUBSTRATE Arg1:T9 Arg2:T33
+R7	SUBSTRATE Arg1:T8 Arg2:T32
+R8	SUBSTRATE Arg1:T17 Arg2:T34
+R9	PRODUCT-OF Arg1:T16 Arg2:T34
+R10	SUBSTRATE_PRODUCT-OF Arg1:T4 Arg2:T28
+R11	SUBSTRATE Arg1:T7 Arg2:T29
+R12	SUBSTRATE_PRODUCT-OF Arg1:T7 Arg2:T30

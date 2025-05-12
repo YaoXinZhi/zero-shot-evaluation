@@ -1,0 +1,130 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "naloxone-steroid hybrid azine",
+            "Name": "naloxonesteroidhybridazine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "delta receptors",
+            "Name": "deltareceptors"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "naloxone estrone azine",
+            "Name": "naloxoneestroneazine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "N-EH",
+            "Name": "neh"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "opioid receptor",
+            "Name": "opioidreceptor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "naloxone",
+            "Name": "naloxone"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "N-EH",
+            "Name": "neh"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "naloxone",
+            "Name": "naloxone"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "D-Ala2-Leu5-enkephalin",
+            "Name": "dala2leu5enkephalin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "normorphine",
+            "Name": "normorphine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "N-EH",
+            "Name": "neh"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "3H-D-Ala2-Leu5-enkephalin",
+            "Name": "3hdala2leu5enkephalin"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "3H-dihydromorphine",
+            "Name": "3hdihydromorphine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "3H-ethylketocyclazocine",
+            "Name": "3hethylketocyclazocine"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "N-EH",
+            "Name": "neh"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "naloxone",
+            "Name": "naloxone"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "naloxone",
+            "Name": "naloxone"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "N-EH",
+            "Name": "neh"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T17"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T16",
+            "target": "T18"
+        }
+    ]
+}

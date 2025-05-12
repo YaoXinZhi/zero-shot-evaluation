@@ -1,0 +1,223 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Sitagliptin",
+            "Name": "sitagliptin"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "DPP-4",
+            "Name": "dpp4"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "glucagon",
+            "Name": "glucagon"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "incretin",
+            "Name": "incretin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Glucagon-like peptide-1",
+            "Name": "glucagonlikepeptide1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "GLP-1",
+            "Name": "glp1"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "glucose-dependent insulinotropic peptide",
+            "Name": "glucosedependentinsulinotropicpeptide"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "GIP",
+            "Name": "gip"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "incretin",
+            "Name": "incretin"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Dipeptidyl-peptidase IV",
+            "Name": "dipeptidylpeptidaseiv"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "DPP-4",
+            "Name": "dpp4"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "GLP-1",
+            "Name": "glp1"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "GIP",
+            "Name": "gip"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Sitagliptin",
+            "Name": "sitagliptin"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "DPP-4",
+            "Name": "dpp4"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Sitagliptin",
+            "Name": "sitagliptin"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "DPP-4",
+            "Name": "dpp4"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "sitagliptin",
+            "Name": "sitagliptin"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "hemoglobin A1c",
+            "Name": "hemoglobina1c"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "HbA1c",
+            "Name": "hba1c"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "glucagon",
+            "Name": "glucagon"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Sitagliptin",
+            "Name": "sitagliptin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Sitagliptin",
+            "Name": "sitagliptin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "metformin",
+            "Name": "metformin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "sitagliptin",
+            "Name": "sitagliptin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T28"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T29"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T30"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T13"
+        }
+    ]
+}

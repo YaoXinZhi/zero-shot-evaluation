@@ -1,0 +1,138 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "benzofuran",
+            "Name": "benzofuran"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "leukotriene A(4)",
+            "Name": "leukotrienea4"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "leukotriene A(4) hydrolase",
+            "Name": "leukotrienea4hydrolase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Leukotrienes",
+            "Name": "leukotrienes"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Leukotriene A(4)",
+            "Name": "leukotrienea4"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Leukotriene A(4) hydrolase",
+            "Name": "leukotrienea4hydrolase"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "LTA(4)H",
+            "Name": "lta4h"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "LTA(4)",
+            "Name": "lta4"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "LTB(4)",
+            "Name": "ltb4"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "LTB(4)",
+            "Name": "ltb4"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "benzofurans",
+            "Name": "benzofurans"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "LTH(4)H",
+            "Name": "lth4h"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "benzofuran",
+            "Name": "benzofuran"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "LTB(4)",
+            "Name": "ltb4"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Benzofuran",
+            "Name": "benzofuran"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "LTA(4)H",
+            "Name": "lta4h"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T14"
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+T10	CHEMICAL 4 12	tyrosine
+N1	Name Annotation:T10 Referent:tyrosine
+T25	GENE 4 19	tyrosine kinase
+N2	Name Annotation:T25 Referent:tyrosinekinase
+T8	CHEMICAL 30 36	ZD1839
+N3	Name Annotation:T8 Referent:zd1839
+T9	CHEMICAL 39 45	Iressa
+N4	Name Annotation:T9 Referent:iressa
+T26	GENE 57 61	HER2
+N5	Name Annotation:T26 Referent:her2
+T24	GENE 108 112	HER2
+N6	Name Annotation:T24 Referent:her2
+T16	GENE 145 177	epidermal growth factor receptor
+N7	Name Annotation:T16 Referent:epidermalgrowthfactorreceptor
+T15	GENE 179 183	EGFR
+N8	Name Annotation:T15 Referent:egfr
+T2	CHEMICAL 291 297	ZD1839
+N9	Name Annotation:T2 Referent:zd1839
+T3	CHEMICAL 300 306	Iressa
+N10	Name Annotation:T3 Referent:iressa
+T4	CHEMICAL 312 332	quinazoline tyrosine
+N11	Name Annotation:T4 Referent:quinazolinetyrosine
+T13	GENE 324 339	tyrosine kinase
+N12	Name Annotation:T13 Referent:tyrosinekinase
+T14	GENE 368 372	EGFR
+N13	Name Annotation:T14 Referent:egfr
+T5	CHEMICAL 641 647	ZD1839
+N14	Name Annotation:T5 Referent:zd1839
+T17	GENE 740 744	HER2
+N15	Name Annotation:T17 Referent:her2
+T6	CHEMICAL 798 804	ZD1839
+N16	Name Annotation:T6 Referent:zd1839
+T18	GENE 895 899	EGFR
+N17	Name Annotation:T18 Referent:egfr
+T19	GENE 901 905	HER2
+N18	Name Annotation:T19 Referent:her2
+T20	GENE 911 915	HER3
+N19	Name Annotation:T20 Referent:her3
+T7	CHEMICAL 969 989	phosphatidylinositol
+N20	Name Annotation:T7 Referent:phosphatidylinositol
+T21	GENE 969 998	phosphatidylinositol 3-kinase
+N21	Name Annotation:T21 Referent:phosphatidylinositol3kinase
+T22	GENE 1023 1026	Akt
+N22	Name Annotation:T22 Referent:akt
+T23	GENE 1064 1068	HER2
+N23	Name Annotation:T23 Referent:her2
+T11	GENE 1141 1144	HER
+N24	Name Annotation:T11 Referent:her
+T1	CHEMICAL 1152 1160	tyrosine
+N25	Name Annotation:T1 Referent:tyrosine
+T12	GENE 1152 1167	tyrosine kinase
+N26	Name Annotation:T12 Referent:tyrosinekinase
+R1	INHIBITOR Arg1:T2 Arg2:T13
+R2	INHIBITOR Arg1:T2 Arg2:T14
+R3	INHIBITOR Arg1:T3 Arg2:T13
+R4	INHIBITOR Arg1:T3 Arg2:T14
+R5	INHIBITOR Arg1:T8 Arg2:T25
+R6	INHIBITOR Arg1:T8 Arg2:T26
+R7	INHIBITOR Arg1:T9 Arg2:T24
+R8	INHIBITOR Arg1:T9 Arg2:T25
+R9	INHIBITOR Arg1:T9 Arg2:T26
+R10	SUBSTRATE Arg1:T10 Arg2:T25
+R11	SUBSTRATE Arg1:T1 Arg2:T12
+R12	SUBSTRATE Arg1:T4 Arg2:T13
+R13	SUBSTRATE Arg1:T7 Arg2:T21

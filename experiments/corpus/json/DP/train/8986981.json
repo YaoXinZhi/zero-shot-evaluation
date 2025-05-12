@@ -1,0 +1,144 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "alpha-adrenoceptor",
+            "Name": "alphaadrenoceptor"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "alpha-adrenoceptor",
+            "Name": "alphaadrenoceptor"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "alpha 1-adrenoceptors",
+            "Name": "alpha1adrenoceptors"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "methoxamine",
+            "Name": "methoxamine"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "alpha 2-adrenoceptor",
+            "Name": "alpha2adrenoceptor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "BHT 933",
+            "Name": "bht933"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "WB 4101",
+            "Name": "wb4101"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "alpha 1A-adrenoceptor",
+            "Name": "alpha1aadrenoceptor"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "clorethylclonidine",
+            "Name": "clorethylclonidine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "CEC",
+            "Name": "cec"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "alpha 1B-adrenoceptor",
+            "Name": "alpha1badrenoceptor"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "methoxamine",
+            "Name": "methoxamine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "BHT 933",
+            "Name": "bht933"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "alpha 2-adrenoceptor",
+            "Name": "alpha2adrenoceptor"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "WB 4101",
+            "Name": "wb4101"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "CEC",
+            "Name": "cec"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "alpha 2-adrenoceptors",
+            "Name": "alpha2adrenoceptors"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T5",
+            "target": "T15"
+        },
+        {
+            "type": "Agonist",
+            "source": "T7",
+            "target": "T16"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Activator",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T16"
+        }
+    ]
+}

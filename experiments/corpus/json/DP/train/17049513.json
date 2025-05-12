@@ -1,0 +1,241 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Imatinib mesylate",
+            "Name": "imatinibmesylate"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Gleevec",
+            "Name": "gleevec"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "imatinib mesylate",
+            "Name": "imatinibmesylate"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "BCR",
+            "Name": "bcr"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "ABL",
+            "Name": "abl"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "platelet derived growth factor (PDGF) receptor",
+            "Name": "plateletderivedgrowthfactorpdgfreceptor"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "macrophage colony stimulating factor (M-CSF) receptor",
+            "Name": "macrophagecolonystimulatingfactormcsfreceptor"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "c-FMS",
+            "Name": "cfms"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "M-CSF",
+            "Name": "mcsf"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "c-FMS",
+            "Name": "cfms"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "caspase I",
+            "Name": "caspasei"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "M-CSF",
+            "Name": "mcsf"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "M-CSF",
+            "Name": "mcsf"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "interleukin 1alpha",
+            "Name": "interleukin1alpha"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "IL-1alpha",
+            "Name": "il1alpha"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "receptor activator of nuclear factor kappa B ligand",
+            "Name": "receptoractivatorofnuclearfactorkappabligand"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "RANKL",
+            "Name": "rankl"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "c-FMS",
+            "Name": "cfms"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "M-CSF",
+            "Name": "mcsf"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T19"
+        }
+    ]
+}

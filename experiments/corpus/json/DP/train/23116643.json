@@ -1,0 +1,233 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Rosmarinic acid",
+            "Name": "rosmarinicacid"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "carbon tetrachloride",
+            "Name": "carbontetrachloride"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "rosmarinic acid",
+            "Name": "rosmarinicacid"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "CCl(4)",
+            "Name": "ccl4"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "CCl(4)",
+            "Name": "ccl4"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "ALT",
+            "Name": "alt"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "3-nitrotyrosine",
+            "Name": "3nitrotyrosine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "3-NT",
+            "Name": "3nt"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "thiobarbituric acid",
+            "Name": "thiobarbituricacid"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Cu",
+            "Name": "cu"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Cu/Zn superoxide dismutase",
+            "Name": "cuznsuperoxidedismutase"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Zn",
+            "Name": "zn"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "superoxide",
+            "Name": "superoxide"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "SOD",
+            "Name": "sod"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "CCl(4)",
+            "Name": "ccl4"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "nuclear factor-kappaB",
+            "Name": "nuclearfactorkappab"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "tumor necrosis factor-alpha",
+            "Name": "tumornecrosisfactoralpha"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "TNF-\u03b1",
+            "Name": "tnf\u03b1"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "cyclooxygenase-2",
+            "Name": "cyclooxygenase2"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "transforming growth factor-beta1",
+            "Name": "transforminggrowthfactorbeta1"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "TGF-\u03b21",
+            "Name": "tgf\u03b21"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "alpha-smooth muscle actin",
+            "Name": "alphasmoothmuscleactin"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "\u03b1-SMA",
+            "Name": "\u03b1sma"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "CCl(4)",
+            "Name": "ccl4"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "NF-E2-related factor 2",
+            "Name": "nfe2relatedfactor2"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "Nrf2",
+            "Name": "nrf2"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "heme oxygenase-1",
+            "Name": "hemeoxygenase1"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "HO-1",
+            "Name": "ho1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T22"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T25"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T26"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T27"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T28"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T29"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T30"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T17"
+        }
+    ]
+}

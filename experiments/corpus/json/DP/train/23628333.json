@@ -1,0 +1,93 @@
+{
+    "entities": [
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "2-thio-6-oxo-1,6-dihydropyrimidines",
+            "Name": "2thio6oxo16dihydropyrimidines"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "human lactate dehydrogenase",
+            "Name": "humanlactatedehydrogenase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "lactate",
+            "Name": "lactate"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "2-thio-6-oxo-1,6-dihydropyrimidine",
+            "Name": "2thio6oxo16dihydropyrimidine"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "human lactate dehydrogenase",
+            "Name": "humanlactatedehydrogenase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "lactate",
+            "Name": "lactate"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "LDH",
+            "Name": "ldh"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "human LDHA",
+            "Name": "humanldha"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "NADH",
+            "Name": "nadh"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "LDHA",
+            "Name": "ldha"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "human LDHA",
+            "Name": "humanldha"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T6"
+        }
+    ]
+}

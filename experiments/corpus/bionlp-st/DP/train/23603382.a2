@@ -1,0 +1,50 @@
+T14	CHEMICAL 22 30	selenium
+N1	Name Annotation:T14 Referent:selenium
+T13	CHEMICAL 136 143	arsenic
+N2	Name Annotation:T13 Referent:arsenic
+T1	CHEMICAL 145 152	Arsenic
+N3	Name Annotation:T1 Referent:arsenic
+T11	CHEMICAL 154 156	As
+N4	Name Annotation:T11 Referent:as
+T4	CHEMICAL 379 387	selenium
+N5	Name Annotation:T4 Referent:selenium
+T5	CHEMICAL 419 426	arsenic
+N6	Name Annotation:T5 Referent:arsenic
+T6	CHEMICAL 768 775	Na2SeO3
+N7	Name Annotation:T6 Referent:na2seo3
+T7	CHEMICAL 788 791	MDA
+N8	Name Annotation:T7 Referent:mda
+T8	CHEMICAL 894 901	Na2SeO3
+N9	Name Annotation:T8 Referent:na2seo3
+T15	GENE-Y 941 945	SOD1
+N10	Name Annotation:T15 Referent:sod1
+T16	GENE-Y 947 950	CAT
+N11	Name Annotation:T16 Referent:cat
+T17	GENE-N 952 955	GPx
+N12	Name Annotation:T17 Referent:gpx
+T18	GENE-Y 960 966	Txnrd1
+N13	Name Annotation:T18 Referent:txnrd1
+T9	CHEMICAL 1021 1028	Na2SeO3
+N14	Name Annotation:T9 Referent:na2seo3
+T10	CHEMICAL 1029 1035	NaAsO2
+N15	Name Annotation:T10 Referent:naaso2
+T19	GENE-N 1072 1077	HSP70
+N16	Name Annotation:T19 Referent:hsp70
+T20	GENE-Y 1082 1086	HO-1
+N17	Name Annotation:T20 Referent:ho1
+T12	CHEMICAL 1132 1138	NaAsO2
+N18	Name Annotation:T12 Referent:naaso2
+T2	CHEMICAL 1236 1242	NaAsO2
+N19	Name Annotation:T2 Referent:naaso2
+T3	CHEMICAL 1289 1296	Na2SeO3
+N20	Name Annotation:T3 Referent:na2seo3
+R1	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T18
+R2	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T17
+R3	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T16
+R4	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T15
+R5	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T18
+R6	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T17
+R7	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T16
+R8	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T15
+R9	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T20
+R10	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T19

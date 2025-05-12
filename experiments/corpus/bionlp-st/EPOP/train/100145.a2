@@ -1,0 +1,38 @@
+T7	Pest 81 102	Spodoptera frugiperda
+T8	Pest 107 124	Spodoptera litura
+T9	Pest 260 281	Spodoptera frugiperda
+T10	Pest 286 303	Spodoptera litura
+T11	Date 380 392	29 July 2022
+T12	Location 683 688	China
+T13	Pest 785 806	Spodoptera frugiperda
+T14	Pest 818 835	Spodoptera litura
+T15	Pest 957 970	S. frugiperda
+T16	Pest 975 984	S. litura
+T17	Pest 1514 1524	Spodoptera
+T18	Pest 1618 1627	S. litura
+T19	Pest 1633 1646	S. frugiperda
+T20	Pest 2001 2014	S. frugiperda
+T21	Location 2018 2023	China
+N1	NCBI_Taxonomy Annotation:T7 Referent:7108
+N2	NCBI_Taxonomy Annotation:T8 Referent:69820
+N3	NCBI_Taxonomy Annotation:T9 Referent:7108
+N4	NCBI_Taxonomy Annotation:T10 Referent:69820
+N5	GeoNames Annotation:T12 Referent:1814991
+N6	NCBI_Taxonomy Annotation:T13 Referent:7108
+N7	NCBI_Taxonomy Annotation:T14 Referent:69820
+N8	NCBI_Taxonomy Annotation:T15 Referent:7108
+N9	NCBI_Taxonomy Annotation:T16 Referent:69820
+N10	NCBI_Taxonomy Annotation:T17 Referent:7108
+N11	NCBI_Taxonomy Annotation:T17 Referent:69820
+N12	NCBI_Taxonomy Annotation:T18 Referent:69820
+N13	NCBI_Taxonomy Annotation:T19 Referent:7108
+N14	NCBI_Taxonomy Annotation:T20 Referent:7108
+N15	GeoNames Annotation:T21 Referent:1814991
+R1	Located_in Object:T13 Location:T12
+R2	Located_in Object:T14 Location:T12
+R3	Located_in Object:T20 Location:T21
+E1	Nary Organisme_nuisible:T13 Lieu:T12
+E2	Nary Organisme_nuisible:T14 Lieu:T12
+E3	Nary Organisme_nuisible:T20 Lieu:T21
+*	Equiv T16 T14
+*	Equiv T15 T13

@@ -1,0 +1,58 @@
+T10	CHEMICAL 60 61	C
+N1	Name Annotation:T10 Referent:c
+T1	CHEMICAL 82 83	C
+N2	Name Annotation:T1 Referent:c
+T12	GENE-Y 229 265	peptidylglycine alpha-mono-oxygenase
+N3	Name Annotation:T12 Referent:peptidylglycinealphamonooxygenase
+T15	GENE-Y 267 270	PAM
+N4	Name Annotation:T15 Referent:pam
+T16	GENE-Y 272 284	EC 1.14.17.3
+N5	Name Annotation:T16 Referent:ec114173
+T17	GENE-Y 290 318	peptidylamidoglycolate lyase
+N6	Name Annotation:T17 Referent:peptidylamidoglycolatelyase
+T18	GENE-Y 320 323	PGL
+N7	Name Annotation:T18 Referent:pgl
+T19	GENE-Y 325 335	EC 4.3.2.5
+N8	Name Annotation:T19 Referent:ec4325
+T20	GENE-Y 500 503	PAM
+N9	Name Annotation:T20 Referent:pam
+T21	GENE-Y 528 531	PAM
+N10	Name Annotation:T21 Referent:pam
+T8	CHEMICAL 548 644	4-oxo-5-acetamido-6-phenyl-hex-2-enoic acid and 4-oxo-5-acetamido-6-(2-thienyl)-hex-2-enoic acid
+N11	Name Annotation:T8 Referent:4oxo5acetamido6phenylhex2enoicacidand4oxo5acetamido62thienylhex2enoicacid
+T9	CHEMICAL 596 644	4-oxo-5-acetamido-6-(2-thienyl)-hex-2-enoic acid
+N12	Name Annotation:T9 Referent:4oxo5acetamido62thienylhex2enoicacid
+T2	CHEMICAL 1095 1110	benzoylacrylate
+N13	Name Annotation:T2 Referent:benzoylacrylate
+T11	GENE-Y 1227 1230	PAM
+N14	Name Annotation:T11 Referent:pam
+T3	CHEMICAL 1247 1295	4-oxo-5-acetamido-6-(2-thienyl)-hex-2-enoic acid
+N15	Name Annotation:T3 Referent:4oxo5acetamido62thienylhex2enoicacid
+T4	CHEMICAL 1461 1505	2, 4-dioxo-5-acetamido-6-phenylhexanoic acid
+N16	Name Annotation:T4 Referent:24dioxo5acetamido6phenylhexanoicacid
+T5	CHEMICAL 1556 1565	ascorbate
+N17	Name Annotation:T5 Referent:ascorbate
+T6	CHEMICAL 1628 1637	ascorbate
+N18	Name Annotation:T6 Referent:ascorbate
+T13	GENE-Y 1652 1655	PAM
+N19	Name Annotation:T13 Referent:pam
+T7	CHEMICAL 1660 1668	dopamine
+N20	Name Annotation:T7 Referent:dopamine
+T14	GENE-Y 1660 1685	dopamine-beta-hydroxylase
+N21	Name Annotation:T14 Referent:dopaminebetahydroxylase
+R1	INHIBITOR Arg1:T3 Arg2:T11
+R2	INHIBITOR Arg1:T8 Arg2:T21
+R3	PART-OF Arg1:T1 Arg2:T12
+R4	PART-OF Arg1:T1 Arg2:T15
+R5	PART-OF Arg1:T1 Arg2:T16
+R6	PART-OF Arg1:T1 Arg2:T17
+R7	PART-OF Arg1:T1 Arg2:T18
+R8	PART-OF Arg1:T1 Arg2:T19
+R9	DIRECT-REGULATOR Arg1:T4 Arg2:T13
+R10	DIRECT-REGULATOR Arg1:T4 Arg2:T14
+R11	INHIBITOR Arg1:T4 Arg2:T13
+R12	INHIBITOR Arg1:T4 Arg2:T14
+R13	INHIBITOR Arg1:T5 Arg2:T13
+R14	INHIBITOR Arg1:T5 Arg2:T14
+R15	DIRECT-REGULATOR Arg1:T6 Arg2:T13
+R16	DIRECT-REGULATOR Arg1:T6 Arg2:T14

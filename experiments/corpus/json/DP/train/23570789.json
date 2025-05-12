@@ -1,0 +1,75 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "imidazopyridazines",
+            "Name": "imidazopyridazines"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "Plasmodium falciparum calcium-dependent protein kinase 1",
+            "Name": "plasmodiumfalciparumcalciumdependentproteinkinase1"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "calcium",
+            "Name": "calcium"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "PfCDPK1",
+            "Name": "pfcdpk1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "imidazopyridazines",
+            "Name": "imidazopyridazines"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "Plasmodium falciparum calcium-dependent protein kinase 1",
+            "Name": "plasmodiumfalciparumcalciumdependentproteinkinase1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "calcium",
+            "Name": "calcium"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "PfCDPK1",
+            "Name": "pfcdpk1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T5"
+        }
+    ]
+}

@@ -1,0 +1,170 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "caspase-1",
+            "Name": "caspase1"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Caspase-1",
+            "Name": "caspase1"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "tetracycline",
+            "Name": "tetracycline"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "caspase-1",
+            "Name": "caspase1"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "caspase-1",
+            "Name": "caspase1"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "interleukin-1beta",
+            "Name": "interleukin1beta"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "caspase-1",
+            "Name": "caspase1"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Caspase-1",
+            "Name": "caspase1"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "interleukin-1beta",
+            "Name": "interleukin1beta"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "caspase-1",
+            "Name": "caspase1"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "caspase-1",
+            "Name": "caspase1"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T13"
+        }
+    ]
+}

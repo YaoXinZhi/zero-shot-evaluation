@@ -1,0 +1,152 @@
+{
+    "entities": [
+        {
+            "id": "T34",
+            "type": "Plant",
+            "name": "Citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T37",
+            "type": "Location",
+            "name": "European Union",
+            "GeoNames": "6255148"
+        },
+        {
+            "id": "T41",
+            "type": "Location",
+            "name": "Mercosur",
+            "GeoNames": "11812364"
+        },
+        {
+            "id": "T42",
+            "type": "Location",
+            "name": "Brazil",
+            "GeoNames": "3469034"
+        },
+        {
+            "id": "T43",
+            "type": "Location",
+            "name": "Argentina",
+            "GeoNames": "3865483"
+        },
+        {
+            "id": "T44",
+            "type": "Location",
+            "name": "Uruguay",
+            "GeoNames": "3439705"
+        },
+        {
+            "id": "T46",
+            "type": "Location",
+            "name": "Brazil",
+            "GeoNames": "3469034"
+        },
+        {
+            "id": "T49",
+            "type": "Location",
+            "name": "Argentina",
+            "GeoNames": "3865483"
+        },
+        {
+            "id": "T50",
+            "type": "Location",
+            "name": "Uruguay",
+            "GeoNames": "3439705"
+        },
+        {
+            "id": "T52",
+            "type": "Location",
+            "name": "Mercosur State",
+            "GeoNames": "11812364"
+        },
+        {
+            "id": "T53",
+            "type": "Location",
+            "name": "Colombia",
+            "GeoNames": "3686110"
+        },
+        {
+            "id": "T56",
+            "type": "Location",
+            "name": "South Africa",
+            "GeoNames": "953987"
+        },
+        {
+            "id": "T57",
+            "type": "Location",
+            "name": "South Africa",
+            "GeoNames": "953987"
+        },
+        {
+            "id": "T63",
+            "type": "Pest",
+            "name": "Phyllosticta citricarpa",
+            "NCBI_Taxonomy": "55181"
+        },
+        {
+            "id": "T64",
+            "type": "Disease",
+            "name": "Citrus Black Spot disease"
+        },
+        {
+            "id": "T66",
+            "type": "Location",
+            "name": "Mercosur",
+            "GeoNames": "11812364"
+        },
+        {
+            "id": "T67",
+            "type": "Location",
+            "name": "South Africa",
+            "GeoNames": "953987"
+        },
+        {
+            "id": "T68",
+            "type": "Pest",
+            "name": "Xylella",
+            "NCBI_Taxonomy": "2370"
+        },
+        {
+            "id": "T69",
+            "type": "Pest",
+            "name": "Cotonet",
+            "NCBI_Taxonomy": "170843"
+        },
+        {
+            "id": "T70",
+            "type": "Location",
+            "name": "South Africa",
+            "GeoNames": "953987"
+        },
+        {
+            "id": "T71",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T63",
+            "target": "T57"
+        },
+        {
+            "type": "Located in",
+            "source": "T64",
+            "target": "T57"
+        },
+        {
+            "type": "Causes",
+            "source": "T63",
+            "target": "T64"
+        },
+        {
+            "type": "Located in",
+            "source": "T69",
+            "target": "T70"
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Protein Kinase",
+            "Name": "proteinkinase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Pim-1",
+            "Name": "pim1"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "Pim",
+            "Name": "pim"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "protein kinases",
+            "Name": "proteinkinases"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "PKs",
+            "Name": "pks"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "arginine",
+            "Name": "arginine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "Pim-1",
+            "Name": "pim1"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "protein kinases",
+            "Name": "proteinkinases"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "PIM",
+            "Name": "pim"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "PKs",
+            "Name": "pks"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Pim",
+            "Name": "pim"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T4"
+        }
+    ]
+}

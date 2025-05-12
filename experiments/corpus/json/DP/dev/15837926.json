@@ -1,0 +1,211 @@
+{
+    "entities": [
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "prostate-specific membrane antigen",
+            "Name": "prostatespecificmembraneantigen"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "peptidase",
+            "Name": "peptidase"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Prostate-specific membrane antigen",
+            "Name": "prostatespecificmembraneantigen"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PSMA",
+            "Name": "psma"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "PSMA",
+            "Name": "psma"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "glutamate carboxypeptidase",
+            "Name": "glutamatecarboxypeptidase"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "GCPII",
+            "Name": "gcpii"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "folate",
+            "Name": "folate"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "methotrexate",
+            "Name": "methotrexate"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "N-acetyl-l-aspartyl-l-glutamate",
+            "Name": "nacetyllaspartyllglutamate"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PSMA ectodomain",
+            "Name": "psmaectodomain"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "transferrin receptor",
+            "Name": "transferrinreceptor"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "iron",
+            "Name": "iron"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "transferrin",
+            "Name": "transferrin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "protease",
+            "Name": "protease"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "transferrin receptor",
+            "Name": "transferrinreceptor"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "protease domain",
+            "Name": "proteasedomain"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "PSMA",
+            "Name": "psma"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "zinc",
+            "Name": "zinc"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "arginine",
+            "Name": "arginine"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "PSMA",
+            "Name": "psma"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "N-acetyl-l-aspartyl-l-glutamate",
+            "Name": "nacetyllaspartyllglutamate"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "PSMA",
+            "Name": "psma"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T10"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Part of",
+            "source": "T7",
+            "target": "T18"
+        },
+        {
+            "type": "Part of",
+            "source": "T7",
+            "target": "T19"
+        },
+        {
+            "type": "Part of",
+            "source": "T7",
+            "target": "T20"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T21"
+        }
+    ]
+}

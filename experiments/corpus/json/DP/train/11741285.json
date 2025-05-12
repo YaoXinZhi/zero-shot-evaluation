@@ -1,0 +1,162 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Ribostamycin",
+            "Name": "ribostamycin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "protein disulfide isomerase",
+            "Name": "proteindisulfideisomerase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "ribostamycin",
+            "Name": "ribostamycin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "ribostamycin",
+            "Name": "ribostamycin"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "protein disulfide isomerase",
+            "Name": "proteindisulfideisomerase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "disulfide",
+            "Name": "disulfide"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "PDI",
+            "Name": "pdi"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "isomerase",
+            "Name": "isomerase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PDI",
+            "Name": "pdi"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ribostamycin",
+            "Name": "ribostamycin"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PDI",
+            "Name": "pdi"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PDI",
+            "Name": "pdi"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "ribostamycin",
+            "Name": "ribostamycin"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "bovine PDI",
+            "Name": "bovinepdi"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "ribostamycin",
+            "Name": "ribostamycin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "CGHC motif",
+            "Name": "cghcmotif"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "PDI",
+            "Name": "pdi"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "PDI",
+            "Name": "pdi"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T16"
+        }
+    ]
+}

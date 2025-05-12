@@ -1,0 +1,90 @@
+T13	CHEMICAL 45 80	2,3,7,8-tetrachlorodibenzo-p-dioxin
+N1	Name Annotation:T13 Referent:2378tetrachlorodibenzopdioxin
+T14	CHEMICAL 96 112	aryl hydrocarbon
+N2	Name Annotation:T14 Referent:arylhydrocarbon
+T36	GENE-Y 96 123	aryl hydrocarbon receptor 2
+N3	Name Annotation:T36 Referent:arylhydrocarbonreceptor2
+T35	GENE-Y 125 129	AHR2
+N4	Name Annotation:T35 Referent:ahr2
+T15	GENE-N 159 172	Vitellogenins
+N5	Name Annotation:T15 Referent:vitellogenins
+T27	GENE-N 477 489	vitellogenin
+N6	Name Annotation:T27 Referent:vitellogenin
+T3	CHEMICAL 555 571	aryl hydrocarbon
+N7	Name Annotation:T3 Referent:arylhydrocarbon
+T28	GENE-Y 555 582	aryl hydrocarbon receptor 2
+N8	Name Annotation:T28 Referent:arylhydrocarbonreceptor2
+T29	GENE-Y 584 588	AHR2
+N9	Name Annotation:T29 Referent:ahr2
+T4	CHEMICAL 593 599	dioxin
+N10	Name Annotation:T4 Referent:dioxin
+T5	CHEMICAL 613 621	estrogen
+N11	Name Annotation:T5 Referent:estrogen
+T30	GENE-N 613 630	estrogen receptor
+N12	Name Annotation:T30 Referent:estrogenreceptor
+T31	GENE-N 655 667	vitellogenin
+N13	Name Annotation:T31 Referent:vitellogenin
+T32	GENE-N 675 681	vtg1-3
+N14	Name Annotation:T32 Referent:vtg13
+T6	CHEMICAL 846 866	17α-ethynylestradiol
+N15	Name Annotation:T6 Referent:17αethynylestradiol
+T7	CHEMICAL 868 871	EE2
+N16	Name Annotation:T7 Referent:ee2
+T8	CHEMICAL 994 997	EE2
+N17	Name Annotation:T8 Referent:ee2
+T9	CHEMICAL 1027 1062	2,3,7,8-tetrachlorodibenzo-p-dioxin
+N18	Name Annotation:T9 Referent:2378tetrachlorodibenzopdioxin
+T10	CHEMICAL 1064 1076	2,3,7,8-TCDD
+N19	Name Annotation:T10 Referent:2378tcdd
+T11	CHEMICAL 1081 1118	1,2,3,7,8-pentachlorodibenzo-p-dioxin
+N20	Name Annotation:T11 Referent:12378pentachlorodibenzopdioxin
+T12	CHEMICAL 1133 1136	EE2
+N21	Name Annotation:T12 Referent:ee2
+T33	GENE-Y 1150 1154	vtg1
+N22	Name Annotation:T33 Referent:vtg1
+T34	GENE-Y 1156 1160	vtg2
+N23	Name Annotation:T34 Referent:vtg2
+T16	GENE-Y 1165 1169	vtg3
+N24	Name Annotation:T16 Referent:vtg3
+T17	GENE-Y 1221 1225	AHR2
+N25	Name Annotation:T17 Referent:ahr2
+T18	GENE-Y 1259 1263	ahr2
+N26	Name Annotation:T18 Referent:ahr2
+T19	GENE-Y 1315 1319	vtg1
+N27	Name Annotation:T19 Referent:vtg1
+T20	GENE-Y 1321 1325	vtg2
+N28	Name Annotation:T20 Referent:vtg2
+T21	GENE-Y 1330 1334	vtg3
+N29	Name Annotation:T21 Referent:vtg3
+T1	CHEMICAL 1347 1359	2,3,7,8-TCDD
+N30	Name Annotation:T1 Referent:2378tcdd
+T2	CHEMICAL 1412 1424	2,3,7,8-TCDD
+N31	Name Annotation:T2 Referent:2378tcdd
+T22	GENE-N 1447 1459	vitellogenin
+N32	Name Annotation:T22 Referent:vitellogenin
+T23	GENE-Y 1502 1506	AHR2
+N33	Name Annotation:T23 Referent:ahr2
+T24	GENE-Y 1540 1544	AHR2
+N34	Name Annotation:T24 Referent:ahr2
+T25	GENE-N 1580 1592	vitellogenin
+N35	Name Annotation:T25 Referent:vitellogenin
+T26	GENE-N 1701 1704	AHR
+N36	Name Annotation:T26 Referent:ahr
+R1	ACTIVATOR Arg1:T4 Arg2:T28
+R2	ACTIVATOR Arg1:T4 Arg2:T29
+R3	INHIBITOR Arg1:T4 Arg2:T30
+R4	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T31
+R5	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T33
+R6	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T34
+R7	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T16
+R8	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T33
+R9	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T34
+R10	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T16
+R11	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T33
+R12	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T34
+R13	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T16
+R14	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T33
+R15	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T34
+R16	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T16
+R17	INHIBITOR Arg1:T2 Arg2:T22
+R18	ACTIVATOR Arg1:T2 Arg2:T23

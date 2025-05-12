@@ -1,0 +1,97 @@
+T27	CHEMICAL 25 28	Rp1
+N1	Name Annotation:T27 Referent:rp1
+T43	GENE-Y 76 81	MDR-1
+N2	Name Annotation:T43 Referent:mdr1
+T44	GENE-Y 86 89	Src
+N3	Name Annotation:T44 Referent:src
+T41	GENE-N 182 202	membrane transporter
+N4	Name Annotation:T41 Referent:membranetransporter
+T28	GENE-Y 203 208	MDR-1
+N5	Name Annotation:T28 Referent:mdr1
+T30	GENE-N 210 214	P-gp
+N6	Name Annotation:T30 Referent:pgp
+T31	GENE-Y 216 221	ABCB1
+N7	Name Annotation:T31 Referent:abcb1
+T9	CHEMICAL 240 243	ATP
+N8	Name Annotation:T9 Referent:atp
+T36	GENE-N 240 285	ATP-binding cassette (ABC) transporter family
+N9	Name Annotation:T36 Referent:atpbindingcassetteabctransporterfamily
+T39	GENE-Y 355 360	MDR-1
+N10	Name Annotation:T39 Referent:mdr1
+T40	GENE-Y 421 426	MDR-1
+N11	Name Annotation:T40 Referent:mdr1
+T14	CHEMICAL 459 470	cholesterol
+N12	Name Annotation:T14 Referent:cholesterol
+T15	CHEMICAL 476 488	sphingolipid
+N13	Name Annotation:T15 Referent:sphingolipid
+T16	CHEMICAL 579 590	cholesterol
+N14	Name Annotation:T16 Referent:cholesterol
+T17	CHEMICAL 646 657	cholesterol
+N15	Name Annotation:T17 Referent:cholesterol
+T18	CHEMICAL 697 709	ginsenosides
+N16	Name Annotation:T18 Referent:ginsenosides
+T19	CHEMICAL 738 749	cholesterol
+N17	Name Annotation:T19 Referent:cholesterol
+T20	CHEMICAL 796 799	Rp1
+N18	Name Annotation:T20 Referent:rp1
+T21	CHEMICAL 809 820	ginsenoside
+N19	Name Annotation:T21 Referent:ginsenoside
+T22	CHEMICAL 927 930	Rp1
+N20	Name Annotation:T22 Referent:rp1
+T23	CHEMICAL 972 983	doxorubicin
+N21	Name Annotation:T23 Referent:doxorubicin
+T24	CHEMICAL 987 1000	rhodamine 123
+N22	Name Annotation:T24 Referent:rhodamine123
+T42	GENE-Y 1015 1020	MDR-1
+N23	Name Annotation:T42 Referent:mdr1
+T25	CHEMICAL 1033 1044	doxorubicin
+N24	Name Annotation:T25 Referent:doxorubicin
+T26	CHEMICAL 1062 1065	Rp1
+N25	Name Annotation:T26 Referent:rp1
+T1	CHEMICAL 1106 1119	actinomycin D
+N26	Name Annotation:T1 Referent:actinomycind
+T2	CHEMICAL 1134 1137	Rp1
+N27	Name Annotation:T2 Referent:rp1
+T29	GENE-Y 1179 1184	MDR-1
+N28	Name Annotation:T29 Referent:mdr1
+T3	CHEMICAL 1204 1207	Rp1
+N29	Name Annotation:T3 Referent:rp1
+T4	CHEMICAL 1231 1244	actinomycin D
+N30	Name Annotation:T4 Referent:actinomycind
+T32	GENE-Y 1259 1264	MDR-1
+N31	Name Annotation:T32 Referent:mdr1
+T33	GENE-Y 1284 1287	Src
+N32	Name Annotation:T33 Referent:src
+T5	CHEMICAL 1348 1359	cholesterol
+N33	Name Annotation:T5 Referent:cholesterol
+T6	CHEMICAL 1371 1374	Rp1
+N34	Name Annotation:T6 Referent:rp1
+T34	GENE-Y 1404 1409	MDR-1
+N35	Name Annotation:T34 Referent:mdr1
+T7	CHEMICAL 1426 1429	Rp1
+N36	Name Annotation:T7 Referent:rp1
+T8	CHEMICAL 1434 1447	actinomycin D
+N37	Name Annotation:T8 Referent:actinomycind
+T35	GENE-Y 1456 1459	Src
+N38	Name Annotation:T35 Referent:src
+T37	GENE-Y 1499 1502	Src
+N39	Name Annotation:T37 Referent:src
+T10	CHEMICAL 1539 1542	Rp1
+N40	Name Annotation:T10 Referent:rp1
+T11	CHEMICAL 1548 1561	actinomycin D
+N41	Name Annotation:T11 Referent:actinomycind
+T12	CHEMICAL 1563 1566	Rp1
+N42	Name Annotation:T12 Referent:rp1
+T13	CHEMICAL 1654 1665	doxorubicin
+N43	Name Annotation:T13 Referent:doxorubicin
+T38	GENE-Y 1743 1748	MDR-1
+N44	Name Annotation:T38 Referent:mdr1
+R1	INHIBITOR Arg1:T27 Arg2:T43
+R2	INHIBITOR Arg1:T27 Arg2:T44
+R3	INHIBITOR Arg1:T22 Arg2:T42
+R4	SUBSTRATE Arg1:T23 Arg2:T42
+R5	SUBSTRATE Arg1:T24 Arg2:T42
+R6	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T32
+R7	INHIBITOR Arg1:T3 Arg2:T33
+R8	INHIBITOR Arg1:T8 Arg2:T35
+R9	INHIBITOR Arg1:T7 Arg2:T35

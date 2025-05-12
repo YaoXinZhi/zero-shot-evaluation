@@ -1,0 +1,108 @@
+T18	CHEMICAL 0 13	Pterostilbene
+N1	Name Annotation:T18 Referent:pterostilbene
+T43	GENE-Y 91 95	JAK2
+N2	Name Annotation:T43 Referent:jak2
+T44	GENE-Y 96 101	STAT3
+N3	Name Annotation:T44 Referent:stat3
+T11	CHEMICAL 172 185	Pterostilbene
+N4	Name Annotation:T11 Referent:pterostilbene
+T13	CHEMICAL 187 190	PTE
+N5	Name Annotation:T13 Referent:pte
+T2	CHEMICAL 229 240	resveratrol
+N6	Name Annotation:T2 Referent:resveratrol
+T6	CHEMICAL 276 279	PTE
+N7	Name Annotation:T6 Referent:pte
+T10	CHEMICAL 413 416	PTE
+N8	Name Annotation:T10 Referent:pte
+T37	GENE-Y 445 459	Janus kinase 2
+N9	Name Annotation:T37 Referent:januskinase2
+T38	GENE-Y 460 510	Signal Transducer and Activator of Transcription 3
+N10	Name Annotation:T38 Referent:signaltransducerandactivatoroftranscription3
+T39	GENE-Y 512 516	JAK2
+N11	Name Annotation:T39 Referent:jak2
+T40	GENE-Y 517 522	STAT3
+N12	Name Annotation:T40 Referent:stat3
+T12	CHEMICAL 657 660	PTE
+N13	Name Annotation:T12 Referent:pte
+T41	GENE-Y 719 723	JAK2
+N14	Name Annotation:T41 Referent:jak2
+T42	GENE-Y 724 729	STAT3
+N15	Name Annotation:T42 Referent:stat3
+T14	CHEMICAL 790 793	PTE
+N16	Name Annotation:T14 Referent:pte
+T15	CHEMICAL 795 798	PTE
+N17	Name Annotation:T15 Referent:pte
+T16	CHEMICAL 905 908	PTE
+N18	Name Annotation:T16 Referent:pte
+T17	CHEMICAL 1114 1120	oxygen
+N19	Name Annotation:T17 Referent:oxygen
+T1	CHEMICAL 1184 1187	PTE
+N20	Name Annotation:T1 Referent:pte
+T19	GENE-Y 1240 1244	JAK2
+N21	Name Annotation:T19 Referent:jak2
+T3	CHEMICAL 1248 1251	Tyr
+N22	Name Annotation:T3 Referent:tyr
+T20	GENE-Y 1290 1295	STAT3
+N23	Name Annotation:T20 Referent:stat3
+T4	CHEMICAL 1297 1300	PTE
+N24	Name Annotation:T4 Referent:pte
+T21	GENE-Y 1339 1344	STAT3
+N25	Name Annotation:T21 Referent:stat3
+T22	GENE-Y 1397 1403	Bcl-xL
+N26	Name Annotation:T22 Referent:bclxl
+T23	GENE-Y 1408 1413	Mcl-1
+N27	Name Annotation:T23 Referent:mcl1
+T24	GENE-Y 1497 1500	Bax
+N28	Name Annotation:T24 Referent:bax
+T25	GENE-Y 1502 1505	Bak
+N29	Name Annotation:T25 Referent:bak
+T26	GENE-Y 1517 1529	Cytochrome c
+N30	Name Annotation:T26 Referent:cytochromec
+T27	GENE-Y 1543 1551	Caspase3
+N31	Name Annotation:T27 Referent:caspase3
+T28	GENE-N 1557 1580	cyclin-dependent kinase
+N32	Name Annotation:T28 Referent:cyclindependentkinase
+T29	GENE-Y 1600 1603	p21
+N33	Name Annotation:T29 Referent:p21
+T30	GENE-Y 1608 1611	p27
+N34	Name Annotation:T30 Referent:p27
+T5	CHEMICAL 1613 1616	PTE
+N35	Name Annotation:T5 Referent:pte
+T31	GENE-Y 1651 1655	JAK2
+N36	Name Annotation:T31 Referent:jak2
+T32	GENE-Y 1656 1661	STAT3
+N37	Name Annotation:T32 Referent:stat3
+T7	CHEMICAL 1673 1678	AG490
+N38	Name Annotation:T7 Referent:ag490
+T8	CHEMICAL 1751 1754	PTE
+N39	Name Annotation:T8 Referent:pte
+T33	GENE-Y 1822 1826	JAK2
+N40	Name Annotation:T33 Referent:jak2
+T34	GENE-Y 1827 1832	STAT3
+N41	Name Annotation:T34 Referent:stat3
+T35	GENE-Y 1890 1894	JAK2
+N42	Name Annotation:T35 Referent:jak2
+T36	GENE-Y 1895 1900	STAT3
+N43	Name Annotation:T36 Referent:stat3
+T9	CHEMICAL 1946 1949	PTE
+N44	Name Annotation:T9 Referent:pte
+R1	INHIBITOR Arg1:T18 Arg2:T43
+R2	INHIBITOR Arg1:T18 Arg2:T44
+R3	INHIBITOR Arg1:T1 Arg2:T19
+R4	PART-OF Arg1:T3 Arg2:T19
+R5	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T20
+R6	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T21
+R7	INHIBITOR Arg1:T7 Arg2:T32
+R8	INHIBITOR Arg1:T7 Arg2:T31
+R9	INHIBITOR Arg1:T8 Arg2:T33
+R10	INHIBITOR Arg1:T8 Arg2:T34
+R11	INHIBITOR Arg1:T9 Arg2:T36
+R12	INHIBITOR Arg1:T9 Arg2:T35
+R13	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T22
+R14	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T23
+R15	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T24
+R16	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T25
+R17	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T26
+R18	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T27
+R19	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T29
+R20	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T30

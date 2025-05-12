@@ -1,0 +1,219 @@
+{
+    "entities": [
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "SYK",
+            "Name": "syk"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "P505-15",
+            "Name": "p50515"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "PRT062607",
+            "Name": "prt062607"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "fludarabine",
+            "Name": "fludarabine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "B-cell receptor",
+            "Name": "bcellreceptor"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "BCR",
+            "Name": "bcr"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "kinases",
+            "Name": "kinases"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "spleen tyrosine kinase",
+            "Name": "spleentyrosinekinase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "SYK",
+            "Name": "syk"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "SYK",
+            "Name": "syk"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "SYK",
+            "Name": "syk"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "P505-15",
+            "Name": "p50515"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "PRT062607",
+            "Name": "prt062607"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "SYK",
+            "Name": "syk"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "SYK",
+            "Name": "syk"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "SYK",
+            "Name": "syk"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "kinases",
+            "Name": "kinases"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "P505-15",
+            "Name": "p50515"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "P505-15",
+            "Name": "p50515"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "SYK",
+            "Name": "syk"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "B-cell receptor",
+            "Name": "bcellreceptor"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "BCR",
+            "Name": "bcr"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "P505-15",
+            "Name": "p50515"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "fludarabine",
+            "Name": "fludarabine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "P505-15",
+            "Name": "p50515"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T24"
+        }
+    ]
+}

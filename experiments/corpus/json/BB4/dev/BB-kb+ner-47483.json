@@ -1,0 +1,148 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Phenotype",
+            "name": "Ampicillin-resistant",
+            "OntoBiotope": "OBT:002762"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "Haemophilus influenzae type B",
+            "NCBI_Taxonomy": "727"
+        },
+        {
+            "id": "T5",
+            "type": "Phenotype",
+            "name": "Ampicillin-resistant",
+            "OntoBiotope": "OBT:002762"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "Haemophilus influenzae type B",
+            "NCBI_Taxonomy": "727"
+        },
+        {
+            "id": "T7",
+            "type": "Habitat",
+            "name": "clinical",
+            "OntoBiotope": "OBT:003220"
+        },
+        {
+            "id": "T8",
+            "type": "Phenotype",
+            "name": "gram-negative",
+            "OntoBiotope": "OBT:000648"
+        },
+        {
+            "id": "T9",
+            "type": "Microorganism",
+            "name": "bacilli",
+            "NCBI_Taxonomy": "91061"
+        },
+        {
+            "id": "T10",
+            "type": "Microorganism",
+            "name": "bacilli",
+            "NCBI_Taxonomy": "91061"
+        },
+        {
+            "id": "T11",
+            "type": "Microorganism",
+            "name": "H. influenzae",
+            "NCBI_Taxonomy": "727"
+        },
+        {
+            "id": "T12",
+            "type": "Microorganism",
+            "name": "H. influenzae",
+            "NCBI_Taxonomy": "727"
+        },
+        {
+            "id": "T13",
+            "type": "Phenotype",
+            "name": "resistance to penicillins",
+            "OntoBiotope": "OBT:002829"
+        },
+        {
+            "id": "T14",
+            "type": "Microorganism",
+            "name": "H. influenzae",
+            "NCBI_Taxonomy": "727"
+        },
+        {
+            "id": "T15",
+            "type": "Microorganism",
+            "name": "Escherichia coli",
+            "NCBI_Taxonomy": "562"
+        },
+        {
+            "id": "T16",
+            "type": "Phenotype",
+            "name": "resistant",
+            "OntoBiotope": "OBT:002829"
+        },
+        {
+            "id": "T17",
+            "type": "Phenotype",
+            "name": "resistance",
+            "OntoBiotope": "OBT:002829"
+        },
+        {
+            "id": "T18",
+            "type": "Microorganism",
+            "name": "H. influenzae",
+            "NCBI_Taxonomy": "727"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T3"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T6",
+            "target": "T5"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T6",
+            "target": "T8"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T9",
+            "target": "T8"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T14",
+            "target": "T16"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T14",
+            "target": "T13"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T15",
+            "target": "T13"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T15",
+            "target": "T16"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T18",
+            "target": "T17"
+        }
+    ]
+}

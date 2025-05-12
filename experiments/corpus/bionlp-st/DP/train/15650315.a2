@@ -1,0 +1,75 @@
+T12	CHEMICAL 0 10	Pranlukast
+N1	Name Annotation:T12 Referent:pranlukast
+T14	CHEMICAL 14 25	leukotriene
+N2	Name Annotation:T14 Referent:leukotriene
+T31	GENE-N 14 34	leukotriene receptor
+N3	Name Annotation:T31 Referent:leukotrienereceptor
+T32	GENE-Y 56 69	interleukin-5
+N4	Name Annotation:T32 Referent:interleukin5
+T13	CHEMICAL 111 122	leukotriene
+N5	Name Annotation:T13 Referent:leukotriene
+T30	GENE-N 111 131	leukotriene receptor
+N6	Name Annotation:T30 Referent:leukotrienereceptor
+T1	CHEMICAL 156 166	Pranlukast
+N7	Name Annotation:T1 Referent:pranlukast
+T6	CHEMICAL 170 191	cysteinyl leukotriene
+N8	Name Annotation:T6 Referent:cysteinylleukotriene
+T23	GENE-Y 170 202	cysteinyl leukotriene receptor 1
+N9	Name Annotation:T23 Referent:cysteinylleukotrienereceptor1
+T25	GENE-Y 204 211	CysLTR1
+N10	Name Annotation:T25 Referent:cysltr1
+T5	CHEMICAL 365 375	pranlukast
+N11	Name Annotation:T5 Referent:pranlukast
+T21	GENE-Y 384 397	interleukin-5
+N12	Name Annotation:T21 Referent:interleukin5
+T22	GENE-Y 399 403	IL-5
+N13	Name Annotation:T22 Referent:il5
+T7	CHEMICAL 640 650	pranlukast
+N14	Name Annotation:T7 Referent:pranlukast
+T8	CHEMICAL 652 665	dexamethasone
+N15	Name Annotation:T8 Referent:dexamethasone
+T24	GENE-Y 680 684	IL-5
+N16	Name Annotation:T24 Referent:il5
+T26	GENE-Y 764 768	IL-5
+N17	Name Annotation:T26 Referent:il5
+T27	GENE-Y 773 780	CysLTR1
+N18	Name Annotation:T27 Referent:cysltr1
+T9	CHEMICAL 863 873	pranlukast
+N19	Name Annotation:T9 Referent:pranlukast
+T28	GENE-Y 918 922	IL-5
+N20	Name Annotation:T28 Referent:il5
+T10	CHEMICAL 980 990	pranlukast
+N21	Name Annotation:T10 Referent:pranlukast
+T11	CHEMICAL 995 1008	dexamethasone
+N22	Name Annotation:T11 Referent:dexamethasone
+T29	GENE-Y 1134 1138	IL-5
+N23	Name Annotation:T29 Referent:il5
+T15	GENE-Y 1240 1247	CysLTR1
+N24	Name Annotation:T15 Referent:cysltr1
+T2	CHEMICAL 1371 1381	Pranlukast
+N25	Name Annotation:T2 Referent:pranlukast
+T16	GENE-Y 1404 1408	IL-5
+N26	Name Annotation:T16 Referent:il5
+T17	GENE-Y 1475 1482	CysLTR1
+N27	Name Annotation:T17 Referent:cysltr1
+T3	CHEMICAL 1520 1542	cysteinyl leukotrienes
+N28	Name Annotation:T3 Referent:cysteinylleukotrienes
+T18	GENE-Y 1575 1579	IL-5
+N29	Name Annotation:T18 Referent:il5
+T4	CHEMICAL 1630 1640	pranlukast
+N30	Name Annotation:T4 Referent:pranlukast
+T19	GENE-Y 1650 1654	IL-5
+N31	Name Annotation:T19 Referent:il5
+T20	GENE-Y 1695 1702	CysLTR1
+N32	Name Annotation:T20 Referent:cysltr1
+R1	ANTAGONIST Arg1:T12 Arg2:T31
+R2	INHIBITOR Arg1:T12 Arg2:T32
+R3	ANTAGONIST Arg1:T12 Arg2:T30
+R4	ANTAGONIST Arg1:T1 Arg2:T23
+R5	ANTAGONIST Arg1:T1 Arg2:T25
+R6	INHIBITOR Arg1:T5 Arg2:T21
+R7	INHIBITOR Arg1:T5 Arg2:T22
+R8	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T28
+R9	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T16
+R10	INHIBITOR Arg1:T4 Arg2:T19
+R11	ANTAGONIST Arg1:T4 Arg2:T20

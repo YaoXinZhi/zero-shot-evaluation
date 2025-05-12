@@ -1,0 +1,101 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Nocapyrones H-J",
+            "Name": "nocapyroneshj"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "3,6-Disubstituted \u03b1-Pyrones",
+            "Name": "36disubstituted\u03b1pyrones"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "3,6-disubstituted \u03b1-pyrones",
+            "Name": "36disubstituted\u03b1pyrones"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "nocapyrones H-J",
+            "Name": "nocapyroneshj"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "3-alkylated 6-(1-methyl-1-propenyl)-2H-pyran-2-ones",
+            "Name": "3alkylated61methyl1propenyl2hpyran2ones"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Nocapyrone H",
+            "Name": "nocapyroneh"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "NO",
+            "Name": "no"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "prostaglandin E2",
+            "Name": "prostaglandine2"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "PGE2",
+            "Name": "pge2"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "interleukin-1\u03b2",
+            "Name": "interleukin1\u03b2"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "IL-1\u03b2",
+            "Name": "il1\u03b2"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "nocapyrone H",
+            "Name": "nocapyroneh"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "NO",
+            "Name": "no"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T14"
+        }
+    ]
+}

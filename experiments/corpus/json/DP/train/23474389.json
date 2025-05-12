@@ -1,0 +1,82 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "3-(benzylthio)-5-(1H-indol-3-yl)-1,2,4-triazol-4-amines",
+            "Name": "3benzylthio51hindol3yl124triazol4amines"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "Bcl-2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "3-(benzylthio)-5-(1H-indol-3-yl)-4H-1,2,4-triazol-4-amines",
+            "Name": "3benzylthio51hindol3yl4h124triazol4amines"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "Bcl-2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "indole-3-carboxylic acid hydrazide",
+            "Name": "indole3carboxylicacidhydrazide"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "carbon disulfide",
+            "Name": "carbondisulfide"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "S",
+            "Name": "s"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "nitrobenzyl",
+            "Name": "nitrobenzyl"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "Bcl-2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Bcl-2",
+            "Name": "bcl2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T8"
+        }
+    ]
+}

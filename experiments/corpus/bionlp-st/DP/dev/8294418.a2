@@ -1,0 +1,93 @@
+T20	CHEMICAL 19 33	norepinephrine
+N1	Name Annotation:T20 Referent:norepinephrine
+T37	GENE 46 74	alpha 1B-adrenergic receptor
+N2	Name Annotation:T37 Referent:alpha1badrenergicreceptor
+T3	CHEMICAL 136 150	norepinephrine
+N3	Name Annotation:T3 Referent:norepinephrine
+T8	CHEMICAL 152 154	NE
+N4	Name Annotation:T8 Referent:ne
+T29	GENE 171 199	alpha 1B-adrenergic receptor
+N5	Name Annotation:T29 Referent:alpha1badrenergicreceptor
+T35	GENE 201 209	alpha-AR
+N6	Name Annotation:T35 Referent:alphaar
+T1	CHEMICAL 266 268	NE
+N7	Name Annotation:T1 Referent:ne
+T2	CHEMICAL 270 284	phorbol esters
+N8	Name Annotation:T2 Referent:phorbolesters
+T24	GENE 290 300	bradykinin
+N9	Name Annotation:T24 Referent:bradykinin
+T25	GENE 316 324	alpha-AR
+N10	Name Annotation:T25 Referent:alphaar
+T26	GENE 352 368	protein kinase C
+N11	Name Annotation:T26 Referent:proteinkinasec
+T4	CHEMICAL 379 444	(+)-1-(5-isoquinolinesulfonyl)-2-methylpiperazine dihydrochloride
+N12	Name Annotation:T4 Referent:15isoquinolinesulfonyl2methylpiperazinedihydrochloride
+T5	CHEMICAL 446 449	H-7
+N13	Name Annotation:T5 Referent:h7
+T6	CHEMICAL 476 490	phorbol esters
+N14	Name Annotation:T6 Referent:phorbolesters
+T7	CHEMICAL 495 497	NE
+N15	Name Annotation:T7 Referent:ne
+T9	CHEMICAL 552 561	ryanodine
+N16	Name Annotation:T9 Referent:ryanodine
+T10	CHEMICAL 566 570	EGTA
+N17	Name Annotation:T10 Referent:egta
+T27	GENE 600 608	alpha-AR
+N18	Name Annotation:T27 Referent:alphaar
+T11	CHEMICAL 617 619	NE
+N19	Name Annotation:T11 Referent:ne
+T12	CHEMICAL 621 634	Actinomycin D
+N20	Name Annotation:T12 Referent:actinomycind
+T28	GENE 642 650	alpha-AR
+N21	Name Annotation:T28 Referent:alphaar
+T13	CHEMICAL 734 737	H-7
+N22	Name Annotation:T13 Referent:h7
+T30	GENE 756 764	alpha-AR
+N23	Name Annotation:T30 Referent:alphaar
+T14	CHEMICAL 782 784	NE
+N24	Name Annotation:T14 Referent:ne
+T15	CHEMICAL 789 803	phorbol esters
+N25	Name Annotation:T15 Referent:phorbolesters
+T31	GENE 826 834	alpha-AR
+N26	Name Annotation:T31 Referent:alphaar
+T16	CHEMICAL 856 858	NE
+N27	Name Annotation:T16 Referent:ne
+T17	CHEMICAL 879 893	phorbol esters
+N28	Name Annotation:T17 Referent:phorbolesters
+T32	GENE 898 908	bradykinin
+N29	Name Annotation:T32 Referent:bradykinin
+T33	GENE 953 961	alpha-AR
+N30	Name Annotation:T33 Referent:alphaar
+T34	GENE 972 991	protein phosphatase
+N31	Name Annotation:T34 Referent:proteinphosphatase
+T18	CHEMICAL 1002 1014	okadaic acid
+N32	Name Annotation:T18 Referent:okadaicacid
+T19	CHEMICAL 1058 1060	NE
+N33	Name Annotation:T19 Referent:ne
+T36	GENE 1097 1113	protein kinase C
+N34	Name Annotation:T36 Referent:proteinkinasec
+T21	GENE 1145 1153	alpha-AR
+N35	Name Annotation:T21 Referent:alphaar
+T22	GENE 1259 1275	protein kinase C
+N36	Name Annotation:T22 Referent:proteinkinasec
+T23	GENE 1316 1324	alpha-AR
+N37	Name Annotation:T23 Referent:alphaar
+R1	INDIRECT-DOWNREGULATOR Arg1:T20 Arg2:T37
+R2	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T29
+R3	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T29
+R4	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T35
+R5	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T35
+R6	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T25
+R7	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T25
+R8	INHIBITOR Arg1:T4 Arg2:T26
+R9	INHIBITOR Arg1:T5 Arg2:T26
+R10	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T27
+R11	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T27
+R12	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T27
+R13	INDIRECT-DOWNREGULATOR Arg1:T12 Arg2:T28
+R14	INDIRECT-DOWNREGULATOR Arg1:T12 Arg2:T30
+R15	INDIRECT-DOWNREGULATOR Arg1:T15 Arg2:T31
+R16	INDIRECT-DOWNREGULATOR Arg1:T14 Arg2:T31
+R17	INHIBITOR Arg1:T18 Arg2:T34
+R18	INDIRECT-DOWNREGULATOR Arg1:T16 Arg2:T33
+R19	INDIRECT-DOWNREGULATOR Arg1:T17 Arg2:T33

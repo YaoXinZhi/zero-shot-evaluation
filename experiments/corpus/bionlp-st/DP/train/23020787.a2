@@ -1,0 +1,53 @@
+T12	CHEMICAL 13 25	gemifloxacin
+N1	Name Annotation:T12 Referent:gemifloxacin
+T13	CHEMICAL 44 53	quinolone
+N2	Name Annotation:T13 Referent:quinolone
+T24	GENE-N 138 157	efflux transporters
+N3	Name Annotation:T24 Referent:effluxtransporters
+T3	CHEMICAL 233 254	gemifloxacin mesylate
+N4	Name Annotation:T3 Referent:gemifloxacinmesylate
+T22	GENE-N 297 316	efflux transporters
+N5	Name Annotation:T22 Referent:effluxtransporters
+T2	CHEMICAL 373 385	gemifloxacin
+N6	Name Annotation:T2 Referent:gemifloxacin
+T14	GENE-Y 756 760	MRP2
+N7	Name Annotation:T14 Referent:mrp2
+T4	CHEMICAL 762 767	MK571
+N8	Name Annotation:T4 Referent:mk571
+T15	GENE-Y 773 777	BCRP
+N9	Name Annotation:T15 Referent:bcrp
+T5	CHEMICAL 779 784	Ko143
+N10	Name Annotation:T5 Referent:ko143
+T16	GENE-N 845 849	P-gp
+N11	Name Annotation:T16 Referent:pgp
+T17	GENE-Y 858 862	MRP2
+N12	Name Annotation:T17 Referent:mrp2
+T18	GENE-Y 874 878	BCRP
+N13	Name Annotation:T18 Referent:bcrp
+T19	GENE-Y 919 923	MRP2
+N14	Name Annotation:T19 Referent:mrp2
+T20	GENE-Y 937 941	BCRP
+N15	Name Annotation:T20 Referent:bcrp
+T21	GENE-N 946 950	P-gp
+N16	Name Annotation:T21 Referent:pgp
+T6	CHEMICAL 994 1003	verapamil
+N17	Name Annotation:T6 Referent:verapamil
+T7	CHEMICAL 1008 1013	Ko143
+N18	Name Annotation:T7 Referent:ko143
+T8	CHEMICAL 1040 1045	MK571
+N19	Name Annotation:T8 Referent:mk571
+T9	CHEMICAL 1132 1137	Ko143
+N20	Name Annotation:T9 Referent:ko143
+T10	CHEMICAL 1151 1156	MK571
+N21	Name Annotation:T10 Referent:mk571
+T11	CHEMICAL 1172 1181	verapamil
+N22	Name Annotation:T11 Referent:verapamil
+T23	GENE-N 1194 1213	Efflux transporters
+N23	Name Annotation:T23 Referent:effluxtransporters
+T1	CHEMICAL 1269 1281	gemifloxacin
+N24	Name Annotation:T1 Referent:gemifloxacin
+R1	SUBSTRATE Arg1:T12 Arg2:T24
+R2	SUBSTRATE Arg1:T13 Arg2:T24
+R3	INHIBITOR Arg1:T4 Arg2:T14
+R4	INHIBITOR Arg1:T5 Arg2:T15
+R5	SUBSTRATE Arg1:T1 Arg2:T23

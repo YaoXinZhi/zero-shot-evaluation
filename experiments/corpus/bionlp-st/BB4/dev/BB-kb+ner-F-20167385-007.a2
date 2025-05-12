@@ -1,0 +1,37 @@
+T1	Habitat 77 98;134 151	surface microbiota of Taleggio  cheeses
+T2	Habitat 77 98;119 129;144 151	surface microbiota of Gorgonzola cheeses
+T3	Habitat 77 117;144 151	surface microbiota of Formaggio di Fossa cheeses
+T4	Habitat 99 117;144 151	Formaggio di Fossa cheeses
+T5	Habitat 119 129;144 151	Gorgonzola cheeses
+T6	Habitat 134 151	Taleggio  cheeses
+T7	Microorganism 207 215	P. celer
+T8	Microorganism 217 229	P. aquimaris
+T9	Microorganism 231 246	P. glacincolaus
+T10	Microorganism 248 258	S. equorum
+T11	Microorganism 264 273	M. luteus
+N1	OntoBiotope Annotation:T1 Referent:OBT:000113
+N2	OntoBiotope Annotation:T2 Referent:OBT:000113
+N3	OntoBiotope Annotation:T3 Referent:OBT:000113
+N4	OntoBiotope Annotation:T4 Referent:OBT:003473
+N5	OntoBiotope Annotation:T5 Referent:OBT:003504
+N6	OntoBiotope Annotation:T6 Referent:OBT:003525
+N7	NCBI_Taxonomy Annotation:T7 Referent:306572
+N8	NCBI_Taxonomy Annotation:T8 Referent:292733
+N9	NCBI_Taxonomy Annotation:T9 Referent:56810
+N10	NCBI_Taxonomy Annotation:T10 Referent:246432
+N11	NCBI_Taxonomy Annotation:T11 Referent:415
+R1	Lives_In Microorganism:T7 Location:T4
+R2	Lives_In Microorganism:T7 Location:T5
+R3	Lives_In Microorganism:T7 Location:T6
+R4	Lives_In Microorganism:T8 Location:T4
+R5	Lives_In Microorganism:T8 Location:T5
+R6	Lives_In Microorganism:T8 Location:T6
+R7	Lives_In Microorganism:T9 Location:T5
+R8	Lives_In Microorganism:T9 Location:T6
+R9	Lives_In Microorganism:T9 Location:T4
+R10	Lives_In Microorganism:T10 Location:T4
+R11	Lives_In Microorganism:T10 Location:T5
+R12	Lives_In Microorganism:T10 Location:T6
+R13	Lives_In Microorganism:T11 Location:T4
+R14	Lives_In Microorganism:T11 Location:T5
+R15	Lives_In Microorganism:T11 Location:T6

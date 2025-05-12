@@ -1,0 +1,205 @@
+{
+    "entities": [
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "DNA polymerases",
+            "Name": "dnapolymerases"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "DNA polymerase",
+            "Name": "dnapolymerase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "1-beta-D-arabinofuranosylcytosine",
+            "Name": "1betadarabinofuranosylcytosine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "araC",
+            "Name": "arac"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "2'-deoxy-2',2'-difluorocytidine",
+            "Name": "2deoxy22difluorocytidine"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "gemcitabine",
+            "Name": "gemcitabine"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "mammalian DNA polymerases",
+            "Name": "mammaliandnapolymerases"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "DNA polymerase alpha, delta and epsilon",
+            "Name": "dnapolymerasealphadeltaandepsilon"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "DNA polymerase beta, delta and epsilon",
+            "Name": "dnapolymerasebetadeltaandepsilon"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "DNA polymerase gamma",
+            "Name": "dnapolymerasegamma"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "DNA polymerase gamma",
+            "Name": "dnapolymerasegamma"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "1-(2-Deoxy-2-fluoro-4-thio-beta-D-arabinofuranosyl)cytosine",
+            "Name": "12deoxy2fluoro4thiobetadarabinofuranosylcytosine"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "4'-thio-FAC",
+            "Name": "4thiofac"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "araC",
+            "Name": "arac"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "gemcitabine",
+            "Name": "gemcitabine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "triphosphates of 4'-thio-FAC",
+            "Name": "triphosphatesof4thiofac"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "gemcitabine",
+            "Name": "gemcitabine"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "DNA polymerase alpha, beta and gamma",
+            "Name": "dnapolymerasealphabetaandgamma"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "triphosphates of 4'-thio-FAC",
+            "Name": "triphosphatesof4thiofac"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "4'-thio-FACTP",
+            "Name": "4thiofactp"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "DNA polymerase alpha",
+            "Name": "dnapolymerasealpha"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "DNA polymerase beta",
+            "Name": "dnapolymerasebeta"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "DNA polymerase gamma",
+            "Name": "dnapolymerasegamma"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "triphosphate of gemcitabine",
+            "Name": "triphosphateofgemcitabine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "dFdCTP",
+            "Name": "dfdctp"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "DNA polymerases",
+            "Name": "dnapolymerases"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "gemcitabine",
+            "Name": "gemcitabine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "DNA polymerases",
+            "Name": "dnapolymerases"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T20"
+        }
+    ]
+}

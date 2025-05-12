@@ -1,0 +1,87 @@
+T22	Location 33 40	Lucerne
+T23	Pest 77 100	Asian longhorned beetle
+T24	Date 129 158	within a short period of time
+T25	Location 245 256	Switzerland
+T26	Location 257 271	Canton Lucerne
+T27	Pest 276 299	Asian longhorned beetle
+T28	Date 328 357	within a short period of time
+T29	Date 592 602	on Tuesday
+T30	Location 628 632	Zell
+T31	Pest 646 671	Asian long-horned beetles
+T32	Pest 673 676	ALB
+T33	Pest 968 971	ALB
+T34	Plant 1603 1608	maple
+T35	Plant 1610 1615	birch
+T36	Plant 1617 1622	beech
+T37	Date 1651 1669	Within a few years
+T38	Pest 1675 1678	ALB
+T39	Date 1865 1885	on Friday a week ago
+T40	Location 1905 1909	Zell
+T41	Pest 2171 2174	ALB
+T42	Date 2635 2653	on Tuesday evening
+T43	Date 2717 2726	on Friday
+T44	Pest 2732 2735	ALB
+T45	Location 2746 2750	Zell
+T46	Date 2756 2787	for at least another four years
+T47	Date 2873 2896	for four years in a row
+T48	Location 3060 3066	Europe
+T49	Dissemination_pathway 3084 3109	wooden packaging material
+T50	Location 3194 3198	Bafu
+T51	Location 3287 3304	canton of Lucerne
+T52	Date 3340 3358	from earlier years
+T53	Location 3364 3374	Winterthur
+T54	Location 3378 3383	Marly
+T55	Location 3493 3510	canton of Lucerne
+T56	Dissemination_pathway 3960 3975	exports of wood
+T57	Location 3981 3985	Zell
+T58	Dissemination_pathway 4063 4067	wood
+T59	Location 4073 4093	municipality of Zell
+N1	GeoNames Annotation:T22 Referent:2659810
+N2	NCBI_Taxonomy Annotation:T23 Referent:217634
+N3	GeoNames Annotation:T25 Referent:2658434
+N4	GeoNames Annotation:T26 Referent:2659810
+N5	NCBI_Taxonomy Annotation:T27 Referent:217634
+N6	GeoNames Annotation:T30 Referent:7287628
+N7	NCBI_Taxonomy Annotation:T31 Referent:217634
+N8	NCBI_Taxonomy Annotation:T32 Referent:217634
+N9	NCBI_Taxonomy Annotation:T33 Referent:217634
+N10	NCBI_Taxonomy Annotation:T34 Referent:4022
+N11	NCBI_Taxonomy Annotation:T35 Referent:3504
+N12	NCBI_Taxonomy Annotation:T36 Referent:21024
+N13	NCBI_Taxonomy Annotation:T38 Referent:217634
+N14	GeoNames Annotation:T40 Referent:7287628
+N15	NCBI_Taxonomy Annotation:T41 Referent:217634
+N16	NCBI_Taxonomy Annotation:T44 Referent:217634
+N17	GeoNames Annotation:T45 Referent:7287628
+N18	GeoNames Annotation:T48 Referent:6255148
+N19	OntoBiotope Annotation:T49 Referent:OBT:000787
+N20	GeoNames Annotation:T50 Referent:8640864
+N21	GeoNames Annotation:T51 Referent:2659810
+N22	GeoNames Annotation:T53 Referent:7287592
+N23	GeoNames Annotation:T54 Referent:7286436
+N24	GeoNames Annotation:T55 Referent:2659810
+N25	OntoBiotope Annotation:T56 Referent:OBT:001383
+N26	GeoNames Annotation:T57 Referent:7287628
+N27	OntoBiotope Annotation:T58 Referent:OBT:001383
+N28	GeoNames Annotation:T59 Referent:7287628
+R1	Located_in Object:T23 Location:T22
+R2	Found_on Organism:T38 Habitat:T34
+R3	Found_on Organism:T38 Habitat:T35
+R4	Found_on Organism:T38 Habitat:T36
+R5	Located_in Object:T41 Location:T40
+R6	Detected_on Object:T41 Date:T39
+R7	Located_in Object:T44 Location:T45
+R8	Located_in Object:T44 Location:T48
+R9	Found_on Organism:T44 Habitat:T49
+R10	Located_in Object:T49 Location:T48
+R11	Located_in Object:T56 Location:T57
+E1	Nary Organisme_nuisible:T23 Lieu:T22
+E2	Nary Organisme_nuisible:T38 Plante:T34
+E3	Nary Organisme_nuisible:T38 Plante:T35
+E4	Nary Organisme_nuisible:T38 Plante:T36
+E5	Nary Organisme_nuisible:T41 Lieu:T40
+E6	Nary Organisme_nuisible:T41 Date:T39
+E7	Nary Organisme_nuisible:T44 Voie_de_dispersion:T49 Lieu:T48
+E8	Nary Organisme_nuisible:T44 Lieu:T45
+E9	Nary Voie_de_dispersion:T56 Lieu:T57
+*	Equiv T32 T31

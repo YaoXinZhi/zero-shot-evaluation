@@ -1,0 +1,76 @@
+T15	CHEMICAL 18 34	arachidonic acid
+N1	Name Annotation:T15 Referent:arachidonicacid
+T16	CHEMICAL 60 72	thyroliberin
+N2	Name Annotation:T16 Referent:thyroliberin
+T29	GENE-Y 60 72	thyroliberin
+N3	Name Annotation:T29 Referent:thyroliberin
+T17	CHEMICAL 74 77	TRH
+N4	Name Annotation:T17 Referent:trh
+T30	GENE-Y 74 77	TRH
+N5	Name Annotation:T30 Referent:trh
+T31	GENE-Y 90 99	prolactin
+N6	Name Annotation:T31 Referent:prolactin
+T14	CHEMICAL 147 165	inositolphosphates
+N7	Name Annotation:T14 Referent:inositolphosphates
+T6	CHEMICAL 197 213	arachidonic acid
+N8	Name Annotation:T6 Referent:arachidonicacid
+T18	GENE-Y 331 347	phospholipase A2
+N9	Name Annotation:T18 Referent:phospholipasea2
+T1	CHEMICAL 352 366	diacylglycerol
+N10	Name Annotation:T1 Referent:diacylglycerol
+T19	GENE-N 352 373	diacylglycerol lipase
+N11	Name Annotation:T19 Referent:diacylglycerollipase
+T2	CHEMICAL 384 394	quinacrine
+N12	Name Annotation:T2 Referent:quinacrine
+T20	GENE-Y 426 438	thyroliberin
+N13	Name Annotation:T20 Referent:thyroliberin
+T3	CHEMICAL 426 438	thyroliberin
+N14	Name Annotation:T3 Referent:thyroliberin
+T21	GENE-Y 450 459	prolactin
+N15	Name Annotation:T21 Referent:prolactin
+T22	GENE-Y 461 465	rPRL
+N16	Name Annotation:T22 Referent:rprl
+T23	GENE-N 557 569	lipoxygenase
+N17	Name Annotation:T23 Referent:lipoxygenase
+T4	CHEMICAL 580 590	nafazatrom
+N18	Name Annotation:T4 Referent:nafazatrom
+T24	GENE-Y 642 654	thyroliberin
+N19	Name Annotation:T24 Referent:thyroliberin
+T5	CHEMICAL 642 654	thyroliberin
+N20	Name Annotation:T5 Referent:thyroliberin
+T25	GENE-Y 666 670	rPRL
+N21	Name Annotation:T25 Referent:rprl
+T26	GENE-N 693 708	cyclo-oxygenase
+N22	Name Annotation:T26 Referent:cyclooxygenase
+T7	CHEMICAL 719 731	indomethacin
+N23	Name Annotation:T7 Referent:indomethacin
+T27	GENE-Y 754 758	rPRL
+N24	Name Annotation:T27 Referent:rprl
+T8	CHEMICAL 793 809	arachidonic acid
+N25	Name Annotation:T8 Referent:arachidonicacid
+T9	CHEMICAL 822 832	quinacrine
+N26	Name Annotation:T9 Referent:quinacrine
+T10	CHEMICAL 834 838	ETYA
+N27	Name Annotation:T10 Referent:etya
+T11	CHEMICAL 843 853	nafazatrom
+N28	Name Annotation:T11 Referent:nafazatrom
+T12	CHEMICAL 892 914	inositolpolyphosphates
+N29	Name Annotation:T12 Referent:inositolpolyphosphates
+T13	CHEMICAL 935 951	arachidonic acid
+N30	Name Annotation:T13 Referent:arachidonicacid
+T28	GENE-N 1006 1021	phospholipase C
+N31	Name Annotation:T28 Referent:phospholipasec
+R1	INDIRECT-UPREGULATOR Arg1:T16 Arg2:T31
+R2	INDIRECT-UPREGULATOR Arg1:T17 Arg2:T31
+R3	INHIBITOR Arg1:T2 Arg2:T18
+R4	INHIBITOR Arg1:T2 Arg2:T19
+R5	INHIBITOR Arg1:T2 Arg2:T20
+R6	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T21
+R7	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T22
+R8	INHIBITOR Arg1:T4 Arg2:T23
+R9	INHIBITOR Arg1:T4 Arg2:T24
+R10	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T25
+R11	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T21
+R12	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T22
+R13	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T25
+R14	INHIBITOR Arg1:T7 Arg2:T26

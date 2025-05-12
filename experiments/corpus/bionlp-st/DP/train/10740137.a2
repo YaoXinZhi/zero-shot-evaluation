@@ -1,0 +1,61 @@
+T18	CHEMICAL 0 7	Statins
+N1	Name Annotation:T18 Referent:statins
+T9	CHEMICAL 60 67	Statins
+N2	Name Annotation:T9 Referent:statins
+T19	GENE-N 148 171	low-density lipoprotein
+N3	Name Annotation:T19 Referent:lowdensitylipoprotein
+T11	CHEMICAL 172 183	cholesterol
+N4	Name Annotation:T11 Referent:cholesterol
+T22	GENE-N 185 188	LDL
+N5	Name Annotation:T22 Referent:ldl
+T13	CHEMICAL 248 255	statins
+N6	Name Annotation:T13 Referent:statins
+T14	CHEMICAL 295 332	3-hydroxy-3-methylglutaryl-coenzyme A
+N7	Name Annotation:T14 Referent:3hydroxy3methylglutarylcoenzymea
+T24	GENE-Y 295 352	3-hydroxy-3-methylglutaryl-coenzyme A (HMG-CoA) reductase
+N8	Name Annotation:T24 Referent:3hydroxy3methylglutarylcoenzymeahmgcoareductase
+T15	CHEMICAL 334 341	HMG-CoA
+N9	Name Annotation:T15 Referent:hmgcoa
+T16	CHEMICAL 387 398	cholesterol
+N10	Name Annotation:T16 Referent:cholesterol
+T17	CHEMICAL 862 869	statins
+N11	Name Annotation:T17 Referent:statins
+T1	CHEMICAL 1059 1071	atorvastatin
+N12	Name Annotation:T1 Referent:atorvastatin
+T2	CHEMICAL 1073 1085	cerivastatin
+N13	Name Annotation:T2 Referent:cerivastatin
+T3	CHEMICAL 1087 1098	fluvastatin
+N14	Name Annotation:T3 Referent:fluvastatin
+T4	CHEMICAL 1100 1110	lovastatin
+N15	Name Annotation:T4 Referent:lovastatin
+T5	CHEMICAL 1112 1123	pravastatin
+N16	Name Annotation:T5 Referent:pravastatin
+T6	CHEMICAL 1129 1140	simvastatin
+N17	Name Annotation:T6 Referent:simvastatin
+T7	CHEMICAL 1182 1189	HMG-CoA
+N18	Name Annotation:T7 Referent:hmgcoa
+T20	GENE-Y 1182 1199	HMG-CoA reductase
+N19	Name Annotation:T20 Referent:hmgcoareductase
+T8	CHEMICAL 1260 1272	atorvastatin
+N20	Name Annotation:T8 Referent:atorvastatin
+T10	CHEMICAL 1277 1288	simvastatin
+N21	Name Annotation:T10 Referent:simvastatin
+T21	GENE-N 1317 1320	LDL
+N22	Name Annotation:T21 Referent:ldl
+T12	CHEMICAL 1327 1339	triglyceride
+N23	Name Annotation:T12 Referent:triglyceride
+T23	GENE-N 1420 1423	LDL
+N24	Name Annotation:T23 Referent:ldl
+R1	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T19
+R2	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T22
+R3	INHIBITOR Arg1:T13 Arg2:T24
+R4	PRODUCT-OF Arg1:T16 Arg2:T24
+R5	INHIBITOR Arg1:T17 Arg2:T20
+R6	INHIBITOR Arg1:T1 Arg2:T20
+R7	INHIBITOR Arg1:T2 Arg2:T20
+R8	INHIBITOR Arg1:T3 Arg2:T20
+R9	INHIBITOR Arg1:T4 Arg2:T20
+R10	INHIBITOR Arg1:T5 Arg2:T20
+R11	INHIBITOR Arg1:T6 Arg2:T20
+R12	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T21
+R13	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T21

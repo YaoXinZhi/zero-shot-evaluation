@@ -1,0 +1,83 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Mesalazine",
+            "Name": "mesalazine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "5-aminosalicylic acid",
+            "Name": "5aminosalicylicacid"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "5-ASA",
+            "Name": "5asa"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "mesalazine",
+            "Name": "mesalazine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "mesalamine",
+            "Name": "mesalamine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "5-ASAs",
+            "Name": "5asas"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "peroxisome proliferator-activated receptor-gamma",
+            "Name": "peroxisomeproliferatoractivatedreceptorgamma"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "5-ASA",
+            "Name": "5asa"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "5-ASA",
+            "Name": "5asa"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "peroxisome proliferator-activated receptor-gamma",
+            "Name": "peroxisomeproliferatoractivatedreceptorgamma"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "5-ASA",
+            "Name": "5asa"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T8",
+            "target": "T11"
+        },
+        {
+            "type": "Agonist",
+            "source": "T2",
+            "target": "T10"
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "aminoacyl",
+            "Name": "aminoacyl"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "aminoacyl-tRNA synthetase",
+            "Name": "aminoacyltrnasynthetase"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "glutamyl",
+            "Name": "glutamyl"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "glutamyl-prolyl-tRNA synthetase",
+            "Name": "glutamylprolyltrnasynthetase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "glutamyl",
+            "Name": "glutamyl"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "glutamyl-prolyl-tRNA synthetase",
+            "Name": "glutamylprolyltrnasynthetase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "amino",
+            "Name": "amino"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "carboxy",
+            "Name": "carboxy"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "glutamic acid",
+            "Name": "glutamicacid"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "amino acids",
+            "Name": "aminoacids"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "glutamic acid",
+            "Name": "glutamicacid"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "synthetases",
+            "Name": "synthetases"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "prolyl",
+            "Name": "prolyl"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "prolyl-tRNA synthetase",
+            "Name": "prolyltrnasynthetase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Part of",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Part of",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Part of",
+            "source": "T6",
+            "target": "T11"
+        },
+        {
+            "type": "Part of",
+            "source": "T5",
+            "target": "T11"
+        }
+    ]
+}

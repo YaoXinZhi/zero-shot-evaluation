@@ -1,0 +1,71 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "NQO1",
+            "Name": "nqo1"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "naphthalimide",
+            "Name": "naphthalimide"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "quinone",
+            "Name": "quinone"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "quinone",
+            "Name": "quinone"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "quinone",
+            "Name": "quinone"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "human NAD(P)H:quinone oxidoreductase isozyme 1",
+            "Name": "humannadphquinoneoxidoreductaseisozyme1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "quinone",
+            "Name": "quinone"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "hNQO1",
+            "Name": "hnqo1"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "NQO1",
+            "Name": "nqo1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T6"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T7"
+        }
+    ]
+}

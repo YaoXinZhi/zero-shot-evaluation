@@ -1,0 +1,183 @@
+{
+    "entities": [
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Phosphodiesterase-4",
+            "Name": "phosphodiesterase4"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Phosphodiesterase-4",
+            "Name": "phosphodiesterase4"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "PDE4",
+            "Name": "pde4"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "phosphodiesterase 4",
+            "Name": "phosphodiesterase4"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "PDE4",
+            "Name": "pde4"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "PDE4",
+            "Name": "pde4"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "PDE4",
+            "Name": "pde4"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "PDE4",
+            "Name": "pde4"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "cilomilast",
+            "Name": "cilomilast"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Ariflo",
+            "Name": "ariflo"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "SB-207499",
+            "Name": "sb207499"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "cis-4-cyano-4-[3-cyclopentyloxy-4-methoxyphenyl]-cyclohexanecarboxylic acid",
+            "Name": "cis4cyano43cyclopentyloxy4methoxyphenylcyclohexanecarboxylicacid"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PDE4",
+            "Name": "pde4"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PDE4D",
+            "Name": "pde4d"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PDE4A, -B or -C",
+            "Name": "pde4aborc"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Cilomilast",
+            "Name": "cilomilast"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "cilomilast",
+            "Name": "cilomilast"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T20"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T12"
+        }
+    ]
+}

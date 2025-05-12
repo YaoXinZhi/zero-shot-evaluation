@@ -1,0 +1,128 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "paraoxon",
+            "Name": "paraoxon"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "paraoxon",
+            "Name": "paraoxon"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "ache",
+            "Name": "ache"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "paraoxon",
+            "Name": "paraoxon"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "paraoxon",
+            "Name": "paraoxon"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "paraoxon",
+            "Name": "paraoxon"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "paraoxon",
+            "Name": "paraoxon"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "paraoxon",
+            "Name": "paraoxon"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T8"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T8"
+        }
+    ]
+}

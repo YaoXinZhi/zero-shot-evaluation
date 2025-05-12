@@ -1,0 +1,142 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Habitat",
+            "name": "dairy industry",
+            "OntoBiotope": "OBT:001988"
+        },
+        {
+            "id": "T2",
+            "type": "Habitat",
+            "name": "cheese",
+            "OntoBiotope": "OBT:001480"
+        },
+        {
+            "id": "T3",
+            "type": "Habitat",
+            "name": "yoghurt",
+            "OntoBiotope": "OBT:003241"
+        },
+        {
+            "id": "T4",
+            "type": "Phenotype",
+            "name": "lactic acid bacteria",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T5",
+            "type": "Phenotype",
+            "name": "production of EPS",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T6",
+            "type": "Habitat",
+            "name": "dairy",
+            "OntoBiotope": "OBT:001208"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "propionibacteria",
+            "NCBI_Taxonomy": "1743"
+        },
+        {
+            "id": "T8",
+            "type": "Phenotype",
+            "name": "biosynthesis of EPS",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T9",
+            "type": "Microorganism",
+            "name": "Propionibacterium freudenreichii subsp. shermanii TL 34",
+            "NCBI_Taxonomy": "1752"
+        },
+        {
+            "id": "T10",
+            "type": "Microorganism",
+            "name": "CIP 103027",
+            "NCBI_Taxonomy": "1752"
+        },
+        {
+            "id": "T11",
+            "type": "Microorganism",
+            "name": "Streptococcus pneumoniae\n type 37",
+            "NCBI_Taxonomy": "1313"
+        },
+        {
+            "id": "T12",
+            "type": "Phenotype",
+            "name": "production of a \u03b2-glucan capsular \npolysaccharide",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T13",
+            "type": "Microorganism",
+            "name": "P. freudenreichii subsp. shermanii",
+            "NCBI_Taxonomy": "1752"
+        },
+        {
+            "id": "T14",
+            "type": "Phenotype",
+            "name": "ropy phenotype",
+            "OntoBiotope": "OBT:001288"
+        },
+        {
+            "id": "T15",
+            "type": "Habitat",
+            "name": "YEL+ medium",
+            "OntoBiotope": "OBT:000007"
+        },
+        {
+            "id": "T16",
+            "type": "Microorganism",
+            "name": "Propionibacterium acidipropionici strain TL 47",
+            "NCBI_Taxonomy": "1111734"
+        },
+        {
+            "id": "T17",
+            "type": "Habitat",
+            "name": "milk",
+            "OntoBiotope": "OBT:001645"
+        },
+        {
+            "id": "T18",
+            "type": "Phenotype",
+            "name": "presence of (1\u21923, 1\u21922)-\u03b2-d-glucan capsule",
+            "OntoBiotope": "OBT:000116"
+        },
+        {
+            "id": "T19",
+            "type": "Microorganism",
+            "name": "S. pneumoniae-type\n 37",
+            "NCBI_Taxonomy": "1313"
+        },
+        {
+            "id": "T20",
+            "type": "Microorganism",
+            "name": "P. freudenreichii",
+            "NCBI_Taxonomy": "1744"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T11",
+            "target": "T12"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T13",
+            "target": "T14"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T13",
+            "target": "T18"
+        }
+    ]
+}

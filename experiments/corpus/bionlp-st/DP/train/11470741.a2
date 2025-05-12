@@ -1,0 +1,81 @@
+T15	CHEMICAL 0 12	Cerivastatin
+N1	Name Annotation:T15 Referent:cerivastatin
+T16	CHEMICAL 30 37	HMG-CoA
+N2	Name Annotation:T16 Referent:hmgcoa
+T35	GENE-Y 30 47	HMG-CoA reductase
+N3	Name Annotation:T35 Referent:hmgcoareductase
+T1	CHEMICAL 200 212	Cerivastatin
+N4	Name Annotation:T1 Referent:cerivastatin
+T13	CHEMICAL 273 310	3-hydroxy 3-methylglutaryl coenzyme A
+N5	Name Annotation:T13 Referent:3hydroxy3methylglutarylcoenzymea
+T31	GENE-Y 273 320	3-hydroxy 3-methylglutaryl coenzyme A reductase
+N6	Name Annotation:T31 Referent:3hydroxy3methylglutarylcoenzymeareductase
+T3	CHEMICAL 355 366	cholesterol
+N7	Name Annotation:T3 Referent:cholesterol
+T8	CHEMICAL 387 409	farnesyl pyrophosphate
+N8	Name Annotation:T8 Referent:farnesylpyrophosphate
+T10	CHEMICAL 411 414	FPP
+N9	Name Annotation:T10 Referent:fpp
+T11	CHEMICAL 420 448	geranylgeranyl pyrophosphate
+N10	Name Annotation:T11 Referent:geranylgeranylpyrophosphate
+T12	CHEMICAL 450 454	GGPP
+N11	Name Annotation:T12 Referent:ggpp
+T29	GENE-N 505 508	Ras
+N12	Name Annotation:T29 Referent:ras
+T30	GENE-N 513 516	Rho
+N13	Name Annotation:T30 Referent:rho
+T32	GENE-N 985 988	Ras
+N14	Name Annotation:T32 Referent:ras
+T33	GENE-N 993 1001	NFkappaB
+N15	Name Annotation:T33 Referent:nfkappab
+T34	GENE-Y 1024 1028	RhoA
+N16	Name Annotation:T34 Referent:rhoa
+T14	CHEMICAL 1030 1042	cerivastatin
+N17	Name Annotation:T14 Referent:cerivastatin
+T17	GENE-Y 1202 1205	p21
+N18	Name Annotation:T17 Referent:p21
+T18	GENE-Y 1206 1210	Waf1
+N19	Name Annotation:T18 Referent:waf1
+T19	GENE-Y 1211 1215	Cip1
+N20	Name Annotation:T19 Referent:cip1
+T20	GENE-Y 1292 1296	RhoA
+N21	Name Annotation:T20 Referent:rhoa
+T21	GENE-N 1372 1377	actin
+N22	Name Annotation:T21 Referent:actin
+T22	GENE-Y 1446 1450	RhoA
+N23	Name Annotation:T22 Referent:rhoa
+T2	CHEMICAL 1561 1573	cerivastatin
+N24	Name Annotation:T2 Referent:cerivastatin
+T23	GENE-N 1615 1623	NFkappaB
+N25	Name Annotation:T23 Referent:nfkappab
+T24	GENE-Y 1630 1634	RhoA
+N26	Name Annotation:T24 Referent:rhoa
+T25	GENE-Y 1691 1700	urokinase
+N27	Name Annotation:T25 Referent:urokinase
+T26	GENE-Y 1705 1724	metalloproteinase-9
+N28	Name Annotation:T26 Referent:metalloproteinase9
+T27	GENE-N 1741 1750	proteases
+N29	Name Annotation:T27 Referent:proteases
+T28	GENE-N 1800 1803	Ras
+N30	Name Annotation:T28 Referent:ras
+T4	CHEMICAL 1873 1885	cerivastatin
+N31	Name Annotation:T4 Referent:cerivastatin
+T5	CHEMICAL 1915 1918	FPP
+N32	Name Annotation:T5 Referent:fpp
+T6	CHEMICAL 1979 1991	cerivastatin
+N33	Name Annotation:T6 Referent:cerivastatin
+T7	CHEMICAL 2056 2068	cerivastatin
+N34	Name Annotation:T7 Referent:cerivastatin
+T9	CHEMICAL 2164 2176	cerivastatin
+N35	Name Annotation:T9 Referent:cerivastatin
+R1	INHIBITOR Arg1:T15 Arg2:T35
+R2	INHIBITOR Arg1:T1 Arg2:T31
+R3	PRODUCT-OF Arg1:T3 Arg2:T31
+R4	PRODUCT-OF Arg1:T8 Arg2:T31
+R5	PRODUCT-OF Arg1:T10 Arg2:T31
+R6	PRODUCT-OF Arg1:T11 Arg2:T31
+R7	PRODUCT-OF Arg1:T12 Arg2:T31
+R8	INHIBITOR Arg1:T2 Arg2:T23
+R9	INHIBITOR Arg1:T2 Arg2:T24
+R10	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T25
+R11	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T26

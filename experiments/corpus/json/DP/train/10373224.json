@@ -1,0 +1,262 @@
+{
+    "entities": [
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "AT1",
+            "Name": "at1"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "angiotensin II",
+            "Name": "angiotensinii"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "angiotensin II type 1 receptor",
+            "Name": "angiotensiniitype1receptor"
+        },
+        {
+            "id": "T24",
+            "type": "Chemical",
+            "name": "candesartan",
+            "Name": "candesartan"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "irbesartan",
+            "Name": "irbesartan"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "losartan",
+            "Name": "losartan"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "EXP 3174",
+            "Name": "exp3174"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "EXP",
+            "Name": "exp"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "candesartan",
+            "Name": "candesartan"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "angiotensin II",
+            "Name": "angiotensinii"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "angiotensin II",
+            "Name": "angiotensinii"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "Ang II",
+            "Name": "angii"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "Ang II",
+            "Name": "angii"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "Losartan",
+            "Name": "losartan"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "EXP",
+            "Name": "exp"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "irbesartan",
+            "Name": "irbesartan"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "Ang II",
+            "Name": "angii"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "Ang II",
+            "Name": "angii"
+        },
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "candesartan",
+            "Name": "candesartan"
+        },
+        {
+            "id": "T23",
+            "type": "Chemical",
+            "name": "losartan",
+            "Name": "losartan"
+        },
+        {
+            "id": "T25",
+            "type": "Chemical",
+            "name": "irbesartan",
+            "Name": "irbesartan"
+        },
+        {
+            "id": "T26",
+            "type": "Chemical",
+            "name": "EXP",
+            "Name": "exp"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "candesartan",
+            "Name": "candesartan"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "Ang II",
+            "Name": "angii"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Ang II",
+            "Name": "angii"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "Ang II",
+            "Name": "angii"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Ang II",
+            "Name": "angii"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "candesartan",
+            "Name": "candesartan"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "Ang II",
+            "Name": "angii"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Ang II",
+            "Name": "angii"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "candesartan",
+            "Name": "candesartan"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "candesartan",
+            "Name": "candesartan"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "candesartan",
+            "Name": "candesartan"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Ang II",
+            "Name": "angii"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "Ang II",
+            "Name": "angii"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T24",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T31"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T15",
+            "target": "T32"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T15",
+            "target": "T33"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T29"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T30"
+        }
+    ]
+}

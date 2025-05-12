@@ -1,0 +1,200 @@
+{
+    "entities": [
+        {
+            "id": "T30",
+            "type": "Disease",
+            "name": "Brown wrinkle syndrome"
+        },
+        {
+            "id": "T31",
+            "type": "Location",
+            "name": "Arcadia",
+            "GeoNames": "264644"
+        },
+        {
+            "id": "T32",
+            "type": "Pest",
+            "name": "brown wrinkle virus",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T34",
+            "type": "Plant",
+            "name": "tomato",
+            "NCBI_Taxonomy": "4081"
+        },
+        {
+            "id": "T35",
+            "type": "Location",
+            "name": "Arcadia",
+            "GeoNames": "264644"
+        },
+        {
+            "id": "T36",
+            "type": "Plant",
+            "name": "tomato",
+            "NCBI_Taxonomy": "4081"
+        },
+        {
+            "id": "T37",
+            "type": "Plant",
+            "name": "Troy variety",
+            "NCBI_Taxonomy": "4081"
+        },
+        {
+            "id": "T38",
+            "type": "Location",
+            "name": "Community of Levidi",
+            "GeoNames": "8133668"
+        },
+        {
+            "id": "T39",
+            "type": "Plant",
+            "name": "tomato plants",
+            "NCBI_Taxonomy": "4081"
+        },
+        {
+            "id": "T40",
+            "type": "Plant",
+            "name": "pepper plants",
+            "NCBI_Taxonomy": "4071"
+        },
+        {
+            "id": "T51",
+            "type": "Location",
+            "name": "Arcadia",
+            "GeoNames": "264644"
+        },
+        {
+            "id": "T59",
+            "type": "Plant",
+            "name": "stypnus",
+            "NCBI_Taxonomy": "13747"
+        },
+        {
+            "id": "T60",
+            "type": "Plant",
+            "name": "datula",
+            "NCBI_Taxonomy": "4074"
+        },
+        {
+            "id": "T61",
+            "type": "Plant",
+            "name": "goosefoot",
+            "NCBI_Taxonomy": "66214"
+        },
+        {
+            "id": "T62",
+            "type": "Plant",
+            "name": "petunia",
+            "NCBI_Taxonomy": "4101"
+        },
+        {
+            "id": "T63",
+            "type": "Plant",
+            "name": "tomato",
+            "NCBI_Taxonomy": "4081"
+        },
+        {
+            "id": "T64",
+            "type": "Plant",
+            "name": "pepper",
+            "NCBI_Taxonomy": "4071"
+        },
+        {
+            "id": "T65",
+            "type": "Pest",
+            "name": "Tomato brown fruit wrinkle virus",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T66",
+            "type": "Pest",
+            "name": "ToBRFV",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T68",
+            "type": "Plant",
+            "name": "tomato crops",
+            "NCBI_Taxonomy": "4081"
+        },
+        {
+            "id": "T69",
+            "type": "Plant",
+            "name": "pepper crops",
+            "NCBI_Taxonomy": "4071"
+        }
+    ],
+    "equivalences": [
+        [
+            "T65",
+            "T66"
+        ],
+        [
+            "T34",
+            "T36"
+        ],
+        [
+            "T35",
+            "T31"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Causes",
+            "source": "T32",
+            "target": "T30"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T32",
+            "target": "T40"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T32",
+            "target": "T39"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T32",
+            "target": "T37"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T32",
+            "target": "T34"
+        },
+        {
+            "type": "Located in",
+            "source": "T32",
+            "target": "T35"
+        },
+        {
+            "type": "Located in",
+            "source": "T32",
+            "target": "T38"
+        },
+        {
+            "type": "Located in",
+            "source": "T32",
+            "target": "T38"
+        },
+        {
+            "type": "Located in",
+            "source": "T34",
+            "target": "T35"
+        },
+        {
+            "type": "Located in",
+            "source": "T34",
+            "target": "T38"
+        },
+        {
+            "type": "Located in",
+            "source": "T37",
+            "target": "T38"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "deoxyuridine triphosphate-biotin",
+            "Name": "deoxyuridinetriphosphatebiotin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "interleukin-10",
+            "Name": "interleukin10"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "tumor necrosis factor-alpha",
+            "Name": "tumornecrosisfactoralpha"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T16"
+        }
+    ]
+}

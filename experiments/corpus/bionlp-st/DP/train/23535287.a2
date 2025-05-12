@@ -1,0 +1,98 @@
+T18	CHEMICAL 0 20	Cajaninstilbene acid
+N1	Name Annotation:T18 Referent:cajaninstilbeneacid
+T19	CHEMICAL 22 25	CSA
+N2	Name Annotation:T19 Referent:csa
+T42	GENE-Y 94 98	Nrf2
+N3	Name Annotation:T42 Referent:nrf2
+T1	CHEMICAL 130 150	Cajaninstilbene acid
+N4	Name Annotation:T1 Referent:cajaninstilbeneacid
+T4	CHEMICAL 152 155	CSA
+N5	Name Annotation:T4 Referent:csa
+T28	GENE-Y 287 330	nuclear factor-erythroid 2-related factor 2
+N6	Name Annotation:T28 Referent:nuclearfactorerythroid2relatedfactor2
+T29	GENE-Y 332 336	Nrf2
+N7	Name Annotation:T29 Referent:nrf2
+T30	GENE-Y 426 430	Nrf2
+N8	Name Annotation:T30 Referent:nrf2
+T5	CHEMICAL 434 437	CSA
+N9	Name Annotation:T5 Referent:csa
+T6	CHEMICAL 538 544	oxygen
+N10	Name Annotation:T6 Referent:oxygen
+T7	CHEMICAL 564 568	H2O2
+N11	Name Annotation:T7 Referent:h2o2
+T8	CHEMICAL 573 576	CSA
+N12	Name Annotation:T8 Referent:csa
+T9	CHEMICAL 610 614	H2O2
+N13	Name Annotation:T9 Referent:h2o2
+T10	CHEMICAL 622 625	CSA
+N14	Name Annotation:T10 Referent:csa
+T31	GENE-Y 636 640	Nrf2
+N15	Name Annotation:T31 Referent:nrf2
+T11	CHEMICAL 726 729	CSA
+N16	Name Annotation:T11 Referent:csa
+T32	GENE-Y 804 808	Nrf2
+N17	Name Annotation:T32 Referent:nrf2
+T33	GENE-N 832 860	antioxidant response element
+N18	Name Annotation:T33 Referent:antioxidantresponseelement
+T34	GENE-N 862 865	ARE
+N19	Name Annotation:T34 Referent:are
+T12	CHEMICAL 941 944	CSA
+N20	Name Annotation:T12 Referent:csa
+T35	GENE-Y 953 957	Nrf2
+N21	Name Annotation:T35 Referent:nrf2
+T36	GENE-N 968 971	ARE
+N22	Name Annotation:T36 Referent:are
+T13	CHEMICAL 1004 1008	heme
+N23	Name Annotation:T13 Referent:heme
+T37	GENE-Y 1004 1020	heme oxygenase-1
+N24	Name Annotation:T37 Referent:hemeoxygenase1
+T38	GENE-Y 1022 1026	HO-1
+N25	Name Annotation:T38 Referent:ho1
+T14	CHEMICAL 1029 1036	NAD(P)H
+N26	Name Annotation:T14 Referent:nadph
+T39	GENE-Y 1029 1061	NAD(P)H quinone oxidoreductase 1
+N27	Name Annotation:T39 Referent:nadphquinoneoxidoreductase1
+T15	CHEMICAL 1037 1044	quinone
+N28	Name Annotation:T15 Referent:quinone
+T40	GENE-Y 1063 1067	NQO1
+N29	Name Annotation:T40 Referent:nqo1
+T16	CHEMICAL 1074 1083	glutamate
+N30	Name Annotation:T16 Referent:glutamate
+T41	GENE-N 1074 1099	glutamate-cysteine ligase
+N31	Name Annotation:T41 Referent:glutamatecysteineligase
+T17	CHEMICAL 1084 1092	cysteine
+N32	Name Annotation:T17 Referent:cysteine
+T20	GENE-N 1135 1139	PI3K
+N33	Name Annotation:T20 Referent:pi3k
+T21	GENE-N 1140 1143	AKT
+N34	Name Annotation:T21 Referent:akt
+T22	GENE-N 1145 1148	ERK
+N35	Name Annotation:T22 Referent:erk
+T23	GENE-N 1153 1156	JNK
+N36	Name Annotation:T23 Referent:jnk
+T24	GENE-Y 1191 1195	Nrf2
+N37	Name Annotation:T24 Referent:nrf2
+T2	CHEMICAL 1213 1216	CSA
+N38	Name Annotation:T2 Referent:csa
+T25	GENE-Y 1247 1251	Nrf2
+N39	Name Annotation:T25 Referent:nrf2
+T26	GENE-Y 1300 1304	Nrf2
+N40	Name Annotation:T26 Referent:nrf2
+T27	GENE-N 1305 1308	ARE
+N41	Name Annotation:T27 Referent:are
+T3	CHEMICAL 1362 1365	CSA
+N42	Name Annotation:T3 Referent:csa
+R1	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T31
+R2	ACTIVATOR Arg1:T11 Arg2:T32
+R3	DIRECT-REGULATOR Arg1:T11 Arg2:T33
+R4	DIRECT-REGULATOR Arg1:T11 Arg2:T34
+R5	ACTIVATOR Arg1:T12 Arg2:T36
+R6	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T37
+R7	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T38
+R8	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T39
+R9	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T40
+R10	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T41
+R11	ACTIVATOR Arg1:T12 Arg2:T20
+R12	ACTIVATOR Arg1:T12 Arg2:T21
+R13	ACTIVATOR Arg1:T12 Arg2:T22
+R14	ACTIVATOR Arg1:T12 Arg2:T23

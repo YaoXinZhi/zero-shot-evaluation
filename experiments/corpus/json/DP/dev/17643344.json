@@ -1,0 +1,117 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "substance P",
+            "Name": "substancep"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "substance P receptor",
+            "Name": "substancepreceptor"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "aprepitant",
+            "Name": "aprepitant"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "melarsoprol",
+            "Name": "melarsoprol"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "melarsoprol",
+            "Name": "melarsoprol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Substance P",
+            "Name": "substancep"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Substance P (SP) receptor",
+            "Name": "substancepspreceptor"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "SP",
+            "Name": "sp"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "melarsoprol",
+            "Name": "melarsoprol"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "humanised SP receptor",
+            "Name": "humanisedspreceptor"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "SP",
+            "Name": "sp"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "aprepitant",
+            "Name": "aprepitant"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "EMEND",
+            "Name": "emend"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "melarsoprol",
+            "Name": "melarsoprol"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "aprepitant",
+            "Name": "aprepitant"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T11",
+            "target": "T15"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T12",
+            "target": "T15"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T7",
+            "target": "T14"
+        }
+    ]
+}

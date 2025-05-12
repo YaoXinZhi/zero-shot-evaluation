@@ -1,0 +1,155 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Phosphodiesterase",
+            "Name": "phosphodiesterase"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "PDE3/4",
+            "Name": "pde34"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "(-)-6-(7-Methoxy-2-(trifluoromethyl)pyrazolo[1,5-a]pyridin-4-yl)-5-methyl-4,5-dihydropyridazin-3(2H)-one",
+            "Name": "67methoxy2trifluoromethylpyrazolo15apyridin4yl5methyl45dihydropyridazin32hone"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "KCA-1490",
+            "Name": "kca1490"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "PDE3/4",
+            "Name": "pde34"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "pyridazinone",
+            "Name": "pyridazinone"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PDE4",
+            "Name": "pde4"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PDE3",
+            "Name": "pde3"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "6-aryl-4,5-dihydropyridazin-3(2H)-one",
+            "Name": "6aryl45dihydropyridazin32hone"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PDE4",
+            "Name": "pde4"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PDE3",
+            "Name": "pde3"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "dihydropyridazinone",
+            "Name": "dihydropyridazinone"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "4,4-dimethylpyrazolone",
+            "Name": "44dimethylpyrazolone"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "pyrazolopyridine",
+            "Name": "pyrazolopyridine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "PDE3/4",
+            "Name": "pde34"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T15"
+        }
+    ]
+}

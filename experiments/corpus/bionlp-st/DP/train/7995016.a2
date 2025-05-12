@@ -1,0 +1,55 @@
+T13	CHEMICAL 27 37	l-deprenyl
+N1	Name Annotation:T13 Referent:ldeprenyl
+T14	CHEMICAL 39 49	selegiline
+N2	Name Annotation:T14 Referent:selegiline
+T1	CHEMICAL 72 82	l-Deprenyl
+N3	Name Annotation:T1 Referent:ldeprenyl
+T5	CHEMICAL 84 94	selegiline
+N4	Name Annotation:T5 Referent:selegiline
+T11	CHEMICAL 140 149	monoamine
+N5	Name Annotation:T11 Referent:monoamine
+T21	GENE-Y 140 164	monoamine oxidase type B
+N6	Name Annotation:T21 Referent:monoamineoxidasetypeb
+T23	GENE-Y 166 171	MAO-B
+N7	Name Annotation:T23 Referent:maob
+T17	GENE-N 277 280	MAO
+N8	Name Annotation:T17 Referent:mao
+T8	CHEMICAL 285 295	selegiline
+N9	Name Annotation:T8 Referent:selegiline
+T9	CHEMICAL 403 413	selegiline
+N10	Name Annotation:T9 Referent:selegiline
+T10	CHEMICAL 534 544	selegiline
+N11	Name Annotation:T10 Referent:selegiline
+T18	GENE-Y 570 575	MAO-B
+N12	Name Annotation:T18 Referent:maob
+T19	GENE-Y 676 681	MAO-B
+N13	Name Annotation:T19 Referent:maob
+T20	GENE-N 733 736	MAO
+N14	Name Annotation:T20 Referent:mao
+T22	GENE-N 853 856	MAO
+N15	Name Annotation:T22 Referent:mao
+T12	CHEMICAL 1044 1054	Selegiline
+N16	Name Annotation:T12 Referent:selegiline
+T2	CHEMICAL 1075 1100	l-(-)-desmethylselegiline
+N17	Name Annotation:T2 Referent:ldesmethylselegiline
+T3	CHEMICAL 1102 1123	l-(-)-methamphetamine
+N18	Name Annotation:T3 Referent:lmethamphetamine
+T4	CHEMICAL 1129 1146	l-(-)-amphetamine
+N19	Name Annotation:T4 Referent:lamphetamine
+T15	GENE-N 1190 1195	P-450
+N20	Name Annotation:T15 Referent:p450
+T6	CHEMICAL 1388 1409	l-(-)-methamphetamine
+N21	Name Annotation:T6 Referent:lmethamphetamine
+T7	CHEMICAL 1498 1523	l-(-)-Desmethylselegiline
+N22	Name Annotation:T7 Referent:ldesmethylselegiline
+T16	GENE-Y 1574 1579	MAO-B
+N23	Name Annotation:T16 Referent:maob
+R1	INHIBITOR Arg1:T5 Arg2:T21
+R2	INHIBITOR Arg1:T1 Arg2:T21
+R3	INHIBITOR Arg1:T1 Arg2:T23
+R4	INHIBITOR Arg1:T5 Arg2:T23
+R5	SUBSTRATE Arg1:T12 Arg2:T15
+R6	SUBSTRATE Arg1:T2 Arg2:T15
+R7	SUBSTRATE Arg1:T3 Arg2:T15
+R8	SUBSTRATE Arg1:T4 Arg2:T15
+R9	INHIBITOR Arg1:T7 Arg2:T16

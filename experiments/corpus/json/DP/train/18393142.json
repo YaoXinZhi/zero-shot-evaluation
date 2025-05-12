@@ -1,0 +1,77 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "factor Xa",
+            "Name": "factorxa"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "factor IIa",
+            "Name": "factoriia"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "factor IIa",
+            "Name": "factoriia"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "vitamin K",
+            "Name": "vitamink"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "pentasaccharide",
+            "Name": "pentasaccharide"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "idraparinux",
+            "Name": "idraparinux"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "factor Xa",
+            "Name": "factorxa"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "rivaroxaban",
+            "Name": "rivaroxaban"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "apixaban",
+            "Name": "apixaban"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "dabigatran",
+            "Name": "dabigatran"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T7"
+        }
+    ]
+}

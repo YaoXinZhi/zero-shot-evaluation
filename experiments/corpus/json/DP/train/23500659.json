@@ -1,0 +1,208 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Androgen",
+            "Name": "androgen"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "estrogen receptors",
+            "Name": "estrogenreceptors"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "ERs",
+            "Name": "ers"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "ER-\u03b1",
+            "Name": "er\u03b1"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "ER-\u03b2",
+            "Name": "er\u03b2"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "testosterone",
+            "Name": "testosterone"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "testosterone",
+            "Name": "testosterone"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Testosterone",
+            "Name": "testosterone"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "ER-\u03b2",
+            "Name": "er\u03b2"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "ER-\u03b1",
+            "Name": "er\u03b1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "AR",
+            "Name": "ar"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "testosterone",
+            "Name": "testosterone"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "P21",
+            "Name": "p21"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "WAF1",
+            "Name": "waf1"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Cip1",
+            "Name": "cip1"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Bax",
+            "Name": "bax"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Bcl-xl",
+            "Name": "bclxl"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "proliferating cell nuclear antigen",
+            "Name": "proliferatingcellnuclearantigen"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "PCNA",
+            "Name": "pcna"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "testosterone",
+            "Name": "testosterone"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "testosterone",
+            "Name": "testosterone"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T24"
+        }
+    ]
+}

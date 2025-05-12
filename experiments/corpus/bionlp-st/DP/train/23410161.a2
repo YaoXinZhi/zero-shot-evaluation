@@ -1,0 +1,63 @@
+T24	GENE-N 593 622	voltage-gated calcium channel
+N1	Name Annotation:T24 Referent:voltagegatedcalciumchannel
+T11	CHEMICAL 607 614	calcium
+N2	Name Annotation:T11 Referent:calcium
+T12	CHEMICAL 633 637	NMDA
+N3	Name Annotation:T12 Referent:nmda
+T25	GENE-N 633 646	NMDA receptor
+N4	Name Annotation:T25 Referent:nmdareceptor
+T26	GENE-N 664 678	sigma-receptor
+N5	Name Annotation:T26 Referent:sigmareceptor
+T13	CHEMICAL 790 807	thiazolidinedione
+N6	Name Annotation:T13 Referent:thiazolidinedione
+T14	CHEMICAL 831 841	glitazones
+N7	Name Annotation:T14 Referent:glitazones
+T27	GENE-Y 906 914	mitoNEET
+N8	Name Annotation:T27 Referent:mitoneet
+T15	CHEMICAL 1038 1048	ladostigil
+N9	Name Annotation:T15 Referent:ladostigil
+T16	GENE-Y 1111 1115	AChE
+N10	Name Annotation:T16 Referent:ache
+T1	CHEMICAL 1126 1138	rivastigmine
+N11	Name Annotation:T1 Referent:rivastigmine
+T2	CHEMICAL 1148 1157	monoamine
+N12	Name Annotation:T2 Referent:monoamine
+T17	GENE-Y 1148 1167	monoamine oxidase-B
+N13	Name Annotation:T17 Referent:monoamineoxidaseb
+T18	GENE-Y 1169 1174	MAO-B
+N14	Name Annotation:T18 Referent:maob
+T3	CHEMICAL 1186 1196	rasagiline
+N15	Name Annotation:T3 Referent:rasagiline
+T4	CHEMICAL 1375 1383	stilbene
+N16	Name Annotation:T4 Referent:stilbene
+T5	CHEMICAL 1472 1481	flavonoid
+N17	Name Annotation:T5 Referent:flavonoid
+T6	CHEMICAL 1498 1509	resveratrol
+N18	Name Annotation:T6 Referent:resveratrol
+T7	CHEMICAL 1521 1529	stilbene
+N19	Name Annotation:T7 Referent:stilbene
+T19	GENE-Y 1635 1647	beta-amyloid
+N20	Name Annotation:T19 Referent:betaamyloid
+T20	GENE-Y 1669 1681	beta-amyloid
+N21	Name Annotation:T20 Referent:betaamyloid
+T8	CHEMICAL 1776 1784	stilbene
+N22	Name Annotation:T8 Referent:stilbene
+T21	GENE-N 1842 1845	MAO
+N23	Name Annotation:T21 Referent:mao
+T9	CHEMICAL 1894 1902	xanthine
+N24	Name Annotation:T9 Referent:xanthine
+T10	CHEMICAL 1995 2004	adenosine
+N25	Name Annotation:T10 Referent:adenosine
+T22	GENE-Y 1995 2017	adenosine A2A receptor
+N26	Name Annotation:T22 Referent:adenosinea2areceptor
+T23	GENE-Y 2033 2038	MAO-B
+N27	Name Annotation:T23 Referent:maob
+R1	INHIBITOR Arg1:T1 Arg2:T16
+R2	INHIBITOR Arg1:T3 Arg2:T17
+R3	INHIBITOR Arg1:T3 Arg2:T18
+R4	DIRECT-REGULATOR Arg1:T7 Arg2:T19
+R5	INHIBITOR Arg1:T8 Arg2:T21
+R6	ANTAGONIST Arg1:T9 Arg2:T22
+R7	INHIBITOR Arg1:T9 Arg2:T23
+R8	INHIBITOR Arg1:T15 Arg2:T16
+R9	INHIBITOR Arg1:T15 Arg2:T18

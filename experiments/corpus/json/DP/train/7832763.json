@@ -1,0 +1,264 @@
+{
+    "entities": [
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "constitutive and inducible forms of human cyclo-oxygenase",
+            "Name": "constitutiveandinducibleformsofhumancyclooxygenase"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "cyclo-oxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "arachidonic acid",
+            "Name": "arachidonicacid"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "prostaglandins",
+            "Name": "prostaglandins"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "cyclo-oxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Constitutive and inducible forms of human cyclo-oxygenase",
+            "Name": "constitutiveandinducibleformsofhumancyclooxygenase"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "hCOX-1",
+            "Name": "hcox1"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "hCOX-2",
+            "Name": "hcox2"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "hCOX-1",
+            "Name": "hcox1"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "O2",
+            "Name": "o2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "arachidonate",
+            "Name": "arachidonate"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "hCOX-2",
+            "Name": "hcox2"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "O2",
+            "Name": "o2"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "arachidonate",
+            "Name": "arachidonate"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "O2",
+            "Name": "o2"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Indomethacin",
+            "Name": "indomethacin"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "hCOX-1",
+            "Name": "hcox1"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "hCOX-2",
+            "Name": "hcox2"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "NS-398",
+            "Name": "ns398"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Dup-697",
+            "Name": "dup697"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "hCOX-2",
+            "Name": "hcox2"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "NS-398",
+            "Name": "ns398"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "Dup-697",
+            "Name": "dup697"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "hCOX-2",
+            "Name": "hcox2"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "indomethacin",
+            "Name": "indomethacin"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "hCOX-1",
+            "Name": "hcox1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "mefenamic acid",
+            "Name": "mefenamicacid"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "hCOX-2",
+            "Name": "hcox2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "steroidal",
+            "Name": "steroidal"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T18"
+        },
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T18"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T26"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T17"
+        }
+    ]
+}

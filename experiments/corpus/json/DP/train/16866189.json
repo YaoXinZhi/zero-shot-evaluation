@@ -1,0 +1,65 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "DNA polymerase",
+            "Name": "dnapolymerase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "methylmethane sulfonate",
+            "Name": "methylmethanesulfonate"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "methylmethane sulfonate",
+            "Name": "methylmethanesulfonate"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "2-aminoanthracene",
+            "Name": "2aminoanthracene"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "DNA polymerase beta",
+            "Name": "dnapolymerasebeta"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cytosine arabinoside-3-phosphate",
+            "Name": "cytosinearabinoside3phosphate"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Ara-C",
+            "Name": "arac"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "DNA polymerase beta",
+            "Name": "dnapolymerasebeta"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T7"
+        }
+    ]
+}

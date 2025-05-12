@@ -1,0 +1,66 @@
+T9	CHEMICAL 0 11	Pirfenidone
+N1	Name Annotation:T9 Referent:pirfenidone
+T25	GENE-Y 21 29	TGF-beta
+N2	Name Annotation:T25 Referent:tgfbeta
+T13	GENE-N 113 121	cytokine
+N3	Name Annotation:T13 Referent:cytokine
+T15	GENE-Y 122 159	transforming growth factor (TGF)-beta
+N4	Name Annotation:T15 Referent:transforminggrowthfactortgfbeta
+T1	CHEMICAL 291 324	5-methyl-1-phenyl-2-(1H)-pyridone
+N5	Name Annotation:T1 Referent:5methyl1phenyl21hpyridone
+T2	CHEMICAL 326 337	pirfenidone
+N6	Name Annotation:T2 Referent:pirfenidone
+T3	CHEMICAL 339 342	PFD
+N7	Name Annotation:T3 Referent:pfd
+T11	GENE-Y 390 399	TGF-beta2
+N8	Name Annotation:T11 Referent:tgfbeta2
+T12	GENE-Y 461 470	TGF-beta2
+N9	Name Annotation:T12 Referent:tgfbeta2
+T4	CHEMICAL 502 505	PFD
+N10	Name Annotation:T4 Referent:pfd
+T14	GENE-Y 549 557	TGF-beta
+N11	Name Annotation:T14 Referent:tgfbeta
+T16	GENE-Y 650 658	TGF-beta
+N12	Name Annotation:T16 Referent:tgfbeta
+T5	CHEMICAL 691 694	PFD
+N13	Name Annotation:T5 Referent:pfd
+T17	GENE-Y 719 728	TGF-beta2
+N14	Name Annotation:T17 Referent:tgfbeta2
+T18	GENE-Y 759 768	TGF-beta2
+N15	Name Annotation:T18 Referent:tgfbeta2
+T19	GENE-Y 834 842	TGF-beta
+N16	Name Annotation:T19 Referent:tgfbeta
+T20	GENE-N 843 865	pro-protein convertase
+N17	Name Annotation:T20 Referent:proproteinconvertase
+T21	GENE-Y 866 871	furin
+N18	Name Annotation:T21 Referent:furin
+T6	CHEMICAL 886 889	PFD
+N19	Name Annotation:T6 Referent:pfd
+T22	GENE-Y 924 957	matrix metalloproteinase (MMP)-11
+N20	Name Annotation:T22 Referent:matrixmetalloproteinasemmp11
+T23	GENE-Y 961 969	TGF-beta
+N21	Name Annotation:T23 Referent:tgfbeta
+T24	GENE-Y 986 991	furin
+N22	Name Annotation:T24 Referent:furin
+T7	CHEMICAL 1048 1051	PFD
+N23	Name Annotation:T7 Referent:pfd
+T8	CHEMICAL 1055 1058	PFD
+N24	Name Annotation:T8 Referent:pfd
+T10	GENE-Y 1137 1145	TGF-beta
+N25	Name Annotation:T10 Referent:tgfbeta
+R1	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T25
+R2	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T11
+R3	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T11
+R4	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T11
+R5	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T17
+R6	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T18
+R7	INHIBITOR Arg1:T5 Arg2:T19
+R8	INHIBITOR Arg1:T5 Arg2:T20
+R9	INHIBITOR Arg1:T5 Arg2:T21
+R10	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T19
+R11	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T20
+R12	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T21
+R13	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T22
+R14	INHIBITOR Arg1:T6 Arg2:T23
+R15	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T12
+R16	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T14

@@ -1,0 +1,158 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "tetrahydrocannabinol",
+            "Name": "tetrahydrocannabinol"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Tetrahydrocannabinol",
+            "Name": "tetrahydrocannabinol"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "THC",
+            "Name": "thc"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "CB1",
+            "Name": "cb1"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "CB2",
+            "Name": "cb2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "G-protein coupled receptor",
+            "Name": "gproteincoupledreceptor"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "GPCR",
+            "Name": "gpcr"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "CB1",
+            "Name": "cb1"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "CB2",
+            "Name": "cb2"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "THC",
+            "Name": "thc"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "THC",
+            "Name": "thc"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "THC",
+            "Name": "thc"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "THC",
+            "Name": "thc"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "THC",
+            "Name": "thc"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "THC",
+            "Name": "thc"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "THC",
+            "Name": "thc"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "troponin T",
+            "Name": "troponint"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "THC",
+            "Name": "thc"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "ERK1/2",
+            "Name": "erk12"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "THC",
+            "Name": "thc"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "THC",
+            "Name": "thc"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T17"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T16"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T14"
+        }
+    ]
+}

@@ -1,0 +1,251 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Sorafenib",
+            "Name": "sorafenib"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "von Hippel-Lindau disease protein",
+            "Name": "vonhippellindaudiseaseprotein"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "vascular endothelial growth factor",
+            "Name": "vascularendothelialgrowthfactor"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "VEGF receptor",
+            "Name": "vegfreceptor"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "VEGFR",
+            "Name": "vegfr"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "platelet-derived growth factor-beta",
+            "Name": "plateletderivedgrowthfactorbeta"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PDGF-beta",
+            "Name": "pdgfbeta"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PDGF receptor-beta",
+            "Name": "pdgfreceptorbeta"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PDGFR-beta",
+            "Name": "pdgfrbeta"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "transforming growth factor-alpha",
+            "Name": "transforminggrowthfactoralpha"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "TGF-alpha",
+            "Name": "tgfalpha"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "epidermal growth factor receptor",
+            "Name": "epidermalgrowthfactorreceptor"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Raf",
+            "Name": "raf"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "sorafenib",
+            "Name": "sorafenib"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "sunitinib",
+            "Name": "sunitinib"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "AG013736",
+            "Name": "ag013736"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "VEGFRs",
+            "Name": "vegfrs"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "PDGFR-beta",
+            "Name": "pdgfrbeta"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Sorafenib",
+            "Name": "sorafenib"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "Raf",
+            "Name": "raf"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "TGF-alpha",
+            "Name": "tgfalpha"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "VEGFR",
+            "Name": "vegfr"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "PDGFR-beta",
+            "Name": "pdgfrbeta"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "sorafenib",
+            "Name": "sorafenib"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "sorafenib",
+            "Name": "sorafenib"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T29"
+        }
+    ]
+}

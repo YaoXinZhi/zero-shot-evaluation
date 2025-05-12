@@ -1,0 +1,81 @@
+T20	CHEMICAL 0 15	Pseudoephedrine
+N1	Name Annotation:T20 Referent:pseudoephedrine
+T22	CHEMICAL 6 15	ephedrine
+N2	Name Annotation:T22 Referent:ephedrine
+T36	GENE-Y 74 83	TNF-alpha
+N3	Name Annotation:T36 Referent:tnfalpha
+T21	CHEMICAL 143 158	D-galactosamine
+N4	Name Annotation:T21 Referent:dgalactosamine
+T13	CHEMICAL 193 208	pseudoephedrine
+N5	Name Annotation:T13 Referent:pseudoephedrine
+T16	CHEMICAL 199 208	ephedrine
+N6	Name Annotation:T16 Referent:ephedrine
+T9	CHEMICAL 325 340	D-galactosamine
+N7	Name Annotation:T9 Referent:dgalactosamine
+T11	CHEMICAL 342 348	D-GalN
+N8	Name Annotation:T11 Referent:dgaln
+T12	CHEMICAL 479 485	D-GalN
+N9	Name Annotation:T12 Referent:dgaln
+T14	CHEMICAL 611 626	pseudoephedrine
+N10	Name Annotation:T14 Referent:pseudoephedrine
+T15	CHEMICAL 617 626	ephedrine
+N11	Name Annotation:T15 Referent:ephedrine
+T17	CHEMICAL 713 728	pseudoephedrine
+N12	Name Annotation:T17 Referent:pseudoephedrine
+T18	CHEMICAL 824 828	GalN
+N13	Name Annotation:T18 Referent:galn
+T19	CHEMICAL 840 855	pseudoephedrine
+N14	Name Annotation:T19 Referent:pseudoephedrine
+T33	GENE-Y 1060 1090	monocyte chemotactic protein-1
+N15	Name Annotation:T33 Referent:monocytechemotacticprotein1
+T34	GENE-Y 1121 1149	tumour necrosis factor-alpha
+N16	Name Annotation:T34 Referent:tumournecrosisfactoralpha
+T35	GENE-Y 1151 1160	TNF-alpha
+N17	Name Annotation:T35 Referent:tnfalpha
+T1	CHEMICAL 1213 1219	D-GalN
+N18	Name Annotation:T1 Referent:dgaln
+T2	CHEMICAL 1252 1259	alanine
+N19	Name Annotation:T2 Referent:alanine
+T23	GENE-N 1252 1276	alanine aminotransferase
+N20	Name Annotation:T23 Referent:alanineaminotransferase
+T24	GENE-N 1278 1281	ALT
+N21	Name Annotation:T24 Referent:alt
+T3	CHEMICAL 1290 1299	bilirubin
+N22	Name Annotation:T3 Referent:bilirubin
+T4	CHEMICAL 1311 1326	malondialdehyde
+N23	Name Annotation:T4 Referent:malondialdehyde
+T5	CHEMICAL 1344 1353	Ephedrine
+N24	Name Annotation:T5 Referent:ephedrine
+T6	CHEMICAL 1428 1443	pseudoephedrine
+N25	Name Annotation:T6 Referent:pseudoephedrine
+T25	GENE-Y 1487 1502	p-IkappaB-alpha
+N26	Name Annotation:T25 Referent:pikappabalpha
+T26	GENE-N 1544 1566	nuclear factor kappa B
+N27	Name Annotation:T26 Referent:nuclearfactorkappab
+T27	GENE-N 1568 1577	NF-kappaB
+N28	Name Annotation:T27 Referent:nfkappab
+T28	GENE-N 1632 1641	NF-kappaB
+N29	Name Annotation:T28 Referent:nfkappab
+T29	GENE-Y 1642 1645	p65
+N30	Name Annotation:T29 Referent:p65
+T30	GENE-Y 1683 1692	TNF-alpha
+N31	Name Annotation:T30 Referent:tnfalpha
+T31	GENE-Y 1720 1729	TNF-alpha
+N32	Name Annotation:T31 Referent:tnfalpha
+T7	CHEMICAL 1773 1788	pseudoephedrine
+N33	Name Annotation:T7 Referent:pseudoephedrine
+T8	CHEMICAL 1779 1788	ephedrine
+N34	Name Annotation:T8 Referent:ephedrine
+T10	CHEMICAL 1852 1858	D-GalN
+N35	Name Annotation:T10 Referent:dgaln
+T32	GENE-Y 1982 1991	TNF-alpha
+N36	Name Annotation:T32 Referent:tnfalpha
+R1	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T34
+R2	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T35
+R3	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T25
+R4	INHIBITOR Arg1:T6 Arg2:T28
+R5	INHIBITOR Arg1:T6 Arg2:T29
+R6	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T30
+R7	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T31
+R8	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T32
+R9	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T32

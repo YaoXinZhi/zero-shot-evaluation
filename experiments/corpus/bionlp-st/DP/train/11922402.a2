@@ -1,0 +1,59 @@
+T1	CHEMICAL 38 47	Tamoxifen
+N1	Name Annotation:T1 Referent:tamoxifen
+T22	CHEMICAL 127 135	estrogen
+N2	Name Annotation:T22 Referent:estrogen
+T6	CHEMICAL 177 185	estrogen
+N3	Name Annotation:T6 Referent:estrogen
+T7	CHEMICAL 231 242	ICI 182,780
+N4	Name Annotation:T7 Referent:ici182780
+T8	CHEMICAL 244 255	fulvestrant
+N5	Name Annotation:T8 Referent:fulvestrant
+T9	CHEMICAL 258 266	Faslodex
+N6	Name Annotation:T9 Referent:faslodex
+T10	CHEMICAL 272 283	ICI 164,384
+N7	Name Annotation:T10 Referent:ici164384
+T11	CHEMICAL 314 322	estrogen
+N8	Name Annotation:T11 Referent:estrogen
+T12	CHEMICAL 341 349	estrogen
+N9	Name Annotation:T12 Referent:estrogen
+T24	GENE-Y 341 358	estrogen receptor
+N10	Name Annotation:T24 Referent:estrogenreceptor
+T25	GENE-Y 360 362	ER
+N11	Name Annotation:T25 Referent:er
+T13	CHEMICAL 408 419	fulvestrant
+N12	Name Annotation:T13 Referent:fulvestrant
+T14	CHEMICAL 424 435	ICI 164,384
+N13	Name Annotation:T14 Referent:ici164384
+T15	CHEMICAL 457 466	tamoxifen
+N14	Name Annotation:T15 Referent:tamoxifen
+T16	CHEMICAL 539 547	estrogen
+N15	Name Annotation:T16 Referent:estrogen
+T17	CHEMICAL 623 632	tamoxifen
+N16	Name Annotation:T17 Referent:tamoxifen
+T18	CHEMICAL 670 681	Fulvestrant
+N17	Name Annotation:T18 Referent:fulvestrant
+T19	CHEMICAL 700 712	antiestrogen
+N18	Name Annotation:T19 Referent:antiestrogen
+T20	CHEMICAL 781 792	fulvestrant
+N19	Name Annotation:T20 Referent:fulvestrant
+T21	CHEMICAL 816 827	anastrozole
+N20	Name Annotation:T21 Referent:anastrozole
+T2	CHEMICAL 1144 1150	EM-800
+N21	Name Annotation:T2 Referent:em800
+T3	CHEMICAL 1155 1161	EM-652
+N22	Name Annotation:T3 Referent:em652
+T4	CHEMICAL 1205 1211	EM-652
+N23	Name Annotation:T4 Referent:em652
+T23	GENE-Y 1261 1263	ER
+N24	Name Annotation:T23 Referent:er
+T5	CHEMICAL 1406 1415	tamoxifen
+N25	Name Annotation:T5 Referent:tamoxifen
+R1	INHIBITOR Arg1:T7 Arg2:T24
+R2	INHIBITOR Arg1:T8 Arg2:T24
+R3	INHIBITOR Arg1:T9 Arg2:T24
+R4	INHIBITOR Arg1:T10 Arg2:T24
+R5	INHIBITOR Arg1:T7 Arg2:T25
+R6	INHIBITOR Arg1:T8 Arg2:T25
+R7	INHIBITOR Arg1:T9 Arg2:T25
+R8	INHIBITOR Arg1:T10 Arg2:T25
+R9	DIRECT-REGULATOR Arg1:T4 Arg2:T23

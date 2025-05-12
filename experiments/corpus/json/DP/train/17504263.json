@@ -1,0 +1,235 @@
+{
+    "entities": [
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "Alanine",
+            "Name": "alanine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "glutamine",
+            "Name": "glutamine"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "ammonia",
+            "Name": "ammonia"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "alanine",
+            "Name": "alanine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ammonia",
+            "Name": "ammonia"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "alanine",
+            "Name": "alanine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Alanine",
+            "Name": "alanine"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "system L",
+            "Name": "systeml"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "LAT2",
+            "Name": "lat2"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "alanine",
+            "Name": "alanine"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Na(+)",
+            "Name": "na"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "B(0)AT2",
+            "Name": "b0at2"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "alanine",
+            "Name": "alanine"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "system L",
+            "Name": "systeml"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "2-aminobicyclo[2.2.1]heptane-2-carboxylic acid",
+            "Name": "2aminobicyclo221heptane2carboxylicacid"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "cycloleucine",
+            "Name": "cycloleucine"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "1-aminocyclopentanecarboxylic acid",
+            "Name": "1aminocyclopentanecarboxylicacid"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "cLeu",
+            "Name": "cleu"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "alanine",
+            "Name": "alanine"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "glutamine",
+            "Name": "glutamine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "system L",
+            "Name": "systeml"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "system L",
+            "Name": "systeml"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "LAT2",
+            "Name": "lat2"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "alanine",
+            "Name": "alanine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "carbon",
+            "Name": "carbon"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T25"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T16",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T17",
+            "target": "T28"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T11",
+            "target": "T28"
+        },
+        {
+            "type": "Substrate",
+            "source": "T9",
+            "target": "T27"
+        },
+        {
+            "type": "Substrate",
+            "source": "T18",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T19",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T20",
+            "target": "T22"
+        }
+    ]
+}

@@ -1,0 +1,113 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Microorganism",
+            "name": "Lactococcus lactis",
+            "NCBI_Taxonomy": "1358"
+        },
+        {
+            "id": "T2",
+            "type": "Microorganism",
+            "name": "Lactococcus garvieae",
+            "NCBI_Taxonomy": "1363"
+        },
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Leuconostoc pseudomesenteroides",
+            "NCBI_Taxonomy": "33968"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "Leuconostoc \ncitreum",
+            "NCBI_Taxonomy": "33964"
+        },
+        {
+            "id": "T5",
+            "type": "Microorganism",
+            "name": "Lactobacillus sp",
+            "NCBI_Taxonomy": "1591"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "Carnobacterium mobile",
+            "NCBI_Taxonomy": "2750"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "Enterococcus faecalis",
+            "NCBI_Taxonomy": "1351"
+        },
+        {
+            "id": "T8",
+            "type": "Microorganism",
+            "name": "Enterococcus faecium",
+            "NCBI_Taxonomy": "1352"
+        },
+        {
+            "id": "T9",
+            "type": "Microorganism",
+            "name": "Macrococcus caseolyticus",
+            "NCBI_Taxonomy": "69966"
+        },
+        {
+            "id": "T10",
+            "type": "Microorganism",
+            "name": "Hafnia alvei",
+            "NCBI_Taxonomy": "569"
+        },
+        {
+            "id": "T11",
+            "type": "Microorganism",
+            "name": "STEC O26:H11",
+            "NCBI_Taxonomy": "244319"
+        },
+        {
+            "id": "T12",
+            "type": "Phenotype",
+            "name": "STEC",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T13",
+            "type": "Microorganism",
+            "name": "STEC O157:H7",
+            "NCBI_Taxonomy": "83334"
+        },
+        {
+            "id": "T14",
+            "type": "Phenotype",
+            "name": "STEC",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T15",
+            "type": "Habitat",
+            "name": "pasteurized milk cheeses",
+            "OntoBiotope": "OBT:002173"
+        },
+        {
+            "id": "T16",
+            "type": "Habitat",
+            "name": "pasteurized milk",
+            "OntoBiotope": "OBT:002173"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T11",
+            "target": "T12"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T13",
+            "target": "T14"
+        }
+    ]
+}

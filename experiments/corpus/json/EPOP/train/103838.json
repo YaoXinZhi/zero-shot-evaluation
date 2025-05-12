@@ -1,0 +1,64 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Location",
+            "name": "France",
+            "GeoNames": "3017382"
+        },
+        {
+            "id": "T14",
+            "type": "Location",
+            "name": "Occitanie",
+            "GeoNames": "11071623"
+        },
+        {
+            "id": "T15",
+            "type": "Pest",
+            "name": "Xylella fastidiosa",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T17",
+            "type": "Pest",
+            "name": "Asian capricorn",
+            "NCBI_Taxonomy": "320461"
+        },
+        {
+            "id": "T18",
+            "type": "Pest",
+            "name": "Xylotrechus chinensis",
+            "NCBI_Taxonomy": "320461"
+        },
+        {
+            "id": "T19",
+            "type": "Location",
+            "name": "H\u00e9rault",
+            "GeoNames": "3013500"
+        },
+        {
+            "id": "T21",
+            "type": "Pest",
+            "name": "Xylella fastidiosa",
+            "NCBI_Taxonomy": "2371"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T15",
+            "target": "T14"
+        },
+        {
+            "type": "Located in",
+            "source": "T17",
+            "target": "T19"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T19"
+        }
+    ]
+}

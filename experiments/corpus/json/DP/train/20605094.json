@@ -1,0 +1,138 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Carbonic anhydrase",
+            "Name": "carbonicanhydrase"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "human isoform II",
+            "Name": "humanisoformii"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "adamantyl",
+            "Name": "adamantyl"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "acetazolamide",
+            "Name": "acetazolamide"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "1,3,4-thiadiazole-sulfonamides",
+            "Name": "134thiadiazolesulfonamides"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "CA",
+            "Name": "ca"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "EC 4.2.1.1",
+            "Name": "ec4211"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "CA I-XV",
+            "Name": "caixv"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "1,3,4-thiadiazole-2-sulfonamide",
+            "Name": "134thiadiazole2sulfonamide"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "hCA II",
+            "Name": "hcaii"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "5-(1-adamantylcarboxamido)-1,3,4-thiadiazole-2-sulfonamide",
+            "Name": "51adamantylcarboxamido134thiadiazole2sulfonamide"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "adamantyl",
+            "Name": "adamantyl"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "5-carboxamide",
+            "Name": "5carboxamide"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "sufonamide",
+            "Name": "sufonamide"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "1,3,4-thiadiazole-2-sulfonamides",
+            "Name": "134thiadiazole2sulfonamides"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T10",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Part of",
+            "source": "T5",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T12"
+        }
+    ]
+}

@@ -1,0 +1,101 @@
+T34	CHEMICAL 0 10	Phenelzine
+N1	Name Annotation:T34 Referent:phenelzine
+T35	CHEMICAL 76 85	monoamine
+N2	Name Annotation:T35 Referent:monoamine
+T44	GENE 76 93	monoamine oxidase
+N3	Name Annotation:T44 Referent:monoamineoxidase
+T1	CHEMICAL 106 116	Phenelzine
+N4	Name Annotation:T1 Referent:phenelzine
+T6	CHEMICAL 118 121	PLZ
+N5	Name Annotation:T6 Referent:plz
+T27	CHEMICAL 165 174	monoamine
+N6	Name Annotation:T27 Referent:monoamine
+T39	GENE 165 182	monoamine oxidase
+N7	Name Annotation:T39 Referent:monoamineoxidase
+T40	GENE 184 187	MAO
+N8	Name Annotation:T40 Referent:mao
+T33	CHEMICAL 204 208	GABA
+N9	Name Annotation:T33 Referent:gaba
+T43	GENE 204 221	GABA-transaminase
+N10	Name Annotation:T43 Referent:gabatransaminase
+T5	CHEMICAL 223 227	GABA
+N11	Name Annotation:T5 Referent:gaba
+T36	GENE 223 229	GABA-T
+N12	Name Annotation:T36 Referent:gabat
+T14	CHEMICAL 258 262	GABA
+N13	Name Annotation:T14 Referent:gaba
+T16	CHEMICAL 271 274	PLZ
+N14	Name Annotation:T16 Referent:plz
+T38	GENE 299 302	MAO
+N15	Name Annotation:T38 Referent:mao
+T17	CHEMICAL 381 384	PLZ
+N16	Name Annotation:T17 Referent:plz
+T18	CHEMICAL 424 428	GABA
+N17	Name Annotation:T18 Referent:gaba
+T19	CHEMICAL 467 470	PLZ
+N18	Name Annotation:T19 Referent:plz
+T20	CHEMICAL 491 500	ornithine
+N19	Name Annotation:T20 Referent:ornithine
+T21	CHEMICAL 502 505	ORN
+N20	Name Annotation:T21 Referent:orn
+T22	CHEMICAL 511 521	amino acid
+N21	Name Annotation:T22 Referent:aminoacid
+T23	CHEMICAL 540 549	glutamate
+N22	Name Annotation:T23 Referent:glutamate
+T24	CHEMICAL 555 559	GABA
+N23	Name Annotation:T24 Referent:gaba
+T25	CHEMICAL 569 579	polyamines
+N24	Name Annotation:T25 Referent:polyamines
+T26	CHEMICAL 682 685	PLZ
+N25	Name Annotation:T26 Referent:plz
+T28	CHEMICAL 822 825	PLZ
+N26	Name Annotation:T28 Referent:plz
+T41	GENE 940 943	MAO
+N27	Name Annotation:T41 Referent:mao
+T29	CHEMICAL 947 950	PLZ
+N28	Name Annotation:T29 Referent:plz
+T30	CHEMICAL 997 1000	ORN
+N29	Name Annotation:T30 Referent:orn
+T42	GENE 1055 1058	MAO
+N30	Name Annotation:T42 Referent:mao
+T31	CHEMICAL 1069 1084	tranylcypromine
+N31	Name Annotation:T31 Referent:tranylcypromine
+T32	CHEMICAL 1086 1089	TCP
+N32	Name Annotation:T32 Referent:tcp
+T2	CHEMICAL 1109 1112	PLZ
+N33	Name Annotation:T2 Referent:plz
+T3	CHEMICAL 1157 1160	ORN
+N34	Name Annotation:T3 Referent:orn
+T4	CHEMICAL 1245 1248	PLZ
+N35	Name Annotation:T4 Referent:plz
+T7	CHEMICAL 1350 1353	TCP
+N36	Name Annotation:T7 Referent:tcp
+T8	CHEMICAL 1379 1382	PLZ
+N37	Name Annotation:T8 Referent:plz
+T9	CHEMICAL 1409 1412	ORN
+N38	Name Annotation:T9 Referent:orn
+T10	CHEMICAL 1434 1438	GABA
+N39	Name Annotation:T10 Referent:gaba
+T11	CHEMICAL 1461 1464	PLZ
+N40	Name Annotation:T11 Referent:plz
+T37	GENE 1489 1492	MAO
+N41	Name Annotation:T37 Referent:mao
+T12	CHEMICAL 1535 1538	ORN
+N42	Name Annotation:T12 Referent:orn
+T13	CHEMICAL 1588 1591	ORN
+N43	Name Annotation:T13 Referent:orn
+T15	CHEMICAL 1644 1647	PLZ
+N44	Name Annotation:T15 Referent:plz
+R1	INHIBITOR Arg1:T34 Arg2:T44
+R2	INHIBITOR Arg1:T1 Arg2:T39
+R3	INHIBITOR Arg1:T6 Arg2:T39
+R4	INHIBITOR Arg1:T1 Arg2:T40
+R5	INHIBITOR Arg1:T6 Arg2:T40
+R6	INHIBITOR Arg1:T1 Arg2:T43
+R7	INHIBITOR Arg1:T1 Arg2:T36
+R8	INHIBITOR Arg1:T6 Arg2:T43
+R9	INHIBITOR Arg1:T6 Arg2:T36
+R10	SUBSTRATE Arg1:T16 Arg2:T38
+R11	INHIBITOR Arg1:T31 Arg2:T42
+R12	INHIBITOR Arg1:T32 Arg2:T42
+R13	SUBSTRATE Arg1:T11 Arg2:T37

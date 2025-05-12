@@ -1,0 +1,83 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "aprepitant",
+            "Name": "aprepitant"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "NK-1 receptor",
+            "Name": "nk1receptor"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "aprepitant",
+            "Name": "aprepitant"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "substance P",
+            "Name": "substancep"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "substance P (SP) receptor",
+            "Name": "substancepspreceptor"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "SP",
+            "Name": "sp"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "oxazinone",
+            "Name": "oxazinone"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cis-sec-amine",
+            "Name": "cissecamine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "chiral alcohol",
+            "Name": "chiralalcohol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "trichloroacetimidate",
+            "Name": "trichloroacetimidate"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "morpholine",
+            "Name": "morpholine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T9",
+            "target": "T11"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T5",
+            "target": "T10"
+        }
+    ]
+}

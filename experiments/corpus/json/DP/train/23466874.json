@@ -1,0 +1,105 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "phlorotannins",
+            "Name": "phlorotannins"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "polyphenols",
+            "Name": "polyphenols"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "phlorotannins",
+            "Name": "phlorotannins"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "polyphenols",
+            "Name": "polyphenols"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "phlorotannins",
+            "Name": "phlorotannins"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "\u03b1-glucosidase",
+            "Name": "\u03b1glucosidase"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "\u03b1-amylase",
+            "Name": "\u03b1amylase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "protein tyrosine phosphatase 1B",
+            "Name": "proteintyrosinephosphatase1b"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PTP 1B",
+            "Name": "ptp1b"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "phlorotannins",
+            "Name": "phlorotannins"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T12"
+        }
+    ]
+}

@@ -1,0 +1,239 @@
+{
+    "entities": [
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "adenylosuccinate",
+            "Name": "adenylosuccinate"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "adenylosuccinate synthetase",
+            "Name": "adenylosuccinatesynthetase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Adenylosuccinate",
+            "Name": "adenylosuccinate"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "Adenylosuccinate synthetase",
+            "Name": "adenylosuccinatesynthetase"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "AdSS",
+            "Name": "adss"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "Mg2+",
+            "Name": "mg2"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "aspartate",
+            "Name": "aspartate"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "adenylosuccinate",
+            "Name": "adenylosuccinate"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "GTP",
+            "Name": "gtp"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "GDP",
+            "Name": "gdp"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "AdSS",
+            "Name": "adss"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "MjAdSS",
+            "Name": "mjadss"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "amino acids",
+            "Name": "aminoacids"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "amino acids",
+            "Name": "aminoacids"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "AdSS",
+            "Name": "adss"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "AdSS",
+            "Name": "adss"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "C",
+            "Name": "c"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "MjAdSS",
+            "Name": "mjadss"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "MjAdSS",
+            "Name": "mjadss"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "AdSS",
+            "Name": "adss"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "MjAdSS",
+            "Name": "mjadss"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "NaCl",
+            "Name": "nacl"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Phosphate",
+            "Name": "phosphate"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "MjAdSS",
+            "Name": "mjadss"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "GTP",
+            "Name": "gtp"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "MjAdSS",
+            "Name": "mjadss"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "mouse acidic isozyme",
+            "Name": "mouseacidicisozyme"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "acidic",
+            "Name": "acidic"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "GTP",
+            "Name": "gtp"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "fructose",
+            "Name": "fructose"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "1,6 bisphosphate",
+            "Name": "16bisphosphate"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "GTP",
+            "Name": "gtp"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T25"
+        },
+        {
+            "type": "Substrate",
+            "source": "T17",
+            "target": "T25"
+        },
+        {
+            "type": "Part of",
+            "source": "T14",
+            "target": "T24"
+        },
+        {
+            "type": "Part of",
+            "source": "T14",
+            "target": "T23"
+        },
+        {
+            "type": "Part of",
+            "source": "T15",
+            "target": "T26"
+        },
+        {
+            "type": "Part of",
+            "source": "T16",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T20"
+        }
+    ]
+}

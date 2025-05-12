@@ -1,0 +1,73 @@
+T16	CHEMICAL 0 7	Suramin
+N1	Name Annotation:T16 Referent:suramin
+T17	CHEMICAL 54 61	ethanol
+N2	Name Annotation:T17 Referent:ethanol
+T6	CHEMICAL 271 278	suramin
+N3	Name Annotation:T6 Referent:suramin
+T7	CHEMICAL 282 309	polysulfonated naphthylurea
+N4	Name Annotation:T7 Referent:polysulfonatednaphthylurea
+T8	CHEMICAL 389 396	ethanol
+N5	Name Annotation:T8 Referent:ethanol
+T9	CHEMICAL 496 503	alanine
+N6	Name Annotation:T9 Referent:alanine
+T32	GENE-N 496 520	alanine aminotransferase
+N7	Name Annotation:T32 Referent:alanineaminotransferase
+T33	GENE-N 522 525	ALT
+N8	Name Annotation:T33 Referent:alt
+T10	CHEMICAL 537 546	bilirubin
+N9	Name Annotation:T10 Referent:bilirubin
+T11	CHEMICAL 706 713	Suramin
+N10	Name Annotation:T11 Referent:suramin
+T34	GENE-N 740 743	ALT
+N11	Name Annotation:T34 Referent:alt
+T12	CHEMICAL 863 886	5-bromo-2'-deoxyuridine
+N12	Name Annotation:T12 Referent:5bromo2deoxyuridine
+T13	CHEMICAL 888 892	BrdU
+N13	Name Annotation:T13 Referent:brdu
+T14	CHEMICAL 1082 1089	Suramin
+N14	Name Annotation:T14 Referent:suramin
+T15	CHEMICAL 1100 1104	BrdU
+N15	Name Annotation:T15 Referent:brdu
+T1	CHEMICAL 1217 1224	Suramin
+N16	Name Annotation:T1 Referent:suramin
+T18	GENE-Y 1259 1282	Tumor necrosis factor-α
+N17	Name Annotation:T18 Referent:tumornecrosisfactorα
+T19	GENE-Y 1284 1290	TNF-α)
+N18	Name Annotation:T19 Referent:tnfα
+T20	GENE-Y 1373 1382	caspase-8
+N19	Name Annotation:T20 Referent:caspase8
+T21	GENE-Y 1387 1396	caspase-3
+N20	Name Annotation:T21 Referent:caspase3
+T2	CHEMICAL 1405 1412	Suramin
+N21	Name Annotation:T2 Referent:suramin
+T22	GENE-Y 1423 1428	TNF-α
+N22	Name Annotation:T22 Referent:tnfα
+T23	GENE-N 1433 1440	caspase
+N23	Name Annotation:T23 Referent:caspase
+T24	GENE-N 1460 1488	Transforming growth factor-β
+N24	Name Annotation:T24 Referent:transforminggrowthfactorβ
+T25	GENE-N 1490 1495	TGF-β
+N25	Name Annotation:T25 Referent:tgfβ
+T3	CHEMICAL 1498 1505	phospho
+N26	Name Annotation:T3 Referent:phospho
+T26	GENE-N 1498 1513	phospho-Smad2/3
+N27	Name Annotation:T26 Referent:phosphosmad23
+T27	GENE-Y 1518 1521	p21
+N28	Name Annotation:T27 Referent:p21
+T28	GENE-Y 1521 1525	Cip1
+N29	Name Annotation:T28 Referent:cip1
+T4	CHEMICAL 1575 1582	suramin
+N30	Name Annotation:T4 Referent:suramin
+T29	GENE-N 1591 1596	TGF-β
+N31	Name Annotation:T29 Referent:tgfβ
+T5	CHEMICAL 1662 1669	suramin
+N32	Name Annotation:T5 Referent:suramin
+T30	GENE-Y 1744 1749	TNF-α
+N33	Name Annotation:T30 Referent:tnfα
+T31	GENE-N 1754 1759	TGF-β
+N34	Name Annotation:T31 Referent:tgfβ
+R1	INHIBITOR Arg1:T2 Arg2:T22
+R2	INHIBITOR Arg1:T2 Arg2:T23
+R3	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T29
+R4	INHIBITOR Arg1:T5 Arg2:T30
+R5	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T31

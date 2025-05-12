@@ -1,0 +1,52 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Pest",
+            "name": "Japanese beetle",
+            "NCBI_Taxonomy": "7064"
+        },
+        {
+            "id": "T4",
+            "type": "Location",
+            "name": "Baden-W\u00fcrttemberg",
+            "GeoNames": "2953481"
+        },
+        {
+            "id": "T5",
+            "type": "Pest",
+            "name": "Japanese beetles",
+            "NCBI_Taxonomy": "7064"
+        },
+        {
+            "id": "T8",
+            "type": "Location",
+            "name": "Freiburg area",
+            "GeoNames": "2925180"
+        },
+        {
+            "id": "T9",
+            "type": "Location",
+            "name": "Baden-W\u00fcrttemberg",
+            "GeoNames": "2953481"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T3",
+            "target": "T4"
+        },
+        {
+            "type": "Located in",
+            "source": "T5",
+            "target": "T9"
+        },
+        {
+            "type": "Located in",
+            "source": "T5",
+            "target": "T8"
+        }
+    ]
+}

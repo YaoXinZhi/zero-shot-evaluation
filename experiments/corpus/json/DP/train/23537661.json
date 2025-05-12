@@ -1,0 +1,145 @@
+{
+    "entities": [
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "glucocorticoid receptor promoter",
+            "Name": "glucocorticoidreceptorpromoter"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "glucocorticoid receptor (GR) gene promoter",
+            "Name": "glucocorticoidreceptorgrgenepromoter"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "polychlorinated biphenyls",
+            "Name": "polychlorinatedbiphenyls"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "PCBs",
+            "Name": "pcbs"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "organochlorine",
+            "Name": "organochlorine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "methylmercury",
+            "Name": "methylmercury"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "aryl hydrocarbon receptor",
+            "Name": "arylhydrocarbonreceptor"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "hydrocarbon",
+            "Name": "hydrocarbon"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "non-ortho PCB",
+            "Name": "nonorthopcb"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "PC-dibenzodioxins",
+            "Name": "pcdibenzodioxins"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "PC-dibenzofurans",
+            "Name": "pcdibenzofurans"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "GR",
+            "Name": "gr"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "GR promoter",
+            "Name": "grpromoter"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T7",
+            "target": "T16"
+        },
+        {
+            "type": "Agonist",
+            "source": "T8",
+            "target": "T16"
+        },
+        {
+            "type": "Agonist",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Agonist",
+            "source": "T7",
+            "target": "T17"
+        },
+        {
+            "type": "Agonist",
+            "source": "T8",
+            "target": "T17"
+        },
+        {
+            "type": "Agonist",
+            "source": "T1",
+            "target": "T17"
+        }
+    ]
+}

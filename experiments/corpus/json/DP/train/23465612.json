@@ -1,0 +1,71 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "dihydroisoquinoline",
+            "Name": "dihydroisoquinoline"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "BACE-1",
+            "Name": "bace1"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "aspartates",
+            "Name": "aspartates"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "dihydroisoquinoline",
+            "Name": "dihydroisoquinoline"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "BACE-1",
+            "Name": "bace1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "carboxylic acid",
+            "Name": "carboxylicacid"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "hydrogen",
+            "Name": "hydrogen"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "BACE-1",
+            "Name": "bace1"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "P-gp",
+            "Name": "pgp"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T8"
+        }
+    ]
+}

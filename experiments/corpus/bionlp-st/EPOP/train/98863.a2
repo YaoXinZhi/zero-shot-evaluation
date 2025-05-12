@@ -1,0 +1,29 @@
+T3	Pest 34 41	Xylella
+T4	Date 91 108	Yesterday evening
+T5	Pest 278 285	Xylella
+T6	Dissemination_pathway 311 317	plants
+T7	Pest 354 361	Xylella
+T8	Location 391 406	Southern Europe
+T9	Plant 419 430	olive trees
+T10	Plant 432 444	citrus trees
+T11	Plant 449 457	lavender
+N1	NCBI_Taxonomy Annotation:T3 Referent:2371
+N2	NCBI_Taxonomy Annotation:T5 Referent:2371
+N3	OntoBiotope Annotation:T6 Referent:OBT:000394
+N4	NCBI_Taxonomy Annotation:T7 Referent:2371
+N5	GeoNames Annotation:T8 Referent:9408658
+N6	NCBI_Taxonomy Annotation:T9 Referent:4146
+N7	NCBI_Taxonomy Annotation:T10 Referent:2706
+N8	NCBI_Taxonomy Annotation:T11 Referent:39329
+R1	Located_in Object:T7 Location:T8
+R2	Located_in Object:T7 Location:T8
+R3	Located_in Object:T7 Location:T8
+R4	Found_on Organism:T7 Habitat:T9
+R5	Found_on Organism:T7 Habitat:T11
+R6	Found_on Organism:T7 Habitat:T10
+R7	Located_in Object:T9 Location:T8
+R8	Located_in Object:T10 Location:T8
+R9	Located_in Object:T11 Location:T8
+E1	Nary Organisme_nuisible:T7 Plante:T11 Lieu:T8
+E2	Nary Organisme_nuisible:T7 Plante:T10 Lieu:T8
+E3	Nary Organisme_nuisible:T7 Plante:T9 Lieu:T8

@@ -1,0 +1,89 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "steroid",
+            "Name": "steroid"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "delta 5-3 beta-Hydroxysteroid dehydrogenase",
+            "Name": "delta53betahydroxysteroiddehydrogenase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "beta-Hydroxysteroid",
+            "Name": "betahydroxysteroid"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "delta 5-3 beta-HSD",
+            "Name": "delta53betahsd"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "17 beta-estradiol",
+            "Name": "17betaestradiol"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "progesterone",
+            "Name": "progesterone"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "delta 5-3 beta-HSD",
+            "Name": "delta53betahsd"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "human chorionic gonadotropin",
+            "Name": "humanchorionicgonadotropin"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "hCG",
+            "Name": "hcg"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Trilostane",
+            "Name": "trilostane"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "delta 5-3 beta-HSD",
+            "Name": "delta53betahsd"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "delta 5-3 beta-HSD",
+            "Name": "delta53betahsd"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T12"
+        }
+    ]
+}

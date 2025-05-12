@@ -1,0 +1,65 @@
+T14	CHEMICAL 22 33	ICI 182 780
+N1	Name Annotation:T14 Referent:ici182780
+T27	GENE-Y 51 57	GSK 3β
+N2	Name Annotation:T27 Referent:gsk3β
+T28	GENE-N 58 61	AKT
+N3	Name Annotation:T28 Referent:akt
+T6	CHEMICAL 141 152	ICI 182,780
+N4	Name Annotation:T6 Referent:ici182780
+T9	CHEMICAL 154 157	ICI
+N5	Name Annotation:T9 Referent:ici
+T24	GENE-N 199 215	protein kinase b
+N6	Name Annotation:T24 Referent:proteinkinaseb
+T15	GENE-N 216 219	AKT
+N7	Name Annotation:T15 Referent:akt
+T5	CHEMICAL 383 386	ICI
+N8	Name Annotation:T5 Referent:ici
+T7	CHEMICAL 495 504	Estradiol
+N9	Name Annotation:T7 Referent:estradiol
+T8	CHEMICAL 514 526	progesterone
+N10	Name Annotation:T8 Referent:progesterone
+T10	CHEMICAL 586 589	ICI
+N11	Name Annotation:T10 Referent:ici
+T11	CHEMICAL 653 661	estrogen
+N12	Name Annotation:T11 Referent:estrogen
+T18	GENE-Y 653 676	estrogen receptor alpha
+N13	Name Annotation:T18 Referent:estrogenreceptoralpha
+T19	GENE-Y 678 681	ERα
+N14	Name Annotation:T19 Referent:erα
+T12	CHEMICAL 717 729	progesterone
+N15	Name Annotation:T12 Referent:progesterone
+T20	GENE-Y 717 738	progesterone receptor
+N16	Name Annotation:T20 Referent:progesteronereceptor
+T21	GENE-Y 740 742	PR
+N17	Name Annotation:T21 Referent:pr
+T22	GENE-Y 805 814	cyclin D1
+N18	Name Annotation:T22 Referent:cyclind1
+T13	CHEMICAL 936 939	ICI
+N19	Name Annotation:T13 Referent:ici
+T23	GENE-N 958 982	glycogen synthase kinase
+N20	Name Annotation:T23 Referent:glycogensynthasekinase
+T25	GENE-Y 984 990	Gsk3-β
+N21	Name Annotation:T25 Referent:gsk3β
+T26	GENE-Y 1037 1046	cyclin D1
+N22	Name Annotation:T26 Referent:cyclind1
+T1	CHEMICAL 1208 1211	ICI
+N23	Name Annotation:T1 Referent:ici
+T16	GENE-N 1365 1368	Akt
+N24	Name Annotation:T16 Referent:akt
+T2	CHEMICAL 1388 1391	Ser
+N25	Name Annotation:T2 Referent:ser
+T3	CHEMICAL 1444 1447	ICI
+N26	Name Annotation:T3 Referent:ici
+T4	CHEMICAL 1551 1554	ICI
+N27	Name Annotation:T4 Referent:ici
+T17	GENE-N 1669 1672	Akt
+N28	Name Annotation:T17 Referent:akt
+R1	AGONIST Arg1:T14 Arg2:T27
+R2	ACTIVATOR Arg1:T14 Arg2:T28
+R3	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T18
+R4	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T19
+R5	ACTIVATOR Arg1:T13 Arg2:T23
+R6	ACTIVATOR Arg1:T13 Arg2:T25
+R7	INHIBITOR Arg1:T1 Arg2:T16
+R8	PART-OF Arg1:T2 Arg2:T16
+R9	ACTIVATOR Arg1:T4 Arg2:T17

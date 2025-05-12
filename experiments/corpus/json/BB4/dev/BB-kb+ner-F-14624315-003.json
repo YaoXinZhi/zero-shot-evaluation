@@ -1,0 +1,47 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Phenotype",
+            "name": "transaminase activity",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T2",
+            "type": "Microorganism",
+            "name": "Lactobacillus",
+            "NCBI_Taxonomy": "1578"
+        },
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "L. lactis",
+            "NCBI_Taxonomy": "1246"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "Streptococcus thermophilus",
+            "NCBI_Taxonomy": "1308"
+        },
+        {
+            "id": "T5",
+            "type": "Phenotype",
+            "name": "transaminase activity towards leucine",
+            "OntoBiotope": "OBT:000019"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T3",
+            "target": "T5"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T5"
+        }
+    ]
+}

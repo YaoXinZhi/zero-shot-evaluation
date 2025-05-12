@@ -1,0 +1,186 @@
+{
+    "entities": [
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "GluR5",
+            "Name": "glur5"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "kainate",
+            "Name": "kainate"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "kainate-receptor",
+            "Name": "kainatereceptor"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "topiramate",
+            "Name": "topiramate"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Topiramate",
+            "Name": "topiramate"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "ion channel",
+            "Name": "ionchannel"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "AMPA",
+            "Name": "ampa"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "AMPA/kainate receptors",
+            "Name": "ampakainatereceptors"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "kainate",
+            "Name": "kainate"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "topiramate",
+            "Name": "topiramate"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "kainate",
+            "Name": "kainate"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "kainate receptors",
+            "Name": "kainatereceptors"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "GluR5",
+            "Name": "glur5"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Topiramate",
+            "Name": "topiramate"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "AMPA",
+            "Name": "ampa"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "AMPA-receptor",
+            "Name": "ampareceptor"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Topiramate",
+            "Name": "topiramate"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "GluR5",
+            "Name": "glur5"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "kainate",
+            "Name": "kainate"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "kainate receptors",
+            "Name": "kainatereceptors"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "topiramate",
+            "Name": "topiramate"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "GluR5",
+            "Name": "glur5"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "kainate",
+            "Name": "kainate"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "kainate receptors",
+            "Name": "kainatereceptors"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T13",
+            "target": "T23"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T13",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T22"
+        }
+    ]
+}

@@ -1,0 +1,86 @@
+T17	CHEMICAL 0 10	Licofelone
+N1	Name Annotation:T17 Referent:licofelone
+T33	GENE 36 50	cyclooxygenase
+N2	Name Annotation:T33 Referent:cyclooxygenase
+T34	GENE 55 69	5-lipoxygenase
+N3	Name Annotation:T34 Referent:5lipoxygenase
+T1	CHEMICAL 130 140	Licofelone
+N4	Name Annotation:T1 Referent:licofelone
+T29	GENE 186 200	5-lipoxygenase
+N5	Name Annotation:T29 Referent:5lipoxygenase
+T30	GENE 202 205	LOX
+N6	Name Annotation:T30 Referent:lox
+T31	GENE 211 225	cyclooxygenase
+N7	Name Annotation:T31 Referent:cyclooxygenase
+T32	GENE 227 230	COX
+N8	Name Annotation:T32 Referent:cox
+T26	GENE 287 302	cycloxygenase-2
+N9	Name Annotation:T26 Referent:cycloxygenase2
+T27	GENE 321 336	cycloxygenase-1
+N10	Name Annotation:T27 Referent:cycloxygenase1
+T11	CHEMICAL 465 475	licofelone
+N11	Name Annotation:T11 Referent:licofelone
+T28	GENE 605 610	COX-2
+N12	Name Annotation:T28 Referent:cox2
+T12	CHEMICAL 612 621	rofecoxib
+N13	Name Annotation:T12 Referent:rofecoxib
+T13	CHEMICAL 669 679	licofelone
+N14	Name Annotation:T13 Referent:licofelone
+T14	CHEMICAL 828 838	licofelone
+N15	Name Annotation:T14 Referent:licofelone
+T15	CHEMICAL 854 863	rofecoxib
+N16	Name Annotation:T15 Referent:rofecoxib
+T16	CHEMICAL 1068 1078	Licofelone
+N17	Name Annotation:T16 Referent:licofelone
+T18	GENE 1180 1214	monocyte chemoattractant protein-1
+N18	Name Annotation:T18 Referent:monocytechemoattractantprotein1
+T19	GENE 1216 1221	MCP-1
+N19	Name Annotation:T19 Referent:mcp1
+T20	GENE 1262 1283	nuclear factor-kappaB
+N20	Name Annotation:T20 Referent:nuclearfactorkappab
+T2	CHEMICAL 1314 1324	licofelone
+N21	Name Annotation:T2 Referent:licofelone
+T21	GENE 1335 1340	COX-2
+N22	Name Annotation:T21 Referent:cox2
+T22	GENE 1345 1350	5-LOX
+N23	Name Annotation:T22 Referent:5lox
+T3	CHEMICAL 1391 1400	Rofecoxib
+N24	Name Annotation:T3 Referent:rofecoxib
+T23	GENE 1417 1422	COX-2
+N25	Name Annotation:T23 Referent:cox2
+T24	GENE 1446 1451	MCP-1
+N26	Name Annotation:T24 Referent:mcp1
+T4	CHEMICAL 1490 1508	Prostaglandin E(2)
+N27	Name Annotation:T4 Referent:prostaglandine2
+T5	CHEMICAL 1556 1566	Licofelone
+N28	Name Annotation:T5 Referent:licofelone
+T25	GENE 1584 1589	5-LOX
+N29	Name Annotation:T25 Referent:5lox
+T6	CHEMICAL 1613 1627	leukotriene B4
+N30	Name Annotation:T6 Referent:leukotrieneb4
+T7	CHEMICAL 1684 1698	thromboxane B2
+N31	Name Annotation:T7 Referent:thromboxaneb2
+T8	CHEMICAL 1728 1738	Licofelone
+N32	Name Annotation:T8 Referent:licofelone
+T9	CHEMICAL 1839 1848	rofecoxib
+N33	Name Annotation:T9 Referent:rofecoxib
+T10	CHEMICAL 1906 1916	licofelone
+N34	Name Annotation:T10 Referent:licofelone
+R1	INDIRECT-DOWNREGULATOR Arg1:T16 Arg2:T18
+R2	INDIRECT-DOWNREGULATOR Arg1:T16 Arg2:T19
+R3	INDIRECT-DOWNREGULATOR Arg1:T16 Arg2:T20
+R4	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T21
+R5	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T22
+R6	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T23
+R7	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T24
+R8	INHIBITOR Arg1:T12 Arg2:T28
+R9	INHIBITOR Arg1:T17 Arg2:T33
+R10	INHIBITOR Arg1:T17 Arg2:T34
+R11	INHIBITOR Arg1:T1 Arg2:T27
+R12	INHIBITOR Arg1:T1 Arg2:T29
+R13	INHIBITOR Arg1:T1 Arg2:T30
+R14	INHIBITOR Arg1:T1 Arg2:T31
+R15	INHIBITOR Arg1:T1 Arg2:T32
+R16	INHIBITOR Arg1:T5 Arg2:T25
+R17	PRODUCT-OF Arg1:T6 Arg2:T25
+R18	PRODUCT-OF Arg1:T7 Arg2:T25

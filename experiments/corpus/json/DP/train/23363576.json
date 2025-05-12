@@ -1,0 +1,170 @@
+{
+    "entities": [
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "ethanol",
+            "Name": "ethanol"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ethanol",
+            "Name": "ethanol"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "EtOH",
+            "Name": "etoh"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "EtOH",
+            "Name": "etoh"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "EtOH",
+            "Name": "etoh"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "EtOH",
+            "Name": "etoh"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "EtOH",
+            "Name": "etoh"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "aspartate",
+            "Name": "aspartate"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "aspartate aminotransferase",
+            "Name": "aspartateaminotransferase"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "alanine",
+            "Name": "alanine"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "alanine aminotransferas",
+            "Name": "alanineaminotransferas"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "EtOH",
+            "Name": "etoh"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "malondialdehyde",
+            "Name": "malondialdehyde"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "superoxide",
+            "Name": "superoxide"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "superoxide dismutase",
+            "Name": "superoxidedismutase"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "catalase",
+            "Name": "catalase"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "glutathione peroxidase",
+            "Name": "glutathioneperoxidase"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "EtOH",
+            "Name": "etoh"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "hydrogen peroxide",
+            "Name": "hydrogenperoxide"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "EtOH",
+            "Name": "etoh"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "EtOH",
+            "Name": "etoh"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "EtOH",
+            "Name": "etoh"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T23"
+        }
+    ]
+}

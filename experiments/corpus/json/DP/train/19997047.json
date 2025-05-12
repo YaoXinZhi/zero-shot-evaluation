@@ -1,0 +1,229 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "pentoxifylline",
+            "Name": "pentoxifylline"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "adenosine",
+            "Name": "adenosine"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "phosphodiesterase",
+            "Name": "phosphodiesterase"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "pentoxifylline",
+            "Name": "pentoxifylline"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "PTX",
+            "Name": "ptx"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "PTX",
+            "Name": "ptx"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "G protein-coupled adenosine A2A receptor",
+            "Name": "gproteincoupledadenosinea2areceptor"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "adenosine",
+            "Name": "adenosine"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "A2AR",
+            "Name": "a2ar"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "PTX",
+            "Name": "ptx"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "Gs protein-coupled receptors",
+            "Name": "gsproteincoupledreceptors"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "A2AR",
+            "Name": "a2ar"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "PTX",
+            "Name": "ptx"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "CD3",
+            "Name": "cd3"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "CD28",
+            "Name": "cd28"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "PTX",
+            "Name": "ptx"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "adenosine",
+            "Name": "adenosine"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "H2O2",
+            "Name": "h2o2"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "adenosine",
+            "Name": "adenosine"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "PTX",
+            "Name": "ptx"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "adenosine",
+            "Name": "adenosine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "PTX",
+            "Name": "ptx"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "cytokine",
+            "Name": "cytokine"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "interferon gamma",
+            "Name": "interferongamma"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "TNF-alpha",
+            "Name": "tnfalpha"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "PTX",
+            "Name": "ptx"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "A2AR",
+            "Name": "a2ar"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "PTX",
+            "Name": "ptx"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "PTX",
+            "Name": "ptx"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "adenosine",
+            "Name": "adenosine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "adenosine",
+            "Name": "adenosine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "PTX",
+            "Name": "ptx"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T29"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T24"
+        }
+    ]
+}

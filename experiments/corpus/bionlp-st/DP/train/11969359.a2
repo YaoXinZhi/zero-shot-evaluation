@@ -1,0 +1,105 @@
+T43	GENE-Y 14 17	TNF
+N1	Name Annotation:T43 Referent:tnf
+T44	GENE-Y 22 28	GM-CSF
+N2	Name Annotation:T44 Referent:gmcsf
+T42	GENE-N 125 128	PDE
+N3	Name Annotation:T42 Referent:pde
+T36	GENE-N 242 245	PDE
+N4	Name Annotation:T36 Referent:pde
+T41	GENE-N 258 265	PDE 1-5
+N5	Name Annotation:T41 Referent:pde15
+T19	GENE-N 309 318	cytokines
+N6	Name Annotation:T19 Referent:cytokines
+T21	GENE-Y 321 348	tumor necrosis factor alpha
+N7	Name Annotation:T21 Referent:tumornecrosisfactoralpha
+T28	GENE-Y 350 353	TNF
+N8	Name Annotation:T28 Referent:tnf
+T30	GENE-Y 359 407	granulocyte-macrophage colony-stimulating factor
+N9	Name Annotation:T30 Referent:granulocytemacrophagecolonystimulatingfactor
+T31	GENE-Y 409 415	GM-CSF
+N10	Name Annotation:T31 Referent:gmcsf
+T32	GENE-N 494 497	PDE
+N11	Name Annotation:T32 Referent:pde
+T33	GENE-Y 553 556	TNF
+N12	Name Annotation:T33 Referent:tnf
+T34	GENE-Y 681 687	GM-CSF
+N13	Name Annotation:T34 Referent:gmcsf
+T35	GENE-Y 692 695	TNF
+N14	Name Annotation:T35 Referent:tnf
+T37	GENE-Y 980 983	TNF
+N15	Name Annotation:T37 Referent:tnf
+T38	GENE-N 1034 1038	PDE4
+N16	Name Annotation:T38 Referent:pde4
+T11	CHEMICAL 1051 1059	Amrinone
+N17	Name Annotation:T11 Referent:amrinone
+T12	CHEMICAL 1064 1073	milrinone
+N18	Name Annotation:T12 Referent:milrinone
+T39	GENE-N 1085 1089	PDE3
+N19	Name Annotation:T39 Referent:pde3
+T40	GENE-Y 1113 1116	TNF
+N20	Name Annotation:T40 Referent:tnf
+T1	CHEMICAL 1162 1174	theophylline
+N21	Name Annotation:T1 Referent:theophylline
+T13	GENE-N 1187 1190	PDE
+N22	Name Annotation:T13 Referent:pde
+T2	CHEMICAL 1203 1214	vinpocetine
+N23	Name Annotation:T2 Referent:vinpocetine
+T14	GENE-N 1216 1220	PDE1
+N24	Name Annotation:T14 Referent:pde1
+T15	GENE-Y 1239 1243	PDE2
+N25	Name Annotation:T15 Referent:pde2
+T16	GENE-Y 1263 1267	PDE5
+N26	Name Annotation:T16 Referent:pde5
+T3	CHEMICAL 1279 1288	zaprinast
+N27	Name Annotation:T3 Referent:zaprinast
+T4	CHEMICAL 1293 1299	E 4021
+N28	Name Annotation:T4 Referent:e4021
+T5	CHEMICAL 1354 1368	beclomethasone
+N29	Name Annotation:T5 Referent:beclomethasone
+T6	CHEMICAL 1370 1383	dexamethasone
+N30	Name Annotation:T6 Referent:dexamethasone
+T7	CHEMICAL 1388 1399	fluticasone
+N31	Name Annotation:T7 Referent:fluticasone
+T17	GENE-Y 1426 1429	TNF
+N32	Name Annotation:T17 Referent:tnf
+T18	GENE-Y 1588 1591	TNF
+N33	Name Annotation:T18 Referent:tnf
+T8	CHEMICAL 1623 1636	dexamethasone
+N34	Name Annotation:T8 Referent:dexamethasone
+T20	GENE-Y 1715 1721	GM-CSF
+N35	Name Annotation:T20 Referent:gmcsf
+T22	GENE-Y 1786 1809	glucocorticoid receptor
+N36	Name Annotation:T22 Referent:glucocorticoidreceptor
+T23	GENE-N 1825 1830	PDE 4
+N37	Name Annotation:T23 Referent:pde4
+T24	GENE-N 1871 1875	PDE3
+N38	Name Annotation:T24 Referent:pde3
+T9	CHEMICAL 1887 1895	amrinone
+N39	Name Annotation:T9 Referent:amrinone
+T10	CHEMICAL 1900 1909	milrinone
+N40	Name Annotation:T10 Referent:milrinone
+T25	GENE-Y 1923 1929	GM-CSF
+N41	Name Annotation:T25 Referent:gmcsf
+T26	GENE-N 2007 2011	PDE4
+N42	Name Annotation:T26 Referent:pde4
+T27	GENE-Y 2031 2034	TNF
+N43	Name Annotation:T27 Referent:tnf
+T29	GENE-Y 2084 2090	GM-CSF
+N44	Name Annotation:T29 Referent:gmcsf
+R1	INHIBITOR Arg1:T11 Arg2:T39
+R2	INHIBITOR Arg1:T12 Arg2:T39
+R3	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T40
+R4	INDIRECT-DOWNREGULATOR Arg1:T12 Arg2:T40
+R5	INHIBITOR Arg1:T1 Arg2:T13
+R6	INHIBITOR Arg1:T2 Arg2:T14
+R7	INHIBITOR Arg1:T3 Arg2:T16
+R8	INHIBITOR Arg1:T4 Arg2:T16
+R9	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T17
+R10	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T17
+R11	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T17
+R12	INHIBITOR Arg1:T9 Arg2:T24
+R13	INHIBITOR Arg1:T10 Arg2:T24
+R14	INHIBITOR Arg1:T9 Arg2:T23
+R15	INHIBITOR Arg1:T10 Arg2:T23
+R16	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T25
+R17	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T25

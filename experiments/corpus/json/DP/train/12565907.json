@@ -1,0 +1,201 @@
+{
+    "entities": [
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "DCoH",
+            "Name": "dcoh"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "HNF-1 alpha",
+            "Name": "hnf1alpha"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "tyrosinase",
+            "Name": "tyrosinase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "6-tetrahydrobiopterin",
+            "Name": "6tetrahydrobiopterin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "6BH(4)",
+            "Name": "6bh4"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "L-phenylalanine",
+            "Name": "lphenylalanine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "phenylalanine",
+            "Name": "phenylalanine"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "phenylalanine hydroxylase",
+            "Name": "phenylalaninehydroxylase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "L-tyrosine",
+            "Name": "ltyrosine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "L-Dopa",
+            "Name": "ldopa"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "tyrosine hydroxylase",
+            "Name": "tyrosinehydroxylase"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "catecholamine",
+            "Name": "catecholamine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "pterin-4a-carbinolamine",
+            "Name": "pterin4acarbinolamine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "pterin-4a-carbinolamine dehydratase",
+            "Name": "pterin4acarbinolaminedehydratase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PCD",
+            "Name": "pcd"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "hepatocyte nuclear factor 1",
+            "Name": "hepatocytenuclearfactor1"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "HNF-1",
+            "Name": "hnf1"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "DCoH",
+            "Name": "dcoh"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "HNF-1 alpha",
+            "Name": "hnf1alpha"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "tyrosinase",
+            "Name": "tyrosinase"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "DCoH",
+            "Name": "dcoh"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "HNF-1",
+            "Name": "hnf1"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "human tyrosinase promoter",
+            "Name": "humantyrosinasepromoter"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Product of",
+            "source": "T6",
+            "target": "T11"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Product of",
+            "source": "T8",
+            "target": "T10"
+        },
+        {
+            "type": "Product of",
+            "source": "T8",
+            "target": "T11"
+        }
+    ]
+}

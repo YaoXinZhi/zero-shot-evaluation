@@ -1,0 +1,151 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Rasagiline",
+            "Name": "rasagiline"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "monoamine oxidase-B",
+            "Name": "monoamineoxidaseb"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Rasagiline",
+            "Name": "rasagiline"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "N-propargyl-1-(R)-aminoindan",
+            "Name": "npropargyl1raminoindan"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "monoamine oxidase (MAO)-B",
+            "Name": "monoamineoxidasemaob"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Rasagiline",
+            "Name": "rasagiline"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "L-Dopa",
+            "Name": "ldopa"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "TVP1022",
+            "Name": "tvp1022"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "rasagiline",
+            "Name": "rasagiline"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "N-propargyl",
+            "Name": "npropargyl"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Bcl-2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "rasagiline",
+            "Name": "rasagiline"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "1-(R)-aminoindan",
+            "Name": "1raminoindan"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "rasagiline",
+            "Name": "rasagiline"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "rasagiline",
+            "Name": "rasagiline"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T16"
+        }
+    ]
+}

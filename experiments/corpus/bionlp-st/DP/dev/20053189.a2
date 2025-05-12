@@ -1,0 +1,79 @@
+T20	CHEMICAL 0 8	Abarelix
+N1	Name Annotation:T20 Referent:abarelix
+T21	CHEMICAL 19 50	gonadotrophin-releasing hormone
+N2	Name Annotation:T21 Referent:gonadotrophinreleasinghormone
+T30	GENE 19 50	gonadotrophin-releasing hormone
+N3	Name Annotation:T30 Referent:gonadotrophinreleasinghormone
+T22	GENE 187 224	Luteinizing hormone-releasing hormone
+N4	Name Annotation:T22 Referent:luteinizinghormonereleasinghormone
+T23	GENE 226 230	LHRH
+N5	Name Annotation:T23 Referent:lhrh
+T5	CHEMICAL 250 259	buserelin
+N6	Name Annotation:T5 Referent:buserelin
+T6	CHEMICAL 261 270	goserelin
+N7	Name Annotation:T6 Referent:goserelin
+T7	CHEMICAL 272 283	leuprorelin
+N8	Name Annotation:T7 Referent:leuprorelin
+T8	CHEMICAL 288 299	triptorelin
+N9	Name Annotation:T8 Referent:triptorelin
+T9	CHEMICAL 327 358	gonadotrophin-releasing hormone
+N10	Name Annotation:T9 Referent:gonadotrophinreleasinghormone
+T24	GENE 327 374	gonadotrophin-releasing hormone (GnRH) receptor
+N11	Name Annotation:T24 Referent:gonadotrophinreleasinghormonegnrhreceptor
+T10	CHEMICAL 360 364	GnRH
+N12	Name Annotation:T10 Referent:gnrh
+T25	GENE 447 449	LH
+N13	Name Annotation:T25 Referent:lh
+T11	CHEMICAL 454 466	testosterone
+N14	Name Annotation:T11 Referent:testosterone
+T26	GENE 557 559	LH
+N15	Name Annotation:T26 Referent:lh
+T12	CHEMICAL 564 576	testosterone
+N16	Name Annotation:T12 Referent:testosterone
+T13	CHEMICAL 736 740	GnRH
+N17	Name Annotation:T13 Referent:gnrh
+T27	GENE 736 740	GnRH
+N18	Name Annotation:T27 Referent:gnrh
+T14	CHEMICAL 774 782	abarelix
+N19	Name Annotation:T14 Referent:abarelix
+T15	CHEMICAL 787 796	degarelix
+N20	Name Annotation:T15 Referent:degarelix
+T16	CHEMICAL 843 847	GnRH
+N21	Name Annotation:T16 Referent:gnrh
+T28	GENE 843 856	GnRH receptor
+N22	Name Annotation:T28 Referent:gnrhreceptor
+T17	CHEMICAL 891 903	testosterone
+N23	Name Annotation:T17 Referent:testosterone
+T18	CHEMICAL 911 919	Abarelix
+N24	Name Annotation:T18 Referent:abarelix
+T19	CHEMICAL 934 938	GnRH
+N25	Name Annotation:T19 Referent:gnrh
+T29	GENE 934 938	GnRH
+N26	Name Annotation:T29 Referent:gnrh
+T1	CHEMICAL 1151 1159	androgen
+N27	Name Annotation:T1 Referent:androgen
+T2	CHEMICAL 1208 1216	abarelix
+N28	Name Annotation:T2 Referent:abarelix
+T3	CHEMICAL 1221 1230	degarelix
+N29	Name Annotation:T3 Referent:degarelix
+T4	CHEMICAL 1291 1303	testosterone
+N30	Name Annotation:T4 Referent:testosterone
+R1	AGONIST Arg1:T5 Arg2:T22
+R2	AGONIST Arg1:T5 Arg2:T23
+R3	AGONIST Arg1:T6 Arg2:T22
+R4	AGONIST Arg1:T6 Arg2:T23
+R5	AGONIST Arg1:T7 Arg2:T22
+R6	AGONIST Arg1:T7 Arg2:T23
+R7	AGONIST Arg1:T8 Arg2:T22
+R8	AGONIST Arg1:T8 Arg2:T23
+R9	ACTIVATOR Arg1:T5 Arg2:T24
+R10	ACTIVATOR Arg1:T6 Arg2:T24
+R11	ACTIVATOR Arg1:T7 Arg2:T24
+R12	ACTIVATOR Arg1:T8 Arg2:T24
+R13	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T25
+R14	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T25
+R15	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T25
+R16	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T25
+R17	ANTAGONIST Arg1:T14 Arg2:T27
+R18	ANTAGONIST Arg1:T15 Arg2:T27
+R19	ANTAGONIST Arg1:T18 Arg2:T29

@@ -1,0 +1,213 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "C",
+            "Name": "c"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "C",
+            "Name": "c"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "peptidylglycine alpha-mono-oxygenase",
+            "Name": "peptidylglycinealphamonooxygenase"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PAM",
+            "Name": "pam"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "EC 1.14.17.3",
+            "Name": "ec114173"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "peptidylamidoglycolate lyase",
+            "Name": "peptidylamidoglycolatelyase"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "PGL",
+            "Name": "pgl"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "EC 4.3.2.5",
+            "Name": "ec4325"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "PAM",
+            "Name": "pam"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "PAM",
+            "Name": "pam"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "4-oxo-5-acetamido-6-phenyl-hex-2-enoic acid and 4-oxo-5-acetamido-6-(2-thienyl)-hex-2-enoic acid",
+            "Name": "4oxo5acetamido6phenylhex2enoicacidand4oxo5acetamido62thienylhex2enoicacid"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "4-oxo-5-acetamido-6-(2-thienyl)-hex-2-enoic acid",
+            "Name": "4oxo5acetamido62thienylhex2enoicacid"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "benzoylacrylate",
+            "Name": "benzoylacrylate"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "PAM",
+            "Name": "pam"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "4-oxo-5-acetamido-6-(2-thienyl)-hex-2-enoic acid",
+            "Name": "4oxo5acetamido62thienylhex2enoicacid"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "2, 4-dioxo-5-acetamido-6-phenylhexanoic acid",
+            "Name": "24dioxo5acetamido6phenylhexanoicacid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ascorbate",
+            "Name": "ascorbate"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "ascorbate",
+            "Name": "ascorbate"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PAM",
+            "Name": "pam"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "dopamine-beta-hydroxylase",
+            "Name": "dopaminebetahydroxylase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T21"
+        },
+        {
+            "type": "Part of",
+            "source": "T1",
+            "target": "T12"
+        },
+        {
+            "type": "Part of",
+            "source": "T1",
+            "target": "T15"
+        },
+        {
+            "type": "Part of",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Part of",
+            "source": "T1",
+            "target": "T17"
+        },
+        {
+            "type": "Part of",
+            "source": "T1",
+            "target": "T18"
+        },
+        {
+            "type": "Part of",
+            "source": "T1",
+            "target": "T19"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T14"
+        }
+    ]
+}

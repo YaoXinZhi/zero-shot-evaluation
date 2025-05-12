@@ -1,0 +1,63 @@
+T8	Pest 57 74	Pinewood Nematode
+T9	Pest 75 101	Bursaphelenchus xylophilus
+T10	Pest 106 123	pinewood nematode
+T11	Pest 125 128	PWN
+T12	Pest 131 157	Bursaphelenchus xylophilus
+T13	Plant 196 206	pine trees
+T14	Disease 219 236	pine wilt disease
+T15	Disease 238 241	PWD
+T16	Pest 320 337	Pinewood Nematode
+T17	Pest 338 364	Bursaphelenchus xylophilus
+T18	Pest 369 386	pinewood nematode
+T19	Pest 388 391	PWN
+T20	Pest 394 420	Bursaphelenchus xylophilus
+T21	Plant 459 469	pine trees
+T22	Disease 482 499	pine wilt disease
+T23	Disease 501 504	PWD
+T24	Plant 551 563	pine species
+T25	Plant 647 652	pines
+T26	Disease 738 741	PWD
+T27	Pest 1180 1184	PWNs
+T28	Pest 1304 1308	PWNs
+T29	Pest 1335 1350	Bursaphelenchus
+T30	Pest 1457 1460	PWN
+T31	Pest 1537 1540	PWN
+N1	NCBI_Taxonomy Annotation:T8 Referent:6326
+N2	NCBI_Taxonomy Annotation:T9 Referent:6326
+N3	NCBI_Taxonomy Annotation:T10 Referent:6326
+N4	NCBI_Taxonomy Annotation:T11 Referent:6326
+N5	NCBI_Taxonomy Annotation:T12 Referent:6326
+N6	NCBI_Taxonomy Annotation:T13 Referent:3337
+N7	NCBI_Taxonomy Annotation:T16 Referent:6326
+N8	NCBI_Taxonomy Annotation:T17 Referent:6326
+N9	NCBI_Taxonomy Annotation:T18 Referent:6326
+N10	NCBI_Taxonomy Annotation:T19 Referent:6326
+N11	NCBI_Taxonomy Annotation:T20 Referent:6326
+N12	NCBI_Taxonomy Annotation:T21 Referent:3337
+N13	NCBI_Taxonomy Annotation:T24 Referent:3337
+N14	NCBI_Taxonomy Annotation:T25 Referent:3337
+N15	NCBI_Taxonomy Annotation:T27 Referent:6326
+N16	NCBI_Taxonomy Annotation:T28 Referent:6326
+N17	NCBI_Taxonomy Annotation:T29 Referent:6324
+N18	NCBI_Taxonomy Annotation:T30 Referent:6326
+N19	NCBI_Taxonomy Annotation:T31 Referent:6326
+R1	Found_on Organism:T12 Habitat:T13
+R2	Causes Pest:T12 Disease:T14
+R3	Expressed_by Disease:T14 Plant:T13
+R4	Found_on Organism:T20 Habitat:T21
+R5	Found_on Organism:T20 Habitat:T24
+R6	Found_on Organism:T20 Habitat:T25
+R7	Causes Pest:T20 Disease:T22
+R8	Expressed_by Disease:T22 Plant:T21
+R9	Expressed_by Disease:T22 Plant:T24
+R10	Expressed_by Disease:T22 Plant:T25
+E1	Nary Organisme_nuisible:T12 Plante:T13 Maladie:T14
+E2	Nary Organisme_nuisible:T20 Plante:T21 Maladie:T22
+E3	Nary Organisme_nuisible:T20 Plante:T24 Maladie:T22
+E4	Nary Organisme_nuisible:T20 Plante:T25 Maladie:T22
+*	Equiv T14 T15
+*	Equiv T16 T17
+*	Equiv T22 T23
+*	Equiv T8 T9
+*	Equiv T18 T19 T20
+*	Equiv T12 T11 T10

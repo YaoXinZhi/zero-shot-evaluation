@@ -1,0 +1,75 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "AZD6140",
+            "Name": "azd6140"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "P2Y12 receptor",
+            "Name": "p2y12receptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "adenosine triphosphate",
+            "Name": "adenosinetriphosphate"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "P2Y(12) receptor",
+            "Name": "p2y12receptor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "purine",
+            "Name": "purine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "AZD6140",
+            "Name": "azd6140"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T4",
+            "target": "T7"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T6",
+            "target": "T8"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T5",
+            "target": "T8"
+        }
+    ]
+}

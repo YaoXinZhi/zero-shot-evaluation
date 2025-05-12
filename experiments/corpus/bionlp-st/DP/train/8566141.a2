@@ -1,0 +1,78 @@
+T17	CHEMICAL 0 10	Amantadine
+N1	Name Annotation:T17 Referent:amantadine
+T31	GENE-Y 19 24	c-fos
+N2	Name Annotation:T31 Referent:cfos
+T18	CHEMICAL 56 64	dopamine
+N3	Name Annotation:T18 Referent:dopamine
+T32	GENE-Y 56 67	dopamine D1
+N4	Name Annotation:T32 Referent:dopamined1
+T19	CHEMICAL 72 76	NMDA
+N5	Name Annotation:T19 Referent:nmda
+T33	GENE-N 72 85	NMDA receptor
+N6	Name Annotation:T33 Referent:nmdareceptor
+T1	CHEMICAL 99 109	Amantadine
+N7	Name Annotation:T1 Referent:amantadine
+T2	CHEMICAL 111 128	1-aminoadamantane
+N8	Name Annotation:T2 Referent:1aminoadamantane
+T24	GENE-Y 138 141	Fos
+N9	Name Annotation:T24 Referent:fos
+T20	GENE-Y 252 255	Fos
+N10	Name Annotation:T20 Referent:fos
+T3	CHEMICAL 267 277	amantadine
+N11	Name Annotation:T3 Referent:amantadine
+T4	CHEMICAL 341 361	N-methyl-D-aspartate
+N12	Name Annotation:T4 Referent:nmethyldaspartate
+T21	GENE-N 341 377	N-methyl-D-aspartate (NMDA) receptor
+N13	Name Annotation:T21 Referent:nmethyldaspartatenmdareceptor
+T5	CHEMICAL 363 367	NMDA
+N14	Name Annotation:T5 Referent:nmda
+T6	CHEMICAL 413 421	dopamine
+N15	Name Annotation:T6 Referent:dopamine
+T22	GENE-Y 413 433	dopamine D1 receptor
+N16	Name Annotation:T22 Referent:dopamined1receptor
+T7	CHEMICAL 446 454	SCH23390
+N17	Name Annotation:T7 Referent:sch23390
+T8	CHEMICAL 464 468	NMDA
+N18	Name Annotation:T8 Referent:nmda
+T23	GENE-N 464 477	NMDA receptor
+N19	Name Annotation:T23 Referent:nmdareceptor
+T9	CHEMICAL 490 496	MK-801
+N20	Name Annotation:T9 Referent:mk801
+T10	CHEMICAL 506 516	amantadine
+N21	Name Annotation:T10 Referent:amantadine
+T25	GENE-Y 530 533	Fos
+N22	Name Annotation:T25 Referent:fos
+T11	CHEMICAL 560 570	amantadine
+N23	Name Annotation:T11 Referent:amantadine
+T26	GENE-Y 584 587	Fos
+N24	Name Annotation:T26 Referent:fos
+T12	CHEMICAL 626 634	dopamine
+N25	Name Annotation:T12 Referent:dopamine
+T27	GENE-Y 626 646	dopamine D2 receptor
+N26	Name Annotation:T27 Referent:dopamined2receptor
+T13	CHEMICAL 659 668	sulpiride
+N27	Name Annotation:T13 Referent:sulpiride
+T14	CHEMICAL 697 707	amantadine
+N28	Name Annotation:T14 Referent:amantadine
+T28	GENE-Y 721 724	Fos
+N29	Name Annotation:T28 Referent:fos
+T15	CHEMICAL 759 767	dopamine
+N30	Name Annotation:T15 Referent:dopamine
+T29	GENE-Y 759 770	dopamine D1
+N31	Name Annotation:T29 Referent:dopamined1
+T16	CHEMICAL 775 779	NMDA
+N32	Name Annotation:T16 Referent:nmda
+T30	GENE-N 775 789	NMDA receptors
+N33	Name Annotation:T30 Referent:nmdareceptors
+R1	INDIRECT-UPREGULATOR Arg1:T17 Arg2:T31
+R2	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T24
+R3	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T24
+R4	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T20
+R5	ANTAGONIST Arg1:T7 Arg2:T22
+R6	ANTAGONIST Arg1:T9 Arg2:T23
+R7	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T25
+R8	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T25
+R9	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T25
+R10	INDIRECT-UPREGULATOR Arg1:T11 Arg2:T26
+R11	ANTAGONIST Arg1:T13 Arg2:T27
+R12	INDIRECT-UPREGULATOR Arg1:T14 Arg2:T28

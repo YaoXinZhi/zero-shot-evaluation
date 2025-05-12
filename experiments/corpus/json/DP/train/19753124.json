@@ -1,0 +1,48 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "anastrozole",
+            "Name": "anastrozole"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "tamoxifen",
+            "Name": "tamoxifen"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "aromatase",
+            "Name": "aromatase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "anastrozole",
+            "Name": "anastrozole"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Anastrozole",
+            "Name": "anastrozole"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Tamoxifen",
+            "Name": "tamoxifen"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T6"
+        }
+    ]
+}

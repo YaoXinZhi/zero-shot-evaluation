@@ -1,0 +1,177 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "methionine",
+            "Name": "methionine"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "growth hormone",
+            "Name": "growthhormone"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "prolactin",
+            "Name": "prolactin"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "thyroid-stimulating hormone",
+            "Name": "thyroidstimulatinghormone"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "methionine",
+            "Name": "methionine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "methionine",
+            "Name": "methionine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "methionine",
+            "Name": "methionine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "methionine",
+            "Name": "methionine"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "liver methionine adenosyltransferase",
+            "Name": "livermethionineadenosyltransferase"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "methionine",
+            "Name": "methionine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "MAT",
+            "Name": "mat"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "cystathionine",
+            "Name": "cystathionine"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "cystathionine synthase",
+            "Name": "cystathioninesynthase"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "cystathionase",
+            "Name": "cystathionase"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "glycine",
+            "Name": "glycine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "glycine N-methyltransferase",
+            "Name": "glycinenmethyltransferase"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "GNMT",
+            "Name": "gnmt"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "MAT",
+            "Name": "mat"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "GNMT",
+            "Name": "gnmt"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "S-adenosylmethionine",
+            "Name": "sadenosylmethionine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "S-adenosylhomocysteine",
+            "Name": "sadenosylhomocysteine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "methionine",
+            "Name": "methionine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "methionine",
+            "Name": "methionine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "methionine",
+            "Name": "methionine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T25"
+        },
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T24"
+        },
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T25"
+        }
+    ]
+}

@@ -1,0 +1,52 @@
+T12	CHEMICAL 0 11	Tigecycline
+N1	Name Annotation:T12 Referent:tigecycline
+T2	CHEMICAL 219 230	Tigecycline
+N2	Name Annotation:T2 Referent:tigecycline
+T4	CHEMICAL 232 235	Tig
+N3	Name Annotation:T4 Referent:tig
+T5	CHEMICAL 240 253	glycylcycline
+N4	Name Annotation:T5 Referent:glycylcycline
+T6	CHEMICAL 282 293	Minocycline
+N5	Name Annotation:T6 Referent:minocycline
+T7	CHEMICAL 500 511	tigecycline
+N6	Name Annotation:T7 Referent:tigecycline
+T8	CHEMICAL 612 623	tigecycline
+N7	Name Annotation:T8 Referent:tigecycline
+T13	GENE-N 683 708	nuclear factor-kappa beta
+N8	Name Annotation:T13 Referent:nuclearfactorkappabeta
+T14	GENE-N 710 715	NF-κB
+N9	Name Annotation:T14 Referent:nfκb
+T15	GENE-Y 718 745	tumor necrosis factor-alpha
+N10	Name Annotation:T15 Referent:tumornecrosisfactoralpha
+T16	GENE-Y 747 752	TNF-α
+N11	Name Annotation:T16 Referent:tnfα
+T17	GENE-Y 758 775	interleukin-1beta
+N12	Name Annotation:T17 Referent:interleukin1beta
+T18	GENE-Y 777 782	IL-1β
+N13	Name Annotation:T18 Referent:il1β
+T9	CHEMICAL 796 808	nitric oxide
+N14	Name Annotation:T9 Referent:nitricoxide
+T10	CHEMICAL 810 812	NO
+N15	Name Annotation:T10 Referent:no
+T11	CHEMICAL 861 872	tigecycline
+N16	Name Annotation:T11 Referent:tigecycline
+T19	GENE-Y 900 912	cytochrome c
+N17	Name Annotation:T19 Referent:cytochromec
+T20	GENE-Y 925 934	caspase-3
+N18	Name Annotation:T20 Referent:caspase3
+T21	GENE-Y 1016 1019	Bad
+N19	Name Annotation:T21 Referent:bad
+T22	GENE-Y 1050 1055	Bcl-2
+N20	Name Annotation:T22 Referent:bcl2
+T1	CHEMICAL 1226 1237	tigecycline
+N21	Name Annotation:T1 Referent:tigecycline
+T3	CHEMICAL 1268 1279	tigecycline
+N22	Name Annotation:T3 Referent:tigecycline
+R1	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T13
+R2	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T14
+R3	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T15
+R4	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T16
+R5	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T17
+R6	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T18
+R7	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T19
+R8	INHIBITOR Arg1:T11 Arg2:T20

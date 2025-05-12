@@ -1,0 +1,209 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "cannabinoids",
+            "Name": "cannabinoids"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "cannabinoid",
+            "Name": "cannabinoid"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "cannabinoid receptor subtype CB1",
+            "Name": "cannabinoidreceptorsubtypecb1"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "cannabinoids",
+            "Name": "cannabinoids"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "naphthoylindole",
+            "Name": "naphthoylindole"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "JWH-018",
+            "Name": "jwh018"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "JWH-073",
+            "Name": "jwh073"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "JWH-122",
+            "Name": "jwh122"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "JWH-210",
+            "Name": "jwh210"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "benzoylindole",
+            "Name": "benzoylindole"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "AM-694",
+            "Name": "am694"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "tetrahydrocannabinol",
+            "Name": "tetrahydrocannabinol"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "cannabinoid receptor",
+            "Name": "cannabinoidreceptor"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "JWH-073",
+            "Name": "jwh073"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "JWH-122",
+            "Name": "jwh122"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "JWH-210",
+            "Name": "jwh210"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "cytokine",
+            "Name": "cytokine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "IL-10",
+            "Name": "il10"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "IL-6",
+            "Name": "il6"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "IL-12",
+            "Name": "il12"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "23p40",
+            "Name": "23p40"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "TNF\u03b1",
+            "Name": "tnf\u03b1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "JWH-210",
+            "Name": "jwh210"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "JWH-122",
+            "Name": "jwh122"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "TNF\u03b1",
+            "Name": "tnf\u03b1"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "IL-12",
+            "Name": "il12"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "23p40",
+            "Name": "23p40"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T15",
+            "target": "T27"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T11",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T25"
+        }
+    ]
+}

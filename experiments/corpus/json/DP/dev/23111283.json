@@ -1,0 +1,147 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Toosendanin",
+            "Name": "toosendanin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "JNK",
+            "Name": "jnk"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Toosendanin",
+            "Name": "toosendanin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "TSN",
+            "Name": "tsn"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "triterpenoid",
+            "Name": "triterpenoid"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "TSN",
+            "Name": "tsn"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "TSN",
+            "Name": "tsn"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "TSN",
+            "Name": "tsn"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "FITC",
+            "Name": "fitc"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "propidium iodide",
+            "Name": "propidiumiodide"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Bax",
+            "Name": "bax"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PARP",
+            "Name": "parp"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Bcl-2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "TSN",
+            "Name": "tsn"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "CDC42",
+            "Name": "cdc42"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "MEKK1",
+            "Name": "mekk1"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "JNK",
+            "Name": "jnk"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "TSN",
+            "Name": "tsn"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "JNK",
+            "Name": "jnk"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T19"
+        }
+    ]
+}

@@ -1,0 +1,151 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "[(14)C]anagliptin",
+            "Name": "14canagliptin"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "dipeptidyl peptidase-4",
+            "Name": "dipeptidylpeptidase4"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "anagliptin",
+            "Name": "anagliptin"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "dipeptidyl peptidase-4",
+            "Name": "dipeptidylpeptidase4"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "[(14)C]anagliptin",
+            "Name": "14canagliptin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Anagliptin",
+            "Name": "anagliptin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "carboxylate",
+            "Name": "carboxylate"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Anagliptin",
+            "Name": "anagliptin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "anagliptin",
+            "Name": "anagliptin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "anagliptin",
+            "Name": "anagliptin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "anagliptin",
+            "Name": "anagliptin"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "OAT1",
+            "Name": "oat1"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "OAT3",
+            "Name": "oat3"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "MDR1",
+            "Name": "mdr1"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "MRP2",
+            "Name": "mrp2"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "OAT3",
+            "Name": "oat3"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "BCRP",
+            "Name": "bcrp"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "MRP2",
+            "Name": "mrp2"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MRP4",
+            "Name": "mrp4"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T18"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T13"
+        }
+    ]
+}

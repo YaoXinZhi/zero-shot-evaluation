@@ -1,0 +1,131 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "catecholamine",
+            "Name": "catecholamine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Catecholamine",
+            "Name": "catecholamine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "EDTA-bis(tyramide)",
+            "Name": "edtabistyramide"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Human Serum Albumin",
+            "Name": "humanserumalbumin"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "HSA",
+            "Name": "hsa"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Arg",
+            "Name": "arg"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Arg",
+            "Name": "arg"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Lys",
+            "Name": "lys"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "HSA",
+            "Name": "hsa"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "EDTA-bis(tyramide)",
+            "Name": "edtabistyramide"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "(99m) Tc",
+            "Name": "99mtc"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "(99m) Tc- EDTA-bis(tyramide)",
+            "Name": "99mtcedtabistyramide"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Part of",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Part of",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Part of",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Part of",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Part of",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Part of",
+            "source": "T5",
+            "target": "T12"
+        },
+        {
+            "type": "Part of",
+            "source": "T6",
+            "target": "T11"
+        },
+        {
+            "type": "Part of",
+            "source": "T6",
+            "target": "T12"
+        }
+    ]
+}

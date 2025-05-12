@@ -1,0 +1,110 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "diarylheptanoids",
+            "Name": "diarylheptanoids"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "diarylheptanoid",
+            "Name": "diarylheptanoid"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "(5S)-hydroxy-1-(3,4-dihydroxyphenyl)-7-(4-hydroxyphenyl)-hepta-1E-en-3-one",
+            "Name": "5shydroxy134dihydroxyphenyl74hydroxyphenylhepta1een3one"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "diarylheptanoids",
+            "Name": "diarylheptanoids"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "methanol",
+            "Name": "methanol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "platyphyllonol-5-O-\u03b2-d-xylopyranoside",
+            "Name": "platyphyllonol5o\u03b2dxylopyranoside"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "peroxisome proliferator activated receptor \u03b3",
+            "Name": "peroxisomeproliferatoractivatedreceptor\u03b3"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "PPAR\u03b3",
+            "Name": "ppar\u03b3"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "CCAAT/enhancer binding protein \u03b1",
+            "Name": "ccaatenhancerbindingprotein\u03b1"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "C/EBP\u03b1",
+            "Name": "cebp\u03b1"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "troglitazone",
+            "Name": "troglitazone"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PPAR\u03b3",
+            "Name": "ppar\u03b3"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PPAR\u03b3",
+            "Name": "ppar\u03b3"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T8"
+        },
+        {
+            "type": "Agonist",
+            "source": "T6",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T9"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T10"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T11"
+        }
+    ]
+}

@@ -1,0 +1,126 @@
+T30	Disease 0 22	Brown wrinkle syndrome
+T31	Location 26 33	Arcadia
+T32	Pest 59 78	brown wrinkle virus
+T33	Date 92 110	for the first time
+T34	Plant 122 128	tomato
+T35	Location 144 151	Arcadia
+T36	Plant 190 196	tomato
+T37	Plant 212 224	Troy variety
+T38	Location 260 279	Community of Levidi
+T39	Plant 299 305;317 323	tomato plants
+T40	Plant 310 323	pepper plants
+T41	Dissemination_pathway 366 388	contact between plants
+T42	Dissemination_pathway 462 469	farmers
+T43	Dissemination_pathway 490 510	propagating material
+T44	Dissemination_pathway 512 518	plants
+T45	Dissemination_pathway 522 527	seeds
+T46	Dissemination_pathway 551 556	hands
+T47	Dissemination_pathway 593 607	infected plant
+T48	Dissemination_pathway 612 633	contaminated clothing
+T49	Dissemination_pathway 638 667	tools used on infected plants
+T50	Dissemination_pathway 676 732	reusable plastic crates used to transport infected fruit
+T51	Location 762 769	Arcadia
+T52	Dissemination_pathway 820 824	soil
+T53	Date 906 927	for at least 6 months
+T54	Dissemination_pathway 932 943	greenhouses
+T55	Dissemination_pathway 969 1003	surfaces of the various structures
+T56	Dissemination_pathway 1107 1131	circulating water system
+T57	Dissemination_pathway 1171 1182	Pollinators
+T58	Dissemination_pathway 1193 1212	contaminated pollen
+T59	Plant 1248 1255	stypnus
+T60	Plant 1257 1263	datula
+T61	Plant 1265 1274	goosefoot
+T62	Plant 1305 1312	petunia
+T63	Plant 1485 1491	tomato
+T64	Plant 1738 1744	pepper
+T65	Pest 1979 2011	Tomato brown fruit wrinkle virus
+T66	Pest 2013 2019	ToBRFV
+T67	Dissemination_pathway 2744 2749	hands
+T68	Plant 3561 3567;3579 3584	tomato crops
+T69	Plant 3572 3584	pepper crops
+N1	GeoNames Annotation:T31 Referent:264644
+N2	NCBI_Taxonomy Annotation:T32 Referent:1761477
+N3	NCBI_Taxonomy Annotation:T34 Referent:4081
+N4	GeoNames Annotation:T35 Referent:264644
+N5	NCBI_Taxonomy Annotation:T36 Referent:4081
+N6	NCBI_Taxonomy Annotation:T37 Referent:4081
+N7	GeoNames Annotation:T38 Referent:8133668
+N8	NCBI_Taxonomy Annotation:T39 Referent:4081
+N9	NCBI_Taxonomy Annotation:T40 Referent:4071
+N10	OntoBiotope Annotation:T41 Referent:OBT:000393
+N11	OntoBiotope Annotation:T42 Referent:OBT:000393
+N12	OntoBiotope Annotation:T43 Referent:OBT:001258
+N13	OntoBiotope Annotation:T44 Referent:OBT:000394
+N14	OntoBiotope Annotation:T45 Referent:OBT:001765
+N15	OntoBiotope Annotation:T46 Referent:OBT:001589
+N16	OntoBiotope Annotation:T48 Referent:OBT:000560
+N17	OntoBiotope Annotation:T49 Referent:OBT:000185
+N18	OntoBiotope Annotation:T50 Referent:OBT:000161
+N19	GeoNames Annotation:T51 Referent:264644
+N20	OntoBiotope Annotation:T52 Referent:OBT:000427
+N21	OntoBiotope Annotation:T54 Referent:OBT:000095
+N22	OntoBiotope Annotation:T55 Referent:OBT:000095
+N23	OntoBiotope Annotation:T56 Referent:OBT:001380
+N24	OntoBiotope Annotation:T57 Referent:OBT:001163
+N25	OntoBiotope Annotation:T58 Referent:OBT:002194
+N26	NCBI_Taxonomy Annotation:T59 Referent:13747
+N27	NCBI_Taxonomy Annotation:T60 Referent:4074
+N28	NCBI_Taxonomy Annotation:T61 Referent:66214
+N29	NCBI_Taxonomy Annotation:T62 Referent:4101
+N30	NCBI_Taxonomy Annotation:T63 Referent:4081
+N31	NCBI_Taxonomy Annotation:T64 Referent:4071
+N32	NCBI_Taxonomy Annotation:T65 Referent:1761477
+N33	NCBI_Taxonomy Annotation:T66 Referent:1761477
+N34	OntoBiotope Annotation:T67 Referent:OBT:001589
+N35	NCBI_Taxonomy Annotation:T68 Referent:4081
+N36	NCBI_Taxonomy Annotation:T69 Referent:4071
+R1	Causes Pest:T32 Disease:T30
+R2	Detected_on Object:T32 Date:T33
+R3	Detected_on Object:T32 Date:T33
+R4	Found_on Organism:T32 Habitat:T40
+R5	Found_on Organism:T32 Habitat:T39
+R6	Found_on Organism:T32 Habitat:T37
+R7	Found_on Organism:T32 Habitat:T34
+R8	Located_in Object:T32 Location:T35
+R9	Located_in Object:T32 Location:T38
+R10	Located_in Object:T32 Location:T38
+R11	Detected_on Object:T34 Date:T33
+R12	Detected_on Object:T34 Date:T33
+R13	Located_in Object:T34 Location:T35
+R14	Located_in Object:T34 Location:T38
+R15	Located_in Object:T37 Location:T38
+R16	Dispersed_by Nuisance:T32 Dissemination_pathway:T41
+R17	Dispersed_by Nuisance:T32 Dissemination_pathway:T43
+R18	Dispersed_by Nuisance:T32 Dissemination_pathway:T44
+R19	Dispersed_by Nuisance:T32 Dissemination_pathway:T45
+R20	Dispersed_by Nuisance:T32 Dissemination_pathway:T46
+R21	Dispersed_by Nuisance:T32 Dissemination_pathway:T47
+R22	Dispersed_by Nuisance:T32 Dissemination_pathway:T48
+R23	Dispersed_by Nuisance:T32 Dissemination_pathway:T49
+R24	Dispersed_by Nuisance:T32 Dissemination_pathway:T50
+R25	Detected_on Object:T52 Date:T53
+R26	Dispersed_by Nuisance:T32 Dissemination_pathway:T52
+R27	Dispersed_by Nuisance:T32 Dissemination_pathway:T56
+R28	Dispersed_by Nuisance:T32 Dissemination_pathway:T58
+E1	Nary Organisme_nuisible:T32 Plante:T34 Lieu:T35 Date:T33
+E2	Nary Organisme_nuisible:T32 Plante:T34 Lieu:T38 Date:T33
+E3	Nary Organisme_nuisible:T32 Voie_de_dispersion:T44
+E4	Nary Organisme_nuisible:T32 Voie_de_dispersion:T49
+E5	Nary Organisme_nuisible:T32 Plante:T40 Voie_de_dispersion:T42
+E6	Nary Organisme_nuisible:T32 Voie_de_dispersion:T43
+E7	Nary Organisme_nuisible:T32 Voie_de_dispersion:T52
+E8	Nary Organisme_nuisible:T32 Voie_de_dispersion:T56
+E9	Nary Organisme_nuisible:T32 Voie_de_dispersion:T45
+E10	Nary Organisme_nuisible:T32 Voie_de_dispersion:T47
+E11	Nary Organisme_nuisible:T32 Voie_de_dispersion:T46
+E12	Nary Organisme_nuisible:T32 Voie_de_dispersion:T48
+E13	Nary Organisme_nuisible:T32 Voie_de_dispersion:T58
+E14	Nary Organisme_nuisible:T32 Voie_de_dispersion:T41
+E15	Nary Organisme_nuisible:T32 Voie_de_dispersion:T50
+E16	Nary Organisme_nuisible:T32 Plante:T39
+E17	Nary Organisme_nuisible:T32 Maladie:T30
+E18	Nary Organisme_nuisible:T32 Plante:T37 Lieu:T38
+E19	Nary Voie_de_dispersion:T52 Date:T53
+*	Equiv T65 T66
+*	Equiv T36 T34
+*	Equiv T31 T35

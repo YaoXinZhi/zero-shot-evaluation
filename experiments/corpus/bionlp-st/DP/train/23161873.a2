@@ -1,0 +1,82 @@
+T16	CHEMICAL 16 28	carbohydrate
+N1	Name Annotation:T16 Referent:carbohydrate
+T37	GENE-Y 16 61	carbohydrate response element-binding protein
+N2	Name Annotation:T37 Referent:carbohydrateresponseelementbindingprotein
+T17	CHEMICAL 70 78	fructose
+N3	Name Annotation:T17 Referent:fructose
+T9	CHEMICAL 295 300	sugar
+N4	Name Annotation:T9 Referent:sugar
+T10	CHEMICAL 381 396	monosaccharides
+N5	Name Annotation:T10 Referent:monosaccharides
+T11	CHEMICAL 481 493	carbohydrate
+N6	Name Annotation:T11 Referent:carbohydrate
+T28	GENE-Y 481 526	carbohydrate response element-binding protein
+N7	Name Annotation:T28 Referent:carbohydrateresponseelementbindingprotein
+T29	GENE-Y 528 534	ChREBP
+N8	Name Annotation:T29 Referent:chrebp
+T30	GENE-Y 558 564	ChREBP
+N9	Name Annotation:T30 Referent:chrebp
+T31	GENE-Y 635 641	ChREBP
+N10	Name Annotation:T31 Referent:chrebp
+T12	CHEMICAL 736 744	fructose
+N11	Name Annotation:T12 Referent:fructose
+T32	GENE-Y 763 769	ChREBP
+N12	Name Annotation:T32 Referent:chrebp
+T13	CHEMICAL 801 813	triglyceride
+N13	Name Annotation:T13 Referent:triglyceride
+T14	CHEMICAL 927 935	fructose
+N14	Name Annotation:T14 Referent:fructose
+T33	GENE-Y 996 1000	ACC2
+N15	Name Annotation:T33 Referent:acc2
+T34	GENE-Y 1002 1005	FAS
+N16	Name Annotation:T34 Referent:fas
+T35	GENE-Y 1007 1011	SCD1
+N17	Name Annotation:T35 Referent:scd1
+T36	GENE-Y 1017 1021	MTTP
+N18	Name Annotation:T36 Referent:mttp
+T15	CHEMICAL 1060 1072	triglyceride
+N19	Name Annotation:T15 Referent:triglyceride
+T18	GENE-N 1124 1131	insulin
+N20	Name Annotation:T18 Referent:insulin
+T1	CHEMICAL 1154 1161	glucose
+N21	Name Annotation:T1 Referent:glucose
+T19	GENE-Y 1237 1243	ChREBP
+N22	Name Annotation:T19 Referent:chrebp
+T20	GENE-N 1295 1302	insulin
+N23	Name Annotation:T20 Referent:insulin
+T2	CHEMICAL 1331 1339	fructose
+N24	Name Annotation:T2 Referent:fructose
+T21	GENE-Y 1362 1368	ChREBP
+N25	Name Annotation:T21 Referent:chrebp
+T3	CHEMICAL 1394 1403	uric acid
+N26	Name Annotation:T3 Referent:uricacid
+T4	CHEMICAL 1405 1412	alanine
+N27	Name Annotation:T4 Referent:alanine
+T22	GENE-N 1405 1425	alanine transaminase
+N28	Name Annotation:T22 Referent:alaninetransaminase
+T5	CHEMICAL 1431 1440	aspartate
+N29	Name Annotation:T5 Referent:aspartate
+T23	GENE-N 1431 1457	aspartate aminotransferase
+N30	Name Annotation:T23 Referent:aspartateaminotransferase
+T6	CHEMICAL 1523 1531	fructose
+N31	Name Annotation:T6 Referent:fructose
+T24	GENE-N 1523 1540	fructose aldolase
+N32	Name Annotation:T24 Referent:fructosealdolase
+T25	GENE-Y 1545 1557	fructokinase
+N33	Name Annotation:T25 Referent:fructokinase
+T7	CHEMICAL 1597 1605	fructose
+N34	Name Annotation:T7 Referent:fructose
+T26	GENE-Y 1667 1673	ChREBP
+N35	Name Annotation:T26 Referent:chrebp
+T8	CHEMICAL 1686 1694	fructose
+N36	Name Annotation:T8 Referent:fructose
+T27	GENE-N 1786 1793	insulin
+N37	Name Annotation:T27 Referent:insulin
+R1	INDIRECT-DOWNREGULATOR Arg1:T14 Arg2:T33
+R2	INDIRECT-DOWNREGULATOR Arg1:T14 Arg2:T34
+R3	INDIRECT-DOWNREGULATOR Arg1:T14 Arg2:T35
+R4	INDIRECT-DOWNREGULATOR Arg1:T14 Arg2:T36
+R5	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T22
+R6	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T23
+R7	SUBSTRATE Arg1:T7 Arg2:T24
+R8	SUBSTRATE Arg1:T7 Arg2:T25

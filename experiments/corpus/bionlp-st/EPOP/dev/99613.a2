@@ -1,0 +1,48 @@
+T20	Vector 35 54	Philaenus spumarius
+T21	Pest 99 117	Xylella fastidiosa
+T22	Pest 187 200	X. fastidiosa
+T23	Pest 263 281	Xylella fastidiosa
+T24	Vector 478 497	Philaenus spumarius
+T25	Pest 542 560	Xylella fastidiosa
+T26	Vector 645 664	Philaenus spumarius
+T27	Pest 709 727	Xylella fastidiosa
+T28	Vector 1244 1263	Philaenus spumarius
+T29	Pest 1289 1307	Xylella fastidiosa
+T30	Pest 1506 1519	X. fastidiosa
+T31	Vector 1523 1535	P. spumarius
+T32	Vector 1701 1713	P. spumarius
+T33	Vector 1779 1791	P. spumarius
+T34	Vector 1940 1952	P. spumarius
+T35	Pest 2055 2068	X. fastidiosa
+T36	Pest 2331 2344	X. fastidiosa
+T37	Pest 2407 2425	Xylella fastidiosa
+N1	NCBI_Taxonomy Annotation:T20 Referent:36667
+N2	NCBI_Taxonomy Annotation:T21 Referent:2371
+N3	NCBI_Taxonomy Annotation:T22 Referent:2371
+N4	NCBI_Taxonomy Annotation:T23 Referent:2371
+N5	NCBI_Taxonomy Annotation:T24 Referent:36667
+N6	NCBI_Taxonomy Annotation:T25 Referent:2371
+N7	NCBI_Taxonomy Annotation:T26 Referent:36667
+N8	NCBI_Taxonomy Annotation:T27 Referent:2371
+N9	NCBI_Taxonomy Annotation:T28 Referent:36667
+N10	NCBI_Taxonomy Annotation:T29 Referent:2371
+N11	NCBI_Taxonomy Annotation:T30 Referent:2371
+N12	NCBI_Taxonomy Annotation:T31 Referent:36667
+N13	NCBI_Taxonomy Annotation:T32 Referent:36667
+N14	NCBI_Taxonomy Annotation:T33 Referent:36667
+N15	NCBI_Taxonomy Annotation:T34 Referent:36667
+N16	NCBI_Taxonomy Annotation:T35 Referent:2371
+N17	NCBI_Taxonomy Annotation:T36 Referent:2371
+N18	NCBI_Taxonomy Annotation:T37 Referent:2371
+R1	Vected_by Nuisance:T21 Vector:T20
+R2	Vected_by Nuisance:T25 Vector:T24
+R3	Vected_by Nuisance:T27 Vector:T26
+R4	Vected_by Nuisance:T29 Vector:T28
+R5	Vected_by Nuisance:T30 Vector:T31
+E1	Nary Organisme_nuisible:T21 Vecteur:T20
+E2	Nary Organisme_nuisible:T25 Vecteur:T24
+E3	Nary Organisme_nuisible:T27 Vecteur:T26
+E4	Nary Organisme_nuisible:T29 Vecteur:T28
+E5	Nary Organisme_nuisible:T30 Vecteur:T31
+*	Equiv T36 T37
+*	Equiv T23 T22

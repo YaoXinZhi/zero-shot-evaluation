@@ -1,0 +1,295 @@
+{
+    "entities": [
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T38",
+            "type": "Gene",
+            "name": "pannexin",
+            "Name": "pannexin"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T37",
+            "type": "Gene",
+            "name": "purinergic receptors",
+            "Name": "purinergicreceptors"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Ca(2+)",
+            "Name": "ca2"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "pannexin1",
+            "Name": "pannexin1"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "Panx1",
+            "Name": "panx1"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "pannexin1",
+            "Name": "pannexin1"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "dihydropyridine",
+            "Name": "dihydropyridine"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "ryanodine",
+            "Name": "ryanodine"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "ryanodine receptors",
+            "Name": "ryanodinereceptors"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "ethidium",
+            "Name": "ethidium"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Etd(+)",
+            "Name": "etd"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "2-NBDG",
+            "Name": "2nbdg"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "glucose transporter",
+            "Name": "glucosetransporter"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "GLUT4",
+            "Name": "glut4"
+        },
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "connexins",
+            "Name": "connexins"
+        },
+        {
+            "id": "T36",
+            "type": "Gene",
+            "name": "connexin",
+            "Name": "connexin"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Etd(+)",
+            "Name": "etd"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "pannexin1",
+            "Name": "pannexin1"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "P2Y1R",
+            "Name": "p2y1r"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "P2Y1",
+            "Name": "p2y1"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "P2X receptors",
+            "Name": "p2xreceptors"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Ser",
+            "Name": "ser"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Thr",
+            "Name": "thr"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "pannexin1",
+            "Name": "pannexin1"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "Panx1",
+            "Name": "panx1"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Ca(2+)",
+            "Name": "ca2"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "Connexin",
+            "Name": "connexin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T15",
+            "target": "T37"
+        },
+        {
+            "type": "Part of",
+            "source": "T4",
+            "target": "T26"
+        },
+        {
+            "type": "Part of",
+            "source": "T5",
+            "target": "T26"
+        },
+        {
+            "type": "Substrate",
+            "source": "T21",
+            "target": "T38"
+        },
+        {
+            "type": "Substrate",
+            "source": "T16",
+            "target": "T33"
+        },
+        {
+            "type": "Substrate",
+            "source": "T17",
+            "target": "T33"
+        },
+        {
+            "type": "Substrate",
+            "source": "T16",
+            "target": "T34"
+        },
+        {
+            "type": "Substrate",
+            "source": "T17",
+            "target": "T34"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T27"
+        },
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T27"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T27"
+        }
+    ]
+}

@@ -1,0 +1,226 @@
+{
+    "entities": [
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "cisplatin",
+            "Name": "cisplatin"
+        },
+        {
+            "id": "T23",
+            "type": "Chemical",
+            "name": "5-fluorouracil",
+            "Name": "5fluorouracil"
+        },
+        {
+            "id": "T24",
+            "type": "Chemical",
+            "name": "mitomycin C",
+            "Name": "mitomycinc"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "cisplatin",
+            "Name": "cisplatin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "5-fluorouracil",
+            "Name": "5fluorouracil"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "mitomycin C",
+            "Name": "mitomycinc"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "MMC",
+            "Name": "mmc"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "MMC",
+            "Name": "mmc"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Cisplatin",
+            "Name": "cisplatin"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "MMC",
+            "Name": "mmc"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "5-Fluorouracil",
+            "Name": "5fluorouracil"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "glutathione S-transferase",
+            "Name": "glutathionestransferase"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "S",
+            "Name": "s"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "aminopeptidase N",
+            "Name": "aminopeptidasen"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "cysteine",
+            "Name": "cysteine"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "cysteine S-conjugate beta-lyase",
+            "Name": "cysteinesconjugatebetalyase"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "S",
+            "Name": "s"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "CCBL",
+            "Name": "ccbl"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "gamma-glutamyltransferase",
+            "Name": "gammaglutamyltransferase"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "dihydropyrimidine",
+            "Name": "dihydropyrimidine"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "dihydropyrimidine dehydrogenase",
+            "Name": "dihydropyrimidinedehydrogenase"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "cytochrome P450 1A1/2",
+            "Name": "cytochromep4501a12"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "MMC",
+            "Name": "mmc"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "quinone",
+            "Name": "quinone"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "quinone reductase",
+            "Name": "quinonereductase"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "xanthine",
+            "Name": "xanthine"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "xanthine oxidase",
+            "Name": "xanthineoxidase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "prostaglandin E2",
+            "Name": "prostaglandine2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "MMC",
+            "Name": "mmc"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "MMC",
+            "Name": "mmc"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "CCBL",
+            "Name": "ccbl"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "MMC",
+            "Name": "mmc"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T19",
+            "target": "T33"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T19",
+            "target": "T34"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T25"
+        }
+    ]
+}

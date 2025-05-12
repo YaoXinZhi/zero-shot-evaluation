@@ -1,0 +1,129 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "nuclear receptor",
+            "Name": "nuclearreceptor"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "bile acids",
+            "Name": "bileacids"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Bile acids",
+            "Name": "bileacids"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "bile acids",
+            "Name": "bileacids"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "farnesoid X receptor",
+            "Name": "farnesoidxreceptor"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "FXR",
+            "Name": "fxr"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "orphan nuclear receptor",
+            "Name": "orphannuclearreceptor"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "FXR",
+            "Name": "fxr"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "cholesterol 7alpha-hydroxylase",
+            "Name": "cholesterol7alphahydroxylase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "bile acid",
+            "Name": "bileacid"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "intestinal bile acid-binding protein",
+            "Name": "intestinalbileacidbindingprotein"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "bile acid",
+            "Name": "bileacid"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "bile acid",
+            "Name": "bileacid"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "bile acid transporter",
+            "Name": "bileacidtransporter"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "bile acids",
+            "Name": "bileacids"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T14"
+        }
+    ]
+}

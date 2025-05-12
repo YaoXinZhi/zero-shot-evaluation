@@ -1,0 +1,102 @@
+T3	Pest 16 40	Colletotrichum truncatum
+T4	Disease 49 60	anthracnose
+T5	Plant 64 76	dragon fruit
+T6	Plant 78 92	Hylocereus spp
+T7	Location 98 103	India
+T8	Plant 120 132	Dragon fruit
+T9	Plant 134 148	Hylocereus spp
+T10	Date 282 294	In year 2020
+T11	Date 282 289;299 303	In year 2021
+T12	Plant 305 315	H. undatus
+T13	Plant 320 333	H. polyrhizus
+T14	Location 416 424	Baramati
+T15	Disease 470 481	anthracnose
+T16	Date 593 613	in July to September
+T17	Date 632 649	in November, 2021
+T18	Plant 1201 1207	potato
+T19	Pest 2098 2153	Colletotrichum truncatum (Schwein.) Andrus & W.D. Moore
+T20	Pest 2735 2747	C. truncatum
+T21	Plant 2805 2815	H. undatus
+T22	Plant 2820 2833	H. polyrhizus
+T23	Pest 2891 2903	C. truncatum
+T24	Pest 3450 3462	C. truncatum
+T25	Pest 3564 3576	C. truncatum
+T26	Plant 3590 3602	dragon fruit
+T27	Disease 3603 3614	anthracnose
+T28	Pest 3625 3637	C. truncatum
+T29	Location 3656 3661	China
+T30	Location 3684 3692	Malaysia
+T31	Pest 3761 3773	C. truncatum
+T32	Plant 3783 3795	dragon fruit
+T33	Disease 3796 3807	anthracnose
+T34	Location 3811 3816	India
+N1	NCBI_Taxonomy Annotation:T3 Referent:5467
+N2	NCBI_Taxonomy Annotation:T5 Referent:83431
+N3	NCBI_Taxonomy Annotation:T6 Referent:83431
+N4	GeoNames Annotation:T7 Referent:1269750
+N5	NCBI_Taxonomy Annotation:T8 Referent:83431
+N6	NCBI_Taxonomy Annotation:T9 Referent:83431
+N7	NCBI_Taxonomy Annotation:T12 Referent:176265
+N8	NCBI_Taxonomy Annotation:T13 Referent:1195128
+N9	GeoNames Annotation:T14 Referent:1277091
+N10	NCBI_Taxonomy Annotation:T18 Referent:4113
+N11	NCBI_Taxonomy Annotation:T19 Referent:5467
+N12	NCBI_Taxonomy Annotation:T20 Referent:5467
+N13	NCBI_Taxonomy Annotation:T21 Referent:176265
+N14	NCBI_Taxonomy Annotation:T22 Referent:1195128
+N15	NCBI_Taxonomy Annotation:T23 Referent:5467
+N16	NCBI_Taxonomy Annotation:T24 Referent:5467
+N17	NCBI_Taxonomy Annotation:T25 Referent:5467
+N18	NCBI_Taxonomy Annotation:T26 Referent:83431
+N19	NCBI_Taxonomy Annotation:T28 Referent:5467
+N20	GeoNames Annotation:T29 Referent:1814991
+N21	GeoNames Annotation:T30 Referent:1733045
+N22	NCBI_Taxonomy Annotation:T31 Referent:5467
+N23	NCBI_Taxonomy Annotation:T32 Referent:83431
+N24	GeoNames Annotation:T34 Referent:1269750
+R1	Found_on Organism:T3 Habitat:T5
+R2	Found_on Organism:T3 Habitat:T13
+R3	Found_on Organism:T3 Habitat:T12
+R4	Located_in Object:T3 Location:T7
+R5	Detected_on Object:T3 Date:T10
+R6	Detected_on Object:T3 Date:T10
+R7	Located_in Object:T4 Location:T7
+R8	Causes Pest:T3 Disease:T4
+R9	Expressed_by Disease:T4 Plant:T5
+R10	Located_in Object:T5 Location:T7
+R11	Detected_on Object:T12 Date:T10
+R12	Detected_on Object:T13 Date:T10
+R13	Detected_on Object:T15 Date:T10
+R14	Detected_on Object:T15 Date:T10
+R15	Causes Pest:T3 Disease:T15
+R16	Expressed_by Disease:T15 Plant:T13
+R17	Expressed_by Disease:T15 Plant:T12
+R18	Found_on Organism:T23 Habitat:T21
+R19	Found_on Organism:T23 Habitat:T22
+R20	Located_in Object:T26 Location:T29
+R21	Located_in Object:T26 Location:T30
+R22	Located_in Object:T27 Location:T29
+R23	Located_in Object:T27 Location:T30
+R24	Causes Pest:T28 Disease:T27
+R25	Expressed_by Disease:T27 Plant:T26
+R26	Expressed_by Disease:T27 Plant:T26
+R27	Found_on Organism:T28 Habitat:T26
+R28	Found_on Organism:T28 Habitat:T26
+R29	Located_in Object:T28 Location:T29
+R30	Located_in Object:T28 Location:T30
+R31	Found_on Organism:T31 Habitat:T32
+R32	Located_in Object:T31 Location:T34
+R33	Located_in Object:T32 Location:T34
+R34	Located_in Object:T33 Location:T34
+R35	Causes Pest:T31 Disease:T33
+R36	Expressed_by Disease:T33 Plant:T32
+E1	Nary Organisme_nuisible:T3 Plante:T5 Maladie:T4 Lieu:T7
+E2	Nary Organisme_nuisible:T3 Plante:T13 Maladie:T15 Date:T10
+E3	Nary Organisme_nuisible:T3 Plante:T12 Maladie:T15 Date:T10
+E4	Nary Organisme_nuisible:T23 Plante:T21
+E5	Nary Organisme_nuisible:T23 Plante:T22
+E6	Nary Organisme_nuisible:T28 Plante:T26 Maladie:T27 Lieu:T29
+E7	Nary Organisme_nuisible:T28 Plante:T26 Maladie:T27 Lieu:T30
+E8	Nary Organisme_nuisible:T31 Plante:T32 Maladie:T33 Lieu:T34
+*	Equiv T8 T9
+*	Equiv T5 T6

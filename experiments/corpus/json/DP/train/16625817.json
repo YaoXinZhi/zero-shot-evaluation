@@ -1,0 +1,106 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "radafaxine",
+            "Name": "radafaxine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "rimonabant",
+            "Name": "rimonabant"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "5-HT2c",
+            "Name": "5ht2c"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "APD-356",
+            "Name": "apd356"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "oleoyl-estrone",
+            "Name": "oleoylestrone"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "glucagon-like peptide-1",
+            "Name": "glucagonlikepeptide1"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "peptide YY",
+            "Name": "peptideyy"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "amylin",
+            "Name": "amylin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "lipase",
+            "Name": "lipase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "cetilistat",
+            "Name": "cetilistat"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "GT-389255",
+            "Name": "gt389255"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "human growth hormone",
+            "Name": "humangrowthhormone"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "rimonabant",
+            "Name": "rimonabant"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T13"
+        },
+        {
+            "type": "Agonist",
+            "source": "T4",
+            "target": "T9"
+        }
+    ]
+}

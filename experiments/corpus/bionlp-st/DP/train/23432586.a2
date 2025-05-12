@@ -1,0 +1,40 @@
+T2	CHEMICAL 294 298	Ca2+
+N1	Name Annotation:T2 Referent:ca2
+T12	GENE-N 397 409	immunophilin
+N2	Name Annotation:T12 Referent:immunophilin
+T3	CHEMICAL 463 467	Ca2+
+N3	Name Annotation:T3 Referent:ca2
+T13	GENE-N 538 551	immunophilins
+N4	Name Annotation:T13 Referent:immunophilins
+T4	CHEMICAL 555 565	tacrolimus
+N5	Name Annotation:T4 Referent:tacrolimus
+T5	CHEMICAL 567 572	FK506
+N6	Name Annotation:T5 Referent:fk506
+T6	CHEMICAL 578 587	sirolimus
+N7	Name Annotation:T6 Referent:sirolimus
+T7	CHEMICAL 589 598	rapamycin
+N8	Name Annotation:T7 Referent:rapamycin
+T8	CHEMICAL 608 612	Ca2+
+N9	Name Annotation:T8 Referent:ca2
+T14	GENE-N 681 693	immunophilin
+N10	Name Annotation:T14 Referent:immunophilin
+T9	CHEMICAL 1035 1040	FK506
+N11	Name Annotation:T9 Referent:fk506
+T15	GENE-Y 1035 1059	FK506 binding protein-52
+N12	Name Annotation:T15 Referent:fk506bindingprotein52
+T16	GENE-Y 1061 1067	FKBP52
+N13	Name Annotation:T16 Referent:fkbp52
+T10	CHEMICAL 1085 1091	Ca(2+)
+N14	Name Annotation:T10 Referent:ca2
+T17	GENE-N 1085 1100	Ca(2+) channels
+N15	Name Annotation:T17 Referent:ca2channels
+T11	GENE-Y 1422 1428	FKBP52
+N16	Name Annotation:T11 Referent:fkbp52
+T1	CHEMICAL 1525 1531	Ca(2+)
+N17	Name Annotation:T1 Referent:ca2
+R1	INHIBITOR Arg1:T4 Arg2:T13
+R2	INHIBITOR Arg1:T5 Arg2:T13
+R3	INHIBITOR Arg1:T6 Arg2:T13
+R4	INHIBITOR Arg1:T7 Arg2:T13
+R5	SUBSTRATE Arg1:T8 Arg2:T13
+R6	SUBSTRATE Arg1:T1 Arg2:T11

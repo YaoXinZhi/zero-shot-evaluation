@@ -1,0 +1,205 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "androgen",
+            "Name": "androgen"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "steroids",
+            "Name": "steroids"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "steroids",
+            "Name": "steroids"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "steroids",
+            "Name": "steroids"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Flutamide",
+            "Name": "flutamide"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "steroid",
+            "Name": "steroid"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "androgen receptor",
+            "Name": "androgenreceptor"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "androgen",
+            "Name": "androgen"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "androgen receptor",
+            "Name": "androgenreceptor"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "testosterone",
+            "Name": "testosterone"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "estradiol",
+            "Name": "estradiol"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Flutamide",
+            "Name": "flutamide"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "IGF-I",
+            "Name": "igfi"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "IGF-I",
+            "Name": "igfi"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "GH receptor",
+            "Name": "ghreceptor"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "GH",
+            "Name": "gh"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "GH",
+            "Name": "gh"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "GH",
+            "Name": "gh"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Flutamide",
+            "Name": "flutamide"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "somatostatin",
+            "Name": "somatostatin"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "somatostatin",
+            "Name": "somatostatin"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "GH",
+            "Name": "gh"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "androgen",
+            "Name": "androgen"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "estrogens",
+            "Name": "estrogens"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "GH",
+            "Name": "gh"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "GH",
+            "Name": "gh"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T13",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T13",
+            "target": "T28"
+        }
+    ]
+}

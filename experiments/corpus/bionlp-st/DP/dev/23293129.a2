@@ -1,0 +1,28 @@
+T5	CHEMICAL 124 132	methanol
+N1	Name Annotation:T5 Referent:methanol
+T4	CHEMICAL 587 596	aflatoxin
+N2	Name Annotation:T4 Referent:aflatoxin
+T6	CHEMICAL 773 787	aflatoxin B(1)
+N3	Name Annotation:T6 Referent:aflatoxinb1
+T7	CHEMICAL 829 844	malondialdehyde
+N4	Name Annotation:T7 Referent:malondialdehyde
+T8	CHEMICAL 875 885	superoxide
+N5	Name Annotation:T8 Referent:superoxide
+T12	GENE 875 895	superoxide dismutase
+N6	Name Annotation:T12 Referent:superoxidedismutase
+T9	CHEMICAL 897 908	glutathione
+N7	Name Annotation:T9 Referent:glutathione
+T10	CHEMICAL 913 924	glutathione
+N8	Name Annotation:T10 Referent:glutathione
+T13	GENE 913 935	glutathione peroxidase
+N9	Name Annotation:T13 Referent:glutathioneperoxidase
+T11	CHEMICAL 960 969	aflatoxin
+N10	Name Annotation:T11 Referent:aflatoxin
+T1	CHEMICAL 1290 1326	N-methyl-N'-nitro-N-nitrosoguanidine
+N11	Name Annotation:T1 Referent:nmethylnnitronnitrosoguanidine
+T2	CHEMICAL 1328 1335	acridin
+N12	Name Annotation:T2 Referent:acridin
+T3	CHEMICAL 1340 1349	aflatoxin
+N13	Name Annotation:T3 Referent:aflatoxin
+R1	INDIRECT-UPREGULATOR Arg1:T6 Arg2:T12
+R2	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T13

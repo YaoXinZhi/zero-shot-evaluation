@@ -1,0 +1,265 @@
+{
+    "entities": [
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "Glucocorticoid receptor",
+            "Name": "glucocorticoidreceptor"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "cytoplasmic glucocorticoid receptors",
+            "Name": "cytoplasmicglucocorticoidreceptors"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "GRs",
+            "Name": "grs"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "GR",
+            "Name": "gr"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "GR",
+            "Name": "gr"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "beclomethasone dipropionate",
+            "Name": "beclomethasonedipropionate"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "salmeterol",
+            "Name": "salmeterol"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "fluticasone propionate",
+            "Name": "fluticasonepropionate"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "FP",
+            "Name": "fp"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "GR",
+            "Name": "gr"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "FP",
+            "Name": "fp"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "salmeterol",
+            "Name": "salmeterol"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "FP",
+            "Name": "fp"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "salmeterol",
+            "Name": "salmeterol"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "FP",
+            "Name": "fp"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "GR",
+            "Name": "gr"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "salmeterol",
+            "Name": "salmeterol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "FP",
+            "Name": "fp"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "GR",
+            "Name": "gr"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "salmeterol",
+            "Name": "salmeterol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "FP",
+            "Name": "fp"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "glucocorticoid response element",
+            "Name": "glucocorticoidresponseelement"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "GRE",
+            "Name": "gre"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "mitogen-activated protein kinase phosphatase 1",
+            "Name": "mitogenactivatedproteinkinasephosphatase1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "MKP-1",
+            "Name": "mkp1"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "secretory leuko-proteinase inhibitor",
+            "Name": "secretoryleukoproteinaseinhibitor"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "SLPI",
+            "Name": "slpi"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "GR",
+            "Name": "gr"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T25"
+        },
+        {
+            "type": "Activator",
+            "source": "T9",
+            "target": "T26"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T14"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T20"
+        }
+    ]
+}

@@ -1,0 +1,80 @@
+T17	CHEMICAL 0 13	Rosiglitazone
+N1	Name Annotation:T17 Referent:rosiglitazone
+T19	CHEMICAL 23 31	acyl-CoA
+N2	Name Annotation:T19 Referent:acylcoa
+T35	GENE-N 23 42	acyl-CoA synthetase
+N3	Name Annotation:T35 Referent:acylcoasynthetase
+T20	CHEMICAL 56 66	fatty acid
+N4	Name Annotation:T20 Referent:fattyacid
+T21	CHEMICAL 83 97	diacylglycerol
+N5	Name Annotation:T21 Referent:diacylglycerol
+T18	CHEMICAL 102 117	triacylglycerol
+N6	Name Annotation:T18 Referent:triacylglycerol
+T34	GENE-Y 124 172	peroxisome proliferator-activated receptor-gamma
+N7	Name Annotation:T34 Referent:peroxisomeproliferatoractivatedreceptorgamma
+T1	CHEMICAL 250 263	Rosiglitazone
+N8	Name Annotation:T1 Referent:rosiglitazone
+T27	GENE-Y 388 443	peroxisome proliferator-activated receptor (PPAR)-gamma
+N9	Name Annotation:T27 Referent:peroxisomeproliferatoractivatedreceptorppargamma
+T7	CHEMICAL 445 458	rosiglitazone
+N10	Name Annotation:T7 Referent:rosiglitazone
+T8	CHEMICAL 525 544	long-chain acyl-CoA
+N11	Name Annotation:T8 Referent:longchainacylcoa
+T28	GENE-Y 525 564	long-chain acyl-CoA synthetase (ACSL)-4
+N12	Name Annotation:T28 Referent:longchainacylcoasynthetaseacsl4
+T29	GENE-N 600 605	ACSL4
+N13	Name Annotation:T29 Referent:acsl4
+T9	CHEMICAL 697 710	rosiglitazone
+N14	Name Annotation:T9 Referent:rosiglitazone
+T30	GENE-N 722 726	ACSL
+N15	Name Annotation:T30 Referent:acsl
+T10	CHEMICAL 740 750	fatty acid
+N16	Name Annotation:T10 Referent:fattyacid
+T31	GENE-N 891 896	Acsl4
+N17	Name Annotation:T31 Referent:acsl4
+T11	CHEMICAL 902 915	rosiglitazone
+N18	Name Annotation:T11 Referent:rosiglitazone
+T32	GENE-N 926 930	Acsl
+N19	Name Annotation:T32 Referent:acsl
+T12	CHEMICAL 969 982	rosiglitazone
+N20	Name Annotation:T12 Referent:rosiglitazone
+T13	CHEMICAL 1017 1028	fatty acids
+N21	Name Annotation:T13 Referent:fattyacids
+T14	CHEMICAL 1076 1086	fatty acid
+N22	Name Annotation:T14 Referent:fattyacid
+T15	CHEMICAL 1105 1119	diacylglycerol
+N23	Name Annotation:T15 Referent:diacylglycerol
+T16	CHEMICAL 1124 1139	triacylglycerol
+N24	Name Annotation:T16 Referent:triacylglycerol
+T33	GENE-Y 1180 1190	PPAR-gamma
+N25	Name Annotation:T33 Referent:ppargamma
+T22	GENE-Y 1261 1266	ACSL4
+N26	Name Annotation:T22 Referent:acsl4
+T23	GENE-N 1302 1306	ACSL
+N27	Name Annotation:T23 Referent:acsl
+T2	CHEMICAL 1356 1366	fatty acid
+N28	Name Annotation:T2 Referent:fattyacid
+T3	CHEMICAL 1408 1421	rosiglitazone
+N29	Name Annotation:T3 Referent:rosiglitazone
+T24	GENE-N 1431 1435	ACSL
+N30	Name Annotation:T24 Referent:acsl
+T4	CHEMICAL 1449 1459	fatty acid
+N31	Name Annotation:T4 Referent:fattyacid
+T25	GENE-N 1533 1543	PPAR-gamma
+N32	Name Annotation:T25 Referent:ppargamma
+T26	GENE-N 1591 1596	ACSL4
+N33	Name Annotation:T26 Referent:acsl4
+T5	CHEMICAL 1620 1633	rosiglitazone
+N34	Name Annotation:T5 Referent:rosiglitazone
+T6	CHEMICAL 1672 1683	fatty acids
+N35	Name Annotation:T6 Referent:fattyacids
+R1	INHIBITOR Arg1:T17 Arg2:T35
+R2	INHIBITOR Arg1:T7 Arg2:T28
+R3	SUBSTRATE Arg1:T20 Arg2:T35
+R4	PRODUCT-OF Arg1:T21 Arg2:T35
+R5	PRODUCT-OF Arg1:T18 Arg2:T35
+R6	INHIBITOR Arg1:T11 Arg2:T32
+R7	SUBSTRATE Arg1:T2 Arg2:T23
+R8	INHIBITOR Arg1:T3 Arg2:T24
+R9	SUBSTRATE Arg1:T4 Arg2:T24
+R10	INHIBITOR Arg1:T3 Arg2:T26

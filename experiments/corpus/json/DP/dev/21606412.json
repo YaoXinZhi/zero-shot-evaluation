@@ -1,0 +1,183 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "XL184",
+            "Name": "xl184"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Cabozantinib",
+            "Name": "cabozantinib"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "XL184",
+            "Name": "xl184"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "cabozantinib",
+            "Name": "cabozantinib"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "MET",
+            "Name": "met"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "vascular endothelial growth factor receptor 2",
+            "Name": "vascularendothelialgrowthfactorreceptor2"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "VEGFR2",
+            "Name": "vegfr2"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "RET",
+            "Name": "ret"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cabozantinib",
+            "Name": "cabozantinib"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "cabozantinib",
+            "Name": "cabozantinib"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "RET",
+            "Name": "ret"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "AST",
+            "Name": "ast"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "ALT",
+            "Name": "alt"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "lipase",
+            "Name": "lipase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Cabozantinib",
+            "Name": "cabozantinib"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Cabozantinib",
+            "Name": "cabozantinib"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "MET",
+            "Name": "met"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "VEGFR2",
+            "Name": "vegfr2"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "RET",
+            "Name": "ret"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T14"
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Phenotype",
+            "name": "\u03b2-glucan produced",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T2",
+            "type": "Microorganism",
+            "name": "P. parvulus",
+            "NCBI_Taxonomy": "54062"
+        },
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Lactobacillus paracasei",
+            "NCBI_Taxonomy": "1597"
+        },
+        {
+            "id": "T4",
+            "type": "Habitat",
+            "name": "gastrointestinal",
+            "OntoBiotope": "OBT:000641"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T2",
+            "target": "T1"
+        }
+    ]
+}

@@ -1,0 +1,48 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T2",
+            "type": "Gene",
+            "name": "Acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "Torpedo californica AChE",
+            "Name": "torpedocalifornicaache"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "edrophonium",
+            "Name": "edrophonium"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T5"
+        }
+    ]
+}

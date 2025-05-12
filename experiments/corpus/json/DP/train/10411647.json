@@ -1,0 +1,216 @@
+{
+    "entities": [
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "Tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "Tyrosine hydroxylase",
+            "Name": "tyrosinehydroxylase"
+        },
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "tetrahydrobiopterin",
+            "Name": "tetrahydrobiopterin"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "human tyrosine hydroxylase isoform 1",
+            "Name": "humantyrosinehydroxylaseisoform1"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "hTH1",
+            "Name": "hth1"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "(6R)-Lerythro-5,6,7, 8-tetrahydrobiopterin",
+            "Name": "6rlerythro5678tetrahydrobiopterin"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "H4biopterin",
+            "Name": "h4biopterin"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "H4biopterin",
+            "Name": "h4biopterin"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "Ser40",
+            "Name": "ser40"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "protein kinase A",
+            "Name": "proteinkinasea"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "H4biopterin",
+            "Name": "h4biopterin"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "C",
+            "Name": "c"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "hTH1",
+            "Name": "hth1"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "H4biopterin",
+            "Name": "h4biopterin"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "6-methyl-5,6,7,8-tetrahydropterin",
+            "Name": "6methyl5678tetrahydropterin"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "3-methyl-5,6,7, 8-tetrahydropterin",
+            "Name": "3methyl5678tetrahydropterin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "H43-methyl-pterin",
+            "Name": "h43methylpterin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "H43-methyl-pterin",
+            "Name": "h43methylpterin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "H4biopterin",
+            "Name": "h4biopterin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "H4biopterin",
+            "Name": "h4biopterin"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "hTH1",
+            "Name": "hth1"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "H4biopterin",
+            "Name": "h4biopterin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Lerythro-dihydrobiopterin",
+            "Name": "lerythrodihydrobiopterin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "H2biopterin",
+            "Name": "h2biopterin"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "H4biopterin",
+            "Name": "h4biopterin"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "TH",
+            "Name": "th"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "H4biopterin",
+            "Name": "h4biopterin"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "catecholamine",
+            "Name": "catecholamine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T22",
+            "target": "T29"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T16",
+            "target": "T26"
+        },
+        {
+            "type": "Part of",
+            "source": "T17",
+            "target": "T27"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T23"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T15",
+            "target": "T26"
+        }
+    ]
+}

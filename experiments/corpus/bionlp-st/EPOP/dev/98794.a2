@@ -1,0 +1,133 @@
+T7	Pest 16 33	Rhizopus arrhizus
+T8	Pest 40 49	R. oryzae
+T9	Disease 59 79	Garlic Bulb Soft Rot
+T10	Location 83 97	Hebei Province
+T11	Location 99 104	China
+T12	Disease 114 131	Rhizopus soft rot
+T13	Plant 258 264	garlic
+T14	Date 314 330	in November 2021
+T15	Plant 354 360	garlic
+T16	Disease 380 397	Rhizopus soft rot
+T17	Location 410 423	Daming County
+T18	Location 425 436	Handan City
+T19	Location 438 452	Hebei Province
+T20	Location 456 461	China
+T21	Plant 528 534	garlic
+T22	Location 553 558	China
+T23	Plant 607 613	garlic
+T24	Plant 685 691	garlic
+T25	Plant 818 824	garlic
+T26	Plant 841 847	garlic
+T27	Pest 1758 1775	Rhizopus arrhizus
+T28	Pest 1782 1797	Rhizopus oryzae
+T29	Pest 2003 2020	Rhizopus arrhizus
+T30	Pest 2027 2042	Rhizopus oryzae
+T31	Disease 2159 2179	garlic bulb soft rot
+T32	Pest 2602 2619	Rhizopus arrhizus
+T33	Pest 2626 2641	Rhizopus oryzae
+T34	Plant 2748 2754	garlic
+T35	Pest 2782 2793	R. arrhizus
+T36	Plant 2939 2945	garlic
+T37	Pest 3088 3099	R. arrhizus
+T38	Pest 3310 3321	R. arrhizus
+T39	Plant 3358 3364	garlic
+T40	Pest 3480 3491	R. arrhizus
+T41	Plant 3500 3507	cassava
+T42	Plant 3519 3525	potato
+T43	Pest 3625 3636	R. arrhizus
+T44	Pest 3643 3658	Rhizopus oryzae
+T45	Disease 3676 3699	soft rot on garlic bulb
+T46	Location 3725 3730	China
+T47	Plant 3781 3787	garlic
+T48	Plant 3896 3902	Garlic
+T49	Plant 4099 4113	Allium sativum
+T50	Disease 4115 4130	Garlic bulb rot
+T51	Pest 4132 4149	Rhizopus arrhizus
+T52	Disease 4151 4159	soft rot
+N1	NCBI_Taxonomy Annotation:T7 Referent:64495
+N2	NCBI_Taxonomy Annotation:T8 Referent:64495
+N3	GeoNames Annotation:T10 Referent:1808773
+N4	GeoNames Annotation:T11 Referent:1814991
+N5	NCBI_Taxonomy Annotation:T13 Referent:4682
+N6	NCBI_Taxonomy Annotation:T15 Referent:4682
+N7	GeoNames Annotation:T17 Referent:1813911
+N8	GeoNames Annotation:T18 Referent:1808960
+N9	GeoNames Annotation:T19 Referent:1808773
+N10	GeoNames Annotation:T20 Referent:1814991
+N11	NCBI_Taxonomy Annotation:T21 Referent:4682
+N12	GeoNames Annotation:T22 Referent:1814991
+N13	NCBI_Taxonomy Annotation:T23 Referent:4682
+N14	NCBI_Taxonomy Annotation:T24 Referent:4682
+N15	NCBI_Taxonomy Annotation:T25 Referent:4682
+N16	NCBI_Taxonomy Annotation:T26 Referent:4682
+N17	NCBI_Taxonomy Annotation:T27 Referent:64495
+N18	NCBI_Taxonomy Annotation:T28 Referent:64495
+N19	NCBI_Taxonomy Annotation:T29 Referent:64495
+N20	NCBI_Taxonomy Annotation:T30 Referent:64495
+N21	NCBI_Taxonomy Annotation:T32 Referent:64495
+N22	NCBI_Taxonomy Annotation:T33 Referent:64495
+N23	NCBI_Taxonomy Annotation:T34 Referent:4682
+N24	NCBI_Taxonomy Annotation:T35 Referent:64495
+N25	NCBI_Taxonomy Annotation:T36 Referent:4682
+N26	NCBI_Taxonomy Annotation:T37 Referent:64495
+N27	NCBI_Taxonomy Annotation:T38 Referent:64495
+N28	NCBI_Taxonomy Annotation:T39 Referent:4682
+N29	NCBI_Taxonomy Annotation:T40 Referent:64495
+N30	NCBI_Taxonomy Annotation:T41 Referent:3983
+N31	NCBI_Taxonomy Annotation:T42 Referent:4113
+N32	NCBI_Taxonomy Annotation:T43 Referent:64495
+N33	NCBI_Taxonomy Annotation:T44 Referent:64495
+N34	GeoNames Annotation:T46 Referent:1814991
+N35	NCBI_Taxonomy Annotation:T47 Referent:4682
+N36	NCBI_Taxonomy Annotation:T48 Referent:4682
+N37	NCBI_Taxonomy Annotation:T49 Referent:4682
+N38	NCBI_Taxonomy Annotation:T51 Referent:64495
+R1	Located_in Object:T7 Location:T11
+R2	Located_in Object:T7 Location:T10
+R3	Causes Pest:T7 Disease:T9
+R4	Located_in Object:T9 Location:T11
+R5	Located_in Object:T9 Location:T10
+R6	Detected_on Object:T15 Date:T14
+R7	Detected_on Object:T15 Date:T14
+R8	Detected_on Object:T15 Date:T14
+R9	Detected_on Object:T15 Date:T14
+R10	Located_in Object:T15 Location:T19
+R11	Located_in Object:T15 Location:T20
+R12	Located_in Object:T15 Location:T18
+R13	Located_in Object:T15 Location:T17
+R14	Detected_on Object:T16 Date:T14
+R15	Detected_on Object:T16 Date:T14
+R16	Detected_on Object:T16 Date:T14
+R17	Detected_on Object:T16 Date:T14
+R18	Located_in Object:T16 Location:T19
+R19	Located_in Object:T16 Location:T20
+R20	Located_in Object:T16 Location:T18
+R21	Located_in Object:T16 Location:T17
+R22	Located_in Object:T16 Location:T22
+R23	Expressed_by Disease:T16 Plant:T23
+R24	Expressed_by Disease:T16 Plant:T21
+R25	Expressed_by Disease:T16 Plant:T15
+R26	Located_in Object:T21 Location:T22
+R27	Found_on Organism:T35 Habitat:T34
+R28	Found_on Organism:T38 Habitat:T39
+R29	Found_on Organism:T40 Habitat:T41
+R30	Found_on Organism:T40 Habitat:T42
+R31	Located_in Object:T43 Location:T46
+R32	Causes Pest:T43 Disease:T45
+R33	Located_in Object:T45 Location:T46
+E1	Nary Organisme_nuisible:T7 Maladie:T9 Lieu:T11
+E2	Nary Organisme_nuisible:T7 Maladie:T9 Lieu:T10
+E3	Nary Plante:T15 Maladie:T16 Lieu:T19 Date:T14
+E4	Nary Plante:T15 Maladie:T16 Lieu:T20 Date:T14
+E5	Nary Plante:T15 Maladie:T16 Lieu:T18 Date:T14
+E6	Nary Plante:T15 Maladie:T16 Lieu:T17 Date:T14
+E7	Nary Plante:T21 Maladie:T16 Lieu:T22
+E8	Nary Plante:T23 Maladie:T16
+E9	Nary Organisme_nuisible:T35 Plante:T34
+E10	Nary Organisme_nuisible:T38 Plante:T39
+E11	Nary Organisme_nuisible:T40 Plante:T41
+E12	Nary Organisme_nuisible:T40 Plante:T42
+E13	Nary Organisme_nuisible:T43 Maladie:T45 Lieu:T46
+*	Equiv T23 T24 T25 T26
+*	Equiv T43 T44
+*	Equiv T7 T8

@@ -1,0 +1,229 @@
+{
+    "entities": [
+        {
+            "id": "T24",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "vesicular monoamine transporter 2",
+            "Name": "vesicularmonoaminetransporter2"
+        },
+        {
+            "id": "T25",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "neuronal vesicular monoamine transporter",
+            "Name": "neuronalvesicularmonoaminetransporter"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "VMAT2",
+            "Name": "vmat2"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "methamphetamine",
+            "Name": "methamphetamine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "3,4-methylenedioxymethamphetamine",
+            "Name": "34methylenedioxymethamphetamine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "MDMA",
+            "Name": "mdma"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "VMAT2",
+            "Name": "vmat2"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "adenosine triphosphate",
+            "Name": "adenosinetriphosphate"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "[(3)H]dopamine",
+            "Name": "3hdopamine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "fluoxetine",
+            "Name": "fluoxetine"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "paroxetine",
+            "Name": "paroxetine"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "fluvoxamine",
+            "Name": "fluvoxamine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "[(3)H]dopamine",
+            "Name": "3hdopamine"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "reserpine",
+            "Name": "reserpine"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "fluoxetine",
+            "Name": "fluoxetine"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "paroxetine",
+            "Name": "paroxetine"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "fluvoxamine",
+            "Name": "fluvoxamine"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "methamphetamine",
+            "Name": "methamphetamine"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "MDMA",
+            "Name": "mdma"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "reserpine",
+            "Name": "reserpine"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "VMAT2",
+            "Name": "vmat2"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "fluoxetine",
+            "Name": "fluoxetine"
+        },
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T23",
+            "type": "Chemical",
+            "name": "fluoxetine",
+            "Name": "fluoxetine"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "VMAT2",
+            "Name": "vmat2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "reserpine",
+            "Name": "reserpine"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "VMAT2",
+            "Name": "vmat2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T19",
+            "target": "T30"
+        },
+        {
+            "type": "Substrate",
+            "source": "T20",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T23",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T23",
+            "target": "T26"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T27"
+        }
+    ]
+}

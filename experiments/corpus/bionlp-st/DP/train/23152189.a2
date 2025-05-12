@@ -1,0 +1,75 @@
+T28	CHEMICAL 0 35	2,3,7,8-Tetrachlorodibenzo-p-dioxin
+N1	Name Annotation:T28 Referent:2378tetrachlorodibenzopdioxin
+T29	CHEMICAL 68 74	oxygen
+N2	Name Annotation:T29 Referent:oxygen
+T15	CHEMICAL 233 268	2,3,7,8-tetrachlorodibenzo-p-dioxin
+N3	Name Annotation:T15 Referent:2378tetrachlorodibenzopdioxin
+T24	CHEMICAL 270 274	TCDD
+N4	Name Annotation:T24 Referent:tcdd
+T12	CHEMICAL 409 413	TCDD
+N5	Name Annotation:T12 Referent:tcdd
+T13	CHEMICAL 538 542	TCDD
+N6	Name Annotation:T13 Referent:tcdd
+T14	CHEMICAL 696 704	ceramide
+N7	Name Annotation:T14 Referent:ceramide
+T16	CHEMICAL 781 790	ceramides
+N8	Name Annotation:T16 Referent:ceramides
+T17	CHEMICAL 809 813	TCDD
+N9	Name Annotation:T17 Referent:tcdd
+T18	CHEMICAL 837 846	ceramides
+N10	Name Annotation:T18 Referent:ceramides
+T19	CHEMICAL 855 866	fatty acids
+N11	Name Annotation:T19 Referent:fattyacids
+T20	CHEMICAL 868 872	TCDD
+N12	Name Annotation:T20 Referent:tcdd
+T21	CHEMICAL 905 912	glucose
+N13	Name Annotation:T21 Referent:glucose
+T34	GENE-N 905 924	glucose transporter
+N14	Name Annotation:T34 Referent:glucosetransporter
+T35	GENE-Y 926 932	SLC2A1
+N15	Name Annotation:T35 Referent:slc2a1
+T22	CHEMICAL 1035 1043	pyruvate
+N16	Name Annotation:T22 Referent:pyruvate
+T23	CHEMICAL 1045 1049	NADH
+N17	Name Annotation:T23 Referent:nadh
+T25	CHEMICAL 1104 1110	NAD(+)
+N18	Name Annotation:T25 Referent:nad
+T26	CHEMICAL 1140 1151	glutathione
+N19	Name Annotation:T26 Referent:glutathione
+T36	GENE-N 1140 1167	glutathione (GSH) reductase
+N20	Name Annotation:T36 Referent:glutathionegshreductase
+T27	CHEMICAL 1153 1156	GSH
+N21	Name Annotation:T27 Referent:gsh
+T1	CHEMICAL 1185 1188	GSH
+N22	Name Annotation:T1 Referent:gsh
+T2	CHEMICAL 1189 1210	glutathione disulfide
+N23	Name Annotation:T2 Referent:glutathionedisulfide
+T3	CHEMICAL 1235 1239	TCDD
+N24	Name Annotation:T3 Referent:tcdd
+T4	CHEMICAL 1360 1363	ATP
+N25	Name Annotation:T4 Referent:atp
+T5	CHEMICAL 1417 1423	oxygen
+N26	Name Annotation:T5 Referent:oxygen
+T6	CHEMICAL 1439 1456	hydrogen peroxide
+N27	Name Annotation:T6 Referent:hydrogenperoxide
+T7	CHEMICAL 1458 1474	Aryl hydrocarbon
+N28	Name Annotation:T7 Referent:arylhydrocarbon
+T30	GENE-Y 1458 1483	Aryl hydrocarbon receptor
+N29	Name Annotation:T30 Referent:arylhydrocarbonreceptor
+T31	GENE-Y 1485 1488	AHR
+N30	Name Annotation:T31 Referent:ahr
+T8	CHEMICAL 1546 1550	TCDD
+N31	Name Annotation:T8 Referent:tcdd
+T9	CHEMICAL 1583 1586	ATP
+N32	Name Annotation:T9 Referent:atp
+T32	GENE-Y 1648 1651	AHR
+N33	Name Annotation:T32 Referent:ahr
+T33	GENE-Y 1715 1723	catalase
+N34	Name Annotation:T33 Referent:catalase
+T10	CHEMICAL 1736 1740	TCDD
+N35	Name Annotation:T10 Referent:tcdd
+T11	CHEMICAL 1856 1860	TCDD
+N36	Name Annotation:T11 Referent:tcdd
+R1	INDIRECT-DOWNREGULATOR Arg1:T20 Arg2:T34
+R2	INDIRECT-DOWNREGULATOR Arg1:T20 Arg2:T35
+R3	INHIBITOR Arg1:T3 Arg2:T36

@@ -1,0 +1,283 @@
+{
+    "entities": [
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "Hsp90",
+            "Name": "hsp90"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "geldanamycin",
+            "Name": "geldanamycin"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "90-kDa heat shock protein",
+            "Name": "90kdaheatshockprotein"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Hsp90",
+            "Name": "hsp90"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "molecular chaperone",
+            "Name": "molecularchaperone"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "nuclear hormone receptors",
+            "Name": "nuclearhormonereceptors"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "protein kinases",
+            "Name": "proteinkinases"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Hsp90",
+            "Name": "hsp90"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "benzoquinonoid ansamycin",
+            "Name": "benzoquinonoidansamycin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "geldanamycin",
+            "Name": "geldanamycin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "geldanamycin",
+            "Name": "geldanamycin"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "interleukin (IL)-2",
+            "Name": "interleukinil2"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "IL-2 receptor",
+            "Name": "il2receptor"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "geldanamycin",
+            "Name": "geldanamycin"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Lck",
+            "Name": "lck"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Raf-1",
+            "Name": "raf1"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "kinases",
+            "Name": "kinases"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "extracellular signal regulated kinase (ERK)-2",
+            "Name": "extracellularsignalregulatedkinaseerk2"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Geldanamycin",
+            "Name": "geldanamycin"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "T-cell receptor",
+            "Name": "tcellreceptor"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "nuclear factor of activated T-cells",
+            "Name": "nuclearfactorofactivatedtcells"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "NF-AT",
+            "Name": "nfat"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "geldanamycin",
+            "Name": "geldanamycin"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "lysophosphatide acyltransferase",
+            "Name": "lysophosphatideacyltransferase"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "T-cell receptor",
+            "Name": "tcellreceptor"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "geldanamycin",
+            "Name": "geldanamycin"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Hsp90",
+            "Name": "hsp90"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T31"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T11"
+        }
+    ]
+}

@@ -1,0 +1,100 @@
+{
+    "entities": [
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Boron",
+            "Name": "boron"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "acyl",
+            "Name": "acyl"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "acyl protein thioesterases 1 and 2",
+            "Name": "acylproteinthioesterases1and2"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "Ras",
+            "Name": "ras"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "Ras",
+            "Name": "ras"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "acyl",
+            "Name": "acyl"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "acyl protein thioesterases APT1 and -2",
+            "Name": "acylproteinthioesterasesapt1and2"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Ras",
+            "Name": "ras"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "boronic",
+            "Name": "boronic"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "borinic acid",
+            "Name": "borinicacid"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "APT",
+            "Name": "apt"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "human APT1 and -2",
+            "Name": "humanapt1and2"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Erk1/2",
+            "Name": "erk12"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T10"
+        }
+    ]
+}

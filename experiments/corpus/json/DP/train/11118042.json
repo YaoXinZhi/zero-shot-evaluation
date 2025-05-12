@@ -1,0 +1,226 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "Sulindac sulfone",
+            "Name": "sulindacsulfone"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "K-ras",
+            "Name": "kras"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "cyclooxygenase-2",
+            "Name": "cyclooxygenase2"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "sulfide",
+            "Name": "sulfide"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "sulfone",
+            "Name": "sulfone"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "sulindac",
+            "Name": "sulindac"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Sulindac sulfide",
+            "Name": "sulindacsulfide"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "ras",
+            "Name": "ras"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "sulindac sulfone",
+            "Name": "sulindacsulfone"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "sulindac",
+            "Name": "sulindac"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "K-ras",
+            "Name": "kras"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "K-ras",
+            "Name": "kras"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "sulindac",
+            "Name": "sulindac"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Sulindac sulfone",
+            "Name": "sulindacsulfone"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "prostaglandin",
+            "Name": "prostaglandin"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "prostaglandin synthase E2",
+            "Name": "prostaglandinsynthasee2"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "Sulindac sulfide",
+            "Name": "sulindacsulfide"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "prostaglandin",
+            "Name": "prostaglandin"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "prostaglandin synthase E2",
+            "Name": "prostaglandinsynthasee2"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "sulfide",
+            "Name": "sulfide"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "sulfone",
+            "Name": "sulfone"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "sulindac",
+            "Name": "sulindac"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T28"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T15",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T14",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T17"
+        }
+    ]
+}

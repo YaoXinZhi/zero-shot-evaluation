@@ -1,0 +1,138 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "3\u03b2-Hydroxy-\u0394(5)-bile Acids",
+            "Name": "3\u03b2hydroxy\u03b45bileacids"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Bile Salt",
+            "Name": "bilesalt"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Bile Salt Export Pump",
+            "Name": "bilesaltexportpump"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Multidrug Resistance-Associated Proteins",
+            "Name": "multidrugresistanceassociatedproteins"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "3\u03b2-hydroxy-\u0394(5)-bile acids",
+            "Name": "3\u03b2hydroxy\u03b45bileacids"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "bile acids",
+            "Name": "bileacids"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "3\u03b2-hydroxy-\u0394(5)-bile acids",
+            "Name": "3\u03b2hydroxy\u03b45bileacids"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "human multidrug resistance-associated protein 2-, 3",
+            "Name": "humanmultidrugresistanceassociatedprotein23"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "human bile salt export pump",
+            "Name": "humanbilesaltexportpump"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "bile salt",
+            "Name": "bilesalt"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "3\u03b2-hydroxy-\u0394(5)-bile acids",
+            "Name": "3\u03b2hydroxy\u03b45bileacids"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "human multidrug resistance-associated protein 3",
+            "Name": "humanmultidrugresistanceassociatedprotein3"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "3\u03b2-hydroxy-\u0394(5)-bile acids",
+            "Name": "3\u03b2hydroxy\u03b45bileacids"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "bile acids",
+            "Name": "bileacids"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "glycocholic acid",
+            "Name": "glycocholicacid"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "taurolithocholic acid 3-sulfate",
+            "Name": "taurolithocholicacid3sulfate"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T10",
+            "target": "T15"
+        },
+        {
+            "type": "Substrate",
+            "source": "T10",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T14"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T14"
+        },
+        {
+            "type": "Substrate",
+            "source": "T9",
+            "target": "T14"
+        }
+    ]
+}

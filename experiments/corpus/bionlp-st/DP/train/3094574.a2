@@ -1,0 +1,84 @@
+T37	GENE-Y 0 10	Tyrosinase
+N1	Name Annotation:T37 Referent:tyrosinase
+T26	CHEMICAL 61 83	3,4-dihydroxymandelate
+N2	Name Annotation:T26 Referent:34dihydroxymandelate
+T27	GENE-Y 85 95	Tyrosinase
+N3	Name Annotation:T27 Referent:tyrosinase
+T12	CHEMICAL 132 143	monophenols
+N4	Name Annotation:T12 Referent:monophenols
+T23	CHEMICAL 149 158	diphenols
+N5	Name Annotation:T23 Referent:diphenols
+T7	CHEMICAL 231 257	3,4-dihydroxymandelic acid
+N6	Name Annotation:T7 Referent:34dihydroxymandelicacid
+T11	CHEMICAL 359 384	3,4-dihydroxybenzaldehyde
+N7	Name Annotation:T11 Referent:34dihydroxybenzaldehyde
+T13	CHEMICAL 616 625	galactose
+N8	Name Annotation:T13 Referent:galactose
+T29	GENE-N 616 633	galactose oxidase
+N9	Name Annotation:T29 Referent:galactoseoxidase
+T30	GENE-Y 635 648	ceruloplasmin
+N10	Name Annotation:T30 Referent:ceruloplasmin
+T14	CHEMICAL 650 660	superoxide
+N11	Name Annotation:T14 Referent:superoxide
+T31	GENE-N 650 670	superoxide dismutase
+N12	Name Annotation:T31 Referent:superoxidedismutase
+T15	CHEMICAL 672 681	ascorbate
+N13	Name Annotation:T15 Referent:ascorbate
+T32	GENE-N 672 689	ascorbate oxidase
+N14	Name Annotation:T32 Referent:ascorbateoxidase
+T16	CHEMICAL 691 699	dopamine
+N15	Name Annotation:T16 Referent:dopamine
+T33	GENE-Y 691 716	dopamine beta-hydroxylase
+N16	Name Annotation:T33 Referent:dopaminebetahydroxylase
+T34	GENE-N 722 732	peroxidase
+N17	Name Annotation:T34 Referent:peroxidase
+T17	CHEMICAL 734 740	Phenol
+N18	Name Annotation:T17 Referent:phenol
+T35	GENE-N 734 748	Phenol oxidase
+N19	Name Annotation:T35 Referent:phenoloxidase
+T18	CHEMICAL 768 782	phenylthiourea
+N20	Name Annotation:T18 Referent:phenylthiourea
+T19	CHEMICAL 784 801	potassium cyanide
+N21	Name Annotation:T19 Referent:potassiumcyanide
+T20	CHEMICAL 807 819	sodium azide
+N22	Name Annotation:T20 Referent:sodiumazide
+T21	CHEMICAL 904 910	copper
+N23	Name Annotation:T21 Referent:copper
+T22	CHEMICAL 943 951	Mimosine
+N24	Name Annotation:T22 Referent:mimosine
+T36	GENE-Y 991 1001	tyrosinase
+N25	Name Annotation:T36 Referent:tyrosinase
+T24	CHEMICAL 1050 1072	4-Hydroxymandelic acid
+N26	Name Annotation:T24 Referent:4hydroxymandelicacid
+T25	CHEMICAL 1077 1109	3-methoxy-4-hydroxymandelic acid
+N27	Name Annotation:T25 Referent:3methoxy4hydroxymandelicacid
+T1	CHEMICAL 1198 1225	3,4-dihydroxybenzyl alcohol
+N28	Name Annotation:T1 Referent:34dihydroxybenzylalcohol
+T2	CHEMICAL 1230 1263	(3,4-dihydroxybenzoyl)formic acid
+N29	Name Annotation:T2 Referent:34dihydroxybenzoylformicacid
+T3	CHEMICAL 1319 1334	quinone methide
+N30	Name Annotation:T3 Referent:quinonemethide
+T4	CHEMICAL 1371 1378	quinone
+N31	Name Annotation:T4 Referent:quinone
+T5	CHEMICAL 1501 1517	4-alkylcatechols
+N32	Name Annotation:T5 Referent:4alkylcatechols
+T6	CHEMICAL 1521 1537	quinone methides
+N33	Name Annotation:T6 Referent:quinonemethides
+T8	CHEMICAL 1563 1569	phenol
+N34	Name Annotation:T8 Referent:phenol
+T28	GENE-N 1670 1689	mushroom tyrosinase
+N35	Name Annotation:T28 Referent:mushroomtyrosinase
+T9	CHEMICAL 1709 1724	quinone methide
+N36	Name Annotation:T9 Referent:quinonemethide
+T10	CHEMICAL 1801 1827	3,4-dihydroxymandelic acid
+N37	Name Annotation:T10 Referent:34dihydroxymandelicacid
+R1	SUBSTRATE Arg1:T26 Arg2:T37
+R2	SUBSTRATE Arg1:T12 Arg2:T27
+R3	SUBSTRATE Arg1:T23 Arg2:T27
+R4	INHIBITOR Arg1:T18 Arg2:T35
+R5	INHIBITOR Arg1:T19 Arg2:T35
+R6	INHIBITOR Arg1:T20 Arg2:T35
+R7	INHIBITOR Arg1:T22 Arg2:T36
+R8	PRODUCT-OF Arg1:T9 Arg2:T28
+R9	SUBSTRATE Arg1:T10 Arg2:T28
+R10	PART-OF Arg1:T21 Arg2:T35

@@ -1,0 +1,23 @@
+T10	Pest 0 18	Xylella fastidiosa
+T11	Location 59 65	Tavira
+T12	Pest 79 97	Xylella fastidiosa
+T13	Location 138 144	Tavira
+T14	Location 221 227	Tavira
+T15	Pest 266 284	Xylella fastidiosa
+T16	Date 294 308	in August 2021
+T17	Location 455 461	Tavira
+T18	Date 463 480	September 1, 2022
+N1	NCBI_Taxonomy Annotation:T10 Referent:2371
+N2	GeoNames Annotation:T11 Referent:8010525
+N3	NCBI_Taxonomy Annotation:T12 Referent:2371
+N4	GeoNames Annotation:T13 Referent:8010525
+N5	GeoNames Annotation:T14 Referent:8010525
+N6	NCBI_Taxonomy Annotation:T15 Referent:2371
+N7	GeoNames Annotation:T17 Referent:8010525
+R1	Located_in Object:T10 Location:T11
+R2	Located_in Object:T12 Location:T13
+R3	Detected_on Object:T15 Date:T16
+R4	Located_in Object:T15 Location:T14
+E1	Nary Organisme_nuisible:T10 Lieu:T11
+E2	Nary Organisme_nuisible:T12 Lieu:T13
+E3	Nary Organisme_nuisible:T15 Lieu:T14 Date:T16

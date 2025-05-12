@@ -1,0 +1,55 @@
+T13	CHEMICAL 43 47	DMBT
+N1	Name Annotation:T13 Referent:dmbt
+T23	GENE-N 81 85	VEGF
+N2	Name Annotation:T23 Referent:vegf
+T24	GENE-Y 90 95	MMP-9
+N3	Name Annotation:T24 Referent:mmp9
+T22	GENE-N 104 107	Akt
+N4	Name Annotation:T22 Referent:akt
+T3	CHEMICAL 390 401	brartemicin
+N5	Name Annotation:T3 Referent:brartemicin
+T4	CHEMICAL 525 529	DMBT
+N6	Name Annotation:T4 Referent:dmbt
+T5	CHEMICAL 531 578	6,6'-bis (2,3-dimethoxybenzoyl)-a,a-d-trehalose
+N7	Name Annotation:T5 Referent:66bis23dimethoxybenzoylaadtrehalose
+T6	CHEMICAL 652 656	DMBT
+N8	Name Annotation:T6 Referent:dmbt
+T7	CHEMICAL 726 730	DMBT
+N9	Name Annotation:T7 Referent:dmbt
+T8	CHEMICAL 797 800	MTT
+N10	Name Annotation:T8 Referent:mtt
+T9	CHEMICAL 864 868	DMBT
+N11	Name Annotation:T9 Referent:dmbt
+T10	CHEMICAL 880 884	DMBT
+N12	Name Annotation:T10 Referent:dmbt
+T11	CHEMICAL 980 984	DMBT
+N13	Name Annotation:T11 Referent:dmbt
+T17	GENE-Y 1021 1026	MMP-9
+N14	Name Annotation:T17 Referent:mmp9
+T12	CHEMICAL 1063 1067	DMBT
+N15	Name Annotation:T12 Referent:dmbt
+T18	GENE-N 1109 1113	VEGF
+N16	Name Annotation:T18 Referent:vegf
+T19	GENE-Y 1115 1124	p-VEGFR-2
+N17	Name Annotation:T19 Referent:pvegfr2
+T20	GENE-Y 1126 1132	p-EGFR
+N18	Name Annotation:T20 Referent:pegfr
+T21	GENE-N 1138 1143	p-Akt
+N19	Name Annotation:T21 Referent:pakt
+T1	CHEMICAL 1174 1178	DMBT
+N20	Name Annotation:T1 Referent:dmbt
+T14	GENE-N 1240 1244	VEGF
+N21	Name Annotation:T14 Referent:vegf
+T15	GENE-Y 1248 1253	MMP-9
+N22	Name Annotation:T15 Referent:mmp9
+T16	GENE-N 1288 1291	Akt
+N23	Name Annotation:T16 Referent:akt
+T2	CHEMICAL 1301 1305	DMBT
+N24	Name Annotation:T2 Referent:dmbt
+R1	INHIBITOR Arg1:T11 Arg2:T17
+R2	INDIRECT-DOWNREGULATOR Arg1:T12 Arg2:T18
+R3	INDIRECT-DOWNREGULATOR Arg1:T12 Arg2:T19
+R4	INDIRECT-DOWNREGULATOR Arg1:T12 Arg2:T20
+R5	INDIRECT-DOWNREGULATOR Arg1:T12 Arg2:T21
+R6	INHIBITOR Arg1:T1 Arg2:T16
+R7	INHIBITOR Arg1:T13 Arg2:T22

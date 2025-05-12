@@ -1,0 +1,138 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "human NAD+-dependent deacetylase SIRT5",
+            "Name": "humannaddependentdeacetylasesirt5"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "NAD+",
+            "Name": "nad"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "suramin",
+            "Name": "suramin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "NAD(+)",
+            "Name": "nad"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "sirtuin",
+            "Name": "sirtuin"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "sirtuin",
+            "Name": "sirtuin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "suramin",
+            "Name": "suramin"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "human SIRT5",
+            "Name": "humansirt5"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "SIRT5 NAD(+)-dependent deacetylase",
+            "Name": "sirt5naddependentdeacetylase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "NAD(+)",
+            "Name": "nad"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "SIRT5",
+            "Name": "sirt5"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ADP",
+            "Name": "adp"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "suramin",
+            "Name": "suramin"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "sirtuin",
+            "Name": "sirtuin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "suramin",
+            "Name": "suramin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "NAD(+)",
+            "Name": "nad"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T15"
+        },
+        {
+            "type": "Part of",
+            "source": "T7",
+            "target": "T15"
+        }
+    ]
+}

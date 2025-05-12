@@ -1,0 +1,231 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Location",
+            "name": "Cumanayaguan",
+            "GeoNames": "11288191"
+        },
+        {
+            "id": "T13",
+            "type": "Disease",
+            "name": "plantain disease"
+        },
+        {
+            "id": "T14",
+            "type": "Plant",
+            "name": "banana plantations",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T15",
+            "type": "Plant",
+            "name": "plantain plantations",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T16",
+            "type": "Pest",
+            "name": "Fusarium oxysporum f. sp. Cubense",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T17",
+            "type": "Pest",
+            "name": "race four tropical",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T18",
+            "type": "Plant",
+            "name": "bananas",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T19",
+            "type": "Plant",
+            "name": "plantains",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T20",
+            "type": "Pest",
+            "name": "Fusarium oxysporum F. sp. Cubense",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T21",
+            "type": "Pest",
+            "name": "race four tropical",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T22",
+            "type": "Plant",
+            "name": "banana",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T24",
+            "type": "Location",
+            "name": "Cuba",
+            "GeoNames": "3562981"
+        },
+        {
+            "id": "T25",
+            "type": "Plant",
+            "name": "plantains",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T26",
+            "type": "Plant",
+            "name": "banana plantations",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T27",
+            "type": "Plant",
+            "name": "Zacate borrego",
+            "NCBI_Taxonomy": "28909"
+        },
+        {
+            "id": "T28",
+            "type": "Plant",
+            "name": "Ensete",
+            "NCBI_Taxonomy": "4638"
+        },
+        {
+            "id": "T29",
+            "type": "Plant",
+            "name": "vain",
+            "NCBI_Taxonomy": "141466"
+        },
+        {
+            "id": "T30",
+            "type": "Plant",
+            "name": "milky milk",
+            "NCBI_Taxonomy": "3649"
+        },
+        {
+            "id": "T31",
+            "type": "Plant",
+            "name": "toad milk",
+            "NCBI_Taxonomy": "212910"
+        },
+        {
+            "id": "T32",
+            "type": "Pest",
+            "name": "Fusarium Oxysporum",
+            "NCBI_Taxonomy": "171631"
+        },
+        {
+            "id": "T39",
+            "type": "Vector",
+            "name": "banana weevil",
+            "NCBI_Taxonomy": "206492"
+        },
+        {
+            "id": "T40",
+            "type": "Disease",
+            "name": "banana disease"
+        }
+    ],
+    "equivalences": [
+        [
+            "T17",
+            "T16"
+        ],
+        [
+            "T21",
+            "T20"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T13",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T13",
+            "target": "T24"
+        },
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T15",
+            "target": "T12"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T16",
+            "target": "T15"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T16",
+            "target": "T14"
+        },
+        {
+            "type": "Located in",
+            "source": "T16",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T16",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T19",
+            "target": "T12"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T20",
+            "target": "T18"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T20",
+            "target": "T22"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T20",
+            "target": "T19"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T24"
+        },
+        {
+            "type": "Located in",
+            "source": "T22",
+            "target": "T24"
+        }
+    ]
+}

@@ -1,0 +1,106 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "quinoline",
+            "Name": "quinoline"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "phosphodiesterase 5",
+            "Name": "phosphodiesterase5"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "Phosphodiesterase type 5",
+            "Name": "phosphodiesterasetype5"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "PDE5",
+            "Name": "pde5"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "cGMP",
+            "Name": "cgmp"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cGMP",
+            "Name": "cgmp"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "cAMP-responsive element-binding protein",
+            "Name": "campresponsiveelementbindingprotein"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "CREB",
+            "Name": "creb"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PDE5",
+            "Name": "pde5"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "quinoline",
+            "Name": "quinoline"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PDE5",
+            "Name": "pde5"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Quinoline",
+            "Name": "quinoline"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T14"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T8"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T11"
+        }
+    ]
+}

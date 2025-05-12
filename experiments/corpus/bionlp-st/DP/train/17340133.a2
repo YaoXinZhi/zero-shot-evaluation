@@ -1,0 +1,65 @@
+T10	CHEMICAL 24 34	L-arginine
+N1	Name Annotation:T10 Referent:larginine
+T29	GENE-N 69 78	NF-kappaB
+N2	Name Annotation:T29 Referent:nfkappab
+T28	GENE-Y 112 116	iNOS
+N3	Name Annotation:T28 Referent:inos
+T9	CHEMICAL 211 222	amino acids
+N4	Name Annotation:T9 Referent:aminoacids
+T4	CHEMICAL 298 310	L: -arginine
+N5	Name Annotation:T4 Referent:larginine
+T15	GENE-N 342 351	NF-kappaB
+N6	Name Annotation:T15 Referent:nfkappab
+T16	GENE-Y 452 483	inducible nitric oxide synthase
+N7	Name Annotation:T16 Referent:induciblenitricoxidesynthase
+T5	CHEMICAL 462 474	nitric oxide
+N8	Name Annotation:T5 Referent:nitricoxide
+T17	GENE-Y 485 489	iNOS
+N9	Name Annotation:T17 Referent:inos
+T6	CHEMICAL 536 548	L: -arginine
+N10	Name Annotation:T6 Referent:larginine
+T18	GENE-N 607 616	NF-kappaB
+N11	Name Annotation:T18 Referent:nfkappab
+T19	GENE-Y 634 638	iNOS
+N12	Name Annotation:T19 Referent:inos
+T20	GENE-N 678 687	cytokines
+N13	Name Annotation:T20 Referent:cytokines
+T21	GENE-Y 717 721	iNOS
+N14	Name Annotation:T21 Referent:inos
+T22	GENE-N 731 739	Cytokine
+N15	Name Annotation:T22 Referent:cytokine
+T7	CHEMICAL 757 769	L: -arginine
+N16	Name Annotation:T7 Referent:larginine
+T23	GENE-Y 784 788	iNOS
+N17	Name Annotation:T23 Referent:inos
+T24	GENE-Y 827 831	iNOS
+N18	Name Annotation:T24 Referent:inos
+T8	CHEMICAL 874 886	nitric oxide
+N19	Name Annotation:T8 Referent:nitricoxide
+T25	GENE-Y 915 919	iNOS
+N20	Name Annotation:T25 Referent:inos
+T26	GENE-Y 981 1020	translation initiation factor eIF2alpha
+N21	Name Annotation:T26 Referent:translationinitiationfactoreif2alpha
+T27	GENE-N 1111 1120	NF-kappaB
+N22	Name Annotation:T27 Referent:nfkappab
+T11	GENE-Y 1137 1146	IL-1alpha
+N23	Name Annotation:T11 Referent:il1alpha
+T12	GENE-Y 1151 1184	cationic amino acid transporter-2
+N24	Name Annotation:T12 Referent:cationicaminoacidtransporter2
+T1	CHEMICAL 1160 1170	amino acid
+N25	Name Annotation:T1 Referent:aminoacid
+T13	GENE-Y 1186 1191	CAT-2
+N26	Name Annotation:T13 Referent:cat2
+T2	CHEMICAL 1233 1243	L-arginine
+N27	Name Annotation:T2 Referent:larginine
+T3	CHEMICAL 1296 1308	L: -arginine
+N28	Name Annotation:T3 Referent:larginine
+T14	GENE-N 1401 1410	NF-kappaB
+N29	Name Annotation:T14 Referent:nfkappab
+R1	ACTIVATOR Arg1:T10 Arg2:T29
+R2	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T28
+R3	ACTIVATOR Arg1:T6 Arg2:T18
+R4	INDIRECT-UPREGULATOR Arg1:T6 Arg2:T19
+R5	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T23
+R6	PRODUCT-OF Arg1:T8 Arg2:T24
+R7	ACTIVATOR Arg1:T3 Arg2:T14

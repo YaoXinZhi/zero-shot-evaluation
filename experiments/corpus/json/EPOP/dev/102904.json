@@ -1,0 +1,244 @@
+{
+    "entities": [
+        {
+            "id": "T53",
+            "type": "Plant",
+            "name": "Sweet Orange",
+            "NCBI_Taxonomy": "2711"
+        },
+        {
+            "id": "T54",
+            "type": "Pest",
+            "name": "Candidatus Liberibacter asiaticus",
+            "NCBI_Taxonomy": "34021"
+        },
+        {
+            "id": "T55",
+            "type": "Disease",
+            "name": "Huanglongbing"
+        },
+        {
+            "id": "T56",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T57",
+            "type": "Disease",
+            "name": "greening"
+        },
+        {
+            "id": "T58",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T59",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T60",
+            "type": "Pest",
+            "name": "Candidatus Liberibacter asiaticus",
+            "NCBI_Taxonomy": "34021"
+        },
+        {
+            "id": "T61",
+            "type": "Pest",
+            "name": "CLas",
+            "NCBI_Taxonomy": "34021"
+        },
+        {
+            "id": "T62",
+            "type": "Plant",
+            "name": "citrus species",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T63",
+            "type": "Pest",
+            "name": "CLas",
+            "NCBI_Taxonomy": "34021"
+        },
+        {
+            "id": "T64",
+            "type": "Plant",
+            "name": "Pera sweet orange",
+            "NCBI_Taxonomy": "2711"
+        },
+        {
+            "id": "T65",
+            "type": "Vector",
+            "name": "Sarcophaga peregrina",
+            "NCBI_Taxonomy": "7386"
+        },
+        {
+            "id": "T66",
+            "type": "Pest",
+            "name": "CLas",
+            "NCBI_Taxonomy": "34021"
+        },
+        {
+            "id": "T67",
+            "type": "Pest",
+            "name": "CLas",
+            "NCBI_Taxonomy": "34021"
+        },
+        {
+            "id": "T68",
+            "type": "Pest",
+            "name": "CLas",
+            "NCBI_Taxonomy": "34021"
+        },
+        {
+            "id": "T69",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T70",
+            "type": "Pest",
+            "name": "CLas",
+            "NCBI_Taxonomy": "34021"
+        },
+        {
+            "id": "T71",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T72",
+            "type": "Plant",
+            "name": "Sweet Orange",
+            "NCBI_Taxonomy": "2711"
+        },
+        {
+            "id": "T73",
+            "type": "Pest",
+            "name": "Candidatus Liberibacter asiaticus",
+            "NCBI_Taxonomy": "34021"
+        },
+        {
+            "id": "T74",
+            "type": "Plant",
+            "name": "Citrus\u00d7 sinensis(L.) Osbeck",
+            "NCBI_Taxonomy": "2711"
+        },
+        {
+            "id": "T75",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T76",
+            "type": "Disease",
+            "name": "huanglongbing"
+        },
+        {
+            "id": "T77",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T78",
+            "type": "Plant",
+            "name": "Sweet Orange",
+            "NCBI_Taxonomy": "2711"
+        },
+        {
+            "id": "T79",
+            "type": "Pest",
+            "name": "Candidatus Liberibacter asiaticus",
+            "NCBI_Taxonomy": "34021"
+        },
+        {
+            "id": "T80",
+            "type": "Plant",
+            "name": "Sweet Orange",
+            "NCBI_Taxonomy": "2711"
+        },
+        {
+            "id": "T81",
+            "type": "Pest",
+            "name": "Candidatus Liberibacter asiaticus",
+            "NCBI_Taxonomy": "34021"
+        },
+        {
+            "id": "T82",
+            "type": "Plant",
+            "name": "Sweet Orange",
+            "NCBI_Taxonomy": "2711"
+        },
+        {
+            "id": "T83",
+            "type": "Pest",
+            "name": "Candidatus Liberibacter asiaticus",
+            "NCBI_Taxonomy": "34021"
+        }
+    ],
+    "equivalences": [
+        [
+            "T57",
+            "T56",
+            "T55"
+        ],
+        [
+            "T77",
+            "T76"
+        ],
+        [
+            "T60",
+            "T61"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Has been found on",
+            "source": "T54",
+            "target": "T53"
+        },
+        {
+            "type": "Causes",
+            "source": "T60",
+            "target": "T55"
+        },
+        {
+            "type": "Affects",
+            "source": "T55",
+            "target": "T58"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T60",
+            "target": "T58"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T63",
+            "target": "T62"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T73",
+            "target": "T72"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T79",
+            "target": "T78"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T81",
+            "target": "T80"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T83",
+            "target": "T82"
+        }
+    ]
+}

@@ -1,0 +1,118 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "DOTA",
+            "Name": "dota"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Gd(3+)",
+            "Name": "gd3"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "proton-pump",
+            "Name": "protonpump"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "pantoprazole",
+            "Name": "pantoprazole"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Gd",
+            "Name": "gd"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "DOTA",
+            "Name": "dota"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "pantoprazole",
+            "Name": "pantoprazole"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "proton pump",
+            "Name": "protonpump"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "proton pumps",
+            "Name": "protonpumps"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "DOTA",
+            "Name": "dota"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "pantoprazole",
+            "Name": "pantoprazole"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T10"
+        }
+    ]
+}

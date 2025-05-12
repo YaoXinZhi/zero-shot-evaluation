@@ -1,0 +1,55 @@
+T30	Location 3 11	Veracruz
+T31	Plant 30 43	citrus fruits
+T32	Location 69 77	Veracruz
+T33	Plant 133 146	citrus plants
+T34	Location 190 198	Veracruz
+T35	Plant 254 267	citrus plants
+T36	Plant 412 425	Persian lemon
+T37	Plant 427 433	orange
+T38	Plant 435 444	tangerine
+T39	Plant 449 459	grapefruit
+T40	Plant 608 621	citrus plants
+T41	Location 646 654	Veracruz
+T42	Disease 1093 1096	HLB
+T43	Date 1346 1358	for 20 years
+T44	Location 1363 1371	Veracruz
+T45	Location 1926 1934	Veracruz
+T46	Disease 2032 2045	Huanglongbing
+T47	Disease 2047 2050	HLB
+T48	Location 2149 2165	Mexican Republic
+T49	Location 2274 2282	Veracruz
+T50	Disease 2393 2396	HLB
+T51	Date 3094 3109	after two years
+N1	GeoNames Annotation:T30 Referent:3514780
+N2	NCBI_Taxonomy Annotation:T31 Referent:2706
+N3	GeoNames Annotation:T32 Referent:3514780
+N4	NCBI_Taxonomy Annotation:T33 Referent:2706
+N5	GeoNames Annotation:T34 Referent:3514780
+N6	NCBI_Taxonomy Annotation:T35 Referent:2706
+N7	NCBI_Taxonomy Annotation:T36 Referent:200541
+N8	NCBI_Taxonomy Annotation:T37 Referent:2711
+N9	NCBI_Taxonomy Annotation:T38 Referent:85571
+N10	NCBI_Taxonomy Annotation:T39 Referent:37656
+N11	NCBI_Taxonomy Annotation:T40 Referent:2706
+N12	GeoNames Annotation:T41 Referent:3514780
+N13	GeoNames Annotation:T44 Referent:3514780
+N14	GeoNames Annotation:T45 Referent:3514780
+N15	GeoNames Annotation:T48 Referent:3996063
+N16	GeoNames Annotation:T49 Referent:3514780
+R1	Located_in Object:T31 Location:T30
+R2	Located_in Object:T33 Location:T32
+R3	Located_in Object:T35 Location:T34
+R4	Located_in Object:T36 Location:T34
+R5	Located_in Object:T37 Location:T34
+R6	Located_in Object:T38 Location:T34
+R7	Located_in Object:T39 Location:T34
+R8	Located_in Object:T40 Location:T41
+E1	Nary Plante:T31 Lieu:T30
+E2	Nary Plante:T33 Lieu:T32
+E3	Nary Plante:T35 Lieu:T34
+E4	Nary Plante:T36 Lieu:T34
+E5	Nary Plante:T37 Lieu:T34
+E6	Nary Plante:T38 Lieu:T34
+E7	Nary Plante:T39 Lieu:T34
+E8	Nary Plante:T40 Lieu:T41
+*	Equiv T46 T47

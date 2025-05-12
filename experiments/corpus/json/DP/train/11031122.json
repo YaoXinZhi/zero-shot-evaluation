@@ -1,0 +1,153 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Fumarate",
+            "Name": "fumarate"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Fumarate reductase",
+            "Name": "fumaratereductase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Fumarate",
+            "Name": "fumarate"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Fumarate reductase",
+            "Name": "fumaratereductase"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "FRD",
+            "Name": "frd"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "fumarate",
+            "Name": "fumarate"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "FRD",
+            "Name": "frd"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "frdA",
+            "Name": "frda"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "subunit A of FRD",
+            "Name": "subunitaoffrd"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "copA",
+            "Name": "copa"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "copP",
+            "Name": "copp"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "copper",
+            "Name": "copper"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "chloramphenicol",
+            "Name": "chloramphenicol"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "frdA",
+            "Name": "frda"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "copA",
+            "Name": "copa"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "copP",
+            "Name": "copp"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "FRD",
+            "Name": "frd"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "FRD",
+            "Name": "frd"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "morantel",
+            "Name": "morantel"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "oxantel",
+            "Name": "oxantel"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "thiabendazole",
+            "Name": "thiabendazole"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T14"
+        }
+    ]
+}

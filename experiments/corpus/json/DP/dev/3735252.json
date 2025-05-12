@@ -1,0 +1,162 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "LDH-X",
+            "Name": "ldhx"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "gossypol",
+            "Name": "gossypol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "(+)-, (-)-, (+/-)-gossypol",
+            "Name": "gossypol"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "(+/-)-gossypol acetic acid",
+            "Name": "gossypolaceticacid"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "LDH-X",
+            "Name": "ldhx"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Gossypol acetic acid",
+            "Name": "gossypolaceticacid"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "LDH-X",
+            "Name": "ldhx"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "LDH",
+            "Name": "ldh"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "gossypol",
+            "Name": "gossypol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Gossypol",
+            "Name": "gossypol"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "human and hamster LDH-X",
+            "Name": "humanandhamsterldhx"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "NADH",
+            "Name": "nadh"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "human LDH-X",
+            "Name": "humanldhx"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "hamster LDH-X",
+            "Name": "hamsterldhx"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "alpha-ketobutyrate",
+            "Name": "alphaketobutyrate"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "human serum albumin",
+            "Name": "humanserumalbumin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "poly-L-lysine",
+            "Name": "polyllysine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "lysine",
+            "Name": "lysine"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "human and hamster LDH-X",
+            "Name": "humanandhamsterldhx"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "gossypol",
+            "Name": "gossypol"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T17"
+        }
+    ]
+}

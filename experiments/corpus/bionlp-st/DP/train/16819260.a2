@@ -1,0 +1,50 @@
+T11	CHEMICAL 1 9	Retinoid
+N1	Name Annotation:T11 Referent:retinoid
+T1	CHEMICAL 44 52	Retinoid
+N2	Name Annotation:T1 Referent:retinoid
+T19	GENE-N 115 138	retinoic acid receptors
+N3	Name Annotation:T19 Referent:retinoicacidreceptors
+T20	GENE-N 140 161	RARalpha, beta, gamma
+N4	Name Annotation:T20 Referent:raralphabetagamma
+T12	GENE-N 166 187	RXRalpha, beta, gamma
+N5	Name Annotation:T12 Referent:rxralphabetagamma
+T13	GENE-N 201 225	nuclear hormone receptor
+N6	Name Annotation:T13 Referent:nuclearhormonereceptor
+T3	CHEMICAL 270 278	retinoid
+N7	Name Annotation:T3 Referent:retinoid
+T4	CHEMICAL 282 305	all-trans-retinoic acid
+N8	Name Annotation:T4 Referent:alltransretinoicacid
+T5	CHEMICAL 307 311	ATRA
+N9	Name Annotation:T5 Referent:atra
+T14	GENE-N 325 349	RARalpha, beta and gamma
+N10	Name Annotation:T14 Referent:raralphabetaandgamma
+T6	CHEMICAL 358 362	ATRA
+N11	Name Annotation:T6 Referent:atra
+T7	CHEMICAL 604 616	tamibarotene
+N12	Name Annotation:T7 Referent:tamibarotene
+T8	CHEMICAL 618 622	Am80
+N13	Name Annotation:T8 Referent:am80
+T15	GENE-Y 630 638	RARalpha
+N14	Name Annotation:T15 Referent:raralpha
+T16	GENE-Y 644 651	RARbeta
+N15	Name Annotation:T16 Referent:rarbeta
+T17	GENE-Y 666 674	RARgamma
+N16	Name Annotation:T17 Referent:rargamma
+T18	GENE-N 680 684	RXRs
+N17	Name Annotation:T18 Referent:rxrs
+T9	CHEMICAL 707 715	retinoid
+N18	Name Annotation:T9 Referent:retinoid
+T10	CHEMICAL 968 977	retinoids
+N19	Name Annotation:T10 Referent:retinoids
+T2	CHEMICAL 1108 1117	retinoids
+N20	Name Annotation:T2 Referent:retinoids
+R1	DIRECT-REGULATOR Arg1:T1 Arg2:T19
+R2	ACTIVATOR Arg1:T1 Arg2:T19
+R3	DIRECT-REGULATOR Arg1:T1 Arg2:T13
+R4	ACTIVATOR Arg1:T1 Arg2:T13
+R5	DIRECT-REGULATOR Arg1:T7 Arg2:T15
+R6	DIRECT-REGULATOR Arg1:T7 Arg2:T16
+R7	DIRECT-REGULATOR Arg1:T8 Arg2:T15
+R8	DIRECT-REGULATOR Arg1:T8 Arg2:T16
+R9	DIRECT-REGULATOR Arg1:T9 Arg2:T15
+R10	DIRECT-REGULATOR Arg1:T9 Arg2:T16

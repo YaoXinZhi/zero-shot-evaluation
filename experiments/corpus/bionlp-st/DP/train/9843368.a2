@@ -1,0 +1,53 @@
+T23	GENE-N 33 81	human phenylalanine hydroxylase catalytic domain
+N1	Name Annotation:T23 Referent:humanphenylalaninehydroxylasecatalyticdomain
+T17	CHEMICAL 39 52	phenylalanine
+N2	Name Annotation:T17 Referent:phenylalanine
+T18	CHEMICAL 93 101	catechol
+N3	Name Annotation:T18 Referent:catechol
+T10	CHEMICAL 138 157	aromatic amino acid
+N4	Name Annotation:T10 Referent:aromaticaminoacid
+T22	GENE-N 138 170	aromatic amino acid hydroxylases
+N5	Name Annotation:T22 Referent:aromaticaminoacidhydroxylases
+T6	CHEMICAL 307 315	catechol
+N6	Name Annotation:T6 Referent:catechol
+T20	GENE-Y 421 452	human phenylalanine hydroxylase
+N7	Name Annotation:T20 Referent:humanphenylalaninehydroxylase
+T8	CHEMICAL 427 440	phenylalanine
+N8	Name Annotation:T8 Referent:phenylalanine
+T21	GENE-Y 454 460	hPheOH
+N9	Name Annotation:T21 Referent:hpheoh
+T9	CHEMICAL 513 521	catechol
+N10	Name Annotation:T9 Referent:catechol
+T11	CHEMICAL 575 584	catechols
+N11	Name Annotation:T11 Referent:catechols
+T12	CHEMICAL 624 628	iron
+N12	Name Annotation:T12 Referent:iron
+T13	CHEMICAL 671 688	catechol hydroxyl
+N13	Name Annotation:T13 Referent:catecholhydroxyl
+T14	CHEMICAL 982 995	catecholamine
+N14	Name Annotation:T14 Referent:catecholamine
+T15	CHEMICAL 1007 1012	PheOH
+N15	Name Annotation:T15 Referent:pheoh
+T16	CHEMICAL 1082 1090	catechol
+N16	Name Annotation:T16 Referent:catechol
+T1	CHEMICAL 1274 1291	catechol hydroxyl
+N17	Name Annotation:T1 Referent:catecholhydroxyl
+T2	CHEMICAL 1472 1485	noradrenaline
+N18	Name Annotation:T2 Referent:noradrenaline
+T19	GENE-Y 1676 1700	rat tyrosine hydroxylase
+N19	Name Annotation:T19 Referent:rattyrosinehydroxylase
+T3	CHEMICAL 1680 1688	tyrosine
+N20	Name Annotation:T3 Referent:tyrosine
+T4	CHEMICAL 1743 1763	7,8-dihydrobiopterin
+N21	Name Annotation:T4 Referent:78dihydrobiopterin
+T5	CHEMICAL 1807 1816	catechols
+N22	Name Annotation:T5 Referent:catechols
+T7	CHEMICAL 1891 1900	catechols
+N23	Name Annotation:T7 Referent:catechols
+R1	INHIBITOR Arg1:T18 Arg2:T23
+R2	INHIBITOR Arg1:T6 Arg2:T22
+R3	INHIBITOR Arg1:T9 Arg2:T20
+R4	INHIBITOR Arg1:T9 Arg2:T21
+R5	DIRECT-REGULATOR Arg1:T5 Arg2:T19
+R6	DIRECT-REGULATOR Arg1:T4 Arg2:T19
+R7	INHIBITOR Arg1:T7 Arg2:T19

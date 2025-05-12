@@ -1,0 +1,74 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Pest",
+            "name": "Xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T4",
+            "type": "Location",
+            "name": "Bari area",
+            "GeoNames": "3182350"
+        },
+        {
+            "id": "T5",
+            "type": "Pest",
+            "name": "Xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T6",
+            "type": "Location",
+            "name": "Bari area",
+            "GeoNames": "3182350"
+        },
+        {
+            "id": "T7",
+            "type": "Location",
+            "name": "Polignano a Mare",
+            "GeoNames": "6537556"
+        },
+        {
+            "id": "T8",
+            "type": "Plant",
+            "name": "olive trees",
+            "NCBI_Taxonomy": "4146"
+        },
+        {
+            "id": "T10",
+            "type": "Plant",
+            "name": "olive",
+            "NCBI_Taxonomy": "158383"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T3",
+            "target": "T4"
+        },
+        {
+            "type": "Located in",
+            "source": "T5",
+            "target": "T6"
+        },
+        {
+            "type": "Located in",
+            "source": "T5",
+            "target": "T7"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T5",
+            "target": "T8"
+        },
+        {
+            "type": "Located in",
+            "source": "T8",
+            "target": "T7"
+        }
+    ]
+}

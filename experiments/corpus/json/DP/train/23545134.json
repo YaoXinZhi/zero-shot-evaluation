@@ -1,0 +1,137 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "chlorpyrifos",
+            "Name": "chlorpyrifos"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "acetylcholinesterase-R",
+            "Name": "acetylcholinesteraser"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Chlorpyrifos",
+            "Name": "chlorpyrifos"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "CPF",
+            "Name": "cpf"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "organophosphate",
+            "Name": "organophosphate"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "chlorpyrifos oxon",
+            "Name": "chlorpyrifosoxon"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "CPF",
+            "Name": "cpf"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "CPF",
+            "Name": "cpf"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "acylpeptide hydrolase",
+            "Name": "acylpeptidehydrolase"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "APH",
+            "Name": "aph"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "CPF",
+            "Name": "cpf"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "AChE-R",
+            "Name": "acher"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "CPF",
+            "Name": "cpf"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "APH",
+            "Name": "aph"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "CPF",
+            "Name": "cpf"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T20"
+        }
+    ]
+}

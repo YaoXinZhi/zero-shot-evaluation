@@ -1,0 +1,129 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "retinoid",
+            "Name": "retinoid"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "retinoids",
+            "Name": "retinoids"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "tazarotene",
+            "Name": "tazarotene"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "retinoid",
+            "Name": "retinoid"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "retinoids",
+            "Name": "retinoids"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "retinoic acid",
+            "Name": "retinoicacid"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "retinoic acid receptors",
+            "Name": "retinoicacidreceptors"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "RARs",
+            "Name": "rars"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "acitretin",
+            "Name": "acitretin"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "RAR-alpha, -beta and -gamma",
+            "Name": "raralphabetaandgamma"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "tazarotene",
+            "Name": "tazarotene"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "RAR-beta and -gamma",
+            "Name": "rarbetaandgamma"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "RAR-alpha",
+            "Name": "raralpha"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "retinoic acid",
+            "Name": "retinoicacid"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "acitretin",
+            "Name": "acitretin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "tazarotene",
+            "Name": "tazarotene"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "corticosteroids",
+            "Name": "corticosteroids"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Activator",
+            "source": "T9",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T17"
+        }
+    ]
+}

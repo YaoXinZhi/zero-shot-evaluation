@@ -1,0 +1,160 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Solamargine",
+            "Name": "solamargine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Fas",
+            "Name": "fas"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "HER2",
+            "Name": "her2"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "epirubicin",
+            "Name": "epirubicin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Solamargine",
+            "Name": "solamargine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "SM",
+            "Name": "sm"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "steroidal glycoalkaloids",
+            "Name": "steroidalglycoalkaloids"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "tumor necrosis factor receptors",
+            "Name": "tumornecrosisfactorreceptors"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "TNFRs",
+            "Name": "tnfrs"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Fas",
+            "Name": "fas"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "HER2",
+            "Name": "her2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "HER2",
+            "Name": "her2"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "topoisomerase IIalpha",
+            "Name": "topoisomeraseiialpha"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "TOP2A",
+            "Name": "top2a"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "topoisomerase II",
+            "Name": "topoisomeraseii"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "epirubicin",
+            "Name": "epirubicin"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "HER2",
+            "Name": "her2"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "TOP2A",
+            "Name": "top2a"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "epirubicin",
+            "Name": "epirubicin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "epirubicin",
+            "Name": "epirubicin"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "TNFR",
+            "Name": "tnfr"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "HER2",
+            "Name": "her2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "epirubicin",
+            "Name": "epirubicin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T11"
+        }
+    ]
+}

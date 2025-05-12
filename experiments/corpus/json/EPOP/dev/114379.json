@@ -1,0 +1,307 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T15",
+            "type": "Location",
+            "name": "Porto Metropolitan Area",
+            "GeoNames": "2735941"
+        },
+        {
+            "id": "T16",
+            "type": "Pest",
+            "name": "Xylella Fastidiosa",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T17",
+            "type": "Location",
+            "name": "Porto Metropolitan Area",
+            "GeoNames": "2735941"
+        },
+        {
+            "id": "T18",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T20",
+            "type": "Pest",
+            "name": "Xylella Fastidiosa",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T21",
+            "type": "Location",
+            "name": "Vila Nova de Gaia",
+            "GeoNames": "8010592"
+        },
+        {
+            "id": "T22",
+            "type": "Location",
+            "name": "Santa Maria da Feira",
+            "GeoNames": "8010421"
+        },
+        {
+            "id": "T23",
+            "type": "Location",
+            "name": "Porto",
+            "GeoNames": "2735941"
+        },
+        {
+            "id": "T24",
+            "type": "Location",
+            "name": "Espinho",
+            "GeoNames": "8010419"
+        },
+        {
+            "id": "T25",
+            "type": "Location",
+            "name": "metropolitan area of Porto",
+            "GeoNames": "2735941"
+        },
+        {
+            "id": "T27",
+            "type": "Plant",
+            "name": "acacia longifolia",
+            "NCBI_Taxonomy": "139010"
+        },
+        {
+            "id": "T28",
+            "type": "Plant",
+            "name": "citrus limon",
+            "NCBI_Taxonomy": "2708"
+        },
+        {
+            "id": "T29",
+            "type": "Plant",
+            "name": "citrus reticulata blanco",
+            "NCBI_Taxonomy": "85571"
+        },
+        {
+            "id": "T30",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T31",
+            "type": "Vector",
+            "name": "Philaenus spumarius",
+            "NCBI_Taxonomy": "36667"
+        },
+        {
+            "id": "T32",
+            "type": "Vector",
+            "name": "spittlebug",
+            "NCBI_Taxonomy": "36667"
+        },
+        {
+            "id": "T34",
+            "type": "Plant",
+            "name": "olive",
+            "NCBI_Taxonomy": "158383"
+        },
+        {
+            "id": "T35",
+            "type": "Plant",
+            "name": "almond",
+            "NCBI_Taxonomy": "3755"
+        },
+        {
+            "id": "T36",
+            "type": "Plant",
+            "name": "vine",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T37",
+            "type": "Plant",
+            "name": "fig",
+            "NCBI_Taxonomy": "3494"
+        },
+        {
+            "id": "T39",
+            "type": "Pest",
+            "name": "Xylella fastidiosa",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T40",
+            "type": "Plant",
+            "name": "lavender plants",
+            "NCBI_Taxonomy": "39169"
+        },
+        {
+            "id": "T41",
+            "type": "Location",
+            "name": "'zoo' in Vila Nova de Gaia",
+            "GeoNames": "11807123"
+        },
+        {
+            "id": "T42",
+            "type": "Location",
+            "name": "Porto",
+            "GeoNames": "2735941"
+        }
+    ],
+    "equivalences": [
+        [
+            "T31",
+            "T32"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T15"
+        },
+        {
+            "type": "Located in",
+            "source": "T16",
+            "target": "T17"
+        },
+        {
+            "type": "Located in",
+            "source": "T16",
+            "target": "T15"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T16",
+            "target": "T14"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T16",
+            "target": "T18"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T23"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T17"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T21"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T25"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T24"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T22"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T23"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T21"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T25"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T24"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T22"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T20",
+            "target": "T28"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T20",
+            "target": "T18"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T20",
+            "target": "T29"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T20",
+            "target": "T27"
+        },
+        {
+            "type": "Located in",
+            "source": "T39",
+            "target": "T42"
+        },
+        {
+            "type": "Located in",
+            "source": "T39",
+            "target": "T41"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T39",
+            "target": "T36"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T39",
+            "target": "T37"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T39",
+            "target": "T35"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T39",
+            "target": "T40"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T39",
+            "target": "T34"
+        },
+        {
+            "type": "Located in",
+            "source": "T40",
+            "target": "T42"
+        },
+        {
+            "type": "Located in",
+            "source": "T40",
+            "target": "T41"
+        }
+    ]
+}

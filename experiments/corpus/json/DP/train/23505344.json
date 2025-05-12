@@ -1,0 +1,152 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "CO",
+            "Name": "co"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "myoglobin",
+            "Name": "myoglobin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "H2O",
+            "Name": "h2o"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "CO",
+            "Name": "co"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "myoglobin",
+            "Name": "myoglobin"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "Mb",
+            "Name": "mb"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "CO",
+            "Name": "co"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "H2O",
+            "Name": "h2o"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Leu",
+            "Name": "leu"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "xenon",
+            "Name": "xenon"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "H2O",
+            "Name": "h2o"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "xenon",
+            "Name": "xenon"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Xe4",
+            "Name": "xe4"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Xe2",
+            "Name": "xe2"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Xe3",
+            "Name": "xe3"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "H2O",
+            "Name": "h2o"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "histidine",
+            "Name": "histidine"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "CO",
+            "Name": "co"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "Xe",
+            "Name": "xe"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "CO",
+            "Name": "co"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T18"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T18"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T19"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Substrate",
+            "source": "T17",
+            "target": "T20"
+        }
+    ]
+}

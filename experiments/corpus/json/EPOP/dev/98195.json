@@ -1,0 +1,118 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Location",
+            "name": "Nicaragua",
+            "GeoNames": "3617476"
+        },
+        {
+            "id": "T9",
+            "type": "Location",
+            "name": "Panama",
+            "GeoNames": "3703430"
+        },
+        {
+            "id": "T10",
+            "type": "Location",
+            "name": "Guatemala",
+            "GeoNames": "3595528"
+        },
+        {
+            "id": "T11",
+            "type": "Location",
+            "name": "Costa Rica",
+            "GeoNames": "3624060"
+        },
+        {
+            "id": "T12",
+            "type": "Location",
+            "name": "El Salvador",
+            "GeoNames": "3585968"
+        },
+        {
+            "id": "T13",
+            "type": "Location",
+            "name": "Honduras",
+            "GeoNames": "3608932"
+        },
+        {
+            "id": "T14",
+            "type": "Pest",
+            "name": "Candidatus Liberibacter",
+            "NCBI_Taxonomy": "34021"
+        },
+        {
+            "id": "T15",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T16",
+            "type": "Disease",
+            "name": "Huanglongbing"
+        },
+        {
+            "id": "T17",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T18",
+            "type": "Disease",
+            "name": "yellow dragon"
+        },
+        {
+            "id": "T19",
+            "type": "Pest",
+            "name": "citrus sadness virus",
+            "NCBI_Taxonomy": "12162"
+        },
+        {
+            "id": "T20",
+            "type": "Disease",
+            "name": "leprosis"
+        },
+        {
+            "id": "T21",
+            "type": "Pest",
+            "name": "Mediterranean fly",
+            "NCBI_Taxonomy": "7213"
+        }
+    ],
+    "equivalences": [
+        [
+            "T16",
+            "T18",
+            "T17"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Has been found on",
+            "source": "T14",
+            "target": "T15"
+        },
+        {
+            "type": "Affects",
+            "source": "T16",
+            "target": "T15"
+        },
+        {
+            "type": "Causes",
+            "source": "T14",
+            "target": "T16"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T19",
+            "target": "T15"
+        },
+        {
+            "type": "Affects",
+            "source": "T20",
+            "target": "T15"
+        }
+    ]
+}

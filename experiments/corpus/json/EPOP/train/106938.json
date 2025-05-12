@@ -1,0 +1,158 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Disease",
+            "name": "Flavescence Dor\u00e9e"
+        },
+        {
+            "id": "T4",
+            "type": "Disease",
+            "name": "Flavescence dor\u00e9e"
+        },
+        {
+            "id": "T5",
+            "type": "Disease",
+            "name": "FD"
+        },
+        {
+            "id": "T6",
+            "type": "Plant",
+            "name": "grape vine",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T7",
+            "type": "Pest",
+            "name": "Candidatus Phytoplasma vitis",
+            "NCBI_Taxonomy": "131152"
+        },
+        {
+            "id": "T8",
+            "type": "Vector",
+            "name": "Scaphoideus titanus Ball",
+            "NCBI_Taxonomy": "376741"
+        },
+        {
+            "id": "T9",
+            "type": "Location",
+            "name": "Europe",
+            "GeoNames": "6255148"
+        },
+        {
+            "id": "T10",
+            "type": "Plant",
+            "name": "vine",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T11",
+            "type": "Plant",
+            "name": "vine",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T12",
+            "type": "Plant",
+            "name": "vineyard",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T14",
+            "type": "Plant",
+            "name": "vineyard",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T15",
+            "type": "Disease",
+            "name": "FD"
+        },
+        {
+            "id": "T16",
+            "type": "Plant",
+            "name": "vine",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T17",
+            "type": "Plant",
+            "name": "vine",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T18",
+            "type": "Disease",
+            "name": "FD"
+        },
+        {
+            "id": "T19",
+            "type": "Disease",
+            "name": "Esca"
+        },
+        {
+            "id": "T20",
+            "type": "Disease",
+            "name": "FD"
+        }
+    ],
+    "equivalences": [
+        [
+            "T5",
+            "T4",
+            "T3"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T4",
+            "target": "T9"
+        },
+        {
+            "type": "Causes",
+            "source": "T7",
+            "target": "T4"
+        },
+        {
+            "type": "Affects",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Affects",
+            "source": "T4",
+            "target": "T10"
+        },
+        {
+            "type": "Affects",
+            "source": "T4",
+            "target": "T6"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T7",
+            "target": "T11"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T7",
+            "target": "T10"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T7",
+            "target": "T6"
+        },
+        {
+            "type": "Transmits",
+            "source": "T8",
+            "target": "T7"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T8",
+            "target": "T6"
+        }
+    ]
+}

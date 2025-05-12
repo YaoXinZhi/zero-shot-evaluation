@@ -1,0 +1,228 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "ZD1839",
+            "Name": "zd1839"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Iressa",
+            "Name": "iressa"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "HER2",
+            "Name": "her2"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "HER2",
+            "Name": "her2"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "epidermal growth factor receptor",
+            "Name": "epidermalgrowthfactorreceptor"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "ZD1839",
+            "Name": "zd1839"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Iressa",
+            "Name": "iressa"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "quinazoline tyrosine",
+            "Name": "quinazolinetyrosine"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ZD1839",
+            "Name": "zd1839"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "HER2",
+            "Name": "her2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "ZD1839",
+            "Name": "zd1839"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "HER2",
+            "Name": "her2"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "HER3",
+            "Name": "her3"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "phosphatidylinositol",
+            "Name": "phosphatidylinositol"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "phosphatidylinositol 3-kinase",
+            "Name": "phosphatidylinositol3kinase"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "HER2",
+            "Name": "her2"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "HER",
+            "Name": "her"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T26"
+        },
+        {
+            "type": "Substrate",
+            "source": "T10",
+            "target": "T25"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T12"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T21"
+        }
+    ]
+}

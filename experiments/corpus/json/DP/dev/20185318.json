@@ -1,0 +1,447 @@
+{
+    "entities": [
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "Carbonic anhydrase",
+            "Name": "carbonicanhydrase"
+        },
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "mammalian isoforms I-XIV",
+            "Name": "mammalianisoformsixiv"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "polyphenols",
+            "Name": "polyphenols"
+        },
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "phenolic acids",
+            "Name": "phenolicacids"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "phenolic acids",
+            "Name": "phenolicacids"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "phenol",
+            "Name": "phenol"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "p-hydroxybenzoic acid",
+            "Name": "phydroxybenzoicacid"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "p-coumaric acid",
+            "Name": "pcoumaricacid"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "caffeic acid",
+            "Name": "caffeicacid"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "ferulic acid",
+            "Name": "ferulicacid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "gallic acid",
+            "Name": "gallicacid"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "syringic acid",
+            "Name": "syringicacid"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "quercetin",
+            "Name": "quercetin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "ellagic acid",
+            "Name": "ellagicacid"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "metalloenzyme",
+            "Name": "metalloenzyme"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "carbonic anhydrase",
+            "Name": "carbonicanhydrase"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "CA",
+            "Name": "ca"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "EC 4.2.1.1",
+            "Name": "ec4211"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "hCA I",
+            "Name": "hcai"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "hCA XII",
+            "Name": "hcaxii"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "mCA XIII",
+            "Name": "mcaxiii"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "hCA XIV",
+            "Name": "hcaxiv"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "p-Hydroxybenzoic acid",
+            "Name": "phydroxybenzoicacid"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Phenols",
+            "Name": "phenols"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "CA",
+            "Name": "ca"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "sulfonamides",
+            "Name": "sulfonamides"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "sulfamates",
+            "Name": "sulfamates"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "coumarins",
+            "Name": "coumarins"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "sulfonamides",
+            "Name": "sulfonamides"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "zinc",
+            "Name": "zinc"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "phenols",
+            "Name": "phenols"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "Zn(II)",
+            "Name": "znii"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "CA",
+            "Name": "ca"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "CAs",
+            "Name": "cas"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T21",
+            "target": "T35"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T22",
+            "target": "T35"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T17",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T17",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T17",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T17",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T28"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T33"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T33"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T33"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T33"
+        }
+    ]
+}

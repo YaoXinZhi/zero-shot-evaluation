@@ -1,0 +1,251 @@
+{
+    "entities": [
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "PDKII",
+            "Name": "pdkii"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "HIF1a",
+            "Name": "hif1a"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "hypoxia-inducible factor 1\u03b1",
+            "Name": "hypoxiainduciblefactor1\u03b1"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "HIF1\u03b1",
+            "Name": "hif1\u03b1"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "pyruvate",
+            "Name": "pyruvate"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "pyruvate dehydrogenase kinase",
+            "Name": "pyruvatedehydrogenasekinase"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "PDK",
+            "Name": "pdk"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "dichloroacetate",
+            "Name": "dichloroacetate"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "DCA",
+            "Name": "dca"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "DCA",
+            "Name": "dca"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "HIF1\u03b1",
+            "Name": "hif1\u03b1"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "PDKII",
+            "Name": "pdkii"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "HIF1\u03b1",
+            "Name": "hif1\u03b1"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "HIF1\u03b1",
+            "Name": "hif1\u03b1"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "prolyl",
+            "Name": "prolyl"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "prolyl-hydroxylase",
+            "Name": "prolylhydroxylase"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "PHD",
+            "Name": "phd"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "HIF1\u03b1",
+            "Name": "hif1\u03b1"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "DCA",
+            "Name": "dca"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "HIF1\u03b1",
+            "Name": "hif1\u03b1"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PHD",
+            "Name": "phd"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "DCA",
+            "Name": "dca"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "\u03b1-ketoglutarate",
+            "Name": "\u03b1ketoglutarate"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PHD",
+            "Name": "phd"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "p53",
+            "Name": "p53"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "H(2)O(2)",
+            "Name": "h2o2"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "GSK3\u03b2",
+            "Name": "gsk3\u03b2"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "HIF1\u03b1",
+            "Name": "hif1\u03b1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "HIF1\u03b1",
+            "Name": "hif1\u03b1"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "pyruvate",
+            "Name": "pyruvate"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "pyruvate dehydrogenase",
+            "Name": "pyruvatedehydrogenase"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "HIF1\u03b1",
+            "Name": "hif1\u03b1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T24"
+        },
+        {
+            "type": "Activator",
+            "source": "T9",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T32"
+        },
+        {
+            "type": "Activator",
+            "source": "T12",
+            "target": "T15"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T12",
+            "target": "T16"
+        }
+    ]
+}

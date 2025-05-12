@@ -1,0 +1,169 @@
+{
+    "entities": [
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "HERG human cardiac K+ channel",
+            "Name": "herghumancardiackchannel"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "K+",
+            "Name": "k"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "cisapride",
+            "Name": "cisapride"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Cisapride",
+            "Name": "cisapride"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "human ether-a-go-go-related gene",
+            "Name": "humanetheragogorelatedgene"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "HERG",
+            "Name": "herg"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "K+",
+            "Name": "k"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "cisapride",
+            "Name": "cisapride"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "cisapride",
+            "Name": "cisapride"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "HERG",
+            "Name": "herg"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "HERG",
+            "Name": "herg"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "cisapride",
+            "Name": "cisapride"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "HERG",
+            "Name": "herg"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "cisapride",
+            "Name": "cisapride"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "HERG",
+            "Name": "herg"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "cisapride",
+            "Name": "cisapride"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "cisapride",
+            "Name": "cisapride"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "HERG",
+            "Name": "herg"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cisapride",
+            "Name": "cisapride"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "cisapride",
+            "Name": "cisapride"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "HERG",
+            "Name": "herg"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cisapride",
+            "Name": "cisapride"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T14"
+        }
+    ]
+}

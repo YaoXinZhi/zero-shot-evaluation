@@ -1,0 +1,110 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "N'-2-(4-benzylpiperidin-/piperazin-1-yl)acylhydrazone",
+            "Name": "n24benzylpiperidinpiperazin1ylacylhydrazone"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "cholinesterases",
+            "Name": "cholinesterases"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "A\u03b2",
+            "Name": "a\u03b2"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "N'-2-(4-Benzylpiperidin-/piperazin-1-yl)acylhydrazones",
+            "Name": "n24benzylpiperidinpiperazin1ylacylhydrazones"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "butyrylcholinesterase",
+            "Name": "butyrylcholinesterase"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "amyloid beta peptides (1-40, 1-42 and 1-40_1-42)",
+            "Name": "amyloidbetapeptides140142and140_142"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "butyrylcholinesterase",
+            "Name": "butyrylcholinesterase"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "\u03b2-Amyloid",
+            "Name": "\u03b2amyloid"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "A\u03b2",
+            "Name": "a\u03b2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "rifampicin",
+            "Name": "rifampicin"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "cholinesterase",
+            "Name": "cholinesterase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T4"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T5"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T10"
+        }
+    ]
+}

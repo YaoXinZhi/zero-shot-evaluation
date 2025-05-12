@@ -1,0 +1,100 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Mitiglinide",
+            "Name": "mitiglinide"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Mitiglinide",
+            "Name": "mitiglinide"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "sulfonylurea",
+            "Name": "sulfonylurea"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "sulfonylurea receptor1",
+            "Name": "sulfonylureareceptor1"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "SUR1",
+            "Name": "sur1"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "glibenclamide",
+            "Name": "glibenclamide"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "SUR",
+            "Name": "sur"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "mitiglinide",
+            "Name": "mitiglinide"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "glibenclamide",
+            "Name": "glibenclamide"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "mitiglinide",
+            "Name": "mitiglinide"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "mitiglinide",
+            "Name": "mitiglinide"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "glibenclamide",
+            "Name": "glibenclamide"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "mitiglinide",
+            "Name": "mitiglinide"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T13"
+        }
+    ]
+}

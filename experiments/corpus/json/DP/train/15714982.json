@@ -1,0 +1,83 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "androgen",
+            "Name": "androgen"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "docetaxel",
+            "Name": "docetaxel"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "androgen",
+            "Name": "androgen"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Docetaxel",
+            "Name": "docetaxel"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "taxane",
+            "Name": "taxane"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "bcl-2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Docetaxel",
+            "Name": "docetaxel"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Docetaxel",
+            "Name": "docetaxel"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "estramustine",
+            "Name": "estramustine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "docetaxel",
+            "Name": "docetaxel"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "prednisone",
+            "Name": "prednisone"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T11"
+        }
+    ]
+}

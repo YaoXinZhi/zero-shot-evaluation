@@ -1,0 +1,71 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "anaplastic lymphoma kinase",
+            "Name": "anaplasticlymphomakinase"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "ALK",
+            "Name": "alk"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "5-chloro-N2-(2-isopropoxy-5-methyl-4-(piperidin-4-yl)phenyl)-N4-(2-(isopropylsulf onyl)phenyl)pyrimidine-2,4-diamine",
+            "Name": "5chloron22isopropoxy5methyl4piperidin4ylphenyln42isopropylsulfonylphenylpyrimidine24diamine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "LDK378",
+            "Name": "ldk378"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "anaplastic lymphoma kinase",
+            "Name": "anaplasticlymphomakinase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "LDK378",
+            "Name": "ldk378"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "ALK",
+            "Name": "alk"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "TAE684",
+            "Name": "tae684"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "ALK",
+            "Name": "alk"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T5"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T6"
+        }
+    ]
+}

@@ -1,0 +1,77 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "huperzine A",
+            "Name": "huperzinea"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "(-)-huperzine A",
+            "Name": "huperzinea"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "(+)- and (-)-huperzine A",
+            "Name": "andhuperzinea"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "NMDA receptors",
+            "Name": "nmdareceptors"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "huperzine A",
+            "Name": "huperzinea"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T10"
+        }
+    ]
+}

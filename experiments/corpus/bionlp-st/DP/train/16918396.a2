@@ -1,0 +1,54 @@
+T12	CHEMICAL 45 54	monoamine
+N1	Name Annotation:T12 Referent:monoamine
+T22	GENE-N 45 64	monoamine receptors
+N2	Name Annotation:T22 Referent:monoaminereceptors
+T23	GENE-Y 85 91	5-HT2A
+N3	Name Annotation:T23 Referent:5ht2a
+T2	CHEMICAL 422 441	5-hydroxytryptamine
+N4	Name Annotation:T2 Referent:5hydroxytryptamine
+T15	GENE-Y 422 460	5-hydroxytryptamine (5-HT)(2) receptor
+N5	Name Annotation:T15 Referent:5hydroxytryptamine5ht2receptor
+T3	CHEMICAL 443 447	5-HT
+N6	Name Annotation:T3 Referent:5ht
+T16	GENE-Y 485 492	5-HT(2)
+N7	Name Annotation:T16 Referent:5ht2
+T4	CHEMICAL 493 501	dopamine
+N8	Name Annotation:T4 Referent:dopamine
+T17	GENE-Y 493 506	dopamine D(2)
+N9	Name Annotation:T17 Referent:dopamined2
+T5	CHEMICAL 644 653	monoamine
+N10	Name Annotation:T5 Referent:monoamine
+T6	CHEMICAL 755 764	monoamine
+N11	Name Annotation:T6 Referent:monoamine
+T18	GENE-N 755 774	monoamine receptors
+N12	Name Annotation:T18 Referent:monoaminereceptors
+T7	CHEMICAL 890 900	olanzapine
+N13	Name Annotation:T7 Referent:olanzapine
+T8	CHEMICAL 905 914	clozapine
+N14	Name Annotation:T8 Referent:clozapine
+T19	GENE-Y 945 953	5-HT(2A)
+N15	Name Annotation:T19 Referent:5ht2a
+T20	GENE-Y 958 966	5-HT(2C)
+N16	Name Annotation:T20 Referent:5ht2c
+T9	CHEMICAL 994 1005	ziprasidone
+N17	Name Annotation:T9 Referent:ziprasidone
+T10	CHEMICAL 1010 1020	quetiapine
+N18	Name Annotation:T10 Referent:quetiapine
+T21	GENE-Y 1065 1073	5-HT(1A)
+N19	Name Annotation:T21 Referent:5ht1a
+T11	CHEMICAL 1096 1108	aripiprazole
+N20	Name Annotation:T11 Referent:aripiprazole
+T13	GENE-Y 1153 1161	5-HT(1A)
+N21	Name Annotation:T13 Referent:5ht1a
+T1	CHEMICAL 1229 1237	dopamine
+N22	Name Annotation:T1 Referent:dopamine
+T14	GENE-Y 1229 1251	dopamine D(2) receptor
+N23	Name Annotation:T14 Referent:dopamined2receptor
+R1	ANTAGONIST Arg1:T8 Arg2:T19
+R2	ANTAGONIST Arg1:T7 Arg2:T19
+R3	ANTAGONIST Arg1:T7 Arg2:T20
+R4	ANTAGONIST Arg1:T8 Arg2:T20
+R5	AGONIST Arg1:T9 Arg2:T21
+R6	AGONIST Arg1:T10 Arg2:T21
+R7	AGONIST Arg1:T11 Arg2:T13
+R8	AGONIST Arg1:T11 Arg2:T14

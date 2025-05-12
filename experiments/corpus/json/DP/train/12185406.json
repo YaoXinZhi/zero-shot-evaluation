@@ -1,0 +1,185 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "dopamine transporter",
+            "Name": "dopaminetransporter"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "dopamine transporter",
+            "Name": "dopaminetransporter"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "[(11)C]-RTI32",
+            "Name": "11crti32"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T19"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T12",
+            "target": "T23"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T15"
+        }
+    ]
+}

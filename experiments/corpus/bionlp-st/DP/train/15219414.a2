@@ -1,0 +1,90 @@
+T19	CHEMICAL 0 11	Oxandrolone
+N1	Name Annotation:T19 Referent:oxandrolone
+T20	CHEMICAL 50 58	androgen
+N2	Name Annotation:T20 Referent:androgen
+T39	GENE-Y 50 67	androgen receptor
+N3	Name Annotation:T39 Referent:androgenreceptor
+T6	CHEMICAL 99 106	steroid
+N4	Name Annotation:T6 Referent:steroid
+T9	CHEMICAL 107 118	oxandrolone
+N5	Name Annotation:T9 Referent:oxandrolone
+T8	CHEMICAL 265 273	androgen
+N6	Name Annotation:T8 Referent:androgen
+T31	GENE-Y 265 282	androgen receptor
+N7	Name Annotation:T31 Referent:androgenreceptor
+T32	GENE-Y 284 286	AR
+N8	Name Annotation:T32 Referent:ar
+T10	CHEMICAL 359 367	steroids
+N9	Name Annotation:T10 Referent:steroids
+T11	CHEMICAL 422 433	oxandrolone
+N10	Name Annotation:T11 Referent:oxandrolone
+T33	GENE-Y 502 525	glucocorticoid receptor
+N11	Name Annotation:T33 Referent:glucocorticoidreceptor
+T34	GENE-Y 527 529	GR
+N12	Name Annotation:T34 Referent:gr
+T12	CHEMICAL 565 573	cortisol
+N13	Name Annotation:T12 Referent:cortisol
+T13	CHEMICAL 585 596	oxandrolone
+N14	Name Annotation:T13 Referent:oxandrolone
+T14	CHEMICAL 685 693	cortisol
+N15	Name Annotation:T14 Referent:cortisol
+T15	CHEMICAL 732 743	oxandrolone
+N16	Name Annotation:T15 Referent:oxandrolone
+T35	GENE-Y 773 775	AR
+N17	Name Annotation:T35 Referent:ar
+T36	GENE-Y 780 782	GR
+N18	Name Annotation:T36 Referent:gr
+T16	CHEMICAL 825 833	cortisol
+N19	Name Annotation:T16 Referent:cortisol
+T17	CHEMICAL 870 881	oxandrolone
+N20	Name Annotation:T17 Referent:oxandrolone
+T37	GENE-Y 915 917	GR
+N21	Name Annotation:T37 Referent:gr
+T38	GENE-Y 983 985	AR
+N22	Name Annotation:T38 Referent:ar
+T18	CHEMICAL 1040 1051	oxandrolone
+N23	Name Annotation:T18 Referent:oxandrolone
+T1	CHEMICAL 1105 1118	dexamethasone
+N24	Name Annotation:T1 Referent:dexamethasone
+T2	CHEMICAL 1123 1141	methylprednisolone
+N25	Name Annotation:T2 Referent:methylprednisolone
+T21	GENE-Y 1160 1162	AR
+N26	Name Annotation:T21 Referent:ar
+T3	CHEMICAL 1175 1193	2-hydroxyflutamide
+N27	Name Annotation:T3 Referent:2hydroxyflutamide
+T22	GENE-Y 1217 1219	GR
+N28	Name Annotation:T22 Referent:gr
+T23	GENE-Y 1242 1244	AR
+N29	Name Annotation:T23 Referent:ar
+T24	GENE-Y 1272 1274	AR
+N30	Name Annotation:T24 Referent:ar
+T25	GENE-Y 1325 1327	AR
+N31	Name Annotation:T25 Referent:ar
+T4	CHEMICAL 1349 1360	oxandrolone
+N32	Name Annotation:T4 Referent:oxandrolone
+T26	GENE-Y 1384 1386	GR
+N33	Name Annotation:T26 Referent:gr
+T5	CHEMICAL 1399 1410	oxandrolone
+N34	Name Annotation:T5 Referent:oxandrolone
+T27	GENE-Y 1417 1419	AR
+N35	Name Annotation:T27 Referent:ar
+T28	GENE-Y 1491 1493	GR
+N36	Name Annotation:T28 Referent:gr
+T7	CHEMICAL 1533 1544	oxandrolone
+N37	Name Annotation:T7 Referent:oxandrolone
+T29	GENE-Y 1601 1603	AR
+N38	Name Annotation:T29 Referent:ar
+T30	GENE-Y 1608 1610	GR
+N39	Name Annotation:T30 Referent:gr
+R1	INHIBITOR Arg1:T19 Arg2:T39
+R2	DIRECT-REGULATOR Arg1:T12 Arg2:T34
+R3	DIRECT-REGULATOR Arg1:T12 Arg2:T33
+R4	ACTIVATOR Arg1:T14 Arg2:T35
+R5	ACTIVATOR Arg1:T14 Arg2:T36
+R6	ANTAGONIST Arg1:T15 Arg2:T35
+R7	ANTAGONIST Arg1:T15 Arg2:T36
+R8	ACTIVATOR Arg1:T16 Arg2:T37
+R9	ANTAGONIST Arg1:T3 Arg2:T21
+R10	INHIBITOR Arg1:T3 Arg2:T22
+R11	INHIBITOR Arg1:T3 Arg2:T23
+R12	DIRECT-REGULATOR Arg1:T5 Arg2:T27

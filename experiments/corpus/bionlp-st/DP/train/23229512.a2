@@ -1,0 +1,62 @@
+T12	CHEMICAL 0 10	Vitamin K2
+N1	Name Annotation:T12 Referent:vitamink2
+T26	GENE-Y 31 34	Bak
+N2	Name Annotation:T26 Referent:bak
+T27	GENE-Y 47 50	Bak
+N3	Name Annotation:T27 Referent:bak
+T1	CHEMICAL 71 81	Vitamin K2
+N4	Name Annotation:T1 Referent:vitamink2
+T3	CHEMICAL 83 86	VK2
+N5	Name Annotation:T3 Referent:vk2
+T4	CHEMICAL 88 99	menaquinone
+N6	Name Annotation:T4 Referent:menaquinone
+T14	GENE-Y 328 333	Bcl-2
+N7	Name Annotation:T14 Referent:bcl2
+T15	GENE-Y 355 358	Bak
+N8	Name Annotation:T15 Referent:bak
+T5	CHEMICAL 385 388	VK2
+N9	Name Annotation:T5 Referent:vk2
+T6	CHEMICAL 408 411	VK2
+N10	Name Annotation:T6 Referent:vk2
+T16	GENE-Y 436 439	Bak
+N11	Name Annotation:T16 Referent:bak
+T17	GENE-Y 495 498	Bak
+N12	Name Annotation:T17 Referent:bak
+T18	GENE-Y 503 529	Bcl-2-associated X protein
+N13	Name Annotation:T18 Referent:bcl2associatedxprotein
+T19	GENE-Y 531 534	Bax
+N14	Name Annotation:T19 Referent:bax
+T20	GENE-Y 559 564	Bcl-2
+N15	Name Annotation:T20 Referent:bcl2
+T21	GENE-Y 630 633	Bak
+N16	Name Annotation:T21 Referent:bak
+T7	CHEMICAL 666 669	VK2
+N17	Name Annotation:T7 Referent:vk2
+T22	GENE-Y 678 690	cytochrome c
+N18	Name Annotation:T22 Referent:cytochromec
+T23	GENE-Y 692 697	cyt c
+N19	Name Annotation:T23 Referent:cytc
+T8	CHEMICAL 733 748	VK2-2,3 epoxide
+N20	Name Annotation:T8 Referent:vk223epoxide
+T9	CHEMICAL 781 784	VK2
+N21	Name Annotation:T9 Referent:vk2
+T10	CHEMICAL 822 830	cysteine
+N22	Name Annotation:T10 Referent:cysteine
+T24	GENE-Y 846 849	Bak
+N23	Name Annotation:T24 Referent:bak
+T11	CHEMICAL 919 922	VK2
+N24	Name Annotation:T11 Referent:vk2
+T25	GENE-Y 1004 1007	Bak
+N25	Name Annotation:T25 Referent:bak
+T2	CHEMICAL 1108 1111	VK2
+N26	Name Annotation:T2 Referent:vk2
+T13	GENE-Y 1130 1133	Bak
+N27	Name Annotation:T13 Referent:bak
+R1	DIRECT-REGULATOR Arg1:T12 Arg2:T26
+R2	DIRECT-REGULATOR Arg1:T6 Arg2:T16
+R3	DIRECT-REGULATOR Arg1:T12 Arg2:T27
+R4	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T22
+R5	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T23
+R6	PART-OF Arg1:T10 Arg2:T24
+R7	DIRECT-REGULATOR Arg1:T8 Arg2:T24
+R8	DIRECT-REGULATOR Arg1:T9 Arg2:T24

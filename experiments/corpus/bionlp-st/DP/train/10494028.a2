@@ -1,0 +1,95 @@
+T39	GENE-Y 34 53	apolipoprotein CIII
+N1	Name Annotation:T39 Referent:apolipoproteinciii
+T1	CHEMICAL 122 130	Fibrates
+N2	Name Annotation:T1 Referent:fibrates
+T13	CHEMICAL 165 178	triglycerides
+N3	Name Annotation:T13 Referent:triglycerides
+T30	GENE-N 192 195	HDL
+N4	Name Annotation:T30 Referent:hdl
+T9	CHEMICAL 273 281	fibrates
+N5	Name Annotation:T9 Referent:fibrates
+T25	GENE-Y 290 315	apolipoprotein (apo) CIII
+N6	Name Annotation:T25 Referent:apolipoproteinapociii
+T11	CHEMICAL 371 383	triglyceride
+N7	Name Annotation:T11 Referent:triglyceride
+T12	CHEMICAL 485 493	fibrates
+N8	Name Annotation:T12 Referent:fibrates
+T26	GENE-Y 497 505	apo CIII
+N9	Name Annotation:T26 Referent:apociii
+T27	GENE-Y 607 615	apo CIII
+N10	Name Annotation:T27 Referent:apociii
+T28	GENE-Y 680 688	apo CIII
+N11	Name Annotation:T28 Referent:apociii
+T29	GENE-Y 749 757	apo CIII
+N12	Name Annotation:T29 Referent:apociii
+T31	GENE-Y 868 876	apo CIII
+N13	Name Annotation:T31 Referent:apociii
+T32	GENE-N 968 982	apolipoprotein
+N14	Name Annotation:T32 Referent:apolipoprotein
+T33	GENE-Y 1017 1025	apo CIII
+N15	Name Annotation:T33 Referent:apociii
+T34	GENE-N 1040 1055	apolipoproteins
+N16	Name Annotation:T34 Referent:apolipoproteins
+T35	GENE-Y 1057 1062	apo E
+N17	Name Annotation:T35 Referent:apoe
+T36	GENE-Y 1064 1069	apo B
+N18	Name Annotation:T36 Referent:apob
+T37	GENE-Y 1071 1078	apo AII
+N19	Name Annotation:T37 Referent:apoaii
+T38	GENE-Y 1083 1089	apo AI
+N20	Name Annotation:T38 Referent:apoai
+T14	GENE-Y 1157 1165	apo CIII
+N21	Name Annotation:T14 Referent:apociii
+T15	GENE-Y 1196 1250	peroxisome-proliferator activated receptor (PPAR)alpha
+N22	Name Annotation:T15 Referent:peroxisomeproliferatoractivatedreceptorpparalpha
+T2	CHEMICAL 1262 1273	fenofibrate
+N23	Name Annotation:T2 Referent:fenofibrate
+T3	CHEMICAL 1275 1286	gemfibrozil
+N24	Name Annotation:T3 Referent:gemfibrozil
+T4	CHEMICAL 1291 1299	Wy-14643
+N25	Name Annotation:T4 Referent:wy14643
+T16	GENE-Y 1331 1339	apo CIII
+N26	Name Annotation:T16 Referent:apociii
+T5	CHEMICAL 1410 1418	Wy-14643
+N27	Name Annotation:T5 Referent:wy14643
+T17	GENE-Y 1452 1461	PPARgamma
+N28	Name Annotation:T17 Referent:ppargamma
+T6	CHEMICAL 1496 1513	thiazolidinedione
+N29	Name Annotation:T6 Referent:thiazolidinedione
+T7	CHEMICAL 1515 1524	BRL-49653
+N30	Name Annotation:T7 Referent:brl49653
+T18	GENE-Y 1531 1540	PPARalpha
+N31	Name Annotation:T18 Referent:pparalpha
+T8	CHEMICAL 1548 1556	Wy-14643
+N32	Name Annotation:T8 Referent:wy14643
+T19	GENE-Y 1585 1593	apo CIII
+N33	Name Annotation:T19 Referent:apociii
+T20	GENE-Y 1644 1653	PPARalpha
+N34	Name Annotation:T20 Referent:pparalpha
+T21	GENE-Y 1662 1671	PPARgamma
+N35	Name Annotation:T21 Referent:ppargamma
+T10	CHEMICAL 1688 1696	fibrates
+N36	Name Annotation:T10 Referent:fibrates
+T22	GENE-Y 1711 1719	apo CIII
+N37	Name Annotation:T22 Referent:apociii
+T23	GENE-Y 1774 1783	PPARalpha
+N38	Name Annotation:T23 Referent:pparalpha
+T24	GENE-Y 1796 1805	PPARgamma
+N39	Name Annotation:T24 Referent:ppargamma
+R1	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T30
+R2	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T25
+R3	ACTIVATOR Arg1:T2 Arg2:T15
+R4	ACTIVATOR Arg1:T3 Arg2:T15
+R5	ACTIVATOR Arg1:T4 Arg2:T15
+R6	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T16
+R7	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T16
+R8	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T16
+R9	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T16
+R10	DIRECT-REGULATOR Arg1:T8 Arg2:T18
+R11	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T19
+R12	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T19
+R13	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T19
+R14	ACTIVATOR Arg1:T8 Arg2:T20
+R15	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T22
+R16	DIRECT-REGULATOR Arg1:T6 Arg2:T17
+R17	DIRECT-REGULATOR Arg1:T7 Arg2:T17

@@ -1,0 +1,67 @@
+T18	CHEMICAL 27 35	Puerarin
+N1	Name Annotation:T18 Referent:puerarin
+T19	CHEMICAL 39 83	1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine
+N2	Name Annotation:T19 Referent:1methyl4phenyl1236tetrahydropyridine
+T1	CHEMICAL 127 135	Puerarin
+N3	Name Annotation:T1 Referent:puerarin
+T4	CHEMICAL 332 340	puerarin
+N4	Name Annotation:T4 Referent:puerarin
+T5	CHEMICAL 465 473	puerarin
+N5	Name Annotation:T5 Referent:puerarin
+T6	CHEMICAL 485 529	1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine
+N6	Name Annotation:T6 Referent:1methyl4phenyl1236tetrahydropyridine
+T7	CHEMICAL 531 535	MPTP
+N7	Name Annotation:T7 Referent:mptp
+T8	CHEMICAL 566 574	dopamine
+N8	Name Annotation:T8 Referent:dopamine
+T9	CHEMICAL 625 633	Puerarin
+N9	Name Annotation:T9 Referent:puerarin
+T10	CHEMICAL 658 669	glutathione
+N10	Name Annotation:T10 Referent:glutathione
+T11	CHEMICAL 671 674	GSH
+N11	Name Annotation:T11 Referent:gsh
+T24	GENE-Y 686 729	glial cell line-derived neurotrophic factor
+N12	Name Annotation:T24 Referent:glialcelllinederivedneurotrophicfactor
+T25	GENE-Y 731 735	GDNF
+N13	Name Annotation:T25 Referent:gdnf
+T26	GENE-N 752 756	PI3K
+N14	Name Annotation:T26 Referent:pi3k
+T27	GENE-N 757 760	Akt
+N15	Name Annotation:T27 Referent:akt
+T12	CHEMICAL 804 808	MPTP
+N16	Name Annotation:T12 Referent:mptp
+T13	CHEMICAL 861 867	oxygen
+N17	Name Annotation:T13 Referent:oxygen
+T14	CHEMICAL 935 943	puerarin
+N18	Name Annotation:T14 Referent:puerarin
+T15	CHEMICAL 956 960	MPTP
+N19	Name Annotation:T15 Referent:mptp
+T28	GENE-Y 969 1013	lysosome-associated membrane protein type 2A
+N20	Name Annotation:T28 Referent:lysosomeassociatedmembraneproteintype2a
+T29	GENE-Y 1015 1022	Lamp 2A
+N21	Name Annotation:T29 Referent:lamp2a
+T16	CHEMICAL 1078 1086	puerarin
+N22	Name Annotation:T16 Referent:puerarin
+T17	CHEMICAL 1098 1102	MPTP
+N23	Name Annotation:T17 Referent:mptp
+T20	GENE-Y 1161 1165	GDNF
+N24	Name Annotation:T20 Referent:gdnf
+T21	GENE-N 1178 1182	PI3K
+N25	Name Annotation:T21 Referent:pi3k
+T22	GENE-N 1183 1186	Akt
+N26	Name Annotation:T22 Referent:akt
+T2	CHEMICAL 1199 1202	GSH
+N27	Name Annotation:T2 Referent:gsh
+T3	CHEMICAL 1245 1249	MPTP
+N28	Name Annotation:T3 Referent:mptp
+T23	GENE-Y 1288 1295	Lamp 2A
+N29	Name Annotation:T23 Referent:lamp2a
+R1	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T24
+R2	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T25
+R3	ACTIVATOR Arg1:T9 Arg2:T26
+R4	ACTIVATOR Arg1:T9 Arg2:T27
+R5	INDIRECT-DOWNREGULATOR Arg1:T15 Arg2:T28
+R6	INDIRECT-DOWNREGULATOR Arg1:T15 Arg2:T29
+R7	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T23
+R8	INDIRECT-DOWNREGULATOR Arg1:T14 Arg2:T29
+R9	INDIRECT-DOWNREGULATOR Arg1:T16 Arg2:T23

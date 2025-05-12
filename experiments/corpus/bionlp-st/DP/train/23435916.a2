@@ -1,0 +1,46 @@
+T11	CHEMICAL 28 39	pristimerin
+N1	Name Annotation:T11 Referent:pristimerin
+T1	CHEMICAL 116 127	Pristimerin
+N2	Name Annotation:T1 Referent:pristimerin
+T2	CHEMICAL 131 158	quinonemethide triterpenoid
+N3	Name Annotation:T2 Referent:quinonemethidetriterpenoid
+T3	CHEMICAL 359 370	pristimerin
+N4	Name Annotation:T3 Referent:pristimerin
+T4	CHEMICAL 397 408	Pristimerin
+N5	Name Annotation:T4 Referent:pristimerin
+T5	CHEMICAL 447 459	nitric oxide
+N6	Name Annotation:T5 Referent:nitricoxide
+T6	CHEMICAL 461 463	NO
+N7	Name Annotation:T6 Referent:no
+T7	CHEMICAL 469 485	prostaglandin E2
+N8	Name Annotation:T7 Referent:prostaglandine2
+T12	GENE-Y 514 535	inducible NO synthase
+N9	Name Annotation:T12 Referent:induciblenosynthase
+T8	CHEMICAL 524 526	NO
+N10	Name Annotation:T8 Referent:no
+T13	GENE-Y 540 556	cyclooxygenase-2
+N11	Name Annotation:T13 Referent:cyclooxygenase2
+T9	CHEMICAL 640 651	pristimerin
+N12	Name Annotation:T9 Referent:pristimerin
+T14	GENE-N 694 703	cytokines
+N13	Name Annotation:T14 Referent:cytokines
+T15	GENE-Y 713 736	tumor necrosis factor-α
+N14	Name Annotation:T15 Referent:tumornecrosisfactorα
+T16	GENE-Y 741 754	interleukin-6
+N15	Name Annotation:T16 Referent:interleukin6
+T10	CHEMICAL 832 843	pristimerin
+N16	Name Annotation:T10 Referent:pristimerin
+T17	GENE-N 883 900	nuclear factor-κB
+N17	Name Annotation:T17 Referent:nuclearfactorκb
+T18	GENE-N 909 941	mitogen-activated protein kinase
+N18	Name Annotation:T18 Referent:mitogenactivatedproteinkinase
+R1	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T12
+R2	INDIRECT-DOWNREGULATOR Arg1:T4 Arg2:T13
+R3	PRODUCT-OF Arg1:T5 Arg2:T12
+R4	PRODUCT-OF Arg1:T6 Arg2:T12
+R5	PRODUCT-OF Arg1:T7 Arg2:T13
+R6	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T14
+R7	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T15
+R8	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T16
+R9	INHIBITOR Arg1:T10 Arg2:T17
+R10	INHIBITOR Arg1:T10 Arg2:T18

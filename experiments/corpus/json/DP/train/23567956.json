@@ -1,0 +1,193 @@
+{
+    "entities": [
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "2- and 3-indolyl carbohydrazides",
+            "Name": "2and3indolylcarbohydrazides"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "2-indolyl carbohydrazides",
+            "Name": "2indolylcarbohydrazides"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "JL34",
+            "Name": "jl34"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "JL40",
+            "Name": "jl40"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "JL71",
+            "Name": "jl71"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "JL87",
+            "Name": "jl87"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "JL317",
+            "Name": "jl317"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "JL432",
+            "Name": "jl432"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "JL436",
+            "Name": "jl436"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "3-indolyl carbohydrazide",
+            "Name": "3indolylcarbohydrazide"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "JL344",
+            "Name": "jl344"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "3-(3-hydrazinylpropyl)-1H-indole",
+            "Name": "33hydrazinylpropyl1hindole"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "JL72",
+            "Name": "jl72"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "3-(1H-indol-3-yl)propanehydrazide",
+            "Name": "31hindol3ylpropanehydrazide"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "JL418",
+            "Name": "jl418"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "DPPH",
+            "Name": "dpph"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "DMSO",
+            "Name": "dmso"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "hydroxyl",
+            "Name": "hydroxyl"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "JL40",
+            "Name": "jl40"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "JL432",
+            "Name": "jl432"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "lipoxygenase",
+            "Name": "lipoxygenase"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "LOX",
+            "Name": "lox"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "BuChE",
+            "Name": "buche"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "indolyl carbohydrazides",
+            "Name": "indolylcarbohydrazides"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T20",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T21",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T20",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T21",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T24"
+        }
+    ]
+}

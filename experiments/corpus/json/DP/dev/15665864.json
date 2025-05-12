@@ -1,0 +1,160 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Fas",
+            "Name": "fas"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Fas",
+            "Name": "fas"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "serum alanine/aspartate transaminase",
+            "Name": "serumalanineaspartatetransaminase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "alanine",
+            "Name": "alanine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "aspartate",
+            "Name": "aspartate"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "caspase-3 or -9",
+            "Name": "caspase3or9"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "caspase",
+            "Name": "caspase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "cytochrome c",
+            "Name": "cytochromec"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "caspase-8",
+            "Name": "caspase8"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Bid",
+            "Name": "bid"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Fas",
+            "Name": "fas"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "minocycline",
+            "Name": "minocycline"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "cytochrome c",
+            "Name": "cytochromec"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "caspase",
+            "Name": "caspase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T19"
+        }
+    ]
+}

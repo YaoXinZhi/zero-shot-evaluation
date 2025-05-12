@@ -1,0 +1,216 @@
+{
+    "entities": [
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "human P-glycoprotein",
+            "Name": "humanpglycoprotein"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "human ABC transporter P-glycoprotein",
+            "Name": "humanabctransporterpglycoprotein"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "P-gp",
+            "Name": "pgp"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "P-gp",
+            "Name": "pgp"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "human P-gp",
+            "Name": "humanpgp"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "hP-gp",
+            "Name": "hpgp"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "hP-gp",
+            "Name": "hpgp"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "ATPase",
+            "Name": "atpase"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "P-gp",
+            "Name": "pgp"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "sertraline",
+            "Name": "sertraline"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "verapamil",
+            "Name": "verapamil"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "ATPase",
+            "Name": "atpase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "3,4-methylenedioxy-\u03b1-ethylphenethylamine",
+            "Name": "34methylenedioxy\u03b1ethylphenethylamine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "3,4-BDB",
+            "Name": "34bdb"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "2,5-dimethoxy-4-iodoamphetamine",
+            "Name": "25dimethoxy4iodoamphetamine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "DOI",
+            "Name": "doi"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "glaucine",
+            "Name": "glaucine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "N-iso-propyl-1,2-diphenylethylamine",
+            "Name": "nisopropyl12diphenylethylamine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "NPDPA",
+            "Name": "npdpa"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "N-(1-phenylcyclohexyl)-3-ethoxypropanamine",
+            "Name": "n1phenylcyclohexyl3ethoxypropanamine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "PCEPA",
+            "Name": "pcepa"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "verapamil",
+            "Name": "verapamil"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "sertraline",
+            "Name": "sertraline"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "P-gp",
+            "Name": "pgp"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T12",
+            "target": "T21"
+        },
+        {
+            "type": "Substrate",
+            "source": "T13",
+            "target": "T21"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T2",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T7",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T8",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T9",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T11",
+            "target": "T23"
+        }
+    ]
+}

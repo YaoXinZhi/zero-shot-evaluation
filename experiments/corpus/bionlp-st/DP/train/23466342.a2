@@ -1,0 +1,79 @@
+T31	GENE-N 12 26	P-glycoprotein
+N1	Name Annotation:T31 Referent:pglycoprotein
+T11	CHEMICAL 71 79	mollugin
+N2	Name Annotation:T11 Referent:mollugin
+T12	GENE-N 107 121	P-glycoprotein
+N3	Name Annotation:T12 Referent:pglycoprotein
+T18	GENE-N 123 127	P-gp
+N4	Name Annotation:T18 Referent:pgp
+T25	GENE-Y 181 185	MDR1
+N5	Name Annotation:T25 Referent:mdr1
+T1	CHEMICAL 334 342	mollugin
+N6	Name Annotation:T1 Referent:mollugin
+T19	GENE-Y 404 408	MDR1
+N7	Name Annotation:T19 Referent:mdr1
+T2	CHEMICAL 429 439	adriamycin
+N8	Name Annotation:T2 Referent:adriamycin
+T3	CHEMICAL 512 520	Mollugin
+N9	Name Annotation:T3 Referent:mollugin
+T20	GENE-Y 555 559	MDR1
+N10	Name Annotation:T20 Referent:mdr1
+T21	GENE-Y 583 587	MDR1
+N11	Name Annotation:T21 Referent:mdr1
+T4	CHEMICAL 603 611	Mollugin
+N12	Name Annotation:T4 Referent:mollugin
+T22	GENE-N 706 710	P-gp
+N13	Name Annotation:T22 Referent:pgp
+T5	CHEMICAL 722 735	rhodamine-123
+N14	Name Annotation:T5 Referent:rhodamine123
+T23	GENE-N 756 769	MDR1 promoter
+N15	Name Annotation:T23 Referent:mdr1promoter
+T6	CHEMICAL 823 831	mollugin
+N16	Name Annotation:T6 Referent:mollugin
+T7	CHEMICAL 854 857	AMP
+N17	Name Annotation:T7 Referent:amp
+T24	GENE-Y 854 882	AMP-activated protein kinase
+N18	Name Annotation:T24 Referent:ampactivatedproteinkinase
+T26	GENE-Y 884 888	AMPK
+N19	Name Annotation:T26 Referent:ampk
+T8	CHEMICAL 904 912	mollugin
+N20	Name Annotation:T8 Referent:mollugin
+T27	GENE-Y 923 927	MDR1
+N21	Name Annotation:T27 Referent:mdr1
+T28	GENE-N 966 971	NF-κB
+N22	Name Annotation:T28 Referent:nfκb
+T29	GENE-N 976 980	CREB
+N23	Name Annotation:T29 Referent:creb
+T9	CHEMICAL 1008 1016	mollugin
+N24	Name Annotation:T9 Referent:mollugin
+T30	GENE-Y 1032 1037	COX-2
+N25	Name Annotation:T30 Referent:cox2
+T10	CHEMICAL 1077 1085	mollugin
+N26	Name Annotation:T10 Referent:mollugin
+T13	GENE-N 1120 1124	P-gp
+N27	Name Annotation:T13 Referent:pgp
+T14	GENE-N 1154 1159	NF-κB
+N28	Name Annotation:T14 Referent:nfκb
+T15	GENE-Y 1182 1187	COX-2
+N29	Name Annotation:T15 Referent:cox2
+T16	GENE-N 1223 1226	CRE
+N30	Name Annotation:T16 Referent:cre
+T17	GENE-Y 1260 1264	AMPK
+N31	Name Annotation:T17 Referent:ampk
+R1	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T20
+R2	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T21
+R3	SUBSTRATE Arg1:T5 Arg2:T22
+R4	ACTIVATOR Arg1:T6 Arg2:T24
+R5	ACTIVATOR Arg1:T6 Arg2:T26
+R6	INHIBITOR Arg1:T6 Arg2:T23
+R7	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T23
+R8	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T27
+R9	INHIBITOR Arg1:T8 Arg2:T28
+R10	INHIBITOR Arg1:T8 Arg2:T29
+R11	INHIBITOR Arg1:T9 Arg2:T30
+R12	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T13
+R13	INHIBITOR Arg1:T10 Arg2:T14
+R14	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T15
+R15	INHIBITOR Arg1:T10 Arg2:T16
+R16	ACTIVATOR Arg1:T10 Arg2:T17
+R17	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T31

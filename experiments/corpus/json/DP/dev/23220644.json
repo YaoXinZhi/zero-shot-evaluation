@@ -1,0 +1,165 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "5-hydroxytryptamines",
+            "Name": "5hydroxytryptamines"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "phospholipase A2",
+            "Name": "phospholipasea2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "leukotriene A4 hydrolase",
+            "Name": "leukotrienea4hydrolase"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "phospholipase A(2)",
+            "Name": "phospholipasea2"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PLA(2)",
+            "Name": "pla2"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "leukotriene A(4) hydrolase",
+            "Name": "leukotrienea4hydrolase"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "LTA(4)H",
+            "Name": "lta4h"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "arachidonic acid",
+            "Name": "arachidonicacid"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "JMC08-4",
+            "Name": "jmc084"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "human nonpancreatic secretory phospholipase A(2)",
+            "Name": "humannonpancreaticsecretoryphospholipasea2"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "hnps-PLA(2)",
+            "Name": "hnpspla2"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "human leukotriene A(4) hydrolase",
+            "Name": "humanleukotrienea4hydrolase"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "LTA(4)H-h",
+            "Name": "lta4hh"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "JMC08-4",
+            "Name": "jmc084"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "5-hydroxytryptamine",
+            "Name": "5hydroxytryptamine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "JMC08-4",
+            "Name": "jmc084"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "hnps-PLA(2)",
+            "Name": "hnpspla2"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "LTA(4)H-h",
+            "Name": "lta4hh"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T8"
+        },
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T12"
+        },
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T16"
+        }
+    ]
+}

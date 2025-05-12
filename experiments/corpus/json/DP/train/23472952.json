@@ -1,0 +1,65 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "(R)-2-amino-6-borono-2-(2-(piperidin-1-yl)ethyl)hexanoic acid",
+            "Name": "r2amino6borono22piperidin1ylethylhexanoicacid"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "human arginases I and II",
+            "Name": "humanarginasesiandii"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "\u03b1,\u03b1-disubstituted amino acid",
+            "Name": "\u03b1\u03b1disubstitutedaminoacid"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "arginase",
+            "Name": "arginase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "(R)-2-amino-6-borono-2-(2-(piperidin-1-yl)ethyl)hexanoic acid",
+            "Name": "r2amino6borono22piperidin1ylethylhexanoicacid"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "human arginases I and II",
+            "Name": "humanarginasesiandii"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "human arginase I",
+            "Name": "humanarginasei"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "arginases I and II",
+            "Name": "arginasesiandii"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T4"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T6"
+        }
+    ]
+}

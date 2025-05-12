@@ -1,0 +1,149 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "nilotinib",
+            "Name": "nilotinib"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Abl",
+            "Name": "abl"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Kit",
+            "Name": "kit"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "trifluoromethyl",
+            "Name": "trifluoromethyl"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "nilotinib",
+            "Name": "nilotinib"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "nilotinib",
+            "Name": "nilotinib"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "trifluoromethyl",
+            "Name": "trifluoromethyl"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "fluorine",
+            "Name": "fluorine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "methyl",
+            "Name": "methyl"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "nilotinib",
+            "Name": "nilotinib"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "Abl",
+            "Name": "abl"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Kit",
+            "Name": "kit"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "nilotinib",
+            "Name": "nilotinib"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Abl",
+            "Name": "abl"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Kit",
+            "Name": "kit"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "Kit",
+            "Name": "kit"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T12"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T14"
+        }
+    ]
+}

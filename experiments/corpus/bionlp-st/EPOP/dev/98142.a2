@@ -1,0 +1,64 @@
+T16	Plant 14 27	citrus plants
+T17	Location 46 56	Entre Ríos
+T18	Disease 84 87	HLB
+T19	Disease 105 108	HLB
+T20	Plant 143 149	citrus
+T21	Plant 276 289	citrus plants
+T22	Location 297 319	province of Entre Ríos
+T23	Disease 365 378	Huanglongbing
+T24	Disease 380 383	HLB
+T25	Location 522 546	town of Osvaldo Magnasco
+T26	Location 555 578	department of Concordia
+T27	Disease 580 583	HLB
+T28	Pest 609 632	Candidatus liberibacter
+T29	Plant 686 699	citrus fruits
+T30	Date 775 781	so far
+T31	Plant 1049 1062	citrus plants
+T32	Plant 1128 1147	poncirus trifoliata
+T33	Disease 1184 1187	HLB
+T34	Plant 1217 1223	citrus
+T35	Disease 1364 1367	HLB
+T36	Location 1968 1978	Entre Ríos
+T37	Plant 2002 2008	citrus
+T38	Plant 2091 2097	Citrus
+T39	Location 2155 2178	northeast of Entre Ríos
+T40	Disease 2324 2327	HLB
+N1	NCBI_Taxonomy Annotation:T16 Referent:2706
+N2	GeoNames Annotation:T17 Referent:3434137
+N3	NCBI_Taxonomy Annotation:T20 Referent:2706
+N4	NCBI_Taxonomy Annotation:T21 Referent:2706
+N5	GeoNames Annotation:T22 Referent:3434137
+N6	GeoNames Annotation:T25 Referent:3430270
+N7	GeoNames Annotation:T26 Referent:3435260
+N8	NCBI_Taxonomy Annotation:T28 Referent:309868
+N9	NCBI_Taxonomy Annotation:T28 Referent:34020
+N10	NCBI_Taxonomy Annotation:T28 Referent:34021
+N11	NCBI_Taxonomy Annotation:T29 Referent:2706
+N12	NCBI_Taxonomy Annotation:T31 Referent:2706
+N13	NCBI_Taxonomy Annotation:T32 Referent:37690
+N14	NCBI_Taxonomy Annotation:T34 Referent:2706
+N15	GeoNames Annotation:T36 Referent:3434137
+N16	NCBI_Taxonomy Annotation:T37 Referent:2706
+N17	NCBI_Taxonomy Annotation:T38 Referent:2706
+N18	GeoNames Annotation:T39 Referent:3434137
+R1	Located_in Object:T16 Location:T17
+R2	Located_in Object:T18 Location:T17
+R3	Expressed_by Disease:T18 Plant:T16
+R4	Expressed_by Disease:T19 Plant:T20
+R5	Located_in Object:T21 Location:T22
+R6	Located_in Object:T23 Location:T22
+R7	Expressed_by Disease:T23 Plant:T21
+R8	Expressed_by Disease:T27 Plant:T29
+R9	Causes Pest:T28 Disease:T27
+R10	Found_on Organism:T28 Habitat:T29
+R11	Expressed_by Disease:T33 Plant:T34
+R12	Located_in Object:T37 Location:T36
+R13	Located_in Object:T38 Location:T39
+E1	Nary Plante:T16 Maladie:T18 Lieu:T17
+E2	Nary Plante:T20 Maladie:T19
+E3	Nary Plante:T21 Maladie:T23 Lieu:T22
+E4	Nary Organisme_nuisible:T28 Plante:T29 Maladie:T27
+E5	Nary Plante:T34 Maladie:T33
+E6	Nary Plante:T37 Lieu:T36
+E7	Nary Plante:T38 Lieu:T39
+*	Equiv T23 T24

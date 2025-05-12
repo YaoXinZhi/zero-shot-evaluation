@@ -1,0 +1,201 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Phenotype",
+            "name": "nonvirulent",
+            "OntoBiotope": "OBT:002668"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "Ara+ Burkholderia pseudomallei",
+            "NCBI_Taxonomy": "95163"
+        },
+        {
+            "id": "T5",
+            "type": "Phenotype",
+            "name": "virulent",
+            "OntoBiotope": "OBT:002806"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "Ara-",
+            "NCBI_Taxonomy": "28450"
+        },
+        {
+            "id": "T7",
+            "type": "Habitat",
+            "name": "clinical",
+            "OntoBiotope": "OBT:003220"
+        },
+        {
+            "id": "T8",
+            "type": "Microorganism",
+            "name": "Burkholderia (Pseudomonas) pseudomallei",
+            "NCBI_Taxonomy": "28450"
+        },
+        {
+            "id": "T9",
+            "type": "Habitat",
+            "name": "clinical",
+            "OntoBiotope": "OBT:003220"
+        },
+        {
+            "id": "T10",
+            "type": "Phenotype",
+            "name": "virulent",
+            "OntoBiotope": "OBT:000375"
+        },
+        {
+            "id": "T11",
+            "type": "Microorganism",
+            "name": "B. pseudomallei",
+            "NCBI_Taxonomy": "28450"
+        },
+        {
+            "id": "T12",
+            "type": "Habitat",
+            "name": "sera from patients with different clinical spectra and with other infections",
+            "OntoBiotope": "OBT:000524"
+        },
+        {
+            "id": "T13",
+            "type": "Habitat",
+            "name": "patients with different clinical spectra and with other infections",
+            "OntoBiotope": "OBT:003269"
+        },
+        {
+            "id": "T14",
+            "type": "Phenotype",
+            "name": "gram-negative",
+            "OntoBiotope": "OBT:000648"
+        },
+        {
+            "id": "T15",
+            "type": "Microorganism",
+            "name": "Ara-",
+            "NCBI_Taxonomy": "28450"
+        },
+        {
+            "id": "T16",
+            "type": "Habitat",
+            "name": "clinical",
+            "OntoBiotope": "OBT:003220"
+        },
+        {
+            "id": "T17",
+            "type": "Microorganism",
+            "name": "Ara-",
+            "NCBI_Taxonomy": "28450"
+        },
+        {
+            "id": "T18",
+            "type": "Habitat",
+            "name": "soil",
+            "OntoBiotope": "OBT:000427"
+        },
+        {
+            "id": "T19",
+            "type": "Microorganism",
+            "name": "Ara+",
+            "NCBI_Taxonomy": "95163"
+        },
+        {
+            "id": "T20",
+            "type": "Habitat",
+            "name": "soil",
+            "OntoBiotope": "OBT:000427"
+        },
+        {
+            "id": "T21",
+            "type": "Habitat",
+            "name": "sera from patients with melioidosis",
+            "OntoBiotope": "OBT:000524"
+        },
+        {
+            "id": "T22",
+            "type": "Habitat",
+            "name": "patients with melioidosis",
+            "OntoBiotope": "OBT:003269"
+        },
+        {
+            "id": "T23",
+            "type": "Habitat",
+            "name": "hyperimmune mouse",
+            "OntoBiotope": "OBT:003211"
+        },
+        {
+            "id": "T24",
+            "type": "Habitat",
+            "name": "hyperimmune mouse sera",
+            "OntoBiotope": "OBT:000524"
+        },
+        {
+            "id": "T25",
+            "type": "Microorganism",
+            "name": "Ara-",
+            "NCBI_Taxonomy": "28450"
+        },
+        {
+            "id": "T26",
+            "type": "Microorganism",
+            "name": "Ara+",
+            "NCBI_Taxonomy": "95163"
+        },
+        {
+            "id": "T27",
+            "type": "Habitat",
+            "name": "microtiter plates",
+            "OntoBiotope": "OBT:000103"
+        },
+        {
+            "id": "T28",
+            "type": "Microorganism",
+            "name": "B. pseudomallei",
+            "NCBI_Taxonomy": "28450"
+        },
+        {
+            "id": "T29",
+            "type": "Phenotype",
+            "name": "virulence",
+            "OntoBiotope": "OBT:000375"
+        },
+        {
+            "id": "T30",
+            "type": "Phenotype",
+            "name": "pathogenicity",
+            "OntoBiotope": "OBT:000375"
+        },
+        {
+            "id": "T31",
+            "type": "Microorganism",
+            "name": "B. pseudomallei",
+            "NCBI_Taxonomy": "28450"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T4",
+            "target": "T3"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T6",
+            "target": "T5"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T31",
+            "target": "T30"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T31",
+            "target": "T29"
+        }
+    ]
+}

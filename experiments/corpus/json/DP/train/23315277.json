@@ -1,0 +1,141 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "Silica",
+            "Name": "silica"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "silica",
+            "Name": "silica"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "SiO(2)",
+            "Name": "sio2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "SiO(2)",
+            "Name": "sio2"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "SiO(2)",
+            "Name": "sio2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "SiO(2)",
+            "Name": "sio2"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "3-(4,5-dimethylthiazol-2-yl)-2,5-diphenyltetrazoliumbromide",
+            "Name": "345dimethylthiazol2yl25diphenyltetrazoliumbromide"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "lactate",
+            "Name": "lactate"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "lactate dehydrogenase",
+            "Name": "lactatedehydrogenase"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "SiO(2)",
+            "Name": "sio2"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "SiO(2)",
+            "Name": "sio2"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "caspase-9",
+            "Name": "caspase9"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "caspase-9",
+            "Name": "caspase9"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "SiO(2)",
+            "Name": "sio2"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "SiO(2)",
+            "Name": "sio2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T13",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T13",
+            "target": "T16"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T17"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T18"
+        }
+    ]
+}

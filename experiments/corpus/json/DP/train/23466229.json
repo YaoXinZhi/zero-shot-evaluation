@@ -1,0 +1,92 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "PF-04859989",
+            "Name": "pf04859989"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "pyrazole",
+            "Name": "pyrazole"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "KAT II",
+            "Name": "katii"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "pyrazole",
+            "Name": "pyrazole"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "KAT II",
+            "Name": "katii"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "dihydroquinolinone",
+            "Name": "dihydroquinolinone"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "tetrahydropyrazolopyridinone",
+            "Name": "tetrahydropyrazolopyridinone"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "KAT II",
+            "Name": "katii"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "pyrazole",
+            "Name": "pyrazole"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "KAT II",
+            "Name": "katii"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T8"
+        }
+    ]
+}

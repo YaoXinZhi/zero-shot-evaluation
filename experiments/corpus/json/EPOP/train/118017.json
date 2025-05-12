@@ -1,0 +1,179 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Location",
+            "name": "UK",
+            "GeoNames": "2635167"
+        },
+        {
+            "id": "T13",
+            "type": "Disease",
+            "name": "Panama disease"
+        },
+        {
+            "id": "T14",
+            "type": "Plant",
+            "name": "bananas",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T16",
+            "type": "Disease",
+            "name": "Panama disease"
+        },
+        {
+            "id": "T17",
+            "type": "Pest",
+            "name": "Fusarium oxysporum cubense Race 1",
+            "NCBI_Taxonomy": "1229664"
+        },
+        {
+            "id": "T18",
+            "type": "Plant",
+            "name": "Cavendish variety bananas",
+            "NCBI_Taxonomy": "214697"
+        },
+        {
+            "id": "T19",
+            "type": "Pest",
+            "name": "Tropical Race 4",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T20",
+            "type": "Plant",
+            "name": "Cavendish banana plantations",
+            "NCBI_Taxonomy": "214697"
+        },
+        {
+            "id": "T21",
+            "type": "Disease",
+            "name": "Panama disease"
+        },
+        {
+            "id": "T22",
+            "type": "Plant",
+            "name": "Cavendish bananas",
+            "NCBI_Taxonomy": "214697"
+        },
+        {
+            "id": "T23",
+            "type": "Plant",
+            "name": "Cavendish bananas",
+            "NCBI_Taxonomy": "214697"
+        },
+        {
+            "id": "T25",
+            "type": "Disease",
+            "name": "Panama disease"
+        },
+        {
+            "id": "T26",
+            "type": "Disease",
+            "name": "Panama disease"
+        },
+        {
+            "id": "T27",
+            "type": "Disease",
+            "name": "Panama disease"
+        },
+        {
+            "id": "T28",
+            "type": "Plant",
+            "name": "banana plant",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T29",
+            "type": "Disease",
+            "name": "Panama disease"
+        },
+        {
+            "id": "T30",
+            "type": "Plant",
+            "name": "bananas",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T31",
+            "type": "Plant",
+            "name": "bananas",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T32",
+            "type": "Disease",
+            "name": "Panama disease"
+        },
+        {
+            "id": "T33",
+            "type": "Plant",
+            "name": "banana",
+            "NCBI_Taxonomy": "4640"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Affects",
+            "source": "T13",
+            "target": "T14"
+        },
+        {
+            "type": "Affects",
+            "source": "T16",
+            "target": "T14"
+        },
+        {
+            "type": "Causes",
+            "source": "T17",
+            "target": "T16"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T17",
+            "target": "T14"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T19",
+            "target": "T20"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T19",
+            "target": "T23"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T19",
+            "target": "T22"
+        },
+        {
+            "type": "Affects",
+            "source": "T21",
+            "target": "T20"
+        },
+        {
+            "type": "Affects",
+            "source": "T21",
+            "target": "T23"
+        },
+        {
+            "type": "Affects",
+            "source": "T21",
+            "target": "T22"
+        },
+        {
+            "type": "Causes",
+            "source": "T19",
+            "target": "T21"
+        },
+        {
+            "type": "Affects",
+            "source": "T32",
+            "target": "T31"
+        }
+    ]
+}

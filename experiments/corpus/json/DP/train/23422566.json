@@ -1,0 +1,76 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "14-3-3 protein",
+            "Name": "1433protein"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "lysine",
+            "Name": "lysine"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "14-3-3 adapter protein",
+            "Name": "1433adapterprotein"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "14-3-3 protein",
+            "Name": "1433protein"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "phosphorylated (C-Raf)",
+            "Name": "phosphorylatedcraf"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "ExoS",
+            "Name": "exos"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "lysine",
+            "Name": "lysine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Lys",
+            "Name": "lys"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "14-3-3 protein",
+            "Name": "1433protein"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Part of",
+            "source": "T1",
+            "target": "T4"
+        },
+        {
+            "type": "Part of",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Part of",
+            "source": "T3",
+            "target": "T8"
+        }
+    ]
+}

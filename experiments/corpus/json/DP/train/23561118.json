@@ -1,0 +1,140 @@
+{
+    "entities": [
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "ethanol",
+            "Name": "ethanol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "phenolic",
+            "Name": "phenolic"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "flavonoid",
+            "Name": "flavonoid"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "polyphenolics",
+            "Name": "polyphenolics"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ferulic acid",
+            "Name": "ferulicacid"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "quercetin",
+            "Name": "quercetin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "ferulic acid",
+            "Name": "ferulicacid"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "quercetin",
+            "Name": "quercetin"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "quercetin",
+            "Name": "quercetin"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "ferulic acid",
+            "Name": "ferulicacid"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "caspase-9",
+            "Name": "caspase9"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "poly (ADP-ribose)",
+            "Name": "polyadpribose"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "poly (ADP-ribose) polymerase",
+            "Name": "polyadpribosepolymerase"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "homeobox 1",
+            "Name": "homeobox1"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T17"
+        }
+    ]
+}

@@ -1,0 +1,144 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "cyclin-dependent kinase 4/6",
+            "Name": "cyclindependentkinase46"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "PD 0332991",
+            "Name": "pd0332991"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "PD 0332991",
+            "Name": "pd0332991"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "cyclin-dependent kinase 4",
+            "Name": "cyclindependentkinase4"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Cdk4",
+            "Name": "cdk4"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "Cdk6",
+            "Name": "cdk6"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "kinases",
+            "Name": "kinases"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Rb",
+            "Name": "rb"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Ser",
+            "Name": "ser"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Ser",
+            "Name": "ser"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "Rb protein",
+            "Name": "rbprotein"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "PD 0332991",
+            "Name": "pd0332991"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "PD 0332991",
+            "Name": "pd0332991"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "phospho-Rb",
+            "Name": "phosphorb"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Ki-67",
+            "Name": "ki67"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "E2F",
+            "Name": "e2f"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Cdk4/6",
+            "Name": "cdk46"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Part of",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Part of",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T14"
+        }
+    ]
+}

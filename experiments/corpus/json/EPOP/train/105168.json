@@ -1,0 +1,142 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Pest",
+            "name": "tomato brown rugose fruit virus",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T11",
+            "type": "Location",
+            "name": "Finland",
+            "GeoNames": "660013"
+        },
+        {
+            "id": "T12",
+            "type": "Pest",
+            "name": "tomato brown rugose fruit virus",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T13",
+            "type": "Pest",
+            "name": "Tobamovirus",
+            "NCBI_Taxonomy": "12234"
+        },
+        {
+            "id": "T14",
+            "type": "Pest",
+            "name": "ToBRFV",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T16",
+            "type": "Plant",
+            "name": "Solanum lycopersicum",
+            "NCBI_Taxonomy": "4081"
+        },
+        {
+            "id": "T17",
+            "type": "Location",
+            "name": "municipality of Turku",
+            "GeoNames": "633679"
+        },
+        {
+            "id": "T18",
+            "type": "Location",
+            "name": "region of Varsinais-Suomi",
+            "GeoNames": "830708"
+        },
+        {
+            "id": "T19",
+            "type": "Plant",
+            "name": "Tomato plants",
+            "NCBI_Taxonomy": "4081"
+        },
+        {
+            "id": "T20",
+            "type": "Pest",
+            "name": "tomato brown rugose fruit virus",
+            "NCBI_Taxonomy": "1761477"
+        },
+        {
+            "id": "T21",
+            "type": "Location",
+            "name": "Finland",
+            "GeoNames": "660013"
+        }
+    ],
+    "equivalences": [
+        [
+            "T16",
+            "T19"
+        ],
+        [
+            "T14",
+            "T12"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T10",
+            "target": "T11"
+        },
+        {
+            "type": "Located in",
+            "source": "T13",
+            "target": "T18"
+        },
+        {
+            "type": "Located in",
+            "source": "T13",
+            "target": "T17"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T13",
+            "target": "T16"
+        },
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T17"
+        },
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T18"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T14",
+            "target": "T16"
+        },
+        {
+            "type": "Located in",
+            "source": "T16",
+            "target": "T18"
+        },
+        {
+            "type": "Located in",
+            "source": "T16",
+            "target": "T17"
+        },
+        {
+            "type": "Located in",
+            "source": "T16",
+            "target": "T18"
+        },
+        {
+            "type": "Located in",
+            "source": "T16",
+            "target": "T17"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T21"
+        }
+    ]
+}

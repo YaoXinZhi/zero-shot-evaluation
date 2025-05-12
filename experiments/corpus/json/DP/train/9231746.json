@@ -1,0 +1,246 @@
+{
+    "entities": [
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "calmodulin-stimulated cyclic nucleotide phosphodiesterase",
+            "Name": "calmodulinstimulatedcyclicnucleotidephosphodiesterase"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "nucleotide",
+            "Name": "nucleotide"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Calmodulin-dependent cyclic nucleotide phosphodiesterase",
+            "Name": "calmodulindependentcyclicnucleotidephosphodiesterase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "nucleotide",
+            "Name": "nucleotide"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "CaMPDE",
+            "Name": "campde"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "nucleotide",
+            "Name": "nucleotide"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "CaMPDE",
+            "Name": "campde"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "CaMPDE",
+            "Name": "campde"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "dihydropyridine",
+            "Name": "dihydropyridine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Ca2+-channel",
+            "Name": "ca2channel"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "felodipine",
+            "Name": "felodipine"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "nicardipine",
+            "Name": "nicardipine"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "CaMPDE",
+            "Name": "campde"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "PDE 1B1",
+            "Name": "pde1b1"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "PDE 1A2",
+            "Name": "pde1a2"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "CaMPDE",
+            "Name": "campde"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "felodipine",
+            "Name": "felodipine"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "nicardipine",
+            "Name": "nicardipine"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "CaMPDE",
+            "Name": "campde"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "Felodipine",
+            "Name": "felodipine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "nicardipine",
+            "Name": "nicardipine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "CaMPDE",
+            "Name": "campde"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "dihydropyridine",
+            "Name": "dihydropyridine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "Ca2+-channel",
+            "Name": "ca2channel"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T25"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T15",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T18"
+        }
+    ]
+}

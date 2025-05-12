@@ -1,0 +1,51 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Microorganism",
+            "name": "Corynebacterium ammoniagenes B1506",
+            "NCBI_Taxonomy": "1697"
+        },
+        {
+            "id": "T2",
+            "type": "Microorganism",
+            "name": "Lactococcus lactis\n B1157",
+            "NCBI_Taxonomy": "1358"
+        },
+        {
+            "id": "T3",
+            "type": "Phenotype",
+            "name": "able to produce considerable amounts of 3-methylbutanol",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T4",
+            "type": "Phenotype",
+            "name": "able to produce considerable amounts of 3-methylbutanal",
+            "OntoBiotope": "OBT:000019"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T1",
+            "target": "T4"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T1",
+            "target": "T3"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T2",
+            "target": "T4"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T2",
+            "target": "T3"
+        }
+    ]
+}

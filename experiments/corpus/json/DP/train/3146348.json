@@ -1,0 +1,239 @@
+{
+    "entities": [
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "human [Glu1]plasminogen",
+            "Name": "humanglu1plasminogen"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "human tissue plasminogen activator",
+            "Name": "humantissueplasminogenactivator"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "human [Glu1]plasminogen",
+            "Name": "humanglu1plasminogen"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "( Glu1]Pg",
+            "Name": "glu1pg"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "tissue plasminogen activator",
+            "Name": "tissueplasminogenactivator"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "t-PA",
+            "Name": "tpa"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Cl-",
+            "Name": "cl"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "epsilon-aminocaproic acid",
+            "Name": "epsilonaminocaproicacid"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "EACA",
+            "Name": "eaca"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Chloride",
+            "Name": "chloride"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "[Glu1]Pg",
+            "Name": "glu1pg"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "[Glu1]Pg",
+            "Name": "glu1pg"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "t-PA",
+            "Name": "tpa"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "EACA",
+            "Name": "eaca"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Cl-(-)",
+            "Name": "cl"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Cl-(-)",
+            "Name": "cl"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Fibrinogen",
+            "Name": "fibrinogen"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "t-PA",
+            "Name": "tpa"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Cl-",
+            "Name": "cl"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Cl-",
+            "Name": "cl"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "fibrinogen",
+            "Name": "fibrinogen"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "[Glu1]Pg",
+            "Name": "glu1pg"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "t-PA",
+            "Name": "tpa"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Cl-",
+            "Name": "cl"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "[Glu1]Pg",
+            "Name": "glu1pg"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "fibrinogen",
+            "Name": "fibrinogen"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "tissue plasminogen activator",
+            "Name": "tissueplasminogenactivator"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T19"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T19"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T19"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T11"
+        }
+    ]
+}

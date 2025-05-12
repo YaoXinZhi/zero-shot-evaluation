@@ -1,0 +1,127 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "rat beta1-adrenoceptor",
+            "Name": "ratbeta1adrenoceptor"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "(+/-)cyanopindolol",
+            "Name": "cyanopindolol"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "(+/-)[125Iodo]cyanopindolol",
+            "Name": "125iodocyanopindolol"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "rat beta(1)-adrenoceptor",
+            "Name": "ratbeta1adrenoceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "(+/-)cyanopindolol",
+            "Name": "cyanopindolol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "4-[3-(t-butylamino]-3-(2'-cyano-indoloxy)-2-propanolol",
+            "Name": "43tbutylamino32cyanoindoloxy2propanolol"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "(+/-)[(125)Iodo]cyanopindolol",
+            "Name": "125iodocyanopindolol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "1-(t-butylamino]-3-(2'-cyano-3'-iodo-indoloxy)-2-propanolol",
+            "Name": "1tbutylamino32cyano3iodoindoloxy2propanolol"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Phe",
+            "Name": "phe"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Ala",
+            "Name": "ala"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "rat beta(1)-adrenoceptors",
+            "Name": "ratbeta1adrenoceptors"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "(+/-)cyanopindolol",
+            "Name": "cyanopindolol"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "(+/-)[(125)Iodo]cyanopindolol",
+            "Name": "125iodocyanopindolol"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "(+/-)cyanopindolol",
+            "Name": "cyanopindolol"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "(+/-)[(125)Iodo]cyanopindolol",
+            "Name": "125iodocyanopindolol"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T14"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Part of",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Part of",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T14"
+        }
+    ]
+}

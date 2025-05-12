@@ -1,0 +1,35 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "organophosphates",
+            "Name": "organophosphates"
+        },
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T2",
+            "type": "Gene",
+            "name": "tau",
+            "Name": "tau"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T3"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T2"
+        }
+    ]
+}

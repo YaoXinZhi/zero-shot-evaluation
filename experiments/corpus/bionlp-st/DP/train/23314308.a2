@@ -1,0 +1,67 @@
+T21	CHEMICAL 108 115	calcium
+N1	Name Annotation:T21 Referent:calcium
+T27	GENE-N 210 232	L-type Ca(2+) channels
+N2	Name Annotation:T27 Referent:ltypeca2channels
+T17	CHEMICAL 217 223	Ca(2+)
+N3	Name Annotation:T17 Referent:ca2
+T28	GENE-N 234 238	LTCC
+N4	Name Annotation:T28 Referent:ltcc
+T7	CHEMICAL 285 291	Ca(2+)
+N5	Name Annotation:T7 Referent:ca2
+T9	CHEMICAL 401 414	phenylephrine
+N6	Name Annotation:T9 Referent:phenylephrine
+T10	CHEMICAL 467 477	nifedipine
+N7	Name Annotation:T10 Referent:nifedipine
+T11	CHEMICAL 492 510	tetraethylammonium
+N8	Name Annotation:T11 Referent:tetraethylammonium
+T12	CHEMICAL 512 515	TEA
+N9	Name Annotation:T12 Referent:tea
+T26	GENE-N 536 540	LTCC
+N10	Name Annotation:T26 Referent:ltcc
+T13	CHEMICAL 548 558	BAY K 8644
+N11	Name Annotation:T13 Referent:bayk8644
+T14	CHEMICAL 620 626	Ca(2+)
+N12	Name Annotation:T14 Referent:ca2
+T15	CHEMICAL 722 734	Tetrodotoxin
+N13	Name Annotation:T15 Referent:tetrodotoxin
+T16	CHEMICAL 746 755	capsaicin
+N14	Name Annotation:T16 Referent:capsaicin
+T18	CHEMICAL 1005 1015	BAY K 8644
+N15	Name Annotation:T18 Referent:bayk8644
+T19	CHEMICAL 1048 1058	nifedipine
+N16	Name Annotation:T19 Referent:nifedipine
+T29	GENE-N 1104 1109	LTCCs
+N17	Name Annotation:T29 Referent:ltccs
+T20	CHEMICAL 1125 1146	Inositol triphosphate
+N18	Name Annotation:T20 Referent:inositoltriphosphate
+T30	GENE-N 1125 1163	Inositol triphosphate (InsP3) receptor
+N19	Name Annotation:T30 Referent:inositoltriphosphateinsp3receptor
+T1	CHEMICAL 1175 1180	2-APB
+N20	Name Annotation:T1 Referent:2apb
+T2	CHEMICAL 1240 1248	caffeine
+N21	Name Annotation:T2 Referent:caffeine
+T3	CHEMICAL 1359 1365	Ca(2+)
+N22	Name Annotation:T3 Referent:ca2
+T22	GENE-N 1429 1434	LTCCs
+N23	Name Annotation:T22 Referent:ltccs
+T4	CHEMICAL 1478 1484	Ca(2+)
+N24	Name Annotation:T4 Referent:ca2
+T23	GENE-N 1510 1525	InsP3 receptors
+N25	Name Annotation:T23 Referent:insp3receptors
+T5	CHEMICAL 1549 1555	Ca(2+)
+N26	Name Annotation:T5 Referent:ca2
+T24	GENE-N 1549 1563	Ca(2+) channel
+N27	Name Annotation:T24 Referent:ca2channel
+T6	CHEMICAL 1572 1578	Ca(2+)
+N28	Name Annotation:T6 Referent:ca2
+T25	GENE-N 1644 1649	LTCCs
+N29	Name Annotation:T25 Referent:ltccs
+T8	CHEMICAL 1709 1715	Ca(2+)
+N30	Name Annotation:T8 Referent:ca2
+R1	ACTIVATOR Arg1:T13 Arg2:T26
+R2	ACTIVATOR Arg1:T18 Arg2:T29
+R3	INHIBITOR Arg1:T19 Arg2:T29
+R4	ANTAGONIST Arg1:T1 Arg2:T30
+R5	SUBSTRATE Arg1:T4 Arg2:T22
+R6	SUBSTRATE Arg1:T6 Arg2:T24
+R7	SUBSTRATE Arg1:T8 Arg2:T25

@@ -1,0 +1,184 @@
+{
+    "entities": [
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Peroxisome proliferator-activated receptors alpha and gamma",
+            "Name": "peroxisomeproliferatoractivatedreceptorsalphaandgamma"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "indomethacin",
+            "Name": "indomethacin"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "steroidal",
+            "Name": "steroidal"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Indomethacin",
+            "Name": "indomethacin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "steroidal",
+            "Name": "steroidal"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "indomethacin",
+            "Name": "indomethacin"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "insulin promotes",
+            "Name": "insulinpromotes"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "indomethacin",
+            "Name": "indomethacin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "indomethacin",
+            "Name": "indomethacin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "peroxisome proliferator-activated receptor gamma",
+            "Name": "peroxisomeproliferatoractivatedreceptorgamma"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "indomethacin",
+            "Name": "indomethacin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "fenoprofen",
+            "Name": "fenoprofen"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "ibuprofen",
+            "Name": "ibuprofen"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "flufenamic acid",
+            "Name": "flufenamicacid"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PPARalpha",
+            "Name": "pparalpha"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PPAR",
+            "Name": "ppar"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T19"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T18"
+        },
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T18"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T20"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T21"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T21"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T21"
+        }
+    ]
+}

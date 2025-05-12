@@ -1,0 +1,88 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Cytochrome P450 2B4",
+            "Name": "cytochromep4502b4"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Paroxetine",
+            "Name": "paroxetine"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "cytochrome P450 2B4",
+            "Name": "cytochromep4502b4"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "paroxetine",
+            "Name": "paroxetine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "amlodipine",
+            "Name": "amlodipine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "4-(4-chlorophenyl)imidazole",
+            "Name": "44chlorophenylimidazole"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "P450 2B4",
+            "Name": "p4502b4"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "2B4",
+            "Name": "2b4"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "paroxetine",
+            "Name": "paroxetine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "paroxetine",
+            "Name": "paroxetine"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "P450 2B4",
+            "Name": "p4502b4"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T8"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T10"
+        }
+    ]
+}

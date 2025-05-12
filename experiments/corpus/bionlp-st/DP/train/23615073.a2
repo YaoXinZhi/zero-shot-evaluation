@@ -1,0 +1,53 @@
+T8	CHEMICAL 0 9	Vitamin C
+N1	Name Annotation:T8 Referent:vitaminc
+T24	GENE-N 45 50	NF-κB
+N2	Name Annotation:T24 Referent:nfκb
+T11	GENE-N 215 220	NF-κB
+N3	Name Annotation:T11 Referent:nfκb
+T4	CHEMICAL 266 275	vitamin C
+N4	Name Annotation:T4 Referent:vitaminc
+T13	GENE-N 334 339	NF-κB
+N5	Name Annotation:T13 Referent:nfκb
+T14	GENE-Y 380 385	I-κBε
+N6	Name Annotation:T14 Referent:iκbε
+T15	GENE-Y 415 420	c-Rel
+N7	Name Annotation:T15 Referent:crel
+T16	GENE-Y 421 424	p50
+N8	Name Annotation:T16 Referent:p50
+T5	CHEMICAL 519 528	vitamin C
+N9	Name Annotation:T5 Referent:vitaminc
+T17	GENE-N 557 562	NF-κB
+N10	Name Annotation:T17 Referent:nfκb
+T18	GENE-N 594 599	NF-κB
+N11	Name Annotation:T18 Referent:nfκb
+T19	GENE-Y 699 704	I-κBε
+N12	Name Annotation:T19 Referent:iκbε
+T20	GENE-Y 738 743	c-Rel
+N13	Name Annotation:T20 Referent:crel
+T6	CHEMICAL 842 851	vitamin C
+N14	Name Annotation:T6 Referent:vitaminc
+T21	GENE-N 940 945	NF-κB
+N15	Name Annotation:T21 Referent:nfκb
+T22	GENE-Y 959 964	I-κBε
+N16	Name Annotation:T22 Referent:iκbε
+T23	GENE-Y 981 986	c-Rel
+N17	Name Annotation:T23 Referent:crel
+T7	CHEMICAL 1034 1043	vitamin C
+N18	Name Annotation:T7 Referent:vitaminc
+T9	GENE-Y 1118 1123	c-Rel
+N19	Name Annotation:T9 Referent:crel
+T1	CHEMICAL 1185 1194	vitamin C
+N20	Name Annotation:T1 Referent:vitaminc
+T2	CHEMICAL 1215 1224	vitamin C
+N21	Name Annotation:T2 Referent:vitaminc
+T10	GENE-Y 1264 1269	c-Rel
+N22	Name Annotation:T10 Referent:crel
+T3	CHEMICAL 1328 1337	vitamin C
+N23	Name Annotation:T3 Referent:vitaminc
+T12	GENE-N 1361 1366	NF-κB
+N24	Name Annotation:T12 Referent:nfκb
+R1	INHIBITOR Arg1:T8 Arg2:T24
+R2	INHIBITOR Arg1:T4 Arg2:T13
+R3	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T10
+R4	INHIBITOR Arg1:T3 Arg2:T12
+R5	DIRECT-REGULATOR Arg1:T7 Arg2:T21

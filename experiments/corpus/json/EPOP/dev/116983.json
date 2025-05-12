@@ -1,0 +1,141 @@
+{
+    "entities": [
+        {
+            "id": "T21",
+            "type": "Pest",
+            "name": "oriental fruit fly",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T22",
+            "type": "Location",
+            "name": "Campania",
+            "GeoNames": "3181042"
+        },
+        {
+            "id": "T23",
+            "type": "Pest",
+            "name": "oriental fruit fly",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T24",
+            "type": "Location",
+            "name": "Campania",
+            "GeoNames": "3181042"
+        },
+        {
+            "id": "T26",
+            "type": "Pest",
+            "name": "oriental fruit fly",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T27",
+            "type": "Location",
+            "name": "Campania",
+            "GeoNames": "3181042"
+        },
+        {
+            "id": "T28",
+            "type": "Location",
+            "name": "Europe",
+            "GeoNames": "6255148"
+        },
+        {
+            "id": "T29",
+            "type": "Location",
+            "name": "Mediterranean basin",
+            "GeoNames": "12217088"
+        },
+        {
+            "id": "T30",
+            "type": "Plant",
+            "name": "wine",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T31",
+            "type": "Location",
+            "name": "Campania",
+            "GeoNames": "3181042"
+        },
+        {
+            "id": "T32",
+            "type": "Location",
+            "name": "province of Naples",
+            "GeoNames": "3172391"
+        },
+        {
+            "id": "T33",
+            "type": "Location",
+            "name": "province of Avellino",
+            "GeoNames": "3182649"
+        },
+        {
+            "id": "T34",
+            "type": "Pest",
+            "name": "Bactrocera Dorsalis",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T35",
+            "type": "Pest",
+            "name": "oriental fly",
+            "NCBI_Taxonomy": "27457"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T21",
+            "target": "T22"
+        },
+        {
+            "type": "Located in",
+            "source": "T23",
+            "target": "T24"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T27"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T28"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T29"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T31"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T26",
+            "target": "T30"
+        },
+        {
+            "type": "Located in",
+            "source": "T30",
+            "target": "T31"
+        },
+        {
+            "type": "Located in",
+            "source": "T34",
+            "target": "T32"
+        },
+        {
+            "type": "Located in",
+            "source": "T34",
+            "target": "T33"
+        }
+    ]
+}

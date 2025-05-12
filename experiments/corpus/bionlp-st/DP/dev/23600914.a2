@@ -1,0 +1,93 @@
+T13	CHEMICAL 0 24	24(S)-hydroxycholesterol
+N1	Name Annotation:T13 Referent:24shydroxycholesterol
+T37	GENE 71 76	ABCA1
+N2	Name Annotation:T37 Referent:abca1
+T9	CHEMICAL 83 94	cholesterol
+N3	Name Annotation:T9 Referent:cholesterol
+T6	CHEMICAL 117 128	cholesterol
+N4	Name Annotation:T6 Referent:cholesterol
+T21	GENE 117 143	cholesterol 24-hydroxylase
+N5	Name Annotation:T21 Referent:cholesterol24hydroxylase
+T3	CHEMICAL 208 232	24(S)-hydroxycholesterol
+N6	Name Annotation:T3 Referent:24shydroxycholesterol
+T4	CHEMICAL 234 240	24-OHC
+N7	Name Annotation:T4 Referent:24ohc
+T20	GENE 255 269	24-hydroxylase
+N8	Name Annotation:T20 Referent:24hydroxylase
+T5	CHEMICAL 441 447	24-OHC
+N9	Name Annotation:T5 Referent:24ohc
+T22	GENE 475 487	transporters
+N10	Name Annotation:T22 Referent:transporters
+T23	GENE 535 540	ABCA1
+N11	Name Annotation:T23 Referent:abca1
+T24	GENE 545 550	ABCG1
+N12	Name Annotation:T24 Referent:abcg1
+T7	CHEMICAL 566 572	24-OHC
+N13	Name Annotation:T7 Referent:24ohc
+T8	CHEMICAL 585 593	TO901317
+N14	Name Annotation:T8 Referent:to901317
+T10	CHEMICAL 598 611	retinoic acid
+N15	Name Annotation:T10 Referent:retinoicacid
+T25	GENE 638 655	nuclear receptors
+N16	Name Annotation:T25 Referent:nuclearreceptors
+T26	GENE 656 659	LXR
+N17	Name Annotation:T26 Referent:lxr
+T27	GENE 660 663	RXR
+N18	Name Annotation:T27 Referent:rxr
+T28	GENE 688 693	ABCA1
+N19	Name Annotation:T28 Referent:abca1
+T29	GENE 698 703	ABCG1
+N20	Name Annotation:T29 Referent:abcg1
+T11	CHEMICAL 717 723	24-OHC
+N21	Name Annotation:T11 Referent:24ohc
+T30	GENE 765 789	high density lipoprotein
+N22	Name Annotation:T30 Referent:highdensitylipoprotein
+T31	GENE 791 794	HDL
+N23	Name Annotation:T31 Referent:hdl
+T32	GENE 805 823	apolipoprotein A-I
+N24	Name Annotation:T32 Referent:apolipoproteinai
+T33	GENE 914 919	ABCA1
+N25	Name Annotation:T33 Referent:abca1
+T34	GENE 932 937	ABCG1
+N26	Name Annotation:T34 Referent:abcg1
+T35	GENE 1029 1040	human ABCA1
+N27	Name Annotation:T35 Referent:humanabca1
+T36	GENE 1044 1049	ABCG1
+N28	Name Annotation:T36 Referent:abcg1
+T12	CHEMICAL 1071 1077	24-OHC
+N29	Name Annotation:T12 Referent:24ohc
+T14	GENE 1104 1107	HDL
+N30	Name Annotation:T14 Referent:hdl
+T15	GENE 1143 1161	apolipoprotein A-I
+N31	Name Annotation:T15 Referent:apolipoproteinai
+T16	GENE 1236 1239	LXR
+N32	Name Annotation:T16 Referent:lxr
+T17	GENE 1240 1243	RXR
+N33	Name Annotation:T17 Referent:rxr
+T1	CHEMICAL 1279 1285	24-OHC
+N34	Name Annotation:T1 Referent:24ohc
+T18	GENE 1314 1319	ABCA1
+N35	Name Annotation:T18 Referent:abca1
+T2	CHEMICAL 1340 1346	24-OHC
+N36	Name Annotation:T2 Referent:24ohc
+T19	GENE 1366 1369	HDL
+N37	Name Annotation:T19 Referent:hdl
+R1	SUBSTRATE Arg1:T9 Arg2:T21
+R2	PRODUCT-OF Arg1:T3 Arg2:T20
+R3	PRODUCT-OF Arg1:T4 Arg2:T20
+R4	SUBSTRATE Arg1:T13 Arg2:T37
+R5	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T23
+R6	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T24
+R7	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T23
+R8	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T24
+R9	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T23
+R10	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T24
+R11	DIRECT-REGULATOR Arg1:T8 Arg2:T25
+R12	DIRECT-REGULATOR Arg1:T8 Arg2:T26
+R13	DIRECT-REGULATOR Arg1:T8 Arg2:T27
+R14	DIRECT-REGULATOR Arg1:T10 Arg2:T25
+R15	DIRECT-REGULATOR Arg1:T10 Arg2:T26
+R16	DIRECT-REGULATOR Arg1:T10 Arg2:T27
+R17	SUBSTRATE Arg1:T12 Arg2:T35
+R18	SUBSTRATE Arg1:T12 Arg2:T36
+R19	SUBSTRATE Arg1:T2 Arg2:T18

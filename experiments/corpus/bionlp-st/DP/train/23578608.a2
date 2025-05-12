@@ -1,0 +1,74 @@
+T22	CHEMICAL 14 20	stanol
+N1	Name Annotation:T22 Referent:stanol
+T23	CHEMICAL 54 65	cholesterol
+N2	Name Annotation:T23 Referent:cholesterol
+T8	CHEMICAL 150 161	cholesterol
+N3	Name Annotation:T8 Referent:cholesterol
+T19	CHEMICAL 197 203	stanol
+N4	Name Annotation:T19 Referent:stanol
+T3	CHEMICAL 263 274	cholesterol
+N5	Name Annotation:T3 Referent:cholesterol
+T4	CHEMICAL 298 309	cholesterol
+N6	Name Annotation:T4 Referent:cholesterol
+T5	CHEMICAL 365 385	stanyl hemisuccinate
+N7	Name Annotation:T5 Referent:stanylhemisuccinate
+T6	CHEMICAL 405 430	stanyl sorbitol succinate
+N8	Name Annotation:T6 Referent:stanylsorbitolsuccinate
+T7	CHEMICAL 479 490	cholesterol
+N9	Name Annotation:T7 Referent:cholesterol
+T26	GENE-N 495 518	low density lipoprotein
+N10	Name Annotation:T26 Referent:lowdensitylipoprotein
+T9	CHEMICAL 519 530	cholesterol
+N11	Name Annotation:T9 Referent:cholesterol
+T10	CHEMICAL 572 587	triacylglycerol
+N12	Name Annotation:T10 Referent:triacylglycerol
+T27	GENE-N 592 616	high density lipoprotein
+N13	Name Annotation:T27 Referent:highdensitylipoprotein
+T11	CHEMICAL 617 628	cholesterol
+N14	Name Annotation:T11 Referent:cholesterol
+T12	CHEMICAL 640 646	stanol
+N15	Name Annotation:T12 Referent:stanol
+T13	CHEMICAL 675 686	cholesterol
+N16	Name Annotation:T13 Referent:cholesterol
+T14	CHEMICAL 722 733	cholesterol
+N17	Name Annotation:T14 Referent:cholesterol
+T15	CHEMICAL 764 784	stanyl hemisuccinate
+N18	Name Annotation:T15 Referent:stanylhemisuccinate
+T16	CHEMICAL 795 820	stanyl sorbitol succinate
+N19	Name Annotation:T16 Referent:stanylsorbitolsuccinate
+T28	GENE-Y 846 868	liver X receptor alpha
+N20	Name Annotation:T28 Referent:liverxreceptoralpha
+T29	GENE-Y 870 874	LXRα
+N21	Name Annotation:T29 Referent:lxrα
+T17	CHEMICAL 902 913	cholesterol
+N22	Name Annotation:T17 Referent:cholesterol
+T30	GENE-Y 902 928	cholesterol 7α-hydroxylase
+N23	Name Annotation:T30 Referent:cholesterol7αhydroxylase
+T31	GENE-Y 930 936	CYP7A1
+N24	Name Annotation:T31 Referent:cyp7a1
+T18	CHEMICAL 966 975	bile acid
+N25	Name Annotation:T18 Referent:bileacid
+T20	CHEMICAL 1043 1049	stanol
+N26	Name Annotation:T20 Referent:stanol
+T21	CHEMICAL 1076 1087	cholesterol
+N27	Name Annotation:T21 Referent:cholesterol
+T1	CHEMICAL 1145 1151	stanol
+N28	Name Annotation:T1 Referent:stanol
+T24	GENE-Y 1204 1208	LXRα
+N29	Name Annotation:T24 Referent:lxrα
+T25	GENE-Y 1209 1215	CYP7A1
+N30	Name Annotation:T25 Referent:cyp7a1
+T2	CHEMICAL 1216 1225	bile acid
+N31	Name Annotation:T2 Referent:bileacid
+R1	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T26
+R2	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T26
+R3	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T28
+R4	INDIRECT-UPREGULATOR Arg1:T16 Arg2:T28
+R5	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T29
+R6	INDIRECT-UPREGULATOR Arg1:T16 Arg2:T29
+R7	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T30
+R8	INDIRECT-UPREGULATOR Arg1:T16 Arg2:T30
+R9	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T31
+R10	INDIRECT-UPREGULATOR Arg1:T16 Arg2:T31
+R11	ACTIVATOR Arg1:T20 Arg2:T24
+R12	ACTIVATOR Arg1:T20 Arg2:T25

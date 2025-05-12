@@ -1,0 +1,69 @@
+T29	Plant 57 63	banana
+T30	Disease 190 200	fusariosis
+T31	Disease 310 328	fusariosis disease
+T32	Plant 369 381	banana trees
+T33	Pest 483 502	banana tree moleque
+T34	Disease 825 835	Fusariosis
+T35	Disease 852 866	Panama disease
+T36	Location 1178 1184	Brazil
+T37	Plant 1643 1649	banana
+T38	Location 1661 1686	region of Vale do Ribeira
+T39	Pest 1866 1878	banana borer
+T40	Pest 1880 1901	Cosmopolites sordidus
+T41	Pest 1936 1969	Fusarium oxysporum f. sp. cubense
+T42	Pest 1971 1974	FOC
+T43	Disease 1990 2000	fusariosis
+T44	Date 2030 2048	for the first time
+T45	Pest 2113 2126	banana borers
+T46	Pest 2593 2605	banana borer
+T47	Pest 3495 3505	fungus FOC
+T48	Pest 3585 3595	fungus FOC
+T49	Pest 4032 4035	FOC
+T50	Plant 4123 4141	banana plantations
+T51	Pest 4158 4170	banana borer
+T52	Pest 4417 4428	C. sordidus
+T53	Plant 5060 5078	banana cultivation
+T54	Pest 5457 5478	Cosmopolites sordidus
+T55	Pest 5511 5544	Fusarium oxysporum f. sp. cubense
+N1	NCBI_Taxonomy Annotation:T29 Referent:4640
+N2	NCBI_Taxonomy Annotation:T32 Referent:4640
+N3	NCBI_Taxonomy Annotation:T33 Referent:206492
+N4	GeoNames Annotation:T36 Referent:3469034
+N5	NCBI_Taxonomy Annotation:T37 Referent:4640
+N6	GeoNames Annotation:T38 Referent:3448433
+N7	GeoNames Annotation:T38 Referent:3455077
+N8	NCBI_Taxonomy Annotation:T39 Referent:206492
+N9	NCBI_Taxonomy Annotation:T40 Referent:206492
+N10	NCBI_Taxonomy Annotation:T41 Referent:61366
+N11	NCBI_Taxonomy Annotation:T41 Referent:2502994
+N12	NCBI_Taxonomy Annotation:T42 Referent:61366
+N13	NCBI_Taxonomy Annotation:T42 Referent:2502994
+N14	NCBI_Taxonomy Annotation:T45 Referent:206492
+N15	NCBI_Taxonomy Annotation:T46 Referent:206492
+N16	NCBI_Taxonomy Annotation:T47 Referent:61366
+N17	NCBI_Taxonomy Annotation:T47 Referent:2502994
+N18	NCBI_Taxonomy Annotation:T48 Referent:61366
+N19	NCBI_Taxonomy Annotation:T48 Referent:2502994
+N20	NCBI_Taxonomy Annotation:T49 Referent:61366
+N21	NCBI_Taxonomy Annotation:T49 Referent:2502994
+N22	NCBI_Taxonomy Annotation:T50 Referent:4640
+N23	NCBI_Taxonomy Annotation:T51 Referent:206492
+N24	NCBI_Taxonomy Annotation:T52 Referent:206492
+N25	NCBI_Taxonomy Annotation:T53 Referent:4640
+N26	NCBI_Taxonomy Annotation:T54 Referent:206492
+N27	NCBI_Taxonomy Annotation:T55 Referent:61366
+N28	NCBI_Taxonomy Annotation:T55 Referent:2502994
+R1	Expressed_by Disease:T31 Plant:T32
+R2	Found_on Organism:T33 Habitat:T32
+R3	Located_in Object:T37 Location:T38
+R4	Causes Pest:T41 Disease:T43
+R5	Found_on Organism:T51 Habitat:T50
+E1	Nary Plante:T32 Maladie:T31
+E2	Nary Organisme_nuisible:T33 Plante:T32
+E3	Nary Plante:T37 Lieu:T38
+E4	Nary Organisme_nuisible:T41 Maladie:T43
+E5	Nary Organisme_nuisible:T51 Plante:T50
+*	Equiv T52 T51
+*	Equiv T39 T40
+*	Equiv T41 T42
+*	Equiv T34 T35

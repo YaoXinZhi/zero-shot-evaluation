@@ -1,0 +1,42 @@
+T9	CHEMICAL 0 19	tert-Butylcarbamate
+N1	Name Annotation:T9 Referent:tertbutylcarbamate
+T15	GENE-N 31 50	Histone Deacetylase
+N2	Name Annotation:T15 Referent:histonedeacetylase
+T2	CHEMICAL 178 185	pyrrole
+N3	Name Annotation:T2 Referent:pyrrole
+T4	CHEMICAL 191 198	benzene
+N4	Name Annotation:T4 Referent:benzene
+T6	CHEMICAL 205 217	hydroxamates
+N5	Name Annotation:T6 Referent:hydroxamates
+T8	CHEMICAL 230 246	2'-aminoanilides
+N6	Name Annotation:T8 Referent:2aminoanilides
+T1	CHEMICAL 267 286	tert-butylcarbamate
+N7	Name Annotation:T1 Referent:tertbutylcarbamate
+T10	GENE-N 314 333	histone deacetylase
+N8	Name Annotation:T10 Referent:histonedeacetylase
+T11	GENE-N 335 339	HDAC
+N9	Name Annotation:T11 Referent:hdac
+T12	GENE-Y 398 403	HDAC6
+N10	Name Annotation:T12 Referent:hdac6
+T3	CHEMICAL 446 458	hydroxamates
+N11	Name Annotation:T3 Referent:hydroxamates
+T13	GENE-N 483 499	acetyl-α-tubulin
+N12	Name Annotation:T13 Referent:acetylαtubulin
+T5	CHEMICAL 647 651	SAHA
+N13	Name Annotation:T5 Referent:saha
+T7	CHEMICAL 670 685	pyrrole anilide
+N14	Name Annotation:T7 Referent:pyrroleanilide
+T14	GENE-N 1113 1123	histone H3
+N15	Name Annotation:T14 Referent:histoneh3
+R1	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T13
+R2	INHIBITOR Arg1:T9 Arg2:T15
+R3	INHIBITOR Arg1:T2 Arg2:T10
+R4	INHIBITOR Arg1:T4 Arg2:T10
+R5	INHIBITOR Arg1:T6 Arg2:T10
+R6	INHIBITOR Arg1:T8 Arg2:T10
+R7	INHIBITOR Arg1:T1 Arg2:T10
+R8	INHIBITOR Arg1:T2 Arg2:T11
+R9	INHIBITOR Arg1:T4 Arg2:T11
+R10	INHIBITOR Arg1:T6 Arg2:T11
+R11	INHIBITOR Arg1:T8 Arg2:T11
+R12	INHIBITOR Arg1:T1 Arg2:T11

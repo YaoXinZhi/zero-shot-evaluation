@@ -1,0 +1,141 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "\u03b2(2)-adrenoceptors",
+            "Name": "\u03b22adrenoceptors"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "\u03b2(2)ARs",
+            "Name": "\u03b22ars"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "corticosteroids",
+            "Name": "corticosteroids"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "cAMP-dependent protein kinase",
+            "Name": "campdependentproteinkinase"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "PKA",
+            "Name": "pka"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Epac",
+            "Name": "epac"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "prostaglandin E(2)",
+            "Name": "prostaglandine2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "phosphodiesterase",
+            "Name": "phosphodiesterase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "\u03b2(2)ARs",
+            "Name": "\u03b22ars"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "\u03b2(2)AR",
+            "Name": "\u03b22ar"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "\u03b2(2)ARs",
+            "Name": "\u03b22ars"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "\u03b2(2)ARs",
+            "Name": "\u03b22ars"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T18"
+        }
+    ]
+}

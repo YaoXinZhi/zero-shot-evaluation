@@ -1,0 +1,64 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Location",
+            "name": "R\u00e9union",
+            "GeoNames": "935317"
+        },
+        {
+            "id": "T21",
+            "type": "Location",
+            "name": "Reunion",
+            "GeoNames": "935317"
+        },
+        {
+            "id": "T22",
+            "type": "Location",
+            "name": "Reunion",
+            "GeoNames": "935317"
+        },
+        {
+            "id": "T23",
+            "type": "Plant",
+            "name": "citrus fruits",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T24",
+            "type": "Location",
+            "name": "Petite-Ile",
+            "GeoNames": "935213"
+        },
+        {
+            "id": "T25",
+            "type": "Location",
+            "name": "Reunion",
+            "GeoNames": "935317"
+        },
+        {
+            "id": "T26",
+            "type": "Pest",
+            "name": "Bactrocera dorsalis",
+            "NCBI_Taxonomy": "27457"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T23",
+            "target": "T24"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T24"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T26",
+            "target": "T23"
+        }
+    ]
+}

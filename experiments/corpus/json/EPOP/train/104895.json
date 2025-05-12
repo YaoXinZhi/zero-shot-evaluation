@@ -1,0 +1,104 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Pest",
+            "name": "Eastern Fruit Moscow",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T12",
+            "type": "Location",
+            "name": "Campania",
+            "GeoNames": "3181042"
+        },
+        {
+            "id": "T13",
+            "type": "Pest",
+            "name": "Bactrocera dorsalis",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T14",
+            "type": "Pest",
+            "name": "Eastern fruit fly",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T15",
+            "type": "Pest",
+            "name": "Eastern fruit fly",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T16",
+            "type": "Location",
+            "name": "Campania",
+            "GeoNames": "3181042"
+        },
+        {
+            "id": "T17",
+            "type": "Pest",
+            "name": "Bactrocera dorsalis",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T18",
+            "type": "Pest",
+            "name": "Eastern fruit fly",
+            "NCBI_Taxonomy": "27457"
+        },
+        {
+            "id": "T19",
+            "type": "Location",
+            "name": "limited area of Campania",
+            "GeoNames": "3181042"
+        },
+        {
+            "id": "T20",
+            "type": "Location",
+            "name": "territory of Palma Campania",
+            "GeoNames": "6537345"
+        },
+        {
+            "id": "T21",
+            "type": "Location",
+            "name": "Campania Region",
+            "GeoNames": "3181042"
+        },
+        {
+            "id": "T22",
+            "type": "Pest",
+            "name": "B. dorsalis",
+            "NCBI_Taxonomy": "27457"
+        }
+    ],
+    "equivalences": [
+        [
+            "T17",
+            "T18"
+        ],
+        [
+            "T13",
+            "T11",
+            "T14"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T13",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T17",
+            "target": "T19"
+        },
+        {
+            "type": "Located in",
+            "source": "T17",
+            "target": "T20"
+        }
+    ]
+}

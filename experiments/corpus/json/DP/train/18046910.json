@@ -1,0 +1,118 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "tolcapone",
+            "Name": "tolcapone"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "levodopa",
+            "Name": "levodopa"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "COMT",
+            "Name": "comt"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "levodopa",
+            "Name": "levodopa"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Tolcapone",
+            "Name": "tolcapone"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "catechol",
+            "Name": "catechol"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "catechol-O-methyltransferase",
+            "Name": "catecholomethyltransferase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "O",
+            "Name": "o"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "COMT",
+            "Name": "comt"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "tolcapone",
+            "Name": "tolcapone"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "tolcapone",
+            "Name": "tolcapone"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "entacapone",
+            "Name": "entacapone"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "tolcapone",
+            "Name": "tolcapone"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Tolcapone",
+            "Name": "tolcapone"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "tolcapone",
+            "Name": "tolcapone"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "tolcapone",
+            "Name": "tolcapone"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T14"
+        }
+    ]
+}

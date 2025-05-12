@@ -1,0 +1,39 @@
+T5	CHEMICAL 5 12	glucose
+N1	Name Annotation:T5 Referent:glucose
+T18	GENE 65 78	interleukin-8
+N2	Name Annotation:T18 Referent:interleukin8
+T12	GENE 226 239	Interluekin-8
+N3	Name Annotation:T12 Referent:interluekin8
+T16	GENE 241 245	IL-8
+N4	Name Annotation:T16 Referent:il8
+T3	CHEMICAL 690 697	glucose
+N5	Name Annotation:T3 Referent:glucose
+T7	GENE 719 723	IL-8
+N6	Name Annotation:T7 Referent:il8
+T8	GENE 739 771	epidermal growth factor receptor
+N7	Name Annotation:T8 Referent:epidermalgrowthfactorreceptor
+T9	GENE 773 777	EGFR
+N8	Name Annotation:T9 Referent:egfr
+T10	GENE 780 816	extracelluar signal-regulated kinase
+N9	Name Annotation:T10 Referent:extracelluarsignalregulatedkinase
+T11	GENE 818 821	ERK
+N10	Name Annotation:T11 Referent:erk
+T4	CHEMICAL 845 851	oxygen
+N11	Name Annotation:T4 Referent:oxygen
+T13	GENE 948 952	EGFR
+N12	Name Annotation:T13 Referent:egfr
+T14	GENE 954 957	ERK
+N13	Name Annotation:T14 Referent:erk
+T15	GENE 962 966	IL-8
+N14	Name Annotation:T15 Referent:il8
+T17	GENE 1088 1103	myeloperoxidase
+N15	Name Annotation:T17 Referent:myeloperoxidase
+T1	CHEMICAL 1187 1194	dapsone
+N16	Name Annotation:T1 Referent:dapsone
+T6	GENE 1296 1300	IL-8
+N17	Name Annotation:T6 Referent:il8
+T2	CHEMICAL 1362 1369	glucose
+N18	Name Annotation:T2 Referent:glucose
+R1	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T18
+R2	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T7
+R3	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T6

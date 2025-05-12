@@ -1,0 +1,74 @@
+T17	CHEMICAL 41 54	retinoic acid
+N1	Name Annotation:T17 Referent:retinoicacid
+T18	CHEMICAL 68 79	cholesterol
+N2	Name Annotation:T18 Referent:cholesterol
+T1	CHEMICAL 93 106	Retinoic acid
+N3	Name Annotation:T1 Referent:retinoicacid
+T5	CHEMICAL 108 110	RA
+N4	Name Annotation:T5 Referent:ra
+T13	CHEMICAL 155 164	vitamin A
+N5	Name Annotation:T13 Referent:vitamina
+T4	CHEMICAL 226 228	RA
+N6	Name Annotation:T4 Referent:ra
+T6	CHEMICAL 296 303	retinal
+N7	Name Annotation:T6 Referent:retinal
+T22	GENE-N 296 318	retinal dehydrogenases
+N8	Name Annotation:T22 Referent:retinaldehydrogenases
+T23	GENE-N 320 326	RALDHs
+N9	Name Annotation:T23 Referent:raldhs
+T7	CHEMICAL 362 364	RA
+N10	Name Annotation:T7 Referent:ra
+T8	CHEMICAL 383 390	retinal
+N11	Name Annotation:T8 Referent:retinal
+T9	CHEMICAL 451 462	cholesterol
+N12	Name Annotation:T9 Referent:cholesterol
+T24	GENE-N 490 502	RALDH1 and 2
+N13	Name Annotation:T24 Referent:raldh1and2
+T10	CHEMICAL 526 528	RA
+N14	Name Annotation:T10 Referent:ra
+T11	CHEMICAL 611 622	cholesterol
+N15	Name Annotation:T11 Referent:cholesterol
+T12	CHEMICAL 639 657	pravastatin sodium
+N16	Name Annotation:T12 Referent:pravastatinsodium
+T25	GENE-N 691 703	RALDH1 and 2
+N17	Name Annotation:T25 Referent:raldh1and2
+T14	CHEMICAL 787 798	cholesterol
+N18	Name Annotation:T14 Referent:cholesterol
+T15	CHEMICAL 830 840	oxysterols
+N19	Name Annotation:T15 Referent:oxysterols
+T26	GENE-N 866 882	liver X receptor
+N20	Name Annotation:T26 Referent:liverxreceptor
+T27	GENE-N 884 887	LXR
+N21	Name Annotation:T27 Referent:lxr
+T16	CHEMICAL 930 936	sterol
+N22	Name Annotation:T16 Referent:sterol
+T28	GENE-Y 930 974	sterol regulatory element binding protein-1c
+N23	Name Annotation:T28 Referent:sterolregulatoryelementbindingprotein1c
+T29	GENE-Y 976 984	SREBP-1c
+N24	Name Annotation:T29 Referent:srebp1c
+T30	GENE-N 1052 1065	LXRalpha/beta
+N25	Name Annotation:T30 Referent:lxralphabeta
+T31	GENE-Y 1069 1077	SREBP-1c
+N26	Name Annotation:T31 Referent:srebp1c
+T19	GENE-N 1110 1115	RALDH
+N27	Name Annotation:T19 Referent:raldh
+T20	GENE-Y 1163 1171	SREBP-1c
+N28	Name Annotation:T20 Referent:srebp1c
+T21	GENE-Y 1184 1192	SREBP-1c
+N29	Name Annotation:T21 Referent:srebp1c
+T2	CHEMICAL 1288 1299	cholesterol
+N30	Name Annotation:T2 Referent:cholesterol
+T3	CHEMICAL 1304 1306	RA
+N31	Name Annotation:T3 Referent:ra
+R1	SUBSTRATE Arg1:T8 Arg2:T22
+R2	SUBSTRATE Arg1:T8 Arg2:T23
+R3	PRODUCT-OF Arg1:T7 Arg2:T22
+R4	PRODUCT-OF Arg1:T7 Arg2:T23
+R5	DIRECT-REGULATOR Arg1:T15 Arg2:T26
+R6	DIRECT-REGULATOR Arg1:T15 Arg2:T27
+R7	DIRECT-REGULATOR Arg1:T14 Arg2:T26
+R8	DIRECT-REGULATOR Arg1:T14 Arg2:T27
+R9	INDIRECT-UPREGULATOR Arg1:T14 Arg2:T28
+R10	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T28
+R11	INDIRECT-UPREGULATOR Arg1:T14 Arg2:T29
+R12	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T29

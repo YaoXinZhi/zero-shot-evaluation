@@ -1,0 +1,68 @@
+T14	CHEMICAL 0 7	Wogonin
+N1	Name Annotation:T14 Referent:wogonin
+T15	CHEMICAL 17 21	H2O2
+N2	Name Annotation:T15 Referent:h2o2
+T25	GENE 95 105	caveolin-1
+N3	Name Annotation:T25 Referent:caveolin1
+T1	CHEMICAL 107 114	Wogonin
+N4	Name Annotation:T1 Referent:wogonin
+T5	CHEMICAL 138 151	monoflavonoid
+N5	Name Annotation:T5 Referent:monoflavonoid
+T2	CHEMICAL 297 304	wogonin
+N6	Name Annotation:T2 Referent:wogonin
+T3	CHEMICAL 399 406	wogonin
+N7	Name Annotation:T3 Referent:wogonin
+T4	CHEMICAL 410 414	H2O2
+N8	Name Annotation:T4 Referent:h2o2
+T6	CHEMICAL 511 518	wogonin
+N9	Name Annotation:T6 Referent:wogonin
+T7	CHEMICAL 536 540	H2O2
+N10	Name Annotation:T7 Referent:h2o2
+T16	GENE 552 557	actin
+N11	Name Annotation:T16 Referent:actin
+T17	GENE 573 580	albumin
+N12	Name Annotation:T17 Referent:albumin
+T8	CHEMICAL 717 724	wogonin
+N13	Name Annotation:T8 Referent:wogonin
+T9	CHEMICAL 735 739	H2O2
+N14	Name Annotation:T9 Referent:h2o2
+T18	GENE 767 777	caveolin-1
+N15	Name Annotation:T18 Referent:caveolin1
+T19	GENE 779 784	cav-1
+N16	Name Annotation:T19 Referent:cav1
+T20	GENE 839 850	VE-cadherin
+N17	Name Annotation:T20 Referent:vecadherin
+T21	GENE 855 864	β-catenin
+N18	Name Annotation:T21 Referent:βcatenin
+T10	CHEMICAL 876 883	wogonin
+N19	Name Annotation:T10 Referent:wogonin
+T11	CHEMICAL 894 904	anisomycin
+N20	Name Annotation:T11 Referent:anisomycin
+T22	GENE 932 935	p38
+N21	Name Annotation:T22 Referent:p38
+T23	GENE 937 942	cav-1
+N22	Name Annotation:T23 Referent:cav1
+T12	CHEMICAL 999 1006	wogonin
+N23	Name Annotation:T12 Referent:wogonin
+T13	CHEMICAL 1021 1025	H2O2
+N24	Name Annotation:T13 Referent:h2o2
+T24	GENE 1097 1102	cav-1
+N25	Name Annotation:T24 Referent:cav1
+R1	INHIBITOR Arg1:T14 Arg2:T25
+R2	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T16
+R3	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T17
+R4	INHIBITOR Arg1:T8 Arg2:T18
+R5	INHIBITOR Arg1:T8 Arg2:T19
+R6	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T16
+R7	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T17
+R8	ACTIVATOR Arg1:T9 Arg2:T18
+R9	ACTIVATOR Arg1:T9 Arg2:T19
+R10	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T20
+R11	INDIRECT-DOWNREGULATOR Arg1:T8 Arg2:T21
+R12	ACTIVATOR Arg1:T11 Arg2:T22
+R13	ACTIVATOR Arg1:T11 Arg2:T23
+R14	INHIBITOR Arg1:T10 Arg2:T22
+R15	INHIBITOR Arg1:T10 Arg2:T23
+R16	INHIBITOR Arg1:T12 Arg2:T24
+R17	ACTIVATOR Arg1:T13 Arg2:T24
+R18	ACTIVATOR Arg1:T15 Arg2:T25

@@ -1,0 +1,238 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Chloroacetic acid",
+            "Name": "chloroaceticacid"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "p38",
+            "Name": "p38"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "MAPK",
+            "Name": "mapk"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Chloroacetic acid",
+            "Name": "chloroaceticacid"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "acetic acid",
+            "Name": "aceticacid"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "cytochrome c",
+            "Name": "cytochromec"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Bcl-2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Mcl-1",
+            "Name": "mcl1"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Bax",
+            "Name": "bax"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "caspase",
+            "Name": "caspase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "N-acetylcysteine",
+            "Name": "nacetylcysteine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "NAC",
+            "Name": "nac"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "JNK",
+            "Name": "jnk"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "p38",
+            "Name": "p38"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MAPK",
+            "Name": "mapk"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "ERK1/2",
+            "Name": "erk12"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "NAC",
+            "Name": "nac"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "p38",
+            "Name": "p38"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "MAPK",
+            "Name": "mapk"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "SB203580",
+            "Name": "sb203580"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "JNK",
+            "Name": "jnk"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "SP600125",
+            "Name": "sp600125"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "p38",
+            "Name": "p38"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "MAPK",
+            "Name": "mapk"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "caspase-3/-7",
+            "Name": "caspase37"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "cytochrome c",
+            "Name": "cytochromec"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "Bcl-2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "Bax",
+            "Name": "bax"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "p38",
+            "Name": "p38"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "MAPK",
+            "Name": "mapk"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T9",
+            "target": "T31"
+        },
+        {
+            "type": "Activator",
+            "source": "T9",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T23"
+        }
+    ]
+}

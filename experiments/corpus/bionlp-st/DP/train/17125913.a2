@@ -1,0 +1,102 @@
+T13	CHEMICAL 0 7	Cadmium
+N1	Name Annotation:T13 Referent:cadmium
+T43	GENE-Y 64 71	ERalpha
+N2	Name Annotation:T43 Referent:eralpha
+T6	CHEMICAL 144 153	Estradiol
+N3	Name Annotation:T6 Referent:estradiol
+T8	CHEMICAL 155 157	E2
+N4	Name Annotation:T8 Referent:e2
+T18	GENE-Y 208 225	estrogen receptor
+N5	Name Annotation:T18 Referent:estrogenreceptor
+T23	GENE-Y 227 229	ER
+N6	Name Annotation:T23 Referent:er
+T2	CHEMICAL 315 322	Cadmium
+N7	Name Annotation:T2 Referent:cadmium
+T3	CHEMICAL 324 326	Cd
+N8	Name Annotation:T3 Referent:cd
+T4	CHEMICAL 423 425	Cd
+N9	Name Annotation:T4 Referent:cd
+T24	GENE-N 475 481	ERK1/2
+N10	Name Annotation:T24 Referent:erk12
+T25	GENE-N 483 486	Akt
+N11	Name Annotation:T25 Referent:akt
+T26	GENE-Y 491 501	PDGFRalpha
+N12	Name Annotation:T26 Referent:pdgfralpha
+T27	GENE-N 502 509	kinases
+N13	Name Annotation:T27 Referent:kinases
+T5	CHEMICAL 511 513	Cd
+N14	Name Annotation:T5 Referent:cd
+T28	GENE-Y 551 553	ER
+N15	Name Annotation:T28 Referent:er
+T29	GENE-Y 608 610	ER
+N16	Name Annotation:T29 Referent:er
+T30	GENE-N 632 644	ERalpha/beta
+N17	Name Annotation:T30 Referent:eralphabeta
+T7	CHEMICAL 671 673	Cd
+N18	Name Annotation:T7 Referent:cd
+T31	GENE-Y 684 691	ERalpha
+N19	Name Annotation:T31 Referent:eralpha
+T32	GENE-Y 712 718	ERbeta
+N20	Name Annotation:T32 Referent:erbeta
+T9	CHEMICAL 720 722	Cd
+N21	Name Annotation:T9 Referent:cd
+T33	GENE-N 738 744	ERK1/2
+N22	Name Annotation:T33 Referent:erk12
+T34	GENE-N 746 749	Akt
+N23	Name Annotation:T34 Referent:akt
+T35	GENE-Y 754 764	PDGFRalpha
+N24	Name Annotation:T35 Referent:pdgfralpha
+T36	GENE-Y 866 871	c-fos
+N25	Name Annotation:T36 Referent:cfos
+T37	GENE-Y 876 881	c-jun
+N26	Name Annotation:T37 Referent:cjun
+T38	GENE-Y 903 908	PDGFA
+N27	Name Annotation:T38 Referent:pdgfa
+T10	CHEMICAL 924 926	Cd
+N28	Name Annotation:T10 Referent:cd
+T39	GENE-N 945 950	c-jun
+N29	Name Annotation:T39 Referent:cjun
+T40	GENE-N 952 957	c-fos
+N30	Name Annotation:T40 Referent:cfos
+T41	GENE-Y 962 967	PDGFA
+N31	Name Annotation:T41 Referent:pdgfa
+T11	CHEMICAL 1018 1020	Cd
+N32	Name Annotation:T11 Referent:cd
+T42	GENE-N 1034 1041	kinases
+N33	Name Annotation:T42 Referent:kinases
+T12	CHEMICAL 1072 1074	Cd
+N34	Name Annotation:T12 Referent:cd
+T1	CHEMICAL 1142 1144	Cd
+N35	Name Annotation:T1 Referent:cd
+T14	GENE-N 1201 1204	Akt
+N36	Name Annotation:T14 Referent:akt
+T15	GENE-N 1206 1212	ERK1/2
+N37	Name Annotation:T15 Referent:erk12
+T16	GENE-Y 1217 1227	PDGFRalpha
+N38	Name Annotation:T16 Referent:pdgfralpha
+T17	GENE-N 1228 1235	kinases
+N39	Name Annotation:T17 Referent:kinases
+T19	GENE-Y 1266 1271	c-fos
+N40	Name Annotation:T19 Referent:cfos
+T20	GENE-Y 1273 1278	c-jun
+N41	Name Annotation:T20 Referent:cjun
+T21	GENE-Y 1283 1288	PDGFA
+N42	Name Annotation:T21 Referent:pdgfa
+T22	GENE-Y 1295 1302	ERalpha
+N43	Name Annotation:T22 Referent:eralpha
+R1	DIRECT-REGULATOR Arg1:T6 Arg2:T18
+R2	DIRECT-REGULATOR Arg1:T8 Arg2:T18
+R3	DIRECT-REGULATOR Arg1:T6 Arg2:T23
+R4	DIRECT-REGULATOR Arg1:T8 Arg2:T23
+R5	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T31
+R6	ACTIVATOR Arg1:T9 Arg2:T34
+R7	ACTIVATOR Arg1:T9 Arg2:T35
+R8	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T39
+R9	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T40
+R10	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T41
+R11	ACTIVATOR Arg1:T1 Arg2:T14
+R12	ACTIVATOR Arg1:T1 Arg2:T16
+R13	ACTIVATOR Arg1:T1 Arg2:T17
+R14	ACTIVATOR Arg1:T1 Arg2:T19
+R15	ACTIVATOR Arg1:T1 Arg2:T20
+R16	ACTIVATOR Arg1:T1 Arg2:T21

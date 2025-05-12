@@ -1,0 +1,92 @@
+T19	CHEMICAL 71 81	pemetrexed
+N1	Name Annotation:T19 Referent:pemetrexed
+T20	CHEMICAL 86 97	gemcitabine
+N2	Name Annotation:T20 Referent:gemcitabine
+T1	CHEMICAL 141 152	Gemcitabine
+N3	Name Annotation:T1 Referent:gemcitabine
+T8	CHEMICAL 157 167	pemetrexed
+N4	Name Annotation:T8 Referent:pemetrexed
+T10	CHEMICAL 394 404	pemetrexed
+N5	Name Annotation:T10 Referent:pemetrexed
+T11	CHEMICAL 409 420	gemcitabine
+N6	Name Annotation:T11 Referent:gemcitabine
+T12	CHEMICAL 517 528	gemcitabine
+N7	Name Annotation:T12 Referent:gemcitabine
+T13	CHEMICAL 574 587	deoxycytidine
+N8	Name Annotation:T13 Referent:deoxycytidine
+T32	GENE 574 594	deoxycytidine kinase
+N9	Name Annotation:T32 Referent:deoxycytidinekinase
+T33	GENE 596 599	dCK
+N10	Name Annotation:T33 Referent:dck
+T34	GENE 602 617	5'-nucleotidase
+N11	Name Annotation:T34 Referent:5nucleotidase
+T14	CHEMICAL 623 631	cytidine
+N12	Name Annotation:T14 Referent:cytidine
+T35	GENE 623 641	cytidine deaminase
+N13	Name Annotation:T35 Referent:cytidinedeaminase
+T15	CHEMICAL 683 694	thymidylate
+N14	Name Annotation:T15 Referent:thymidylate
+T36	GENE 683 703	thymidylate synthase
+N15	Name Annotation:T36 Referent:thymidylatesynthase
+T37	GENE 705 707	TS
+N16	Name Annotation:T37 Referent:ts
+T16	CHEMICAL 710 723	dihydrofolate
+N17	Name Annotation:T16 Referent:dihydrofolate
+T38	GENE 710 733	dihydrofolate reductase
+N18	Name Annotation:T38 Referent:dihydrofolatereductase
+T39	GENE 735 739	DHFR
+N19	Name Annotation:T39 Referent:dhfr
+T17	CHEMICAL 746 772	glycinamide ribonucleotide
+N20	Name Annotation:T17 Referent:glycinamideribonucleotide
+T40	GENE 746 790	glycinamide ribonucleotide formyltransferase
+N21	Name Annotation:T40 Referent:glycinamideribonucleotideformyltransferase
+T41	GENE 792 797	GARFT
+N22	Name Annotation:T41 Referent:garft
+T18	CHEMICAL 883 894	gemcitabine
+N23	Name Annotation:T18 Referent:gemcitabine
+T42	GENE 913 916	Akt
+N24	Name Annotation:T42 Referent:akt
+T2	CHEMICAL 1173 1183	pemetrexed
+N25	Name Annotation:T2 Referent:pemetrexed
+T21	GENE 1222 1240	phosphorylated Akt
+N26	Name Annotation:T21 Referent:phosphorylatedakt
+T22	GENE 1294 1297	dCK
+N27	Name Annotation:T22 Referent:dck
+T23	GENE 1357 1401	human nucleoside equilibrative transporter 1
+N28	Name Annotation:T23 Referent:humannucleosideequilibrativetransporter1
+T3	CHEMICAL 1363 1373	nucleoside
+N29	Name Annotation:T3 Referent:nucleoside
+T24	GENE 1403 1408	hENT1
+N30	Name Annotation:T24 Referent:hent1
+T25	GENE 1468 1471	dCK
+N31	Name Annotation:T25 Referent:dck
+T4	CHEMICAL 1487 1498	gemcitabine
+N32	Name Annotation:T4 Referent:gemcitabine
+T26	GENE 1534 1536	TS
+N33	Name Annotation:T26 Referent:ts
+T27	GENE 1538 1542	DHFR
+N34	Name Annotation:T27 Referent:dhfr
+T28	GENE 1548 1553	GARFT
+N35	Name Annotation:T28 Referent:garft
+T5	CHEMICAL 1572 1582	pemetrexed
+N36	Name Annotation:T5 Referent:pemetrexed
+T6	CHEMICAL 1633 1644	gemcitabine
+N37	Name Annotation:T6 Referent:gemcitabine
+T7	CHEMICAL 1649 1659	pemetrexed
+N38	Name Annotation:T7 Referent:pemetrexed
+T29	GENE 1732 1735	Akt
+N39	Name Annotation:T29 Referent:akt
+T9	CHEMICAL 1875 1885	pemetrexed
+N40	Name Annotation:T9 Referent:pemetrexed
+T30	GENE 1895 1898	dCK
+N41	Name Annotation:T30 Referent:dck
+T31	GENE 1903 1908	hENT1
+N42	Name Annotation:T31 Referent:hent1
+R1	INHIBITOR Arg1:T2 Arg2:T21
+R2	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T22
+R3	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T23
+R4	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T24
+R5	INHIBITOR Arg1:T6 Arg2:T29
+R6	INHIBITOR Arg1:T7 Arg2:T29
+R7	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T30
+R8	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T31

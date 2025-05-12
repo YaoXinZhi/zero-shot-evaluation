@@ -1,0 +1,113 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "CYP3A",
+            "Name": "cyp3a"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "midazolam",
+            "Name": "midazolam"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "triazolam",
+            "Name": "triazolam"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "midazolam",
+            "Name": "midazolam"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "MDZ",
+            "Name": "mdz"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "triazolam",
+            "Name": "triazolam"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "TRZ",
+            "Name": "trz"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "TRZ",
+            "Name": "trz"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "MDZ",
+            "Name": "mdz"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "TRZ",
+            "Name": "trz"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "MDZ",
+            "Name": "mdz"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "MDZ",
+            "Name": "mdz"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "MDZ",
+            "Name": "mdz"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "cytochrome P450 3A",
+            "Name": "cytochromep4503a"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "TRZ",
+            "Name": "trz"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "CYP3A",
+            "Name": "cyp3a"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T14"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T14"
+        }
+    ]
+}

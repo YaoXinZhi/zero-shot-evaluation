@@ -1,0 +1,30 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "glucokinase",
+            "Name": "glucokinase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "6-methyl pyridone",
+            "Name": "6methylpyridone"
+        },
+        {
+            "id": "T2",
+            "type": "Gene",
+            "name": "GK",
+            "Name": "gk"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T2"
+        }
+    ]
+}

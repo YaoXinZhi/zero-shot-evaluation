@@ -1,0 +1,72 @@
+T22	CHEMICAL 17 24	glucose
+N1	Name Annotation:T22 Referent:glucose
+T32	GENE-N 17 37	glucose transporters
+N2	Name Annotation:T32 Referent:glucosetransporters
+T23	CHEMICAL 76 83	glucose
+N3	Name Annotation:T23 Referent:glucose
+T2	CHEMICAL 263 270	glucose
+N4	Name Annotation:T2 Referent:glucose
+T9	CHEMICAL 351 355	cGMP
+N5	Name Annotation:T9 Referent:cgmp
+T10	CHEMICAL 407 414	glucose
+N6	Name Annotation:T10 Referent:glucose
+T11	CHEMICAL 429 435	oxygen
+N7	Name Annotation:T11 Referent:oxygen
+T12	CHEMICAL 528 532	cGMP
+N8	Name Annotation:T12 Referent:cgmp
+T13	CHEMICAL 608 615	glucose
+N9	Name Annotation:T13 Referent:glucose
+T28	GENE-N 608 636	glucose transporters 1 and 4
+N10	Name Annotation:T28 Referent:glucosetransporters1and4
+T29	GENE-N 638 643	GLUTS
+N11	Name Annotation:T29 Referent:gluts
+T14	CHEMICAL 649 656	glucose
+N12	Name Annotation:T14 Referent:glucose
+T15	CHEMICAL 683 693	fatty acid
+N13	Name Annotation:T15 Referent:fattyacid
+T16	CHEMICAL 729 736	glucose
+N14	Name Annotation:T16 Referent:glucose
+T17	CHEMICAL 836 843	glucose
+N15	Name Annotation:T17 Referent:glucose
+T18	CHEMICAL 879 886	calcium
+N16	Name Annotation:T18 Referent:calcium
+T30	GENE-N 887 897	calmodulin
+N17	Name Annotation:T30 Referent:calmodulin
+T19	CHEMICAL 946 953	glucose
+N18	Name Annotation:T19 Referent:glucose
+T20	CHEMICAL 990 997	glucose
+N19	Name Annotation:T20 Referent:glucose
+T31	GENE-Y 1026 1032	GLUT 1
+N20	Name Annotation:T31 Referent:glut1
+T21	CHEMICAL 1100 1107	glucose
+N21	Name Annotation:T21 Referent:glucose
+T1	CHEMICAL 1186 1193	glucose
+N22	Name Annotation:T1 Referent:glucose
+T24	GENE-Y 1217 1222	GLUT4
+N23	Name Annotation:T24 Referent:glut4
+T3	CHEMICAL 1238 1245	glucose
+N24	Name Annotation:T3 Referent:glucose
+T25	GENE-Y 1325 1330	GLUT4
+N25	Name Annotation:T25 Referent:glut4
+T4	CHEMICAL 1397 1412	Trifluoperazine
+N26	Name Annotation:T4 Referent:trifluoperazine
+T5	CHEMICAL 1416 1423	calcium
+N27	Name Annotation:T5 Referent:calcium
+T26	GENE-N 1424 1434	calmodulin
+N28	Name Annotation:T26 Referent:calmodulin
+T6	CHEMICAL 1482 1489	glucose
+N29	Name Annotation:T6 Referent:glucose
+T27	GENE-Y 1530 1536	GLUT 4
+N30	Name Annotation:T27 Referent:glut4
+T7	CHEMICAL 1537 1544	calcium
+N31	Name Annotation:T7 Referent:calcium
+T8	CHEMICAL 1603 1610	glucose
+N32	Name Annotation:T8 Referent:glucose
+R1	DIRECT-REGULATOR Arg1:T18 Arg2:T30
+R2	SUBSTRATE Arg1:T23 Arg2:T32
+R3	SUBSTRATE Arg1:T20 Arg2:T31
+R4	SUBSTRATE Arg1:T1 Arg2:T24
+R5	SUBSTRATE Arg1:T21 Arg2:T24
+R6	SUBSTRATE Arg1:T3 Arg2:T25
+R7	DIRECT-REGULATOR Arg1:T5 Arg2:T26
+R8	INHIBITOR Arg1:T4 Arg2:T26

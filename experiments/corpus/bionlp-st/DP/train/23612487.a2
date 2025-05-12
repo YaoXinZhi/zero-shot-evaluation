@@ -1,0 +1,93 @@
+T12	CHEMICAL 0 23	Sphingosine-1-phosphate
+N1	Name Annotation:T12 Referent:sphingosine1phosphate
+T40	GENE-N 62 71	β-catenin
+N2	Name Annotation:T40 Referent:βcatenin
+T41	GENE-N 92 107	osteoprotegerin
+N3	Name Annotation:T41 Referent:osteoprotegerin
+T1	CHEMICAL 155 178	Sphingosine-1-phosphate
+N4	Name Annotation:T1 Referent:sphingosine1phosphate
+T6	CHEMICAL 180 183	S1P
+N5	Name Annotation:T6 Referent:s1p
+T10	CHEMICAL 211 223	sphingolipid
+N6	Name Annotation:T10 Referent:sphingolipid
+T4	CHEMICAL 285 288	S1P
+N7	Name Annotation:T4 Referent:s1p
+T5	CHEMICAL 365 368	S1P
+N8	Name Annotation:T5 Referent:s1p
+T7	CHEMICAL 475 478	S1P
+N9	Name Annotation:T7 Referent:s1p
+T8	CHEMICAL 554 557	S1P
+N10	Name Annotation:T8 Referent:s1p
+T9	CHEMICAL 568 588	phosphatidylinositol
+N11	Name Annotation:T9 Referent:phosphatidylinositol
+T23	GENE-N 568 597	phosphatidylinositol 3-kinase
+N12	Name Annotation:T23 Referent:phosphatidylinositol3kinase
+T24	GENE-N 599 603	PI3K
+N13	Name Annotation:T24 Referent:pi3k
+T25	GENE-N 605 608	Akt
+N14	Name Annotation:T25 Referent:akt
+T26	GENE-N 649 676	glycogen synthase kinase-3β
+N15	Name Annotation:T26 Referent:glycogensynthasekinase3β
+T27	GENE-N 710 719	β-catenin
+N16	Name Annotation:T27 Referent:βcatenin
+T28	GENE-N 781 790	β-catenin
+N17	Name Annotation:T28 Referent:βcatenin
+T29	GENE-N 791 804	T-cell factor
+N18	Name Annotation:T29 Referent:tcellfactor
+T30	GENE-N 882 886	PI3K
+N19	Name Annotation:T30 Referent:pi3k
+T31	GENE-N 891 894	Akt
+N20	Name Annotation:T31 Referent:akt
+T11	CHEMICAL 906 909	S1P
+N21	Name Annotation:T11 Referent:s1p
+T32	GENE-N 942 951	β-catenin
+N22	Name Annotation:T32 Referent:βcatenin
+T33	GENE-N 992 996	PI3K
+N23	Name Annotation:T33 Referent:pi3k
+T34	GENE-N 997 1000	Akt
+N24	Name Annotation:T34 Referent:akt
+T35	GENE-N 1018 1021	Wnt
+N25	Name Annotation:T35 Referent:wnt
+T36	GENE-N 1022 1031	β-catenin
+N26	Name Annotation:T36 Referent:βcatenin
+T37	GENE-N 1057 1066	β-catenin
+N27	Name Annotation:T37 Referent:βcatenin
+T38	GENE-N 1135 1139	PI3K
+N28	Name Annotation:T38 Referent:pi3k
+T39	GENE-N 1144 1147	Akt
+N29	Name Annotation:T39 Referent:akt
+T13	GENE-N 1187 1196	β-catenin
+N30	Name Annotation:T13 Referent:βcatenin
+T14	GENE-N 1201 1214	T-cell factor
+N31	Name Annotation:T14 Referent:tcellfactor
+T15	GENE-N 1251 1257	Wnt-3a
+N32	Name Annotation:T15 Referent:wnt3a
+T2	CHEMICAL 1259 1262	S1P
+N33	Name Annotation:T2 Referent:s1p
+T16	GENE-N 1287 1302	osteoprotegerin
+N34	Name Annotation:T16 Referent:osteoprotegerin
+T17	GENE-N 1366 1386	alkaline phosphatase
+N35	Name Annotation:T17 Referent:alkalinephosphatase
+T3	CHEMICAL 1447 1450	S1P
+N36	Name Annotation:T3 Referent:s1p
+T18	GENE-N 1465 1469	PI3K
+N37	Name Annotation:T18 Referent:pi3k
+T19	GENE-N 1470 1473	Akt
+N38	Name Annotation:T19 Referent:akt
+T20	GENE-N 1545 1554	β-catenin
+N39	Name Annotation:T20 Referent:βcatenin
+T21	GENE-N 1614 1629	osteoptotegerin
+N40	Name Annotation:T21 Referent:osteoptotegerin
+T22	GENE-N 1679 1699	alkaline phosphatase
+N41	Name Annotation:T22 Referent:alkalinephosphatase
+R1	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T41
+R2	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T23
+R3	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T24
+R4	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T25
+R5	INHIBITOR Arg1:T8 Arg2:T26
+R6	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T16
+R7	ACTIVATOR Arg1:T3 Arg2:T18
+R8	ACTIVATOR Arg1:T3 Arg2:T19
+R9	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T20
+R10	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T21
+R11	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T22

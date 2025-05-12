@@ -1,0 +1,53 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Microorganism",
+            "name": "Pseudomonas",
+            "NCBI_Taxonomy": "286"
+        },
+        {
+            "id": "T2",
+            "type": "Phenotype",
+            "name": "Gram-negative",
+            "OntoBiotope": "OBT:000648"
+        },
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Halomonas",
+            "NCBI_Taxonomy": "2745"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "Enterobacteriaceae",
+            "NCBI_Taxonomy": "543"
+        },
+        {
+            "id": "T5",
+            "type": "Habitat",
+            "name": "cheese surface",
+            "OntoBiotope": "OBT:001341"
+        },
+        {
+            "id": "T6",
+            "type": "Habitat",
+            "name": "cheese",
+            "OntoBiotope": "OBT:001480"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T1",
+            "target": "T2"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T3",
+            "target": "T2"
+        }
+    ]
+}

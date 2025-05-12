@@ -1,0 +1,123 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "5-HT3",
+            "Name": "5ht3"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "dexamethasone",
+            "Name": "dexamethasone"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "neurokinin 1 (NK1) receptor",
+            "Name": "neurokinin1nk1receptor"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Palonosetron",
+            "Name": "palonosetron"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "5-HT3",
+            "Name": "5ht3"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "5-HT3",
+            "Name": "5ht3"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Aprepitant",
+            "Name": "aprepitant"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "NK1 receptor",
+            "Name": "nk1receptor"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "5-HT3",
+            "Name": "5ht3"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "dexamethasone",
+            "Name": "dexamethasone"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Rolapitant",
+            "Name": "rolapitant"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "netupitant",
+            "Name": "netupitant"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "NK1 receptor",
+            "Name": "nk1receptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Olanzapine",
+            "Name": "olanzapine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "gabapentin",
+            "Name": "gabapentin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T5",
+            "target": "T12"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T8",
+            "target": "T16"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T9",
+            "target": "T16"
+        }
+    ]
+}

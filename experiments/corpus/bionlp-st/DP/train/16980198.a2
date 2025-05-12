@@ -1,0 +1,54 @@
+T12	CHEMICAL 0 8	Cortisol
+N1	Name Annotation:T12 Referent:cortisol
+T1	CHEMICAL 37 52	Corticosteroids
+N2	Name Annotation:T1 Referent:corticosteroids
+T10	CHEMICAL 44 52	steroids
+N3	Name Annotation:T10 Referent:steroids
+T2	CHEMICAL 348 369	11beta-hydroxysteroid
+N4	Name Annotation:T2 Referent:11betahydroxysteroid
+T14	GENE-N 348 384	11beta-hydroxysteroid dehydrogenases
+N5	Name Annotation:T14 Referent:11betahydroxysteroiddehydrogenases
+T15	GENE-N 386 397	11beta-HSDs
+N6	Name Annotation:T15 Referent:11betahsds
+T16	GENE-Y 400 411	11Beta-HSD1
+N7	Name Annotation:T16 Referent:11betahsd1
+T3	CHEMICAL 422 431	cortisone
+N8	Name Annotation:T3 Referent:cortisone
+T4	CHEMICAL 435 443	cortisol
+N9	Name Annotation:T4 Referent:cortisol
+T17	GENE-Y 458 481	glucocorticoid receptor
+N10	Name Annotation:T17 Referent:glucocorticoidreceptor
+T18	GENE-Y 483 485	GR
+N11	Name Annotation:T18 Referent:gr
+T19	GENE-Y 517 528	11beta-HSD2
+N12	Name Annotation:T19 Referent:11betahsd2
+T5	CHEMICAL 553 564	aldosterone
+N13	Name Annotation:T5 Referent:aldosterone
+T6	CHEMICAL 643 651	cortisol
+N14	Name Annotation:T6 Referent:cortisol
+T7	CHEMICAL 655 664	cortisone
+N15	Name Annotation:T7 Referent:cortisone
+T20	GENE-Y 695 721	mineralocorticoid receptor
+N16	Name Annotation:T20 Referent:mineralocorticoidreceptor
+T21	GENE-Y 723 725	MR
+N17	Name Annotation:T21 Referent:mr
+T8	CHEMICAL 730 738	cortisol
+N18	Name Annotation:T8 Referent:cortisol
+T22	GENE-Y 757 768	11beta-HSD2
+N19	Name Annotation:T22 Referent:11betahsd2
+T9	CHEMICAL 885 893	cortisol
+N20	Name Annotation:T9 Referent:cortisol
+T23	GENE-Y 908 910	MR
+N21	Name Annotation:T23 Referent:mr
+T24	GENE-Y 1000 1011	11beta-HSD2
+N22	Name Annotation:T24 Referent:11betahsd2
+T11	CHEMICAL 1034 1047	carbenoxolone
+N23	Name Annotation:T11 Referent:carbenoxolone
+T13	GENE-Y 1165 1172	HSD11B2
+N24	Name Annotation:T13 Referent:hsd11b2
+R1	SUBSTRATE Arg1:T3 Arg2:T16
+R2	PRODUCT-OF Arg1:T4 Arg2:T16
+R3	SUBSTRATE Arg1:T6 Arg2:T19
+R4	PRODUCT-OF Arg1:T7 Arg2:T19
+R5	INHIBITOR Arg1:T11 Arg2:T24
+R6	ACTIVATOR Arg1:T9 Arg2:T23

@@ -1,0 +1,54 @@
+T10	Pest 49 65	popilia japonica
+T11	Location 83 89	Ticino
+T12	Pest 221 237	popilia japonica
+T13	Location 255 261	Ticino
+T14	Pest 359 374	Japanese beetle
+T15	Pest 499 507	popilias
+T16	Pest 510 526	popilia japonica
+T17	Location 586 592	Ticino
+T18	Date 593 604	for 5 years
+T19	Location 704 710	Stabio
+T20	Location 715 726	Genestrerio
+T21	Location 969 978	Mendrisio
+T22	Location 980 986	Stabio
+T23	Location 988 997	Novazzano
+T24	Location 1002 1009	Morcote
+T25	Location 1029 1037	Lombardy
+T26	Location 1042 1050	Piedmont
+N1	NCBI_Taxonomy Annotation:T10 Referent:7064
+N2	GeoNames Annotation:T11 Referent:2658370
+N3	NCBI_Taxonomy Annotation:T12 Referent:7064
+N4	GeoNames Annotation:T13 Referent:2658370
+N5	NCBI_Taxonomy Annotation:T14 Referent:7064
+N6	NCBI_Taxonomy Annotation:T15 Referent:7064
+N7	NCBI_Taxonomy Annotation:T16 Referent:7064
+N8	GeoNames Annotation:T17 Referent:2658370
+N9	GeoNames Annotation:T19 Referent:7287209
+N10	GeoNames Annotation:T20 Referent:2660648
+N11	GeoNames Annotation:T21 Referent:2659689
+N12	GeoNames Annotation:T22 Referent:7287209
+N13	GeoNames Annotation:T23 Referent:7286663
+N14	GeoNames Annotation:T24 Referent:2659592
+N15	GeoNames Annotation:T25 Referent:3174618
+N16	GeoNames Annotation:T26 Referent:3170831
+R1	Located_in Object:T10 Location:T11
+R2	Located_in Object:T12 Location:T13
+R3	Located_in Object:T16 Location:T22
+R4	Located_in Object:T16 Location:T20
+R5	Located_in Object:T16 Location:T23
+R6	Located_in Object:T16 Location:T19
+R7	Located_in Object:T16 Location:T21
+R8	Located_in Object:T16 Location:T24
+R9	Located_in Object:T16 Location:T17
+R10	Detected_on Object:T16 Date:T18
+E1	Nary Organisme_nuisible:T10 Lieu:T11
+E2	Nary Organisme_nuisible:T12 Lieu:T13
+E3	Nary Organisme_nuisible:T16 Lieu:T22
+E4	Nary Organisme_nuisible:T16 Lieu:T20
+E5	Nary Organisme_nuisible:T16 Lieu:T23
+E6	Nary Organisme_nuisible:T16 Lieu:T19
+E7	Nary Organisme_nuisible:T16 Lieu:T21
+E8	Nary Organisme_nuisible:T16 Lieu:T24
+E9	Nary Organisme_nuisible:T16 Lieu:T17 Date:T18
+*	Equiv T12 T14
+*	Equiv T15 T16

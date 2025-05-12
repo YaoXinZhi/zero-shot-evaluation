@@ -1,0 +1,129 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "theophylline",
+            "Name": "theophylline"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "theophylline",
+            "Name": "theophylline"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "phosphodiesterase",
+            "Name": "phosphodiesterase"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PDE",
+            "Name": "pde"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "theophylline",
+            "Name": "theophylline"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "phosphodiesterases",
+            "Name": "phosphodiesterases"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "theophylline",
+            "Name": "theophylline"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "cystatin S",
+            "Name": "cystatins"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "S",
+            "Name": "s"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "CysS",
+            "Name": "cyss"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "PDE subfamilies 3A and 4D",
+            "Name": "pdesubfamilies3aand4d"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Theophylline",
+            "Name": "theophylline"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "CysS",
+            "Name": "cyss"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PDE3A",
+            "Name": "pde3a"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PDE4D",
+            "Name": "pde4d"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "CysS",
+            "Name": "cyss"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "PDE",
+            "Name": "pde"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T14"
+        }
+    ]
+}

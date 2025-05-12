@@ -1,0 +1,115 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "5 alpha-reductase",
+            "Name": "5alphareductase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "finasteride",
+            "Name": "finasteride"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "alpha 1-adrenoceptor",
+            "Name": "alpha1adrenoceptor"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "alfuzosin",
+            "Name": "alfuzosin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "doxazosin",
+            "Name": "doxazosin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "prazosin",
+            "Name": "prazosin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "tamsulosin",
+            "Name": "tamsulosin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "terazosin",
+            "Name": "terazosin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Finasteride",
+            "Name": "finasteride"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "alpha 1-adrenoceptor",
+            "Name": "alpha1adrenoceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "finasteride",
+            "Name": "finasteride"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "alpha 1-adrenoceptor",
+            "Name": "alpha1adrenoceptor"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "alpha 1A-adrenoceptor",
+            "Name": "alpha1aadrenoceptor"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T7",
+            "target": "T13"
+        }
+    ]
+}

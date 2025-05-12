@@ -1,0 +1,56 @@
+T30	Pest 27 59	Citrus Greening Disease Bacteria
+T31	Location 69 75	Brazil
+T32	Pest 159 171	Liberibacter
+T33	Pest 224 234	L. capsica
+T34	Disease 304 319	citrus greening
+T35	Pest 396 408	L. capsicais
+T36	Pest 659 669	L. capsica
+T37	Location 724 730	Brazil
+T38	Pest 875 885	L. capsica
+T39	Pest 901 913	Liberibacter
+T40	Pest 1027 1039	Liberibacter
+T41	Disease 1069 1082	Huanglongbing
+T42	Disease 1087 1102	citrus greening
+T43	Plant 1188 1194	citrus
+T44	Pest 1309 1319	L. capsica
+T45	Pest 1383 1395	Liberibacter
+T46	Pest 1515 1525	L. capsica
+T47	Pest 1729 1739	L. capsica
+T48	Pest 1940 1950	L. capsica
+T49	Plant 1991 2003	pepper plant
+T50	Location 2246 2252	Brazil
+T51	Pest 2431 2443	Liberibacter
+N1	NCBI_Taxonomy Annotation:T30 Referent:34019
+N2	GeoNames Annotation:T31 Referent:3469034
+N3	NCBI_Taxonomy Annotation:T32 Referent:34019
+N4	NCBI_Taxonomy Annotation:T33 Referent:2884028
+N5	NCBI_Taxonomy Annotation:T35 Referent:2884028
+N6	NCBI_Taxonomy Annotation:T36 Referent:2884028
+N7	GeoNames Annotation:T37 Referent:3469034
+N8	NCBI_Taxonomy Annotation:T38 Referent:2884028
+N9	NCBI_Taxonomy Annotation:T39 Referent:34019
+N10	NCBI_Taxonomy Annotation:T40 Referent:34019
+N11	NCBI_Taxonomy Annotation:T43 Referent:2706
+N12	NCBI_Taxonomy Annotation:T44 Referent:2884028
+N13	NCBI_Taxonomy Annotation:T45 Referent:34019
+N14	NCBI_Taxonomy Annotation:T46 Referent:2884028
+N15	NCBI_Taxonomy Annotation:T47 Referent:2884028
+N16	NCBI_Taxonomy Annotation:T48 Referent:2884028
+N17	NCBI_Taxonomy Annotation:T49 Referent:4071
+N18	GeoNames Annotation:T50 Referent:3469034
+N19	NCBI_Taxonomy Annotation:T51 Referent:34019
+R1	Located_in Object:T30 Location:T31
+R2	Causes Pest:T33 Disease:T34
+R3	Located_in Object:T36 Location:T37
+R4	Found_on Organism:T38 Habitat:T43
+R5	Causes Pest:T38 Disease:T42
+R6	Expressed_by Disease:T42 Plant:T43
+R7	Found_on Organism:T48 Habitat:T49
+R8	Located_in Object:T51 Location:T50
+E1	Nary Organisme_nuisible:T30 Lieu:T31
+E2	Nary Organisme_nuisible:T33 Maladie:T34
+E3	Nary Organisme_nuisible:T36 Lieu:T37
+E4	Nary Organisme_nuisible:T38 Plante:T43 Maladie:T42
+E5	Nary Organisme_nuisible:T48 Plante:T49
+E6	Nary Organisme_nuisible:T51 Lieu:T50
+*	Equiv T41 T42

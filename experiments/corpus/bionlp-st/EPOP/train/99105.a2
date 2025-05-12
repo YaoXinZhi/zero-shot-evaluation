@@ -1,0 +1,56 @@
+T71	Location 234 242	Botucatu
+T72	Location 357 365	Botucatu
+T73	Date 628 643	In recent years
+T74	Location 2015 2021	Brazil
+T75	Vector 2158 2172	citrus psyllid
+T76	Vector 2173 2189	Diaphorina citri
+T77	Plant 2233 2239	citrus
+T78	Vector 2316 2330	citrus psyllid
+T79	Plant 2678 2684	myrtle
+T80	Plant 2685 2703	Murraya paniculata
+T81	Pest 2818 2846	Candidatus Liberibacter spp.
+T82	Disease 2861 2864	HBL
+T83	Disease 2866 2879	Huanglongbing
+T84	Disease 2881 2889	Greening
+T85	Disease 2965 2973	greening
+T86	Vector 3300 3314	citrus psyllid
+T87	Plant 3338 3344	citrus
+T88	Date 3382 3392	since 2004
+T89	Location 3440 3446	Brazil
+T90	Plant 3983 3989	Citrus
+T91	Vector 6141 6155	citrus psyllid
+T92	Vector 8855 8869	citrus psyllid
+T93	Date 9474 9480	weekly
+N1	GeoNames Annotation:T71 Referent:6322151
+N2	GeoNames Annotation:T72 Referent:6322151
+N3	GeoNames Annotation:T74 Referent:3469034
+N4	NCBI_Taxonomy Annotation:T75 Referent:121845
+N5	NCBI_Taxonomy Annotation:T76 Referent:121845
+N6	NCBI_Taxonomy Annotation:T77 Referent:2706
+N7	NCBI_Taxonomy Annotation:T78 Referent:121845
+N8	NCBI_Taxonomy Annotation:T79 Referent:43711
+N9	NCBI_Taxonomy Annotation:T80 Referent:43711
+N10	NCBI_Taxonomy Annotation:T81 Referent:34021
+N11	NCBI_Taxonomy Annotation:T81 Referent:34020
+N12	NCBI_Taxonomy Annotation:T81 Referent:309868
+N13	NCBI_Taxonomy Annotation:T86 Referent:121845
+N14	NCBI_Taxonomy Annotation:T87 Referent:2706
+N15	GeoNames Annotation:T89 Referent:3469034
+N16	NCBI_Taxonomy Annotation:T90 Referent:2706
+N17	NCBI_Taxonomy Annotation:T91 Referent:121845
+N18	NCBI_Taxonomy Annotation:T92 Referent:121845
+R1	Found_on Organism:T76 Habitat:T77
+R2	Located_in Object:T76 Location:T74
+R3	Located_in Object:T77 Location:T74
+R4	Causes Pest:T81 Disease:T82
+R5	Detected_on Object:T86 Date:T88
+R6	Found_on Organism:T86 Habitat:T87
+R7	Located_in Object:T86 Location:T89
+R8	Detected_on Object:T87 Date:T88
+R9	Located_in Object:T87 Location:T89
+E1	Nary Plante:T77 Vecteur:T76 Lieu:T74
+E2	Nary Organisme_nuisible:T81 Maladie:T82
+E3	Nary Plante:T87 Vecteur:T86 Lieu:T89 Date:T88
+*	Equiv T79 T80
+*	Equiv T76 T75
+*	Equiv T82 T83 T84

@@ -1,0 +1,228 @@
+{
+    "entities": [
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "Topoisomerase II\u03b2",
+            "Name": "topoisomeraseii\u03b2"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "camptothecin",
+            "Name": "camptothecin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Camptothecin",
+            "Name": "camptothecin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "CPT",
+            "Name": "cpt"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "topoisomerase (Top) I",
+            "Name": "topoisomerasetopi"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "Top1",
+            "Name": "top1"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "CPT",
+            "Name": "cpt"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "topoisomerase II\u03b2",
+            "Name": "topoisomeraseii\u03b2"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Top2\u03b2",
+            "Name": "top2\u03b2"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "CPT",
+            "Name": "cpt"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Top2\u03b2",
+            "Name": "top2\u03b2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "CPT",
+            "Name": "cpt"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "ICRF-187",
+            "Name": "icrf187"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "Top2",
+            "Name": "top2"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "Top2\u03b2",
+            "Name": "top2\u03b2"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "CPT",
+            "Name": "cpt"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "CPT",
+            "Name": "cpt"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "Top2\u03b2",
+            "Name": "top2\u03b2"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "CPT",
+            "Name": "cpt"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "RNA polymerase II large subunit",
+            "Name": "rnapolymeraseiilargesubunit"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "RNAP LS",
+            "Name": "rnapls"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "RNAP LS",
+            "Name": "rnapls"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Top2\u03b2",
+            "Name": "top2\u03b2"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "RNAP LS",
+            "Name": "rnapls"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "p53",
+            "Name": "p53"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "RNAP LS",
+            "Name": "rnapls"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "p53",
+            "Name": "p53"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Top2\u03b2",
+            "Name": "top2\u03b2"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "CPT",
+            "Name": "cpt"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "RNAP LS",
+            "Name": "rnapls"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "p53",
+            "Name": "p53"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T28"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T29"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T30"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T19"
+        }
+    ]
+}

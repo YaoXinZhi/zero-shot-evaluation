@@ -1,0 +1,100 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Protein tyrosine phosphatase 1B",
+            "Name": "proteintyrosinephosphatase1b"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "dammarane",
+            "Name": "dammarane"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "triterpenes",
+            "Name": "triterpenes"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "saponins",
+            "Name": "saponins"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "Protein tyrosine phosphatase 1B",
+            "Name": "proteintyrosinephosphatase1b"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "PTP1B",
+            "Name": "ptp1b"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "triterpenes",
+            "Name": "triterpenes"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "saponins",
+            "Name": "saponins"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "PTP1B",
+            "Name": "ptp1b"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PTP1B",
+            "Name": "ptp1b"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T13"
+        }
+    ]
+}

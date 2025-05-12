@@ -1,0 +1,91 @@
+T14	CHEMICAL 30 41	hydralazine
+N1	Name Annotation:T14 Referent:hydralazine
+T38	GENE-Y 56 87	hypoxia-inducible factor-1alpha
+N2	Name Annotation:T38 Referent:hypoxiainduciblefactor1alpha
+T39	GENE-Y 89 123	vascular endothelial growth factor
+N3	Name Annotation:T39 Referent:vascularendothelialgrowthfactor
+T13	CHEMICAL 159 165	prolyl
+N4	Name Annotation:T13 Referent:prolyl
+T37	GENE-N 159 178	prolyl hydroxylases
+N5	Name Annotation:T37 Referent:prolylhydroxylases
+T5	CHEMICAL 196 207	hydralazine
+N6	Name Annotation:T5 Referent:hydralazine
+T4	CHEMICAL 332 336	Ca2+
+N7	Name Annotation:T4 Referent:ca2
+T19	GENE-N 373 400	Collagen prolyl hydroxylase
+N8	Name Annotation:T19 Referent:collagenprolylhydroxylase
+T6	CHEMICAL 382 388	prolyl
+N9	Name Annotation:T6 Referent:prolyl
+T7	CHEMICAL 422 433	hydralazine
+N10	Name Annotation:T7 Referent:hydralazine
+T20	GENE-N 531 555	hypoxia-inducible factor
+N11	Name Annotation:T20 Referent:hypoxiainduciblefactor
+T21	GENE-N 557 560	HIF
+N12	Name Annotation:T21 Referent:hif
+T8	CHEMICAL 573 575	O2
+N13	Name Annotation:T8 Referent:o2
+T9	CHEMICAL 586 592	prolyl
+N14	Name Annotation:T9 Referent:prolyl
+T22	GENE-N 586 611	prolyl hydroxylase domain
+N15	Name Annotation:T22 Referent:prolylhydroxylasedomain
+T23	GENE-N 613 616	PHD
+N16	Name Annotation:T23 Referent:phd
+T10	CHEMICAL 672 683	Hydralazine
+N17	Name Annotation:T10 Referent:hydralazine
+T24	GENE-Y 726 736	HIF-1alpha
+N18	Name Annotation:T24 Referent:hif1alpha
+T25	GENE-N 763 766	HIF
+N19	Name Annotation:T25 Referent:hif
+T26	GENE-Y 768 780	endothelin-1
+N20	Name Annotation:T26 Referent:endothelin1
+T27	GENE-Y 782 796	adrenomedullin
+N21	Name Annotation:T27 Referent:adrenomedullin
+T28	GENE-Y 798 814	haem oxygenase 1
+N22	Name Annotation:T28 Referent:haemoxygenase1
+T29	GENE-Y 820 854	vascular endothelial growth factor
+N23	Name Annotation:T29 Referent:vascularendothelialgrowthfactor
+T30	GENE-Y 856 860	VEGF
+N24	Name Annotation:T30 Referent:vegf
+T11	CHEMICAL 955 966	Hydralazine
+N25	Name Annotation:T11 Referent:hydralazine
+T31	GENE-N 994 997	PHD
+N26	Name Annotation:T31 Referent:phd
+T32	GENE-Y 1035 1045	HIF-1alpha
+N27	Name Annotation:T32 Referent:hif1alpha
+T33	GENE-N 1060 1063	HIF
+N28	Name Annotation:T33 Referent:hif
+T34	GENE-N 1108 1111	PHD
+N29	Name Annotation:T34 Referent:phd
+T12	CHEMICAL 1138 1149	hydralazine
+N30	Name Annotation:T12 Referent:hydralazine
+T35	GENE-Y 1158 1168	HIF-1alpha
+N31	Name Annotation:T35 Referent:hif1alpha
+T36	GENE-Y 1173 1177	VEGF
+N32	Name Annotation:T36 Referent:vegf
+T15	GENE-Y 1225 1229	VEGF
+N33	Name Annotation:T15 Referent:vegf
+T1	CHEMICAL 1269 1280	hydralazine
+N34	Name Annotation:T1 Referent:hydralazine
+T2	CHEMICAL 1372 1383	hydralazine
+N35	Name Annotation:T2 Referent:hydralazine
+T16	GENE-N 1398 1401	HIF
+N36	Name Annotation:T16 Referent:hif
+T17	GENE-N 1432 1435	PHD
+N37	Name Annotation:T17 Referent:phd
+T3	CHEMICAL 1535 1546	hydralazine
+N38	Name Annotation:T3 Referent:hydralazine
+T18	GENE-N 1560 1563	HIF
+N39	Name Annotation:T18 Referent:hif
+R1	INHIBITOR Arg1:T14 Arg2:T37
+R2	INDIRECT-UPREGULATOR Arg1:T14 Arg2:T39
+R3	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T26
+R4	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T27
+R5	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T28
+R6	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T29
+R7	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T30
+R8	INHIBITOR Arg1:T11 Arg2:T31
+R9	INHIBITOR Arg1:T11 Arg2:T34
+R10	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T36
+R11	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T15
+R12	ACTIVATOR Arg1:T2 Arg2:T16
+R13	INHIBITOR Arg1:T2 Arg2:T17

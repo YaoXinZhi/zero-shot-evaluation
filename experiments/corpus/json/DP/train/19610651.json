@@ -1,0 +1,123 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "chloropyramine hydrochloride",
+            "Name": "chloropyraminehydrochloride"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "focal adhesion kinase",
+            "Name": "focaladhesionkinase"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "vascular endothelial growth factor receptor 3",
+            "Name": "vascularendothelialgrowthfactorreceptor3"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "FAK",
+            "Name": "fak"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "FAK",
+            "Name": "fak"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "FAK",
+            "Name": "fak"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "VEGFR-3",
+            "Name": "vegfr3"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "chloropyramine hydrochloride",
+            "Name": "chloropyraminehydrochloride"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "VEGFR-3",
+            "Name": "vegfr3"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "FAK",
+            "Name": "fak"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Chloropyramine hydrochloride",
+            "Name": "chloropyraminehydrochloride"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "doxorubicin",
+            "Name": "doxorubicin"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "FAK",
+            "Name": "fak"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "VEGFR-3",
+            "Name": "vegfr3"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T16"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T11"
+        }
+    ]
+}

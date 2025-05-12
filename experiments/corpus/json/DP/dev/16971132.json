@@ -1,0 +1,99 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "dihydrofolate",
+            "Name": "dihydrofolate"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "dihydrofolate reductase",
+            "Name": "dihydrofolatereductase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "4(3H)-quinazolinone",
+            "Name": "43hquinazolinone"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "quinazoline",
+            "Name": "quinazoline"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "methotrexate",
+            "Name": "methotrexate"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "MTX",
+            "Name": "mtx"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "mammalian DHFR",
+            "Name": "mammaliandhfr"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "human DHFR",
+            "Name": "humandhfr"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "mammalian DHFR",
+            "Name": "mammaliandhfr"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "DHFR",
+            "Name": "dhfr"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "DHFR",
+            "Name": "dhfr"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "DHFR",
+            "Name": "dhfr"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T7"
+        }
+    ]
+}

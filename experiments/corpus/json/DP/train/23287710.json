@@ -1,0 +1,93 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "acrylamide",
+            "Name": "acrylamide"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "glycidamide",
+            "Name": "glycidamide"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "acrylamide",
+            "Name": "acrylamide"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "acrylamide",
+            "Name": "acrylamide"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "acrylamide",
+            "Name": "acrylamide"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "acrylamide",
+            "Name": "acrylamide"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "glycidamide",
+            "Name": "glycidamide"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "glycidamide",
+            "Name": "glycidamide"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "acrylamide",
+            "Name": "acrylamide"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "cMYC",
+            "Name": "cmyc"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "MAPK",
+            "Name": "mapk"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T10"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T11"
+        }
+    ]
+}

@@ -1,0 +1,168 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Aryl hydrocarbon",
+            "Name": "arylhydrocarbon"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Aryl hydrocarbon receptor",
+            "Name": "arylhydrocarbonreceptor"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "connexin43",
+            "Name": "connexin43"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "aryl hydrocarbon",
+            "Name": "arylhydrocarbon"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "aryl hydrocarbon receptor",
+            "Name": "arylhydrocarbonreceptor"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "connexin43",
+            "Name": "connexin43"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Cx43",
+            "Name": "cx43"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Cx43",
+            "Name": "cx43"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "2,3,7,8-tetrachlorodibenzo-p-dioxin",
+            "Name": "2378tetrachlorodibenzopdioxin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "TCDD",
+            "Name": "tcdd"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "polycyclic aromatic hydrocarbons",
+            "Name": "polycyclicaromatichydrocarbons"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Cx43",
+            "Name": "cx43"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "Cx43",
+            "Name": "cx43"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "TCDD",
+            "Name": "tcdd"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "Cx43",
+            "Name": "cx43"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Cx43",
+            "Name": "cx43"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T7"
+        }
+    ]
+}

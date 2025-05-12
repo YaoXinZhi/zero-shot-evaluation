@@ -1,0 +1,151 @@
+{
+    "entities": [
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "cytokine",
+            "Name": "cytokine"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "cytokine",
+            "Name": "cytokine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "phorbol-12-myristate 13-acetate",
+            "Name": "phorbol12myristate13acetate"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "PMA",
+            "Name": "pma"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "IgE",
+            "Name": "ige"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "CD3",
+            "Name": "cd3"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "CD8",
+            "Name": "cd8"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "CD4",
+            "Name": "cd4"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "CD8",
+            "Name": "cd8"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "HLA-DR",
+            "Name": "hladr"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "CD25",
+            "Name": "cd25"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "IL-2 receptor",
+            "Name": "il2receptor"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "PMA",
+            "Name": "pma"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "IFN-gamma",
+            "Name": "ifngamma"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "IL-2",
+            "Name": "il2"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "IL-4",
+            "Name": "il4"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "IL-5",
+            "Name": "il5"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "IL-10",
+            "Name": "il10"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T18"
+        }
+    ]
+}

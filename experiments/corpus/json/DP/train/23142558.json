@@ -1,0 +1,77 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "17-\u03b2-oestradiol",
+            "Name": "17\u03b2oestradiol"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "cannabinoid CB2 receptor",
+            "Name": "cannabinoidcb2receptor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Oestrogens",
+            "Name": "oestrogens"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "CB2",
+            "Name": "cb2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "17-\u03b2-oestradiol",
+            "Name": "17\u03b2oestradiol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "oestrogens",
+            "Name": "oestrogens"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "CB2",
+            "Name": "cb2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "oestrogens",
+            "Name": "oestrogens"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "oestrogens responsive element",
+            "Name": "oestrogensresponsiveelement"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "CB2",
+            "Name": "cb2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T9"
+        }
+    ]
+}

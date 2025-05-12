@@ -1,0 +1,46 @@
+T7	CHEMICAL 0 10	Amino acid
+N1	Name Annotation:T7 Referent:aminoacid
+T8	CHEMICAL 19 31	quinazolines
+N2	Name Annotation:T8 Referent:quinazolines
+T17	GENE-N 35 39	Rock
+N3	Name Annotation:T17 Referent:rock
+T18	GENE-N 40 43	PKA
+N4	Name Annotation:T18 Referent:pka
+T13	GENE-N 94 98	Rock
+N5	Name Annotation:T13 Referent:rock
+T5	CHEMICAL 119 129	amino acid
+N6	Name Annotation:T5 Referent:aminoacid
+T6	CHEMICAL 138 150	quinazolines
+N7	Name Annotation:T6 Referent:quinazolines
+T1	CHEMICAL 198 208	amino acid
+N8	Name Annotation:T1 Referent:aminoacid
+T2	CHEMICAL 217 231	quinazolinones
+N9	Name Annotation:T2 Referent:quinazolinones
+T9	GENE-N 248 261	Rock (I & II)
+N10	Name Annotation:T9 Referent:rockiii
+T10	GENE-N 306 313	kinases
+N11	Name Annotation:T10 Referent:kinases
+T11	GENE-N 381 384	PKA
+N12	Name Annotation:T11 Referent:pka
+T12	GENE-N 425 429	Rock
+N13	Name Annotation:T12 Referent:rock
+T3	CHEMICAL 454 464	amino acid
+N14	Name Annotation:T3 Referent:aminoacid
+T4	CHEMICAL 473 487	quinazolinones
+N15	Name Annotation:T4 Referent:quinazolinones
+T14	GENE-N 520 523	PKA
+N16	Name Annotation:T14 Referent:pka
+T15	GENE-N 629 633	Rock
+N17	Name Annotation:T15 Referent:rock
+T16	GENE-N 693 709	cytochrome P-450
+N18	Name Annotation:T16 Referent:cytochromep450
+R1	INHIBITOR Arg1:T7 Arg2:T17
+R2	INHIBITOR Arg1:T7 Arg2:T18
+R3	INHIBITOR Arg1:T8 Arg2:T18
+R4	INHIBITOR Arg1:T8 Arg2:T17
+R5	INHIBITOR Arg1:T5 Arg2:T13
+R6	INHIBITOR Arg1:T6 Arg2:T13
+R7	INHIBITOR Arg1:T3 Arg2:T12
+R8	INHIBITOR Arg1:T4 Arg2:T12
+R9	INHIBITOR Arg1:T3 Arg2:T14
+R10	INHIBITOR Arg1:T4 Arg2:T14

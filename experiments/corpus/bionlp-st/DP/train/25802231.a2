@@ -1,0 +1,39 @@
+T10	CHEMICAL 0 9	Ibrutinib
+N1	Name Annotation:T10 Referent:ibrutinib
+T1	CHEMICAL 103 112	Ibrutinib
+N2	Name Annotation:T1 Referent:ibrutinib
+T3	CHEMICAL 114 126	Imbruvica(R)
+N3	Name Annotation:T3 Referent:imbruvicar
+T16	GENE-Y 200 224	Bruton's tyrosine kinase
+N4	Name Annotation:T16 Referent:brutonstyrosinekinase
+T2	CHEMICAL 209 217	tyrosine
+N5	Name Annotation:T2 Referent:tyrosine
+T11	GENE-Y 226 229	BTK
+N6	Name Annotation:T11 Referent:btk
+T13	GENE-N 245 268	B-cell antigen receptor
+N7	Name Annotation:T13 Referent:bcellantigenreceptor
+T14	GENE-Y 294 297	BTK
+N8	Name Annotation:T14 Referent:btk
+T5	CHEMICAL 304 313	ibrutinib
+N9	Name Annotation:T5 Referent:ibrutinib
+T15	GENE-Y 533 537	TP53
+N10	Name Annotation:T15 Referent:tp53
+T6	CHEMICAL 643 652	ibrutinib
+N11	Name Annotation:T6 Referent:ibrutinib
+T7	CHEMICAL 696 705	ibrutinib
+N12	Name Annotation:T7 Referent:ibrutinib
+T8	CHEMICAL 815 824	ibrutinib
+N13	Name Annotation:T8 Referent:ibrutinib
+T9	CHEMICAL 1075 1084	Ibrutinib
+N14	Name Annotation:T9 Referent:ibrutinib
+T4	CHEMICAL 1268 1277	ibrutinib
+N15	Name Annotation:T4 Referent:ibrutinib
+T12	GENE-Y 1392 1396	TP53
+N16	Name Annotation:T12 Referent:tp53
+R1	INHIBITOR Arg1:T1 Arg2:T16
+R2	INHIBITOR Arg1:T3 Arg2:T16
+R3	INHIBITOR Arg1:T1 Arg2:T11
+R4	INHIBITOR Arg1:T3 Arg2:T11
+R5	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T13
+R6	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T13
+R7	INHIBITOR Arg1:T1 Arg2:T14

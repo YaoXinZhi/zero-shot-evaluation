@@ -1,0 +1,78 @@
+T24	CHEMICAL 50 59	ferric NO
+N1	Name Annotation:T24 Referent:ferricno
+T32	GENE-Y 73 107	rat neuronal nitric oxide synthase
+N2	Name Annotation:T32 Referent:ratneuronalnitricoxidesynthase
+T25	CHEMICAL 86 98	nitric oxide
+N3	Name Annotation:T25 Referent:nitricoxide
+T26	GENE-Y 136 170	Rat neuronal nitric oxide synthase
+N4	Name Annotation:T26 Referent:ratneuronalnitricoxidesynthase
+T7	CHEMICAL 149 161	nitric oxide
+N5	Name Annotation:T7 Referent:nitricoxide
+T31	GENE-Y 172 176	nNOS
+N6	Name Annotation:T31 Referent:nnos
+T3	CHEMICAL 239 251	nitric oxide
+N7	Name Annotation:T3 Referent:nitricoxide
+T6	CHEMICAL 253 255	NO
+N8	Name Annotation:T6 Referent:no
+T8	CHEMICAL 272 283	ferric heme
+N9	Name Annotation:T8 Referent:ferricheme
+T9	CHEMICAL 333 335	NO
+N10	Name Annotation:T9 Referent:no
+T10	CHEMICAL 351 357	ferric
+N11	Name Annotation:T10 Referent:ferric
+T29	GENE-Y 358 362	nNOS
+N12	Name Annotation:T29 Referent:nnos
+T11	CHEMICAL 449 460	ferric heme
+N13	Name Annotation:T11 Referent:ferricheme
+T12	CHEMICAL 464 489	N(omega)-nitro-L-arginine
+N14	Name Annotation:T12 Referent:nomeganitrolarginine
+T30	GENE-Y 496 500	nNOS
+N15	Name Annotation:T30 Referent:nnos
+T13	CHEMICAL 497 499	NO
+N16	Name Annotation:T13 Referent:no
+T14	CHEMICAL 540 542	NO
+N17	Name Annotation:T14 Referent:no
+T15	CHEMICAL 602 604	NO
+N18	Name Annotation:T15 Referent:no
+T16	CHEMICAL 675 677	NO
+N19	Name Annotation:T16 Referent:no
+T17	CHEMICAL 771 782	ferric heme
+N20	Name Annotation:T17 Referent:ferricheme
+T18	CHEMICAL 820 830	L-arginine
+N21	Name Annotation:T18 Referent:larginine
+T19	CHEMICAL 856 868	L-citrulline
+N22	Name Annotation:T19 Referent:lcitrulline
+T20	CHEMICAL 898 907	ferric NO
+N23	Name Annotation:T20 Referent:ferricno
+T21	CHEMICAL 996 1007	ferric heme
+N24	Name Annotation:T21 Referent:ferricheme
+T22	CHEMICAL 1037 1039	NO
+N25	Name Annotation:T22 Referent:no
+T23	CHEMICAL 1134 1136	NO
+N26	Name Annotation:T23 Referent:no
+T1	CHEMICAL 1145 1154	guanidino
+N27	Name Annotation:T1 Referent:guanidino
+T2	CHEMICAL 1163 1169	ureido
+N28	Name Annotation:T2 Referent:ureido
+T27	GENE-Y 1232 1236	nNOS
+N29	Name Annotation:T27 Referent:nnos
+T4	CHEMICAL 1233 1235	NO
+N30	Name Annotation:T4 Referent:no
+T5	CHEMICAL 1290 1300	citrulline
+N31	Name Annotation:T5 Referent:citrulline
+T28	GENE-Y 1307 1311	nNOS
+N32	Name Annotation:T28 Referent:nnos
+R1	DIRECT-REGULATOR Arg1:T24 Arg2:T32
+R2	DIRECT-REGULATOR Arg1:T11 Arg2:T30
+R3	DIRECT-REGULATOR Arg1:T12 Arg2:T30
+R4	DIRECT-REGULATOR Arg1:T5 Arg2:T28
+R5	DIRECT-REGULATOR Arg1:T9 Arg2:T29
+R6	DIRECT-REGULATOR Arg1:T4 Arg2:T28
+R7	SUBSTRATE Arg1:T1 Arg2:T27
+R8	SUBSTRATE Arg1:T2 Arg2:T27
+R9	DIRECT-REGULATOR Arg1:T21 Arg2:T27
+R10	DIRECT-REGULATOR Arg1:T22 Arg2:T27
+R11	DIRECT-REGULATOR Arg1:T23 Arg2:T27
+R12	SUBSTRATE Arg1:T18 Arg2:T27
+R13	SUBSTRATE Arg1:T19 Arg2:T27
+R14	PRODUCT-OF Arg1:T20 Arg2:T27

@@ -1,0 +1,172 @@
+{
+    "entities": [
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "5-hydroxytryptamine1B",
+            "Name": "5hydroxytryptamine1b"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "elzasonan",
+            "Name": "elzasonan"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "elzasonan",
+            "Name": "elzasonan"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "P450 enzymes",
+            "Name": "p450enzymes"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "rCYP",
+            "Name": "rcyp"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "elzasonan N-oxide",
+            "Name": "elzasonannoxide"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "5-hydroxyelzasonan",
+            "Name": "5hydroxyelzasonan"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "elzasonan",
+            "Name": "elzasonan"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "indole",
+            "Name": "indole"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "iminium",
+            "Name": "iminium"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "rCYP",
+            "Name": "rcyp"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "CYP",
+            "Name": "cyp"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "rCYP",
+            "Name": "rcyp"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "elzasonan",
+            "Name": "elzasonan"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "CYP3A4",
+            "Name": "cyp3a4"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "CYP2C8",
+            "Name": "cyp2c8"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "CYP3A4",
+            "Name": "cyp3a4"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "CYP2C19",
+            "Name": "cyp2c19"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Cytochrome b5",
+            "Name": "cytochromeb5"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "P450 3A4",
+            "Name": "p4503a4"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "5-hydroxyelzasonan",
+            "Name": "5hydroxyelzasonan"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "rCYP",
+            "Name": "rcyp"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "rCYP3A4",
+            "Name": "rcyp3a4"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "P450",
+            "Name": "p450"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T10",
+            "target": "T25"
+        },
+        {
+            "type": "Substrate",
+            "source": "T9",
+            "target": "T20"
+        },
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T12"
+        }
+    ]
+}

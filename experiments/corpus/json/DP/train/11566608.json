@@ -1,0 +1,111 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "epidermal growth factor receptor",
+            "Name": "epidermalgrowthfactorreceptor"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "oestrogen",
+            "Name": "oestrogen"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "oestrogen receptor",
+            "Name": "oestrogenreceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "oestrogen",
+            "Name": "oestrogen"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "oestrogen receptor",
+            "Name": "oestrogenreceptor"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "epidermal growth factor receptor",
+            "Name": "epidermalgrowthfactorreceptor"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "epidermal growth factor receptor",
+            "Name": "epidermalgrowthfactorreceptor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "ZD 1839",
+            "Name": "zd1839"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Iressa",
+            "Name": "iressa"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T11"
+        }
+    ]
+}

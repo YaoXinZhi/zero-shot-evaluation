@@ -1,0 +1,136 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Pest",
+            "name": "xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T8",
+            "type": "Pest",
+            "name": "Xylella fastidiosa",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T9",
+            "type": "Location",
+            "name": "Netherlands",
+            "GeoNames": "2750405"
+        },
+        {
+            "id": "T10",
+            "type": "Plant",
+            "name": "olive trees",
+            "NCBI_Taxonomy": "4146"
+        },
+        {
+            "id": "T11",
+            "type": "Location",
+            "name": "Italy",
+            "GeoNames": "3175395"
+        },
+        {
+            "id": "T13",
+            "type": "Plant",
+            "name": "blackberries",
+            "NCBI_Taxonomy": "23216"
+        },
+        {
+            "id": "T14",
+            "type": "Plant",
+            "name": "oleander",
+            "NCBI_Taxonomy": "63479"
+        },
+        {
+            "id": "T15",
+            "type": "Plant",
+            "name": "oak",
+            "NCBI_Taxonomy": "3511"
+        },
+        {
+            "id": "T16",
+            "type": "Pest",
+            "name": "Xylella",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T17",
+            "type": "Location",
+            "name": "France",
+            "GeoNames": "3017382"
+        },
+        {
+            "id": "T18",
+            "type": "Location",
+            "name": "Spain",
+            "GeoNames": "2510769"
+        },
+        {
+            "id": "T19",
+            "type": "Location",
+            "name": "Portugal",
+            "GeoNames": "2264397"
+        },
+        {
+            "id": "T20",
+            "type": "Pest",
+            "name": "Xylella fastidiosa",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T21",
+            "type": "Pest",
+            "name": "xylella",
+            "NCBI_Taxonomy": "2371"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Has been found on",
+            "source": "T8",
+            "target": "T14"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T8",
+            "target": "T13"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T8",
+            "target": "T15"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T8",
+            "target": "T10"
+        },
+        {
+            "type": "Located in",
+            "source": "T8",
+            "target": "T11"
+        },
+        {
+            "type": "Located in",
+            "source": "T10",
+            "target": "T11"
+        },
+        {
+            "type": "Located in",
+            "source": "T16",
+            "target": "T18"
+        },
+        {
+            "type": "Located in",
+            "source": "T16",
+            "target": "T19"
+        },
+        {
+            "type": "Located in",
+            "source": "T16",
+            "target": "T17"
+        }
+    ]
+}

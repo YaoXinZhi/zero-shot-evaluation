@@ -1,0 +1,65 @@
+T5	CHEMICAL 0 7	Statins
+N1	Name Annotation:T5 Referent:statins
+T29	GENE-Y 17 20	p21
+N2	Name Annotation:T29 Referent:p21
+T30	GENE-N 43 62	histone deacetylase
+N3	Name Annotation:T30 Referent:histonedeacetylase
+T28	GENE-N 107 114	HDAC1/2
+N4	Name Annotation:T28 Referent:hdac12
+T1	CHEMICAL 116 123	Statins
+N5	Name Annotation:T1 Referent:statins
+T2	CHEMICAL 128 158	3-hydroxy-3-methylglutaryl-CoA
+N6	Name Annotation:T2 Referent:3hydroxy3methylglutarylcoa
+T9	GENE-Y 128 168	3-hydroxy-3-methylglutaryl-CoA reductase
+N7	Name Annotation:T9 Referent:3hydroxy3methylglutarylcoareductase
+T11	GENE-N 359 378	histone deacetylase
+N8	Name Annotation:T11 Referent:histonedeacetylase
+T12	GENE-N 380 384	HDAC
+N9	Name Annotation:T12 Referent:hdac
+T13	GENE-N 429 450	acetylated histone-H3
+N10	Name Annotation:T13 Referent:acetylatedhistoneh3
+T14	GENE-Y 473 476	p21
+N11	Name Annotation:T14 Referent:p21
+T15	GENE-Y 477 480	WAF
+N12	Name Annotation:T15 Referent:waf
+T16	GENE-Y 481 484	CIP
+N13	Name Annotation:T16 Referent:cip
+T3	CHEMICAL 569 584	carboxylic acid
+N14	Name Annotation:T3 Referent:carboxylicacid
+T17	GENE-Y 630 635	HDAC2
+N15	Name Annotation:T17 Referent:hdac2
+T4	CHEMICAL 690 700	lovastatin
+N16	Name Annotation:T4 Referent:lovastatin
+T18	GENE-Y 711 716	HDAC2
+N17	Name Annotation:T18 Referent:hdac2
+T19	GENE-Y 778 781	Sp1
+N18	Name Annotation:T19 Referent:sp1
+T20	GENE-Y 790 793	p53
+N19	Name Annotation:T20 Referent:p53
+T21	GENE-N 821 847	statins-responsive element
+N20	Name Annotation:T21 Referent:statinsresponsiveelement
+T22	GENE-Y 857 860	p21
+N21	Name Annotation:T22 Referent:p21
+T23	GENE-N 991 998	HDAC1/2
+N22	Name Annotation:T23 Referent:hdac12
+T24	GENE-Y 1018 1021	CBP
+N23	Name Annotation:T24 Referent:cbp
+T25	GENE-N 1038 1048	histone-H3
+N24	Name Annotation:T25 Referent:histoneh3
+T26	GENE-Y 1068 1071	Sp1
+N25	Name Annotation:T26 Referent:sp1
+T27	GENE-N 1081 1093	p21 promoter
+N26	Name Annotation:T27 Referent:p21promoter
+T6	GENE-N 1258 1262	HDAC
+N27	Name Annotation:T6 Referent:hdac
+T7	GENE-N 1285 1295	histone-H3
+N28	Name Annotation:T7 Referent:histoneh3
+T8	GENE-Y 1320 1323	p21
+N29	Name Annotation:T8 Referent:p21
+T10	GENE-N 1376 1380	HDAC
+N30	Name Annotation:T10 Referent:hdac
+R1	INDIRECT-UPREGULATOR Arg1:T5 Arg2:T29
+R2	INHIBITOR Arg1:T5 Arg2:T30
+R3	INHIBITOR Arg1:T1 Arg2:T9
+R4	DIRECT-REGULATOR Arg1:T3 Arg2:T17
+R5	INHIBITOR Arg1:T4 Arg2:T18

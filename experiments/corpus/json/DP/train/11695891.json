@@ -1,0 +1,183 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "nitric oxide synthase",
+            "Name": "nitricoxidesynthase"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "nitro indazole",
+            "Name": "nitroindazole"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "nitric oxide synthase",
+            "Name": "nitricoxidesynthase"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "NOS",
+            "Name": "nos"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "NOS",
+            "Name": "nos"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "3-Br-7-nitroindazole",
+            "Name": "3br7nitroindazole"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "7-NIBr",
+            "Name": "7nibr"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "catalytic heme domain",
+            "Name": "catalytichemedomain"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "endothelial NOS",
+            "Name": "endothelialnos"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "7-NIBr",
+            "Name": "7nibr"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "7-NIBr",
+            "Name": "7nibr"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "eNOS",
+            "Name": "enos"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "heme propionate",
+            "Name": "hemepropionate"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "heme propionate",
+            "Name": "hemepropionate"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "tetrahydrobiopterin",
+            "Name": "tetrahydrobiopterin"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "heme",
+            "Name": "heme"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "7-NIBr",
+            "Name": "7nibr"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T14",
+            "target": "T21"
+        },
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T15"
+        },
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Part of",
+            "source": "T7",
+            "target": "T20"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T20"
+        },
+        {
+            "type": "Part of",
+            "source": "T8",
+            "target": "T20"
+        }
+    ]
+}

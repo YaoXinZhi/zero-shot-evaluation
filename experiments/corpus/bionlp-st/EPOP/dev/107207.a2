@@ -1,0 +1,80 @@
+T3	Plant 26 41	olive cultivars
+T4	Pest 86 104	Xylella fastidiosa
+T5	Disease 116 144	Olive quick decline syndrome
+T6	Disease 146 150	OQDS
+T7	Location 192 197	Italy
+T8	Date 198 210	in late 2013
+T9	Pest 233 264	Xylella fastidiosa subsp. pauca
+T10	Pest 266 269	Xfp
+T11	Plant 286 301	olive cultivars
+T12	Plant 325 340	olive cultivars
+T13	Disease 356 360	OQDS
+T14	Pest 522 525	Xfp
+T15	Plant 535 546	olive trees
+T16	Pest 713 716	Xfp
+T17	Plant 753 769	Cellina di Nardò
+T18	Plant 786 793;806 815	Leccino cultivars
+T19	Plant 799 815	“FS17” cultivars
+T20	Pest 860 863	Xfp
+T21	Plant 932 948	Cellina di Nardò
+T22	Plant 957 964	Leccino
+T23	Plant 969 973	FS17
+T24	Plant 1071 1086	olive cultivars
+T25	Pest 1118 1121	Xfp
+T26	Plant 1293 1298	olive
+T27	Pest 1327 1340	X. fastidiosa
+N1	NCBI_Taxonomy Annotation:T3 Referent:158383
+N2	NCBI_Taxonomy Annotation:T4 Referent:2371
+N3	GeoNames Annotation:T7 Referent:3175395
+N4	NCBI_Taxonomy Annotation:T9 Referent:698414
+N5	NCBI_Taxonomy Annotation:T10 Referent:698414
+N6	NCBI_Taxonomy Annotation:T11 Referent:158383
+N7	NCBI_Taxonomy Annotation:T12 Referent:158383
+N8	NCBI_Taxonomy Annotation:T14 Referent:698414
+N9	NCBI_Taxonomy Annotation:T15 Referent:158383
+N10	NCBI_Taxonomy Annotation:T16 Referent:698414
+N11	NCBI_Taxonomy Annotation:T17 Referent:158383
+N12	NCBI_Taxonomy Annotation:T18 Referent:158383
+N13	NCBI_Taxonomy Annotation:T19 Referent:158383
+N14	NCBI_Taxonomy Annotation:T20 Referent:698414
+N15	NCBI_Taxonomy Annotation:T21 Referent:158383
+N16	NCBI_Taxonomy Annotation:T22 Referent:158383
+N17	NCBI_Taxonomy Annotation:T23 Referent:158383
+N18	NCBI_Taxonomy Annotation:T24 Referent:158383
+N19	NCBI_Taxonomy Annotation:T25 Referent:698414
+N20	NCBI_Taxonomy Annotation:T26 Referent:4146
+N21	NCBI_Taxonomy Annotation:T27 Referent:2371
+R1	Found_on Organism:T4 Habitat:T3
+R2	Located_in Object:T5 Location:T7
+R3	Causes Pest:T9 Disease:T5
+R4	Expressed_by Disease:T5 Plant:T11
+R5	Detected_on Object:T5 Date:T8
+R6	Located_in Object:T9 Location:T7
+R7	Found_on Organism:T9 Habitat:T11
+R8	Detected_on Object:T9 Date:T8
+R9	Located_in Object:T11 Location:T7
+R10	Detected_on Object:T11 Date:T8
+R11	Expressed_by Disease:T13 Plant:T12
+R12	Found_on Organism:T14 Habitat:T15
+R13	Found_on Organism:T16 Habitat:T18
+R14	Found_on Organism:T16 Habitat:T17
+R15	Found_on Organism:T16 Habitat:T19
+R16	Found_on Organism:T20 Habitat:T23
+R17	Found_on Organism:T20 Habitat:T22
+R18	Found_on Organism:T20 Habitat:T21
+R19	Found_on Organism:T25 Habitat:T24
+R20	Found_on Organism:T27 Habitat:T26
+E1	Nary Organisme_nuisible:T4 Plante:T3
+E2	Nary Organisme_nuisible:T9 Plante:T11 Maladie:T5 Lieu:T7 Date:T8
+E3	Nary Plante:T12 Maladie:T13
+E4	Nary Organisme_nuisible:T14 Plante:T15
+E5	Nary Organisme_nuisible:T16 Plante:T18
+E6	Nary Organisme_nuisible:T16 Plante:T17
+E7	Nary Organisme_nuisible:T16 Plante:T19
+E8	Nary Organisme_nuisible:T20 Plante:T23
+E9	Nary Organisme_nuisible:T20 Plante:T22
+E10	Nary Organisme_nuisible:T20 Plante:T21
+E11	Nary Organisme_nuisible:T25 Plante:T24
+E12	Nary Organisme_nuisible:T27 Plante:T26
+*	Equiv T5 T6
+*	Equiv T9 T10

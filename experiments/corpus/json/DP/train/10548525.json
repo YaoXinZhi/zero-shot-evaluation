@@ -1,0 +1,254 @@
+{
+    "entities": [
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "peroxisome proliferator-activated receptor gamma",
+            "Name": "peroxisomeproliferatoractivatedreceptorgamma"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "rosiglitazone",
+            "Name": "rosiglitazone"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "BRL 49653",
+            "Name": "brl49653"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "thiazolidinediones",
+            "Name": "thiazolidinediones"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "rosiglitazone",
+            "Name": "rosiglitazone"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Rosiglitazone",
+            "Name": "rosiglitazone"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "p85alphaphosphatidylinositol 3-kinase",
+            "Name": "p85alphaphosphatidylinositol3kinase"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "p85alphaPI-3K",
+            "Name": "p85alphapi3k"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "uncoupling protein-2",
+            "Name": "uncouplingprotein2"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "leptin",
+            "Name": "leptin"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "insulin receptor",
+            "Name": "insulinreceptor"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "IRS-1",
+            "Name": "irs1"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Glut 4",
+            "Name": "glut4"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "lipoprotein lipase",
+            "Name": "lipoproteinlipase"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "hormone-sensitive lipase",
+            "Name": "hormonesensitivelipase"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "acylation-stimulating protein",
+            "Name": "acylationstimulatingprotein"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "fatty acid",
+            "Name": "fattyacid"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "fatty acid transport protein-1",
+            "Name": "fattyacidtransportprotein1"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "angiotensinogen",
+            "Name": "angiotensinogen"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "plasminogen activator inhibitor-1",
+            "Name": "plasminogenactivatorinhibitor1"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "PPARgamma1 and gamma2",
+            "Name": "ppargamma1andgamma2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "rosiglitazone",
+            "Name": "rosiglitazone"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "RXR",
+            "Name": "rxr"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "rosiglitazone",
+            "Name": "rosiglitazone"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "p85alphaPI-3K",
+            "Name": "p85alphapi3k"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "UCP2",
+            "Name": "ucp2"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "Glut 4",
+            "Name": "glut4"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "p85alphaPI-3K",
+            "Name": "p85alphapi3k"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "thiazolidinediones",
+            "Name": "thiazolidinediones"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T8",
+            "target": "T32"
+        },
+        {
+            "type": "Activator",
+            "source": "T9",
+            "target": "T32"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Activator",
+            "source": "T7",
+            "target": "T25"
+        },
+        {
+            "type": "Activator",
+            "source": "T7",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T28"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T29"
+        }
+    ]
+}

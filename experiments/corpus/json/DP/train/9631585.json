@@ -1,0 +1,99 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "DNA-topoisomerase II",
+            "Name": "dnatopoisomeraseii"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "etoposide",
+            "Name": "etoposide"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "mitoxantrone",
+            "Name": "mitoxantrone"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "cyclophosphamide",
+            "Name": "cyclophosphamide"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "DNA-topoisomerase II",
+            "Name": "dnatopoisomeraseii"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "etoposide",
+            "Name": "etoposide"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "mitoxantrone",
+            "Name": "mitoxantrone"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "cyclophosphamide",
+            "Name": "cyclophosphamide"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "etoposide",
+            "Name": "etoposide"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "AML1",
+            "Name": "aml1"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "AML1",
+            "Name": "aml1"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "breakpoint cluster region",
+            "Name": "breakpointclusterregion"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T8"
+        }
+    ]
+}

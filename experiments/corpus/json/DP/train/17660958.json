@@ -1,0 +1,147 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "HER",
+            "Name": "her"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "HER2",
+            "Name": "her2"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "neu receptor",
+            "Name": "neureceptor"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "HER2",
+            "Name": "her2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "neu",
+            "Name": "neu"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "HER2",
+            "Name": "her2"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "neu",
+            "Name": "neu"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "doxorubicin",
+            "Name": "doxorubicin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "cyclophosphamide",
+            "Name": "cyclophosphamide"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "paclitaxel",
+            "Name": "paclitaxel"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "anthracycline",
+            "Name": "anthracycline"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "HER2",
+            "Name": "her2"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "neu",
+            "Name": "neu"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "HER2",
+            "Name": "her2"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "neu",
+            "Name": "neu"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "epidermal growth factor receptor",
+            "Name": "epidermalgrowthfactorreceptor"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "EGFR",
+            "Name": "egfr"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "lapatinib",
+            "Name": "lapatinib"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "lapatinib",
+            "Name": "lapatinib"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T13"
+        }
+    ]
+}

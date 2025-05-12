@@ -1,0 +1,292 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "Indoxyl 3-sulfate",
+            "Name": "indoxyl3sulfate"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "c-Src",
+            "Name": "csrc"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "STAT3",
+            "Name": "stat3"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "indoxyl 3-sulfate",
+            "Name": "indoxyl3sulfate"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "I3S",
+            "Name": "i3s"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "I3S",
+            "Name": "i3s"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "ROR\u03b3t",
+            "Name": "ror\u03b3t"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "2,3,7,8-tetrachlorodibenzo-p-dioxin",
+            "Name": "2378tetrachlorodibenzopdioxin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "TCDD",
+            "Name": "tcdd"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "STAT3",
+            "Name": "stat3"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "IL-6",
+            "Name": "il6"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "I3S",
+            "Name": "i3s"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "TCDD",
+            "Name": "tcdd"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "c-Src",
+            "Name": "csrc"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "AhR",
+            "Name": "ahr"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "I3S",
+            "Name": "i3s"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "TCDD",
+            "Name": "tcdd"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "c-Src",
+            "Name": "csrc"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "4-amino-5-(4-chlorophenyl)-7-(t-butyl) pyrazolo[3,4-d]pyrimidine",
+            "Name": "4amino54chlorophenyl7tbutylpyrazolo34dpyrimidine"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "c-Src",
+            "Name": "csrc"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "STAT3",
+            "Name": "stat3"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "I3S",
+            "Name": "i3s"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "TCDD",
+            "Name": "tcdd"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "c-Src",
+            "Name": "csrc"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "STAT3",
+            "Name": "stat3"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "I3S",
+            "Name": "i3s"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "IL-17",
+            "Name": "il17"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T14",
+            "target": "T29"
+        },
+        {
+            "type": "Activator",
+            "source": "T14",
+            "target": "T30"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T18"
+        },
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T19"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T20"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T20"
+        },
+        {
+            "type": "Activator",
+            "source": "T9",
+            "target": "T21"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T21"
+        },
+        {
+            "type": "Activator",
+            "source": "T11",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T12",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T28"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T15"
+        },
+        {
+            "type": "Activator",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Activator",
+            "source": "T2",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T17"
+        }
+    ]
+}

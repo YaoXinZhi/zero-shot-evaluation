@@ -1,0 +1,69 @@
+T23	Pest 0 12	Liberibacter
+T24	Disease 47 70	citrus greening disease
+T25	Disease 134 157	citrus greening disease
+T26	Disease 289 312	citrus greening disease
+T27	Pest 437 449	Liberibacter
+T28	Pest 547 559	Liberibacter
+T29	Plant 596 604	potatoes
+T30	Disease 640 655	citrus greening
+T31	Disease 657 672	Citrus greening
+T32	Disease 688 701	Huanglongbing
+T33	Plant 731 743	citrus trees
+T34	Pest 987 997	L. capsica
+T35	Pest 1036 1048	Liberibacter
+T36	Pest 1243 1256	Liberibacters
+T37	Pest 1483 1493	L. capsica
+T38	Pest 1869 1879	L. capsica
+T39	Plant 1933 1945	pepper plant
+T40	Location 1949 1955	Brazil
+T41	Plant 1992 1998	pepper
+T42	Pest 2042 2052	L. capsica
+T43	Plant 2060 2067	peppers
+T44	Plant 2144 2150	pepper
+T45	Pest 2227 2237	L. capsica
+T46	Location 2302 2308	Brazil
+T47	Location 2651 2657	Brazil
+T48	Pest 2795 2807	Liberibacter
+T49	Date 3232 3239	in 2020
+T50	Pest 3463 3473	L. capsica
+T51	Pest 3533 3545	Liberibacter
+N1	NCBI_Taxonomy Annotation:T23 Referent:34019
+N2	NCBI_Taxonomy Annotation:T27 Referent:34019
+N3	NCBI_Taxonomy Annotation:T28 Referent:34019
+N4	NCBI_Taxonomy Annotation:T29 Referent:4113
+N5	NCBI_Taxonomy Annotation:T33 Referent:2706
+N6	NCBI_Taxonomy Annotation:T34 Referent:2884028
+N7	NCBI_Taxonomy Annotation:T35 Referent:34019
+N8	NCBI_Taxonomy Annotation:T36 Referent:34019
+N9	NCBI_Taxonomy Annotation:T37 Referent:2884028
+N10	NCBI_Taxonomy Annotation:T38 Referent:2884028
+N11	NCBI_Taxonomy Annotation:T39 Referent:4071
+N12	GeoNames Annotation:T40 Referent:3469034
+N13	NCBI_Taxonomy Annotation:T41 Referent:4071
+N14	NCBI_Taxonomy Annotation:T42 Referent:2884028
+N15	NCBI_Taxonomy Annotation:T43 Referent:4071
+N16	NCBI_Taxonomy Annotation:T44 Referent:4071
+N17	NCBI_Taxonomy Annotation:T45 Referent:2884028
+N18	GeoNames Annotation:T46 Referent:3469034
+N19	GeoNames Annotation:T47 Referent:3469034
+N20	NCBI_Taxonomy Annotation:T48 Referent:34019
+N21	NCBI_Taxonomy Annotation:T50 Referent:2884028
+N22	NCBI_Taxonomy Annotation:T51 Referent:34019
+R1	Causes Pest:T23 Disease:T24
+R2	Found_on Organism:T28 Habitat:T29
+R3	Causes Pest:T28 Disease:T30
+R4	Expressed_by Disease:T30 Plant:T29
+R5	Expressed_by Disease:T32 Plant:T33
+R6	Found_on Organism:T38 Habitat:T39
+R7	Located_in Object:T38 Location:T40
+R8	Located_in Object:T39 Location:T40
+R9	Found_on Organism:T42 Habitat:T43
+R10	Found_on Organism:T45 Habitat:T44
+E1	Nary Organisme_nuisible:T23 Maladie:T24
+E2	Nary Organisme_nuisible:T28 Plante:T29 Maladie:T30
+E3	Nary Plante:T33 Maladie:T32
+E4	Nary Organisme_nuisible:T38 Plante:T39 Lieu:T40
+E5	Nary Organisme_nuisible:T42 Plante:T43
+E6	Nary Organisme_nuisible:T45 Plante:T44
+*	Equiv T27 T28
+*	Equiv T31 T32

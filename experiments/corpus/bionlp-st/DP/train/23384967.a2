@@ -1,0 +1,70 @@
+T25	GENE-Y 24 36	human CYP3A4
+N1	Name Annotation:T25 Referent:humancyp3a4
+T26	GENE-Y 41 51	rat CYP3A1
+N2	Name Annotation:T26 Referent:ratcyp3a1
+T14	CHEMICAL 94 105	bisphenol A
+N3	Name Annotation:T14 Referent:bisphenola
+T13	CHEMICAL 110 128	diethylstilbestrol
+N4	Name Annotation:T13 Referent:diethylstilbestrol
+T1	CHEMICAL 175 186	Bisphenol A
+N5	Name Annotation:T1 Referent:bisphenola
+T2	CHEMICAL 188 191	BPA
+N6	Name Annotation:T2 Referent:bpa
+T4	CHEMICAL 197 215	diethylstilbestrol
+N7	Name Annotation:T4 Referent:diethylstilbestrol
+T7	CHEMICAL 217 220	DES
+N8	Name Annotation:T7 Referent:des
+T15	GENE-Y 280 305	human pregnane X receptor
+N9	Name Annotation:T15 Referent:humanpregnanexreceptor
+T16	GENE-Y 307 310	PXR
+N10	Name Annotation:T16 Referent:pxr
+T17	GENE-Y 313 319	CYP3A4
+N11	Name Annotation:T17 Referent:cyp3a4
+T3	CHEMICAL 364 371	steroid
+N12	Name Annotation:T3 Referent:steroid
+T18	GENE-Y 401 404	PXR
+N13	Name Annotation:T18 Referent:pxr
+T5	CHEMICAL 478 481	BPA
+N14	Name Annotation:T5 Referent:bpa
+T6	CHEMICAL 486 489	DES
+N15	Name Annotation:T6 Referent:des
+T19	GENE-N 557 572	CYP3A4 promoter
+N16	Name Annotation:T19 Referent:cyp3a4promoter
+T20	GENE-Y 581 584	PXR
+N17	Name Annotation:T20 Referent:pxr
+T21	GENE-Y 640 647	rat PXR
+N18	Name Annotation:T21 Referent:ratpxr
+T8	CHEMICAL 658 661	BPA
+N19	Name Annotation:T8 Referent:bpa
+T9	CHEMICAL 666 669	DES
+N20	Name Annotation:T9 Referent:des
+T22	GENE-Y 726 732	CYP3A4
+N21	Name Annotation:T22 Referent:cyp3a4
+T10	CHEMICAL 782 785	BPA
+N22	Name Annotation:T10 Referent:bpa
+T23	GENE-Y 872 881	human PXR
+N23	Name Annotation:T23 Referent:humanpxr
+T24	GENE-Y 914 920	CYP3A4
+N24	Name Annotation:T24 Referent:cyp3a4
+T11	CHEMICAL 958 961	BPA
+N25	Name Annotation:T11 Referent:bpa
+T12	CHEMICAL 1022 1025	DES
+N26	Name Annotation:T12 Referent:des
+R1	DIRECT-REGULATOR Arg1:T1 Arg2:T15
+R2	DIRECT-REGULATOR Arg1:T2 Arg2:T15
+R3	DIRECT-REGULATOR Arg1:T4 Arg2:T15
+R4	DIRECT-REGULATOR Arg1:T7 Arg2:T15
+R5	DIRECT-REGULATOR Arg1:T1 Arg2:T16
+R6	DIRECT-REGULATOR Arg1:T2 Arg2:T16
+R7	DIRECT-REGULATOR Arg1:T4 Arg2:T16
+R8	DIRECT-REGULATOR Arg1:T7 Arg2:T16
+R9	SUBSTRATE Arg1:T3 Arg2:T17
+R10	ACTIVATOR Arg1:T5 Arg2:T19
+R11	ACTIVATOR Arg1:T6 Arg2:T19
+R12	ACTIVATOR Arg1:T5 Arg2:T20
+R13	ACTIVATOR Arg1:T6 Arg2:T20
+R14	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T22
+R15	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T22
+R16	ACTIVATOR Arg1:T10 Arg2:T23
+R17	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T24
+R18	ACTIVATOR Arg1:T10 Arg2:T24

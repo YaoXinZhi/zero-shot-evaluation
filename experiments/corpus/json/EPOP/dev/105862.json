@@ -1,0 +1,300 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Disease",
+            "name": "Greening"
+        },
+        {
+            "id": "T14",
+            "type": "Location",
+            "name": "SP",
+            "GeoNames": "3448433"
+        },
+        {
+            "id": "T15",
+            "type": "Location",
+            "name": "MG",
+            "GeoNames": "3457153"
+        },
+        {
+            "id": "T17",
+            "type": "Disease",
+            "name": "greening disease"
+        },
+        {
+            "id": "T18",
+            "type": "Disease",
+            "name": "huanglongbing"
+        },
+        {
+            "id": "T19",
+            "type": "Disease",
+            "name": "HLB"
+        },
+        {
+            "id": "T20",
+            "type": "Plant",
+            "name": "orange groves",
+            "NCBI_Taxonomy": "2711"
+        },
+        {
+            "id": "T23",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T24",
+            "type": "Location",
+            "name": "S\u00e3o Paulo",
+            "GeoNames": "3448433"
+        },
+        {
+            "id": "T25",
+            "type": "Location",
+            "name": "Tri\u00e2ngulo",
+            "GeoNames": "3446049"
+        },
+        {
+            "id": "T26",
+            "type": "Location",
+            "name": "southwest of Minas Gerais",
+            "GeoNames": "3457153"
+        },
+        {
+            "id": "T28",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T29",
+            "type": "Plant",
+            "name": "citrus",
+            "NCBI_Taxonomy": "2706"
+        },
+        {
+            "id": "T30",
+            "type": "Location",
+            "name": "regions of Limeira",
+            "GeoNames": "6322351"
+        },
+        {
+            "id": "T31",
+            "type": "Location",
+            "name": "regions of Brotas",
+            "GeoNames": "6322156"
+        },
+        {
+            "id": "T32",
+            "type": "Location",
+            "name": "regions of Porto Ferreira",
+            "GeoNames": "6322485"
+        },
+        {
+            "id": "T34",
+            "type": "Disease",
+            "name": "greening"
+        },
+        {
+            "id": "T35",
+            "type": "Disease",
+            "name": "greening"
+        },
+        {
+            "id": "T36",
+            "type": "Location",
+            "name": "regions of Duartina",
+            "GeoNames": "6322219"
+        },
+        {
+            "id": "T37",
+            "type": "Location",
+            "name": "regions of Avar\u00e9",
+            "GeoNames": "6322118"
+        },
+        {
+            "id": "T39",
+            "type": "Location",
+            "name": "regions of Altin\u00f3polis",
+            "GeoNames": "3472484"
+        },
+        {
+            "id": "T40",
+            "type": "Location",
+            "name": "regions of Bebedouro",
+            "GeoNames": "6322134"
+        },
+        {
+            "id": "T41",
+            "type": "Location",
+            "name": "regions of Itapetininga",
+            "GeoNames": "6322308"
+        },
+        {
+            "id": "T42",
+            "type": "Location",
+            "name": "regions of S\u00e3o Jos\u00e9 do Rio Preto",
+            "GeoNames": "6322577"
+        },
+        {
+            "id": "T44",
+            "type": "Location",
+            "name": "region of Mat\u00e3o",
+            "GeoNames": "6322372"
+        },
+        {
+            "id": "T46",
+            "type": "Location",
+            "name": "regions of Votuporanga",
+            "GeoNames": "6324360"
+        },
+        {
+            "id": "T47",
+            "type": "Location",
+            "name": "regions of Tri\u00e2ngulo Mineiro",
+            "GeoNames": "3446049"
+        },
+        {
+            "id": "T48",
+            "type": "Disease",
+            "name": "greening"
+        },
+        {
+            "id": "T49",
+            "type": "Pest",
+            "name": "Candidatus Liberibacter spp.",
+            "NCBI_Taxonomy": "34021"
+        },
+        {
+            "id": "T50",
+            "type": "Disease",
+            "name": "greening"
+        },
+        {
+            "id": "T51",
+            "type": "Disease",
+            "name": "Cancer"
+        },
+        {
+            "id": "T52",
+            "type": "Disease",
+            "name": "CVC"
+        },
+        {
+            "id": "T53",
+            "type": "Disease",
+            "name": "cancer"
+        },
+        {
+            "id": "T55",
+            "type": "Disease",
+            "name": "CVC"
+        }
+    ],
+    "equivalences": [
+        [
+            "T18",
+            "T19",
+            "T17"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T13",
+            "target": "T15"
+        },
+        {
+            "type": "Located in",
+            "source": "T13",
+            "target": "T14"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T24"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T26"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T26"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T25"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T25"
+        },
+        {
+            "type": "Affects",
+            "source": "T18",
+            "target": "T23"
+        },
+        {
+            "type": "Affects",
+            "source": "T18",
+            "target": "T20"
+        },
+        {
+            "type": "Affects",
+            "source": "T18",
+            "target": "T28"
+        },
+        {
+            "type": "Located in",
+            "source": "T23",
+            "target": "T24"
+        },
+        {
+            "type": "Located in",
+            "source": "T23",
+            "target": "T26"
+        },
+        {
+            "type": "Located in",
+            "source": "T23",
+            "target": "T26"
+        },
+        {
+            "type": "Located in",
+            "source": "T23",
+            "target": "T25"
+        },
+        {
+            "type": "Located in",
+            "source": "T23",
+            "target": "T25"
+        },
+        {
+            "type": "Located in",
+            "source": "T34",
+            "target": "T30"
+        },
+        {
+            "type": "Located in",
+            "source": "T34",
+            "target": "T31"
+        },
+        {
+            "type": "Located in",
+            "source": "T34",
+            "target": "T32"
+        },
+        {
+            "type": "Causes",
+            "source": "T49",
+            "target": "T50"
+        }
+    ]
+}

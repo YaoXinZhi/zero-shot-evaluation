@@ -1,0 +1,57 @@
+T25	GENE-N 48 52	VMAT
+N1	Name Annotation:T25 Referent:vmat
+T23	GENE-N 90 128	vesicular neurotransmitter transporter
+N2	Name Annotation:T23 Referent:vesicularneurotransmittertransporter
+T22	GENE-Y 129 134	VMAT2
+N3	Name Annotation:T22 Referent:vmat2
+T15	CHEMICAL 171 181	monoamines
+N4	Name Annotation:T15 Referent:monoamines
+T18	GENE-Y 218 223	VMAT2
+N5	Name Annotation:T18 Referent:vmat2
+T20	GENE-Y 441 446	VMAT2
+N6	Name Annotation:T20 Referent:vmat2
+T21	GENE-Y 462 468	rVMAT2
+N7	Name Annotation:T21 Referent:rvmat2
+T8	CHEMICAL 491 502	acriflavine
+N8	Name Annotation:T8 Referent:acriflavine
+T9	CHEMICAL 514 532	parkinsonian toxin
+N9	Name Annotation:T9 Referent:parkinsoniantoxin
+T10	CHEMICAL 533 560	1-methyl-4-phenylpyridinium
+N10	Name Annotation:T10 Referent:1methyl4phenylpyridinium
+T11	CHEMICAL 562 568	MPP(+)
+N11	Name Annotation:T11 Referent:mpp
+T12	CHEMICAL 677 688	acriflavine
+N12	Name Annotation:T12 Referent:acriflavine
+T13	CHEMICAL 741 754	tetrabenazine
+N13	Name Annotation:T13 Referent:tetrabenazine
+T14	CHEMICAL 756 759	TBZ
+N14	Name Annotation:T14 Referent:tbz
+T24	GENE-Y 793 798	VMAT2
+N15	Name Annotation:T24 Referent:vmat2
+T16	CHEMICAL 978 981	TBZ
+N16	Name Annotation:T16 Referent:tbz
+T17	CHEMICAL 1046 1049	TBZ
+N17	Name Annotation:T17 Referent:tbz
+T1	CHEMICAL 1099 1108	serotonin
+N18	Name Annotation:T1 Referent:serotonin
+T2	CHEMICAL 1148 1159	acriflavine
+N19	Name Annotation:T2 Referent:acriflavine
+T3	CHEMICAL 1164 1170	MPP(+)
+N20	Name Annotation:T3 Referent:mpp
+T4	CHEMICAL 1243 1253	amino acid
+N21	Name Annotation:T4 Referent:aminoacid
+T5	CHEMICAL 1333 1336	TBZ
+N22	Name Annotation:T5 Referent:tbz
+T19	GENE-Y 1492 1498	rVMAT2
+N23	Name Annotation:T19 Referent:rvmat2
+T6	CHEMICAL 1558 1567	serotonin
+N24	Name Annotation:T6 Referent:serotonin
+T7	CHEMICAL 1582 1585	TBZ
+N25	Name Annotation:T7 Referent:tbz
+R1	SUBSTRATE Arg1:T15 Arg2:T23
+R2	SUBSTRATE Arg1:T15 Arg2:T22
+R3	INHIBITOR Arg1:T13 Arg2:T24
+R4	INHIBITOR Arg1:T14 Arg2:T24
+R5	SUBSTRATE Arg1:T12 Arg2:T24
+R6	SUBSTRATE Arg1:T6 Arg2:T19
+R7	DIRECT-REGULATOR Arg1:T7 Arg2:T19

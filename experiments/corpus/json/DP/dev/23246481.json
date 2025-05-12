@@ -1,0 +1,247 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "Wogonin",
+            "Name": "wogonin"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "H2O2",
+            "Name": "h2o2"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "caveolin-1",
+            "Name": "caveolin1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Wogonin",
+            "Name": "wogonin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "monoflavonoid",
+            "Name": "monoflavonoid"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "wogonin",
+            "Name": "wogonin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "wogonin",
+            "Name": "wogonin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "H2O2",
+            "Name": "h2o2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "wogonin",
+            "Name": "wogonin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "H2O2",
+            "Name": "h2o2"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "actin",
+            "Name": "actin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "albumin",
+            "Name": "albumin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "wogonin",
+            "Name": "wogonin"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "H2O2",
+            "Name": "h2o2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "caveolin-1",
+            "Name": "caveolin1"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "cav-1",
+            "Name": "cav1"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "VE-cadherin",
+            "Name": "vecadherin"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "\u03b2-catenin",
+            "Name": "\u03b2catenin"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "wogonin",
+            "Name": "wogonin"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "anisomycin",
+            "Name": "anisomycin"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "p38",
+            "Name": "p38"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "cav-1",
+            "Name": "cav1"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "wogonin",
+            "Name": "wogonin"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "H2O2",
+            "Name": "h2o2"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "cav-1",
+            "Name": "cav1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T17"
+        },
+        {
+            "type": "Activator",
+            "source": "T9",
+            "target": "T18"
+        },
+        {
+            "type": "Activator",
+            "source": "T9",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T21"
+        },
+        {
+            "type": "Activator",
+            "source": "T11",
+            "target": "T22"
+        },
+        {
+            "type": "Activator",
+            "source": "T11",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T24"
+        },
+        {
+            "type": "Activator",
+            "source": "T13",
+            "target": "T24"
+        },
+        {
+            "type": "Activator",
+            "source": "T15",
+            "target": "T25"
+        }
+    ]
+}

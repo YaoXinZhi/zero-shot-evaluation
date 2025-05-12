@@ -1,0 +1,66 @@
+T11	CHEMICAL 0 7	Arsenic
+N1	Name Annotation:T11 Referent:arsenic
+T29	GENE-N 38 68	angiotensin II Type I receptor
+N2	Name Annotation:T29 Referent:angiotensiniitypeireceptor
+T5	CHEMICAL 121 128	arsenic
+N3	Name Annotation:T5 Referent:arsenic
+T4	CHEMICAL 272 279	arsenic
+N4	Name Annotation:T4 Referent:arsenic
+T17	GENE-N 412 442	angiotensin II Type I receptor
+N5	Name Annotation:T17 Referent:angiotensiniitypeireceptor
+T18	GENE-N 444 448	AT1R
+N6	Name Annotation:T18 Referent:at1r
+T19	GENE-Y 460 465	AT1AR
+N7	Name Annotation:T19 Referent:at1ar
+T20	GENE-Y 470 475	AT1BR
+N8	Name Annotation:T20 Referent:at1br
+T21	GENE-N 616 620	AT1R
+N9	Name Annotation:T21 Referent:at1r
+T22	GENE-Y 631 636	AT1AR
+N10	Name Annotation:T22 Referent:at1ar
+T23	GENE-Y 641 646	AT1BR
+N11	Name Annotation:T23 Referent:at1br
+T6	CHEMICAL 657 672	sodium arsenite
+N12	Name Annotation:T6 Referent:sodiumarsenite
+T7	CHEMICAL 767 773	oxygen
+N13	Name Annotation:T7 Referent:oxygen
+T24	GENE-N 901 925	c-Jun N-terminal kinases
+N14	Name Annotation:T24 Referent:cjunnterminalkinases
+T8	CHEMICAL 907 908	N
+N15	Name Annotation:T8 Referent:n
+T25	GENE-N 927 930	JNK
+N16	Name Annotation:T25 Referent:jnk
+T26	GENE-Y 936 955	activated protein 1
+N17	Name Annotation:T26 Referent:activatedprotein1
+T27	GENE-Y 957 961	AP-1
+N18	Name Annotation:T27 Referent:ap1
+T9	CHEMICAL 1005 1021	N-acetylcysteine
+N19	Name Annotation:T9 Referent:nacetylcysteine
+T10	CHEMICAL 1023 1026	NAC
+N20	Name Annotation:T10 Referent:nac
+T28	GENE-N 1066 1070	AT1R
+N21	Name Annotation:T28 Referent:at1r
+T12	GENE-N 1133 1136	JNK
+N22	Name Annotation:T12 Referent:jnk
+T1	CHEMICAL 1148 1157	SP6001325
+N23	Name Annotation:T1 Referent:sp6001325
+T13	GENE-N 1184 1188	AT1R
+N24	Name Annotation:T13 Referent:at1r
+T14	GENE-N 1252 1255	JNK
+N25	Name Annotation:T14 Referent:jnk
+T2	CHEMICAL 1317 1324	arsenic
+N26	Name Annotation:T2 Referent:arsenic
+T15	GENE-N 1348 1352	AT1R
+N27	Name Annotation:T15 Referent:at1r
+T3	CHEMICAL 1393 1400	arsenic
+N28	Name Annotation:T3 Referent:arsenic
+T16	GENE-N 1418 1422	AT1R
+N29	Name Annotation:T16 Referent:at1r
+R1	INDIRECT-UPREGULATOR Arg1:T11 Arg2:T29
+R2	INHIBITOR Arg1:T1 Arg2:T12
+R3	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T15
+R4	INDIRECT-UPREGULATOR Arg1:T6 Arg2:T21
+R5	INDIRECT-UPREGULATOR Arg1:T6 Arg2:T22
+R6	INDIRECT-UPREGULATOR Arg1:T6 Arg2:T23
+R7	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T28
+R8	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T16

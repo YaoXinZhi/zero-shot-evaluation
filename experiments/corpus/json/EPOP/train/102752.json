@@ -1,0 +1,140 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Location",
+            "name": "Flona Tapaj\u00f3s",
+            "GeoNames": "6319378"
+        },
+        {
+            "id": "T15",
+            "type": "Vector",
+            "name": "Acrogonia specimens",
+            "NCBI_Taxonomy": "320921"
+        },
+        {
+            "id": "T16",
+            "type": "Vector",
+            "name": "Diestostemma specimens",
+            "NCBI_Taxonomy": "320904"
+        },
+        {
+            "id": "T17",
+            "type": "Vector",
+            "name": "Acrogonia albertoi",
+            "NCBI_Taxonomy": "320921"
+        },
+        {
+            "id": "T18",
+            "type": "Vector",
+            "name": "Diestostemma cavichiolii",
+            "NCBI_Taxonomy": "320904"
+        },
+        {
+            "id": "T19",
+            "type": "Location",
+            "name": "Tapaj\u00f3s National Forest",
+            "GeoNames": "6319378"
+        },
+        {
+            "id": "T20",
+            "type": "Location",
+            "name": "Belterra",
+            "GeoNames": "6319378"
+        },
+        {
+            "id": "T21",
+            "type": "Location",
+            "name": "western Par\u00e1",
+            "GeoNames": "3393129"
+        },
+        {
+            "id": "T22",
+            "type": "Vector",
+            "name": "Acrogonia",
+            "NCBI_Taxonomy": "320921"
+        },
+        {
+            "id": "T23",
+            "type": "Pest",
+            "name": "Xylella fastidiosa",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T24",
+            "type": "Vector",
+            "name": "Diestostemma",
+            "NCBI_Taxonomy": "320904"
+        },
+        {
+            "id": "T25",
+            "type": "Vector",
+            "name": "Acrogonia",
+            "NCBI_Taxonomy": "320921"
+        },
+        {
+            "id": "T26",
+            "type": "Vector",
+            "name": "Diestostemma",
+            "NCBI_Taxonomy": "320904"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T15",
+            "target": "T14"
+        },
+        {
+            "type": "Located in",
+            "source": "T16",
+            "target": "T14"
+        },
+        {
+            "type": "Located in",
+            "source": "T17",
+            "target": "T20"
+        },
+        {
+            "type": "Located in",
+            "source": "T17",
+            "target": "T19"
+        },
+        {
+            "type": "Located in",
+            "source": "T17",
+            "target": "T21"
+        },
+        {
+            "type": "Located in",
+            "source": "T17",
+            "target": "T14"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T14"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T21"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T20"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T19"
+        },
+        {
+            "type": "Transmits",
+            "source": "T22",
+            "target": "T23"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+T26	Date 513 523	every year
+T27	Date 525 535	Every year
+T28	Location 662 670	Midlands
+T29	Plant 680 692	strawberries
+T30	Pest 796 808	potato aphid
+T31	Date 849 855	annual
+T32	Date 1170 1176	so far
+T33	Date 2060 2068	12-month
+T34	Location 3192 3206	Central Europe
+T35	Date 3389 3402	2022, July 27
+T36	Date 3414 3427	July 27, 2022
+N1	GeoNames Annotation:T28 Referent:2642562
+N2	NCBI_Taxonomy Annotation:T29 Referent:3747
+N3	NCBI_Taxonomy Annotation:T30 Referent:13131
+N4	GeoNames Annotation:T34 Referent:12217848
+R1	Located_in Object:T29 Location:T28
+R2	Found_on Organism:T30 Habitat:T29
+R3	Located_in Object:T30 Location:T28
+E1	Nary Organisme_nuisible:T30 Plante:T29 Lieu:T28

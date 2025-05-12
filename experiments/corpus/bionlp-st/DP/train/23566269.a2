@@ -1,0 +1,49 @@
+T13	CHEMICAL 0 28	4-Hydroxypyridazin-3(2H)-one
+N1	Name Annotation:T13 Referent:4hydroxypyridazin32hone
+T14	CHEMICAL 50 62	d-Amino Acid
+N2	Name Annotation:T14 Referent:daminoacid
+T20	GENE-Y 50 70	d-Amino Acid Oxidase
+N3	Name Annotation:T20 Referent:daminoacidoxidase
+T1	CHEMICAL 83 95	d-Amino acid
+N4	Name Annotation:T1 Referent:daminoacid
+T15	GENE-Y 83 103	d-Amino acid oxidase
+N5	Name Annotation:T15 Referent:daminoacidoxidase
+T18	GENE-Y 105 109	DAAO
+N6	Name Annotation:T18 Referent:daao
+T8	CHEMICAL 138 151	d-amino acids
+N7	Name Annotation:T8 Referent:daminoacids
+T11	CHEMICAL 162 170	d-serine
+N8	Name Annotation:T11 Referent:dserine
+T4	CHEMICAL 191 211	N-methyl-d-aspartate
+N9	Name Annotation:T4 Referent:nmethyldaspartate
+T16	GENE-N 191 220	N-methyl-d-aspartate receptor
+N10	Name Annotation:T16 Referent:nmethyldaspartatereceptor
+T6	CHEMICAL 248 276	4-hydroxypyridazin-3(2H)-one
+N11	Name Annotation:T6 Referent:4hydroxypyridazin32hone
+T17	GENE-Y 298 302	DAAO
+N12	Name Annotation:T17 Referent:daao
+T7	CHEMICAL 619 622	Tyr
+N13	Name Annotation:T7 Referent:tyr
+T9	CHEMICAL 713 741	3-hydroxy-pyridine-2(1H)-one
+N14	Name Annotation:T9 Referent:3hydroxypyridine21hone
+T10	CHEMICAL 813 858	3-Hydroxy-5-(2-phenylethyl)pyridine-2(1H)-one
+N15	Name Annotation:T10 Referent:3hydroxy52phenylethylpyridine21hone
+T19	GENE-Y 942 952	human DAAO
+N16	Name Annotation:T19 Referent:humandaao
+T12	CHEMICAL 1023 1051	4-hydroxypyridazin-3(2H)-one
+N17	Name Annotation:T12 Referent:4hydroxypyridazin32hone
+T2	CHEMICAL 1093 1121	3-hydroxy-pyridine-2(1H)-one
+N18	Name Annotation:T2 Referent:3hydroxypyridine21hone
+T3	CHEMICAL 1153 1213	6-[2-(3,5-Difluorophenyl)ethyl]-4-hydroxypyridazin-3(2H)-one
+N19	Name Annotation:T3 Referent:6235difluorophenylethyl4hydroxypyridazin32hone
+T5	CHEMICAL 1248 1254	MK-801
+N20	Name Annotation:T5 Referent:mk801
+R1	INHIBITOR Arg1:T13 Arg2:T20
+R2	SUBSTRATE Arg1:T8 Arg2:T15
+R3	SUBSTRATE Arg1:T8 Arg2:T18
+R4	SUBSTRATE Arg1:T11 Arg2:T15
+R5	SUBSTRATE Arg1:T11 Arg2:T18
+R6	AGONIST Arg1:T11 Arg2:T16
+R7	INHIBITOR Arg1:T6 Arg2:T17
+R8	INHIBITOR Arg1:T10 Arg2:T19
+R9	DIRECT-REGULATOR Arg1:T10 Arg2:T19

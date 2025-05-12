@@ -1,0 +1,234 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "chelidonine",
+            "Name": "chelidonine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "chelidonine",
+            "Name": "chelidonine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "protoberberine and benzo[c]phenanthridine alkaloids",
+            "Name": "protoberberineandbenzocphenanthridinealkaloids"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "ABC-transporters",
+            "Name": "abctransporters"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "CYP3A4",
+            "Name": "cyp3a4"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "GST",
+            "Name": "gst"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Chelidonine",
+            "Name": "chelidonine"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "P-gp",
+            "Name": "pgp"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "MDR1",
+            "Name": "mdr1"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "doxorubicin",
+            "Name": "doxorubicin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "chelidonine",
+            "Name": "chelidonine"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "CYP3A4",
+            "Name": "cyp3a4"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "GST",
+            "Name": "gst"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "caspase-3, -8,-6/9",
+            "Name": "caspase3869"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "phosphatidyl serine",
+            "Name": "phosphatidylserine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "chelidonine",
+            "Name": "chelidonine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "chelidonine",
+            "Name": "chelidonine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "P-gp",
+            "Name": "pgp"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "MDR1",
+            "Name": "mdr1"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "MRP1",
+            "Name": "mrp1"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "BCRP",
+            "Name": "bcrp"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "CYP3A4",
+            "Name": "cyp3a4"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "GST",
+            "Name": "gst"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "hPXR",
+            "Name": "hpxr"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "caspase-8",
+            "Name": "caspase8"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "chelidonine",
+            "Name": "chelidonine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T19"
+        }
+    ]
+}

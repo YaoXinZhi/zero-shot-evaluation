@@ -1,0 +1,100 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "dopamine transporter",
+            "Name": "dopaminetransporter"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "dopamine transporter",
+            "Name": "dopaminetransporter"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T10"
+        }
+    ]
+}

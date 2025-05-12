@@ -1,0 +1,175 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "spermidine",
+            "Name": "spermidine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "spermidine/spermine N1-acetyltransferase",
+            "Name": "spermidinesperminen1acetyltransferase"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "spermine",
+            "Name": "spermine"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "SSAT",
+            "Name": "ssat"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "spermidine",
+            "Name": "spermidine"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "spermidine/spermine N(1)-acetyltransferase",
+            "Name": "spermidinesperminen1acetyltransferase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "spermine",
+            "Name": "spermine"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "SSAT",
+            "Name": "ssat"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "polyamines",
+            "Name": "polyamines"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "SSAT",
+            "Name": "ssat"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "SSAT",
+            "Name": "ssat"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "SSAT",
+            "Name": "ssat"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "testosterone",
+            "Name": "testosterone"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "SSAT",
+            "Name": "ssat"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Catecholamine",
+            "Name": "catecholamine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "folate",
+            "Name": "folate"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "S-adenosylmethionine",
+            "Name": "sadenosylmethionine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "S-adenosylmethionine decarboxylase",
+            "Name": "sadenosylmethioninedecarboxylase"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "AdoMetDC",
+            "Name": "adometdc"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "polyamine",
+            "Name": "polyamine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "SSAT",
+            "Name": "ssat"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "SSAT",
+            "Name": "ssat"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "SSAT",
+            "Name": "ssat"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T16"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T17"
+        },
+        {
+            "type": "Product of",
+            "source": "T8",
+            "target": "T16"
+        },
+        {
+            "type": "Product of",
+            "source": "T8",
+            "target": "T17"
+        }
+    ]
+}

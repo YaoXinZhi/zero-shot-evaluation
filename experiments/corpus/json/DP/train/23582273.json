@@ -1,0 +1,77 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "1,3,4-oxadiazole",
+            "Name": "134oxadiazole"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "1,4-benzodioxan",
+            "Name": "14benzodioxan"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "methionine",
+            "Name": "methionine"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "methionine aminopeptidase type II",
+            "Name": "methionineaminopeptidasetypeii"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "1,3,4-oxadiazole",
+            "Name": "134oxadiazole"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "1,4-benzodioxan",
+            "Name": "14benzodioxan"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Met",
+            "Name": "met"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "MetAP2",
+            "Name": "metap2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Met",
+            "Name": "met"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "MetAP2",
+            "Name": "metap2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T10"
+        }
+    ]
+}

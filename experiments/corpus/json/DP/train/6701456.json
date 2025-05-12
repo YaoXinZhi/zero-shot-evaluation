@@ -1,0 +1,151 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "histamine receptors",
+            "Name": "histaminereceptors"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "Fluoresceinated human albumin",
+            "Name": "fluoresceinatedhumanalbumin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "FHA",
+            "Name": "fha"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "histamine receptors",
+            "Name": "histaminereceptors"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "FHA",
+            "Name": "fha"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "histamine H1 receptor",
+            "Name": "histamineh1receptor"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "diphenhydramine",
+            "Name": "diphenhydramine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "clemastine",
+            "Name": "clemastine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "histamine H2 receptor",
+            "Name": "histamineh2receptor"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "cimetidine",
+            "Name": "cimetidine"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "FHA",
+            "Name": "fha"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "histamine",
+            "Name": "histamine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "histamine H1",
+            "Name": "histamineh1"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "H2 receptors",
+            "Name": "h2receptors"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T6",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T15"
+        }
+    ]
+}

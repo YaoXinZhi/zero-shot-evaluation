@@ -1,0 +1,161 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "ethanolamine oleate",
+            "Name": "ethanolamineoleate"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "ethanolamine oleate",
+            "Name": "ethanolamineoleate"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "EO",
+            "Name": "eo"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "fibrinopeptide A",
+            "Name": "fibrinopeptidea"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "FPA",
+            "Name": "fpa"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "fibrinopeptide B",
+            "Name": "fibrinopeptideb"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "fibrinopeptide B beta 15-42",
+            "Name": "fibrinopeptidebbeta1542"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "B beta 15-42",
+            "Name": "bbeta1542"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "FPA",
+            "Name": "fpa"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "B beta 15-42",
+            "Name": "bbeta1542"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "EO",
+            "Name": "eo"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "fibrin",
+            "Name": "fibrin"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "ethanolamine",
+            "Name": "ethanolamine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "oleate",
+            "Name": "oleate"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "benzyl alcohol",
+            "Name": "benzylalcohol"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "FPA",
+            "Name": "fpa"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "EO",
+            "Name": "eo"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "oleate",
+            "Name": "oleate"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "125I",
+            "Name": "125i"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "fibrin(ogen)",
+            "Name": "fibrinogen"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "EO",
+            "Name": "eo"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "oleate",
+            "Name": "oleate"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "fibrinogen",
+            "Name": "fibrinogen"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T16"
+        }
+    ]
+}

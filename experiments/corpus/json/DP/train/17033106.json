@@ -1,0 +1,103 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "steroidal",
+            "Name": "steroidal"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "aspirin",
+            "Name": "aspirin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "aspirin",
+            "Name": "aspirin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "aspirin",
+            "Name": "aspirin"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "cyclooxygenase (COX)-2",
+            "Name": "cyclooxygenasecox2"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "aspirin",
+            "Name": "aspirin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "PGE(2)",
+            "Name": "pge2"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "TGF alpha",
+            "Name": "tgfalpha"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T7"
+        },
+        {
+            "type": "Product of",
+            "source": "T5",
+            "target": "T9"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T9"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T9"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T10"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T11"
+        }
+    ]
+}

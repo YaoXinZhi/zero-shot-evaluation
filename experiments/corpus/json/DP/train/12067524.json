@@ -1,0 +1,242 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "glutamic acid",
+            "Name": "glutamicacid"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "glutamic acid decarboxylase",
+            "Name": "glutamicaciddecarboxylase"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "rGAD67/65",
+            "Name": "rgad6765"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Glutamic acid",
+            "Name": "glutamicacid"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Glutamic acid decarboxylase",
+            "Name": "glutamicaciddecarboxylase"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "GAD",
+            "Name": "gad"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "EC 4.1.1.15",
+            "Name": "ec41115"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "gamma-aminobutyric acid",
+            "Name": "gammaaminobutyricacid"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "GAD65",
+            "Name": "gad65"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "GAD67",
+            "Name": "gad67"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "amino acids",
+            "Name": "aminoacids"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "GAD67",
+            "Name": "gad67"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "amino acids",
+            "Name": "aminoacids"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "GAD65",
+            "Name": "gad65"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "mammalian brain GAD",
+            "Name": "mammalianbraingad"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "rGAD67/65",
+            "Name": "rgad6765"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "rGAD67/65",
+            "Name": "rgad6765"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "3H-GABA",
+            "Name": "3hgaba"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "3H-glutamate",
+            "Name": "3hglutamate"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "pyridoxal phosphate",
+            "Name": "pyridoxalphosphate"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "PLP",
+            "Name": "plp"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "GAD",
+            "Name": "gad"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "rGAD67/65",
+            "Name": "rgad6765"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "mammalian brain GAD",
+            "Name": "mammalianbraingad"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "PLP",
+            "Name": "plp"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "rGAD67/65",
+            "Name": "rgad6765"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "rGAD67/65",
+            "Name": "rgad6765"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "GAD",
+            "Name": "gad"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T11",
+            "target": "T17"
+        },
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T17"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Substrate",
+            "source": "T11",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T11",
+            "target": "T23"
+        },
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T22"
+        },
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T23"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T22"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T23"
+        },
+        {
+            "type": "Part of",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Part of",
+            "source": "T6",
+            "target": "T20"
+        }
+    ]
+}

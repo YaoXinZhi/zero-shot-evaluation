@@ -1,0 +1,201 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "genistein",
+            "Name": "genistein"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "isoflavone",
+            "Name": "isoflavone"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "genistein",
+            "Name": "genistein"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "PTEN",
+            "Name": "pten"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "E-cadherin",
+            "Name": "ecadherin"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "genistein",
+            "Name": "genistein"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "genistein",
+            "Name": "genistein"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "genistein",
+            "Name": "genistein"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "triglyceride",
+            "Name": "triglyceride"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "PPAR\u03b3",
+            "Name": "ppar\u03b3"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "fatty acid",
+            "Name": "fattyacid"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "fatty acid synthase",
+            "Name": "fattyacidsynthase"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Genistein",
+            "Name": "genistein"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "estrogen receptor (ER)-\u03b2",
+            "Name": "estrogenreceptorer\u03b2"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "ER\u03b2",
+            "Name": "er\u03b2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "2,3-bis (4-hydroxyphenyl)-propionitrile",
+            "Name": "23bis4hydroxyphenylpropionitrile"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "DPN",
+            "Name": "dpn"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "ER\u03b2",
+            "Name": "er\u03b2"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "PPAR\u03b3",
+            "Name": "ppar\u03b3"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "genistein",
+            "Name": "genistein"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "DPN",
+            "Name": "dpn"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "genistein",
+            "Name": "genistein"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "genistein",
+            "Name": "genistein"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T13",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T13",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T19"
+        },
+        {
+            "type": "Agonist",
+            "source": "T6",
+            "target": "T20"
+        },
+        {
+            "type": "Agonist",
+            "source": "T7",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T8",
+            "target": "T22"
+        }
+    ]
+}

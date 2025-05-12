@@ -1,0 +1,148 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "deoxynivalenol",
+            "Name": "deoxynivalenol"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "DON",
+            "Name": "don"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "deoxynivalenol",
+            "Name": "deoxynivalenol"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "DON",
+            "Name": "don"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "DON",
+            "Name": "don"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "DON",
+            "Name": "don"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "DON",
+            "Name": "don"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "DON",
+            "Name": "don"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "DON",
+            "Name": "don"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "DON",
+            "Name": "don"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "tumor necrosis factor-alpha",
+            "Name": "tumornecrosisfactoralpha"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "TNF-alpha",
+            "Name": "tnfalpha"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "interleukin-6",
+            "Name": "interleukin6"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "IL-6",
+            "Name": "il6"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "TNF-alpha",
+            "Name": "tnfalpha"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "DON",
+            "Name": "don"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "IL-6",
+            "Name": "il6"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "bilirubin",
+            "Name": "bilirubin"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "ASAT",
+            "Name": "asat"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "DON",
+            "Name": "don"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "DON",
+            "Name": "don"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T15"
+        }
+    ]
+}

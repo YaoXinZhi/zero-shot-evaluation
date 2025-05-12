@@ -1,0 +1,145 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "5-HT",
+            "Name": "5ht"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "cytokine",
+            "Name": "cytokine"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "interleukins",
+            "Name": "interleukins"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "tumor necrosis factor- \u03b1",
+            "Name": "tumornecrosisfactor\u03b1"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "interferon- \u03b1 and \u03b3",
+            "Name": "interferon\u03b1and\u03b3"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "indoleamine",
+            "Name": "indoleamine"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "indoleamine 2,3 dioxygenase",
+            "Name": "indoleamine23dioxygenase"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "IDO",
+            "Name": "ido"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "tryptophan",
+            "Name": "tryptophan"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "TRP",
+            "Name": "trp"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "IDO",
+            "Name": "ido"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "TRP",
+            "Name": "trp"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "5-HT",
+            "Name": "5ht"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "monoamines",
+            "Name": "monoamines"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Product of",
+            "source": "T8",
+            "target": "T17"
+        },
+        {
+            "type": "Product of",
+            "source": "T8",
+            "target": "T18"
+        },
+        {
+            "type": "Product of",
+            "source": "T9",
+            "target": "T17"
+        },
+        {
+            "type": "Product of",
+            "source": "T9",
+            "target": "T18"
+        },
+        {
+            "type": "Product of",
+            "source": "T8",
+            "target": "T11"
+        },
+        {
+            "type": "Product of",
+            "source": "T9",
+            "target": "T11"
+        }
+    ]
+}

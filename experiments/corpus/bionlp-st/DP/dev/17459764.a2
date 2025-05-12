@@ -1,0 +1,104 @@
+T26	CHEMICAL 0 39	n-3 and n-6 polyunsaturated fatty acids
+N1	Name Annotation:T26 Referent:n3andn6polyunsaturatedfattyacids
+T43	GENE 65 70	COX-2
+N2	Name Annotation:T43 Referent:cox2
+T44	GENE 75 84	PPARgamma
+N3	Name Annotation:T44 Referent:ppargamma
+T1	CHEMICAL 131 169	Polyunsaturated fatty acids (PUFA) n-3
+N4	Name Annotation:T1 Referent:polyunsaturatedfattyacidspufan3
+T6	CHEMICAL 283 304	eicosapentaenoic acid
+N5	Name Annotation:T6 Referent:eicosapentaenoicacid
+T7	CHEMICAL 306 309	EPA
+N6	Name Annotation:T7 Referent:epa
+T8	CHEMICAL 313 321	n-3 PUFA
+N7	Name Annotation:T8 Referent:n3pufa
+T9	CHEMICAL 323 342	gamma-linoleic acid
+N8	Name Annotation:T9 Referent:gammalinoleicacid
+T10	CHEMICAL 344 347	GLA
+N9	Name Annotation:T10 Referent:gla
+T11	CHEMICAL 351 359	n-6 PUFA
+N10	Name Annotation:T11 Referent:n6pufa
+T12	CHEMICAL 365 379	arachidic acid
+N11	Name Annotation:T12 Referent:arachidicacid
+T13	CHEMICAL 382 402	saturated fatty acid
+N12	Name Annotation:T13 Referent:saturatedfattyacid
+T31	GENE 427 443	cyclooxygenase-2
+N13	Name Annotation:T31 Referent:cyclooxygenase2
+T32	GENE 445 450	COX-2
+N14	Name Annotation:T32 Referent:cox2
+T14	CHEMICAL 557 560	GLA
+N15	Name Annotation:T14 Referent:gla
+T15	CHEMICAL 565 568	EPA
+N16	Name Annotation:T15 Referent:epa
+T33	GENE 574 583	PPARgamma
+N17	Name Annotation:T33 Referent:ppargamma
+T16	CHEMICAL 592 605	roziglitazone
+N18	Name Annotation:T16 Referent:roziglitazone
+T34	GENE 616 621	COX-2
+N19	Name Annotation:T34 Referent:cox2
+T35	GENE 677 691	COX-2 promoter
+N20	Name Annotation:T35 Referent:cox2promoter
+T17	CHEMICAL 724 729	PUFAs
+N21	Name Annotation:T17 Referent:pufas
+T18	CHEMICAL 733 746	rosiglitazone
+N22	Name Annotation:T18 Referent:rosiglitazone
+T19	CHEMICAL 774 780	GW9662
+N23	Name Annotation:T19 Referent:gw9662
+T20	CHEMICAL 785 793	T0070907
+N24	Name Annotation:T20 Referent:t0070907
+T36	GENE 795 804	PPARgamma
+N25	Name Annotation:T36 Referent:ppargamma
+T37	GENE 822 827	COX-2
+N26	Name Annotation:T37 Referent:cox2
+T38	GENE 861 875	COX-2 promoter
+N27	Name Annotation:T38 Referent:cox2promoter
+T21	CHEMICAL 888 891	EPA
+N28	Name Annotation:T21 Referent:epa
+T22	CHEMICAL 896 899	GLA
+N29	Name Annotation:T22 Referent:gla
+T39	GENE 913 922	PPARgamma
+N30	Name Annotation:T39 Referent:ppargamma
+T40	GENE 940 945	COX-2
+N31	Name Annotation:T40 Referent:cox2
+T41	GENE 966 970	PLA2
+N32	Name Annotation:T41 Referent:pla2
+T23	CHEMICAL 988 1017	arachidonyl fluorophosphonate
+N33	Name Annotation:T23 Referent:arachidonylfluorophosphonate
+T24	CHEMICAL 1030 1034	PUFA
+N34	Name Annotation:T24 Referent:pufa
+T42	GENE 1046 1051	COX-2
+N35	Name Annotation:T42 Referent:cox2
+T25	CHEMICAL 1085 1101	arachidonic acid
+N36	Name Annotation:T25 Referent:arachidonicacid
+T2	CHEMICAL 1141 1143	AA
+N37	Name Annotation:T2 Referent:aa
+T27	GENE 1159 1163	PPAR
+N38	Name Annotation:T27 Referent:ppar
+T3	CHEMICAL 1208 1224	n-3 and n-6 PUFA
+N39	Name Annotation:T3 Referent:n3andn6pufa
+T28	GENE 1235 1244	PPARgamma
+N40	Name Annotation:T28 Referent:ppargamma
+T29	GENE 1275 1280	COX-2
+N41	Name Annotation:T29 Referent:cox2
+T4	CHEMICAL 1368 1371	EPA
+N42	Name Annotation:T4 Referent:epa
+T30	GENE 1402 1407	COX-2
+N43	Name Annotation:T30 Referent:cox2
+T5	CHEMICAL 1505 1514	PUFAs n-3
+N44	Name Annotation:T5 Referent:pufasn3
+R1	INDIRECT-UPREGULATOR Arg1:T26 Arg2:T43
+R2	ACTIVATOR Arg1:T26 Arg2:T44
+R3	DIRECT-REGULATOR Arg1:T16 Arg2:T33
+R4	INDIRECT-UPREGULATOR Arg1:T14 Arg2:T34
+R5	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T34
+R6	INDIRECT-UPREGULATOR Arg1:T16 Arg2:T34
+R7	ACTIVATOR Arg1:T17 Arg2:T35
+R8	ACTIVATOR Arg1:T18 Arg2:T35
+R9	ANTAGONIST Arg1:T19 Arg2:T36
+R10	ANTAGONIST Arg1:T20 Arg2:T36
+R11	INHIBITOR Arg1:T23 Arg2:T41
+R12	INHIBITOR Arg1:T23 Arg2:T42
+R13	ACTIVATOR Arg1:T2 Arg2:T27
+R14	ACTIVATOR Arg1:T3 Arg2:T28
+R15	ACTIVATOR Arg1:T3 Arg2:T29
+R16	ACTIVATOR Arg1:T5 Arg2:T30

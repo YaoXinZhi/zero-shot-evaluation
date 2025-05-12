@@ -1,0 +1,393 @@
+{
+    "entities": [
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "Mazindol",
+            "Name": "mazindol"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "cocaine",
+            "Name": "cocaine"
+        },
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "cocaine binding site",
+            "Name": "cocainebindingsite"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T36",
+            "type": "Gene",
+            "name": "dopamine transporter",
+            "Name": "dopaminetransporter"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "mazindol",
+            "Name": "mazindol"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "homomazindol",
+            "Name": "homomazindol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "aryl",
+            "Name": "aryl"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "benzo",
+            "Name": "benzo"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "methoxy",
+            "Name": "methoxy"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "alkyl",
+            "Name": "alkyl"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "hydroxyl",
+            "Name": "hydroxyl"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "dopamine transporter",
+            "Name": "dopaminetransporter"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "DA",
+            "Name": "da"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "5-HT",
+            "Name": "5ht"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "NE",
+            "Name": "ne"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "[(125)I] RTI-55",
+            "Name": "125irti55"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "hDAT",
+            "Name": "hdat"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "hSERT",
+            "Name": "hsert"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "hNET",
+            "Name": "hnet"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Mazindane",
+            "Name": "mazindane"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "5-H",
+            "Name": "5h"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "5-OH",
+            "Name": "5oh"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "mazindol",
+            "Name": "mazindol"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "hDAT",
+            "Name": "hdat"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "4',7,8-trichloro",
+            "Name": "478trichloro"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "mazindol",
+            "Name": "mazindol"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "hDAT",
+            "Name": "hdat"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "SERT",
+            "Name": "sert"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "DAT",
+            "Name": "dat"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T19",
+            "target": "T35"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T19",
+            "target": "T36"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T23"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T23"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T23"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T23"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T23"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T23"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T12",
+            "target": "T24"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T12",
+            "target": "T25"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T12",
+            "target": "T26"
+        },
+        {
+            "type": "Substrate",
+            "source": "T9",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T10",
+            "target": "T25"
+        },
+        {
+            "type": "Substrate",
+            "source": "T11",
+            "target": "T26"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T17",
+            "target": "T28"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T17",
+            "target": "T29"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T17",
+            "target": "T30"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T17",
+            "target": "T31"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T17",
+            "target": "T33"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T17",
+            "target": "T32"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T18",
+            "target": "T28"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T18",
+            "target": "T29"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T18",
+            "target": "T30"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T18",
+            "target": "T31"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T18",
+            "target": "T32"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T18",
+            "target": "T33"
+        }
+    ]
+}

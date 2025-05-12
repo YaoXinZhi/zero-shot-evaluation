@@ -1,0 +1,231 @@
+{
+    "entities": [
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "Sorafenib",
+            "Name": "sorafenib"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Sorafenib",
+            "Name": "sorafenib"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "tyrosine kinase",
+            "Name": "tyrosinekinase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "sorafenib",
+            "Name": "sorafenib"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "sorafenib",
+            "Name": "sorafenib"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "[(14)C]Sorafenib",
+            "Name": "14csorafenib"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "[(14)C]sorafenib",
+            "Name": "14csorafenib"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Na(+)",
+            "Name": "na"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "organic anion transporter 2",
+            "Name": "organicaniontransporter2"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "OAT2",
+            "Name": "oat2"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "ketoprofen",
+            "Name": "ketoprofen"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "[(14)C]sorafenib",
+            "Name": "14csorafenib"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "organic anion transporting polypeptide",
+            "Name": "organicaniontransportingpolypeptide"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "OATP",
+            "Name": "oatp"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "rifamycin SV",
+            "Name": "rifamycinsv"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "organic cation transporter",
+            "Name": "organiccationtransporter"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "OCT",
+            "Name": "oct"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "decynium 22",
+            "Name": "decynium22"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "[(14)C]Sorafenib",
+            "Name": "14csorafenib"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "hOCT1",
+            "Name": "hoct1"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "OCT",
+            "Name": "oct"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "MPP(+)",
+            "Name": "mpp"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "OCT1",
+            "Name": "oct1"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "sorafenib",
+            "Name": "sorafenib"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "sorafenib",
+            "Name": "sorafenib"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "OCT1",
+            "Name": "oct1"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "rifamycin",
+            "Name": "rifamycin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Sorafenib",
+            "Name": "sorafenib"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T16",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T16",
+            "target": "T28"
+        },
+        {
+            "type": "Substrate",
+            "source": "T17",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T20"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T22"
+        }
+    ]
+}

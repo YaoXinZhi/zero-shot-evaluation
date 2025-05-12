@@ -1,0 +1,161 @@
+{
+    "entities": [
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "Carbonic anhydrase",
+            "Name": "carbonicanhydrase"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "aromatic and heterocyclic sulfonamides",
+            "Name": "aromaticandheterocyclicsulfonamides"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "adamantyl",
+            "Name": "adamantyl"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "aromatic/heterocyclic sulfonamides",
+            "Name": "aromaticheterocyclicsulfonamides"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "adamantyl",
+            "Name": "adamantyl"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "aromatic/heterocyclic aminosulfonamides",
+            "Name": "aromaticheterocyclicaminosulfonamides"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "acyl chlorides",
+            "Name": "acylchlorides"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "adamantyl-1-carboxylic acid",
+            "Name": "adamantyl1carboxylicacid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "1-adamantyl-acetic acid",
+            "Name": "1adamantylaceticacid"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "aminosulfonamides",
+            "Name": "aminosulfonamides"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "adamantyl isocyanate",
+            "Name": "adamantylisocyanate"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "adamantyl isothiocyanate",
+            "Name": "adamantylisothiocyanate"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "human CA",
+            "Name": "humanca"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "CA I",
+            "Name": "cai"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "CA II",
+            "Name": "caii"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "acetazolamide",
+            "Name": "acetazolamide"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "methazolamide",
+            "Name": "methazolamide"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "CA",
+            "Name": "ca"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "CA",
+            "Name": "ca"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T16"
+        }
+    ]
+}

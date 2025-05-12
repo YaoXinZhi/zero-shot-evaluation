@@ -1,0 +1,58 @@
+T9	CHEMICAL 72 85	3-Alkylindole
+N1	Name Annotation:T9 Referent:3alkylindole
+T22	GENE-Y 129 144	Myeloperoxidase
+N2	Name Annotation:T22 Referent:myeloperoxidase
+T5	CHEMICAL 222 239	hypochlorous acid
+N3	Name Annotation:T5 Referent:hypochlorousacid
+T20	GENE-Y 241 262	human myeloperoxidase
+N4	Name Annotation:T20 Referent:humanmyeloperoxidase
+T10	GENE-Y 264 267	MPO
+N5	Name Annotation:T10 Referent:mpo
+T11	GENE-Y 342 345	MPO
+N6	Name Annotation:T11 Referent:mpo
+T1	CHEMICAL 386 410	(Aminoalkyl)fluoroindole
+N7	Name Annotation:T1 Referent:aminoalkylfluoroindole
+T12	GENE-Y 455 458	MPO
+N8	Name Annotation:T12 Referent:mpo
+T2	CHEMICAL 516 525	serotonin
+N9	Name Annotation:T2 Referent:serotonin
+T13	GENE-Y 516 546	serotonin reuptake transporter
+N10	Name Annotation:T13 Referent:serotoninreuptaketransporter
+T14	GENE-Y 548 552	SERT
+N11	Name Annotation:T14 Referent:sert
+T15	GENE-Y 636 639	MPO
+N12	Name Annotation:T15 Referent:mpo
+T3	CHEMICAL 664 677	3-alkylindole
+N13	Name Annotation:T3 Referent:3alkylindole
+T16	GENE-Y 730 733	MPO
+N14	Name Annotation:T16 Referent:mpo
+T4	CHEMICAL 743 750	taurine
+N15	Name Annotation:T4 Referent:taurine
+T17	GENE-N 768 791	low-density lipoprotein
+N16	Name Annotation:T17 Referent:lowdensitylipoprotein
+T18	GENE-Y 830 834	SERT
+N17	Name Annotation:T18 Referent:sert
+T6	CHEMICAL 840 852	fluoroindole
+N18	Name Annotation:T6 Referent:fluoroindole
+T7	CHEMICAL 873 880	carbons
+N19	Name Annotation:T7 Referent:carbons
+T8	CHEMICAL 907 912	amide
+N20	Name Annotation:T8 Referent:amide
+T19	GENE-Y 989 992	MPO
+N21	Name Annotation:T19 Referent:mpo
+T21	GENE-Y 1040 1044	SERT
+N22	Name Annotation:T21 Referent:sert
+R1	INHIBITOR Arg1:T9 Arg2:T22
+R2	INHIBITOR Arg1:T1 Arg2:T12
+R3	INHIBITOR Arg1:T1 Arg2:T13
+R4	INHIBITOR Arg1:T1 Arg2:T14
+R5	INHIBITOR Arg1:T3 Arg2:T15
+R6	SUBSTRATE Arg1:T4 Arg2:T16
+R7	INHIBITOR Arg1:T6 Arg2:T19
+R8	INHIBITOR Arg1:T7 Arg2:T19
+R9	INHIBITOR Arg1:T8 Arg2:T19
+R10	INHIBITOR Arg1:T6 Arg2:T21
+R11	INHIBITOR Arg1:T7 Arg2:T21
+R12	INHIBITOR Arg1:T8 Arg2:T21
+R13	PRODUCT-OF Arg1:T5 Arg2:T20
+R14	PRODUCT-OF Arg1:T5 Arg2:T10

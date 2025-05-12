@@ -1,0 +1,77 @@
+{
+    "entities": {
+	"CHEMICAL": "Chemical",
+	"GENE": "Gene",
+	"GENE-Y": "Gene",
+	"GENE-N": "Gene"
+    },
+    "normalizations": {
+    },
+    "relations": {
+	"ACTIVATOR": {
+	    "type": "Activator",
+	    "source": "Arg1",
+	    "target": "Arg2"
+	},
+	"AGONIST": {
+	    "type": "Agonist",
+	    "source": "Arg1",
+	    "target": "Arg2"
+	},
+	"AGONIST-ACTIVATOR": {
+	    "type": "Agonist activator",
+	    "source": "Arg1",
+	    "target": "Arg2"
+	},
+	"AGONIST-INHIBITOR": {
+	    "type": "Agonist inhibitor",
+	    "source": "Arg1",
+	    "target": "Arg2"
+	},
+	"ANTAGONIST": {
+	    "type": "Antagonist",
+	    "source": "Arg1",
+	    "target": "Arg2"
+	},
+	"DIRECT-REGULATOR": {
+	    "type": "Direct regulator",
+	    "source": "Arg1",
+	    "target": "Arg2"
+	},
+	"INDIRECT-DOWNREGULATOR": {
+	    "type": "Indirect downregulator",
+	    "source": "Arg1",
+	    "target": "Arg2"
+	},
+	"INDIRECT-UPREGULATOR": {
+	    "type": "Indirect downregulator",
+	    "source": "Arg1",
+	    "target": "Arg2"
+	},
+	"INHIBITOR": {
+	    "type": "Inhibitor",
+	    "source": "Arg1",
+	    "target": "Arg2"
+	},
+	"PART-OF": {
+	    "type": "Part of",
+	    "source": "Arg1",
+	    "target": "Arg2"
+	},
+	"PRODUCT-OF": {
+	    "type": "Product of",
+	    "source": "Arg1",
+	    "target": "Arg2"
+	},
+	"SUBSTRATE": {
+	    "type": "Substrate",
+	    "source": "Arg1",
+	    "target": "Arg2"
+	},
+	"SUBSTRATE_PRODUCT-OF": {
+	    "type": "Substrate product of",
+	    "source": "Arg1",
+	    "target": "Arg2"
+	}
+    }
+}

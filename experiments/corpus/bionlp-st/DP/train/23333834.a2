@@ -1,0 +1,83 @@
+T32	GENE-Y 0 5	RANKL
+N1	Name Annotation:T32 Referent:rankl
+T33	GENE-N 106 111	NF-κB
+N2	Name Annotation:T33 Referent:nfκb
+T34	GENE-N 156 165	cytokines
+N3	Name Annotation:T34 Referent:cytokines
+T31	GENE-Y 250 284	receptor activator of NF-κB ligand
+N4	Name Annotation:T31 Referent:receptoractivatorofnfκbligand
+T18	GENE-Y 286 291	RANKL
+N5	Name Annotation:T18 Referent:rankl
+T6	CHEMICAL 558 561	Tyr
+N6	Name Annotation:T6 Referent:tyr
+T7	CHEMICAL 564 567	Asp
+N7	Name Annotation:T7 Referent:asp
+T8	CHEMICAL 571 574	Tyr
+N8	Name Annotation:T8 Referent:tyr
+T9	CHEMICAL 577 580	Glu
+N9	Name Annotation:T9 Referent:glu
+T10	CHEMICAL 588 591	Leu
+N10	Name Annotation:T10 Referent:leu
+T11	CHEMICAL 595 598	Arg
+N11	Name Annotation:T11 Referent:arg
+T27	GENE-Y 624 629	RANKL
+N12	Name Annotation:T27 Referent:rankl
+T12	CHEMICAL 639 642	Leu
+N13	Name Annotation:T12 Referent:leu
+T13	CHEMICAL 646 649	Arg
+N14	Name Annotation:T13 Referent:arg
+T28	GENE-Y 831 835	RANK
+N15	Name Annotation:T28 Referent:rank
+T29	GENE-Y 836 841	RANKL
+N16	Name Annotation:T29 Referent:rankl
+T30	GENE-Y 931 936	RANKL
+N17	Name Annotation:T30 Referent:rankl
+T14	CHEMICAL 1155 1164	celecoxib
+N18	Name Annotation:T14 Referent:celecoxib
+T1	CHEMICAL 1178 1183	YR-11
+N19	Name Annotation:T1 Referent:yr11
+T2	CHEMICAL 1234 1242	cysteine
+N20	Name Annotation:T2 Referent:cysteine
+T3	CHEMICAL 1250 1256	serine
+N21	Name Annotation:T3 Referent:serine
+T15	GENE-Y 1324 1328	RANK
+N22	Name Annotation:T15 Referent:rank
+T16	GENE-Y 1329 1334	RANKL
+N23	Name Annotation:T16 Referent:rankl
+T17	GENE-Y 1348 1353	RANKL
+N24	Name Annotation:T17 Referent:rankl
+T19	GENE-Y 1362 1366	TRAP
+N25	Name Annotation:T19 Referent:trap
+T4	CHEMICAL 1464 1469	YR-11
+N26	Name Annotation:T4 Referent:yr11
+T20	GENE-N 1659 1668	cytokines
+N27	Name Annotation:T20 Referent:cytokines
+T21	GENE-Y 1670 1675	TNF-α
+N28	Name Annotation:T21 Referent:tnfα
+T22	GENE-Y 1677 1682	IL-1β
+N29	Name Annotation:T22 Referent:il1β
+T23	GENE-Y 1688 1692	IL-6
+N30	Name Annotation:T23 Referent:il6
+T5	CHEMICAL 1760 1765	YR-11
+N31	Name Annotation:T5 Referent:yr11
+T24	GENE-N 1801 1810	cytokines
+N32	Name Annotation:T24 Referent:cytokines
+T25	GENE-Y 1890 1895	RANKL
+N33	Name Annotation:T25 Referent:rankl
+T26	GENE-N 1929 1934	NF-κB
+N34	Name Annotation:T26 Referent:nfκb
+R1	INHIBITOR Arg1:T5 Arg2:T24
+R2	INHIBITOR Arg1:T5 Arg2:T25
+R3	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T26
+R4	DIRECT-REGULATOR Arg1:T1 Arg2:T15
+R5	DIRECT-REGULATOR Arg1:T1 Arg2:T16
+R6	DIRECT-REGULATOR Arg1:T2 Arg2:T15
+R7	DIRECT-REGULATOR Arg1:T3 Arg2:T16
+R8	INHIBITOR Arg1:T1 Arg2:T17
+R9	INHIBITOR Arg1:T1 Arg2:T19
+R10	INHIBITOR Arg1:T2 Arg2:T17
+R11	INHIBITOR Arg1:T3 Arg2:T17
+R12	INHIBITOR Arg1:T2 Arg2:T19
+R13	INHIBITOR Arg1:T3 Arg2:T19
+R14	DIRECT-REGULATOR Arg1:T3 Arg2:T15
+R15	DIRECT-REGULATOR Arg1:T2 Arg2:T16

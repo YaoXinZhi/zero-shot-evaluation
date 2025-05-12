@@ -1,0 +1,75 @@
+T11	CHEMICAL 36 48	indomethacin
+N1	Name Annotation:T11 Referent:indomethacin
+T31	GENE-Y 81 87	AKR1C3
+N2	Name Annotation:T31 Referent:akr1c3
+T32	GENE-Y 89 128	Type 5 17β-hydroxysteroid dehydrogenase
+N3	Name Annotation:T32 Referent:type517βhydroxysteroiddehydrogenase
+T12	CHEMICAL 96 114	17β-hydroxysteroid
+N4	Name Annotation:T12 Referent:17βhydroxysteroid
+T30	GENE-Y 129 153	prostaglandin F synthase
+N5	Name Annotation:T30 Referent:prostaglandinfsynthase
+T1	CHEMICAL 329 337	androgen
+N6	Name Annotation:T1 Referent:androgen
+T2	CHEMICAL 361 369	androgen
+N7	Name Annotation:T2 Referent:androgen
+T13	GENE-Y 361 378	androgen receptor
+N8	Name Annotation:T13 Referent:androgenreceptor
+T3	CHEMICAL 418 426	androgen
+N9	Name Annotation:T3 Referent:androgen
+T14	GENE-Y 441 447	AKR1C3
+N10	Name Annotation:T14 Referent:akr1c3
+T4	CHEMICAL 514 523	androgens
+N11	Name Annotation:T4 Referent:androgens
+T15	GENE-Y 536 542	AKR1C3
+N12	Name Annotation:T15 Referent:akr1c3
+T16	GENE-Y 579 585	AKR1C3
+N13	Name Annotation:T16 Referent:akr1c3
+T17	GENE-Y 616 622	AKR1C1
+N14	Name Annotation:T17 Referent:akr1c1
+T18	GENE-Y 623 629	AKR1C2
+N15	Name Annotation:T18 Referent:akr1c2
+T5	CHEMICAL 648 670	5α-dihydrotestosterone
+N16	Name Annotation:T5 Referent:5αdihydrotestosterone
+T6	CHEMICAL 672 684	Indomethacin
+N17	Name Annotation:T6 Referent:indomethacin
+T19	GENE-N 702 716	cyclooxygenase
+N18	Name Annotation:T19 Referent:cyclooxygenase
+T20	GENE-Y 732 738	AKR1C3
+N19	Name Annotation:T20 Referent:akr1c3
+T21	GENE-Y 769 775	AKR1C1
+N20	Name Annotation:T21 Referent:akr1c1
+T22	GENE-Y 776 782	AKR1C2
+N21	Name Annotation:T22 Referent:akr1c2
+T7	CHEMICAL 849 861	indomethacin
+N22	Name Annotation:T7 Referent:indomethacin
+T23	GENE-N 895 909	cyclooxygenase
+N23	Name Annotation:T23 Referent:cyclooxygenase
+T24	GENE-Y 941 947	AKR1C3
+N24	Name Annotation:T24 Referent:akr1c3
+T25	GENE-Y 1013 1019	AKR1C3
+N25	Name Annotation:T25 Referent:akr1c3
+T26	GENE-Y 1081 1087	AKR1C1
+N26	Name Annotation:T26 Referent:akr1c1
+T27	GENE-Y 1088 1094	AKR1C2
+N27	Name Annotation:T27 Referent:akr1c2
+T8	CHEMICAL 1108 1120	testosterone
+N28	Name Annotation:T8 Referent:testosterone
+T28	GENE-Y 1140 1146	AKR1C3
+N29	Name Annotation:T28 Referent:akr1c3
+T29	GENE-Y 1158 1164	AKR1C3
+N30	Name Annotation:T29 Referent:akr1c3
+T9	CHEMICAL 1165 1172	NADP(+)
+N31	Name Annotation:T9 Referent:nadp
+T10	CHEMICAL 1173 1199	2'-des-methyl-indomethacin
+N32	Name Annotation:T10 Referent:2desmethylindomethacin
+R1	INHIBITOR Arg1:T11 Arg2:T31
+R2	INHIBITOR Arg1:T11 Arg2:T32
+R3	INHIBITOR Arg1:T11 Arg2:T30
+R4	PRODUCT-OF Arg1:T4 Arg2:T14
+R5	SUBSTRATE Arg1:T5 Arg2:T16
+R6	INHIBITOR Arg1:T6 Arg2:T19
+R7	INHIBITOR Arg1:T6 Arg2:T20
+R8	INHIBITOR Arg1:T7 Arg2:T24
+R9	PRODUCT-OF Arg1:T8 Arg2:T25
+R10	DIRECT-REGULATOR Arg1:T9 Arg2:T29
+R11	DIRECT-REGULATOR Arg1:T10 Arg2:T29

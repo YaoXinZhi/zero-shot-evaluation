@@ -1,0 +1,228 @@
+{
+    "entities": [
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "diarylheptanoid",
+            "Name": "diarylheptanoid"
+        },
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "1,7-diphenyl-4,6-heptadien-3-ol",
+            "Name": "17diphenyl46heptadien3ol"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "diarylheptanoid",
+            "Name": "diarylheptanoid"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "(3R)-1,7-diphenyl-(4E,6E)-4,6-heptadien-3-ol",
+            "Name": "3r17diphenyl4e6e46heptadien3ol"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "DPHD",
+            "Name": "dphd"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "DPHD",
+            "Name": "dphd"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "DPHD",
+            "Name": "dphd"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "DPHD",
+            "Name": "dphd"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "17\u03b2-estradiol",
+            "Name": "17\u03b2estradiol"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "DPHD",
+            "Name": "dphd"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "DPHD",
+            "Name": "dphd"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "MAP kinase",
+            "Name": "mapkinase"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "DPHD",
+            "Name": "dphd"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "DPHD",
+            "Name": "dphd"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "alkaline phosphatase",
+            "Name": "alkalinephosphatase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "DPHD",
+            "Name": "dphd"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "estrogen receptor",
+            "Name": "estrogenreceptor"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "ICI182780",
+            "Name": "ici182780"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "DPHD",
+            "Name": "dphd"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "RUNX2",
+            "Name": "runx2"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "osterix",
+            "Name": "osterix"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "DPHD",
+            "Name": "dphd"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "COL1A1",
+            "Name": "col1a1"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "osteocalcin",
+            "Name": "osteocalcin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "17\u03b2-estradiol",
+            "Name": "17\u03b2estradiol"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "DPHD",
+            "Name": "dphd"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "osteoprotegerin",
+            "Name": "osteoprotegerin"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "RANKL",
+            "Name": "rankl"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "17\u03b2-estradiol",
+            "Name": "17\u03b2estradiol"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "DPHD",
+            "Name": "dphd"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T24"
+        },
+        {
+            "type": "Activator",
+            "source": "T18",
+            "target": "T31"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T28"
+        }
+    ]
+}

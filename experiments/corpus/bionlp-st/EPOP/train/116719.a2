@@ -1,0 +1,142 @@
+T9	Location 0 5	Spain
+T10	Plant 28 35	oranges
+T11	Disease 50 71	yellow dragon disease
+T12	Location 87 94	Seville
+T13	Plant 156 168	orange trees
+T14	Plant 219 225	citrus
+T15	Location 235 239	Asia
+T16	Location 241 254	Latin America
+T17	Location 263 265	US
+T18	Location 317 322	Spain
+T19	Location 324 332	Portugal
+T20	Location 334 340	France
+T21	Location 345 350	Italy
+T22	Disease 399 412	huanglongbing
+T23	Disease 414 417	HLB
+T24	Pest 443 466	Candidatus liberibacter
+T25	Plant 521 532	citrus tree
+T26	Date 533 550	within five years
+T27	Location 610 625	Asian countries
+T28	Location 633 647	African states
+T29	Location 660 666	Brazil
+T30	Location 675 677	US
+T31	Location 698 703	China
+T32	Date 704 711	in 1943
+T33	Location 716 722	Africa
+T34	Date 723 730	in 1947
+T35	Date 735 742	by 2005
+T36	Location 766 773	Florida
+T37	Plant 776 789	orange groves
+T38	Location 815 821	Europe
+T39	Vector 880 894	Trioza eryteae
+T40	Location 929 937	Canaries
+T41	Location 939 947	Portugal
+T42	Location 952 959	Galicia
+T43	Location 963 979	north-west Spain
+T44	Location 1068 1077	Andalucía
+T45	Location 1079 1093	southern Spain
+N1	GeoNames Annotation:T9 Referent:2510769
+N2	NCBI_Taxonomy Annotation:T10 Referent:2711
+N3	GeoNames Annotation:T12 Referent:2510910
+N4	NCBI_Taxonomy Annotation:T13 Referent:2711
+N5	NCBI_Taxonomy Annotation:T14 Referent:2706
+N6	GeoNames Annotation:T15 Referent:6255147
+N7	GeoNames Annotation:T16 Referent:7730009
+N8	GeoNames Annotation:T17 Referent:6252001
+N9	GeoNames Annotation:T18 Referent:2510769
+N10	GeoNames Annotation:T19 Referent:2264397
+N11	GeoNames Annotation:T20 Referent:3017382
+N12	GeoNames Annotation:T21 Referent:3175395
+N13	NCBI_Taxonomy Annotation:T24 Referent:309868
+N14	NCBI_Taxonomy Annotation:T24 Referent:34020
+N15	NCBI_Taxonomy Annotation:T24 Referent:34021
+N16	NCBI_Taxonomy Annotation:T25 Referent:2706
+N17	GeoNames Annotation:T27 Referent:6255147
+N18	GeoNames Annotation:T28 Referent:6255146
+N19	GeoNames Annotation:T29 Referent:3469034
+N20	GeoNames Annotation:T30 Referent:6252001
+N21	GeoNames Annotation:T31 Referent:1814991
+N22	GeoNames Annotation:T33 Referent:6255146
+N23	GeoNames Annotation:T36 Referent:4155751
+N24	NCBI_Taxonomy Annotation:T37 Referent:2711
+N25	GeoNames Annotation:T38 Referent:6255148
+N26	NCBI_Taxonomy Annotation:T39 Referent:1778831
+N27	GeoNames Annotation:T40 Referent:11351387
+N28	GeoNames Annotation:T41 Referent:2264397
+N29	GeoNames Annotation:T42 Referent:3336902
+N30	GeoNames Annotation:T43 Referent:2510769
+N31	GeoNames Annotation:T44 Referent:2593109
+N32	GeoNames Annotation:T45 Referent:2510769
+R1	Located_in Object:T10 Location:T9
+R2	Located_in Object:T10 Location:T12
+R3	Located_in Object:T10 Location:T38
+R4	Located_in Object:T11 Location:T9
+R5	Located_in Object:T11 Location:T17
+R6	Located_in Object:T11 Location:T12
+R7	Located_in Object:T11 Location:T15
+R8	Located_in Object:T11 Location:T16
+R9	Located_in Object:T11 Location:T38
+R10	Expressed_by Disease:T11 Plant:T14
+R11	Expressed_by Disease:T11 Plant:T10
+R12	Located_in Object:T14 Location:T17
+R13	Located_in Object:T14 Location:T15
+R14	Located_in Object:T14 Location:T16
+R15	Located_in Object:T22 Location:T28
+R16	Located_in Object:T22 Location:T30
+R17	Located_in Object:T22 Location:T29
+R18	Located_in Object:T22 Location:T36
+R19	Located_in Object:T22 Location:T27
+R20	Located_in Object:T22 Location:T33
+R21	Located_in Object:T22 Location:T31
+R22	Detected_on Object:T22 Date:T26
+R23	Detected_on Object:T22 Date:T34
+R24	Detected_on Object:T22 Date:T32
+R25	Causes Pest:T24 Disease:T22
+R26	Expressed_by Disease:T22 Plant:T37
+R27	Expressed_by Disease:T22 Plant:T25
+R28	Located_in Object:T24 Location:T28
+R29	Located_in Object:T24 Location:T30
+R30	Located_in Object:T24 Location:T29
+R31	Located_in Object:T24 Location:T36
+R32	Located_in Object:T24 Location:T27
+R33	Located_in Object:T24 Location:T33
+R34	Located_in Object:T24 Location:T31
+R35	Detected_on Object:T24 Date:T26
+R36	Detected_on Object:T24 Date:T34
+R37	Detected_on Object:T24 Date:T32
+R38	Found_on Organism:T24 Habitat:T37
+R39	Found_on Organism:T24 Habitat:T25
+R40	Located_in Object:T25 Location:T18
+R41	Located_in Object:T25 Location:T21
+R42	Located_in Object:T25 Location:T19
+R43	Located_in Object:T25 Location:T20
+R44	Detected_on Object:T25 Date:T26
+R45	Located_in Object:T37 Location:T36
+R46	Located_in Object:T39 Location:T38
+R47	Located_in Object:T39 Location:T41
+R48	Located_in Object:T39 Location:T40
+R49	Located_in Object:T39 Location:T42
+E1	Nary Plante:T10 Maladie:T11 Lieu:T9
+E2	Nary Plante:T10 Maladie:T11 Lieu:T12
+E3	Nary Plante:T10 Maladie:T11 Lieu:T38
+E4	Nary Plante:T14 Maladie:T11 Lieu:T17
+E5	Nary Plante:T14 Maladie:T11 Lieu:T15
+E6	Nary Plante:T14 Maladie:T11 Lieu:T16
+E7	Nary Organisme_nuisible:T24 Maladie:T22 Lieu:T28
+E8	Nary Organisme_nuisible:T24 Maladie:T22 Lieu:T30
+E9	Nary Organisme_nuisible:T24 Maladie:T22 Lieu:T29
+E10	Nary Organisme_nuisible:T24 Plante:T37 Maladie:T22 Lieu:T36
+E11	Nary Organisme_nuisible:T24 Maladie:T22 Lieu:T27
+E12	Nary Organisme_nuisible:T24 Plante:T25 Maladie:T22 Date:T26
+E13	Nary Organisme_nuisible:T24 Maladie:T22 Lieu:T33 Date:T34
+E14	Nary Organisme_nuisible:T24 Maladie:T22 Lieu:T31 Date:T32
+E15	Nary Plante:T25 Lieu:T18
+E16	Nary Plante:T25 Lieu:T21
+E17	Nary Plante:T25 Lieu:T19
+E18	Nary Plante:T25 Lieu:T20
+E19	Nary Vecteur:T39 Lieu:T38
+E20	Nary Vecteur:T39 Lieu:T41
+E21	Nary Vecteur:T39 Lieu:T40
+E22	Nary Vecteur:T39 Lieu:T42
+*	Equiv T10 T13
+*	Equiv T22 T23

@@ -1,0 +1,88 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Human methionine aminopeptidase type 2",
+            "Name": "humanmethionineaminopeptidasetype2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "methionine",
+            "Name": "methionine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "L- and D-methionine",
+            "Name": "landdmethionine"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "Human methionine aminopeptidase type 2",
+            "Name": "humanmethionineaminopeptidasetype2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "methionine",
+            "Name": "methionine"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "hMetAP-2",
+            "Name": "hmetap2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "fumagillin",
+            "Name": "fumagillin"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "hMetAP-2",
+            "Name": "hmetap2"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "l-methionine",
+            "Name": "lmethionine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "d-methionine",
+            "Name": "dmethionine"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "MetAP-2",
+            "Name": "metap2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T8"
+        }
+    ]
+}

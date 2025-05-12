@@ -1,0 +1,158 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "PGE(1)",
+            "Name": "pge1"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "cyclic adenosine monophosphate",
+            "Name": "cyclicadenosinemonophosphate"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "protein kinase A",
+            "Name": "proteinkinasea"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "PKA",
+            "Name": "pka"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PKA",
+            "Name": "pka"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "prostaglandin 1",
+            "Name": "prostaglandin1"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "phosphodiesterases",
+            "Name": "phosphodiesterases"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "PDEs",
+            "Name": "pdes"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "PDE4B",
+            "Name": "pde4b"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "PDE4D",
+            "Name": "pde4d"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "PDEs",
+            "Name": "pdes"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Substrate",
+            "source": "T10",
+            "target": "T17"
+        },
+        {
+            "type": "Substrate",
+            "source": "T10",
+            "target": "T18"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T20"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T20"
+        }
+    ]
+}

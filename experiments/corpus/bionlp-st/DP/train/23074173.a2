@@ -1,0 +1,65 @@
+T21	CHEMICAL 4 8	iron
+N1	Name Annotation:T21 Referent:iron
+T20	CHEMICAL 19 30	deferasirox
+N2	Name Annotation:T20 Referent:deferasirox
+T1	CHEMICAL 159 170	Deferasirox
+N3	Name Annotation:T1 Referent:deferasirox
+T10	CHEMICAL 194 198	iron
+N4	Name Annotation:T10 Referent:iron
+T11	CHEMICAL 200 202	Fe
+N5	Name Annotation:T11 Referent:fe
+T18	CHEMICAL 249 253	iron
+N6	Name Annotation:T18 Referent:iron
+T6	CHEMICAL 345 360	desferrioxamine
+N7	Name Annotation:T6 Referent:desferrioxamine
+T7	CHEMICAL 362 365	DFO
+N8	Name Annotation:T7 Referent:dfo
+T8	CHEMICAL 402 405	DFO
+N9	Name Annotation:T8 Referent:dfo
+T9	CHEMICAL 481 485	iron
+N10	Name Annotation:T9 Referent:iron
+T12	CHEMICAL 559 570	deferasirox
+N11	Name Annotation:T12 Referent:deferasirox
+T13	CHEMICAL 721 732	Deferasirox
+N12	Name Annotation:T13 Referent:deferasirox
+T14	CHEMICAL 870 873	DFO
+N13	Name Annotation:T14 Referent:dfo
+T15	CHEMICAL 888 899	deferasirox
+N14	Name Annotation:T15 Referent:deferasirox
+T16	CHEMICAL 954 957	DFO
+N15	Name Annotation:T16 Referent:dfo
+T17	CHEMICAL 981 987	(59)Fe
+N16	Name Annotation:T17 Referent:59fe
+T29	GENE-Y 1020 1037	human transferrin
+N17	Name Annotation:T29 Referent:humantransferrin
+T19	CHEMICAL 1075 1086	deferasirox
+N18	Name Annotation:T19 Referent:deferasirox
+T2	CHEMICAL 1265 1276	deferasirox
+N19	Name Annotation:T2 Referent:deferasirox
+T3	CHEMICAL 1427 1438	deferasirox
+N20	Name Annotation:T3 Referent:deferasirox
+T22	GENE-Y 1489 1530	protein N-myc downstream-regulated gene 1
+N21	Name Annotation:T22 Referent:proteinnmycdownstreamregulatedgene1
+T23	GENE-Y 1551 1588	cyclin-dependent kinase inhibitor p21
+N22	Name Annotation:T23 Referent:cyclindependentkinaseinhibitorp21
+T24	GENE-Y 1589 1593	CIP1
+N23	Name Annotation:T24 Referent:cip1
+T25	GENE-Y 1594 1598	WAF1
+N24	Name Annotation:T25 Referent:waf1
+T26	GENE-Y 1617 1626	cyclin D1
+N25	Name Annotation:T26 Referent:cyclind1
+T27	GENE-Y 1721 1730	caspase-3
+N26	Name Annotation:T27 Referent:caspase3
+T4	CHEMICAL 1743 1759	poly(ADP-ribose)
+N27	Name Annotation:T4 Referent:polyadpribose
+T28	GENE-Y 1743 1772	poly(ADP-ribose) polymerase 1
+N28	Name Annotation:T28 Referent:polyadpribosepolymerase1
+T5	CHEMICAL 1808 1819	deferasirox
+N29	Name Annotation:T5 Referent:deferasirox
+R1	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T22
+R2	INHIBITOR Arg1:T15 Arg2:T29
+R3	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T23
+R4	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T24
+R5	INDIRECT-UPREGULATOR Arg1:T3 Arg2:T25
+R6	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T26
+R7	INHIBITOR Arg1:T16 Arg2:T29

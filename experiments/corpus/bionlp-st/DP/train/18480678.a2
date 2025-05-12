@@ -1,0 +1,70 @@
+T28	CHEMICAL 54 69	methylphenidate
+N1	Name Annotation:T28 Referent:methylphenidate
+T1	CHEMICAL 106 131	d,l-threo-methylphenidate
+N2	Name Annotation:T1 Referent:dlthreomethylphenidate
+T18	CHEMICAL 133 136	MPH
+N3	Name Annotation:T18 Referent:mph
+T8	CHEMICAL 250 271	threo-methylphenidate
+N4	Name Annotation:T8 Referent:threomethylphenidate
+T14	CHEMICAL 285 293	dopamine
+N5	Name Annotation:T14 Referent:dopamine
+T30	GENE-Y 285 305	dopamine transporter
+N6	Name Annotation:T30 Referent:dopaminetransporter
+T16	CHEMICAL 314 328	norepinephrine
+N7	Name Annotation:T16 Referent:norepinephrine
+T31	GENE-Y 314 340	norepinephrine transporter
+N8	Name Annotation:T31 Referent:norepinephrinetransporter
+T17	CHEMICAL 375 385	monoamines
+N9	Name Annotation:T17 Referent:monoamines
+T19	CHEMICAL 418 421	MPH
+N10	Name Annotation:T19 Referent:mph
+T20	CHEMICAL 492 497	d-MPH
+N11	Name Annotation:T20 Referent:dmph
+T21	CHEMICAL 502 507	l-MPH
+N12	Name Annotation:T21 Referent:lmph
+T22	CHEMICAL 669 674	d-MPH
+N13	Name Annotation:T22 Referent:dmph
+T23	CHEMICAL 671 674	MPH
+N14	Name Annotation:T23 Referent:mph
+T24	CHEMICAL 807 812	d-MPH
+N15	Name Annotation:T24 Referent:dmph
+T25	CHEMICAL 816 824	dopamine
+N16	Name Annotation:T25 Referent:dopamine
+T32	GENE-N 816 836	dopamine transporter
+N17	Name Annotation:T32 Referent:dopaminetransporter
+T26	CHEMICAL 910 915	l-MPH
+N18	Name Annotation:T26 Referent:lmph
+T27	CHEMICAL 912 915	MPH
+N19	Name Annotation:T27 Referent:mph
+T2	CHEMICAL 1117 1122	d-MPH
+N20	Name Annotation:T2 Referent:dmph
+T3	CHEMICAL 1132 1137	l-MPH
+N21	Name Annotation:T3 Referent:lmph
+T4	CHEMICAL 1308 1313	l-MPH
+N22	Name Annotation:T4 Referent:lmph
+T5	CHEMICAL 1453 1458	d-MPH
+N23	Name Annotation:T5 Referent:dmph
+T6	CHEMICAL 1486 1491	l-MPH
+N24	Name Annotation:T6 Referent:lmph
+T7	CHEMICAL 1509 1514	l-MPH
+N25	Name Annotation:T7 Referent:lmph
+T9	CHEMICAL 1511 1514	MPH
+N26	Name Annotation:T9 Referent:mph
+T10	CHEMICAL 1589 1592	MPH
+N27	Name Annotation:T10 Referent:mph
+T29	GENE-N 1629 1641	MPH receptor
+N28	Name Annotation:T29 Referent:mphreceptor
+T11	CHEMICAL 1707 1712	d-MPH
+N29	Name Annotation:T11 Referent:dmph
+T12	CHEMICAL 1764 1769	l-MPH
+N30	Name Annotation:T12 Referent:lmph
+T13	CHEMICAL 1885 1904	d-enantiomer of MPH
+N31	Name Annotation:T13 Referent:denantiomerofmph
+T15	CHEMICAL 1901 1904	MPH
+N32	Name Annotation:T15 Referent:mph
+R1	INHIBITOR Arg1:T8 Arg2:T30
+R2	INHIBITOR Arg1:T8 Arg2:T31
+R3	SUBSTRATE Arg1:T17 Arg2:T30
+R4	SUBSTRATE Arg1:T17 Arg2:T31
+R5	DIRECT-REGULATOR Arg1:T24 Arg2:T32
+R6	DIRECT-REGULATOR Arg1:T26 Arg2:T32

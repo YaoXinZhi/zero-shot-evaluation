@@ -1,0 +1,85 @@
+T14	Disease 0 16	Vine flavescence
+T15	Date 62 72	Since 2017
+T16	Disease 94 111	flavescence dorée
+T17	Location 148 151	Lot
+T18	Plant 152 161	vineyards
+T19	Vector 282 300	Scaphoidus titanus
+T20	Date 343 359	October 26, 2022
+T21	Disease 375 391	Vine flavescence
+T22	Date 437 447	Since 2017
+T23	Disease 469 486	flavescence dorée
+T24	Location 523 526	Lot
+T25	Plant 527 536	vineyards
+T26	Vector 657 675	Scaphoidus titanus
+T27	Plant 761 780	red grape varieties
+T28	Plant 795 816	white grape varieties
+T29	Disease 922 931	bois noir
+T30	Location 1245 1248	Lot
+T31	Plant 1249 1257	vineyard
+T32	Date 1258 1268	every year
+T33	Plant 1343 1348	vines
+T34	Disease 1414 1432	golden flavescence
+T35	Disease 1436 1446	black wood
+T36	Plant 1461 1466	vines
+T37	Date 1491 1500	in winter
+T38	Date 1860 1870	every year
+T39	Location 1872 1878	Parnac
+T40	Location 1880 1888	Pradines
+T41	Location 1890 1897	Mercuès
+T42	Location 1902 1909	Douelle
+T43	Location 1953 1968	Porte du Quercy
+T44	Location 1970 1976	Sauzet
+T45	Location 1978 1984	Luzech
+T46	Location 1986 1994	Prayssac
+T47	Location 1996 2002	Carnac
+T48	Location 2004 2012	Sérignac
+T49	Location 2014 2018	Saux
+T50	Location 2020 2027	Montcuq
+T51	Location 2029 2035	Glanes
+T52	Date 2102 2115	in the winter
+N1	GeoNames Annotation:T17 Referent:2997524
+N2	NCBI_Taxonomy Annotation:T18 Referent:29760
+N3	NCBI_Taxonomy Annotation:T19 Referent:376741
+N4	GeoNames Annotation:T24 Referent:2997524
+N5	NCBI_Taxonomy Annotation:T25 Referent:29760
+N6	NCBI_Taxonomy Annotation:T26 Referent:376741
+N7	NCBI_Taxonomy Annotation:T27 Referent:29760
+N8	NCBI_Taxonomy Annotation:T28 Referent:29760
+N9	GeoNames Annotation:T30 Referent:2997524
+N10	NCBI_Taxonomy Annotation:T31 Referent:29760
+N11	NCBI_Taxonomy Annotation:T33 Referent:29760
+N12	NCBI_Taxonomy Annotation:T36 Referent:29760
+N13	GeoNames Annotation:T39 Referent:6434851
+N14	GeoNames Annotation:T40 Referent:6454174
+N15	GeoNames Annotation:T41 Referent:6434836
+N16	GeoNames Annotation:T42 Referent:6449247
+N17	GeoNames Annotation:T43 Referent:6456929
+N18	GeoNames Annotation:T44 Referent:6434916
+N19	GeoNames Annotation:T45 Referent:6434830
+N20	GeoNames Annotation:T46 Referent:6616851
+N21	GeoNames Annotation:T47 Referent:6449227
+N22	GeoNames Annotation:T48 Referent:6616862
+N23	GeoNames Annotation:T49 Referent:6612568
+N24	GeoNames Annotation:T50 Referent:6434841
+N25	GeoNames Annotation:T51 Referent:6434785
+R1	Expressed_by Disease:T16 Plant:T18
+R2	Located_in Object:T18 Location:T17
+R3	Found_on Organism:T19 Habitat:T18
+R4	Expressed_by Disease:T23 Plant:T28
+R5	Expressed_by Disease:T23 Plant:T25
+R6	Expressed_by Disease:T23 Plant:T27
+R7	Located_in Object:T25 Location:T24
+R8	Found_on Organism:T26 Habitat:T25
+R9	Located_in Object:T31 Location:T30
+R10	Expressed_by Disease:T34 Plant:T36
+R11	Expressed_by Disease:T35 Plant:T36
+E1	Nary Plante:T18 Vecteur:T19 Maladie:T16
+E2	Nary Plante:T18 Lieu:T17
+E3	Nary Plante:T25 Vecteur:T26 Maladie:T23
+E4	Nary Plante:T25 Lieu:T24
+E5	Nary Plante:T27 Maladie:T23
+E6	Nary Plante:T28 Maladie:T23
+E7	Nary Plante:T31 Lieu:T30
+E8	Nary Plante:T36 Maladie:T35
+E9	Nary Plante:T36 Maladie:T34
+*	Equiv T14 T16

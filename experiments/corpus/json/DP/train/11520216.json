@@ -1,0 +1,148 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "Ellagitannins",
+            "Name": "ellagitannins"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "hexahydroxydiphenoyl esters",
+            "Name": "hexahydroxydiphenoylesters"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "squalene",
+            "Name": "squalene"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "squalene epoxidase",
+            "Name": "squaleneepoxidase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Ellagitannins",
+            "Name": "ellagitannins"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "n-alkyl (C(1)-C(18))",
+            "Name": "nalkylc1c18"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "esters of hexahydroxydiphenyl (HHDP) dicarboxylic acid",
+            "Name": "estersofhexahydroxydiphenylhhdpdicarboxylicacid"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "rat squalene epoxidase",
+            "Name": "ratsqualeneepoxidase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "squalene",
+            "Name": "squalene"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ellagitannins",
+            "Name": "ellagitannins"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "pedunculagin",
+            "Name": "pedunculagin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "eugeniin",
+            "Name": "eugeniin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "(S)-HHDP",
+            "Name": "shhdp"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "HHDP",
+            "Name": "hhdp"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "ellagitannins",
+            "Name": "ellagitannins"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "HHDP",
+            "Name": "hhdp"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "C(6)",
+            "Name": "c6"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "C(8) alkyl side chains",
+            "Name": "c8alkylsidechains"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "C(1)-C(4)",
+            "Name": "c1c4"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "C(18)",
+            "Name": "c18"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T17",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T18",
+            "target": "T21"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T20"
+        }
+    ]
+}

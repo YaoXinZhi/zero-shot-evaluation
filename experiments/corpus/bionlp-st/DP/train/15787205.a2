@@ -1,0 +1,29 @@
+T6	CHEMICAL 11 19	dopamine
+N1	Name Annotation:T6 Referent:dopamine
+T12	GENE-Y 11 31	dopamine transporter
+N2	Name Annotation:T12 Referent:dopaminetransporter
+T13	GENE-Y 42 45	DAT
+N3	Name Annotation:T13 Referent:dat
+T7	CHEMICAL 68 77	bupropion
+N4	Name Annotation:T7 Referent:bupropion
+T1	CHEMICAL 96 105	Bupropion
+N5	Name Annotation:T1 Referent:bupropion
+T5	CHEMICAL 156 164	dopamine
+N6	Name Annotation:T5 Referent:dopamine
+T11	GENE-Y 156 176	dopamine transporter
+N7	Name Annotation:T11 Referent:dopaminetransporter
+T8	GENE-Y 190 193	DAT
+N8	Name Annotation:T8 Referent:dat
+T2	CHEMICAL 277 286	bupropion
+N9	Name Annotation:T2 Referent:bupropion
+T9	GENE-Y 322 325	DAT
+N10	Name Annotation:T9 Referent:dat
+T3	CHEMICAL 374 383	bupropion
+N11	Name Annotation:T3 Referent:bupropion
+T4	CHEMICAL 410 419	bupropion
+N12	Name Annotation:T4 Referent:bupropion
+T10	GENE-Y 423 426	DAT
+N13	Name Annotation:T10 Referent:dat
+R1	INHIBITOR Arg1:T1 Arg2:T11
+R2	DIRECT-REGULATOR Arg1:T3 Arg2:T9
+R3	DIRECT-REGULATOR Arg1:T4 Arg2:T10

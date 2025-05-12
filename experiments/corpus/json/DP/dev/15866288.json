@@ -1,0 +1,150 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "urokinase-type plasminogen activator",
+            "Name": "urokinasetypeplasminogenactivator"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "u-PA",
+            "Name": "upa"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "amiloride",
+            "Name": "amiloride"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "amiloride",
+            "Name": "amiloride"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "u-PA",
+            "Name": "upa"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "u-PA",
+            "Name": "upa"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "u-PA",
+            "Name": "upa"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "amiloride",
+            "Name": "amiloride"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Z-Gly-Gly-Arg-7-amino-4-trifluoromethylcoumarin",
+            "Name": "zglyglyarg7amino4trifluoromethylcoumarin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "amiloride",
+            "Name": "amiloride"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "u-PA",
+            "Name": "upa"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "u-PA",
+            "Name": "upa"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "u-PA",
+            "Name": "upa"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "u-PA",
+            "Name": "upa"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "amiloride",
+            "Name": "amiloride"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "u-PA",
+            "Name": "upa"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "amiloride",
+            "Name": "amiloride"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "u-PA",
+            "Name": "upa"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T12"
+        }
+    ]
+}

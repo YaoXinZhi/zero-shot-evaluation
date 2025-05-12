@@ -1,0 +1,214 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "Methylphenidate",
+            "Name": "methylphenidate"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "methylphenidate",
+            "Name": "methylphenidate"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "MPH",
+            "Name": "mph"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Ritalin",
+            "Name": "ritalin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "MPH",
+            "Name": "mph"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Ritalin",
+            "Name": "ritalin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "MPH",
+            "Name": "mph"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "MPH",
+            "Name": "mph"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "MPH",
+            "Name": "mph"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "catecholamine",
+            "Name": "catecholamine"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "tyrosine hydroxylase",
+            "Name": "tyrosinehydroxylase"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "TH",
+            "Name": "th"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "norepinephrine transporter",
+            "Name": "norepinephrinetransporter"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "MPH",
+            "Name": "mph"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "NCAM",
+            "Name": "ncam"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "neural cell adhesion molecule",
+            "Name": "neuralcelladhesionmolecule"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "TH",
+            "Name": "th"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "neuropeptide Y",
+            "Name": "neuropeptidey"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "MPH",
+            "Name": "mph"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "TH",
+            "Name": "th"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "MPH",
+            "Name": "mph"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "MPH",
+            "Name": "mph"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "MPH",
+            "Name": "mph"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T16",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T16",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T16",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T20"
+        }
+    ]
+}

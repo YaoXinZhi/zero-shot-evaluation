@@ -1,0 +1,99 @@
+T12	Pest 14 40	Tomato Brown Wrinkle Virus
+T13	Location 44 51	Arcadia
+T14	Pest 101 125	virus of brown wrinkling
+T15	Plant 129 135	tomato
+T16	Location 146 153	Arcadia
+T17	Location 217 224	Arcadia
+T18	Pest 263 287	virus of brown wrinkling
+T19	Plant 291 297	tomato
+T20	Location 308 315	Arcadia
+T21	Location 380 387	Arcadia
+T22	Plant 427 435	tomatoes
+T23	Plant 446 453	peppers
+T24	Location 577 584	Arcadia
+T25	Pest 722 748	tomato brown wrinkle virus
+T26	Pest 750 756	ToBRFV
+T27	Date 771 789	for the first time
+T28	Plant 861 867	tomato
+T29	Location 928 947	Community of Levidi
+T30	Plant 967 973	tomato
+T31	Plant 978 991	pepper plants
+T32	Dissemination_pathway 1034 1056	contact between plants
+T33	Dissemination_pathway 1127 1134	workers
+T34	Dissemination_pathway 1157 1177	propagating material
+T35	Dissemination_pathway 1179 1185	plants
+T36	Dissemination_pathway 1189 1194	seeds
+T37	Dissemination_pathway 1218 1223	hands
+T38	Dissemination_pathway 1290 1298	clothing
+T39	Dissemination_pathway 1303 1308	tools
+T40	Dissemination_pathway 1341 1364	reusable plastic crates
+T41	Dissemination_pathway 1413 1417	soil
+T42	Date 1520 1541	for at least 6 months
+T43	Dissemination_pathway 1721 1745	circulating water system
+T44	Dissemination_pathway 1816 1822	pollen
+T45	Plant 1858 1865	stypnus
+T46	Plant 1867 1873	datula
+T47	Plant 1875 1884	goosefoot
+T48	Plant 1909 1916	petunia
+N1	NCBI_Taxonomy Annotation:T12 Referent:1761477
+N2	GeoNames Annotation:T13 Referent:264644
+N3	NCBI_Taxonomy Annotation:T14 Referent:1761477
+N4	NCBI_Taxonomy Annotation:T15 Referent:4081
+N5	GeoNames Annotation:T16 Referent:264644
+N6	GeoNames Annotation:T17 Referent:264644
+N7	NCBI_Taxonomy Annotation:T18 Referent:1761477
+N8	NCBI_Taxonomy Annotation:T19 Referent:4081
+N9	GeoNames Annotation:T20 Referent:264644
+N10	GeoNames Annotation:T21 Referent:264644
+N11	NCBI_Taxonomy Annotation:T22 Referent:4081
+N12	NCBI_Taxonomy Annotation:T23 Referent:4071
+N13	GeoNames Annotation:T24 Referent:264644
+N14	NCBI_Taxonomy Annotation:T25 Referent:1761477
+N15	NCBI_Taxonomy Annotation:T26 Referent:1761477
+N16	NCBI_Taxonomy Annotation:T28 Referent:4081
+N17	GeoNames Annotation:T29 Referent:8133668
+N18	NCBI_Taxonomy Annotation:T30 Referent:4081
+N19	NCBI_Taxonomy Annotation:T31 Referent:4071
+N20	OntoBiotope Annotation:T32 Referent:OBT:000393
+N21	OntoBiotope Annotation:T33 Referent:OBT:003317
+N22	OntoBiotope Annotation:T34 Referent:OBT:001258
+N23	OntoBiotope Annotation:T35 Referent:OBT:000394
+N24	OntoBiotope Annotation:T36 Referent:OBT:001765
+N25	OntoBiotope Annotation:T37 Referent:OBT:001589
+N26	OntoBiotope Annotation:T38 Referent:OBT:000560
+N27	OntoBiotope Annotation:T39 Referent:OBT:000185
+N28	OntoBiotope Annotation:T40 Referent:OBT:000161
+N29	OntoBiotope Annotation:T41 Referent:OBT:000427
+N30	OntoBiotope Annotation:T43 Referent:OBT:001380
+N31	OntoBiotope Annotation:T44 Referent:OBT:002194
+N32	NCBI_Taxonomy Annotation:T45 Referent:13747
+N33	NCBI_Taxonomy Annotation:T46 Referent:4074
+N34	NCBI_Taxonomy Annotation:T47 Referent:66214
+N35	NCBI_Taxonomy Annotation:T48 Referent:4101
+R1	Located_in Object:T12 Location:T13
+R2	Located_in Object:T14 Location:T16
+R3	Found_on Organism:T14 Habitat:T15
+R4	Located_in Object:T15 Location:T16
+R5	Located_in Object:T18 Location:T20
+R6	Found_on Organism:T18 Habitat:T23
+R7	Found_on Organism:T18 Habitat:T22
+R8	Found_on Organism:T18 Habitat:T19
+R9	Located_in Object:T19 Location:T20
+R10	Found_on Organism:T25 Habitat:T31
+R11	Located_in Object:T26 Location:T29
+R12	Found_on Organism:T26 Habitat:T43
+R13	Found_on Organism:T26 Habitat:T28
+R14	Detected_on Object:T26 Date:T27
+R15	Located_in Object:T28 Location:T29
+R16	Detected_on Object:T28 Date:T27
+E1	Nary Organisme_nuisible:T12 Lieu:T13
+E2	Nary Organisme_nuisible:T14 Plante:T15 Lieu:T16
+E3	Nary Organisme_nuisible:T18 Plante:T19 Lieu:T20
+E4	Nary Organisme_nuisible:T18 Plante:T23
+E5	Nary Organisme_nuisible:T18 Plante:T22
+E6	Nary Organisme_nuisible:T25 Plante:T31
+E7	Nary Organisme_nuisible:T26 Voie_de_dispersion:T43
+E8	Nary Organisme_nuisible:T26 Plante:T28 Lieu:T29 Date:T27
+*	Equiv T20 T21
+*	Equiv T25 T26
+*	Equiv T16 T17

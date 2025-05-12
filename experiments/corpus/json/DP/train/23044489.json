@@ -1,0 +1,130 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "Ketamine",
+            "Name": "ketamine"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "soman",
+            "Name": "soman"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Organophosphorus",
+            "Name": "organophosphorus"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "cholinesterase",
+            "Name": "cholinesterase"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "NMDA receptor",
+            "Name": "nmdareceptor"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Ketamine",
+            "Name": "ketamine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "KET",
+            "Name": "ket"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "KET",
+            "Name": "ket"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "atropine sulfate",
+            "Name": "atropinesulfate"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "benzodiazepine",
+            "Name": "benzodiazepine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "soman",
+            "Name": "soman"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "soman",
+            "Name": "soman"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "MK-801",
+            "Name": "mk801"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "KET",
+            "Name": "ket"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "KET",
+            "Name": "ket"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T11",
+            "target": "T18"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T12",
+            "target": "T18"
+        }
+    ]
+}

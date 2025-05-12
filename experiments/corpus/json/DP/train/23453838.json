@@ -1,0 +1,216 @@
+{
+    "entities": [
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "\u03b2- and \u03b3-substituted alkoxy organophosphonates",
+            "Name": "\u03b2and\u03b3substitutedalkoxyorganophosphonates"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "organophosphate",
+            "Name": "organophosphate"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "\u03b2-substituted ethoxy and \u03b3-substituted propoxy phosphonoesters",
+            "Name": "\u03b2substitutedethoxyand\u03b3substitutedpropoxyphosphonoesters"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "p-NO(2)PhO-P(X)(R)[(O(CH(2))(n)Z]",
+            "Name": "pno2phopxroch2nz"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "R=Me, Et; X=O, S; n=2, 3; Z=halogen, OTs",
+            "Name": "rmeetxosn23zhalogenots"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "AChEs",
+            "Name": "aches"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "\u03b2-fluoroethoxy methylphosphonate",
+            "Name": "\u03b2fluoroethoxymethylphosphonate"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "R=Me, Z=F, n=2",
+            "Name": "rmezfn2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "paraoxon",
+            "Name": "paraoxon"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "EEAChE",
+            "Name": "eeache"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Z=Br, I, or OTs",
+            "Name": "zbriorots"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "AChEs",
+            "Name": "aches"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "methyl phosphonates",
+            "Name": "methylphosphonates"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "R=Me",
+            "Name": "rme"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "ethyl phosphonates",
+            "Name": "ethylphosphonates"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "R=Et",
+            "Name": "ret"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "thionate",
+            "Name": "thionate"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "AChEs",
+            "Name": "aches"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T21"
+        }
+    ]
+}

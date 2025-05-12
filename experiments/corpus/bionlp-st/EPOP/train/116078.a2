@@ -1,0 +1,59 @@
+T31	Dissemination_pathway 17 23	citrus
+T32	Dissemination_pathway 381 395	citrus imports
+T33	Date 465 477	to last year
+T34	Dissemination_pathway 562 584	entering citrus fruits
+T35	Location 592 606	European Union
+T36	Location 691 709	Mercosur countries
+T37	Location 711 717	Brazil
+T38	Location 719 728	Argentina
+T39	Location 733 740	Uruguay
+T40	Date 781 817	in the first nine months of the year
+T41	Location 819 825	Brazil
+T42	Date 855 862	in 2021
+T43	Location 899 908	Argentina
+T44	Location 934 941	Uruguay
+T45	Date 956 970	from last year
+T46	Location 981 989	Colombia
+T47	Location 1003 1011	Mercosur
+T48	Date 1038 1047	this year
+T49	Date 1064 1073	last year
+T50	Location 1090 1102	South Africa
+T51	Dissemination_pathway 1199 1208	shipments
+T52	Date 1250 1266	so far this year
+T53	Date 1281 1293	in September
+T54	Pest 1403 1426	Phyllosticta citricarpa
+T55	Disease 1460 1478	Black Spot disease
+T56	Plant 1482 1488	citrus
+T57	Pest 2446 2453	Xylella
+T58	Pest 2462 2487	Cotonet from South Africa
+N1	OntoBiotope Annotation:T31 Referent:OBT:002971
+N2	OntoBiotope Annotation:T32 Referent:OBT:002971
+N3	OntoBiotope Annotation:T34 Referent:OBT:002971
+N4	GeoNames Annotation:T35 Referent:6695072
+N5	GeoNames Annotation:T36 Referent:11812364
+N6	GeoNames Annotation:T37 Referent:3469034
+N7	GeoNames Annotation:T38 Referent:3865483
+N8	GeoNames Annotation:T39 Referent:3439705
+N9	GeoNames Annotation:T41 Referent:3469034
+N10	GeoNames Annotation:T43 Referent:3865483
+N11	GeoNames Annotation:T44 Referent:3439705
+N12	GeoNames Annotation:T46 Referent:3686110
+N13	GeoNames Annotation:T47 Referent:11812364
+N14	GeoNames Annotation:T50 Referent:953987
+N15	OntoBiotope Annotation:T51 Referent:OBT:000418
+N16	NCBI_Taxonomy Annotation:T54 Referent:55181
+N17	NCBI_Taxonomy Annotation:T56 Referent:2706
+N18	NCBI_Taxonomy Annotation:T57 Referent:2371
+N19	NCBI_Taxonomy Annotation:T58 Referent:1112575
+R1	Located_in Object:T34 Location:T35
+R2	Found_on Organism:T54 Habitat:T56
+R3	Located_in Object:T54 Location:T50
+R4	Detected_on Object:T54 Date:T53
+R5	Located_in Object:T55 Location:T50
+R6	Detected_on Object:T55 Date:T53
+R7	Causes Pest:T54 Disease:T55
+R8	Expressed_by Disease:T55 Plant:T56
+R9	Located_in Object:T56 Location:T50
+R10	Detected_on Object:T56 Date:T53
+E1	Nary Voie_de_dispersion:T34 Lieu:T35
+E2	Nary Organisme_nuisible:T54 Plante:T56 Maladie:T55 Lieu:T50 Date:T53

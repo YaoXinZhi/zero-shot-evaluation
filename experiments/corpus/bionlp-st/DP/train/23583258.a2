@@ -1,0 +1,75 @@
+T18	CHEMICAL 0 8	Phenolic
+N1	Name Annotation:T18 Referent:phenolic
+T19	CHEMICAL 122 132	oxysterols
+N2	Name Annotation:T19 Referent:oxysterols
+T1	CHEMICAL 172 183	Cholesterol
+N3	Name Annotation:T1 Referent:cholesterol
+T13	CHEMICAL 216 226	oxysterols
+N4	Name Annotation:T13 Referent:oxysterols
+T16	CHEMICAL 250 261	cholesterol
+N5	Name Annotation:T16 Referent:cholesterol
+T23	GENE-N 528 540	interleukins
+N6	Name Annotation:T23 Referent:interleukins
+T24	GENE-Y 542 546	IL-6
+N7	Name Annotation:T24 Referent:il6
+T25	GENE-Y 551 555	IL-8
+N8	Name Annotation:T25 Referent:il8
+T11	CHEMICAL 580 590	oxysterols
+N9	Name Annotation:T11 Referent:oxysterols
+T12	CHEMICAL 616 627	cholesterol
+N10	Name Annotation:T12 Referent:cholesterol
+T14	CHEMICAL 790 796	oxygen
+N11	Name Annotation:T14 Referent:oxygen
+T15	CHEMICAL 825 830	NADPH
+N12	Name Annotation:T15 Referent:nadph
+T26	GENE-N 825 838	NADPH-oxidase
+N13	Name Annotation:T26 Referent:nadphoxidase
+T27	GENE-Y 839 843	NOX1
+N14	Name Annotation:T27 Referent:nox1
+T28	GENE-Y 869 873	NOX1
+N15	Name Annotation:T28 Referent:nox1
+T17	CHEMICAL 1048 1057	Oxysterol
+N16	Name Annotation:T17 Referent:oxysterol
+T29	GENE-Y 1068 1072	NOX1
+N17	Name Annotation:T29 Referent:nox1
+T30	GENE-N 1096 1107	interleukin
+N18	Name Annotation:T30 Referent:interleukin
+T2	CHEMICAL 1233 1247	phenolic acids
+N19	Name Annotation:T2 Referent:phenolicacids
+T3	CHEMICAL 1252 1262	flavonoids
+N20	Name Annotation:T3 Referent:flavonoids
+T20	GENE-Y 1383 1387	NOX1
+N21	Name Annotation:T20 Referent:nox1
+T21	GENE-N 1427 1438	interleukin
+N22	Name Annotation:T21 Referent:interleukin
+T4	CHEMICAL 1468 1478	oxysterols
+N23	Name Annotation:T4 Referent:oxysterols
+T5	CHEMICAL 1593 1603	oxysterols
+N24	Name Annotation:T5 Referent:oxysterols
+T6	CHEMICAL 1664 1673	phenolics
+N25	Name Annotation:T6 Referent:phenolics
+T7	CHEMICAL 1722 1731	oxysterol
+N26	Name Annotation:T7 Referent:oxysterol
+T8	CHEMICAL 1801 1809	phenolic
+N27	Name Annotation:T8 Referent:phenolic
+T9	CHEMICAL 1896 1905	oxysterol
+N28	Name Annotation:T9 Referent:oxysterol
+T22	GENE-Y 1914 1918	NOX1
+N29	Name Annotation:T22 Referent:nox1
+T10	CHEMICAL 2019 2029	oxysterols
+N30	Name Annotation:T10 Referent:oxysterols
+R1	INDIRECT-UPREGULATOR Arg1:T11 Arg2:T23
+R2	INDIRECT-UPREGULATOR Arg1:T11 Arg2:T24
+R3	INDIRECT-UPREGULATOR Arg1:T11 Arg2:T25
+R4	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T23
+R5	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T24
+R6	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T25
+R7	ACTIVATOR Arg1:T17 Arg2:T29
+R8	INDIRECT-UPREGULATOR Arg1:T17 Arg2:T30
+R9	INHIBITOR Arg1:T2 Arg2:T29
+R10	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T30
+R11	INHIBITOR Arg1:T3 Arg2:T29
+R12	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T30
+R13	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T21
+R14	ACTIVATOR Arg1:T9 Arg2:T22
+R15	INHIBITOR Arg1:T8 Arg2:T22

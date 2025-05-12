@@ -1,0 +1,199 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "bazedoxifene",
+            "Name": "bazedoxifene"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "progestogen",
+            "Name": "progestogen"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "bazedoxifene",
+            "Name": "bazedoxifene"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "BZA",
+            "Name": "bza"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "estrogens",
+            "Name": "estrogens"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "estradiol",
+            "Name": "estradiol"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "MAPK",
+            "Name": "mapk"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "p70S6K",
+            "Name": "p70s6k"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "survivin",
+            "Name": "survivin"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "Bcl-2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "X-linked inhibitor of apoptosis protein",
+            "Name": "xlinkedinhibitorofapoptosisprotein"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "BZA",
+            "Name": "bza"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "cMyc",
+            "Name": "cmyc"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "pS2",
+            "Name": "ps2"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "WNT1 inducible signaling pathway protein 2",
+            "Name": "wnt1induciblesignalingpathwayprotein2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "progesterone",
+            "Name": "progesterone"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "progesterone receptor",
+            "Name": "progesteronereceptor"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "amphiregulin",
+            "Name": "amphiregulin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "BZA",
+            "Name": "bza"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "BZA",
+            "Name": "bza"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "BZA",
+            "Name": "bza"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T14",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T14",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T14",
+            "target": "T27"
+        }
+    ]
+}

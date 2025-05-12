@@ -1,0 +1,47 @@
+{
+    "entities": [
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Pyrrolopyrazines",
+            "Name": "pyrrolopyrazines"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "Spleen Tyrosine Kinase",
+            "Name": "spleentyrosinekinase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "pyrrolopyrazines",
+            "Name": "pyrrolopyrazines"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "Syk",
+            "Name": "syk"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T5"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T4"
+        }
+    ]
+}

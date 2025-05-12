@@ -1,0 +1,177 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Hydroxysafflor yellow a",
+            "Name": "hydroxysaffloryellowa"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Hydroxysafflor yellow A",
+            "Name": "hydroxysaffloryellowa"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "HSYA",
+            "Name": "hsya"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "HSYA",
+            "Name": "hsya"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "HSYA",
+            "Name": "hsya"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "HSYA",
+            "Name": "hsya"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "TLR-4",
+            "Name": "tlr4"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "Myd88",
+            "Name": "myd88"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "ICAM-1",
+            "Name": "icam1"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "TNF\u03b1",
+            "Name": "tnf\u03b1"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "IL-1\u03b2",
+            "Name": "il1\u03b2"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "IL-6",
+            "Name": "il6"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "HSYA",
+            "Name": "hsya"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "p65",
+            "Name": "p65"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "p38",
+            "Name": "p38"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "mitogen-activated protein kinase",
+            "Name": "mitogenactivatedproteinkinase"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "p38",
+            "Name": "p38"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "MAPK",
+            "Name": "mapk"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "HSYA",
+            "Name": "hsya"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T9"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T20"
+        }
+    ]
+}

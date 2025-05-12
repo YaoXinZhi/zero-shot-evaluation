@@ -1,0 +1,165 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "2-Hydroxy-3-methylanthraquinone",
+            "Name": "2hydroxy3methylanthraquinone"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "MAPK",
+            "Name": "mapk"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "anthraquinones",
+            "Name": "anthraquinones"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "mitogen-activated protein kinases",
+            "Name": "mitogenactivatedproteinkinases"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "MAPK",
+            "Name": "mapk"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "2-hydroxy-3-methylanthraquinone",
+            "Name": "2hydroxy3methylanthraquinone"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "2-hydroxy-3-methylanthraquinone",
+            "Name": "2hydroxy3methylanthraquinone"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "ERK1/2",
+            "Name": "erk12"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "p-ERK1/2",
+            "Name": "perk12"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "p-p38MAPK",
+            "Name": "pp38mapk"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "p-JNK1/2",
+            "Name": "pjnk12"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "2-hydroxy-3-methylanthraquinone",
+            "Name": "2hydroxy3methylanthraquinone"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "PD98059",
+            "Name": "pd98059"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "ERK1/2",
+            "Name": "erk12"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "2-hydroxy-3-methylanthraquinone",
+            "Name": "2hydroxy3methylanthraquinone"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "SB203580",
+            "Name": "sb203580"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "p-p38MAPK",
+            "Name": "pp38mapk"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "2-hydroxy-3-methylanthraquinone",
+            "Name": "2hydroxy3methylanthraquinone"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "p-p38MAPK",
+            "Name": "pp38mapk"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "p-ERK1/2",
+            "Name": "perk12"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "caspase-3",
+            "Name": "caspase3"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Activator",
+            "source": "T2",
+            "target": "T12"
+        }
+    ]
+}

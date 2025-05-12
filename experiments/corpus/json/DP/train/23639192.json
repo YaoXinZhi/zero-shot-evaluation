@@ -1,0 +1,238 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "Puerarin",
+            "Name": "puerarin"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "MEK",
+            "Name": "mek"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Puerarin",
+            "Name": "puerarin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "isoflavone glycoside",
+            "Name": "isoflavoneglycoside"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "puerarin",
+            "Name": "puerarin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "puerarin",
+            "Name": "puerarin"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "puerarin",
+            "Name": "puerarin"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "cisplatin",
+            "Name": "cisplatin"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "estrogen receptor",
+            "Name": "estrogenreceptor"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Puerarin",
+            "Name": "puerarin"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "puerarin",
+            "Name": "puerarin"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "Bcl-xL",
+            "Name": "bclxl"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "ER",
+            "Name": "er"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "ICI 182,780",
+            "Name": "ici182780"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "puerarin",
+            "Name": "puerarin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "puerarin",
+            "Name": "puerarin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "ER\u03b1",
+            "Name": "er\u03b1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "ER\u03b2",
+            "Name": "er\u03b2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "puerarin",
+            "Name": "puerarin"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "MEK",
+            "Name": "mek"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "ERK",
+            "Name": "erk"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "PI3K",
+            "Name": "pi3k"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "estrogen",
+            "Name": "estrogen"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "puerarin",
+            "Name": "puerarin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T16",
+            "target": "T28"
+        },
+        {
+            "type": "Activator",
+            "source": "T16",
+            "target": "T29"
+        },
+        {
+            "type": "Activator",
+            "source": "T16",
+            "target": "T31"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T13",
+            "target": "T25"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T14",
+            "target": "T26"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T19"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T21"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T22"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T20"
+        }
+    ]
+}

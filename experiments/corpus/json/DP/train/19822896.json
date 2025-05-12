@@ -1,0 +1,89 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Nilotinib",
+            "Name": "nilotinib"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Ph(+)",
+            "Name": "ph"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Nilotinib",
+            "Name": "nilotinib"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "BCR",
+            "Name": "bcr"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "ABL",
+            "Name": "abl"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "imatinib",
+            "Name": "imatinib"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Ph(+)",
+            "Name": "ph"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "nilotinib",
+            "Name": "nilotinib"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "lipase",
+            "Name": "lipase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Nilotinib",
+            "Name": "nilotinib"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "nilotinib",
+            "Name": "nilotinib"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T12"
+        }
+    ]
+}

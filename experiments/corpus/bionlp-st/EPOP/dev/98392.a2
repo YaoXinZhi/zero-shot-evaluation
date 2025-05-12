@@ -1,0 +1,36 @@
+T3	Pest 21 27	ToBRFV
+T4	Plant 60 66	tomato
+T5	Plant 68 79	bell pepper
+T6	Plant 84 89	chili
+T7	Pest 163 194	Tomato brown rugose fruit virus
+T8	Pest 196 202	ToBRFV
+T9	Plant 240 246	tomato
+T10	Plant 248 268	Solanum lycopersicum
+T11	Plant 271 278	paprika
+T12	Plant 283 295	chili pepper
+T13	Plant 297 309	Capsicum spp
+N1	NCBI_Taxonomy Annotation:T3 Referent:1761477
+N2	NCBI_Taxonomy Annotation:T4 Referent:4081
+N3	NCBI_Taxonomy Annotation:T5 Referent:4072
+N4	NCBI_Taxonomy Annotation:T6 Referent:4073
+N5	NCBI_Taxonomy Annotation:T7 Referent:1761477
+N6	NCBI_Taxonomy Annotation:T8 Referent:1761477
+N7	NCBI_Taxonomy Annotation:T9 Referent:4081
+N8	NCBI_Taxonomy Annotation:T10 Referent:4081
+N9	NCBI_Taxonomy Annotation:T11 Referent:4072
+N10	NCBI_Taxonomy Annotation:T12 Referent:4073
+N11	NCBI_Taxonomy Annotation:T13 Referent:4071
+R1	Found_on Organism:T3 Habitat:T6
+R2	Found_on Organism:T3 Habitat:T4
+R3	Found_on Organism:T3 Habitat:T5
+R4	Found_on Organism:T7 Habitat:T11
+R5	Found_on Organism:T7 Habitat:T9
+R6	Found_on Organism:T7 Habitat:T12
+E1	Nary Organisme_nuisible:T3 Plante:T6
+E2	Nary Organisme_nuisible:T3 Plante:T4
+E3	Nary Organisme_nuisible:T3 Plante:T5
+E4	Nary Organisme_nuisible:T7 Plante:T11
+E5	Nary Organisme_nuisible:T7 Plante:T9
+E6	Nary Organisme_nuisible:T7 Plante:T12
+*	Equiv T10 T9
+*	Equiv T7 T8

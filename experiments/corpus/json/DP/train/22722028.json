@@ -1,0 +1,150 @@
+{
+    "entities": [
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "histone deacetylase",
+            "Name": "histonedeacetylase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "d-cycloserine",
+            "Name": "dcycloserine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "N-methly-d-aspartate",
+            "Name": "nmethlydaspartate"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "MS-275",
+            "Name": "ms275"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "histone deacetylase",
+            "Name": "histonedeacetylase"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "HDAC",
+            "Name": "hdac"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "valproic acid",
+            "Name": "valproicacid"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "HDAC",
+            "Name": "hdac"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "AMN082",
+            "Name": "amn082"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "metabotropic glutamate receptor 7",
+            "Name": "metabotropicglutamatereceptor7"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "mGlu7",
+            "Name": "mglu7"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "MS-275",
+            "Name": "ms275"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "PEPA",
+            "Name": "pepa"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "AMPA",
+            "Name": "ampa"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "AMPA receptor",
+            "Name": "ampareceptor"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "HDAC",
+            "Name": "hdac"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "mGlu7",
+            "Name": "mglu7"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Agonist",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Agonist",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T13"
+        }
+    ]
+}

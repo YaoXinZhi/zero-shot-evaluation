@@ -1,0 +1,75 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "tacrine",
+            "Name": "tacrine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "huperzine A",
+            "Name": "huperzinea"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "galanthamine",
+            "Name": "galanthamine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "polyamines",
+            "Name": "polyamines"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T6"
+        }
+    ]
+}

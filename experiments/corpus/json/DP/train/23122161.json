@@ -1,0 +1,253 @@
+{
+    "entities": [
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "nuclear factor kappa beta",
+            "Name": "nuclearfactorkappabeta"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "NF-kB",
+            "Name": "nfkb"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "mitogen-activated protein kinases",
+            "Name": "mitogenactivatedproteinkinases"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "MAPKs",
+            "Name": "mapks"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "inducible nitric oxide synthase",
+            "Name": "induciblenitricoxidesynthase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "cyclooxygenase-2",
+            "Name": "cyclooxygenase2"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "NO",
+            "Name": "no"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "prostaglandin E(2)",
+            "Name": "prostaglandine2"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "PGE(2)",
+            "Name": "pge2"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "cytokine",
+            "Name": "cytokine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "methanol",
+            "Name": "methanol"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "hexane",
+            "Name": "hexane"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "NO",
+            "Name": "no"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "methanol",
+            "Name": "methanol"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "hexane",
+            "Name": "hexane"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "MAPKs",
+            "Name": "mapks"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "NF-kB",
+            "Name": "nfkb"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "PGE(2)",
+            "Name": "pge2"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "tumour necrosis factor-alpha",
+            "Name": "tumournecrosisfactoralpha"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "TNF-\u03b1",
+            "Name": "tnf\u03b1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "hexane",
+            "Name": "hexane"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MAPKs",
+            "Name": "mapks"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "NF-kB",
+            "Name": "nfkb"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T31"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T20"
+        }
+    ]
+}

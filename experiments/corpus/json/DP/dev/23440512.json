@@ -1,0 +1,155 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Vitamin A",
+            "Name": "vitamina"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "retinoid",
+            "Name": "retinoid"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Vitamin A",
+            "Name": "vitamina"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "retinol",
+            "Name": "retinol"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "vitamin",
+            "Name": "vitamin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "vitamin A",
+            "Name": "vitamina"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "all-trans retinoic acid",
+            "Name": "alltransretinoicacid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "atRA",
+            "Name": "atra"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "nuclear receptors",
+            "Name": "nuclearreceptors"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "RARs",
+            "Name": "rars"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "RXRs",
+            "Name": "rxrs"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PPAR\u03b2/\u03b4",
+            "Name": "ppar\u03b2\u03b4"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "polymorphic retinoic acid (RA) response elements",
+            "Name": "polymorphicretinoicacidraresponseelements"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "retinoic acid",
+            "Name": "retinoicacid"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "vitamin A",
+            "Name": "vitamina"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "RARs",
+            "Name": "rars"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "vitamin A",
+            "Name": "vitamina"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T16"
+        }
+    ]
+}

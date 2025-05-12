@@ -1,0 +1,89 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Amino Acids",
+            "Name": "aminoacids"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "amino acids",
+            "Name": "aminoacids"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "((13)C)methyldodecanesulfonate",
+            "Name": "13cmethyldodecanesulfonate"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "human serum albumin",
+            "Name": "humanserumalbumin"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "HSA",
+            "Name": "hsa"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "amino acids",
+            "Name": "aminoacids"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "histidine",
+            "Name": "histidine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "methionine",
+            "Name": "methionine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cysteine",
+            "Name": "cysteine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "lysine",
+            "Name": "lysine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "amino",
+            "Name": "amino"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "amino acids",
+            "Name": "aminoacids"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T12"
+        }
+    ]
+}

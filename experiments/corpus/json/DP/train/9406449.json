@@ -1,0 +1,123 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "lipoprotein lipase",
+            "Name": "lipoproteinlipase"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "chicken and rat lipoprotein lipase",
+            "Name": "chickenandratlipoproteinlipase"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "LPL",
+            "Name": "lpl"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "LPL",
+            "Name": "lpl"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "NaCl",
+            "Name": "nacl"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "sulfate",
+            "Name": "sulfate"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "LPL",
+            "Name": "lpl"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "LPLs",
+            "Name": "lpls"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "triolein",
+            "Name": "triolein"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "chicken LPL",
+            "Name": "chickenlpl"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "LPLs",
+            "Name": "lpls"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "triolein",
+            "Name": "triolein"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "VLDL",
+            "Name": "vldl"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "lipoproteins",
+            "Name": "lipoproteins"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "LPL",
+            "Name": "lpl"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "LPL",
+            "Name": "lpl"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T7"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T8"
+        }
+    ]
+}

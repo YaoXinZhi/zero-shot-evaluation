@@ -1,0 +1,189 @@
+{
+    "entities": [
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "alpha(2B)-adrenoceptor",
+            "Name": "alpha2badrenoceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Clonidine",
+            "Name": "clonidine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "ethanol",
+            "Name": "ethanol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "clonidine",
+            "Name": "clonidine"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "alpha(2)-adrenoceptor",
+            "Name": "alpha2adrenoceptor"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "yohimbine",
+            "Name": "yohimbine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "prazosin",
+            "Name": "prazosin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "2-[2-(4-(O-methoxyphenyl)piperazin-1-yl)ethyl]-4,4-dimethyl-1,3-(2 H, 4H)-isoquinolindione",
+            "Name": "224omethoxyphenylpiperazin1ylethyl44dimethyl132h4hisoquinolindione"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "ARC-239",
+            "Name": "arc239"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "alpha(2B/2C)-adrenoceptor",
+            "Name": "alpha2b2cadrenoceptor"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "opioid receptor",
+            "Name": "opioidreceptor"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "naloxone",
+            "Name": "naloxone"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "mu-opioid receptor",
+            "Name": "muopioidreceptor"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "naltrindole",
+            "Name": "naltrindole"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "naltriben",
+            "Name": "naltriben"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "delta-opioid receptor",
+            "Name": "deltaopioidreceptor"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "naltrindole",
+            "Name": "naltrindole"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "clonidine",
+            "Name": "clonidine"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "[D-Ala(2), D-Leu(5)]enkephalin",
+            "Name": "dala2dleu5enkephalin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "alpha(2B/2C)-adrenoceptor",
+            "Name": "alpha2b2cadrenoceptor"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "delta--receptors",
+            "Name": "deltareceptors"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "clonidine",
+            "Name": "clonidine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T5",
+            "target": "T15"
+        },
+        {
+            "type": "Agonist",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T6",
+            "target": "T15"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T9",
+            "target": "T17"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T9",
+            "target": "T18"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T10",
+            "target": "T19"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T11",
+            "target": "T19"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T18"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T19"
+        }
+    ]
+}

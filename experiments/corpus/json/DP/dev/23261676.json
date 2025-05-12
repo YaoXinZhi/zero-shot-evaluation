@@ -1,0 +1,251 @@
+{
+    "entities": [
+        {
+            "id": "T27",
+            "type": "Chemical",
+            "name": "(-) Epicatechin",
+            "Name": "epicatechin"
+        },
+        {
+            "id": "T30",
+            "type": "Chemical",
+            "name": "adenosine triphosphate",
+            "Name": "adenosinetriphosphate"
+        },
+        {
+            "id": "T28",
+            "type": "Chemical",
+            "name": "calcium",
+            "Name": "calcium"
+        },
+        {
+            "id": "T29",
+            "type": "Chemical",
+            "name": "isoproterenol",
+            "Name": "isoproterenol"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "(-) epicatechin",
+            "Name": "epicatechin"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "isoproterenol",
+            "Name": "isoproterenol"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "(-) epicatechin",
+            "Name": "epicatechin"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "isoproterenol",
+            "Name": "isoproterenol"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "Isoproterenol",
+            "Name": "isoproterenol"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "calcium",
+            "Name": "calcium"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "glutathione peroxidase",
+            "Name": "glutathioneperoxidase"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "glutathione reductase",
+            "Name": "glutathionereductase"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "reduced glutathione",
+            "Name": "reducedglutathione"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "isocitrate",
+            "Name": "isocitrate"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "succinate",
+            "Name": "succinate"
+        },
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "malate",
+            "Name": "malate"
+        },
+        {
+            "id": "T23",
+            "type": "Chemical",
+            "name": "\u03b1-ketoglutarate",
+            "Name": "\u03b1ketoglutarate"
+        },
+        {
+            "id": "T24",
+            "type": "Chemical",
+            "name": "NADH",
+            "Name": "nadh"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "NADH-dehydrogenases",
+            "Name": "nadhdehydrogenases"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "cytochrome-C-oxidase",
+            "Name": "cytochromecoxidase"
+        },
+        {
+            "id": "T25",
+            "type": "Chemical",
+            "name": "adenosine triphosphate",
+            "Name": "adenosinetriphosphate"
+        },
+        {
+            "id": "T26",
+            "type": "Chemical",
+            "name": "(-) Epicatechin",
+            "Name": "epicatechin"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "superoxide",
+            "Name": "superoxide"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "hydroxyl",
+            "Name": "hydroxyl"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "(-) epicatechin",
+            "Name": "epicatechin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "(-) epicatechin",
+            "Name": "epicatechin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "calcium",
+            "Name": "calcium"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "tricarboxylic acid",
+            "Name": "tricarboxylicacid"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "adenosine triphosphate",
+            "Name": "adenosinetriphosphate"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "(-) epicatechin",
+            "Name": "epicatechin"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "isoproterenol",
+            "Name": "isoproterenol"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T31"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T15",
+            "target": "T31"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T32"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T15",
+            "target": "T32"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T33"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T34"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T15",
+            "target": "T33"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T15",
+            "target": "T34"
+        }
+    ]
+}

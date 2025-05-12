@@ -1,0 +1,282 @@
+{
+    "entities": [
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "rat kynurenine aminotransferas",
+            "Name": "ratkynurenineaminotransferas"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "kynurenine",
+            "Name": "kynurenine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "glutamine",
+            "Name": "glutamine"
+        },
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "glutamine transaminase K",
+            "Name": "glutaminetransaminasek"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Kynurenic acid",
+            "Name": "kynurenicacid"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "KA",
+            "Name": "ka"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "glutamate receptor",
+            "Name": "glutamatereceptor"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "ionotropic glutamate receptors",
+            "Name": "ionotropicglutamatereceptors"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "KA",
+            "Name": "ka"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "kynurenine",
+            "Name": "kynurenine"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "kynurenine aminotransferase I",
+            "Name": "kynurenineaminotransferasei"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "KATI",
+            "Name": "kati"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "glutamine",
+            "Name": "glutamine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "oxoglutaramic acid",
+            "Name": "oxoglutaramicacid"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "GTK",
+            "Name": "gtk"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "EC 2.6.1.15",
+            "Name": "ec26115"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "KATI",
+            "Name": "kati"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "leader sequence",
+            "Name": "leadersequence"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "KATI",
+            "Name": "kati"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "5' untranslated regions",
+            "Name": "5untranslatedregions"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "UTRs",
+            "Name": "utrs"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "KATI",
+            "Name": "kati"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "KATI",
+            "Name": "kati"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "KATI",
+            "Name": "kati"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "KATI",
+            "Name": "kati"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "KAT",
+            "Name": "kat"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "rat KATI",
+            "Name": "ratkati"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "GTK",
+            "Name": "gtk"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "KATI",
+            "Name": "kati"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "5'UTRs",
+            "Name": "5utrs"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "pyridoxal phosphate",
+            "Name": "pyridoxalphosphate"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "pyridoxal phosphate (PLP)-dependent aminotransferases",
+            "Name": "pyridoxalphosphateplpdependentaminotransferases"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "PLP",
+            "Name": "plp"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T24"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T24"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T33"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T33"
+        },
+        {
+            "type": "Product of",
+            "source": "T6",
+            "target": "T20"
+        },
+        {
+            "type": "Product of",
+            "source": "T6",
+            "target": "T21"
+        },
+        {
+            "type": "Substrate product of",
+            "source": "T8",
+            "target": "T21"
+        },
+        {
+            "type": "Substrate product of",
+            "source": "T8",
+            "target": "T20"
+        },
+        {
+            "type": "Substrate product of",
+            "source": "T9",
+            "target": "T21"
+        },
+        {
+            "type": "Substrate product of",
+            "source": "T9",
+            "target": "T20"
+        },
+        {
+            "type": "Substrate product of",
+            "source": "T9",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate product of",
+            "source": "T9",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate product of",
+            "source": "T8",
+            "target": "T22"
+        }
+    ]
+}

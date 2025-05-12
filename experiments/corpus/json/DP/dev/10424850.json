@@ -1,0 +1,141 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Desipramine",
+            "Name": "desipramine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "3H-nisoxetine",
+            "Name": "3hnisoxetine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "norepinephrine transporter",
+            "Name": "norepinephrinetransporter"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "desipramine",
+            "Name": "desipramine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "norepinephrine",
+            "Name": "norepinephrine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "norepinephrine re-uptake transporter",
+            "Name": "norepinephrinereuptaketransporter"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "NETs",
+            "Name": "nets"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "desipramine",
+            "Name": "desipramine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "3H-nisoxetine",
+            "Name": "3hnisoxetine"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "NETs",
+            "Name": "nets"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "3H-nisoxetine",
+            "Name": "3hnisoxetine"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "desipramine",
+            "Name": "desipramine"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "NET",
+            "Name": "net"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T19"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T10"
+        }
+    ]
+}

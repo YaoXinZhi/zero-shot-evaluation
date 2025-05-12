@@ -1,0 +1,95 @@
+T31	CHEMICAL 0 24	Desvenlafaxine succinate
+N1	Name Annotation:T31 Referent:desvenlafaxinesuccinate
+T32	CHEMICAL 32 41	serotonin
+N2	Name Annotation:T32 Referent:serotonin
+T33	CHEMICAL 46 60	norepinephrine
+N3	Name Annotation:T33 Referent:norepinephrine
+T26	CHEMICAL 150 174	desvenlafaxine succinate
+N4	Name Annotation:T26 Referent:desvenlafaxinesuccinate
+T30	CHEMICAL 176 179	DVS
+N5	Name Annotation:T30 Referent:dvs
+T2	CHEMICAL 182 185	DVS
+N6	Name Annotation:T2 Referent:dvs
+T13	CHEMICAL 250 261	venlafaxine
+N7	Name Annotation:T13 Referent:venlafaxine
+T36	GENE-Y 351 385	human serotonin (5-HT) transporter
+N8	Name Annotation:T36 Referent:humanserotonin5httransporter
+T14	CHEMICAL 357 366	serotonin
+N9	Name Annotation:T14 Referent:serotonin
+T15	CHEMICAL 368 372	5-HT
+N10	Name Annotation:T15 Referent:5ht
+T37	GENE-Y 387 392	hSERT
+N11	Name Annotation:T37 Referent:hsert
+T16	CHEMICAL 397 411	norepinephrine
+N12	Name Annotation:T16 Referent:norepinephrine
+T38	GENE-Y 397 428	norepinephrine (NE) transporter
+N13	Name Annotation:T38 Referent:norepinephrinenetransporter
+T17	CHEMICAL 413 415	NE
+N14	Name Annotation:T17 Referent:ne
+T39	GENE-Y 430 434	hNET
+N15	Name Annotation:T39 Referent:hnet
+T18	CHEMICAL 457 460	DVS
+N16	Name Annotation:T18 Referent:dvs
+T19	CHEMICAL 515 518	DVS
+N17	Name Annotation:T19 Referent:dvs
+T40	GENE-Y 586 617	human dopamine (DA) transporter
+N18	Name Annotation:T40 Referent:humandopaminedatransporter
+T20	CHEMICAL 592 600	dopamine
+N19	Name Annotation:T20 Referent:dopamine
+T21	CHEMICAL 602 604	DA
+N20	Name Annotation:T21 Referent:da
+T22	CHEMICAL 633 641	[3H]5-HT
+N21	Name Annotation:T22 Referent:3h5ht
+T23	CHEMICAL 645 651	[3H]NE
+N22	Name Annotation:T23 Referent:3hne
+T24	CHEMICAL 662 665	DVS
+N23	Name Annotation:T24 Referent:dvs
+T41	GENE-Y 674 679	hSERT
+N24	Name Annotation:T41 Referent:hsert
+T42	GENE-Y 683 687	hNET
+N25	Name Annotation:T42 Referent:hnet
+T25	CHEMICAL 764 767	DVS
+N26	Name Annotation:T25 Referent:dvs
+T27	CHEMICAL 867 870	DVS
+N27	Name Annotation:T27 Referent:dvs
+T28	CHEMICAL 945 948	DVS
+N28	Name Annotation:T28 Referent:dvs
+T29	CHEMICAL 1005 1007	NE
+N29	Name Annotation:T29 Referent:ne
+T1	CHEMICAL 1088 1090	DA
+N30	Name Annotation:T1 Referent:da
+T3	CHEMICAL 1146 1155	serotonin
+N31	Name Annotation:T3 Referent:serotonin
+T34	GENE-Y 1213 1221	5-HT(1A)
+N32	Name Annotation:T34 Referent:5ht1a
+T35	GENE-Y 1239 1247	5-HT(1A)
+N33	Name Annotation:T35 Referent:5ht1a
+T4	CHEMICAL 1260 1356	N-[2-[4-(2-methoxyphenyl)-1-piperazinyl]ethyl]-N-2-pyridinylcyclo hexanecarboxamide maleate salt
+N34	Name Annotation:T4 Referent:n242methoxyphenyl1piperazinylethyln2pyridinylcyclohexanecarboxamidemaleatesalt
+T5	CHEMICAL 1358 1368	WAY-100635
+N35	Name Annotation:T5 Referent:way100635
+T6	CHEMICAL 1410 1413	DVS
+N36	Name Annotation:T6 Referent:dvs
+T7	CHEMICAL 1433 1437	5-HT
+N37	Name Annotation:T7 Referent:5ht
+T8	CHEMICAL 1506 1508	NE
+N38	Name Annotation:T8 Referent:ne
+T9	CHEMICAL 1512 1514	DA
+N39	Name Annotation:T9 Referent:da
+T10	CHEMICAL 1538 1541	DVS
+N40	Name Annotation:T10 Referent:dvs
+T11	CHEMICAL 1551 1555	5-HT
+N41	Name Annotation:T11 Referent:5ht
+T12	CHEMICAL 1560 1562	NE
+N42	Name Annotation:T12 Referent:ne
+R1	INHIBITOR Arg1:T18 Arg2:T36
+R2	INHIBITOR Arg1:T18 Arg2:T37
+R3	INHIBITOR Arg1:T18 Arg2:T38
+R4	INHIBITOR Arg1:T18 Arg2:T39
+R5	DIRECT-REGULATOR Arg1:T19 Arg2:T40
+R6	ANTAGONIST Arg1:T4 Arg2:T35
+R7	ANTAGONIST Arg1:T5 Arg2:T35
+R8	DIRECT-REGULATOR Arg1:T24 Arg2:T41
+R9	DIRECT-REGULATOR Arg1:T24 Arg2:T42
+R10	SUBSTRATE Arg1:T22 Arg2:T41
+R11	SUBSTRATE Arg1:T23 Arg2:T42

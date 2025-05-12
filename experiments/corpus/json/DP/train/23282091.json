@@ -1,0 +1,82 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "OX receptor",
+            "Name": "oxreceptor"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "WO2012081692",
+            "Name": "wo2012081692"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "WO2012081692",
+            "Name": "wo2012081692"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "pyrazole",
+            "Name": "pyrazole"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "orexin-1",
+            "Name": "orexin1"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "orexin-2 receptors",
+            "Name": "orexin2receptors"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "orexin receptor",
+            "Name": "orexinreceptor"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "orexin-1",
+            "Name": "orexin1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "pyrazole",
+            "Name": "pyrazole"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "suvorexant",
+            "Name": "suvorexant"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T6"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T7"
+        }
+    ]
+}

@@ -1,0 +1,111 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "dipeptidyl peptidase-IV",
+            "Name": "dipeptidylpeptidaseiv"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "DPP-IV",
+            "Name": "dppiv"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "atorvastatin",
+            "Name": "atorvastatin"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "Dipeptidyl peptidase-IV",
+            "Name": "dipeptidylpeptidaseiv"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "DPP-IV",
+            "Name": "dppiv"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "incretin hormones",
+            "Name": "incretinhormones"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "glucagon-like peptide-1",
+            "Name": "glucagonlikepeptide1"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "GLP-1",
+            "Name": "glp1"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "glucose-dependent insulinotropic polypeptide",
+            "Name": "glucosedependentinsulinotropicpolypeptide"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "GIP",
+            "Name": "gip"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "atorvastatin",
+            "Name": "atorvastatin"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "porcine DPP-IV",
+            "Name": "porcinedppiv"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "DPP-IV",
+            "Name": "dppiv"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "atorvastatin",
+            "Name": "atorvastatin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        }
+    ]
+}

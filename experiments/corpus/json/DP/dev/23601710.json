@@ -1,0 +1,93 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "1,5-dihydrobenzo[b][1,4]diazepine-2,4-dione",
+            "Name": "15dihydrobenzob14diazepine24dione"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "HIV capsid",
+            "Name": "hivcapsid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "phenyl",
+            "Name": "phenyl"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "phenyl",
+            "Name": "phenyl"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "1,5-dihydrobenzo[b][1,4]diazepine-2,4-dione",
+            "Name": "15dihydrobenzob14diazepine24dione"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "HIV capsid",
+            "Name": "hivcapsid"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "CA",
+            "Name": "ca"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "benzotriazepine",
+            "Name": "benzotriazepine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "spirobenzodiazepine",
+            "Name": "spirobenzodiazepine"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "CA",
+            "Name": "ca"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "Gag",
+            "Name": "gag"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T8"
+        }
+    ]
+}

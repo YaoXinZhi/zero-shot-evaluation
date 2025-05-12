@@ -1,0 +1,99 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "DNA methyltransferase",
+            "Name": "dnamethyltransferase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "5-azacytidine",
+            "Name": "5azacytidine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Decitabine",
+            "Name": "decitabine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Azacytidine",
+            "Name": "azacytidine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Decitabine",
+            "Name": "decitabine"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "histone deacetylase",
+            "Name": "histonedeacetylase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "phenylbutyrate",
+            "Name": "phenylbutyrate"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "PB",
+            "Name": "pb"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "PB",
+            "Name": "pb"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "p15",
+            "Name": "p15"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "HDAC",
+            "Name": "hdac"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Decitabine",
+            "Name": "decitabine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T10"
+        }
+    ]
+}

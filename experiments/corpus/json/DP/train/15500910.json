@@ -1,0 +1,229 @@
+{
+    "entities": [
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "Plasmodium falciparum adenylosuccinate synthetase",
+            "Name": "plasmodiumfalciparumadenylosuccinatesynthetase"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "adenylosuccinate",
+            "Name": "adenylosuccinate"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Adenylosuccinate",
+            "Name": "adenylosuccinate"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Adenylosuccinate synthetase",
+            "Name": "adenylosuccinatesynthetase"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "AdSS",
+            "Name": "adss"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Mg(2+)",
+            "Name": "mg2"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "adenylosuccinate",
+            "Name": "adenylosuccinate"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "IMP",
+            "Name": "imp"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "aspartate",
+            "Name": "aspartate"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "GTP",
+            "Name": "gtp"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "GDP",
+            "Name": "gdp"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "AdSS",
+            "Name": "adss"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "AdSS",
+            "Name": "adss"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Plasmodium falciparum AdSS",
+            "Name": "plasmodiumfalciparumadss"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "PfAdSS",
+            "Name": "pfadss"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "GTP",
+            "Name": "gtp"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "IMP",
+            "Name": "imp"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "IMP",
+            "Name": "imp"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "GTP",
+            "Name": "gtp"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "PfAdSS",
+            "Name": "pfadss"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "purine nucleotide",
+            "Name": "purinenucleotide"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "PfAdSS",
+            "Name": "pfadss"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "PfAdSS",
+            "Name": "pfadss"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "adenine nucleotides",
+            "Name": "adeninenucleotides"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "PfAdSS",
+            "Name": "pfadss"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "fructose-1,6-bisphosphate",
+            "Name": "fructose16bisphosphate"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "PfAdSS",
+            "Name": "pfadss"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Product of",
+            "source": "T13",
+            "target": "T16"
+        },
+        {
+            "type": "Product of",
+            "source": "T13",
+            "target": "T19"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T19"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T19"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Product of",
+            "source": "T6",
+            "target": "T16"
+        },
+        {
+            "type": "Product of",
+            "source": "T6",
+            "target": "T19"
+        },
+        {
+            "type": "Product of",
+            "source": "T14",
+            "target": "T25"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T17"
+        }
+    ]
+}

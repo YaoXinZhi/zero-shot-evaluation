@@ -1,0 +1,83 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Nucleotide",
+            "Name": "nucleotide"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "human factor IX",
+            "Name": "humanfactorix"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "antihemophilic factor B",
+            "Name": "antihemophilicfactorb"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "coagulation factor IX",
+            "Name": "coagulationfactorix"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "factor IX",
+            "Name": "factorix"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "amino acids",
+            "Name": "aminoacids"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "nucleotides",
+            "Name": "nucleotides"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "purine",
+            "Name": "purine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "pyrimidine",
+            "Name": "pyrimidine"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "KpnI repetitive sequences",
+            "Name": "kpnirepetitivesequences"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "factor IX",
+            "Name": "factorix"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Part of",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Part of",
+            "source": "T5",
+            "target": "T11"
+        }
+    ]
+}

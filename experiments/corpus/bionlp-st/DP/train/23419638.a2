@@ -1,0 +1,97 @@
+T22	CHEMICAL 0 12	Pelargonidin
+N1	Name Annotation:T22 Referent:pelargonidin
+T40	GENE-Y 27 30	AhR
+N2	Name Annotation:T40 Referent:ahr
+T41	GENE-Y 43 49	CYP1A1
+N3	Name Annotation:T41 Referent:cyp1a1
+T8	CHEMICAL 152 166	anthocyanidins
+N4	Name Annotation:T8 Referent:anthocyanidins
+T11	CHEMICAL 157 165	cyanidin
+N5	Name Annotation:T11 Referent:cyanidin
+T13	CHEMICAL 178 189	delphinidin
+N6	Name Annotation:T13 Referent:delphinidin
+T16	CHEMICAL 191 199	malvidin
+N7	Name Annotation:T16 Referent:malvidin
+T18	CHEMICAL 201 209	peonidin
+N8	Name Annotation:T18 Referent:peonidin
+T19	CHEMICAL 211 220	petunidin
+N9	Name Annotation:T19 Referent:petunidin
+T21	CHEMICAL 222 234	pelargonidin
+N10	Name Annotation:T21 Referent:pelargonidin
+T5	CHEMICAL 243 259	aryl hydrocarbon
+N11	Name Annotation:T5 Referent:arylhydrocarbon
+T26	GENE-Y 243 268	aryl hydrocarbon receptor
+N12	Name Annotation:T26 Referent:arylhydrocarbonreceptor
+T30	GENE-Y 270 273	AhR
+N13	Name Annotation:T30 Referent:ahr
+T31	GENE-Y 275 281	CYP1A1
+N14	Name Annotation:T31 Referent:cyp1a1
+T32	GENE-Y 372 375	AhR
+N15	Name Annotation:T32 Referent:ahr
+T9	CHEMICAL 455 467	pelargonidin
+N16	Name Annotation:T9 Referent:pelargonidin
+T10	CHEMICAL 523 535	pelargonidin
+N17	Name Annotation:T10 Referent:pelargonidin
+T33	GENE-Y 562 568	CYP1A1
+N18	Name Annotation:T33 Referent:cyp1a1
+T12	CHEMICAL 647 679	2,3,7,8-tetrachlorodibenzodioxin
+N19	Name Annotation:T12 Referent:2378tetrachlorodibenzodioxin
+T14	CHEMICAL 681 685	TCDD
+N20	Name Annotation:T14 Referent:tcdd
+T34	GENE-Y 717 720	AhR
+N21	Name Annotation:T34 Referent:ahr
+T35	GENE-Y 722 728	CYP1A1
+N22	Name Annotation:T35 Referent:cyp1a1
+T36	GENE-Y 733 739	CYP1A2
+N23	Name Annotation:T36 Referent:cyp1a2
+T15	CHEMICAL 769 781	pelargonidin
+N24	Name Annotation:T15 Referent:pelargonidin
+T17	CHEMICAL 847 851	TCDD
+N25	Name Annotation:T17 Referent:tcdd
+T37	GENE-Y 881 887	CYP1A1
+N26	Name Annotation:T37 Referent:cyp1a1
+T38	GENE-Y 978 984	CYP1A1
+N27	Name Annotation:T38 Referent:cyp1a1
+T20	CHEMICAL 1035 1047	pelargonidin
+N28	Name Annotation:T20 Referent:pelargonidin
+T39	GENE-Y 1069 1072	AhR
+N29	Name Annotation:T39 Referent:ahr
+T23	GENE-Y 1150 1156	CYP1A1
+N30	Name Annotation:T23 Referent:cyp1a1
+T1	CHEMICAL 1169 1180	delphinidin
+N31	Name Annotation:T1 Referent:delphinidin
+T2	CHEMICAL 1198 1210	pelargonidin
+N32	Name Annotation:T2 Referent:pelargonidin
+T3	CHEMICAL 1248 1262	anthocyanidins
+N33	Name Annotation:T3 Referent:anthocyanidins
+T24	GENE-Y 1281 1284	AhR
+N34	Name Annotation:T24 Referent:ahr
+T25	GENE-Y 1285 1291	CYP1A1
+N35	Name Annotation:T25 Referent:cyp1a1
+T4	CHEMICAL 1303 1315	pelargonidin
+N36	Name Annotation:T4 Referent:pelargonidin
+T27	GENE-Y 1345 1348	AhR
+N37	Name Annotation:T27 Referent:ahr
+T28	GENE-Y 1353 1356	AhR
+N38	Name Annotation:T28 Referent:ahr
+T6	CHEMICAL 1388 1400	pelargonidin
+N39	Name Annotation:T6 Referent:pelargonidin
+T7	CHEMICAL 1405 1416	delphinidin
+N40	Name Annotation:T7 Referent:delphinidin
+T29	GENE-Y 1429 1435	CYP1A1
+N41	Name Annotation:T29 Referent:cyp1a1
+R1	ACTIVATOR Arg1:T22 Arg2:T40
+R2	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T32
+R3	INDIRECT-UPREGULATOR Arg1:T10 Arg2:T33
+R4	ACTIVATOR Arg1:T12 Arg2:T34
+R5	ACTIVATOR Arg1:T14 Arg2:T34
+R6	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T35
+R7	INDIRECT-UPREGULATOR Arg1:T15 Arg2:T36
+R8	DIRECT-REGULATOR Arg1:T20 Arg2:T39
+R9	INHIBITOR Arg1:T1 Arg2:T23
+R10	INHIBITOR Arg1:T2 Arg2:T23
+R11	DIRECT-REGULATOR Arg1:T4 Arg2:T27
+R12	ACTIVATOR Arg1:T4 Arg2:T27
+R13	INHIBITOR Arg1:T6 Arg2:T29
+R14	INHIBITOR Arg1:T7 Arg2:T29
+R15	INDIRECT-UPREGULATOR Arg1:T12 Arg2:T33

@@ -1,0 +1,98 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "quinazoline",
+            "Name": "quinazoline"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Aurora kinase",
+            "Name": "aurorakinase"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Aurora kinase\u2005A",
+            "Name": "aurorakinasea"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "pyrazole",
+            "Name": "pyrazole"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "furanopyrimidine",
+            "Name": "furanopyrimidine"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "Aurora kinase\u2005A",
+            "Name": "aurorakinasea"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "Aurora kinase\u2005A",
+            "Name": "aurorakinasea"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "furanopyrimidine",
+            "Name": "furanopyrimidine"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "Aurora\u2005A",
+            "Name": "auroraa"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "quinazoline",
+            "Name": "quinazoline"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "Aurora\u2005A",
+            "Name": "auroraa"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T8"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T8"
+        }
+    ]
+}

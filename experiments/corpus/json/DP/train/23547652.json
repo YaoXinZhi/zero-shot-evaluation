@@ -1,0 +1,176 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "3-Hydroxypyridin-2-thione",
+            "Name": "3hydroxypyridin2thione"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Zinc",
+            "Name": "zinc"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "Histone Deacetylase",
+            "Name": "histonedeacetylase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "zinc",
+            "Name": "zinc"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "histone deacetylase",
+            "Name": "histonedeacetylase"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "HDAC",
+            "Name": "hdac"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "hydroxamic acid",
+            "Name": "hydroxamicacid"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "3-hydroxypyridin-2-thione",
+            "Name": "3hydroxypyridin2thione"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "3-HPT",
+            "Name": "3hpt"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "HDAC",
+            "Name": "hdac"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "3-HPT",
+            "Name": "3hpt"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "HDAC 6",
+            "Name": "hdac6"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "HDAC 8",
+            "Name": "hdac8"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "3-HPT",
+            "Name": "3hpt"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "HDAC 1",
+            "Name": "hdac1"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "3HPT",
+            "Name": "3hpt"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "HDAC",
+            "Name": "hdac"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "HDAC 6",
+            "Name": "hdac6"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "HDAC 8",
+            "Name": "hdac8"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T18"
+        }
+    ]
+}

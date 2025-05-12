@@ -1,0 +1,113 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "cytochrome P450",
+            "Name": "cytochromep450"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "P450",
+            "Name": "p450"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "P450",
+            "Name": "p450"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "haloperidol",
+            "Name": "haloperidol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "mebendazole",
+            "Name": "mebendazole"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ziprasidone",
+            "Name": "ziprasidone"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "haloperidol",
+            "Name": "haloperidol"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "mebendazole",
+            "Name": "mebendazole"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "NADPH",
+            "Name": "nadph"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "NADH",
+            "Name": "nadh"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "menadione",
+            "Name": "menadione"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "carbonyl",
+            "Name": "carbonyl"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "carbonyl reductase",
+            "Name": "carbonylreductase"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "CBR",
+            "Name": "cbr"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "CBRs",
+            "Name": "cbrs"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "CBRs",
+            "Name": "cbrs"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T11"
+        }
+    ]
+}

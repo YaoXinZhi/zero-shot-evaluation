@@ -1,0 +1,47 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Pest",
+            "name": "xylella fastidiosa",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T4",
+            "type": "Location",
+            "name": "Gard",
+            "GeoNames": "3016670"
+        },
+        {
+            "id": "T5",
+            "type": "Pest",
+            "name": "Xylella fastidiosa",
+            "NCBI_Taxonomy": "2371"
+        },
+        {
+            "id": "T6",
+            "type": "Location",
+            "name": "France",
+            "GeoNames": "3017382"
+        },
+        {
+            "id": "T9",
+            "type": "Location",
+            "name": "Aude",
+            "GeoNames": "3036264"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T5",
+            "target": "T9"
+        },
+        {
+            "type": "Located in",
+            "source": "T5",
+            "target": "T6"
+        }
+    ]
+}

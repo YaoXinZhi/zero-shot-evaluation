@@ -1,0 +1,36 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Esmolol",
+            "Name": "esmolol"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "beta 1-adrenergic receptor",
+            "Name": "beta1adrenergicreceptor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "esmolol",
+            "Name": "esmolol"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "esmolol",
+            "Name": "esmolol"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T4"
+        }
+    ]
+}

@@ -1,0 +1,51 @@
+T20	GENE-Y 0 16	Cyclooxygenase-1
+N1	Name Annotation:T20 Referent:cyclooxygenase1
+T16	CHEMICAL 53 61	diazepam
+N2	Name Annotation:T16 Referent:diazepam
+T17	GENE-Y 103 119	Cyclooxygenase-1
+N3	Name Annotation:T17 Referent:cyclooxygenase1
+T18	GENE-Y 121 126	COX-1
+N4	Name Annotation:T18 Referent:cox1
+T12	CHEMICAL 164 182	valeryl salicylate
+N5	Name Annotation:T12 Referent:valerylsalicylate
+T1	CHEMICAL 234 241	aspirin
+N6	Name Annotation:T1 Referent:aspirin
+T2	CHEMICAL 243 252	ibuprofen
+N7	Name Annotation:T2 Referent:ibuprofen
+T3	CHEMICAL 254 266	indomethacin
+N8	Name Annotation:T3 Referent:indomethacin
+T4	CHEMICAL 272 282	picroxicam
+N9	Name Annotation:T4 Referent:picroxicam
+T5	CHEMICAL 357 365	diazepam
+N10	Name Annotation:T5 Referent:diazepam
+T6	CHEMICAL 405 421	arachidonic acid
+N11	Name Annotation:T6 Referent:arachidonicacid
+T7	CHEMICAL 459 467	diazepam
+N12	Name Annotation:T7 Referent:diazepam
+T8	CHEMICAL 523 539	arachidonic acid
+N13	Name Annotation:T8 Referent:arachidonicacid
+T9	CHEMICAL 557 564	aspirin
+N14	Name Annotation:T9 Referent:aspirin
+T10	CHEMICAL 575 582	aspirin
+N15	Name Annotation:T10 Referent:aspirin
+T11	CHEMICAL 629 637	diazepam
+N16	Name Annotation:T11 Referent:diazepam
+T19	GENE-N 746 749	COX
+N17	Name Annotation:T19 Referent:cox
+T13	CHEMICAL 772 786	prostaglandins
+N18	Name Annotation:T13 Referent:prostaglandins
+T14	CHEMICAL 849 857	diazepam
+N19	Name Annotation:T14 Referent:diazepam
+T15	CHEMICAL 947 962	benzodiazepines
+N20	Name Annotation:T15 Referent:benzodiazepines
+R1	INHIBITOR Arg1:T12 Arg2:T17
+R2	INHIBITOR Arg1:T12 Arg2:T18
+R3	INHIBITOR Arg1:T1 Arg2:T17
+R4	INHIBITOR Arg1:T1 Arg2:T18
+R5	INHIBITOR Arg1:T2 Arg2:T17
+R6	INHIBITOR Arg1:T2 Arg2:T18
+R7	INHIBITOR Arg1:T3 Arg2:T17
+R8	INHIBITOR Arg1:T3 Arg2:T18
+R9	INHIBITOR Arg1:T4 Arg2:T17
+R10	INHIBITOR Arg1:T4 Arg2:T18
+R11	PRODUCT-OF Arg1:T13 Arg2:T19

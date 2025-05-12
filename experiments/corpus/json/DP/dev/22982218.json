@@ -1,0 +1,185 @@
+{
+    "entities": [
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "PARP",
+            "Name": "parp"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "PJ34",
+            "Name": "pj34"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "NIS",
+            "Name": "nis"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PARP-1",
+            "Name": "parp1"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "sodium iodide",
+            "Name": "sodiumiodide"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "sodium iodide symporter",
+            "Name": "sodiumiodidesymporter"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "NIS",
+            "Name": "nis"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "PARP",
+            "Name": "parp"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "PJ34",
+            "Name": "pj34"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "PJ34",
+            "Name": "pj34"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "NIS",
+            "Name": "nis"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "radio-iodine",
+            "Name": "radioiodine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "PJ34",
+            "Name": "pj34"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "NIS promoter",
+            "Name": "nispromoter"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PARP-1",
+            "Name": "parp1"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "NIS promoter",
+            "Name": "nispromoter"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "PJ34",
+            "Name": "pj34"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "histone modification activation marks",
+            "Name": "histonemodificationactivationmarks"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "H3K9K14ac",
+            "Name": "h3k9k14ac"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "H3K4me3",
+            "Name": "h3k4me3"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "PARP",
+            "Name": "parp"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "NIS",
+            "Name": "nis"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "PARP",
+            "Name": "parp"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T18"
+        }
+    ]
+}

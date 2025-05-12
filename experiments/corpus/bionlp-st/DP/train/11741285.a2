@@ -1,0 +1,47 @@
+T9	CHEMICAL 0 12	Ribostamycin
+N1	Name Annotation:T9 Referent:ribostamycin
+T20	GENE-Y 48 75	protein disulfide isomerase
+N2	Name Annotation:T20 Referent:proteindisulfideisomerase
+T7	CHEMICAL 128 140	ribostamycin
+N3	Name Annotation:T7 Referent:ribostamycin
+T1	CHEMICAL 213 225	ribostamycin
+N4	Name Annotation:T1 Referent:ribostamycin
+T10	GENE-Y 262 289	protein disulfide isomerase
+N5	Name Annotation:T10 Referent:proteindisulfideisomerase
+T2	CHEMICAL 270 279	disulfide
+N6	Name Annotation:T2 Referent:disulfide
+T11	GENE-Y 291 294	PDI
+N7	Name Annotation:T11 Referent:pdi
+T12	GENE-N 324 333	isomerase
+N8	Name Annotation:T12 Referent:isomerase
+T13	GENE-Y 344 347	PDI
+N9	Name Annotation:T13 Referent:pdi
+T3	CHEMICAL 398 399	N
+N10	Name Annotation:T3 Referent:n
+T4	CHEMICAL 409 419	amino acid
+N11	Name Annotation:T4 Referent:aminoacid
+T5	CHEMICAL 462 474	ribostamycin
+N12	Name Annotation:T5 Referent:ribostamycin
+T14	GENE-Y 478 481	PDI
+N13	Name Annotation:T14 Referent:pdi
+T15	GENE-Y 552 555	PDI
+N14	Name Annotation:T15 Referent:pdi
+T6	CHEMICAL 581 593	ribostamycin
+N15	Name Annotation:T6 Referent:ribostamycin
+T16	GENE-Y 606 616	bovine PDI
+N16	Name Annotation:T16 Referent:bovinepdi
+T8	CHEMICAL 718 730	ribostamycin
+N17	Name Annotation:T8 Referent:ribostamycin
+T17	GENE-N 765 775	CGHC motif
+N18	Name Annotation:T17 Referent:cghcmotif
+T18	GENE-Y 779 782	PDI
+N19	Name Annotation:T18 Referent:pdi
+T19	GENE-Y 864 867	PDI
+N20	Name Annotation:T19 Referent:pdi
+R1	INHIBITOR Arg1:T9 Arg2:T20
+R2	INHIBITOR Arg1:T1 Arg2:T10
+R3	INHIBITOR Arg1:T1 Arg2:T11
+R4	INHIBITOR Arg1:T5 Arg2:T14
+R5	INHIBITOR Arg1:T5 Arg2:T15
+R6	DIRECT-REGULATOR Arg1:T8 Arg2:T18
+R7	DIRECT-REGULATOR Arg1:T6 Arg2:T16

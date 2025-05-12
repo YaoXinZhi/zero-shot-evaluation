@@ -1,0 +1,209 @@
+{
+    "entities": [
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "P/Q-type voltage-dependent calcium channel",
+            "Name": "pqtypevoltagedependentcalciumchannel"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "calcium",
+            "Name": "calcium"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "gabapentin",
+            "Name": "gabapentin"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "pregabalin",
+            "Name": "pregabalin"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "Voltage-dependent calcium channels",
+            "Name": "voltagedependentcalciumchannels"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "calcium",
+            "Name": "calcium"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "VDCCs",
+            "Name": "vdccs"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "calcium",
+            "Name": "calcium"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "CACNA1A",
+            "Name": "cacna1a"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "neuronal P/Q-type VDCCs",
+            "Name": "neuronalpqtypevdccs"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "trinucleotide",
+            "Name": "trinucleotide"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "CAG",
+            "Name": "cag"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "CACNA1A",
+            "Name": "cacna1a"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "polyglutamine",
+            "Name": "polyglutamine"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "polyQ",
+            "Name": "polyq"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "carboxyl",
+            "Name": "carboxyl"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "gabapentin",
+            "Name": "gabapentin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "pregabalin",
+            "Name": "pregabalin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "alpha2delta subunit of the P/Q-type VDCCs",
+            "Name": "alpha2deltasubunitofthepqtypevdccs"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Gabapentin",
+            "Name": "gabapentin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "pregabalin",
+            "Name": "pregabalin"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "P/Q-type VDCCs",
+            "Name": "pqtypevdccs"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "gabapentin",
+            "Name": "gabapentin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "pregabalin",
+            "Name": "pregabalin"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "P/Q-type VDCCs",
+            "Name": "pqtypevdccs"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "gabapentin",
+            "Name": "gabapentin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "pregabalin",
+            "Name": "pregabalin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T15",
+            "target": "T19"
+        },
+        {
+            "type": "Substrate",
+            "source": "T15",
+            "target": "T25"
+        },
+        {
+            "type": "Part of",
+            "source": "T10",
+            "target": "T26"
+        },
+        {
+            "type": "Part of",
+            "source": "T11",
+            "target": "T26"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T21"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T21"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T22"
+        },
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T22"
+        }
+    ]
+}

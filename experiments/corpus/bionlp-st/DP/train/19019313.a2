@@ -1,0 +1,25 @@
+T5	CHEMICAL 713 729	dichlorphenamide
+N1	Name Annotation:T5 Referent:dichlorphenamide
+T6	CHEMICAL 733 741	carbonic
+N2	Name Annotation:T6 Referent:carbonic
+T11	GENE-N 733 751	carbonic anhydrase
+N3	Name Annotation:T11 Referent:carbonicanhydrase
+T7	CHEMICAL 921 937	dichlorphenamide
+N4	Name Annotation:T7 Referent:dichlorphenamide
+T8	CHEMICAL 943 956	acetazolamide
+N5	Name Annotation:T8 Referent:acetazolamide
+T1	CHEMICAL 1087 1097	mexiletine
+N6	Name Annotation:T1 Referent:mexiletine
+T2	CHEMICAL 1433 1443	morpholino
+N7	Name Annotation:T2 Referent:morpholino
+T9	GENE-Y 1503 1508	CLCN1
+N8	Name Annotation:T9 Referent:clcn1
+T3	CHEMICAL 1593 1601	chloride
+N9	Name Annotation:T3 Referent:chloride
+T10	GENE-N 1593 1621	chloride channel transcripts
+N10	Name Annotation:T10 Referent:chloridechanneltranscripts
+T4	CHEMICAL 1632 1640	chloride
+N11	Name Annotation:T4 Referent:chloride
+R1	INHIBITOR Arg1:T5 Arg2:T11
+R2	DIRECT-REGULATOR Arg1:T2 Arg2:T9
+R3	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T10

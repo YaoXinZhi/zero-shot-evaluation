@@ -1,0 +1,143 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "CYP3A4",
+            "Name": "cyp3a4"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "CYP3A4",
+            "Name": "cyp3a4"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "P-glycoprotein",
+            "Name": "pglycoprotein"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Pgp",
+            "Name": "pgp"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Multidrug Resistance Associated Protein 2",
+            "Name": "multidrugresistanceassociatedprotein2"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "MRP-2",
+            "Name": "mrp2"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "Breast Cancer Resistance Protein",
+            "Name": "breastcancerresistanceprotein"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "BCRP",
+            "Name": "bcrp"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "MonoCarboxylate",
+            "Name": "monocarboxylate"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "MonoCarboxylate Transporter 1",
+            "Name": "monocarboxylatetransporter1"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "MCT1",
+            "Name": "mct1"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "Organic Anion Transporting Polypeptide",
+            "Name": "organicaniontransportingpolypeptide"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "OATP",
+            "Name": "oatp"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Peptide transporter 1",
+            "Name": "peptidetransporter1"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PepT1",
+            "Name": "pept1"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "human immunodeficiency virus protease",
+            "Name": "humanimmunodeficiencyvirusprotease"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "saquinavir",
+            "Name": "saquinavir"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "ritonavir",
+            "Name": "ritonavir"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "darunavir",
+            "Name": "darunavir"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "P-glycoprotein",
+            "Name": "pglycoprotein"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "CYP3A4",
+            "Name": "cyp3a4"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T14"
+        }
+    ]
+}

@@ -1,0 +1,228 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "amino acid decarboxylases",
+            "Name": "aminoaciddecarboxylases"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "alanine",
+            "Name": "alanine"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "alanine racemase",
+            "Name": "alanineracemase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Arginine",
+            "Name": "arginine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Arginine decarboxylase",
+            "Name": "argininedecarboxylase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "ADC",
+            "Name": "adc"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ornithine",
+            "Name": "ornithine"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "ornithine decarboxylase",
+            "Name": "ornithinedecarboxylase"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "ODC",
+            "Name": "odc"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "putrescine",
+            "Name": "putrescine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "pyridoxal-5'-phosphate",
+            "Name": "pyridoxal5phosphate"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "decarboxylases",
+            "Name": "decarboxylases"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "alanine",
+            "Name": "alanine"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "alanine racemase",
+            "Name": "alanineracemase"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "AR",
+            "Name": "ar"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "diaminopimelate",
+            "Name": "diaminopimelate"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "diaminopimelate decarboxylase",
+            "Name": "diaminopimelatedecarboxylase"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "DapDC",
+            "Name": "dapdc"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "lysine",
+            "Name": "lysine"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "decarboxylases",
+            "Name": "decarboxylases"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "AR",
+            "Name": "ar"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "ADC",
+            "Name": "adc"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "DapDC",
+            "Name": "dapdc"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "ODC",
+            "Name": "odc"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "decarboxylase",
+            "Name": "decarboxylase"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "decarboxylase",
+            "Name": "decarboxylase"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "ODC",
+            "Name": "odc"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "amino acids",
+            "Name": "aminoacids"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "ODC",
+            "Name": "odc"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "ADC",
+            "Name": "adc"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Product of",
+            "source": "T8",
+            "target": "T11"
+        },
+        {
+            "type": "Product of",
+            "source": "T8",
+            "target": "T13"
+        },
+        {
+            "type": "Product of",
+            "source": "T8",
+            "target": "T17"
+        },
+        {
+            "type": "Product of",
+            "source": "T8",
+            "target": "T21"
+        },
+        {
+            "type": "Product of",
+            "source": "T6",
+            "target": "T16"
+        },
+        {
+            "type": "Product of",
+            "source": "T6",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T27"
+        }
+    ]
+}

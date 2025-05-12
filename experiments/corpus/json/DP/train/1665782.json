@@ -1,0 +1,209 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "[D-Pen2,D-Pen5]enkephalin",
+            "Name": "dpen2dpen5enkephalin"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "rat brain opioid receptors",
+            "Name": "ratbrainopioidreceptors"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "etorphine",
+            "Name": "etorphine"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "[D-Ala2,D-Leu5]enkephalin",
+            "Name": "dala2dleu5enkephalin"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "DADLE",
+            "Name": "dadle"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "mu- and delta-opioid receptor",
+            "Name": "muanddeltaopioidreceptor"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "etorphine",
+            "Name": "etorphine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "DADLE",
+            "Name": "dadle"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "mu- and delta-receptors",
+            "Name": "muanddeltareceptors"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "delta-opioid receptor",
+            "Name": "deltaopioidreceptor"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "[D-Pen2,D-Pen5]enkephalin",
+            "Name": "dpen2dpen5enkephalin"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "DPDPE",
+            "Name": "dpdpe"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "DPDPE",
+            "Name": "dpdpe"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "DPDPE",
+            "Name": "dpdpe"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "delta-receptor",
+            "Name": "deltareceptor"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "[3H]DPDPE",
+            "Name": "3hdpdpe"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "DPDPE",
+            "Name": "dpdpe"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "[3H]DPDPE",
+            "Name": "3hdpdpe"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "mu-receptor",
+            "Name": "mureceptor"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "[3H]Tyr-D-Ala-Gly-MePhe-Gly-ol",
+            "Name": "3htyrdalaglymepheglyol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "DAMGO",
+            "Name": "damgo"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "DPDPE",
+            "Name": "dpdpe"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "DPDPE",
+            "Name": "dpdpe"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "delta-opioid receptor",
+            "Name": "deltaopioidreceptor"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "mu-opioid receptor",
+            "Name": "muopioidreceptor"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "delta cx",
+            "Name": "deltacx"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "mu cx",
+            "Name": "mucx"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T9",
+            "target": "T25"
+        },
+        {
+            "type": "Agonist",
+            "source": "T11",
+            "target": "T25"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T15",
+            "target": "T26"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T26"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T19"
+        }
+    ]
+}

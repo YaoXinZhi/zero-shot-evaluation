@@ -1,0 +1,105 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Beta-adrenoceptor",
+            "Name": "betaadrenoceptor"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "bisoprolol",
+            "Name": "bisoprolol"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "beta 1-binding sites",
+            "Name": "beta1bindingsites"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "bisoprolol",
+            "Name": "bisoprolol"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "beta-Adrenoceptor",
+            "Name": "betaadrenoceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "[3H]CGP-12177",
+            "Name": "3hcgp12177"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "beta-adrenoceptor",
+            "Name": "betaadrenoceptor"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "[3H]CGP-12177",
+            "Name": "3hcgp12177"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "beta 2-adrenoceptor",
+            "Name": "beta2adrenoceptor"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "bisoprolol",
+            "Name": "bisoprolol"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "beta 1-adrenoceptor binding sites",
+            "Name": "beta1adrenoceptorbindingsites"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "bisoprolol",
+            "Name": "bisoprolol"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "beta 2-adrenergic receptors",
+            "Name": "beta2adrenergicreceptors"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T12"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T8"
+        }
+    ]
+}

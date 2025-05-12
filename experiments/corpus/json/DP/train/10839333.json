@@ -1,0 +1,153 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "quetiapine",
+            "Name": "quetiapine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "dopamine D2 receptor",
+            "Name": "dopamined2receptor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Quetiapine",
+            "Name": "quetiapine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "dopamine type 2",
+            "Name": "dopaminetype2"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "D2",
+            "Name": "d2"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "serotonin type 2a (5-HT2a) receptor",
+            "Name": "serotonintype2a5ht2areceptor"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "quetiapine",
+            "Name": "quetiapine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "D2",
+            "Name": "d2"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "5-HT2a",
+            "Name": "5ht2a"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Quetiapine",
+            "Name": "quetiapine"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "prolactin",
+            "Name": "prolactin"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "D2",
+            "Name": "d2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "quetiapine",
+            "Name": "quetiapine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "D2",
+            "Name": "d2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Quetiapine",
+            "Name": "quetiapine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "D2",
+            "Name": "d2"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "D2",
+            "Name": "d2"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "D2",
+            "Name": "d2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T20"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T12"
+        }
+    ]
+}

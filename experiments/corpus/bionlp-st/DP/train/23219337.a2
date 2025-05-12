@@ -1,0 +1,53 @@
+T6	CHEMICAL 42 49	wogonin
+N1	Name Annotation:T6 Referent:wogonin
+T8	GENE-Y 235 269	vascular endothelial growth factor
+N2	Name Annotation:T8 Referent:vascularendothelialgrowthfactor
+T15	GENE-Y 271 275	VEGF
+N3	Name Annotation:T15 Referent:vegf
+T18	GENE-Y 280 286	VEGF-C
+N4	Name Annotation:T18 Referent:vegfc
+T19	GENE-Y 325 348	VEGF receptor (VEGFR)-2
+N5	Name Annotation:T19 Referent:vegfreceptorvegfr2
+T20	GENE-Y 352 359	VEGFR-3
+N6	Name Annotation:T20 Referent:vegfr3
+T3	CHEMICAL 626 633	wogonin
+N7	Name Annotation:T3 Referent:wogonin
+T4	CHEMICAL 775 782	Wogonin
+N8	Name Annotation:T4 Referent:wogonin
+T5	CHEMICAL 1033 1040	Wogonin
+N9	Name Annotation:T5 Referent:wogonin
+T21	GENE-Y 1081 1086	IL-1β
+N10	Name Annotation:T21 Referent:il1β
+T22	GENE-Y 1102 1124	cyclooxygenase (COX)-2
+N11	Name Annotation:T22 Referent:cyclooxygenasecox2
+T1	CHEMICAL 1188 1195	Wogonin
+N12	Name Annotation:T1 Referent:wogonin
+T7	GENE-Y 1213 1219	VEGF-C
+N13	Name Annotation:T7 Referent:vegfc
+T9	GENE-Y 1248 1255	VEGFR-3
+N14	Name Annotation:T9 Referent:vegfr3
+T10	GENE-Y 1335 1341	VEGF-C
+N15	Name Annotation:T10 Referent:vegfc
+T11	GENE-Y 1350 1357	VEGFR-3
+N16	Name Annotation:T11 Referent:vegfr3
+T2	CHEMICAL 1430 1437	wogonin
+N17	Name Annotation:T2 Referent:wogonin
+T12	GENE-Y 1479 1485	VEGF-C
+N18	Name Annotation:T12 Referent:vegfc
+T13	GENE-Y 1535 1541	VEGF-C
+N19	Name Annotation:T13 Referent:vegfc
+T14	GENE-Y 1550 1557	VEGFR-3
+N20	Name Annotation:T14 Referent:vegfr3
+T16	GENE-Y 1595 1600	COX-2
+N21	Name Annotation:T16 Referent:cox2
+T17	GENE-Y 1616 1621	IL-1β
+N22	Name Annotation:T17 Referent:il1β
+R1	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T21
+R2	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T22
+R3	INHIBITOR Arg1:T1 Arg2:T10
+R4	INHIBITOR Arg1:T1 Arg2:T11
+R5	INHIBITOR Arg1:T2 Arg2:T12
+R6	INHIBITOR Arg1:T2 Arg2:T13
+R7	INHIBITOR Arg1:T2 Arg2:T14
+R8	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T16
+R9	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T17

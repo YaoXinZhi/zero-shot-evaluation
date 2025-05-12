@@ -1,0 +1,100 @@
+T16	CHEMICAL 0 9	Metformin
+N1	Name Annotation:T16 Referent:metformin
+T40	GENE-N 37 40	p38
+N2	Name Annotation:T40 Referent:p38
+T41	GENE-N 41 73	mitogen-activated protein kinase
+N3	Name Annotation:T41 Referent:mitogenactivatedproteinkinase
+T17	CHEMICAL 194 204	paclitaxel
+N4	Name Annotation:T17 Referent:paclitaxel
+T1	CHEMICAL 206 215	Metformin
+N5	Name Annotation:T1 Referent:metformin
+T10	CHEMICAL 392 402	paclitaxel
+N6	Name Annotation:T10 Referent:paclitaxel
+T11	CHEMICAL 404 409	Taxol
+N7	Name Annotation:T11 Referent:taxol
+T28	GENE-Y 545 582	excision repair cross-complementary 1
+N8	Name Annotation:T28 Referent:excisionrepaircrosscomplementary1
+T29	GENE-Y 584 589	ERCC1
+N9	Name Annotation:T29 Referent:ercc1
+T12	CHEMICAL 715 723	platinum
+N10	Name Annotation:T12 Referent:platinum
+T13	CHEMICAL 772 782	paclitaxel
+N11	Name Annotation:T13 Referent:paclitaxel
+T30	GENE-N 824 856	mitogen-activated protein kinase
+N12	Name Annotation:T30 Referent:mitogenactivatedproteinkinase
+T31	GENE-N 876 882	MKK3/6
+N13	Name Annotation:T31 Referent:mkk36
+T32	GENE-N 884 887	p38
+N14	Name Annotation:T32 Referent:p38
+T33	GENE-N 888 892	MAPK
+N15	Name Annotation:T33 Referent:mapk
+T34	GENE-Y 931 936	ERCC1
+N16	Name Annotation:T34 Referent:ercc1
+T14	CHEMICAL 973 983	paclitaxel
+N17	Name Annotation:T14 Referent:paclitaxel
+T35	GENE-Y 992 997	ERCC1
+N18	Name Annotation:T35 Referent:ercc1
+T36	GENE-N 1072 1075	p38
+N19	Name Annotation:T36 Referent:p38
+T37	GENE-N 1097 1100	p38
+N20	Name Annotation:T37 Referent:p38
+T38	GENE-N 1101 1105	MAPK
+N21	Name Annotation:T38 Referent:mapk
+T15	CHEMICAL 1116 1124	SB202190
+N22	Name Annotation:T15 Referent:sb202190
+T39	GENE-N 1128 1131	p38
+N23	Name Annotation:T39 Referent:p38
+T18	GENE-Y 1210 1215	ERCC1
+N24	Name Annotation:T18 Referent:ercc1
+T2	CHEMICAL 1252 1262	paclitaxel
+N25	Name Annotation:T2 Referent:paclitaxel
+T3	CHEMICAL 1324 1333	metformin
+N26	Name Annotation:T3 Referent:metformin
+T4	CHEMICAL 1368 1378	paclitaxel
+N27	Name Annotation:T4 Referent:paclitaxel
+T19	GENE-N 1387 1390	p38
+N28	Name Annotation:T19 Referent:p38
+T20	GENE-N 1391 1395	MAPK
+N29	Name Annotation:T20 Referent:mapk
+T21	GENE-Y 1405 1410	ERCC1
+N30	Name Annotation:T21 Referent:ercc1
+T5	CHEMICAL 1472 1482	paclitaxel
+N31	Name Annotation:T5 Referent:paclitaxel
+T22	GENE-Y 1529 1533	MKK6
+N32	Name Annotation:T22 Referent:mkk6
+T23	GENE-N 1540 1543	p38
+N33	Name Annotation:T23 Referent:p38
+T24	GENE-N 1544 1548	MAPK
+N34	Name Annotation:T24 Referent:mapk
+T25	GENE-Y 1599 1604	ERCC1
+N35	Name Annotation:T25 Referent:ercc1
+T6	CHEMICAL 1623 1632	metformin
+N36	Name Annotation:T6 Referent:metformin
+T7	CHEMICAL 1637 1647	paclitaxel
+N37	Name Annotation:T7 Referent:paclitaxel
+T26	GENE-N 1751 1754	p38
+N38	Name Annotation:T26 Referent:p38
+T27	GENE-N 1755 1759	MAPK
+N39	Name Annotation:T27 Referent:mapk
+T8	CHEMICAL 1773 1782	metformin
+N40	Name Annotation:T8 Referent:metformin
+T9	CHEMICAL 1796 1806	paclitaxel
+N41	Name Annotation:T9 Referent:paclitaxel
+R1	ACTIVATOR Arg1:T13 Arg2:T30
+R2	ACTIVATOR Arg1:T13 Arg2:T32
+R3	ACTIVATOR Arg1:T13 Arg2:T33
+R4	INDIRECT-UPREGULATOR Arg1:T13 Arg2:T34
+R5	INDIRECT-UPREGULATOR Arg1:T14 Arg2:T35
+R6	INHIBITOR Arg1:T15 Arg2:T38
+R7	INHIBITOR Arg1:T15 Arg2:T37
+R8	INHIBITOR Arg1:T15 Arg2:T36
+R9	ACTIVATOR Arg1:T4 Arg2:T19
+R10	ACTIVATOR Arg1:T4 Arg2:T20
+R11	INDIRECT-UPREGULATOR Arg1:T4 Arg2:T21
+R12	INHIBITOR Arg1:T3 Arg2:T19
+R13	INHIBITOR Arg1:T3 Arg2:T20
+R14	INDIRECT-DOWNREGULATOR Arg1:T3 Arg2:T21
+R15	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T25
+R16	INHIBITOR Arg1:T8 Arg2:T27
+R17	INHIBITOR Arg1:T8 Arg2:T26
+R18	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T25

@@ -1,0 +1,50 @@
+T11	CHEMICAL 18 30	aripiprazole
+N1	Name Annotation:T11 Referent:aripiprazole
+T19	GENE-Y 67 88	human 5-HT1A receptor
+N2	Name Annotation:T19 Referent:human5ht1areceptor
+T1	CHEMICAL 90 102	Aripiprazole
+N3	Name Annotation:T1 Referent:aripiprazole
+T2	CHEMICAL 104 187	7-[4-[4-(2,3-dichlorophenyl)-1-piperazinyl]butyloxy]-3,4-dihydro-2(1H)-quinolinon e
+N4	Name Annotation:T2 Referent:74423dichlorophenyl1piperazinylbutyloxy34dihydro21hquinolinone
+T3	CHEMICAL 244 252	dopamine
+N5	Name Annotation:T3 Referent:dopamine
+T12	GENE-Y 244 265	dopamine D2 receptors
+N6	Name Annotation:T12 Referent:dopamined2receptors
+T13	GENE-Y 307 331	human 5-HT(1A) receptors
+N7	Name Annotation:T13 Referent:human5ht1areceptors
+T14	GENE-Y 333 342	h5-HT(1A)
+N8	Name Annotation:T14 Referent:h5ht1a
+T15	GENE-Y 334 342	5-HT(1A)
+N9	Name Annotation:T15 Referent:5ht1a
+T4	CHEMICAL 449 492	guanosine-5'-O-(3-[(35)S]thio)-triphosphate
+N10	Name Annotation:T4 Referent:guanosine5o335sthiotriphosphate
+T5	CHEMICAL 494 512	[(35)S]GTP gamma S
+N11	Name Annotation:T5 Referent:35sgtpgammas
+T16	GENE-Y 571 579	5-HT(1A)
+N12	Name Annotation:T16 Referent:5ht1a
+T17	GENE-Y 621 629	5-HT(1A)
+N13	Name Annotation:T17 Referent:5ht1a
+T6	CHEMICAL 682 694	aripiprazole
+N14	Name Annotation:T6 Referent:aripiprazole
+T7	CHEMICAL 927 935	dopamine
+N15	Name Annotation:T7 Referent:dopamine
+T18	GENE-Y 927 948	dopamine D2 receptors
+N16	Name Annotation:T18 Referent:dopamined2receptors
+T8	CHEMICAL 970 982	aripiprazole
+N17	Name Annotation:T8 Referent:aripiprazole
+T9	CHEMICAL 996 1004	dopamine
+N18	Name Annotation:T9 Referent:dopamine
+T10	CHEMICAL 1005 1014	serotonin
+N19	Name Annotation:T10 Referent:serotonin
+R1	AGONIST Arg1:T11 Arg2:T19
+R2	AGONIST Arg1:T1 Arg2:T12
+R3	AGONIST Arg1:T2 Arg2:T12
+R4	DIRECT-REGULATOR Arg1:T1 Arg2:T13
+R5	DIRECT-REGULATOR Arg1:T2 Arg2:T13
+R6	DIRECT-REGULATOR Arg1:T1 Arg2:T14
+R7	DIRECT-REGULATOR Arg1:T2 Arg2:T14
+R8	AGONIST Arg1:T1 Arg2:T15
+R9	AGONIST Arg1:T2 Arg2:T15
+R10	DIRECT-REGULATOR Arg1:T4 Arg2:T15
+R11	DIRECT-REGULATOR Arg1:T5 Arg2:T15
+R12	AGONIST Arg1:T6 Arg2:T18

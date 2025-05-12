@@ -1,0 +1,152 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "lintitript",
+            "Name": "lintitript"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "CCK-A receptor",
+            "Name": "cckareceptor"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "cholecystokinin",
+            "Name": "cholecystokinin"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "CCK",
+            "Name": "cck"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "CCK",
+            "Name": "cck"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "CCK-A receptor",
+            "Name": "cckareceptor"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "lintitript",
+            "Name": "lintitript"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "lintitript",
+            "Name": "lintitript"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "99mTc-sulfur",
+            "Name": "99mtcsulfur"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "111In-DTPA",
+            "Name": "111indtpa"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "CCK",
+            "Name": "cck"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "pancreatic polypeptide",
+            "Name": "pancreaticpolypeptide"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "PP",
+            "Name": "pp"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Lintitript",
+            "Name": "lintitript"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Lintitript",
+            "Name": "lintitript"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "CCK",
+            "Name": "cck"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "PP",
+            "Name": "pp"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "CCK",
+            "Name": "cck"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "CCK-A receptor",
+            "Name": "cckareceptor"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "lintitript",
+            "Name": "lintitript"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T8",
+            "target": "T20"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T2",
+            "target": "T13"
+        }
+    ]
+}

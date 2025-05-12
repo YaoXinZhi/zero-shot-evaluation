@@ -1,0 +1,65 @@
+T16	CHEMICAL 16 37	glutathione disulfide
+N1	Name Annotation:T16 Referent:glutathionedisulfide
+T29	GENE-N 47 56	NF-kappaB
+N2	Name Annotation:T29 Referent:nfkappab
+T5	CHEMICAL 259 272	dinucleotides
+N3	Name Annotation:T5 Referent:dinucleotides
+T21	GENE-N 448 457	NF-kappaB
+N4	Name Annotation:T21 Referent:nfkappab
+T22	GENE-N 488 497	cytokines
+N5	Name Annotation:T22 Referent:cytokines
+T23	GENE-Y 507 520	interleukin-6
+N6	Name Annotation:T23 Referent:interleukin6
+T24	GENE-Y 522 526	IL-6
+N7	Name Annotation:T24 Referent:il6
+T25	GENE-Y 532 559	tumor necrosis factor-alpha
+N8	Name Annotation:T25 Referent:tumornecrosisfactoralpha
+T26	GENE-Y 561 570	TNF-alpha
+N9	Name Annotation:T26 Referent:tnfalpha
+T7	CHEMICAL 669 675	oxygen
+N10	Name Annotation:T7 Referent:oxygen
+T8	CHEMICAL 734 745	glutathione
+N11	Name Annotation:T8 Referent:glutathione
+T9	CHEMICAL 746 767	glutathione disulfide
+N12	Name Annotation:T9 Referent:glutathionedisulfide
+T10	CHEMICAL 769 772	GSH
+N13	Name Annotation:T10 Referent:gsh
+T11	CHEMICAL 773 777	GSSG
+N14	Name Annotation:T11 Referent:gssg
+T12	CHEMICAL 943 946	GSH
+N15	Name Annotation:T12 Referent:gsh
+T13	CHEMICAL 947 951	GSSG
+N16	Name Annotation:T13 Referent:gssg
+T14	CHEMICAL 1053 1057	BCNU
+N17	Name Annotation:T14 Referent:bcnu
+T15	CHEMICAL 1069 1080	glutathione
+N18	Name Annotation:T15 Referent:glutathione
+T27	GENE-Y 1069 1090	glutathione reductase
+N19	Name Annotation:T27 Referent:glutathionereductase
+T28	GENE-Y 1092 1094	GR
+N20	Name Annotation:T28 Referent:gr
+T1	CHEMICAL 1163 1166	GSH
+N21	Name Annotation:T1 Referent:gsh
+T2	CHEMICAL 1167 1171	GSSG
+N22	Name Annotation:T2 Referent:gssg
+T17	GENE-N 1202 1211	NF-kappaB
+N23	Name Annotation:T17 Referent:nfkappab
+T18	GENE-Y 1260 1264	IL-6
+N24	Name Annotation:T18 Referent:il6
+T19	GENE-Y 1269 1278	TNF-alpha
+N25	Name Annotation:T19 Referent:tnfalpha
+T3	CHEMICAL 1327 1331	GSSG
+N26	Name Annotation:T3 Referent:gssg
+T4	CHEMICAL 1440 1444	GSSG
+N27	Name Annotation:T4 Referent:gssg
+T20	GENE-N 1521 1530	NF-kappaB
+N28	Name Annotation:T20 Referent:nfkappab
+T6	CHEMICAL 1711 1715	GSSG
+N29	Name Annotation:T6 Referent:gssg
+R1	ACTIVATOR Arg1:T16 Arg2:T29
+R2	INHIBITOR Arg1:T14 Arg2:T27
+R3	INHIBITOR Arg1:T14 Arg2:T28
+R4	ACTIVATOR Arg1:T14 Arg2:T17
+R5	INDIRECT-UPREGULATOR Arg1:T14 Arg2:T18
+R6	INDIRECT-UPREGULATOR Arg1:T14 Arg2:T19
+R7	ACTIVATOR Arg1:T4 Arg2:T20

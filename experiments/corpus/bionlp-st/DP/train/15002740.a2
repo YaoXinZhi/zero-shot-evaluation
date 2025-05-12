@@ -1,0 +1,56 @@
+T17	CHEMICAL 37 48	desipramine
+N1	Name Annotation:T17 Referent:desipramine
+T18	CHEMICAL 78 92	norepinephrine
+N2	Name Annotation:T18 Referent:norepinephrine
+T24	GENE-Y 78 104	norepinephrine transporter
+N3	Name Annotation:T24 Referent:norepinephrinetransporter
+T9	CHEMICAL 178 189	desipramine
+N4	Name Annotation:T9 Referent:desipramine
+T12	CHEMICAL 191 194	DMI
+N5	Name Annotation:T12 Referent:dmi
+T20	GENE-Y 223 227	hNET
+N6	Name Annotation:T20 Referent:hnet
+T1	CHEMICAL 237 240	DMI
+N7	Name Annotation:T1 Referent:dmi
+T2	CHEMICAL 260 266	[3H]NE
+N8	Name Annotation:T2 Referent:3hne
+T3	CHEMICAL 307 310	DMI
+N9	Name Annotation:T3 Referent:dmi
+T4	CHEMICAL 365 371	[3H]NE
+N10	Name Annotation:T4 Referent:3hne
+T5	CHEMICAL 509 512	DMI
+N11	Name Annotation:T5 Referent:dmi
+T6	CHEMICAL 595 602	[3H]DMI
+N12	Name Annotation:T6 Referent:3hdmi
+T7	CHEMICAL 604 611	[3H]DMI
+N13	Name Annotation:T7 Referent:3hdmi
+T21	GENE-Y 680 683	NET
+N14	Name Annotation:T21 Referent:net
+T8	CHEMICAL 695 705	nisoxetine
+N15	Name Annotation:T8 Referent:nisoxetine
+T10	CHEMICAL 777 784	[3H]DMI
+N16	Name Annotation:T10 Referent:3hdmi
+T22	GENE-Y 794 797	NET
+N17	Name Annotation:T22 Referent:net
+T11	CHEMICAL 876 886	nisoxetine
+N18	Name Annotation:T11 Referent:nisoxetine
+T13	CHEMICAL 917 920	DMI
+N19	Name Annotation:T13 Referent:dmi
+T14	CHEMICAL 925 935	nisoxetine
+N20	Name Annotation:T14 Referent:nisoxetine
+T23	GENE-Y 1021 1024	NET
+N21	Name Annotation:T23 Referent:net
+T15	CHEMICAL 1062 1065	DMI
+N22	Name Annotation:T15 Referent:dmi
+T16	CHEMICAL 1070 1080	nisoxetine
+N23	Name Annotation:T16 Referent:nisoxetine
+T19	GENE-Y 1161 1164	NET
+N24	Name Annotation:T19 Referent:net
+R1	INHIBITOR Arg1:T17 Arg2:T24
+R2	INHIBITOR Arg1:T8 Arg2:T21
+R3	DIRECT-REGULATOR Arg1:T10 Arg2:T22
+R4	DIRECT-REGULATOR Arg1:T7 Arg2:T21
+R5	DIRECT-REGULATOR Arg1:T13 Arg2:T23
+R6	DIRECT-REGULATOR Arg1:T14 Arg2:T23
+R7	DIRECT-REGULATOR Arg1:T15 Arg2:T19
+R8	DIRECT-REGULATOR Arg1:T16 Arg2:T19

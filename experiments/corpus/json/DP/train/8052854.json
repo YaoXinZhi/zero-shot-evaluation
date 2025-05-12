@@ -1,0 +1,133 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "NF-kappa B",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "nuclear factor-kappa B",
+            "Name": "nuclearfactorkappab"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "NF-kappa B",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "interleukin-1",
+            "Name": "interleukin1"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "IL-1",
+            "Name": "il1"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "IL-6",
+            "Name": "il6"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "sodium salicylate",
+            "Name": "sodiumsalicylate"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "aspirin",
+            "Name": "aspirin"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "NF-kappa B",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "NF-kappa B",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "I kappa B",
+            "Name": "ikappab"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "NF-kappa B",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Sodium salicylate",
+            "Name": "sodiumsalicylate"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "aspirin",
+            "Name": "aspirin"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "NF-kappa B",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Ig kappa",
+            "Name": "igkappa"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T15"
+        }
+    ]
+}

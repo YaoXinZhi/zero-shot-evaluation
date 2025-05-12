@@ -1,0 +1,192 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Desipramine",
+            "Name": "desipramine"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "beta-adrenoceptor",
+            "Name": "betaadrenoceptor"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "5-HT2A",
+            "Name": "5ht2a"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "tricyclic",
+            "Name": "tricyclic"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "desipramine",
+            "Name": "desipramine"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "DMI",
+            "Name": "dmi"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "beta-adrenoceptor",
+            "Name": "betaadrenoceptor"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "5-HT2A",
+            "Name": "5ht2a"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "DMI",
+            "Name": "dmi"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "DMI",
+            "Name": "dmi"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "DMI",
+            "Name": "dmi"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "beta-adrenoceptors",
+            "Name": "betaadrenoceptors"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "beta 1-adrenoceptor",
+            "Name": "beta1adrenoceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "DMI",
+            "Name": "dmi"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "beta-adrenoceptors",
+            "Name": "betaadrenoceptors"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "DMI",
+            "Name": "dmi"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "beta-adrenoceptors",
+            "Name": "betaadrenoceptors"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "DMI",
+            "Name": "dmi"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "5-HT2A",
+            "Name": "5ht2a"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "5-HT2A",
+            "Name": "5ht2a"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "DMI",
+            "Name": "dmi"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "beta-adrenoceptors",
+            "Name": "betaadrenoceptors"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "DMI",
+            "Name": "dmi"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "beta-adrenoceptors",
+            "Name": "betaadrenoceptors"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "5-HT2A",
+            "Name": "5ht2a"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T20"
+        }
+    ]
+}

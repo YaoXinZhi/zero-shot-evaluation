@@ -1,0 +1,220 @@
+{
+    "entities": [
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "IL-8",
+            "Name": "il8"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "MCP-1",
+            "Name": "mcp1"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "vitamin C",
+            "Name": "vitaminc"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "SVCT-1",
+            "Name": "svct1"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "chemokines",
+            "Name": "chemokines"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "vitamin C",
+            "Name": "vitaminc"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "chemokines",
+            "Name": "chemokines"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Vitamin C",
+            "Name": "vitaminc"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "sodium",
+            "Name": "sodium"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "sodium-dependent vitamin C transporter-1",
+            "Name": "sodiumdependentvitaminctransporter1"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "vitamin C",
+            "Name": "vitaminc"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "SVCT-1",
+            "Name": "svct1"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "vitamin C",
+            "Name": "vitaminc"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "vitamin C-specific transporter",
+            "Name": "vitamincspecifictransporter"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "vitamin C",
+            "Name": "vitaminc"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "chemokine",
+            "Name": "chemokine"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "chemokine",
+            "Name": "chemokine"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "IL-8",
+            "Name": "il8"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "monocyte chemoattractant protein (MCP)-1",
+            "Name": "monocytechemoattractantproteinmcp1"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "IL-8",
+            "Name": "il8"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "MCP-1",
+            "Name": "mcp1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "vitamin C",
+            "Name": "vitaminc"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "vitamin C",
+            "Name": "vitaminc"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "SVCT-1",
+            "Name": "svct1"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "IL-8",
+            "Name": "il8"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MCP-1",
+            "Name": "mcp1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Product of",
+            "source": "T10",
+            "target": "T26"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T20"
+        },
+        {
+            "type": "Substrate",
+            "source": "T5",
+            "target": "T21"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T12"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T17"
+        }
+    ]
+}

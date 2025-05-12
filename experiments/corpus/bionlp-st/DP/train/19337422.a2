@@ -1,0 +1,40 @@
+T12	CHEMICAL 0 9	Tolvaptan
+N1	Name Annotation:T12 Referent:tolvaptan
+T1	CHEMICAL 62 71	Tolvaptan
+N2	Name Annotation:T1 Referent:tolvaptan
+T4	CHEMICAL 87 107	arginine vasopressin
+N3	Name Annotation:T4 Referent:argininevasopressin
+T15	GENE-Y 87 127	arginine vasopressin (AVP) V(2) receptor
+N4	Name Annotation:T15 Referent:argininevasopressinavpv2receptor
+T7	CHEMICAL 109 112	AVP
+N5	Name Annotation:T7 Referent:avp
+T5	CHEMICAL 423 429	sodium
+N6	Name Annotation:T5 Referent:sodium
+T6	CHEMICAL 475 484	Tolvaptan
+N7	Name Annotation:T6 Referent:tolvaptan
+T8	CHEMICAL 668 677	tolvaptan
+N8	Name Annotation:T8 Referent:tolvaptan
+T16	GENE-Y 718 721	AVP
+N9	Name Annotation:T16 Referent:avp
+T9	CHEMICAL 718 721	AVP
+N10	Name Annotation:T9 Referent:avp
+T17	GENE-Y 754 769	V(1A) receptors
+N11	Name Annotation:T17 Referent:v1areceptors
+T10	CHEMICAL 920 929	tolvaptan
+N12	Name Annotation:T10 Referent:tolvaptan
+T11	CHEMICAL 1006 1015	tolvaptan
+N13	Name Annotation:T11 Referent:tolvaptan
+T18	GENE-Y 1038 1044	CYP3A4
+N14	Name Annotation:T18 Referent:cyp3a4
+T2	CHEMICAL 1153 1162	Tolvaptan
+N15	Name Annotation:T2 Referent:tolvaptan
+T13	GENE-Y 1244 1247	AVP
+N16	Name Annotation:T13 Referent:avp
+T3	CHEMICAL 1244 1247	AVP
+N17	Name Annotation:T3 Referent:avp
+T14	GENE-Y 1314 1334	antidiuretic hormone
+N18	Name Annotation:T14 Referent:antidiuretichormone
+R1	INHIBITOR Arg1:T1 Arg2:T15
+R2	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T16
+R3	ACTIVATOR Arg1:T8 Arg2:T17
+R4	SUBSTRATE Arg1:T11 Arg2:T18

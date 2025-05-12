@@ -1,0 +1,212 @@
+{
+    "entities": [
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "sodium nitroprusside",
+            "Name": "sodiumnitroprusside"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "HIF-1",
+            "Name": "hif1"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "soluble guanylyl cyclase",
+            "Name": "solubleguanylylcyclase"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "guanylyl",
+            "Name": "guanylyl"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "O(2)",
+            "Name": "o2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "O(2)",
+            "Name": "o2"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "hypoxia-inducible factor 1",
+            "Name": "hypoxiainduciblefactor1"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "HIF-1",
+            "Name": "hif1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "NO",
+            "Name": "no"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "nitroglycerin",
+            "Name": "nitroglycerin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "NTG",
+            "Name": "ntg"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "isosorbide dinitrate",
+            "Name": "isosorbidedinitrate"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "ISDN",
+            "Name": "isdn"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "sodium nitroprusside",
+            "Name": "sodiumnitroprusside"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "SNP",
+            "Name": "snp"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "HIF-1",
+            "Name": "hif1"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "SNP",
+            "Name": "snp"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "HIF-1",
+            "Name": "hif1"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "NTG",
+            "Name": "ntg"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "ISDN",
+            "Name": "isdn"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "HIF-1",
+            "Name": "hif1"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "SNP",
+            "Name": "snp"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "HIF-1alpha",
+            "Name": "hif1alpha"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "HIF-1",
+            "Name": "hif1"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "HIF-1alpha",
+            "Name": "hif1alpha"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "NO",
+            "Name": "no"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "soluble guanylate cyclase",
+            "Name": "solubleguanylatecyclase"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "guanylate",
+            "Name": "guanylate"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T18",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T14",
+            "target": "T27"
+        }
+    ]
+}

@@ -1,0 +1,239 @@
+{
+    "entities": [
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "follicle-stimulating hormone receptor",
+            "Name": "folliclestimulatinghormonereceptor"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Follicle-stimulating hormone",
+            "Name": "folliclestimulatinghormone"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "FSH",
+            "Name": "fsh"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "FSH receptors",
+            "Name": "fshreceptors"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "FSHR",
+            "Name": "fshr"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "estradiol",
+            "Name": "estradiol"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "FSH",
+            "Name": "fsh"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "FSHR",
+            "Name": "fshr"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "FSH",
+            "Name": "fsh"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "dihydropyridine",
+            "Name": "dihydropyridine"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "FSHR",
+            "Name": "fshr"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Org 214444-0",
+            "Name": "org2144440"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Org 214444-0",
+            "Name": "org2144440"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "FSHR",
+            "Name": "fshr"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "LHR",
+            "Name": "lhr"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "TSHR",
+            "Name": "tshr"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Org 214444-0",
+            "Name": "org2144440"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "FSHR",
+            "Name": "fshr"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "FSH",
+            "Name": "fsh"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Org 214444-0",
+            "Name": "org2144440"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "FSH's",
+            "Name": "fshs"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "adenylyl cyclase",
+            "Name": "adenylylcyclase"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "FSH",
+            "Name": "fsh"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Org 214444-0",
+            "Name": "org2144440"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "FSHR",
+            "Name": "fshr"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "phospholipase C.",
+            "Name": "phospholipasec"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Org 214444-0",
+            "Name": "org2144440"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "estradiol",
+            "Name": "estradiol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Org 214444-0",
+            "Name": "org2144440"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "FSHR",
+            "Name": "fshr"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T6",
+            "target": "T21"
+        },
+        {
+            "type": "Agonist",
+            "source": "T7",
+            "target": "T21"
+        },
+        {
+            "type": "Agonist",
+            "source": "T8",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T29"
+        },
+        {
+            "type": "Activator",
+            "source": "T10",
+            "target": "T28"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T10",
+            "target": "T29"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T14"
+        },
+        {
+            "type": "Agonist",
+            "source": "T4",
+            "target": "T15"
+        }
+    ]
+}

@@ -1,0 +1,181 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "aripiprazole",
+            "Name": "aripiprazole"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "human 5-HT1A receptor",
+            "Name": "human5ht1areceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Aripiprazole",
+            "Name": "aripiprazole"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "7-[4-[4-(2,3-dichlorophenyl)-1-piperazinyl]butyloxy]-3,4-dihydro-2(1H)-quinolinon e",
+            "Name": "74423dichlorophenyl1piperazinylbutyloxy34dihydro21hquinolinone"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "dopamine D2 receptors",
+            "Name": "dopamined2receptors"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "human 5-HT(1A) receptors",
+            "Name": "human5ht1areceptors"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "h5-HT(1A)",
+            "Name": "h5ht1a"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "5-HT(1A)",
+            "Name": "5ht1a"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "guanosine-5'-O-(3-[(35)S]thio)-triphosphate",
+            "Name": "guanosine5o335sthiotriphosphate"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "[(35)S]GTP gamma S",
+            "Name": "35sgtpgammas"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "5-HT(1A)",
+            "Name": "5ht1a"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "5-HT(1A)",
+            "Name": "5ht1a"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "aripiprazole",
+            "Name": "aripiprazole"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "dopamine D2 receptors",
+            "Name": "dopamined2receptors"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "aripiprazole",
+            "Name": "aripiprazole"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T11",
+            "target": "T19"
+        },
+        {
+            "type": "Agonist",
+            "source": "T1",
+            "target": "T12"
+        },
+        {
+            "type": "Agonist",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Agonist",
+            "source": "T1",
+            "target": "T15"
+        },
+        {
+            "type": "Agonist",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T15"
+        },
+        {
+            "type": "Agonist",
+            "source": "T6",
+            "target": "T18"
+        }
+    ]
+}

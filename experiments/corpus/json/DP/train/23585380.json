@@ -1,0 +1,111 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "poly(L-lactic-co-glycolic acid)",
+            "Name": "polyllacticcoglycolicacid"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "PLGA",
+            "Name": "plga"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "PLGA",
+            "Name": "plga"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "PLGA",
+            "Name": "plga"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "PLGA",
+            "Name": "plga"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "platelet-derived GF",
+            "Name": "plateletderivedgf"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "PDGF",
+            "Name": "pdgf"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "vascular endothelial GF",
+            "Name": "vascularendothelialgf"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "PDGF",
+            "Name": "pdgf"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "PLGA",
+            "Name": "plga"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "PLGA",
+            "Name": "plga"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "CD31",
+            "Name": "cd31"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T8"
+        }
+    ]
+}

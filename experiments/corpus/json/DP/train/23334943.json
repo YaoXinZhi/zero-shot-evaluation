@@ -1,0 +1,59 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "5\u03b1-reductase",
+            "Name": "5\u03b1reductase"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "5\u03b1-reductase",
+            "Name": "5\u03b1reductase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "finasteride",
+            "Name": "finasteride"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "dutasteride",
+            "Name": "dutasteride"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "PSA",
+            "Name": "psa"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "finasteride",
+            "Name": "finasteride"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "dutasteride",
+            "Name": "dutasteride"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T6"
+        }
+    ]
+}

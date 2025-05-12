@@ -1,0 +1,100 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "platelet ADP receptor P2Y12",
+            "Name": "plateletadpreceptorp2y12"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "ADP",
+            "Name": "adp"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "ADP",
+            "Name": "adp"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "ADP",
+            "Name": "adp"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "P2Y12",
+            "Name": "p2y12"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "P2Y12",
+            "Name": "p2y12"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "AR-C69931 MX",
+            "Name": "arc69931mx"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "clopidogrel",
+            "Name": "clopidogrel"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "AR-C69931 MX",
+            "Name": "arc69931mx"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "clopidogrel",
+            "Name": "clopidogrel"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "ADP",
+            "Name": "adp"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "P2Y12",
+            "Name": "p2y12"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "P2Y12",
+            "Name": "p2y12"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T7",
+            "target": "T11"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T4",
+            "target": "T12"
+        }
+    ]
+}

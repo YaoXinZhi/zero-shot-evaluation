@@ -1,0 +1,70 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Location",
+            "name": "Magdeburg",
+            "GeoNames": "2874544"
+        },
+        {
+            "id": "T9",
+            "type": "Location",
+            "name": "Magdeburg",
+            "GeoNames": "2874544"
+        },
+        {
+            "id": "T10",
+            "type": "Pest",
+            "name": "Asian long-horned beetle",
+            "NCBI_Taxonomy": "217634"
+        },
+        {
+            "id": "T12",
+            "type": "Location",
+            "name": "Magdeburg",
+            "GeoNames": "2874544"
+        },
+        {
+            "id": "T13",
+            "type": "Pest",
+            "name": "Asian longhorn beetle",
+            "NCBI_Taxonomy": "217634"
+        },
+        {
+            "id": "T14",
+            "type": "Location",
+            "name": "Wiesenpark",
+            "GeoNames": "2874544"
+        },
+        {
+            "id": "T16",
+            "type": "Plant",
+            "name": "poplars",
+            "NCBI_Taxonomy": "3689"
+        },
+        {
+            "id": "T17",
+            "type": "Plant",
+            "name": "willows",
+            "NCBI_Taxonomy": "40685"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T10",
+            "target": "T9"
+        },
+        {
+            "type": "Located in",
+            "source": "T13",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T13",
+            "target": "T14"
+        }
+    ]
+}

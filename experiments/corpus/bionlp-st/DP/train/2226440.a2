@@ -1,0 +1,78 @@
+T23	CHEMICAL 38 53	L-noradrenaline
+N1	Name Annotation:T23 Referent:lnoradrenaline
+T24	CHEMICAL 81 94	phenylalanine
+N2	Name Annotation:T24 Referent:phenylalanine
+T31	GENE-Y 81 110	phenylalanine 4-monooxygenase
+N3	Name Annotation:T31 Referent:phenylalanine4monooxygenase
+T1	CHEMICAL 112 126	Catecholamines
+N4	Name Annotation:T1 Referent:catecholamines
+T11	CHEMICAL 128 138	adrenaline
+N5	Name Annotation:T11 Referent:adrenaline
+T15	CHEMICAL 140 153	noradrenaline
+N6	Name Annotation:T15 Referent:noradrenaline
+T16	CHEMICAL 158 166	dopamine
+N7	Name Annotation:T16 Referent:dopamine
+T21	CHEMICAL 193 206	phenylalanine
+N8	Name Annotation:T21 Referent:phenylalanine
+T30	GENE-Y 193 222	phenylalanine 4-monooxygenase
+N9	Name Annotation:T30 Referent:phenylalanine4monooxygenase
+T3	CHEMICAL 224 237	phenylalanine
+N10	Name Annotation:T3 Referent:phenylalanine
+T25	GENE-Y 224 249	phenylalanine hydroxylase
+N11	Name Annotation:T25 Referent:phenylalaninehydroxylase
+T26	GENE-Y 251 263	EC 1.14.16.1
+N12	Name Annotation:T26 Referent:ec114161
+T17	CHEMICAL 601 614	catecholamine
+N13	Name Annotation:T17 Referent:catecholamine
+T18	CHEMICAL 660 675	L-noradrenaline
+N14	Name Annotation:T18 Referent:lnoradrenaline
+T19	CHEMICAL 679 692	phenylalanine
+N15	Name Annotation:T19 Referent:phenylalanine
+T29	GENE-Y 679 704	phenylalanine hydroxylase
+N16	Name Annotation:T29 Referent:phenylalaninehydroxylase
+T20	CHEMICAL 899 914	L-noradrenaline
+N17	Name Annotation:T20 Referent:lnoradrenaline
+T22	CHEMICAL 976 991	L-noradrenaline
+N18	Name Annotation:T22 Referent:lnoradrenaline
+T2	CHEMICAL 1168 1183	L-phenylalanine
+N19	Name Annotation:T2 Referent:lphenylalanine
+T4	CHEMICAL 1254 1270	N-ethylmaleimide
+N20	Name Annotation:T4 Referent:nethylmaleimide
+T5	CHEMICAL 1305 1320	L-phenylalanine
+N21	Name Annotation:T5 Referent:lphenylalanine
+T6	CHEMICAL 1375 1390	L-noradrenaline
+N22	Name Annotation:T6 Referent:lnoradrenaline
+T7	CHEMICAL 1471 1486	L-noradrenaline
+N23	Name Annotation:T7 Referent:lnoradrenaline
+T8	CHEMICAL 1515 1530	L-phenylalanine
+N24	Name Annotation:T8 Referent:lphenylalanine
+T9	CHEMICAL 1664 1678	catecholamines
+N25	Name Annotation:T9 Referent:catecholamines
+T10	CHEMICAL 1682 1695	phenylalanine
+N26	Name Annotation:T10 Referent:phenylalanine
+T27	GENE-Y 1682 1707	phenylalanine hydroxylase
+N27	Name Annotation:T27 Referent:phenylalaninehydroxylase
+T12	CHEMICAL 1815 1823	tyrosine
+N28	Name Annotation:T12 Referent:tyrosine
+T28	GENE-Y 1815 1835	tyrosine hydroxylase
+N29	Name Annotation:T28 Referent:tyrosinehydroxylase
+T13	CHEMICAL 1867 1880	catecholamine
+N30	Name Annotation:T13 Referent:catecholamine
+T14	CHEMICAL 1881 1888	Fe(III)
+N31	Name Annotation:T14 Referent:feiii
+R1	INHIBITOR Arg1:T1 Arg2:T30
+R2	INHIBITOR Arg1:T11 Arg2:T30
+R3	INHIBITOR Arg1:T15 Arg2:T30
+R4	INHIBITOR Arg1:T16 Arg2:T30
+R5	INHIBITOR Arg1:T1 Arg2:T25
+R6	INHIBITOR Arg1:T11 Arg2:T25
+R7	INHIBITOR Arg1:T15 Arg2:T25
+R8	INHIBITOR Arg1:T16 Arg2:T25
+R9	DIRECT-REGULATOR Arg1:T18 Arg2:T29
+R10	DIRECT-REGULATOR Arg1:T9 Arg2:T27
+R11	DIRECT-REGULATOR Arg1:T23 Arg2:T31
+R12	DIRECT-REGULATOR Arg1:T9 Arg2:T28
+R13	INHIBITOR Arg1:T1 Arg2:T26
+R14	INHIBITOR Arg1:T11 Arg2:T26
+R15	INHIBITOR Arg1:T15 Arg2:T26
+R16	INHIBITOR Arg1:T16 Arg2:T26

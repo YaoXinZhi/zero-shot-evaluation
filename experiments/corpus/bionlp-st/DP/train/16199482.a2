@@ -1,0 +1,88 @@
+T29	CHEMICAL 22 30	estrogen
+N1	Name Annotation:T29 Referent:estrogen
+T41	GENE-Y 22 44	estrogen receptor-beta
+N2	Name Annotation:T41 Referent:estrogenreceptorbeta
+T15	CHEMICAL 115 131	17beta-estradiol
+N3	Name Annotation:T15 Referent:17betaestradiol
+T14	CHEMICAL 319 323	Ca2+
+N4	Name Annotation:T14 Referent:ca2
+T16	CHEMICAL 447 456	serotonin
+N5	Name Annotation:T16 Referent:serotonin
+T17	CHEMICAL 463 474	thromboxane
+N6	Name Annotation:T17 Referent:thromboxane
+T18	CHEMICAL 482 489	U-46619
+N7	Name Annotation:T18 Referent:u46619
+T19	CHEMICAL 494 502	estrogen
+N8	Name Annotation:T19 Referent:estrogen
+T20	CHEMICAL 544 560	17beta-estradiol
+N9	Name Annotation:T20 Referent:17betaestradiol
+T21	CHEMICAL 622 630	estrogen
+N10	Name Annotation:T21 Referent:estrogen
+T22	CHEMICAL 647 655	estrogen
+N11	Name Annotation:T22 Referent:estrogen
+T39	GENE-Y 647 669	estrogen receptor-beta
+N12	Name Annotation:T39 Referent:estrogenreceptorbeta
+T40	GENE-Y 670 678	(ER-beta
+N13	Name Annotation:T40 Referent:erbeta
+T23	CHEMICAL 698 705	estriol
+N14	Name Annotation:T23 Referent:estriol
+T24	CHEMICAL 707 709	E3
+N15	Name Annotation:T24 Referent:e3
+T25	CHEMICAL 876 885	serotonin
+N16	Name Annotation:T25 Referent:serotonin
+T26	CHEMICAL 888 895	U-46619
+N17	Name Annotation:T26 Referent:u46619
+T27	CHEMICAL 993 997	Ca2+
+N18	Name Annotation:T27 Referent:ca2
+T28	CHEMICAL 1030 1034	Ca2+
+N19	Name Annotation:T28 Referent:ca2
+T1	CHEMICAL 1100 1135	5alpha-androstane-3beta,17beta-diol
+N20	Name Annotation:T1 Referent:5alphaandrostane3beta17betadiol
+T2	CHEMICAL 1137 1148	3beta-Adiol
+N21	Name Annotation:T2 Referent:3betaadiol
+T3	CHEMICAL 1165 1184	dihydrotestosterone
+N22	Name Annotation:T3 Referent:dihydrotestosterone
+T30	GENE-Y 1201 1208	ER-beta
+N23	Name Annotation:T30 Referent:erbeta
+T4	CHEMICAL 1227 1249	R,R-tetrahydrochrysene
+N24	Name Annotation:T4 Referent:rrtetrahydrochrysene
+T31	GENE-Y 1263 1270	ER-beta
+N25	Name Annotation:T31 Referent:erbeta
+T5	CHEMICAL 1317 1328	3beta-Adiol
+N26	Name Annotation:T5 Referent:3betaadiol
+T6	CHEMICAL 1358 1362	Ca2+
+N27	Name Annotation:T6 Referent:ca2
+T32	GENE-Y 1381 1388	ER-beta
+N28	Name Annotation:T32 Referent:erbeta
+T7	CHEMICAL 1393 1404	thromboxane
+N29	Name Annotation:T7 Referent:thromboxane
+T33	GENE-Y 1393 1424	thromboxane-prostanoid receptor
+N30	Name Annotation:T33 Referent:thromboxaneprostanoidreceptor
+T8	CHEMICAL 1405 1415	prostanoid
+N31	Name Annotation:T8 Referent:prostanoid
+T34	GENE-Y 1426 1429	TPR
+N32	Name Annotation:T34 Referent:tpr
+T35	GENE-Y 1519 1522	TPR
+N33	Name Annotation:T35 Referent:tpr
+T9	CHEMICAL 1578 1589	3beta-Adiol
+N34	Name Annotation:T9 Referent:3betaadiol
+T36	GENE-Y 1604 1607	TPR
+N35	Name Annotation:T36 Referent:tpr
+T10	CHEMICAL 1684 1706	R,R-tetrahydrochrysene
+N36	Name Annotation:T10 Referent:rrtetrahydrochrysene
+T11	CHEMICAL 1716 1727	3beta-Adiol
+N37	Name Annotation:T11 Referent:3betaadiol
+T12	CHEMICAL 1761 1765	Ca2+
+N38	Name Annotation:T12 Referent:ca2
+T37	GENE-Y 1793 1800	ER-beta
+N39	Name Annotation:T37 Referent:erbeta
+T38	GENE-Y 1825 1828	TPR
+N40	Name Annotation:T38 Referent:tpr
+T13	CHEMICAL 1863 1871	estrogen
+N41	Name Annotation:T13 Referent:estrogen
+R1	DIRECT-REGULATOR Arg1:T1 Arg2:T30
+R2	DIRECT-REGULATOR Arg1:T2 Arg2:T30
+R3	DIRECT-REGULATOR Arg1:T3 Arg2:T30
+R4	ANTAGONIST Arg1:T4 Arg2:T31
+R5	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T36
+R6	INDIRECT-DOWNREGULATOR Arg1:T11 Arg2:T38

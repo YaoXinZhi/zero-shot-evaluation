@@ -1,0 +1,42 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Bacillus intermedius",
+            "NCBI_Taxonomy": "1400"
+        },
+        {
+            "id": "T4",
+            "type": "Phenotype",
+            "name": "streptomycin-resistant",
+            "OntoBiotope": "OBT:002858"
+        },
+        {
+            "id": "T5",
+            "type": "Microorganism",
+            "name": "Bacillus intermedius S3-19",
+            "NCBI_Taxonomy": "1400"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "B. intermedius",
+            "NCBI_Taxonomy": "1400"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "Bacillus",
+            "NCBI_Taxonomy": "1386"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T5",
+            "target": "T4"
+        }
+    ]
+}

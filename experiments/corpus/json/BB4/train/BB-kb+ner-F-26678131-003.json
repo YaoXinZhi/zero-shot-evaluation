@@ -1,0 +1,90 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Habitat",
+            "name": "Cheeses",
+            "OntoBiotope": "OBT:001480"
+        },
+        {
+            "id": "T2",
+            "type": "Microorganism",
+            "name": "Lb. plantarum (FH3)",
+            "NCBI_Taxonomy": "1590"
+        },
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "H. alvei (B16)",
+            "NCBI_Taxonomy": "569"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "Lc. lactis (D5.3)",
+            "NCBI_Taxonomy": "1358"
+        },
+        {
+            "id": "T5",
+            "type": "Phenotype",
+            "name": "dextran-producing",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "Leuconostoc",
+            "NCBI_Taxonomy": "1243"
+        },
+        {
+            "id": "T7",
+            "type": "Microorganism",
+            "name": "Lactococcus",
+            "NCBI_Taxonomy": "1357"
+        },
+        {
+            "id": "T8",
+            "type": "Microorganism",
+            "name": "Lactobacillus",
+            "NCBI_Taxonomy": "1578"
+        },
+        {
+            "id": "T9",
+            "type": "Microorganism",
+            "name": "Pseudomonas",
+            "NCBI_Taxonomy": "286"
+        },
+        {
+            "id": "T10",
+            "type": "Phenotype",
+            "name": "Gram negative",
+            "OntoBiotope": "OBT:000648"
+        },
+        {
+            "id": "T11",
+            "type": "Microorganism",
+            "name": "Pseudomonas",
+            "NCBI_Taxonomy": "286"
+        },
+        {
+            "id": "T12",
+            "type": "Phenotype",
+            "name": "Gram positive",
+            "OntoBiotope": "OBT:000649"
+        },
+        {
+            "id": "T13",
+            "type": "Phenotype",
+            "name": "catalase positive",
+            "OntoBiotope": "OBT:000222"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T6",
+            "target": "T5"
+        }
+    ]
+}

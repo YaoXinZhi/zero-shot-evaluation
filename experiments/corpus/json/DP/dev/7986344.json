@@ -1,0 +1,245 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "guanidine",
+            "Name": "guanidine"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "disulfide",
+            "Name": "disulfide"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "bovine pancreatic ribonuclease A",
+            "Name": "bovinepancreaticribonucleasea"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "guanidine",
+            "Name": "guanidine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "disulfide",
+            "Name": "disulfide"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "bovine pancreatic ribonuclease A",
+            "Name": "bovinepancreaticribonucleasea"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "RNase A",
+            "Name": "rnasea"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "proline",
+            "Name": "proline"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "proline-42-to-alanine",
+            "Name": "proline42toalanine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "alanine",
+            "Name": "alanine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Pro42Ala",
+            "Name": "pro42ala"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "2'-cytidine monophosphate",
+            "Name": "2cytidinemonophosphate"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "2'CMP",
+            "Name": "2cmp"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "RNase A",
+            "Name": "rnasea"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "2'CMP",
+            "Name": "2cmp"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "2'CMP",
+            "Name": "2cmp"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "2'CMP",
+            "Name": "2cmp"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Pro42Ala",
+            "Name": "pro42ala"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "RNase A",
+            "Name": "rnasea"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "tyrosine",
+            "Name": "tyrosine"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "Pro42Ala",
+            "Name": "pro42ala"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T17"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T10",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T10",
+            "target": "T19"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T11",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T11",
+            "target": "T19"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T14",
+            "target": "T23"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T20"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T22"
+        },
+        {
+            "type": "Part of",
+            "source": "T1",
+            "target": "T20"
+        },
+        {
+            "type": "Part of",
+            "source": "T2",
+            "target": "T20"
+        },
+        {
+            "type": "Part of",
+            "source": "T1",
+            "target": "T22"
+        },
+        {
+            "type": "Part of",
+            "source": "T2",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T15"
+        }
+    ]
+}

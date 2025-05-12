@@ -1,0 +1,62 @@
+T12	CHEMICAL 0 7	Aspirin
+N1	Name Annotation:T12 Referent:aspirin
+T13	CHEMICAL 12 22	salicylate
+N2	Name Annotation:T13 Referent:salicylate
+T25	GENE-Y 31 73	immunoglobulin heavy chain binding protein
+N3	Name Annotation:T25 Referent:immunoglobulinheavychainbindingprotein
+T26	GENE-Y 75 78	BiP
+N4	Name Annotation:T26 Referent:bip
+T27	GENE-N 96 102	ATPase
+N5	Name Annotation:T27 Referent:atpase
+T1	CHEMICAL 134 148	Salicylic acid
+N6	Name Annotation:T1 Referent:salicylicacid
+T4	CHEMICAL 150 152	SA
+N7	Name Annotation:T4 Referent:sa
+T5	CHEMICAL 354 361	Aspirin
+N8	Name Annotation:T5 Referent:aspirin
+T6	CHEMICAL 366 383	sodium salicylate
+N9	Name Annotation:T6 Referent:sodiumsalicylate
+T7	CHEMICAL 385 396	salicylates
+N10	Name Annotation:T7 Referent:salicylates
+T16	GENE-N 624 650	salicylate binding protein
+N11	Name Annotation:T16 Referent:salicylatebindingprotein
+T17	GENE-Y 677 719	immunoglobulin heavy chain binding protein
+N12	Name Annotation:T17 Referent:immunoglobulinheavychainbindingprotein
+T18	GENE-Y 721 724	BiP
+N13	Name Annotation:T18 Referent:bip
+T8	CHEMICAL 744 746	SA
+N14	Name Annotation:T8 Referent:sa
+T19	GENE-Y 791 794	BiP
+N15	Name Annotation:T19 Referent:bip
+T20	GENE-Y 836 839	BiP
+N16	Name Annotation:T20 Referent:bip
+T21	GENE-N 845 862	chaperone protein
+N17	Name Annotation:T21 Referent:chaperoneprotein
+T22	GENE-N 922 943	heptapeptide sequence
+N18	Name Annotation:T22 Referent:heptapeptidesequence
+T9	CHEMICAL 951 954	ATP
+N19	Name Annotation:T9 Referent:atp
+T23	GENE-N 951 967	ATP binding site
+N20	Name Annotation:T23 Referent:atpbindingsite
+T10	CHEMICAL 1021 1023	SA
+N21	Name Annotation:T10 Referent:sa
+T11	CHEMICAL 1108 1119	Salicylates
+N22	Name Annotation:T11 Referent:salicylates
+T24	GENE-N 1130 1136	ATPase
+N23	Name Annotation:T24 Referent:atpase
+T2	CHEMICAL 1205 1208	ATP
+N24	Name Annotation:T2 Referent:atp
+T14	GENE-Y 1227 1230	BiP
+N25	Name Annotation:T14 Referent:bip
+T3	CHEMICAL 1271 1282	salicylates
+N26	Name Annotation:T3 Referent:salicylates
+T15	GENE-Y 1336 1339	BiP
+N27	Name Annotation:T15 Referent:bip
+R1	DIRECT-REGULATOR Arg1:T12 Arg2:T25
+R2	DIRECT-REGULATOR Arg1:T13 Arg2:T25
+R3	INHIBITOR Arg1:T12 Arg2:T27
+R4	INHIBITOR Arg1:T13 Arg2:T27
+R5	DIRECT-REGULATOR Arg1:T8 Arg2:T19
+R6	INHIBITOR Arg1:T11 Arg2:T24
+R7	DIRECT-REGULATOR Arg1:T3 Arg2:T15
+R8	DIRECT-REGULATOR Arg1:T2 Arg2:T24

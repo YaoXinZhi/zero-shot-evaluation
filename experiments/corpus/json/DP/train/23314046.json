@@ -1,0 +1,65 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "thymidine monophosphate",
+            "Name": "thymidinemonophosphate"
+        },
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "thymidine monophosphate kinase",
+            "Name": "thymidinemonophosphatekinase"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "TMPK",
+            "Name": "tmpk"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "thymidine triphosphate",
+            "Name": "thymidinetriphosphate"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "M.\u00a0tuberculosis TMPK",
+            "Name": "mtuberculosistmpk"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "mtTMPK",
+            "Name": "mttmpk"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "mtTMPK",
+            "Name": "mttmpk"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "mtTMPK",
+            "Name": "mttmpk"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T3"
+        },
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T4"
+        }
+    ]
+}

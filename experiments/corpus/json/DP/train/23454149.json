@@ -1,0 +1,186 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "DMBT",
+            "Name": "dmbt"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "MMP-9",
+            "Name": "mmp9"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "brartemicin",
+            "Name": "brartemicin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "DMBT",
+            "Name": "dmbt"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "6,6'-bis (2,3-dimethoxybenzoyl)-a,a-d-trehalose",
+            "Name": "66bis23dimethoxybenzoylaadtrehalose"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "DMBT",
+            "Name": "dmbt"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "DMBT",
+            "Name": "dmbt"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "MTT",
+            "Name": "mtt"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "DMBT",
+            "Name": "dmbt"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "DMBT",
+            "Name": "dmbt"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "DMBT",
+            "Name": "dmbt"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MMP-9",
+            "Name": "mmp9"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "DMBT",
+            "Name": "dmbt"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "p-VEGFR-2",
+            "Name": "pvegfr2"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "p-EGFR",
+            "Name": "pegfr"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "p-Akt",
+            "Name": "pakt"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "DMBT",
+            "Name": "dmbt"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "MMP-9",
+            "Name": "mmp9"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "DMBT",
+            "Name": "dmbt"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T12",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T22"
+        }
+    ]
+}

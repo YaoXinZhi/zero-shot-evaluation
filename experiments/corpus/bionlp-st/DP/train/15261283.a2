@@ -1,0 +1,46 @@
+T10	CHEMICAL 39 54	arylpiperazines
+N1	Name Annotation:T10 Referent:arylpiperazines
+T8	CHEMICAL 158 173	arylpiperazines
+N2	Name Annotation:T8 Referent:arylpiperazines
+T11	GENE-N 231 277	rat dopamine, serotonin and alpha(1) receptors
+N3	Name Annotation:T11 Referent:ratdopamineserotoninandalpha1receptors
+T1	CHEMICAL 235 243	dopamine
+N4	Name Annotation:T1 Referent:dopamine
+T2	CHEMICAL 245 254	serotonin
+N5	Name Annotation:T2 Referent:serotonin
+T3	CHEMICAL 298 310	benztriazole
+N6	Name Annotation:T3 Referent:benztriazole
+T12	GENE-Y 323 331	5-HT(2A)
+N7	Name Annotation:T12 Referent:5ht2a
+T13	GENE-Y 332 336	D(2)
+N8	Name Annotation:T13 Referent:d2
+T4	CHEMICAL 379 391	neuroleptics
+N9	Name Annotation:T4 Referent:neuroleptics
+T5	CHEMICAL 421 491	2, 5-[2-[4-(2,3-dimethyl-phenyl)-piperazin-1-yl]ethyl]1H-benzotriazole
+N10	Name Annotation:T5 Referent:252423dimethylphenylpiperazin1ylethyl1hbenzotriazole
+T6	CHEMICAL 503 512	clozapine
+N11	Name Annotation:T6 Referent:clozapine
+T14	GENE-Y 546 550	D(2)
+N12	Name Annotation:T14 Referent:d2
+T15	GENE-Y 552 560	5-HT(2A)
+N13	Name Annotation:T15 Referent:5ht2a
+T16	GENE-N 565 582	alpha 1 receptors
+N14	Name Annotation:T16 Referent:alpha1receptors
+T17	GENE-Y 609 617	5-HT(1A)
+N15	Name Annotation:T17 Referent:5ht1a
+T7	CHEMICAL 633 642	clozapine
+N16	Name Annotation:T7 Referent:clozapine
+T9	CHEMICAL 744 757	d-amphetamine
+N17	Name Annotation:T9 Referent:damphetamine
+R1	DIRECT-REGULATOR Arg1:T3 Arg2:T12
+R2	DIRECT-REGULATOR Arg1:T3 Arg2:T13
+R3	DIRECT-REGULATOR Arg1:T4 Arg2:T12
+R4	DIRECT-REGULATOR Arg1:T4 Arg2:T13
+R5	DIRECT-REGULATOR Arg1:T5 Arg2:T14
+R6	DIRECT-REGULATOR Arg1:T6 Arg2:T14
+R7	DIRECT-REGULATOR Arg1:T5 Arg2:T15
+R8	DIRECT-REGULATOR Arg1:T6 Arg2:T15
+R9	DIRECT-REGULATOR Arg1:T5 Arg2:T16
+R10	DIRECT-REGULATOR Arg1:T6 Arg2:T16
+R11	DIRECT-REGULATOR Arg1:T5 Arg2:T17
+R12	DIRECT-REGULATOR Arg1:T7 Arg2:T17

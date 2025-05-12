@@ -1,0 +1,99 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Benzenesulfonamides",
+            "Name": "benzenesulfonamides"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "chemokine receptor type 4",
+            "Name": "chemokinereceptortype4"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "CXCR4",
+            "Name": "cxcr4"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "CXCL12",
+            "Name": "cxcl12"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "SDF-1",
+            "Name": "sdf1"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "CXCR4",
+            "Name": "cxcr4"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "aryl sulfonamides",
+            "Name": "arylsulfonamides"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "CXCR4",
+            "Name": "cxcr4"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "CXCL12",
+            "Name": "cxcl12"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "CXCR4",
+            "Name": "cxcr4"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "benzenesulfonamides",
+            "Name": "benzenesulfonamides"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "CXCR4",
+            "Name": "cxcr4"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T11"
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Canagliflozin",
+            "Name": "canagliflozin"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "sodium-glucose",
+            "Name": "sodiumglucose"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "sodium-glucose cotransporter 2",
+            "Name": "sodiumglucosecotransporter2"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "Canagliflozin",
+            "Name": "canagliflozin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "sodium glucose",
+            "Name": "sodiumglucose"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "sodium glucose cotransporter 2",
+            "Name": "sodiumglucosecotransporter2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Canagliflozin",
+            "Name": "canagliflozin"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "glucose",
+            "Name": "glucose"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "canagliflozin",
+            "Name": "canagliflozin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "canagliflozin",
+            "Name": "canagliflozin"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "canagliflozin",
+            "Name": "canagliflozin"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Canagliflozin",
+            "Name": "canagliflozin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "HbA1c",
+            "Name": "hba1c"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "low-density lipoprotein",
+            "Name": "lowdensitylipoprotein"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "LDL",
+            "Name": "ldl"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Canagliflozin",
+            "Name": "canagliflozin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T17"
+        }
+    ]
+}

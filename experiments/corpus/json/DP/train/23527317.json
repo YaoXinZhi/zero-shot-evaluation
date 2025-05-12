@@ -1,0 +1,99 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "nor-lobelane",
+            "Name": "norlobelane"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "VMAT2",
+            "Name": "vmat2"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "methamphetamine",
+            "Name": "methamphetamine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "lobelane",
+            "Name": "lobelane"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "[(3)H]dihydrotetrabenazine",
+            "Name": "3hdihydrotetrabenazine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "vesicular monoamine transporter",
+            "Name": "vesicularmonoaminetransporter"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "[(3)H]dopamine",
+            "Name": "3hdopamine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "N-1,2(R)-dihydroxypropyl",
+            "Name": "n12rdihydroxypropyl"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "methamphetamine",
+            "Name": "methamphetamine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T11"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T11"
+        }
+    ]
+}

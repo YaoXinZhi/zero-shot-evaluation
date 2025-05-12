@@ -1,0 +1,184 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "SLC12A3",
+            "Name": "slc12a3"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "human thiazide-sensitive sodium chloride cotransporter",
+            "Name": "humanthiazidesensitivesodiumchloridecotransporter"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "thiazide",
+            "Name": "thiazide"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "sodium chloride",
+            "Name": "sodiumchloride"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "sodium chloride",
+            "Name": "sodiumchloride"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "SLC12A1",
+            "Name": "slc12a1"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "KCNJ1",
+            "Name": "kcnj1"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "SLC12A1",
+            "Name": "slc12a1"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "bumetanide",
+            "Name": "bumetanide"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "bumetanide-sensitive sodium potassium 2 chloride cotransporter",
+            "Name": "bumetanidesensitivesodiumpotassium2chloridecotransporter"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "sodium potassium 2 chloride",
+            "Name": "sodiumpotassium2chloride"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "NKCC2",
+            "Name": "nkcc2"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "sodium chloride",
+            "Name": "sodiumchloride"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "KCNJ1",
+            "Name": "kcnj1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "potassium",
+            "Name": "potassium"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "potassium channel ROMK",
+            "Name": "potassiumchannelromk"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "potassium",
+            "Name": "potassium"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "NKCC2",
+            "Name": "nkcc2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "chloride",
+            "Name": "chloride"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "chloride",
+            "Name": "chloride"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "chloride channel",
+            "Name": "chloridechannel"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "CLCNKB",
+            "Name": "clcnkb"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T17"
+        },
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T10",
+            "target": "T20"
+        },
+        {
+            "type": "Substrate",
+            "source": "T10",
+            "target": "T21"
+        },
+        {
+            "type": "Substrate",
+            "source": "T10",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T15"
+        }
+    ]
+}

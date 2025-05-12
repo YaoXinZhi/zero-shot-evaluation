@@ -1,0 +1,117 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "LFA-1",
+            "Name": "lfa1"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "lovastatin",
+            "Name": "lovastatin"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "CD11a I-domain",
+            "Name": "cd11aidomain"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "lymphocyte function-associated antigen",
+            "Name": "lymphocytefunctionassociatedantigen"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "LFA-1",
+            "Name": "lfa1"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "beta2-integrins",
+            "Name": "beta2integrins"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "lovastatin",
+            "Name": "lovastatin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cholesterol",
+            "Name": "cholesterol"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "human LFA-1",
+            "Name": "humanlfa1"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "intercellular adhesion molecule-1",
+            "Name": "intercellularadhesionmolecule1"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "LFA-1 alpha-chain",
+            "Name": "lfa1alphachain"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "I-domain",
+            "Name": "idomain"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "integrin",
+            "Name": "integrin"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "LFA-1",
+            "Name": "lfa1"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "LFA-1",
+            "Name": "lfa1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T5"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T4"
+        }
+    ]
+}

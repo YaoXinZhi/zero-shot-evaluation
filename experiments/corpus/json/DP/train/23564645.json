@@ -1,0 +1,48 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "OATP1B1",
+            "Name": "oatp1b1"
+        },
+        {
+            "id": "T2",
+            "type": "Gene",
+            "name": "liver uptake transporters",
+            "Name": "liveruptaketransporters"
+        },
+        {
+            "id": "T3",
+            "type": "Gene",
+            "name": "organic anion transporting polypeptide 1B1",
+            "Name": "organicaniontransportingpolypeptide1b1"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "OATP1B1",
+            "Name": "oatp1b1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "rifampicin",
+            "Name": "rifampicin"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "OATPs",
+            "Name": "oatps"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T5"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+T4	Pest 18 33	Japanese beetle
+T5	Location 44 57	Weil am Rhein
+T6	Pest 163 178	Japanese beetle
+T7	Date 190 199	this year
+T8	Location 250 283	Weil am Rhein in the customs area
+N1	NCBI_Taxonomy Annotation:T4 Referent:7064
+N2	GeoNames Annotation:T5 Referent:6558146
+N3	NCBI_Taxonomy Annotation:T6 Referent:7064
+N4	GeoNames Annotation:T8 Referent:6558146
+R1	Located_in Object:T4 Location:T5
+R2	Located_in Object:T6 Location:T8
+R3	Detected_on Object:T6 Date:T7
+E1	Nary Organisme_nuisible:T4 Lieu:T5
+E2	Nary Organisme_nuisible:T6 Lieu:T8 Date:T7

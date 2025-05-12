@@ -1,0 +1,100 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "prostate-specific membrane antigen",
+            "Name": "prostatespecificmembraneantigen"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "phenylalkylphosphonamidates",
+            "Name": "phenylalkylphosphonamidates"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "PSMA",
+            "Name": "psma"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "phenylalkylphosphonamidate",
+            "Name": "phenylalkylphosphonamidate"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "glutamic acid",
+            "Name": "glutamicacid"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PSMA",
+            "Name": "psma"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "phenyl- and benzylphosphonamidates",
+            "Name": "phenylandbenzylphosphonamidates"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "phenethyl",
+            "Name": "phenethyl"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "alkyl",
+            "Name": "alkyl"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "phosphorus",
+            "Name": "phosphorus"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "alkyl",
+            "Name": "alkyl"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "phenylalkyl",
+            "Name": "phenylalkyl"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "PSMA",
+            "Name": "psma"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T13"
+        }
+    ]
+}

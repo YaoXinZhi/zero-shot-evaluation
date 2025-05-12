@@ -1,0 +1,74 @@
+T15	CHEMICAL 0 10	Salsolinol
+N1	Name Annotation:T15 Referent:salsolinol
+T32	GENE-N 75 87	neurotrophin
+N2	Name Annotation:T32 Referent:neurotrophin
+T1	CHEMICAL 97 107	Salsolinol
+N3	Name Annotation:T1 Referent:salsolinol
+T4	CHEMICAL 109 112	SAL
+N4	Name Annotation:T4 Referent:sal
+T11	CHEMICAL 117 138	catechol isoquinoline
+N5	Name Annotation:T11 Referent:catecholisoquinoline
+T6	CHEMICAL 236 280	1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine
+N6	Name Annotation:T6 Referent:1methyl4phenyl1236tetrahydropyridine
+T10	CHEMICAL 282 286	MPTP
+N7	Name Annotation:T10 Referent:mptp
+T12	CHEMICAL 402 405	SAL
+N8	Name Annotation:T12 Referent:sal
+T13	CHEMICAL 580 583	SAL
+N9	Name Annotation:T13 Referent:sal
+T14	CHEMICAL 929 932	SAL
+N10	Name Annotation:T14 Referent:sal
+T31	GENE-N 981 985	PI3K
+N11	Name Annotation:T31 Referent:pi3k
+T2	CHEMICAL 1131 1134	SAL
+N12	Name Annotation:T2 Referent:sal
+T3	CHEMICAL 1239 1242	SAL
+N13	Name Annotation:T3 Referent:sal
+T16	GENE-Y 1409 1418	caspase-3
+N14	Name Annotation:T16 Referent:caspase3
+T17	GENE-Y 1433 1438	Bcl-2
+N15	Name Annotation:T17 Referent:bcl2
+T18	GENE-Y 1439 1442	Bax
+N16	Name Annotation:T18 Referent:bax
+T5	CHEMICAL 1464 1467	Sal
+N17	Name Annotation:T5 Referent:sal
+T19	GENE-N 1500 1504	pAkt
+N18	Name Annotation:T19 Referent:pakt
+T20	GENE-N 1541 1546	pCREB
+N19	Name Annotation:T20 Referent:pcreb
+T21	GENE-Y 1548 1555	pGSK-3β
+N20	Name Annotation:T21 Referent:pgsk3β
+T22	GENE-Y 1557 1562	Bcl-2
+N21	Name Annotation:T22 Referent:bcl2
+T23	GENE-N 1567 1580	neurotrophins
+N22	Name Annotation:T23 Referent:neurotrophins
+T24	GENE-Y 1581 1585	GDNF
+N23	Name Annotation:T24 Referent:gdnf
+T25	GENE-Y 1587 1591	BDNF
+N24	Name Annotation:T25 Referent:bdnf
+T26	GENE-N 1613 1617	PI3K
+N25	Name Annotation:T26 Referent:pi3k
+T27	GENE-N 1618 1621	Akt
+N26	Name Annotation:T27 Referent:akt
+T7	CHEMICAL 1776 1779	SAL
+N27	Name Annotation:T7 Referent:sal
+T28	GENE-N 1799 1803	PI3K
+N28	Name Annotation:T28 Referent:pi3k
+T29	GENE-N 1804 1807	Akt
+N29	Name Annotation:T29 Referent:akt
+T8	CHEMICAL 1846 1854	LY294002
+N30	Name Annotation:T8 Referent:ly294002
+T30	GENE-N 1859 1863	PI3K
+N31	Name Annotation:T30 Referent:pi3k
+T9	CHEMICAL 1923 1926	SAL
+N32	Name Annotation:T9 Referent:sal
+R1	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T19
+R2	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T20
+R3	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T21
+R4	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T22
+R5	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T23
+R6	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T24
+R7	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T25
+R8	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T26
+R9	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T27
+R10	INHIBITOR Arg1:T8 Arg2:T30

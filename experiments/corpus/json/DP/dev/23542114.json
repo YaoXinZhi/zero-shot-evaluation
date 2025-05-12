@@ -1,0 +1,110 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Arsenic trioxide",
+            "Name": "arsenictrioxide"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Notch",
+            "Name": "notch"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "Notch",
+            "Name": "notch"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "arsenic trioxide",
+            "Name": "arsenictrioxide"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "ATO",
+            "Name": "ato"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "ATO",
+            "Name": "ato"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "ATO",
+            "Name": "ato"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ATO",
+            "Name": "ato"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "AKT",
+            "Name": "akt"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "STAT3",
+            "Name": "stat3"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Notch",
+            "Name": "notch"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "ATO",
+            "Name": "ato"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Notch",
+            "Name": "notch"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T12"
+        }
+    ]
+}

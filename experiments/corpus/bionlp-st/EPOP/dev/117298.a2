@@ -1,0 +1,80 @@
+T14	Plant 27 34	bananas
+T15	Disease 40 54	Panama disease
+T16	Plant 79 92	banana plants
+T17	Disease 112 126	Panama disease
+T18	Disease 112 126	Panama disease
+T19	Pest 142 175	Fusarium oxysporum f. sp. cubense
+T20	Disease 265 279	Panama disease
+T21	Disease 265 279	Panama disease
+T22	Plant 283 290	bananas
+T23	Date 485 497	In the 1950s
+T24	Disease 499 513	Panama disease
+T25	Pest 536 569	Fusarium oxysporum cubense Race 1
+T26	Plant 665 690	Cavendish variety bananas
+T27	Pest 736 751	Tropical Race 4
+T28	Plant 806 834	Cavendish banana plantations
+T29	Disease 845 859	Panama disease
+T30	Disease 845 859	Panama disease
+T31	Plant 900 917	Cavendish bananas
+T32	Plant 1032 1049	Cavendish bananas
+T33	Date 1056 1062	so far
+T34	Disease 1181 1195	Panama disease
+T35	Disease 1483 1497	Panama disease
+T36	Disease 1483 1497	Panama disease
+T37	Disease 1919 1933	Panama disease
+T38	Plant 1947 1959	banana plant
+T39	Disease 2284 2298	Panama disease
+T40	Plant 2401 2408	bananas
+T41	Plant 2459 2466	bananas
+T42	Disease 2472 2486	Panama disease
+T43	Plant 2579 2585	banana
+T44	Date 2688 2706	over several years
+T45	Location 3130 3132	UK
+T46	Disease 3855 3876	banana Panama disease
+T47	Pest 3888 3937	Fusarium oxysporum f. sp. cubense Tropical Race 4
+N1	NCBI_Taxonomy Annotation:T14 Referent:4640
+N2	NCBI_Taxonomy Annotation:T16 Referent:4640
+N3	NCBI_Taxonomy Annotation:T19 Referent:61366
+N4	NCBI_Taxonomy Annotation:T19 Referent:2502994
+N5	NCBI_Taxonomy Annotation:T22 Referent:4640
+N6	NCBI_Taxonomy Annotation:T25 Referent:1229664
+N7	NCBI_Taxonomy Annotation:T26 Referent:214697
+N8	NCBI_Taxonomy Annotation:T27 Referent:2502994
+N9	NCBI_Taxonomy Annotation:T28 Referent:214697
+N10	NCBI_Taxonomy Annotation:T31 Referent:214697
+N11	NCBI_Taxonomy Annotation:T32 Referent:214697
+N12	NCBI_Taxonomy Annotation:T38 Referent:4640
+N13	NCBI_Taxonomy Annotation:T40 Referent:4640
+N14	NCBI_Taxonomy Annotation:T41 Referent:4640
+N15	NCBI_Taxonomy Annotation:T43 Referent:4640
+N16	GeoNames Annotation:T45 Referent:2635167
+N17	NCBI_Taxonomy Annotation:T47 Referent:2502994
+R1	Detected_on Object:T14 Date:T23
+R2	Expressed_by Disease:T15 Plant:T14
+R3	Causes Pest:T19 Disease:T17
+R4	Expressed_by Disease:T17 Plant:T16
+R5	Found_on Organism:T19 Habitat:T16
+R6	Expressed_by Disease:T20 Plant:T22
+R7	Causes Pest:T25 Disease:T24
+R8	Expressed_by Disease:T24 Plant:T14
+R9	Expressed_by Disease:T24 Plant:T26
+R10	Detected_on Object:T24 Date:T23
+R11	Detected_on Object:T25 Date:T23
+R12	Found_on Organism:T25 Habitat:T14
+R13	Found_on Organism:T25 Habitat:T26
+R14	Causes Pest:T27 Disease:T29
+R15	Found_on Organism:T27 Habitat:T28
+R16	Expressed_by Disease:T29 Plant:T31
+R17	Expressed_by Disease:T29 Plant:T28
+R18	Expressed_by Disease:T42 Plant:T41
+R19	Causes Pest:T47 Disease:T46
+E1	Nary Plante:T14 Maladie:T15
+E2	Nary Organisme_nuisible:T19 Plante:T16 Maladie:T17
+E3	Nary Plante:T22 Maladie:T20
+E4	Nary Organisme_nuisible:T25 Plante:T14 Maladie:T24 Date:T23
+E5	Nary Organisme_nuisible:T25 Plante:T26 Maladie:T24
+E6	Nary Organisme_nuisible:T27 Plante:T28 Maladie:T29
+E7	Nary Plante:T31 Maladie:T29
+E8	Nary Plante:T41 Maladie:T42
+E9	Nary Organisme_nuisible:T47 Maladie:T46
+*	Equiv T32 T31

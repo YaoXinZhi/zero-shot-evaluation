@@ -1,0 +1,104 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Leukotrienes",
+            "Name": "leukotrienes"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "leukotriene",
+            "Name": "leukotriene"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "leukotrienes",
+            "Name": "leukotrienes"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "5-lipoxygenase",
+            "Name": "5lipoxygenase"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "5-LO",
+            "Name": "5lo"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "diethylcarbamazine",
+            "Name": "diethylcarbamazine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "DEC",
+            "Name": "dec"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "myeloperoxidase",
+            "Name": "myeloperoxidase"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "5-LO",
+            "Name": "5lo"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "DEC",
+            "Name": "dec"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "DEC",
+            "Name": "dec"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "5-LO",
+            "Name": "5lo"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T9"
+        }
+    ]
+}

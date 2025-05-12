@@ -1,0 +1,101 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "4-phenylpiperidines",
+            "Name": "4phenylpiperidines"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "4-phenylpiperazines",
+            "Name": "4phenylpiperazines"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "mono-substituted 4-phenylpiperidines and -piperazines",
+            "Name": "monosubstituted4phenylpiperidinesandpiperazines"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "3,4-dihydroxyphenylacetic acid",
+            "Name": "34dihydroxyphenylaceticacid"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "DOPAC",
+            "Name": "dopac"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "dopamine D2 (DA D2) receptor",
+            "Name": "dopamined2dad2receptor"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "monoamine oxidase A",
+            "Name": "monoamineoxidasea"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "MAO A",
+            "Name": "maoa"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "DOPAC",
+            "Name": "dopac"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "DOPAC",
+            "Name": "dopac"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "DA D2",
+            "Name": "dad2"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "MAO A",
+            "Name": "maoa"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T11"
+        }
+    ]
+}

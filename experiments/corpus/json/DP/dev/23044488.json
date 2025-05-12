@@ -1,0 +1,111 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "human butyrylcholinesterase",
+            "Name": "humanbutyrylcholinesterase"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "Human serum butyrylcholinesterase",
+            "Name": "humanserumbutyrylcholinesterase"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "HuBChE",
+            "Name": "hubche"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "organophosphate",
+            "Name": "organophosphate"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "HuBChE",
+            "Name": "hubche"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "HuBChE",
+            "Name": "hubche"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "HuBChE",
+            "Name": "hubche"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "acyl",
+            "Name": "acyl"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "HuBChE",
+            "Name": "hubche"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "HBP-4",
+            "Name": "hbp4"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "BChE",
+            "Name": "bche"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "BChE",
+            "Name": "bche"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "HBP-4",
+            "Name": "hbp4"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Part of",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Part of",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T4"
+        }
+    ]
+}

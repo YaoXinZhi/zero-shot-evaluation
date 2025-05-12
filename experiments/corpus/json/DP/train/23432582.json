@@ -1,0 +1,154 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Bisacylimidoselenocarbamates",
+            "Name": "bisacylimidoselenocarbamates"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "CDK1",
+            "Name": "cdk1"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Chk2",
+            "Name": "chk2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Bisacylimidoselenocarbamate",
+            "Name": "bisacylimidoselenocarbamate"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "BSC",
+            "Name": "bsc"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "phosphatidylserine",
+            "Name": "phosphatidylserine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "BSC",
+            "Name": "bsc"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "BSC",
+            "Name": "bsc"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "BSC",
+            "Name": "bsc"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "CDK1",
+            "Name": "cdk1"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "CDK2",
+            "Name": "cdk2"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "cyclin A an B1",
+            "Name": "cyclinaanb1"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "caspase-2",
+            "Name": "caspase2"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "caspase",
+            "Name": "caspase"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "BSC",
+            "Name": "bsc"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "caspase",
+            "Name": "caspase"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "z-VAD-fmk",
+            "Name": "zvadfmk"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "p21CIP1",
+            "Name": "p21cip1"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Chk2",
+            "Name": "chk2"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "p53",
+            "Name": "p53"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "BSC",
+            "Name": "bsc"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "BSC",
+            "Name": "bsc"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T20"
+        }
+    ]
+}

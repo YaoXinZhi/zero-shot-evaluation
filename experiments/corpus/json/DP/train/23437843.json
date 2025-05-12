@@ -1,0 +1,158 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "6'-substituted (E)-2-(benzofuran-3(2H)-ylidene)-N-methylacetamides",
+            "Name": "6substitutede2benzofuran32hylidenenmethylacetamides"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "monoamine oxidase",
+            "Name": "monoamineoxidase"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "monoamine oxidase A",
+            "Name": "monoamineoxidasea"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "MAO-A",
+            "Name": "maoa"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "monoamine oxidase",
+            "Name": "monoamineoxidase"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "MAO",
+            "Name": "mao"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "6'-substituted (E)-2-(benzofuran-3(2H)-ylidene)-N-alkylacetamide",
+            "Name": "6substitutede2benzofuran32hylidenenalkylacetamide"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "6'-Sulfonyloxy",
+            "Name": "6sulfonyloxy"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "MAO-A",
+            "Name": "maoa"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "moclobemide",
+            "Name": "moclobemide"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MAO-A/B",
+            "Name": "maoab"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "6'-benzyloxy",
+            "Name": "6benzyloxy"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "2-(1-benzofuran-3-yl)-N-methylacetamide",
+            "Name": "21benzofuran3ylnmethylacetamide"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "4-N-methylcarboxamidomethylcoumarin",
+            "Name": "4nmethylcarboxamidomethylcoumarin"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "MAO",
+            "Name": "mao"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "MAO",
+            "Name": "mao"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T19"
+        }
+    ]
+}

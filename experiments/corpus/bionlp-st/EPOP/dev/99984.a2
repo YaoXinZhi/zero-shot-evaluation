@@ -1,0 +1,10 @@
+T2	Pest 12 29	Popillia japonica
+T3	Location 33 41	Piedmont
+T4	Plant 64 73	hazelnuts
+N1	NCBI_Taxonomy Annotation:T2 Referent:7064
+N2	GeoNames Annotation:T3 Referent:3170831
+N3	NCBI_Taxonomy Annotation:T4 Referent:13451
+R1	Located_in Object:T2 Location:T3
+R2	Found_on Organism:T2 Habitat:T4
+R3	Located_in Object:T4 Location:T3
+E1	Nary Organisme_nuisible:T2 Plante:T4 Lieu:T3

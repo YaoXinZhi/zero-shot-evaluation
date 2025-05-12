@@ -1,0 +1,236 @@
+{
+    "entities": [
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "Sciadopitysin",
+            "Name": "sciadopitysin"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "sciadopitysin",
+            "Name": "sciadopitysin"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "biflavonoids",
+            "Name": "biflavonoids"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Sciadopitysin",
+            "Name": "sciadopitysin"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "alkaline phosphatase",
+            "Name": "alkalinephosphatase"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "collagen",
+            "Name": "collagen"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "osteocalcin",
+            "Name": "osteocalcin"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Sciadopitysin",
+            "Name": "sciadopitysin"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "tumor necrosis factor-a",
+            "Name": "tumornecrosisfactora"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "TNF-\u03b1",
+            "Name": "tnf\u03b1"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "antimycin A",
+            "Name": "antimycina"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "sciadopitysin",
+            "Name": "sciadopitysin"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "antimycin A",
+            "Name": "antimycina"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "antimycin A",
+            "Name": "antimycina"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "sciadopitysin",
+            "Name": "sciadopitysin"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "antimycin A",
+            "Name": "antimycina"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "antimycin A",
+            "Name": "antimycina"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "adenosine triphosphate",
+            "Name": "adenosinetriphosphate"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "nitrotyrosine",
+            "Name": "nitrotyrosine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "sciadopitysin",
+            "Name": "sciadopitysin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "sciadopitysin",
+            "Name": "sciadopitysin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "cAMP-response element-binding protein",
+            "Name": "campresponseelementbindingprotein"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "CREB",
+            "Name": "creb"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "antimycin A",
+            "Name": "antimycina"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "sciadopitysin",
+            "Name": "sciadopitysin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T11",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T11",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T13",
+            "target": "T28"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T13",
+            "target": "T29"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T14",
+            "target": "T28"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T14",
+            "target": "T29"
+        },
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T24"
+        }
+    ]
+}

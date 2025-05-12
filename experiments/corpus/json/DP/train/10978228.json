@@ -1,0 +1,71 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "pyridoxine",
+            "Name": "pyridoxine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Pyridoxine",
+            "Name": "pyridoxine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "pyridoxine hydrochloride",
+            "Name": "pyridoxinehydrochloride"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "pyridoxal 5-phosphate",
+            "Name": "pyridoxal5phosphate"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "glutamic acid",
+            "Name": "glutamicacid"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "glutamic acid decarboxylas",
+            "Name": "glutamicaciddecarboxylas"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "GAD",
+            "Name": "gad"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "GAD1",
+            "Name": "gad1"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "GAD2",
+            "Name": "gad2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T6"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T7"
+        }
+    ]
+}

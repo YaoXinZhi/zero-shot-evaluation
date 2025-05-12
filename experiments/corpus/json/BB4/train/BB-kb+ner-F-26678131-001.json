@@ -1,0 +1,60 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Microorganism",
+            "name": "H. alvei",
+            "NCBI_Taxonomy": "569"
+        },
+        {
+            "id": "T2",
+            "type": "Microorganism",
+            "name": "Lactobacillus plantarum",
+            "NCBI_Taxonomy": "1590"
+        },
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Lc. lactis",
+            "NCBI_Taxonomy": "1358"
+        },
+        {
+            "id": "T4",
+            "type": "Habitat",
+            "name": "milk",
+            "OntoBiotope": "OBT:001645"
+        },
+        {
+            "id": "T5",
+            "type": "Microorganism",
+            "name": "STEC O26:H11",
+            "NCBI_Taxonomy": "244319"
+        },
+        {
+            "id": "T6",
+            "type": "Microorganism",
+            "name": "STEC O157:H7",
+            "NCBI_Taxonomy": "83334"
+        },
+        {
+            "id": "T7",
+            "type": "Phenotype",
+            "name": "STEC",
+            "OntoBiotope": "OBT:000019"
+        },
+        {
+            "id": "T8",
+            "type": "Habitat",
+            "name": "ripened cheese",
+            "OntoBiotope": "OBT:003428"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T5",
+            "target": "T7"
+        }
+    ]
+}

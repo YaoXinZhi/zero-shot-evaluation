@@ -1,0 +1,220 @@
+{
+    "entities": [
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "GABA receptor",
+            "Name": "gabareceptor"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Tiagabine",
+            "Name": "tiagabine"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "GAT-1",
+            "Name": "gat1"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "GABA transporter",
+            "Name": "gabatransporter"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "GAT-1",
+            "Name": "gat1"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "GABA transporter",
+            "Name": "gabatransporter"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "tiagabine",
+            "Name": "tiagabine"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "GABA transaminase",
+            "Name": "gabatransaminase"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "Glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "Glutamate decarboxylase",
+            "Name": "glutamatedecarboxylase"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "GAD",
+            "Name": "gad"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "citrate",
+            "Name": "citrate"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "tricarboxylic acid",
+            "Name": "tricarboxylicacid"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "GAD",
+            "Name": "gad"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T23"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T12",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T12",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T14",
+            "target": "T25"
+        },
+        {
+            "type": "Substrate",
+            "source": "T14",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T25"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T26"
+        },
+        {
+            "type": "Product of",
+            "source": "T4",
+            "target": "T22"
+        }
+    ]
+}

@@ -1,0 +1,139 @@
+{
+    "entities": [
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "immunophilin",
+            "Name": "immunophilin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "immunophilins",
+            "Name": "immunophilins"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "tacrolimus",
+            "Name": "tacrolimus"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "FK506",
+            "Name": "fk506"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "sirolimus",
+            "Name": "sirolimus"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "rapamycin",
+            "Name": "rapamycin"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Ca2+",
+            "Name": "ca2"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "immunophilin",
+            "Name": "immunophilin"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "FK506",
+            "Name": "fk506"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "FK506 binding protein-52",
+            "Name": "fk506bindingprotein52"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "FKBP52",
+            "Name": "fkbp52"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Ca(2+)",
+            "Name": "ca2"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Ca(2+) channels",
+            "Name": "ca2channels"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "FKBP52",
+            "Name": "fkbp52"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Ca(2+)",
+            "Name": "ca2"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T13"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T13"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T11"
+        }
+    ]
+}

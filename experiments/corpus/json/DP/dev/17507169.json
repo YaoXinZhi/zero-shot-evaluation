@@ -1,0 +1,207 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "Cannabinoid",
+            "Name": "cannabinoid"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "Cannabinoid CB1 receptors",
+            "Name": "cannabinoidcb1receptors"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "N-(piperidin-1-yl)-5-(4-chlorophenyl)-4-methyl-1H-pyrazole-3-carboxyamide",
+            "Name": "npiperidin1yl54chlorophenyl4methyl1hpyrazole3carboxyamide"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "SR 141716A",
+            "Name": "sr141716a"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "cannabinoid",
+            "Name": "cannabinoid"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "cannabinoid CB1 receptor",
+            "Name": "cannabinoidcb1receptor"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "glutamic acid",
+            "Name": "glutamicacid"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "CB1 receptors",
+            "Name": "cb1receptors"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "glutamic acid",
+            "Name": "glutamicacid"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "glutamic acid transporters",
+            "Name": "glutamicacidtransporters"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "vesicular glutamate transporters 1 and 2",
+            "Name": "vesicularglutamatetransporters1and2"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "VGlut1",
+            "Name": "vglut1"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "VGlut2",
+            "Name": "vglut2"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "glutamic acid",
+            "Name": "glutamicacid"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "glutamic acid decarboxylase-67",
+            "Name": "glutamicaciddecarboxylase67"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "GAD67",
+            "Name": "gad67"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "oxytocin",
+            "Name": "oxytocin"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "oxytocin",
+            "Name": "oxytocin"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "CB1 receptors",
+            "Name": "cb1receptors"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "CB1 receptors",
+            "Name": "cb1receptors"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "GABA",
+            "Name": "gaba"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "[(3)H](-)-CP 55,940",
+            "Name": "3hcp55940"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "SR 141716A",
+            "Name": "sr141716a"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "CB1 receptors",
+            "Name": "cb1receptors"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "SR 141716A",
+            "Name": "sr141716a"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "CB1 receptors",
+            "Name": "cb1receptors"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "CB1 receptors",
+            "Name": "cb1receptors"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "SR 141716A",
+            "Name": "sr141716a"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "SR 141716A",
+            "Name": "sr141716a"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T6",
+            "target": "T16"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T13",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T17"
+        }
+    ]
+}

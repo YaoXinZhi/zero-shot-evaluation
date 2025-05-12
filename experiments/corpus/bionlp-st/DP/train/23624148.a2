@@ -1,0 +1,69 @@
+T22	CHEMICAL 0 13	Sciadopitysin
+N1	Name Annotation:T22 Referent:sciadopitysin
+T9	CHEMICAL 228 241	sciadopitysin
+N2	Name Annotation:T9 Referent:sciadopitysin
+T10	CHEMICAL 253 265	biflavonoids
+N3	Name Annotation:T10 Referent:biflavonoids
+T11	CHEMICAL 339 352	Sciadopitysin
+N4	Name Annotation:T11 Referent:sciadopitysin
+T25	GENE-N 387 407	alkaline phosphatase
+N5	Name Annotation:T25 Referent:alkalinephosphatase
+T26	GENE-N 418 426	collagen
+N6	Name Annotation:T26 Referent:collagen
+T27	GENE-Y 438 449	osteocalcin
+N7	Name Annotation:T27 Referent:osteocalcin
+T12	CHEMICAL 482 493	glutathione
+N8	Name Annotation:T12 Referent:glutathione
+T13	CHEMICAL 525 538	Sciadopitysin
+N9	Name Annotation:T13 Referent:sciadopitysin
+T28	GENE-Y 572 595	tumor necrosis factor-a
+N10	Name Annotation:T28 Referent:tumornecrosisfactora
+T29	GENE-Y 597 602	TNF-α
+N11	Name Annotation:T29 Referent:tnfα
+T14	CHEMICAL 615 626	antimycin A
+N12	Name Annotation:T14 Referent:antimycina
+T15	CHEMICAL 716 729	sciadopitysin
+N13	Name Annotation:T15 Referent:sciadopitysin
+T16	CHEMICAL 733 744	antimycin A
+N14	Name Annotation:T16 Referent:antimycina
+T17	CHEMICAL 824 835	antimycin A
+N15	Name Annotation:T17 Referent:antimycina
+T18	CHEMICAL 921 934	sciadopitysin
+N16	Name Annotation:T18 Referent:sciadopitysin
+T19	CHEMICAL 944 955	antimycin A
+N17	Name Annotation:T19 Referent:antimycina
+T20	CHEMICAL 987 998	antimycin A
+N18	Name Annotation:T20 Referent:antimycina
+T21	CHEMICAL 1079 1101	adenosine triphosphate
+N19	Name Annotation:T21 Referent:adenosinetriphosphate
+T1	CHEMICAL 1103 1106	ATP
+N20	Name Annotation:T1 Referent:atp
+T2	CHEMICAL 1123 1129	oxygen
+N21	Name Annotation:T2 Referent:oxygen
+T3	CHEMICAL 1157 1170	nitrotyrosine
+N22	Name Annotation:T3 Referent:nitrotyrosine
+T4	CHEMICAL 1197 1210	sciadopitysin
+N23	Name Annotation:T4 Referent:sciadopitysin
+T5	CHEMICAL 1300 1313	sciadopitysin
+N24	Name Annotation:T5 Referent:sciadopitysin
+T6	CHEMICAL 1343 1347	cAMP
+N25	Name Annotation:T6 Referent:camp
+T23	GENE-N 1343 1380	cAMP-response element-binding protein
+N26	Name Annotation:T23 Referent:campresponseelementbindingprotein
+T24	GENE-N 1382 1386	CREB
+N27	Name Annotation:T24 Referent:creb
+T7	CHEMICAL 1401 1412	antimycin A
+N28	Name Annotation:T7 Referent:antimycina
+T8	CHEMICAL 1443 1456	sciadopitysin
+N29	Name Annotation:T8 Referent:sciadopitysin
+R1	ACTIVATOR Arg1:T11 Arg2:T25
+R2	INDIRECT-UPREGULATOR Arg1:T11 Arg2:T26
+R3	INDIRECT-UPREGULATOR Arg1:T11 Arg2:T27
+R4	INDIRECT-DOWNREGULATOR Arg1:T13 Arg2:T28
+R5	INDIRECT-DOWNREGULATOR Arg1:T13 Arg2:T29
+R6	INDIRECT-UPREGULATOR Arg1:T14 Arg2:T28
+R7	INDIRECT-UPREGULATOR Arg1:T14 Arg2:T29
+R8	ACTIVATOR Arg1:T5 Arg2:T23
+R9	ACTIVATOR Arg1:T5 Arg2:T24
+R10	INHIBITOR Arg1:T7 Arg2:T23
+R11	INHIBITOR Arg1:T7 Arg2:T24

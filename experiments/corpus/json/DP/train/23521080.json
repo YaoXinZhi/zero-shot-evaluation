@@ -1,0 +1,125 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "tranexamic Acid",
+            "Name": "tranexamicacid"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "tranexamic acid",
+            "Name": "tranexamicacid"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "TXA",
+            "Name": "txa"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "lysine",
+            "Name": "lysine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "plasminogen",
+            "Name": "plasminogen"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "fibrin",
+            "Name": "fibrin"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "TXA",
+            "Name": "txa"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "TXA",
+            "Name": "txa"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "5-(4-piperidyl)-3-isoxazolol",
+            "Name": "54piperidyl3isoxazolol"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "4-PIOL",
+            "Name": "4piol"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "plasminogen",
+            "Name": "plasminogen"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "4-PIOL",
+            "Name": "4piol"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "TXA",
+            "Name": "txa"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T12"
+        }
+    ]
+}

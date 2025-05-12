@@ -1,0 +1,174 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "MAC13243",
+            "Name": "mac13243"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "thiourea",
+            "Name": "thiourea"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "lipoprotein",
+            "Name": "lipoprotein"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "chaperone",
+            "Name": "chaperone"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "LolA",
+            "Name": "lola"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "MAC13243",
+            "Name": "mac13243"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "bacterial lipoprotein",
+            "Name": "bacteriallipoprotein"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "chaperone",
+            "Name": "chaperone"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "LolA",
+            "Name": "lola"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "MAC13243",
+            "Name": "mac13243"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "S-(4-chlorobenzyl)isothiourea",
+            "Name": "s4chlorobenzylisothiourea"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "bacterial actin-like protein",
+            "Name": "bacterialactinlikeprotein"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "MreB",
+            "Name": "mreb"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "MAC13243",
+            "Name": "mac13243"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "thiourea",
+            "Name": "thiourea"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "LolA",
+            "Name": "lola"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "LolA",
+            "Name": "lola"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "thiourea",
+            "Name": "thiourea"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "MAC13243",
+            "Name": "mac13243"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "thiourea",
+            "Name": "thiourea"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "LolA",
+            "Name": "lola"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "MreB",
+            "Name": "mreb"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T8",
+            "target": "T19"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T19"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T12"
+        }
+    ]
+}

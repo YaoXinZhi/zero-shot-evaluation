@@ -1,0 +1,191 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "resveratrol",
+            "Name": "resveratrol"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "clofarabine",
+            "Name": "clofarabine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "clofarabine",
+            "Name": "clofarabine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "resveratrol",
+            "Name": "resveratrol"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "clofarabine",
+            "Name": "clofarabine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Sp1",
+            "Name": "sp1"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "p-Akt",
+            "Name": "pakt"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Sp1",
+            "Name": "sp1"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "c-Met",
+            "Name": "cmet"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "cyclin D1",
+            "Name": "cyclind1"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "p21",
+            "Name": "p21"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "clofarabine",
+            "Name": "clofarabine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "resveratrol",
+            "Name": "resveratrol"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Sp1",
+            "Name": "sp1"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "phosphoinositide",
+            "Name": "phosphoinositide"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "phosphoinositide 3-kinase",
+            "Name": "phosphoinositide3kinase"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Ly294002",
+            "Name": "ly294002"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "p21",
+            "Name": "p21"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Sp1",
+            "Name": "sp1"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "cyclin D1",
+            "Name": "cyclind1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "resveratrol",
+            "Name": "resveratrol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "clofarabine",
+            "Name": "clofarabine"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Sp1",
+            "Name": "sp1"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T15"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T15"
+        }
+    ]
+}

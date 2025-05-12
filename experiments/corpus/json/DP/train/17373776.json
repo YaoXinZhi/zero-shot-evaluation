@@ -1,0 +1,279 @@
+{
+    "entities": [
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "glutaminase",
+            "Name": "glutaminase"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "synthase",
+            "Name": "synthase"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "glutamyl",
+            "Name": "glutamyl"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "ferredoxin-dependent glutamate synthase",
+            "Name": "ferredoxindependentglutamatesynthase"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "FdGltS",
+            "Name": "fdglts"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "glutamine",
+            "Name": "glutamine"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "ammonia",
+            "Name": "ammonia"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "FdGltS",
+            "Name": "fdglts"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "amino acyl",
+            "Name": "aminoacyl"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "E1013D",
+            "Name": "e1013d"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "glutamine",
+            "Name": "glutamine"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "2-oxoglutarate",
+            "Name": "2oxoglutarate"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "L-glutamate",
+            "Name": "lglutamate"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "L-glutamine",
+            "Name": "lglutamine"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "E1013N",
+            "Name": "e1013n"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "glutamine",
+            "Name": "glutamine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "2-oxoglutarate",
+            "Name": "2oxoglutarate"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "2-oxoglutarate",
+            "Name": "2oxoglutarate"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "glutaminase",
+            "Name": "glutaminase"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "ammonia",
+            "Name": "ammonia"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "ammonia",
+            "Name": "ammonia"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "glutamate synthase",
+            "Name": "glutamatesynthase"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "E1013D",
+            "Name": "e1013d"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "glutamine",
+            "Name": "glutamine"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "glutamine",
+            "Name": "glutamine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "glutamate",
+            "Name": "glutamate"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "glutamate synthase",
+            "Name": "glutamatesynthase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T11",
+            "target": "T27"
+        },
+        {
+            "type": "Part of",
+            "source": "T17",
+            "target": "T24"
+        },
+        {
+            "type": "Part of",
+            "source": "T17",
+            "target": "T28"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T14",
+            "target": "T24"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T14",
+            "target": "T28"
+        },
+        {
+            "type": "Substrate",
+            "source": "T18",
+            "target": "T30"
+        },
+        {
+            "type": "Substrate",
+            "source": "T19",
+            "target": "T30"
+        },
+        {
+            "type": "Product of",
+            "source": "T20",
+            "target": "T30"
+        },
+        {
+            "type": "Substrate",
+            "source": "T1",
+            "target": "T30"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T22"
+        },
+        {
+            "type": "Product of",
+            "source": "T3",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T4",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T9",
+            "target": "T25"
+        },
+        {
+            "type": "Substrate",
+            "source": "T9",
+            "target": "T26"
+        },
+        {
+            "type": "Substrate",
+            "source": "T14",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T14",
+            "target": "T28"
+        }
+    ]
+}

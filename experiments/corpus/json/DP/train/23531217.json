@@ -1,0 +1,52 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "bis-pyridinium mono-aldoxime",
+            "Name": "bispyridiniummonoaldoxime"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "cholinesterase",
+            "Name": "cholinesterase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "organophosphate",
+            "Name": "organophosphate"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "organophosphonate",
+            "Name": "organophosphonate"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "octadecyl silica",
+            "Name": "octadecylsilica"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T5"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T5"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T5"
+        }
+    ]
+}

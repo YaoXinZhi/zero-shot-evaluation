@@ -1,0 +1,82 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "quinolone",
+            "Name": "quinolone"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "\u03b17 nicotinic acetylcholine receptor",
+            "Name": "\u03b17nicotinicacetylcholinereceptor"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "acetylcholine",
+            "Name": "acetylcholine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "quinolone",
+            "Name": "quinolone"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "\u03b17 nicotinic acetylcholine receptor",
+            "Name": "\u03b17nicotinicacetylcholinereceptor"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "acetylcholine",
+            "Name": "acetylcholine"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "nAChR",
+            "Name": "nachr"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "4-phenyl-1-(quinuclidin-3-ylmethyl)quinolin-2(1H)-one",
+            "Name": "4phenyl1quinuclidin3ylmethylquinolin21hone"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "4-fluoroquinuclidine",
+            "Name": "4fluoroquinuclidine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "quinuclidine",
+            "Name": "quinuclidine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T6",
+            "target": "T10"
+        },
+        {
+            "type": "Agonist",
+            "source": "T4",
+            "target": "T9"
+        },
+        {
+            "type": "Agonist",
+            "source": "T4",
+            "target": "T8"
+        }
+    ]
+}

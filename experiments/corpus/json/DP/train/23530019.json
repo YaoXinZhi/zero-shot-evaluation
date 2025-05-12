@@ -1,0 +1,267 @@
+{
+    "entities": [
+        {
+            "id": "T26",
+            "type": "Chemical",
+            "name": "Nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "Nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "cotinine",
+            "Name": "cotinine"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "Nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T23",
+            "type": "Chemical",
+            "name": "nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "cytochrome P450 (CYP) 2A6",
+            "Name": "cytochromep450cyp2a6"
+        },
+        {
+            "id": "T24",
+            "type": "Chemical",
+            "name": "nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T25",
+            "type": "Chemical",
+            "name": "cotinine",
+            "Name": "cotinine"
+        },
+        {
+            "id": "T35",
+            "type": "Gene",
+            "name": "CYP2A",
+            "Name": "cyp2a"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "CYP2B",
+            "Name": "cyp2b"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "coumarin",
+            "Name": "coumarin"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "CYP2A",
+            "Name": "cyp2a"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "cotinine",
+            "Name": "cotinine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "C-8-xanthate",
+            "Name": "c8xanthate"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "CYP2B",
+            "Name": "cyp2b"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "CYP2A",
+            "Name": "cyp2a"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "CYP2B",
+            "Name": "cyp2b"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "CYP2A",
+            "Name": "cyp2a"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "bupropion",
+            "Name": "bupropion"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "CYP2B",
+            "Name": "cyp2b"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "nicotine",
+            "Name": "nicotine"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "nicotine",
+            "Name": "nicotine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T24",
+            "target": "T34"
+        },
+        {
+            "type": "Product of",
+            "source": "T25",
+            "target": "T34"
+        },
+        {
+            "type": "Substrate",
+            "source": "T2",
+            "target": "T27"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T29"
+        },
+        {
+            "type": "Substrate",
+            "source": "T7",
+            "target": "T29"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T29"
+        },
+        {
+            "type": "Substrate",
+            "source": "T10",
+            "target": "T31"
+        },
+        {
+            "type": "Substrate",
+            "source": "T12",
+            "target": "T33"
+        },
+        {
+            "type": "Substrate",
+            "source": "T11",
+            "target": "T31"
+        }
+    ]
+}

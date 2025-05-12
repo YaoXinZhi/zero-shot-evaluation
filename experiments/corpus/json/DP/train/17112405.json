@@ -1,0 +1,234 @@
+{
+    "entities": [
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "Cysteinyl leukotriene",
+            "Name": "cysteinylleukotriene"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "Cysteinyl leukotriene receptor 1",
+            "Name": "cysteinylleukotrienereceptor1"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "N-methyl-D-aspartate",
+            "Name": "nmethyldaspartate"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "cysteinyl leukotriene",
+            "Name": "cysteinylleukotriene"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "cysteinyl leukotriene receptor 1",
+            "Name": "cysteinylleukotrienereceptor1"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "CysLT1 receptor",
+            "Name": "cyslt1receptor"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "N-methyl-D-aspartate",
+            "Name": "nmethyldaspartate"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "CysLT1 receptor",
+            "Name": "cyslt1receptor"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "CysLT1 receptor",
+            "Name": "cyslt1receptor"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "pranlukast",
+            "Name": "pranlukast"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "NMDA receptor",
+            "Name": "nmdareceptor"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "ketamine",
+            "Name": "ketamine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "edaravone",
+            "Name": "edaravone"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "CysLT1 receptor",
+            "Name": "cyslt1receptor"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Pranlukast",
+            "Name": "pranlukast"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "ketamine",
+            "Name": "ketamine"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "edaravone",
+            "Name": "edaravone"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "pranlukast",
+            "Name": "pranlukast"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "ketamine",
+            "Name": "ketamine"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "CysLT1 receptor",
+            "Name": "cyslt1receptor"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "CysLT1 receptor",
+            "Name": "cyslt1receptor"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "CysLT1 receptor",
+            "Name": "cyslt1receptor"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "CysLT1 receptor",
+            "Name": "cyslt1receptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "NMDA",
+            "Name": "nmda"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T6",
+            "target": "T26"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T8",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T28"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T16",
+            "target": "T30"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T15",
+            "target": "T30"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T18",
+            "target": "T31"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T23"
+        }
+    ]
+}

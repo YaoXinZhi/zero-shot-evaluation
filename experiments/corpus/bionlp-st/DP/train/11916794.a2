@@ -1,0 +1,72 @@
+T24	CHEMICAL 0 8	Tramadol
+N1	Name Annotation:T24 Referent:tramadol
+T25	CHEMICAL 18 32	norepinephrine
+N2	Name Annotation:T25 Referent:norepinephrine
+T32	GENE-Y 18 44	norepinephrine transporter
+N3	Name Annotation:T32 Referent:norepinephrinetransporter
+T26	CHEMICAL 57 68	desipramine
+N4	Name Annotation:T26 Referent:desipramine
+T3	CHEMICAL 139 147	Tramadol
+N5	Name Annotation:T3 Referent:tramadol
+T2	CHEMICAL 247 255	tramadol
+N6	Name Annotation:T2 Referent:tramadol
+T5	CHEMICAL 259 273	norepinephrine
+N7	Name Annotation:T5 Referent:norepinephrine
+T28	GENE-Y 259 285	norepinephrine transporter
+N8	Name Annotation:T28 Referent:norepinephrinetransporter
+T30	GENE-Y 287 290	NET
+N9	Name Annotation:T30 Referent:net
+T10	CHEMICAL 327 335	tramadol
+N10	Name Annotation:T10 Referent:tramadol
+T11	CHEMICAL 339 358	[3H]-norepinephrine
+N11	Name Annotation:T11 Referent:3hnorepinephrine
+T12	CHEMICAL 360 367	[3H]-NE
+N12	Name Annotation:T12 Referent:3hne
+T13	CHEMICAL 380 396	[3H]-desipramine
+N13	Name Annotation:T13 Referent:3hdesipramine
+T14	CHEMICAL 485 499	[14C]-tramadol
+N14	Name Annotation:T14 Referent:14ctramadol
+T15	CHEMICAL 552 560	Tramadol
+N15	Name Annotation:T15 Referent:tramadol
+T16	CHEMICAL 575 586	desipramine
+N16	Name Annotation:T16 Referent:desipramine
+T17	CHEMICAL 607 614	[3H]-NE
+N17	Name Annotation:T17 Referent:3hne
+T18	CHEMICAL 752 760	tramadol
+N18	Name Annotation:T18 Referent:tramadol
+T19	CHEMICAL 806 813	[3H]-NE
+N19	Name Annotation:T19 Referent:3hne
+T31	GENE-Y 920 923	NET
+N20	Name Annotation:T31 Referent:net
+T20	CHEMICAL 967 975	Tramadol
+N21	Name Annotation:T20 Referent:tramadol
+T21	CHEMICAL 1010 1026	[3H]-desipramine
+N22	Name Annotation:T21 Referent:3hdesipramine
+T22	CHEMICAL 1070 1086	[3H]-desipramine
+N23	Name Annotation:T22 Referent:3hdesipramine
+T23	CHEMICAL 1109 1117	tramadol
+N24	Name Annotation:T23 Referent:tramadol
+T1	CHEMICAL 1287 1301	[14C]-tramadol
+N25	Name Annotation:T1 Referent:14ctramadol
+T4	CHEMICAL 1293 1301	tramadol
+N26	Name Annotation:T4 Referent:tramadol
+T27	GENE-Y 1440 1443	NET
+N27	Name Annotation:T27 Referent:net
+T6	CHEMICAL 1456 1467	desipramine
+N28	Name Annotation:T6 Referent:desipramine
+T7	CHEMICAL 1497 1505	Tramadol
+N29	Name Annotation:T7 Referent:tramadol
+T8	CHEMICAL 1529 1543	norepinephrine
+N30	Name Annotation:T8 Referent:norepinephrine
+T29	GENE-Y 1529 1555	norepinephrine transporter
+N31	Name Annotation:T29 Referent:norepinephrinetransporter
+T9	CHEMICAL 1568 1579	desipramine
+N32	Name Annotation:T9 Referent:desipramine
+R1	INHIBITOR Arg1:T24 Arg2:T32
+R2	DIRECT-REGULATOR Arg1:T26 Arg2:T32
+R3	INHIBITOR Arg1:T18 Arg2:T31
+R4	SUBSTRATE Arg1:T19 Arg2:T31
+R5	INHIBITOR Arg1:T4 Arg2:T27
+R6	DIRECT-REGULATOR Arg1:T6 Arg2:T27
+R7	INHIBITOR Arg1:T7 Arg2:T29
+R8	DIRECT-REGULATOR Arg1:T9 Arg2:T29

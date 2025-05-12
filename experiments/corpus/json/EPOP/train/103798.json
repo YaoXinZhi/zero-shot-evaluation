@@ -1,0 +1,330 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Pest",
+            "name": "Colletotrichum truncatum",
+            "NCBI_Taxonomy": "5467"
+        },
+        {
+            "id": "T4",
+            "type": "Disease",
+            "name": "anthracnose"
+        },
+        {
+            "id": "T5",
+            "type": "Plant",
+            "name": "dragon fruit",
+            "NCBI_Taxonomy": "83431"
+        },
+        {
+            "id": "T6",
+            "type": "Plant",
+            "name": "Hylocereus spp",
+            "NCBI_Taxonomy": "83431"
+        },
+        {
+            "id": "T7",
+            "type": "Location",
+            "name": "India",
+            "GeoNames": "1269750"
+        },
+        {
+            "id": "T8",
+            "type": "Plant",
+            "name": "Dragon fruit",
+            "NCBI_Taxonomy": "83431"
+        },
+        {
+            "id": "T9",
+            "type": "Plant",
+            "name": "Hylocereus spp",
+            "NCBI_Taxonomy": "83431"
+        },
+        {
+            "id": "T12",
+            "type": "Plant",
+            "name": "H. undatus",
+            "NCBI_Taxonomy": "176265"
+        },
+        {
+            "id": "T13",
+            "type": "Plant",
+            "name": "H. polyrhizus",
+            "NCBI_Taxonomy": "1195128"
+        },
+        {
+            "id": "T14",
+            "type": "Location",
+            "name": "Baramati",
+            "GeoNames": "1277091"
+        },
+        {
+            "id": "T15",
+            "type": "Disease",
+            "name": "anthracnose"
+        },
+        {
+            "id": "T18",
+            "type": "Plant",
+            "name": "potato",
+            "NCBI_Taxonomy": "4113"
+        },
+        {
+            "id": "T19",
+            "type": "Pest",
+            "name": "Colletotrichum truncatum (Schwein.) Andrus & W.D. Moore",
+            "NCBI_Taxonomy": "5467"
+        },
+        {
+            "id": "T20",
+            "type": "Pest",
+            "name": "C. truncatum",
+            "NCBI_Taxonomy": "5467"
+        },
+        {
+            "id": "T21",
+            "type": "Plant",
+            "name": "H. undatus",
+            "NCBI_Taxonomy": "176265"
+        },
+        {
+            "id": "T22",
+            "type": "Plant",
+            "name": "H. polyrhizus",
+            "NCBI_Taxonomy": "1195128"
+        },
+        {
+            "id": "T23",
+            "type": "Pest",
+            "name": "C. truncatum",
+            "NCBI_Taxonomy": "5467"
+        },
+        {
+            "id": "T24",
+            "type": "Pest",
+            "name": "C. truncatum",
+            "NCBI_Taxonomy": "5467"
+        },
+        {
+            "id": "T25",
+            "type": "Pest",
+            "name": "C. truncatum",
+            "NCBI_Taxonomy": "5467"
+        },
+        {
+            "id": "T26",
+            "type": "Plant",
+            "name": "dragon fruit",
+            "NCBI_Taxonomy": "83431"
+        },
+        {
+            "id": "T27",
+            "type": "Disease",
+            "name": "anthracnose"
+        },
+        {
+            "id": "T28",
+            "type": "Pest",
+            "name": "C. truncatum",
+            "NCBI_Taxonomy": "5467"
+        },
+        {
+            "id": "T29",
+            "type": "Location",
+            "name": "China",
+            "GeoNames": "1814991"
+        },
+        {
+            "id": "T30",
+            "type": "Location",
+            "name": "Malaysia",
+            "GeoNames": "1733045"
+        },
+        {
+            "id": "T31",
+            "type": "Pest",
+            "name": "C. truncatum",
+            "NCBI_Taxonomy": "5467"
+        },
+        {
+            "id": "T32",
+            "type": "Plant",
+            "name": "dragon fruit",
+            "NCBI_Taxonomy": "83431"
+        },
+        {
+            "id": "T33",
+            "type": "Disease",
+            "name": "anthracnose"
+        },
+        {
+            "id": "T34",
+            "type": "Location",
+            "name": "India",
+            "GeoNames": "1269750"
+        }
+    ],
+    "equivalences": [
+        [
+            "T8",
+            "T9"
+        ],
+        [
+            "T6",
+            "T5"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Has been found on",
+            "source": "T3",
+            "target": "T5"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T3",
+            "target": "T13"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T3",
+            "target": "T7"
+        },
+        {
+            "type": "Located in",
+            "source": "T4",
+            "target": "T7"
+        },
+        {
+            "type": "Causes",
+            "source": "T3",
+            "target": "T4"
+        },
+        {
+            "type": "Affects",
+            "source": "T4",
+            "target": "T5"
+        },
+        {
+            "type": "Located in",
+            "source": "T5",
+            "target": "T7"
+        },
+        {
+            "type": "Causes",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Affects",
+            "source": "T15",
+            "target": "T13"
+        },
+        {
+            "type": "Affects",
+            "source": "T15",
+            "target": "T12"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T23",
+            "target": "T21"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T23",
+            "target": "T22"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T29"
+        },
+        {
+            "type": "Located in",
+            "source": "T26",
+            "target": "T30"
+        },
+        {
+            "type": "Located in",
+            "source": "T27",
+            "target": "T29"
+        },
+        {
+            "type": "Located in",
+            "source": "T27",
+            "target": "T30"
+        },
+        {
+            "type": "Causes",
+            "source": "T28",
+            "target": "T27"
+        },
+        {
+            "type": "Affects",
+            "source": "T27",
+            "target": "T26"
+        },
+        {
+            "type": "Affects",
+            "source": "T27",
+            "target": "T26"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T28",
+            "target": "T26"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T28",
+            "target": "T26"
+        },
+        {
+            "type": "Located in",
+            "source": "T28",
+            "target": "T29"
+        },
+        {
+            "type": "Located in",
+            "source": "T28",
+            "target": "T30"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T31",
+            "target": "T32"
+        },
+        {
+            "type": "Located in",
+            "source": "T31",
+            "target": "T34"
+        },
+        {
+            "type": "Located in",
+            "source": "T32",
+            "target": "T34"
+        },
+        {
+            "type": "Located in",
+            "source": "T33",
+            "target": "T34"
+        },
+        {
+            "type": "Causes",
+            "source": "T31",
+            "target": "T33"
+        },
+        {
+            "type": "Affects",
+            "source": "T33",
+            "target": "T32"
+        }
+    ]
+}

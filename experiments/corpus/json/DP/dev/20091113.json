@@ -1,0 +1,77 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "dopamine transporter",
+            "Name": "dopaminetransporter"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "SLC6A3",
+            "Name": "slc6a3"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "D-amphetamine",
+            "Name": "damphetamine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "d-amphetamine",
+            "Name": "damphetamine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "dopamine transporter",
+            "Name": "dopaminetransporter"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "SLC6A3",
+            "Name": "slc6a3"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "d-amphetamine",
+            "Name": "damphetamine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "amphetamine",
+            "Name": "amphetamine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T9"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T10"
+        }
+    ]
+}

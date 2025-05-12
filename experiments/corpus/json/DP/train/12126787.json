@@ -1,0 +1,227 @@
+{
+    "entities": [
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "protein kinase C",
+            "Name": "proteinkinasec"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "vascular endothelial growth factor",
+            "Name": "vascularendothelialgrowthfactor"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "gliclazide",
+            "Name": "gliclazide"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "protein kinase C",
+            "Name": "proteinkinasec"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "PKC",
+            "Name": "pkc"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "vascular endothelial growth factor",
+            "Name": "vascularendothelialgrowthfactor"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "PKC",
+            "Name": "pkc"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "PKC",
+            "Name": "pkc"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "PKC",
+            "Name": "pkc"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "PKC",
+            "Name": "pkc"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "calphostin C",
+            "Name": "calphostinc"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "gliclazide",
+            "Name": "gliclazide"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "N-acetylcysteine",
+            "Name": "nacetylcysteine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "vitamin E",
+            "Name": "vitamine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "glyburide",
+            "Name": "glyburide"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "NF-kappa B consensus sequence",
+            "Name": "nfkappabconsensussequence"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "VEGF promoter",
+            "Name": "vegfpromoter"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "NF-kappa B",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "gliclazide",
+            "Name": "gliclazide"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "gliclazide",
+            "Name": "gliclazide"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PKC",
+            "Name": "pkc"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "VEGF",
+            "Name": "vegf"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "PKC",
+            "Name": "pkc"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T28"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T6",
+            "target": "T26"
+        }
+    ]
+}

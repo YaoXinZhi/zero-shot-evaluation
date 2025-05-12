@@ -1,0 +1,115 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Monocarbonyl Curcumin",
+            "Name": "monocarbonylcurcumin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Kinase",
+            "Name": "kinase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Curcumin",
+            "Name": "curcumin"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "kinases",
+            "Name": "kinases"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "curcumin",
+            "Name": "curcumin"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "IKK\u03b2",
+            "Name": "ikk\u03b2"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "AKT2",
+            "Name": "akt2"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "ATP",
+            "Name": "atp"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "curcumin",
+            "Name": "curcumin"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Ser",
+            "Name": "ser"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "Ser/Thr kinases",
+            "Name": "serthrkinases"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Thr",
+            "Name": "thr"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "kinase",
+            "Name": "kinase"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T11"
+        }
+    ]
+}

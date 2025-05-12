@@ -1,0 +1,95 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "deprenyl",
+            "Name": "deprenyl"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Deprenyl",
+            "Name": "deprenyl"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "monoamine",
+            "Name": "monoamine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "monoamine oxidase type-B",
+            "Name": "monoamineoxidasetypeb"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "MAO-B",
+            "Name": "maob"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "MAO",
+            "Name": "mao"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "14C-Deprenyl",
+            "Name": "14cdeprenyl"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Deprenyl",
+            "Name": "deprenyl"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "amphetamine",
+            "Name": "amphetamine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "methylamphetamine",
+            "Name": "methylamphetamine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "deprenyl",
+            "Name": "deprenyl"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "(-) -deprenyl",
+            "Name": "deprenyl"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "(-) -amphetamines",
+            "Name": "amphetamines"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T13"
+        }
+    ]
+}

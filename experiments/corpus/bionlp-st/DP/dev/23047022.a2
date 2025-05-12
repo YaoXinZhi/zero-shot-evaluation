@@ -1,0 +1,85 @@
+T37	GENE 20 40	acetylcholinesterase
+N1	Name Annotation:T37 Referent:acetylcholinesterase
+T36	GENE 79 99	acetylcholinesterase
+N2	Name Annotation:T36 Referent:acetylcholinesterase
+T24	GENE 101 105	AChE
+N3	Name Annotation:T24 Referent:ache
+T1	CHEMICAL 175 188	acetylcholine
+N4	Name Annotation:T1 Referent:acetylcholine
+T23	GENE 307 311	AChE
+N5	Name Annotation:T23 Referent:ache
+T25	GENE 426 451	amyloid precursor protein
+N6	Name Annotation:T25 Referent:amyloidprecursorprotein
+T26	GENE 453 456	APP
+N7	Name Annotation:T26 Referent:app
+T27	GENE 465 469	AChE
+N8	Name Annotation:T27 Referent:ache
+T28	GENE 489 509	transmembrane domain
+N9	Name Annotation:T28 Referent:transmembranedomain
+T11	CHEMICAL 564 571	Proline
+N10	Name Annotation:T11 Referent:proline
+T29	GENE 564 592	Proline Rich Membrane Anchor
+N11	Name Annotation:T29 Referent:prolinerichmembraneanchor
+T30	GENE 594 599	PRiMA
+N12	Name Annotation:T30 Referent:prima
+T31	GENE 683 687	AChE
+N13	Name Annotation:T31 Referent:ache
+T32	GENE 720 741	butyrylcholinesterase
+N14	Name Annotation:T32 Referent:butyrylcholinesterase
+T33	GENE 743 747	BChE
+N15	Name Annotation:T33 Referent:bche
+T34	GENE 868 872	AChE
+N16	Name Annotation:T34 Referent:ache
+T35	GENE 877 881	BChE
+N17	Name Annotation:T35 Referent:bche
+T12	GENE 1112 1116	AChE
+N18	Name Annotation:T12 Referent:ache
+T2	CHEMICAL 1227 1231	EDTA
+N19	Name Annotation:T2 Referent:edta
+T3	CHEMICAL 1237 1247	batimastat
+N20	Name Annotation:T3 Referent:batimastat
+T4	CHEMICAL 1263 1269	GM6001
+N21	Name Annotation:T4 Referent:gm6001
+T13	GENE 1282 1297	metalloprotease
+N22	Name Annotation:T13 Referent:metalloprotease
+T5	CHEMICAL 1345 1350	thiol
+N23	Name Annotation:T5 Referent:thiol
+T14	GENE 1345 1360	thiol isomerase
+N24	Name Annotation:T14 Referent:thiolisomerase
+T15	GENE 1382 1386	AChE
+N25	Name Annotation:T15 Referent:ache
+T16	GENE 1431 1464	muscarinic acetylcholine receptor
+N26	Name Annotation:T16 Referent:muscarinicacetylcholinereceptor
+T6	CHEMICAL 1442 1455	acetylcholine
+N27	Name Annotation:T6 Referent:acetylcholine
+T17	GENE 1466 1471	mAChR
+N28	Name Annotation:T17 Referent:machr
+T7	CHEMICAL 1482 1491	carbachol
+N29	Name Annotation:T7 Referent:carbachol
+T8	CHEMICAL 1495 1504	muscarine
+N30	Name Annotation:T8 Referent:muscarine
+T9	CHEMICAL 1525 1534	carbachol
+N31	Name Annotation:T9 Referent:carbachol
+T18	GENE 1550 1555	mAChR
+N32	Name Annotation:T18 Referent:machr
+T10	CHEMICAL 1567 1575	atropine
+N33	Name Annotation:T10 Referent:atropine
+T19	GENE 1577 1581	AChE
+N34	Name Annotation:T19 Referent:ache
+T20	GENE 1723 1738	amyloid fibrils
+N35	Name Annotation:T20 Referent:amyloidfibrils
+T21	GENE 1838 1842	AChE
+N36	Name Annotation:T21 Referent:ache
+T22	GENE 1847 1851	BChE
+N37	Name Annotation:T22 Referent:bche
+R1	SUBSTRATE Arg1:T1 Arg2:T36
+R2	SUBSTRATE Arg1:T1 Arg2:T24
+R3	AGONIST Arg1:T7 Arg2:T16
+R4	AGONIST Arg1:T8 Arg2:T16
+R5	AGONIST Arg1:T7 Arg2:T17
+R6	AGONIST Arg1:T8 Arg2:T17
+R7	INDIRECT-UPREGULATOR Arg1:T7 Arg2:T15
+R8	INDIRECT-UPREGULATOR Arg1:T8 Arg2:T15
+R9	ANTAGONIST Arg1:T10 Arg2:T18
+R10	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T15
+R11	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T15

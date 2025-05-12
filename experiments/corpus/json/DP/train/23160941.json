@@ -1,0 +1,227 @@
+{
+    "entities": [
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "mouse formyl peptide receptors",
+            "Name": "mouseformylpeptidereceptors"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "formyl",
+            "Name": "formyl"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "human formyl peptide receptors",
+            "Name": "humanformylpeptidereceptors"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "formyl",
+            "Name": "formyl"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "FPRs",
+            "Name": "fprs"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "mouse formyl peptide receptor",
+            "Name": "mouseformylpeptidereceptor"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "formyl",
+            "Name": "formyl"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "mFprs",
+            "Name": "mfprs"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "mFpr1",
+            "Name": "mfpr1"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "mFpr2",
+            "Name": "mfpr2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "hexapeptide",
+            "Name": "hexapeptide"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Quin-C1",
+            "Name": "quinc1"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "quinazolinone",
+            "Name": "quinazolinone"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "nitrosylated pyrazolone",
+            "Name": "nitrosylatedpyrazolone"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "mFpr1",
+            "Name": "mfpr1"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "mFpr2",
+            "Name": "mfpr2"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "N-formyl-Met-Leu-Phe-Ile-Ile-Lys-fluorescein isothiocyanate",
+            "Name": "nformylmetleupheileilelysfluoresceinisothiocyanate"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "mFpr1",
+            "Name": "mfpr1"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "mFpr2",
+            "Name": "mfpr2"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "mFpr",
+            "Name": "mfpr"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "mFpr",
+            "Name": "mfpr"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "mFpr1",
+            "Name": "mfpr1"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "human FPR1",
+            "Name": "humanfpr1"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "human FPR2",
+            "Name": "humanfpr2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "ALX",
+            "Name": "alx"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "mFpr2",
+            "Name": "mfpr2"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "formyl",
+            "Name": "formyl"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "mFpr",
+            "Name": "mfpr"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "human FPR3",
+            "Name": "humanfpr3"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T24"
+        },
+        {
+            "type": "Agonist",
+            "source": "T7",
+            "target": "T26"
+        },
+        {
+            "type": "Agonist",
+            "source": "T8",
+            "target": "T26"
+        },
+        {
+            "type": "Agonist",
+            "source": "T9",
+            "target": "T26"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T27"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T28"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T1",
+            "target": "T12"
+        }
+    ]
+}

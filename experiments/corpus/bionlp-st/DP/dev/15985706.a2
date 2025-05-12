@@ -1,0 +1,103 @@
+T40	GENE 0 13	Gastric mucin
+N1	Name Annotation:T40 Referent:gastricmucin
+T44	GENE 39 81	beta-adrenergic G protein-coupled receptor
+N2	Name Annotation:T44 Referent:betaadrenergicgproteincoupledreceptor
+T41	GENE 108 111	SRC
+N3	Name Annotation:T41 Referent:src
+T42	GENE 112 118	kinase
+N4	Name Annotation:T42 Referent:kinase
+T43	GENE 129 161	epidermal growth factor receptor
+N5	Name Annotation:T43 Referent:epidermalgrowthfactorreceptor
+T35	GENE 259 285	G protein-coupled receptor
+N6	Name Annotation:T35 Referent:gproteincoupledreceptor
+T16	GENE 287 291	GPCR
+N7	Name Annotation:T16 Referent:gpcr
+T25	GENE 366 390	receptor tyrosine kinase
+N8	Name Annotation:T25 Referent:receptortyrosinekinase
+T4	CHEMICAL 375 383	tyrosine
+N9	Name Annotation:T4 Referent:tyrosine
+T26	GENE 447 451	GPCR
+N10	Name Annotation:T26 Referent:gpcr
+T27	GENE 505 518	gastric mucin
+N11	Name Annotation:T27 Referent:gastricmucin
+T28	GENE 538 570	epidermal growth factor receptor
+N12	Name Annotation:T28 Referent:epidermalgrowthfactorreceptor
+T29	GENE 572 576	EGFR
+N13	Name Annotation:T29 Referent:egfr
+T5	CHEMICAL 599 616	[(3)H]glucosamine
+N14	Name Annotation:T5 Referent:3hglucosamine
+T30	GENE 726 731	mucin
+N15	Name Annotation:T30 Referent:mucin
+T31	GENE 759 763	EGFR
+N16	Name Annotation:T31 Referent:egfr
+T32	GENE 764 770	kinase
+N17	Name Annotation:T32 Referent:kinase
+T6	CHEMICAL 782 790	PD153035
+N18	Name Annotation:T6 Referent:pd153035
+T7	CHEMICAL 803 813	wortmannin
+N19	Name Annotation:T7 Referent:wortmannin
+T33	GENE 839 843	PI3K
+N20	Name Annotation:T33 Referent:pi3k
+T34	GENE 884 889	mucin
+N21	Name Annotation:T34 Referent:mucin
+T8	CHEMICAL 965 969	cAMP
+N22	Name Annotation:T8 Referent:camp
+T9	CHEMICAL 981 990	adenylate
+N23	Name Annotation:T9 Referent:adenylate
+T36	GENE 981 998	adenylate cyclase
+N24	Name Annotation:T36 Referent:adenylatecyclase
+T10	CHEMICAL 1010 1019	forskolin
+N25	Name Annotation:T10 Referent:forskolin
+T37	GENE 1025 1038	gastric mucin
+N26	Name Annotation:T37 Referent:gastricmucin
+T11	CHEMICAL 1062 1075	isoproterenol
+N27	Name Annotation:T11 Referent:isoproterenol
+T12	CHEMICAL 1108 1111	PP2
+N28	Name Annotation:T12 Referent:pp2
+T13	CHEMICAL 1138 1146	tyrosine
+N29	Name Annotation:T13 Referent:tyrosine
+T38	GENE 1138 1153	tyrosine kinase
+N30	Name Annotation:T38 Referent:tyrosinekinase
+T39	GENE 1154 1157	Src
+N31	Name Annotation:T39 Referent:src
+T14	GENE 1193 1197	EGFR
+N32	Name Annotation:T14 Referent:egfr
+T15	GENE 1230 1233	ERK
+N33	Name Annotation:T15 Referent:erk
+T1	CHEMICAL 1245 1252	PD98059
+N34	Name Annotation:T1 Referent:pd98059
+T17	GENE 1272 1275	ERK
+N35	Name Annotation:T17 Referent:erk
+T18	GENE 1316 1321	mucin
+N36	Name Annotation:T18 Referent:mucin
+T2	CHEMICAL 1347 1351	cAMP
+N37	Name Annotation:T2 Referent:camp
+T3	CHEMICAL 1356 1365	forskolin
+N38	Name Annotation:T3 Referent:forskolin
+T19	GENE 1402 1406	EGFR
+N39	Name Annotation:T19 Referent:egfr
+T20	GENE 1433 1446	gastric mucin
+N40	Name Annotation:T20 Referent:gastricmucin
+T21	GENE 1470 1490	beta-adrenergic GPCR
+N41	Name Annotation:T21 Referent:betaadrenergicgpcr
+T22	GENE 1539 1542	Src
+N42	Name Annotation:T22 Referent:src
+T23	GENE 1543 1549	kinase
+N43	Name Annotation:T23 Referent:kinase
+T24	GENE 1553 1557	EGFR
+N44	Name Annotation:T24 Referent:egfr
+R1	INHIBITOR Arg1:T6 Arg2:T31
+R2	INHIBITOR Arg1:T6 Arg2:T32
+R3	INHIBITOR Arg1:T7 Arg2:T33
+R4	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T30
+R5	INDIRECT-DOWNREGULATOR Arg1:T7 Arg2:T30
+R6	ACTIVATOR Arg1:T10 Arg2:T36
+R7	SUBSTRATE Arg1:T8 Arg2:T36
+R8	INDIRECT-DOWNREGULATOR Arg1:T12 Arg2:T37
+R9	INHIBITOR Arg1:T12 Arg2:T38
+R10	INHIBITOR Arg1:T12 Arg2:T39
+R11	ACTIVATOR Arg1:T12 Arg2:T14
+R12	INHIBITOR Arg1:T1 Arg2:T15
+R13	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T34
+R14	INHIBITOR Arg1:T2 Arg2:T17
+R15	INHIBITOR Arg1:T3 Arg2:T17

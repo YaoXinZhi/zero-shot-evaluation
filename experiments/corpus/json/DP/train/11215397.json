@@ -1,0 +1,94 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Phencyclidine",
+            "Name": "phencyclidine"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "phencyclidine",
+            "Name": "phencyclidine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "serotonin 2A receptor",
+            "Name": "serotonin2areceptor"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "dopamine D2 receptor",
+            "Name": "dopamined2receptor"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "apomorphine",
+            "Name": "apomorphine"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "dopamine D2 receptor",
+            "Name": "dopamined2receptor"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "PCP",
+            "Name": "pcp"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "DA",
+            "Name": "da"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T10"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T11"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T6",
+            "target": "T12"
+        }
+    ]
+}

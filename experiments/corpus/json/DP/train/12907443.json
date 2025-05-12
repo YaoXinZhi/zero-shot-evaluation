@@ -1,0 +1,187 @@
+{
+    "entities": [
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "5-aza-2'-deoxycytidine",
+            "Name": "5aza2deoxycytidine"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "fetal hemoglobin",
+            "Name": "fetalhemoglobin"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Fetal hemoglobin",
+            "Name": "fetalhemoglobin"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "HbF",
+            "Name": "hbf"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "sickle hemoglobin",
+            "Name": "sicklehemoglobin"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "HbS",
+            "Name": "hbs"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "HbF",
+            "Name": "hbf"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "gamma-globin",
+            "Name": "gammaglobin"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "HbF",
+            "Name": "hbf"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "cytosine",
+            "Name": "cytosine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "5-aza-2'-deoxycytidine",
+            "Name": "5aza2deoxycytidine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "decitabine",
+            "Name": "decitabine"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "DNA methyltransferase",
+            "Name": "dnamethyltransferase"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "decitabine",
+            "Name": "decitabine"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "HbF",
+            "Name": "hbf"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "hydroxyurea",
+            "Name": "hydroxyurea"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "decitabine",
+            "Name": "decitabine"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "HbF",
+            "Name": "hbf"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "hemoglobin",
+            "Name": "hemoglobin"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "gamma-Globin gene promoter",
+            "Name": "gammaglobingenepromoter"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "decitabine",
+            "Name": "decitabine"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "HbF",
+            "Name": "hbf"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "hemoglobin",
+            "Name": "hemoglobin"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "hemoglobin F",
+            "Name": "hemoglobinf"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "hemoglobin",
+            "Name": "hemoglobin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T19"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T12"
+        }
+    ]
+}

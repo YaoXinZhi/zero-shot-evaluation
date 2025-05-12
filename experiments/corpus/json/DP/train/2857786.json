@@ -1,0 +1,168 @@
+{
+    "entities": [
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "ambenonium",
+            "Name": "ambenonium"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Ambenonium",
+            "Name": "ambenonium"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "muscarinic receptors",
+            "Name": "muscarinicreceptors"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ambenonium",
+            "Name": "ambenonium"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "bethanechol",
+            "Name": "bethanechol"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "ambenonium",
+            "Name": "ambenonium"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "bethanechol",
+            "Name": "bethanechol"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "ambenonium",
+            "Name": "ambenonium"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "acetylcholine",
+            "Name": "acetylcholine"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Ambenonium",
+            "Name": "ambenonium"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "acetylcholine",
+            "Name": "acetylcholine"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "bethanechol",
+            "Name": "bethanechol"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "neostigmine",
+            "Name": "neostigmine"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "ambenonium",
+            "Name": "ambenonium"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "acetylcholine",
+            "Name": "acetylcholine"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "muscarinic receptors",
+            "Name": "muscarinicreceptors"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "ambenonium",
+            "Name": "ambenonium"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "acetylcholine",
+            "Name": "acetylcholine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T20"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T19"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T15",
+            "target": "T19"
+        },
+        {
+            "type": "Agonist",
+            "source": "T2",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T15",
+            "target": "T17"
+        }
+    ]
+}

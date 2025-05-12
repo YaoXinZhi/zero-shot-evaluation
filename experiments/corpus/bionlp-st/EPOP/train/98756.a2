@@ -1,0 +1,40 @@
+T5	Pest 0 8	Popillia
+T6	Location 41 54	Vercelli area
+T7	Location 124 143	provinces of Novara
+T8	Location 124 136;158 163	provinces of Turin
+T9	Location 124 136;145 153	provinces of Vercelli
+T10	Pest 196 204	Popillia
+T11	Pest 238 246	Popillia
+T12	Location 279 292	Vercelli area
+T13	Location 356 375	provinces of Novara
+T14	Location 356 368;377 385	provinces of Vercelli
+T15	Location 356 368;390 395	provinces of Turin
+T16	Pest 428 436	Popillia
+N1	NCBI_Taxonomy Annotation:T5 Referent:7064
+N2	GeoNames Annotation:T6 Referent:3164564
+N3	GeoNames Annotation:T7 Referent:3172188
+N4	GeoNames Annotation:T8 Referent:3165523
+N5	GeoNames Annotation:T9 Referent:3164564
+N6	NCBI_Taxonomy Annotation:T10 Referent:7064
+N7	NCBI_Taxonomy Annotation:T11 Referent:7064
+N8	GeoNames Annotation:T12 Referent:3164564
+N9	GeoNames Annotation:T13 Referent:3172188
+N10	GeoNames Annotation:T14 Referent:3164564
+N11	GeoNames Annotation:T15 Referent:3165523
+N12	NCBI_Taxonomy Annotation:T16 Referent:7064
+R1	Located_in Object:T5 Location:T6
+R2	Located_in Object:T10 Location:T9
+R3	Located_in Object:T10 Location:T8
+R4	Located_in Object:T10 Location:T7
+R5	Located_in Object:T11 Location:T12
+R6	Located_in Object:T16 Location:T14
+R7	Located_in Object:T16 Location:T13
+R8	Located_in Object:T16 Location:T15
+E1	Nary Organisme_nuisible:T5 Lieu:T6
+E2	Nary Organisme_nuisible:T10 Lieu:T9
+E3	Nary Organisme_nuisible:T10 Lieu:T8
+E4	Nary Organisme_nuisible:T10 Lieu:T7
+E5	Nary Organisme_nuisible:T11 Lieu:T12
+E6	Nary Organisme_nuisible:T16 Lieu:T14
+E7	Nary Organisme_nuisible:T16 Lieu:T13
+E8	Nary Organisme_nuisible:T16 Lieu:T15

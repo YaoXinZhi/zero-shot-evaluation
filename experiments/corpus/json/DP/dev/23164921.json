@@ -1,0 +1,167 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "Catalpol",
+            "Name": "catalpol"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "IFN-\u03b3",
+            "Name": "ifn\u03b3"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "catalpol",
+            "Name": "catalpol"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "catalpol",
+            "Name": "catalpol"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "catalpol",
+            "Name": "catalpol"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "catalpol",
+            "Name": "catalpol"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "interferon-\u03b3",
+            "Name": "interferon\u03b3"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "NO",
+            "Name": "no"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "catalpol",
+            "Name": "catalpol"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "catalpol",
+            "Name": "catalpol"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "TLR4",
+            "Name": "tlr4"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "catalpol",
+            "Name": "catalpol"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "nuclear factor-\u03baB",
+            "Name": "nuclearfactor\u03bab"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "catalpol",
+            "Name": "catalpol"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "NF-\u03baB",
+            "Name": "nf\u03bab"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "catalpol",
+            "Name": "catalpol"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T10",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T13"
+        }
+    ]
+}

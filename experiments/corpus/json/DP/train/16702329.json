@@ -1,0 +1,241 @@
+{
+    "entities": [
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "eicosapentaenoic acid",
+            "Name": "eicosapentaenoicacid"
+        },
+        {
+            "id": "T32",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T33",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T34",
+            "type": "Gene",
+            "name": "RXR",
+            "Name": "rxr"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "eicosapentaenoic acid",
+            "Name": "eicosapentaenoicacid"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "EPA",
+            "Name": "epa"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "inducible nitric oxide synthase",
+            "Name": "induciblenitricoxidesynthase"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "PPARs alpha, beta, and gamma",
+            "Name": "pparsalphabetaandgamma"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "retinoic acid",
+            "Name": "retinoicacid"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "retinoic acid X receptor (RXR) alpha and gamma",
+            "Name": "retinoicacidxreceptorrxralphaandgamma"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "eicosapentaenoic acid",
+            "Name": "eicosapentaenoicacid"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "EPA",
+            "Name": "epa"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "RXRalpha",
+            "Name": "rxralpha"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "RXRalpha",
+            "Name": "rxralpha"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "PPARalpha",
+            "Name": "pparalpha"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "RXRgamma",
+            "Name": "rxrgamma"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "GW9662",
+            "Name": "gw9662"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "RXR",
+            "Name": "rxr"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "EPA",
+            "Name": "epa"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "PPARgamma",
+            "Name": "ppargamma"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "RXR",
+            "Name": "rxr"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "iNOS",
+            "Name": "inos"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T33"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T9",
+            "target": "T34"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T24"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T4",
+            "target": "T25"
+        }
+    ]
+}

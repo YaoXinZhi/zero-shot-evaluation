@@ -1,0 +1,207 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "dimethylarginine",
+            "Name": "dimethylarginine"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "dimethylarginine dimethylaminohydrolase",
+            "Name": "dimethylargininedimethylaminohydrolase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Dimethylarginine",
+            "Name": "dimethylarginine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Dimethylarginine dimethylaminohydrolase",
+            "Name": "dimethylargininedimethylaminohydrolase"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "DDAH",
+            "Name": "ddah"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "dimethylarginine",
+            "Name": "dimethylarginine"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "L-citrulline",
+            "Name": "lcitrulline"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "DDAH",
+            "Name": "ddah"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "L-citrulline",
+            "Name": "lcitrulline"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "urea",
+            "Name": "urea"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "urease",
+            "Name": "urease"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "urea",
+            "Name": "urea"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "sulfosalicylic acid",
+            "Name": "sulfosalicylicacid"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "protease",
+            "Name": "protease"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "phosphate",
+            "Name": "phosphate"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "Arginase",
+            "Name": "arginase"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "nitric oxide synthase",
+            "Name": "nitricoxidesynthase"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "L-citrulline",
+            "Name": "lcitrulline"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "L-citrulline",
+            "Name": "lcitrulline"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "DDAH",
+            "Name": "ddah"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "dimethylarginine",
+            "Name": "dimethylarginine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "superoxide",
+            "Name": "superoxide"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "nitric oxide",
+            "Name": "nitricoxide"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "DDAH",
+            "Name": "ddah"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T8",
+            "target": "T20"
+        },
+        {
+            "type": "Product of",
+            "source": "T14",
+            "target": "T16"
+        },
+        {
+            "type": "Product of",
+            "source": "T14",
+            "target": "T20"
+        },
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T18"
+        },
+        {
+            "type": "Product of",
+            "source": "T10",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T17"
+        },
+        {
+            "type": "Substrate",
+            "source": "T3",
+            "target": "T19"
+        },
+        {
+            "type": "Substrate",
+            "source": "T11",
+            "target": "T24"
+        }
+    ]
+}

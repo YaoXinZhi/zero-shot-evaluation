@@ -1,0 +1,47 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Phenotype",
+            "name": "Gram-negative",
+            "OntoBiotope": "OBT:000648"
+        },
+        {
+            "id": "T2",
+            "type": "Microorganism",
+            "name": "Psychrobacter celer",
+            "NCBI_Taxonomy": "306572"
+        },
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "Hafnia alvei",
+            "NCBI_Taxonomy": "569"
+        },
+        {
+            "id": "T4",
+            "type": "Habitat",
+            "name": "microbial community of an experimental smear soft chees",
+            "OntoBiotope": "OBT:000113"
+        },
+        {
+            "id": "T5",
+            "type": "Habitat",
+            "name": "experimental smear soft cheese",
+            "OntoBiotope": "OBT:003494"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T2",
+            "target": "T1"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T3",
+            "target": "T1"
+        }
+    ]
+}

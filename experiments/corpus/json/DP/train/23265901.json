@@ -1,0 +1,97 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "8-oxoadenine",
+            "Name": "8oxoadenine"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "Toll-like receptor 7",
+            "Name": "tolllikereceptor7"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "TLR7",
+            "Name": "tlr7"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "8-oxoadenines",
+            "Name": "8oxoadenines"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "tertiary amines",
+            "Name": "tertiaryamines"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "adenine",
+            "Name": "adenine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "amino",
+            "Name": "amino"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "TLR7",
+            "Name": "tlr7"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "DSR-6434",
+            "Name": "dsr6434"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T7",
+            "target": "T10"
+        },
+        {
+            "type": "Agonist",
+            "source": "T6",
+            "target": "T9"
+        },
+        {
+            "type": "Agonist",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Agonist",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Agonist",
+            "source": "T3",
+            "target": "T9"
+        },
+        {
+            "type": "Agonist",
+            "source": "T4",
+            "target": "T8"
+        }
+    ]
+}

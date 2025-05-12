@@ -1,0 +1,222 @@
+{
+    "entities": [
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "Nicotinic-receptor",
+            "Name": "nicotinicreceptor"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "galantamine",
+            "Name": "galantamine"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "ACh",
+            "Name": "ach"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "nicotinic receptors",
+            "Name": "nicotinicreceptors"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "nicotinic receptors",
+            "Name": "nicotinicreceptors"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "[3H]-acetylcholine",
+            "Name": "3hacetylcholine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "[3H]-ACh",
+            "Name": "3hach"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "ACh",
+            "Name": "ach"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "atropine",
+            "Name": "atropine"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "ATR",
+            "Name": "atr"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "muscarinic M2 receptor",
+            "Name": "muscarinicm2receptor"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "ATR",
+            "Name": "atr"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "haloperidol",
+            "Name": "haloperidol"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "HAL",
+            "Name": "hal"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "dopamine",
+            "Name": "dopamine"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "dopamine D2",
+            "Name": "dopamined2"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "[3H]-ACh",
+            "Name": "3hach"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "nicotinic receptors",
+            "Name": "nicotinicreceptors"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "[3H]-ACh",
+            "Name": "3hach"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "mecamylamine",
+            "Name": "mecamylamine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "MEC",
+            "Name": "mec"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "MEC",
+            "Name": "mec"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ATR",
+            "Name": "atr"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "MEC",
+            "Name": "mec"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "[3H]-ACh",
+            "Name": "3hach"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "nicotinic-receptor",
+            "Name": "nicotinicreceptor"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "nicotinic receptors",
+            "Name": "nicotinicreceptors"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T18",
+            "target": "T30"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T26"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T12",
+            "target": "T26"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T14",
+            "target": "T27"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T15",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T20"
+        }
+    ]
+}

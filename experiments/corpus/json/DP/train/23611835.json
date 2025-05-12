@@ -1,0 +1,169 @@
+{
+    "entities": [
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "SB225002",
+            "Name": "sb225002"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "SB225002",
+            "Name": "sb225002"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "IL-8 receptor B",
+            "Name": "il8receptorb"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "IL-8RB",
+            "Name": "il8rb"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "IL-8",
+            "Name": "il8"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "p53",
+            "Name": "p53"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "BubR1",
+            "Name": "bubr1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "Bcl2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "BclxL",
+            "Name": "bclxl"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "vinblastine",
+            "Name": "vinblastine"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "\u03b2-tubulin",
+            "Name": "\u03b2tubulin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "SB265610",
+            "Name": "sb265610"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "SB225002",
+            "Name": "sb225002"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "IL-8RB",
+            "Name": "il8rb"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "P-glycoprotein",
+            "Name": "pglycoprotein"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "BAK",
+            "Name": "bak"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "p38",
+            "Name": "p38"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "MAPK",
+            "Name": "mapk"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "p38",
+            "Name": "p38"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "MAPK",
+            "Name": "mapk"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "caspase",
+            "Name": "caspase"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "IL-8",
+            "Name": "il8"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T14"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T22"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T20"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T4",
+            "target": "T21"
+        },
+        {
+            "type": "Antagonist",
+            "source": "T3",
+            "target": "T21"
+        }
+    ]
+}

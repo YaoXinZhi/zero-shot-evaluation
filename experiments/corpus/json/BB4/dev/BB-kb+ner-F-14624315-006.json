@@ -1,0 +1,65 @@
+{
+    "entities": [
+        {
+            "id": "T1",
+            "type": "Phenotype",
+            "name": "presence of decarboxylase activity",
+            "OntoBiotope": "OBT:000252"
+        },
+        {
+            "id": "T2",
+            "type": "Phenotype",
+            "name": "absence of decarboxylase activity",
+            "OntoBiotope": "OBT:000251"
+        },
+        {
+            "id": "T3",
+            "type": "Microorganism",
+            "name": "L. lactis B697",
+            "NCBI_Taxonomy": "1359"
+        },
+        {
+            "id": "T4",
+            "type": "Microorganism",
+            "name": "L. lactis B1157",
+            "NCBI_Taxonomy": "1359"
+        },
+        {
+            "id": "T5",
+            "type": "Microorganism",
+            "name": "B1157",
+            "NCBI_Taxonomy": "1359"
+        },
+        {
+            "id": "T6",
+            "type": "Phenotype",
+            "name": "decarboxylase-positive",
+            "OntoBiotope": "OBT:000252"
+        },
+        {
+            "id": "T7",
+            "type": "Phenotype",
+            "name": "decarboxylase- negative",
+            "OntoBiotope": "OBT:000251"
+        },
+        {
+            "id": "T8",
+            "type": "Microorganism",
+            "name": "B697",
+            "NCBI_Taxonomy": "1359"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Exhibits",
+            "source": "T5",
+            "target": "T6"
+        },
+        {
+            "type": "Exhibits",
+            "source": "T8",
+            "target": "T7"
+        }
+    ]
+}

@@ -1,0 +1,115 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "cardiac ion channels",
+            "Name": "cardiacionchannels"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "KCNH2",
+            "Name": "kcnh2"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "KCNQ1",
+            "Name": "kcnq1"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "KCNJ2",
+            "Name": "kcnj2"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "IKr",
+            "Name": "ikr"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "IKs",
+            "Name": "iks"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "IK1",
+            "Name": "ik1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "sotalol",
+            "Name": "sotalol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "ibutilide",
+            "Name": "ibutilide"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "IKr",
+            "Name": "ikr"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "KCNH2",
+            "Name": "kcnh2"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "HERG",
+            "Name": "herg"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Quinidine",
+            "Name": "quinidine"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T4"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T5"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T4"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T5"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T6"
+        }
+    ]
+}

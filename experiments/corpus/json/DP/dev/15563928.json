@@ -1,0 +1,173 @@
+{
+    "entities": [
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "steroidal",
+            "Name": "steroidal"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "cyclooxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "phenylbutazone",
+            "Name": "phenylbutazone"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "phenylbutazone",
+            "Name": "phenylbutazone"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "etodolac",
+            "Name": "etodolac"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "TXB2",
+            "Name": "txb2"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "PGE2",
+            "Name": "pge2"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "Phenylbutazone",
+            "Name": "phenylbutazone"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "etodolac",
+            "Name": "etodolac"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "PGE2",
+            "Name": "pge2"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "prostanoid",
+            "Name": "prostanoid"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "TXB2",
+            "Name": "txb2"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "phenylbutazone",
+            "Name": "phenylbutazone"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "etodolac",
+            "Name": "etodolac"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Etodolac",
+            "Name": "etodolac"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "phenylbutazone",
+            "Name": "phenylbutazone"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T16"
+        }
+    ]
+}

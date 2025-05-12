@@ -1,0 +1,219 @@
+{
+    "entities": [
+        {
+            "id": "T23",
+            "type": "Chemical",
+            "name": "Lignans",
+            "Name": "lignans"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Evn-50",
+            "Name": "evn50"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "lignan",
+            "Name": "lignan"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "EVn-50",
+            "Name": "evn50"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "EVn-50",
+            "Name": "evn50"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "lignan",
+            "Name": "lignan"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "VB1",
+            "Name": "vb1"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "EVn-50",
+            "Name": "evn50"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "EVn-50",
+            "Name": "evn50"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "VB1",
+            "Name": "vb1"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "EVn-50",
+            "Name": "evn50"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "VB1",
+            "Name": "vb1"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "EVn-50",
+            "Name": "evn50"
+        },
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "VB1",
+            "Name": "vb1"
+        },
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "EVn-50",
+            "Name": "evn50"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "EVn-50",
+            "Name": "evn50"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "VB1",
+            "Name": "vb1"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "Histone 3",
+            "Name": "histone3"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Ser",
+            "Name": "ser"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "Cdk1",
+            "Name": "cdk1"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "Tyr",
+            "Name": "tyr"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "cyclin B1",
+            "Name": "cyclinb1"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "Cdc25c",
+            "Name": "cdc25c"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "EVn-50",
+            "Name": "evn50"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "VB1",
+            "Name": "vb1"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "EVn-50",
+            "Name": "evn50"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "lignan",
+            "Name": "lignan"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Part of",
+            "source": "T5",
+            "target": "T24"
+        },
+        {
+            "type": "Part of",
+            "source": "T6",
+            "target": "T25"
+        },
+        {
+            "type": "Activator",
+            "source": "T2",
+            "target": "T24"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T24"
+        },
+        {
+            "type": "Activator",
+            "source": "T2",
+            "target": "T25"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T27"
+        }
+    ]
+}

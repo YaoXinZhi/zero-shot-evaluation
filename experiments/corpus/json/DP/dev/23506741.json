@@ -1,0 +1,239 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "benzo[d]imidazole",
+            "Name": "benzodimidazole"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "sodium",
+            "Name": "sodium"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "NLRP3",
+            "Name": "nlrp3"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "NLRP3",
+            "Name": "nlrp3"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "1-ethyl-5-methyl-2-phenyl-1H-benzo[d]imidazole",
+            "Name": "1ethyl5methyl2phenyl1hbenzodimidazole"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "Fc11a-2",
+            "Name": "fc11a2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "sulfate",
+            "Name": "sulfate"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "sodium",
+            "Name": "sodium"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "NLRP3",
+            "Name": "nlrp3"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "myeloperoxidase",
+            "Name": "myeloperoxidase"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "Fc11a-2",
+            "Name": "fc11a2"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "cytokines",
+            "Name": "cytokines"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "TNF-\u03b1",
+            "Name": "tnf\u03b1"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "IL-1\u03b2",
+            "Name": "il1\u03b2"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "IL-18",
+            "Name": "il18"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "IL-17A",
+            "Name": "il17a"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "IFN-\u03b3",
+            "Name": "ifn\u03b3"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "Fc11a-2",
+            "Name": "fc11a2"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "caspase-1",
+            "Name": "caspase1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Fc11a",
+            "Name": "fc11a"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Fc11a-2",
+            "Name": "fc11a2"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "pro-caspase-1",
+            "Name": "procaspase1"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "pro-IL-1\u03b2",
+            "Name": "proil1\u03b2"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "pro-IL-18",
+            "Name": "proil18"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "NLRP3",
+            "Name": "nlrp3"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Fc11a-2",
+            "Name": "fc11a2"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "NLRP3",
+            "Name": "nlrp3"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T27"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T20"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T22"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T23"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T9",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T18"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T2",
+            "target": "T16"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T17"
+        }
+    ]
+}

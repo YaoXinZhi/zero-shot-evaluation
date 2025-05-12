@@ -1,0 +1,241 @@
+{
+    "entities": [
+        {
+            "id": "T21",
+            "type": "Chemical",
+            "name": "Pyridinium oximes",
+            "Name": "pyridiniumoximes"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "cholinesterase",
+            "Name": "cholinesterase"
+        },
+        {
+            "id": "T22",
+            "type": "Chemical",
+            "name": "organophosphorus",
+            "Name": "organophosphorus"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "pyridinium oximes",
+            "Name": "pyridiniumoximes"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "organophosphorus",
+            "Name": "organophosphorus"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "organophosphorus",
+            "Name": "organophosphorus"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "Organophosphorus",
+            "Name": "organophosphorus"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "tabun",
+            "Name": "tabun"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "soman",
+            "Name": "soman"
+        },
+        {
+            "id": "T18",
+            "type": "Chemical",
+            "name": "sarin",
+            "Name": "sarin"
+        },
+        {
+            "id": "T19",
+            "type": "Chemical",
+            "name": "serine hydroxyl",
+            "Name": "serinehydroxyl"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T20",
+            "type": "Chemical",
+            "name": "acetylcholine",
+            "Name": "acetylcholine"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "cholinergic receptor",
+            "Name": "cholinergicreceptor"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "atropine",
+            "Name": "atropine"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "pyridinium oximes",
+            "Name": "pyridiniumoximes"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "pralidoxime",
+            "Name": "pralidoxime"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "trimedoxime",
+            "Name": "trimedoxime"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "obidoxime",
+            "Name": "obidoxime"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "HI-6",
+            "Name": "hi6"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "diazepam",
+            "Name": "diazepam"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "organophosphate",
+            "Name": "organophosphate"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "pyridinium oximes",
+            "Name": "pyridiniumoximes"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "oxime",
+            "Name": "oxime"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "pyridinium oximes",
+            "Name": "pyridiniumoximes"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T21",
+            "target": "T29"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T25"
+        },
+        {
+            "type": "Part of",
+            "source": "T19",
+            "target": "T26"
+        },
+        {
+            "type": "Substrate",
+            "source": "T20",
+            "target": "T27"
+        },
+        {
+            "type": "Activator",
+            "source": "T1",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T2",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T3",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T4",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T6",
+            "target": "T23"
+        },
+        {
+            "type": "Activator",
+            "source": "T7",
+            "target": "T23"
+        }
+    ]
+}

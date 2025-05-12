@@ -1,0 +1,47 @@
+T16	CHEMICAL 125 129	CCl4
+N1	Name Annotation:T16 Referent:ccl4
+T1	CHEMICAL 345 349	DPPH
+N2	Name Annotation:T1 Referent:dpph
+T2	CHEMICAL 353 355	HO
+N3	Name Annotation:T2 Referent:ho
+T3	CHEMICAL 363 370	O(2)(-)
+N4	Name Annotation:T3 Referent:o2
+T4	CHEMICAL 384 390	ferric
+N5	Name Annotation:T4 Referent:ferric
+T5	CHEMICAL 536 542	CCl(4)
+N6	Name Annotation:T5 Referent:ccl4
+T17	GENE-N 563 593	serum alanine aminotransferase
+N7	Name Annotation:T17 Referent:serumalanineaminotransferase
+T6	CHEMICAL 569 576	alanine
+N8	Name Annotation:T6 Referent:alanine
+T7	CHEMICAL 595 604	aspartate
+N9	Name Annotation:T7 Referent:aspartate
+T18	GENE-N 595 621	aspartate aminotransferase
+N10	Name Annotation:T18 Referent:aspartateaminotransferase
+T19	GENE-N 626 646	lactic dehydrogenase
+N11	Name Annotation:T19 Referent:lacticdehydrogenase
+T8	CHEMICAL 671 686	malondialdehyde
+N12	Name Annotation:T8 Referent:malondialdehyde
+T9	CHEMICAL 740 750	superoxide
+N13	Name Annotation:T9 Referent:superoxide
+T20	GENE-N 740 760	superoxide dismutase
+N14	Name Annotation:T20 Referent:superoxidedismutase
+T10	CHEMICAL 765 776	glutathione
+N15	Name Annotation:T10 Referent:glutathione
+T21	GENE-N 765 787	glutathione peroxidase
+N16	Name Annotation:T21 Referent:glutathioneperoxidase
+T11	CHEMICAL 809 815	CCl(4)
+N17	Name Annotation:T11 Referent:ccl4
+T12	CHEMICAL 926 932	CCl(4)
+N18	Name Annotation:T12 Referent:ccl4
+T13	CHEMICAL 1060 1069	arabinose
+N19	Name Annotation:T13 Referent:arabinose
+T14	CHEMICAL 1071 1080	galactose
+N20	Name Annotation:T14 Referent:galactose
+T15	CHEMICAL 1085 1102	galacturonic acid
+N21	Name Annotation:T15 Referent:galacturonicacid
+R1	ACTIVATOR Arg1:T5 Arg2:T17
+R2	ACTIVATOR Arg1:T5 Arg2:T18
+R3	ACTIVATOR Arg1:T5 Arg2:T19
+R4	INHIBITOR Arg1:T11 Arg2:T20
+R5	INHIBITOR Arg1:T11 Arg2:T21

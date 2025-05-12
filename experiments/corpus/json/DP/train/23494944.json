@@ -1,0 +1,168 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "Aluminium Chloride",
+            "Name": "aluminiumchloride"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Aluminium",
+            "Name": "aluminium"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "aluminium chloride",
+            "Name": "aluminiumchloride"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "AlCl3",
+            "Name": "alcl3"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "glutathione",
+            "Name": "glutathione"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "AlCl3",
+            "Name": "alcl3"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "cytochrome c oxidase",
+            "Name": "cytochromecoxidase"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "acetylcholinesterase",
+            "Name": "acetylcholinesterase"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "superoxide",
+            "Name": "superoxide"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "AlCl3",
+            "Name": "alcl3"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "superoxide",
+            "Name": "superoxide"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "superoxide dismutase",
+            "Name": "superoxidedismutase"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "AChE",
+            "Name": "ache"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "AlCl3",
+            "Name": "alcl3"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "(-)-epigallocatechin gallate",
+            "Name": "epigallocatechingallate"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "(-)-epicatechin",
+            "Name": "epicatechin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T19"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T20"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T21"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T11",
+            "target": "T15"
+        }
+    ]
+}

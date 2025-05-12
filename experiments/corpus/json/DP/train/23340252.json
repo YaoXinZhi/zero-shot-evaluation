@@ -1,0 +1,248 @@
+{
+    "entities": [
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "tolylfluanid",
+            "Name": "tolylfluanid"
+        },
+        {
+            "id": "T31",
+            "type": "Gene",
+            "name": "glucocorticoid receptor",
+            "Name": "glucocorticoidreceptor"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "phenylsulfamide",
+            "Name": "phenylsulfamide"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "tolylfluanid",
+            "Name": "tolylfluanid"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "glucocorticoid receptor",
+            "Name": "glucocorticoidreceptor"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "GR",
+            "Name": "gr"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "corticosterone",
+            "Name": "corticosterone"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Cort",
+            "Name": "cort"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "GR",
+            "Name": "gr"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "glucocorticoid response elements",
+            "Name": "glucocorticoidresponseelements"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "leucine",
+            "Name": "leucine"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "leucine zipper gene promoter",
+            "Name": "leucinezippergenepromoter"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "Cort",
+            "Name": "cort"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "insulin receptor substrate-1",
+            "Name": "insulinreceptorsubstrate1"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "IRS-1",
+            "Name": "irs1"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "GR",
+            "Name": "gr"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "glucocorticoid response element",
+            "Name": "glucocorticoidresponseelement"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "IRS-1",
+            "Name": "irs1"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Cort",
+            "Name": "cort"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "acetyl-coenzyme A",
+            "Name": "acetylcoenzymea"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "acetyl-coenzyme A carboxylase",
+            "Name": "acetylcoenzymeacarboxylase"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "Akt",
+            "Name": "akt"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "IRS-1",
+            "Name": "irs1"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "insulin",
+            "Name": "insulin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "Cort",
+            "Name": "cort"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "GR",
+            "Name": "gr"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Activator",
+            "source": "T11",
+            "target": "T31"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T25"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T25"
+        },
+        {
+            "type": "Part of",
+            "source": "T8",
+            "target": "T27"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T30"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T10",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T1",
+            "target": "T18"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T3",
+            "target": "T23"
+        }
+    ]
+}

@@ -1,0 +1,193 @@
+{
+    "entities": [
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "Epigallocatechin-3-Gallate",
+            "Name": "epigallocatechin3gallate"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "Collagen",
+            "Name": "collagen"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "catechin",
+            "Name": "catechin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "(-)-epigallocatechin-3-gallate",
+            "Name": "epigallocatechin3gallate"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "EGCG",
+            "Name": "egcg"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "EGCG",
+            "Name": "egcg"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "transforming growth factor (TGF)-\u03b21",
+            "Name": "transforminggrowthfactortgf\u03b21"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "EGCG",
+            "Name": "egcg"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "oxygen",
+            "Name": "oxygen"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "TGF-\u03b21",
+            "Name": "tgf\u03b21"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "TGF-\u03b21",
+            "Name": "tgf\u03b21"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "EGCG",
+            "Name": "egcg"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "\u03b1-smooth muscle actin",
+            "Name": "\u03b1smoothmuscleactin"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "\u03b1-SMA",
+            "Name": "\u03b1sma"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "collagen type I",
+            "Name": "collagentypei"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "\u03b1-SMA",
+            "Name": "\u03b1sma"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Sircol",
+            "Name": "sircol"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "nitroblue tetrazolium",
+            "Name": "nitrobluetetrazolium"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "EGCG",
+            "Name": "egcg"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "\u03b1-SMA",
+            "Name": "\u03b1sma"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "collagen type I",
+            "Name": "collagentypei"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "\u03b1-SMA",
+            "Name": "\u03b1sma"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "collagen",
+            "Name": "collagen"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "EGCG",
+            "Name": "egcg"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "TGF-\u03b21",
+            "Name": "tgf\u03b21"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "EGCG",
+            "Name": "egcg"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Indirect downregulator",
+            "source": "T13",
+            "target": "T26"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T16"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T3",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T18"
+        }
+    ]
+}

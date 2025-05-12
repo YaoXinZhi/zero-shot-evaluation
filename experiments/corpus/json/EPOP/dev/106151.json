@@ -1,0 +1,165 @@
+{
+    "entities": [
+        {
+            "id": "T3",
+            "type": "Pest",
+            "name": "fall armyworm",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T4",
+            "type": "Pest",
+            "name": "pest fall armyworm",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T5",
+            "type": "Pest",
+            "name": "FAW",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T6",
+            "type": "Pest",
+            "name": "Spodoptera frugiperda",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T7",
+            "type": "Location",
+            "name": "Americas",
+            "GeoNames": "10861432"
+        },
+        {
+            "id": "T8",
+            "type": "Location",
+            "name": "African countries",
+            "GeoNames": "6255146"
+        },
+        {
+            "id": "T9",
+            "type": "Location",
+            "name": "Asian countries",
+            "GeoNames": "6255147"
+        },
+        {
+            "id": "T11",
+            "type": "Pest",
+            "name": "FAW",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T12",
+            "type": "Location",
+            "name": "Americas",
+            "GeoNames": "10861432"
+        },
+        {
+            "id": "T13",
+            "type": "Pest",
+            "name": "FAW",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T14",
+            "type": "Pest",
+            "name": "FAW",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T15",
+            "type": "Location",
+            "name": "American",
+            "GeoNames": "10861432"
+        },
+        {
+            "id": "T16",
+            "type": "Location",
+            "name": "Africa",
+            "GeoNames": "6255146"
+        },
+        {
+            "id": "T17",
+            "type": "Location",
+            "name": "Asia",
+            "GeoNames": "6255147"
+        },
+        {
+            "id": "T18",
+            "type": "Pest",
+            "name": "north American corn-strain FAW",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T19",
+            "type": "Pest",
+            "name": "central American corn-strain FAW",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T20",
+            "type": "Pest",
+            "name": "FAW",
+            "NCBI_Taxonomy": "7108"
+        },
+        {
+            "id": "T21",
+            "type": "Location",
+            "name": "Africa",
+            "GeoNames": "6255146"
+        }
+    ],
+    "equivalences": [
+        [
+            "T11",
+            "T13"
+        ],
+        [
+            "T6",
+            "T5",
+            "T4"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T6",
+            "target": "T7"
+        },
+        {
+            "type": "Located in",
+            "source": "T6",
+            "target": "T8"
+        },
+        {
+            "type": "Located in",
+            "source": "T6",
+            "target": "T9"
+        },
+        {
+            "type": "Located in",
+            "source": "T11",
+            "target": "T12"
+        },
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T17"
+        },
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T15"
+        },
+        {
+            "type": "Located in",
+            "source": "T14",
+            "target": "T16"
+        },
+        {
+            "type": "Located in",
+            "source": "T20",
+            "target": "T21"
+        }
+    ]
+}

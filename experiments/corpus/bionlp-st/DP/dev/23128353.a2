@@ -1,0 +1,54 @@
+T11	CHEMICAL 25 36	glucosamine
+N1	Name Annotation:T11 Referent:glucosamine
+T7	CHEMICAL 150 161	Glucosamine
+N2	Name Annotation:T7 Referent:glucosamine
+T3	CHEMICAL 311 322	glucosamine
+N3	Name Annotation:T3 Referent:glucosamine
+T4	CHEMICAL 444 455	trypan blue
+N4	Name Annotation:T4 Referent:trypanblue
+T5	CHEMICAL 490 501	glucosamine
+N5	Name Annotation:T5 Referent:glucosamine
+T6	CHEMICAL 729 740	glucosamine
+N6	Name Annotation:T6 Referent:glucosamine
+T19	GENE 816 843	retinoblastoma (Rb) protein
+N7	Name Annotation:T19 Referent:retinoblastomarbprotein
+T8	CHEMICAL 878 889	glucosamine
+N8	Name Annotation:T8 Referent:glucosamine
+T9	CHEMICAL 907 918	Glucosamine
+N9	Name Annotation:T9 Referent:glucosamine
+T20	GENE 996 999	p53
+N10	Name Annotation:T20 Referent:p53
+T10	CHEMICAL 1004 1008	heme
+N11	Name Annotation:T10 Referent:heme
+T21	GENE 1004 1020	heme oxygenase-1
+N12	Name Annotation:T21 Referent:hemeoxygenase1
+T22	GENE 1022 1026	HO-1
+N13	Name Annotation:T22 Referent:ho1
+T23	GENE 1060 1063	p21
+N14	Name Annotation:T23 Referent:p21
+T1	CHEMICAL 1097 1108	glucosamine
+N15	Name Annotation:T1 Referent:glucosamine
+T12	GENE 1120 1123	p21
+N16	Name Annotation:T12 Referent:p21
+T13	GENE 1203 1206	p21
+N17	Name Annotation:T13 Referent:p21
+T2	CHEMICAL 1281 1292	glucosamine
+N18	Name Annotation:T2 Referent:glucosamine
+T14	GENE 1467 1469	Rb
+N19	Name Annotation:T14 Referent:rb
+T15	GENE 1514 1517	p21
+N20	Name Annotation:T15 Referent:p21
+T16	GENE 1519 1522	p53
+N21	Name Annotation:T16 Referent:p53
+T17	GENE 1527 1531	HO-1
+N22	Name Annotation:T17 Referent:ho1
+T18	GENE 1556 1559	p21
+N23	Name Annotation:T18 Referent:p21
+R1	INHIBITOR Arg1:T8 Arg2:T19
+R2	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T20
+R3	INDIRECT-UPREGULATOR Arg1:T9 Arg2:T21
+R4	INDIRECT-DOWNREGULATOR Arg1:T9 Arg2:T23
+R5	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T12
+R6	INDIRECT-UPREGULATOR Arg1:T1 Arg2:T13
+R7	INHIBITOR Arg1:T2 Arg2:T14
+R8	INDIRECT-UPREGULATOR Arg1:T2 Arg2:T18

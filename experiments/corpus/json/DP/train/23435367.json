@@ -1,0 +1,213 @@
+{
+    "entities": [
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "human ferredoxin 1",
+            "Name": "humanferredoxin1"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Ferredoxin 1",
+            "Name": "ferredoxin1"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "FDX1",
+            "Name": "fdx1"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "adrenodoxin",
+            "Name": "adrenodoxin"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "iron",
+            "Name": "iron"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "sulfur",
+            "Name": "sulfur"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "steroid",
+            "Name": "steroid"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "steroid hormone",
+            "Name": "steroidhormone"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "FDX1",
+            "Name": "fdx1"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "NR5A",
+            "Name": "nr5a"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "steroidogenic factor-1",
+            "Name": "steroidogenicfactor1"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "SF-1",
+            "Name": "sf1"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "liver receptor homolog-1",
+            "Name": "liverreceptorhomolog1"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "SF-1",
+            "Name": "sf1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "FDX1 promoter",
+            "Name": "fdx1promoter"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "FDX1",
+            "Name": "fdx1"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "NR5A",
+            "Name": "nr5a"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "8Br-cAMP",
+            "Name": "8brcamp"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "SF-1",
+            "Name": "sf1"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "CRE",
+            "Name": "cre"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "FDX1",
+            "Name": "fdx1"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "progesterone",
+            "Name": "progesterone"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "FDX1",
+            "Name": "fdx1"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "NR5A",
+            "Name": "nr5a"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "cAMP",
+            "Name": "camp"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "steroid",
+            "Name": "steroid"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T10"
+        },
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T9"
+        },
+        {
+            "type": "Product of",
+            "source": "T1",
+            "target": "T11"
+        },
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T9"
+        },
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T11"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T5",
+            "target": "T19"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T21"
+        },
+        {
+            "type": "Product of",
+            "source": "T8",
+            "target": "T24"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T24"
+        }
+    ]
+}

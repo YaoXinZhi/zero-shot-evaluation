@@ -1,0 +1,56 @@
+T7	CHEMICAL 0 9	Sorafenib
+N1	Name Annotation:T7 Referent:sorafenib
+T24	GENE-Y 96 99	RAF
+N2	Name Annotation:T24 Referent:raf
+T22	GENE-N 100 103	ERK
+N3	Name Annotation:T22 Referent:erk
+T23	GENE-N 104 107	MEK
+N4	Name Annotation:T23 Referent:mek
+T3	CHEMICAL 407 416	sorafenib
+N5	Name Annotation:T3 Referent:sorafenib
+T4	CHEMICAL 564 573	sorafenib
+N6	Name Annotation:T4 Referent:sorafenib
+T5	CHEMICAL 666 675	sorafenib
+N7	Name Annotation:T5 Referent:sorafenib
+T6	CHEMICAL 792 801	sorafenib
+N8	Name Annotation:T6 Referent:sorafenib
+T15	GENE-N 941 952	phospho-MEK
+N9	Name Annotation:T15 Referent:phosphomek
+T16	GENE-N 957 968	phospho-ERK
+N10	Name Annotation:T16 Referent:phosphoerk
+T17	GENE-Y 1008 1017	cyclin D1
+N11	Name Annotation:T17 Referent:cyclind1
+T18	GENE-Y 1019 1021	Rb
+N12	Name Annotation:T18 Referent:rb
+T19	GENE-Y 1050 1056	Bcl-xl
+N13	Name Annotation:T19 Referent:bclxl
+T20	GENE-Y 1061 1066	Mcl-1
+N14	Name Annotation:T20 Referent:mcl1
+T21	GENE-Y 1108 1113	Bcl-2
+N15	Name Annotation:T21 Referent:bcl2
+T8	GENE-Y 1118 1121	Bax
+N16	Name Annotation:T8 Referent:bax
+T9	GENE-N 1162 1165	Akt
+N17	Name Annotation:T9 Referent:akt
+T10	GENE-N 1167 1170	JNK
+N18	Name Annotation:T10 Referent:jnk
+T11	GENE-N 1172 1175	p38
+N19	Name Annotation:T11 Referent:p38
+T1	CHEMICAL 1294 1303	sorafenib
+N20	Name Annotation:T1 Referent:sorafenib
+T12	GENE-N 1318 1321	Ras
+N21	Name Annotation:T12 Referent:ras
+T13	GENE-Y 1322 1325	Raf
+N22	Name Annotation:T13 Referent:raf
+T14	GENE-N 1326 1330	MAPK
+N23	Name Annotation:T14 Referent:mapk
+T2	CHEMICAL 1442 1451	sorafenib
+N24	Name Annotation:T2 Referent:sorafenib
+R1	INHIBITOR Arg1:T7 Arg2:T24
+R2	INHIBITOR Arg1:T7 Arg2:T22
+R3	INHIBITOR Arg1:T7 Arg2:T23
+R4	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T15
+R5	INDIRECT-DOWNREGULATOR Arg1:T6 Arg2:T16
+R6	INHIBITOR Arg1:T1 Arg2:T12
+R7	INHIBITOR Arg1:T1 Arg2:T13
+R8	INHIBITOR Arg1:T1 Arg2:T14

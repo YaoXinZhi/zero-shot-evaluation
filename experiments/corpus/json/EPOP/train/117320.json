@@ -1,0 +1,118 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Disease",
+            "name": "Scots pine dieback"
+        },
+        {
+            "id": "T11",
+            "type": "Location",
+            "name": "southeast France",
+            "GeoNames": "3023519"
+        },
+        {
+            "id": "T12",
+            "type": "Plant",
+            "name": "Scots pine",
+            "NCBI_Taxonomy": "3349"
+        },
+        {
+            "id": "T13",
+            "type": "Plant",
+            "name": "Pinus sylvestris",
+            "NCBI_Taxonomy": "3349"
+        },
+        {
+            "id": "T14",
+            "type": "Location",
+            "name": "Europe",
+            "GeoNames": "6255148"
+        },
+        {
+            "id": "T15",
+            "type": "Location",
+            "name": "southeastern part of France",
+            "GeoNames": "3023519"
+        },
+        {
+            "id": "T16",
+            "type": "Pest",
+            "name": "pine processionary moth",
+            "NCBI_Taxonomy": "208016"
+        },
+        {
+            "id": "T17",
+            "type": "Pest",
+            "name": "Thaumetopoea pityocampa Den. & Schiff.",
+            "NCBI_Taxonomy": "208016"
+        },
+        {
+            "id": "T18",
+            "type": "Pest",
+            "name": "mistletoe",
+            "NCBI_Taxonomy": "3972"
+        },
+        {
+            "id": "T19",
+            "type": "Pest",
+            "name": "Viscum album L",
+            "NCBI_Taxonomy": "3972"
+        },
+        {
+            "id": "T20",
+            "type": "Pest",
+            "name": "processionary moth",
+            "NCBI_Taxonomy": "208016"
+        },
+        {
+            "id": "T21",
+            "type": "Pest",
+            "name": "mistletoe",
+            "NCBI_Taxonomy": "3972"
+        },
+        {
+            "id": "T22",
+            "type": "Pest",
+            "name": "mistletoe",
+            "NCBI_Taxonomy": "3972"
+        },
+        {
+            "id": "T23",
+            "type": "Pest",
+            "name": "processionary moth",
+            "NCBI_Taxonomy": "208016"
+        }
+    ],
+    "equivalences": [
+        [
+            "T12",
+            "T13"
+        ],
+        [
+            "T16",
+            "T17"
+        ],
+        [
+            "T18",
+            "T19"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Located in",
+            "source": "T10",
+            "target": "T11"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T17",
+            "target": "T13"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T19",
+            "target": "T13"
+        }
+    ]
+}

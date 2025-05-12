@@ -1,0 +1,65 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "fondaparinux sodium",
+            "Name": "fondaparinuxsodium"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Fondaparinux sodium",
+            "Name": "fondaparinuxsodium"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "factor Xa",
+            "Name": "factorxa"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "antithrombin III",
+            "Name": "antithrombiniii"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "fondaparinux sodium",
+            "Name": "fondaparinuxsodium"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Fondaparinux sodium",
+            "Name": "fondaparinuxsodium"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "fondaparinux sodium",
+            "Name": "fondaparinuxsodium"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "fondaparinux sodium",
+            "Name": "fondaparinuxsodium"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T8"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T2",
+            "target": "T7"
+        }
+    ]
+}

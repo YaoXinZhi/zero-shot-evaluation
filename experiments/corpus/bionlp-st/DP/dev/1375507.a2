@@ -1,0 +1,80 @@
+T20	CHEMICAL 0 12	Prostacyclin
+N1	Name Annotation:T20 Referent:prostacyclin
+T34	GENE 31 44	tissue factor
+N2	Name Annotation:T34 Referent:tissuefactor
+T21	CHEMICAL 101 111	cyclic AMP
+N3	Name Annotation:T21 Referent:cyclicamp
+T27	GENE 157 170	tissue factor
+N4	Name Annotation:T27 Referent:tissuefactor
+T12	CHEMICAL 348 360	prostacyclin
+N5	Name Annotation:T12 Referent:prostacyclin
+T28	GENE 441 454	tissue factor
+N6	Name Annotation:T28 Referent:tissuefactor
+T29	GENE 567 585	interleukin-1 beta
+N7	Name Annotation:T29 Referent:interleukin1beta
+T30	GENE 598 625	tumor necrosis factor-alpha
+N8	Name Annotation:T30 Referent:tumornecrosisfactoralpha
+T31	GENE 655 668	tissue factor
+N9	Name Annotation:T31 Referent:tissuefactor
+T13	CHEMICAL 726 734	iloprost
+N10	Name Annotation:T13 Referent:iloprost
+T14	CHEMICAL 736 746	ciprostene
+N11	Name Annotation:T14 Referent:ciprostene
+T15	CHEMICAL 752 763	carbacyclin
+N12	Name Annotation:T15 Referent:carbacyclin
+T32	GENE 802 815	tissue factor
+N13	Name Annotation:T32 Referent:tissuefactor
+T16	CHEMICAL 868 876	Iloprost
+N14	Name Annotation:T16 Referent:iloprost
+T17	CHEMICAL 995 1003	iloprost
+N15	Name Annotation:T17 Referent:iloprost
+T18	CHEMICAL 1028 1040	prostacyclin
+N16	Name Annotation:T18 Referent:prostacyclin
+T33	GENE 1028 1049	prostacyclin receptor
+N17	Name Annotation:T33 Referent:prostacyclinreceptor
+T19	CHEMICAL 1078 1087	cicaprost
+N18	Name Annotation:T19 Referent:cicaprost
+T22	GENE 1137 1150	tissue factor
+N19	Name Annotation:T22 Referent:tissuefactor
+T1	CHEMICAL 1163 1174	Carbacyclin
+N20	Name Annotation:T1 Referent:carbacyclin
+T2	CHEMICAL 1179 1189	ciprostene
+N21	Name Annotation:T2 Referent:ciprostene
+T23	GENE 1273 1286	tissue factor
+N22	Name Annotation:T23 Referent:tissuefactor
+T3	CHEMICAL 1359 1367	Iloprost
+N23	Name Annotation:T3 Referent:iloprost
+T4	CHEMICAL 1417 1427	cyclic AMP
+N24	Name Annotation:T4 Referent:cyclicamp
+T5	CHEMICAL 1460 1482	isobutylmethylxanthine
+N25	Name Annotation:T5 Referent:isobutylmethylxanthine
+T24	GENE 1500 1517	phosphodiesterase
+N26	Name Annotation:T24 Referent:phosphodiesterase
+T25	GENE 1557 1570	tissue factor
+N27	Name Annotation:T25 Referent:tissuefactor
+T6	CHEMICAL 1607 1629	isobutylmethylxanthine
+N28	Name Annotation:T6 Referent:isobutylmethylxanthine
+T7	CHEMICAL 1646 1655	forskolin
+N29	Name Annotation:T7 Referent:forskolin
+T8	CHEMICAL 1661 1680	ibutyryl cyclic AMP
+N30	Name Annotation:T8 Referent:ibutyrylcyclicamp
+T9	CHEMICAL 1689 1709	dibutyryl cyclic GMP
+N31	Name Annotation:T9 Referent:dibutyrylcyclicgmp
+T10	CHEMICAL 1738 1750	prostacyclin
+N32	Name Annotation:T10 Referent:prostacyclin
+T26	GENE 1785 1798	tissue factor
+N33	Name Annotation:T26 Referent:tissuefactor
+T11	CHEMICAL 1882 1892	cyclic AMP
+N34	Name Annotation:T11 Referent:cyclicamp
+R1	DIRECT-REGULATOR Arg1:T17 Arg2:T33
+R2	DIRECT-REGULATOR Arg1:T18 Arg2:T33
+R3	INDIRECT-DOWNREGULATOR Arg1:T10 Arg2:T26
+R4	INDIRECT-DOWNREGULATOR Arg1:T12 Arg2:T28
+R5	INDIRECT-DOWNREGULATOR Arg1:T13 Arg2:T32
+R6	INDIRECT-DOWNREGULATOR Arg1:T14 Arg2:T32
+R7	INDIRECT-DOWNREGULATOR Arg1:T15 Arg2:T32
+R8	INDIRECT-DOWNREGULATOR Arg1:T20 Arg2:T34
+R9	INHIBITOR Arg1:T5 Arg2:T24
+R10	INHIBITOR Arg1:T6 Arg2:T25
+R11	INHIBITOR Arg1:T7 Arg2:T25
+R12	INHIBITOR Arg1:T8 Arg2:T25

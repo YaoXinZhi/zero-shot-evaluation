@@ -1,0 +1,200 @@
+{
+    "entities": [
+        {
+            "id": "T6",
+            "type": "Disease",
+            "name": "banana Panama disease"
+        },
+        {
+            "id": "T7",
+            "type": "Pest",
+            "name": "Fusarium oxysporum f. sp. cubense Tropical Race 4",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T8",
+            "type": "Plant",
+            "name": "banana",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T9",
+            "type": "Disease",
+            "name": "Panama disease"
+        },
+        {
+            "id": "T10",
+            "type": "Pest",
+            "name": "Fusarium oxysporum f.sp. cubense Tropical Race 4",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T11",
+            "type": "Pest",
+            "name": "FocTR4",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T12",
+            "type": "Pest",
+            "name": "FocTR4",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T13",
+            "type": "Pest",
+            "name": "Foc Race1",
+            "NCBI_Taxonomy": "1229664"
+        },
+        {
+            "id": "T14",
+            "type": "Pest",
+            "name": "FocR1",
+            "NCBI_Taxonomy": "1229664"
+        },
+        {
+            "id": "T15",
+            "type": "Pest",
+            "name": "FocTR4",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T16",
+            "type": "Pest",
+            "name": "FocTR4",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T17",
+            "type": "Disease",
+            "name": "Panama disease"
+        },
+        {
+            "id": "T18",
+            "type": "Plant",
+            "name": "bananas",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T19",
+            "type": "Pest",
+            "name": "FocTR4",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T20",
+            "type": "Pest",
+            "name": "FocTR4",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T21",
+            "type": "Pest",
+            "name": "FocTR4",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T22",
+            "type": "Pest",
+            "name": "Zymoseptoria tritici",
+            "NCBI_Taxonomy": "1047171"
+        },
+        {
+            "id": "T23",
+            "type": "Pest",
+            "name": "FocTR4",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T24",
+            "type": "Pest",
+            "name": "FocTR4",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T25",
+            "type": "Plant",
+            "name": "bananas",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T26",
+            "type": "Disease",
+            "name": "Panama disease"
+        },
+        {
+            "id": "T27",
+            "type": "Plant",
+            "name": "bananas",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T28",
+            "type": "Pest",
+            "name": "FocTR4",
+            "NCBI_Taxonomy": "2502994"
+        }
+    ],
+    "equivalences": [
+        [
+            "T11",
+            "T10"
+        ],
+        [
+            "T13",
+            "T14"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Causes",
+            "source": "T7",
+            "target": "T6"
+        },
+        {
+            "type": "Affects",
+            "source": "T6",
+            "target": "T8"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T7",
+            "target": "T8"
+        },
+        {
+            "type": "Causes",
+            "source": "T10",
+            "target": "T9"
+        },
+        {
+            "type": "Affects",
+            "source": "T9",
+            "target": "T8"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T10",
+            "target": "T8"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T16",
+            "target": "T18"
+        },
+        {
+            "type": "Causes",
+            "source": "T16",
+            "target": "T17"
+        },
+        {
+            "type": "Affects",
+            "source": "T17",
+            "target": "T18"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T28",
+            "target": "T27"
+        }
+    ]
+}

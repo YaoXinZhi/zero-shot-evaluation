@@ -1,0 +1,165 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "Amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "quinazolines",
+            "Name": "quinazolines"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "Rock",
+            "Name": "rock"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "PKA",
+            "Name": "pka"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "Rock",
+            "Name": "rock"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "quinazolines",
+            "Name": "quinazolines"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "quinazolinones",
+            "Name": "quinazolinones"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "Rock (I & II)",
+            "Name": "rockiii"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "kinases",
+            "Name": "kinases"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "PKA",
+            "Name": "pka"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "Rock",
+            "Name": "rock"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "quinazolinones",
+            "Name": "quinazolinones"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PKA",
+            "Name": "pka"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "Rock",
+            "Name": "rock"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "cytochrome P-450",
+            "Name": "cytochromep450"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T7",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T8",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T5",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T6",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T14"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T4",
+            "target": "T14"
+        }
+    ]
+}

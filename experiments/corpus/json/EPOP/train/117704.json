@@ -1,0 +1,252 @@
+{
+    "entities": [
+        {
+            "id": "T14",
+            "type": "Disease",
+            "name": "Vine flavescence"
+        },
+        {
+            "id": "T16",
+            "type": "Disease",
+            "name": "flavescence dor\u00e9e"
+        },
+        {
+            "id": "T17",
+            "type": "Location",
+            "name": "Lot",
+            "GeoNames": "2997524"
+        },
+        {
+            "id": "T18",
+            "type": "Plant",
+            "name": "vineyards",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T19",
+            "type": "Vector",
+            "name": "Scaphoidus titanus",
+            "NCBI_Taxonomy": "376741"
+        },
+        {
+            "id": "T21",
+            "type": "Disease",
+            "name": "Vine flavescence"
+        },
+        {
+            "id": "T23",
+            "type": "Disease",
+            "name": "flavescence dor\u00e9e"
+        },
+        {
+            "id": "T24",
+            "type": "Location",
+            "name": "Lot",
+            "GeoNames": "2997524"
+        },
+        {
+            "id": "T25",
+            "type": "Plant",
+            "name": "vineyards",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T26",
+            "type": "Vector",
+            "name": "Scaphoidus titanus",
+            "NCBI_Taxonomy": "376741"
+        },
+        {
+            "id": "T27",
+            "type": "Plant",
+            "name": "red grape varieties",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T28",
+            "type": "Plant",
+            "name": "white grape varieties",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T29",
+            "type": "Disease",
+            "name": "bois noir"
+        },
+        {
+            "id": "T30",
+            "type": "Location",
+            "name": "Lot",
+            "GeoNames": "2997524"
+        },
+        {
+            "id": "T31",
+            "type": "Plant",
+            "name": "vineyard",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T33",
+            "type": "Plant",
+            "name": "vines",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T34",
+            "type": "Disease",
+            "name": "golden flavescence"
+        },
+        {
+            "id": "T35",
+            "type": "Disease",
+            "name": "black wood"
+        },
+        {
+            "id": "T36",
+            "type": "Plant",
+            "name": "vines",
+            "NCBI_Taxonomy": "29760"
+        },
+        {
+            "id": "T39",
+            "type": "Location",
+            "name": "Parnac",
+            "GeoNames": "6434851"
+        },
+        {
+            "id": "T40",
+            "type": "Location",
+            "name": "Pradines",
+            "GeoNames": "6454174"
+        },
+        {
+            "id": "T41",
+            "type": "Location",
+            "name": "Mercu\u00e8s",
+            "GeoNames": "6434836"
+        },
+        {
+            "id": "T42",
+            "type": "Location",
+            "name": "Douelle",
+            "GeoNames": "6449247"
+        },
+        {
+            "id": "T43",
+            "type": "Location",
+            "name": "Porte du Quercy",
+            "GeoNames": "6456929"
+        },
+        {
+            "id": "T44",
+            "type": "Location",
+            "name": "Sauzet",
+            "GeoNames": "6434916"
+        },
+        {
+            "id": "T45",
+            "type": "Location",
+            "name": "Luzech",
+            "GeoNames": "6434830"
+        },
+        {
+            "id": "T46",
+            "type": "Location",
+            "name": "Prayssac",
+            "GeoNames": "6616851"
+        },
+        {
+            "id": "T47",
+            "type": "Location",
+            "name": "Carnac",
+            "GeoNames": "6449227"
+        },
+        {
+            "id": "T48",
+            "type": "Location",
+            "name": "S\u00e9rignac",
+            "GeoNames": "6616862"
+        },
+        {
+            "id": "T49",
+            "type": "Location",
+            "name": "Saux",
+            "GeoNames": "6612568"
+        },
+        {
+            "id": "T50",
+            "type": "Location",
+            "name": "Montcuq",
+            "GeoNames": "6434841"
+        },
+        {
+            "id": "T51",
+            "type": "Location",
+            "name": "Glanes",
+            "GeoNames": "6434785"
+        }
+    ],
+    "equivalences": [
+        [
+            "T16",
+            "T14"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Affects",
+            "source": "T16",
+            "target": "T18"
+        },
+        {
+            "type": "Located in",
+            "source": "T18",
+            "target": "T17"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T19",
+            "target": "T18"
+        },
+        {
+            "type": "Affects",
+            "source": "T23",
+            "target": "T28"
+        },
+        {
+            "type": "Affects",
+            "source": "T23",
+            "target": "T25"
+        },
+        {
+            "type": "Affects",
+            "source": "T23",
+            "target": "T27"
+        },
+        {
+            "type": "Located in",
+            "source": "T25",
+            "target": "T24"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T26",
+            "target": "T25"
+        },
+        {
+            "type": "Located in",
+            "source": "T31",
+            "target": "T30"
+        },
+        {
+            "type": "Affects",
+            "source": "T34",
+            "target": "T36"
+        },
+        {
+            "type": "Affects",
+            "source": "T35",
+            "target": "T36"
+        }
+    ]
+}

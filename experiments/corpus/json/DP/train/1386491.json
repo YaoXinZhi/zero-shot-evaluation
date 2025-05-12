@@ -1,0 +1,134 @@
+{
+    "entities": [
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "endopeptidase",
+            "Name": "endopeptidase"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "candoxatril",
+            "Name": "candoxatril"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Candoxatril",
+            "Name": "candoxatril"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "neutral endopeptidase",
+            "Name": "neutralendopeptidase"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "EC 3.4.24.11",
+            "Name": "ec342411"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "atrial natriuretic peptide",
+            "Name": "atrialnatriureticpeptide"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "ANP",
+            "Name": "anp"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "candoxatril",
+            "Name": "candoxatril"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "candoxatril",
+            "Name": "candoxatril"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "ANP",
+            "Name": "anp"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "aldosterone",
+            "Name": "aldosterone"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "ANP",
+            "Name": "anp"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "aldosterone",
+            "Name": "aldosterone"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "candoxatril",
+            "Name": "candoxatril"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "ANP",
+            "Name": "anp"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "aldosterone",
+            "Name": "aldosterone"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "candoxatril",
+            "Name": "candoxatril"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T9",
+            "target": "T17"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T13"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T15"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T4",
+            "target": "T12"
+        },
+        {
+            "type": "Indirect downregulator",
+            "source": "T7",
+            "target": "T16"
+        }
+    ]
+}

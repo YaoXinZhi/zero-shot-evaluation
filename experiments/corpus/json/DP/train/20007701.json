@@ -1,0 +1,192 @@
+{
+    "entities": [
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "VMAT",
+            "Name": "vmat"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "vesicular neurotransmitter transporter",
+            "Name": "vesicularneurotransmittertransporter"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "VMAT2",
+            "Name": "vmat2"
+        },
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "monoamines",
+            "Name": "monoamines"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "VMAT2",
+            "Name": "vmat2"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "VMAT2",
+            "Name": "vmat2"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "rVMAT2",
+            "Name": "rvmat2"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "acriflavine",
+            "Name": "acriflavine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "parkinsonian toxin",
+            "Name": "parkinsoniantoxin"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "1-methyl-4-phenylpyridinium",
+            "Name": "1methyl4phenylpyridinium"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "MPP(+)",
+            "Name": "mpp"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "acriflavine",
+            "Name": "acriflavine"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "tetrabenazine",
+            "Name": "tetrabenazine"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "TBZ",
+            "Name": "tbz"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "VMAT2",
+            "Name": "vmat2"
+        },
+        {
+            "id": "T16",
+            "type": "Chemical",
+            "name": "TBZ",
+            "Name": "tbz"
+        },
+        {
+            "id": "T17",
+            "type": "Chemical",
+            "name": "TBZ",
+            "Name": "tbz"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "acriflavine",
+            "Name": "acriflavine"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "MPP(+)",
+            "Name": "mpp"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "amino acid",
+            "Name": "aminoacid"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "TBZ",
+            "Name": "tbz"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "rVMAT2",
+            "Name": "rvmat2"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "serotonin",
+            "Name": "serotonin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "TBZ",
+            "Name": "tbz"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T15",
+            "target": "T23"
+        },
+        {
+            "type": "Substrate",
+            "source": "T15",
+            "target": "T22"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T13",
+            "target": "T24"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T14",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T12",
+            "target": "T24"
+        },
+        {
+            "type": "Substrate",
+            "source": "T6",
+            "target": "T19"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T7",
+            "target": "T19"
+        }
+    ]
+}

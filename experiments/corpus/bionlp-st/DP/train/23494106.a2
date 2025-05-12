@@ -1,0 +1,62 @@
+T15	CHEMICAL 45 57	cannabinoids
+N1	Name Annotation:T15 Referent:cannabinoids
+T16	CHEMICAL 97 108	cannabinoid
+N2	Name Annotation:T16 Referent:cannabinoid
+T27	GENE-Y 97 129	cannabinoid receptor subtype CB1
+N3	Name Annotation:T27 Referent:cannabinoidreceptorsubtypecb1
+T3	CHEMICAL 161 173	cannabinoids
+N4	Name Annotation:T3 Referent:cannabinoids
+T4	CHEMICAL 461 476	naphthoylindole
+N5	Name Annotation:T4 Referent:naphthoylindole
+T5	CHEMICAL 488 495	JWH-018
+N6	Name Annotation:T5 Referent:jwh018
+T6	CHEMICAL 497 504	JWH-073
+N7	Name Annotation:T6 Referent:jwh073
+T7	CHEMICAL 506 513	JWH-122
+N8	Name Annotation:T7 Referent:jwh122
+T8	CHEMICAL 518 525	JWH-210
+N9	Name Annotation:T8 Referent:jwh210
+T9	CHEMICAL 538 551	benzoylindole
+N10	Name Annotation:T9 Referent:benzoylindole
+T10	CHEMICAL 553 559	AM-694
+N11	Name Annotation:T10 Referent:am694
+T11	CHEMICAL 613 633	tetrahydrocannabinol
+N12	Name Annotation:T11 Referent:tetrahydrocannabinol
+T26	GENE-N 679 699	cannabinoid receptor
+N13	Name Annotation:T26 Referent:cannabinoidreceptor
+T12	CHEMICAL 973 980	JWH-073
+N14	Name Annotation:T12 Referent:jwh073
+T13	CHEMICAL 985 992	JWH-122
+N15	Name Annotation:T13 Referent:jwh122
+T14	CHEMICAL 1098 1105	JWH-210
+N16	Name Annotation:T14 Referent:jwh210
+T17	GENE-N 1326 1334	cytokine
+N17	Name Annotation:T17 Referent:cytokine
+T18	GENE-Y 1353 1358	IL-10
+N18	Name Annotation:T18 Referent:il10
+T19	GENE-Y 1360 1364	IL-6
+N19	Name Annotation:T19 Referent:il6
+T20	GENE-N 1366 1371	IL-12
+N20	Name Annotation:T20 Referent:il12
+T21	GENE-Y 1372 1377	23p40
+N21	Name Annotation:T21 Referent:23p40
+T22	GENE-Y 1382 1386	TNFα
+N22	Name Annotation:T22 Referent:tnfα
+T1	CHEMICAL 1447 1454	JWH-210
+N23	Name Annotation:T1 Referent:jwh210
+T2	CHEMICAL 1459 1466	JWH-122
+N24	Name Annotation:T2 Referent:jwh122
+T23	GENE-Y 1494 1498	TNFα
+N25	Name Annotation:T23 Referent:tnfα
+T24	GENE-N 1503 1508	IL-12
+N26	Name Annotation:T24 Referent:il12
+T25	GENE-Y 1509 1514	23p40
+N27	Name Annotation:T25 Referent:23p40
+R1	DIRECT-REGULATOR Arg1:T15 Arg2:T27
+R2	DIRECT-REGULATOR Arg1:T11 Arg2:T26
+R3	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T23
+R4	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T23
+R5	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T24
+R6	INDIRECT-DOWNREGULATOR Arg1:T1 Arg2:T25
+R7	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T24
+R8	INDIRECT-DOWNREGULATOR Arg1:T2 Arg2:T25

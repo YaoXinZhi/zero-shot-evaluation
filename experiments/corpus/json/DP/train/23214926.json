@@ -1,0 +1,65 @@
+{
+    "entities": [
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "AMF-26",
+            "Name": "amf26"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "ADP",
+            "Name": "adp"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "ADP-ribosylation factor 1",
+            "Name": "adpribosylationfactor1"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "AMF-26",
+            "Name": "amf26"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "ADP",
+            "Name": "adp"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "ADP-ribosylation factor 1",
+            "Name": "adpribosylationfactor1"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "Arf1",
+            "Name": "arf1"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "\u0394\u00b9,\u00b2-octalin",
+            "Name": "\u03b4\u00b9\u00b2octalin"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T6"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T7"
+        }
+    ]
+}

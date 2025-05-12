@@ -1,0 +1,165 @@
+{
+    "entities": [
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "mesalazine",
+            "Name": "mesalazine"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "mesalazine",
+            "Name": "mesalazine"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "5-aminosalicyclic acid",
+            "Name": "5aminosalicyclicacid"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "5-ASA",
+            "Name": "5asa"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "mesalazine",
+            "Name": "mesalazine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "aspirin",
+            "Name": "aspirin"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "benzene",
+            "Name": "benzene"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "cyclo-oxygenase",
+            "Name": "cyclooxygenase"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "COX-1",
+            "Name": "cox1"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "COX-2",
+            "Name": "cox2"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "prostaglandins",
+            "Name": "prostaglandins"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "lipoxygenase",
+            "Name": "lipoxygenase"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "nuclear factor kappaB",
+            "Name": "nuclearfactorkappab"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "NFkappaB",
+            "Name": "nfkappab"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "MAP kinases",
+            "Name": "mapkinases"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "Bcl-2",
+            "Name": "bcl2"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "sphingomyelinase",
+            "Name": "sphingomyelinase"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "peroxisome-proliferator-activated receptor delta",
+            "Name": "peroxisomeproliferatoractivatedreceptordelta"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "PPARdelta",
+            "Name": "ppardelta"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "5-ASAs",
+            "Name": "5asas"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "prostaglandins",
+            "Name": "prostaglandins"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "PPARdelta",
+            "Name": "ppardelta"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "COX",
+            "Name": "cox"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Product of",
+            "source": "T8",
+            "target": "T16"
+        },
+        {
+            "type": "Product of",
+            "source": "T8",
+            "target": "T17"
+        },
+        {
+            "type": "Product of",
+            "source": "T8",
+            "target": "T18"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T2",
+            "target": "T15"
+        }
+    ]
+}

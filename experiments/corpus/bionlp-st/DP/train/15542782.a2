@@ -1,0 +1,41 @@
+T17	GENE-N 23 50	cyclin-dependent kinase 4/6
+N1	Name Annotation:T17 Referent:cyclindependentkinase46
+T6	CHEMICAL 54 64	PD 0332991
+N2	Name Annotation:T6 Referent:pd0332991
+T1	CHEMICAL 126 136	PD 0332991
+N3	Name Annotation:T1 Referent:pd0332991
+T11	GENE-Y 171 196	cyclin-dependent kinase 4
+N4	Name Annotation:T11 Referent:cyclindependentkinase4
+T15	GENE-Y 198 202	Cdk4
+N5	Name Annotation:T15 Referent:cdk4
+T7	GENE-Y 233 237	Cdk6
+N6	Name Annotation:T7 Referent:cdk6
+T8	GENE-N 324 331	kinases
+N7	Name Annotation:T8 Referent:kinases
+T9	GENE-Y 396 398	Rb
+N8	Name Annotation:T9 Referent:rb
+T2	CHEMICAL 504 507	Ser
+N9	Name Annotation:T2 Referent:ser
+T3	CHEMICAL 511 514	Ser
+N10	Name Annotation:T3 Referent:ser
+T10	GENE-Y 525 535	Rb protein
+N11	Name Annotation:T10 Referent:rbprotein
+T4	CHEMICAL 560 570	PD 0332991
+N12	Name Annotation:T4 Referent:pd0332991
+T5	CHEMICAL 677 687	PD 0332991
+N13	Name Annotation:T5 Referent:pd0332991
+T12	GENE-Y 709 719	phospho-Rb
+N14	Name Annotation:T12 Referent:phosphorb
+T13	GENE-Y 749 754	Ki-67
+N15	Name Annotation:T13 Referent:ki67
+T14	GENE-N 837 840	E2F
+N16	Name Annotation:T14 Referent:e2f
+T16	GENE-N 882 888	Cdk4/6
+N17	Name Annotation:T16 Referent:cdk46
+R1	INHIBITOR Arg1:T1 Arg2:T11
+R2	INHIBITOR Arg1:T1 Arg2:T15
+R3	INHIBITOR Arg1:T1 Arg2:T7
+R4	PART-OF Arg1:T3 Arg2:T10
+R5	PART-OF Arg1:T2 Arg2:T10
+R6	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T13
+R7	INDIRECT-DOWNREGULATOR Arg1:T5 Arg2:T14

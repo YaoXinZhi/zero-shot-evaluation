@@ -1,0 +1,46 @@
+T8	CHEMICAL 0 9	Serotonin
+N1	Name Annotation:T8 Referent:serotonin
+T20	GENE 0 21	Serotonin transporter
+N2	Name Annotation:T20 Referent:serotonintransporter
+T9	CHEMICAL 69 75	RTI-76
+N3	Name Annotation:T9 Referent:rti76
+T6	CHEMICAL 140 149	serotonin
+N4	Name Annotation:T6 Referent:serotonin
+T15	GENE 140 161	serotonin transporter
+N5	Name Annotation:T15 Referent:serotonintransporter
+T18	GENE 163 167	SERT
+N6	Name Annotation:T18 Referent:sert
+T12	GENE 289 293	SERT
+N7	Name Annotation:T12 Referent:sert
+T2	CHEMICAL 370 376	RTI-76
+N8	Name Annotation:T2 Referent:rti76
+T3	CHEMICAL 495 501	RTI-76
+N9	Name Annotation:T3 Referent:rti76
+T13	GENE 558 562	SERT
+N10	Name Annotation:T13 Referent:sert
+T4	CHEMICAL 589 599	Citalopram
+N11	Name Annotation:T4 Referent:citalopram
+T5	CHEMICAL 622 628	RTI-76
+N12	Name Annotation:T5 Referent:rti76
+T14	GENE 651 655	SERT
+N13	Name Annotation:T14 Referent:sert
+T7	CHEMICAL 740 746	RTI-76
+N14	Name Annotation:T7 Referent:rti76
+T16	GENE 806 810	SERT
+N15	Name Annotation:T16 Referent:sert
+T17	GENE 876 880	SERT
+N16	Name Annotation:T17 Referent:sert
+T19	GENE 1070 1074	SERT
+N17	Name Annotation:T19 Referent:sert
+T10	GENE 1388 1392	SERT
+N18	Name Annotation:T10 Referent:sert
+T1	CHEMICAL 1486 1495	[3H]-5-HT
+N19	Name Annotation:T1 Referent:3h5ht
+T11	GENE 1553 1557	SERT
+N20	Name Annotation:T11 Referent:sert
+R1	INHIBITOR Arg1:T2 Arg2:T12
+R2	INHIBITOR Arg1:T3 Arg2:T13
+R3	INHIBITOR Arg1:T5 Arg2:T14
+R4	DIRECT-REGULATOR Arg1:T4 Arg2:T14
+R5	DIRECT-REGULATOR Arg1:T7 Arg2:T16
+R6	SUBSTRATE Arg1:T1 Arg2:T11

@@ -1,0 +1,232 @@
+{
+    "entities": [
+        {
+            "id": "T15",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T30",
+            "type": "Gene",
+            "name": "serine hydroxymethyltransferase",
+            "Name": "serinehydroxymethyltransferase"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "Serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T16",
+            "type": "Gene",
+            "name": "Serine hydroxymethyltransferase",
+            "Name": "serinehydroxymethyltransferase"
+        },
+        {
+            "id": "T22",
+            "type": "Gene",
+            "name": "SHMT",
+            "Name": "shmt"
+        },
+        {
+            "id": "T12",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T13",
+            "type": "Chemical",
+            "name": "tetrahydrofolate",
+            "Name": "tetrahydrofolate"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "glycine",
+            "Name": "glycine"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "methylene-tetrahydrofolate",
+            "Name": "methylenetetrahydrofolate"
+        },
+        {
+            "id": "T11",
+            "type": "Chemical",
+            "name": "N",
+            "Name": "n"
+        },
+        {
+            "id": "T23",
+            "type": "Gene",
+            "name": "SHMT",
+            "Name": "shmt"
+        },
+        {
+            "id": "T24",
+            "type": "Gene",
+            "name": "SHMT",
+            "Name": "shmt"
+        },
+        {
+            "id": "T25",
+            "type": "Gene",
+            "name": "L. major SHMT",
+            "Name": "lmajorshmt"
+        },
+        {
+            "id": "T26",
+            "type": "Gene",
+            "name": "SHMT-S",
+            "Name": "shmts"
+        },
+        {
+            "id": "T27",
+            "type": "Gene",
+            "name": "SHMT-L",
+            "Name": "shmtl"
+        },
+        {
+            "id": "T28",
+            "type": "Gene",
+            "name": "SHMT-L",
+            "Name": "shmtl"
+        },
+        {
+            "id": "T29",
+            "type": "Gene",
+            "name": "HSP60",
+            "Name": "hsp60"
+        },
+        {
+            "id": "T14",
+            "type": "Chemical",
+            "name": "digitonin",
+            "Name": "digitonin"
+        },
+        {
+            "id": "T17",
+            "type": "Gene",
+            "name": "SHMT-S",
+            "Name": "shmts"
+        },
+        {
+            "id": "T18",
+            "type": "Gene",
+            "name": "SHMT-L",
+            "Name": "shmtl"
+        },
+        {
+            "id": "T19",
+            "type": "Gene",
+            "name": "SHMT-L",
+            "Name": "shmtl"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "glycine",
+            "Name": "glycine"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "serine",
+            "Name": "serine"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "folate",
+            "Name": "folate"
+        },
+        {
+            "id": "T20",
+            "type": "Gene",
+            "name": "SHMT-S",
+            "Name": "shmts"
+        },
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "methotrexate",
+            "Name": "methotrexate"
+        },
+        {
+            "id": "T8",
+            "type": "Chemical",
+            "name": "thiosemicarbazide",
+            "Name": "thiosemicarbazide"
+        },
+        {
+            "id": "T9",
+            "type": "Chemical",
+            "name": "folate",
+            "Name": "folate"
+        },
+        {
+            "id": "T10",
+            "type": "Chemical",
+            "name": "folate",
+            "Name": "folate"
+        },
+        {
+            "id": "T21",
+            "type": "Gene",
+            "name": "SHMT",
+            "Name": "shmt"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Substrate",
+            "source": "T12",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T13",
+            "target": "T16"
+        },
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T16"
+        },
+        {
+            "type": "Product of",
+            "source": "T6",
+            "target": "T16"
+        },
+        {
+            "type": "Substrate",
+            "source": "T12",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T13",
+            "target": "T22"
+        },
+        {
+            "type": "Product of",
+            "source": "T2",
+            "target": "T22"
+        },
+        {
+            "type": "Product of",
+            "source": "T6",
+            "target": "T22"
+        },
+        {
+            "type": "Substrate",
+            "source": "T10",
+            "target": "T21"
+        }
+    ]
+}

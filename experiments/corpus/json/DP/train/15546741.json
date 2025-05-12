@@ -1,0 +1,122 @@
+{
+    "entities": [
+        {
+            "id": "T7",
+            "type": "Chemical",
+            "name": "9-cis-retinoic acid",
+            "Name": "9cisretinoicacid"
+        },
+        {
+            "id": "T15",
+            "type": "Gene",
+            "name": "RXR",
+            "Name": "rxr"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "aryltriflates",
+            "Name": "aryltriflates"
+        },
+        {
+            "id": "T6",
+            "type": "Chemical",
+            "name": "dienylstannane",
+            "Name": "dienylstannane"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "carboxylic acids",
+            "Name": "carboxylicacids"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "retinoids",
+            "Name": "retinoids"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "RAR",
+            "Name": "rar"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "RXR",
+            "Name": "rxr"
+        },
+        {
+            "id": "T4",
+            "type": "Chemical",
+            "name": "LG100567",
+            "Name": "lg100567"
+        },
+        {
+            "id": "T5",
+            "type": "Chemical",
+            "name": "retinoids",
+            "Name": "retinoids"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "RXR",
+            "Name": "rxr"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "RAR",
+            "Name": "rar"
+        },
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "RXR",
+            "Name": "rxr"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "RAR",
+            "Name": "rar"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "RXR",
+            "Name": "rxr"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Agonist",
+            "source": "T7",
+            "target": "T15"
+        },
+        {
+            "type": "Agonist",
+            "source": "T4",
+            "target": "T9"
+        },
+        {
+            "type": "Agonist",
+            "source": "T4",
+            "target": "T8"
+        },
+        {
+            "type": "Direct regulator",
+            "source": "T5",
+            "target": "T10"
+        },
+        {
+            "type": "Activator",
+            "source": "T5",
+            "target": "T10"
+        }
+    ]
+}

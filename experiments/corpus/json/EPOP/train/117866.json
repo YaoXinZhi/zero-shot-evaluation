@@ -1,0 +1,200 @@
+{
+    "entities": [
+        {
+            "id": "T29",
+            "type": "Plant",
+            "name": "banana",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T30",
+            "type": "Disease",
+            "name": "fusariosis"
+        },
+        {
+            "id": "T31",
+            "type": "Disease",
+            "name": "fusariosis disease"
+        },
+        {
+            "id": "T32",
+            "type": "Plant",
+            "name": "banana trees",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T33",
+            "type": "Pest",
+            "name": "banana tree moleque",
+            "NCBI_Taxonomy": "206492"
+        },
+        {
+            "id": "T34",
+            "type": "Disease",
+            "name": "Fusariosis"
+        },
+        {
+            "id": "T35",
+            "type": "Disease",
+            "name": "Panama disease"
+        },
+        {
+            "id": "T36",
+            "type": "Location",
+            "name": "Brazil",
+            "GeoNames": "3469034"
+        },
+        {
+            "id": "T37",
+            "type": "Plant",
+            "name": "banana",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T38",
+            "type": "Location",
+            "name": "region of Vale do Ribeira",
+            "GeoNames": "3455077"
+        },
+        {
+            "id": "T39",
+            "type": "Pest",
+            "name": "banana borer",
+            "NCBI_Taxonomy": "206492"
+        },
+        {
+            "id": "T40",
+            "type": "Pest",
+            "name": "Cosmopolites sordidus",
+            "NCBI_Taxonomy": "206492"
+        },
+        {
+            "id": "T41",
+            "type": "Pest",
+            "name": "Fusarium oxysporum f. sp. cubense",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T42",
+            "type": "Pest",
+            "name": "FOC",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T43",
+            "type": "Disease",
+            "name": "fusariosis"
+        },
+        {
+            "id": "T45",
+            "type": "Pest",
+            "name": "banana borers",
+            "NCBI_Taxonomy": "206492"
+        },
+        {
+            "id": "T46",
+            "type": "Pest",
+            "name": "banana borer",
+            "NCBI_Taxonomy": "206492"
+        },
+        {
+            "id": "T47",
+            "type": "Pest",
+            "name": "fungus FOC",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T48",
+            "type": "Pest",
+            "name": "fungus FOC",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T49",
+            "type": "Pest",
+            "name": "FOC",
+            "NCBI_Taxonomy": "2502994"
+        },
+        {
+            "id": "T50",
+            "type": "Plant",
+            "name": "banana plantations",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T51",
+            "type": "Pest",
+            "name": "banana borer",
+            "NCBI_Taxonomy": "206492"
+        },
+        {
+            "id": "T52",
+            "type": "Pest",
+            "name": "C. sordidus",
+            "NCBI_Taxonomy": "206492"
+        },
+        {
+            "id": "T53",
+            "type": "Plant",
+            "name": "banana cultivation",
+            "NCBI_Taxonomy": "4640"
+        },
+        {
+            "id": "T54",
+            "type": "Pest",
+            "name": "Cosmopolites sordidus",
+            "NCBI_Taxonomy": "206492"
+        },
+        {
+            "id": "T55",
+            "type": "Pest",
+            "name": "Fusarium oxysporum f. sp. cubense",
+            "NCBI_Taxonomy": "2502994"
+        }
+    ],
+    "equivalences": [
+        [
+            "T52",
+            "T51"
+        ],
+        [
+            "T40",
+            "T39"
+        ],
+        [
+            "T42",
+            "T41"
+        ],
+        [
+            "T34",
+            "T35"
+        ]
+    ],
+    "relationships": [
+        {
+            "type": "Affects",
+            "source": "T31",
+            "target": "T32"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T33",
+            "target": "T32"
+        },
+        {
+            "type": "Located in",
+            "source": "T37",
+            "target": "T38"
+        },
+        {
+            "type": "Causes",
+            "source": "T41",
+            "target": "T43"
+        },
+        {
+            "type": "Has been found on",
+            "source": "T51",
+            "target": "T50"
+        }
+    ]
+}

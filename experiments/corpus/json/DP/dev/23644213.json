@@ -1,0 +1,106 @@
+{
+    "entities": [
+        {
+            "id": "T12",
+            "type": "Gene",
+            "name": "factor Xa",
+            "Name": "factorxa"
+        },
+        {
+            "id": "T13",
+            "type": "Gene",
+            "name": "fibrinogen",
+            "Name": "fibrinogen"
+        },
+        {
+            "id": "T14",
+            "type": "Gene",
+            "name": "GPIIb/IIIa",
+            "Name": "gpiibiiia"
+        },
+        {
+            "id": "T4",
+            "type": "Gene",
+            "name": "factor Xa",
+            "Name": "factorxa"
+        },
+        {
+            "id": "T5",
+            "type": "Gene",
+            "name": "fibrinogen",
+            "Name": "fibrinogen"
+        },
+        {
+            "id": "T6",
+            "type": "Gene",
+            "name": "GPIIb/IIIa",
+            "Name": "gpiibiiia"
+        },
+        {
+            "id": "T7",
+            "type": "Gene",
+            "name": "factor Xa",
+            "Name": "factorxa"
+        },
+        {
+            "id": "T1",
+            "type": "Chemical",
+            "name": "rivaroxaban",
+            "Name": "rivaroxaban"
+        },
+        {
+            "id": "T2",
+            "type": "Chemical",
+            "name": "Arg-Gly-Asp",
+            "Name": "argglyasp"
+        },
+        {
+            "id": "T8",
+            "type": "Gene",
+            "name": "Arg-Gly-Asp",
+            "Name": "argglyasp"
+        },
+        {
+            "id": "T9",
+            "type": "Gene",
+            "name": "RGD",
+            "Name": "rgd"
+        },
+        {
+            "id": "T10",
+            "type": "Gene",
+            "name": "fibrinogen",
+            "Name": "fibrinogen"
+        },
+        {
+            "id": "T11",
+            "type": "Gene",
+            "name": "GPIIb/IIIa",
+            "Name": "gpiibiiia"
+        },
+        {
+            "id": "T3",
+            "type": "Chemical",
+            "name": "1,2,4-oxadiazol-5(4H)-one",
+            "Name": "124oxadiazol54hone"
+        }
+    ],
+    "equivalences": [],
+    "relationships": [
+        {
+            "type": "Inhibitor",
+            "source": "T1",
+            "target": "T7"
+        },
+        {
+            "type": "Part of",
+            "source": "T2",
+            "target": "T10"
+        },
+        {
+            "type": "Inhibitor",
+            "source": "T3",
+            "target": "T11"
+        }
+    ]
+}
