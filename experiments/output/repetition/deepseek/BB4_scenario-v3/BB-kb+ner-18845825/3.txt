@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "nontypeable Haemophilus influenzae"
+    },
+    {
+      "type": "Microbe",
+      "name": "NTHi"
+    },
+    {
+      "type": "Habitat",
+      "name": "throats of two healthy children"
+    },
+    {
+      "type": "Habitat",
+      "name": "day care center"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "high genetic diversity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "multilocus sequence typing"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "nontypeable Haemophilus influenzae",
+      "target": "throats of two healthy children"
+    },
+    {
+      "type": "Isolated from",
+      "source": "NTHi",
+      "target": "throats of two healthy children"
+    },
+    {
+      "type": "Exhibits",
+      "source": "nontypeable Haemophilus influenzae",
+      "target": "high genetic diversity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "NTHi",
+      "target": "high genetic diversity"
+    }
+  ]
+}
+

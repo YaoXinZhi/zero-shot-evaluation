@@ -1,0 +1,34 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Pest", "name": "'Candidatus Liberibacter asiaticus'"},
+      {"type": "Pest", "name": "CLas"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "Citrus× sinensis(L.) Osbeck"},
+      {"type": "Plant", "name": "sweet orange"},
+      {"type": "Vector", "name": "Agrobacterium"},
+      {"type": "Pest", "name": "Sarcophaga peregrina"},
+      {"type": "Pest", "name": "flesh fly"},
+      {"type": "Plant", "name": "Pera sweet orange"},
+      {"type": "Geographic", "name": "International"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Huanglongbing", "type": "Causes", "target": "HLB"},
+      {"source": "HLB", "type": "Causes", "target": "'Candidatus Liberibacter asiaticus'"},
+      {"source": "'Candidatus Liberibacter asiaticus'", "type": "Causes", "target": "HLB"},
+      {"source": "CLas", "type": "Causes", "target": "HLB"},
+      {"source": "CLas", "type": "Have been found on", "target": "citrus"},
+      {"source": "CLas", "type": "Have been found on", "target": "Citrus× sinensis(L.) Osbeck"},
+      {"source": "CLas", "type": "Have been found on", "target": "sweet orange"},
+      {"source": "Agrobacterium", "type": "Transmit", "target": "'Candidatus Liberibacter asiaticus'"},
+      {"source": "Sarcophaga peregrina", "type": "Have been found on", "target": "flesh fly"},
+      {"source": "flesh fly", "type": "Have been found on", "target": "Sarcophaga peregrina"},
+      {"source": "Pera sweet orange", "type": "Located in", "target": "International"}
+    ]
+  }
+]
+

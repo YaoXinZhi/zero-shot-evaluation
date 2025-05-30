@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Clostridium difficile"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "leukocyte count >15 × 10(9)/L"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "increase in serum level of creatinine >1.5-fold from baseline"
+    },
+    {
+      "type": "Habitat",
+      "name": "blood samples"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Olmsted County, Minnesota"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Clostridium difficile",
+      "target": "blood samples"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium difficile",
+      "target": "leukocyte count >15 × 10(9)/L"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium difficile",
+      "target": "increase in serum level of creatinine >1.5-fold from baseline"
+    }
+  ]
+}
+

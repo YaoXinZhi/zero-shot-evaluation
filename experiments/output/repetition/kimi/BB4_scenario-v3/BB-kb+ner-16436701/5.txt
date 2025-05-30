@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157:H7"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bactericidal properties"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "hydrophobicity"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "charge"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "structure"
+    },
+    {
+      "type": "Habitat",
+      "name": "commercial apple juice"
+    },
+    {
+      "type": "Microbe",
+      "name": "dermaseptin S4"
+    },
+    {
+      "type": "Microbe",
+      "name": "K4K20S4 (P28)"
+    },
+    {
+      "type": "Microbe",
+      "name": "N-terminal 14-mer sequence (P14)"
+    },
+    {
+      "type": "Microbe",
+      "name": "lipopeptide"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "dermaseptin S4",
+      "target": "frog"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4 (P28)",
+      "target": "bactericidal properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "N-terminal 14-mer sequence (P14)",
+      "target": "bactericidal properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lipopeptide",
+      "target": "bactericidal properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "dermaseptin S4",
+      "target": "hydrophobicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "dermaseptin S4",
+      "target": "charge"
+    },
+    {
+      "type": "Exhibits",
+      "source": "dermaseptin S4",
+      "target": "structure"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "food"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lipopeptide",
+      "target": "commercial apple juice"
+    }
+  ]
+}
+

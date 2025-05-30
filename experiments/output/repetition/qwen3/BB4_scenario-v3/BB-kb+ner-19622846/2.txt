@@ -1,0 +1,74 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "MRSA"
+    },
+    {
+      "type": "Microbe",
+      "name": "methicillin-resistant Staphylococcus aureus"
+    },
+    {
+      "type": "Habitat",
+      "name": "environmental surfaces"
+    },
+    {
+      "type": "Habitat",
+      "name": "jail"
+    },
+    {
+      "type": "Geographical location",
+      "name": "jail setting"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. aureus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "methicillin-resistant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "oxacillin-resistant"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "environmental surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "environmental surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "jail"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "methicillin-resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "oxacillin-resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "methicillin-resistant"
+    }
+  ]
+}
+```

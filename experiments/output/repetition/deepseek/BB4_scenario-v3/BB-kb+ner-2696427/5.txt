@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Vibrio salmonicida"
+    },
+    {
+      "type": "Habitat",
+      "name": "fish farm sediments"
+    },
+    {
+      "type": "Habitat",
+      "name": "intestinal tracts of healthy fish"
+    },
+    {
+      "type": "Habitat",
+      "name": "sediments"
+    },
+    {
+      "type": "Habitat",
+      "name": "diseased farms"
+    },
+    {
+      "type": "Habitat",
+      "name": "disease-free fish farm"
+    },
+    {
+      "type": "Habitat",
+      "name": "sediments not influenced by fish farming"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "persistence"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Vibrio salmonicida",
+      "target": "fish farm sediments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio salmonicida",
+      "target": "intestinal tracts of healthy fish"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio salmonicida",
+      "target": "sediments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio salmonicida",
+      "target": "diseased farms"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio salmonicida",
+      "target": "disease-free fish farm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Vibrio salmonicida",
+      "target": "persistence"
+    }
+  ]
+}
+

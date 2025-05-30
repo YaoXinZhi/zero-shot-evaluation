@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "yeasts"
+    },
+    {
+      "type": "Microbe",
+      "name": "Gram positive"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "catalase positive"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "salt-tolerant"
+    },
+    {
+      "type": "Microbe",
+      "name": "coagulase-negative cocci (CNC)"
+    },
+    {
+      "type": "Microbe",
+      "name": "coryneform bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Micrococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Gram positive",
+      "target": "catalase positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram positive",
+      "target": "salt-tolerant"
+    },
+    {
+      "type": "Isolated from",
+      "source": "coagulase-negative cocci (CNC)",
+      "target": "yeasts"
+    },
+    {
+      "type": "Isolated from",
+      "source": "coryneform bacteria",
+      "target": "yeasts"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus",
+      "target": "yeasts"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Micrococcus",
+      "target": "yeasts"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium",
+      "target": "yeasts"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Arthrobacter",
+      "target": "yeasts"
+    }
+  ]
+}
+

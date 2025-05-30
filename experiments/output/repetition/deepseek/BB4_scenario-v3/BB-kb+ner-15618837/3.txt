@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastric biopsies"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Republic of Yemen"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "dyspepsia"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "rapid urease test"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "C-urea breath test"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "delta C-UBT value"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacterial resistance"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "gastric biopsies"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "dyspepsia"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "rapid urease test"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "C-urea breath test"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "delta C-UBT value"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "bacterial resistance"
+    }
+  ]
+}
+

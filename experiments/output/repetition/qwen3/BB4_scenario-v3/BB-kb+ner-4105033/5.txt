@@ -1,0 +1,112 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "alkaline phosphatase"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "spheroplasts"
+    },
+    {
+      "type": "Habitat",
+      "name": "periplasm"
+    },
+    {
+      "type": "Habitat",
+      "name": "external cell wall layers"
+    },
+    {
+      "type": "Habitat",
+      "name": "cytoplasmic membrane"
+    },
+    {
+      "type": "Habitat",
+      "name": "peptidoglycan layer"
+    },
+    {
+      "type": "Habitat",
+      "name": "tripartite layer of the cell wall"
+    },
+    {
+      "type": "Habitat",
+      "name": "sucrose"
+    },
+    {
+      "type": "Habitat",
+      "name": "0.2 m MgCl(2)"
+    },
+    {
+      "type": "Habitat",
+      "name": "20% sucrose"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "periplasm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "alkaline phosphatase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "spheroplasts"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "tripartite layer of the cell wall"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "reassociates with the spheroplasts"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "reassociates with the external cell wall layers"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "remained in the periplasm"
+    },
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "tripartite layer of the cell wall"
+    },
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "external cell wall layers"
+    },
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "periplasm"
+    },
+    {
+      "type": "Isolated from",
+      "source": "spheroplasts",
+      "target": "20% sucrose"
+    },
+    {
+      "type": "Isolated from",
+      "source": "spheroplasts",
+      "target": "0.2 m MgCl(2)"
+    }
+  ]
+}
+```

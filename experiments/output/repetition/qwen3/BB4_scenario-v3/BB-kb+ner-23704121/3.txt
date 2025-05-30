@@ -1,0 +1,131 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Clostridium difficile"
+    },
+    {
+      "type": "Microbe",
+      "name": "NAP1/BI/027"
+    },
+    {
+      "type": "Microbe",
+      "name": "Clostridium difficile infection"
+    },
+    {
+      "type": "Microbe",
+      "name": "CDI"
+    },
+    {
+      "type": "Microbe",
+      "name": "Clostridium difficile infection (CDI)"
+    },
+    {
+      "type": "Microbe",
+      "name": "NAP1/BI/027 strain"
+    },
+    {
+      "type": "Microbe",
+      "name": "strain"
+    },
+    {
+      "type": "Habitat",
+      "name": "human host"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "treatment"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cost-effectiveness"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "economic value"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "dominated"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "incremental cost-effectiveness ratio"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "first-line treatment"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "screening"
+    },
+    {
+      "type": "Geographical location",
+      "name": "United States"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Clostridium difficile",
+      "target": "human host"
+    },
+    {
+      "type": "Isolated from",
+      "source": "NAP1/BI/027 strain",
+      "source": "Clostridium difficile infection (CDI)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium difficile infection",
+      "target": "infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "fidaxomicin",
+      "target": "treatment"
+    },
+    {
+      "type": "Exhibits",
+      "source": "fidaxomicin",
+      "target": "cost-effectiveness"
+    },
+    {
+      "type": "Exhibits",
+      "source": "fidaxomicin",
+      "target": "economic value"
+    },
+    {
+      "type": "Exhibits",
+      "source": "fidaxomicin",
+      "target": "incremental cost-effectiveness ratio"
+    },
+    {
+      "type": "Exhibits",
+      "source": "fidaxomicin",
+      "target": "dominated"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium difficile infection",
+      "target": "first-line treatment"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium difficile infection",
+      "target": "screening"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium difficile infection",
+      "target": "strain typing"
+    }
+  ]
+}
+```

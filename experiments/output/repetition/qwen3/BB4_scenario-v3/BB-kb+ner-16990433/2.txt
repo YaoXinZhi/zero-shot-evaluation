@@ -1,0 +1,110 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157:H7"
+    },
+    {
+      "type": "Microbe",
+      "name": "Sakai strain of enterohemorrhagic E. coli (EHEC) O157:H7"
+    },
+    {
+      "type": "Microbe",
+      "name": "EHEC"
+    },
+    {
+      "type": "Microbe",
+      "name": "plant pathogens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Shigella"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "type III secretion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "pathogenicity"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "lambdoid prophages"
+    },
+    {
+      "type": "Habitat",
+      "name": "human cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "chromosome"
+    },
+    {
+      "type": "Geographical location",
+      "name": "not specified"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157",
+      "target": "type III secretion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Sakai strain of enterohemorrhagic E. coli (EHEC) O157:H7",
+      "target": "type III secretion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EHEC",
+      "target": "pathogenicity"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "human cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "EHEC",
+      "target": "human cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157:H7",
+      "target": "pathogenicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EHEC",
+      "target": "type III secretion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Sakai strain of enterohemorrhagic E. coli (EHEC) O157:H7",
+      "target": "pathogenicity"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Sakai strain of enterohemorrhagic E. coli (EHEC) O157:H7",
+      "target": "chromosome"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EHEC",
+      "target": "lambdoid prophages"
+    }
+  ]
+}
+```

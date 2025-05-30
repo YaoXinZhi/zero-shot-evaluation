@@ -1,0 +1,83 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Kingella kingae"
+    },
+    {
+      "type": "Habitat",
+      "name": "respiratory tract"
+    },
+    {
+      "type": "Habitat",
+      "name": "throat"
+    },
+    {
+      "type": "Habitat",
+      "name": "nasopharyngeal"
+    },
+    {
+      "type": "Habitat",
+      "name": "day-care center attendees"
+    },
+    {
+      "type": "Habitat",
+      "name": "children"
+    },
+    {
+      "type": "Geographical location",
+      "name": "southern Israel"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "invasive pathogen"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "continuous carriage"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "intermittent carriage"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "respiratory tract"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "throat"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "day-care center attendees"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "children"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Kingella kingae",
+      "target": "invasive pathogen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Kingella kingae",
+      "target": "continuous carriage"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Kingella kingae",
+      "target": "intermittent carriage"
+    }
+  ]
+}
+```

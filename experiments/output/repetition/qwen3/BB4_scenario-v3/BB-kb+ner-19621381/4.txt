@@ -1,0 +1,74 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "BCL-XL-1/2"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "amyloidogenic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "aggregation-prone"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "solubilize"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "toxicity"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "inclusion bodies"
+    },
+    {
+      "type": "Habitat",
+      "name": "bacterial inclusion bodies"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "denaturing solutions"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "amyloidogenic peptides",
+      "target": "aggregation-prone"
+    },
+    {
+      "type": "Isolated from",
+      "source": "amyloidogenic peptides",
+      "target": "bacterial inclusion bodies"
+    },
+    {
+      "type": "Exhibits",
+      "source": "BCL-XL-1/2",
+      "target": "solubilize"
+    },
+    {
+      "type": "Exhibits",
+      "source": "amyloidogenic peptides",
+      "target": "toxicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "amyloidogenic peptides",
+      "target": "inclusion bodies"
+    },
+    {
+      "type": "Exhibits",
+      "source": "amyloidogenic peptides",
+      "target": "denaturing solutions"
+    }
+  ]
+}
+```

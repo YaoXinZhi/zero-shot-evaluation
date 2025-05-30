@@ -1,0 +1,36 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Plant", "name": "crops"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "United Nations"},
+      {"type": "Plant", "name": "plants"},
+      {"type": "Pest", "name": "invertebrate pests"},
+      {"type": "Organization", "name": "Food and Agriculture Organization of the United Nations"},
+      {"type": "Organization", "name": "Aston University"},
+      {"type": "Organization", "name": "Harper Adams University"},
+      {"type": "Organization", "name": "Biotechnology and Biological Sciences Research Council"},
+      {"type": "Organization", "name": "Natural Environment Research Council"},
+      {"type": "Person", "name": "Professor David Webb"},
+      {"type": "Organization", "name": "Aston Institute of Photonic Technologies"},
+      {"type": "Person", "name": "dr. Joe Roberts"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "crops", "type": "Located in", "target": "Midlands"},
+      {"source": "crops", "type": "Located in", "target": "UK"},
+      {"source": "plant diseases", "type": "Affects", "target": "plants"},
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "invertebrate pests", "type": "Have been found on", "target": "plants"},
+      {"source": "plant diseases", "type": "Have been found on", "target": "plants"},
+      {"source": "BBSRC", "type": "Located in", "target": "UK"},
+      {"source": "NERC", "type": "Located in", "target": "UK"}
+    ]
+  }
+]
+

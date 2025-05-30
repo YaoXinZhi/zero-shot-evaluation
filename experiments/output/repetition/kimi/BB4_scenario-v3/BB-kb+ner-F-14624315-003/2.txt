@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus genus"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. lactis spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus thermophilus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "branched-chain transaminase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "specific transaminase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "α-ketoisocaproic acid production"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "3-methylbutanal formation"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus genus",
+      "target": "branched-chain transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis spp.",
+      "target": "branched-chain transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus thermophilus",
+      "target": "branched-chain transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis spp.",
+      "target": "specific transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus thermophilus",
+      "target": "specific transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis spp.",
+      "target": "α-ketoisocaproic acid production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus thermophilus",
+      "target": "α-ketoisocaproic acid production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "α-ketoisocaproic acid",
+      "target": "3-methylbutanal formation"
+    }
+  ]
+}
+

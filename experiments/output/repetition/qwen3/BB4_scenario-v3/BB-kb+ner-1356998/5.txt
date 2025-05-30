@@ -1,0 +1,65 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "spotted fever group rickettsiae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Rickettsia conorii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Moroccan"
+    },
+    {
+      "type": "Microbe",
+      "name": "no. 7"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Israel"
+    },
+    {
+      "type": "Habitat",
+      "name": "ticks"
+    },
+    {
+      "type": "Habitat",
+      "name": "humans"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Moroccan"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "spotted fever group rickettsiae",
+      "target": "ticks"
+    },
+    {
+      "type": "Isolated from",
+      "source": "spotted fever group rickettsiae",
+      "target": "humans"
+    },
+    {
+      "type": "Exhibits",
+      "source": "spotted fever group rickettsiae",
+      "target": "genetically homogeneous"
+    },
+    {
+      "type": "Exhibits",
+      "source": "spotted fever group rickettsiae",
+      "target": "different PCR-RFLP patterns"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Rickettsia conorii",
+      "target": "different PCR-RFLP patterns"
+    }
+  ]
+}
+```

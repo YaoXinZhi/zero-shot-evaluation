@@ -1,0 +1,165 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. psittaci"
+    },
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis strains"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. trachomatis strains"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. psittaci strains"
+    },
+    {
+      "type": "Habitat",
+      "name": "McCoy cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "cycloheximide-treated McCoy cells"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "trachoma"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "oculogenital"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "lymphogranuloma venereum"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fast variant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for addition of histidine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for addition of tryptophan"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for addition of methionine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for addition of valine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for addition of leucine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for addition of phenylalanine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for addition of glutamine"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "McCoy cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. psittaci",
+      "target": "McCoy cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis strains",
+      "target": "cycloheximide-treated McCoy cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. trachomatis strains",
+      "target": "cycloheximide-treated McCoy cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. psittaci strains",
+      "target": "cycloheximide-treated McCoy cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "requirement for addition of histidine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. psittaci",
+      "target": "requirement for addition of histidine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "requirement for addition of tryptophan"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "requirement for addition of methionine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "requirement for addition of valine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "requirement for addition of leucine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "requirement for addition of phenylalanine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "requirement for addition of glutamine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "trachoma"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "oculogenital"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "lymphogranuloma venereum"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "fast variant"
+    }
+  ]
+}
+```

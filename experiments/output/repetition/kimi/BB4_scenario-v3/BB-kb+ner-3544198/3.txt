@@ -1,0 +1,54 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium leprae"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "phenolic glycolipid"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "PGL-1"
+    },
+    {
+      "type": "Habitat",
+      "name": "urine of leprosy patients"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antigen"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Mycobacterium leprae",
+      "target": "urine of leprosy patients"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium leprae",
+      "target": "phenolic glycolipid"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium leprae",
+      "target": "PGL-1"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium leprae",
+      "target": "antigen"
+    }
+  ]
+}
+
+Isolated from",
+      "source": "PGL-1",
+      "target": "urine of leprosy patients"
+    }
+  ]
+}
+

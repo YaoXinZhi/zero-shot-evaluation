@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudoalteromonas haloplanktis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter immobilis"
+    },
+    {
+      "type": "Habitat",
+      "name": "traditional cheese"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Pseudoalteromonas haloplanktis",
+      "target": "traditional cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter immobilis",
+      "target": "traditional cheese"
+    }
+  ]
+}
+

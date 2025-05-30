@@ -1,0 +1,37 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "duodenal ulcer"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "infection"
+    },
+    {
+      "type": "Habitat",
+      "name": "duodenal ulcer"
+    },
+    {
+      "type": "Habitat",
+      "name": "Campylobacter-like organism test"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "duodenal ulcer"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "infection"
+    }
+  ]
+}
+

@@ -1,0 +1,55 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "healing of duodenal ulcers"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "elimination of Helicobacter pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "chronic antral gastritis"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. pylori"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "chronic duodenal ulcers"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "bulbitis"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "elimination of Helicobacter pylori"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "chronic antral gastritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "chronic duodenal ulcers",
+      "target": "healing of duodenal ulcers"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "antrum"
+    }
+  ]
+}
+

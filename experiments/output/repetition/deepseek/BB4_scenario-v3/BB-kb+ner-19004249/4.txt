@@ -1,0 +1,33 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibacterial activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibited selectively"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "synthetic aliphatic and aromatic monoacylglycerols",
+      "target": "antibacterial activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "synthetic aliphatic and aromatic monoacylglycerols",
+      "target": "inhibited selectively"
+    }
+  ]
+}
+

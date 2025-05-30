@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "lactic acid bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus"
+    },
+    {
+      "type": "Habitat",
+      "name": "natural fermented koumiss"
+    },
+    {
+      "type": "Habitat",
+      "name": "yoghurt"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "quinolone resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "probiotic"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "mutation patterns"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus durans HZ28"
+    },
+    {
+      "type": "Microbe",
+      "name": "topoisomerase II"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mutations in gyrA genes"
+    },
+    {
+      "type": "Chemical",
+      "name": "norfloxacin"
+    },
+    {
+      "type": "Chemical",
+      "name": "ciprofloxacin"
+    },
+    {
+      "type": "Organization",
+      "name": "Food and Agriculture Organization/World Health Organization Joint Expert Committee"
+    },
+    {
+      "type": "Organization",
+      "name": "Guidelines for Evaluation of Probiotics in Food"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "lactic acid bacteria",
+      "target": "natural fermented koumiss"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lactic acid bacteria",
+      "target": "yoghurt"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacteria",
+      "target": "quinolone resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacteria",
+      "target": "probiotic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Enterococcus durans HZ28",
+      "target": "mutations in gyrA genes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacteria",
+      "target": "mutation patterns"
+    }
+  ]
+}
+

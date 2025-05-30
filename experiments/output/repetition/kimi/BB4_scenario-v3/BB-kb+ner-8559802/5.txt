@@ -1,0 +1,62 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium"
+    },
+    {
+      "type": "Habitat",
+      "name": "drug-resistant strain of Salmonella typhimurium"
+    },
+    {
+      "type": "Habitat",
+      "name": "wild strain of Salmonella"
+    },
+    {
+      "type": "Habitat",
+      "name": "restriction+modification+strain of S. typhimurium"
+    },
+    {
+      "type": "Microbe",
+      "name": "pBR322"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Salmonella typhimurium",
+      "target": "drug-resistant strain of Salmonella typhimurium"
+    },
+    {
+      "type": "Isolated from",
+      "source": "plasmid",
+      "target": "drug-resistant strain of Salmonella typhimurium"
+    },
+    {
+      "type": "Isolated from",
+      "source": "plasmid",
+      "target": "wild strain of Salmonella"
+    },
+    {
+      "type": "Isolated from",
+      "source": "plasmid",
+      "target": "restriction+modification+strain of S. typhimurium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella typhimurium",
+      "target": "drug-resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "plasmid",
+      "target": "ampicillin-resistant marker"
+    },
+    {
+      "type": "Exhibits",
+      "source": "plasmid",
+      "target": "cryptic"
+    }
+  ]
+}
+

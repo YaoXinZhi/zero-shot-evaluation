@@ -1,0 +1,75 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "endogenous metabolism"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "de novo protein synthesis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "maintenance of the growth-arrested cell"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "reorganizing and modulating catabolic flux"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "defense system"
+      },
+    {
+      "type": "Physiological trait",
+      "name": "preventing the denaturation and spontaneous aging of proteins"
+    },
+    {
+      "type": "Habitat",
+      "name": "absence of exogenous carbon"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "absence of exogenous carbon"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "endogenous metabolism"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "de novo protein synthesis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "maintenance of the growth-arrested cell"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "reorganizing and modulating catabolic flux"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "defense system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "preventing the denaturation and spontaneous aging of proteins"
+    }
+  ]
+}
+```

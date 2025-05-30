@@ -1,0 +1,76 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "respiratory syncytial virus"
+    },
+    {
+      "type": "Microbe",
+      "name": "parainfluenza virus types 1 and 3"
+    },
+    {
+      "type": "Microbe",
+      "name": "adenoviruses"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma pneumoniae"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "wheezing"
+    },
+    {
+      "type": "Habitat",
+      "name": "children"
+    },
+    {
+      "type": "Geographical location",
+      "name": "a pediatric practice"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "respiratory syncytial virus",
+      "target": "wheezing"
+    },
+    {
+      "type": "Exhibits",
+      "source": "parainfluenza virus types 1 and 3",
+      "target": "wheezing"
+    },
+    {
+      "type": "Exhibits",
+      "source": "adenoviruses",
+      "target": "wheezing"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycoplasma pneumoniae",
+      "target": "wheezing"
+    },
+    {
+      "type": "Isolated from",
+      "source": "respiratory syncytial virus",
+      "target": "children"
+    },
+    {
+      "type": "Isolated from",
+      "source": "parainfluenza virus types 1 and 3",
+      "target": "children"
+    },
+    {
+      "type": "Isolated from",
+      "source": "adenoviruses",
+      "target": "children"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma pneumoniae",
+      "target": "children"
+    }
+  ]
+}
+```

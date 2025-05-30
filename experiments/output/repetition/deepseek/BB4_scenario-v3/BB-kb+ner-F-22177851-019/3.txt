@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "P. celer"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "degrade acids"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "lipase activity"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Habitat",
+      "name": "community at the beginning of ripening"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "degrade acids"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "lipase activity"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "community at the beginning of ripening"
+    }
+  ]
+}
+

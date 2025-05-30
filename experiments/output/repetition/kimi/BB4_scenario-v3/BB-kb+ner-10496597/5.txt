@@ -1,0 +1,83 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "monoclonal B cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "polyclonal pattern"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "enlarged irregular mantle zone"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Lymphoepithelial lesions"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastric mucosa"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastric MALT lymphoma"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastric biopsies"
+    },
+    {
+      "type": "Habitat",
+      "name": "lymphocytic infiltrates"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "gastric mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "gastric MALT lymphoma"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "gastric biopsies"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "lymphocytic infiltrates"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "monoclonal B cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "polyclonal pattern"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "enlarged irregular mantle zone"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "Lymphoepithelial lesions"
+    }
+  ]
+}
+

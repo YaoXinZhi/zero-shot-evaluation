@@ -1,0 +1,244 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Corynebacterium casei"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. variabile"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brachybacterium alimentarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium species"
+    },
+    {
+      "type": "Microbe",
+      "name": "B. permense"
+    },
+    {
+      "type": "Microbe",
+      "name": "B. linens"
+    },
+    {
+      "type": "Microbe",
+      "name": "B. aurantiacum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus saprophyticus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staph. equorum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Proteus vulgaris"
+    },
+    {
+      "type": "Microbe",
+      "name": "Alcaligenes faecalis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Yarrowia lipolytica"
+    },
+    {
+      "type": "Microbe",
+      "name": "Scopulariopsis brevicaulis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Geotrichum spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Kluyveromyces marxianus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Debaryomyces hansenii"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese from dairy A"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese from dairy B"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese from dairy C"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese from dairy D"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram-positive"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram-negative"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "coagulase negative"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Corynebacterium casei",
+      "target": "cheese from dairy A"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. variabile",
+      "target": "cheese from dairy A"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brachybacterium alimentarum",
+      "target": "cheese from dairy A"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium species",
+      "target": "cheese from dairy A"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium species",
+      "target": "cheese from dairy B"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium species",
+      "target": "cheese from dairy C"
+    },
+    {
+      "type": "Isolated from",
+      "source": "B. permense",
+      "target": "cheese from dairy A"
+    },
+    {
+      "type": "Isolated from",
+      "source": "B. linens",
+      "target": "cheese from dairy B"
+    },
+    {
+      "type": "Isolated from",
+      "source": "B. aurantiacum",
+      "target": "cheese from dairy C"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus saprophyticus",
+      "target": "cheese from dairy B"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus saprophyticus",
+      "target": "cheese from dairy D"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staph. equorum",
+      "target": "cheese from dairy C"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staph. equorum",
+      "target": "cheese from dairy D"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Proteus vulgaris",
+      "target": "cheese from dairy C"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Alcaligenes faecalis",
+      "target": "cheese from dairy C"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yarrowia lipolytica",
+      "target": "cheese from dairy A"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Scopulariopsis brevicaulis",
+      "target": "cheese from dairy A"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Geotrichum spp.",
+      "target": "cheese from dairy B"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kluyveromyces marxianus",
+      "target": "cheese from dairy B"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Debaryomyces hansenii",
+      "target": "cheese from dairy B"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Debaryomyces hansenii",
+      "target": "cheese from dairy C"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Geothrichum spp.",
+      "target": "cheese from dairy C"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Debaryomyces hansenii",
+      "target": "cheese from dairy D"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Corynebacterium casei",
+      "target": "Gram-positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. variabile",
+      "target": "Gram-positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus saprophyticus",
+      "target": "coagulase negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staph. equorum",
+      "target": "coagulase negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Proteus vulgaris",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Alcaligenes faecalis",
+      "target": "Gram-negative"
+    }
+  ]
+}
+

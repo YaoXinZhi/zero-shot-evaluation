@@ -1,0 +1,108 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "bacteriophage M-13"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "replication"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "DNA synthesis"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "bromodeoxyuridine triphosphate"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "ATP"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "nalidixic acid"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "novobiocin"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "arabinosylnucleoside triphosphates"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "Rifampicin"
+    },
+    {
+      "type": "Protein",
+      "name": "M-13 gene V protein"
+    },
+    {
+      "type": "Protein",
+      "name": "E. coli helix-destabilising protein"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "duplex DNA"
+    },
+    {
+      "type": "Habitat",
+      "name": "cellophane membrane disks"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "bacteriophage M-13",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteriophage M-13",
+      "target": "duplex DNA"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "duplex DNA"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "DNA synthesis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteriophage M-13",
+      "target": "replication"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "replication"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "ATP"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "M-13 gene V protein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "E. coli helix-destabilising protein"
+    }
+  ]
+}
+

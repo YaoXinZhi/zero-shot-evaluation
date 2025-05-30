@@ -1,0 +1,118 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mtb"
+    },
+    {
+      "type": "Microbe",
+      "name": "human blood monocyte-derived DCs"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phagocytosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "efferocytosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cross-presentation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "self tolerance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "host defense"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antigen-specific CD8+ T cell response"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "immune evasion"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "apoptotic cells"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "associated vesicles"
+    },
+    {
+      "type": "Habitat",
+      "name": "DCs"
+    },
+    {
+      "type": "Habitat",
+      "name": "human blood monocyte-derived DCs"
+    },
+    {
+      "type": "Geographical location",
+      "name": "human"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "DCs",
+      "target": "phagocytosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DCs",
+      "target": "efferocytosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DCs",
+      "target": "cross-presentation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DCs",
+      "target": "self tolerance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DCs",
+      "target": "host defense"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium tuberculosis",
+      "target": "immune evasion"
+    },
+    {
+      "type": "Isolated from",
+      "source": "human blood monocyte-derived DCs",
+      "target": "human blood monocyte-derived DCs"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mtb",
+      "target": "antigen-specific CD8+ T cell response"
+    },
+    {
+      "type": "Exhibits",
+      "source": "human blood monocyte-derived DCs",
+      "target": "annexin1 expression"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mtb",
+      "target": "antigen-specific CD8+ T cell response"
+    }
+  ]
+}
+```

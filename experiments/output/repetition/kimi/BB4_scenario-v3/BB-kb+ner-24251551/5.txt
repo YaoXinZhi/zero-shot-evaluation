@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Haemophilus influenzae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "peptidoglycan recycling pathway"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cofactor-independent cleavage"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "peptidoglycan"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "polymeric cell structure"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "catalysis"
+    },
+    {
+      "type": "Microbe",
+      "name": "MurNAc 6P hydrolase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "substrate binding"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ring opening"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "one-base mechanism of action"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "MurNAc 6P hydrolase",
+      "target": "Haemophilus influenzae"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MurNAc 6P hydrolase",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurNAc 6P hydrolase",
+      "target": "cofactor-independent cleavage"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurNAc 6P hydrolase",
+      "target": "catalysis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurNAc 6P hydrolase",
+      "target": "substrate binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurNAc 6P hydrolase",
+      "target": "ring opening"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurNAc 6P hydrolase",
+      "target": "one-base mechanism of action"
+    }
+  ]
+}
+

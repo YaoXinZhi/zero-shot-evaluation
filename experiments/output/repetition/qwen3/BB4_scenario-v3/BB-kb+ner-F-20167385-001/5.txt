@@ -1,0 +1,157 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "yeasts"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of growth factors"
+    },
+    {
+      "type": "Microbe",
+      "name": "Gram positive"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "catalase positive"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "salt-tolerant"
+    },
+    {
+      "type": "Microbe",
+      "name": "coagulase-negative cocci"
+    },
+    {
+      "type": "Microbe",
+      "name": "coryneform bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Micrococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "yeasts",
+      "target": "production of growth factors"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram positive",
+      "target": "catalase positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram positive",
+      "target": "salt-tolerant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "coagulase-negative cocci",
+      "target": "Gram positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "coagulase-negative cocci",
+      "target": "catalase positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "coagulase-negative cocci",
+      "target": "salt-tolerant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "coryneform bacteria",
+      "target": "Gram positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "coryneform bacteria",
+      "target": "catalase positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "coryneform bacteria",
+      "target": "salt-tolerant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus",
+      "target": "Gram positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus",
+      "target": "catalase positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus",
+      "target": "salt-tolerant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Micrococcus",
+      "target": "Gram positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Micrococcus",
+      "target": "catalase positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Micrococcus",
+      "target": "salt-tolerant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Brevibacterium",
+      "target": "Gram positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Brevibacterium",
+      "target": "catalase positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Brevibacterium",
+      "target": "salt-tolerant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Arthrobacter",
+      "target": "Gram positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Arthrobacter",
+      "target": "catalase positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Arthrobacter",
+      "target": "salt-tolerant"
+    }
+  ]
+}
+```

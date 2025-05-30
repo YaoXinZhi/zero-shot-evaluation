@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Bacillus thuringiensis serovar sotto strain 96-OK-85-24"
+    },
+    {
+      "type": "Habitat",
+      "name": "Okinawa, Japan"
+    },
+    {
+      "type": "Microbe",
+      "name": "Culex pipiens molestus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mosquitocidal activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "larvicidal activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "haemolytic activity"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "parasporal inclusion proteins"
+    },
+    {
+      "type": "Microbe",
+      "name": "mosquitocidal Cry protein"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Bacillus thuringiensis serovar sotto strain 96-OK-85-24",
+      "target": "Okinawa, Japan"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Bacillus thuringiensis serovar sotto strain 96-OK-85-24",
+      "target": "mosquitocidal activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Bacillus thuringiensis serovar sotto strain 96-OK-85-24",
+      "target": "larvicidal activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Bacillus thuringiensis serovar sotto strain 96-OK-85-24",
+      "target": "haemolytic activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Bacillus thuringiensis serovar sotto strain 96-OK-85-24",
+      "target": "parasporal inclusion proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "mosquitocidal Cry protein",
+      "target": "unique toxicity spectrum"
+    }
+  ]
+}
+

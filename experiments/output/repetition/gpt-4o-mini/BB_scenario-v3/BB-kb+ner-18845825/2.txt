@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "nontypeable Haemophilus influenzae"
+    },
+    {
+      "type": "Habitat",
+      "name": "day care center"
+    },
+    {
+      "type": "Habitat",
+      "name": "throats of two healthy children"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "nontypeable Haemophilus influenzae",
+      "target": "throats of two healthy children"
+    },
+    {
+      "type": "Isolated from",
+      "source": "nontypeable Haemophilus influenzae",
+      "target": "day care center"
+    }
+  ]
+}
+

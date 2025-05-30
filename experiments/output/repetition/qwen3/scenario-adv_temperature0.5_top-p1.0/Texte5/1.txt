@@ -1,0 +1,28 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Balclutha calamagrostis"},
+      {"type": "Pest", "name": "Balclutha punctata"},
+      {"type": "Pest", "name": "Deltocephalinae leafhoppers"},
+      {"type": "Geographic", "name": "Balclutha"},
+      {"type": "Plant", "name": "calamagrostis"},
+      {"type": "Vector", "name": "Sodalis-like symbionts"},
+      {"type": "Plant", "name": "bacteriomes"},
+      {"type": "Plant", "name": "fat body cells"},
+      {"type": "Bacterium", "name": "Nasuia"},
+      {"type": "Bacterium", "name": "Sulcia"},
+      {"type": "Bacterium", "name": "Sodalis-like bacterium"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Balclutha calamagrostis", "type": "Located in", "target": "Balclutha"},
+      {"source": "Balclutha punctata", "type": "Located in", "target": "Balclutha"},
+      {"source": "Balclutha calamagrostis", "type": "Have been found on", "target": "calamagrostis"},
+      {"source": "Sodalis-like symbionts", "type": "Transmit", "target": "Sodalis-like bacterium"},
+      {"source": "Deltocephalinae leafhoppers", "type": "Have been found on", "target": "bacteriomes"},
+      {"source": "Deltocephalinae leafhoppers", "type": "Have been found on", "target": "fat body cells"}
+    ]
+  }
+]
+

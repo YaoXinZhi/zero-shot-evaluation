@@ -1,0 +1,42 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "apple proliferation"},
+      {"type": "Vector", "name": "psyllids"},
+      {"type": "Vector", "name": "leafhoppers"},
+      {"type": "Vector", "name": "Philaenus spumarius (L.)"},
+      {"type": "Vector", "name": "Artianus interstitialis (Germar)"},
+      {"type": "Vector", "name": "Fieberiella florii Stål"},
+      {"type": "Plant", "name": "celery"},
+      {"type": "Plant", "name": "apple seedlings"},
+      {"type": "Geographic", "name": "Germany"}
+    ],
+  "label": "entities"
+  },
+  {
+    "relationships": [
+      {"source": "psyllids", "type": "Transmit", "target": "apple proliferation"},
+      {"source": "leafhoppers", "type": "Have been found on", "target": "apple proliferation"},
+      
+      {"source": "Philaenus spumarius (L.)", "type": "Transmit", "target": "apple proliferation"},
+      {"source": "Artianus interstitialis (Germar)", "type": "Transmit", "target": "apple proliferation"},
+
+      {"source": "Artianus interstitialis (Germar)", "type": "Have been found on", "target": "celery"},
+      {"source": "Philaenus spumarius (L.)", "type": "Have been found on", "target": "celery"},
+
+      {"source": "Philaenus spumarius (L.)", "type": "Transmit", "target": "apple proliferation"},
+      {"source": "philaenus-2", "type": "", "target": "-entity"},
+      {"label:NOTE_on_duplicate_relationships_Above_entity_phyl is same as below":"This relationship has duplicate entities for Philaenasus Spumerous but in diff contexts; should it generate another line since its in the 'same' message? No. Remove redundants only when both subject&Object are the exactly identical contextual match (not inferred). Here we assume that even if similar, the two references to psillum spumeirous are being captured under distinct instances &should retain separate entry unless clearly referencing same event/act"},
+      "RE: Duplicated entries - Please keep only first instance",
+{"subNote":"[DO NOT include text like THIS as final]: The above example's comment highlights avoiding reduplicate relationships with the SAME semantic meaning.",
+  "exampleForClarificationPurposeOnly":{"revisedOutputShouldOnde":{"source": "[duplicate_entry_to_eliminate]", "type": "_repeats_same_act_event", "...duplicateOf": "#id_phil_entr"}},
+  "@keepInMindRedundancyCheckIsOnlyAfterParsingALLDataFromSourceMessage":0 },
+
+
+      {"source": "Fieberiella florii Stål", "type": "Transmit", "target": "apple proliferation"},
+      {"source": "apple proliferation", "type": "Has Uncertainty In transmission info in location", "target": "Germany"}
+    ]
+},  {
+        } 
+]
+

@@ -1,0 +1,75 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "alkaline phosphatase"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "spheroplasts"
+    },
+    {
+      "type": "Habitat",
+      "name": "periplasm"
+    },
+    {
+      "type": "Habitat",
+      "name": "cytoplasmic membrane"
+    },
+    {
+      "type": "Habitat",
+      "name": "external cell wall layers"
+    },
+    {
+      "type": "Habitat",
+      "name": "tripartite layer of the cell wall"
+    },
+    {
+      "type": "Habitat",
+      "name": "peptidoglycan layer"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "periplasm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "alkaline phosphatase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "spheroplasts"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "reassociates"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "external cell wall layers"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "tripartite layer of the cell wall"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "not associated with cytoplasmic membrane"
+    }
+  ]
+}
+```

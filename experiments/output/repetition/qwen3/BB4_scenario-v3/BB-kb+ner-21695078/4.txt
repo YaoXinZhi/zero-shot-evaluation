@@ -1,0 +1,113 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia muridarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Microbe",
+      "name": "TLR2"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "virulence"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "respiratory infections"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "activation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inflammation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "oviduct pathology"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mucosal inflammation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacterial clearance"
+    },
+    {
+      "type": "Habitat",
+      "name": "female mouse model of genital tract"
+    },
+    {
+      "type": "Habitat",
+      "name": "lungs"
+    },
+    {
+      "type": "Habitat",
+      "name": "mice via the intranasal route"
+    },
+    {
+      "type": "Habitat",
+      "name": "TLR2-deficient mice"
+    },
+    {
+      "type": "Geographical location",
+      "name": "infant"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "virulence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "respiratory infections"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "activation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "female mouse model of genital tract",
+      "target": "inflammation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "female mouse model of genital tract",
+      "target": "oviduct pathology"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TLR2",
+      "target": "anti-inflammatory function"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia muridarum",
+      "target": "TLR2-deficient mice"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia muridarum",
+      "target": "lungs"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "infant"
+    }
+  ]
+}
+```

@@ -1,0 +1,74 @@
+[
+  {
+    "entities": [
+      {
+        "type": "Pest",
+        "name": "potato aphid"
+      },
+      {
+        "type": "Plant",
+        "name": "crops"
+      },
+      {
+        "type": "Plant",
+        "name": "strawberries"
+      },
+      {
+        "type": "Disease",
+        "name": "plant diseases"
+      },
+      {
+        "type": "Geographic",
+        "name": "Midlands"
+      },
+      {
+        "type": "Geographic",
+        "name": "UK"
+      },
+      {
+        "type": "Geographic",
+        "name": "globa l"
+      }
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "source": "potato aphid",
+        "type": "Have been found on",
+        "target": "crops"
+      },
+      {
+        "source": "potato aphid",
+        "type": "Have been found on",
+        "target": "strawberries"
+      },
+      {
+        "source": "strawberries",
+        "type": "Located in",
+        "target": "UK"
+      },
+      {
+        "source": "crops",
+        "type": "Located in",
+        "target": "global"
+      },
+      {
+        "source": "plant diseases",
+        "type": "Located in",
+        "target": "global"
+      },
+      {
+        "source": "potato aphid",
+        "type": "Causes",
+        "target": "plant diseases"
+      },
+      {
+        "source": "midlands universities",
+        "type": "Located in",
+        "target": "Midlands"
+      }
+    ]
+  }
+]
+

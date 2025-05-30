@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "MerR"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Deinococcus radiodurans"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mer operon"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Hg(II) binding"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "survival from Hg(II) exposure"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "MBD expressed on the cell surface"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "MBD expressed in the cytosol"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "MerR",
+      "target": "Hg(II) binding"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MerR",
+      "target": "mer operon"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBD expressed on the cell surface",
+      "target": "Hg(II) binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBD expressed in the cytosol",
+      "target": "survival from Hg(II) exposure"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "MBD expressed on the cell surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Deinococcus radiodurans",
+      "target": "MBD expressed in the cytosol"
+    }
+  ]
+}
+

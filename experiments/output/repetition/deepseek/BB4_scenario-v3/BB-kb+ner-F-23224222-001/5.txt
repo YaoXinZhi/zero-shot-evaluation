@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "type": "Habitat",
+      "name": "Cheeses"
+    },
+    {
+      "type": "Microbe",
+      "name": "lactic acid bacteria (LAB)"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactocococcus lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus thermophilus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "metabolise residual lactose and citrate to different aroma compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolysis of peptides to free amino acids"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "lactic acid bacteria (LAB)",
+      "target": "Cheeses"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacteria (LAB)",
+      "target": "metabolise residual lactose and citrate to different aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacteria (LAB)",
+      "target": "proteolysis of peptides to free amino acids"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactocococcus lactis",
+      "target": "Cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus thermophilus",
+      "target": "Cheeses"
+    }
+  ]
+}
+

@@ -1,0 +1,37 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Halomonas strains"
+    },
+    {
+      "type": "Microbe",
+      "name": "reference strain 1 M45"
+    },
+    {
+      "type": "Microbe",
+      "name": "Providencia heimbachae GR4"
+    },
+    {
+      "type": "Habitat",
+      "name": "smear-ripened cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese sample"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "reference strain 1 M45",
+      "target": "smear-ripened cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Halomonas strains",
+      "target": "cheese sample"
+    }
+  ]
+}
+

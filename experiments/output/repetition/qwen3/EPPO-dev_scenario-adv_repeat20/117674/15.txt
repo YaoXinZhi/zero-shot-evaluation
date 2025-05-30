@@ -1,0 +1,66 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Diaphorina citri. Kuwayama"},
+      {"type": "Vector", "name": "Diaphorina citri. Kuwayama"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "citrus greening"},
+      {"type": "Plant", "name": "citrus trees"},
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Geographic", "name": "ARGENTINA"},
+      {"type": "Geographic", "name": "Province of CATAMARCA"},
+      {"type": "Geographic", "name": "Capayán Department"},
+      {"type": "Geographic", "name": "TUCUMÁN"},
+      {"type": "Geographic", "name": "Leales Department"},
+      {"type": "Geographic", "name": "Villa de Medinas"},
+      {"type": "Geographic", "name": "Chicligasta Department"},
+      {"type": "Geographic", "name": "NOA"},
+      {"type": "Geographic", "name": "Northwest Argentina"},
+      {"type": "Geographic", "name": "Provinces of JUJUY, SALTA, TUCUMÁN and CATAMARCA"},
+      {"type": "Geographic", "name": "NEA"},
+      {"type": "Geographic", "name": "Argentine Northeast region"},
+      {"type": "Geographic", "name": "Province of ENTRE RÍOS"},
+      {"type": "Geographic", "name": "Province of CORRIENTES"},
+      {"type": "Geographic", "name": "Province of MISIONES"},
+      {"type": "Geographic", "name": "Province of CHACO"},
+      {"type": "Geographic", "name": "Province of FORMOSA"},
+      {"type": "Geographic", "name": "Province of SANTIAGO DEL ESTERO"},
+      {"type": "Geographic", "name": "Province of JUJUY"},
+      {"type": "Geographic", "name": "Province of SANTA FE"},
+      {"type": "Geographic", "name": "COSAVE"},
+      {"type": "Geographic", "name": "Southern Cone"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Diaphorina citri. Kuwayama", "type": "Transmit", "target": "HLB"},
+      {"source": "HLB", "type": "Affects", "target": "citrus trees"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus trees"},
+      {"source": "citrus greening", "type": "Affects", "target": "citrus trees"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Have been found on", "target": "citrus trees"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Province of CATAMARCA"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Capayán Department"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "TUCUMÁN"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Leales Department"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Villa de Medinas"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Chicligasta Department"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Provinces of JUJUY, SALTA, TUCUMÁN and CATAMARCA"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Province of ENTRE RÍOS"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Province of CORRIENTES"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Province of MISIONES"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Province of CHACO"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Province of FORMOSA"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Province of SANTIAGO DEL ESTERO"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Province of JUJUY"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Province of SANTA FE"},
+      {"source": "HLB", "type": "Located in", "target": "ARGENTINA"},
+      {"source": "HLB", "type": "Located in", "target": "NOA"},
+      {"source": "HLB", "type": "Located in", "target": "Northwest Argentina"},
+      {"source": "HLB", "type": "Located in", "target": "NEA"},
+      {"source": "HLB", "type": "Located in", "target": "Argentine Northeast region"},
+      {"source": "COSAVE", "type": "Located in", "target": "Southern Cone"}
+    ]
+  }
+]
+

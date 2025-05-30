@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter"
+    },
+    {
+      "type": "Microbe",
+      "name": "Halomonas"
+    },
+    {
+      "type": "Microbe",
+      "name": "Hafnia"
+    },
+    {
+      "type": "Habitat",
+      "name": "smear cheese surfaces"
+    },
+    {
+      "type": "Habitat",
+      "name": "marine environments"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "psychrotrophic"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter",
+      "target": "smear cheese surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Halomonas",
+      "target": "marine environments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Hafnia",
+      "target": "smear cheese surfaces"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter",
+      "target": "psychrotrophic"
+    }
+  ]
+}
+

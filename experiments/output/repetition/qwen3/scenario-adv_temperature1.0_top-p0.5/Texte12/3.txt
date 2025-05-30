@@ -1,0 +1,27 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "host plant"},
+      {"type": "Vector", "name": "BdorOBP13"},
+
+      {"type": "Disease", "name": "odorant binding protein"},
+      {"type": "Pest", "name": "RNAi-injected flies"},
+      {"type": "Pest", "name": "methyl eugenol"},
+      {"type": "Pest", "name": "γ-octalactone"},
+      {"type": "Pest", "name": "benzothiazole"},
+      {"type": "Pest", "name": "dipentene"},
+      {"type": "Pest", "name": "ethyl tiglate"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "host plant"},
+      {"source": "Bactrocera dorsalis", "type": "Transmit", "target": "odorant binding protein"},
+      {"source": "BdorOBP13", "type": "Transmit", "target": "odorant binding protein"},
+      {"source": "BdorOBP13", "type": "Causes", "target": "methyl eugenol"},
+      {"source": "BdorOBP13", "type": "Causes", "target": "γ-octalactone"}
+    ]
+  }
+]
+

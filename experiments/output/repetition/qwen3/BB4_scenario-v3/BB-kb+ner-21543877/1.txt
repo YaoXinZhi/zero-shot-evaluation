@@ -1,0 +1,51 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis H37Rv"
+    },
+    {
+      "type": "Microbe",
+      "name": "Rv3168"
+    },
+    {
+      "type": "Microbe",
+      "name": "aminoglycoside phosphotransferase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibiotic resistance"
+    },
+    {
+      "type": "Habitat",
+      "name": "human population"
+    },
+    {
+      "type": "Geographical location",
+      "name": "human population"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Mycobacterium tuberculosis",
+      "target": "human population"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium tuberculosis",
+      "target": "antibiotic resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "aminoglycoside phosphotransferase",
+      "target": "antibiotic resistance"
+    }
+  ]
+}
+```

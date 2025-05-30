@@ -1,0 +1,32 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "United Nations"},
+      {"type": "Institution", "name": "Aston University"},
+      {"type": "Institution", "name": "Harper Adams University"},
+      {"type": "Institution", "name": "Biotechnology and Biological Sciences Research Council"},
+      {"type": "Institution", "name": "Natural Environment Research Council"},
+      {"type": "Person", "name": "David Webb"},
+      {"type": "Institution", "name": "Aston Institute of Photonic Technologies"},
+      {"type": "Person", "name": "Joe Roberts"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "Midlands", "type": "Located in", "target": "United Kingdom"},
+      {"source": "Aston University", "type": "Located in", "target": "Midlands"},
+      {"source": "Harper Adams University", "type": "Located in", "target": "Midlands"},
+      {"source": "Biotechnology and Biological Sciences Research Council", "type": "Located in", "target": "UK"},
+      {"source": "Natural Environment Research Council", "type": "Located in", "target": "UK"},
+      {"source": "David Webb", "type": "Affiliated with", "target": "Aston Institute of Photonic Technologies"},
+      {"source": "David Webb", "type": "Affiliated with", "target": "Aston University"},
+      {"source": "Joe Roberts", "type": "Affiliated with", "target": "Harper Adams University"}
+    ]
+  }
+]
+

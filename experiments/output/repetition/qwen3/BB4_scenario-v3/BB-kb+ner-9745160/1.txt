@@ -1,0 +1,231 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "H pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter-like organism"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "infection"
+    },
+    {
+      "type": "Habitat",
+      "name": "duodenal ulcer"
+    },
+    {
+      "type": "Microbe",
+      "name": "DeNol"
+    },
+    {
+      "type": "Microbe",
+      "name": "amoxicillin"
+    },
+    {
+      "type": "Microbe",
+      "name": "metronidazole"
+    },
+    {
+      "type": "Microbe",
+      "name": "bismuth subcitrate"
+    },
+    {
+      "type": "Microbe",
+      "name": "proton pump inhibitor"
+    },
+    {
+      "type": "Microbe",
+      "name": "PPI"
+    },
+    {
+      "type": "Microbe",
+      "name": "clarithromycin"
+    },
+    {
+      "type": "Microbe",
+      "name": "omeprazole"
+    },
+    {
+      "type": "Microbe",
+      "name": "nizatidine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "eradication"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "side-effects"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "compliance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "drug resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "symptoms"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "symptom relief"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ulcer-healing"
+    },
+    {
+      "type": "Geographical location",
+      "name": "clinical practice"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "duodenal ulcer"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "side-effects"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "low compliance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "drug resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "PPI-based triple therapy",
+      "target": "higher eradication rate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "PPI-based triple therapy",
+      "target": "costly"
+    },
+    {
+      "type": "Exhibits",
+      "source": "short-term PPI-based triple therapy",
+      "target": "higher efficacy"
+    },
+    {
+      "type": "Exhibits",
+      "source": "short-term PPI-based triple therapy",
+      "target": "good compliance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "short-term PPI-based triple therapy",
+      "target": "lower cost"
+    },
+    {
+      "type": "Exhibits",
+      "source": "short-term PPI-based triple therapy",
+      "target": "mild side-effects"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "symptoms"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "symptom relief"
+    },
+    {
+      "type": "Exhibits",
+      "source": "PPI-based triple therapy",
+      "target": "faster symptom relief"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "slower symptom relief"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Group C therapy",
+      "target": "lower cost"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "eradication"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "ulcer-healing"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "treatment"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "highly effective eradication"
+    },
+    {
+      "type": "Exhibits",
+      "source": "One-week triple therapy",
+      "target": "highly effective eradication"
+    },
+    {
+      "type": "Exhibits",
+      "source": "One-week triple therapy",
+      "target": "good compliance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "One-week triple therapy",
+      "target": "lower cost"
+    },
+    {
+      "type": "Exhibits",
+      "source": "One-week triple therapy",
+      "target": "mild side-effects"
+    },
+    {
+      "type": "Exhibits",
+      "source": "One-week triple therapy",
+      "target": "treatment"
+    },
+    {
+      "type": "Exhibits",
+      "source": "One-week triple therapy",
+      "target": "use"
+    },
+    {
+      "type": "Exhibits",
+      "source": "One-week triple therapy",
+      "target": "clinical practice"
+    }
+  ]
+}
+```

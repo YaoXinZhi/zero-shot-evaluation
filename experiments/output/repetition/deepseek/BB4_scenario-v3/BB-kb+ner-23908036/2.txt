@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram-negative"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "β-carbonic anhydrases"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "psCA1"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "psCA2"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "psCA3"
+    },
+    {
+      "type": "Habitat",
+      "name": "susceptible individuals"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "β-carbonic anhydrases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "psCA1"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "psCA2"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "psCA3"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "susceptible individuals"
+    }
+  ]
+}
+

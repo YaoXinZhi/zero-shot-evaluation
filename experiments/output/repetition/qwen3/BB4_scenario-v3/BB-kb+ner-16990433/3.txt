@@ -1,0 +1,98 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157"
+    },
+    {
+      "type": "Microbe",
+      "name": "enterohemorrhagic E. coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "EHEC"
+    },
+    {
+      "type": "Microbe",
+      "name": "EHEC O157:H7"
+    },
+    {
+      "type": "Microbe",
+      "name": "Sakai strain"
+    },
+    {
+      "type": "Microbe",
+      "name": "plant pathogens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Shigella"
+    },
+    {
+      "type": "Microbe",
+      "name": "lambdoid prophages"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "type III secretion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inject effector proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "subvert eukaryotic cell biology"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "exchangeable effector loci"
+    },
+    {
+      "type": "Habitat",
+      "name": "human cells"
+    },
+    {
+      "type": "Geographical location",
+      "name": "human"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157",
+      "target": "type III secretion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157",
+      "target": "inject effector proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157",
+      "target": "subvert eukaryotic cell biology"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterohemorrhagic E. coli",
+      "target": "human cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EHEC O157:H7",
+      "target": "exchangeable effector loci"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lambdoid prophages",
+      "target": "EHEC"
+    }
+  ]
+}
+```

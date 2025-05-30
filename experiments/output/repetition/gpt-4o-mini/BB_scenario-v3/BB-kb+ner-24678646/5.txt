@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "methicillin-resistant Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "vancomycin-resistant Enterococcus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "time to clearance of colonization"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "median duration of total follow-up"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "model-estimated median time to clearance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "clearance rates"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "time to clearance of colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "vancomycin-resistant Enterococcus",
+      "target": "time to clearance of colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "median duration of total follow-up"
+    },
+    {
+      "type": "Exhibits",
+      "source": "vancomycin-resistant Enterococcus",
+      "target": "median duration of total follow-up"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "model-estimated median time to clearance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "vancomycin-resistant Enterococcus",
+      "target": "model-estimated median time to clearance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "clearance rates"
+    },
+    {
+      "type": "Exhibits",
+      "source": "vancomycin-resistant Enterococcus",
+      "target": "clearance rates"
+    }
+  ]
+}
+

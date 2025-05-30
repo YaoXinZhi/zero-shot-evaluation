@@ -1,0 +1,133 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Penicillium brevicompactum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Penicillium crustosum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pen b 26"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pen cr 26"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "allergenic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hypoallergenic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "major allergen"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "minor allergen"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "IgG class specific antibodies"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "IgE"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antigenic difference in IgE epitopes"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ribosomal P1 protein"
+    },
+    {
+      "type": "Habitat",
+      "name": "mold"
+    },
+    {
+      "type": "Geographical location",
+      "name": "not known to be allergenic mold"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Penicillium brevicompactum",
+      "target": "major allergen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen b 26",
+      "target": "ribosomal P1 protein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Penicillium crustosum",
+      "target": "not known to be allergenic mold"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "minor allergen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "hypoallergenic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen b 26",
+      "target": "allergenic"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pen b 26",
+      "target": "Penicillium brevicompactum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pen cr 26",
+      "target": "Penicillium crustosum"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "antigenic difference in IgE epitopes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "IgG class specific antibodies"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "IgE"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen b 26",
+      "target": "IgG class specific antibodies"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen b 26",
+      "target": "IgE"
+    }
+  ]
+}
+```

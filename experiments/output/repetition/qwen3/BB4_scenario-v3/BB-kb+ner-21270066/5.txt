@@ -1,0 +1,73 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Microbe",
+      "name": "lymphogranuloma venereum"
+    },
+    {
+      "type": "Microbe",
+      "name": "HIV"
+    },
+    {
+      "type": "Habitat",
+      "name": "rectal"
+    },
+    {
+      "type": "Habitat",
+      "name": "perianal"
+    },
+    {
+      "type": "Geographical location",
+      "name": "UK"
+    },
+    {
+      "type": "Geographical location",
+      "name": "London"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proctitis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "rectal Chlamydia trachomatis-specific DNA"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "perianal ulcer disease"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "rectal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "perianal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphogranuloma venereum",
+      "target": "proctitis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphogranuloma venereum",
+      "target": "rectal Chlamydia trachomatis-specific DNA"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HIV-infected patients",
+      "target": "perianal ulcer disease"
+    }
+  ]
+}
+```

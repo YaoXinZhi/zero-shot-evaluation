@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus gasseri K 7"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "adhesion"
+    },
+    {
+      "type": "Habitat",
+      "name": "Caco-2 cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "pigs' jejunal tissue"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "adhesion"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "Caco-2 cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "Caco-2 cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "pigs' jejunal tissue"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "pigs' jejunal tissue"
+    }
+  ]
+}
+

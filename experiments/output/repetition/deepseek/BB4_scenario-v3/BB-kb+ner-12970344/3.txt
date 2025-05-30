@@ -1,0 +1,96 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Zobellia galactanivorans Dsij"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "jelly roll fold"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "beta-agarases A and B"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "polysaccharide hydrolases"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "catalytic machinery"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "nucleophilic residues Glu-147 and Glu-184"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "acid/base residues Glu-152 and Glu-189"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "enzymatic activity"
+    },
+    {
+      "type": "Habitat",
+      "name": "marine"
+    },
+    {
+      "type": "Habitat",
+      "name": "red algal galactans"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Zobellia galactanivorans Dsij",
+      "target": "marine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Zobellia galactanivorans Dsij",
+      "target": "beta-agarases A and B"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Zobellia galactanivorans Dsij",
+      "target": "polysaccharide hydrolases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases A and B",
+      "target": "jelly roll fold"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases A and B",
+      "target": "catalytic machinery"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases A and B",
+      "target": "nucleophilic residues Glu-147 and Glu-184"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases A and B",
+      "target": "acid/base residues Glu-152 and Glu-189"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases A and B",
+      "target": "enzymatic activity"
+    },
+    {
+      "type": "Isolated from",
+      "source": "beta-agarases A and B",
+      "target": "red algal galactans"
+    }
+  ]
+}
+

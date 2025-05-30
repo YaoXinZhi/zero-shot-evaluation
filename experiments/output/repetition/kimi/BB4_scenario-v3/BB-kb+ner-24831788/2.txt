@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "type": "Physiological trait",
+      "name": "cell toxicity"
+    },
+    {
+      "type": "Habitat",
+      "name": "high throughput screening format"
+    },
+    {
+      "type": "Habitat",
+      "name": "384-well screening plates"
+    },
+    {
+      "type": "Microbe",
+      "name": "Legionella pneumophila"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "luminescence"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "host cell viability"
+    },
+    {
+      "type": "Microbe",
+      "name": "SYTOX Green"
+    },
+    {
+      "type": "Microbe",
+      "name": "CellTox Green"
+    },
+    {
+      "type": "Microbe",
+      "name": "GelGreen"
+    },
+    {
+      "type": "Microbe",
+      "name": "EvaGreen"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Legionella pneumophila",
+      "target": "luminescence"
+    },
+    {
+      "type": "Isolated from",
+      "source": "SYTOX Green",
+      "target": "high throughput screening format"
+    },
+    {
+      "type": "Isolated from",
+      "source": "CellTox Green",
+      "target": "high throughput screening format"
+    },
+    {
+      "type": "Isolated from",
+      "source": "GelGreen",
+      "target": "high throughput screening format"
+    },
+    {
+      "type": "Isolated from",
+      "source": "EvaGreen",
+      "target": "high throughput screening format"
+    },
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "host cell viability"
+    },
+    {
+      "type": "Isolated from",
+      "source": "SYTOX Green",
+      "target": "384-well screening plates"
+    },
+    {
+      "type": "Isolated from",
+      "source": "CellTox Green",
+      "target": "384-well screening plates"
+    },
+    {
+      "type": "Isolated from",
+      "source": "GelGreen",
+      "target": "384-well screening plates"
+    },
+    {
+      "type": "Isolated from",
+      "source": "EvaGreen",
+      "target": "384-well screening plates"
+    }
+  ]
+}
+
+   "source": "EvaGreen",
+      "target": "membrane-impermeant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "DNA-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "fluorescent"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Legionella pneumophila",
+      "target": "high throughput screening format"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Legionella pneumophila",
+      "target": "luminescence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Legionella pneumophila",
+      "target": "host cell viability"
+    }
+  ]
+}
+

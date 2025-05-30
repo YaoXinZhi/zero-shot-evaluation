@@ -1,0 +1,37 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella"},
+      {"type": "Disease", "name": "disease"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "University of Bari"},
+      {"type": "Organisation", "name": "Institute for the Sustainable Protection of Plants"},
+      {"type": "Organisation", "name": "Agritest"}
+    ]
+  },
+  {
+    "relationships": [
+      { 
+        "source": "Xylella", 
+        "type": "Causes", 
+        "target": "disease" 
+      },
+      {
+        "source": "Institute for the Sustainable Protection of Plants",
+        "type": "Located in",
+        "target": "Bari"
+      },
+      {
+        "source": "Agritest",
+        "type": "Located in",
+        "target": "Bari"
+      },
+      {
+        "source": "University of Bari",
+        "type": "Located in",
+        "target": "Bari"
+      }
+    ]
+  }
+]
+

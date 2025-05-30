@@ -1,0 +1,91 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "inclusion bodies"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "solubility"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolytically inactive"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "inclusion body formation"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "native state"
+    },
+    {
+      "type": "Microbe",
+      "name": "maltose-binding protein (MBP)"
+    },
+    {
+      "type": "Microbe",
+      "name": "aspartic proteinases"
+    },
+    {
+      "type": "Microbe",
+      "name": "pepsinogen"
+    },
+    {
+      "type": "Microbe",
+      "name": "procathepsin D"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "renaturation"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "maltose-binding protein (MBP)",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Isolated from",
+      "source": "pepsinogen",
+      "target": "mammalian"
+    },
+    {
+      "type": "Isolated from",
+      "source": "procathepsin D",
+      "target": "mammalian"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "solubility"
+    },
+    {
+      "type": "Exhibits",
+      "source": "maltose-binding protein (MBP)",
+      "target": "solubility"
+    },
+    {
+      "type": "Exhibits",
+      "source": "maltose-binding protein (MBP)",
+      "target": "proteolytically inactive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "maltose-binding protein (MBP)",
+      "target": "inclusion body formation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBP-pepsinogen",
+      "target": "renaturation"
+    }
+  ]
+}
+

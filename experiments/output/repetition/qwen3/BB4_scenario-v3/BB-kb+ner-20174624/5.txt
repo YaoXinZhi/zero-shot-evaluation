@@ -1,0 +1,264 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Yersinia"
+    },
+    {
+      "type": "Microbe",
+      "name": "Yersinia outer protein YopJ"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. pestis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. pseudotuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. enterocolitica"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. pestis strain KIM6"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. pestis KIM5"
+    },
+    {
+      "type": "Microbe",
+      "name": "human monocyte-derived macrophages"
+    },
+    {
+      "type": "Microbe",
+      "name": "neutrophils"
+    },
+    {
+      "type": "Microbe",
+      "name": "polymorphonuclear leukocytes"
+    },
+    {
+      "type": "Microbe",
+      "name": "human innate immune system"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "apoptosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ROS-mediated cell death"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "type III secretion system"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "caspase activation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "release of LDH"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "loss of membrane integrity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "surface exposure of phosphatidylserine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cell death"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "reactive oxygen species production"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phagocytic interaction"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibition of ROS production"
+    },
+    {
+      "type": "Habitat",
+      "name": "human"
+    },
+    {
+      "type": "Geographical location",
+      "name": "human"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Yersinia",
+      "target": "type III secretion system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia outer protein YopJ",
+      "target": "induce apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia outer protein YopJ",
+      "target": "induce apoptosis in murine macrophages"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia outer protein YopJ",
+      "target": "induce apoptosis in dendritic cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia outer protein YopP",
+      "target": "induce apoptosis in murine macrophages"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia outer protein YopP",
+      "target": "induce apoptosis in dendritic cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia",
+      "target": "subvert innate immune response"
+    },
+    {
+      "type": "Exhibits",
+      "source": "human innate immune system",
+      "target": "coordinated activity of macrophages"
+    },
+    {
+      "type": "Exhibits",
+      "source": "human innate immune system",
+      "target": "coordinated activity of polymorphonuclear leukocytes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "human monocyte-derived macrophages",
+      "target": "apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "resistance to YopJ/P-induced apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "protection from ROS-mediated cell death"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. pestis strain KIM6",
+      "target": "increase surface exposure of phosphatidylserine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. pestis strain KIM6",
+      "target": "induce cell death"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. pestis",
+      "target": "virulence plasmid"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. pestis",
+      "target": "inhibit ROS production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. pestis",
+      "target": "inhibit ROS production in a virulence plasmid-dependent manner"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. pestis",
+      "target": "inhibit ROS production independently of YopJ/YopP"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "reactive oxygen species production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "phagocytic interaction"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia outer protein YopJ",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia outer protein YopP",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Y. pestis",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Y. pseudotuberculosis",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Y. enterocolitica",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Y. pestis strain KIM6",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Y. pestis KIM5",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "human monocyte-derived macrophages",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "neutrophils",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "polymorphonuclear leukocytes",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "human innate immune system",
+      "target": "human"
+    }
+  ]
+}
+```

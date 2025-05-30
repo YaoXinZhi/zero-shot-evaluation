@@ -1,0 +1,193 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis Live Vaccine Strain (LVS)"
+    },
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis ssp tularensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Microbe",
+      "name": "monocytes"
+    },
+    {
+      "type": "Microbe",
+      "name": "macrophages"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "surface nucleolin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phagocytosed"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "binding"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "internalization"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phagosomal escape"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "intra-cytosolic multiplication"
+    },
+    {
+      "type": "Microbe",
+      "name": "elongation factor Tu (EF-Tu)"
+    },
+    {
+      "type": "Habitat",
+      "name": "human monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "cytoplasm"
+    },
+    {
+      "type": "Habitat",
+      "name": "bacterial surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "host tissues"
+    },
+    {
+      "type": "Geographical location",
+      "name": "human"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis Live Vaccine Strain (LVS)",
+      "target": "bacterial surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "monocyte-like THP-1 cells",
+      "target": "human monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis",
+      "target": "human"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "phagocytosed"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis Live Vaccine Strain (LVS)",
+      "target": "binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis Live Vaccine Strain (LVS)",
+      "target": "infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis Live Vaccine Strain (LVS)",
+      "target": "internalization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis Live Vaccine Strain (LVS)",
+      "target": "phagosomal escape"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis Live Vaccine Strain (LVS)",
+      "target": "intra-cytosolic multiplication"
+    },
+    {
+      "type": "Exhibits",
+      "source": "monocyte-like THP-1 cells",
+      "target": "binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "monocyte-like THP-1 cells",
+      "target": "infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "monocyte-like THP-1 cells",
+      "target": "internalization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "monocytes",
+      "target": "phagocytosed"
+    },
+    {
+      "type": "Exhibits",
+      "source": "macrophages",
+      "target": "phagocytosed"
+    },
+    {
+      "type": "Exhibits",
+      "source": "elongation factor Tu (EF-Tu)",
+      "target": "surface"
+    },
+    {
+      "type": "Exhibits",
+      "source": "elongation factor Tu (EF-Tu)",
+      "target": "binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "elongation factor Tu (EF-Tu)",
+      "target": "infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "elongation factor Tu (EF-Tu)",
+      "target": "internalization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "surface nucleolin",
+      "target": "binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "surface nucleolin",
+      "target": "internalization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "surface nucleolin",
+      "target": "interaction with bacterial ligand EF-Tu"
+    }
+  ]
+}
+```

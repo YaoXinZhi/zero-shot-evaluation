@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Str. thermophilus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vagococcus carniphilus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Lb. curvatus"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Str. thermophilus",
+      "target": "cheese interiors"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vagococcus carniphilus",
+      "target": "cheese surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter spp.",
+      "target": "cheese surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lb. curvatus",
+      "target": "cheese surfaces"
+    }
+  ]
+}
+

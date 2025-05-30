@@ -1,0 +1,78 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Kingella kingae"
+    },
+    {
+      "type": "Habitat",
+      "name": "respiratory tract"
+    },
+    {
+      "type": "Habitat",
+      "name": "throat"
+    },
+    {
+      "type": "Habitat",
+      "name": "nasopharyngeal"
+    },
+    {
+      "type": "Geographical location",
+      "name": "southern Israel"
+    },
+    {
+      "type": "Habitat",
+      "name": "day-care center attendees"
+    },
+    {
+      "type": "Habitat",
+      "name": "children"
+    },
+    {
+      "type": "Habitat",
+      "name": "infants younger than 6 months"
+    },
+    {
+      "type": "Habitat",
+      "name": "well-baby-care clinic"
+    },
+    {
+      "type": "Habitat",
+      "name": "surgical patients"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "respiratory tract"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "throat"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "day-care center attendees"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "children"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "surgical patients"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "well-baby-care clinic"
+    }
+  ]
+}
+```

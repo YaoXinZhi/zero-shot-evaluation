@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "L. lactis subsp. cremoris B697"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "high hydroxy acid dehydrogenase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "transaminase activity"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. lactis subsp. cremoris strain B1157"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "high levels of 3-methylbutanal"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "L. lactis subsp. cremoris B697",
+      "target": "high hydroxy acid dehydrogenase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis subsp. cremoris B697",
+      "target": "transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis subsp. cremoris strain B1157",
+      "target": "high levels of 3-methylbutanal"
+    }
+  ]
+}
+

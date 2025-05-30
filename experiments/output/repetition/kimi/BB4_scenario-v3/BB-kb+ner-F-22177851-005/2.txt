@@ -1,0 +1,106 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Proteus vulgaris 1 M10"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter celer"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of flavor compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of branched-chain alcohols"
+    },
+    {
+      "type": "Habitat",
+      "name": "model cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "experimental smear soft cheese"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "capacity of colonization"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "impact on the growth of other microbial populations"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "impact on aroma compound production"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheeses"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Proteus vulgaris 1 M10",
+      "target": "production of flavor compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Proteus vulgaris 1 M10",
+      "target": "production of branched-chain alcohols"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Proteus vulgaris 1 M10",
+      "target": "model cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter celer",
+      "target": "cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "cheeses"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter celer",
+      "target": "capacity of colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "capacity of colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter celer",
+      "target": "impact on the growth of other microbial populations"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "impact on the growth of other microbial populations"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter celer",
+      "target": "impact on aroma compound production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "impact on aroma compound production"
+    }
+  ]
+}
+

@@ -1,0 +1,126 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "H pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter-like organism"
+    },
+    {
+      "type": "Microbe",
+      "name": "CLO test"
+    },
+    {
+      "type": "Microbe",
+      "name": "DeNol"
+    },
+    {
+      "type": "Microbe",
+      "name": "amoxicillin"
+    },
+    {
+      "type": "Microbe",
+      "name": "metronidazole"
+    },
+    {
+      "type": "Microbe",
+      "name": "bismuth subcitrate"
+    },
+    {
+      "type": "Microbe",
+      "name": "proton pump inhibitor"
+    },
+    {
+      "type": "Microbe",
+      "name": "PPI"
+    },
+    {
+      "type": "Microbe",
+      "name": "omeprazole"
+    },
+    {
+      "type": "Microbe",
+      "name": "clarithromycin"
+    },
+    {
+      "type": "Microbe",
+      "name": "nizatidine"
+    },
+    {
+      "type": "Habitat",
+      "name": "duodenal ulcer"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "active duodenal ulcer disease"
+    },
+    {
+      "type": "Habitat",
+      "name": "human host"
+    },
+    {
+      "type": "Geographical location",
+      "name": "clinical practice"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "duodenal ulcer"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter-like organism",
+      "target": "human host"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "active duodenal ulcer disease"
+    },
+    {
+      "type": "Exhibits",
+      "source": "PPI-based triple therapy",
+      "target": "good compliance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "low compliance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "PPI-based triple therapy",
+      "target": "higher eradication rate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "side-effects"
+    },
+    {
+      "type": "Exhibits",
+      "source": "one-week triple therapy",
+      "target": "highly effective"
+    },
+    {
+      "type": "Exhibits",
+      "source": "one-week triple therapy",
+      "target": "lower cost"
+    },
+    {
+      "type": "Exhibits",
+      "source": "one-week triple therapy",
+      "target": "mild side-effects"
+    }
+  ]
+}
+```

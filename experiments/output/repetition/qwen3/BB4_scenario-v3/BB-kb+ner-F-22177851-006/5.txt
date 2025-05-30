@@ -1,0 +1,212 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "S3 +"
+    },
+    {
+      "type": "Microbe",
+      "name": "S3-"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactococcus lactis sp. lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus casei FH1"
+    },
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter arilaitensis Re117"
+    },
+    {
+      "type": "Microbe",
+      "name": "Corynebacterium casei Mu120"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. flavescens Mu128"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. variabile Mu129"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus xylosus Com1"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. equorum Mu2"
+    },
+    {
+      "type": "Microbe",
+      "name": "D. hansenii DH68"
+    },
+    {
+      "type": "Microbe",
+      "name": "G. candidum GC129"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. lipolytica CI35"
+    },
+    {
+      "type": "Microbe",
+      "name": "K. lactis KL65"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. celer 91"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei 2 920"
+    },
+    {
+      "type": "Habitat",
+      "name": "Munster"
+    },
+    {
+      "type": "Habitat",
+      "name": "Reblochon"
+    },
+    {
+      "type": "Habitat",
+      "name": "St. Nectaire"
+    },
+    {
+      "type": "Habitat",
+      "name": "Livarot"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Munster"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Reblochon"
+    },
+    {
+      "type": "Geographical location",
+      "name": "St. Nectaire"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Livarot"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram-negative"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "protease-negative"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "sensitivity to 24 antibiotics"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "no production of biogenic amines in synthetic media"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "no growth under anaerobic condition"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "no growth at 37 °C"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus casei FH1",
+      "target": "St. Nectaire"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Arthrobacter arilaitensis Re117",
+      "target": "Reblochon"
+    },
+    {
+      "type": "Isolated from",
+      "source": "P. celer 91",
+      "target": "Livarot"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei 2 920",
+      "target": "Munster"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactococcus lactis sp. lactis",
+      "target": "cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S3-",
+      "target": "protease-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer 91",
+      "target": "sensitivity to 24 antibiotics"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer 91",
+      "target": "no production of biogenic amines in synthetic media"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer 91",
+      "target": "no growth under anaerobic condition"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer 91",
+      "target": "no growth at 37 °C"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei 2 920",
+      "target": "sensitivity to 24 antibiotics"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei 2 920",
+      "target": "no production of biogenic amines in synthetic media"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei 2 920",
+      "target": "no growth under anaerobic condition"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei 2 920",
+      "target": "no growth at 37 °C"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer 91",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei 2 920",
+      "target": "Gram-negative"
+    }
+  ]
+}
+```

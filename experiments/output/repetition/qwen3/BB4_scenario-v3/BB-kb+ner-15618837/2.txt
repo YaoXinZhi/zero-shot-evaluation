@@ -1,0 +1,93 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. pylori"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastric biopsies"
+    },
+    {
+      "type": "Habitat",
+      "name": "stomach"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Republic of Yemen"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Yemen"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "chronic dyspepsia"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "dyspeptic"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "gastric biopsies"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistance"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "gastric biopsies"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "stomach"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "resistance"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. pylori",
+      "target": "gastric biopsies"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. pylori",
+      "target": "stomach"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "chronic dyspepsia"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "dyspeptic"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "Republic of Yemen"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. pylori",
+      "target": "Yemen"
+    }
+  ]
+}
+```

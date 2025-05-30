@@ -1,0 +1,32 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Plant", "name": "crops"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "global"},
+      {"type": "Geographic", "name": "United Nations"},
+      {"type": "Geographic", "name": "Food and Agriculture Organization"},
+      {"type": "Geographic", "name": "world"},
+      {"type": "Geographic", "name": "agricultural sector"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Midlands", "type": "Located in", "target": "Aston University"},
+      {"source": "Midlands", "type": "Located in", "target": "Harper Adams University"},
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Affects", "target": "crops"},
+      {"source": "plant diseases", "type": "Causes", "target": "crop losses"},
+      {"source": "potato aphid", "type": "Causes", "target": "crop losses"},
+      {"source": "global", "type": "Located in", "target": "Food and Agriculture Organization"},
+      {"source": "Food and Agriculture Organization", "type": "Located in", "target": "United Nations"},
+      {"source": "global", "type": "Located in", "target": "Biotechnology and Biological Sciences Research Council"},
+      {"source": "global", "type": "Located in", "target": "Natural Environment Research Council"}
+    ]
+  }
+]
+

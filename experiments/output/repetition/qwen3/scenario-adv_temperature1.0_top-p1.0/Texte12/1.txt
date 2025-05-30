@@ -1,0 +1,27 @@
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "host plant"},
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Vector", "name": "Bactrocera dorsalis"}, 
+      {"type": "Pest", "name": "RNAi-injected Bactrocera dorsalis"},
+      {"type": "Vector", "name": "RNAi-injected Bactrocera dorsalis"},
+      {"type": "Chemical", "name": "methyl eugenol"},
+      {"type": "Chemical", "name": "γ-octalactone"},
+      {"type": "Chemical", "name": "benzothiazole"},
+      {"type": "Chemical", "name": "(+),dipentene"},
+      {"type": "Chemical", "name": "ethyl tiglate"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "host plant"},
+      {"source": "RNAi-injected Bactrocera dorsalis", "type": "Have been found on", "target": "host plant"},
+      {"source": "Bactrocera dorsalis", "type": "Transmit", "target": "methyl eugenol"},
+      {"source": "RNAi-injected Bactrocera dorsalis", "type": "Transmit", "target": "methyl eugenol"},
+      {"source": "Bactrocera dorsalis", "type": "Transmit", "target": "γ-octalactone"},
+      {"source": "RNAi-injected Bactrocera dorsalis", "type": "Transmit", "target": "γ-octalactone"}
+    ]
+  }
+]
+

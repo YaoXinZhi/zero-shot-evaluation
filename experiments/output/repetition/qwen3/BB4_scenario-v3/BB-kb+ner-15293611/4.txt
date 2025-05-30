@@ -1,0 +1,105 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. aeruginosa"
+    },
+    {
+      "type": "Habitat",
+      "name": "cystic fibrosis units"
+    },
+    {
+      "type": "Habitat",
+      "name": "CF units"
+    },
+    {
+      "type": "Habitat",
+      "name": "paediatric CF units"
+    },
+    {
+      "type": "Habitat",
+      "name": "adult CF units"
+    },
+    {
+      "type": "Habitat",
+      "name": "Brisbane"
+    },
+    {
+      "type": "Habitat",
+      "name": "Australia"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "colonial morphology"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "multiresistance"
+    },
+    {
+      "type": "Microbe",
+      "name": "Australian transmissible strain"
+    },
+    {
+      "type": "Microbe",
+      "name": "pulsotype 2"
+    },
+    {
+      "type": "Microbe",
+      "name": "pulsotype 1"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "cystic fibrosis units"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "CF units"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "paediatric CF units"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "adult CF units"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "Brisbane"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "Australia"
+    },
+    {
+      "type": "Exhibits",
+      "source": "pulsotype 2",
+      "target": "colonial morphology"
+    },
+    {
+      "type": "Exhibits",
+      "source": "pulsotype 2",
+      "target": "multiresistance"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Australian transmissible strain",
+      "target": "pulsotype 1"
+    }
+  ]
+}
+```

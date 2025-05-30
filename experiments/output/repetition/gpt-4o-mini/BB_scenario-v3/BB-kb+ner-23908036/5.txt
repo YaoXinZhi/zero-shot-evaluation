@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "β-carbonic anhydrase psCA3"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "β-carbonic anhydrase psCA1"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "β-carbonic anhydrase psCA2"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "β-carbonic anhydrases (β-CAs)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antimicrobial drug targets"
+    },
+    {
+      "type": "Geographical location",
+      "name": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Form A"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Form B"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "β-carbonic anhydrase psCA3",
+      "target": "antimicrobial drug targets"
+    },
+    {
+      "type": "Isolated from",
+      "source": "β-carbonic anhydrase psCA3",
+      "target": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "β-carbonic anhydrase psCA1",
+      "target": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "β-carbonic anhydrase psCA2",
+      "target": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "β-carbonic anhydrases (β-CAs)",
+      "target": "Pseudomonas aeruginosa"
+    }
+  ]
+}
+

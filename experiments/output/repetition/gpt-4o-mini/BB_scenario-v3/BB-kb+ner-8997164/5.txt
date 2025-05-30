@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "mycobacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "BCG"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "granulomatous lesions"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "granulomatous immune response"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "TCR phenotype"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "CD8+"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "mycobacteria",
+      "target": "BCG granulomatous lesions"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gamma delta T cells",
+      "target": "granulomatous immune response"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gamma delta T cells",
+      "target": "TCR phenotype"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gamma delta T cells",
+      "target": "CD8+"
+    }
+  ]
+}
+

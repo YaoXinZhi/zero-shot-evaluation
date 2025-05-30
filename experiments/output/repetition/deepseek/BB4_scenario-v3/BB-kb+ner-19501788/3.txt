@@ -1,0 +1,126 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas fluorescens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas fluorescens strain TSS"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Aeromonas hydrophila"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio harveyi"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "iron uptake"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cellular metabolism"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stress response"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of virulence determinants"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "outer membrane proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistance against host serum bactericidal activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ability to disseminate in host blood and tissues"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacterial virulence"
+    },
+    {
+      "type": "Habitat",
+      "name": "Japanese flounder"
+    },
+    {
+      "type": "Habitat",
+      "name": "local farm"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "immunoprotection"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas fluorescens strain TSS",
+      "target": "Japanese flounder"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas fluorescens strain TSS",
+      "target": "local farm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas fluorescens strain TSS",
+      "target": "iron uptake"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas fluorescens strain TSS",
+      "target": "cellular metabolism"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas fluorescens strain TSS",
+      "target": "stress response"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas fluorescens strain TSS",
+      "target": "production of virulence determinants"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TFM",
+      "target": "outer membrane proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TFM",
+      "target": "resistance against host serum bactericidal activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TFM",
+      "target": "ability to disseminate in host blood and tissues"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TFM",
+      "target": "bacterial virulence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TFM/pJAQ",
+      "target": "immunoprotection"
+    }
+  ]
+}
+

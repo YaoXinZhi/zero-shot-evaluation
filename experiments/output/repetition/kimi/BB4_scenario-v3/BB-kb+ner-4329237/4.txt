@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "bacille Calmette Guerin"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis"
+    },
+    {
+      "type": "Habitat",
+      "name": "Macaca mulatta"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "bacille Calmette Guerin",
+      "target": "Macaca mulatta"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycobacterium tuberculosis",
+      "target": "Macaca mulatta"
+    }
+  ]
+}
+

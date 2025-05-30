@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "neutrophil alkaline phosphatase"
+    },
+    {
+      "type": "Habitat",
+      "name": "cattle"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Gram-negative bacterial infections"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "enzyme activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "severity of infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "severity of inflammation"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "cattle"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "Gram-negative bacterial infections"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "neutrophil alkaline phosphatase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "enzyme activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "severity of infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "severity of inflammation"
+    }
+  ]
+}
+

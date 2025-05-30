@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Galactomyces"
+    },
+    {
+      "type": "Microbe",
+      "name": "Proteobacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Scopulariopsis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Aspergillus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Actinobacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus"
+    },
+    {
+      "type": "Habitat",
+      "name": "moist bloomy rinds"
+    },
+    {
+      "type": "Habitat",
+      "name": "dry natural rinds"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Galactomyces",
+      "target": "moist bloomy rinds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Proteobacteria",
+      "target": "moist bloomy rinds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Scopulariopsis",
+      "target": "dry natural rinds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Aspergillus",
+      "target": "dry natural rinds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Actinobacteria",
+      "target": "dry natural rinds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus",
+      "target": "dry natural rinds"
+    }
+  ]
+}
+

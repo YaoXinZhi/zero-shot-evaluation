@@ -1,0 +1,145 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Clostridium perfringens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Clostridium perfringens Type A"
+    },
+    {
+      "type": "Microbe",
+      "name": "Artemisia annua"
+    },
+    {
+      "type": "Habitat",
+      "name": "broiler"
+    },
+    {
+      "type": "Habitat",
+      "name": "intestinal"
+    },
+    {
+      "type": "Habitat",
+      "name": "small intestinal"
+    },
+    {
+      "type": "Geographical location",
+      "name": "day 17"
+    },
+    {
+      "type": "Geographical location",
+      "name": "day 27"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antimicrobial properties"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "necrotic enteritis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "feed intake"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "body weight"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "feed conversion ratio"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "weight gain"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "disease-associated weight losses"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "intestinal numbers"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "severity of the disease-related small intestinal lesions"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "small intestinal lesions"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Artemisia annua",
+      "target": "antimicrobial properties"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium perfringens Type A",
+      "target": "broiler"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium perfringens Type A",
+      "target": "necrotic enteritis"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium perfringens",
+      "target": "intestinal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium perfringens",
+      "target": "small intestinal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "broiler",
+      "target": "feed intake"
+    },
+    {
+      "type": "Exhibits",
+      "source": "broiler",
+      "target": "body weight"
+    },
+    {
+      "type": "Exhibits",
+      "source": "broiler",
+      "target": "feed conversion ratio"
+    },
+    {
+      "type": "Exhibits",
+      "source": "broiler",
+      "target": "weight gain"
+    },
+    {
+      "type": "Exhibits",
+      "source": "broiler",
+      "target": "disease-associated weight losses"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium perfringens",
+      "target": "intestinal numbers"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium perfringens",
+      "target": "severity of the disease-related small intestinal lesions"
+    },
+    {
+      "type": "Exhibits",
+      "source": "small intestinal",
+      "target": "small intestinal lesions"
+    }
+  ]
+}
+```

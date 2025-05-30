@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Plant", "name": "crops"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "global"},
+      {"type": "Geographic", "name": "world"},
+      {"type": "Geographic", "name": "United Nations"},
+      {"type": "Organization", "name": "Food and Agriculture Organization of the United Nations"},
+      {"type": "Organization", "name": "Aston University"},
+      {"type": "Organization", "name": "Harper Adams University"},
+      {"type": "Organization", "name": "Aston Institute of Photonic Technologies"},
+      {"type": "Organization", "name": "Biotechnology and Biological Sciences Research Council"},
+      {"type": "Organization", "name": "Natural Environment Research Council"},
+      {"type": "Person", "name": "David Webb"},
+      {"type": "Person", "name": "Joe Roberts"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Affects", "target": "crops"},
+      {"source": "Midlands", "type": "Located in", "target": "Aston University"},
+      {"source": "Midlands", "type": "Located in", "target": "Harper Adams University"},
+      {"source": "David Webb", "type": "Located in", "target": "Aston Institute of Photonic Technologies"},
+      {"source": "Biotechnology and Biological Sciences Research Council", "type": "Located in", "target": "UK"},
+      {"source": "Natural Environment Research Council", "type": "Located in", "target": "UK"},
+      {"source": "Food and Agriculture Organization of the United Nations", "type": "Located in", "target": "United Nations"},
+      {"source": "plant diseases", "type": "Have been found on", "target": "crops"},
+      {"source": "potato aphid", "type": "Causes", "target": "plant diseases"},
+      {"source": "global", "type": "Located in", "target": "Food and Agriculture Organization of the United Nations"}
+    ]
+  }
+]
+

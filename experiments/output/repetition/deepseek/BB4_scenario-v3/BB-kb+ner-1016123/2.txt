@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "S. pullorum"
+    },
+    {
+      "type": "Habitat",
+      "name": "egg pulp"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "growth"
+    },
+    {
+      "type": "Habitat",
+      "name": "strontium chloride M broth"
+    },
+    {
+      "type": "Habitat",
+      "name": "strontium selenite broth"
+    },
+    {
+      "type": "Habitat",
+      "name": "strontium selenite A broth"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "enrichment"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "detection of salmonellae"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Salmonella sp.",
+      "target": "egg pulp"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Salmonella sp.",
+      "target": "strontium chloride M broth"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Salmonella sp.",
+      "target": "strontium selenite broth"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Salmonella sp.",
+      "target": "strontium selenite A broth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. pullorum",
+      "target": "growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella sp.",
+      "target": "enrichment"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella sp.",
+      "target": "detection of salmonellae"
+    }
+  ]
+}
+

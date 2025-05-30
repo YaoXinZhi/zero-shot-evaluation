@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "annexin1"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "efferocytosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cross-presentation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "immune evasion"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium tuberculosis",
+      "target": "immune evasion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "annexin1",
+      "target": "efferocytosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "annexin1",
+      "target": "cross-presentation"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycobacterium tuberculosis",
+      "target": "DCs"
+    }
+  ]
+}
+

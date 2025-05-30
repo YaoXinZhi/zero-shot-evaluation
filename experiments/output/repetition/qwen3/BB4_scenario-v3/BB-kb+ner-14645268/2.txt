@@ -1,0 +1,143 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Xanthomonas"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas syringae pv. maculicola"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "type III secretion (TTS) system"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "pathogenicity"
+    },
+    {
+      "type": "Microbe",
+      "name": "XopC"
+    },
+    {
+      "type": "Microbe",
+      "name": "XopJ"
+    },
+    {
+      "type": "Microbe",
+      "name": "AvrBs3 effector domain"
+    },
+    {
+      "type": "Microbe",
+      "name": "AvrRxv/YopJ family"
+    },
+    {
+      "type": "Microbe",
+      "name": "HopPmaG"
+    },
+    {
+      "type": "Microbe",
+      "name": "HpaJ"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "transglycosylase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Sec signal"
+    },
+    {
+      "type": "Habitat",
+      "name": "plant cell"
+    },
+    {
+      "type": "Habitat",
+      "name": "bacterial periplasm"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "pathogenicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "type III secretion (TTS) system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "transglycosylase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "Sec signal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "XopC",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Isolated from",
+      "source": "XopJ",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopJ",
+      "target": "AvrRxv/YopJ family"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HpaJ",
+      "target": "transglycosylase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HpaJ",
+      "target": "HopPmaG"
+    },
+    {
+      "type": "Isolated from",
+      "source": "HpaJ",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "type III-dependent translocation"
+    },
+    {
+      "type": "Isolated from",
+      "source": "AvrBs3 effector domain",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Isolated from",
+      "source": "HopPmaG",
+      "target": "Pseudomonas syringae pv. maculicola"
+    },
+    {
+      "type": "Isolated from",
+      "source": "xopC",
+      "target": "pathogenicity islands"
+    },
+    {
+      "type": "Isolated from",
+      "source": "xopC",
+      "target": "Xanthomonas avrBs3 effector family"
+    }
+  ]
+}
+```

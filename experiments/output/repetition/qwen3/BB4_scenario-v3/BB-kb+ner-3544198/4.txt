@@ -1,0 +1,52 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium leprae"
+    },
+    {
+      "type": "Microbe",
+      "name": "leprosy patients"
+    },
+    {
+      "type": "Microbe",
+      "name": "LL patients"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phenolic glycolipid"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "PGL-1"
+    },
+    {
+      "type": "Habitat",
+      "name": "urine"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium leprae",
+      "target": "PGL-1"
+    },
+    {
+      "type": "Isolated from",
+      "source": "PGL-1",
+      "target": "urine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "PGL-1",
+      "target": "leprosy patients"
+    },
+    {
+      "type": "Isolated from",
+      "source": "PGL-1",
+      "target": "LL patients"
+    }
+  ]
+}
+```

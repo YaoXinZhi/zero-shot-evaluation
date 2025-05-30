@@ -1,0 +1,83 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactococcus lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactococcus lactis subsp. lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lc. lactis subsp. cremoris"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus paracasei"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lb. paracasei"
+    },
+    {
+      "type": "Microbe",
+      "name": "NSLAB"
+    },
+    {
+      "type": "Microbe",
+      "name": "LAB"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Danbo cheeses"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "autolysis"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Lactococcus lactis subsp. lactis",
+      "target": "autolysis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lc. lactis subsp. cremoris",
+      "target": "autolysis"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactococcus lactis subsp. lactis",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lc. lactis subsp. cremoris",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus paracasei",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lb. paracasei",
+      "target": "Danbo cheeses"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus paracasei",
+      "target": "NSLAB"
+    }
+  ]
+}
+```

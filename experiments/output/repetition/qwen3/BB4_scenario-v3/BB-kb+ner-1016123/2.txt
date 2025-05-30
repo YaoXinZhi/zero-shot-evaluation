@@ -1,0 +1,47 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Salmonellae"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. pullorum"
+    },
+    {
+      "type": "Habitat",
+      "name": "egg pulp"
+    },
+    {
+      "type": "Habitat",
+      "name": "egg products"
+    },
+    {
+      "type": "Geographical location",
+      "name": "not specified"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Salmonella sp.",
+      "target": "egg pulp"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Salmonellae",
+      "target": "egg products"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. pullorum",
+      "target": "strontium chloride M broth"
+    }
+  ]
+}
+```

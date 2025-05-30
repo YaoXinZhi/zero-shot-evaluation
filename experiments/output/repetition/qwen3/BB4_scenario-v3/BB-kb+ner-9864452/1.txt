@@ -1,0 +1,75 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Bacillus intermedius"
+    },
+    {
+      "type": "Microbe",
+      "name": "Bacillus intermedius S3-19"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "alkaline phosphatase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phosphomonoesterase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phosphodiesterase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "maximal levels at pH 9.5 and 55 degreesC"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stable until 60 degreesC at pH 8.0-10.0"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "broad specificity towards a wide variety of substrates"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "Bacillus intermedius S3-19"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Bacillus intermedius",
+      "target": "alkaline phosphatase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "phosphomonoesterase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "phosphodiesterase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "maximal levels at pH 9.5 and 55 degreesC"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "stable until 60 degreesC at pH 8.0-10.0"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "broad specificity towards a wide variety of substrates"
+    }
+  ]
+}
+```

@@ -1,0 +1,34 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Plant", "name": "crops"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "global"},
+      {"type": "Geographic", "name": "world"},
+      {"type": "Organisation", "name": "Food and Agriculture Organization of the United Nations"},
+      {"type": "Organisation", "name": "Aston University"},
+      {"type": "Organisation", "name": "Harper Adams University"},
+      {"type": "Organisation", "name": "Aston Institute of Photonic Technologies"},
+      {"type": "Organisation", "name": "Biotechnology and Biological Sciences Research Council"},
+      {"type": "Organisation", "name": "Natural Environment Research Council"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Have been found on", "target": "crops"},
+      {"source": "plant diseases", "type": "Affects", "target": "crops"},
+      {"source": "potato aphid", "type": "Affects", "target": "strawberries"},
+      {"source": "Midlands", "type": "Located in", "target": "Aston University"},
+      {"source": "Midlands", "type": "Located in", "target": "Harper Adams University"},
+      {"source": "Biotechnology and Biological Sciences Research Council", "type": "Located in", "target": "UK"},
+      {"source": "Natural Environment Research Council", "type": "Located in", "target": "UK"},
+      {"source": "Food and Agriculture Organization of the United Nations", "type": "Located in", "target": "global"}
+    ]
+  }
+]
+

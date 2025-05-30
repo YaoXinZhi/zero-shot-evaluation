@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "neutrophil alkaline phosphatase (NAP) activity"
+    },
+    {
+      "type": "Habitat",
+      "name": "cattle"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "cattle"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "neutrophil alkaline phosphatase (NAP) activity"
+    }
+  ]
+}
+

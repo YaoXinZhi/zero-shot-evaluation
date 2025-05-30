@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Ln. pseudomesenteroides"
+    },
+    {
+      "type": "Microbe",
+      "name": "Ln. citreum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lb. plantarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "M. caseolyticus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Listeria monocytogenes"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Microbe",
+      "name": "STEC O26:H11"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Ln. pseudomesenteroides",
+      "target": "inhibiting"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Ln. citreum",
+      "target": "inhibiting"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lb. plantarum",
+      "target": "inhibiting"
+    },
+    {
+      "type": "Exhibits",
+      "source": "M. caseolyticus",
+      "target": "inhibiting"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "uncooked pressed model cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "inhibiting"
+    }
+  ]
+}
+

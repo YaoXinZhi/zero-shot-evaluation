@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Clostridium perfringens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Clostridium perfringens Type A"
+    },
+    {
+      "type": "Microbe",
+      "name": "Artemisia annua"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "necrotic enteritis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antimicrobial properties"
+    },
+    {
+      "type": "Habitat",
+      "name": "broilers"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Clostridium perfringens",
+      "target": "broilers"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium perfringens Type A",
+      "target": "broilers"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Artemisia annua",
+      "target": "antimicrobial properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium perfringens",
+      "target": "necrotic enteritis"
+    }
+  ]
+}
+

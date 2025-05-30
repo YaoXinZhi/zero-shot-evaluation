@@ -1,0 +1,71 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma agassizii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma testudineum"
+    },
+    {
+      "type": "Habitat",
+      "name": "gopher tortoises"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Georgia"
+    },
+    {
+      "type": "Geographical location",
+      "name": "USA"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Upper respiratory tract disease"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "clinical signs consistent with URTD"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma agassizii",
+      "target": "gopher tortoises"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma testudineum",
+      "target": "gopher tortoises"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycoplasma agassizii",
+      "target": "Upper respiratory tract disease"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycoplasma testudineum",
+      "target": "Upper respiratory tract disease"
+    },
+    {
+      "type": "Isolated from",
+      "source": "gopher tortoises",
+      "target": "Georgia"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Georgia",
+      "target": "USA"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gopher tortoises",
+      "target": "clinical signs consistent with URTD"
+    }
+  ]
+}
+```

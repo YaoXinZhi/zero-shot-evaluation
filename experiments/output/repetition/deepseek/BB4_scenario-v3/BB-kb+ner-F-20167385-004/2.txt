@@ -1,0 +1,123 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "micrococci-corynebacteria groups"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. faecium"
+    },
+    {
+      "type": "Microbe",
+      "name": "enterococci"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacilli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surfaces"
+    },
+    {
+      "type": "Habitat",
+      "name": "Formaggio di Fossa"
+    },
+    {
+      "type": "Habitat",
+      "name": "Casera"
+    },
+    {
+      "type": "Habitat",
+      "name": "Taleggio"
+    },
+    {
+      "type": "Habitat",
+      "name": "Gorgonzola"
+    },
+    {
+      "type": "Habitat",
+      "name": "Scimudin cheeses"
+    },
+    {
+      "type": "Habitat",
+      "name": "Rogosa agar"
+    },
+    {
+      "type": "Habitat",
+      "name": "Pseudomonas agar"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus",
+      "target": "cheese surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "micrococci-corynebacteria groups",
+      "target": "cheese surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "E. faecium",
+      "target": "Formaggio di Fossa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterococci",
+      "target": "Casera"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterococci",
+      "target": "Taleggio"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterococci",
+      "target": "Gorgonzola"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterococci",
+      "target": "Scimudin cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacilli",
+      "target": "Rogosa agar"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas",
+      "target": "Pseudomonas agar"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas",
+      "target": "Gorgonzola"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas",
+      "target": "Scimudin"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas",
+      "target": "Taleggio"
+    }
+  ]
+}
+

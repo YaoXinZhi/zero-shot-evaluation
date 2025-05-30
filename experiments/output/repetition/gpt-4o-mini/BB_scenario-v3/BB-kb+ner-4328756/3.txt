@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Coxiella burnetii"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "glycolytic pathway"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "aldolase"
+    },
+    {
+      "type": "Habitat",
+      "name": "normal yolk sacs"
+    },
+    {
+      "type": "Habitat",
+      "name": "infected yolk sacs"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Coxiella burnetii",
+      "target": "glycolytic pathway"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Coxiella burnetii",
+      "target": "aldolase"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "normal yolk sacs"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "infected yolk sacs"
+    }
+  ]
+}
+

@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Habitat",
+      "name": "sputum"
+    },
+    {
+      "type": "Habitat",
+      "name": "cystic fibrosis units"
+    },
+    {
+      "type": "Habitat",
+      "name": "paediatric and adult CF units"
+    },
+    {
+      "type": "Habitat",
+      "name": "regional paediatric and adult CF units in Brisbane, Australia"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "multiresistance"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "colonial morphology"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "sputum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "cystic fibrosis units"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "paediatric and adult CF units"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "regional paediatric and adult CF units in Brisbane, Australia"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "multiresistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "colonial morphology"
+    }
+  ]
+}
+

@@ -1,0 +1,39 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Klebsiella pneumonia"
+    },
+    {
+      "type": "Habitat",
+      "name": "placenta"
+    },
+    {
+      "type": "Geographical location",
+      "name": "humans"
+    },
+    {
+      "type": "Geographical location",
+      "name": "animals"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Klebsiella pneumonia",
+      "target": "placenta"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Klebsiella pneumonia",
+      "target": "humans"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Klebsiella pneumonia",
+      "target": "animals"
+    }
+  ]
+}
+```

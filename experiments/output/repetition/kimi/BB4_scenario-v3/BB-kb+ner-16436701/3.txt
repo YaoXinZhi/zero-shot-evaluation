@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157:H7"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "28-mer analog K4K20S4 (P28)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "N-terminal 14-mer sequence (P14)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "lipopeptide"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bactericidal properties"
+    },
+    {
+      "type": "Habitat",
+      "name": "commercial apple juice"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "food"
+    },
+    {
+      "type": "Exhibits",
+      "source": "28-mer analog K4K20S4 (P28)",
+      "target": "bactericidal properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "N-terminal 14-mer sequence (P14)",
+      "target": "bactericidal properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lipopeptide",
+      "target": "bactericidal properties"
+    }
+  ]
+}
+

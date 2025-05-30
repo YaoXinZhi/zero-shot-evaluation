@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Hafnia strains"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus faecalis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus plantarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei strain B16"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli O26:H11"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Hafnia strains",
+      "target": "slightly reduced counts of Enterococcus faecalis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia strains",
+      "target": "promoted Lactobacillus plantarum growth"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Hafnia strains",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei strain B16",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "E. coli O26:H11",
+      "target": "inoculated at 2 log CFU/ml"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei strain B16",
+      "target": "inoculated at 6 log CFU/ml"
+    }
+  ]
+}
+

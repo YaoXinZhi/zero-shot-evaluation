@@ -1,0 +1,106 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Enterococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus"
+    },
+    {
+      "type": "Habitat",
+      "name": "natural fermented koumiss"
+    },
+    {
+      "type": "Habitat",
+      "name": "yoghurt"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "quinolone resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "norfloxacin resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ciprofloxacin resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "minimum inhibitory concentration breakpoints"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mutations in gyrA genes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mutations in parC genes"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus durans HZ28"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Enterococcus",
+      "target": "natural fermented koumiss"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus",
+      "target": "natural fermented koumiss"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterococcus",
+      "target": "yoghurt"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus",
+      "target": "yoghurt"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Enterococcus",
+      "target": "quinolone resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus",
+      "target": "quinolone resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Enterococcus",
+      "target": "norfloxacin resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus",
+      "target": "norfloxacin resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Enterococcus",
+      "target": "ciprofloxacin resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus",
+      "target": "ciprofloxacin resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Enterococcus durans HZ28",
+      "target": "mutations in gyrA genes"
+    }
+  ]
+}
+

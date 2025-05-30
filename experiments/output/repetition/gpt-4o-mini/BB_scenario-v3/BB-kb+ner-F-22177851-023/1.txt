@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "transamination or deamination activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "high capacity to produce VSC"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "flavor"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "garlic or very ripe cheese notes"
+    },
+    {
+      "type": "Microbe",
+      "name": "methanethiol"
+    },
+    {
+      "type": "Microbe",
+      "name": "DMDS"
+    },
+    {
+      "type": "Microbe",
+      "name": "DMTS"
+    },
+    {
+      "type": "Microbe",
+      "name": "VSC"
+    },
+    {
+      "type": "Microbe",
+      "name": "methionine"
+    },
+    {
+      "type": "Microbe",
+      "name": "cysteine"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "high capacity to produce VSC"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "transamination or deamination activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methanethiol",
+      "target": "flavor"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DMDS",
+      "target": "flavor"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DMTS",
+      "target": "flavor"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "garlic or very ripe cheese notes"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "beef models"
+    }
+  ]
+}
+

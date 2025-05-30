@@ -1,0 +1,261 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "lactic acid bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactococcus lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "yeasts"
+    },
+    {
+      "type": "Microbe",
+      "name": "Debaryomyces hansenii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Geotrichum candidum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Kluyveromyces sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Yarrowia lipolytica"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium aurantiacum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Corynebacterium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus spp."
+    },
+    {
+      "type": "Physiological trait",
+      "name": "acid-tolerant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "aerobic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "facultative anaerobic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "catalase-positive"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "halo-tolerant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Gram-positive"
+    },
+    {
+      "type": "Habitat",
+      "name": "milk"
+    },
+    {
+      "type": "Habitat",
+      "name": "curd"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "smear surface-ripened cheese"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "lactic acid bacteria",
+      "target": "milk"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactococcus lactis",
+      "target": "curd"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Debaryomyces hansenii",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Geotrichum candidum",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kluyveromyces sp.",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yarrowia lipolytica",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium aurantiacum",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Corynebacterium",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Arthrobacter",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus spp.",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Debaryomyces hansenii",
+      "target": "acid-tolerant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Geotrichum candidum",
+      "target": "acid-tolerant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Kluyveromyces sp.",
+      "target": "acid-tolerant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yarrowia lipolytica",
+      "target": "acid-tolerant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Brevibacterium aurantiacum",
+      "target": "aerobic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Brevibacterium aurantiacum",
+      "target": "facultative anaerobic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Brevibacterium aurantiacum",
+      "target": "catalase-positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Brevibacterium aurantiacum",
+      "target": "halo-tolerant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Brevibacterium aurantiacum",
+      "target": "Gram-positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Corynebacterium",
+      "target": "aerobic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Corynebacterium",
+      "target": "facultative anaerobic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Corynebacterium",
+      "target": "catalase-positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Corynebacterium",
+      "target": "halo-tolerant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Corynebacterium",
+      "target": "Gram-positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Arthrobacter",
+      "target": "aerobic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Arthrobacter",
+      "target": "facultative anaerobic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Arthrobacter",
+      "target": "catalase-positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Arthrobacter",
+      "target": "halo-tolerant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Arthrobacter",
+      "target": "Gram-positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus spp.",
+      "target": "aerobic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus spp.",
+      "target": "facultative anaerobic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus spp.",
+      "target": "catalase-positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus spp.",
+      "target": "halo-tolerant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus spp.",
+      "target": "Gram-positive"
+    }
+  ]
+}
+

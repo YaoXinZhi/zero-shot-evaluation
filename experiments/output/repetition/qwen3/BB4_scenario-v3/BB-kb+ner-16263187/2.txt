@@ -1,0 +1,114 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus gasseri K 7"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O8:K88"
+    },
+    {
+      "type": "Habitat",
+      "name": "Caco-2 cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "pigs' jejunal tissue"
+    },
+    {
+      "type": "Habitat",
+      "name": "intestinal mucosa"
+    },
+    {
+      "type": "Habitat",
+      "name": "jejunal mucosa"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibit adhesion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "adhesion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "exclusion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "competition"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "displacement"
+    },
+    {
+      "type": "Geographical location",
+      "name": "pigs'"
+    },
+    {
+      "type": "Geographical location",
+      "name": "jejunal tissue"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "inhibit adhesion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "adhesion"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "intestinal mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "Caco-2 cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "jejunal mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "Caco-2 cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "jejunal mucosa"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "exclusion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "competition"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "displacement"
+    }
+  ]
+}
+```

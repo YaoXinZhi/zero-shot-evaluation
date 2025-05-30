@@ -1,0 +1,97 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pneumoniae"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram-positive"
+    },
+    {
+      "type": "Microbe",
+      "name": "bacteria"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "pathogenesis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "colonization"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "spread/invasion"
+    },
+    {
+      "type": "Microbe",
+      "name": "hyaluronate lyase"
+    },
+    {
+      "type": "Microbe",
+      "name": "pneumococcal surface protein A"
+    },
+    {
+      "type": "Microbe",
+      "name": "pneumolysin"
+    },
+    {
+      "type": "Microbe",
+      "name": "histidine-triad"
+    },
+    {
+      "type": "Microbe",
+      "name": "fibronectin-binding proteins"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pneumoniae",
+      "target": "Gram-positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteria",
+      "target": "pathogenesis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteria",
+      "target": "colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteria",
+      "target": "spread/invasion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pneumoniae",
+      "target": "hyaluronate lyase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pneumoniae",
+      "target": "pneumococcal surface protein A"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pneumoniae",
+      "target": "pneumolysin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pneumoniae",
+      "target": "histidine-triad"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pneumoniae",
+      "target": "fibronectin-binding proteins"
+    }
+  ]
+}
+```

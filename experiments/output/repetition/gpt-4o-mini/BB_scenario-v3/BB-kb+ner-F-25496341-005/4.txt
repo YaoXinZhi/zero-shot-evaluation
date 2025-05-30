@@ -1,0 +1,38 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter arilaitensis GMPA29"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter immobilis PG1"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio litoralis B4"
+    },
+    {
+      "type": "Habitat",
+      "name": "smear-ripened cheese E"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Arthrobacter arilaitensis GMPA29",
+      "target": "smear-ripened cheese E"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter immobilis PG1",
+      "target": "smear-ripened cheese E"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio litoralis B4",
+      "target": "smear-ripened cheese E"
+    }
+  ]
+}
+

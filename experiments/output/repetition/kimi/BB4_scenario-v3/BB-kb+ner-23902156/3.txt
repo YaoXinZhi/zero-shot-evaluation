@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Penicillium crustosum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Penicillium brevicompactum"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "allergen"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "allergenic"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "major allergen"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "minor allergen"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "homolog protein"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ribosomal P1 protein"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "IgG class specific antibodies"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "IgE epitopes"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Penicillium crustosum",
+      "target": "minor allergen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Penicillium brevicompactum",
+      "target": "major allergen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Penicillium crustosum",
+      "target": "homolog protein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Penicillium brevicompactum",
+      "target": "ribosomal P1 protein"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Penicillium crustosum",
+      "target": "Penicillium crustosum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Penicillium brevicompactum",
+      "target": "Penicillium brevicompactum"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Penicillium crustosum",
+      "target": "allergenic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Penicillium crustosum",
+      "target": "IgG class specific antibodies"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Penicillium crustosum",
+      "target": "IgE epitopes"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Penicillium crustosum",
+      "target": "Escherichia coli"
+    }
+  ]
+}
+

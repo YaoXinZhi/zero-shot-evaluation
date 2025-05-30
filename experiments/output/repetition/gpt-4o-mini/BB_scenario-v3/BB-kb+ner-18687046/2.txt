@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "multi-drug resistant (MDR) pathogens"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "central nervous system (CNS) infections"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "infectious complications"
+    },
+    {
+      "type": "Habitat",
+      "name": "trauma intensive care unit (TICU)"
+    },
+    {
+      "type": "Microbe",
+      "name": "bacterial infections"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ventilator-associated pneumonias"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "blood stream infections"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "multi-drug resistant (MDR) pathogens",
+      "target": "infectious complications"
+    },
+    {
+      "type": "Isolated from",
+      "source": "multi-drug resistant (MDR) pathogens",
+      "target": "trauma intensive care unit (TICU)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacterial infections",
+      "target": "central nervous system (CNS) infections"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacterial infections",
+      "target": "infectious complications"
+    },
+    {
+      "type": "Exhibits",
+      "source": "ventilator-associated pneumonias",
+      "target": "infectious complications"
+    },
+    {
+      "type": "Exhibits",
+      "source": "blood stream infections",
+      "target": "infectious complications"
+    }
+  ]
+}
+

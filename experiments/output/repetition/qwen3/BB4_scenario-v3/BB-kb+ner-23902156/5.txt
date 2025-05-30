@@ -1,0 +1,93 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Penicillium crustosum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Penicillium brevicompactum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pen cr 26"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pen b 26"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "allergenic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hypothetical hypoallergenic variant"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "11 kDa"
+    },
+    {
+      "type": "Habitat",
+      "name": "Penicillium-sensitive atopic sera"
+    },
+    {
+      "type": "Habitat",
+      "name": "same expression vector"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Pen cr 26",
+      "target": "Penicillium crustosum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pen b 26",
+      "target": "Penicillium brevicompactum"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Penicillium brevicompactum",
+      "target": "allergenic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "hypothetical hypoallergenic variant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "11 kDa"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "low level of expression"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen b 26",
+      "target": "high level of expression"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "poorly recognized by Penicillium-sensitive atopic sera"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen b 26",
+      "target": "well recognized by Penicillium-sensitive atopic sera"
+    }
+  ]
+}
+```

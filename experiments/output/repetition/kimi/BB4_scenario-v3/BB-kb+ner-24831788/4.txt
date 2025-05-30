@@ -1,0 +1,91 @@
+{
+  "entities": [
+    {
+      "type": "Physiological trait",
+      "name": "cell toxicity"
+    },
+    {
+      "type": "Habitat",
+      "name": "384-well screening plates"
+    },
+    {
+      "type": "Microbe",
+      "name": "Legionella pneumophila"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "luminescence"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "host cell viability"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "SYTOX Green exclusion"
+    },
+    {
+      "type": "Microbe",
+      "name": "macrophage cell line"
+    },
+    {
+      "type": "Microbe",
+      "name": "SYTOX Green"
+    },
+    {
+      "type": "Microbe",
+      "name": "CellTox Green"
+    },
+    {
+      "type": "Microbe",
+      "name": "GelGreen"
+    },
+    {
+      "type": "Microbe",
+      "name": "EvaGreen"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Legionella pneumophila",
+      "target": "luminescence"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Legionella pneumophila",
+      "target": "384-well screening plates"
+    },
+    {
+      "type": "Isolated from",
+      "source": "macrophage cell line",
+      "target": "384-well screening plates"
+    },
+    {
+      "type": "Exhibits",
+      "source": "macrophage cell line",
+      "target": "SYTOX Green exclusion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "cell toxicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CellTox Green",
+      "target": "cell toxicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "GelGreen",
+      "target": "cell toxicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "cell toxicity"
+    }
+  ]
+}
+

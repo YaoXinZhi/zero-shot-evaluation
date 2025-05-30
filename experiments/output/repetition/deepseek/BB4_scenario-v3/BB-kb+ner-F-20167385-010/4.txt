@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Corynebacterium species"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. casei"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. variabilis"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese rinds"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. flavescens"
+    },
+    {
+      "type": "Habitat",
+      "name": "rind of Gorgonzola and Scimudin cheeses"
+    },
+    {
+      "type": "Habitat",
+      "name": "surface of Gobbeen cheese"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "yellow pigment"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. variabile"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. ammoniagenes"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "C. casei",
+      "target": "cheese rinds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. variabilis",
+      "target": "cheese rinds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. flavescens",
+      "target": "rind of Gorgonzola and Scimudin cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. flavescens",
+      "target": "surface of Gobbeen cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. flavescens",
+      "target": "yellow pigment"
+    }
+  ]
+}
+

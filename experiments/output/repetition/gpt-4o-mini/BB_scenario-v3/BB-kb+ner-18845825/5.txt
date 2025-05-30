@@ -1,0 +1,33 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "nontypeable Haemophilus influenzae"
+    },
+    {
+      "type": "Habitat",
+      "name": "day care center"
+    },
+    {
+      "type": "Geographical location",
+      "name": "two children"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "high genetic diversity"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "nontypeable Haemophilus influenzae",
+      "target": "day care center"
+    },
+    {
+      "type": "Exhibits",
+      "source": "nontypeable Haemophilus influenzae",
+      "target": "high genetic diversity"
+    }
+  ]
+}
+

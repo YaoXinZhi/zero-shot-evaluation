@@ -1,0 +1,62 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "HCl secretion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "chronic antral gastritis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "chronic gastritis"
+    },
+    {
+      "type": "Habitat",
+      "name": "antrum"
+    },
+    {
+      "type": "Habitat",
+      "name": "duodenal ulcers"
+    },
+    {
+      "type": "Habitat",
+      "name": "bulbitis"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastroduodenal ulcers"
+    },
+    {
+      "type": "Habitat",
+      "name": "reflux oesophagitis"
+    },
+    {
+      "type": "Habitat",
+      "name": "Zollinger Ellison's syndrome"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "antrum"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "chronic antral gastritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "chronic gastritis"
+    }
+  ]
+}
+

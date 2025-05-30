@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium linens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudoalteromonas spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudoalteromonas haloplanktis"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheeses from both Europe and North America"
+    },
+    {
+      "type": "Habitat",
+      "name": "polar seawater"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Europe"
+    },
+    {
+      "type": "Geographical location",
+      "name": "North America"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cold-adapted enzymes"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium linens",
+      "target": "cheeses from both Europe and North America"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudoalteromonas spp.",
+      "target": "cheeses from both Europe and North America"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudoalteromonas haloplanktis",
+      "target": "polar seawater"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudoalteromonas",
+      "target": "cold-adapted enzymes"
+    }
+  ]
+}
+

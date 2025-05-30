@@ -1,0 +1,89 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Clostridium perfringens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Clostridium perfringens Type A"
+    },
+    {
+      "type": "Microbe",
+      "name": "Artemisia annua"
+    },
+    {
+      "type": "Habitat",
+      "name": "broiler"
+    },
+    {
+      "type": "Habitat",
+      "name": "intestine"
+    },
+    {
+      "type": "Habitat",
+      "name": "small intestine"
+    },
+    {
+      "type": "Geographical location",
+      "name": "day 17"
+    },
+    {
+      "type": "Geographical location",
+      "name": "day 27"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antimicrobial properties"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "necrotic enteritis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "feed intake"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "body weight"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "feed conversion ratio"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "weight gain"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Artemisia annua",
+      "target": "antimicrobial properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium perfringens Type A",
+      "target": "necrotic enteritis"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium perfringens",
+      "target": "intestine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium perfringens",
+      "target": "small intestine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium perfringens Type A",
+      "target": "broiler"
+    }
+  ]
+}
+```

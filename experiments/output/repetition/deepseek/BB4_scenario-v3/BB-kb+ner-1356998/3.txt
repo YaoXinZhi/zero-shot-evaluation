@@ -1,0 +1,58 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "spotted fever group rickettsiae"
+    },
+    {
+      "type": "Habitat",
+      "name": "ticks"
+    },
+    {
+      "type": "Habitat",
+      "name": "humans"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Israel"
+    },
+    {
+      "type": "Microbe",
+      "name": "Rickettsia conorii"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Moroccan"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "rickettsial disease"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "190-kDa polypeptide gene"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "120-kDa polypeptide gene"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "spotted fever group rickettsiae",
+      "target": "ticks"
+    },
+    {
+      "type": "Isolated from",
+      "source": "spotted fever group rickettsiae",
+      "target": "humans"
+    },
+    {
+      "type": "Exhibits",
+      "source": "spotted fever group rickettsiae",
+      "target": "rickettsial disease"
+    }
+  ]
+}
+

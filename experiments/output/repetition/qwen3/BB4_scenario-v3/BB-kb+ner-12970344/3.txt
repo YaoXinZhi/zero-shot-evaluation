@@ -1,0 +1,108 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Zobellia galactanivorans Dsij"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "marine bacteria"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce polysaccharide hydrolases"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cleave the beta-1,4-linkages"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "beta-agarases"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "adopt a jelly roll fold"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "harboring the catalytic machinery"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "deep active site channel"
+    },
+    {
+      "type": "Habitat",
+      "name": "marine"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "marine bacteria",
+      "target": "produce polysaccharide hydrolases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "marine bacteria",
+      "target": "cleave the beta-1,4-linkages"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases A",
+      "target": "beta-agarases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases B",
+      "target": "beta-agarases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases A",
+      "target": "adopt a jelly roll fold"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases B",
+      "target": "adopt a jelly roll fold"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases A",
+      "target": "harboring the catalytic machinery"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases B",
+      "target": "harboring the catalytic machinery"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases A",
+      "target": "deep active site channel"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases B",
+      "target": "deep active site channel"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Zobellia galactanivorans Dsij",
+      "target": "marine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "marine bacteria"
+    }
+  ]
+}
+```

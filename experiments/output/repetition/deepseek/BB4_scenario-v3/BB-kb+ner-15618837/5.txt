@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastric biopsies"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Republic of Yemen"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "dyspepsia"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacterial resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "recurrence rate"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "eradication rate"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "gastric biopsies"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "dyspepsia"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "bacterial resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "recurrence rate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "eradication rate"
+    }
+  ]
+}
+

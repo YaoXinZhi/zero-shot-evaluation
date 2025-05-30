@@ -1,0 +1,120 @@
+{
+  "entities": [
+    {
+      "type": "Physiological trait",
+      "name": "cell toxicity"
+    },
+    {
+      "type": "Habitat",
+      "name": "high throughput screening format"
+    },
+    {
+      "type": "Habitat",
+      "name": "384-well screening plates"
+    },
+    {
+      "type": "Microbe",
+      "name": "Legionella pneumophila"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "luminescence"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "membrane-impermeant"
+    },
+    {
+      "type": "Microbe",
+      "name": "eukaryotic cell"
+    },
+    {
+      "type": "Microbe",
+      "name": "macrophage cell line"
+    },
+    {
+      "type": "Microbe",
+      "name": "SYTOX Green"
+    },
+    {
+      "type": "Microbe",
+      "name": "CellTox Green"
+    },
+    {
+      "type": "Microbe",
+      "name": "GelGreen"
+    },
+    {
+      "type": "Microbe",
+      "name": "EvaGreen"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Legionella pneumophila",
+      "target": "luminescence"
+    },
+    {
+      "type": "Isolated from",
+      "source": "SYTOX Green",
+      "target": "high throughput screening format"
+    },
+    {
+      "type": "Isolated from",
+      "source": "CellTox Green",
+      "target": "high throughput screening format"
+    },
+    {
+      "type": "Isolated from",
+      "source": "GelGreen",
+      "target": "high throughput screening format"
+    },
+    {
+      "type": "Isolated from",
+      "source": "EvaGreen",
+      "target": "high throughput screening format"
+    },
+    {
+      "type": "Isolated from",
+      "source": "SYTOX Green",
+      "target": "384-well screening plates"
+    },
+    {
+      "type": "Isolated from",
+      "source": "CellTox Green",
+      "target": "384-well screening plates"
+    },
+    {
+      "type": "Isolated from",
+      "source": "GelGreen",
+      "target": "384-well screening plates"
+    },
+    {
+      "type": "Isolated from",
+      "source": "EvaGreen",
+      "target": "384-well screening plates"
+    },
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "membrane-impermeant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CellTox Green",
+      "target": "membrane-impermeant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "GelGreen",
+      "target": "membrane-impermeant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "membrane-impermeant"
+    }
+  ]
+}
+

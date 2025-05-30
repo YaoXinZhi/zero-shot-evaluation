@@ -1,0 +1,70 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma agassizii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma testudineum"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "upper respiratory tract disease"
+    },
+    {
+      "type": "Habitat",
+      "name": "free-ranging gopher tortoises"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Georgia, USA"
+    },
+    {
+      "type": "Habitat",
+      "name": "Georgia tortoise populations"
+    },
+    {
+      "type": "Habitat",
+      "name": "Georgia populations of gopher tortoises"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma agassizii",
+      "target": "free-ranging gopher tortoises"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma testudineum",
+      "target": "free-ranging gopher tortoises"
+    },
+    {
+      "type": "Exhibits",
+      "source": "free-ranging gopher tortoises",
+      "target": "upper respiratory tract disease"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma agassizii",
+      "target": "Georgia tortoise populations"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma testudineum",
+      "target": "Georgia tortoise populations"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma agassizii",
+      "target": "Georgia populations of gopher tortoises"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma testudineum",
+      "target": "Georgia populations of gopher tortoises"
+    }
+  ]
+}
+

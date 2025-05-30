@@ -1,0 +1,33 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Methylobacterium extorquens AM1"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "metabolome quantification"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "intracellular concentrations of central metabolites"
+    },
+    {
+      "type": "Habitat",
+      "name": "growth on two different carbon sources, methanol and succinate"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Methylobacterium extorquens AM1",
+      "target": "intracellular concentrations of central metabolites"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Methylobacterium extorquens AM1",
+      "target": "growth on two different carbon sources, methanol and succinate"
+    }
+  ]
+}
+

@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pyogenes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "glycoprotein-binding activity"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "adherence"
+    },
+    {
+      "type": "Habitat",
+      "name": "host cell surface"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mga"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus pyogenes",
+      "target": "host cell surface"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "glycoprotein-binding activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "adherence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mga",
+      "target": "glycoprotein-binding activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mga",
+      "target": "adherence"
+    }
+  ]
+}
+

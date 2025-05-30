@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "F. tularensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "F. tularensis LVS"
+    },
+    {
+      "type": "Habitat",
+      "name": "human cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ability to proliferate inside the human cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "macrophage-like cell line J774"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "intracellular growth"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "protective effects"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "growth potential"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis",
+      "target": "human cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "ability to proliferate inside the human cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "F. tularensis LVS",
+      "target": "macrophage-like cell line J774"
+    },
+    {
+      "type": "Exhibits",
+      "source": "F. tularensis",
+      "target": "intracellular growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "F. tularensis",
+      "target": "protective effects"
+    },
+    {
+      "type": "Exhibits",
+      "source": "F. tularensis LVS",
+      "target": "growth potential"
+    }
+  ]
+}
+

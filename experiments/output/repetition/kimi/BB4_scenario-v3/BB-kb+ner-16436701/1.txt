@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157:H7"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "hydrophobicity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "charge"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "structure"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "binding to an idealized membrane"
+    },
+    {
+      "type": "Microbe",
+      "name": "dermaseptin S4"
+    },
+    {
+      "type": "Habitat",
+      "name": "commercial apple juice"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "dermaseptin S4",
+      "target": "frog"
+    },
+    {
+      "type": "Exhibits",
+      "source": "dermaseptin S4",
+      "target": "Antibacterial properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157:H7",
+      "target": "food pathogen"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "commercial apple juice"
+    },
+    {
+      "type": "Exhibits",
+      "source": "dermaseptin S4",
+      "target": "hydrophobicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "dermaseptin S4",
+      "target": "charge"
+    },
+    {
+      "type": "Exhibits",
+      "source": "dermaseptin S4",
+      "target": "structure"
+    },
+    {
+      "type": "Exhibits",
+      "source": "dermaseptin S4",
+      "target": "binding to an idealized membrane"
+    }
+  ]
+}
+

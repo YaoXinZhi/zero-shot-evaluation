@@ -1,0 +1,121 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "gastric mucosa-associated lymphoma"
+    },
+    {
+      "type": "Microbe",
+      "name": "gastric mucosal-associated lymphoid tissue lymphoma"
+    },
+    {
+      "type": "Microbe",
+      "name": "MALT lymphoma"
+    },
+    {
+      "type": "Microbe",
+      "name": "B cells"
+    },
+    {
+      "type": "Microbe",
+      "name": "CD20-positive cells"
+    },
+    {
+      "type": "Microbe",
+      "name": "CD3"
+    },
+    {
+      "type": "Microbe",
+      "name": "kappa"
+    },
+    {
+      "type": "Microbe",
+      "name": "lambda"
+    },
+    {
+      "type": "Microbe",
+      "name": "CD20"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastric biopsies"
+    },
+    {
+      "type": "Habitat",
+      "name": "lymphocytic infiltrates"
+    },
+    {
+      "type": "Habitat",
+      "name": "paraffin sections"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "monoclonality"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "polyclonal pattern"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "lymphoepithelial lesions"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "enlarged irregular mantle zone"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "gastric biopsies"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gastric mucosa-associated lymphoma",
+      "target": "monoclonality"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gastric mucosal-associated lymphoid tissue lymphoma",
+      "target": "monoclonality"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MALT lymphoma",
+      "target": "monoclonality"
+    },
+    {
+      "type": "Exhibits",
+      "source": "B cells",
+      "target": "monoclonality"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CD20-positive cells",
+      "target": "monoclonality"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphocytic infiltrates",
+      "target": "polyclonal pattern"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gastric biopsies",
+      "target": "lymphoepithelial lesions"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphocytic infiltrates",
+      "target": "enlarged irregular mantle zone"
+    }
+  ]
+}
+```

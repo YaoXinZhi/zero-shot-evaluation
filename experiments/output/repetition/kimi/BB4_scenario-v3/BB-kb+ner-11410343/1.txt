@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Ralstonia eutropha H850"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cytoplasmic membranes"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "2,2',5,5'-tetrachlorobiphenyl"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "biphenyl"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "1,6-diphenyl-1,3,5-hexatriene"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "fluorescence polarization"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cellular fatty acid compositions"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "total saturated to unsaturated fatty acids ratio"
+    },
+    {
+      "type": "Habitat",
+      "name": "fructose medium"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Ralstonia eutropha H850",
+      "target": "cytoplasmic membranes"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Ralstonia eutropha H850",
+      "target": "fructose medium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Ralstonia eutropha H850",
+      "target": "fluorescence polarization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Ralstonia eutropha H850",
+      "target": "cellular fatty acid compositions"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Ralstonia eutropha H850",
+      "target": "total saturated to unsaturated fatty acids ratio"
+    },
+    {
+      "type": "Exhibits",
+      "source": "2,2',5,5'-tetrachlorobiphenyl",
+      "target": "effect on cytoplasmic membranes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "biphenyl",
+      "target": "effect on cytoplasmic membranes"
+    }
+  ]
+}
+

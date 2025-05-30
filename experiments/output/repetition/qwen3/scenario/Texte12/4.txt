@@ -1,0 +1,30 @@
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "host plant"},
+      {"type": "Pest", "name": "BdorOBP13"},
+      {"type": "Pest", "name": "Odorant-binding proteins"},
+      {"type": "Pest", "name": "OBPs"},
+      {"type": "Plant", "name": "methyl eugenol"},
+      {"type": "Plant", "name": "γ-octalactone"},
+      {"type": "Plant", "name": "benzothiazole"},
+      {"type": "Plant", "name": "(+),dipentene"},
+      {"type": "Plant", "name": "ethyl tiglate"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "host plant"},
+      {"source": "Odorant-binding proteins", "type": "Have been found on", "target": "Bactrocera dorsalis"},
+      {"source": "OBPs", "type": "Causes", "target": "olfactory sensitivity"},
+      {"source": "BdorOBP13", "type": "Have been found on", "target": "Bactrocera dorsalis"},
+      {"source": "methyl eugenol", "type": "Have been found on", "target": "Bactrocera dorsalis"},
+      {"source": "γ-octalactone", "type": "Have been found on", "target": "Bactrocera dorsalis"},
+      {"source": "benzothiazole", "type": "Have been found on", "target": "Bactrocera dorsalis"},
+      {"source": "(+),dipentene", "type": "Have been found on", "target": "Bactrocera dorsalis"},
+      {"source": "ethyl tiglate", "type": "Have been found on", "target": "Bactrocera dorsalis"}
+    ]
+  }
+]
+

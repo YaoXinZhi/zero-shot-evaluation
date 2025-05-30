@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella Paratyphi A"
+    },
+    {
+      "type": "Habitat",
+      "name": "israeli travelers to Nepal"
+    },
+    {
+      "type": "Habitat",
+      "name": "Israeli travelers returning from Nepal"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antimicrobial susceptibility"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "nalidixic acid resistant"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "identical pattern on PFGE"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Asia"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Nepal"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Israeli"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Salmonella Paratyphi A",
+      "target": "israeli travelers to Nepal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Salmonella Paratyphi A",
+      "target": "Israeli travelers returning from Nepal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella Paratyphi A",
+      "target": "antimicrobial susceptibility"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella Paratyphi A",
+      "target": "nalidixic acid resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella Paratyphi A",
+      "target": "identical pattern on PFGE"
+    }
+  ]
+}
+

@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus infantarius"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ability to ferment lactose"
+    },
+    {
+      "type": "Microbe",
+      "name": "LacZS system"
+    },
+    {
+      "type": "Microbe",
+      "name": "Eastern African strain CJ18"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Western African"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Eastern African"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus infantarius",
+      "target": "Western African"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus infantarius",
+      "target": "ability to ferment lactose"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus infantarius",
+      "target": "LacZS system"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Eastern African strain CJ18",
+      "target": "Eastern African"
+    }
+  ]
+}
+

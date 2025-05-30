@@ -1,0 +1,100 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "basal HCl secretion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stimulated HCl secretion"
+    },
+    {
+      "type": "Habitat",
+      "name": "antrum"
+    },
+    {
+      "type": "Habitat",
+      "name": "duodenum"
+    },
+    {
+      "type": "Habitat",
+      "name": "bulbitis"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Astra Co."
+    },
+    {
+      "type": "Physiological trait",
+      "name": "chronic antral gastritis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "chronic gastritis"
+    },
+    {
+      "type": "Microbe",
+      "name": "gastroduodenal ulcers"
+    },
+    {
+      "type": "Microbe",
+      "name": "reflux oesophagitis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Zollinger Ellison's syndrome"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Losec (omeprazole)",
+      "target": "blocker of the proton pump of the parietal cell"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Losec (omeprazole)",
+      "target": "inhibits basal HCl secretion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Losec (omeprazole)",
+      "target": "inhibits stimulated HCl secretion"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "antrum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "duodenum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "bulbitis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "chronic antral gastritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "patients",
+      "target": "chronic gastritis"
+    }
+  ]
+}
+```

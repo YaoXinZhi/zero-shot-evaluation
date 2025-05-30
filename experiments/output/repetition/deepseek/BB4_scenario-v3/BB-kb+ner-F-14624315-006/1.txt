@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "L. lactis B1157"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. lactis B697"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "3-methylbutanal production"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "decarboxylase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "decarboxylase-positive"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "decarboxylase-negative"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "L. lactis B1157",
+      "target": "decarboxylase-positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis B697",
+      "target": "decarboxylase-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis B1157",
+      "target": "3-methylbutanal production"
+    }
+  ]
+}
+

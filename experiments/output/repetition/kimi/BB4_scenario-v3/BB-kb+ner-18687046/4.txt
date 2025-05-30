@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Habitat",
+      "name": "central nervous system"
+    },
+    {
+      "type": "Microbe",
+      "name": "bacteria"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "multi-drug resistance"
+    },
+    {
+      "type": "Habitat",
+      "name": "trauma intensive care unit"
+    },
+    {
+      "type": "Habitat",
+      "name": "ICP monitor"
+    },
+    {
+      "type": "Habitat",
+      "name": "ventilator"
+    },
+    {
+      "type": "Habitat",
+      "name": "blood stream"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "central nervous system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteria",
+      "target": "multi-drug resistance"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "ICP monitor"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "ventilator"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "blood stream"
+    }
+  ]
+}
+

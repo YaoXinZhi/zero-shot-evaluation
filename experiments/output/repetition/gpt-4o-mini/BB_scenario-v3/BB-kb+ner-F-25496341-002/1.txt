@@ -1,0 +1,38 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter"
+    },
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter arilaitensis Re117"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "soil"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Arthrobacter",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Arthrobacter",
+      "target": "soil"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Arthrobacter arilaitensis Re117",
+      "target": "catabolism of D-galactonate"
+    }
+  ]
+}
+

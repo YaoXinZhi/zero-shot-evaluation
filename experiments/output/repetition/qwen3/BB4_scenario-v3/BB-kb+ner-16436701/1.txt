@@ -1,0 +1,114 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157:H7"
+    },
+    {
+      "type": "Microbe",
+      "name": "frog"
+    },
+    {
+      "type": "Microbe",
+      "name": "dermaseptin S4"
+    },
+    {
+      "type": "Microbe",
+      "name": "K4K20S4"
+    },
+    {
+      "type": "Microbe",
+      "name": "P28"
+    },
+    {
+      "type": "Microbe",
+      "name": "P14"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibacterial"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bactericidal"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "rapid bactericidal kinetics"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "potent bactericidal properties"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hydrophobicity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "binding to an idealized membrane"
+    },
+    {
+      "type": "Habitat",
+      "name": "commercial apple juice"
+    },
+    {
+      "type": "Geographical location",
+      "name": "food"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "dermaseptin S4",
+      "target": "antibacterial"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4",
+      "target": "bactericidal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P28",
+      "target": "rapid bactericidal kinetics"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P28",
+      "target": "potent bactericidal properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P14",
+      "target": "potent bactericidal properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4",
+      "target": "hydrophobicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4",
+      "target": "binding to an idealized membrane"
+    },
+    {
+      "type": "Isolated from",
+      "source": "dermaseptin S4",
+      "target": "frog"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "food"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "commercial apple juice"
+    }
+  ]
+}
+```

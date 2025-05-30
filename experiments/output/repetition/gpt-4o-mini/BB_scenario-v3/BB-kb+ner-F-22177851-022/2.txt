@@ -1,0 +1,38 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "volatile compound content"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "higher production of total volatile compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "volatile sulfur compounds (VSC)"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "volatile compound content"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "higher production of total volatile compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "volatile sulfur compounds (VSC)"
+    }
+  ]
+}
+

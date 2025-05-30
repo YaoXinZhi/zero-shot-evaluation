@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudoalteromonas haloplanktis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter immobilis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram-negative"
+    },
+    {
+      "type": "Habitat",
+      "name": "traditional cheese"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Pseudoalteromonas haloplanktis",
+      "target": "traditional cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter immobilis",
+      "target": "traditional cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudoalteromonas haloplanktis",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter immobilis",
+      "target": "Gram-negative"
+    }
+  ]
+}
+

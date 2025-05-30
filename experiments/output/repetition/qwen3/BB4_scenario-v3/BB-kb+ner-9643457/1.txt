@@ -1,0 +1,128 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Habitat",
+      "name": "cattle"
+    },
+    {
+      "type": "Habitat",
+      "name": "neutrophils"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "neutrophil alkaline phosphatase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "NAP activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Gram-negative bacterial infections"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "severity of infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "intensity of NAP activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "percentage of neutrophils containing alkaline phosphatase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "variation in susceptibility to E. coli mastitis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "post-infection increase of NAP activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "increased enzyme intensity per neutrophil"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "increase of percentage neutrophils with enzyme activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "correlation between NAP intensity and severity of inflammation"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "cattle"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "Gram-negative bacterial infections"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "neutrophil alkaline phosphatase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophil alkaline phosphatase",
+      "target": "NAP activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "NAP activity",
+      "target": "percentage of neutrophils containing alkaline phosphatase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "NAP activity",
+      "target": "intensity of NAP activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacterial infections",
+      "target": "variation in susceptibility to E. coli mastitis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "post-infection increase of NAP activity",
+      "target": "increased enzyme intensity per neutrophil"
+    },
+    {
+      "type": "Exhibits",
+      "source": "post-infection increase of NAP activity",
+      "target": "increase of percentage neutrophils with enzyme activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "NAP activity",
+      "target": "correlation between NAP intensity and severity of inflammation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "intensity of NAP activity",
+      "target": "severity of infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "severity of infection",
+      "target": "stronger NAP intensity increase"
+    }
+  ]
+}
+```

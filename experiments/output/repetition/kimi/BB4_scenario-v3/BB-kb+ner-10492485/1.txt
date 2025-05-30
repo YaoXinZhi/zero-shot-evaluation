@@ -1,0 +1,157 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "microorganisms"
+    },
+    {
+      "type": "Microbe",
+      "name": "bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "molds"
+    },
+    {
+      "type": "Microbe",
+      "name": "yeasts"
+    },
+    {
+      "type": "Microbe",
+      "name": "parasites"
+    },
+    {
+      "type": "Microbe",
+      "name": "viruses"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "physiological state of the culture"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "presence of additives"
+    },
+    {
+      "type": "Habitat",
+      "name": "food products"
+    },
+    {
+      "type": "Habitat",
+      "name": "product surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "water"
+    },
+    {
+      "type": "Habitat",
+      "name": "meat"
+    },
+    {
+      "type": "Habitat",
+      "name": "poultry"
+    },
+    {
+      "type": "Habitat",
+      "name": "eggs"
+    },
+    {
+      "type": "Habitat",
+      "name": "fish"
+    },
+    {
+      "type": "Habitat",
+      "name": "fruits"
+    },
+    {
+      "type": "Habitat",
+      "name": "vegetables"
+    },
+    {
+      "type": "Habitat",
+      "name": "dry foods"
+    },
+    {
+      "type": "Habitat",
+      "name": "some agricultural products"
+    },
+    {
+      "type": "Habitat",
+      "name": "food surface"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "microorganisms",
+      "target": "food products"
+    },
+    {
+      "type": "Isolated from",
+      "source": "microorganisms",
+      "target": "product surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "microorganisms",
+      "target": "water"
+    },
+    {
+      "type": "Isolated from",
+      "source": "microorganisms",
+      "target": "meat"
+    },
+    {
+      "type": "Isolated from",
+      "source": "microorganisms",
+      "target": "poultry"
+    },
+    {
+      "type": "Isolated from",
+      "source": "microorganisms",
+      "target": "eggs"
+    },
+    {
+      "type": "Isolated from",
+      "source": "microorganisms",
+      "target": "fish"
+    },
+    {
+      "type": "Isolated from",
+      "source": "microorganisms",
+      "target": "fruits"
+    },
+    {
+      "type": "Isolated from",
+      "source": "microorganisms",
+      "target": "vegetables"
+    },
+    {
+      "type": "Isolated from",
+      "source": "microorganisms",
+      "target": "dry foods"
+    },
+    {
+      "type": "Isolated from",
+      "source": "microorganisms",
+      "target": "some agricultural products"
+    },
+    {
+      "type": "Isolated from",
+      "source": "microorganisms",
+      "target": "food surface"
+    },
+    {
+      "type": "Exhibits",
+      "source": "microorganisms",
+      "target": "physiological state of the culture"
+    },
+    {
+      "type": "Exhibits",
+      "source": "microorganisms",
+      "target": "presence of additives"
+    }
+  ]
+}
+

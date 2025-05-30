@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Hafnia alvei"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter sp."
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolytic enzymes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "volatile aroma compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "flavor compounds"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "organoleptic characteristics"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "final texture"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter sp.",
+      "target": "cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas spp.",
+      "target": "volatile compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia alvei",
+      "target": "flavor compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia alvei",
+      "target": "proteolytic enzymes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter sp.",
+      "target": "volatile aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia alvei",
+      "target": "final texture"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas spp.",
+      "target": "organoleptic characteristics"
+    }
+  ]
+}
+

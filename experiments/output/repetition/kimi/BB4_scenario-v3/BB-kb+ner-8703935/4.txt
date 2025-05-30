@@ -1,0 +1,41 @@
+{
+  "entities": [
+    {
+      "type": "Morphological trait",
+      "name": "oligomeric"
+    },
+    {
+      "type": "Microbe",
+      "name": "riboflavin synthase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "binding"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "trimeric"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "monomeric"
+    },
+    {
+      "type": "Microbe",
+      "name": "lumazine protein"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "riboflavin synthase",
+      "target": "trimeric"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lumazine protein",
+      "target": "monomeric"
+    }
+  ]
+}
+

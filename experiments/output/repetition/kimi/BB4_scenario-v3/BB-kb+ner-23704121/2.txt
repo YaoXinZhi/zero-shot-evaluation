@@ -1,0 +1,38 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Clostridium difficile"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "infection"
+    },
+    {
+      "type": "Habitat",
+      "name": "CDI"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "NAP1/BI/027 strain"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Clostridium difficile",
+      "target": "CDI"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium difficile",
+      "target": "infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium difficile",
+      "target": "NAP1/BI/027 strain"
+    }
+  ]
+}
+

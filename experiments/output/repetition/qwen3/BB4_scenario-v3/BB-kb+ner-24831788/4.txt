@@ -1,0 +1,126 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Legionella pneumophila"
+    },
+    {
+      "type": "Microbe",
+      "name": "macrophage cell line"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cytotoxic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "permeant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "impermeant"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fluorescent"
+    },
+    {
+      "type": "Habitat",
+      "name": "384-well screening plates"
+    },
+    {
+      "type": "Habitat",
+      "name": "screening well"
+    },
+    {
+      "type": "Microbe",
+      "name": "SYTOX Green"
+    },
+    {
+      "type": "Microbe",
+      "name": "CellTox Green"
+    },
+    {
+      "type": "Microbe",
+      "name": "GelGreen"
+    },
+    {
+      "type": "Microbe",
+      "name": "EvaGreen"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "fluorescent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CellTox Green",
+      "target": "fluorescent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "GelGreen",
+      "target": "fluorescent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "fluorescent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "cytotoxic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CellTox Green",
+      "target": "cytotoxic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "GelGreen",
+      "target": "cytotoxic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "cytotoxic"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Legionella pneumophila",
+      "target": "screening well"
+    },
+    {
+      "type": "Isolated from",
+      "source": "macrophage cell line",
+      "target": "screening well"
+    },
+    {
+      "type": "Isolated from",
+      "source": "SYTOX Green",
+      "target": "384-well screening plates"
+    },
+    {
+      "type": "Isolated from",
+      "source": "CellTox Green",
+      "target": "384-well screening plates"
+    },
+    {
+      "type": "Isolated from",
+      "source": "GelGreen",
+      "target": "384-well screening plates"
+    },
+    {
+      "type": "Isolated from",
+      "source": "EvaGreen",
+      "target": "384-well screening plates"
+    }
+  ]
+}
+```

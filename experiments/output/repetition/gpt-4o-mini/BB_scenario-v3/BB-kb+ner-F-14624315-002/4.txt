@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Corynebacterium ammoniagenes B1506"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactococcus lactis B1157"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce considerable amounts of 3-methylbutanal"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce considerable amounts of 3-methylbutanol"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Corynebacterium ammoniagenes B1506",
+      "target": "produce considerable amounts of 3-methylbutanal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Corynebacterium ammoniagenes B1506",
+      "target": "produce considerable amounts of 3-methylbutanol"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactococcus lactis B1157",
+      "target": "produce considerable amounts of 3-methylbutanal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactococcus lactis B1157",
+      "target": "produce considerable amounts of 3-methylbutanol"
+    }
+  ]
+}
+

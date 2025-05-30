@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Dairy propionibacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. freudenreichii subsp. shermanii"
+    },
+    {
+      "type": "Microbe",
+      "name": "TL 34"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce EPS"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ropy-producing"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "homopolysaccharide with the structure [→3)[β-d-Glcp-(1→2)]-β-d-Glcp-(1→]"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Dairy propionibacteria",
+      "target": "produce EPS"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. freudenreichii subsp. shermanii",
+      "target": "homopolysaccharide with the structure [→3)[β-d-Glcp-(1→2)]-β-d-Glcp-(1→]"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. freudenreichii subsp. shermanii",
+      "target": "ropy-producing"
+    }
+  ]
+}
+

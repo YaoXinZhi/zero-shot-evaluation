@@ -1,0 +1,55 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Vibrio cholerae O:1"
+    },
+    {
+      "type": "Habitat",
+      "name": "marine bivalves"
+    },
+    {
+      "type": "Habitat",
+      "name": "water"
+    },
+    {
+      "type": "Habitat",
+      "name": "bivalves"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Sardinia"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Cagliari"
+    },
+    {
+      "type": "Habitat",
+      "name": "lagoon"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Vibrio cholerae O:1",
+      "target": "marine bivalves"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio cholerae O:1",
+      "target": "water"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio cholerae O:1",
+      "target": "bivalves"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio cholerae O:1",
+      "target": "lagoon"
+    }
+  ]
+}
+

@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pyogenes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "glycoprotein-binding activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "adhesion mechanisms"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "virulence factors"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "proteinaceous"
+    },
+    {
+      "type": "Habitat",
+      "name": "host cell surface"
+    },
+    {
+      "type": "Microbe",
+      "name": "streptococcal strains"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "binding to thyroglobulin, fetuin, asialofetuin and mucin"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "glycoprotein-binding activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "adhesion mechanisms"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "virulence factors"
+    },
+    {
+      "type": "Exhibits",
+      "source": "glycoprotein-binding activity",
+      "target": "proteinaceous"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus pyogenes",
+      "target": "host cell surface"
+    },
+    {
+      "type": "Exhibits",
+      "source": "streptococcal strains",
+      "target": "binding to thyroglobulin, fetuin, asialofetuin and mucin"
+    }
+  ]
+}
+

@@ -1,0 +1,83 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "type III effector proteins"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Xanthomonas outer proteins (Xops)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "AvrRxv/YopJ family of effector proteins"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "transglycosylases"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas syringae pv. maculicola"
+    },
+    {
+      "type": "Gene",
+      "name": "xopC"
+    },
+    {
+      "type": "Gene",
+      "name": "xopJ"
+    },
+    {
+      "type": "Gene",
+      "name": "hpaJ"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "type III effector proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "xopC",
+      "target": "Xanthomonas outer proteins (Xops)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "xopJ",
+      "target": "Xanthomonas outer proteins (Xops)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "xopJ",
+      "target": "AvrRxv/YopJ family of effector proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hpaJ",
+      "target": "transglycosylases"
+    },
+    {
+      "type": "Isolated from",
+      "source": "xopC",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Isolated from",
+      "source": "xopJ",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Isolated from",
+      "source": "hpaJ",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    }
+  ]
+}
+

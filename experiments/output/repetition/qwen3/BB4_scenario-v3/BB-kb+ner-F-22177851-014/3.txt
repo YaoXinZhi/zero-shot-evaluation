@@ -1,0 +1,44 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "P. celer"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese community"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "flavor properties"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "P. celer",
+      "target": "cheese community"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "cheese community"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "flavor properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "flavor properties"
+    }
+  ]
+}
+```

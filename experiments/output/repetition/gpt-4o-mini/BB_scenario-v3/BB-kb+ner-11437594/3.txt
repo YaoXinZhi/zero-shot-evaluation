@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chondrus crispus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pichia pastoris"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Saccharomyces cerevisiae"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hexose oxidase"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "full-length HOX polypeptide"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "active HOX"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Chondrus crispus",
+      "target": "hexose oxidase"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pichia pastoris",
+      "target": "active HOX"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chondrus crispus",
+      "target": "full-length HOX polypeptide"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pichia pastoris",
+      "target": "active HOX"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "full-length HOX polypeptide"
+    }
+  ]
+}
+

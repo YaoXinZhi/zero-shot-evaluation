@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibacterial activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibacterial effectiveness"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "medium size aliphatic chain"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "electron withdrawing substituents at the aryl ring"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "one or two-carbon spacer between the aryl ring and the carboxylic function"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "antibacterial activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "antibacterial activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "synthetic aliphatic and aromatic monoacylglycerols",
+      "target": "antibacterial effectiveness"
+    },
+    {
+      "type": "Exhibits",
+      "source": "synthetic aliphatic and aromatic monoacylglycerols",
+      "target": "medium size aliphatic chain"
+    },
+    {
+      "type": "Exhibits",
+      "source": "synthetic aliphatic and aromatic monoacylglycerols",
+      "target": "electron withdrawing substituents at the aryl ring"
+    },
+    {
+      "type": "Exhibits",
+      "source": "synthetic aliphatic and aromatic monoacylglycerols",
+      "target": "one or two-carbon spacer between the aryl ring and the carboxylic function"
+    }
+  ]
+}
+

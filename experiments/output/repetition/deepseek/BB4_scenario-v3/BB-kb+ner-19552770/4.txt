@@ -1,0 +1,63 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "thermotolerant Campylobacter spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter jejuni"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter lari"
+    },
+    {
+      "type": "Habitat",
+      "name": "partridges (Perdix perdix)"
+    },
+    {
+      "type": "Habitat",
+      "name": "cloacal swabs of partridges"
+    },
+    {
+      "type": "Geographical location",
+      "name": "southern Italy"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Southern Italy"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "thermotolerant"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "thermotolerant Campylobacter spp.",
+      "target": "partridges (Perdix perdix)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter coli",
+      "target": "cloacal swabs of partridges"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter jejuni",
+      "target": "cloacal swabs of partridges"
+    },
+    {
+      "type": "Exhibits",
+      "source": "thermotolerant Campylobacter spp.",
+      "target": "thermotolerant"
+    }
+  ]
+}
+

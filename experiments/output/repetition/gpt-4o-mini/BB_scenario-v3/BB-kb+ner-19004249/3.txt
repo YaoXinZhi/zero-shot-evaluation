@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "medium size aliphatic chain"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "aromatic MAGs with electron withdrawing substituents at the aryl ring"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "antibacterial activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "antibacterial activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "medium size aliphatic chain"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "aromatic MAGs with electron withdrawing substituents at the aryl ring"
+    }
+  ]
+}
+

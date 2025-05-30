@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Leuconostoc genus"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheeses"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "high throughput sequencing"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "quantitation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "identification"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "sequence homology"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Leuconostoc genus",
+      "target": "cheeses"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Leuconostoc genus",
+      "target": "high throughput sequencing"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Leuconostoc genus",
+      "target": "quantitation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Leuconostoc genus",
+      "target": "identification"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Leuconostoc genus",
+      "target": "sequence homology"
+    }
+  ]
+}
+

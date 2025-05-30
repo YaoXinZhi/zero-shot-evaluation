@@ -1,0 +1,86 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "M-13"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "replication"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibited"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "blocked"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stimulates"
+    },
+    {
+      "type": "Habitat",
+      "name": "cell-free extracts"
+    },
+    {
+      "type": "Habitat",
+      "name": "cellophane membrane disks"
+    },
+    {
+      "type": "Microbe",
+      "name": "M-13 am5"
+    },
+    {
+      "type": "Microbe",
+      "name": "M-13 gene V protein"
+    },
+    {
+      "type": "Microbe",
+      "name": "Eco HD-protein"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "M-13",
+      "target": "cell-free extracts"
+    },
+    {
+      "type": "Isolated from",
+      "source": "M-13 am5",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Exhibits",
+      "source": "M-13",
+      "target": "replication"
+    },
+    {
+      "type": "Exhibits",
+      "source": "M-13",
+      "target": "inhibited"
+    },
+    {
+      "type": "Exhibits",
+      "source": "M-13 gene V protein",
+      "target": "blocked"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Eco HD-protein",
+      "target": "stimulates"
+    }
+  ]
+}
+```

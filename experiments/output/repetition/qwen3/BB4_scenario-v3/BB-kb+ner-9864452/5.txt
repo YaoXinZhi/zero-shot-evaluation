@@ -1,0 +1,66 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Bacillus intermedius"
+    },
+    {
+      "type": "Microbe",
+      "name": "Bacillus intermedius S3-19"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "alkaline phosphatase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phosphomonoesterase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phosphodiesterase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "streptomycin-resistant"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "monomer"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "culture liquid"
+    },
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "Bacillus intermedius S3-19"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Bacillus intermedius S3-19",
+      "target": "streptomycin-resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "phosphomonoesterase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "phosphodiesterase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "monomer"
+    }
+  ]
+}
+```

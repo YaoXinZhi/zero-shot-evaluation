@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter celer"
+    },
+    {
+      "type": "Microbe",
+      "name": "Hafnia alvei"
+    },
+    {
+      "type": "Habitat",
+      "name": "experimental smear soft cheese"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ecological impact"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "aromatic impact"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter celer",
+      "target": "experimental smear soft cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Hafnia alvei",
+      "target": "experimental smear soft cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter celer",
+      "target": "ecological impact"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter celer",
+      "target": "aromatic impact"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia alvei",
+      "target": "ecological impact"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia alvei",
+      "target": "aromatic impact"
+    }
+  ]
+}
+

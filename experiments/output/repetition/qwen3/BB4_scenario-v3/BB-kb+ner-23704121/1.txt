@@ -1,0 +1,43 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Clostridium difficile"
+    },
+    {
+      "type": "Microbe",
+      "name": "NAP1/BI/027"
+    },
+    {
+      "type": "Microbe",
+      "name": "Clostridium difficile infection (CDI)"
+    },
+    {
+      "type": "Microbe",
+      "name": "Clostridium difficile"
+    },
+    {
+      "type": "Microbe",
+      "name": "NAP1/BI/027"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Clostridium difficile infection (CDI)",
+      "target": "Human host"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium difficile",
+      "target": "Human host"
+    },
+    {
+      "type": "Isolated from",
+      "source": "NAP1/BI/027",
+      "target": "Human host"
+    }
+  ]
+}
+```

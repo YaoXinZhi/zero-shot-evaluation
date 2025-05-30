@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "C. flavescens"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Microbe",
+      "name": "A. arilaitensis"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese ecosystem"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "dominance"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "C. flavescens",
+      "target": "cheese ecosystem"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "cheese ecosystem"
+    },
+    {
+      "type": "Isolated from",
+      "source": "A. arilaitensis",
+      "target": "cheese ecosystem"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. flavescens",
+      "target": "dominance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "A. arilaitensis",
+      "target": "dominance"
+    }
+  ]
+}
+

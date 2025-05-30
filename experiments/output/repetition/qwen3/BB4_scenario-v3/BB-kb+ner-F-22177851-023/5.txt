@@ -1,0 +1,61 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "high capacity to produce VSC"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "high capacity to convert methionine or cysteine into aroma compounds with a transamination or deamination activity"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "garlic or very ripe cheese notes"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese model"
+    },
+    {
+      "type": "Habitat",
+      "name": "beef models"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "high capacity to produce VSC"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "high capacity to convert methionine or cysteine into aroma compounds with a transamination or deamination activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methanethiol",
+      "target": "garlic or very ripe cheese notes"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "cheese model"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "beef models"
+    }
+  ]
+}
+```

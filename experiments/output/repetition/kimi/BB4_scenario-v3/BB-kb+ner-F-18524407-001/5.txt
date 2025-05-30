@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "propionibacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. freudenreichii subsp. shermanii"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of EPS"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ropy-producing"
+    },
+    {
+      "type": "Habitat",
+      "name": "Dairy"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "propionibacteria",
+      "target": "Dairy"
+    },
+    {
+      "type": "Isolated from",
+      "source": "P. freudenreichii subsp. shermanii",
+      "target": "Dairy"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. freudenreichii subsp. shermanii",
+      "target": "production of EPS"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. freudenreichii subsp. shermanii",
+      "target": "ropy-producing"
+    }
+  ]
+}
+

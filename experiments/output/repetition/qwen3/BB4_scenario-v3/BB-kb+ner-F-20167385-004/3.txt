@@ -1,0 +1,106 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "micrococci-corynebacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. faecium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacilli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surfaces"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Formaggio di Fossa"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Casera"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Taleggio"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Gorgonzola"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Scimudin"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus",
+      "target": "cheese surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "micrococci-corynebacteria",
+      "target": "cheese surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "E. faecium",
+      "target": "Formaggio di Fossa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterococcus",
+      "target": "cheese surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacilli",
+      "target": "cheese surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas",
+      "target": "Gorgonzola"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas",
+      "target": "Scimudin"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas",
+      "target": "Taleggio"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas",
+      "target": "Casera"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas",
+      "target": "Formaggio di Fossa"
+    }
+  ]
+}
+```

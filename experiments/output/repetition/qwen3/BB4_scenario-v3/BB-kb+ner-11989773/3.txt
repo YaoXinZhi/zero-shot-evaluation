@@ -1,0 +1,103 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Listeria sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Listeria monocytogenes"
+    },
+    {
+      "type": "Microbe",
+      "name": "Listeria"
+    },
+    {
+      "type": "Habitat",
+      "name": "chicken nugget processing plant"
+    },
+    {
+      "type": "Habitat",
+      "name": "product"
+    },
+    {
+      "type": "Habitat",
+      "name": "environment"
+    },
+    {
+      "type": "Habitat",
+      "name": "food handlers"
+    },
+    {
+      "type": "Habitat",
+      "name": "PALCAM"
+    },
+    {
+      "type": "Habitat",
+      "name": "LPM"
+    },
+    {
+      "type": "Habitat",
+      "name": "HCLA"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Listeria sp.",
+      "target": "chicken nugget processing plant"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria monocytogenes",
+      "target": "chicken nugget processing plant"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria",
+      "target": "product"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria",
+      "target": "environment"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria",
+      "target": "food handlers"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria sp.",
+      "target": "PALCAM"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria sp.",
+      "target": "LPM"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria sp.",
+      "target": "HCLA"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria monocytogenes",
+      "target": "PALCAM"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria monocytogenes",
+      "target": "LPM"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria monocytogenes",
+      "target": "HCLA"
+    }
+  ]
+}
+```

@@ -1,0 +1,144 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Yersinia"
+    },
+    {
+      "type": "Microbe",
+      "name": "Yersinia spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. pestis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. pseudotuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. enterocolitica"
+    },
+    {
+      "type": "Microbe",
+      "name": "Yersinia YopJ"
+    },
+    {
+      "type": "Microbe",
+      "name": "Yersinia YopP"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. pestis strain KIM6"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. pestis KIM5"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "apoptosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ROS-mediated cell death"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibition of PMN ROS production"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "PMN ROS production"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "PMN cell death"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "surface exposure of phosphatidylserine (PS)"
+    },
+    {
+      "type": "Habitat",
+      "name": "human innate immune system"
+    },
+    {
+      "type": "Habitat",
+      "name": "human monocyte-derived macrophages (HMDM)"
+    },
+    {
+      "type": "Habitat",
+      "name": "human neutrophils"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Yersinia",
+      "target": "apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia",
+      "target": "ROS-mediated cell death"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia",
+      "target": "inhibition of PMN ROS production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia YopJ",
+      "target": "apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia YopP",
+      "target": "apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. pestis strain KIM6",
+      "target": "PMN ROS production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. pestis strain KIM6",
+      "target": "PMN cell death"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. pestis KIM5",
+      "target": "inhibition of PMN ROS production"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia",
+      "target": "human innate immune system"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia YopJ",
+      "target": "human monocyte-derived macrophages (HMDM)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia YopP",
+      "target": "human monocyte-derived macrophages (HMDM)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Y. pestis strain KIM6",
+      "target": "human neutrophils"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Y. pestis KIM5",
+      "target": "human neutrophils"
+    }
+  ]
+}
+

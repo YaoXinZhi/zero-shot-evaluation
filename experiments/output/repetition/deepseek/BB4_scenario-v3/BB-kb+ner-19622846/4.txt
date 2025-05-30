@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "MRSA"
+    },
+    {
+      "type": "Habitat",
+      "name": "jail environmental surfaces"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "methicillin/oxacillin resistance"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "pulsed-field gel electrophoresis patterns"
+    },
+    {
+      "type": "Habitat",
+      "name": "inmates' nasal specimens"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "jail environmental surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "jail environmental surfaces"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "methicillin/oxacillin resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "methicillin/oxacillin resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "pulsed-field gel electrophoresis patterns"
+    }
+  ]
+}
+

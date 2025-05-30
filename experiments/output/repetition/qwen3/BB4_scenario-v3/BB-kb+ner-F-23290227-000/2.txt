@@ -1,0 +1,82 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Hafnia strains"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus faecalis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus plantarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei strain B16"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli O26:H11"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "counts reduced (~− 0.5 log from day 1)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "growth promoted (+ 0.2 to 0.5 log from day 8)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produced small amounts of putrescine (~ 1.3 mmol/kg)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produced small amounts of cadaverine (~ 0.9 mmol/kg)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "did not affect levels of volatile aroma compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibited by H. alvei B16 inoculated at 6 log CFU/ml"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Hafnia strains",
+      "target": "counts reduced (~− 0.5 log from day 1)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia strains",
+      "target": "growth promoted (+ 0.2 to 0.5 log from day 8)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia strains",
+      "target": "produced small amounts of putrescine (~ 1.3 mmol/kg)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia strains",
+      "target": "produced small amounts of cadaverine (~ 0.9 mmol/kg)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia strains",
+      "target": "did not affect levels of volatile aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "E. coli O26:H11",
+      "target": "inhibited by H. alvei B16 inoculated at 6 log CFU/ml"
+    }
+  ]
+}
+```

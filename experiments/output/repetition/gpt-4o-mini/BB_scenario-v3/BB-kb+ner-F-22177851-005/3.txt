@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Proteus vulgaris"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter celer"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "branched-chain alcohols"
+    },
+    {
+      "type": "Habitat",
+      "name": "model cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "experimental smear soft cheese"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Proteus vulgaris",
+      "target": "model cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter celer",
+      "target": "experimental smear soft cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "experimental smear soft cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Proteus vulgaris",
+      "target": "branched-chain alcohols"
+    }
+  ]
+}
+

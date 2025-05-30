@@ -1,0 +1,93 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "FlgF"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolysis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "flagellar rod"
+    },
+    {
+      "type": "Habitat",
+      "name": "cell"
+    },
+    {
+      "type": "Habitat",
+      "name": "supernatant"
+    },
+    {
+      "type": "Habitat",
+      "name": "cation-exchange column"
+    },
+    {
+      "type": "Habitat",
+      "name": "anion-exchange column"
+    },
+    {
+      "type": "Habitat",
+      "name": "cell debris"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "flagellar rod"
+    },
+    {
+      "type": "Isolated from",
+      "source": "FlgF",
+      "target": "Salmonella typhimurium"
+    },
+    {
+      "type": "Isolated from",
+      "source": "FlgF",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "proteolysis"
+    },
+    {
+      "type": "Isolated from",
+      "source": "proteases",
+      "target": "cell"
+    },
+    {
+      "type": "Isolated from",
+      "source": "FlgF",
+      "target": "supernatant"
+    },
+    {
+      "type": "Isolated from",
+      "source": "proteases",
+      "target": "cation-exchange column"
+    },
+    {
+      "type": "Isolated from",
+      "source": "FlgF",
+      "target": "anion-exchange column"
+    },
+    {
+      "type": "Isolated from",
+      "source": "proteases",
+      "target": "cell debris"
+    }
+  ]
+}
+```

@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "P. celer"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "higher production of volatile aroma compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of volatile sulfur compounds"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "influenced total volatile aroma compound production"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "P. celer",
+      "target": "cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "higher production of volatile aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "influenced total volatile aroma compound production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "production of volatile sulfur compounds"
+    }
+  ]
+}
+

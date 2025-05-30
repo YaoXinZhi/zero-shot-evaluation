@@ -1,0 +1,70 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "HCl secretion"
+    },
+    {
+      "type": "Habitat",
+      "name": "antrum"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "chronic gastritis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ulcer healing"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bulbitis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "antrum"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "chronic gastritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "omeprazole",
+      "target": "inhibits basal and stimulated HCl secretion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "omeprazole",
+      "target": "ulcer healing"
+    },
+    {
+      "type": "Exhibits",
+      "source": "omeprazole",
+      "target": "reduced activity of chronic gastritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "omeprazole",
+      "target": "elimination of Helicobacter pylori"
+    }
+  ]
+}
+```

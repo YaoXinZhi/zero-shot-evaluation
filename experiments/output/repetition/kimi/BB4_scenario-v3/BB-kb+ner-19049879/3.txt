@@ -1,0 +1,85 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Vibrio parahaemolyticus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Myeloid differentiation factor 88"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "nuclear factor-kappaB"
+    },
+    {
+      "type": "Habitat",
+      "name": "blood"
+    },
+    {
+      "type": "Habitat",
+      "name": "spleen"
+    },
+    {
+      "type": "Habitat",
+      "name": "liver"
+    },
+    {
+      "type": "Habitat",
+      "name": "muscle"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "death domain"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Toll/IL-1R domain"
+    },
+    {
+      "type": "Microbe",
+      "name": "Gram-negative bacterium"
+    },
+    {
+      "type": "Microbe",
+      "name": "MyD88"
+    },
+    {
+      "type": "Habitat",
+      "name": "large yellow croaker"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Vibrio parahaemolyticus",
+      "target": "large yellow croaker"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "death domain"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "Toll/IL-1R domain"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MyD88",
+      "target": "large yellow croaker"
+    },
+    {
+      "type": "Exhibits",
+      "source": "large yellow croaker",
+      "target": "Myeloid differentiation factor 88"
+    },
+    {
+      "type": "Exhibits",
+      "source": "large yellow croaker",
+      "target": "nuclear factor-kappaB"
+    }
+  ]
+}
+

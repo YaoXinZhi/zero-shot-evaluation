@@ -1,0 +1,55 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis LVS"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Habitat",
+      "name": "human cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "J774"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proliferate"
+    },
+    {
+      "type": "Microbe",
+      "name": "interferon-gamma"
+    },
+    {
+      "type": "Microbe",
+      "name": "lipopolysaccharide"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis",
+      "target": "human cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "proliferate"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lipopolysaccharide",
+      "target": "E. coli"
+    }
+  ]
+}
+```

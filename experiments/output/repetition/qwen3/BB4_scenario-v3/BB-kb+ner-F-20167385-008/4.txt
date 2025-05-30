@@ -1,0 +1,74 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "M. luteus"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. glacincolaus"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. vitulinus"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. equorum"
+    },
+    {
+      "type": "Microbe",
+      "name": "B. linens"
+    },
+    {
+      "type": "Microbe",
+      "name": "B. casei"
+    },
+    {
+      "type": "Habitat",
+      "name": "Scimudin cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "rind"
+    },
+    {
+      "type": "Habitat",
+      "name": "Casera Valtellina"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "M. luteus",
+      "target": "Scimudin cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "P. glacincolaus",
+      "target": "Scimudin cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. vitulinus",
+      "target": "Scimudin cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. equorum",
+      "target": "Casera Valtellina"
+    },
+    {
+      "type": "Isolated from",
+      "source": "B. linens",
+      "target": "Casera Valtellina"
+    },
+    {
+      "type": "Isolated from",
+      "source": "B. casei",
+      "target": "Casera Valtellina"
+    }
+  ]
+}
+```

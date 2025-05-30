@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "P. celer"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "aroma compounds production"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "branched-chain aldehydes"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "3-methyl butanal"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ketones"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "aroma compounds production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "branched-chain aldehydes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "3-methyl butanal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "ketones"
+    },
+    {
+      "type": "Isolated from",
+      "source": "P. celer",
+      "target": "cheese"
+    }
+  ]
+}
+

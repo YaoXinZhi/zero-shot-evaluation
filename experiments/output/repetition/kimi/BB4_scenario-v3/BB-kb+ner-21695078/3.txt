@@ -1,0 +1,110 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia muridarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "TLR2 activation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "TLR2-dependent signaling"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inflammation"
+    },
+    {
+      "type": "Habitat",
+      "name": "lung"
+    },
+    {
+      "type": "Habitat",
+      "name": "genital tract"
+    },
+    {
+      "type": "Habitat",
+      "name": "oviduct"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mucosal inflammation"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "neutrophils"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "T-cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacterial clearance"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia muridarum",
+      "target": "lung"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "genital tract"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "oviduct"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "enhanced virulence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "inflammation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "mucosal inflammation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "inflammation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "mucosal inflammation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "TLR2 activation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "TLR2-dependent signaling"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "bacterial clearance"
+    }
+  ]
+}
+

@@ -1,0 +1,94 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Propionibacterium freudenreichii subsp. shermanii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Propionibacterium freudenreichii subsp. shermanii TL 34"
+    },
+    {
+      "type": "Microbe",
+      "name": "Propionibacterium freudenreichii subsp. shermanii TL 34 (CIP 103027)"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pneumoniae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pneumoniae type 37"
+    },
+    {
+      "type": "Microbe",
+      "name": "Propionibacterium acidipropionici"
+    },
+    {
+      "type": "Microbe",
+      "name": "Propionibacterium acidipropionici strain TL 47"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ropy phenotype"
+    },
+    {
+      "type": "Habitat",
+      "name": "YEL+ medium"
+    },
+    {
+      "type": "Habitat",
+      "name": "milk"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of EPS"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "excretion of exopolysaccharides"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "(1→3, 1→2)-β-d-glucan capsule"
+    },
+    {
+      "type": "Geographical location",
+      "name": "CIP 103027"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Propionibacterium freudenreichii subsp. shermanii",
+      "target": "ropy phenotype"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Propionibacterium freudenreichii subsp. shermanii TL 34 (CIP 103027)",
+      "target": "CIP 103027"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Propionibacterium freudenreichii subsp. shermanii TL 34 (CIP 103027)",
+      "target": "production of EPS"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Propionibacterium acidipropionici strain TL 47",
+      "target": "milk"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Propionibacterium acidipropionici strain TL 47",
+      "target": "excretion of exopolysaccharides"
+    },
+    {
+      "type": "Exhibits",
+      "source": "seven strains of Propionibacterium freudenreichii subsp. shermanii",
+      "target": "(1→3, 1→2)-β-d-glucan capsule"
+    }
+  ]
+}
+```

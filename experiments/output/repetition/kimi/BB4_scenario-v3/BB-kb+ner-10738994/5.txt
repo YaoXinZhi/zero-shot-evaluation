@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "methicillin-resistant Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "MRSA"
+    },
+    {
+      "type": "Habitat",
+      "name": "patients in a nursing home"
+    },
+    {
+      "type": "Habitat",
+      "name": "skilled nursing facility"
+    },
+    {
+      "type": "Habitat",
+      "name": "Nares and stool swab cultures"
+    },
+    {
+      "type": "Habitat",
+      "name": "community SNF"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "genotyping by field-inversion gel electrophoresis restriction endonuclease digestion analysis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phenotyping by antibiogram"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "oxacillin screening agar"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "disk-diffusion method"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "patients in a nursing home"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "skilled nursing facility"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "Nares and stool swab cultures"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "community SNF"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "genotyping by field-inversion gel electrophoresis restriction endonuclease digestion analysis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "phenotyping by antibiogram"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "oxacillin screening agar"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "disk-diffusion method"
+    }
+  ]
+}
+

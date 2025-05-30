@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium"
+    },
+    {
+      "type": "Microbe",
+      "name": "drug-resistant strain of Salmonella typhimurium"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "9 kb plasmid"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "25 kb plasmid"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ampicillin-resistant marker"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cryptic"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "3.5-kb derivative"
+    },
+    {
+      "type": "Microbe",
+      "name": "restriction+modification+strain of S. typhimurium"
+    },
+    {
+      "type": "Microbe",
+      "name": "pBR322"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "drug-resistant strain of Salmonella typhimurium",
+      "target": "Salmonella typhimurium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "9 kb plasmid",
+      "target": "ampicillin-resistant marker"
+    },
+    {
+      "type": "Exhibits",
+      "source": "25 kb plasmid",
+      "target": "cryptic"
+    },
+    {
+      "type": "Isolated from",
+      "source": "9 kb plasmid",
+      "target": "3.5-kb derivative"
+    },
+    {
+      "type": "Isolated from",
+      "source": "3.5-kb derivative",
+      "target": "restriction+modification+strain of S. typhimurium"
+    },
+    {
+      "type": "Compatible with",
+      "source": "vector",
+      "target": "pBR322"
+    }
+  ]
+}
+

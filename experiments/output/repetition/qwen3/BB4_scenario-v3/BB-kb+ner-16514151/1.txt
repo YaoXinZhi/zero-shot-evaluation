@@ -1,0 +1,92 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "MerR"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Deinococcus radiodurans"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "binds Hg(II) with high affinity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "survived Hg(II) challenge"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "recovered more quickly"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bound Hg(II) preferentially"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "afforded improved survival from Hg(II) exposure"
+    },
+    {
+      "type": "Habitat",
+      "name": "cell surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "cytosol"
+    },
+    {
+      "type": "Geographical location",
+      "name": "rich medium"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "MerR",
+      "target": "binds Hg(II) with high affinity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "survived Hg(II) challenge"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "recovered more quickly"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell surface-expressed MBD",
+      "target": "bound Hg(II) preferentially"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cytosol-expressed MBD",
+      "target": "afforded improved survival from Hg(II) exposure"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MBD",
+      "target": "cell surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MBD",
+      "target": "cytosol"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "rich medium"
+    }
+  ]
+}
+```

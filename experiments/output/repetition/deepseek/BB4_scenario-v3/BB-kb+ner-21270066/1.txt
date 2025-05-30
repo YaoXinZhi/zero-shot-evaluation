@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "lymphogranuloma venereum (LGV)"
+    },
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "perianal ulceration"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "proctitis symptoms"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "anorectal manifestations"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "perianal ulcer disease"
+    },
+    {
+      "type": "Habitat",
+      "name": "UK"
+    },
+    {
+      "type": "Habitat",
+      "name": "London"
+    },
+    {
+      "type": "Habitat",
+      "name": "sexually transmitted infection clinics"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "HIV-positive"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "lymphogranuloma venereum (LGV)",
+      "target": "UK"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "sexually transmitted infection clinics"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphogranuloma venereum (LGV)",
+      "target": "perianal ulceration"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphogranuloma venereum (LGV)",
+      "target": "proctitis symptoms"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphogranuloma venereum (LGV)",
+      "target": "anorectal manifestations"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphogranuloma venereum (LGV)",
+      "target": "perianal ulcer disease"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "perianal ulcer disease"
+    }
+  ]
+}
+

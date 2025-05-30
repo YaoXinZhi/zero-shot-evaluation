@@ -1,0 +1,97 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "yeasts"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of growth factors"
+    },
+    {
+      "type": "Microbe",
+      "name": "Gram positive"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "catalase positive"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "salt-tolerant"
+    },
+    {
+      "type": "Microbe",
+      "name": "coagulase-negative cocci"
+    },
+    {
+      "type": "Microbe",
+      "name": "coryneform bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Micrococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "yeasts",
+      "target": "production of growth factors"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram positive",
+      "target": "catalase positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram positive",
+      "target": "salt-tolerant"
+    },
+    {
+      "type": "Isolated from",
+      "source": "coagulase-negative cocci",
+      "target": "Gram positive"
+    },
+    {
+      "type": "Isolated from",
+      "source": "coryneform bacteria",
+      "target": "Gram positive"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus",
+      "target": "coagulase-negative cocci"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Micrococcus",
+      "target": "coagulase-negative cocci"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium",
+      "target": "coryneform bacteria"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Arthrobacter",
+      "target": "coryneform bacteria"
+    }
+  ]
+}
+```

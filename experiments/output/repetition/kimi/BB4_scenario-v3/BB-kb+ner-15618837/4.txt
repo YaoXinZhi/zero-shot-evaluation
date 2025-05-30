@@ -1,0 +1,91 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Habitat",
+      "name": "Gastric biopsies"
+    },
+    {
+      "type": "Habitat",
+      "name": "dyspeptic patients"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "urease"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "C-urea breath test"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "eradication"
+    },
+    {
+      "type": "Habitat",
+      "name": "Republic of Yemen"
+    },
+    {
+      "type": "Habitat",
+      "name": "one clinic"
+    },
+    {
+      "type": "Microbe",
+      "name": "bacteria"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistance"
+    },
+    {
+      "type": "Habitat",
+      "name": "Yemen"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "Gastric biopsies"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "dyspeptic patients"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "urease"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "C-urea breath test"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "eradication"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "Republic of Yemen"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "one clinic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteria",
+      "target": "resistance"
+    }
+  ]
+}
+

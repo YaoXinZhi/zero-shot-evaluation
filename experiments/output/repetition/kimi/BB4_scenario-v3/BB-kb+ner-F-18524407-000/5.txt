@@ -1,0 +1,94 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "lactic acid bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "dairy propionibacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Propionibacterium freudenreichii subsp. shermanii TL 34 (CIP 103027)"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pneumoniae type 37"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. freudenreichii subsp. shermanii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Propionibacterium acidipropionici strain TL 47"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ropy phenotype"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "exopolysaccharides (EPS)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "β-glucan capsular polysaccharide"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "(1→3, 1→2)-β-d-glucan capsule"
+    },
+    {
+      "type": "Habitat",
+      "name": "dairy industry"
+    },
+    {
+      "type": "Habitat",
+      "name": "YEL+ medium"
+    },
+    {
+      "type": "Habitat",
+      "name": "milk"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacteria",
+      "target": "exopolysaccharides (EPS)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Propionibacterium freudenreichii subsp. shermanii TL 34 (CIP 103027)",
+      "target": "dairy industry"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. freudenreichii subsp. shermanii",
+      "target": "ropy phenotype"
+    },
+    {
+      "type": "Isolated from",
+      "source": "P. freudenreichii subsp. shermanii",
+      "target": "YEL+ medium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pneumoniae type 37",
+      "target": "β-glucan capsular polysaccharide"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Propionibacterium acidipropionici strain TL 47",
+      "target": "milk"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. freudenreichii subsp. shermanii",
+      "target": "(1→3, 1→2)-β-d-glucan capsule"
+    }
+  ]
+}
+

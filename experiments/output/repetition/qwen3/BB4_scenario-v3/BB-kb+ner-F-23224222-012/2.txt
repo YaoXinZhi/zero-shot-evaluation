@@ -1,0 +1,78 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Scopulariopsis brevicaulis"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. brevicaulis"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese A"
+    },
+    {
+      "type": "Habitat",
+      "name": "Danish cheese"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "high proteolytic activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ammonia production"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of arsenical compounds"
+    },
+    {
+      "type": "Microbe",
+      "name": "diethylarsine"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "garlic-like odour"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Danish"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Scopulariopsis brevicaulis",
+      "target": "cheese A"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. brevicaulis",
+      "target": "Danish cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. brevicaulis",
+      "target": "high proteolytic activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. brevicaulis",
+      "target": "ammonia production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. brevicaulis",
+      "target": "production of arsenical compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "diethylarsine",
+      "target": "garlic-like odour"
+    }
+  ]
+}
+```

@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "Burkholderia cepacia"
+    },
+    {
+      "type": "Microbe",
+      "name": "Aspergillus fumigatus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Stenotrophomonas maltophilia"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium abscessus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hydrogen cyanide (HCN) production"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ammonia (NH₃) production"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "stationary phase"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "colony forming units (CFUs)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "tobramycin treatment"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "hydrogen cyanide (HCN) production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "ammonia (NH₃) production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "stationary phase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "colony forming units (CFUs)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "tobramycin treatment"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Burkholderia cepacia",
+      "target": "hydrogen cyanide (HCN) production"
+    }
+  ]
+}
+

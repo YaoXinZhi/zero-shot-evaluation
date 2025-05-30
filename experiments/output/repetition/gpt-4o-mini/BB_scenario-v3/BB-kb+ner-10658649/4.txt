@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pyogenes"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "glycoprotein-binding activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "adhesion mechanisms"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "virulence factors"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "proteinaceous"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "common structure"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "glycoproteins"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "non-glycosylated proteins"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "solid surfaces"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mga"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "glycoprotein-binding activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "adhesion mechanisms"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "virulence factors"
+    },
+    {
+      "type": "Isolated from",
+      "source": "glycoprotein-binding activity",
+      "target": "thyroglobulin"
+    },
+    {
+      "type": "Isolated from",
+      "source": "glycoprotein-binding activity",
+      "target": "fetuin"
+    },
+    {
+      "type": "Isolated from",
+      "source": "glycoprotein-binding activity",
+      "target": "asialofetuin"
+    },
+    {
+      "type": "Isolated from",
+      "source": "glycoprotein-binding activity",
+      "target": "mucin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "glycoprotein-binding activity",
+      "target": "proteinaceous"
+    },
+    {
+      "type": "Regulated by",
+      "source": "glycoprotein-binding activity",
+      "target": "Mga"
+    }
+  ]
+}
+

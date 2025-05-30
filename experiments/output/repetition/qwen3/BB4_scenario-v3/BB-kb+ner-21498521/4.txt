@@ -1,0 +1,73 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Vibrio fischeri"
+    },
+    {
+      "type": "Microbe",
+      "name": "Euprymna scolopes"
+    },
+    {
+      "type": "Microbe",
+      "name": "V. fischeri"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "bioluminescent"
+    },
+    {
+      "type": "Habitat",
+      "name": "light organ"
+    },
+    {
+      "type": "Habitat",
+      "name": "juvenile squid's light organ"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Hawaiian bobtail squid"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "morphological changes"
+    },
+    {
+      "type": "Microbe",
+      "name": "V. fischeri ES114"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "unique structure"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Vibrio fischeri",
+      "target": "bioluminescent"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio fischeri",
+      "target": "light organ"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lipopolysaccharide (LPS) or free lipid A of V. fischeri",
+      "target": "morphological changes"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lipid A",
+      "target": "V. fischeri ES114 LPS"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lipid A from V. fischeri",
+      "target": "unique structure"
+    }
+  ]
+}
+```

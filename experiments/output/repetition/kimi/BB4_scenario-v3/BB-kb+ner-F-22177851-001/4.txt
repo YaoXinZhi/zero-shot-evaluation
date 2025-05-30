@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "P. celer"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of volatile aroma compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of volatile sulfur compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of aldehydes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of ketones"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "P. celer",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "production of volatile aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "production of volatile sulfur compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "production of aldehydes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "production of ketones"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "production of volatile aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "production of volatile sulfur compounds"
+    }
+  ]
+}
+

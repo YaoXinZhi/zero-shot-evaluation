@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Artemisia annua"
+    },
+    {
+      "type": "Microbe",
+      "name": "Clostridium perfringens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Clostridium perfringens Type A"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antimicrobial properties"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "necrotic enteritis"
+    },
+    {
+      "type": "Habitat",
+      "name": "intestinal microbiota"
+    },
+    {
+      "type": "Habitat",
+      "name": "broilers"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "feed intake"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "body weight"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "feed conversion ratio"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "disease-related small intestinal lesions"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "weight gains"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Artemisia annua",
+      "target": "antimicrobial properties"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium perfringens Type A",
+      "target": "broilers"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium perfringens",
+      "target": "necrotic enteritis"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium perfringens",
+      "target": "intestinal microbiota"
+    }
+  ]
+}
+

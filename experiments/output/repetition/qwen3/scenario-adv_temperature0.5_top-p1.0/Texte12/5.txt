@@ -1,0 +1,22 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "host plant"},
+      {"type": "Vector", "name": "BdorOBP13"},
+      {"type": "Pest", "name": "RNAi-injected flies"},
+      {"type": "Pest", "name": "B. dorsalis"},
+      {"type": "Disease", "name": "chemosensation"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "host plant"},
+      {"source": "BdorOBP13", "type": "Have been found on", "target": "Bactrocera dorsalis"},
+      {"source": "chemosensation", "type": "Affects", "target": "Bactrocera dorsalis"},
+      {"source": "B. dorsalis", "type": "Located in", "target": "not specified"},
+      {"source": "RNAi-injected flies", "type": "Transmit", "target": "BdorOBP13"}
+    ]
+  }
+]
+

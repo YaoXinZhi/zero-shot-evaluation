@@ -1,0 +1,102 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia muridarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "TLR2 activation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "TLR2-dependent signaling"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inflammation"
+    },
+    {
+      "type": "Habitat",
+      "name": "lung"
+    },
+    {
+      "type": "Habitat",
+      "name": "genital tract"
+    },
+    {
+      "type": "Habitat",
+      "name": "oviduct"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mucosal inflammation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "anti-inflammatory function"
+    },
+    {
+      "type": "Microbe",
+      "name": "TLR2-deficient mice"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia muridarum",
+      "target": "lung"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "genital tract"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "oviduct"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "enhanced virulence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "higher lung cytokine levels"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "exaggerated influx of neutrophils and T-cells into the lungs"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TLR2-deficient mice",
+      "target": "impaired bacterial clearance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TLR2",
+      "target": "anti-inflammatory function"
+    }
+  ]
+}
+
+muridarum",
+      "target": "anti-inflammatory function"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "bacterial clearance"
+    }
+  ]
+}
+

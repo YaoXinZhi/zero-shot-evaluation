@@ -1,0 +1,66 @@
+[
+  {
+    "entities": [
+      "{\"type\": \"Pest\", \"name\": \"Fall Armyworm (Spodoptera frugiperda)\"}",
+      "{\"type\": \"Plant\", \"name\": \"maize crops\"}",
+      "{\"type\": \"Geographic\", \"name\": \"Kenya\"}",
+      "{\"type\": \"Disease\", \"name\": \"maize lethal necrosis\"}",
+      "{\"type\": \"Vector\", \"name\": \"corn leafhopper (Dalbulus maidis)\"}",
+      "{\"type\": \"Geographic\", \"name\": \"South America\"}",
+      "{\"type\": \"Geographic\", \"name\": \"Britain\"}",
+      "{\"type\": \"Geographic\", \"name\": \"Western Europe\"}",
+      "{\"type\": \"Geographic\", \"name\": \"Uzbekistan\"}",
+      "{\"type\": \"Geographic\", \"name\": \"Turkey\"}",
+      "{\"type\": \"Geographic\", \"name\": \"neighboring regions\"}",
+      "{\"type\": \"Geographic\", \"name\": \"Mediterranean Basin\"}",
+      "{\"type\": \"Geographic\", \"name\": \"Middle East\"}",
+      "{\"type\": \"Plant\", \"name\": \"European pear (P. communis)\"}",
+      "{\"type\": \"Plant\", \"name\": \"Pyrus spinosa Forsskål\"}",
+      "{\"type\": \"Pest\", \"name\": \"Cacopsylla notata (Flor)\"}",
+      "{\"type\": \"Plant\", \"name\": \"wild pear Pryus korshinskyi Litvinov\"}",
+      "{\"type\": \"Pest\", \"name\": \"Cacopsylla fera (Baeva)\"}",
+      "{\"type\": \"Pest\", \"name\": \"Cacopsylla bidens (Šulc)\"}",
+      "{\"type\": \"Pest\", \"name\": \"Cacopsylla pyrisuga (Foerster)\"}",
+      "{\"type\": \"Pest\", \"name\": \"C. pyri\"}",
+      "{\"type\": \"Pest\", \"name\": \"C. pyricola\"}"
+    ]
+  },
+  {
+    "relationships": [
+      "{\"source\": \"Fall Armyworm (Spodoptera frugiperda)\", \"type\": \"Have been found on\", \"target\": \"maize crops\"}",
+      "{\"source\": \"Fall Armyworm (Spodoptera frugiperda)\", \"type\": \"Located in\", \"target\": \"Kenya\"}",
+      "{\"source\": \"Fall Armyworm (Spodoptera frugiperda)\", \"type\": \"Causes\", \"target\": \"maize lethal necrosis\"}",
+      "{\"source\": \"corn leafhopper (Dalbulus maidis)\", \"type\": \"Transmit\", \"target\": \"Fall Armyworm (Spodoptera frugiperda)\"}",
+      "{\"source\": \"corn leafhopper (Dalbulus maidis)\", \"type\": \"Located in\", \"target\": \"South America\"}",
+      "{\"source\": \"Cacopsylla pyrisuga (Foerster)\", \"type\": \"Located in\", \"target\": \"Britain\"}",
+      "{\"source\": \"Cacopsylla pyrisuga (Foerster)\", \"type\": \"Located in\", \"target\": \"Western Europe\"}",
+      "{\"source\": \"C. pyri\", \"type\": \"Located in\", \"target\": \"Britain\"}",
+      "{\"source\": \"C. pyri\", \"type\": \"Located in\", \"target\": \"Western Europe\"}",
+      "{\"source\": \"C. pyricola\", \"type\": \"Located in\", \"target\": \"Britain\"}",
+      "{\"source\": \"C. pyricola\", \"type\": \"Located in\", \"target\": \"Western Europe\"}",
+      "{\"source\": \"Cacopsylla fera (Baeva)\", \"type\": \"Located in\", \"target\": \"Uzbekistan\"}",
+      "{\"source\": \"Cacopsylla fera (Baeva)\", \"type\": \"Located in\", \"target\": \"Turkey\"}",
+      "{\"source\": \"Cacopsylla fera (Baeva)\", \"type\": \"Located in\", \"target\": \"neighboring regions\"}",
+      "{\"source\": \"Cacopsylla bidens (Šulc)\", \"type\": \"Located in\", \"target\": \"Uzbekistan\"}",
+      "{\"source\": \"Cacopsylla bidens (Šulc)\", \"type\": \"Located in\", \"target\": \"Turkey\"}",
+      "{\"source\": \"Cacopsylla bidens (Šulc)\", \"type\": \"Located in\", \"target\": \"neighboring regions\"}",
+      "{\"source\": \"Cacopsylla bidens (Šulc)\", \"type\": \"Located in\", \"target\": \"Mediterranean Basin\"}",
+      "{\"source\": \"Cacopsylla bidens (Šulc)\", \"type\": \"Located in\", \"target\": \"Middle East\"}",
+      "{\"source\": \"European pear (P. communis)\", \"type\": \"Have been found on\", \"target\": \"Cacopsylla notata (Flor)\"}",
+      "{\"source\": \"Pyrus spinosa Forsskål\", \"type\": \"Have been found on\", \"target\": \"Cacopsylla notata (Flor)\"}",
+      "{\"source\": \"wild pear Pryus korshinskyi Litvinov\", \"type\": \"Have been found on\", \"target\": \"Cacopsylla fera (Baeva)\"}"
+    ]
+  }
+]
+
+ean pear"},
+      {"source": "Cacopsylla fera", "type": "Have been found on", "target": "European pear"},
+      {"source": "Cacopsylla bidens", "type": "Have been found on", "target": "European pear"},
+      {"source": "Cacopsylla notata", "type": "Have been found on", "target": "European pear"},
+      {"source": "Cacopsylla fera", "type": "Have been found on", "target": "P. communis"},
+      {"source": "Cacopsylla notata", "type": "Have been found on", "target": "P. communis"},
+      {"source": "Cacopsylla bidens", "type": "Have been found on", "target": "P. communis"}
+    ]
+  }
+]
+

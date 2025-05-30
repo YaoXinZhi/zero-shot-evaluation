@@ -1,0 +1,96 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "MerR"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Deinococcus radiodurans"
+    },
+    {
+      "type": "Microbe",
+      "name": "MBD"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Hg(II) sequestration"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "metal-binding"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "detoxify mercury"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "improved survival from Hg(II) exposure"
+    },
+    {
+      "type": "Habitat",
+      "name": "cell surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "cytosol"
+    },
+    {
+      "type": "Habitat",
+      "name": "rich medium"
+    },
+    {
+      "type": "Geographical location",
+      "name": "bacterial mercury resistance operon"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "MerR",
+      "target": "metal-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBD",
+      "target": "Hg(II) sequestration"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBD",
+      "target": "improved survival from Hg(II) exposure"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MBD",
+      "target": "cell surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MBD",
+      "target": "cytosol"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "rich medium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "detoxify mercury"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Deinococcus radiodurans",
+      "target": "improved survival from Hg(II) exposure"
+    }
+  ]
+}
+```

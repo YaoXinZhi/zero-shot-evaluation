@@ -1,0 +1,180 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Gram-negative bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Hafnia alvei"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterobacteriaceae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "yeast"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "possess proteolytic enzymes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "degrade casein"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "degrade peptides"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce free amino acids"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "accelerate ripening"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce volatile compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce alcohols"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce esters"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "have a negative effect on the organoleptic characteristics"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce flavor compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "lead to stronger proteolysis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "modify the final texture"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce volatile aroma compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce sulfur compounds"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "model cheese"
+    },
+    {
+      "type": "Geographical location",
+      "name": "dairy origin"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacteria",
+      "target": "possess proteolytic enzymes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacteria",
+      "target": "degrade casein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacteria",
+      "target": "degrade peptides"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacteria",
+      "target": "produce free amino acids"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacteria",
+      "target": "accelerate ripening"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas spp.",
+      "target": "produce volatile compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas spp.",
+      "target": "produce alcohols"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas spp.",
+      "target": "produce esters"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas spp.",
+      "target": "have a negative effect on the organoleptic characteristics"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia alvei",
+      "target": "produce flavor compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia alvei",
+      "target": "lead to stronger proteolysis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia alvei",
+      "target": "modify the final texture"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter sp.",
+      "target": "produce volatile aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter sp.",
+      "target": "produce sulfur compounds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter sp.",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "yeast",
+      "target": "model cheese"
+    }
+  ]
+}
+```

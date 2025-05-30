@@ -1,0 +1,82 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157:H7"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli O157:H7"
+    },
+    {
+      "type": "Habitat",
+      "name": "tryptic soy broth"
+    },
+    {
+      "type": "Habitat",
+      "name": "TSB"
+    },
+    {
+      "type": "Habitat",
+      "name": "nutrient broth"
+    },
+    {
+      "type": "Habitat",
+      "name": "NB"
+    },
+    {
+      "type": "Habitat",
+      "name": "lettuce surfaces"
+    },
+    {
+      "type": "Habitat",
+      "name": "apple surfaces"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cell surface hydrophobicity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "surface charge"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "capsule production"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "tryptic soy broth"
+    },
+    {
+      "type": "Isolated from",
+      "source": "E. coli O157:H7",
+      "target": "nutrient broth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157:H7",
+      "target": "cell surface hydrophobicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157:H7",
+      "target": "surface charge"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157:H7",
+      "target": "capsule production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157:H7",
+      "target": "attachment"
+    }
+  ]
+}
+```

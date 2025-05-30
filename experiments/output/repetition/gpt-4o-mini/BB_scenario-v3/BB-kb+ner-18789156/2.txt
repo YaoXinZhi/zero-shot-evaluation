@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis Live Vaccine Strain (LVS)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "nucleolin"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "elongation factor Tu (EF-Tu)"
+    },
+    {
+      "type": "Habitat",
+      "name": "monocyte-like THP-1 cells"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis",
+      "target": "monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis Live Vaccine Strain (LVS)",
+      "target": "monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis Live Vaccine Strain (LVS)",
+      "target": "nucleolin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis Live Vaccine Strain (LVS)",
+      "target": "elongation factor Tu (EF-Tu)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "elongation factor Tu (EF-Tu)",
+      "target": "nucleolin"
+    }
+  ]
+}
+

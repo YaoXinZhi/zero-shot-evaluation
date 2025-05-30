@@ -1,0 +1,105 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia muridarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "enhanced virulence"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "TLR2-dependent signaling"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "induction of inflammation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "oviduct pathology"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mucosal inflammation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "anti-inflammatory function"
+    },
+    {
+      "type": "Habitat",
+      "name": "female mouse model of genital tract"
+    },
+    {
+      "type": "Habitat",
+      "name": "lungs"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "higher lung cytokine levels"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "exaggerated influx of neutrophils and T-cells"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "enhanced virulence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "TLR2-dependent signaling"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "induction of inflammation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "oviduct pathology"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "mucosal inflammation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "anti-inflammatory function"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "female mouse model of genital tract"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia muridarum",
+      "target": "lungs"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "higher lung cytokine levels"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "exaggerated influx of neutrophils and T-cells"
+    }
+  ]
+}
+

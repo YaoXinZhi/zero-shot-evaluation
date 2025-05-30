@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Yersinia pestis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Yersinia pseudotuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Yersinia enterocolitica"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "virulence plasmid-containing"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "virulence plasmid-deficient"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "apoptosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "reactive oxygen species (ROS) production"
+    },
+    {
+      "type": "Habitat",
+      "name": "human innate immune system"
+    },
+    {
+      "type": "Habitat",
+      "name": "human monocyte-derived macrophages (HMDM)"
+    },
+    {
+      "type": "Habitat",
+      "name": "human neutrophils"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Yersinia pestis",
+      "target": "human innate immune system"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "human innate immune system"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia enterocolitica",
+      "target": "human innate immune system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia pestis",
+      "target": "apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia enterocolitica",
+      "target": "apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia pestis",
+      "target": "reactive oxygen species (ROS) production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "human neutrophils",
+      "target": "apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "human neutrophils",
+      "target": "reactive oxygen species (ROS) production"
+    }
+  ]
+}
+

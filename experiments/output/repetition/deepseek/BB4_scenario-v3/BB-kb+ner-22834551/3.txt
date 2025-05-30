@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Clostridium perfringens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Clostridium perfringens Type A"
+    },
+    {
+      "type": "Microbe",
+      "name": "intestinal microbiota"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "necrotic enteritis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antimicrobial properties"
+    },
+    {
+      "type": "Habitat",
+      "name": "broiler"
+    },
+    {
+      "type": "Habitat",
+      "name": "small intestinal lesions"
+    },
+    {
+      "type": "Habitat",
+      "name": "intestinal microbiota"
+    },
+    {
+      "type": "Microbe",
+      "name": "Artemisia annua"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Artemisia annua",
+      "target": "antimicrobial properties"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium perfringens",
+      "target": "broiler"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium perfringens Type A",
+      "target": "broiler"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium perfringens",
+      "target": "necrotic enteritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium perfringens Type A",
+      "target": "necrotic enteritis"
+    }
+  ]
+}
+

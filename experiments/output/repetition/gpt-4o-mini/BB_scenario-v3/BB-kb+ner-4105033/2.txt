@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "alkaline phosphatase"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "cell wall"
+    },
+    {
+      "type": "Habitat",
+      "name": "periplasm"
+    },
+    {
+      "type": "Habitat",
+      "name": "cytoplasmic membrane"
+    },
+    {
+      "type": "Habitat",
+      "name": "peptidoglycan layer"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "alkaline phosphatase"
+    },
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "periplasm"
+    },
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "cell wall"
+    },
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "cytoplasmic membrane"
+    },
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "peptidoglycan layer"
+    }
+  ]
+}
+

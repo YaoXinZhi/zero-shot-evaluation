@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Campylobacter"
+    },
+    {
+      "type": "Habitat",
+      "name": "UK retail poultry"
+    },
+    {
+      "type": "Habitat",
+      "name": "farmed chickens"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antimicrobial resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antimicrobial susceptibility"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Erythromycin resistance"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "resistant phenotypes"
+    },
+    {
+      "type": "Geographical location",
+      "name": "UK"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter",
+      "target": "UK retail poultry"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter",
+      "target": "farmed chickens"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "antimicrobial resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "antimicrobial susceptibility"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter coli",
+      "target": "Erythromycin resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "resistant phenotypes"
+    }
+  ]
+}
+

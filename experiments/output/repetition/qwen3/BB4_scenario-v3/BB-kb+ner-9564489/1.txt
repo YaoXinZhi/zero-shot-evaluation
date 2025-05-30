@@ -1,0 +1,25 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium kansasii"
+    },
+    {
+      "type": "Habitat",
+      "name": "gingivomandibular infection"
+    },
+    {
+      "type": "Geographical location",
+      "name": "patient with AIDS"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Mycobacterium kansasii",
+      "target": "gingivomandibular infection"
+    }
+  ]
+}
+```

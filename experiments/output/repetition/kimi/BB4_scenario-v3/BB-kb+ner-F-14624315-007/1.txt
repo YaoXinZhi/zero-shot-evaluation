@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "L. lactis subsp. cremoris B1157"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. ammoniagenes B1506"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "enzyme activities"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "conversion of the amino acid leucine into flavour components"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "3-methylbutanal"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "L. lactis subsp. cremoris B1157",
+      "target": "enzyme activities"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. ammoniagenes B1506",
+      "target": "enzyme activities"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis subsp. cremoris B1157",
+      "target": "3-methylbutanal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. ammoniagenes B1506",
+      "target": "3-methylbutanal"
+    }
+  ]
+}
+

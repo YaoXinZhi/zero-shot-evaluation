@@ -1,0 +1,43 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter arilaitensis GMPA29"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter immobilis PG1"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio litoralis B4"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surface"
+    },
+    {
+      "type": "Geographical location",
+      "name": "cheese surface samples"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Arthrobacter arilaitensis GMPA29",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter immobilis PG1",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio litoralis B4",
+      "target": "cheese surface"
+    }
+  ]
+}
+```

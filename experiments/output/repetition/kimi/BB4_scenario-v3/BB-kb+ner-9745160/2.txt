@@ -1,0 +1,119 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "infection"
+    },
+    {
+      "type": "Habitat",
+      "name": "duodenal ulcer"
+    },
+    {
+      "type": "Habitat",
+      "name": "Campylobacter-like organism"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "eradication"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "drug resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "side-effects"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "patient compliance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cost"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "symptom relief"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "major side-effects"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ulcer-healing rate"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "eradication rate"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "duodenal ulcer"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter-like organism",
+      "target": "duodenal ulcer"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "low compliance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "drug resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "side-effects"
+    },
+    {
+      "type": "Exhibits",
+      "source": "PPI-based triple therapy",
+      "target": "patient compliance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "PPI-based triple therapy",
+      "target": "cost"
+    },
+    {
+      "type": "Exhibits",
+      "source": "PPI-based triple therapy",
+      "target": "symptom relief"
+    },
+    {
+      "type": "Exhibits",
+      "source": "one-week triple therapy",
+      "target": "major side-effects"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "eradication rate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "ulcer-healing rate"
+    }
+  ]
+}
+

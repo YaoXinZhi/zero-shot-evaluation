@@ -1,0 +1,59 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "F. tularensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "F. tularensis LVS"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Habitat",
+      "name": "murine macrophage-like cell line J774"
+    },
+    {
+      "type": "Habitat",
+      "name": "J774"
+    },
+    {
+      "type": "Habitat",
+      "name": "human cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proliferate"
+    },
+    {
+      "type": "Geographical location",
+      "name": "human"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis",
+      "target": "human cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "proliferate"
+    },
+    {
+      "type": "Isolated from",
+      "source": "F. tularensis LVS",
+      "target": "murine macrophage-like cell line J774"
+    }
+  ]
+}
+```

@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "chronic atrophic gastritis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "gastric cancer"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastric mucosa"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Japan"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "atrophy of the gastric mucosa"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "chronic gastritis"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "gastric mucosa"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "chronic atrophic gastritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "gastric cancer"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "atrophy of the gastric mucosa"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "chronic gastritis"
+    }
+  ]
+}
+

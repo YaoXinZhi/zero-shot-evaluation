@@ -1,0 +1,195 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "group A rotavirus"
+    },
+    {
+      "type": "Microbe",
+      "name": "diarrheagenic Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Shigella spp"
+    },
+    {
+      "type": "Microbe",
+      "name": "enterotoxigenic Bacteroides fragilis"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Hanoi"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Vietnam"
+    },
+    {
+      "type": "Habitat",
+      "name": "children less than five years of age"
+    },
+    {
+      "type": "Habitat",
+      "name": "children less than one year old"
+    },
+    {
+      "type": "Habitat",
+      "name": "children less than two years old"
+    },
+    {
+      "type": "Habitat",
+      "name": "children attending the hospitals"
+    },
+    {
+      "type": "Habitat",
+      "name": "poor families"
+    },
+    {
+      "type": "Habitat",
+      "name": "families where piped water and a latrine were lacking"
+    },
+    {
+      "type": "Habitat",
+      "name": "families where mothers washed their hands less often before feeding the children"
+    },
+    {
+      "type": "Habitat",
+      "name": "families where mothers had a low level of education"
+    },
+    {
+      "type": "Habitat",
+      "name": "families where information on health and sanitation less often reached their households"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "watery stool"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "mucous stool"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "fever"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "vomiting"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "dehydration"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistance to ampicillin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistance to chloramphenicol"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistance to trimethoprim/sulfamethoxazole"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "group A rotavirus",
+      "target": "children less than five years of age"
+    },
+    {
+      "type": "Isolated from",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "children less than five years of age"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Shigella spp",
+      "target": "children less than five years of age"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "children less than five years of age"
+    },
+    {
+      "type": "Isolated from",
+      "source": "group A rotavirus",
+      "target": "children less than two years of age"
+    },
+    {
+      "type": "Isolated from",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "children less than two years of age"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Shigella spp",
+      "target": "older children"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "older children"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children attending the hospitals",
+      "target": "fever"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children attending the hospitals",
+      "target": "vomiting"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children attending the hospitals",
+      "target": "dehydration"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children attending the hospitals",
+      "target": "watery stool"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children attending the hospitals",
+      "target": "mucous stool"
+    },
+    {
+      "type": "Exhibits",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "resistance to ampicillin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "resistance to chloramphenicol"
+    },
+    {
+      "type": "Exhibits",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "resistance to trimethoprim/sulfamethoxazole"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Shigella spp",
+      "target": "resistance to ampicillin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Shigella spp",
+      "target": "resistance to chloramphenicol"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Shigella spp",
+      "target": "resistance to trimethoprim/sulfamethoxazole"
+    }
+  ]
+}
+```

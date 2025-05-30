@@ -1,0 +1,70 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "flagellar rod protein"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "protease inhibitors"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolysis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteases"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "urea"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "FlgF",
+      "target": "Salmonella typhimurium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "flagellar rod protein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "protease inhibitors"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "proteolysis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "urea"
+    },
+    {
+      "type": "Isolated from",
+      "source": "FlgF",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "proteases"
+    }
+  ]
+}
+

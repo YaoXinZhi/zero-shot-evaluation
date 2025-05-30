@@ -1,0 +1,52 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "CFE"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. lactis spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus thermophilus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "branched-chain transaminase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce the highest concentrations of α-ketoisocaproic acid"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "CFE",
+      "target": "branched-chain transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus",
+      "name": "highest variation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis spp.",
+      "target": "produce the highest concentrations of α-ketoisocaproic acid"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus thermophilus",
+      "target": "produce the highest concentrations of α-ketoisocaproic acid"
+    }
+  ]
+}
+```

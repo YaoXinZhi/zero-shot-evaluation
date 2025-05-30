@@ -1,0 +1,56 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter"
+    },
+    {
+      "type": "Microbe",
+      "name": "Halomonas"
+    },
+    {
+      "type": "Microbe",
+      "name": "Hafnia"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "psychrotrophic"
+    },
+    {
+      "type": "Habitat",
+      "name": "marine environments"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surfaces"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese-making"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Halomonas",
+      "target": "marine environments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Hafnia",
+      "target": "cheese-making"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter",
+      "target": "cheese surfaces"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter",
+      "target": "psychrotrophic"
+    }
+  ]
+}
+```

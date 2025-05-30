@@ -1,0 +1,70 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Ln. pseudomesenteroides"
+    },
+    {
+      "type": "Microbe",
+      "name": "Ln. citreum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lb. plantarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "M. caseolyticus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Listeria monocytogenes"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Microbe",
+      "name": "STEC O26:H11"
+    },
+    {
+      "type": "Habitat",
+      "name": "uncooked pressed model cheese"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Ln. pseudomesenteroides",
+      "target": "inhibiting Listeria monocytogenes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Ln. citreum",
+      "target": "inhibiting Listeria monocytogenes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lb. plantarum",
+      "target": "inhibiting Listeria monocytogenes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "M. caseolyticus",
+      "target": "inhibiting Listeria monocytogenes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "inhibiting STEC O26:H11"
+    },
+    {
+      "type": "Isolated from",
+      "source": "STEC O26:H11",
+      "target": "uncooked pressed model cheese"
+    }
+  ]
+}
+```

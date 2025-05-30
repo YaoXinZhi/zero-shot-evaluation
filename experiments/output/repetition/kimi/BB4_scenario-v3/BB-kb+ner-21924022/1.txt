@@ -1,0 +1,74 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "cytotoxin associated gene A protein"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "vacuolating toxin A"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "urease"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "heat shock protein 60"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "nitroreductase"
+    },
+    {
+      "type": "Habitat",
+      "name": "digestive system"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastroscopy"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "digestive system"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "gastroscopy"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "cytotoxin associated gene A protein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "vacuolating toxin A"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "urease"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "heat shock protein 60"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "nitroreductase"
+    }
+  ]
+}
+

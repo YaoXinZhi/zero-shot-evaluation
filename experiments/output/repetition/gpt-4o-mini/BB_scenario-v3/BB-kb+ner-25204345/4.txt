@@ -1,0 +1,70 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Enterococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus"
+    },
+    {
+      "type": "Habitat",
+      "name": "natural fermented koumiss"
+    },
+    {
+      "type": "Habitat",
+      "name": "yoghurt"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "quinolone resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mutation patterns in gyrA and parC genes"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus durans HZ28"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Enterococcus",
+      "target": "natural fermented koumiss"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterococcus",
+      "target": "yoghurt"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus",
+      "target": "natural fermented koumiss"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus",
+      "target": "yoghurt"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Enterococcus",
+      "target": "quinolone resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus",
+      "target": "quinolone resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Enterococcus durans HZ28",
+      "target": "mutation patterns in gyrA and parC genes"
+    }
+  ]
+}
+

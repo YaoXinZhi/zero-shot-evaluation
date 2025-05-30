@@ -1,0 +1,89 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus epidermidis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. epidermidis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "biofilm"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "development of biofilm"
+    },
+    {
+      "type": "Habitat",
+      "name": "medical devices"
+    },
+    {
+      "type": "Habitat",
+      "name": "host immune system"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus",
+      "target": "medical devices"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus epidermidis",
+      "target": "medical devices"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "medical devices"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus",
+      "target": "development of biofilm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus epidermidis",
+      "target": "development of biofilm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "development of biofilm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus",
+      "target": "biofilm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus epidermidis",
+      "target": "biofilm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "biofilm"
+    }
+  ]
+}
+```

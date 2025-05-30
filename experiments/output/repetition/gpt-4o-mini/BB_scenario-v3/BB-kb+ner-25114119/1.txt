@@ -1,0 +1,91 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Coxiella burnetii"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "phase I lipopolysaccharide (PI-LPS)"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. burnetii"
+    },
+    {
+      "type": "Microbe",
+      "name": "1E4"
+    },
+    {
+      "type": "Microbe",
+      "name": "Fab1E4"
+    },
+    {
+      "type": "Microbe",
+      "name": "muscFv1E4"
+    },
+    {
+      "type": "Microbe",
+      "name": "huscFv1E4"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibit infection"
+    },
+    {
+      "type": "Habitat",
+      "name": "mice"
+    },
+    {
+      "type": "Habitat",
+      "name": "human macrophages"
+    },
+    {
+      "type": "Habitat",
+      "name": "macrophages"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "mice"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "human macrophages"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "macrophages"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Coxiella burnetii",
+      "target": "phase I lipopolysaccharide (PI-LPS)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "1E4",
+      "target": "inhibit infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Fab1E4",
+      "target": "inhibit infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "muscFv1E4",
+      "target": "inhibit infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "huscFv1E4",
+      "target": "inhibit infection"
+    }
+  ]
+}
+

@@ -1,0 +1,47 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "CFE"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. lactis spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus thermophilus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "transaminase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "highest specific transaminase activity towards leucine"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "CFE",
+      "target": "transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis spp.",
+      "target": "highest specific transaminase activity towards leucine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus thermophilus",
+      "target": "highest specific transaminase activity towards leucine"
+    }
+  ]
+}
+```

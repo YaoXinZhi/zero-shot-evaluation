@@ -1,0 +1,47 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma agassizii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma testudineum"
+    },
+    {
+      "type": "Disease",
+      "name": "Upper respiratory tract disease"
+    },
+    {
+      "type": "Habitat",
+      "name": "Gopher tortoises"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Georgia"
+    },
+    {
+      "type": "Geographical location",
+      "name": "USA"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma agassizii",
+      "target": "Gopher tortoises"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma testudineum",
+      "target": "Gopher tortoises"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Upper respiratory tract disease",
+      "target": "clinical signs"
+    }
+  ]
+}
+```

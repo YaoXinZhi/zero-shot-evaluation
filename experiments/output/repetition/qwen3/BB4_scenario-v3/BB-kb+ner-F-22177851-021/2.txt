@@ -1,0 +1,34 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "C. variabile"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. casei"
+    },
+    {
+      "type": "Habitat",
+      "name": "Gubbeen cheese"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Gubbeen"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "C. variabile",
+      "target": "Gubbeen cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. casei",
+      "target": "Gubbeen cheese"
+    }
+  ]
+}
+```

@@ -1,0 +1,102 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Zobellia galactanivorans Dsij"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "marine bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "beta-agarases A"
+    },
+    {
+      "type": "Microbe",
+      "name": "beta-agarases B"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce polysaccharide hydrolases"
+    },
+    {
+      "type": "Habitat",
+      "name": "marine"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "jelly roll fold"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "deep active site channel"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cleave the beta-1,4-linkages"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "enzymatic activity"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "marine bacteria",
+      "target": "produce polysaccharide hydrolases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases A",
+      "target": "jelly roll fold"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases B",
+      "target": "jelly roll fold"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases A",
+      "target": "deep active site channel"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases B",
+      "target": "deep active site channel"
+    },
+    {
+      "type": "Exhibits",
+      "source": "marine bacteria",
+      "target": "cleave the beta-1,4-linkages"
+    },
+    {
+      "type": "Isolated from",
+      "source": "beta-agarases A",
+      "target": "Zobellia galactanivorans Dsij"
+    },
+    {
+      "type": "Isolated from",
+      "source": "beta-agarases B",
+      "target": "Zobellia galactanivorans Dsij"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases A",
+      "target": "enzymatic activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases B",
+      "target": "enzymatic activity"
+    }
+  ]
+}
+```

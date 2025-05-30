@@ -1,0 +1,107 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Galactomyces"
+    },
+    {
+      "type": "Microbe",
+      "name": "Proteobacteria"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "moist bloomy rinds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "positively correlated with moisture"
+    },
+    {
+      "type": "Microbe",
+      "name": "Scopulariopsis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Aspergillus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Actinobacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "dry natural rinds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "negatively associated with moisture"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Galactomyces",
+      "target": "moist bloomy rinds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Proteobacteria",
+      "target": "moist bloomy rinds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Galactomyces",
+      "target": "positively correlated with moisture"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Proteobacteria",
+      "target": "positively correlated with moisture"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Scopulariopsis",
+      "target": "dry natural rinds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Aspergillus",
+      "target": "dry natural rinds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Actinobacteria",
+      "target": "dry natural rinds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus",
+      "target": "dry natural rinds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Scopulariopsis",
+      "target": "negatively associated with moisture"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Aspergillus",
+      "target": "negatively associated with moisture"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Actinobacteria",
+      "target": "negatively associated with moisture"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus",
+      "target": "negatively associated with moisture"
+    }
+  ]
+}
+

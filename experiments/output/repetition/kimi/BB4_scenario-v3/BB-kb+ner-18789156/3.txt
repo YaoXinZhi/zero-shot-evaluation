@@ -1,0 +1,140 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis"
+    },
+    {
+      "type": "Habitat",
+      "name": "monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "surface nucleolin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "elongation factor Tu"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "GTP-binding protein"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "protein translation"
+    },
+    {
+      "type": "Microbe",
+      "name": "Live Vaccine Strain (LVS)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "carboxy-terminal RGG domain of nucleolin"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "bacterial surface"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "bacterial membrane proteins"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "RGG domain"
+    },
+    {
+      "type": "Habitat",
+      "name": "cytoplasm"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "phagosomal escape"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "intra-cytosolic multiplication"
+    },
+    {
+      "type": "Microbe",
+      "name": "human pathogenic F. tularensis ssp tularensis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "nucleolin-specific pseudopeptide HB-19"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "recombinant EF-Tu"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis",
+      "target": "monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "surface nucleolin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "elongation factor Tu"
+    },
+    {
+      "type": "Exhibits",
+      "source": "elongation factor Tu",
+      "target": "GTP-binding protein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "elongation factor Tu",
+      "target": "protein translation"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Live Vaccine Strain (LVS)",
+      "target": "monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "nucleolin",
+      "target": "carboxy-terminal RGG domain of nucleolin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "elongation factor Tu",
+      "target": "bacterial surface"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "bacterial membrane proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "nucleolin",
+      "target": "RGG domain"
+    },
+    {
+      "type": "Isolated from",
+      "source": "elongation factor Tu",
+      "target": "cytoplasm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Live Vaccine Strain (LVS)",
+      "target": "phagosomal escape"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Live Vaccine Strain (LVS)",
+      "target": "intra-cytosolic multiplication"
+    }
+  ]
+}
+

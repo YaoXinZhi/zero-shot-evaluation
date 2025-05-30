@@ -1,0 +1,132 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Proteobacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Leuconostoc"
+    },
+    {
+      "type": "Microbe",
+      "name": "Candida"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brachybacterium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Penicillium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Scopulariopsis"
+    },
+    {
+      "type": "Habitat",
+      "name": "raw milk"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Proteobacteria",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Leuconostoc",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Candida",
+      "target": "raw milk"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Candida",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brachybacterium",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Penicillium",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Scopulariopsis",
+      "target": "cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Proteobacteria",
+      "target": "primary"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Leuconostoc",
+      "target": "primary"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Candida",
+      "target": "fungal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus",
+      "target": "primary"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Brevibacterium",
+      "target": "bacterial"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Brachybacterium",
+      "target": "bacterial"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Penicillium",
+      "target": "fungal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Scopulariopsis",
+      "target": "fungal"
+    }
+  ]
+}
+

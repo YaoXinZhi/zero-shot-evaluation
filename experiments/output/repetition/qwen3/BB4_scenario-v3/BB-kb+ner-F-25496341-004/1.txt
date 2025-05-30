@@ -1,0 +1,52 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Western African Streptococcus infantarius"
+    },
+    {
+      "type": "Microbe",
+      "name": "Eastern African strain CJ18"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ferment lactose"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "LacZS system"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Western Africa"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Eastern Africa"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Western African Streptococcus infantarius",
+      "target": "Western Africa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Eastern African strain CJ18",
+      "target": "Eastern Africa"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Western African Streptococcus infantarius",
+      "target": "ferment lactose"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Western African Streptococcus infantarius",
+      "target": "LacZS system"
+    }
+  ]
+}
+```

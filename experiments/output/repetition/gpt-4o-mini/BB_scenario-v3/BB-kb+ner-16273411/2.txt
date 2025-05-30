@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Klebsiella pneumonia"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "early pregnancy loss"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "neonatal deaths"
+    },
+    {
+      "type": "Habitat",
+      "name": "placenta"
+    },
+    {
+      "type": "Geographical location",
+      "name": "humans"
+    },
+    {
+      "type": "Geographical location",
+      "name": "animals"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Klebsiella pneumonia",
+      "target": "placenta"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Klebsiella pneumonia",
+      "target": "early pregnancy loss"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Klebsiella pneumonia",
+      "target": "neonatal deaths"
+    }
+  ]
+}
+

@@ -1,0 +1,43 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. aureus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibacterial activity"
+    },
+    {
+      "type": "Habitat",
+      "name": "human"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "human"
+    },
+    {
+      "type": "Exhibits",
+      "source": "synthetic aliphatic and aromatic monoacylglycerols",
+      "target": "antibacterial activity"
+    }
+  ]
+}
+```

@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram-negative"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to most clinically available antimicrobials"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "functional β-carbonic anhydrases"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "β-carbonic anhydrase psCA3"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "β-carbonic anhydrase psCA1"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "β-carbonic anhydrase psCA2"
+    },
+    {
+      "type": "Geographical location",
+      "name": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "crystal forms A and B"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "resistant to most clinically available antimicrobials"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "functional β-carbonic anhydrases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "β-carbonic anhydrase psCA3",
+      "target": "crystal forms A and B"
+    },
+    {
+      "type": "Isolated from",
+      "source": "β-carbonic anhydrase psCA3",
+      "target": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Isolated from",
+      "source": "β-carbonic anhydrase psCA1",
+      "target": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Isolated from",
+      "source": "β-carbonic anhydrase psCA2",
+      "target": "P. aeruginosa PAO1"
+    }
+  ]
+}
+

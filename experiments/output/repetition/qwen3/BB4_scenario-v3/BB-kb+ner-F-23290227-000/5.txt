@@ -1,0 +1,106 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Hafnia"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus faecalis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus plantarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei strain B16"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli O26:H11"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "reduced counts"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "promoted growth"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produced putrescine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produced cadaverine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "did not affect levels of volatile aroma compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibited"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Hafnia",
+      "target": "reduced counts"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia",
+      "target": "promoted growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia",
+      "target": "produced putrescine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia",
+      "target": "produced cadaverine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia",
+      "target": "did not affect levels of volatile aroma compounds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterococcus faecalis",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus plantarum",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Hafnia",
+      "target": "cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei strain B16",
+      "target": "inhibited"
+    },
+    {
+      "type": "Isolated from",
+      "source": "E. coli O26:H11",
+      "target": "cheese"
+    }
+  ]
+}
+```

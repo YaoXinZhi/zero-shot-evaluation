@@ -1,0 +1,69 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pyogenes"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. pyogenes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "glycoprotein-binding activity"
+    },
+    {
+      "type": "Habitat",
+      "name": "host cell surface"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "proteinaceous"
+    },
+    {
+      "type": "Habitat",
+      "name": "solid surfaces coated with glycoproteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "regulated by the mga gene"
+    },
+    {
+      "type": "Microbe",
+      "name": "multiple-gene regulator Mga"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "virulence factors"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "glycoprotein-binding activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "proteinaceous"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus pyogenes",
+      "target": "host cell surface"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "regulated by the mga gene"
+    },
+    {
+      "type": "Exhibits",
+      "source": "multiple-gene regulator Mga",
+      "target": "virulence factors"
+    }
+  ]
+}
+```

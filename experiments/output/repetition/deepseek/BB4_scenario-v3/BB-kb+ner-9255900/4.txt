@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pullorum"
+    },
+    {
+      "type": "Habitat",
+      "name": "asymptomatic poultry"
+    },
+    {
+      "type": "Habitat",
+      "name": "human enteritis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "immunocompromised"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fatty acid pattern"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pullorum",
+      "target": "asymptomatic poultry"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pullorum",
+      "target": "human enteritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pullorum",
+      "target": "fatty acid pattern"
+    }
+  ]
+}
+

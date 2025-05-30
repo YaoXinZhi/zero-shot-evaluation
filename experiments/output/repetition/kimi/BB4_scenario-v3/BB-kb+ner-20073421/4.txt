@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "F. tularensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "F. tularensis LVS"
+    },
+    {
+      "type": "Habitat",
+      "name": "human cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "macrophage-like cell line J774"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ability to proliferate inside the human cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "intracellular growth"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "growth potential"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "lipopolysaccharide"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "interferon-gamma"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis",
+      "target": "human cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "ability to proliferate inside the human cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "F. tularensis LVS",
+      "target": "macrophage-like cell line J774"
+    },
+    {
+      "type": "Exhibits",
+      "source": "F. tularensis",
+      "target": "growth potential"
+    },
+    {
+      "type": "Exhibits",
+      "source": "F. tularensis",
+      "target": "intracellular growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "E. coli",
+      "target": "lipopolysaccharide"
+    },
+    {
+      "type": "Exhibits",
+      "source": "J774 cell line",
+      "target": "interferon-gamma"
+    }
+  ]
+}
+

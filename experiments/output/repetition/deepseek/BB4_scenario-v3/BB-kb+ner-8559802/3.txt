@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium (993)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ampicillin-resistant marker"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "cryptic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "restriction+modification+"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "efficiency of transformation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stable in the absence of antibiotic selection"
+    },
+    {
+      "type": "Habitat",
+      "name": "wild strain of Salmonella"
+    },
+    {
+      "type": "Habitat",
+      "name": "minicells"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Salmonella typhimurium (993)",
+      "target": "wild strain of Salmonella"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella typhimurium (993)",
+      "target": "ampicillin-resistant marker"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella typhimurium (993)",
+      "target": "cryptic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella typhimurium (993)",
+      "target": "efficiency of transformation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella typhimurium (993)",
+      "target": "stable in the absence of antibiotic selection"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Salmonella typhimurium",
+      "target": "minicells"
+    }
+  ]
+}
+

@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Vibrio salmonicida"
+    },
+    {
+      "type": "Habitat",
+      "name": "fish farm sediments"
+    },
+    {
+      "type": "Habitat",
+      "name": "sediment samples from diseased farms"
+    },
+    {
+      "type": "Habitat",
+      "name": "sediment sample from a disease-free fish farm"
+    },
+    {
+      "type": "Habitat",
+      "name": "sediments not influenced by fish farming"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Vibrio salmonicida",
+      "target": "fish farm sediments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio salmonicida",
+      "target": "sediment samples from diseased farms"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio salmonicida",
+      "target": "sediment sample from a disease-free fish farm"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio salmonicida",
+      "target": "sediments not influenced by fish farming"
+    }
+  ]
+}
+

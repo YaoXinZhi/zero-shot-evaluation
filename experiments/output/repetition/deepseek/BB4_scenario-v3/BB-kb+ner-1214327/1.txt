@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Vibrio parahaemolyticus"
+    },
+    {
+      "type": "Habitat",
+      "name": "clinical sources"
+    },
+    {
+      "type": "Habitat",
+      "name": "environmental sources"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Togo"
+    },
+    {
+      "type": "Geographical location",
+      "name": "West Africa"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Japan"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "O antigens"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "K antigens"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Vibrio parahaemolyticus",
+      "target": "clinical sources"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio parahaemolyticus",
+      "target": "environmental sources"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Vibrio parahaemolyticus",
+      "target": "O antigens"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Vibrio parahaemolyticus",
+      "target": "K antigens"
+    }
+  ]
+}
+

@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Clostridium difficile"
+    },
+    {
+      "type": "Microbe",
+      "name": "NAP1/BI/027 strain"
+    },
+    {
+      "type": "Drug",
+      "name": "fidaxomicin"
+    },
+    {
+      "type": "Drug",
+      "name": "vancomycin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cost-effectiveness"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "treatment"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Clostridium difficile",
+      "target": "fidaxomicin"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium difficile",
+      "target": "vancomycin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "fidaxomicin",
+      "target": "cost-effectiveness"
+    },
+    {
+      "type": "Exhibits",
+      "source": "fidaxomicin",
+      "target": "treatment"
+    },
+    {
+      "type": "Exhibits",
+      "source": "NAP1/BI/027 strain",
+      "target": "cost-effectiveness"
+    }
+  ]
+}
+

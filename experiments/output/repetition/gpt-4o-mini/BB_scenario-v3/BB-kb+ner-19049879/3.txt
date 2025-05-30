@@ -1,0 +1,74 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Vibrio parahaemolyticus"
+    },
+    {
+      "type": "Microbe",
+      "name": "MyD88"
+    },
+    {
+      "type": "Habitat",
+      "name": "spleen"
+    },
+    {
+      "type": "Habitat",
+      "name": "muscle"
+    },
+    {
+      "type": "Habitat",
+      "name": "blood"
+    },
+    {
+      "type": "Habitat",
+      "name": "liver"
+    },
+    {
+      "type": "Geographical location",
+      "name": "large yellow croaker"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudosciaena crocea"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "MyD88",
+      "target": "large yellow croaker"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MyD88",
+      "target": "spleen"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MyD88",
+      "target": "muscle"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MyD88",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MyD88",
+      "target": "liver"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "death domain"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "Toll/IL-1R domain structure"
+    }
+  ]
+}
+

@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "L. lactis subsp. cremoris B697"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hydroxy acid dehydrogenase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "transaminase activity"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. lactis subsp. cremoris strain B1157"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "3-methylbutanal production"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "L. lactis subsp. cremoris B697",
+      "target": "hydroxy acid dehydrogenase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis subsp. cremoris B697",
+      "target": "transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis subsp. cremoris strain B1157",
+      "target": "3-methylbutanal production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis subsp. cremoris strain B1157",
+      "target": "transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis subsp. cremoris strain B1157",
+      "target": "hydroxy acid dehydrogenase activity"
+    }
+  ]
+}
+

@@ -1,0 +1,293 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "group A rotavirus"
+    },
+    {
+      "type": "Microbe",
+      "name": "diarrheagenic Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Shigella spp"
+    },
+    {
+      "type": "Microbe",
+      "name": "enterotoxigenic Bacteroides fragilis"
+    },
+    {
+      "type": "Habitat",
+      "name": "Hanoi"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Vietnam"
+    },
+    {
+      "type": "Habitat",
+      "name": "children less than five years of age"
+    },
+    {
+      "type": "Habitat",
+      "name": "children less than one year old"
+    },
+    {
+      "type": "Habitat",
+      "name": "children less than two years old"
+    },
+    {
+      "type": "Habitat",
+      "name": "children attending the hospitals"
+    },
+    {
+      "type": "Habitat",
+      "name": "poor families"
+    },
+    {
+      "type": "Habitat",
+      "name": "families where piped water and a latrine were lacking"
+    },
+    {
+      "type": "Habitat",
+      "name": "families where mothers washed their hands less often before feeding the children"
+    },
+    {
+      "type": "Habitat",
+      "name": "families where mothers had a low level of education"
+    },
+    {
+      "type": "Habitat",
+      "name": "families where information on health and sanitation less often reached their households"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "fever"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "vomiting"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "dehydration"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "watery stool"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "mucous stool"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "group A rotavirus",
+      "target": "children less than five years of age"
+    },
+    {
+      "type": "Isolated from",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "children less than five years of age"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Shigella spp",
+      "target": "children less than five years of age"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "children less than five years of age"
+    },
+    {
+      "type": "Isolated from",
+      "source": "group A rotavirus",
+      "target": "Hanoi"
+    },
+    {
+      "type": "Isolated from",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "Hanoi"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Shigella spp",
+      "target": "Hanoi"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "Hanoi"
+    },
+    {
+      "type": "Isolated from",
+      "source": "group A rotavirus",
+      "target": "children less than one year old"
+    },
+    {
+      "type": "Isolated from",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "children less than one year old"
+    },
+    {
+      "type": "Isolated from",
+      "source": "group A rotavirus",
+      "target": "children less than two years old"
+    },
+    {
+      "type": "Isolated from",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "children less than two years old"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Shigella spp",
+      "target": "children less than five years of age"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "children less than five years of age"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Shigella spp",
+      "target": "children attending the hospitals"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "children attending the hospitals"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children attending the hospitals",
+      "target": "fever"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children attending the hospitals",
+      "target": "vomiting"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children attending the hospitals",
+      "target": "dehydration"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children attending the hospitals",
+      "target": "watery stool"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children attending the hospitals",
+      "target": "mucous stool"
+    },
+    {
+      "type": "Isolated from",
+      "source": "group A rotavirus",
+      "target": "poor families"
+    },
+    {
+      "type": "Isolated from",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "poor families"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Shigella spp",
+      "target": "poor families"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "poor families"
+    },
+    {
+      "type": "Isolated from",
+      "source": "group A rotavirus",
+      "target": "families where piped water and a latrine were lacking"
+    },
+    {
+      "type": "Isolated from",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "families where piped water and a latrine were lacking"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Shigella spp",
+      "target": "families where piped water and a latrine were lacking"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "families where piped water and a latrine were lacking"
+    },
+    {
+      "type": "Isolated from",
+      "source": "group A rotavirus",
+      "target": "families where mothers washed their hands less often before feeding the children"
+    },
+    {
+      "type": "Isolated from",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "families where mothers washed their hands less often before feeding the children"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Shigella spp",
+      "target": "families where mothers washed their hands less often before feeding the children"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "families where mothers washed their hands less often before feeding the children"
+    },
+    {
+      "type": "Isolated from",
+      "source": "group A rotavirus",
+      "target": "families where mothers had a low level of education"
+    },
+    {
+      "type": "Isolated from",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "families where mothers had a low level of education"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Shigella spp",
+      "target": "families where mothers had a low level of education"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "families where mothers had a low level of education"
+    },
+    {
+      "type": "Isolated from",
+      "source": "group A rotavirus",
+      "target": "families where information on health and sanitation less often reached their households"
+    },
+    {
+      "type": "Isolated from",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "families where information on health and sanitation less often reached their households"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Shigella spp",
+      "target": "families where information on health and sanitation less often reached their households"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "families where information on health and sanitation less often reached their households"
+    }
+  ]
+}
+```

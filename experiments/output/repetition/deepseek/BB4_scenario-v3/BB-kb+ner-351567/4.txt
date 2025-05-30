@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "bacteriophage M-13"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "replication of bacteriophage M-13 duplex DNA"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "DNA synthesis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "formation of fully synthetic duplex DNA"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "synthesis of molecules with labeled complementary strands"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "synthesis of both types of hybrid DNA molecules"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "hybrid DNA molecules"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fully synthetic duplex DNA"
+    },
+    {
+      "type": "Habitat",
+      "name": "cell-free extracts"
+    },
+    {
+      "type": "Habitat",
+      "name": "cellophane membrane disks"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "bacteriophage M-13",
+      "target": "cell-free extracts"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "cellophane membrane disks"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteriophage M-13",
+      "target": "replication of bacteriophage M-13 duplex DNA"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "DNA synthesis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "formation of fully synthetic duplex DNA"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "synthesis of molecules with labeled complementary strands"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "synthesis of both types of hybrid DNA molecules"
+    }
+  ]
+}
+

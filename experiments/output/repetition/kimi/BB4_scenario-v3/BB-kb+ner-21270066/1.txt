@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Habitat",
+      "name": "rectal"
+    },
+    {
+      "type": "Habitat",
+      "name": "perianal"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "LGV associated serovar"
+    },
+    {
+      "type": "Geographical location",
+      "name": "UK"
+    },
+    {
+      "type": "Geographical location",
+      "name": "London"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "rectal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "perianal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "LGV associated serovar"
+    }
+  ]
+}
+

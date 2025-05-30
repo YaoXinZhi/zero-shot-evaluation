@@ -1,0 +1,37 @@
+{
+  "entities": [
+    {
+      "type": "Habitat",
+      "name": "central nervous system"
+    },
+    {
+      "type": "Microbe",
+      "name": "bacteria"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "multi-drug resistance"
+    },
+    {
+      "type": "Habitat",
+      "name": "trauma intensive care unit"
+    },
+    {
+      "type": "Habitat",
+      "name": "ICP monitor"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "central nervous system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteria",
+      "target": "multi-drug resistance"
+    }
+  ]
+}
+

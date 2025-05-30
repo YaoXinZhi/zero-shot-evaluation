@@ -1,0 +1,73 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Haemophilus influenzae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "MurNAc 6-phosphate hydrolase"
+    },
+    {
+      "type": "Microbe",
+      "name": "MurQ"
+    },
+    {
+      "type": "Microbe",
+      "name": "MurQ-EC"
+    },
+    {
+      "type": "Microbe",
+      "name": "MurQ-HI"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "catalyzes the cofactor-independent cleavage of a relatively nonlabile ether bond"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "peptidoglycan"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "N-acetylmuramic acid"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "MurNAc"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "MurNAc 6-phosphate hydrolase",
+      "target": "catalyzes the cofactor-independent cleavage of a relatively nonlabile ether bond"
+    },
+    {
+      "type": "Exhibits",
+      "source": "peptidoglycan",
+      "target": "N-acetylmuramic acid"
+    },
+    {
+      "type": "Exhibits",
+      "source": "N-acetylmuramic acid",
+      "target": "MurNAc"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MurQ-EC",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MurQ-HI",
+      "target": "Haemophilus influenzae"
+    }
+  ]
+}
+```

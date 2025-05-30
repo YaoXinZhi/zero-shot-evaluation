@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chondrus crispus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hexose oxidase"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pichia pastoris"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "HOX activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolytic cleavage"
+    },
+    {
+      "type": "Microbe",
+      "name": "Saccharomyces cerevisiae"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "secretion signals"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Chondrus crispus",
+      "target": "hexose oxidase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pichia pastoris",
+      "target": "hexose oxidase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "HOX activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pichia pastoris",
+      "target": "proteolytic cleavage"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Saccharomyces cerevisiae",
+      "target": "secretion signals"
+    }
+  ]
+}
+

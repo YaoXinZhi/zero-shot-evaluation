@@ -1,0 +1,75 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "lactic acid bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactocococcus lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus thermophilus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "metabolise residual lactose"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "metabolise citrate"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "release of intracellular peptidases"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolysis of peptides to free amino acids"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "lactic acid bacteria",
+      "target": "cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacteria",
+      "target": "metabolise residual lactose"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacteria",
+      "target": "metabolise citrate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacteria",
+      "target": "release of intracellular peptidases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacteria",
+      "target": "proteolysis of peptides to free amino acids"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactocococcus lactis",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus thermophilus",
+      "target": "cheese"
+    }
+  ]
+}
+```

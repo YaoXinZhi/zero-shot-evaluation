@@ -1,0 +1,121 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus gasseri K 7"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O8:K88"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacilli"
+    },
+    {
+      "type": "Habitat",
+      "name": "Caco-2 cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "pigs' jejunal tissue"
+    },
+    {
+      "type": "Habitat",
+      "name": "jejunal mucosa"
+    },
+    {
+      "type": "Habitat",
+      "name": "intestinal mucosa"
+    },
+    {
+      "type": "Habitat",
+      "name": "small intestinal tissue"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "adherence"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibition of Escherichia coli adhesion"
+    },
+    {
+      "type": "Geographical location",
+      "name": "pigs' jejunum"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "inhibition of Escherichia coli adhesion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "adherence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O8:K88",
+      "target": "adherence"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "intestinal mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "Caco-2 cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "jejunal mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "Caco-2 cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "jejunal mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacilli",
+      "target": "intestinal mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacilli",
+      "target": "Caco-2 cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "small intestinal tissue"
+    },
+    {
+      "type": "Isolated from",
+      "source": "pigs' jejunal tissue",
+      "target": "jejunal mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "jejunal mucosa",
+      "target": "pigs' jejunum"
+    }
+  ]
+}
+```

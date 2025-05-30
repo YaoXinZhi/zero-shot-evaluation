@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "psychrotrophic"
+    },
+    {
+      "type": "Microbe",
+      "name": "Halomonas"
+    },
+    {
+      "type": "Habitat",
+      "name": "marine environments"
+    },
+    {
+      "type": "Microbe",
+      "name": "Hafnia"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese-making"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter",
+      "target": "psychrotrophic"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Halomonas",
+      "target": "marine environments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Hafnia",
+      "target": "cheese-making"
+    }
+  ]
+}
+

@@ -1,0 +1,121 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli maltose-binding protein"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "MBP"
+    },
+    {
+      "type": "Microbe",
+      "name": "MBP-pepsinogen"
+    },
+    {
+      "type": "Microbe",
+      "name": "MBP-aspartic proteinase"
+    },
+    {
+      "type": "Microbe",
+      "name": "pepsinogen"
+    },
+    {
+      "type": "Microbe",
+      "name": "procathepsin D"
+    },
+    {
+      "type": "Microbe",
+      "name": "chimeric proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "soluble"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "insoluble"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolytically inactive"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "efficiently renatured"
+    },
+    {
+      "type": "Habitat",
+      "name": "E. coli cytoplasm"
+    },
+    {
+      "type": "Habitat",
+      "name": "in vitro"
+    },
+    {
+      "type": "Habitat",
+      "name": "in vivo"
+    },
+    {
+      "type": "Geographical location",
+      "name": "E. coli"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli maltose-binding protein",
+      "target": "E. coli cytoplasm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBP",
+      "target": "soluble"
+    },
+    {
+      "type": "Exhibits",
+      "source": "chimeric proteins",
+      "target": "insoluble"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBP-aspartic proteinase",
+      "target": "soluble"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBP-pepsinogen",
+      "target": "proteolytically inactive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBP-pepsinogen",
+      "target": "efficiently renatured"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MBP",
+      "target": "E. coli"
+    },
+    {
+      "type": "Isolated from",
+      "source": "pepsinogen",
+      "target": "in vitro"
+    },
+    {
+      "type": "Isolated from",
+      "source": "procathepsin D",
+      "target": "in vivo"
+    }
+  ]
+}
+```

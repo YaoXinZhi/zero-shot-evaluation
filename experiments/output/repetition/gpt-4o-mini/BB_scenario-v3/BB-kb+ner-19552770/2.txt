@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Campylobacter"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter jejuni"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter lari"
+    },
+    {
+      "type": "Habitat",
+      "name": "commercially reared partridges"
+    },
+    {
+      "type": "Habitat",
+      "name": "game bird farm"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Southern Italy"
+    },
+    {
+      "type": "Microbe",
+      "name": "thermotolerant Campylobacter spp."
+    },
+    {
+      "type": "Morphological trait",
+      "name": "adult partridges"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "younger partridges"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter",
+      "target": "commercially reared partridges"
+    },
+    {
+      "type": "Isolated from",
+      "source": "thermotolerant Campylobacter spp.",
+      "target": "commercially reared partridges"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter coli",
+      "target": "commercially reared partridges"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter jejuni",
+      "target": "commercially reared partridges"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter",
+      "target": "game bird farm"
+    },
+    {
+      "type": "Isolated from",
+      "source": "thermotolerant Campylobacter spp.",
+      "target": "game bird farm"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter coli",
+      "target": "game bird farm"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter jejuni",
+      "target": "game bird farm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "adult partridges",
+      "target": "higher prevalence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "younger partridges",
+      "target": "lower prevalence"
+    }
+  ]
+}
+

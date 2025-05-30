@@ -1,0 +1,43 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "C. flavescens"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Microbe",
+      "name": "A. arilaitensis"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    },
+    {
+      "type": "Geographical location",
+      "name": "cheese ecosystem"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "C. flavescens",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "A. arilaitensis",
+      "target": "cheese"
+    }
+  ]
+}
+```

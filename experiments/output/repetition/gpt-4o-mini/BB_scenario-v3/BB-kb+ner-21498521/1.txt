@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Vibrio fischeri"
+    },
+    {
+      "type": "Microbe",
+      "name": "Euprymna scolopes"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "bioluminescent"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "light organ"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "lipopolysaccharide"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phosphoglycerol moiety"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Vibrio fischeri",
+      "target": "light organ"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Vibrio fischeri",
+      "target": "bioluminescent"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio fischeri",
+      "target": "lipopolysaccharide"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Vibrio fischeri",
+      "target": "phosphoglycerol moiety"
+    }
+  ]
+}
+

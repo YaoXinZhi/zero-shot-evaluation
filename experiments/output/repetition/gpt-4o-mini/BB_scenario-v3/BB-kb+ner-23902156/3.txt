@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Penicillium crustosum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Penicillium brevicompactum"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "minor allergen"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "major allergen"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hypoallergenic variant"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Pen cr 26"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Pen b 26"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Pen cr 26",
+      "target": "Penicillium crustosum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pen b 26",
+      "target": "Penicillium brevicompactum"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "minor allergen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen b 26",
+      "target": "major allergen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "hypoallergenic variant"
+    }
+  ]
+}
+

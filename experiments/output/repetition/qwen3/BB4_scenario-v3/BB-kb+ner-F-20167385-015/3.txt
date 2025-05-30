@@ -1,0 +1,29 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "S. thermophilus"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. delbrueckii"
+    },
+    {
+      "type": "Microbe",
+      "name": "bacteria"
+    },
+    {
+      "type": "Habitat",
+      "name": "primary stage of cheese fermentation"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "primary stage of cheese fermentation"
+    }
+  ]
+}
+```

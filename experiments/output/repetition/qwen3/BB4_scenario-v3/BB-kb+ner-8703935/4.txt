@@ -1,0 +1,101 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "riboflavin synthase"
+    },
+    {
+      "type": "Microbe",
+      "name": "lumazine protein"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "oligomeric"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "trimeric"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "monomeric"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "binding"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ligand binding"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "site-specific ligand binding"
+    },
+    {
+      "type": "Habitat",
+      "name": "enzyme/ligand complex"
+    },
+    {
+      "type": "Habitat",
+      "name": "partially ligated intermediates"
+    },
+    {
+      "type": "Habitat",
+      "name": "symmetrical fully ligated enzyme/ligand complex"
+    },
+    {
+      "type": "Microbe",
+      "name": "trifluoromethyl-substituted intermediates"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "riboflavin synthase",
+      "target": "oligomeric"
+    },
+    {
+      "type": "Exhibits",
+      "source": "riboflavin synthase",
+      "target": "trimeric"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lumazine protein",
+      "target": "monomeric"
+    },
+    {
+      "type": "Exhibits",
+      "source": "riboflavin synthase",
+      "target": "site-specific ligand binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "riboflavin synthase",
+      "target": "binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "riboflavin synthase",
+      "target": "ligand binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lumazine protein",
+      "target": "binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lumazine protein",
+      "target": "ligand binding"
+    },
+    {
+      "type": "Isolated from",
+      "source": "trifluoromethyl-substituted intermediates",
+      "target": "riboflavin synthase"
+    }
+  ]
+}
+```

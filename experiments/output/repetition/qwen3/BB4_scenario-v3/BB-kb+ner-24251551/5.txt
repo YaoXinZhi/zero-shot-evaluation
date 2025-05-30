@@ -1,0 +1,204 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Haemophilus influenzae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "MurNAc 6-phosphate hydrolase"
+    },
+    {
+      "type": "Microbe",
+      "name": "MurQ"
+    },
+    {
+      "type": "Microbe",
+      "name": "MurQ-EC"
+    },
+    {
+      "type": "Microbe",
+      "name": "MurQ-HI"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cofactor-independent cleavage"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "peptidoglycan"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ether bond"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "C2 atom"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "oxygen at the C3 position"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "C5 hydroxyl group"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "C6 phosphate group"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hydrogen bonding"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "substrate binding"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ring opening"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "one-base mechanism of action"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "deprotonate at the C2 position"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "departure of the lactyl ether at the C3 position"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "deprotonate the incoming water"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "reprotonate the enolate"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Glu89"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Glu120"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Lys239"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "MurNAc 6-phosphate hydrolase",
+      "target": "cofactor-independent cleavage"
+    },
+    {
+      "type": "Exhibits",
+      "source": "peptidoglycan",
+      "target": "ether bond"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurQ-HI",
+      "target": "Glu89"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurQ-HI",
+      "target": "Glu120"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurQ-HI",
+      "target": "Lys239"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Glu89",
+      "target": "C2 atom"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Glu89",
+      "target": "oxygen at the C3 position"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Glu120",
+      "target": "C5 hydroxyl group"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Glu120",
+      "target": "C6 phosphate group"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lys239",
+      "target": "C5 hydroxyl group"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lys239",
+      "target": "C6 phosphate group"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurQ",
+      "target": "substrate binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurQ",
+      "target": "ring opening"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurQ",
+      "target": "one-base mechanism of action"
+    },
+    {
+      "type": "Exhibits",
+      "source": "one-base mechanism of action",
+      "target": "deprotonate at the C2 position"
+    },
+    {
+      "type": "Exhibits",
+      "source": "one-base mechanism of action",
+      "target": "departure of the lactyl ether at the C3 position"
+    },
+    {
+      "type": "Exhibits",
+      "source": "one-base mechanism of action",
+      "target": "deprotonate the incoming water"
+    },
+    {
+      "type": "Exhibits",
+      "source": "one-base mechanism of action",
+      "target": "reprotonate the enolate"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MurQ-EC",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MurQ-HI",
+      "target": "Haemophilus influenzae"
+    }
+  ]
+}
+```

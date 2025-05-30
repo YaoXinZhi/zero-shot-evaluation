@@ -1,0 +1,51 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter strains"
+    },
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter"
+    },
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter arilaitensis Re117"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "soil"
+    },
+    {
+      "type": "Geographical location",
+      "name": "cheese habitat"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "catabolism of D-galactonate"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Arthrobacter strains",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Arthrobacter",
+      "target": "soil"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Arthrobacter strains",
+      "target": "catabolism of D-galactonate"
+    }
+  ]
+}
+```

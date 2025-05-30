@@ -1,0 +1,103 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "inclusion bodies"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "solubility"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolytically inactive"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fusion proteins"
+    },
+    {
+      "type": "Microbe",
+      "name": "mammalian"
+    },
+    {
+      "type": "Microbe",
+      "name": "bacterial"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli maltose-binding protein (MBP)"
+    },
+    {
+      "type": "Microbe",
+      "name": "mammalian aspartic proteinases pepsinogen"
+    },
+    {
+      "type": "Microbe",
+      "name": "procathepsin D"
+    },
+    {
+      "type": "Microbe",
+      "name": "MBP-pepsinogen"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli maltose-binding protein (MBP)",
+      "target": "solubility"
+    },
+    {
+      "type": "Exhibits",
+      "source": "mammalian aspartic proteinases pepsinogen",
+      "target": "proteolytically inactive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "procathepsin D",
+      "target": "proteolytically inactive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBP-pepsinogen",
+      "target": "proteolytically inactive"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli maltose-binding protein (MBP)",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Isolated from",
+      "source": "mammalian aspartic proteinases pepsinogen",
+      "target": "mammalian"
+    },
+    {
+      "type": "Isolated from",
+      "source": "procathepsin D",
+      "target": "mammalian"
+    }
+  ]
+}
+
+": "Isolated from",
+      "source": "aspartic proteinases",
+      "target": "mammalian"
+    },
+    {
+      "type": "Isolated from",
+      "source": "pepsinogen",
+      "target": "mammalian"
+    },
+    {
+      "type": "Isolated from",
+      "source": "procathepsin D",
+      "target": "mammalian"
+    }
+  ]
+}
+

@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "transamination or deamination activity"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "VSC"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "methanethiol"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "DMDS"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "DMTS"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "aroma compounds"
+    },
+    {
+      "type": "Habitat",
+      "name": "beef models"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "transamination or deamination activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "VSC"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "beef models"
+    },
+    {
+      "type": "Isolated from",
+      "source": "VSC",
+      "target": "methanethiol"
+    },
+    {
+      "type": "Isolated from",
+      "source": "VSC",
+      "target": "DMDS"
+    },
+    {
+      "type": "Isolated from",
+      "source": "VSC",
+      "target": "DMTS"
+    }
+  ]
+}
+

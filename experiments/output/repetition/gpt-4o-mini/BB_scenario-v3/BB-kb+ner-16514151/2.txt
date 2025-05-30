@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "MerR"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Deinococcus radiodurans"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mer operon"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Hg(II) binding"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "detoxify mercury"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "MBD"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "metal-binding domain"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "MerR",
+      "target": "Hg(II) binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBD",
+      "target": "metal-binding domain"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MerR",
+      "target": "mer operon"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "Hg(II) binding"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Deinococcus radiodurans",
+      "target": "Hg(II) binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBD",
+      "target": "detoxify mercury"
+    }
+  ]
+}
+

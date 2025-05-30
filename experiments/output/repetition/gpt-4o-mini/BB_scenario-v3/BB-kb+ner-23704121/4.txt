@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Clostridium difficile"
+    },
+    {
+      "type": "Microbe",
+      "name": "NAP1/BI/027 strain"
+    },
+    {
+      "type": "Drug",
+      "name": "fidaxomicin"
+    },
+    {
+      "type": "Drug",
+      "name": "vancomycin"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Clostridium difficile",
+      "target": "CDI"
+    },
+    {
+      "type": "Exhibits",
+      "source": "fidaxomicin",
+      "target": "treatment of Clostridium difficile infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "vancomycin",
+      "target": "treatment of Clostridium difficile infection"
+    },
+    {
+      "type": "Isolated from",
+      "source": "NAP1/BI/027 strain",
+      "target": "Clostridium difficile"
+    }
+  ]
+}
+

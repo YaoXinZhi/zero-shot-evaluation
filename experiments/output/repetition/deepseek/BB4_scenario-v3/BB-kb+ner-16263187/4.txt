@@ -1,0 +1,79 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus gasseri K 7"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O8:K88"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "adhesion"
+    },
+    {
+      "type": "Habitat",
+      "name": "intestinal mucosa"
+    },
+    {
+      "type": "Habitat",
+      "name": "Caco-2 cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "pigs' small intestinal tissue"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibit adhesion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "competition, exclusion and displacement assays"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "inhibit adhesion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O8:K88",
+      "target": "adhesion"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "intestinal mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O8:K88",
+      "target": "intestinal mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "Caco-2 cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O8:K88",
+      "target": "Caco-2 cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "pigs' small intestinal tissue"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O8:K88",
+      "target": "pigs' small intestinal tissue"
+    }
+  ]
+}
+

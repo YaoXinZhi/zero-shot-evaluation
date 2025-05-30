@@ -1,0 +1,96 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "clonal strains"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "Australian transmissible strain"
+    },
+    {
+      "type": "Habitat",
+      "name": "cystic fibrosis units"
+    },
+    {
+      "type": "Habitat",
+      "name": "CF units"
+    },
+    {
+      "type": "Habitat",
+      "name": "paediatric CF units"
+    },
+    {
+      "type": "Habitat",
+      "name": "adult CF units"
+    },
+    {
+      "type": "Habitat",
+      "name": "Brisbane"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Australia"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "colonial morphology"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "multiresistance"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "cystic fibrosis units"
+    },
+    {
+      "type": "Isolated from",
+      "source": "P. aeruginosa",
+      "target": "CF units"
+    },
+    {
+      "type": "Isolated from",
+      "source": "clonal strains",
+      "target": "paediatric CF units"
+    },
+    {
+      "type": "Isolated from",
+      "source": "clonal strains",
+      "target": "adult CF units"
+    },
+    {
+      "type": "Isolated from",
+      "source": "clonal strains",
+      "target": "Brisbane"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Australian transmissible strain",
+      "target": "Australia"
+    },
+    {
+      "type": "Exhibits",
+      "source": "clonal strains",
+      "target": "multiresistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "clonal strains",
+      "target": "colonial morphology"
+    }
+  ]
+}
+```

@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium (993)"
+    },
+    {
+      "type": "Microbe",
+      "name": "wild strain of Salmonella"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. typhimurium"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ampicillin-resistant marker"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "cryptic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "better efficiency of transformation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stable in the absence of antibiotic selection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "compatible with pBR322"
+    },
+    {
+      "type": "Habitat",
+      "name": "drug-resistant strain"
+    },
+    {
+      "type": "Habitat",
+      "name": "restriction+modification+strain"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Salmonella typhimurium (993)",
+      "target": "drug-resistant strain"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella typhimurium (993)",
+      "target": "ampicillin-resistant marker"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella typhimurium (993)",
+      "target": "cryptic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. typhimurium",
+      "target": "better efficiency of transformation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. typhimurium",
+      "target": "stable in the absence of antibiotic selection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. typhimurium",
+      "target": "compatible with pBR322"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. typhimurium",
+      "target": "restriction+modification+strain"
+    }
+  ]
+}
+

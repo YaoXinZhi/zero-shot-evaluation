@@ -1,0 +1,147 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "Burkholderia cepacia"
+    },
+    {
+      "type": "Microbe",
+      "name": "Aspergillus fumigatus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Stenotrophomonas maltophilia"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium abscessus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hydrogen cyanide production"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ammonia production"
+    },
+    {
+      "type": "Habitat",
+      "name": "lungs/airways"
+    },
+    {
+      "type": "Geographical location",
+      "name": "CF patients"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stationary phase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "(9.0-9.5) × 10(9) colony forming units"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "14.5 microliters per hour"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "addition of tobramycin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "reduced HCN production"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "up to 0.35µl h(-1)"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "hydrogen cyanide production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "ammonia production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "stationary phase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "(9.0-9.5) × 10(9) colony forming units"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "14.5 microliters per hour"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Burkholderia cepacia",
+      "target": "hydrogen cyanide production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Burkholderia cepacia",
+      "target": "up to 0.35µl h(-1)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "addition of tobramycin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "reduced HCN production"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "lungs/airways"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Burkholderia cepacia",
+      "target": "lungs/airways"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Aspergillus fumigatus",
+      "target": "lungs/airways"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Stenotrophomonas maltophilia",
+      "target": "lungs/airways"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycobacterium abscessus",
+      "target": "lungs/airways"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "CF patients"
+    }
+  ]
+}
+```

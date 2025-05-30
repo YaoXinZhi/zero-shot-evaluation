@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "L. lactis subsp. cremoris B1157"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. ammoniagenes B1506"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "enzyme activities involved in the conversion of the amino acid leucine into flavour components like 3-methylbutanal"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "formation of 3-methylbutanal"
+    },
+    {
+      "type": "Habitat",
+      "name": "dairy industry"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "L. lactis subsp. cremoris B1157",
+      "target": "formation of 3-methylbutanal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. ammoniagenes B1506",
+      "target": "formation of 3-methylbutanal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis subsp. cremoris B1157",
+      "target": "enzyme activities involved in the conversion of the amino acid leucine into flavour components like 3-methylbutanal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. ammoniagenes B1506",
+      "target": "enzyme activities involved in the conversion of the amino acid leucine into flavour components like 3-methylbutanal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "L. lactis subsp. cremoris B1157",
+      "target": "dairy industry"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. ammoniagenes B1506",
+      "target": "dairy industry"
+    }
+  ]
+}
+

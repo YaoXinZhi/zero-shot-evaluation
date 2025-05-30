@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "MRSA"
+    },
+    {
+      "type": "Habitat",
+      "name": "jail setting"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "oxacillin-resistant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "methicillin resistance"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "jail setting"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "jail setting"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "methicillin resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "oxacillin-resistant"
+    }
+  ]
+}
+

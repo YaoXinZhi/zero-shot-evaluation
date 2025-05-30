@@ -1,0 +1,52 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Methylobacterium extorquens AM1"
+    },
+    {
+      "type": "Microbe",
+      "name": "Methylobacterium extorquens"
+    },
+    {
+      "type": "Habitat",
+      "name": "carbon sources"
+    },
+    {
+      "type": "Habitat",
+      "name": "methanol"
+    },
+    {
+      "type": "Habitat",
+      "name": "succinate"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "growth"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Methylobacterium extorquens AM1",
+      "target": "growth"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Methylobacterium extorquens AM1",
+      "target": "carbon sources"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Methylobacterium extorquens AM1",
+      "target": "methanol"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Methylobacterium extorquens AM1",
+      "target": "succinate"
+    }
+  ]
+}
+```

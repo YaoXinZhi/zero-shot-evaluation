@@ -1,0 +1,91 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Burkholderia pseudomallei"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "lipopolysaccharide"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "immunoreactivities"
+    },
+    {
+      "type": "Habitat",
+      "name": "environment"
+    },
+    {
+      "type": "Disease",
+      "name": "melioidosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "B. pseudomallei"
+    },
+    {
+      "type": "Microbe",
+      "name": "Ara+ Burkholderia pseudomallei isolates"
+    },
+    {
+      "type": "Microbe",
+      "name": "Ara- clinical isolates"
+    },
+    {
+      "type": "Microbe",
+      "name": "Ara- soil"
+    },
+    {
+      "type": "Microbe",
+      "name": "Ara+ soil"
+    },
+    {
+      "type": "Microbe",
+      "name": "National Type Culture Collection strains"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Burkholderia pseudomallei",
+      "target": "lipopolysaccharide"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Burkholderia pseudomallei",
+      "target": "environment"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Burkholderia pseudomallei",
+      "target": "immunoreactivities"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Ara+ Burkholderia pseudomallei isolates",
+      "target": "environment"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Ara- clinical isolates",
+      "target": "environment"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Ara- soil",
+      "target": "environment"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Ara+ soil",
+      "target": "environment"
+    },
+    {
+      "type": "Isolated from",
+      "source": "National Type Culture Collection strains",
+      "target": "environment"
+    }
+  ]
+}
+

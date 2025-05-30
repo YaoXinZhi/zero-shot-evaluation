@@ -1,0 +1,111 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium linens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium aurantiacum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium permense"
+    },
+    {
+      "type": "Microbe",
+      "name": "Corynebacterium spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Corynebacterium casei"
+    },
+    {
+      "type": "Microbe",
+      "name": "Corynebacterium variabile"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surfaces"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheeses from the farmhouses"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese from dairy A"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese from dairy B"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese from dairy C"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium linens",
+      "target": "cheese surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium aurantiacum",
+      "target": "cheese from dairy C"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium permense",
+      "target": "cheese from dairy A"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Corynebacterium spp.",
+      "target": "cheese surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Corynebacterium casei",
+      "target": "cheeses from the farmhouses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Corynebacterium variabile",
+      "target": "cheeses from the farmhouses"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Brevibacterium linens",
+      "target": "ripening cultures"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Brevibacterium aurantiacum",
+      "target": "ripening cultures"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Brevibacterium permense",
+      "target": "not previously found on cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Corynebacterium spp.",
+      "target": "dominant bacterial species"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Corynebacterium casei",
+      "target": "predominant bacterial species"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Corynebacterium variabile",
+      "target": "predominant bacterial species"
+    }
+  ]
+}
+

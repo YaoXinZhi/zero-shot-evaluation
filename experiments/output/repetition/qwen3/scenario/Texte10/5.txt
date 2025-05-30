@@ -1,0 +1,29 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Plant", "name": "crops"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "global"},
+      {"type": "Geographic", "name": "United Nations"},
+      {"type": "Geographic", "name": "Food and Agriculture Organization"},
+      {"type": "Geographic", "name": "world"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Affects", "target": "crops"},
+      {"source": "plant diseases", "type": "Located in", "target": "global"},
+      {"source": "potato aphid", "type": "Located in", "target": "UK"},
+      {"source": "Food and Agriculture Organization", "type": "Located in", "target": "United Nations"},
+      {"source": "strawberries", "type": "Located in", "target": "UK"},
+      {"source": "plant diseases", "type": "Causes", "target": "$220 billion cost to global economy"},
+      {"source": "invasive insects", "type": "Causes", "target": "$70 billion cost to global economy"}
+    ]
+  }
+]
+

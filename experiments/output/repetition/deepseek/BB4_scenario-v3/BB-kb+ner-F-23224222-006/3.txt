@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus thermophilus"
+    },
+    {
+      "type": "Habitat",
+      "name": "raw milk cheese from dairy A"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "thermophilic lactic acid bacterium"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "milk acidification"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cheese ripening"
+    },
+    {
+      "type": "Habitat",
+      "name": "raw milk"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus thermophilus",
+      "target": "raw milk cheese from dairy A"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus thermophilus",
+      "target": "thermophilic lactic acid bacterium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus thermophilus",
+      "target": "milk acidification"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus thermophilus",
+      "target": "cheese ripening"
+    }
+  ]
+}
+

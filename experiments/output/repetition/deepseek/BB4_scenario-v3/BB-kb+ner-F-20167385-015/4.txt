@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "S. thermophilus"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. delbrueckii"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "fermentation"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "S. thermophilus",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "L. delbrueckii",
+      "target": "cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. thermophilus",
+      "target": "fermentation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. delbrueckii",
+      "target": "fermentation"
+    }
+  ]
+}
+

@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "hemoglobin capture complex"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "iron-scavenging pathway"
+    },
+    {
+      "type": "Habitat",
+      "name": "mammals"
+    },
+    {
+      "type": "Microbe",
+      "name": "IsdH"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Hb-binding proteins"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Hb-receptor"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "hemoglobin"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "mammals"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "hemoglobin capture complex"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "iron-scavenging pathway"
+    },
+    {
+      "type": "Exhibits",
+      "source": "IsdH",
+      "target": "Hb-binding proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hemoglobin",
+      "target": "Hb-receptor"
+    }
+  ]
+}
+

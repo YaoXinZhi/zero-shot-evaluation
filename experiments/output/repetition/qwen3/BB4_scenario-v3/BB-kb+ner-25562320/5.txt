@@ -1,0 +1,115 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mtb"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phagocytosis of apoptotic cells and associated vesicles"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "efferocytosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cross-presentation"
+    },
+    {
+      "type": "Microbe",
+      "name": "DCs"
+    },
+    {
+      "type": "Microbe",
+      "name": "DC"
+    },
+    {
+      "type": "Microbe",
+      "name": "human blood monocyte-derived DCs"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antigen-specific CD8+ T cell response"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "immune evasion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antigen-presenting machinery"
+    },
+    {
+      "type": "Microbe",
+      "name": "annexin1"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "downregulated"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "DCs",
+      "target": "phagocytosis of apoptotic cells and associated vesicles"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DCs",
+      "target": "efferocytosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DCs",
+      "target": "cross-presentation"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mtb",
+      "target": "human blood monocyte-derived DCs"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mtb",
+      "target": "immune evasion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DC",
+      "target": "antigen-presenting machinery"
+    },
+    {
+      "type": "Exhibits",
+      "source": "annexin1",
+      "target": "mediates the power of DC efferocytosis and cross-presentation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mtb-infected human blood monocyte-derived DCs",
+      "target": "downregulated"
+    },
+    {
+      "type": "Exhibits",
+      "source": "annexin1",
+      "target": "important mediator in DC cross-presentation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "annexin1-deficient mice",
+      "target": "impaired Mtb antigen-specific CD8+ T cell response"
+    },
+    {
+      "type": "Exhibits",
+      "source": "annexin1-deficient mice",
+      "target": "highly susceptible to Mtb infection"
+    }
+  ]
+}
+```

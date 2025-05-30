@@ -1,0 +1,93 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "HCl secretion"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "duodenal ulcers"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "bulbitis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "chronic antral gastritis"
+    },
+    {
+      "type": "Habitat",
+      "name": "antrum"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "gastroduodenal ulcers"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "reflux oesophagitis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Zollinger Ellison's syndrome"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "chronic antral gastritis"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "antrum"
+    },
+    {
+      "type": "Exhibits",
+      "source": "omeprazole",
+      "target": "blocker of the proton pump of the parietal cell"
+    },
+    {
+      "type": "Exhibits",
+      "source": "omeprazole",
+      "target": "inhibits basal and stimulated HCl secretion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "omeprazole",
+      "target": "used for treatment of gastroduodenal ulcers"
+    },
+    {
+      "type": "Exhibits",
+      "source": "omeprazole",
+      "target": "used for treatment of reflux oesophagitis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "omeprazole",
+      "target": "used for treatment of Zollinger Ellison's syndrome"
+    },
+    {
+      "type": "Exhibits",
+      "source": "omeprazole",
+      "target": "effect of healing of duodenal ulcers and bulbitis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "omeprazole",
+      "target": "effect of elimination of Helicobacter pylori"
+    },
+    {
+      "type": "Exhibits",
+      "source": "omeprazole",
+      "target": "effect of reduction of chronic antral gastritis"
+    }
+  ]
+}
+

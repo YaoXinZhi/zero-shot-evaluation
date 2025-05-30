@@ -1,0 +1,82 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Debaryomyces hansenii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Geotrichum spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "D. hansenii"
+    },
+    {
+      "type": "Microbe",
+      "name": "cheeses from dairies C"
+    },
+    {
+      "type": "Microbe",
+      "name": "cheeses from dairy D"
+    },
+    {
+      "type": "Microbe",
+      "name": "cheese from dairy B"
+    },
+    {
+      "type": "Microbe",
+      "name": "cheese from dairy A"
+    },
+    {
+      "type": "Microbe",
+      "name": "Yarrowia lipolytica"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. lipolytica"
+    },
+    {
+      "type": "Microbe",
+      "name": "D. hansenii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Geotrichum spp."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Debaryomyces hansenii",
+      "target": "cheeses from dairies C"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Debaryomyces hansenii",
+      "target": "cheeses from dairy D"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Geotrichum spp.",
+      "target": "cheese from dairy B"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yarrowia lipolytica",
+      "target": "cheese from dairy A"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. lipolytica",
+      "target": "naturally developing"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. lipolytica",
+      "target": "rapidly outnumber"
+    }
+  ]
+}
+```

@@ -1,0 +1,54 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus thermophilus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus plantarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactococcus lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pediococcus damnosus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus plantarum WCFS1"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "surface polysaccharide production"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of exopolysaccharides"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "cps genes clusters"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus plantarum",
+      "target": "surface polysaccharide production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus plantarum WCFS1",
+      "target": "cps genes clusters"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus plantarum",
+      "target": "production of exopolysaccharides"
+    }
+  ]
+}
+

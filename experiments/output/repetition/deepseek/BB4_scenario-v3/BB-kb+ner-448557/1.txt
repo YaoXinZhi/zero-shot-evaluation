@@ -1,0 +1,85 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "respiratory syncytial virus"
+    },
+    {
+      "type": "Microbe",
+      "name": "parainfluenza virus types 1 and 3"
+    },
+    {
+      "type": "Microbe",
+      "name": "adenoviruses"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma pneumoniae"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "wheezing"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "acute lower respiratory illness"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "lower respiratory illness"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "wheezing associated respiratory infections"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "wheezing illness"
+    },
+    {
+      "type": "Habitat",
+      "name": "pediatric practice"
+    },
+    {
+      "type": "Habitat",
+      "name": "children under 5 years of age"
+    },
+    {
+      "type": "Habitat",
+      "name": "school age children"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "respiratory syncytial virus",
+      "target": "wheezing associated respiratory infections"
+    },
+    {
+      "type": "Exhibits",
+      "source": "parainfluenza virus types 1 and 3",
+      "target": "wheezing associated respiratory infections"
+    },
+    {
+      "type": "Exhibits",
+      "source": "adenoviruses",
+      "target": "wheezing associated respiratory infections"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycoplasma pneumoniae",
+      "target": "wheezing illness"
+    },
+    {
+      "type": "Isolated from",
+      "source": "respiratory syncytial virus",
+      "target": "children under 5 years of age"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma pneumoniae",
+      "target": "school age children"
+    }
+  ]
+}
+

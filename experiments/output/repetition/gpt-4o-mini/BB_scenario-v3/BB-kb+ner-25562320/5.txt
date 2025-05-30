@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "annexin1"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "efferocytosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cross-presentation"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mtb"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mtb-infected human blood monocyte-derived DCs"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium tuberculosis",
+      "target": "efferocytosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium tuberculosis",
+      "target": "cross-presentation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "annexin1",
+      "target": "efferocytosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "annexin1",
+      "target": "cross-presentation"
+    },
+    {
+      "type": "Isolated from",
+      "source": "annexin1",
+      "target": "Mtb-infected human blood monocyte-derived DCs"
+    }
+  ]
+}
+

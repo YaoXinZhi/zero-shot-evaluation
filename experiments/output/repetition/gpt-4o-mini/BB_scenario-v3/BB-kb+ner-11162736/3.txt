@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "FlgF"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "susceptible to cleavage by endogenous proteases"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stable full-length product"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "sensitive to proteolysis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "digested when the cells were disrupted"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "not digested when the cells were disrupted in the presence of urea"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "flagellar rod protein"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "protease-free FlgF"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Salmonella typhimurium",
+      "target": "FlgF"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "susceptible to cleavage by endogenous proteases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "not digested when the cells were disrupted in the presence of urea"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "stable full-length product"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "sensitive to proteolysis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "digested when the cells were disrupted"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "FlgF"
+    }
+  ]
+}
+

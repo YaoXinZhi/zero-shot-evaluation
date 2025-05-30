@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Microbe",
+      "name": "lymphogranuloma venereum"
+    },
+    {
+      "type": "Habitat",
+      "name": "UK"
+    },
+    {
+      "type": "Geographical location",
+      "name": "London"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proctitis symptoms"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "perianal ulceration"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "rectal LGV"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "UK"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lymphogranuloma venereum",
+      "target": "UK"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphogranuloma venereum",
+      "target": "perianal ulceration"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphogranuloma venereum",
+      "target": "proctitis symptoms"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rectal LGV",
+      "target": "proctitis symptoms"
+    }
+  ]
+}
+

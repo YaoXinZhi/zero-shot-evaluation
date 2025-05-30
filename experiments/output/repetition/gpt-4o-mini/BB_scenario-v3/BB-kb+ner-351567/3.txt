@@ -1,0 +1,70 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "M-13"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "hybrid DNA molecules"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "DNA synthesis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "replication"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "synthesis of molecules with labeled complementary strands"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "formation of fully synthetic duplex DNA"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "M-13",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Exhibits",
+      "source": "M-13",
+      "target": "replication"
+    },
+    {
+      "type": "Exhibits",
+      "source": "M-13",
+      "target": "DNA synthesis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "DNA synthesis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "M-13",
+      "target": "hybrid DNA molecules"
+    },
+    {
+      "type": "Exhibits",
+      "source": "M-13",
+      "target": "synthesis of molecules with labeled complementary strands"
+    },
+    {
+      "type": "Exhibits",
+      "source": "M-13",
+      "target": "formation of fully synthetic duplex DNA"
+    }
+  ]
+}
+

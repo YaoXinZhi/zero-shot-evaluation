@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "mycobacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "BCG"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "granulomatous immune response"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "granulomatous lesion"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "central caseous necrosis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "calcification"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fibrotic changes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "TCR-gamma delta-bearing"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "CD8+"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "mycobacteria",
+      "target": "BCG granulomatous lesions"
+    },
+    {
+      "type": "Isolated from",
+      "source": "gamma delta T cells",
+      "target": "BCG granulomatous lesions"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gamma delta T cells",
+      "target": "granulomatous immune response"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gamma delta T cells",
+      "target": "TCR-gamma delta-bearing"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CD8+ gamma delta T lymphocytes",
+      "target": "CD8+"
+    }
+  ]
+}
+

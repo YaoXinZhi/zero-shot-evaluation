@@ -1,0 +1,142 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. psittaci"
+    },
+    {
+      "type": "Habitat",
+      "name": "McCoy cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for addition of histidine to the medium"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for the addition of tryptophan to the medium"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "no requirement for tryptophan or methionine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for methionine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for addition of valine to medium"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "required leucine, phenylalanine and also glutamine"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "clinical syndrome"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "host origin"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "serotypes A, B and C"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "serotypes D-I"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "lymphogranuloma venereum"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fast variant"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "McCoy cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. psittaci",
+      "target": "McCoy cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "requirement for addition of histidine to the medium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "clinical syndrome"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. psittaci",
+      "target": "host origin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "requirement for the addition of tryptophan to the medium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "no requirement for tryptophan or methionine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "requirement for methionine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "serotypes A, B and C"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "serotypes D-I"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "lymphogranuloma venereum"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "fast variant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. psittaci",
+      "target": "distinct patterns of amino acid requirements"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "requirement for addition of valine to medium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "required leucine, phenylalanine and also glutamine"
+    }
+  ]
+}
+

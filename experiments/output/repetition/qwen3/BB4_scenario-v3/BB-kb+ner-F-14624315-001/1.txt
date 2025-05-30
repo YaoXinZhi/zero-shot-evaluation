@@ -1,0 +1,44 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactococcus lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Propionibacterium"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Lactococcus lactis",
+      "target": "transaminases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus",
+      "target": "transaminases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus",
+      "target": "transaminases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Propionibacterium",
+      "target": "transaminases"
+    }
+  ]
+}
+```

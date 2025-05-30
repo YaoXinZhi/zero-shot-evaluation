@@ -1,0 +1,38 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Pest", "name": "'Candidatus Liberibacter asiaticus'"},
+      {"type": "Pest", "name": "CLas"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "Citrus× sinensis(L.) Osbeck"},
+      {"type": "Plant", "name": "sweet orange"},
+      {"type": "Vector", "name": "Agrobacterium"},
+      {"type": "Pest", "name": "sarcotoxin IA"},
+      {"type": "Pest", "name": "stx IA"},
+      {"type": "Plant", "name": "Sarcophaga peregrina"},
+      {"type": "Plant", "name": "flesh fly"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "'Candidatus Liberibacter asiaticus'", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "CLas", "type": "Causes", "target": "HLB"},
+      {"source": "'Candidatus Liberibacter asiaticus'", "type": "Causes", "target": "HLB"},
+      {"source": "citrus", "type": "Affects", "target": "Huanglongbing"},
+      {"source": "citrus", "type": "Affects", "target": "HLB"},
+      {"source": "citrus", "type": "Have been found on", "target": "'Candidatus Liberibacter asiaticus'"},
+      {"source": "citrus", "type": "Have been found on", "target": "CLas"},
+      {"source": "Citrus× sinensis(L.) Osbeck", "type": "Have been found on", "target": "'Candidatus Liberibacter asiaticus'"},
+      {"source": "Citrus× sinensis(L.) Osbeck", "type": "Have been found on", "target": "CLas"},
+      {"source": "sweet orange", "type": "Have been found on", "target": "sarcotoxin IA"},
+      {"source": "sweet orange", "type": "Have been found on", "target": "stx IA"},
+      {"source": "Agrobacterium", "type": "Transmit", "target": "sarcotoxin IA"},
+      {"source": "Agrobacterium", "type": "Transmit", "target": "stx IA"},
+      {"source": "Sarcophaga peregrina", "type": "Have been found on", "target": "sarcotoxin IA"},
+      {"source": "flesh fly", "type": "Have been found on", "target": "sarcotoxin IA"}
+    ]
+  }
+]
+

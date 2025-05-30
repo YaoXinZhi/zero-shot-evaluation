@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma agassizii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma testudineum"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "clinical signs consistent with URTD"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "limited pathogenicity for gopher tortoises"
+    },
+    {
+      "type": "Habitat",
+      "name": "free-ranging gopher tortoises (Gopherus polyphemus)"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Georgia, USA"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "exposure to Mycoplasma agassizii and Mycoplasma testudineum"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma agassizii",
+      "target": "free-ranging gopher tortoises (Gopherus polyphemus)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma testudineum",
+      "target": "free-ranging gopher tortoises (Gopherus polyphemus)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "free-ranging gopher tortoises (Gopherus polyphemus)",
+      "target": "clinical signs consistent with URTD"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycoplasma testudineum",
+      "target": "limited pathogenicity for gopher tortoises"
+    },
+    {
+      "type": "Exhibits",
+      "source": "free-ranging gopher tortoises (Gopherus polyphemus)",
+      "target": "exposure to Mycoplasma agassizii and Mycoplasma testudineum"
+    }
+  ]
+}
+

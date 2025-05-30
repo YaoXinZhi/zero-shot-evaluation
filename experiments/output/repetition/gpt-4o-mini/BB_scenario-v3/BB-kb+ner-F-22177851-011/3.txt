@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. celer"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "aroma compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of aroma compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "sulfur compounds"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "aldehydes"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ketones"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "production of aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "sulfur compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "production of aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "sulfur compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "aldehydes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "ketones"
+    }
+  ]
+}
+

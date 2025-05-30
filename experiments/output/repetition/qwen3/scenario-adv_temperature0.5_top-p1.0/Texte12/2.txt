@@ -1,0 +1,20 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "host plant"},
+      {"type": "Vector", "name": "BdorOBP13"},
+      {"type": "Disease", "name": "odorant binding protein"},
+      {"type": "Geographic", "name": "B. dorsalis"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "host plant"},
+      {"source": "Bactrocera dorsalis", "type": "Transmit", "target": "odorant binding protein"},
+      {"source": "odorant binding protein", "type": "Transmit", "target": "BdorOBP13"},
+      {"source": "BdorOBP13", "type": "Have been found on", "target": "Bactrocera dorsalis"}
+    ]
+  }
+]
+

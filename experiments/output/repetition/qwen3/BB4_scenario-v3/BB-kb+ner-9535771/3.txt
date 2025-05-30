@@ -1,0 +1,113 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli maltose-binding protein"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "MBP"
+    },
+    {
+      "type": "Microbe",
+      "name": "MBP-pepsinogen"
+    },
+    {
+      "type": "Microbe",
+      "name": "MBP-aspartic proteinase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "soluble"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolytically inactive"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "efficiently renatured"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "forming inclusion bodies"
+    },
+    {
+      "type": "Habitat",
+      "name": "E. coli cytoplasm"
+    },
+    {
+      "type": "Habitat",
+      "name": "in vitro"
+    },
+    {
+      "type": "Habitat",
+      "name": "in vivo"
+    },
+    {
+      "type": "Geographical location",
+      "name": "in vitro"
+    },
+    {
+      "type": "Geographical location",
+      "name": "in vivo"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli maltose-binding protein",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MBP",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBP-aspartic proteinase",
+      "target": "soluble"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBP-aspartic proteinase",
+      "target": "proteolytically inactive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBP-pepsinogen",
+      "target": "efficiently renatured"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBP-aspartic proteinase",
+      "target": "forming inclusion bodies"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MBP-aspartic proteinase",
+      "target": "E. coli cytoplasm"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MBP-aspartic proteinase",
+      "target": "in vivo"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MBP-pepsinogen",
+      "target": "in vitro"
+    }
+  ]
+}
+```

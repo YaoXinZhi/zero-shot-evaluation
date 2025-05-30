@@ -1,0 +1,166 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157:H7"
+    },
+    {
+      "type": "Microbe",
+      "name": "frog"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibacterial properties"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bactericidal kinetics"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "potent bactericidal properties"
+    },
+    {
+      "type": "Habitat",
+      "name": "commercial apple juice"
+    },
+    {
+      "type": "Geographical location",
+      "name": "food"
+    },
+    {
+      "type": "Microbe",
+      "name": "dermaseptin S4"
+    },
+    {
+      "type": "Microbe",
+      "name": "K4K20S4"
+    },
+    {
+      "type": "Microbe",
+      "name": "P28"
+    },
+    {
+      "type": "Microbe",
+      "name": "P14"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "MIC"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hydrophobicity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "charge"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "structure"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "binding"
+    },
+    {
+      "type": "Habitat",
+      "name": "membrane"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "dermaseptin S4",
+      "target": "antibacterial properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4",
+      "target": "antibacterial properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P28",
+      "target": "MIC"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P28",
+      "target": "bactericidal kinetics"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P28",
+      "target": "potent bactericidal properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P14",
+      "target": "MIC"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P14",
+      "target": "potent bactericidal properties"
+    },
+    {
+      "type": "Isolated from",
+      "source": "dermaseptin S4",
+      "target": "frog"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157:H7",
+      "target": "food pathogen"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "food"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lipopeptide",
+      "target": "commercial apple juice"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lipopeptide",
+      "target": "MIC"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lipopeptide",
+      "target": "potent bactericidal properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "peptides",
+      "target": "hydrophobicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "peptides",
+      "target": "charge"
+    },
+    {
+      "type": "Exhibits",
+      "source": "peptides",
+      "target": "structure"
+    },
+    {
+      "type": "Exhibits",
+      "source": "peptides",
+      "target": "binding"
+    },
+    {
+      "type": "Isolated from",
+      "source": "peptides",
+      "target": "membrane"
+    }
+  ]
+}
+```

@@ -1,0 +1,75 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Vibrio fischeri"
+    },
+    {
+      "type": "Microbe",
+      "name": "Euprymna scolopes"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "bioluminescent"
+    },
+    {
+      "type": "Habitat",
+      "name": "light organ"
+    },
+    {
+      "type": "Habitat",
+      "name": "marine"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Hawaiian"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "symbiotic relationship"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "trigger morphological changes"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Vibrio fischeri",
+      "target": "bioluminescent"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio fischeri",
+      "target": "marine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio fischeri",
+      "target": "light organ"
+    },
+    {
+      "type": "Isolated from",
+      "source": "light organ",
+      "target": "Euprymna scolopes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Vibrio fischeri",
+      "target": "symbiotic relationship"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lipopolysaccharide (LPS) or free lipid A",
+      "target": "trigger morphological changes"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio fischeri ES114",
+      "target": "lipopolysaccharide"
+    }
+  ]
+}
+```

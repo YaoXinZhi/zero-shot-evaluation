@@ -1,0 +1,74 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "human immunodeficiency virus"
+    },
+    {
+      "type": "Microbe",
+      "name": "HIV"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "gastric hypoacidity"
+    },
+    {
+      "type": "Habitat",
+      "name": "human immunodeficiency virus-infected outpatients"
+    },
+    {
+      "type": "Habitat",
+      "name": "persons infected with human immunodeficiency virus"
+    },
+    {
+      "type": "Geographical location",
+      "name": "black populations"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Hispanic populations"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "human immunodeficiency virus-infected outpatients"
+    },
+    {
+      "type": "Isolated from",
+      "source": "human immunodeficiency virus",
+      "source": "persons infected with human immunodeficiency virus"
+    },
+    {
+      "type": "Exhibits",
+      "source": "human immunodeficiency virus",
+      "target": "gastric hypoacidity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. pylori",
+      "target": "positive serology"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. pylori",
+      "target": "black populations"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. pylori",
+      "target": "Hispanic populations"
+    }
+  ]
+}
+```

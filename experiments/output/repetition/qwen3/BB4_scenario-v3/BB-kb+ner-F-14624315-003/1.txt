@@ -1,0 +1,57 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "CFE"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. lactis spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus thermophilus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "transaminase activity"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "branched-chain"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "CFE",
+      "target": "transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "transaminase activity",
+      "target": "branched-chain"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus",
+      "target": "transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis spp.",
+      "target": "transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus thermophilus",
+      "target": "transaminase activity"
+    }
+  ]
+}
+```

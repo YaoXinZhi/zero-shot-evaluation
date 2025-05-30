@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis H37Rv"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "aminoglycoside phosphotransferase (APH)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibiotic resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "enzymatic modification of the antibiotics"
+    },
+    {
+      "type": "Habitat",
+      "name": "human population"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium tuberculosis",
+      "target": "aminoglycoside phosphotransferase (APH)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium tuberculosis",
+      "target": "antibiotic resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium tuberculosis",
+      "target": "enzymatic modification of the antibiotics"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycobacterium tuberculosis",
+      "target": "human population"
+    }
+  ]
+}
+

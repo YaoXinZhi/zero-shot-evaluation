@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Clostridium perfringens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Clostridium perfringens Type A"
+    },
+    {
+      "type": "Microbe",
+      "name": "Artemisia annua"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "necrotic enteritis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antimicrobial properties"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "feed conversion ratio"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "body weight"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "feed intake"
+    },
+    {
+      "type": "Habitat",
+      "name": "intestinal microbiota"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Clostridium perfringens",
+      "target": "intestinal microbiota"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Artemisia annua",
+      "target": "antimicrobial properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Artemisia annua",
+      "target": "feed conversion ratio"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Artemisia annua",
+      "target": "body weight"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Artemisia annua",
+      "target": "feed intake"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium perfringens",
+      "target": "necrotic enteritis"
+    }
+  ]
+}
+

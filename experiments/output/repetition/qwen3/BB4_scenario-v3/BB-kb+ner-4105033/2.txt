@@ -1,0 +1,129 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "alkaline phosphatase"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "spheroplasts"
+    },
+    {
+      "type": "Habitat",
+      "name": "periplasm"
+    },
+    {
+      "type": "Habitat",
+      "name": "cytoplasmic membrane"
+    },
+    {
+      "type": "Habitat",
+      "name": "external cell wall layers"
+    },
+    {
+      "type": "Habitat",
+      "name": "peptidoglycan layer"
+    },
+    {
+      "type": "Habitat",
+      "name": "tripartite layer of the cell wall"
+    },
+    {
+      "type": "Habitat",
+      "name": "cells suspended in sucrose"
+    },
+    {
+      "type": "Habitat",
+      "name": "cells suspended in 20% sucrose"
+    },
+    {
+      "type": "Habitat",
+      "name": "cells suspended in 0.2 m MgCl(2)"
+    },
+    {
+      "type": "Habitat",
+      "name": "sucrose-washed cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "spheroplasts prepared in the presence of 0.2 m Mg(2+)"
+    },
+    {
+      "type": "Habitat",
+      "name": "spheroplasts prepared in the presence of 20% sucrose"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "periplasm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "alkaline phosphatase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "spheroplasts"
+    },
+    {
+      "type": "Isolated from",
+      "source": "spheroplasts",
+      "target": "cells suspended in 20% sucrose"
+    },
+    {
+      "type": "Isolated from",
+      "source": "spheroplasts",
+      "target": "cells suspended in 0.2 m MgCl(2)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "cells suspended in 20% sucrose"
+    },
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "sucrose-washed cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "external cell wall layers"
+    },
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "cytoplasmic membrane"
+    },
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "peptidoglycan layer"
+    },
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "tripartite layer of the cell wall"
+    },
+    {
+      "type": "Isolated from",
+      "source": "spheroplasts prepared in the presence of 20% sucrose",
+      "target": "periplasm"
+    },
+    {
+      "type": "Isolated from",
+      "source": "spheroplasts prepared in the presence of 0.2 m Mg(2+)",
+      "target": "periplasm"
+    }
+  ]
+}
+```

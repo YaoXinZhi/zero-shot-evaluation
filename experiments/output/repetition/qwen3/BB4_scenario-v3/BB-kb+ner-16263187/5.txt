@@ -1,0 +1,99 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus gasseri K 7"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacilli"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lb. gasseri K 7"
+    },
+    {
+      "type": "Habitat",
+      "name": "Caco-2 cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "pigs' jejunal tissue"
+    },
+    {
+      "type": "Habitat",
+      "name": "intestinal mucosa"
+    },
+    {
+      "type": "Habitat",
+      "name": "jejunal mucosa"
+    },
+    {
+      "type": "Geographical location",
+      "name": "pigs'"
+    },
+    {
+      "type": "Geographical location",
+      "name": "jejunal"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibit adhesion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "adhere"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "reduce adhesion"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "inhibit adhesion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "adhere"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "reduce adhesion"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "intestinal mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacilli",
+      "target": "Caco-2 cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "E. coli",
+      "target": "Caco-2 cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lb. gasseri K 7",
+      "target": "jejunal mucosa"
+    }
+  ]
+}
+```

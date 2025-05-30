@@ -1,0 +1,30 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Plant", "name": "crops"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "global"},
+      {"type": "Geographic", "name": "United Nations"},
+      {"type": "Geographic", "name": "Food and Agriculture Organization"},
+      {"type": "Geographic", "name": "world"},
+      {"type": "Geographic", "name": "agricultural sector"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Affects", "target": "crops"},
+      {"source": "plant diseases", "type": "Located in", "target": "global"},
+      {"source": "potato aphid", "type": "Located in", "target": "global"},
+      {"source": "Food and Agriculture Organization", "type": "Located in", "target": "United Nations"},
+      {"source": "strawberries", "type": "Located in", "target": "UK"},
+      {"source": "Experts", "type": "Located in", "target": "Midlands"},
+      {"source": "research", "type": "Located in", "target": "Midlands"}
+    ]
+  }
+]
+

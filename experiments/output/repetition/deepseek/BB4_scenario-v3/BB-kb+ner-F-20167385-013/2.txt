@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas"
+    },
+    {
+      "type": "Microbe",
+      "name": "Gram-negative bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Halomonas"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterobacteriaceae family"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surface"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Gram-negative bacteria",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Halomonas",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterobacteriaceae family",
+      "target": "cheese surface"
+    }
+  ]
+}
+

@@ -1,0 +1,51 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "B. linens"
+    },
+    {
+      "type": "Habitat",
+      "name": "Casera"
+    },
+    {
+      "type": "Habitat",
+      "name": "Gorgonzola"
+    },
+    {
+      "type": "Habitat",
+      "name": "Scimudin cheese surfaces"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Casera"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Gorgonzola"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Scimudin"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "B. linens",
+      "target": "Casera"
+    },
+    {
+      "type": "Isolated from",
+      "source": "B. linens",
+      "target": "Gorgonzola"
+    },
+    {
+      "type": "Isolated from",
+      "source": "B. linens",
+      "target": "Scimudin cheese surfaces"
+    }
+  ]
+}
+```

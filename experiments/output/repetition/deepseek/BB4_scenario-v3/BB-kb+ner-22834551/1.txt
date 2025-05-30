@@ -1,0 +1,104 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Artemisia annua"
+    },
+    {
+      "type": "Microbe",
+      "name": "Clostridium perfringens"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "essential oils"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antimicrobial properties"
+    },
+    {
+      "type": "Habitat",
+      "name": "broiler performance"
+    },
+    {
+      "type": "Habitat",
+      "name": "intestinal microbiota"
+    },
+    {
+      "type": "Habitat",
+      "name": "necrotic enteritis disease model"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "feed intake"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "body weight"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "feed conversion ratio"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "intestinal C. perfringens numbers"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "severity of the disease-related small intestinal lesions"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "weight gains"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Artemisia annua",
+      "target": "essential oils"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Artemisia annua",
+      "target": "antimicrobial properties"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium perfringens",
+      "target": "necrotic enteritis disease model"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium perfringens",
+      "target": "intestinal C. perfringens numbers"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium perfringens",
+      "target": "severity of the disease-related small intestinal lesions"
+    },
+    {
+      "type": "Exhibits",
+      "source": "broiler performance",
+      "target": "feed intake"
+    },
+    {
+      "type": "Exhibits",
+      "source": "broiler performance",
+      "target": "body weight"
+    },
+    {
+      "type": "Exhibits",
+      "source": "broiler performance",
+      "target": "feed conversion ratio"
+    },
+    {
+      "type": "Exhibits",
+      "source": "broiler performance",
+      "target": "weight gains"
+    }
+  ]
+}
+

@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Bacillus intermedius"
+    },
+    {
+      "type": "Microbe",
+      "name": "Bacillus intermedius S3-19"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Alkaline phosphatase (APase)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phosphomonoesterase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phosphodiesterase"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "monomer with molecular weight of 46-47 kD"
+    },
+    {
+      "type": "Habitat",
+      "name": "culture liquid"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Bacillus intermedius S3-19",
+      "target": "culture liquid"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Bacillus intermedius S3-19",
+      "target": "Alkaline phosphatase (APase)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Bacillus intermedius S3-19",
+      "target": "phosphomonoesterase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Bacillus intermedius S3-19",
+      "target": "phosphodiesterase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Alkaline phosphatase (APase)",
+      "target": "monomer with molecular weight of 46-47 kD"
+    }
+  ]
+}
+

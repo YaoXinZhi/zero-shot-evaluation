@@ -1,0 +1,133 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157"
+    },
+    {
+      "type": "Microbe",
+      "name": "enterohemorrhagic E. coli (EHEC) O157:H7"
+    },
+    {
+      "type": "Microbe",
+      "name": "Sakai strain"
+    },
+    {
+      "type": "Microbe",
+      "name": "lambdoid phages"
+    },
+    {
+      "type": "Microbe",
+      "name": "plant pathogens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Shigella"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "type III secretion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inject effector proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "subvert eukaryotic cell biology"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteomics"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "translocation assays"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "exchangeable effector loci"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "pathogenic"
+    },
+    {
+      "type": "Habitat",
+      "name": "human cells"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157",
+      "target": "type III secretion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157",
+      "target": "inject effector proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157",
+      "target": "subvert eukaryotic cell biology"
+    },
+    {
+      "type": "Exhibits",
+      "source": "enterohemorrhagic E. coli (EHEC) O157:H7",
+      "target": "type III secretion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "enterohemorrhagic E. coli (EHEC) O157:H7",
+      "target": "inject effector proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "enterohemorrhagic E. coli (EHEC) O157:H7",
+      "target": "subvert eukaryotic cell biology"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Sakai strain",
+      "target": "type III secretion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Sakai strain",
+      "target": "inject effector proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Sakai strain",
+      "target": "subvert eukaryotic cell biology"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "pathogenic"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157",
+      "target": "human cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterohemorrhagic E. coli (EHEC) O157:H7",
+      "target": "human cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lambdoid phages",
+      "target": "exchangeable effector loci"
+    }
+  ]
+}
+```

@@ -1,0 +1,43 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "nontypeable Haemophilus influenzae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Haemophilus influenzae"
+    },
+    {
+      "type": "Habitat",
+      "name": "the throats"
+    },
+    {
+      "type": "Geographical location",
+      "name": "day care center"
+    },
+    {
+      "type": "Microbe",
+      "name": "NTHi"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "nontypeable Haemophilus influenzae",
+      "target": "the throats"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Haemophilus influenzae",
+      "target": "the throats"
+    },
+    {
+      "type": "Isolated from",
+      "source": "NTHi",
+      "target": "the throats"
+    }
+  ]
+}
+```

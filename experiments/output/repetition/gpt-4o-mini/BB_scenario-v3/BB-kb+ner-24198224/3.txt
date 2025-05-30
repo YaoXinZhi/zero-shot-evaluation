@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella Paratyphi A"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Nepal"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Israel"
+    },
+    {
+      "type": "Habitat",
+      "name": "food venue"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "nalidixic acid resistant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacteremia"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Salmonella Paratyphi A",
+      "target": "Nepal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Salmonella Paratyphi A",
+      "target": "Israel"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella Paratyphi A",
+      "target": "nalidixic acid resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella Paratyphi A",
+      "target": "bacteremia"
+    }
+  ]
+}
+

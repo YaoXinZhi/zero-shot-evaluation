@@ -1,0 +1,65 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Citrus tristeza virus"},
+      {"type": "Pest", "name": "Huanglongbing (HLB)"},
+      {"type": "Pest", "name": "Phytophthora"},
+      {"type": "Pest", "name": "nematodes"},
+      {"type": "Disease", "name": "Tristeza"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Disease", "name": "yellow branch disease"},
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Plant", "name": "citrus fruits"},
+      {"type": "Plant", "name": "Tarocco Scirè"},
+      {"type": "Plant", "name": "Mandared"},
+      {"type": "Plant", "name": "Citrus clementina"},
+      {"type": "Plant", "name": "Citrus sinensis"},
+      {"type": "Plant", "name": "pine trees"},
+      {"type": "Geographic", "name": "Italy"},
+      {"type": "Geographic", "name": "Sicily"},
+      {"type": "Geographic", "name": "United States"},
+      {"type": "Geographic", "name": "Spain"},
+      {"type": "Geographic", "name": "Etnean capital"},
+      {"type": "Geographic", "name": "Acireale"},
+      {"type": "Vector", "name": "vector insects"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Citrus tristeza virus", "type": "Causes", "target": "Tristeza"},
+      {"source": "Huanglongbing (HLB)", "type": "Causes", "target": "HLB"},
+      {"source": "Phytophthora", "type": "Causes", "target": "disease"},
+      {"source": "nematodes", "type": "Causes", "target": "disease"},
+      {"source": "Citrus tristeza virus", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "Huanglongbing (HLB)", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "Phytophthora", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "nematodes", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "vector insects", "type": "Transmit", "target": "Huanglongbing (HLB)"},
+      {"source": "vector insects", "type": "Transmit", "target": "Citrus tristeza virus"},
+      {"source": "Tristeza", "type": "Affects", "target": "citrus plants"},
+      {"source": "HLB", "type": "Affects", "target": "citrus plants"},
+      {"source": "yellow branch disease", "type": "Affects", "target": "citrus plants"},
+      {"source": "citrus plants", "type": "Located in", "target": "Italy"},
+      {"source": "citrus plants", "type": "Located in", "target": "Sicily"},
+      {"source": "citrus plants", "type": "Located in", "target": "United States"},
+      {"source": "citrus plants", "type": "Located in", "target": "Spain"},
+      {"source": "citrus fruits", "type": "Located in", "target": "Italy"},
+      {"source": "citrus fruits", "type": "Located in", "target": "Sicily"},
+      {"source": "citrus fruits", "type": "Located in", "target": "United States"},
+      {"source": "citrus fruits", "type": "Located in", "target": "Spain"},
+      {"source": "Tarocco Scirè", "type": "Located in", "target": "Sicily"},
+      {"source": "Mandared", "type": "Located in", "target": "Sicily"},
+      {"source": "Citrus clementina", "type": "Located in", "target": "Sicily"},
+      {"source": "Citrus sinensis", "type": "Located in", "target": "Sicily"},
+      {"source": "Citrus tristeza virus", "type": "Located in", "target": "Italy"},
+      {"source": "Citrus tristeza virus", "type": "Located in", "target": "Sicily"},
+      {"source": "Huanglongbing (HLB)", "type": "Located in", "target": "United States"},
+      {"source": "Huanglongbing (HLB)", "type": "Located in", "target": "Italy"},
+      {"source": "Phytophthora", "type": "Located in", "target": "Italy"},
+      {"source": "nematodes", "type": "Located in", "target": "Italy"},
+      {"source": "vector insects", "type": "Located in", "target": "Italy"},
+      {"source": "vector insects", "type": "Located in", "target": "United States"}
+    ]
+  }
+]
+

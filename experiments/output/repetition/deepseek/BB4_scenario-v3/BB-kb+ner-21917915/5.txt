@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "iron-scavenging pathway"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Hb-binding proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Hb capture complex"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "iron-regulated surface determinant"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Hb-receptor"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "Hb-binding proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "iron-scavenging pathway"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "Hb capture complex"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "iron-regulated surface determinant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "Hb-receptor"
+    }
+  ]
+}
+

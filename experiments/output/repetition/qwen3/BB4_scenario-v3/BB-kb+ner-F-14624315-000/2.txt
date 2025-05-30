@@ -1,0 +1,159 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactococcus sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Propionibacterium sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Lb. bulgaricus spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Bifidobacterium sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Corynebacterium sp."
+    },
+    {
+      "type": "Habitat",
+      "name": "semi-hard cheeses"
+    },
+    {
+      "type": "Habitat",
+      "name": "Gouda"
+    },
+    {
+      "type": "Habitat",
+      "name": "Cheddar"
+    },
+    {
+      "type": "Habitat",
+      "name": "Maasdammer"
+    },
+    {
+      "type": "Habitat",
+      "name": "Swiss-type cheeses"
+    },
+    {
+      "type": "Habitat",
+      "name": "(health-promoting) yoghurts"
+    },
+    {
+      "type": "Habitat",
+      "name": "surface-ripened cheeses"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "degradation of protein into amino acids"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "conversion of amino acids"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "flavour development"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Lactococcus sp.",
+      "target": "semi-hard cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus sp.",
+      "target": "semi-hard cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Propionibacterium sp.",
+      "target": "Maasdammer"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Propionibacterium sp.",
+      "target": "Swiss-type cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus sp.",
+      "target": "(health-promoting) yoghurts"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lb. bulgaricus spp.",
+      "target": "(health-promoting) yoghurts"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Bifidobacterium sp.",
+      "target": "(health-promoting) yoghurts"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Arthrobacter",
+      "target": "surface-ripened cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium",
+      "target": "surface-ripened cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Corynebacterium sp.",
+      "target": "surface-ripened cheeses"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactococcus sp.",
+      "target": "degradation of protein into amino acids"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus sp.",
+      "target": "conversion of amino acids"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactococcus sp.",
+      "target": "conversion of amino acids"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus sp.",
+      "target": "flavour development"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactococcus sp.",
+      "target": "flavour development"
+    }
+  ]
+}
+```

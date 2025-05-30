@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis Live Vaccine Strain (LVS)"
+    },
+    {
+      "type": "Microbe",
+      "name": "human pathogenic F. tularensis ssp tularensis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "surface nucleolin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "elongation factor Tu (EF-Tu)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "GTP-binding protein"
+    },
+    {
+      "type": "Habitat",
+      "name": "monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "human monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "host tissues"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phagosomal escape and intra-cytosolic multiplication"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis",
+      "target": "monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis Live Vaccine Strain (LVS)",
+      "target": "human monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "surface nucleolin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "elongation factor Tu (EF-Tu)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis Live Vaccine Strain (LVS)",
+      "target": "GTP-binding protein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "human pathogenic F. tularensis ssp tularensis",
+      "target": "phagosomal escape and intra-cytosolic multiplication"
+    }
+  ]
+}
+

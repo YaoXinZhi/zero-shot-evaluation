@@ -1,0 +1,109 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "BCG"
+    },
+    {
+      "type": "Microbe",
+      "name": "mycobacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "TCR-gamma delta-bearing T cells"
+    },
+    {
+      "type": "Microbe",
+      "name": "gamma delta T cells"
+    },
+    {
+      "type": "Microbe",
+      "name": "T-lymphocytes"
+    },
+    {
+      "type": "Habitat",
+      "name": "BCG granulomas"
+    },
+    {
+      "type": "Habitat",
+      "name": "granulomatous lesion"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "periphery"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "central caseous necrosis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "calcification"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fibrotic changes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "activated"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "accumulate"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "express CD8"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "TCR-gamma delta-bearing T cells",
+      "target": "activated"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gamma delta T cells",
+      "target": "accumulate"
+    },
+    {
+      "type": "Isolated from",
+      "source": "gamma delta T cells",
+      "target": "BCG granulomas"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gamma delta T cells",
+      "target": "periphery"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gamma delta T cells",
+      "target": "express CD8"
+    },
+    {
+      "type": "Isolated from",
+      "source": "gamma delta T cells",
+      "target": "granulomatous lesion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "BCG granulomas",
+      "target": "central caseous necrosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "BCG granulomas",
+      "target": "calcification"
+    },
+    {
+      "type": "Exhibits",
+      "source": "BCG granulomas",
+      "target": "fibrotic changes"
+    }
+  ]
+}
+```

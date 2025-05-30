@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus plantarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lc. lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "STEC O26:H11"
+    },
+    {
+      "type": "Microbe",
+      "name": "O157:H7"
+    },
+    {
+      "type": "Habitat",
+      "name": "milk"
+    },
+    {
+      "type": "Habitat",
+      "name": "ripened cheese"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "milk"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus plantarum",
+      "target": "milk"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lc. lactis",
+      "target": "milk"
+    },
+    {
+      "type": "Isolated from",
+      "source": "STEC O26:H11",
+      "target": "milk"
+    },
+    {
+      "type": "Isolated from",
+      "source": "O157:H7",
+      "target": "milk"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "inhibitory"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus plantarum",
+      "target": "inhibitory"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lc. lactis",
+      "target": "inhibitory"
+    }
+  ]
+}
+

@@ -1,0 +1,119 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Agrobacterium rhizogenes"
+    },
+    {
+      "type": "Microbe",
+      "name": "Agrobacterium rhizogenes strains of the agropine type"
+    },
+    {
+      "type": "Microbe",
+      "name": "Agrobacterium rhizogenes"
+    },
+    {
+      "type": "Microbe",
+      "name": "Agrobacterium rhizogenes"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "reduced stature"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "off-shoots at the stem base"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "bent and wrinkled leaves"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "epinastic growth"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "hairy-root disease"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "constitutive expression"
+    },
+    {
+      "type": "Habitat",
+      "name": "tobacco leaf discs"
+    },
+    {
+      "type": "Habitat",
+      "name": "tobacco plants"
+    },
+    {
+      "type": "Geographical location",
+      "name": "tobacco"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "root formation"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Agrobacterium rhizogenes",
+      "target": "Ri-plasmid"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Agrobacterium rhizogenes strains of the agropine type",
+      "target": "harbor"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rolB gene",
+      "target": "constitutive expression"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rolBTR",
+      "target": "reduced stature"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rolBTR",
+      "target": "off-shoots at the stem base"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rolBTR",
+      "target": "bent and wrinkled leaves"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rolBTR",
+      "target": "epinastic growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rolB",
+      "target": "hairy-root disease"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Agrobacterium rhizogenes",
+      "target": "root formation"
+    },
+    {
+      "type": "Isolated from",
+      "source": "rolBTR",
+      "target": "TR-DNA"
+    },
+    {
+      "type": "Isolated from",
+      "source": "rolB",
+      "target": "TL-DNA"
+    }
+  ]
+}
+```

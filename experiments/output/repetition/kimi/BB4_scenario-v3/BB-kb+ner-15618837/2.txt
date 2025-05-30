@@ -1,0 +1,74 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Habitat",
+      "name": "Gastric biopsies"
+    },
+    {
+      "type": "Habitat",
+      "name": "dyspeptic patients"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "eradication"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "recurrence"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Republic of Yemen"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistance"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "excess delta C-UBT value"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "Gastric biopsies"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "dyspeptic patients"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "eradication"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "recurrence"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "Republic of Yemen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "excess delta C-UBT value"
+    }
+  ]
+}
+

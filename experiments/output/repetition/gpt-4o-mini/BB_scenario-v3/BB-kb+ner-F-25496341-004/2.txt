@@ -1,0 +1,38 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus infantarius"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Western Africa"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Eastern Africa"
+    },
+    {
+      "type": "Microbe",
+      "name": "strain CJ18"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus infantarius",
+      "target": "Western Africa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "strain CJ18",
+      "target": "Eastern Africa"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus infantarius",
+      "target": "ability to ferment lactose"
+    }
+  ]
+}
+

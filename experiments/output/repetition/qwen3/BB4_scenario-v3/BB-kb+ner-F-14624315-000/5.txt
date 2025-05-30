@@ -1,0 +1,176 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactococcus sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Propionibacterium sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Lb. bulgaricus spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Bifidobacterium sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Corynebacterium sp."
+    },
+    {
+      "type": "Habitat",
+      "name": "semi-hard cheeses"
+    },
+    {
+      "type": "Habitat",
+      "name": "Maasdammer"
+    },
+    {
+      "type": "Habitat",
+      "name": "Swiss-type cheeses"
+    },
+    {
+      "type": "Habitat",
+      "name": "yoghurts"
+    },
+    {
+      "type": "Habitat",
+      "name": "surface-ripened cheeses"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "flavour development"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "formation of very diverse flavours"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "health-promoting"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Lactococcus sp.",
+      "target": "semi-hard cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus sp.",
+      "target": "semi-hard cheeses"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactococcus sp.",
+      "target": "flavour development"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus sp.",
+      "target": "flavour development"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Propionibacterium sp.",
+      "target": "Maasdammer"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Propionibacterium sp.",
+      "target": "Swiss-type cheeses"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Propionibacterium sp.",
+      "target": "formation of very diverse flavours"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus sp.",
+      "target": "yoghurts"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lb. bulgaricus spp.",
+      "target": "yoghurts"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Bifidobacterium sp.",
+      "target": "yoghurts"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus sp.",
+      "target": "formation of very diverse flavours"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lb. bulgaricus spp.",
+      "target": "formation of very diverse flavours"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Bifidobacterium sp.",
+      "target": "formation of very diverse flavours"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Bifidobacterium sp.",
+      "target": "health-promoting"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Arthrobacter",
+      "target": "surface-ripened cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium",
+      "target": "surface-ripened cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Corynebacterium sp.",
+      "target": "surface-ripened cheeses"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Arthrobacter",
+      "target": "formation of very diverse flavours"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Brevibacterium",
+      "target": "formation of very diverse flavours"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Corynebacterium sp.",
+      "target": "formation of very diverse flavours"
+    }
+  ]
+}
+```

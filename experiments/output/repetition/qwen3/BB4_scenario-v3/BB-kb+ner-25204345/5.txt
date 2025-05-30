@@ -1,0 +1,112 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "lactic acid bacterial strains"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus durans HZ28"
+    },
+    {
+      "type": "Habitat",
+      "name": "natural fermented koumiss"
+    },
+    {
+      "type": "Habitat",
+      "name": "yoghurt"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "quinolone resistance"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Food and Agriculture Organization/World Health Organization"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus durans"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistance towards norfloxacin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistance towards ciprofloxacin"
+    },
+    {
+      "type": "Microbe",
+      "name": "quinolone resistance strains"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mutations"
+    },
+    {
+      "type": "Microbe",
+      "name": "gyrA genes"
+    },
+    {
+      "type": "Microbe",
+      "name": "parC genes"
+    },
+    {
+      "type": "Microbe",
+      "name": "topoisomerase II"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "lactic acid bacterial strains",
+      "target": "natural fermented koumiss"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lactic acid bacterial strains",
+      "target": "yoghurt"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacterial strains",
+      "target": "quinolone resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacterial strains",
+      "target": "resistance towards norfloxacin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacterial strains",
+      "target": "resistance towards ciprofloxacin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "quinolone resistance strains",
+      "target": "mutations"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gyrA genes",
+      "target": "mutations"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Enterococcus durans HZ28",
+      "target": "mutations"
+    }
+  ]
+}
+```

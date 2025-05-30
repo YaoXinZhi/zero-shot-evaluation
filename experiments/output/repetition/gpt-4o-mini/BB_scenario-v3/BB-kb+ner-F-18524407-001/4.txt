@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "P. freudenreichii subsp. shermanii"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ropy-producing"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "EPS production"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "P. freudenreichii subsp. shermanii",
+      "target": "ropy-producing"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. freudenreichii subsp. shermanii",
+      "target": "EPS production"
+    }
+  ]
+}
+

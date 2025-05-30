@@ -1,0 +1,137 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Legionella pneumophila"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "membrane-impermeant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cytotoxic"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "DNA-binding"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fluorescent"
+    },
+    {
+      "type": "Habitat",
+      "name": "macrophage cell line"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "permeant"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "cytotoxicity"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "robust"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "intracellular growth"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Legionella pneumophila",
+      "target": "macrophage cell line"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Legionella pneumophila",
+      "target": "intracellular growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "membrane-impermeant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "DNA-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "fluorescent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "cytotoxic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CellTox Green",
+      "target": "membrane-impermeant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CellTox Green",
+      "target": "DNA-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CellTox Green",
+      "target": "fluorescent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CellTox Green",
+      "target": "cytotoxic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "GelGreen",
+      "target": "membrane-impermeant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "GelGreen",
+      "target": "DNA-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "GelGreen",
+      "target": "fluorescent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "GelGreen",
+      "target": "cytotoxic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "membrane-impermeant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "DNA-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "fluorescent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "cytotoxic"
+    }
+  ]
+}
+

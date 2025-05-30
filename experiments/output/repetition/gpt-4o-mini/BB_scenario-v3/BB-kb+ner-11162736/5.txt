@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "FlgF"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "susceptible to cleavage by endogenous proteases"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stable full-length product"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "sensitive to proteolysis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "digested when the cells were disrupted"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "not digested when the cells were disrupted in the presence of urea"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "susceptible to cleavage by endogenous proteases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "not digested when the cells were disrupted in the presence of urea"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "sensitive to proteolysis"
+    },
+    {
+      "type": "Isolated from",
+      "source": "FlgF",
+      "target": "Salmonella typhimurium"
+    },
+    {
+      "type": "Isolated from",
+      "source": "FlgF",
+      "target": "Escherichia coli"
+    }
+  ]
+}
+

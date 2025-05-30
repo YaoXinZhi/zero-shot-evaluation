@@ -1,0 +1,127 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "methicillin-resistant Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "MRSA"
+    },
+    {
+      "type": "Habitat",
+      "name": "patients in a nursing home"
+    },
+    {
+      "type": "Habitat",
+      "name": "skilled nursing facility"
+    },
+    {
+      "type": "Habitat",
+      "name": "Nares and stool swab cultures"
+    },
+    {
+      "type": "Habitat",
+      "name": "community SNF"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "genotyping by field-inversion gel electrophoresis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phenotyping by antibiogram"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "genotyping by FIGE REA"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibiograms"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "disk-diffusion method"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "REA DNA types"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "prevalent REA DNA types"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "prevalent patterns"
+    },
+    {
+      "type": "Geographical location",
+      "name": "one SNF"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "patients in a nursing home"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "skilled nursing facility"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "Nares and stool swab cultures"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "community SNF"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "genotyping by field-inversion gel electrophoresis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "phenotyping by antibiogram"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "genotyping by FIGE REA"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "antibiograms"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "disk-diffusion method"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "REA DNA types"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "prevalent REA DNA types"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "prevalent patterns"
+    }
+  ]
+}
+

@@ -1,0 +1,29 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Disease", "name": "greening"},
+      {"type": "Pest", "name": "‘Candidatus Liberibacter asiaticus’"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "Citrus× sinensis(L.) Osbeck"},
+      {"type": "Plant", "name": "sweet orange"},
+      {"type": "Vector", "name": "Agrobacterium"},
+      {"type": "Pest", "name": "sarcotoxin IA"},
+      {"type": "Plant", "name": "Sarcophaga peregrina"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Huanglongbing", "type": "Causes", "target": "HLB"},
+      {"source": "HLB", "type": "Causes", "target": "greening"},
+      {"source": "‘Candidatus Liberibacter asiaticus’", "type": "Causes", "target": "HLB"},
+      {"source": "HLB", "type": "Affects", "target": "citrus"},
+      {"source": "Agrobacterium", "type": "Transmit", "target": "sarcotoxin IA"},
+      {"source": "sarcotoxin IA", "type": "Have been found on", "target": "sweet orange"},
+      {"source": "sweet orange", "type": "Located in", "target": "Citrus× sinensis(L.) Osbeck"},
+      {"source": "Sarcophaga peregrina", "type": "Have been found on", "target": "sarcotoxin IA"}
+    ]
+  }
+]
+

@@ -1,0 +1,222 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Gram-negative bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterobacter cloacae"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Acinetobacter baumannii"
+    },
+    {
+      "type": "Microbe",
+      "name": "gram positive bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "fungi"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Candida"
+    },
+    {
+      "type": "Habitat",
+      "name": "blood"
+    },
+    {
+      "type": "Habitat",
+      "name": "urine"
+    },
+    {
+      "type": "Habitat",
+      "name": "sputum"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to broad-spectrum penicillin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Vancomycin resistance"
+    },
+    {
+      "type": "Habitat",
+      "name": "hematological ward"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Gram-negative bacteria",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Gram-negative bacteria",
+      "target": "urine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Gram-negative bacteria",
+      "target": "sputum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "urine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "sputum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterobacter cloacae",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterobacter cloacae",
+      "target": "urine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterobacter cloacae",
+      "target": "sputum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "E. coli",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "E. coli",
+      "target": "urine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "E. coli",
+      "target": "sputum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Acinetobacter baumannii",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Acinetobacter baumannii",
+      "target": "urine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Acinetobacter baumannii",
+      "target": "sputum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "gram positive bacteria",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "gram positive bacteria",
+      "target": "urine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "gram positive bacteria",
+      "target": "sputum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "fungi",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "fungi",
+      "target": "urine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "fungi",
+      "target": "sputum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterococcus",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterococcus",
+      "target": "urine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterococcus",
+      "target": "sputum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Candida",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Candida",
+      "target": "urine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Candida",
+      "target": "sputum"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "resistant to broad-spectrum penicillin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Enterobacter cloacae",
+      "target": "resistant to broad-spectrum penicillin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "E. coli",
+      "target": "resistant to broad-spectrum penicillin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Enterococcus",
+      "target": "Vancomycin resistance"
+    }
+  ]
+}
+

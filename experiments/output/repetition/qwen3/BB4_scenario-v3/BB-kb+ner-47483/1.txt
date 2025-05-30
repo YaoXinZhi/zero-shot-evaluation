@@ -1,0 +1,98 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Haemophilus influenzae type B"
+    },
+    {
+      "type": "Microbe",
+      "name": "gram-negative bacilli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ampicillin-resistant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "possessing a TEM-type beta-lactamase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "little permeability barrier to ampicillin"
+    },
+    {
+      "type": "Habitat",
+      "name": "U.S."
+    },
+    {
+      "type": "Habitat",
+      "name": "Germany"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "greater permeability of the H. influenzae cell to penicillins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "highly resistant"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae type B",
+      "target": "ampicillin-resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae type B",
+      "target": "possessing a TEM-type beta-lactamase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae type B",
+      "target": "little permeability barrier to ampicillin"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Haemophilus influenzae type B",
+      "target": "U.S."
+    },
+    {
+      "type": "Isolated from",
+      "source": "Haemophilus influenzae type B",
+      "target": "Germany"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae type B",
+      "target": "greater permeability of the H. influenzae cell to penicillins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gram-negative bacilli",
+      "target": "ampicillin-resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gram-negative bacilli",
+      "target": "possessing a TEM-type beta-lactamase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae type B",
+      "target": "highly resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "highly resistant"
+    }
+  ]
+}
+```

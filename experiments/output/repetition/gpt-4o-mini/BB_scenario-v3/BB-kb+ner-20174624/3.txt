@@ -1,0 +1,96 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Yersinia pestis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Yersinia pseudotuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Yersinia enterocolitica"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "virulence plasmid-containing Yersinia"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "virulence plasmid-deficient Y. pestis strain KIM6"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "virulence plasmid-containing strain Y. pestis KIM5"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "apoptosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "PMN ROS production"
+    },
+    {
+      "type": "Habitat",
+      "name": "human innate immune system"
+    },
+    {
+      "type": "Microbe",
+      "name": "human monocyte-derived macrophages (HMDM)"
+    },
+    {
+      "type": "Microbe",
+      "name": "polymorphonuclear leukocytes (neutrophils or PMNs)"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Yersinia pestis",
+      "target": "human innate immune system"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "human innate immune system"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia enterocolitica",
+      "target": "human innate immune system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia YopJ",
+      "target": "apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia YopP",
+      "target": "apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "virulence plasmid-deficient Y. pestis strain KIM6",
+      "target": "PMN ROS production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "virulence plasmid-containing Yersinia",
+      "target": "PMN ROS production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "virulence plasmid-deficient Y. pestis strain KIM6",
+      "target": "cell death"
+    },
+    {
+      "type": "Exhibits",
+      "source": "virulence plasmid-containing strain Y. pestis KIM5",
+      "target": "PMN cell death"
+    }
+  ]
+}
+

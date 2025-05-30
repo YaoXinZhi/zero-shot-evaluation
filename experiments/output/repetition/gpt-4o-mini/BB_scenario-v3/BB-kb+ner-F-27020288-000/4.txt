@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus thermophilus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus plantarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactococcus lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pediococcus damnosus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus plantarum WCFS1"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus plantarum",
+      "target": "surface polysaccharide production"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus plantarum",
+      "target": "bacterial chromosome"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactococcus lactis",
+      "target": "plasmids"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pediococcus damnosus",
+      "target": "plasmids"
+    }
+  ]
+}
+

@@ -1,0 +1,21 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "host plant"},
+      {"type": "Vector", "name": "Bactrocera dorsalis"},
+      {"type": "Pest", "name": "B. dorsalis"},
+      {"type": "Vector", "name": "B. dorsalis"},
+      {"type": "Disease", "name": "insect chemosensation"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Located in", "target": "host plant"},
+      {"source": "Bactrocera dorsalis", "type": "Transmit", "target": "insect chemosensation"},
+      {"source": "B. dorsalis", "type": "Located in", "target": "host plant"},
+      {"source": "B. dorsalis", "type": "Transmit", "target": "insect chemosensation"}
+    ]
+  }
+]
+

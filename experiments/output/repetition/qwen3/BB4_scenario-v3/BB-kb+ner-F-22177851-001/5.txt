@@ -1,0 +1,48 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "P. celer"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "higher production of volatile aroma compounds"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "subdominant"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "P. celer",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "higher production of volatile aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "subdominant"
+    }
+  ]
+}
+```

@@ -1,0 +1,36 @@
+[
+  {
+    "entities": [
+      {"type": "Plant", "name": "Cavendish banana"},
+      {"type": "Plant", "name": "Gros Michel"},
+      {"type": "Pest", "name": "Fusarium fungus"},
+      {"type": "Pest", "name": "tropical race 1"},
+      {"type": "Pest", "name": "TR1"},
+      {"type": "Disease", "name": "Panama disease"},
+      {"type": "Pest", "name": "TR4"},
+      {"type": "Geographic", "name": "Western countries"},
+      {"type": "Geographic", "name": "Brazil"},
+      {"type": "Geographic", "name": "Netherlands"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fusarium fungus", "type": "Causes", "target": "Panama disease"},
+      {"source": "tropical race 1", "type": "Causes", "target": "Panama disease"},
+      {"source": "TR1", "type": "Causes", "target": "Panama disease"},
+      {"source": "Panama disease", "type": "Affects", "target": "Cavendish banana"},
+      {"source": "Panama disease", "type": "Affects", "target": "Gros Michel"},
+      {"source": "TR4", "type": "Causes", "target": "Panama disease"},
+      {"source": "TR4", "type": "Have been found on", "target": "Cavendish banana"},
+      {"source": "TR1", "type": "Have been found on", "target": "Cavendish banana"},
+      {"source": "tropical race 1", "type": "Have been found on", "target": "Cavendish banana"},
+      {"source": "Fusarium fungus", "type": "Have been found on", "target": "Cavendish banana"},
+      {"source": "Cavendish banana", "type": "Located in", "target": "Western countries"},
+      {"source": "Gros Michel", "type": "Located in", "target": "Western countries"},
+      {"source": "tropical race 1", "type": "Located in", "target": "Brazil"},
+      {"source": "TR1", "type": "Located in", "target": "Brazil"},
+      {"source": "TR4", "type": "Located in", "target": "Netherlands"}
+    ]
+  }
+]
+

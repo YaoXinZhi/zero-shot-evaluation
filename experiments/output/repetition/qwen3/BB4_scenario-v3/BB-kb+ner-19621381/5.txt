@@ -1,0 +1,55 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "BCL-XL-1/2"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "amyloidogenic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "aggregation-prone"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "solubilize"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "toxicity"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "inclusion bodies"
+    },
+    {
+      "type": "Habitat",
+      "name": "bacterial inclusion bodies"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "amyloidogenic peptides",
+      "target": "aggregation-prone"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "inclusion bodies"
+    },
+    {
+      "type": "Isolated from",
+      "source": "BCL-XL-1/2",
+      "target": "bacterial inclusion bodies"
+    }
+  ]
+}
+```

@@ -1,0 +1,191 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "H pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter-like organism"
+    },
+    {
+      "type": "Microbe",
+      "name": "CLO test"
+    },
+    {
+      "type": "Microbe",
+      "name": "DeNol"
+    },
+    {
+      "type": "Microbe",
+      "name": "bismuth subcitrate"
+    },
+    {
+      "type": "Microbe",
+      "name": "metronidazole"
+    },
+    {
+      "type": "Microbe",
+      "name": "amoxicillin"
+    },
+    {
+      "type": "Microbe",
+      "name": "proton pump inhibitor"
+    },
+    {
+      "type": "Microbe",
+      "name": "PPI"
+    },
+    {
+      "type": "Microbe",
+      "name": "omeprazole"
+    },
+    {
+      "type": "Microbe",
+      "name": "clarithromycin"
+    },
+    {
+      "type": "Microbe",
+      "name": "nizatidine"
+    },
+    {
+      "type": "Habitat",
+      "name": "duodenal ulcer"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "eradication rate"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ulcer-healing rate"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "drug resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "side-effects"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "symptom relief"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cost"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "compliance"
+    },
+    {
+      "type": "Geographical location",
+      "name": "clinical practice"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "duodenal ulcer"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "low compliance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "drug resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "side-effects"
+    },
+    {
+      "type": "Exhibits",
+      "source": "PPI-based triple therapy",
+      "target": "higher eradication rate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "PPI-based triple therapy",
+      "target": "costly"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Group A therapy",
+      "target": "75% eradication rate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Group B therapy",
+      "target": "93% eradication rate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Group C therapy",
+      "target": "89% eradication rate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Group A therapy",
+      "target": "86% ulcer healing rate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Group B therapy",
+      "target": "89% ulcer healing rate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Group C therapy",
+      "target": "89% ulcer healing rate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "PPI-based triple therapy",
+      "target": "faster symptom relief"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Group C therapy",
+      "target": "lower cost"
+    },
+    {
+      "type": "Exhibits",
+      "source": "one-week triple therapy",
+      "target": "highly effective"
+    },
+    {
+      "type": "Exhibits",
+      "source": "one-week triple therapy",
+      "target": "good compliance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "one-week triple therapy",
+      "target": "mild side-effects"
+    },
+    {
+      "type": "Exhibits",
+      "source": "one-week triple therapy",
+      "target": "good choice"
+    },
+    {
+      "type": "Exhibits",
+      "source": "one-week triple therapy",
+      "target": "clinical practice"
+    }
+  ]
+}
+```

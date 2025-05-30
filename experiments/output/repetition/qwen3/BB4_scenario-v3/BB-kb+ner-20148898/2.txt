@@ -1,0 +1,137 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Yersinia pseudotuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. pseudotuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Gram-negative bacterial pathogens"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "professional phagocytes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Yop translocation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Type III secretion systems"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Yops"
+    },
+    {
+      "type": "Habitat",
+      "name": "Peyer's patches"
+    },
+    {
+      "type": "Habitat",
+      "name": "mesenteric lymph nodes"
+    },
+    {
+      "type": "Habitat",
+      "name": "spleen"
+    },
+    {
+      "type": "Habitat",
+      "name": "splenocytes"
+    },
+    {
+      "type": "Microbe",
+      "name": "B cells"
+    },
+    {
+      "type": "Microbe",
+      "name": "T cells"
+    },
+    {
+      "type": "Microbe",
+      "name": "neutrophils"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "YadA"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Invasin"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "Type III secretion systems"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacterial pathogens",
+      "target": "Type III secretion systems"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacterial pathogens",
+      "target": "Yop translocation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. pseudotuberculosis",
+      "target": "Yop translocation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "Yops"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. pseudotuberculosis",
+      "target": "Yops"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Y. pseudotuberculosis",
+      "target": "Peyer's patches"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Y. pseudotuberculosis",
+      "target": "mesenteric lymph nodes"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Y. pseudotuberculosis",
+      "target": "spleen"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Y. pseudotuberculosis",
+      "target": "splenocytes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. pseudotuberculosis",
+      "target": "YadA"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. pseudotuberculosis",
+      "target": "Invasin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. pseudotuberculosis",
+      "target": "selective targeting to professional phagocytes"
+    }
+  ]
+}
+```

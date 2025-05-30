@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "human immunodeficiency virus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "gastric hypoacidity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "gastric pH"
+    },
+    {
+      "type": "Demographic trait",
+      "name": "HIV-positive black and Hispanic populations"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "gastric hypoacidity"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "human immunodeficiency virus"
+    },
+    {
+      "type": "Exhibits",
+      "source": "human immunodeficiency virus",
+      "target": "gastric pH"
+    }
+  ]
+}
+

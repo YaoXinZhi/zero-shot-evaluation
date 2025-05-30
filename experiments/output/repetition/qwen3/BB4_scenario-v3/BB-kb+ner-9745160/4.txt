@@ -1,0 +1,151 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "H pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter-like organism"
+    },
+    {
+      "type": "Microbe",
+      "name": "DeNol"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "active duodenal ulcer disease"
+    },
+    {
+      "type": "Habitat",
+      "name": "human stomach"
+    },
+    {
+      "type": "Geographical location",
+      "name": "not specified"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "eradication"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "highly effected"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "good compliance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mild side-effects"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "low compliance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "drug resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "side-effects"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "symptom relief"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ulcer-healing"
+    },
+    {
+      "type": "Habitat",
+      "name": "human stomach"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "human stomach"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H pylori",
+      "target": "human stomach"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "active duodenal ulcer disease"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "drug resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "low compliance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "side-effects"
+    },
+    {
+      "type": "Exhibits",
+      "source": "PPI-based triple therapy",
+      "target": "high eradication rate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "PPI-based triple therapy",
+      "target": "costly"
+    },
+    {
+      "type": "Exhibits",
+      "source": "one-week triple therapy",
+      "target": "highly effected"
+    },
+    {
+      "type": "Exhibits",
+      "source": "one-week triple therapy",
+      "target": "good compliance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "one-week triple therapy",
+      "target": "mild side-effects"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "low compliance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "PPI-based triple therapy",
+      "target": "faster symptom relief"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "slower symptom relief"
+    },
+    {
+      "type": "Exhibits",
+      "source": "one-week triple therapy",
+      "target": "lower cost"
+    }
+  ]
+}
+```

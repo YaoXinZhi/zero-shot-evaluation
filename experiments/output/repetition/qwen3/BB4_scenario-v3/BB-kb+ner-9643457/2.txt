@@ -1,0 +1,64 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "neutrophil alkaline phosphatase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "NAP activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "increase of NAP activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "increase of enzyme intensity"
+    },
+    {
+      "type": "Habitat",
+      "name": "cattle"
+    },
+    {
+      "type": "Habitat",
+      "name": "cows"
+    },
+    {
+      "type": "Geographical location",
+      "name": "cattle"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "cattle"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "neutrophil alkaline phosphatase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "increase of NAP activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "increase of enzyme intensity"
+    }
+  ]
+}
+```

@@ -1,0 +1,54 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "atypical mycobacteria"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Queensland"
+    },
+    {
+      "type": "Microbe",
+      "name": "MAIS complex"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "lymph node infections"
+    },
+    {
+      "type": "Microbe",
+      "name": "M. fortuitum-chelonei complex"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "superficial abscesses"
+    },
+    {
+      "type": "Microbe",
+      "name": "M. marinum"
+    },
+    {
+      "type": "Microbe",
+      "name": "M. ulcerans"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "atypical mycobacteria",
+      "target": "Queensland"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MAIS complex",
+      "target": "lymph node infections"
+    },
+    {
+      "type": "Exhibits",
+      "source": "M. fortuitum-chelonei complex",
+      "target": "superficial abscesses"
+    }
+  ]
+}
+

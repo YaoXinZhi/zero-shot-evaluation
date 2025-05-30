@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "multi-drug resistant (MDR) bacterial infections"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "central nervous system (CNS) infections"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "infectious complications"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ventilator-associated pneumonias"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "blood stream infections"
+    },
+    {
+      "type": "Habitat",
+      "name": "trauma intensive care unit (TICU)"
+    },
+    {
+      "type": "Habitat",
+      "name": "ICP monitor"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "multi-drug resistant (MDR) bacterial infections",
+      "target": "central nervous system (CNS) infections"
+    },
+    {
+      "type": "Exhibits",
+      "source": "multi-drug resistant (MDR) bacterial infections",
+      "target": "infectious complications"
+    },
+    {
+      "type": "Exhibits",
+      "source": "multi-drug resistant (MDR) bacterial infections",
+      "target": "ventilator-associated pneumonias"
+    },
+    {
+      "type": "Exhibits",
+      "source": "multi-drug resistant (MDR) bacterial infections",
+      "target": "blood stream infections"
+    },
+    {
+      "type": "Isolated from",
+      "source": "multi-drug resistant (MDR) bacterial infections",
+      "target": "trauma intensive care unit (TICU)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "multi-drug resistant (MDR) bacterial infections",
+      "target": "ICP monitor"
+    }
+  ]
+}
+

@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Rickettsia felis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Rickettsia bellii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Rickettsia rickettsii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Rickettsia parkeri"
+    },
+    {
+      "type": "Habitat",
+      "name": "state of São Paulo"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Brazil"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "indirect immunofluorescence assay"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibody response"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Rickettsia felis",
+      "target": "fleas"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Rickettsia bellii",
+      "target": "ticks"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Rickettsia rickettsii",
+      "target": "antibody response"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Rickettsia parkeri",
+      "target": "antibody response"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Rickettsia rickettsii",
+      "target": "state of São Paulo"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Rickettsia parkeri",
+      "target": "state of São Paulo"
+    }
+  ]
+}
+

@@ -1,0 +1,83 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Coxiella burnetii"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "intracellular bacterial pathogen"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "infection"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Fab fragment"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "single-chain variable fragment"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "humanized single-chain variable fragment"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "lipopolysaccharide"
+    },
+    {
+      "type": "Habitat",
+      "name": "macrophages"
+    },
+    {
+      "type": "Habitat",
+      "name": "human macrophages"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "macrophages"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Coxiella burnetii",
+      "target": "intracellular bacterial pathogen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Coxiella burnetii",
+      "target": "infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Fab1E4",
+      "target": "Fab fragment"
+    },
+    {
+      "type": "Exhibits",
+      "source": "muscFv1E4",
+      "target": "single-chain variable fragment"
+    },
+    {
+      "type": "Exhibits",
+      "source": "huscFv1E4",
+      "target": "humanized single-chain variable fragment"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "human macrophages"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Coxiella burnetii",
+      "target": "lipopolysaccharide"
+    }
+  ]
+}
+

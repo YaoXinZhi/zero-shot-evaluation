@@ -1,0 +1,29 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Plant", "name": "vineyards"},
+      {"type": "Plant", "name": "Chardonnay"},
+      {"type": "Plant", "name": "Pinot Grigio"},
+      {"type": "Geographic", "name": "South Tyrol"},
+      {"type": "Geographic", "name": "Laimburg Research Center"},
+      {"type": "Geographic", "name": "Province"}, 
+      {"type": "Plant", "name": "leaf samples"},
+      {"type": "Entity", "name": "Provincial Councilor for agriculture of South Tyrol Arnold Schuler"},
+      {"type": "Entity", "name": "Phytosanitary Service"},
+      {"type": "Entity", "name": "Consultancy Center for fruit growing and viticulture in South Tyrol" }
+      
+   ]
+  },
+  {
+    "relationships": [
+      
+       {"source argument": "flavescence dorée", "relationship type": "Located in", "target argument": "South Tyrol"},
+
+     
+       {"source argument": "vineyards", "relationship type": "Affected by", "target argument": "flavescence doree"},
+
+       {"source argument": "leaf samples", "relationship type": "Linked to", "target argument": "flavescence dorée"}]
+  }
+]
+

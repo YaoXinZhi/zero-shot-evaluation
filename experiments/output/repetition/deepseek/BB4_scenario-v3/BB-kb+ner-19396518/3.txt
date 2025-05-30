@@ -1,0 +1,125 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pneumoniae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Haemophilus influenzae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma pneumoniae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Neisseria meningitidis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus agalactiae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Listeria monocytogenes"
+    },
+    {
+      "type": "Habitat",
+      "name": "cerebrospinal fluid (CSF)"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Japan"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "real-time polymerase chain reaction (PCR)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "conventional culturing"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus pneumoniae",
+      "target": "cerebrospinal fluid (CSF)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Haemophilus influenzae",
+      "target": "cerebrospinal fluid (CSF)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma pneumoniae",
+      "target": "cerebrospinal fluid (CSF)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Neisseria meningitidis",
+      "target": "cerebrospinal fluid (CSF)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "cerebrospinal fluid (CSF)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus agalactiae",
+      "target": "cerebrospinal fluid (CSF)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "cerebrospinal fluid (CSF)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria monocytogenes",
+      "target": "cerebrospinal fluid (CSF)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae",
+      "target": "real-time polymerase chain reaction (PCR)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pneumoniae",
+      "target": "real-time polymerase chain reaction (PCR)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus agalactiae",
+      "target": "real-time polymerase chain reaction (PCR)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "real-time polymerase chain reaction (PCR)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Listeria monocytogenes",
+      "target": "real-time polymerase chain reaction (PCR)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycoplasma pneumoniae",
+      "target": "real-time polymerase chain reaction (PCR)"
+    }
+  ]
+}
+

@@ -1,0 +1,57 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Microbacterium foliorum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Proteus vulgaris"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "producing aroma compounds with pronounced “cheese” notes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "volatile sulphur compounds"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Microbacterium foliorum",
+      "target": "producing aroma compounds with pronounced “cheese” notes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter sp.",
+      "target": "producing aroma compounds with pronounced “cheese” notes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Proteus vulgaris",
+      "target": "producing aroma compounds with pronounced “cheese” notes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Microbacterium foliorum",
+      "target": "volatile sulphur compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter sp.",
+      "target": "volatile sulphur compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Proteus vulgaris",
+      "target": "volatile sulphur compounds"
+    }
+  ]
+}
+

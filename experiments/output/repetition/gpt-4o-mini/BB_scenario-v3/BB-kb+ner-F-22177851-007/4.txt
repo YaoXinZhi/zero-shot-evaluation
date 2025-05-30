@@ -1,0 +1,55 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "D. hansenii"
+    },
+    {
+      "type": "Microbe",
+      "name": "G. candidum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. lipolytica"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "7.6 log10 cfu/g"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "7.1 log10 cfu/g"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "7.8 log10 cfu/g"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "7.5 log10 cfu/g"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "D. hansenii",
+      "target": "7.6 log10 cfu/g"
+    },
+    {
+      "type": "Exhibits",
+      "source": "G. candidum",
+      "target": "7.1 log10 cfu/g"
+    },
+    {
+      "type": "Exhibits",
+      "source": "G. candidum",
+      "target": "7.8 log10 cfu/g"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. lipolytica",
+      "target": "7.5 log10 cfu/g"
+    }
+  ]
+}
+

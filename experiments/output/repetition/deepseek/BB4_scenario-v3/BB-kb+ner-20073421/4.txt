@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "F. tularensis LVS"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "growth"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proliferate inside the human cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibits the intracellular growth"
+    },
+    {
+      "type": "Habitat",
+      "name": "murine macrophage-like cell line J774"
+    },
+    {
+      "type": "Habitat",
+      "name": "human cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "protective effects"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "proliferate inside the human cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "F. tularensis LVS",
+      "target": "murine macrophage-like cell line J774"
+    },
+    {
+      "type": "Exhibits",
+      "source": "F. tularensis LVS",
+      "target": "growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "J774 cells",
+      "target": "protective effects"
+    },
+    {
+      "type": "Exhibits",
+      "source": "combination of interferon-gamma with lipopolysaccharide",
+      "target": "inhibits the intracellular growth"
+    }
+  ]
+}
+

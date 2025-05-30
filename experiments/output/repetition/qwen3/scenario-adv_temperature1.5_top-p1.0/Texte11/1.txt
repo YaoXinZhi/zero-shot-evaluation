@@ -1,0 +1,29 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella"},
+      {"type": "Disease", "name": "disease"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "infected area"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella", "type": "Causes", "target": "disease"},
+      {"source": "disease", "type": "Affects", "target": "olive trees"},
+      {"source": "Xylella", "type": "Have been found on", "target": "olive trees"},
+      {"source": "Xylella", "type": "Located in", "target": "infected area"},
+      {"source": "bacterium", "type": "Located in", "target": "Bari"},
+      {"source": "Cnr-Ipsp", "type": "Located in", "target": "Bari"},
+      {"source": "Institute for the Sustainable Protection of Plants", "type": "Located in", "target": "Bari"},
+      {"source": "Department of Chemistry", "type": "Located in", "target": "University of Bari"},
+      {"source": "Departamento Pharmacy-Drug Sciences", "type": "Located in", "target": "University of Bari"},
+      {"source": "Department of Physics", "type": "Located in", "target": "University of Bari"},
+      {"source": "National Research Council", "type": "Located in", "target": "Bari"},
+      {"source": "Cnr-Ifn", "type": "Located in", "target": "Bari"},
+      {"source": " Institute of Photonics and Nanotechnology (Cnr-Ifn)", "type": "Located in", "target": "Bari"}
+    ]
+  }
+]
+

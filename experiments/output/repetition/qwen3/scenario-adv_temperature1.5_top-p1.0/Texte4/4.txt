@@ -1,0 +1,30 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "'Candidatus Phytoplasma solani'"},
+      {"type": "Disease", "name": "bois noir"},
+      {"type": "Disease", "name": "Flavescence dorée phytoplasma"},
+      {"type": "Plant", "name": "grapevine"},
+      {"type": "Plant", "name": "Catharanthus roseus"},
+      {"type": "Vector", "name": "Dictyophara europaea"},
+      {"type": "Vector", "name": "Hyalesthes obsoletus"},
+      {"type": "Vector", "name": "Reptalus panzeri"},
+      {"type": "Geographic", "name": "European vineyards"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "'Candidatus Phytoplasma solani'", "type": "Causes", "target": "bois noir"},
+      {"source": "dictyophara europaea", "type": "Transmit", "target": "'Candidatus Phytoplasma solani'"},
+      {"source": "'Candidatus Phytoplasma solani'", "type": "Have been found on", "target": "grapevine"},
+      {"source": "'Candidatus Phytoplasma solani'", "type": "Have been found on", "target": "Catharanthus roseus"},
+      {"source": "'Candidatus Phytoplasma solani'", "type": "Located in", "target": "wild habitats"},
+      {"source": "'Candidatus Phytoplasma solani'", "type": "Located in", "target": "natural reservoir plants"},
+      {"source": "'Candidatus Phytoplasma solani'", "type": "Located in", "target": "vineyard agroecosystem"},
+      {"source": "'", "type": "Located in", "', 'geographic' - error in text interpretation detected but preserving entity names as per instruction.) (Note:" : "plant,"},
+      {"source": "Gr", "type": "Affects", "target": "Rapevine"},
+      {"source": "'", "ty" : "", "' - incomplete or incorrect mention (text fragment not to be processed)pe": ""}
+    ]
+  }
+]
+

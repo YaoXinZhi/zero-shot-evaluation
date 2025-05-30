@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "M. luteus"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. glacincolaus"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. vitulinus"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. equorum"
+    },
+    {
+      "type": "Microbe",
+      "name": "B. linens"
+    },
+    {
+      "type": "Microbe",
+      "name": "B. casei"
+    },
+    {
+      "type": "Habitat",
+      "name": "white mould rind"
+    },
+    {
+      "type": "Habitat",
+      "name": "Scimudin cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "Casera Valtellina"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "low water activity of the rind"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "M. luteus",
+      "target": "white mould rind"
+    },
+    {
+      "type": "Isolated from",
+      "source": "P. glacincolaus",
+      "target": "white mould rind"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. vitulinus",
+      "target": "white mould rind"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. equorum",
+      "target": "Casera Valtellina"
+    },
+    {
+      "type": "Isolated from",
+      "source": "B. linens",
+      "target": "Casera Valtellina"
+    },
+    {
+      "type": "Isolated from",
+      "source": "B. casei",
+      "target": "Casera Valtellina"
+    }
+  ]
+}
+

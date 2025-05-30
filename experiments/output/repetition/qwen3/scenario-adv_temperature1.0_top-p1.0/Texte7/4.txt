@@ -1,0 +1,38 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Disease", "name": "black wood disease"},
+      {"type": "Plant", "name": "vineyards"},
+      {"type": "Plant", "name": "Chardonnay"},
+      {"type": "Plant", "name": "Pinot Grigio"},
+      {"type": "Plant", "name": "vines"},
+      {"type": "Geographic", "name": "South Tyrol"},
+      {"type": "Geographic", "name": "Laimburg"},
+      {"type": "Organization", "name": "provincial councilor for agriculture"},
+      {"type": "Person", "name": "Arnold Schuler"},
+      {"type": "Organization", "name": "Consorzio Vini Alto Adige"},
+      {"type": "Organization", "name": "Consultancy Center for fruit growing"},
+      {"type": "Organization", "name": "Phytosanitary Service"},
+      {"type": "Organization", "name": "Laimburg Research Center"},
+      {"type": "Organization", "name": "Consultancy Center for Fruit Growing in South Tyrol"},
+      {"type": "Person", "name": "Hansjörg Hafner"},
+      {"type": "Person", "name": "Raffael Peer"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "flavescence dorée", "type": "Located in", "target": "South Tyrol"},
+      {"source": "black wood disease", "type": "Located in", "target": "South Tyrol"},
+      {"source": "vineyards", "type": "Located in", "target": "South Tyrol"},
+      {"source": "Chardonnay", "type": "Located in", "target": "South Tyrol"},
+      {"source": "Pinot Grigio", "type": "Located in", "target": "South Tyrol"},
+      {"source": "vines", "type": "Located in", "target": "South Tyrol"},
+      {"source": "Laimburg Research Center", "type": "Located in", "target": "Laimburg"},
+      {"source": "Phytosanitary Service", "type": "Located in", "target": "South Tyrol"},
+      {"source": "Consultancy Center for Fruit Growing in South Tyrol", "type": "Located in", "target": "South Tyrol"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "vines"}
+    ]
+  }
+]
+

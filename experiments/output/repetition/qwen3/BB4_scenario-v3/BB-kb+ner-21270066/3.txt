@@ -1,0 +1,100 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Microbe",
+      "name": "lymphogranuloma venereum"
+    },
+    {
+      "type": "Microbe",
+      "name": "HIV"
+    },
+    {
+      "type": "Habitat",
+      "name": "rectal"
+    },
+    {
+      "type": "Habitat",
+      "name": "perianal"
+    },
+    {
+      "type": "Geographical location",
+      "name": "UK"
+    },
+    {
+      "type": "Geographical location",
+      "name": "London"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proctitis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "rectal infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "perianal ulcer disease"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "anorectal manifestations"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "HIV-infected"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ulceration"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "rectal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "perianal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphogranuloma venereum",
+      "target": "proctitis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphogranuloma venereum",
+      "target": "rectal infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphogranuloma venereum",
+      "target": "perianal ulcer disease"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphogranuloma venereum",
+      "target": "anorectal manifestations"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HIV",
+      "target": "HIV-infected"
+    },
+    {
+      "type": "Exhibits",
+      "source": "perianal ulcer disease",
+      "target": "ulceration"
+    }
+  ]
+}
+```

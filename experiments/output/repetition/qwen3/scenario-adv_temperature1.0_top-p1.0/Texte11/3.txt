@@ -1,0 +1,23 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Institution", "name": "Institute for the Sustainable Protection of Plants (Cnr-Ipsp)"},
+      {"type": "Institution", "name": "Institute of Photonics and Nanotechnology (Cnr-Ifn)"},
+      {"type": "Institution", "name": "National Research Council"},
+      {"type": "Institution", "name": "University of Bari"},
+      {"type": "Institution", "name": "Agritest"},
+      {"type": "Person", "name": "Luisa Torsi"},
+      {"type": "Person", "name": "Donato Boscia"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella", "type": "Have been found on", "target": "olive trees"},
+      {"source": "Xylella", "type": "Located in", "target": "Bari"}
+    ]
+  }
+]
+

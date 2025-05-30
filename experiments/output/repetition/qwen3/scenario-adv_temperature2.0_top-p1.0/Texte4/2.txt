@@ -1,0 +1,28 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "'Candidatus Phytoplasma solani'"},
+      {"type": "Disease", "name": "bois noir"},
+      {"type": "Disease", "name": "Flavescence dorée"},
+      {"type": "Plant", "name": "grapevine"},
+      {"type": "Plant", "name": "Catharanthus roseus"},
+      {"type": "Vector", "name": "Dictyophara europaea"},
+      {"type": "Vector", "name": "Hyalesthes obsoletus"},
+      {"type": "Vector", "name": "Reptalus panzeri"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "'Candidatus Phytoplasma solani'", "type": "Causes", "target": "bois noir"},
+      {"source": "", "ERROR": "invalid relationship: Causes requires Pest → Disease", "attempted": ["bois noir", "'Candidatus Phytoplasma solani'"]},
+      {"source": "Dictyophara europaea", "type": "Transmit", "target": "'Candidatus Phytoplasma solani'"},
+      {"source": "Dictyophara europaea", "type": "Have been found on", "target": "Catharanthus roseus"},
+      {"source": "Dictyophara europaea", "type": "Transmit", "target": "Phytoplasma associated with Flavescence dorée"},
+      {"source": "Hyalesthes obsoletus", "type": "Transmit", "target": "'Candidatus Phytoplasma solani'"},
+      {"source": "Reptalus panzeri", "type": "Transmit", "target": "'Candidatus Phytoplasma solani'"},
+      {"source": "bois noir", "type": "Affects", "target": "grapevine"},
+      {"source": "", "ERROR": "invalid, entity name Flavescence dorée exists but as written doesn't match target relationship 'disease' entity in the text"}
+    ]
+  }
+]
+

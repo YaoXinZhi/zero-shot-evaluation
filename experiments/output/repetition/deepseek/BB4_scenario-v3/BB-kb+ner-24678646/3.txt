@@ -1,0 +1,99 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "methicillin-resistant Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "MRSA"
+    },
+    {
+      "type": "Microbe",
+      "name": "vancomycin-resistant Enterococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "VRE"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "colonization"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "clearance of colonization"
+    },
+    {
+      "type": "Habitat",
+      "name": "patient care"
+    },
+    {
+      "type": "Habitat",
+      "name": "infection control policy"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "vancomycin-resistant Enterococcus",
+      "target": "colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "VRE",
+      "target": "colonization"
+    },
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "patient care"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "patient care"
+    },
+    {
+      "type": "Isolated from",
+      "source": "vancomycin-resistant Enterococcus",
+      "target": "patient care"
+    },
+    {
+      "type": "Isolated from",
+      "source": "VRE",
+      "target": "patient care"
+    },
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "infection control policy"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "infection control policy"
+    },
+    {
+      "type": "Isolated from",
+      "source": "vancomycin-resistant Enterococcus",
+      "target": "infection control policy"
+    },
+    {
+      "type": "Isolated from",
+      "source": "VRE",
+      "target": "infection control policy"
+    }
+  ]
+}
+

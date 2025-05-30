@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella Paratyphi A"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Asia"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Nepal"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Israeli"
+    },
+    {
+      "type": "Habitat",
+      "name": "travelers"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "nalidixic acid resistant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacteremia"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "defervescence"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Salmonella Paratyphi A",
+      "target": "travelers"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella Paratyphi A",
+      "target": "nalidixic acid resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella Paratyphi A",
+      "target": "bacteremia"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella Paratyphi A",
+      "target": "defervescence"
+    }
+  ]
+}
+

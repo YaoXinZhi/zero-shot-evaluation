@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Campylobacter"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter jejuni"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter lari"
+    },
+    {
+      "type": "Habitat",
+      "name": "partridges"
+    },
+    {
+      "type": "Geographical location",
+      "name": "southern Italy"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter",
+      "target": "partridges"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter coli",
+      "target": "partridges"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter jejuni",
+      "target": "partridges"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter",
+      "target": "southern Italy"
+    }
+  ]
+}
+

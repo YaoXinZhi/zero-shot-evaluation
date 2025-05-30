@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Vibrio salmonicida"
+    },
+    {
+      "type": "Habitat",
+      "name": "fish farm sediments"
+    },
+    {
+      "type": "Habitat",
+      "name": "intestinal tracts of healthy fish"
+    },
+    {
+      "type": "Habitat",
+      "name": "sediments not influenced by fish farming"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fluorescent-antibody techniques"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cross-react with other bacteria"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Vibrio salmonicida",
+      "target": "fish farm sediments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio salmonicida",
+      "target": "intestinal tracts of healthy fish"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Vibrio salmonicida",
+      "target": "fluorescent-antibody techniques"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rabbit serum",
+      "target": "cross-react with other bacteria"
+    }
+  ]
+}
+

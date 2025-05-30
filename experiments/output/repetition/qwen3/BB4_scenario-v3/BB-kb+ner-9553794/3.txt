@@ -1,0 +1,138 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "lactic acid bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Gram-negative bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "V. marinus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterobacteriaceae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterobacter agglomerans"
+    },
+    {
+      "type": "Microbe",
+      "name": "Serratia liquefaciens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Rahnella aquatilis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Aeromonas hydrophila"
+    },
+    {
+      "type": "Microbe",
+      "name": "Carnobacterium piscicola"
+    },
+    {
+      "type": "Habitat",
+      "name": "vacuum-packed cold-smoked salmon"
+    },
+    {
+      "type": "Habitat",
+      "name": "modified-atmosphere-packed cold-smoked salmon"
+    },
+    {
+      "type": "Habitat",
+      "name": "cold-smoked salmon"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "sensory rejection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "autolytic changes"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "soft texture"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "sour off-flavour"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "rancid off-flavour"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bitter off-flavour"
+    },
+    {
+      "type": "Geographical location",
+      "name": "5 degrees C"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Carnobacterium piscicola",
+      "target": "vacuum-packed cold-smoked salmon"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio sp.",
+      "target": "vacuum-packed salmon"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterobacteriaceae",
+      "target": "vacuum-packed salmon"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Aeromonas hydrophila",
+      "target": "vacuum-packed salmon"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Carnobacterium piscicola",
+      "target": "autolytic changes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cold-smoked salmon",
+      "target": "sensory rejection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cold-smoked salmon",
+      "target": "soft texture"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cold-smoked salmon",
+      "target": "sour off-flavour"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cold-smoked salmon",
+      "target": "rancid off-flavour"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cold-smoked salmon",
+      "target": "bitter off-flavour"
+    }
+  ]
+}
+```

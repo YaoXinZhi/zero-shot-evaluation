@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Gram-negative bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Hafnia alvei"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter sp."
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of free amino acids"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of volatile compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of flavor compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of volatile aroma compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of sulfur compounds"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacteria",
+      "target": "production of free amino acids"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas spp.",
+      "target": "production of volatile compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia alvei",
+      "target": "production of flavor compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter sp.",
+      "target": "production of volatile aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter sp.",
+      "target": "production of sulfur compounds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter sp.",
+      "target": "cheese"
+    }
+  ]
+}
+

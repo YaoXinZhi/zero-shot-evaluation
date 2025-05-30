@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "riboflavin synthase"
+    },
+    {
+      "type": "Microbe",
+      "name": "lumazine protein"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "trimeric"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "monomeric"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "binding"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ligated complex"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "exchange"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "riboflavin synthase",
+      "target": "trimeric"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lumazine protein",
+      "target": "monomeric"
+    },
+    {
+      "type": "Exhibits",
+      "source": "riboflavin synthase",
+      "target": "binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "riboflavin synthase",
+      "target": "ligated complex"
+    },
+    {
+      "type": "Exhibits",
+      "source": "riboflavin synthase",
+      "target": "exchange"
+    }
+  ]
+}
+

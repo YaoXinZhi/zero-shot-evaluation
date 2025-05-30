@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella enterica"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. enterica Livingstone"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. enterica Virchow"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "extended-spectrum beta-lactamase (ESBL) producer"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bla(SHV-2) gene"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bla(CTX-M-10) gene"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bla(CTX-M-9) gene"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "In60 integron"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "pulsed-field gel electrophoresis patterns"
+    },
+    {
+      "type": "Habitat",
+      "name": "two Spanish hospitals"
+    },
+    {
+      "type": "Habitat",
+      "name": "animals"
+    },
+    {
+      "type": "Geographical location",
+      "name": "northern Spain"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Salmonella enterica",
+      "target": "two Spanish hospitals"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella enterica",
+      "target": "extended-spectrum beta-lactamase (ESBL) producer"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. enterica Livingstone",
+      "target": "bla(SHV-2) gene"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. enterica Virchow",
+      "target": "bla(CTX-M-10) gene"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. enterica Virchow",
+      "target": "bla(CTX-M-9) gene"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. enterica Virchow",
+      "target": "In60 integron"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. enterica Virchow",
+      "target": "pulsed-field gel electrophoresis patterns"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Salmonella enterica",
+      "target": "animals"
+    }
+  ]
+}
+

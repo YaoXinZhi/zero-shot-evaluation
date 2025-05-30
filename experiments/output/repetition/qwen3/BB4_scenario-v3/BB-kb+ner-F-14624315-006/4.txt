@@ -1,0 +1,53 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "L. lactis B1157"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. lactis B697"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce 3-methylbutanal"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce 3-methylbutanol"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "decarboxylase activity"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "L. lactis B1157",
+      "target": "decarboxylase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis B1157",
+      "target": "produce 3-methylbutanal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis B1157",
+      "target": "produce 3-methylbutanol"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis B697",
+      "target": "produce 3-methylbutanal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis B697",
+      "target": "produce 3-methylbutanol"
+    }
+  ]
+}
+```

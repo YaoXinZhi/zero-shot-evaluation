@@ -1,0 +1,39 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Japanese beetle"},
+      {"type": "Pest", "name": "Popillia japonica"},
+      {"type": "Vector", "name": "garden leaf beetle"},
+      {"type": "Vector", "name": "rose chafer"},
+      {"type": "Plant", "name": "leaf"},
+      {"type": "Plant", "name": "flowers"},
+      {"type": "Plant", "name": "fruits"},
+      {"type": "Plant", "name": "roots"},
+      {"type": "Geographic", "name": "Freiburg"},
+      {"type": "Geographic", "name": "Baden-Württemberg"},
+      {"type": "Geographic", "name": "northern Italy"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Geographic", "name": "EU"},
+      {"type": "Disease", "name": "priority Union quarantine pest"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Japanese beetle", "type": "Located in", "target": "Freiburg"},
+      {"source": "Popillia japonica", "type": "Located in", "target": "Freiburg"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "leaf"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "flowers"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "fruits"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "roots"},
+      {"source": "Japanese beetle", "type": "Causes", "target": "priority Union quarantine pest"},
+      {"source": "priority Union quarantine pest", "type": "Affects", "target": "flowers"},
+      {"source": "priority Union quarantine pest", "type": "Affects", "target": "leaves"},
+      {"source": "priority Union quarantine pest", "type": "Affects", "target": "fruits"},
+      {"source": "priority Union quarantine pest", "type": "Affects", "target": "roots"},
+      {"source": "garden leaf beetle", "type": "Transmit", "target": "priority Union quarantine pest"},
+      {"source": "rose chafer", "type": "Transmit", "target": "priority Union quarantine pest"}
+    ]
+  }
+]
+

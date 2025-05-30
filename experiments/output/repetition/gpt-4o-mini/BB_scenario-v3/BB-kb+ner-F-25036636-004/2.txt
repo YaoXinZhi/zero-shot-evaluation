@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudoalteromonas"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "lipolysis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolysis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "secreted cold-adapted lipase"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "protease"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese rind microbial communities"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pseudoalteromonas",
+      "target": "secreted cold-adapted lipase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudoalteromonas",
+      "target": "protease"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudoalteromonas",
+      "target": "lipolysis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudoalteromonas",
+      "target": "proteolysis"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudoalteromonas",
+      "target": "cheese rind microbial communities"
+    }
+  ]
+}
+

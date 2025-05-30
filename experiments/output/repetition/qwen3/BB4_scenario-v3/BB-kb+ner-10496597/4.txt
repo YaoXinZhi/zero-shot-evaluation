@@ -1,0 +1,113 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "gastric mucosal-associated lymphoid tissue lymphoma"
+    },
+    {
+      "type": "Microbe",
+      "name": "low-grade gastric mucosal-associated lymphoid tissue lymphoma"
+    },
+    {
+      "type": "Microbe",
+      "name": "high-grade primary gastric lymphoma"
+    },
+    {
+      "type": "Microbe",
+      "name": "atypical lymphoid infiltrates"
+    },
+    {
+      "type": "Microbe",
+      "name": "benign florid lymphoid hyperplasia"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "monoclonality"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "predominance of CD20-positive cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "equal prevalence of B and T cells"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "enlarged irregular mantle zone"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "lymphoepithelial lesions"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastric biopsies"
+    },
+    {
+      "type": "Habitat",
+      "name": "paraffin sections"
+    },
+    {
+      "type": "Habitat",
+      "name": "lymphocytic infiltrates"
+    },
+    {
+      "type": "Geographical location",
+      "name": "not applicable"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "gastric biopsies"
+    },
+    {
+      "type": "Exhibits",
+      "source": "low-grade gastric mucosal-associated lymphoid tissue lymphoma",
+      "target": "monoclonality"
+    },
+    {
+      "type": "Exhibits",
+      "source": "high-grade primary gastric lymphoma",
+      "target": "monoclonality"
+    },
+    {
+      "type": "Exhibits",
+      "source": "atypical lymphoid infiltrates",
+      "target": "monoclonality"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori-chronic active gastritis",
+      "target": "monoclonality"
+    },
+    {
+      "type": "Exhibits",
+      "source": "low-grade gastric mucosal-associated lymphoid tissue lymphoma",
+      "target": "predominance of CD20-positive cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "low-grade gastric mucosal-associated lymphoid tissue lymphoma",
+      "target": "enlarged irregular mantle zone"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gastric biopsies",
+      "target": "lymphoepithelial lesions"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphocytic infiltrates",
+      "target": "equal prevalence of B and T cells"
+    }
+  ]
+}
+```

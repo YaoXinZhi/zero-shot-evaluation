@@ -1,0 +1,83 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "methicillin-resistant Staphylococcus aureus (MRSA)"
+    },
+    {
+      "type": "Microbe",
+      "name": "vancomycin-resistant Enterococcus (VRE)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "time to clearance of colonization"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "time of initial colonization"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "definitions of clearance of colonization"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "frequency of sampling"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "assays used for sampling"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "duration of follow-up"
+    },
+    {
+      "type": "Geographical location",
+      "name": "January 1990 to July 2012"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus (MRSA)",
+      "target": "time to clearance of colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "vancomycin-resistant Enterococcus (VRE)",
+      "target": "time to clearance of colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus (MRSA)",
+      "target": "time of initial colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "vancomycin-resistant Enterococcus (VRE)",
+      "target": "time of initial colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "studies",
+      "target": "definitions of clearance of colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "studies",
+      "target": "frequency of sampling"
+    },
+    {
+      "type": "Exhibits",
+      "source": "studies",
+      "target": "assays used for sampling"
+    },
+    {
+      "type": "Exhibits",
+      "source": "studies",
+      "target": "duration of follow-up"
+    }
+  ]
+}
+

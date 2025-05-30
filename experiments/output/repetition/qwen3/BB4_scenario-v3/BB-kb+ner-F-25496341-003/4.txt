@@ -1,0 +1,72 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus infantarius"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus infantarius strain 3AG"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus infantarius strain 11FA"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus infantarius type strain"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus infantarius strain ATCC BAA-102"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus infantarius strain CJ18"
+    },
+    {
+      "type": "Habitat",
+      "name": "Western African fermented milks"
+    },
+    {
+      "type": "Habitat",
+      "name": "infant feces"
+    },
+    {
+      "type": "Habitat",
+      "name": "Eastern African fermented milk"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Western Africa"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Eastern Africa"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus infantarius strain 3AG",
+      "target": "Western African fermented milks"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus infantarius strain 11FA",
+      "target": "Western African fermented milks"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus infantarius type strain",
+      "target": "infant feces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus infantarius strain CJ18",
+      "target": "Eastern African fermented milk"
+    }
+  ]
+}
+```

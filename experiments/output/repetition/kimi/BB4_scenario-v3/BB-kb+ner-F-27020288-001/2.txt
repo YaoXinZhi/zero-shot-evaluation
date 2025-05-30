@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "L. lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pneumoniae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus rhamnosus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "EPS assembly"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ABC transporters"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "export-polymerization pathway"
+    },
+    {
+      "type": "Microbe",
+      "name": "LAB"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "L. lactis",
+      "target": "EPS assembly"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pneumoniae",
+      "target": "EPS assembly"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus rhamnosus",
+      "target": "EPS assembly"
+    },
+    {
+      "type": "Exhibits",
+      "source": "LAB",
+      "target": "ABC transporters"
+    },
+    {
+      "type": "Exhibits",
+      "source": "LAB",
+      "target": "export-polymerization pathway"
+    }
+  ]
+}
+

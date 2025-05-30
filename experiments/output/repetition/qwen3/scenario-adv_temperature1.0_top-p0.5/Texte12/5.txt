@@ -1,0 +1,29 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "host plant"},
+      {"type": "Vector", "name": "Bactrocera dorsalis"},
+      {"type": "Pest", "name": "B. dorsalis"},
+      {"type": "Vector", "name": "B. dorsalis"},
+      {"type": "Plant", "name": "host plant volatiles"},
+      {"type": "Vector", "name": "male"},
+      {"type": "Vector", "name": "female"},
+      {"type": "Vector", "name": "males"},
+      {"type": "Vector", "name": "females"},
+      {"type": "Pest", "name": "males"},
+      {"type": "Pest", "name": "females"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "host plant"},
+      {"source": "B. dorsalis", "type": "Have been found on", "target": "host plant volatiles"},
+      {"source": "male", "type": "Transmit", "target": "methyl eugenol"},
+      {"source": "female", "type": "Transmit", "target": "γ-octalactone"},
+      {"source": "males", "type": "Transmit", "target": "methyl eugenol"},
+      {"source": "females", "type": "Transmit", "target": "γ-octalactone"}
+    ]
+  }
+]
+

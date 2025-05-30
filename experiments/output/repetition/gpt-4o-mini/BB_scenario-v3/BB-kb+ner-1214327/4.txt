@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Vibrio parahaemolyticus"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Togo"
+    },
+    {
+      "type": "Habitat",
+      "name": "clinical sources"
+    },
+    {
+      "type": "Habitat",
+      "name": "environmental sources"
+    },
+    {
+      "type": "Habitat",
+      "name": "water"
+    },
+    {
+      "type": "Habitat",
+      "name": "fish samples"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Vibrio parahaemolyticus",
+      "target": "clinical sources"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio parahaemolyticus",
+      "target": "environmental sources"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio parahaemolyticus",
+      "target": "water"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio parahaemolyticus",
+      "target": "fish samples"
+    }
+  ]
+}
+

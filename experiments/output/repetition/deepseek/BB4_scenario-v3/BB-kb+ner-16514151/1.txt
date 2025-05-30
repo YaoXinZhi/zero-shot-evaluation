@@ -1,0 +1,150 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "MerR"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Deinococcus radiodurans"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Hg(II) sequestration and protection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "metal-binding domain (MBD)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacterial mercury resistance (mer) operon"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "metal-induced activation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "metal stoichiometries of approximately 1.0 Hg(II) per MBD monomer"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "detoxify mercury"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "survived Hg(II) challenge"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "recovered more quickly"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bound Hg(II) preferentially even in the presence of a 22-fold molar excess of Zn(II)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "exposed to equimolar Cd(II)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "improved survival from Hg(II) exposure"
+    },
+    {
+      "type": "Habitat",
+      "name": "cell surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "cytosol"
+    },
+    {
+      "type": "Habitat",
+      "name": "rich medium"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "MerR",
+      "target": "Hg(II) sequestration and protection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MerR",
+      "target": "metal-binding domain (MBD)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MerR",
+      "target": "bacterial mercury resistance (mer) operon"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MerR",
+      "target": "metal-induced activation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "metal stoichiometries of approximately 1.0 Hg(II) per MBD monomer"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "detoxify mercury"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "survived Hg(II) challenge"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "recovered more quickly"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "bound Hg(II) preferentially even in the presence of a 22-fold molar excess of Zn(II)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "exposed to equimolar Cd(II)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "improved survival from Hg(II) exposure"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Deinococcus radiodurans",
+      "target": "improved survival from Hg(II) exposure"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MerR",
+      "target": "cell surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MerR",
+      "target": "cytosol"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "rich medium"
+    }
+  ]
+}
+

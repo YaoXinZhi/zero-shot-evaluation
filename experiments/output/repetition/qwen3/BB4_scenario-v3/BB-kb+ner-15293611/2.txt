@@ -1,0 +1,115 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "Australian transmissible strain"
+    },
+    {
+      "type": "Microbe",
+      "name": "pulsotype 2"
+    },
+    {
+      "type": "Microbe",
+      "name": "pulsotype 1"
+    },
+    {
+      "type": "Habitat",
+      "name": "cystic fibrosis units"
+    },
+    {
+      "type": "Habitat",
+      "name": "CF units"
+    },
+    {
+      "type": "Habitat",
+      "name": "paediatric CF units"
+    },
+    {
+      "type": "Habitat",
+      "name": "adult CF units"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Brisbane"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Australia"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "colonial morphology"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "multiresistance"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "cystic fibrosis units"
+    },
+    {
+      "type": "Isolated from",
+      "source": "P. aeruginosa",
+      "target": "CF units"
+    },
+    {
+      "type": "Isolated from",
+      "source": "P. aeruginosa",
+      "target": "paediatric CF units"
+    },
+    {
+      "type": "Isolated from",
+      "source": "P. aeruginosa",
+      "target": "adult CF units"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Australian transmissible strain",
+      "target": "Australia"
+    },
+    {
+      "type": "Exhibits",
+      "source": "pulsotype 2",
+      "target": "poorer lung function"
+    },
+    {
+      "type": "Exhibits",
+      "source": "pulsotype 2",
+      "target": "younger age"
+    },
+    {
+      "type": "Exhibits",
+      "source": "pulsotype 2",
+      "target": "similar treatment requirements"
+    },
+    {
+      "type": "Exhibits",
+      "source": "pulsotype 2",
+      "target": "similar rates of multiresistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "pulsotype 1",
+      "target": "indistinguishable colonial morphology"
+    },
+    {
+      "type": "Exhibits",
+      "source": "pulsotype 1",
+      "target": "indistinguishable multiresistance"
+    }
+  ]
+}
+```

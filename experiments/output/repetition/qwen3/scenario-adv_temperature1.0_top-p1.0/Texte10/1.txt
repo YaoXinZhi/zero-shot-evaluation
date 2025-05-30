@@ -1,0 +1,26 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Plant", "name": "crops"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "United Nations"},
+      {"type": "Vector", "name": "insects"},
+      {"type": "Disease", "name": "invasive insects"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Affects", "target": "crops"},
+      {"source": "potato aphid", "type": "Causes", "target": "plant diseases"},
+      {"source": "Midlands", "type": "Located in", "target": "United Kingdom"},
+      {"source": "insects", "type": "Transmit", "target": "plant diseases"},
+      {"source": "strawberries", "type": "Located in", "target": "UK"}
+    ]
+  }
+]
+

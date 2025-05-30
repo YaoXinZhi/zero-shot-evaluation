@@ -1,0 +1,33 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Plant", "name": "crops"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "United Nations"},
+      {"type": "Geographic", "name": "global"},
+      {"type": "Geographic", "name": "world"},
+      {"type": "Vector", "name": "insects"},
+      {"type": "Disease", "name": "insect and disease formation"},
+      {"type": "Geographic", "name": "Harper Adams University"},
+      {"type": "Geographic", "name": "Aston University"},
+      {"type": "Geographic", "name": "Aston Institute of Photonic Technologies"},
+      {"type": "Geographic", "name": "Biotechnology and Biological Sciences Research Council"},
+      {"type": "Geographic", "name": "Natural Environment Research Council"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Affects", "target": "crops"},
+      {"source": "plant diseases", "type": "Located in", "target": "global"},
+      {"source": "potato aphid", "type": "Causes", "target": "plant diseases"},
+      {"source": "insect and disease formation", "type": "Have been found on", "target": "plants"},
+      {"source": "insects", "type": "Transmit", "target": "pests"}
+    ]
+  }
+]
+

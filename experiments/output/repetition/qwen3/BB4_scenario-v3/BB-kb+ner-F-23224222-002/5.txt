@@ -1,0 +1,221 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Debaryomyces hansenii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Geotrichum candidum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus equorum"
+    },
+    {
+      "type": "Microbe",
+      "name": "D. hansenii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Corynebacterium spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Microbacterium spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Marinilactibacillus spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Halomonas spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Proteus spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterobacteriaceae"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese brine"
+    },
+    {
+      "type": "Habitat",
+      "name": "dairy house microbiota"
+    },
+    {
+      "type": "Habitat",
+      "name": "ripening room"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "assimilates lactate"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produces alkaline metabolites"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "increasing pH"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce important cheese flavour compounds"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram-positive"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram-negative"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Debaryomyces hansenii",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Geotrichum candidum",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus equorum",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "D. hansenii",
+      "target": "cheese brine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "D. hansenii",
+      "target": "dairy house microbiota"
+    },
+    {
+      "type": "Isolated from",
+      "source": "D. hansenii",
+      "target": "ripening room"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium spp.",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Corynebacterium spp.",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Microbacterium spp.",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Marinilactibacillus spp.",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Halomonas spp.",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio spp.",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Proteus spp.",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterobacteriaceae",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Debaryomyces hansenii",
+      "target": "assimilates lactate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Debaryomyces hansenii",
+      "target": "produces alkaline metabolites"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Debaryomyces hansenii",
+      "target": "increasing pH"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacteria",
+      "target": "produce important cheese flavour compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Brevibacterium spp.",
+      "target": "Gram-positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Corynebacterium spp.",
+      "target": "Gram-positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Microbacterium spp.",
+      "target": "Gram-positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Halomonas spp.",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Vibrio spp.",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Proteus spp.",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Enterobacteriaceae",
+      "target": "Gram-negative"
+    }
+  ]
+}
+```

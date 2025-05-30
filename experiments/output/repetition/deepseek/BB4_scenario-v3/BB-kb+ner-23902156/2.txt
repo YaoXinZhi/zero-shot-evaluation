@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Penicillium crustosum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Penicillium brevicompactum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "allergenic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hypoallergenic"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ribosomal P1 protein"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Pen b 26"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Pen cr 26"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "IgG class specific antibodies"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "IgE"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Penicillium brevicompactum",
+      "target": "ribosomal P1 protein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Penicillium brevicompactum",
+      "target": "Pen b 26"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Penicillium crustosum",
+      "target": "Pen cr 26"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "hypoallergenic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen b 26",
+      "target": "allergenic"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pen cr 26",
+      "target": "Penicillium crustosum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pen b 26",
+      "target": "Penicillium brevicompactum"
+    }
+  ]
+}
+

@@ -1,0 +1,124 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. celer"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produced the largest quantity of aroma compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produced aroma compounds"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "sulfur compounds"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "methanethiol"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "dimethyl disulfide (DMDS)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "dimethyl trisulfide (DMTS)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "aldehydes"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "3-methylbutanal"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ketones"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "2-heptanone"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "2-nonanone"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "2-pentanone"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "produced the largest quantity of aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "produced aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "produced the largest quantity of aroma compounds",
+      "target": "sulfur compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "sulfur compounds",
+      "target": "methanethiol"
+    },
+    {
+      "type": "Exhibits",
+      "source": "sulfur compounds",
+      "target": "dimethyl disulfide (DMDS)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "sulfur compounds",
+      "target": "dimethyl trisulfide (DMTS)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "produced aroma compounds",
+      "target": "aldehydes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "aldehydes",
+      "target": "3-methylbutanal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "produced aroma compounds",
+      "target": "ketones"
+    },
+    {
+      "type": "Exhibits",
+      "source": "ketones",
+      "target": "2-heptanone"
+    },
+    {
+      "type": "Exhibits",
+      "source": "ketones",
+      "target": "2-nonanone"
+    },
+    {
+      "type": "Exhibits",
+      "source": "ketones",
+      "target": "2-pentanone"
+    }
+  ]
+}
+```

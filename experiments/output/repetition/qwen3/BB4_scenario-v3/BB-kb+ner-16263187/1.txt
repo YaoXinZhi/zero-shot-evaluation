@@ -1,0 +1,98 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus gasseri K 7"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O8:K88"
+    },
+    {
+      "type": "Habitat",
+      "name": "Caco-2 cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "pigs' jejunal tissue"
+    },
+    {
+      "type": "Habitat",
+      "name": "jejunal mucosa"
+    },
+    {
+      "type": "Habitat",
+      "name": "intestinal mucosa"
+    },
+    {
+      "type": "Habitat",
+      "name": "small intestinal tissue"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibit adhesion"
+    },
+    {
+      "type": "Geographical location",
+      "name": "jejunum"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "inhibit adhesion"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "intestinal mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O8:K88",
+      "target": "intestinal mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "Caco-2 cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "Caco-2 cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "jejunal mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "jejunal mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "pigs' jejunal tissue"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus gasseri K 7",
+      "target": "pigs' jejunal tissue"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "small intestinal tissue"
+    }
+  ]
+}
+```

@@ -1,0 +1,136 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Legionella pneumophila"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "membrane-impermeant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cytotoxic"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "DNA-binding"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fluorescent"
+    },
+    {
+      "type": "Habitat",
+      "name": "macrophage cell line"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "permeant"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "SYTOX Green"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "CellTox Green"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "GelGreen"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "EvaGreen"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Legionella pneumophila",
+      "target": "luminescence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "cytotoxic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "DNA-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "fluorescent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CellTox Green",
+      "target": "cytotoxic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CellTox Green",
+      "target": "DNA-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CellTox Green",
+      "target": "fluorescent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "GelGreen",
+      "target": "cytotoxic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "GelGreen",
+      "target": "DNA-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "GelGreen",
+      "target": "fluorescent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "cytotoxic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "DNA-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "fluorescent"
+    },
+    {
+      "type": "Isolated from",
+      "source": "SYTOX Green",
+      "target": "macrophage cell line"
+    },
+    {
+      "type": "Isolated from",
+      "source": "CellTox Green",
+      "target": "macrophage cell line"
+    },
+    {
+      "type": "Isolated from",
+      "source": "GelGreen",
+      "target": "macrophage cell line"
+    },
+    {
+      "type": "Isolated from",
+      "source": "EvaGreen",
+      "target": "macrophage cell line"
+    }
+  ]
+}
+

@@ -1,0 +1,76 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Listeria sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Listeria monocytogenes"
+    },
+    {
+      "type": "Habitat",
+      "name": "chicken nugget processing plant"
+    },
+    {
+      "type": "Habitat",
+      "name": "product"
+    },
+    {
+      "type": "Habitat",
+      "name": "environments"
+    },
+    {
+      "type": "Habitat",
+      "name": "food handlers"
+    },
+    {
+      "type": "Geographical location",
+      "name": "chicken nugget processing plant"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Listeria sp.",
+      "target": "chicken nugget processing plant"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria monocytogenes",
+      "target": "chicken nugget processing plant"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria sp.",
+      "target": "product"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria sp.",
+      "target": "environments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria sp.",
+      "target": "food handlers"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria monocytogenes",
+      "target": "product"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria monocytogenes",
+      "target": "environments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria monocytogenes",
+      "target": "food handlers"
+    }
+  ]
+}
+```

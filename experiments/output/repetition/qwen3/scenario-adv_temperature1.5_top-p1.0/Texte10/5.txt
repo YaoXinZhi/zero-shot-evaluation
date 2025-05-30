@@ -1,0 +1,28 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Organisation", "name": "Food and Agriculture Organization of the United Nations"},
+      {"type": "Organisation", "name": "Aston University"},
+      {"type": "Organisation", "name": "Harper Adams University"},
+      {"type": "Organisation", "name": "Aston Institute of Photonic Technologies"},
+      {"type": "Organisation", "name": "Biotechnology and Biological Sciences Research Council"},
+      {"type": "Organisation", "name": "Natural Environment Research Council"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "Midlands", "type": "Located in", "target": "Aston University"},
+      {"source": "Midlands", "type": "Located in", "target": "Harper Adams University"},
+      {"source": "BBSRC [as Biotechnology and Biological Sciences R...]", "type": "Located in", "target": "UK"},
+      {"source": "BBSRC [as Biotechnology and Biological Sciences R...]", "type": "Support for Activity in", "target": "research in Midlands"},
+      {"source": "NERC [as Natural Environment…]", "type": "Support for Activity in", "target": "UK"},
+      {"resourceRelation": "NERC [as Natural Environment…]", "supportForActivityType": "funds", "targetActivityName": ["research in Midlands"]}
+    ]
+  }
+]
+

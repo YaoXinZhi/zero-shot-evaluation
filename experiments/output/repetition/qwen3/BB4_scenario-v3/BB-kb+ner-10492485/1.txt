@@ -1,0 +1,178 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "molds"
+    },
+    {
+      "type": "Microbe",
+      "name": "yeasts"
+    },
+    {
+      "type": "Microbe",
+      "name": "parasites"
+    },
+    {
+      "type": "Microbe",
+      "name": "viruses"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antimicrobial"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "high reactivity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "penetrability"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "spontaneous decomposition"
+    },
+    {
+      "type": "Habitat",
+      "name": "food products"
+    },
+    {
+      "type": "Habitat",
+      "name": "product surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "water"
+    },
+    {
+      "type": "Habitat",
+      "name": "meat"
+    },
+    {
+      "type": "Habitat",
+      "name": "poultry"
+    },
+    {
+      "type": "Habitat",
+      "name": "eggs"
+    },
+    {
+      "type": "Habitat",
+      "name": "fish"
+    },
+    {
+      "type": "Habitat",
+      "name": "fruits"
+    },
+    {
+      "type": "Habitat",
+      "name": "vegetables"
+    },
+    {
+      "type": "Habitat",
+      "name": "dry foods"
+    },
+    {
+      "type": "Geographical location",
+      "name": "United States"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Ozone",
+      "target": "antimicrobial"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Ozone",
+      "target": "high reactivity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Ozone",
+      "target": "penetrability"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Ozone",
+      "target": "spontaneous decomposition"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "food products"
+    },
+    {
+      "type": "Isolated from",
+      "source": "molds",
+      "target": "food products"
+    },
+    {
+      "type": "Isolated from",
+      "source": "yeasts",
+      "target": "food products"
+    },
+    {
+      "type": "Isolated from",
+      "source": "parasites",
+      "target": "food products"
+    },
+    {
+      "type": "Isolated from",
+      "source": "viruses",
+      "target": "food products"
+    },
+    {
+      "type": "Isolated from",
+      "source": "contaminant microflora",
+      "target": "product surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "contaminant microflora",
+      "target": "water"
+    },
+    {
+      "type": "Isolated from",
+      "source": "contaminant microflora",
+      "target": "meat"
+    },
+    {
+      "type": "Isolated from",
+      "source": "contaminant microflora",
+      "target": "poultry"
+    },
+    {
+      "type": "Isolated from",
+      "source": "contaminant microflora",
+      "target": "eggs"
+    },
+    {
+      "type": "Isolated from",
+      "source": "contaminant microflora",
+      "target": "fish"
+    },
+    {
+      "type": "Isolated from",
+      "source": "contaminant microflora",
+      "target": "fruits"
+    },
+    {
+      "type": "Isolated from",
+      "source": "contaminant microflora",
+      "target": "vegetables"
+    },
+    {
+      "type": "Isolated from",
+      "source": "contaminant microflora",
+      "target": "dry foods"
+    }
+  ]
+}
+```

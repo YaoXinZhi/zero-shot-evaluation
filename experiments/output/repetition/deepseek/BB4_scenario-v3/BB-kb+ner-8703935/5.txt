@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "riboflavin synthase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "binding of small ligands"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "trimeric protein"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "asymmetrical"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "nonequivalent binding sites"
+    },
+    {
+      "type": "Microbe",
+      "name": "lumazine protein"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "simple two-site exchange"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "riboflavin synthase",
+      "target": "binding of small ligands"
+    },
+    {
+      "type": "Exhibits",
+      "source": "riboflavin synthase",
+      "target": "trimeric protein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "riboflavin synthase",
+      "target": "asymmetrical"
+    },
+    {
+      "type": "Exhibits",
+      "source": "riboflavin synthase",
+      "target": "nonequivalent binding sites"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lumazine protein",
+      "target": "simple two-site exchange"
+    }
+  ]
+}
+

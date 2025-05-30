@@ -1,0 +1,148 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Xanthomonas"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas syringae pv. maculicola"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "type III secretion (TTS) system"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "pathogenicity"
+    },
+    {
+      "type": "Microbe",
+      "name": "XopC"
+    },
+    {
+      "type": "Microbe",
+      "name": "XopJ"
+    },
+    {
+      "type": "Microbe",
+      "name": "AvrBs3"
+    },
+    {
+      "type": "Microbe",
+      "name": "AvrRxv"
+    },
+    {
+      "type": "Microbe",
+      "name": "YopJ"
+    },
+    {
+      "type": "Microbe",
+      "name": "HopPmaG"
+    },
+    {
+      "type": "Microbe",
+      "name": "HpaJ"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "type III-dependent translocation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "transglycosylase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Sec signal"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "pathogenicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "type III secretion (TTS) system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopC",
+      "target": "type III-dependent translocation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopJ",
+      "target": "type III-dependent translocation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopJ",
+      "target": "AvrRxv/YopJ family"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopC",
+      "target": "features reminiscent of pathogenicity islands"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopC",
+      "target": "flanked by 62-bp inverted repeats"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HpaJ",
+      "target": "similarity to transglycosylases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HpaJ",
+      "target": "similarity to HopPmaG"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HpaJ",
+      "target": "Sec signal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HpaJ",
+      "target": "putative function as transglycosylase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas",
+      "target": "avrBs3 effector family"
+    },
+    {
+      "type": "Isolated from",
+      "source": "XopC",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Isolated from",
+      "source": "XopJ",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Isolated from",
+      "source": "AvrBs3",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Isolated from",
+      "source": "HopPmaG",
+      "target": "Pseudomonas syringae pv. maculicola"
+    }
+  ]
+}
+```

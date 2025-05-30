@@ -1,0 +1,34 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "P. celer"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. variabile/C. casei"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese ecosystem"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "P. celer",
+      "target": "cheese ecosystem"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "reached counts of 8.5 log10 cfu/g at the end of ripening"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "had a major effect on the counts and distributions of C. variabile/C. casei"
+    }
+  ]
+}
+

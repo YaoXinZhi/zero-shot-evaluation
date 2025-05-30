@@ -1,0 +1,32 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Balclutha calamagrostis"},
+      {"type": "Pest", "name": "Balclutha punctata"},
+      {"type": "Pest", "name": "Balclutha"},
+      {"type": "Plant", "name": "Deltocephalinae leafhoppers"},
+      {"type": "Geographic", "name": "Balclutha calamagrostis"},
+      {"type": "Geographic", "name": "Balclutha punctata"},
+      {"type": "Geographic", "name": "Balclutha"},
+      {"type": "Bacterium", "name": "Nasuia"},
+      {"type": "Bacterium", "name": "Sulcia"},
+      {"type": "Bacterium", "name": "Sodalis-like symbionts"},
+      {"type": "Phylum", "name": "Proteobacteria"},
+      {"type": "Class", "name": "Gammaproteobacteria"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Balclutha calamagrostis", "type": "Located in", "target": "Balclutha calamagrostis"},
+      {"source": "Balclutha punctata", "type": "Located in", "target": "Balclutha punctata"},
+      {"source": "Balclutha", "type": "Located in", "target": "Balclutha"},
+      {"source": "Nasuia", "type": "Have been found on", "target": "Balclutha calamagrostis"},
+      {"source": "Nasuia", "type": "Have been found on", "target": "Balclutha punctata"},
+      {"source": "Sulcia", "type": "Have been found on", "target": "Balclutha"},
+      {"source": "Sodalis-like symbionts", "type": "Have been found on", "target": "Balclutha"},
+      {"source": "Sodalis-like symbionts", "type": "Located in", "target": "Deltocephalinae leafhoppers"},
+      {"source": "Sulcia", "type": "Located in", "target": "Deltocephalinae leafhoppers"}
+    ]
+  }
+]
+

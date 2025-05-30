@@ -1,0 +1,214 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157:H7"
+    },
+    {
+      "type": "Microbe",
+      "name": "frog-derived peptide dermaseptin S4"
+    },
+    {
+      "type": "Microbe",
+      "name": "K4K20S4"
+    },
+    {
+      "type": "Microbe",
+      "name": "P28"
+    },
+    {
+      "type": "Microbe",
+      "name": "P14"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibacterial properties"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bactericidal kinetics"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "potent bactericidal properties"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "MIC"
+    },
+    {
+      "type": "Habitat",
+      "name": "commercial apple juice"
+    },
+    {
+      "type": "Habitat",
+      "name": "standard culture conditions"
+    },
+    {
+      "type": "Habitat",
+      "name": "high salt concentrations"
+    },
+    {
+      "type": "Habitat",
+      "name": "acidic conditions"
+    },
+    {
+      "type": "Habitat",
+      "name": "basic conditions"
+    },
+    {
+      "type": "Habitat",
+      "name": "extreme temperatures"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "hydrophobicity"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "charge"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "structure"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "binding to an idealized membrane"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "frog-derived peptide dermaseptin S4",
+      "target": "antibacterial properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4",
+      "target": "bactericidal kinetics"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4",
+      "target": "MIC"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P14",
+      "target": "MIC"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lipopeptide",
+      "target": "MIC"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "commercial apple juice"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "standard culture conditions"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "high salt concentrations"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "acidic conditions"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "basic conditions"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "extreme temperatures"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lipopeptide",
+      "target": "potent bactericidal properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4",
+      "target": "potent bactericidal properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "frog-derived peptide dermaseptin S4",
+      "target": "potent bactericidal properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4",
+      "target": "hydrophobicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4",
+      "target": "charge"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4",
+      "target": "structure"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4",
+      "target": "binding to an idealized membrane"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P14",
+      "target": "hydrophobicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P14",
+      "target": "charge"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P14",
+      "target": "structure"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P14",
+      "target": "binding to an idealized membrane"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lipopeptide",
+      "target": "hydrophobicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lipopeptide",
+      "target": "charge"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lipopeptide",
+      "target": "structure"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lipopeptide",
+      "target": "binding to an idealized membrane"
+    }
+  ]
+}
+```

@@ -1,0 +1,107 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "alkaline phosphatase"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "spheroplasts"
+    },
+    {
+      "type": "Habitat",
+      "name": "cell wall"
+    },
+    {
+      "type": "Habitat",
+      "name": "periplasm"
+    },
+    {
+      "type": "Habitat",
+      "name": "cytoplasmic membrane"
+    },
+    {
+      "type": "Habitat",
+      "name": "tripartite layer"
+    },
+    {
+      "type": "Habitat",
+      "name": "peptidoglycan layer"
+    },
+    {
+      "type": "Habitat",
+      "name": "sucrose"
+    },
+    {
+      "type": "Habitat",
+      "name": "MgCl(2)"
+    },
+    {
+      "type": "Habitat",
+      "name": "lysozyme"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "periplasm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "alkaline phosphatase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "cell wall"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "periplasm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "cytoplasmic membrane"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell wall",
+      "target": "tripartite layer"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell wall",
+      "target": "peptidoglycan layer"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "reassociation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "spheroplasts",
+      "target": "dissociation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "spheroplasts",
+      "target": "reassociation"
+    }
+  ]
+}
+```

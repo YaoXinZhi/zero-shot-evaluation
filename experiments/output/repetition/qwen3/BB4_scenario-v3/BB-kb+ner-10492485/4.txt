@@ -1,0 +1,122 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "molds"
+    },
+    {
+      "type": "Microbe",
+      "name": "yeasts"
+    },
+    {
+      "type": "Microbe",
+      "name": "parasites"
+    },
+    {
+      "type": "Microbe",
+      "name": "viruses"
+    },
+    {
+      "type": "Habitat",
+      "name": "meat"
+    },
+    {
+      "type": "Habitat",
+      "name": "poultry"
+    },
+    {
+      "type": "Habitat",
+      "name": "eggs"
+    },
+    {
+      "type": "Habitat",
+      "name": "fish"
+    },
+    {
+      "type": "Habitat",
+      "name": "fruits"
+    },
+    {
+      "type": "Habitat",
+      "name": "vegetables"
+    },
+    {
+      "type": "Habitat",
+      "name": "dry foods"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "high reactivity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "penetrability"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "spontaneous decomposition"
+    },
+    {
+      "type": "Geographical location",
+      "name": "United States"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Ozone",
+      "target": "high reactivity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Ozone",
+      "target": "penetrability"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Ozone",
+      "target": "spontaneous decomposition"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "meat"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "poultry"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "eggs"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "fish"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "fruits"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "vegetables"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "dry foods"
+    }
+  ]
+}
+```

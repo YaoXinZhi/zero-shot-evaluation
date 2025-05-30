@@ -1,0 +1,87 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella enterica"
+    },
+    {
+      "type": "Microbe",
+      "name": "Salmonella enterica Livingstone"
+    },
+    {
+      "type": "Microbe",
+      "name": "Salmonella enterica Virchow"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "extended-spectrum beta-lactamase producer"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bla(SHV-2) gene"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bla(CTX-M-10) gene"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bla(CTX-M-9) gene"
+    },
+    {
+      "type": "Habitat",
+      "name": "two Spanish hospitals"
+    },
+    {
+      "type": "Geographical location",
+      "name": "northern Spain"
+    },
+    {
+      "type": "Habitat",
+      "name": "animals"
+    },
+    {
+      "type": "Habitat",
+      "name": "humans"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Salmonella enterica",
+      "target": "two Spanish hospitals"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella enterica",
+      "target": "extended-spectrum beta-lactamase producer"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella enterica Livingstone",
+      "target": "bla(SHV-2) gene"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella enterica Virchow",
+      "target": "bla(CTX-M-10) gene"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella enterica Virchow",
+      "target": "bla(CTX-M-9) gene"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Salmonella enterica",
+      "target": "humans"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Salmonella enterica",
+      "target": "animals"
+    }
+  ]
+}
+```

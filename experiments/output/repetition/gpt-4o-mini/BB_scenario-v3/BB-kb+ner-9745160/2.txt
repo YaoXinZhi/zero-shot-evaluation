@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter-like organism"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "duodenal ulcer"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ulcer healing rate"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "bismuth-based triple therapy"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "PPI-based triple therapy"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "triple therapy"
+    },
+    {
+      "type": "Habitat",
+      "name": "clinical practice"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "duodenal ulcer"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "bismuth-based triple therapy"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "PPI-based triple therapy"
+    },
+    {
+      "type": "Exhibits",
+      "source": "PPI-based triple therapy",
+      "target": "ulcer healing rate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "ulcer healing rate"
+    }
+  ]
+}
+

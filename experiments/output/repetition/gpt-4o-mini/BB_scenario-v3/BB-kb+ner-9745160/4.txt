@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter-like organism"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "duodenal ulcer"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "H pylori infection"
+    },
+    {
+      "type": "Habitat",
+      "name": "human gastrointestinal tract"
+    },
+    {
+      "type": "Geographical location",
+      "name": "clinical practice"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ulcer healing rate"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "symptom relief"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "human gastrointestinal tract"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "H pylori infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "duodenal ulcer",
+      "target": "ulcer healing rate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "duodenal ulcer",
+      "target": "symptom relief"
+    }
+  ]
+}
+

@@ -1,0 +1,73 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella Paratyphi A"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. Paratyphi A"
+    },
+    {
+      "type": "Habitat",
+      "name": "Nepal"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Asia"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Israel"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Israeli travelers"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "nalidixic acid resistant"
+    },
+    {
+      "type": "Habitat",
+      "name": "food venue"
+    },
+    {
+      "type": "Habitat",
+      "name": "Jewish New Year"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacteremia"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Salmonella Paratyphi A",
+      "target": "Nepal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella Paratyphi A",
+      "target": "nalidixic acid resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella Paratyphi A",
+      "target": "bacteremia"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Salmonella Paratyphi A",
+      "target": "food venue"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Salmonella Paratyphi A",
+      "target": "Jewish New Year"
+    }
+  ]
+}
+```

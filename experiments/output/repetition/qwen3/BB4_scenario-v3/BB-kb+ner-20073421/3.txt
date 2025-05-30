@@ -1,0 +1,56 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis LVS"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Habitat",
+      "name": "murine macrophage-like cell line J774"
+    },
+    {
+      "type": "Habitat",
+      "name": "human cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "causative agent of human tularemia"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proliferate inside the human cells"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis",
+      "target": "human cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "causative agent of human tularemia"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "proliferate inside the human cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis LVS",
+      "target": "murine macrophage-like cell line J774"
+    }
+  ]
+}
+```

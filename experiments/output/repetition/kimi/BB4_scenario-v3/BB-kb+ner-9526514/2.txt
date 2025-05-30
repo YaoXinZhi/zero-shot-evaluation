@@ -1,0 +1,105 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Agrobacterium rhizogenes"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "hairy-root disease"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "reduced stature"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "off-shoots at the stem base"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "bent and wrinkled leaves"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "epinastic growth"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "tyrosine phosphatase super family motif CX5R"
+    },
+    {
+      "type": "Habitat",
+      "name": "tobacco leaf discs"
+    },
+    {
+      "type": "Habitat",
+      "name": "tobacco"
+    },
+    {
+      "type": "Gene",
+      "name": "rolB gene"
+    },
+    {
+      "type": "Gene",
+      "name": "rolBTR gene"
+    },
+    {
+      "type": "Gene",
+      "name": "35S::rolBTR gene"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "rolB gene",
+      "target": "Agrobacterium rhizogenes"
+    },
+    {
+      "type": "Isolated from",
+      "source": "rolBTR gene",
+      "target": "Agrobacterium rhizogenes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Agrobacterium rhizogenes",
+      "target": "hairy-root disease"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rolB gene",
+      "target": "morphogenetic activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rolBTR gene",
+      "target": "morphogenic activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rolBTR gene",
+      "target": "reduced stature"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rolBTR gene",
+      "target": "off-shoots at the stem base"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rolBTR gene",
+      "target": "bent and wrinkled leaves"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rolBTR gene",
+      "target": "epinastic growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rolB gene",
+      "target": "tyrosine phosphatase super family motif CX5R"
+    }
+  ]
+}
+

@@ -1,0 +1,99 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Rickettsia felis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Rickettsia bellii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Rickettsia rickettsii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Rickettsia parkeri"
+    },
+    {
+      "type": "Habitat",
+      "name": "state of São Paulo"
+    },
+    {
+      "type": "Habitat",
+      "name": "dogs"
+    },
+    {
+      "type": "Habitat",
+      "name": "cats"
+    },
+    {
+      "type": "Habitat",
+      "name": "opossums"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Brazil"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "flea species"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "tick species"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "rickettsial infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibody response"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Rickettsia felis",
+      "target": "fleas"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Rickettsia bellii",
+      "target": "ticks"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Rickettsia rickettsii",
+      "target": "rickettsial infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Rickettsia parkeri",
+      "target": "rickettsial infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "opossums",
+      "target": "antibody response"
+    },
+    {
+      "type": "Exhibits",
+      "source": "dogs",
+      "target": "antibody response"
+    },
+    {
+      "type": "Exhibits",
+      "source": "horses",
+      "target": "antibody response"
+    },
+    {
+      "type": "Exhibits",
+      "source": "humans",
+      "target": "antibody response"
+    }
+  ]
+}
+

@@ -1,0 +1,30 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. aureus"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "pathogenic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "pathogenic"
+    }
+  ]
+}
+```

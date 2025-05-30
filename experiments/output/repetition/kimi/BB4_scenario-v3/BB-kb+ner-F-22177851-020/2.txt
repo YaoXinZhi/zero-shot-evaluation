@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Habitat",
+      "name": "Livarot cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "Spanish farmhouse cheese"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "Livarot cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "Spanish farmhouse cheese"
+    }
+  ]
+}
+

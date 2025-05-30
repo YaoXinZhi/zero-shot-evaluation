@@ -1,0 +1,70 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. lactis spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus thermophilus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "transaminase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "specific transaminase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of α-ketoisocaproic acid"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "formation of 3-methylbutanal"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus",
+      "target": "transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis spp.",
+      "target": "specific transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus thermophilus",
+      "target": "specific transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis spp.",
+      "target": "production of α-ketoisocaproic acid"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus thermophilus",
+      "target": "production of α-ketoisocaproic acid"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. lactis spp.",
+      "target": "formation of 3-methylbutanal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus thermophilus",
+      "target": "formation of 3-methylbutanal"
+    }
+  ]
+}
+

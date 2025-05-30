@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pyogenes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "glycoprotein-binding activity"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "adherence"
+    },
+    {
+      "type": "Habitat",
+      "name": "host cell surface"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mga"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "virulence factors"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus pyogenes",
+      "target": "host cell surface"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "glycoprotein-binding activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "adherence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mga",
+      "target": "virulence factors"
+    },
+    {
+      "type": "Regulated by",
+      "source": "glycoprotein-binding activity",
+      "target": "Mga"
+    }
+  ]
+}
+
+occus pyogenes",
+      "target": "adherence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "adherence of bacteria"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "glycoprotein-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mga",
+      "target": "virulence factors"
+    },
+    {
+      "type": "Regulated by",
+      "source": "glycoprotein-binding activity",
+      "target": "Mga"
+    }
+  ]
+}
+

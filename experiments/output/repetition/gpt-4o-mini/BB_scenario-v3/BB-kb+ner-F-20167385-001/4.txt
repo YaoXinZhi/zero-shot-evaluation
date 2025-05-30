@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "yeasts"
+    },
+    {
+      "type": "Microbe",
+      "name": "Gram positive"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "catalase positive"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "salt-tolerant"
+    },
+    {
+      "type": "Microbe",
+      "name": "coagulase-negative cocci (CNC)"
+    },
+    {
+      "type": "Microbe",
+      "name": "coryneform bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Micrococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "yeasts",
+      "target": "growth factors"
+    },
+    {
+      "type": "Isolated from",
+      "source": "coagulase-negative cocci (CNC)",
+      "target": "salt-tolerant microbial communities"
+    },
+    {
+      "type": "Isolated from",
+      "source": "coryneform bacteria",
+      "target": "salt-tolerant microbial communities"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus",
+      "target": "salt-tolerant microbial communities"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Micrococcus",
+      "target": "salt-tolerant microbial communities"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium",
+      "target": "salt-tolerant microbial communities"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Arthrobacter",
+      "target": "salt-tolerant microbial communities"
+    }
+  ]
+}
+

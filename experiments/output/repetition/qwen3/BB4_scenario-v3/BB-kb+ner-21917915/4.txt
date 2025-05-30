@@ -1,0 +1,95 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "IsdH"
+    },
+    {
+      "type": "Microbe",
+      "name": "Isd"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pathogens"
+    },
+    {
+      "type": "Microbe",
+      "name": "mammals"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "steal iron from their hosts"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "express Hb-binding proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "captures Hb"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "make highly specific recognition complexes with Hb"
+    },
+    {
+      "type": "Habitat",
+      "name": "human"
+    },
+    {
+      "type": "Habitat",
+      "name": "host"
+    },
+    {
+      "type": "Geographical location",
+      "name": "human"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pathogens",
+      "target": "steal iron from their hosts"
+    },
+    {
+      "type": "Exhibits",
+      "source": "mammals",
+      "target": "hemoglobin (Hb) represents the largest reservoir of iron"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pathogens",
+      "target": "express Hb-binding proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "captures Hb"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "make highly specific recognition complexes with Hb"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "host"
+    }
+  ]
+}
+```

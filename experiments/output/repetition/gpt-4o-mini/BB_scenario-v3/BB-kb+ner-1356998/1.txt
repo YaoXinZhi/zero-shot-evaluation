@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Rickettsia"
+    },
+    {
+      "type": "Microbe",
+      "name": "Rickettsia conorii"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Israel"
+    },
+    {
+      "type": "Habitat",
+      "name": "ticks"
+    },
+    {
+      "type": "Habitat",
+      "name": "humans"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Rickettsia",
+      "target": "Israel"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Rickettsia",
+      "target": "ticks"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Rickettsia",
+      "target": "humans"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Rickettsia conorii",
+      "target": "Moroccan"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Rickettsia conorii",
+      "target": "no. 7"
+    }
+  ]
+}
+

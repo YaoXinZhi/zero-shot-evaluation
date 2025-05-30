@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "FlgF"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "susceptible to cleavage by endogenous proteases"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "protease-free"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stable full-length product"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "sensitive to proteolysis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "new purification procedure"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Salmonella typhimurium",
+      "target": "FlgF"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "susceptible to cleavage by endogenous proteases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "protease-free"
+    },
+    {
+      "type": "Exhibits",
+      "source": "protease-free",
+      "target": "stable full-length product"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "sensitive to proteolysis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "new purification procedure",
+      "target": "stable full-length product"
+    }
+  ]
+}
+

@@ -1,0 +1,118 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Penicillium crustosum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Penicillium brevicompactum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pen cr 26"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pen b 26"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "allergenic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "not known to be allergenic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hypoallergenic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "major allergen"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "minor allergen"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "recognized by IgG class specific antibodies"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "poorly recognized by Penicillium-sensitive atopic sera"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ribosomal P1 protein"
+    },
+    {
+      "type": "Habitat",
+      "name": "cDNA library"
+    },
+    {
+      "type": "Geographical location",
+      "name": "not specified"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Pen cr 26",
+      "target": "Penicillium crustosum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pen b 26",
+      "target": "Penicillium brevicompactum"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Penicillium brevicompactum",
+      "target": "major allergen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Penicillium crustosum",
+      "target": "not known to be allergenic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "minor allergen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "hypoallergenic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "recognized by IgG class specific antibodies"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "poorly recognized by Penicillium-sensitive atopic sera"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "ribosomal P1 protein"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pen cr 26",
+      "target": "cDNA library"
+    }
+  ]
+}
+```

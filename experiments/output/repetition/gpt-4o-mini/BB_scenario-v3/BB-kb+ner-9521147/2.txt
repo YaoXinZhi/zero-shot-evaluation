@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Burkholderia pseudomallei"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "immunologically indistinguishable"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antigenically indistinguishable"
+    },
+    {
+      "type": "Disease",
+      "name": "melioidosis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "smooth LPSs"
+    },
+    {
+      "type": "Habitat",
+      "name": "environment"
+    },
+    {
+      "type": "Habitat",
+      "name": "soil"
+    },
+    {
+      "type": "Habitat",
+      "name": "National Type Culture Collection"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Burkholderia pseudomallei",
+      "target": "immunologically indistinguishable"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Burkholderia pseudomallei",
+      "target": "antigenically indistinguishable"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Burkholderia pseudomallei",
+      "target": "environment"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Burkholderia pseudomallei",
+      "target": "soil"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Burkholderia pseudomallei",
+      "target": "National Type Culture Collection"
+    }
+  ]
+}
+

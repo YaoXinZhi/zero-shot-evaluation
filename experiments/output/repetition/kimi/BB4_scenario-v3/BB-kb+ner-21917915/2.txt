@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "cell-surface protein"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hemoglobin capture"
+    },
+    {
+      "type": "Habitat",
+      "name": "hosts"
+    },
+    {
+      "type": "Microbe",
+      "name": "IsdH"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Hb capture complex"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "iron-scavenging pathway"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Hb-binding proteins"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Hb-receptor"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "hosts"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "hemoglobin capture"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "cell-surface protein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "IsdH",
+      "target": "Hb capture complex"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "Hb-binding proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "iron-scavenging pathway"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hemoglobin",
+      "target": "Hb-receptor"
+    }
+  ]
+}
+

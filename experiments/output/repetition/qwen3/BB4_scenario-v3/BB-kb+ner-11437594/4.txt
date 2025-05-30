@@ -1,0 +1,87 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chondrus crispus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pichia pastoris"
+    },
+    {
+      "type": "Microbe",
+      "name": "Saccharomyces cerevisiae"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hexose oxidase production"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "methylotrophic"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "full-length HOX polypeptide"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "active HOX"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "proteolytic cleavage"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "two fragments"
+    },
+    {
+      "type": "Habitat",
+      "name": "extracellular compartment"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Chondrus crispus",
+      "target": "hexose oxidase production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pichia pastoris",
+      "target": "methylotrophic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "full-length HOX polypeptide"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pichia pastoris",
+      "target": "active HOX"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HOX",
+      "target": "proteolytic cleavage"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HOX",
+      "target": "two fragments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "HOX",
+      "target": "extracellular compartment"
+    }
+  ]
+}
+```

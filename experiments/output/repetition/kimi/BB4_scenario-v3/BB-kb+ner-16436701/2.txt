@@ -1,0 +1,108 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157:H7"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "hydrophobicity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "charge"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "structure"
+    },
+    {
+      "type": "Habitat",
+      "name": "commercial apple juice"
+    },
+    {
+      "type": "Microbe",
+      "name": "dermaseptin S4"
+    },
+    {
+      "type": "Microbe",
+      "name": "K4K20S4 (P28)"
+    },
+    {
+      "type": "Microbe",
+      "name": "N-terminal 14-mer sequence (P14)"
+    },
+    {
+      "type": "Microbe",
+      "name": "lipopeptide"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "dermaseptin S4",
+      "target": "frog"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4 (P28)",
+      "target": "bactericidal properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "N-terminal 14-mer sequence (P14)",
+      "target": "bactericidal properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lipopeptide",
+      "target": "bactericidal properties"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "food"
+    },
+    {
+      "type": "Exhibits",
+      "source": "dermaseptin S4",
+      "target": "Antibacterial properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4 (P28)",
+      "target": "hydrophobicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4 (P28)",
+      "target": "charge"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4 (P28)",
+      "target": "structure"
+    },
+    {
+      "type": "Exhibits",
+      "source": "N-terminal 14-mer sequence (P14)",
+      "target": "hydrophobicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "N-terminal 14-mer sequence (P14)",
+      "target": "charge"
+    },
+    {
+      "type": "Exhibits",
+      "source": "N-terminal 14-mer sequence (P14)",
+      "target": "structure"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lipopeptide",
+      "target": "N-terminal 14-mer sequence (P14)"
+    }
+  ]
+}
+

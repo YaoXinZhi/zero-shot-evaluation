@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Habitat",
+      "name": "paediatric and adult cystic fibrosis units"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Brisbane, Australia"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "multiresistance"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "colonial morphology"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "poorer lung function"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "paediatric and adult cystic fibrosis units"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "multiresistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "colonial morphology"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "poorer lung function"
+    }
+  ]
+}
+

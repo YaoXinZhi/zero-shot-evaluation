@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Burkholderia pseudomallei"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas pseudomallei"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "virulent"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "nonvirulent"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "smooth LPSs"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "immunologically indistinguishable"
+    },
+    {
+      "type": "Habitat",
+      "name": "environment"
+    },
+    {
+      "type": "Habitat",
+      "name": "clinical isolates"
+    },
+    {
+      "type": "Habitat",
+      "name": "soil"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Burkholderia pseudomallei",
+      "target": "virulent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Burkholderia pseudomallei",
+      "target": "nonvirulent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Burkholderia pseudomallei",
+      "target": "smooth LPSs"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Burkholderia pseudomallei",
+      "target": "immunologically indistinguishable"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Burkholderia pseudomallei",
+      "target": "environment"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Burkholderia pseudomallei",
+      "target": "clinical isolates"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Burkholderia pseudomallei",
+      "target": "soil"
+    }
+  ]
+}
+

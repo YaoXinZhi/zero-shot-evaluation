@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "neutrophil alkaline phosphatase (NAP) activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Gram-negative bacterial infections"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "severity of infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "susceptibility to E. coli mastitis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "severity of inflammation"
+    },
+    {
+      "type": "Habitat",
+      "name": "cattle"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "cattle"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "Gram-negative bacterial infections"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "severity of infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "susceptibility to E. coli mastitis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "severity of inflammation"
+    }
+  ]
+}
+

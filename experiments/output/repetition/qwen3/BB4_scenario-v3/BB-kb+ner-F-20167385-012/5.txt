@@ -1,0 +1,58 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Microbacterium foliorum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Proteus vulgaris"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "producing aroma compounds"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram negative"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Microbacterium foliorum",
+      "target": "Gram negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Microbacterium foliorum",
+      "target": "producing aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter sp.",
+      "target": "Gram negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter sp.",
+      "target": "producing aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Proteus vulgaris",
+      "target": "Gram negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Proteus vulgaris",
+      "target": "producing aroma compounds"
+    }
+  ]
+}
+```

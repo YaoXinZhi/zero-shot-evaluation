@@ -1,0 +1,39 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Geotrichum candidum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Debaryomyces hansenii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Penicillium roqueforti"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese samples"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Geotrichum candidum",
+      "target": "cheese samples"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Debaryomyces hansenii",
+      "target": "cheese samples"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Penicillium roqueforti",
+      "target": "cheese samples"
+    }
+  ]
+}
+```

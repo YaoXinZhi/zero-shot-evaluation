@@ -1,0 +1,194 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "non-O1 Vibrio cholerae"
+    },
+    {
+      "type": "Microbe",
+      "name": "V. cholerae"
+    },
+    {
+      "type": "Habitat",
+      "name": "blood"
+    },
+    {
+      "type": "Habitat",
+      "name": "ascites"
+    },
+    {
+      "type": "Habitat",
+      "name": "skin wounds"
+    },
+    {
+      "type": "Habitat",
+      "name": "salt water"
+    },
+    {
+      "type": "Habitat",
+      "name": "seawater"
+    },
+    {
+      "type": "Habitat",
+      "name": "clinical microbiology laboratory"
+    },
+    {
+      "type": "Habitat",
+      "name": "blood culture"
+    },
+    {
+      "type": "Geographical location",
+      "name": "single medical center"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "cellulitis with bullae formation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacteremia"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "fever"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "abdominal pain"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "diarrhea"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ascites"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "spontaneous bacterial peritonitis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cirrhosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "decompensated cirrhosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "skin manifestation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "risk factors"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "nosocomial infections"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "high lethal infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "case-fatality rate"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "non-O1 Vibrio cholerae",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "non-O1 Vibrio cholerae",
+      "target": "blood culture"
+    },
+    {
+      "type": "Isolated from",
+      "source": "non-O1 Vibrio cholerae",
+      "target": "ascites"
+    },
+    {
+      "type": "Isolated from",
+      "source": "non-O1 Vibrio cholerae",
+      "target": "clinical microbiology laboratory"
+    },
+    {
+      "type": "Exhibits",
+      "source": "non-O1 Vibrio cholerae",
+      "target": "bacteremia"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "cirrhosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "decompensated cirrhosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "fever"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "abdominal pain"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "diarrhea"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "ascites"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "cellulitis with bullae formation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "spontaneous bacterial peritonitis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "skin manifestation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "risk factors"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "nosocomial infections"
+    },
+    {
+      "type": "Exhibits",
+      "source": "non-O1 Vibrio cholerae",
+      "target": "high lethal infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "non-O1 Vibrio cholerae",
+      "target": "case-fatality rate"
+    }
+  ]
+}
+```

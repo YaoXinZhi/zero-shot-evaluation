@@ -1,0 +1,108 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas fluorescens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Aeromonas hydrophila"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio harveyi"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "reduced growth ability"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "aberrant production of outer membrane proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "decreased resistance against host serum bactericidal activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "impaired ability to disseminate in host blood and tissues"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "drastic attenuation in overall bacterial virulence"
+    },
+    {
+      "type": "Habitat",
+      "name": "Japanese flounder"
+    },
+    {
+      "type": "Habitat",
+      "name": "local farm"
+    },
+    {
+      "type": "Microbe",
+      "name": "TSS"
+    },
+    {
+      "type": "Microbe",
+      "name": "TFM"
+    },
+    {
+      "type": "Plasmid",
+      "name": "pJAQ"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "TSS",
+      "target": "Japanese flounder"
+    },
+    {
+      "type": "Isolated from",
+      "source": "TSS",
+      "target": "local farm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TFM",
+      "target": "reduced growth ability"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TFM",
+      "target": "aberrant production of outer membrane proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TFM",
+      "target": "decreased resistance against host serum bactericidal activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TFM",
+      "target": "impaired ability to disseminate in host blood and tissues"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TFM",
+      "target": "drastic attenuation in overall bacterial virulence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TFM",
+      "target": "cross-protective vaccine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "pJAQ",
+      "target": "AgaV-DegQ"
+    }
+  ]
+}
+

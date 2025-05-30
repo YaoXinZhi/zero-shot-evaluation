@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus"
+    },
+    {
+      "type": "Habitat",
+      "name": "medical devices"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus epidermidis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "biofilm"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "biofilm development"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. epidermidis"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus",
+      "target": "medical devices"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus epidermidis",
+      "target": "biofilm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "biofilm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. aureus",
+      "target": "biofilm development"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. epidermidis",
+      "target": "biofilm development"
+    }
+  ]
+}
+

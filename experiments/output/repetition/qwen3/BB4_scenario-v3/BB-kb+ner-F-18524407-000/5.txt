@@ -1,0 +1,104 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Propionibacterium freudenreichii subsp. shermanii TL 34"
+    },
+    {
+      "type": "Microbe",
+      "name": "Propionibacterium freudenreichii subsp. shermanii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pneumoniae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Propionibacterium acidipropionici strain TL 47"
+    },
+    {
+      "type": "Microbe",
+      "name": "lactic acid bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "dairy propionibacteria"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ropy phenotype"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of EPS"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "excrete exopolysaccharides"
+    },
+    {
+      "type": "Habitat",
+      "name": "YEL+ medium"
+    },
+    {
+      "type": "Habitat",
+      "name": "milk"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "presence of mRNA corresponding to the gene"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "(1→3, 1→2)-β-d-glucan capsule"
+    },
+    {
+      "type": "Geographical location",
+      "name": "CIP 103027"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Propionibacterium freudenreichii subsp. shermanii",
+      "target": "ropy phenotype"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacteria",
+      "target": "production of EPS"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Propionibacterium acidipropionici strain TL 47",
+      "target": "excrete exopolysaccharides"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Propionibacterium freudenreichii subsp. shermanii TL 34",
+      "target": "CIP 103027"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Propionibacterium freudenreichii subsp. shermanii",
+      "target": "YEL+ medium"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Propionibacterium acidipropionici strain TL 47",
+      "target": "milk"
+    },
+    {
+      "type": "Exhibits",
+      "source": "seven strains of Propionibacterium freudenreichii subsp. shermanii",
+      "target": "(1→3, 1→2)-β-d-glucan capsule"
+    },
+    {
+      "type": "Exhibits",
+      "source": "three strains of Propionibacterium freudenreichii subsp. shermanii",
+      "target": "presence of mRNA corresponding to the gene"
+    }
+  ]
+}
+```

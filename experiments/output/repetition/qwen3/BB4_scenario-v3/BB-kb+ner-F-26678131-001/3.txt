@@ -1,0 +1,61 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus plantarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lc. lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "STEC O26:H11"
+    },
+    {
+      "type": "Microbe",
+      "name": "STEC O157:H7"
+    },
+    {
+      "type": "Habitat",
+      "name": "milk"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "milk"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus plantarum",
+      "target": "milk"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lc. lactis",
+      "target": "milk"
+    },
+    {
+      "type": "Isolated from",
+      "source": "STEC O26:H11",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "STEC O157:H7",
+      "target": "cheese"
+    }
+  ]
+}
+```

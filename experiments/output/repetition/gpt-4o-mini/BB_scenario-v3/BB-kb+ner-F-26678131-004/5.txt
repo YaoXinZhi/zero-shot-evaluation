@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "granular texture"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "salty and butter aroma"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "dairy product"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "granular texture"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "salty and butter aroma"
+    }
+  ]
+}
+

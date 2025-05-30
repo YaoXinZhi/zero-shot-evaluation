@@ -1,0 +1,91 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Carnobacterium piscicola"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterobacter agglomerans"
+    },
+    {
+      "type": "Microbe",
+      "name": "Serratia liquefaciens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Rahnella aquatilis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Aeromonas hydrophila"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "soft texture"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "sour, rancid and bitter off-flavours"
+    },
+    {
+      "type": "Habitat",
+      "name": "cold-smoked salmon"
+    },
+    {
+      "type": "Habitat",
+      "name": "vacuum- or CO2-atmosphere"
+    },
+    {
+      "type": "Geographical location",
+      "name": "5 degrees C"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Carnobacterium piscicola",
+      "target": "cold-smoked salmon"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Carnobacterium piscicola",
+      "target": "soft texture"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Carnobacterium piscicola",
+      "target": "sour, rancid and bitter off-flavours"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio sp.",
+      "target": "vacuum- or CO2-atmosphere"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterobacter agglomerans",
+      "target": "vacuum- or CO2-atmosphere"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Serratia liquefaciens",
+      "target": "vacuum- or CO2-atmosphere"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Rahnella aquatilis",
+      "target": "vacuum- or CO2-atmosphere"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Aeromonas hydrophila",
+      "target": "vacuum- or CO2-atmosphere"
+    }
+  ]
+}
+

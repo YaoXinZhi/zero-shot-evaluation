@@ -1,0 +1,98 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "chronic atrophic gastritis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "gastric cancer"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "atrophic gastritis"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastric mucosa"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Japan"
+    },
+    {
+      "type": "Microbe",
+      "name": "monkeys"
+    },
+    {
+      "type": "Habitat",
+      "name": "children"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "chronic gastritis"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "gastric mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. pylori",
+      "target": "gastric mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "monkeys",
+      "target": "gastric mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "children"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "chronic atrophic gastritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. pylori",
+      "target": "chronic atrophic gastritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. pylori",
+      "target": "gastric cancer"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. pylori",
+      "target": "atrophic gastritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "monkeys",
+      "target": "atrophic gastritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "chronic gastritis"
+    }
+  ]
+}
+```

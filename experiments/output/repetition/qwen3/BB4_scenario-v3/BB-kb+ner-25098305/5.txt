@@ -1,0 +1,105 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma agassizii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma testudineum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Upper respiratory tract disease"
+    },
+    {
+      "type": "Habitat",
+      "name": "free-ranging gopher tortoises"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Georgia"
+    },
+    {
+      "type": "Geographical location",
+      "name": "USA"
+    },
+    {
+      "type": "Habitat",
+      "name": "Gopherus polyphemus"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma agassizii",
+      "target": "free-ranging gopher tortoises"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma testudineum",
+      "target": "free-ranging gopher tortoises"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycoplasma",
+      "target": "Upper respiratory tract disease"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma agassizii",
+      "target": "Gopherus polyphemus"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma testudineum",
+      "target": "Gopherus polyphemus"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Upper respiratory tract disease",
+      "target": "Gopherus polyphemus"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Upper respiratory tract disease",
+      "target": "free-ranging gopher tortoises"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma agassizii",
+      "target": "Georgia"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma testudineum",
+      "target": "Georgia"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Upper respiratory tract disease",
+      "target": "Georgia"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma agassizii",
+      "target": "USA"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma testudineum",
+      "target": "USA"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Upper respiratory tract disease",
+      "target": "USA"
+    }
+  ]
+}
+```

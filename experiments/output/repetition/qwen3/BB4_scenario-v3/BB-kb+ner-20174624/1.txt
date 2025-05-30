@@ -1,0 +1,205 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Yersinia"
+    },
+    {
+      "type": "Microbe",
+      "name": "Yersinia outer protein YopJ"
+    },
+    {
+      "type": "Microbe",
+      "name": "Yersinia pestis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Yersinia pseudotuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Yersinia enterocolitica"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. pestis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. pseudotuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. enterocolitica"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. pestis strain KIM6"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. pestis KIM5"
+    },
+    {
+      "type": "Microbe",
+      "name": "human monocyte-derived macrophages"
+    },
+    {
+      "type": "Microbe",
+      "name": "HMDM"
+    },
+    {
+      "type": "Microbe",
+      "name": "neutrophils"
+    },
+    {
+      "type": "Microbe",
+      "name": "polymorphonuclear leukocytes"
+    },
+    {
+      "type": "Microbe",
+      "name": "PMNs"
+    },
+    {
+      "type": "Microbe",
+      "name": "murine macrophages"
+    },
+    {
+      "type": "Microbe",
+      "name": "dendritic cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "apoptosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ROS-mediated cell death"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "caspase activation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "release of LDH"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "loss of membrane integrity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "surface exposure of phosphatidylserine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cell death"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "reactive oxygen species production"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phagocytic interaction"
+    },
+    {
+      "type": "Habitat",
+      "name": "human innate immune system"
+    },
+    {
+      "type": "Geographical location",
+      "name": "human"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Yersinia",
+      "target": "Yersinia YopJ/P-induced apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Neutrophils",
+      "target": "ROS-mediated cell death"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia outer protein YopJ",
+      "target": "apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia outer protein YopJ",
+      "target": "apoptosis in murine macrophages"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia outer protein YopJ",
+      "target": "apoptosis in dendritic cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia outer protein YopP",
+      "target": "apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia outer protein YopP",
+      "target": "apoptosis in murine macrophages"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia outer protein YopP",
+      "target": "apoptosis in dendritic cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Neutrophils",
+      "target": "ROS production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Neutrophils",
+      "target": "phagocytic interaction"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia pestis strain KIM6",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia pestis KIM5",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "human monocyte-derived macrophages",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Neutrophils",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Polymorphonuclear leukocytes",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Murine macrophages",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Dendritic cells",
+      "target": "human"
+    }
+  ]
+}
+```

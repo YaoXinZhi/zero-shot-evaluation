@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "efferocytosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cross-presentation"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "apoptotic cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phagocytosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antigen-presenting machinery"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "annexin1-deficient mice"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "CD8+ T cell"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "human blood monocyte-derived DCs"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "annexin1"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Mycobacterium tuberculosis",
+      "target": "DCs"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DCs",
+      "target": "efferocytosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DCs",
+      "target": "cross-presentation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DCs",
+      "target": "antigen-presenting machinery"
+    },
+    {
+      "type": "Exhibits",
+      "source": "annexin1-deficient mice",
+      "target": "impaired Mtb antigen-specific CD8+ T cell response"
+    },
+    {
+      "type": "Exhibits",
+      "source": "human blood monocyte-derived DCs",
+      "target": "downregulated annexin1"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium tuberculosis",
+      "target": "immune evasion"
+    }
+  ]
+}
+

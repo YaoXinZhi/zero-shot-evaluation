@@ -1,0 +1,42 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Halomonas"
+    },
+    {
+      "type": "Microbe",
+      "name": "reference strain 1 M45"
+    },
+    {
+      "type": "Microbe",
+      "name": "Providencia heimbachae GR4"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese sample"
+    },
+    {
+      "type": "Habitat",
+      "name": "smear-ripened cheese"
+    },
+    {
+      "type": "Geographical location",
+      "name": "protected designation of origin"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "reference strain 1 M45",
+      "target": "smear-ripened cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Providencia heimbachae GR4",
+      "target": "cheese sample"
+    }
+  ]
+}
+```

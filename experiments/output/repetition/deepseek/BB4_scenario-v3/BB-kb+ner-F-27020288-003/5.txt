@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "P. parvulus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus paracasei"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "β-glucan production"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "higher survival during gastrointestinal passage"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "higher survival during technological process conditions"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "P. parvulus",
+      "target": "β-glucan production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus paracasei",
+      "target": "higher survival during gastrointestinal passage"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus paracasei",
+      "target": "higher survival during technological process conditions"
+    }
+  ]
+}
+

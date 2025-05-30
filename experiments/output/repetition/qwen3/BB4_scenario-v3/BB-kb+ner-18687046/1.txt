@@ -1,0 +1,70 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "multi-drug resistant bacterial infections"
+    },
+    {
+      "type": "Microbe",
+      "name": "MDR pathogens"
+    },
+    {
+      "type": "Microbe",
+      "name": "ventilator-associated pneumonias"
+    },
+    {
+      "type": "Microbe",
+      "name": "blood stream infections"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "central nervous system infections"
+    },
+    {
+      "type": "Habitat",
+      "name": "intracranial pressure monitor"
+    },
+    {
+      "type": "Geographical location",
+      "name": "institution"
+    },
+    {
+      "type": "Geographical location",
+      "name": "trauma intensive care unit"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "multi-drug resistant bacterial infections",
+      "target": "multi-drug resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MDR pathogens",
+      "target": "multi-drug resistance"
+    },
+    {
+      "type": "Isolated from",
+      "source": "ventilator-associated pneumonias",
+      "target": "trauma intensive care unit"
+    },
+    {
+      "type": "Isolated from",
+      "source": "blood stream infections",
+      "target": "trauma intensive care unit"
+    },
+    {
+      "type": "Exhibits",
+      "source": "central nervous system",
+      "target": "central nervous system infections"
+    },
+    {
+      "type": "Isolated from",
+      "source": "multi-drug resistant bacterial infections",
+      "target": "institution"
+    }
+  ]
+}
+```

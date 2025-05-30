@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "FlgF"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "susceptible to cleavage by endogenous proteases"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "protease-free"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stable full-length product"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "sensitive to proteolysis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "overproduced proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolysis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cell disruption in the presence of urea"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "linked ion-exchange chromatography"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Salmonella typhimurium",
+      "target": "FlgF"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "susceptible to cleavage by endogenous proteases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "protease-free"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "stable full-length product"
+    },
+    {
+      "type": "Exhibits",
+      "source": "overproduced proteins",
+      "target": "sensitive to proteolysis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "proteolysis",
+      "target": "cell disruption in the presence of urea"
+    },
+    {
+      "type": "Exhibits",
+      "source": "proteolysis",
+      "target": "linked ion-exchange chromatography"
+    }
+  ]
+}
+

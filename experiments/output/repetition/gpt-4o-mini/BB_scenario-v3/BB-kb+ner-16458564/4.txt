@@ -1,0 +1,120 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "group A rotavirus"
+    },
+    {
+      "type": "Microbe",
+      "name": "diarrheagenic Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Shigella spp"
+    },
+    {
+      "type": "Microbe",
+      "name": "enterotoxigenic Bacteroides fragilis"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Hanoi"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Vietnam"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "diarrhea"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "fever"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "vomiting"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "dehydration"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "watery stool"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "mucous stool"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "group A rotavirus",
+      "target": "Hanoi"
+    },
+    {
+      "type": "Isolated from",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "Hanoi"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Shigella spp",
+      "target": "Hanoi"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "Hanoi"
+    },
+    {
+      "type": "Exhibits",
+      "source": "group A rotavirus",
+      "target": "diarrhea"
+    },
+    {
+      "type": "Exhibits",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "diarrhea"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Shigella spp",
+      "target": "diarrhea"
+    },
+    {
+      "type": "Exhibits",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "diarrhea"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children",
+      "target": "fever"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children",
+      "target": "vomiting"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children",
+      "target": "dehydration"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children",
+      "target": "watery stool"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children",
+      "target": "mucous stool"
+    }
+  ]
+}
+

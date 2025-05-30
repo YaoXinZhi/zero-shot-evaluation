@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "methicillin-resistant Staphylococcus aureus"
+    },
+    {
+      "type": "Habitat",
+      "name": "nursing home"
+    },
+    {
+      "type": "Habitat",
+      "name": "skilled nursing facility"
+    },
+    {
+      "type": "Habitat",
+      "name": "community SNF"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "genotypes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibiogram"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "oxacillin screening agar"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "disk-diffusion method"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "field-inversion gel electrophoresis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "restriction endonuclease digestion analysis"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "nursing home"
+    },
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "skilled nursing facility"
+    },
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "community SNF"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "genotypes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "antibiogram"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "oxacillin screening agar"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "disk-diffusion method"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "field-inversion gel electrophoresis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "restriction endonuclease digestion analysis"
+    }
+  ]
+}
+

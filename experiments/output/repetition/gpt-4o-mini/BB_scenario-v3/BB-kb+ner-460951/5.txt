@@ -1,0 +1,74 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "atypical mycobacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "M. fortuitum-chelonei complex"
+    },
+    {
+      "type": "Microbe",
+      "name": "M. marinum"
+    },
+    {
+      "type": "Microbe",
+      "name": "M. ulcerans"
+    },
+    {
+      "type": "Habitat",
+      "name": "non-pulmonary sites"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Queensland"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "superficial abscesses"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "lymph node infections"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "atypical mycobacteria",
+      "target": "non-pulmonary sites"
+    },
+    {
+      "type": "Isolated from",
+      "source": "M. fortuitum-chelonei complex",
+      "target": "non-pulmonary sites"
+    },
+    {
+      "type": "Isolated from",
+      "source": "M. marinum",
+      "target": "non-pulmonary sites"
+    },
+    {
+      "type": "Isolated from",
+      "source": "M. ulcerans",
+      "target": "non-pulmonary sites"
+    },
+    {
+      "type": "Exhibits",
+      "source": "M. fortuitum-chelonei complex",
+      "target": "superficial abscesses"
+    },
+    {
+      "type": "Exhibits",
+      "source": "M. marinum",
+      "target": "lymph node infections"
+    },
+    {
+      "type": "Exhibits",
+      "source": "M. ulcerans",
+      "target": "lymph node infections"
+    }
+  ]
+}
+

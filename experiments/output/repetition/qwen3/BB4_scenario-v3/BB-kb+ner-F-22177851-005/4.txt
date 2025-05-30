@@ -1,0 +1,115 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Proteus vulgaris 1 M10"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter celer"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram-negative"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produced high concentrations of flavor compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "potential risks for human health"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "capacity of colonization"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "impact on the growth of other microbial populations"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "impact on aroma compound production"
+    },
+    {
+      "type": "Habitat",
+      "name": "model cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheeses"
+    },
+    {
+      "type": "Habitat",
+      "name": "surface of experimental smear soft cheese"
+    },
+    {
+      "type": "Geographical location",
+      "name": "not specified"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Proteus vulgaris 1 M10",
+      "target": "produced high concentrations of flavor compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Proteus vulgaris 1 M10",
+      "target": "potential risks for human health"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter celer",
+      "target": "capacity of colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter celer",
+      "target": "impact on the growth of other microbial populations"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter celer",
+      "target": "impact on aroma compound production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "capacity of colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "impact on the growth of other microbial populations"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "impact on aroma compound production"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter celer",
+      "target": "cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Proteus vulgaris 1 M10",
+      "target": "model cheese"
+    }
+  ]
+}
+```

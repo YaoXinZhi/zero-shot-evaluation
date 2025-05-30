@@ -1,0 +1,80 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Gram-negative bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "D. hansenii"
+    },
+    {
+      "type": "Microbe",
+      "name": "G. candidum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. lipolytica"
+    },
+    {
+      "type": "Microbe",
+      "name": "yeasts"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surface"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "growth"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram-negative"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "D. hansenii",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "G. candidum",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Y. lipolytica",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacteria",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacteria",
+      "target": "growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "D. hansenii",
+      "target": "growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "G. candidum",
+      "target": "growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. lipolytica",
+      "target": "growth"
+    }
+  ]
+}
+```

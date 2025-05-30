@@ -1,0 +1,28 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Disease", "name": "disease"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "Cnr-Ipsp"},
+      {"type": "Geographic", "name": "Cnr-Ifn"},
+      {"type": "Geographic", "name": "University of Bari"},
+      {"type": "Geographic", "name": "Agritest"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella", "type": "Have been found on", "target": "olive trees"},
+      {"source": "Xylella", "type": "Causes", "target": "disease"},
+      {"source": "disease", "type": "Affects", "target": "olive trees"},
+      
+      {"source": "Xylella", "type": "Located in", "target": "Bari"},
+      {"source": "Xylella", "type": "Located in", "target": "Cnr-Ipsp"},
+      {"source": "Xylella", "type": "Located in", "target": "Cnr-Ifn"},
+      {"source": "Xylella", "type": "Located in", "target": "University of Bari"},
+      {"source": "Xylella", "type": "Located in", "target": "Agritest"}
+    ]
+  }
+]
+

@@ -1,0 +1,99 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Clostridium difficile"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hypotension"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "shock"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "sepsis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ileus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "megacolon"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "colon perforation"
+    },
+    {
+      "type": "Habitat",
+      "name": "intensive care unit"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Olmsted County, Minnesota"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "leukocyte count >15 × 10(9)/L"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "increase in serum level of creatinine >1.5-fold from baseline"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "use of proton pump inhibitors"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "use of narcotic medications"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Clostridium difficile",
+      "target": "hypotension"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium difficile",
+      "target": "shock"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium difficile",
+      "target": "sepsis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium difficile",
+      "target": "ileus"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium difficile",
+      "target": "megacolon"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium difficile",
+      "target": "colon perforation"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium difficile",
+      "target": "intensive care unit"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium difficile",
+      "target": "Olmsted County, Minnesota"
+    }
+  ]
+}
+

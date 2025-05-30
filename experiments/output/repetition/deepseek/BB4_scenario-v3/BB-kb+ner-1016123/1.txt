@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "S. pullorum"
+    },
+    {
+      "type": "Habitat",
+      "name": "egg pulp"
+    },
+    {
+      "type": "Habitat",
+      "name": "egg products"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "growth"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "enrichment"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "detection"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "bi-selenite ion"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "hypertonic strontium chloride"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Salmonella sp.",
+      "target": "egg pulp"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella sp.",
+      "target": "growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella sp.",
+      "target": "enrichment"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella sp.",
+      "target": "detection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. pullorum",
+      "target": "growth"
+    }
+  ]
+}
+

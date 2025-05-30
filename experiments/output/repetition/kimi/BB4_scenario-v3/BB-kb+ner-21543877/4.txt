@@ -1,0 +1,37 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Rv3168"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "aminoglycoside phosphotransferase (APH)"
+    },
+    {
+      "type": "Habitat",
+      "name": "human population"
+    },
+    {
+      "type": "Geographical location",
+      "name": "widespread"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Rv3168",
+      "target": "Mycobacterium tuberculosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Rv3168",
+      "target": "aminoglycoside phosphotransferase (APH)"
+    }
+  ]
+}
+

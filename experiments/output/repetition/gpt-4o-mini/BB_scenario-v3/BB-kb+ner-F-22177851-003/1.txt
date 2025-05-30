@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "psychrotrophic species"
+    },
+    {
+      "type": "Microbe",
+      "name": "Halomonas"
+    },
+    {
+      "type": "Habitat",
+      "name": "marine environments"
+    },
+    {
+      "type": "Microbe",
+      "name": "Hafnia"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "some strains are commercialized and inoculated during cheese-making"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Halomonas",
+      "target": "marine environments"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter",
+      "target": "psychrotrophic species"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia",
+      "target": "some strains are commercialized and inoculated during cheese-making"
+    }
+  ]
+}
+

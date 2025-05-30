@@ -1,0 +1,112 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "IsdH"
+    },
+    {
+      "type": "Microbe",
+      "name": "Isd"
+    },
+    {
+      "type": "Microbe",
+      "name": "pathogens"
+    },
+    {
+      "type": "Microbe",
+      "name": "human"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "cell-surface"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "steal iron"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "establish infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "access this source"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "capture Hb"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "iron-scavenging pathway"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "utilize Hb as an iron source"
+    },
+    {
+      "type": "Habitat",
+      "name": "mammals"
+    },
+    {
+      "type": "Habitat",
+      "name": "human"
+    },
+    {
+      "type": "Geographical location",
+      "name": "human"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "human"
+    },
+    {
+      "type": "Exhibits",
+      "source": "pathogens",
+      "target": "steal iron"
+    },
+    {
+      "type": "Exhibits",
+      "source": "pathogens",
+      "target": "establish infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "mammals",
+      "target": "contain hemoglobin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "capture Hb"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "iron-scavenging pathway"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "utilize Hb as an iron source"
+    },
+    {
+      "type": "Exhibits",
+      "source": "IsdH",
+      "target": "cell-surface"
+    }
+  ]
+}
+```

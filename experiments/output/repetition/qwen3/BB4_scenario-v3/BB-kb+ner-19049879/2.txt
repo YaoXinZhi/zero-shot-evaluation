@@ -1,0 +1,104 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudosciaena crocea"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio parahaemolyticus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "activation of nuclear factor-kappaB (NF-kappaB)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "expression"
+    },
+    {
+      "type": "Habitat",
+      "name": "blood"
+    },
+    {
+      "type": "Habitat",
+      "name": "spleen"
+    },
+    {
+      "type": "Habitat",
+      "name": "liver"
+    },
+    {
+      "type": "Habitat",
+      "name": "muscle"
+    },
+    {
+      "type": "Geographical location",
+      "name": "large yellow croaker"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Myeloid differentiation factor 88 (MyD88)",
+      "target": "activation of nuclear factor-kappaB (NF-kappaB)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Myeloid differentiation factor 88",
+      "target": "large yellow croaker"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "expression"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "highest expression"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "weakest expression"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio parahaemolyticus",
+      "target": "Gram-negative bacterium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "highest expression"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "lowest expression"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MyD88",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MyD88",
+      "target": "spleen"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MyD88",
+      "target": "liver"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MyD88",
+      "target": "muscle"
+    }
+  ]
+}
+```

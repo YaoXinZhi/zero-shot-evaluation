@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Clostridium difficile"
+    },
+    {
+      "type": "Microbe",
+      "name": "NAP1/BI/027"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "strain typing"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cost-effectiveness"
+    },
+    {
+      "type": "Habitat",
+      "name": "CDI treatment"
+    },
+    {
+      "type": "Microbe",
+      "name": "fidaxomicin"
+    },
+    {
+      "type": "Microbe",
+      "name": "vancomycin"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Clostridium difficile",
+      "target": "CDI treatment"
+    },
+    {
+      "type": "Exhibits",
+      "source": "fidaxomicin",
+      "target": "cost-effectiveness"
+    },
+    {
+      "type": "Exhibits",
+      "source": "NAP1/BI/027",
+      "target": "strain typing"
+    },
+    {
+      "type": "Isolated from",
+      "source": "fidaxomicin",
+      "target": "CDI treatment"
+    },
+    {
+      "type": "Isolated from",
+      "source": "vancomycin",
+      "target": "CDI treatment"
+    }
+  ]
+}
+

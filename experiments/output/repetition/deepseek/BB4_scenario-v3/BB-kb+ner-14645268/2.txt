@@ -1,0 +1,125 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "type III secretion (TTS) system"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "pathogenicity"
+    },
+    {
+      "type": "Microbe",
+      "name": "XopC"
+    },
+    {
+      "type": "Microbe",
+      "name": "XopJ"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Xanthomonas outer proteins (Xops)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "AvrBs3 effector domain"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "AvrRxv/YopJ family of effector proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "pathogenicity islands"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "62-bp inverted repeats"
+    },
+    {
+      "type": "Microbe",
+      "name": "hpaJ"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "transglycosylases"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas syringae pv. maculicola"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "HopPmaG"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Sec signal"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "transglycosylase"
+    },
+    {
+      "type": "Habitat",
+      "name": "bacterial periplasm"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "type III secretion (TTS) system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "pathogenicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopC",
+      "target": "Xanthomonas outer proteins (Xops)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopJ",
+      "target": "Xanthomonas outer proteins (Xops)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopJ",
+      "target": "AvrRxv/YopJ family of effector proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hpaJ",
+      "target": "transglycosylases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hpaJ",
+      "target": "HopPmaG"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hpaJ",
+      "target": "Sec signal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hpaJ",
+      "target": "transglycosylase"
+    },
+    {
+      "type": "Isolated from",
+      "source": "hpaJ",
+      "target": "bacterial periplasm"
+    }
+  ]
+}
+

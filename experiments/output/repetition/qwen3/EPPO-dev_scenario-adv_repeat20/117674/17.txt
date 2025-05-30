@@ -1,0 +1,64 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Diaphorina citri. Kuwayama"},
+      {"type": "Vector", "name": "Diaphorina citri. Kuwayama"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "citrus greening"},
+      {"type": "Plant", "name": "citrus trees"},
+      {"type": "Geographic", "name": "ARGENTINE REPUBLIC"},
+      {"type": "Geographic", "name": "NATIONAL SERVICE OF HEALTH AND AGRI-FOOD QUALITY"},
+      {"type": "Geographic", "name": "City of Buenos Aires"},
+      {"type": "Geographic", "name": "Province of CATAMARCA"},
+      {"type": "Geographic", "name": "Capayán Department"},
+      {"type": "Geographic", "name": "Chicligasta Department"},
+      {"type": "Geographic", "name": "Leales Department"},
+      {"type": "Geographic", "name": "TUCUMÁN"},
+      {"type": "Geographic", "name": "JUJUY"},
+      {"type": "Geographic", "name": "SALTA"},
+      {"type": "Geographic", "name": "CATAMARCA"},
+      {"type": "Geographic", "name": "ENTRE RÍOS"},
+      {"type": "Geographic", "name": "CORRIENTES"},
+      {"type": "Geographic", "name": "MISIONES"},
+      {"type": "Geographic", "name": "CHACO"},
+      {"type": "Geographic", "name": "FORMOSA"},
+      {"type": "Geographic", "name": "SANTIAGO DEL ESTERO"},
+      {"type": "Geographic", "name": "SANTA FE"},
+      {"type": "Geographic", "name": "Argentine Northeast region (NEA)"},
+      {"type": "Geographic", "name": "Northwest Argentina (NOA)"},
+      {"type": "Geographic", "name": "Villa de Medinas"},
+      {"type": "Geographic", "name": "Capayan"},
+      {"type": "Geographic", "name": "Province of TUCUMÁN"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Diaphorina citri. Kuwayama", "type": "Transmit", "target": "HLB"},
+      {"source": "HLB", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "HLB", "type": "Causes", "target": "citrus greening"},
+      {"source": "HLB", "type": "Affects", "target": "citrus trees"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Have been found on", "target": "citrus trees"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Province of CATAMARCA"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "TUCUMÁN"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "JUJUY"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "SALTA"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "CATAMARCA"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "ENTRE RÍOS"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "CORRIENTES"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "MISIONES"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "CHACO"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "FORMOSA"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "SANTIAGO DEL ESTERO"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "SANTA FE"},
+      {"source": "HLB", "type": "Located in", "target": "Argentine Northeast region (NEA)"},
+      {"source": "HLB", "type": "Located in", "target": "Northwest Argentina (NOA)"},
+      {"source": "Capayán Department", "type": "Located in", "target": "Province of CATAMARCA"},
+      {"source": "Chicligasta Department", "type": "Located in", "target": "Province of TUCUMÁN"},
+      {"source": "Leales Department", "type": "Located in", "target": "Province of TUCUMÁN"},
+      {"source": "Villa de Medinas", "type": "Located in", "target": "Chicligasta Department"},
+      {"source": "Capayan", "type": "Located in", "target": "Province of CATAMARCA"}
+    ]
+  }
+]
+

@@ -1,0 +1,103 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "lactic acid bacterial strains"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus durans HZ28"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "quinolone resistance"
+    },
+    {
+      "type": "Habitat",
+      "name": "natural fermented koumiss"
+    },
+    {
+      "type": "Habitat",
+      "name": "yoghurt"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Food and Agriculture Organization"
+    },
+    {
+      "type": "Geographical location",
+      "name": "World Health Organization"
+    },
+    {
+      "type": "Microbe",
+      "name": "probiotic lactic acid bacteria"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistance to norfloxacin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistance to ciprofloxacin"
+    },
+    {
+      "type": "Microbe",
+      "name": "gyrA genes"
+    },
+    {
+      "type": "Microbe",
+      "name": "parC genes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mutations"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "lactic acid bacterial strains",
+      "target": "natural fermented koumiss"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lactic acid bacterial strains",
+      "target": "yoghurt"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacterial strains",
+      "target": "quinolone resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacterial strains",
+      "target": "resistance to norfloxacin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacterial strains",
+      "target": "resistance to ciprofloxacin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gyrA genes",
+      "target": "mutations"
+    },
+    {
+      "type": "Exhibits",
+      "source": "parC genes",
+      "target": "mutations"
+    }
+  ]
+}
+```

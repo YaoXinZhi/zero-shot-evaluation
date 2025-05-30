@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Bacillus intermedius"
+    },
+    {
+      "type": "Microbe",
+      "name": "Bacillus intermedius S3-19"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "alkaline phosphatase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phosphomonoesterase activities"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phosphodiesterase activities"
+    },
+    {
+      "type": "Habitat",
+      "name": "culture liquid"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "monomer"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "culture liquid"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Bacillus intermedius",
+      "target": "alkaline phosphatase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "phosphomonoesterase activities"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "phosphodiesterase activities"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "monomer"
+    }
+  ]
+}
+

@@ -1,0 +1,43 @@
+[
+  {
+    "entities": [
+      "{\"type\": \"Disease\", \"name\": \"Huanglongbing\"}",
+      "{\"type\": \"Disease\", \"name\": \"HLB\"}",
+      "{\"type\": \"Disease\", \"name\": \"greening\"}",
+      "{\"type\": \"Pest\", \"name\": \"'Candidatus Liberibacter asiaticus'\"}",
+      "{\"type\": \"Pest\", \"name\": \"CLas\"}",
+      "{\"type\": \"Plant\", \"name\": \"citrus\"}",
+      "{\"type\": \"Plant\", \"name\": \"Citrus× sinensis(L.) Osbeck\"}",
+      "{\"type\": \"Plant\", \"name\": \"sweet orange\"}",
+      "{\"type\": \"Plant\", \"name\": \"Pera sweet orange\"}",
+      "{\"type\": \"Vector\", \"name\": \"Agrobacterium\"}",
+      "{\"type\": \"Pest\", \"name\": \"sarcotoxin IA\"}",
+      "{\"type\": \"Pest\", \"name\": \"stx IA\"}",
+      "{\"type\": \"Plant\", \"name\": \"Sarcophaga peregrina\"}",
+      "{\"type\": \"Plant\", \"name\": \"flesh fly Sarcophaga peregrina\"}",
+      "{\"type\": \"Plant\", \"name\": \"STX-5\"}",
+      "{\"type\": \"Plant\", \"name\": \"STX-11\"}",
+      "{\"type\": \"Plant\", \"name\": \"STX-12\"}",
+      "{\"type\": \"Plant\", \"name\": \"STX-13\"}"
+    ]
+  },
+  {
+    "relationships": [
+      "{\"source\": \"'Candidatus Liberibacter asiaticus'\", \"type\": \"Causes\", \"target\": \"Huanglongbing\"}",
+      "{\"source\": \"'Candidatus Liberibacter asiaticus'\", \"type\": \"Causes\", \"target\": \"HLB\"}",
+      "{\"source\": \"'Candidatus Liberibacter asiaticus'\", \"type\": \"Causes\", \"target\": \"greening\"}",
+      "{\"source\": \"HLB\", \"type\": \"Affects\", \"target\": \"citrus\"}",
+      "{\"source\": \"greening\", \"type\": \"Affects\", \"target\": \"citrus\"}",
+      "{\"source\": \"Huanglongbing\", \"type\": \"Affects\", \"target\": \"citrus\"}",
+      "{\"source\": \"Agrobacterium\", \"type\": \"Transmit\", \"target\": \"sarcotoxin IA\"}",
+      "{\"source\": \"Agrobacterium\", \"type\": \"Transmit\", \"target\": \"stx IA\"}",
+      "{\"source\": \"sarcotoxin IA\", \"type\": \"Have been found on\", \"target\": \"Pera sweet orange\"}",
+      "{\"source\": \"stx IA\", \"type\": \"Have been found on\", \"target\": \"Pera sweet orange\"}",
+      "{\"source\": \"'Candidatus Liberibacter asiaticus'\", \"type\": \"Have been found on\", \"target\": \"STX-5\"}",
+      "{\"source\": \"'Candidatus Liberibacter asiaticus'\", \"type\": \"Have been found on\", \"target\": \"STX-11\"}",
+      "{\"source\": \"'Candidatus Liberibacter asiaticus'\", \"type\": \"Have been found on\", \"target\": \"STX-12\"}",
+      "{\"source\": \"'Candidatus Liberibacter asiaticus'\", \"type\": \"Have been found on\", \"target\": \"STX-13\"}"
+    ]
+  }
+]
+

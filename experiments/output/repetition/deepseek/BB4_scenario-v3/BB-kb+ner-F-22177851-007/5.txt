@@ -1,0 +1,41 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Gram-negative bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "yeasts"
+    },
+    {
+      "type": "Microbe",
+      "name": "D. hansenii"
+    },
+    {
+      "type": "Microbe",
+      "name": "G. candidum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. lipolytica"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surface"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "D. hansenii",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "G. candidum",
+      "target": "cheese surface"
+    }
+  ]
+}
+

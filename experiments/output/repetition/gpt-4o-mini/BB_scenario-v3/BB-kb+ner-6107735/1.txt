@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Vibrio cholerae O:1"
+    },
+    {
+      "type": "Habitat",
+      "name": "lagoon"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Cagliari"
+    },
+    {
+      "type": "Habitat",
+      "name": "marine bivalves"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "pelecypods"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Vibrio cholerae O:1",
+      "target": "lagoon"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio cholerae O:1",
+      "target": "marine bivalves"
+    },
+    {
+      "type": "Isolated from",
+      "source": "marine bivalves",
+      "target": "pelecypods"
+    }
+  ]
+}
+

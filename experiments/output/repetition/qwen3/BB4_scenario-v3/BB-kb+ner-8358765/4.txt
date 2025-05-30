@@ -1,0 +1,78 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "HCl secretion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "basal HCl secretion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stimulated HCl secretion"
+    },
+    {
+      "type": "Habitat",
+      "name": "antrum"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "chronic antral gastritis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "chronic gastritis"
+    },
+    {
+      "type": "Habitat",
+      "name": "duodenum"
+    },
+    {
+      "type": "Habitat",
+      "name": "bulbitis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Losec (omeprazole) Astra Co."
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Losec (omeprazole) Astra Co.",
+      "target": "inhibits basal HCl secretion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Losec (omeprazole) Astra Co.",
+      "target": "inhibits stimulated HCl secretion"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "antrum"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "chronic antral gastritis"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "duodenum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "bulbitis"
+    }
+  ]
+}
+```

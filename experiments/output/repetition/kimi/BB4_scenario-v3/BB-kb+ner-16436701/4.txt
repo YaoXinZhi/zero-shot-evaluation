@@ -1,0 +1,76 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157:H7"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "hydrophobicity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "charge"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "structure"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "binding to an idealized membrane"
+    },
+    {
+      "type": "Habitat",
+      "name": "commercial apple juice"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "food"
+    },
+    {
+      "type": "Exhibits",
+      "source": "dermaseptin S4",
+      "target": "Antibacterial properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4 (P28)",
+      "target": "bactericidal properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "N-terminal 14-mer sequence (P14)",
+      "target": "bactericidal properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lipopeptide",
+      "target": "bactericidal properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "peptides",
+      "target": "hydrophobicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "peptides",
+      "target": "charge"
+    },
+    {
+      "type": "Exhibits",
+      "source": "peptides",
+      "target": "structure"
+    },
+    {
+      "type": "Exhibits",
+      "source": "peptides",
+      "target": "binding to an idealized membrane"
+    }
+  ]
+}
+

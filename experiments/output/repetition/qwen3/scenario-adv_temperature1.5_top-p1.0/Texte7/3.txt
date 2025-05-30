@@ -1,0 +1,27 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Geographic", "name": "South Tyrol"},
+      {"type": "Plant", "name": "Chardonnay"},
+      {"type": "Plant", "name": "Pinot Grigio"},
+      {"type": "Geographic", "name": "the province"},
+      {"type": "Pest", "name": "flavescence dorée"},
+      {"type": "Disease", "name": "black wood disease"},
+      {"type": "Geographic", "name": "Laimburg Research Center"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "flavescence dorée", "type": "Located in", "target": "South Tyrol"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "Chardonnay"},
+      {"source": "flavescence dorée", "type": "Have been found on", "target": "Pinot Grigio"},
+      {"source": "black wood disease", "type": "Affects", "target": "plant"},
+      {"source": "flavescence dorée", "type": "Affects", "target": "plant"},
+      {"source": "Phytosanitary Service", "type": "Located in", "target": "province"},
+      {"source": "Consultancy Center for Fruit Growing in South Tyrol", "type": "Located in", "target": "South Tyrol"},
+      {"source": "Consorzio Vini Alto Adige", "type": "Located in", "target": "South Tyrol"}
+    ]
+  }
+]
+

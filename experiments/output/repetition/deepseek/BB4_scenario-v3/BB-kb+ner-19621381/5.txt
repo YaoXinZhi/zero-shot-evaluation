@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "amyloidogenic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "aggregation-prone"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "inclusion bodies"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "solubilize amyloidogenic peptides"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "minimizes toxicity during bacterial growth"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "enables the processing and handling of the peptides in denaturing solutions"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "amyloidogenic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "aggregation-prone"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "solubilize amyloidogenic peptides"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "minimizes toxicity during bacterial growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "enables the processing and handling of the peptides in denaturing solutions"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "inclusion bodies"
+    }
+  ]
+}
+

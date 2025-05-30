@@ -1,0 +1,424 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "molds"
+    },
+    {
+      "type": "Microbe",
+      "name": "yeasts"
+    },
+    {
+      "type": "Microbe",
+      "name": "parasites"
+    },
+    {
+      "type": "Microbe",
+      "name": "viruses"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "susceptibility to ozone"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "physiological state of the culture"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "pH of the medium"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "temperature"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "humidity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "presence of additives"
+    },
+    {
+      "type": "Habitat",
+      "name": "food products"
+    },
+    {
+      "type": "Habitat",
+      "name": "product surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "water"
+    },
+    {
+      "type": "Habitat",
+      "name": "meat"
+    },
+    {
+      "type": "Habitat",
+      "name": "poultry"
+    },
+    {
+      "type": "Habitat",
+      "name": "eggs"
+    },
+    {
+      "type": "Habitat",
+      "name": "fish"
+    },
+    {
+      "type": "Habitat",
+      "name": "fruits"
+    },
+    {
+      "type": "Habitat",
+      "name": "vegetables"
+    },
+    {
+      "type": "Habitat",
+      "name": "dry foods"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "discoloration"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "deterioration of food flavor"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "bacteria",
+      "target": "susceptibility to ozone"
+    },
+    {
+      "type": "Exhibits",
+      "source": "molds",
+      "target": "susceptibility to ozone"
+    },
+    {
+      "type": "Exhibits",
+      "source": "yeasts",
+      "target": "susceptibility to ozone"
+    },
+    {
+      "type": "Exhibits",
+      "source": "parasites",
+      "target": "susceptibility to ozone"
+    },
+    {
+      "type": "Exhibits",
+      "source": "viruses",
+      "target": "susceptibility to ozone"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "food products"
+    },
+    {
+      "type": "Isolated from",
+      "source": "molds",
+      "target": "food products"
+    },
+    {
+      "type": "Isolated from",
+      "source": "yeasts",
+      "target": "food products"
+    },
+    {
+      "type": "Isolated from",
+      "source": "parasites",
+      "target": "food products"
+    },
+    {
+      "type": "Isolated from",
+      "source": "viruses",
+      "target": "food products"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "product surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "molds",
+      "target": "product surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "yeasts",
+      "target": "product surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "parasites",
+      "target": "product surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "viruses",
+      "target": "product surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "water"
+    },
+    {
+      "type": "Isolated from",
+      "source": "molds",
+      "target": "water"
+    },
+    {
+      "type": "Isolated from",
+      "source": "yeasts",
+      "target": "water"
+    },
+    {
+      "type": "Isolated from",
+      "source": "parasites",
+      "target": "water"
+    },
+    {
+      "type": "Isolated from",
+      "source": "viruses",
+      "target": "water"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "meat"
+    },
+    {
+      "type": "Isolated from",
+      "source": "molds",
+      "target": "meat"
+    },
+    {
+      "type": "Isolated from",
+      "source": "yeasts",
+      "target": "meat"
+    },
+    {
+      "type": "Isolated from",
+      "source": "parasites",
+      "target": "meat"
+    },
+    {
+      "type": "Isolated from",
+      "source": "viruses",
+      "target": "meat"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "poultry"
+    },
+    {
+      "type": "Isolated from",
+      "source": "molds",
+      "target": "poultry"
+    },
+    {
+      "type": "Isolated from",
+      "source": "yeasts",
+      "target": "poultry"
+    },
+    {
+      "type": "Isolated from",
+      "source": "parasites",
+      "target": "poultry"
+    },
+    {
+      "type": "Isolated from",
+      "source": "viruses",
+      "target": "poultry"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "eggs"
+    },
+    {
+      "type": "Isolated from",
+      "source": "molds",
+      "target": "eggs"
+    },
+    {
+      "type": "Isolated from",
+      "source": "yeasts",
+      "target": "eggs"
+    },
+    {
+      "type": "Isolated from",
+      "source": "parasites",
+      "target": "eggs"
+    },
+    {
+      "type": "Isolated from",
+      "source": "viruses",
+      "target": "eggs"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "fish"
+    },
+    {
+      "type": "Isolated from",
+      "source": "molds",
+      "target": "fish"
+    },
+    {
+      "type": "Isolated from",
+      "source": "yeasts",
+      "target": "fish"
+    },
+    {
+      "type": "Isolated from",
+      "source": "parasites",
+      "target": "fish"
+    },
+    {
+      "type": "Isolated from",
+      "source": "viruses",
+      "target": "fish"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "fruits"
+    },
+    {
+      "type": "Isolated from",
+      "source": "molds",
+      "target": "fruits"
+    },
+    {
+      "type": "Isolated from",
+      "source": "yeasts",
+      "target": "fruits"
+    },
+    {
+      "type": "Isolated from",
+      "source": "parasites",
+      "target": "fruits"
+    },
+    {
+      "type": "Isolated from",
+      "source": "viruses",
+      "target": "fruits"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "vegetables"
+    },
+    {
+      "type": "Isolated from",
+      "source": "molds",
+      "target": "vegetables"
+    },
+    {
+      "type": "Isolated from",
+      "source": "yeasts",
+      "target": "vegetables"
+    },
+    {
+      "type": "Isolated from",
+      "source": "parasites",
+      "target": "vegetables"
+    },
+    {
+      "type": "Isolated from",
+      "source": "viruses",
+      "target": "vegetables"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "dry foods"
+    },
+    {
+      "type": "Isolated from",
+      "source": "molds",
+      "target": "dry foods"
+    },
+    {
+      "type": "Isolated from",
+      "source": "yeasts",
+      "target": "dry foods"
+    },
+    {
+      "type": "Isolated from",
+      "source": "parasites",
+      "target": "dry foods"
+    },
+    {
+      "type": "Isolated from",
+      "source": "viruses",
+      "target": "dry foods"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteria",
+      "target": "discoloration"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteria",
+      "target": "deterioration of food flavor"
+    },
+    {
+      "type": "Exhibits",
+      "source": "molds",
+      "target": "discoloration"
+    },
+    {
+      "type": "Exhibits",
+      "source": "molds",
+      "target": "deterioration of food flavor"
+    },
+    {
+      "type": "Exhibits",
+      "source": "yeasts",
+      "target": "discoloration"
+    },
+    {
+      "type": "Exhibits",
+      "source": "yeasts",
+      "target": "deterioration of food flavor"
+    },
+    {
+      "type": "Exhibits",
+      "source": "parasites",
+      "target": "discoloration"
+    },
+    {
+      "type": "Exhibits",
+      "source": "parasites",
+      "target": "deterioration of food flavor"
+    },
+    {
+      "type": "Exhibits",
+      "source": "viruses",
+      "target": "discoloration"
+    },
+    {
+      "type": "Exhibits",
+      "source": "viruses",
+      "target": "deterioration of food flavor"
+    }
+  ]
+}
+

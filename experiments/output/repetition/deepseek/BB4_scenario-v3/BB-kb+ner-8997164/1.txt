@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "TCR-gamma delta-bearing T cells"
+    },
+    {
+      "type": "Microbe",
+      "name": "gamma delta T cells"
+    },
+    {
+      "type": "Microbe",
+      "name": "mycobacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "BCG granulomas"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "granulomatous lesions"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "central caseous necrosis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "calcification"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fibrotic changes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "granulomatous immune response"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "BCG granuloma formation"
+    },
+    {
+      "type": "Habitat",
+      "name": "sites of mycobacterial infection"
+    },
+    {
+      "type": "Habitat",
+      "name": "BCG granulomatous lesion"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "gamma delta T cells",
+      "target": "granulomatous immune response"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gamma delta T cells",
+      "target": "BCG granuloma formation"
+    },
+    {
+      "type": "Isolated from",
+      "source": "gamma delta T cells",
+      "target": "sites of mycobacterial infection"
+    },
+    {
+      "type": "Isolated from",
+      "source": "gamma delta T cells",
+      "target": "BCG granulomatous lesion"
+    }
+  ]
+}
+

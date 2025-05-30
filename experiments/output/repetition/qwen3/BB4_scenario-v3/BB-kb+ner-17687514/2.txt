@@ -1,0 +1,34 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pneumoniae"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram-positive"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "virulence factors"
+    },
+    {
+      "type": "Microbe",
+      "name": "bacteria"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pneumoniae",
+      "target": "Gram-positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteria",
+      "target": "virulence factors"
+    }
+  ]
+}
+```

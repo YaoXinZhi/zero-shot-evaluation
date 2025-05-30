@@ -1,0 +1,28 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Balclutha calamagrostis"},
+      {"type": "Pest", "name": "Balclutha punctata"},
+      {"type": "Pest", "name": "leafhoppers"},
+      {"type": "Vector", "name": "Deltocephalinae"},
+      {"type": "Geographic", "name": "Balclutha"},
+      {"type": "Disease", "name": "Nasuia"},
+      {"type": "Disease", "name": "Sulcia"},
+      {"type": "Disease", "name": "Sodalis-like bacterium"},
+      {"type": "Geographic", "name": "bacteriomes"},
+      {"type": "Geographic", "name": "fat body cells"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Balclutha calamagrostis", "type": "Located in", "target": "Balclutha"},
+      {"source": "Balclutha punctata", "type": "Located in", "target": "Balclutha"},
+      {"source": "leafhoppers", "type": "Located in", "target": "Deltocephalinae"},
+      {"source": "Sulcia", "type": "Have been found on", "target": "bacteriomes"},
+      {"source": "Sodalis-like bacterium", "type": "Have been found on", "target": "fat body cells"},
+      {"source": "Sodalis-like bacterium", "type": "Have been found on", "target": "bacteriomes"},
+      {"source": "Sulcia", "type": "Causes", "target": "Nasuia"}
+    ]
+  }
+]
+

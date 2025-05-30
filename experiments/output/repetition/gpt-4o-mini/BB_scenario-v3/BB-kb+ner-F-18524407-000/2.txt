@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Propionibacterium freudenreichii subsp. shermanii TL 34 (CIP 103027)"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pneumoniae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Propionibacterium acidipropionici strain TL 47"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ropy phenotype"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "exopolysaccharides"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "β-glucan capsular polysaccharide"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mRNA corresponding to the gene"
+    },
+    {
+      "type": "Habitat",
+      "name": "YEL+ medium"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Propionibacterium freudenreichii subsp. shermanii TL 34 (CIP 103027)",
+      "target": "exopolysaccharides"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Propionibacterium freudenreichii subsp. shermanii TL 34 (CIP 103027)",
+      "target": "ropy phenotype"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pneumoniae",
+      "target": "β-glucan capsular polysaccharide"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Propionibacterium freudenreichii subsp. shermanii TL 34 (CIP 103027)",
+      "target": "YEL+ medium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Propionibacterium acidipropionici strain TL 47",
+      "target": "exopolysaccharides"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Propionibacterium freudenreichii subsp. shermanii TL 34 (CIP 103027)",
+      "target": "mRNA corresponding to the gene"
+    }
+  ]
+}
+

@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Proteus vulgaris 1 M10"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produced high concentrations of flavor compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "branched-chain alcohols"
+    },
+    {
+      "type": "Habitat",
+      "name": "model cheese"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter celer"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Habitat",
+      "name": "experimental smear soft cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheeses"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Proteus vulgaris 1 M10",
+      "target": "produced high concentrations of flavor compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Proteus vulgaris 1 M10",
+      "target": "branched-chain alcohols"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Proteus vulgaris 1 M10",
+      "target": "model cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter celer",
+      "target": "cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "cheeses"
+    }
+  ]
+}
+

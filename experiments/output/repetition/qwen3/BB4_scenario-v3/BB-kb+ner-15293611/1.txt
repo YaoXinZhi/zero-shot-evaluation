@@ -1,0 +1,95 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "clonal strains"
+    },
+    {
+      "type": "Microbe",
+      "name": "pulsotype 2"
+    },
+    {
+      "type": "Microbe",
+      "name": "pulsotype 1"
+    },
+    {
+      "type": "Habitat",
+      "name": "cystic fibrosis units"
+    },
+    {
+      "type": "Habitat",
+      "name": "CF units"
+    },
+    {
+      "type": "Habitat",
+      "name": "paediatric CF units"
+    },
+    {
+      "type": "Habitat",
+      "name": "adult CF units"
+    },
+    {
+      "type": "Habitat",
+      "name": "sputum"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Brisbane"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Australia"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "colonial morphology"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "multiresistance"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "sputum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "clonal strains",
+      "target": "cystic fibrosis units"
+    },
+    {
+      "type": "Isolated from",
+      "source": "pulsotype 2",
+      "target": "CF units"
+    },
+    {
+      "type": "Isolated from",
+      "source": "pulsotype 1",
+      "target": "CF units"
+    },
+    {
+      "type": "Exhibits",
+      "source": "pulsotype 2",
+      "target": "colonial morphology"
+    },
+    {
+      "type": "Exhibits",
+      "source": "pulsotype 2",
+      "target": "multiresistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "pulsotype 1",
+      "target": "multiresistance"
+    }
+  ]
+}
+```

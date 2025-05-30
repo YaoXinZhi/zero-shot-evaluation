@@ -1,0 +1,114 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudoalteromonas"
+    },
+    {
+      "type": "Microbe",
+      "name": "Halomonas"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio"
+    },
+    {
+      "type": "Microbe",
+      "name": "Marinilactibacillus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram-negative"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheeses"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese rinds"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pseudoalteromonas",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Halomonas",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Vibrio",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Marinilactibacillus",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudoalteromonas",
+      "target": "cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Halomonas",
+      "target": "cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio",
+      "target": "cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Marinilactibacillus",
+      "target": "cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter",
+      "target": "cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudoalteromonas",
+      "target": "cheese rinds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Halomonas",
+      "target": "cheese rinds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio",
+      "target": "cheese rinds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Marinilactibacillus",
+      "target": "cheese rinds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter",
+      "target": "cheese rinds"
+    }
+  ]
+}
+

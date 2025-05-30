@@ -1,0 +1,38 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "bacille Calmette Guerin"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "tuberculin hypersensitivity"
+    },
+    {
+      "type": "Habitat",
+      "name": "Macaca mulatta"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "bacille Calmette Guerin",
+      "target": "Macaca mulatta"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycobacterium tuberculosis",
+      "target": "Macaca mulatta"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Macaca mulatta",
+      "target": "tuberculin hypersensitivity"
+    }
+  ]
+}
+

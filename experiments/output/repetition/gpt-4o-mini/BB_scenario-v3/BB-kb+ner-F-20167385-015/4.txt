@@ -1,0 +1,25 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "S. thermophilus"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. delbrueckii"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "S. thermophilus",
+      "target": "bacteria involved in the primary stage of cheese fermentation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. delbrueckii",
+      "target": "bacteria involved in the primary stage of cheese fermentation"
+    }
+  ]
+}
+

@@ -1,0 +1,157 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Legionella pneumophila"
+    },
+    {
+      "type": "Microbe",
+      "name": "macrophage cell line"
+    },
+    {
+      "type": "Microbe",
+      "name": "SYTOX Green"
+    },
+    {
+      "type": "Microbe",
+      "name": "CellTox Green"
+    },
+    {
+      "type": "Microbe",
+      "name": "GelGreen"
+    },
+    {
+      "type": "Microbe",
+      "name": "EvaGreen"
+    },
+    {
+      "type": "Habitat",
+      "name": "384-well screening plates"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cytotoxic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "permeant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "impermeant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "fluorescent"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "DNA-binding"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "high throughput screening"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "luminescence"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "host cell viability"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "intracellular growth"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "fluorescent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "DNA-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CellTox Green",
+      "target": "fluorescent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CellTox Green",
+      "target": "DNA-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "GelGreen",
+      "target": "fluorescent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "GelGreen",
+      "target": "DNA-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "fluorescent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "DNA-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "impermeant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CellTox Green",
+      "target": "impermeant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "GelGreen",
+      "target": "impermeant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "impermeant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Legionella pneumophila",
+      "target": "intracellular growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "macrophage cell line",
+      "target": "host cell viability"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Legionella pneumophila",
+      "target": "macrophage cell line"
+    },
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "cell toxicity readout"
+    },
+    {
+      "type": "Exhibits",
+      "source": "high throughput screening",
+      "target": "real-time"
+    }
+  ]
+}
+```

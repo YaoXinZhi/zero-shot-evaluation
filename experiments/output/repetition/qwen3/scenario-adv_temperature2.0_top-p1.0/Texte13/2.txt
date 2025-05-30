@@ -1,0 +1,71 @@
+[
+  {
+    "entities": [
+      { "type": "Pest", "name": "Fall Armyworm" },
+      { "type": "Pest", "name": "Spodoptera frugiperda" },
+      { "type": "Plant", "name": "maize crops" },
+      { "type": "Plant", "name": "maize plants" },
+      { "type": "Disease", "name": "maize lethal necrosis" },
+      { "type": "Vector", "name": "corn leafhopper" },
+      { "type": "Vector", "name": "Dalbulus maidis" },
+      { "type": "Geographic", "name": "Kenya" },
+      { "type": "Geographic", "name": "South America" },
+      { "type": "Geographic", "name": "Western Europe" },
+      { "type": "Geographic", "name": "Britain" },
+      { "type": "Geographic", "name": "Uzbekistan" },
+      { "type": "Geographic", "name": "Turkey" },
+      { "type": "Geographic", "name": "neighboring regions" },
+      { "type": "Geographic", "name": "Mediterranean Basin" },
+      { "type": "Geographic", "name": "Middle East" },
+      { "type": "Pest", "name": "Cacopsylla pyrisuga" },
+      { "type": "Pest", "name": "C. pyri" },
+      { "type": "Pest", "name": "C. pyricola" },
+      { "type": "Pest", "name": "Cacopsylla fera" },
+      { "type": "Pest", "name": "Cacopsylla bidens" },
+      { "type": "Plant", "name": "European pear" },
+      { "type": "Plant", "name": "Pyrus communis" },
+      { "type": "Plant", "name": "European pear (P. communis)" },
+      { "type": "Plant", "name": "European pear - alternate form 2",
+        "notes": "Original format in text" },
+      { "type": "Pest", "name": "Cacopsylla notata" }
+    ]
+  },
+  {
+    "relationships": [
+      {
+        "source": "Spodoptera frugiperda",
+        "type": "Have been found on",
+        "target": "maize crops"
+      },
+      {
+        "source": "Spodoptera frugiperida",
+        "type": "Causes",
+        "target": "maize lethal necrosis"
+      },
+      {
+        "source": "maize lethal necrosis",
+        "type": "Affects",
+        "target": "maize plants"
+      },
+      {
+        "source": "corn leafhopper",
+        "type": "Transmits",
+        "target": "Spodoptera frugiperda"
+      },
+      {
+        "entity1": "Spodoptera frugiperida",
+        "related": "in",
+        "locationName": "Kenya",
+        "locationType": "geographecs"
+      },
+      {
+        "entity1": "cori leafhapper",
+        "related": "ived in",
+        "locationName2": "outh Amca",
+         "relation:spc":
+        "located"
+      }  
+    ]
+  }
+]
+

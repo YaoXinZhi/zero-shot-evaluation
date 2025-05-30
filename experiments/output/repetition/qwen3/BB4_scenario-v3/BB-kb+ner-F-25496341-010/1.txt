@@ -1,0 +1,25 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Leuconostoc"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheeses"
+    },
+    {
+      "type": "Microbe",
+      "name": "Leuconostoc genus"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Leuconostoc genus",
+      "target": "cheeses"
+    }
+  ]
+}
+```

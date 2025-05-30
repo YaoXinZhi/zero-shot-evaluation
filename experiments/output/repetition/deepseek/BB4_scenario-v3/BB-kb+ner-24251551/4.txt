@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Haemophilus influenzae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "peptidoglycan recycling"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cofactor-independent cleavage of a relatively nonlabile ether bond"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "one-base mechanism of action"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "MurNAc 6-phosphate hydrolase (MurQ)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "N-acetylmuramic acid (MurNAc)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Glu89"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Glu120"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Lys239"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae",
+      "target": "peptidoglycan recycling"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae",
+      "target": "cofactor-independent cleavage of a relatively nonlabile ether bond"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae",
+      "target": "one-base mechanism of action"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae",
+      "target": "MurNAc 6-phosphate hydrolase (MurQ)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "MurNAc 6P hydrolase"
+    }
+  ]
+}
+

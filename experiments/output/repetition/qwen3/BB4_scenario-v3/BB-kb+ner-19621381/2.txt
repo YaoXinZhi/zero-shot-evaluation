@@ -1,0 +1,141 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "BCL-XL-1/2"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "amyloidogenic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "aggregation-prone"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "solubilize"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "low yields"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "difficult optimizations"
+    },
+      {
+      "type": "Physiological trait",
+      "name": "isolation challenges"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "minimizes toxicity"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "inclusion bodies"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "denaturing solutions"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "immobilized metal affinity chromatography"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "reverse phase HPLC"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cyanogen bromide cleavage"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "milligram quantities"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "isotopically label"
+    },
+    {
+      "type": "Habitat",
+      "name": "bacterial inclusion bodies"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "amyloidogenic peptides",
+      "target": "aggregation-prone"
+    },
+    {
+      "type": "Exhibits",
+      "source": "expression systems",
+      "target": "low yields"
+    },
+    {
+      "type": "Exhibits",
+      "source": "expression systems",
+      "target": "difficult optimizations"
+    },
+    {
+      "type": "Exhibits",
+      "source": "expression systems",
+      "target": "isolation challenges"
+    },
+    {
+      "type": "Exhibits",
+      "source": "BCL-XL-1/2",
+      "target": "drives the expression into bacterial inclusion bodies"
+    },
+    {
+      "type": "Exhibits",
+      "source": "BCL-XL-1/2",
+      "target": "minimizes toxicity"
+    },
+    {
+      "type": "Isolated from",
+      "source": "amyloidogenic peptides",
+      "target": "bacterial inclusion bodies"
+    },
+    {
+      "type": "Exhibits",
+      "source": "immobilized metal affinity chromatography",
+      "target": "isolate the peptide"
+    },
+    {
+      "type": "Exhibits",
+      "source": "reverse phase HPLC",
+      "target": "isolate the peptide"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cyanogen bromide cleavage",
+      "target": "isolate the peptide"
+    },
+    {
+      "type": "Exhibits",
+      "source": "reverse phase HPLC",
+      "target": "yields milligram quantities"
+    },
+    {
+      "type": "Exhibits",
+      "source": "fusion to BCL-XL-1/2",
+      "target": "general strategy"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "expression of amyloidogenic peptides"
+    }
+  ]
+}
+```

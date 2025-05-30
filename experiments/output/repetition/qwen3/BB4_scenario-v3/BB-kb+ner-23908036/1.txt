@@ -1,0 +1,94 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "β-carbonic anhydrase psCA3"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA3"
+    },
+    {
+      "type": "Microbe",
+      "name": "β-CAs"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA1"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA2"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA3"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram-negative"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "causes life-threatening infections"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to most clinically available antimicrobials"
+    },
+    {
+      "type": "Habitat",
+      "name": "susceptible individuals"
+    },
+    {
+      "type": "Geographical location",
+      "name": "clinically"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "causes life-threatening infections"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "resistant to most clinically available antimicrobials"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "susceptible individuals"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. aeruginosa PAO1",
+      "target": "encodes three functional β-carbonic anhydrases"
+    },
+    {
+      "type": "Isolated from",
+      "source": "β-carbonic anhydrase psCA3",
+      "target": "Pseudomonas aeruginosa"
+    }
+  ]
+}
+```

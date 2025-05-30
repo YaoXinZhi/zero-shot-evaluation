@@ -1,0 +1,61 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactococcus lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus thermophilus"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "complex microbiota"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "metabolise residual lactose and citrate"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "release of intracellular peptidases"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolysis of peptides to free amino acids"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Lactococcus lactis",
+      "target": "metabolise residual lactose and citrate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus thermophilus",
+      "target": "metabolise residual lactose and citrate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactococcus lactis",
+      "target": "release of intracellular peptidases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus thermophilus",
+      "target": "release of intracellular peptidases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactococcus lactis",
+      "target": "proteolysis of peptides to free amino acids"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus thermophilus",
+      "target": "proteolysis of peptides to free amino acids"
+    }
+  ]
+}
+

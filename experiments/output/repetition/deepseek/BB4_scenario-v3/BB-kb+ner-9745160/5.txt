@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "infection"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "duodenal ulcer"
+    },
+    {
+      "type": "Habitat",
+      "name": "duodenal ulcer disease"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "drug resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "side-effects"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "symptom relief"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ulcer healing rate"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "eradication rate"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "infection"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "duodenal ulcer disease"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "drug resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "side-effects"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "symptom relief"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "ulcer healing rate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "eradication rate"
+    }
+  ]
+}
+

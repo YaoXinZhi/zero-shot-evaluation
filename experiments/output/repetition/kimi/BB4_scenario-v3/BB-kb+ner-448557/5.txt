@@ -1,0 +1,68 @@
+{
+  "entities": [
+    {
+      "type": "Physiological trait",
+      "name": "wheezing"
+    },
+    {
+      "type": "Microbe",
+      "name": "respiratory syncytial virus"
+    },
+    {
+      "type": "Microbe",
+      "name": "parainfluenza virus"
+    },
+    {
+      "type": "Microbe",
+      "name": "adenovirus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma pneumoniae"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "parainfluenza virus",
+      "target": "types 1 and 3"
+    },
+    {
+      "type": "Isolated from",
+      "source": "respiratory syncytial virus",
+      "target": "patients with WARI"
+    },
+    {
+      "type": "Isolated from",
+      "source": "parainfluenza virus",
+      "target": "patients with WARI"
+    },
+    {
+      "type": "Isolated from",
+      "source": "adenovirus",
+      "target": "patients with WARI"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma pneumoniae",
+      "target": "patients with WARI"
+    }
+  ]
+}
+
+ce": "parainfluenza virus types 1 and 3",
+      "target": "patients with WARI"
+    },
+    {
+      "type": "Isolated from",
+      "source": "adenovirus",
+      "target": "patients with WARI"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma pneumoniae",
+      "target": "patients with WARI"
+    }
+  ]
+}
+

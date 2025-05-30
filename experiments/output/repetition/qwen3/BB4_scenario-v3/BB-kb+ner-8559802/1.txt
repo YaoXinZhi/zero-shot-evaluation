@@ -1,0 +1,166 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Salmonella"
+    },
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium (993)"
+    },
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium restriction+modification+strain"
+    },
+    {
+      "type": "Microbe",
+      "name": "pBR322"
+    },
+    {
+      "type": "Microbe",
+      "name": "transformants"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "drug-resistant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ampicillin-resistant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cryptic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "efficient transformation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stable"
+    },
+    {
+      "type": "Habitat",
+      "name": "wild strain of Salmonella"
+    },
+    {
+      "type": "Habitat",
+      "name": "Salmonella typhimurium restriction+modification+strain"
+    },
+    {
+      "type": "Habitat",
+      "name": "absence of antibiotic selection"
+    },
+    {
+      "type": "Habitat",
+      "name": "minicells"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "plasmid"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "naturally occurring plasmid"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "smaller plasmid (9 kb)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "larger plasmid (25 kb)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "3.5-kb derivative"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "cloning vector"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "vector"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "naturally occurring plasmid",
+      "target": "Salmonella typhimurium (993)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella typhimurium (993)",
+      "target": "drug-resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "smaller plasmid (9 kb)",
+      "target": "ampicillin-resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "larger plasmid (25 kb)",
+      "target": "cryptic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "plasmid",
+      "target": "efficient transformation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "transformants",
+      "target": "stable"
+    },
+    {
+      "type": "Isolated from",
+      "source": "3.5-kb derivative",
+      "target": "9-kb plasmid"
+    },
+    {
+      "type": "Isolated from",
+      "source": "cloning vector",
+      "target": "naturally occurring plasmid"
+    },
+    {
+      "type": "Isolated from",
+      "source": "vector",
+      "target": "cloning vector"
+    },
+    {
+      "type": "Isolated from",
+      "source": "plasmid",
+      "target": "Salmonella typhimurium restriction+modification+strain"
+    },
+    {
+      "type": "Isolated from",
+      "source": "transformants",
+      "target": "Salmonella typhimurium restriction+modification+strain"
+    },
+    {
+      "type": "Isolated from",
+      "source": "vector",
+      "target": "Salmonella typhimurium restriction+modification+strain"
+    },
+    {
+      "type": "Isolated from",
+      "source": "vector",
+      "target": "pBR322"
+    },
+    {
+      "type": "Isolated from",
+      "source": "vector",
+      "target": "minicells"
+    }
+  ]
+}
+```

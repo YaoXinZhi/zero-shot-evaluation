@@ -1,0 +1,80 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Carnobacterium piscicola"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterobacter agglomerans"
+    },
+    {
+      "type": "Microbe",
+      "name": "Serratia liquefaciens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Rahnella aquatilis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Aeromonas hydrophila"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "soft texture"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "sour, rancid and bitter off-flavours"
+    },
+    {
+      "type": "Habitat",
+      "name": "cold-smoked salmon"
+    },
+    {
+      "type": "Habitat",
+      "name": "vacuum-packed cold-smoked salmon"
+    },
+    {
+      "type": "Habitat",
+      "name": "CO2-atmosphere"
+    },
+    {
+      "type": "Geographical location",
+      "name": "5 degrees C"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Carnobacterium piscicola",
+      "target": "cold-smoked salmon"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Carnobacterium piscicola",
+      "target": "vacuum-packed cold-smoked salmon"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Carnobacterium piscicola",
+      "target": "CO2-atmosphere"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Carnobacterium piscicola",
+      "target": "soft texture"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Carnobacterium piscicola",
+      "target": "sour, rancid and bitter off-flavours"
+    }
+  ]
+}
+

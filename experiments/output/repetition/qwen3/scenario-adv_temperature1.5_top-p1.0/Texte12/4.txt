@@ -1,0 +1,17 @@
+[
+  {
+    "entities": [
+      {"type": "Vector", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "host plant"},
+      {"type": "Pest", "name": "BdorOBP13"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Transmit", "target": "BdorOBP13"},
+      {"source": "BdorOBP13", "type": "Have been found on", "target": "host plant"},
+      {"source": "BdorOBP13", "type": "Affects", "target": "olfactory sensitivity"}
+    ]
+  }
+]
+

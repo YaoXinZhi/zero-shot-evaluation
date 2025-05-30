@@ -1,0 +1,135 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Gram-positive bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Gram-negative bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "anaerobes"
+    },
+    {
+      "type": "Habitat",
+      "name": "amniotic fluid"
+    },
+    {
+      "type": "Habitat",
+      "name": "intrauterine secretions"
+    },
+    {
+      "type": "Habitat",
+      "name": "exudates of the pelvic dead space"
+    },
+    {
+      "type": "Microbe",
+      "name": "cephem compounds"
+    },
+    {
+      "type": "Microbe",
+      "name": "Flomoxef"
+    },
+    {
+      "type": "Microbe",
+      "name": "FMOX"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "broad antibacterial spectrum"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "potent antibacterial activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "good transfer into various tissues"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "excellent rate of bacterial elimination"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "high clinical efficacy rate"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "high response rate"
+    },
+    {
+      "type": "Habitat",
+      "name": "genital tissues"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Japan"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Flomoxef",
+      "target": "broad antibacterial spectrum"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Flomoxef",
+      "target": "potent antibacterial activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Flomoxef",
+      "target": "good transfer into various tissues"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Flomoxef",
+      "target": "excellent rate of bacterial elimination"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Flomoxef",
+      "target": "high clinical efficacy rate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Flomoxef",
+      "target": "high response rate"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "intrauterine secretions"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Gram-positive bacteria",
+      "target": "amniotic fluid"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Gram-negative bacteria",
+      "target": "exudates of the pelvic dead space"
+    },
+    {
+      "type": "Isolated from",
+      "source": "anaerobes",
+      "target": "intrauterine secretions"
+    },
+    {
+      "type": "Isolated from",
+      "source": "cephem compounds",
+      "target": "Japan"
+    }
+  ]
+}
+```

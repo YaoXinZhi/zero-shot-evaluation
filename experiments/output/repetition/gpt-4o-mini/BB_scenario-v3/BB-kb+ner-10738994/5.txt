@@ -1,0 +1,74 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "methicillin-resistant Staphylococcus aureus"
+    },
+    {
+      "type": "Habitat",
+      "name": "nursing home"
+    },
+    {
+      "type": "Habitat",
+      "name": "skilled nursing facility"
+    },
+    {
+      "type": "Habitat",
+      "name": "community SNF"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "genotyping by field-inversion gel electrophoresis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "antibiogram"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "oxacillin screening agar"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "disk-diffusion method"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "nursing home"
+    },
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "skilled nursing facility"
+    },
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "community SNF"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "genotyping by field-inversion gel electrophoresis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "antibiogram"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "oxacillin screening agar"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "disk-diffusion method"
+    }
+  ]
+}
+

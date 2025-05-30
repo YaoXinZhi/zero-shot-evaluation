@@ -1,0 +1,114 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pneumoniae"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram-positive"
+    },
+    {
+      "type": "Microbe",
+      "name": "bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pneumoniae"
+    },
+    {
+      "type": "Microbe",
+      "name": "bacterium"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "pathogenesis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "colonization"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "spread/invasion"
+    },
+    {
+      "type": "Microbe",
+      "name": "hyaluronate lyase"
+    },
+    {
+      "type": "Microbe",
+      "name": "pneumococcal surface protein A"
+    },
+    {
+      "type": "Microbe",
+      "name": "pneumolysin"
+    },
+    {
+      "type": "Microbe",
+      "name": "histidine-triad"
+    },
+    {
+      "type": "Microbe",
+      "name": "fibronectin-binding proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "virulence factors"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pneumoniae",
+      "target": "Gram-positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteria",
+      "target": "pathogenesis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteria",
+      "target": "colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteria",
+      "target": "spread/invasion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pneumoniae",
+      "target": "virulence factors"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hyaluronate lyase",
+      "target": "virulence factors"
+    },
+    {
+      "type": "Exhibits",
+      "source": "pneumococcal surface protein A",
+      "target": "virulence factors"
+    },
+    {
+      "type": "Exhibits",
+      "source": "pneumolysin",
+      "target": "virulence factors"
+    },
+    {
+      "type": "Exhibits",
+      "source": "histidine-triad",
+      "target": "virulence factors"
+    },
+    {
+      "type": "Exhibits",
+      "source": "fibronectin-binding proteins",
+      "target": "virulence factors"
+    }
+  ]
+}
+```

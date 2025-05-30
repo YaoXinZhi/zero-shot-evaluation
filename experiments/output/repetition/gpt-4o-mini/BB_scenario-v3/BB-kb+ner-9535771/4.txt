@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "solubility"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "inclusion bodies"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli maltose-binding protein (MBP)"
+    },
+    {
+      "type": "Microbe",
+      "name": "pepsinogen"
+    },
+    {
+      "type": "Microbe",
+      "name": "procathepsin D"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "solubility"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "inclusion bodies"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli maltose-binding protein (MBP)",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Isolated from",
+      "source": "pepsinogen",
+      "target": "mammalian"
+    },
+    {
+      "type": "Isolated from",
+      "source": "procathepsin D",
+      "target": "mammalian"
+    }
+  ]
+}
+

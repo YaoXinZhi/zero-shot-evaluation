@@ -1,0 +1,38 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Methylobacterium extorquens AM1"
+    },
+    {
+      "type": "Habitat",
+      "name": "methanol"
+    },
+    {
+      "type": "Habitat",
+      "name": "succinate"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "intracellular concentrations of central metabolites"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Methylobacterium extorquens AM1",
+      "target": "methanol"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Methylobacterium extorquens AM1",
+      "target": "succinate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Methylobacterium extorquens AM1",
+      "target": "intracellular concentrations of central metabolites"
+    }
+  ]
+}
+

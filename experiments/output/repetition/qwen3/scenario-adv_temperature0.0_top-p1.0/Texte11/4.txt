@@ -1,0 +1,19 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella"},
+      {"type": "Disease", "name": "the disease"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "the infected area"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella", "type": "Causes", "target": "the disease"},
+      {"source": "the disease", "type": "Affects", "target": "olive trees"},
+      {"source": "Xylella", "type": "Located in", "target": "the infected area"}
+    ]
+  }
+]
+

@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter strains"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "environments"
+    },
+    {
+      "type": "Habitat",
+      "name": "soil"
+    },
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter arilaitensis Re117"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "catabolism of D-galactonate"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Arthrobacter strains",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Arthrobacter strains",
+      "target": "environments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Arthrobacter strains",
+      "target": "soil"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Arthrobacter strains",
+      "target": "catabolism of D-galactonate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Arthrobacter arilaitensis Re117",
+      "target": "catabolism of D-galactonate"
+    }
+  ]
+}
+

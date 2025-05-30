@@ -1,0 +1,84 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Campylobacter"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antimicrobial resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant"
+    },
+    {
+      "type": "Habitat",
+      "name": "retail poultry"
+    },
+    {
+      "type": "Habitat",
+      "name": "chicken"
+    },
+    {
+      "type": "Habitat",
+      "name": "farmed chickens"
+    },
+    {
+      "type": "Habitat",
+      "name": "host"
+    },
+    {
+      "type": "Geographical location",
+      "name": "UK"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "antimicrobial resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter coli",
+      "target": "resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "resistant"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter",
+      "target": "retail poultry"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter",
+      "target": "chicken"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter",
+      "target": "farmed chickens"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter",
+      "target": "host"
+    },
+    {
+      "type": "Isolated from",
+      "source": "retail poultry",
+      "target": "UK"
+    }
+  ]
+}
+```

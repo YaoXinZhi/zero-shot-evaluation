@@ -1,0 +1,96 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "HCl secretion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "basal HCl secretion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stimulated HCl secretion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "chronic gastritis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "chronic antral gastritis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "healing of duodenal ulcers"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bulbitis"
+    },
+    {
+      "type": "Habitat",
+      "name": "antrum"
+    },
+    {
+      "type": "Habitat",
+      "name": "stomach"
+    },
+    {
+      "type": "Microbe",
+      "name": "parietal cell"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "parietal cell",
+      "target": "HCl secretion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "parietal cell",
+      "target": "basal HCl secretion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "parietal cell",
+      "target": "stimulated HCl secretion"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "antrum"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "chronic gastritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "chronic antral gastritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "bulbitis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "healing of duodenal ulcers"
+    }
+  ]
+}
+```

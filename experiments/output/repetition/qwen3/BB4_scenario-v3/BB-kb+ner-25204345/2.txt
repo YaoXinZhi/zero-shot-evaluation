@@ -1,0 +1,60 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "lactic acid bacterial strains"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus durans HZ28"
+    },
+    {
+      "type": "Habitat",
+      "name": "natural fermented koumiss"
+    },
+    {
+      "type": "Habitat",
+      "name": "yoghurt"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "quinolone resistance"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Food and Agriculture Organization/World Health Organization"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "lactic acid bacterial strains",
+      "target": "natural fermented koumiss"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lactic acid bacterial strains",
+      "target": "yoghurt"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacterial strains",
+      "target": "quinolone resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Enterococcus durans HZ28",
+      "target": "quinolone resistance"
+    }
+  ]
+}
+```

@@ -1,0 +1,30 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "infected area"},
+      {"type": "Institute", "name": "Institute for the Sustainable Protection of Plants (Cnr-Ipsp)"},
+      {"type": "Institute", "name": "Institute of Photonics and Nanotechnology (Cnr-Ifn)"},
+      {"type": "Organization", "name": "National Research Council"},
+      {"type": "Department", "name": "Department of Chemistry"},
+      {"type": "Department", "name": "Department of Pharmacy-Drug Sciences"},
+      {"type": "Department", "name": "Department of Physics"},
+      {"type": "Organization", "name": "University of Bari"},
+      {"type": "Organization", "name": "Agritest"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella", "type": "Have been found on", "target": "olive trees"},
+      {"source": "Xylella", "type": "Located in", "target": "infected area"},
+      {"source": "Institute for the Sustainable Protection of Plants (Cnr-Ipsp)", "type": "Located in", "target": "Bari"},
+      {"source": "Institute of Photonics and Nanotechnology (Cnr-Ifn)", "type": "Located in", "target": "Bari"},
+      {"source": "Department of Chemistry", "type": "Located in", "target": "University of Bari"},
+      {"source": "Department of Pharmacy-Drug Sciences", "type": "Located in", "target": "University of Bari"},
+      {"source": "Department of Physics", "type": "Located in", "target": "University of Bari"}
+    ]
+  }
+]
+

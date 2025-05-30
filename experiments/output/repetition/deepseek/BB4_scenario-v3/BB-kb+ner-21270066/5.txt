@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "perianal ulceration"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proctitis symptoms"
+    },
+    {
+      "type": "Habitat",
+      "name": "sexually transmitted infection clinics"
+    },
+    {
+      "type": "Geographical location",
+      "name": "UK"
+    },
+    {
+      "type": "Geographical location",
+      "name": "London"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "anorectal manifestations"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "perianal ulcer disease"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "sexually transmitted infection clinics"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "proctitis symptoms"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "perianal ulceration"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "anorectal manifestations"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "perianal ulcer disease"
+    }
+  ]
+}
+

@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Kingella kingae"
+    },
+    {
+      "type": "Habitat",
+      "name": "respiratory tract"
+    },
+    {
+      "type": "Habitat",
+      "name": "normal flora of children"
+    },
+    {
+      "type": "Habitat",
+      "name": "throat"
+    },
+    {
+      "type": "Habitat",
+      "name": "nasopharyngeal"
+    },
+    {
+      "type": "Geographical location",
+      "name": "southern Israel"
+    },
+    {
+      "type": "Habitat",
+      "name": "pharyngeal"
+    },
+    {
+      "type": "Habitat",
+      "name": "day-care center"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "throat"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "nasopharyngeal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "pharyngeal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "day-care center"
+    }
+  ]
+}
+

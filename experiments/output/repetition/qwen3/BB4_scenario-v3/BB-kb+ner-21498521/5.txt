@@ -1,0 +1,56 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Vibrio fischeri"
+    },
+    {
+      "type": "Microbe",
+      "name": "Euprymna scolopes"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "morphological changes"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "bioluminescent"
+    },
+    {
+      "type": "Habitat",
+      "name": "light organ"
+    },
+    {
+      "type": "Habitat",
+      "name": "marine"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Hawaiian bobtail squid"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Vibrio fischeri",
+      "target": "bioluminescent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Vibrio fischeri",
+      "target": "morphological changes"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio fischeri",
+      "target": "light organ"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio fischeri",
+      "target": "marine"
+    }
+  ]
+}
+```

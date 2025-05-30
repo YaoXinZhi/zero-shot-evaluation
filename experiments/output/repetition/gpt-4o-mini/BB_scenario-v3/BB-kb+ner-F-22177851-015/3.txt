@@ -1,0 +1,104 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "D. hansenii"
+    },
+    {
+      "type": "Microbe",
+      "name": "G. candidum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. lipolytica"
+    },
+    {
+      "type": "Microbe",
+      "name": "A. arilaitensis"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surface"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Munster"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Livarot"
+    },
+    {
+      "type": "Habitat",
+      "name": "French red-smear soft cheeses"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "D. hansenii",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "G. candidum",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Y. lipolytica",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "A. arilaitensis",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "A. arilaitensis",
+      "target": "French red-smear soft cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "D. hansenii",
+      "target": "Munster"
+    },
+    {
+      "type": "Isolated from",
+      "source": "G. candidum",
+      "target": "Munster"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Y. lipolytica",
+      "target": "Munster"
+    },
+    {
+      "type": "Isolated from",
+      "source": "A. arilaitensis",
+      "target": "Munster"
+    },
+    {
+      "type": "Isolated from",
+      "source": "D. hansenii",
+      "target": "Livarot"
+    },
+    {
+      "type": "Isolated from",
+      "source": "G. candidum",
+      "target": "Livarot"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Y. lipolytica",
+      "target": "Livarot"
+    },
+    {
+      "type": "Isolated from",
+      "source": "A. arilaitensis",
+      "target": "Livarot"
+    }
+  ]
+}
+

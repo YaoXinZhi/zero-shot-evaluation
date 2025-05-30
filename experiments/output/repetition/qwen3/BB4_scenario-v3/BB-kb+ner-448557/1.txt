@@ -1,0 +1,106 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "respiratory syncytial virus"
+    },
+    {
+      "type": "Microbe",
+      "name": "parainfluenza virus types 1 and 3"
+    },
+    {
+      "type": "Microbe",
+      "name": "adenoviruses"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma pneumoniae"
+    },
+    {
+      "type": "Habitat",
+      "name": "children"
+    },
+    {
+      "type": "Habitat",
+      "name": "children less than 2 years of age"
+    },
+    {
+      "type": "Habitat",
+      "name": "children greater than 9 years of age"
+    },
+    {
+      "type": "Habitat",
+      "name": "children under 5 years of age"
+    },
+    {
+      "type": "Habitat",
+      "name": "school age children"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "wheezing"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "acute lower respiratory illness"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "lower respiratory illness"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "respiratory syncytial virus",
+      "target": "children"
+    },
+    {
+      "type": "Isolated from",
+      "source": "parainfluenza virus types 1 and 3",
+      "target": "children"
+    },
+    {
+      "type": "Isolated from",
+      "source": "adenoviruses",
+      "target": "children"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma pneumoniae",
+      "target": "children"
+    },
+    {
+      "type": "Exhibits",
+      "source": "acute lower respiratory illness",
+      "target": "wheezing"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children",
+      "target": "acute lower respiratory illness"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children less than 2 years of age",
+      "target": "acute lower respiratory illness"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children greater than 9 years of age",
+      "target": "lower respiratory illness"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children under 5 years of age",
+      "target": "acute lower respiratory illness"
+    },
+    {
+      "type": "Exhibits",
+      "source": "school age children",
+      "target": "acute lower respiratory illness"
+    }
+  ]
+}
+```

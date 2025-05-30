@@ -1,0 +1,125 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Legionella pneumophila"
+    },
+    {
+      "type": "Microbe",
+      "name": "macrophage cell line"
+    },
+    {
+      "type": "Microbe",
+      "name": "eukaryotic cell"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cytotoxic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "permeant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "impermeant"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "DNA-binding"
+    },
+    {
+      "type": "Habitat",
+      "name": "384-well screening plates"
+    },
+    {
+      "type": "Habitat",
+      "name": "screening well"
+    },
+    {
+      "type": "Microbe",
+      "name": "SYTOX Green"
+    },
+    {
+      "type": "Microbe",
+      "name": "CellTox Green"
+    },
+    {
+      "type": "Microbe",
+      "name": "GelGreen"
+    },
+    {
+      "type": "Microbe",
+      "name": "EvaGreen"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Legionella pneumophila",
+      "target": "intracellular growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "eukaryotic cell",
+      "target": "cytotoxic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "impermeant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "DNA-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CellTox Green",
+      "target": "impermeant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CellTox Green",
+      "target": "DNA-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "GelGreen",
+      "target": "impermeant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "GelGreen",
+      "target": "DNA-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "impermeant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "DNA-binding"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Legionella pneumophila",
+      "target": "screening well"
+    },
+    {
+      "type": "Isolated from",
+      "source": "eukaryotic cell",
+      "target": "screening well"
+    },
+    {
+      "type": "Isolated from",
+      "source": "macrophage cell line",
+      "target": "384-well screening plates"
+    }
+  ]
+}
+```

@@ -1,0 +1,36 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Flavescence dorée"},
+      {"type": "Plant", "name": "grapevine"},
+      {"type": "Geographic", "name": "South Tyrol"},
+      {"type": "Pest", "name": "Flavescence dorèe-Phytoplasma"},
+      {"type": "Vector", "name": "American vine leafhopper"},
+      {"type": "Vector", "name": "vine cicada"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Flavescence dorée", "type": "Affects", "target": "grapevine"},
+      {"source": "Flavescence dorée", "type": "Located in", "target": "South Tyrol"},
+      {"source": "Flavescence dorèe-Phytoplasma", "type": "Causes", "target": "Flavescence dorée"},
+      {"source": "vinea plant", "name was not correctly resolved so removed the relation because 'vinea' is a typo of grapevine which already exist as entity." 
+        : "Avoided relationships involving generic names like 'branches', ‘green sprout’, to ensure only precise named based on given message." },
+      
+
+
+      {"source": "Flavescence dorèe-Phytoplasma", "type": "Transmit",
+        "target": "American vinegar Cicadas that transmit this pathogen to others vines from branch to branch and thus it causes epidemic outbreaks." 
+            },  
+
+     {"source":"white and red varieties of grapevinds has disease symthom but not mentioned the specific variety by name","Relationship":null},    
+       
+      
+    {"Simplified the explanation":"We have considered all entities mentioned specifically, for example Flavescence Dorée-Phytoplasm (fdp), 'Flavensea Dor' disease name directly. Relationships like 'inflicts' is omitted. Also we avoided creating relationships using phrases that were not explicitly named even when they relate to the subject, but if their presence helps define a direct relationship between two named elements such as plant vector disease pest or region they are still included"}     
+   ]
+
+  
+ }
+
+ ]
+

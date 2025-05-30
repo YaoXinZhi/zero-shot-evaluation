@@ -1,0 +1,64 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "IsdH"
+    },
+    {
+      "type": "Microbe",
+      "name": "Isd"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "cell-surface"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "iron-scavenging"
+    },
+    {
+      "type": "Habitat",
+      "name": "human"
+    },
+    {
+      "type": "Habitat",
+      "name": "host"
+    },
+    {
+      "type": "Geographical location",
+      "name": "human"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "human"
+    },
+    {
+      "type": "Exhibits",
+      "source": "IsdH",
+      "target": "cell-surface"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "iron-scavenging"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "Hb-binding"
+    }
+  ]
+}
+```

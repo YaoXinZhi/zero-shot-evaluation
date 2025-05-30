@@ -1,0 +1,26 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella"},
+      {"type": "Disease", "name": "disease"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "infected area"},
+      {"type": "Vector", "name": "electronic biosensors"},
+      {"type": "Vector", "name": "molecular detection tests"},
+      {"type": "Vector", "name": "electronic platform"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella", "type": "Causes", "target": "disease"},
+      {"source": "Xylella", "type": "Have been found on", "target": "olive trees"},
+      {"source": "electronic biosensors", "type": "Transmit", "target": "Xylella"},
+      {"source": "molecular detection tests", "type": "Transmit", "target": "Xylella"},
+      {"source": "Xylella", "type": "Located in", "target": "infected area"},
+      {"source": "Xylella", "type": "Located in", "target": "Bari"},
+      {"source": "disease", "type": "Affects", "target": "olive trees"}
+    ]
+  }
+]
+

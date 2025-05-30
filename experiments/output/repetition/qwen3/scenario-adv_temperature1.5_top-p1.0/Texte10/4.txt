@@ -1,0 +1,40 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Plant", "name": "crops"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Host Plant", "name": "crop"},
+      {"type": "Vector", "name": "insects"},
+      {"type": "Pest", "name": "invertebrate pests"},
+      {"type": "Organization", "name": "Food and Agriculture Organization of the United Nations"},
+      {"type": "University Research Project", "name": "photonic ‘nose’ project"},
+      {"type": "Research Council", "name": "Biotechnology and Biological Sciences Research Council (BBSRC)"},
+      {"type": "Research Council", "name": "Natural Environment Research Council"},
+      {"type": "Department / Institute", "name": "Aston Institute of Photonic Technologies"},
+      {"type": "Person", "name": "Professor David Webb"},
+      {"type": "Person", "name": "dr. Joe Roberts"}
+    ]
+  },
+  {
+    "relationships": [
+
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Have been found on" , "target": "crops"},
+      {"source": "potato aphid", "type": "Causes", "target": "plant diseases"},
+      {"source": "invertebrate pests", "type": "Have been found on", "target": "crop"},
+      {"source": "potato aphid", "type": "Located in", "target": "Midlands"},
+      {"source": "photonic nose project", "type": "Located in", "target": "Midlands"},
+
+    {
+"label": "Fund",
+    "source": "Biotechnology and Biological Sciences Research Council (BBSRC)",
+    "target": "photonic nose project"}
+
+    ]
+
+  }
+]
+

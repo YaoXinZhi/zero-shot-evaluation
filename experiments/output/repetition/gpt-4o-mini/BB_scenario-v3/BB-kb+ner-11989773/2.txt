@@ -1,0 +1,74 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Listeria sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Listeria monocytogenes"
+    },
+    {
+      "type": "Habitat",
+      "name": "chicken nugget processing plant"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Clearview"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Bax system"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "PALCAM"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "LPM"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "HCLA"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Listeria sp.",
+      "target": "chicken nugget processing plant"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria monocytogenes",
+      "target": "chicken nugget processing plant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Listeria sp.",
+      "target": "Clearview"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Listeria monocytogenes",
+      "target": "Bax system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Listeria sp.",
+      "target": "PALCAM"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Listeria sp.",
+      "target": "LPM"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Listeria sp.",
+      "target": "HCLA"
+    }
+  ]
+}
+

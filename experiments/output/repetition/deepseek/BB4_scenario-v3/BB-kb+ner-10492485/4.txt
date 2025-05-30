@@ -1,0 +1,135 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "molds"
+    },
+    {
+      "type": "Microbe",
+      "name": "yeasts"
+    },
+    {
+      "type": "Microbe",
+      "name": "parasites"
+    },
+    {
+      "type": "Microbe",
+      "name": "viruses"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "microbiological safety"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "decontamination of product surface"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "water treatment"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "detoxification and elimination of mycotoxins and pesticide residues"
+    },
+    {
+      "type": "Habitat",
+      "name": "meat"
+    },
+    {
+      "type": "Habitat",
+      "name": "poultry"
+    },
+    {
+      "type": "Habitat",
+      "name": "eggs"
+    },
+    {
+      "type": "Habitat",
+      "name": "fish"
+    },
+    {
+      "type": "Habitat",
+      "name": "fruits"
+    },
+    {
+      "type": "Habitat",
+      "name": "vegetables"
+    },
+    {
+      "type": "Habitat",
+      "name": "dry foods"
+    },
+    {
+      "type": "Geographical location",
+      "name": "United States"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "bacteria",
+      "target": "microbiological safety"
+    },
+    {
+      "type": "Exhibits",
+      "source": "molds",
+      "target": "microbiological safety"
+    },
+    {
+      "type": "Exhibits",
+      "source": "yeasts",
+      "target": "microbiological safety"
+    },
+    {
+      "type": "Exhibits",
+      "source": "parasites",
+      "target": "microbiological safety"
+    },
+    {
+      "type": "Exhibits",
+      "source": "viruses",
+      "target": "microbiological safety"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "meat"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "poultry"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "eggs"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "fish"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "fruits"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "vegetables"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "dry foods"
+    }
+  ]
+}
+

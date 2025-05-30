@@ -1,0 +1,108 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157:H7"
+    },
+    {
+      "type": "Microbe",
+      "name": "dermaseptin S4"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "N-terminal 14-mer sequence"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "C-terminal domain"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "lipopeptide"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibacterial properties"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bactericidal kinetics"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "potency"
+    },
+    {
+      "type": "Habitat",
+      "name": "commercial apple juice"
+    },
+    {
+      "type": "Habitat",
+      "name": "extreme incubation conditions"
+    },
+    {
+      "type": "Habitat",
+      "name": "high salt concentrations"
+    },
+    {
+      "type": "Habitat",
+      "name": "acidic conditions"
+    },
+    {
+      "type": "Habitat",
+      "name": "basic conditions"
+    },
+    {
+      "type": "Habitat",
+      "name": "extreme temperatures"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "dermaseptin S4",
+      "target": "antibacterial properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "dermaseptin S4",
+      "target": "bactericidal kinetics"
+    },
+    {
+      "type": "Exhibits",
+      "source": "N-terminal 14-mer sequence",
+      "target": "potency"
+    },
+    {
+      "type": "Isolated from",
+      "source": "dermaseptin S4",
+      "target": "extreme incubation conditions"
+    },
+    {
+      "type": "Isolated from",
+      "source": "dermaseptin S4",
+      "target": "high salt concentrations"
+    },
+    {
+      "type": "Isolated from",
+      "source": "dermaseptin S4",
+      "target": "acidic conditions"
+    },
+    {
+      "type": "Isolated from",
+      "source": "dermaseptin S4",
+      "target": "basic conditions"
+    },
+    {
+      "type": "Isolated from",
+      "source": "dermaseptin S4",
+      "target": "extreme temperatures"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lipopeptide",
+      "target": "commercial apple juice"
+    }
+  ]
+}
+

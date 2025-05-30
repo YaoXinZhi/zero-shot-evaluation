@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium kansasii"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gingivomandibular infection"
+    },
+    {
+      "type": "Habitat",
+      "name": "patient with AIDS"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Mycobacterium kansasii",
+      "target": "patient with AIDS"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium kansasii",
+      "target": "Gingivomandibular infection"
+    }
+  ]
+}
+

@@ -1,0 +1,38 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudoalteromonas"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "lipolysis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolysis"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese rind microbial communities"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pseudoalteromonas",
+      "target": "lipolysis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudoalteromonas",
+      "target": "proteolysis"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudoalteromonas",
+      "target": "cheese rind microbial communities"
+    }
+  ]
+}
+

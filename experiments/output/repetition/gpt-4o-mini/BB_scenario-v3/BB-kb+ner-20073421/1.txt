@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Habitat",
+      "name": "murine macrophage-like cell line J774"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ability to proliferate inside the human cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "protective effects"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibits the intracellular growth"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis",
+      "target": "murine macrophage-like cell line J774"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "ability to proliferate inside the human cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "protective effects"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "inhibits the intracellular growth"
+    }
+  ]
+}
+

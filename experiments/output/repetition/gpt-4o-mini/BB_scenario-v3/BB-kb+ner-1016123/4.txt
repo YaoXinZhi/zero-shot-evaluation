@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "S. pullorum"
+    },
+    {
+      "type": "Habitat",
+      "name": "strontium chloride M broth"
+    },
+    {
+      "type": "Habitat",
+      "name": "strontium selenite broth"
+    },
+    {
+      "type": "Habitat",
+      "name": "strontium selenite A broth"
+    },
+    {
+      "type": "Habitat",
+      "name": "egg products"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Salmonella sp.",
+      "target": "strontium chloride M broth"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Salmonella sp.",
+      "target": "strontium selenite broth"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Salmonella sp.",
+      "target": "strontium selenite A broth"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. pullorum",
+      "target": "strontium chloride M broth"
+    }
+  ]
+}
+

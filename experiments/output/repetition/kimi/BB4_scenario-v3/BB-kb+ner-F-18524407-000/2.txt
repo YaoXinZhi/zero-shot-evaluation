@@ -1,0 +1,97 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "exopolysaccharides"
+    },
+    {
+      "type": "Microbe",
+      "name": "lactic acid bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "dairy propionibacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Propionibacterium freudenreichii subsp. shermanii TL 34"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pneumoniae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Propionibacterium freudenreichii subsp. shermanii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Propionibacterium acidipropionici"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ropy phenotype"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "biosynthesis of EPS"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of a β-glucan capsular polysaccharide"
+    },
+    {
+      "type": "Habitat",
+      "name": "YEL+ medium"
+    },
+    {
+      "type": "Habitat",
+      "name": "milk"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "(1→3, 1→2)-β-d-glucan capsule"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "excretion of exopolysaccharides"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. freudenreichii"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Propionibacterium freudenreichii subsp. shermanii TL 34",
+      "target": "dairy"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Propionibacterium acidipropionici strain TL 47",
+      "target": "milk"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Propionibacterium freudenreichii subsp. shermanii",
+      "target": "ropy phenotype"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pneumoniae",
+      "target": "production of a β-glucan capsular polysaccharide"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Propionibacterium acidipropionici",
+      "target": "excretion of exopolysaccharides"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. freudenreichii",
+      "target": "(1→3, 1→2)-β-d-glucan capsule"
+    }
+  ]
+}
+

@@ -1,0 +1,29 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Vector", "name": "Bactrocera dorsalis"}, 
+      {"type": "Plant", "name": "host plant"},
+      {"type": null, "name": "odorant binding protein"},
+      {"type": null, "name": "Odorant-binding proteins"},
+      {"type": null, "name": "OBP"},
+      {"type": null, "name": "BdorOBP13"},
+      {"type": null, "name": "methyl eugenol"},
+      {"type": null, "name": "γ-octalactone"},
+      {"type": null, "name": "benzothiazole"},
+      {"type": null, "name": "(-)-dipentene"},
+      {"type": null, "name": "ethyl tiglate"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "odorant binding protein", "type": "Have been found on", "target": "Bactrocera dorsalis"},
+      {"source": "Odorant-binding proteins", "type": "Have been found on", "target": "Bactrocera dorsalis"},
+      {"source": "Odorant-binding proteins", "type": "Have been found on", "target": "host plant"},
+      {"source": "BdorOBP13", "type": "Have been found on", "target": "Bactrocera dorsalis"},
+      {"source": "Bactrocera dorsalis", "type": "Causes", "target": null},
+      {"source": "Bactrocera dorsalis", "Type": "Transmit", "target": "plant pest"}
+    ]
+  }
+]
+

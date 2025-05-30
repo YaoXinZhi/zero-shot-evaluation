@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactococcus lactis subsp. lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactococcus lactis subsp. cremoris"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus paracasei"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "Danbo cheeses"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Lactococcus lactis subsp. lactis",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactococcus lactis subsp. cremoris",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus paracasei",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus paracasei",
+      "target": "Danbo cheeses"
+    }
+  ]
+}
+

@@ -1,0 +1,73 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Ralstonia eutropha H850"
+    },
+    {
+      "type": "Microbe",
+      "name": "R. eutropha H850"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "fluorescence polarization"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cellular fatty acid compositions"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fluidizing effect"
+    },
+    {
+      "type": "Habitat",
+      "name": "fructose medium"
+    },
+    {
+      "type": "Habitat",
+      "name": "biphenyl medium"
+    },
+    {
+      "type": "Geographical location",
+      "name": "fructose"
+    },
+    {
+      "type": "Geographical location",
+      "name": "biphenyl"
+    },
+    {
+      "type": "Microbe",
+      "name": "cells"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Ralstonia eutropha H850",
+      "target": "fluorescence polarization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Ralstonia eutropha H850",
+      "target": "cellular fatty acid compositions"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Ralstonia eutropha H850",
+      "target": "fluidizing effect"
+    },
+    {
+      "type": "Isolated from",
+      "source": "R. eutropha H850",
+      "target": "fructose medium"
+    },
+    {
+      "type": "Isolated from",
+      "source": "R. eutropha H850",
+      "target": "biphenyl medium"
+    }
+  ]
+}
+```

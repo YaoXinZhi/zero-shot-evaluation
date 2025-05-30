@@ -1,0 +1,83 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "LAB"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus thermophilus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus plantarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactococcus lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pediococcus damnosus"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. plantarum WCFS1"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of exopolysaccharides"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "surface polysaccharide production"
+    },
+    {
+      "type": "Habitat",
+      "name": "bacterial chromosome"
+    },
+    {
+      "type": "Habitat",
+      "name": "plasmids"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "LAB",
+      "target": "production of exopolysaccharides"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus thermophilus",
+      "target": "bacterial chromosome"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus plantarum",
+      "target": "bacterial chromosome"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactococcus lactis",
+      "target": "plasmids"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pediococcus damnosus",
+      "target": "plasmids"
+    },
+    {
+      "type": "Isolated from",
+      "source": "L. plantarum WCFS1",
+      "target": "bacterial chromosome"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. plantarum WCFS1",
+      "target": "surface polysaccharide production"
+    }
+  ]
+}
+```

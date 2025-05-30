@@ -1,0 +1,44 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter celer"
+    },
+    {
+      "type": "Microbe",
+      "name": "Hafnia alvei"
+    },
+    {
+      "type": "Habitat",
+      "name": "experimental smear soft cheese"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram-negative"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter celer",
+      "target": "experimental smear soft cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Hafnia alvei",
+      "target": "experimental smear soft cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter celer",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia alvei",
+      "target": "Gram-negative"
+    }
+  ]
+}
+```

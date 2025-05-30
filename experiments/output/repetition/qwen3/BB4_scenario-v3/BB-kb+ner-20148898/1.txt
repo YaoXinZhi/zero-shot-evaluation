@@ -1,0 +1,180 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Yersinia pseudotuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. pseudotuberculosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Type III secretion systems"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "delivers effector proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "disarm host defences"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "establish infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "selectively targets Yops"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "translocated Yops"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "colocalizes"
+    },
+    {
+      "type": "Habitat",
+      "name": "Peyer's patches"
+    },
+    {
+      "type": "Habitat",
+      "name": "mesenteric lymph nodes"
+    },
+    {
+      "type": "Habitat",
+      "name": "spleen"
+    },
+    {
+      "type": "Microbe",
+      "name": "professional phagocytes"
+    },
+    {
+      "type": "Microbe",
+      "name": "B cells"
+    },
+    {
+      "type": "Microbe",
+      "name": "T cells"
+    },
+    {
+      "type": "Microbe",
+      "name": "neutrophils"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "selective binding"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "tropism"
+    },
+    {
+      "type": "Microbe",
+      "name": "splenocytes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "increase the number of all cell types with translocated Yops"
+    },
+    {
+      "type": "Microbe",
+      "name": "YadA"
+    },
+    {
+      "type": "Microbe",
+      "name": "Invasin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "refrain from translocation"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacterial pathogens",
+      "target": "Type III secretion systems"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacterial pathogens",
+      "target": "delivers effector proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacterial pathogens",
+      "target": "disarm host defences"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacterial pathogens",
+      "target": "establish infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "selectively targets Yops"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "Peyer's patches"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "mesenteric lymph nodes"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "spleen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "colocalizes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "translocated Yops"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "selective binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "tropism"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "splenocytes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "YadA",
+      "target": "increase the number of all cell types with translocated Yops"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Invasin",
+      "target": "increase the number of all cell types with translocated Yops"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "refrain from translocation"
+    }
+  ]
+}
+```

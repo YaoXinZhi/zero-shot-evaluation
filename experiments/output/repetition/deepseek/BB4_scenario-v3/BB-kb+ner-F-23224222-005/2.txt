@@ -1,0 +1,63 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus thermophilus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vagococcus carniphilus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Lb. curvatus"
+    },
+    {
+      "type": "Habitat",
+      "name": "interior of the cheese from dairy A"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surface samples"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheeses from dairies A, B and D"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheeses from dairies A and C"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese from dairy B"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus thermophilus",
+      "target": "interior of the cheese from dairy A"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vagococcus carniphilus",
+      "target": "cheeses from dairies A, B and D"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter spp.",
+      "target": "cheeses from dairies A and C"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lb. curvatus",
+      "target": "cheese from dairy B"
+    }
+  ]
+}
+

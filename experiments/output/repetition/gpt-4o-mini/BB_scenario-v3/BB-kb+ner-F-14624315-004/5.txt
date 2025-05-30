@@ -1,0 +1,106 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Leuconostoc"
+    },
+    {
+      "type": "Microbe",
+      "name": "B1157"
+    },
+    {
+      "type": "Microbe",
+      "name": "B1506"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hydroxy acid dehydrogenase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "transaminase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "decarboxylase activity"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "3-methylbutanal"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "decarboxylation of α-ketoisocaproic acid"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Lactococcus",
+      "target": "hydroxy acid dehydrogenase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus",
+      "target": "hydroxy acid dehydrogenase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus",
+      "target": "hydroxy acid dehydrogenase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Leuconostoc",
+      "target": "hydroxy acid dehydrogenase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "B1157",
+      "target": "decarboxylase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "B1506",
+      "target": "decarboxylase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactococcus",
+      "target": "transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus",
+      "target": "transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus",
+      "target": "transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Leuconostoc",
+      "target": "transaminase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "decarboxylation of α-ketoisocaproic acid",
+      "target": "3-methylbutanal"
+    }
+  ]
+}
+

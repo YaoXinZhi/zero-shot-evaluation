@@ -1,0 +1,109 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "IsdH"
+    },
+    {
+      "type": "Microbe",
+      "name": "Isd"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pathogens"
+    },
+    {
+      "type": "Habitat",
+      "name": "human"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "cell-surface"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "iron-scavenging"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Hb-binding"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "utilize Hb as an iron source"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "capture Hb"
+    },
+    {
+      "type": "Habitat",
+      "name": "mammals"
+    },
+    {
+      "type": "Microbe",
+      "name": "Hb"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "steal iron"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "cell-surface"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "iron-scavenging"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "Hb-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "capture Hb"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "utilize Hb as an iron source"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Hb",
+      "target": "mammals"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pathogens",
+      "target": "steal iron"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pathogens",
+      "target": "Hb-binding"
+    }
+  ]
+}
+```

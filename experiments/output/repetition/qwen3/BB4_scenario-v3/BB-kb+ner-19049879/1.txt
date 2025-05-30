@@ -1,0 +1,111 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "MyD88"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudosciaena crocea"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio parahaemolyticus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "activation of nuclear factor-kappaB (NF-kappaB)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "full-length cDNA"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "death domain"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Toll/IL-1R (TIR) domain structure"
+    },
+    {
+      "type": "Habitat",
+      "name": "spleen"
+    },
+    {
+      "type": "Habitat",
+      "name": "muscle"
+    },
+    {
+      "type": "Habitat",
+      "name": "blood"
+    },
+    {
+      "type": "Habitat",
+      "name": "liver"
+    },
+    {
+      "type": "Geographical location",
+      "name": "large yellow croaker"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "activation of nuclear factor-kappaB (NF-kappaB)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "death domain"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "Toll/IL-1R (TIR) domain structure"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "full-length cDNA"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudosciaena crocea",
+      "target": "highest expression"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudosciaena crocea",
+      "target": "weakest expression"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MyD88",
+      "target": "large yellow croaker"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudosciaena crocea",
+      "target": "broad expression"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio parahaemolyticus",
+      "target": "Gram-negative bacterium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudosciaena crocea",
+      "target": "highest expression"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudosciaena crocea",
+      "target": "lowest expression"
+    }
+  ]
+}
+```

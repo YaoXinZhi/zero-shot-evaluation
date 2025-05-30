@@ -1,0 +1,88 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Microbe",
+      "name": "lymphogranuloma venereum"
+    },
+    {
+      "type": "Habitat",
+      "name": "rectal"
+    },
+    {
+      "type": "Habitat",
+      "name": "perianal ulcer disease"
+    },
+    {
+      "type": "Habitat",
+      "name": "proctitis"
+    },
+    {
+      "type": "Geographical location",
+      "name": "UK"
+    },
+    {
+      "type": "Geographical location",
+      "name": "London"
+    },
+    {
+      "type": "Habitat",
+      "name": "anorectal"
+    },
+    {
+      "type": "Habitat",
+      "name": "HIV-infected patients"
+    },
+    {
+      "type": "Habitat",
+      "name": "men who have sex with men"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "rectal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "perianal ulcer disease"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lymphogranuloma venereum",
+      "target": "proctitis"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lymphogranuloma venereum",
+      "target": "anorectal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "HIV-infected patients"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lymphogranuloma venereum",
+      "target": "men who have sex with men"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lymphogranuloma venereum",
+      "target": "UK"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lymphogranuloma venereum",
+      "target": "London"
+    }
+  ]
+}
+```

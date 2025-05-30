@@ -1,0 +1,96 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Yersinia pseudotuberculosis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Yops"
+    },
+    {
+      "type": "Habitat",
+      "name": "Peyer's patches"
+    },
+    {
+      "type": "Habitat",
+      "name": "mesenteric lymph nodes"
+    },
+    {
+      "type": "Habitat",
+      "name": "spleen"
+    },
+    {
+      "type": "Microbe",
+      "name": "neutrophils"
+    },
+    {
+      "type": "Microbe",
+      "name": "professional phagocytes"
+    },
+    {
+      "type": "Microbe",
+      "name": "B cells"
+    },
+    {
+      "type": "Microbe",
+      "name": "T cells"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "YadA"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Invasin"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "Peyer's patches"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "mesenteric lymph nodes"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "spleen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "Yops"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "YadA"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia pseudotuberculosis",
+      "target": "Invasin"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yops",
+      "target": "professional phagocytes"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yops",
+      "target": "B cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yops",
+      "target": "T cells"
+    }
+  ]
+}
+

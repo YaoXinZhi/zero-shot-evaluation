@@ -1,0 +1,90 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Haemophilus influenzae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "MurNAc 6-phosphate hydrolase (MurQ)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "catalyzes the cofactor-independent cleavage of a relatively nonlabile ether bond"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "one-base mechanism of action"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Glu89"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Glu120"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Lys239"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "C5 hydroxyl group"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "C6 phosphate group"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "C2 atom"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "C3 position"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "MurNAc 6-phosphate hydrolase (MurQ)",
+      "target": "Haemophilus influenzae"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurNAc 6-phosphate hydrolase (MurQ)",
+      "target": "catalyzes the cofactor-independent cleavage of a relatively nonlabile ether bond"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurNAc 6-phosphate hydrolase (MurQ)",
+      "target": "one-base mechanism of action"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Glu89",
+      "target": "C2 atom"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Glu89",
+      "target": "C3 position"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Glu120",
+      "target": "C5 hydroxyl group"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lys239",
+      "target": "C6 phosphate group"
+    }
+  ]
+}
+

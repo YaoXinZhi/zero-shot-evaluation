@@ -1,0 +1,95 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Fall Armyworm"},
+      {"type": "Pest", "name": "Spodoptera frugiperda"},
+      {"type": "Plant", "name": "maize crops"},
+      {"type": "Geographic", "name": "Kenya"},
+      {"type": "Disease", "name": "maize lethal necrosis"},
+      {"type": "Plant", "name": "maize plants"},
+      {"type": "Vector", "name": "corn leafhopper"},
+      {"type": "Vector", "name": "Dalbulus maidis"},
+      
+      {"type": "Geographic", "name": "Britain"},
+      {"type": "Geographic", "name": "Western Europe"},
+      {"type": "Pest", "name": "Cacopsylla pyrisuga"},
+      {"type": "Pest", "name": "Cacopsylla pyri"},
+      {"type": "Pest", "name": "Cacopsylla pyricola"},
+      {"type": "Geographic", "name": "Uzbekistan"},
+      {"type": "Geographic", "name": "Turkey"},
+      {"type": "Geographic", "name": "neighboring regions"},
+      {"type": "Pest", "name": "Cacopsylla fera"},
+      {"type": "Pest", "name": "Cacopsylla bidens"},
+      {"type": "Geographic", "name": "Mediterranean Basin"},
+      {"type": "Geographic", "name": "Middle East"},
+      {"type": "Plant", "name": "European pear"},
+      {"type": "Plant", "name": "P. communis"},
+      {"type": "Plant", "name": "Pyrus spinosa Forsskål"},
+      {"type": "Plant", "name": "Pyrus korshinskyi Litvinov"},
+      {"type": "Pest", "name": "Cacopsylla notata"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Spodoptera frugiperda", "type": "Located in", "target": "Kenya"},
+      {"source": "Fall Armyworm", "type": "Located in", "target": "Kenya"},
+      {"source": "Spodoptera frugiperda", "type": "Have been found on", "target": "maize crops"},
+      {"source": "Fall Armyworm", "type": "Have been found on", "target": "maize crops"},
+      {"source": "Spodoptera frugiperda", "type": "Causes", "target": "maize lethal necrosis"},
+      {"source": "Fall Armyworm", "type": "Causes", "target": "maize lethal necrosis"},
+      {"source": "maize lethal necrosis", "type": "Affects", "target": "maize plants"},
+      {"source": "corn leafhopper", "type": "Transmit", "target": "Spodoptera frugiperda"},
+      {"source": "Dalbulus maidis", "type": "Transmit", "target": "Spodoptera frugiperda"},
+      
+      {"source": "Cacopsylla pyrisuga", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyri", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyricola", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyrisuga", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla pyri", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla pyricola", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla fera", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "Uzbekistan"},
+      
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "Palestine"},  
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "Middle East"},
+      {"source": "Cacopsylla bidens", "type": "Have been found on", "target": "European pear"},
+      {"source": "Cacopsylla fera", "type": "Have been found on", "target": "Pyrus korshinskyi Litvinov"},
+      {"source": "Cacopsylla notata", "type": "Have been found on", "target": "Pyrus spinosa Forsskål"},
+      {"source": "European pear", "type": "Host for", "target": "Cacopsylla pyricola"},
+      {"source": "European pear", "type": "Host for", "target": "Cacopsylla fera"},
+      {"source": "P. communis", "type": "Host for", "target": "Cacopsylla pyri"},
+      {"source": "P. communis", "type": "Host for", "target": "Cacopsylla pyriga"},
+      {"source": "Cacopsylla pyrisuga", "type": "Affected by", "target": ""},
+{
+"type": "Pest",
+"name": "Sitona lineatus"
+}
+],
+"diseases": [],
+"plants": [
+{
+},
+{
+}]
+},{
+}  
+
+,
+{"type":"Vector","name":"+Liroconius hyalinus"}
+
+ 
+,   
+{"type": "Plant", "name" : "red clover"}
+,   
+{"type": "Plant", "name" : "White Clover"}  
+   
+,{
+"type ": "",
+
+"Relationship"
+
+:[]
+
+
+},{"type": " Pest ", " name ":" Melanopline migratoria"}]
+

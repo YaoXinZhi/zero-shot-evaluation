@@ -1,0 +1,109 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Campylobacter"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antimicrobial resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to tetracycline"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to quinolones"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to ciprofloxacin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to naladixic acid"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to erythromycin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to chloramphenicol"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to aminoglycosides"
+    },
+    {
+      "type": "Habitat",
+      "name": "retail poultry"
+    },
+    {
+      "type": "Habitat",
+      "name": "farmed chickens"
+    },
+    {
+      "type": "Geographical location",
+      "name": "UK"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter",
+      "target": "retail poultry"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter",
+      "target": "farmed chickens"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "antimicrobial resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter coli",
+      "target": "resistant to erythromycin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "resistant to tetracycline"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "resistant to quinolones"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "resistant to ciprofloxacin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "resistant to naladixic acid"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "resistant to chloramphenicol"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "resistant to aminoglycosides"
+    }
+  ]
+}
+

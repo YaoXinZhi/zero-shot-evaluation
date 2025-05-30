@@ -1,0 +1,186 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "bacteriophage M-13"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "M-13 am5"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "replication"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "synthesis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibited"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "blocked"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stimulates"
+    },
+    {
+      "type": "Habitat",
+      "name": "cell-free extracts"
+    },
+    {
+      "type": "Habitat",
+      "name": "cellophane membrane disks"
+    },
+    {
+      "type": "Habitat",
+      "name": "M-13 am5 infected Escherichia coli cells"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "endogenous"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "hybrid DNA molecules"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fully synthetic duplex DNA"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requires ATP"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "presence of bromodeoxyuridine triphosphate"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibited by nalidixic acid"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibited by novobiocin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibited by arabinosylnucleoside triphosphates"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "blocked preferentially the synthesis of molecules with labeled complementary strands"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "addition of the helix-destabilising M-13 gene V protein"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "addition of E. coli helix-destabilising protein"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "cell-free extracts",
+      "target": "M-13 am5 infected Escherichia coli cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "M-13 am5",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteriophage M-13",
+      "target": "replication"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteriophage M-13",
+      "target": "endogenous"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell-free extracts",
+      "target": "replication"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell-free extracts",
+      "target": "synthesis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell-free extracts",
+      "target": "requires ATP"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell-free extracts",
+      "target": "inhibited"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell-free extracts",
+      "target": "blocked"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell-free extracts",
+      "target": "presence of bromodeoxyuridine triphosphate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell-free extracts",
+      "target": "inhibited by nalidixic acid"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell-free extracts",
+      "target": "inhibited by novobiocin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell-free extracts",
+      "target": "inhibited by arabinosylnucleoside triphosphates"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell-free extracts",
+      "target": "blocked preferentially the synthesis of molecules with labeled complementary strands"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell-free extracts",
+      "target": "addition of the helix-destabilising M-13 gene V protein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell-free extracts",
+      "target": "addition of E. coli helix-destabilising protein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell-free extracts",
+      "target": "synthesis of both types of hybrid DNA molecules"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell-free extracts",
+      "target": "formation of fully synthetic duplex DNA"
+    }
+  ]
+}
+```

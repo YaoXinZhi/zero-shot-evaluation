@@ -1,0 +1,173 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "non-O1 Vibrio cholerae"
+    },
+    {
+      "type": "Microbe",
+      "name": "V. cholerae"
+    },
+    {
+      "type": "Habitat",
+      "name": "blood"
+    },
+    {
+      "type": "Habitat",
+      "name": "ascites"
+    },
+    {
+      "type": "Habitat",
+      "name": "skin wounds"
+    },
+    {
+      "type": "Habitat",
+      "name": "salt water"
+    },
+    {
+      "type": "Habitat",
+      "name": "seafood"
+    },
+    {
+      "type": "Geographical location",
+      "name": "medical center"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "bullae formation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacteremia"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "fever"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "abdominal pain"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "diarrhea"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cellulitis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ascites"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "spontaneous bacterial peritonitis"
+    },
+    {
+      "type": "Habitat",
+      "name": "blood culture"
+    },
+    {
+      "type": "Habitat",
+      "name": "clinical microbiology laboratory"
+    },
+    {
+      "type": "Microbe",
+      "name": "positive ascites cultures"
+    },
+    {
+      "type": "Habitat",
+      "name": "raw seafood"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "non-O1 Vibrio cholerae",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "non-O1 Vibrio cholerae",
+      "target": "blood culture"
+    },
+    {
+      "type": "Exhibits",
+      "source": "non-O1 Vibrio cholerae",
+      "target": "bacteremia"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "bacteremia"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "fever"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "abdominal pain"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "diarrhea"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "cellulitis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cellulitis",
+      "target": "bullae formation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "ascites"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Patients",
+      "target": "spontaneous bacterial peritonitis"
+    },
+    {
+      "type": "Isolated from",
+      "source": "spontaneous bacterial peritonitis",
+      "target": "ascites"
+    },
+    {
+      "type": "Isolated from",
+      "source": "non-O1 Vibrio cholerae",
+      "target": "clinical microbiology laboratory"
+    },
+    {
+      "type": "Isolated from",
+      "source": "non-O1 Vibrio cholerae",
+      "target": "seafood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "non-O1 Vibrio cholerae",
+      "target": "salt water"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Patients",
+      "target": "raw seafood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Patients",
+      "target": "skin wounds"
+    }
+  ]
+}
+```

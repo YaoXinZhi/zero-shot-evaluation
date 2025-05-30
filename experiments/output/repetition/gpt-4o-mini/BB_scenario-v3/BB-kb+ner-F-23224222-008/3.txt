@@ -1,0 +1,33 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium linens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium spp."
+    },
+    {
+      "type": "Habitat",
+      "name": "farmhouse cheeses"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese from the industrial dairy"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium linens",
+      "target": "farmhouse cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium spp.",
+      "target": "cheese from the industrial dairy"
+    }
+  ]
+}
+

@@ -1,0 +1,42 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "B. linens"
+    },
+    {
+      "type": "Habitat",
+      "name": "Casera"
+    },
+    {
+      "type": "Habitat",
+      "name": "Gorgonzola"
+    },
+    {
+      "type": "Habitat",
+      "name": "Scimudin cheese surfaces"
+    },
+    {
+      "type": "Habitat",
+      "name": "smear cheeses"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "B. linens",
+      "target": "Casera"
+    },
+    {
+      "type": "Isolated from",
+      "source": "B. linens",
+      "target": "Gorgonzola"
+    },
+    {
+      "type": "Isolated from",
+      "source": "B. linens",
+      "target": "Scimudin cheese surfaces"
+    }
+  ]
+}
+

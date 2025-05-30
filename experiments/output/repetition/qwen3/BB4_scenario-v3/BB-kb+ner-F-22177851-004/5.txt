@@ -1,0 +1,159 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Gram-negative bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Hafnia alvei"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterobacteriaceae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "yeast"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolytic enzymes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "degrade casein and peptides"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce free amino acids"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "accelerating ripening"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce volatile compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce alcohols or esters"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce flavor compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce sulfur compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stronger proteolysis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "modify the final texture of the cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    },
+    {
+      "type": "Geographical location",
+      "name": "dairy origin"
+    },
+    {
+      "type": "Habitat",
+      "name": "model cheese"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacteria",
+      "target": "proteolytic enzymes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "proteolytic enzymes",
+      "target": "degrade casein and peptides"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacteria",
+      "target": "produce free amino acids"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacteria",
+      "target": "accelerating ripening"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas spp.",
+      "target": "produce volatile compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas spp.",
+      "target": "produce alcohols or esters"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas spp.",
+      "target": "negative effect on the organoleptic characteristics of cheeses"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia alvei",
+      "target": "produce flavor compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia alvei",
+      "target": "stronger proteolysis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hafnia alvei",
+      "target": "modify the final texture of the cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter sp.",
+      "target": "produce volatile aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter sp.",
+      "target": "produce sulfur compounds"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter sp.",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas spp.",
+      "target": "dairy origin"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter sp.",
+      "target": "model cheese"
+    }
+  ]
+}
+```

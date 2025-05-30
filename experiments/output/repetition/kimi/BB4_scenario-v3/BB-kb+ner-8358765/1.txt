@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "HCl secretion"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "duodenal ulcers"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "bulbitis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "chronic antral gastritis"
+    },
+    {
+      "type": "Habitat",
+      "name": "antrum"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "HCl secretion"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "antrum"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "chronic antral gastritis"
+    }
+  ]
+}
+

@@ -1,0 +1,52 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pullorum"
+    },
+    {
+      "type": "Habitat",
+      "name": "asymptomatic poultry"
+    },
+    {
+      "type": "Habitat",
+      "name": "patients with enteritis"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. pullorum"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "problems in the correct species identification"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "fatty acid pattern"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pullorum",
+      "target": "asymptomatic poultry"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. pullorum",
+      "target": "patients with enteritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. pullorum",
+      "target": "problems in the correct species identification"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pullorum",
+      "target": "fatty acid pattern"
+    }
+  ]
+}
+```

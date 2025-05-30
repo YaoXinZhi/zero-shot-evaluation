@@ -1,0 +1,83 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Legionella pneumophila"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cytotoxicity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cell toxicity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "host cell viability"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "SYTOX Green exclusion"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "DNA-binding"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fluorescent"
+    },
+    {
+      "type": "Habitat",
+      "name": "macrophage cell line"
+    },
+    {
+      "type": "Habitat",
+      "name": "384-well screening plates"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Legionella pneumophila",
+      "target": "intracellular growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "macrophage cell line",
+      "target": "cytotoxicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "macrophage cell line",
+      "target": "cell toxicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "macrophage cell line",
+      "target": "host cell viability"
+    },
+    {
+      "type": "Exhibits",
+      "source": "macrophage cell line",
+      "target": "SYTOX Green exclusion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "macrophage cell line",
+      "target": "DNA-binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "macrophage cell line",
+      "target": "fluorescent"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Legionella pneumophila",
+      "target": "macrophage cell line"
+    }
+  ]
+}
+

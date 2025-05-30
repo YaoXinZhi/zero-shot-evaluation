@@ -1,0 +1,74 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Agrobacterium rhizogenes"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "reduced stature"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "off-shoots at the stem base"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "bent and wrinkled leaves"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "morphogenetic activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacterial virulence"
+    },
+    {
+      "type": "Habitat",
+      "name": "tobacco"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "epinastic growth"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "rolBTR",
+      "target": "morphogenetic activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rolBTR",
+      "target": "bacterial virulence"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Agrobacterium rhizogenes",
+      "target": "tobacco"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rolBTR",
+      "target": "reduced stature"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rolBTR",
+      "target": "off-shoots at the stem base"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rolBTR",
+      "target": "bent and wrinkled leaves"
+    },
+    {
+      "type": "Exhibits",
+      "source": "rolBTR",
+      "target": "epinastic growth"
+    }
+  ]
+}
+

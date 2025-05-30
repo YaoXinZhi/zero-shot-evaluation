@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Methylocella silvestris"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "grow simultaneously on methane and longer chain alkanes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "unique metabolic traits"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Methylocella silvestris",
+      "target": "grow simultaneously on methane and longer chain alkanes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Methylocella silvestris",
+      "target": "unique metabolic traits"
+    }
+  ]
+}
+

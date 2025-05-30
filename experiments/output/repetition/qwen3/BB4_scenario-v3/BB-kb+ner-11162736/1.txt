@@ -1,0 +1,138 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "FlgF"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolysis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "flagellar rod protein"
+    },
+    {
+      "type": "Habitat",
+      "name": "cell"
+    },
+    {
+      "type": "Habitat",
+      "name": "supernatant"
+    },
+    {
+      "type": "Habitat",
+      "name": "cation-exchange column"
+    },
+    {
+      "type": "Habitat",
+      "name": "anion-exchange column"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "endogenous proteases"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cleavage"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "protease inhibitors"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cell disruption"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ion-exchange chromatography"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "urea"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "flagellar rod protein"
+    },
+    {
+      "type": "Isolated from",
+      "source": "FlgF",
+      "target": "Salmonella typhimurium"
+    },
+    {
+      "type": "Isolated from",
+      "source": "FlgF",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "cleavage"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell",
+      "target": "endogenous proteases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "proteolysis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell",
+      "target": "cell disruption"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell disruption",
+      "target": "urea"
+    },
+    {
+      "type": "Isolated from",
+      "source": "proteases",
+      "target": "cell"
+    },
+    {
+      "type": "Isolated from",
+      "source": "FlgF",
+      "target": "supernatant"
+    },
+    {
+      "type": "Isolated from",
+      "source": "proteases",
+      "target": "cation-exchange column"
+    },
+    {
+      "type": "Isolated from",
+      "source": "FlgF",
+      "target": "anion-exchange column"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell disruption",
+      "target": "protease inhibitors"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell disruption",
+      "target": "ion-exchange chromatography"
+    }
+  ]
+}
+```

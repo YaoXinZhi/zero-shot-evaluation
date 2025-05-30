@@ -1,0 +1,105 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Campylobacter"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter isolates"
+    },
+    {
+      "type": "Habitat",
+      "name": "retail poultry"
+    },
+    {
+      "type": "Habitat",
+      "name": "chicken"
+    },
+    {
+      "type": "Habitat",
+      "name": "farmed chickens"
+    },
+    {
+      "type": "Habitat",
+      "name": "human"
+    },
+    {
+      "type": "Geographical location",
+      "name": "UK"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antimicrobial resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "erythromycin resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "multiply"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "long-term carriage"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter isolates",
+      "target": "retail poultry"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter",
+      "target": "chicken"
+    },
+    {
+      "type": "Isolated from",
+      "source": "resistant lineages",
+      "target": "farmed chickens"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "antimicrobial resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter coli",
+      "target": "erythromycin resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "multiply"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "long-term carriage"
+    }
+  ]
+}
+```

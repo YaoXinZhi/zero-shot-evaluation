@@ -1,0 +1,108 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. psittaci"
+    },
+    {
+      "type": "Habitat",
+      "name": "McCoy cells"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "serotypes A"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "serotypes B"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "serotypes C"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "serotypes D-I"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for histidine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for tryptophan"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for methionine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for valine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for leucine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for phenylalanine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for glutamine"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "McCoy cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. psittaci",
+      "target": "McCoy cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. trachomatis",
+      "target": "requirement for histidine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. trachomatis",
+      "target": "requirement for tryptophan"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. trachomatis",
+      "target": "requirement for methionine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. psittaci",
+      "target": "requirement for valine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. psittaci",
+      "target": "requirement for leucine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. psittaci",
+      "target": "requirement for phenylalanine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. psittaci",
+      "target": "requirement for glutamine"
+    }
+  ]
+}
+

@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Habitat",
+      "name": "Republic of Yemen"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "recurrence rate"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "eradication rate"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "prevalence"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "chronic dyspepsia"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "Republic of Yemen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "recurrence rate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "eradication rate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "prevalence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "chronic dyspepsia"
+    }
+  ]
+}
+

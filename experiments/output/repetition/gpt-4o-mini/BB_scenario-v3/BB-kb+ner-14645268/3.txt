@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Microbe",
+      "name": "XopC"
+    },
+    {
+      "type": "Microbe",
+      "name": "XopJ"
+    },
+    {
+      "type": "Microbe",
+      "name": "hpaJ"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas syringae pv. maculicola"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "type III effector proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "pathogenicity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "type III secretion (TTS) system"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "coexpressed with the TTS system"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "translocation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "similarity to transglycosylases"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "pathogenicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "type III secretion (TTS) system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopC",
+      "target": "type III effector proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopJ",
+      "target": "type III effector proteins"
+    },
+    {
+      "type": "Isolated from",
+      "source": "XopC",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Isolated from",
+      "source": "XopJ",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Isolated from",
+      "source": "hpaJ",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas syringae pv. maculicola",
+      "target": "hpaJ"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hpaJ",
+      "target": "similarity to transglycosylases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hpaJ",
+      "target": "coexpressed with the TTS system"
+    }
+  ]
+}
+

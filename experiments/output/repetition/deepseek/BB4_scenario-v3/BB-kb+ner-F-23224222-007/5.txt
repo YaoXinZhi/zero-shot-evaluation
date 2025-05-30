@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactococcus lactis subsp. lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lc. lactis subsp. cremoris"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus paracasei"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "Danbo cheeses"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "autolysis"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Lactococcus lactis subsp. lactis",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lc. lactis subsp. cremoris",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus paracasei",
+      "target": "Danbo cheeses"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lc. lactis subsp. cremoris",
+      "target": "autolysis"
+    }
+  ]
+}
+

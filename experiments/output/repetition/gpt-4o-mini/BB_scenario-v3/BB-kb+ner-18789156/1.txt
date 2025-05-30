@@ -1,0 +1,65 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis Live Vaccine Strain (LVS)"
+    },
+    {
+      "type": "Microbe",
+      "name": "elongation factor Tu (EF-Tu)"
+    },
+    {
+      "type": "Habitat",
+      "name": "monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phagocytosis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "surface nucleolin"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "carboxy-terminal RGG domain of nucleolin"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis",
+      "target": "monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis Live Vaccine Strain (LVS)",
+      "target": "monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "phagocytosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis Live Vaccine Strain (LVS)",
+      "target": "phagocytosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "elongation factor Tu (EF-Tu)",
+      "target": "surface nucleolin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "surface nucleolin",
+      "target": "carboxy-terminal RGG domain of nucleolin"
+    }
+  ]
+}
+

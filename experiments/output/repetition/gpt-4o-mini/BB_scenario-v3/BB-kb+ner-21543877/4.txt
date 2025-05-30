@@ -1,0 +1,83 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis H37Rv"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "putative aminoglycoside phosphotransferase (APH)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibiotic resistance"
+    },
+    {
+      "type": "Habitat",
+      "name": "sitting-drop vapour-diffusion method"
+    },
+    {
+      "type": "Habitat",
+      "name": "0.2 M calcium acetate"
+    },
+    {
+      "type": "Habitat",
+      "name": "0.1 M Tris-HCl pH 7.0"
+    },
+    {
+      "type": "Habitat",
+      "name": "20% PEG 3000"
+    },
+    {
+      "type": "Geographical location",
+      "name": "synchrotron beamline"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Rv3168",
+      "target": "Mycobacterium tuberculosis H37Rv"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Rv3168",
+      "target": "putative aminoglycoside phosphotransferase (APH)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium tuberculosis",
+      "target": "antibiotic resistance"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Rv3168",
+      "target": "sitting-drop vapour-diffusion method"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Rv3168",
+      "target": "0.2 M calcium acetate"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Rv3168",
+      "target": "0.1 M Tris-HCl pH 7.0"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Rv3168",
+      "target": "20% PEG 3000"
+    },
+    {
+      "type": "Isolated from",
+      "source": "X-ray diffraction data",
+      "target": "synchrotron beamline"
+    }
+  ]
+}
+

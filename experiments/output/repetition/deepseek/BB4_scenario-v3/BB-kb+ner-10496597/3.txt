@@ -1,0 +1,62 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "monoclonal B cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "chronic active gastritis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "low-grade gastric mucosal-associated lymphoid tissue (MALT) lymphoma"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "benign florid lymphoid hyperplasia"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "high-grade primary gastric lymphoma"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "atypical lymphoid infiltrates"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "enlarged irregular mantle zone"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "lymphoepithelial lesions"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastric biopsies"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "gastric biopsies"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "chronic active gastritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "monoclonal B cells"
+    }
+  ]
+}
+

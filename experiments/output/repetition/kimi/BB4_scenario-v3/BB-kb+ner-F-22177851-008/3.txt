@@ -1,0 +1,61 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "C. flavescens"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Microbe",
+      "name": "A. arilaitensis"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese without H. alvei"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese with H. alvei"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "C. flavescens",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "cheese with H. alvei"
+    },
+    {
+      "type": "Isolated from",
+      "source": "A. arilaitensis",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "A. arilaitensis",
+      "target": "cheese without H. alvei"
+    },
+    {
+      "type": "Exhibits",
+      "source": "A. arilaitensis",
+      "target": "9.3 log10 cfu/g at day 35"
+    },
+    {
+      "type": "Exhibits",
+      "source": "A. arilaitensis",
+      "target": "7.4 log10 cfu/g at day 35"
+    }
+  ]
+}
+

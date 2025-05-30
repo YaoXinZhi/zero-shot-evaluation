@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium leprae"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phenolic glycolipid, PGL-1"
+    },
+    {
+      "type": "Habitat",
+      "name": "urine of leprosy patients"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibition ELISA"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "direct dot-blot assay"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "nitrocellulose paper"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium leprae",
+      "target": "phenolic glycolipid, PGL-1"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycobacterium leprae",
+      "target": "urine of leprosy patients"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium leprae",
+      "target": "inhibition ELISA"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium leprae",
+      "target": "direct dot-blot assay"
+    }
+  ]
+}
+

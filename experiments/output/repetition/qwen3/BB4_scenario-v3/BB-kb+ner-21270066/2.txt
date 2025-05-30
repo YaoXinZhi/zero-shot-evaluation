@@ -1,0 +1,56 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Microbe",
+      "name": "lymphogranuloma venereum"
+    },
+    {
+      "type": "Habitat",
+      "name": "rectal"
+    },
+    {
+      "type": "Habitat",
+      "name": "perianal ulcer disease"
+    },
+    {
+      "type": "Geographical location",
+      "name": "UK"
+    },
+    {
+      "type": "Geographical location",
+      "name": "London"
+    },
+    {
+      "type": "Habitat",
+      "name": "MSM"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "rectal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "perianal ulcer disease"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lymphogranuloma venereum",
+      "target": "rectal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lymphogranuloma venereum",
+      "target": "MSM"
+    }
+  ]
+}
+```

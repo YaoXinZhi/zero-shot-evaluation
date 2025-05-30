@@ -1,0 +1,142 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. curvatus"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. brevis"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. acidipiscis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococci"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "Fontina cheese surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "Taleggio rind"
+    },
+    {
+      "type": "Habitat",
+      "name": "Gorgonzola rind"
+    },
+    {
+      "type": "Habitat",
+      "name": "Scimudin cheese surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "Formaggio di Fossa cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "fermented fish"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram positive rod"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "microaerophilic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "able to grow in 10–12% (w/v) NaCl"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Greek cheese"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "L. curvatus",
+      "target": "Taleggio rind"
+    },
+    {
+      "type": "Isolated from",
+      "source": "L. brevis",
+      "target": "Gorgonzola rind"
+    },
+    {
+      "type": "Isolated from",
+      "source": "L. brevis",
+      "target": "Scimudin cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "L. acidipiscis",
+      "target": "Formaggio di Fossa cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "L. acidipiscis",
+      "target": "fermented fish"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. acidipiscis",
+      "target": "Gram positive rod"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. acidipiscis",
+      "target": "microaerophilic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. acidipiscis",
+      "target": "able to grow in 10–12% (w/v) NaCl"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterococci",
+      "target": "Scimudin cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterococci",
+      "target": "Gorgonzola rind"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterococci",
+      "target": "Fontina rind"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus",
+      "target": "Fontina cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus",
+      "target": "Gorgonzola rind"
+    }
+  ]
+}
+```

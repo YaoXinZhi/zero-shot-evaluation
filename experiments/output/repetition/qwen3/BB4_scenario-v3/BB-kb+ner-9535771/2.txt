@@ -1,0 +1,77 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli maltose-binding protein"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "MBP"
+    },
+    {
+      "type": "Microbe",
+      "name": "pepsinogen"
+    },
+    {
+      "type": "Microbe",
+      "name": "procathepsin D"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "soluble"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolytically inactive"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "efficiently renatured"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "formed inclusion bodies"
+    },
+    {
+      "type": "Habitat",
+      "name": "E. coli cytoplasm"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli maltose-binding protein",
+      "target": "soluble"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBP-pepsinogen",
+      "target": "proteolytically inactive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBP-pepsinogen",
+      "target": "efficiently renatured"
+    },
+    {
+      "type": "Exhibits",
+      "source": "chimeric proteins",
+      "target": "formed inclusion bodies"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "E. coli cytoplasm"
+    }
+  ]
+}
+```

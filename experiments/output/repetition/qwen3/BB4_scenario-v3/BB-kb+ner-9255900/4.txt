@@ -1,0 +1,48 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pullorum"
+    },
+    {
+      "type": "Habitat",
+      "name": "asymptomatic poultry"
+    },
+    {
+      "type": "Habitat",
+      "name": "human"
+    },
+    {
+      "type": "Habitat",
+      "name": "immunocompromised patient"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "enteritis"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pullorum",
+      "target": "asymptomatic poultry"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pullorum",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pullorum",
+      "target": "immunocompromised patient"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pullorum",
+      "target": "enteritis"
+    }
+  ]
+}
+```

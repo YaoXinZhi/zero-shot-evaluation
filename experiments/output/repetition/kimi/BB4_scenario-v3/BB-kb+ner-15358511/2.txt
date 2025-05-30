@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157:H7"
+    },
+    {
+      "type": "Habitat",
+      "name": "lettuce surfaces"
+    },
+    {
+      "type": "Habitat",
+      "name": "apple surfaces"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cell hydrophobicity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "surface charge"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "capsule production"
+    },
+    {
+      "type": "Habitat",
+      "name": "tryptic soy broth"
+    },
+    {
+      "type": "Habitat",
+      "name": "nutrient broth"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "tryptic soy broth"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "nutrient broth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157:H7",
+      "target": "cell hydrophobicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157:H7",
+      "target": "surface charge"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157:H7",
+      "target": "capsule production"
+    }
+  ]
+}
+

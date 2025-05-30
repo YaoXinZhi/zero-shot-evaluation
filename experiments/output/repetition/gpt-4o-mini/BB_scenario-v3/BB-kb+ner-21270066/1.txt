@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Microbe",
+      "name": "lymphogranuloma venereum"
+    },
+    {
+      "type": "Habitat",
+      "name": "UK"
+    },
+    {
+      "type": "Geographical location",
+      "name": "London"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proctitis symptoms"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "isolated perianal ulcer disease"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "UK"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lymphogranuloma venereum",
+      "target": "UK"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "rectal Chlamydia trachomatis-specific DNA of an LGV associated serovar"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphogranuloma venereum",
+      "target": "proctitis symptoms"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphogranuloma venereum",
+      "target": "isolated perianal ulcer disease"
+    }
+  ]
+}
+

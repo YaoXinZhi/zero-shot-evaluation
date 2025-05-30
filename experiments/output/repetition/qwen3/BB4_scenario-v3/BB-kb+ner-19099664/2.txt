@@ -1,0 +1,188 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterobacter cloacae"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Acinetobacter baumannii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Candida"
+    },
+    {
+      "type": "Habitat",
+      "name": "blood"
+    },
+    {
+      "type": "Habitat",
+      "name": "urine"
+    },
+    {
+      "type": "Habitat",
+      "name": "sputum"
+    },
+    {
+      "type": "Geographical location",
+      "name": "hematology ward"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "urine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "sputum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterobacter cloacae",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterobacter cloacae",
+      "target": "urine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterobacter cloacae",
+      "target": "sputum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "E. coli",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "E. coli",
+      "target": "urine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "E. coli",
+      "target": "sputum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Acinetobacter baumannii",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Acinetobacter baumannii",
+      "target": "urine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Acinetobacter baumannii",
+      "target": "sputum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterococcus",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterococcus",
+      "target": "urine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterococcus",
+      "target": "sputum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Candida",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Candida",
+      "target": "urine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Candida",
+      "target": "sputum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "hematology ward"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterobacter cloacae",
+      "target": "hematology ward"
+    },
+    {
+      "type": "Isolated from",
+      "source": "E. coli",
+      "target": "hematology ward"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Acinetobacter baumannii",
+      "target": "hematology ward"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterococcus",
+      "target": "hematology ward"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Candida",
+      "target": "hematology ward"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "resistant to broad-spectrum penicillin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Enterobacter cloacae",
+      "target": "resistant to broad-spectrum penicillin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "E. coli",
+      "target": "resistant to broad-spectrum penicillin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Acinetobacter baumannii",
+      "target": "trend of increase"
+    }
+  ]
+}
+```

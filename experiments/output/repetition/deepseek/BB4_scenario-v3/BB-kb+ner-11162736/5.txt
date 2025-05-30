@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolysis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cleavage by endogenous proteases"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "protease-free"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "flagellar rod protein"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "full-length product"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Salmonella typhimurium",
+      "target": "flagellar rod protein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "cleavage by endogenous proteases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "proteolysis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "protease-free"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "full-length product"
+    }
+  ]
+}
+

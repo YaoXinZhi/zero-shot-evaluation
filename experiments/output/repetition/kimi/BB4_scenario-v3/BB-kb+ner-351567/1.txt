@@ -1,0 +1,120 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "bacteriophage M-13"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "replication"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "DNA synthesis"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "bromodeoxyuridine triphosphate"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "ATP"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "nalidixic acid"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "novobiocin"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "arabinosylnucleoside triphosphates"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "Rifampicin"
+    },
+    {
+      "type": "Protein",
+      "name": "M-13 gene V protein"
+    },
+    {
+      "type": "Protein",
+      "name": "E. coli helix-destabilising protein"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "hybrid DNA molecules"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fully synthetic duplex DNA"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "bacteriophage M-13",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteriophage M-13",
+      "target": "replication"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "DNA synthesis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "hybrid DNA molecules"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "fully synthetic duplex DNA"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bacteriophage M-13",
+      "target": "fully synthetic duplex DNA"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "hybrid DNA molecules"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "DNA synthesis"
+    }
+  ]
+}
+
+"Exhibits",
+      "source": "DNA synthesis",
+      "target": "inhibited by arabinosylnucleoside triphosphates"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DNA synthesis",
+      "target": "blocked by Rifampicin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DNA synthesis",
+      "target": "stimulated by E. coli helix-destabilising protein"
+    }
+  ]
+}
+

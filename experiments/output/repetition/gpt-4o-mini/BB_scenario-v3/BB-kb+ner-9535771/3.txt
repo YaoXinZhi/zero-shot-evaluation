@@ -1,0 +1,48 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "maltose-binding protein (MBP)"
+    },
+    {
+      "type": "Microbe",
+      "name": "pepsinogen"
+    },
+    {
+      "type": "Microbe",
+      "name": "procathepsin D"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "maltose-binding protein (MBP)",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Isolated from",
+      "source": "pepsinogen",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Isolated from",
+      "source": "procathepsin D",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Exhibits",
+      "source": "maltose-binding protein (MBP)",
+      "target": "soluble"
+    },
+    {
+      "type": "Exhibits",
+      "source": "maltose-binding protein (MBP)",
+      "target": "proteolytically inactive"
+    }
+  ]
+}
+

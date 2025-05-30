@@ -1,0 +1,63 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis Live Vaccine Strain (LVS)"
+    },
+    {
+      "type": "Microbe",
+      "name": "F. tularensis ssp tularensis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "surface nucleolin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "elongation factor Tu (EF-Tu)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "GTP-binding protein"
+    },
+    {
+      "type": "Habitat",
+      "name": "monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "human monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "host tissues"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis Live Vaccine Strain (LVS)",
+      "target": "monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis Live Vaccine Strain (LVS)",
+      "target": "elongation factor Tu (EF-Tu)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis Live Vaccine Strain (LVS)",
+      "target": "GTP-binding protein"
+    },
+    {
+      "type": "Isolated from",
+      "source": "F. tularensis ssp tularensis",
+      "target": "host tissues"
+    }
+  ]
+}
+

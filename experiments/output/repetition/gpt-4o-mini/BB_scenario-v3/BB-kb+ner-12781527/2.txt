@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Campylobacter jejuni"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "N-linked glycosylation pathway"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "O-linked glycosylation pathway"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "glycoprotein biosynthesis"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter jejuni",
+      "target": "N-linked glycosylation pathway"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter jejuni",
+      "target": "O-linked glycosylation pathway"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "glycoprotein biosynthesis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter coli",
+      "target": "O-linked glycosylation pathway"
+    }
+  ]
+}
+

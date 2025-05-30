@@ -1,0 +1,163 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas fluorescens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Ferric uptake regulator (Fur)"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Aeromonas hydrophila"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio harveyi"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "iron uptake"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cellular metabolism"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stress response"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of virulence determinants"
+    },
+    {
+      "type": "Habitat",
+      "name": "diseased Japanese flounder"
+    },
+    {
+      "type": "Habitat",
+      "name": "host blood and tissues"
+    },
+    {
+      "type": "Habitat",
+      "name": "extracellular milieu"
+    },
+    {
+      "type": "Geographical location",
+      "name": "local farm"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "aberrant production of outer membrane proteins"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "defective phenotype"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "growth ability"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistance against host serum bactericidal activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ability to disseminate"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacterial virulence"
+    },
+    {
+      "type": "Microbe",
+      "name": "TSS"
+    },
+    {
+      "type": "Microbe",
+      "name": "TFM"
+    },
+    {
+      "type": "Microbe",
+      "name": "TFM/pJAQ"
+    },
+    {
+      "type": "Microbe",
+      "name": "pJAQ"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "AgaV-DegQ"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "TSS",
+      "target": "diseased Japanese flounder"
+    },
+    {
+      "type": "Isolated from",
+      "source": "TSS",
+      "target": "local farm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas fluorescens",
+      "target": "iron uptake"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas fluorescens",
+      "target": "cellular metabolism"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas fluorescens",
+      "target": "stress response"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas fluorescens",
+      "target": "production of virulence determinants"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TFM",
+      "target": "aberrant production of outer membrane proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TFM",
+      "target": "decreased resistance against host serum bactericidal activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TFM",
+      "target": "impaired ability to disseminate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TFM",
+      "target": "drastic attenuation in overall bacterial virulence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli fur mutant",
+      "target": "defective phenotype"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TFM/pJAQ",
+      "target": "AgaV-DegQ"
+    }
+  ]
+}
+

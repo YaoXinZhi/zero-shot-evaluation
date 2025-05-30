@@ -1,0 +1,122 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pyogenes"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. pyogenes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "glycoprotein-binding activity"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "adherence"
+    },
+    {
+      "type": "Habitat",
+      "name": "host cell surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "solid surfaces coated with glycoproteins"
+    },
+    {
+      "type": "Microbe",
+      "name": "streptococcal strains"
+    },
+    {
+      "type": "Habitat",
+      "name": "thyroglobulin"
+    },
+    {
+      "type": "Habitat",
+      "name": "fetuin"
+    },
+    {
+      "type": "Habitat",
+      "name": "asialofetuin"
+    },
+    {
+      "type": "Habitat",
+      "name": "mucin"
+    },
+    {
+      "type": "Microbe",
+      "name": "non-glycosylated proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "virulence factors"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "regulated"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mga"
+    },
+    {
+      "type": "Microbe",
+      "name": "multiple-gene regulator Mga"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "glycoprotein-binding activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "adherence"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus pyogenes",
+      "target": "host cell surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus pyogenes",
+      "target": "solid surfaces coated with glycoproteins"
+    },
+    {
+      "type": "Isolated from",
+      "source": "streptococcal strains",
+      "target": "thyroglobulin"
+    },
+    {
+      "type": "Isolated from",
+      "source": "streptococcal strains",
+      "target": "fetuin"
+    },
+    {
+      "type": "Isolated from",
+      "source": "streptococcal strains",
+      "target": "asialofetuin"
+    },
+    {
+      "type": "Isolated from",
+      "source": "streptococcal strains",
+      "target": "mucin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "multiple-gene regulator Mga",
+      "target": "regulated"
+    },
+    {
+      "type": "Exhibits",
+      "source": "multiple-gene regulator Mga",
+      "target": "virulence factors"
+    }
+  ]
+}
+```

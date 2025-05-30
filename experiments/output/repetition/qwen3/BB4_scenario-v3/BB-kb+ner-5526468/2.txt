@@ -1,0 +1,30 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Vibrio fetus"
+    },
+    {
+      "type": "Habitat",
+      "name": "subacute bacterial endocarditis case"
+    },
+    {
+      "type": "Geographical location",
+      "name": "human"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Vibrio fetus",
+      "target": "subacute bacterial endocarditis case"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio fetus",
+      "target": "human"
+    }
+  ]
+}
+```

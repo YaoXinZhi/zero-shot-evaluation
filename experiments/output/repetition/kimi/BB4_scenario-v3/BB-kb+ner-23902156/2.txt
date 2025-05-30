@@ -1,0 +1,128 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Penicillium crustosum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Penicillium brevicompactum"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "allergenic"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "minor allergen"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "major allergen"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "allergenicity"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "IgG class specific antibodies"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "IgE epitopes"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "hypoallergenic variant"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Penicillium-sensitive atopic sera"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "ribosomal P1 protein"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Pen b 26"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Pen cr 26"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Penicillium crustosum",
+      "target": "minor allergen"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Penicillium brevicompactum",
+      "target": "major allergen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Penicillium crustosum",
+      "target": "allergenic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Penicillium brevicompactum",
+      "target": "allergenic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Penicillium crustosum",
+      "target": "minor allergen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Penicillium brevicompactum",
+      "target": "major allergen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "allergenicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen b 26",
+      "target": "allergenicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "hypoallergenic variant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen b 26",
+      "target": "ribosomal P1 protein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "ribosomal P1 protein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen b 26",
+      "target": "Pen b 26"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pen cr 26",
+      "target": "Pen cr 26"
+    }
+  ]
+}
+

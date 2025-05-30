@@ -1,0 +1,72 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "S. saprophyticus"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. equorum"
+    },
+    {
+      "type": "Habitat",
+      "name": "Taleggio cheeses"
+    },
+    {
+      "type": "Habitat",
+      "name": "Scimudin cheeses"
+    },
+    {
+      "type": "Habitat",
+      "name": "Casera cheeses"
+    },
+    {
+      "type": "Habitat",
+      "name": "Gorgonzola cheeses"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "S. saprophyticus",
+      "target": "Taleggio cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. saprophyticus",
+      "target": "Scimudin cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. saprophyticus",
+      "target": "Casera cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. saprophyticus",
+      "target": "Gorgonzola cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. equorum",
+      "target": "Taleggio cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. equorum",
+      "target": "Scimudin cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. equorum",
+      "target": "Casera cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. equorum",
+      "target": "Gorgonzola cheeses"
+    }
+  ]
+}
+```

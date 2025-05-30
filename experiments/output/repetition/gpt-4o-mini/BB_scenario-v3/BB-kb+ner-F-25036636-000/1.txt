@@ -1,0 +1,75 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Yaniella"
+    },
+    {
+      "type": "Microbe",
+      "name": "Nocardiopsis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio"
+    },
+    {
+      "type": "Microbe",
+      "name": "Halomonas"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudoalteromonas"
+    },
+    {
+      "type": "Habitat",
+      "name": "marine environments"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese communities"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Yaniella",
+      "target": "cheese communities"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Nocardiopsis",
+      "target": "cheese communities"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio",
+      "target": "cheese communities"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Halomonas",
+      "target": "cheese communities"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudoalteromonas",
+      "target": "cheese communities"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio",
+      "target": "marine environments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Halomonas",
+      "target": "marine environments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudoalteromonas",
+      "target": "marine environments"
+    }
+  ]
+}
+

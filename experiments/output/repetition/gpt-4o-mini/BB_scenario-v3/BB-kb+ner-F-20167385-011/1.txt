@@ -1,0 +1,96 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. curvatus"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. brevis"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. acidipiscis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enteroccocci"
+    },
+    {
+      "type": "Habitat",
+      "name": "Fontina cheese surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "Gorgonzola rind"
+    },
+    {
+      "type": "Habitat",
+      "name": "Taleggio rind"
+    },
+    {
+      "type": "Habitat",
+      "name": "Scimudin cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "Formaggio di Fossa cheese"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Greek cheese"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "L. curvatus",
+      "target": "Taleggio rind"
+    },
+    {
+      "type": "Isolated from",
+      "source": "L. brevis",
+      "target": "Gorgonzola"
+    },
+    {
+      "type": "Isolated from",
+      "source": "L. brevis",
+      "target": "Scimudin cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "L. acidipiscis",
+      "target": "Formaggio di Fossa cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enteroccocci",
+      "target": "Scimudin"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enteroccocci",
+      "target": "Gorgonzola"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enteroccocci",
+      "target": "Fontina rind"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus",
+      "target": "Fontina cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus",
+      "target": "Gorgonzola rind"
+    }
+  ]
+}
+

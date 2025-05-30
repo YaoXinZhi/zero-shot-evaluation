@@ -1,0 +1,61 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma agassizii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma testudineum"
+    },
+    {
+      "type": "Habitat",
+      "name": "Gopherus polyphemus"
+    },
+    {
+      "type": "Habitat",
+      "name": "Georgia"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Georgia"
+    },
+    {
+      "type": "Geographical location",
+      "name": "USA"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Upper respiratory tract disease"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma agassizii",
+      "target": "Gopherus polyphemus"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma testudineum",
+      "target": "Gopherus polyphemus"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gopherus polyphemus",
+      "target": "Upper respiratory tract disease"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma agassizii",
+      "target": "Georgia"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma testudineum",
+      "target": "Georgia"
+    }
+  ]
+}
+```

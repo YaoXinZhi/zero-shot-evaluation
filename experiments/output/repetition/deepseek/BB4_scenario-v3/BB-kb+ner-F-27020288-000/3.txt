@@ -1,0 +1,91 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus thermophilus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus plantarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactococcus lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pediococcus damnsosus"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. plantarum WCFS1"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of exopolysaccharides"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "surface polysaccharide production"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "eps or cps gene clusters"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "four cps genes clusters"
+    },
+    {
+      "type": "Habitat",
+      "name": "bacterial chromosome"
+    },
+    {
+      "type": "Habitat",
+      "name": "plasmids"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus thermophilus",
+      "target": "eps or cps gene clusters"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus plantarum",
+      "target": "eps or cps gene clusters"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactococcus lactis",
+      "target": "eps or cps gene clusters"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pediococcus damnsosus",
+      "target": "eps or cps gene clusters"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. plantarum WCFS1",
+      "target": "four cps genes clusters"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. plantarum WCFS1",
+      "target": "surface polysaccharide production"
+    },
+    {
+      "type": "Isolated from",
+      "source": "eps or cps gene clusters",
+      "target": "bacterial chromosome"
+    },
+    {
+      "type": "Isolated from",
+      "source": "eps or cps gene clusters",
+      "target": "plasmids"
+    }
+  ]
+}
+

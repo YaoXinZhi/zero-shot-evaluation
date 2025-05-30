@@ -1,0 +1,105 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Clostridium perfringens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Clostridium perfringens Type A"
+    },
+    {
+      "type": "Microbe",
+      "name": "Artemisia annua"
+    },
+    {
+      "type": "Habitat",
+      "name": "broiler"
+    },
+    {
+      "type": "Habitat",
+      "name": "intestine"
+    },
+    {
+      "type": "Habitat",
+      "name": "small intestinal lesions"
+    },
+    {
+      "type": "Geographical location",
+      "name": "day 17 to day 27"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antimicrobial properties"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "feed intake"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "body weight"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "feed conversion ratio"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "weight gain"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "lesions"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Artemisia annua",
+      "target": "antimicrobial properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium perfringens Type A",
+      "target": "causal agent for necrotic enteritis"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium perfringens",
+      "target": "intestine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium perfringens",
+      "target": "small intestinal lesions"
+    },
+    {
+      "type": "Exhibits",
+      "source": "broiler",
+      "target": "feed intake"
+    },
+    {
+      "type": "Exhibits",
+      "source": "broiler",
+      "target": "body weight"
+    },
+    {
+      "type": "Exhibits",
+      "source": "broiler",
+      "target": "feed conversion ratio"
+    },
+    {
+      "type": "Exhibits",
+      "source": "broiler",
+      "target": "weight gain"
+    },
+    {
+      "type": "Exhibits",
+      "source": "small intestinal lesions",
+      "target": "lesions"
+    }
+  ]
+}
+```

@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Kingella kingae"
+    },
+    {
+      "type": "Habitat",
+      "name": "respiratory tract"
+    },
+    {
+      "type": "Habitat",
+      "name": "throat"
+    },
+    {
+      "type": "Habitat",
+      "name": "nasopharyngeal cultures"
+    },
+    {
+      "type": "Geographical location",
+      "name": "southern Israel"
+    },
+    {
+      "type": "Habitat",
+      "name": "day-care center"
+    },
+    {
+      "type": "Habitat",
+      "name": "well-baby-care clinic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "invasive pathogen"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "pharyngeal carriage"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Kingella kingae",
+      "target": "invasive pathogen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Kingella kingae",
+      "target": "pharyngeal carriage"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "respiratory tract"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "throat"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "nasopharyngeal cultures"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "day-care center"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "well-baby-care clinic"
+    }
+  ]
+}
+

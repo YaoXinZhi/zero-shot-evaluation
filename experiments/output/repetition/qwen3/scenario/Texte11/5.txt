@@ -1,0 +1,24 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Xylella"},
+      {"type": "Disease", "name": "disease"},
+      {"type": "Plant", "name": "olive trees"},
+      {"type": "Geographic", "name": "Bari"},
+      {"type": "Geographic", "name": "infected area"},
+      {"type": "Vector", "name": "not specified"},
+      {"type": "Plant", "name": "plants"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Xylella", "type": "Have been found on", "target": "plants"},
+      {"source": "Xylella", "type": "Causes", "target": "disease"},
+      {"source": "Xylella", "type": "Located in", "target": "Bari"},
+      {"source": "Xylella", "type": "Located in", "target": "infected area"},
+      {"source": "disease", "type": "Affects", "target": "plants"},
+      {"source": "disease", "type": "Affects", "target": "olive trees"}
+    ]
+  }
+]
+

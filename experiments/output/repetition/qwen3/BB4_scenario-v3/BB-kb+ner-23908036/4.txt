@@ -1,0 +1,260 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Gram-negative"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "causes life-threatening infections"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to most clinically available antimicrobials"
+    },
+    {
+      "type": "Microbe",
+      "name": "β-carbonic anhydrase psCA3"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA1"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA2"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA3"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "functional β-carbonic anhydrases"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "serve as novel antimicrobial drug targets"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "X-ray crystallographic structural studies"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "characterize the structure and function"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of two crystal forms"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "diffraction resolution of 2.9 Å"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "space group P212121"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "unit-cell parameters a = 81.9, b = 84.9, c = 124.2 Å"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Matthews coefficient of 2.23 Å³ Da⁻¹"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "four molecules in the crystallographic asymmetric unit"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "diffraction resolution of 3.0 Å"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "space group P21212"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "unit-cell parameters a = 69.9, b = 77.7, c = 88.5 Å"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Matthews coefficient of 2.48 Å³ Da⁻¹"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "two molecules in the crystallographic asymmetric unit"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "molecular-replacement solutions"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "PHENIX AutoMR wizard"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "refinement of both crystal forms"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "causes life-threatening infections"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "resistant to most clinically available antimicrobials"
+    },
+    {
+      "type": "Isolated from",
+      "source": "psCA1",
+      "target": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Isolated from",
+      "source": "psCA2",
+      "target": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Isolated from",
+      "source": "psCA3",
+      "target": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Exhibits",
+      "source": "psCA1",
+      "target": "functional β-carbonic anhydrases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "psCA2",
+      "target": "functional β-carbonic anhydrases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "psCA3",
+      "target": "functional β-carbonic anhydrases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "psCA1",
+      "target": "serve as novel antimicrobial drug targets"
+    },
+    {
+      "type": "Exhibits",
+      "source": "psCA2",
+      "target": "serve as novel antimicrobial drug targets"
+    },
+    {
+      "type": "Exhibits",
+      "source": "psCA3",
+      "target": "serve as novel antimicrobial drug targets"
+    },
+    {
+      "type": "Exhibits",
+      "source": "β-carbonic anhydrase psCA3",
+      "target": "X-ray crystallographic structural studies"
+    },
+    {
+      "type": "Exhibits",
+      "source": "β-carbonic anhydrase psCA3",
+      "target": "characterize the structure and function"
+    },
+    {
+      "type": "Exhibits",
+      "source": "β-carbonic anhydrase psCA3",
+      "target": "production of two crystal forms"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Form A",
+      "target": "diffraction resolution of 2.9 Å"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Form A",
+      "target": "space group P212121"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Form A",
+      "target": "unit-cell parameters a = 81.9, b = 84.9, c = 124.2 Å"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Form A",
+      "target": "Matthews coefficient of 2.23 Å³ Da⁻¹"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Form A",
+      "target": "four molecules in the crystallographic asymmetric unit"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Form B",
+      "target": "diffraction resolution of 3.0 Å"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Form B",
+      "target": "space group P21212"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Form B",
+      "target": "unit-cell parameters a = 69.9, b = 77.7, c = 88.5 Å"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Form B",
+      "target": "Matthews coefficient of 2.48 Å³ Da⁻¹"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Form B",
+      "target": "two molecules in the crystallographic asymmetric unit"
+    },
+    {
+      "type": "Exhibits",
+      "source": "β-carbonic anhydrase psCA3",
+      "target": "molecular-replacement solutions"
+    },
+    {
+      "type": "Exhibits",
+      "source": "β-carbonic anhydrase psCA3",
+      "target": "PHENIX AutoMR wizard"
+    },
+    {
+      "type": "Exhibits",
+      "source": "β-carbonic anhydrase psCA3",
+      "target": "refinement of both crystal forms"
+    }
+  ]
+}
+```

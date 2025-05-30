@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterobacter cloacae"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Acinetobacter baumannii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Candida"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to broad-spectrum penicillin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Vancomycin resistance"
+    },
+    {
+      "type": "Habitat",
+      "name": "hematological ward"
+    },
+    {
+      "type": "Geographical location",
+      "name": "years 2001 to 2005"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "hematological ward"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterobacter cloacae",
+      "target": "hematological ward"
+    },
+    {
+      "type": "Isolated from",
+      "source": "E. coli",
+      "target": "hematological ward"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Acinetobacter baumannii",
+      "target": "hematological ward"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterococcus",
+      "target": "hematological ward"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Candida",
+      "target": "hematological ward"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "resistant to broad-spectrum penicillin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Enterococcus",
+      "target": "Vancomycin resistance"
+    }
+  ]
+}
+

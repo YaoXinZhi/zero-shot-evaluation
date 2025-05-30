@@ -1,0 +1,37 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Plant", "name": "crops"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "United Nations"},
+      {"type": "Geographic", "name": "Food and Agriculture Organization of the United Nations"},
+      {"type": "Geographic", "name": "the global economy"},
+      {"type": "Geographic", "name": "world’s population"},
+      {"type": "Geographic", "name": "agricultural sector"},
+      {"type": "Pest", "name": "invertebrate pests"},
+      {"type": "Vector", "name": "insects"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Affects", "target": "crops"},
+      {"source": "invertebrate pests", "type": "Have been found on", "target": "crops"},
+      {"source": "plant diseases", "type": "Have been found on", "target": "crops"},
+      {"source": "crops", "type": "Located in", "target": "Midlands"},
+      {"source": "strawberries", "type": "Located in", "target": "UK"},
+      {"source": "invertebrate pests", "type": "Located in", "target": "global economy"},
+      {"source": "plant diseases", "type": "Located in", "target": "global economy"},
+      {"source": "potato aphid", "type": "Located in", "target": "UK"},
+      {"source": "Food and Agriculture Organization of the United Nations", "type": "Located in", "target": "United Nations"},
+      {"source": "world’s population", "type": "Located in", "target": "agricultural sector"},
+      {"source": "insects", "type": "Transmit", "target": "plant diseases"},
+      {"source": "insects", "type": "Transmit", "target": "invertebrate pests"}
+    ]
+  }
+]
+

@@ -1,0 +1,49 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Disease", "name": "greening"},
+      {"type": "Pest", "name": "Candidatus Liberibacter asiaticus"},
+      {"type": "Pest", "name": "CLas"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "Citrus× sinensis(L.) Osbeck"},
+      {"type": "Plant", "name": "sweet orange"},
+      {"type": "Vector", "name": "Agrobacterium"},
+      {"type": "Pest", "name": "Sarcophaga peregrina"},
+      {"type": "Plant", "name": "Pera sweet orange"},
+      {"type": "Pest", "name": "STX-5"},
+      {"type": "Pest", "name": "STX-11"},
+      {"type": "Pest", "name": "STX-12"},
+      {"type": "Pest", "name": "STX-13"},
+      {"type": "Plant", "name": "transgenic control"},
+      {"type": "Geographic", "name": "International"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Huanglongbing", "type": "Causes", "target": "citrus"},
+      {"source": "HLB", "type": "Causes", "target": "citrus"},
+      {"source": "greening", "type": "Causes", "target": "citrus"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "HLB"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Causes", "target": "greening"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Have been found on", "target": "citrus"},
+      {"source": "CLas", "type": "Causes", "target": "HLB"},
+      {"source": "CLas", "type": "Causes", "target": "greening"},
+      {"source": "CLas", "type": "Have been found on", "target": "citrus"},
+      {"source": "Agrobacterium", "type": "Transmit", "target": "STX-5"},
+      {"source": "Agrobacterium", "type": "Transmit", "target": "STX-11"},
+      {"source": "Agrobacterium", "type": "Transmit", "target": "STX-12"},
+      {"source": "Agrobacterium", "type": "Transmit", "target": "STX-13"},
+      {"source": "Sarcophaga peregrina", "type": "Have been found on", "target": "sarcotoxin IA gene"},
+      {"source": "Pera sweet orange", "type": "Have been found on", "target": "sarcotoxin IA gene"},
+      {"source": "STX-5", "type": "Have been found on", "target": "Citrus× sinensis(L.) Osbeck"},
+      {"source": "STX-11", "type": "Have been found on", "target": "Citrus× sinensis(L.) Osbeck"},
+      {"source": "STX-12", "type": "Have been found on", "target": "Citrus× sinensis(L.) Osbeck"},
+      {"source": "STX-13", "type": "Have been found on", "target": "Citrus× sinensis(L.) Osbeck"},
+      {"source": "transgenic control", "type": "Have been found on", "target": "Citrus× sinensis(L.) Osbeck"},
+      {"source": "Citrus× sinensis(L.) Osbeck", "type": "Located in", "target": "International"}
+    ]
+  }
+]
+

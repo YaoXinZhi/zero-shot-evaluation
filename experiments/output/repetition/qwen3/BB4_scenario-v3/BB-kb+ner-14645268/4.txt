@@ -1,0 +1,115 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Xanthomonas"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas syringae pv. maculicola"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "pathogenicity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "type III secretion (TTS) system"
+    },
+    {
+      "type": "Microbe",
+      "name": "XopC"
+    },
+    {
+      "type": "Microbe",
+      "name": "XopJ"
+    },
+    {
+      "type": "Microbe",
+      "name": "AvrBs3 effector domain"
+    },
+    {
+      "type": "Microbe",
+      "name": "AvrRxv/YopJ family"
+    },
+    {
+      "type": "Microbe",
+      "name": "HopPmaG"
+    },
+    {
+      "type": "Microbe",
+      "name": "HpaJ"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "transglycosylase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Sec signal"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "pathogenicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "type III secretion (TTS) system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "XopC"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "XopJ"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopJ",
+      "target": "AvrRxv/YopJ family"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopC",
+      "target": "sequence features reminiscent of pathogenicity islands"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopC",
+      "target": "flanked by 62-bp inverted repeats"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopC",
+      "target": "Xanthomonas avrBs3 effector family"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HpaJ",
+      "target": "transglycosylase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HpaJ",
+      "target": "Sec signal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HpaJ",
+      "target": "HopPmaG"
+    }
+  ]
+}
+```

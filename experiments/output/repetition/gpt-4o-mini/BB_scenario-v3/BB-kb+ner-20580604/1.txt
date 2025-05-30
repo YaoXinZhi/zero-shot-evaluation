@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus casei strain Shirota"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "defecation frequency"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "intestinal microbiota"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "intestinal environment"
+    },
+    {
+      "type": "Habitat",
+      "name": "stools"
+    },
+    {
+      "type": "Habitat",
+      "name": "intestine"
+    },
+    {
+      "type": "Geographical location",
+      "name": "healthy individuals"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus casei strain Shirota",
+      "target": "defecation frequency"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus casei strain Shirota",
+      "target": "intestinal microbiota"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus casei strain Shirota",
+      "target": "intestinal environment"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus casei strain Shirota",
+      "target": "stools"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus casei strain Shirota",
+      "target": "intestine"
+    }
+  ]
+}
+

@@ -1,0 +1,81 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium linens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium aurantiacum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium permense"
+    },
+    {
+      "type": "Microbe",
+      "name": "Corynebacterium spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Corynebacterium casei"
+    },
+    {
+      "type": "Microbe",
+      "name": "Corynebacterium variabile"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surfaces"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheeses from the farmhouses"
+    },
+    {
+      "type": "Habitat",
+      "name": "dairy A"
+    },
+    {
+      "type": "Habitat",
+      "name": "dairy B"
+    },
+    {
+      "type": "Habitat",
+      "name": "dairy C"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium linens",
+      "target": "cheese surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium aurantiacum",
+      "target": "cheeses from the farmhouses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium permense",
+      "target": "dairy A"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Corynebacterium spp.",
+      "target": "cheese surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Corynebacterium casei",
+      "target": "cheese surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Corynebacterium variabile",
+      "target": "cheese surfaces"
+    }
+  ]
+}
+

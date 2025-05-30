@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Hafnia sp."
+    },
+    {
+      "type": "Habitat",
+      "name": "milk"
+    },
+    {
+      "type": "Habitat",
+      "name": "smear cheeses"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter sp.",
+      "target": "milk"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter sp.",
+      "target": "smear cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Hafnia sp.",
+      "target": "milk"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Hafnia sp.",
+      "target": "smear cheeses"
+    }
+  ]
+}
+

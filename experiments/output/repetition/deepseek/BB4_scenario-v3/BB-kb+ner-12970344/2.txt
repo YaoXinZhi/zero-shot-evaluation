@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Zobellia galactanivorans Dsij"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "jelly roll fold"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "beta-agarase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "polysaccharide hydrolases"
+    },
+    {
+      "type": "Habitat",
+      "name": "marine"
+    },
+    {
+      "type": "Habitat",
+      "name": "red algal galactans"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Zobellia galactanivorans Dsij",
+      "target": "beta-agarase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Zobellia galactanivorans Dsij",
+      "target": "polysaccharide hydrolases"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Zobellia galactanivorans Dsij",
+      "target": "marine"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Zobellia galactanivorans Dsij",
+      "target": "red algal galactans"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases A and B",
+      "target": "jelly roll fold"
+    }
+  ]
+}
+

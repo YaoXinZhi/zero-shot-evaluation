@@ -1,0 +1,133 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Coxiella burnetii"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Embden-Meyerhof pathway"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. burnetii"
+    },
+    {
+      "type": "Microbe",
+      "name": "normal yolk sacs"
+    },
+    {
+      "type": "Microbe",
+      "name": "infected yolk sacs"
+    },
+    {
+      "type": "Microbe",
+      "name": "heat-killed C. burnetii"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "glucose-phosphate isomerase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "fructose-1,6-diphosphatase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "aldolase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "glyceraldehyde-3-phosphate dehydrogenase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "pyruvate kinase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "class II type"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibition of activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "electrophoresis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "isozyme bands"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Coxiella burnetii",
+      "target": "Embden-Meyerhof pathway"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. burnetii",
+      "target": "glucose-phosphate isomerase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. burnetii",
+      "target": "fructose-1,6-diphosphatase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. burnetii",
+      "target": "aldolase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. burnetii",
+      "target": "glyceraldehyde-3-phosphate dehydrogenase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. burnetii",
+      "target": "pyruvate kinase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "aldolase",
+      "target": "class II type"
+    },
+    {
+      "type": "Exhibits",
+      "source": "aldolase",
+      "target": "inhibition of activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "aldolase",
+      "target": "electrophoresis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "aldolase",
+      "target": "isozyme bands"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. burnetii",
+      "target": "normal yolk sacs"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. burnetii",
+      "target": "infected yolk sacs"
+    },
+    {
+      "type": "Isolated from",
+      "source": "heat-killed C. burnetii",
+      "target": "normal yolk sacs"
+    }
+  ]
+}
+```

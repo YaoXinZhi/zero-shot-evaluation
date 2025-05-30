@@ -1,0 +1,92 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella enterica"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "extended-spectrum beta-lactamase-producing"
+    },
+    {
+      "type": "Geographical location",
+      "name": "northern Spain"
+    },
+    {
+      "type": "Microbe",
+      "name": "CTX-M-9"
+    },
+    {
+      "type": "Microbe",
+      "name": "CTX-M-10"
+    },
+    {
+      "type": "Microbe",
+      "name": "bla(SHV-2)"
+    },
+    {
+      "type": "Microbe",
+      "name": "bla(CTX-M-10)"
+    },
+    {
+      "type": "Microbe",
+      "name": "bla(CTX-M-9)"
+    },
+    {
+      "type": "Microbe",
+      "name": "In60 integron"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ESBL production"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Salmonella enterica",
+      "target": "northern Spain"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella enterica",
+      "target": "extended-spectrum beta-lactamase-producing"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. enterica Livingstone",
+      "target": "bla(SHV-2)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. enterica Virchow isolate",
+      "target": "bla(CTX-M-10)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. enterica Virchow isolate",
+      "target": "bla(CTX-M-9)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bla(CTX-M-9)",
+      "target": "In60 integron"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. enterica",
+      "target": "ESBL production"
+    }
+  ]
+}
+
+is patterns"
+    },
+    {
+      "type": "Exhibits",
+      "source": "S. enterica",
+      "target": "ESBL production"
+    }
+  ]
+}
+

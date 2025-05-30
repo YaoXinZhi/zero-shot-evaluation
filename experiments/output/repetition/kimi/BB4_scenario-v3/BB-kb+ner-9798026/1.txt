@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "spontaneous gastric hypoacidity"
+    },
+    {
+      "type": "Microbe",
+      "name": "human immunodeficiency virus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "gastric hypoacidity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "positive H. pylori serology"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "elevated gastric pH"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "CD4 cell counts"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastric"
+    },
+    {
+      "type": "Geographical location",
+      "name": "black and Hispanic populations"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "gastric"
+    },
+    {
+      "type": "Isolated from",
+      "source": "human immunodeficiency virus",
+      "target": "human"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "positive H. pylori serology"
+    },
+    {
+      "type": "Exhibits",
+      "source": "human immunodeficiency virus",
+      "target": "elevated gastric pH"
+    },
+    {
+      "type": "Exhibits",
+      "source": "human immunodeficiency virus",
+      "target": "CD4 cell counts"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "spontaneous gastric hypoacidity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "gastric hypoacidity"
+    }
+  ]
+}
+

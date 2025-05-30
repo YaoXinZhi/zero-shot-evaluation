@@ -1,0 +1,110 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Xanthomonas"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas syringae pv. maculicola"
+    },
+    {
+      "type": "Microbial trait",
+      "name": "type III effector proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "type III secretion (TTS) system"
+    },
+    {
+      "type": "Microbial trait",
+      "name": "Xanthomonas outer proteins (Xops)"
+    },
+    {
+      "type": "Microbial trait",
+      "name": "AvrRxv/YopJ family"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "type III-dependent translocation"
+    },
+    {
+      "type": "Microbial trait",
+      "name": "pathogenicity islands"
+    },
+    {
+      "type": "Microbial trait",
+      "name": "62-bp inverted repeats"
+    },
+    {
+      "type": "Microbial trait",
+      "name": "transglycosylases"
+    },
+    {
+      "type": "Microbial trait",
+      "name": "HopPmaG"
+    },
+    {
+      "type": "Microbial trait",
+      "name": "Sec signal"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "type III secretion (TTS) system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "type III effector proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "Xanthomonas outer proteins (Xops)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopJ",
+      "target": "AvrRxv/YopJ family"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopC",
+      "target": "pathogenicity islands"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopC",
+      "target": "62-bp inverted repeats"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "type III-dependent translocation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hpaJ",
+      "target": "transglycosylases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hpaJ",
+      "target": "HopPmaG"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hpaJ",
+      "target": "Sec signal"
+    }
+  ]
+}
+```

@@ -1,0 +1,76 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudosciaena crocea"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio parahaemolyticus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "activation of nuclear factor-kappaB"
+    },
+    {
+      "type": "Habitat",
+      "name": "blood"
+    },
+    {
+      "type": "Habitat",
+      "name": "spleen"
+    },
+    {
+      "type": "Habitat",
+      "name": "liver"
+    },
+    {
+      "type": "Habitat",
+      "name": "muscle"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "activation of nuclear factor-kappaB"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MyD88",
+      "target": "Pseudosciaena crocea"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudosciaena crocea",
+      "target": "broad expression"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudosciaena crocea",
+      "target": "highest expression in the spleen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudosciaena crocea",
+      "target": "weakest expression in the muscle"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudosciaena crocea",
+      "target": "highest expression in the spleen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudosciaena crocea",
+      "target": "lowest expression in the liver"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio parahaemolyticus",
+      "target": "formalin-inactivated Gram-negative bacterium"
+    }
+  ]
+}
+```

@@ -1,0 +1,105 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Microbe",
+      "name": "lymphogranuloma venereum"
+    },
+    {
+      "type": "Microbe",
+      "name": "HIV"
+    },
+    {
+      "type": "Habitat",
+      "name": "rectal"
+    },
+    {
+      "type": "Habitat",
+      "name": "perianal"
+    },
+    {
+      "type": "Habitat",
+      "name": "proctitis"
+    },
+    {
+      "type": "Habitat",
+      "name": "sexually transmitted infection clinics"
+    },
+    {
+      "type": "Geographical location",
+      "name": "UK"
+    },
+    {
+      "type": "Geographical location",
+      "name": "London"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proctitis symptoms"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "anorectal manifestations"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "perianal ulcer disease"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "rectal Chlamydia trachomatis-specific DNA"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "rectal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "perianal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lymphogranuloma venereum",
+      "target": "proctitis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphogranuloma venereum",
+      "target": "proctitis symptoms"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lymphogranuloma venereum",
+      "target": "anorectal manifestations"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HIV",
+      "target": "perianal ulcer disease"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lymphogranuloma venereum",
+      "target": "UK"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lymphogranuloma venereum",
+      "target": "London"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lymphogranuloma venereum",
+      "target": "sexually transmitted infection clinics"
+    }
+  ]
+}
+```

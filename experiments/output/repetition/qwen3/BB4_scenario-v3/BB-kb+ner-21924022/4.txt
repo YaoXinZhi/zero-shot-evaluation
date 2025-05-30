@@ -1,0 +1,96 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "H.pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibody detection"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "cytotoxin associated gene A protein (CagA)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "vacuolating toxin A (VacA)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "urease"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "heat shock protein 60 (Hsp60)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "RdxA (nitroreductase)"
+    },
+    {
+      "type": "Habitat",
+      "name": "children"
+    },
+    {
+      "type": "Habitat",
+      "name": "digestive system"
+    },
+    {
+      "type": "Habitat",
+      "name": "biopsy specimens"
+    },
+    {
+      "type": "Geographical location",
+      "name": "children"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "digestive system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "cytotoxin associated gene A protein (CagA)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "vacuolating toxin A (VacA)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "urease"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "heat shock protein 60 (Hsp60)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "RdxA (nitroreductase)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "biopsy specimens"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "children"
+    }
+  ]
+}
+```

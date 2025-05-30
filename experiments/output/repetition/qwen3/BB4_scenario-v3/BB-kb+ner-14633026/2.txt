@@ -1,0 +1,100 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Bacillus thuringiensis serovar sotto"
+    },
+    {
+      "type": "Microbe",
+      "name": "strain 96-OK-85-24"
+    },
+    {
+      "type": "Microbe",
+      "name": "Culex pipiens molestus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mosquitocidal activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "larvicidal activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "haemolytic activity"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "SDS-PAGE profiles"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "immunological properties"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "N-terminal amino acid sequences"
+    },
+    {
+      "type": "Microbe",
+      "name": "Bacillus thuringiensis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "toxicity spectrum"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Okinawa"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Japan"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "strain 96-OK-85-24",
+      "target": "Okinawa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "strain 96-OK-85-24",
+      "target": "Japan"
+    },
+    {
+      "type": "Exhibits",
+      "source": "strain 96-OK-85-24",
+      "target": "mosquitocidal activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "strain 96-OK-85-24",
+      "target": "SDS-PAGE profiles"
+    },
+    {
+      "type": "Exhibits",
+      "source": "strain 96-OK-85-24",
+      "target": "immunological properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "strain 96-OK-85-24",
+      "target": "N-terminal amino acid sequences"
+    },
+    {
+      "type": "Exhibits",
+      "source": "strain 96-OK-85-24",
+      "target": "toxicity spectrum"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Bacillus thuringiensis",
+      "target": "mosquitocidal activity"
+    }
+  ]
+}
+```

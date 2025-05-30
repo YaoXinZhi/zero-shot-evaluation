@@ -1,0 +1,69 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "MRSA"
+    },
+    {
+      "type": "Microbe",
+      "name": "methicillin-resistant Staphylococcus aureus"
+    },
+    {
+      "type": "Habitat",
+      "name": "environmental surfaces"
+    },
+    {
+      "type": "Habitat",
+      "name": "jail"
+    },
+    {
+      "type": "Habitat",
+      "name": "inmates' nasal specimens"
+    },
+    {
+      "type": "Geographical location",
+      "name": "jail setting"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "methicillin-resistant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "viable"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "environmental surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "environmental surfaces"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "methicillin-resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "viable"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "inmates' nasal specimens"
+    }
+  ]
+}
+```

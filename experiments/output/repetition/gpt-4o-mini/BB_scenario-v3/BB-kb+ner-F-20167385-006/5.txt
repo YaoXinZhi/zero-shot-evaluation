@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "S. saprophyticus"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. equorum"
+    },
+    {
+      "type": "Habitat",
+      "name": "Taleggio cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "Scimudin cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "Gorgonzola cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "Casera cheese"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "S. saprophyticus",
+      "target": "Taleggio cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. saprophyticus",
+      "target": "Scimudin cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. saprophyticus",
+      "target": "Gorgonzola cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. saprophyticus",
+      "target": "Casera cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. equorum",
+      "target": "Taleggio cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. equorum",
+      "target": "Scimudin cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. equorum",
+      "target": "Gorgonzola cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "S. equorum",
+      "target": "Casera cheese"
+    }
+  ]
+}
+

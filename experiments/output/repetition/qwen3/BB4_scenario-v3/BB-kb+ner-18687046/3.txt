@@ -1,0 +1,74 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "multi-drug resistant (MDR) bacterial infections"
+    },
+    {
+      "type": "Microbe",
+      "name": "ventilator-associated pneumonias"
+    },
+    {
+      "type": "Microbe",
+      "name": "blood stream infections"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "multi-drug resistance"
+    },
+    {
+      "type": "Habitat",
+      "name": "central nervous system (CNS)"
+    },
+    {
+      "type": "Habitat",
+      "name": "blood stream"
+    },
+    {
+      "type": "Habitat",
+      "name": "respiratory tract"
+    },
+    {
+      "type": "Geographical location",
+      "name": "institution"
+    },
+    {
+      "type": "Geographical location",
+      "name": "trauma intensive care unit (TICU)"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "multi-drug resistant (MDR) bacterial infections",
+      "target": "central nervous system (CNS)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "ventilator-associated pneumonias",
+      "target": "respiratory tract"
+    },
+    {
+      "type": "Isolated from",
+      "source": "blood stream infections",
+      "target": "blood stream"
+    },
+    {
+      "type": "Exhibits",
+      "source": "multi-drug resistant (MDR) bacterial infections",
+      "target": "multi-drug resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "ventilator-associated pneumonias",
+      "target": "multi-drug resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "blood stream infections",
+      "target": "multi-drug resistance"
+    }
+  ]
+}
+```

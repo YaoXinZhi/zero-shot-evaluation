@@ -1,0 +1,77 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus thermophilus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Str. thermophilus"
+    },
+    {
+      "type": "Microbe",
+      "name": "lactic acid bacterium"
+    },
+    {
+      "type": "Microbe",
+      "name": "mesophilic LAB starter culture"
+    },
+    {
+      "type": "Microbe",
+      "name": "raw milk cheese"
+    },
+    {
+      "type": "Microbe",
+      "name": "raw milk"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "thermophilic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "acidification"
+    },
+    {
+      "type": "Habitat",
+      "name": "raw milk cheese from dairy A"
+    },
+    {
+      "type": "Habitat",
+      "name": "GM17 agar"
+    },
+    {
+      "type": "Geographical location",
+      "name": "dairy A"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus thermophilus",
+      "target": "raw milk cheese from dairy A"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus thermophilus",
+      "target": "thermophilic"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lactic acid bacterium",
+      "target": "mesophilic LAB starter culture"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Str. thermophilus",
+      "target": "raw milk cheese from dairy A"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus thermophilus",
+      "target": "acidification"
+    }
+  ]
+}
+```

@@ -1,0 +1,102 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "P. celer"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "higher production of volatile aroma compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "aldehydes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ketones"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "sulfur compounds"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "influenced total volatile aroma compound production"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "volatile sulfur compounds being the most abundant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacterial biodiversity was drastically lowered"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "subdominant at the end of ripening"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "P. celer",
+      "target": "cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "higher production of volatile aroma compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "bacterial biodiversity was drastically lowered"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "influenced total volatile aroma compound production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "subdominant at the end of ripening"
+    },
+    {
+      "type": "Exhibits",
+      "source": "higher production of volatile aroma compounds",
+      "target": "aldehydes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "higher production of volatile aroma compounds",
+      "target": "ketones"
+    },
+    {
+      "type": "Exhibits",
+      "source": "higher production of volatile aroma compounds",
+      "target": "sulfur compounds"
+    },
+    {
+      "type": "Exhibits",
+      "source": "influenced total volatile aroma compound production",
+      "target": "volatile sulfur compounds being the most abundant"
+    }
+  ]
+}
+```

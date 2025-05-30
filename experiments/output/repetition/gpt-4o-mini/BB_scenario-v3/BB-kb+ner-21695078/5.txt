@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia muridarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "virulence"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inflammation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "oviduct pathology"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "anti-inflammatory function"
+    },
+    {
+      "type": "Habitat",
+      "name": "lungs"
+    },
+    {
+      "type": "Habitat",
+      "name": "genital tract"
+    },
+    {
+      "type": "Habitat",
+      "name": "mucosal surfaces"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "virulence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "inflammation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "oviduct pathology"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TLR2",
+      "target": "anti-inflammatory function"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia muridarum",
+      "target": "lungs"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "genital tract"
+    },
+    {
+      "type": "Isolated from",
+      "source": "TLR2",
+      "target": "mucosal surfaces"
+    }
+  ]
+}
+

@@ -1,0 +1,24 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "host plant"},
+      {"type": "Vector", "name": "BdorOBP13"}, 
+      {"type": "Pest", "name": "RNAi-injected flies"},
+      {"type": "Pest", "name": "male"},
+      {"type": "Pest", "name": "female"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "host plant"},
+      {"source": "BdorOBP13", "type": "Have been found on", "target": "male"},
+      {"source": "BdorOBP13", "type": "Have been found on", "target": "female"},
+      {"source": "RNAi-injected flies", "type": "Transmit", "target": "methyl eugenol"},
+      {"source": "RNAi-injected flies", "type": "Transmit", "target": "γ-octalactone"},
+      {"source": "Bactrocera dorsalis", "type": "Affects", "target": "odorant-binding proteins"},
+      {"source": "BdorOBP13", "type": "Located in", "target": "antennae"}
+    ]
+  }
+]
+

@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mtb"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "efferocytosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cross-presentation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antigen-specific CD8+ T cell response"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "immune evasion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antigen-presenting machinery"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "apoptotic cells and associated vesicles"
+    },
+    {
+      "type": "Habitat",
+      "name": "human blood monocyte-derived DCs"
+    },
+    {
+      "type": "Habitat",
+      "name": "DCs"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium tuberculosis",
+      "target": "immune evasion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DCs",
+      "target": "efferocytosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DCs",
+      "target": "cross-presentation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DCs",
+      "target": "antigen-presenting machinery"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycobacterium tuberculosis",
+      "target": "human blood monocyte-derived DCs"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mtb",
+      "target": "human blood monocyte-derived DCs"
+    }
+  ]
+}
+

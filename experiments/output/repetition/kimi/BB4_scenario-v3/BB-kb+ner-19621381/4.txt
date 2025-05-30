@@ -1,0 +1,47 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "amyloidogenic peptides"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "aggregation-prone peptides"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "inclusion bodies"
+    },
+    {
+      "type": "Microbe",
+      "name": "BCL-XL-1/2"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "amyloidogenic peptides",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Isolated from",
+      "source": "aggregation-prone peptides",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "inclusion bodies"
+    },
+    {
+      "type": "Exhibits",
+      "source": "BCL-XL-1/2",
+      "target": "amyloidogenic peptides"
+    }
+  ]
+}
+

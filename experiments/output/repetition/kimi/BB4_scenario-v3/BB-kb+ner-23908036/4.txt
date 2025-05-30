@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Gram-negative bacterium"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to most clinically available antimicrobials"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "β-carbonic anhydrase"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA1"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA2"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA3"
+    },
+    {
+      "type": "Habitat",
+      "name": "susceptible individuals"
+    },
+    {
+      "type": "Geographical location",
+      "name": "P. aeruginosa PAO1"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas aeruginosa",
+      "target": "susceptible individuals"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "Gram-negative bacterium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "resistant to most clinically available antimicrobials"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "β-carbonic anhydrase"
+    },
+    {
+      "type": "Isolated from",
+      "source": "psCA1",
+      "target": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Isolated from",
+      "source": "psCA2",
+      "target": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Isolated from",
+      "source": "psCA3",
+      "target": "P. aeruginosa PAO1"
+    }
+  ]
+}
+

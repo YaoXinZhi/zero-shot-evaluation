@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pyogenes"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "glycoprotein-binding activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "adhesion mechanisms"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "virulence factors"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "proteinaceous"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "common structure"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "solid surfaces coated with glycoproteins"
+    },
+    {
+      "type": "Microbe",
+      "name": "multiple-gene regulator Mga"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "glycoprotein-binding activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pyogenes",
+      "target": "adhesion mechanisms"
+    },
+    {
+      "type": "Exhibits",
+      "source": "multiple-gene regulator Mga",
+      "target": "virulence factors"
+    },
+    {
+      "type": "Exhibits",
+      "source": "glycoprotein-binding activity",
+      "target": "proteinaceous"
+    },
+    {
+      "type": "Exhibits",
+      "source": "glycoprotein-binding activity",
+      "target": "common structure"
+    },
+    {
+      "type": "Exhibits",
+      "source": "glycoprotein-binding activity",
+      "target": "solid surfaces coated with glycoproteins"
+    }
+  ]
+}
+

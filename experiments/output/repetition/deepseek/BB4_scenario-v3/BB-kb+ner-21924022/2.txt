@@ -1,0 +1,90 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "H.pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibodies against cytotoxin associated gene A protein (CagA)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "vacuolating toxin A (VacA)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "urease"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "heat shock protein 60 (Hsp60)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "RdxA (nitroreductase)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "anti-Ure antibody"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "anti-CagA antibody"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "anti-VacA antibody"
+    },
+    {
+      "type": "Habitat",
+      "name": "digestive system"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastroscopy"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "digestive system"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H.pylori",
+      "target": "gastroscopy"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "antibodies against cytotoxin associated gene A protein (CagA)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "vacuolating toxin A (VacA)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "urease"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "heat shock protein 60 (Hsp60)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "RdxA (nitroreductase)"
+    }
+  ]
+}
+

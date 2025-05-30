@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "C. flavescens"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Microbe",
+      "name": "A. arilaitensis"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese without H. alvei (T)"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese with H. alvei (HA2)"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "C. flavescens",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "A. arilaitensis",
+      "target": "cheese without H. alvei (T)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "A. arilaitensis",
+      "target": "cheese with H. alvei (HA2)"
+    }
+  ]
+}
+

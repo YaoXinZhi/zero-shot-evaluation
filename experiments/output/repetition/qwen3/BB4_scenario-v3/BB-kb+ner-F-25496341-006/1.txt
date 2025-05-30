@@ -1,0 +1,83 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter immobilis PG1"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter immobilis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Geotrichum candidum CLIB 918"
+    },
+    {
+      "type": "Microbe",
+      "name": "Debaryomyces hansenii CBS767"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudoalteromonas haloplanktis TAC125"
+    },
+    {
+      "type": "Microbe",
+      "name": "Halomonas sp. 1 M45"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter celer 91"
+    },
+    {
+      "type": "Habitat",
+      "name": "dairy plant"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese E"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese L"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter immobilis PG1",
+      "target": "dairy plant"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter immobilis PG1",
+      "target": "cheese E"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Geotrichum candidum CLIB 918",
+      "target": "cheese E"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Debaryomyces hansenii CBS767",
+      "target": "cheese E"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudoalteromonas haloplanktis TAC125",
+      "target": "cheese L"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Halomonas sp. 1 M45",
+      "target": "cheese L"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter celer 91",
+      "target": "cheese L"
+    }
+  ]
+}
+```

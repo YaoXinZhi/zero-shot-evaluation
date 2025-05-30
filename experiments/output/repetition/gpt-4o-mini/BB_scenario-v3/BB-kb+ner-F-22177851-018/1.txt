@@ -1,0 +1,64 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "P. phenylpyruvica"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "P. celer"
+    },
+    {
+      "type": "Habitat",
+      "name": "cured meat model system"
+    },
+    {
+      "type": "Habitat",
+      "name": "model cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheeses"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fruity tastes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "potent odorants"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "P. phenylpyruvica",
+      "target": "cured meat model system"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter sp.",
+      "target": "model cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "P. celer",
+      "target": "cheeses"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. phenylpyruvica",
+      "target": "potent odorants"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "fruity tastes"
+    }
+  ]
+}
+

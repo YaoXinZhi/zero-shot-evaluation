@@ -1,0 +1,54 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Legionella pneumophila"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cytotoxicity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "intracellular growth"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "host cell viability"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "SYTOX Green exclusion"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "membrane-impermeant"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "DNA-binding"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fluorescent dyes"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Legionella pneumophila",
+      "target": "intracellular growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Legionella pneumophila",
+      "target": "cytotoxicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Legionella pneumophila",
+      "target": "host cell viability"
+    }
+  ]
+}
+

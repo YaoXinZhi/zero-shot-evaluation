@@ -1,0 +1,86 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "S. aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "IsdH"
+    },
+    {
+      "type": "Microbe",
+      "name": "Isd (iron-regulated surface determinant)"
+    },
+    {
+      "type": "Microbe",
+      "name": "Hb-receptor"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "steal iron from their hosts"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "express Hb-binding proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "captures Hb"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "utilize Hb as an iron source"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "make highly specific recognition complexes with Hb"
+    },
+    {
+      "type": "Habitat",
+      "name": "human"
+    },
+    {
+      "type": "Geographical location",
+      "name": "human"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pathogens",
+      "target": "steal iron from their hosts"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pathogens",
+      "target": "express Hb-binding proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "captures Hb"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "utilize Hb as an iron source"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pathogens",
+      "target": "make highly specific recognition complexes with Hb"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "human"
+    }
+  ]
+}
+```

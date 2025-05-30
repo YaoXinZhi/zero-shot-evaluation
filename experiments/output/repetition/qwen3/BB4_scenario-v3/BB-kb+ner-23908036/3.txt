@@ -1,0 +1,104 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Gram-negative"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "causes life-threatening infections"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to most clinically available antimicrobials"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA1"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA2"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA3"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "functional β-carbonic anhydrases"
+    },
+    {
+      "type": "Habitat",
+      "name": "crystal form A"
+    },
+    {
+      "type": "Habitat",
+      "name": "crystal form B"
+    },
+    {
+      "type": "Geographical location",
+      "name": "space group P212121"
+    },
+    {
+      "type": "Geographical location",
+      "name": "space group P21212"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "causes life-threatening infections"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "resistant to most clinically available antimicrobials"
+    },
+    {
+      "type": "Isolated from",
+      "source": "psCA3",
+      "target": "crystal form A"
+    },
+    {
+      "type": "Isolated from",
+      "source": "psCA3",
+      "target": "crystal form B"
+    },
+    {
+      "type": "Exhibits",
+      "source": "psCA1",
+      "target": "functional β-carbonic anhydrases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "psCA2",
+      "target": "functional β-carbonic anhydrases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "psCA3",
+      "target": "functional β-carbonic anhydrases"
+    }
+  ]
+}
+```

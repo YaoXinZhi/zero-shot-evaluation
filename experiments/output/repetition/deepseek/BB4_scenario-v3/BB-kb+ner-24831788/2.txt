@@ -1,0 +1,45 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Legionella pneumophila"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "intracellular growth"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "host cell viability"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "SYTOX Green exclusion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cytotoxicity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cell toxicity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "luminescence"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Legionella pneumophila",
+      "target": "intracellular growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Legionella pneumophila",
+      "target": "luminescence"
+    }
+  ]
+}
+

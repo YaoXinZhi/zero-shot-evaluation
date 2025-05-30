@@ -1,0 +1,31 @@
+[
+  {
+    "entities": [
+      "Flavescence dorée",
+      "grapevine",
+      "South Tyrol",
+      "Flavescence dorèe-Phytoplasma",
+      "American vine leafhopper",
+      "vine cicada"
+    ]
+  },
+  {
+    "relationships": [
+      "Flavescence dorée Affects grapevine",
+      "Flavescence dorée Located in South Tyrol",
+      "Flavescence dorèe-Phytoplasma Causes Flavescence dorée",
+      "American vine leafhopper Transmit Flavescence dorèe-Phytoplasma",
+      "American vine leafhopper Have been found on grapevine"
+    ]
+  }
+]
+
+ "target": "South Tyrol"},
+      {"source": "Flavescence dorèe-Phytoplasma", "type": "Causes", "target": "Flavescence dorée"},
+      {"source": "American vine leafhopper", "type": "Transmit", "target": "Flavescence dorèe-Phytoplasma"},
+      {"source": "vine cicada", "type": "Located in", "target": "Europe"},
+      {"source": "American vine leafhopper", "type": "Have been found on", "target": "grapevine"}
+    ]
+  }
+]
+

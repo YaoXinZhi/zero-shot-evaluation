@@ -1,0 +1,128 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Habitat",
+      "name": "cattle"
+    },
+    {
+      "type": "Habitat",
+      "name": "neutrophils"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "neutrophil alkaline phosphatase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "NAP activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Gram-negative bacterial infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "severity of infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "severity of inflammation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "increase of NAP activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "preinfection NAP levels"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "post-infection increase of NAP activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "increased enzyme intensity per neutrophil"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "increase of percentage neutrophils with enzyme activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "correlation between NAP intensity and severity of inflammation"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "cattle"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "Gram-negative bacterial infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "neutrophil alkaline phosphatase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "NAP activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "increase of NAP activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "preinfection NAP levels"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "post-infection increase of NAP activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "increased enzyme intensity per neutrophil"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "increase of percentage neutrophils with enzyme activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacterial infection",
+      "target": "severity of infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Gram-negative bacterial infection",
+      "target": "severity of inflammation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "severity of infection",
+      "target": "correlation between NAP intensity and severity of inflammation"
+    }
+  ]
+}
+```

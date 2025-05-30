@@ -1,0 +1,59 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolysis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cleavage by endogenous proteases"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "protease inhibitors"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cell disruption in the presence of urea"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "linked ion-exchange chromatography"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "flagellar rod protein"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Salmonella typhimurium",
+      "target": "flagellar rod protein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "overproduced proteins sensitive to endogenous proteases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "highly susceptible to cleavage by endogenous proteases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "not digested when the cells were disrupted in the presence of urea"
+    }
+  ]
+}
+

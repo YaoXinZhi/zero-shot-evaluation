@@ -1,0 +1,96 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "BCG"
+    },
+    {
+      "type": "Microbe",
+      "name": "mycobacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "TCR-gamma delta-bearing T cells"
+    },
+    {
+      "type": "Microbe",
+      "name": "gamma delta T cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "BCG granulomas"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "periphery of the BCG granulomas"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "central caseous necrosis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "calcification"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fibrotic changes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "activated"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "accumulate"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "express CD8"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "TCR-gamma delta-bearing T cells",
+      "target": "activated"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gamma delta T cells",
+      "target": "accumulate"
+    },
+    {
+      "type": "Isolated from",
+      "source": "gamma delta T cells",
+      "target": "BCG granulomas"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gamma delta T cells",
+      "target": "periphery of the BCG granulomas"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gamma delta T cells",
+      "target": "express CD8"
+    },
+    {
+      "type": "Exhibits",
+      "source": "BCG granulomas",
+      "target": "central caseous necrosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "BCG granulomas",
+      "target": "calcification"
+    },
+    {
+      "type": "Exhibits",
+      "source": "BCG granulomas",
+      "target": "fibrotic changes"
+    }
+  ]
+}
+```

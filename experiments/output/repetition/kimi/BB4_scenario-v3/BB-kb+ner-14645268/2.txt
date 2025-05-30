@@ -1,0 +1,94 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Xanthomonas avrBs3"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas syringae pv. maculicola"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "gram-negative"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "type III secretion system"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "effector proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "transglycosylases"
+    },
+    {
+      "type": "Habitat",
+      "name": "plant cell"
+    },
+    {
+      "type": "Gene",
+      "name": "xopC"
+    },
+    {
+      "type": "Gene",
+      "name": "xopJ"
+    },
+    {
+      "type": "Gene",
+      "name": "avrRxv/YopJ"
+    },
+    {
+      "type": "Gene",
+      "name": "hpaJ"
+    },
+    {
+      "type": "Gene",
+      "name": "HopPmaG"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "plant cell"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "type III secretion system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopJ",
+      "target": "AvrRxv/YopJ"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopC",
+      "target": "pathogenicity islands"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hpaJ",
+      "target": "transglycosylases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hpaJ",
+      "target": "HopPmaG"
+    }
+  ]
+}
+

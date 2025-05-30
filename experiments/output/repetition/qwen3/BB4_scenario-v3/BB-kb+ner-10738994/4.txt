@@ -1,0 +1,74 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "methicillin-resistant Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "MRSA"
+    },
+    {
+      "type": "Habitat",
+      "name": "nursing home"
+    },
+    {
+      "type": "Habitat",
+      "name": "skilled nursing facility"
+    },
+    {
+      "type": "Habitat",
+      "name": "SNF"
+    },
+    {
+      "type": "Habitat",
+      "name": "nares"
+    },
+    {
+      "type": "Habitat",
+      "name": "stool"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "methicillin-resistant"
+    },
+    {
+      "type": "Geographical location",
+      "name": "community"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "nursing home"
+    },
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "skilled nursing facility"
+    },
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "SNF"
+    },
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "nares"
+    },
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "stool"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "methicillin-resistant"
+    }
+  ]
+}
+```

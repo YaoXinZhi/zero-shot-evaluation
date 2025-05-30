@@ -1,0 +1,39 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas"
+    },
+    {
+      "type": "Microbe",
+      "name": "Halomonas"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterobacteriaceae"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surface"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Pseudomonas",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Halomonas",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Enterobacteriaceae",
+      "target": "cheese surface"
+    }
+  ]
+}
+```

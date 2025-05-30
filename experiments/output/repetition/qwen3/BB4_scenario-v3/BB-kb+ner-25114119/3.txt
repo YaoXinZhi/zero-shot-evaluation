@@ -1,0 +1,146 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Coxiella burnetii"
+    },
+    {
+      "type": "Microbe",
+      "name": "SCID mice"
+    },
+    {
+      "type": "Microbe",
+      "name": "macrophages"
+    },
+    {
+      "type": "Microbe",
+      "name": "human macrophages"
+    },
+    {
+      "type": "Microbe",
+      "name": "monoclonal antibody (MAb) 1E4"
+    },
+    {
+      "type": "Microbe",
+      "name": "Fab fragment of 1E4 (Fab1E4)"
+    },
+    {
+      "type": "Microbe",
+      "name": "recombinant murine single-chain variable fragment (muscFv1E4)"
+    },
+    {
+      "type": "Microbe",
+      "name": "humanized single-chain variable fragment (huscFv1E4)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "aerosol infection"
+      },
+    {
+      "type": "Physiological trait",
+      "name": "inhibit infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "neutralize infection"
+    },
+    {
+      "type": "Habitat",
+      "name": "mice"
+    },
+    {
+      "type": "Habitat",
+      "name": "SCID mice"
+    },
+    {
+      "type": "Habitat",
+      "name": "macrophages"
+    },
+    {
+      "type": "Habitat",
+      "name": "human macrophages"
+    },
+    {
+      "type": "Geographical location",
+      "name": "natural infection"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "mice"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "SCID mice"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "macrophages"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "human macrophages"
+    },
+    {
+      "type": "Exhibits",
+      "source": "monoclonal antibody (MAb) 1E4",
+      "target": "inhibit infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Fab fragment of 1E4 (Fab1E4)",
+      "target": "inhibit infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "recombinant murine single-chain variable fragment (muscFv1E4)",
+      "target": "inhibit infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "humanized single-chain variable fragment (huscFv1E4)",
+      "target": "inhibit infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "humanized single-chain variable fragment (huscFv1E4)",
+      "target": "neutralize infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Coxiella burnetii",
+      "target": "aerosol infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Coxiella burnetii",
+      "target": "infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "monoclonal antibody (MAb) 1E4",
+      "target": "protect against aerosolized Coxiella burnetii"
+    },
+    {
+      "type": "Exhibits",
+      "source": "monoclonal antibody (MAb) 1E4",
+      "target": "provide protection against Coxiella burnetii natural infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "humanized single-chain variable fragment (huscFv1E4)",
+      "target": "reduce Coxiella burnetii infectivity"
+    }
+  ]
+}
+```

@@ -1,0 +1,64 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "thermotolerant Campylobacter spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter jejuni"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter lari"
+    },
+    {
+      "type": "Habitat",
+      "name": "partridges"
+    },
+    {
+      "type": "Habitat",
+      "name": "cloacal swabs"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Southern Italy"
+    },
+    {
+      "type": "Habitat",
+      "name": "game bird farm"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "thermotolerant Campylobacter spp.",
+      "target": "cloacal swabs"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter coli",
+      "target": "partridges"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter jejuni",
+      "target": "partridges"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter",
+      "target": "game bird farm"
+    }
+  ]
+}
+```

@@ -1,0 +1,84 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Legionella pneumophila"
+    },
+    {
+      "type": "Microbe",
+      "name": "macrophage cell line"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cytotoxic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "permeant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "impermeant"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fluorescence"
+    },
+    {
+      "type": "Habitat",
+      "name": "384-well screening plates"
+    },
+    {
+      "type": "Habitat",
+      "name": "screening well"
+    },
+    {
+      "type": "Geographical location",
+      "name": "HTS format"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Legionella pneumophila",
+      "target": "intracellular growth"
+    },
+    {
+      "type": "Exhibits",
+      "source": "macrophage cell line",
+      "target": "host cell viability"
+    },
+    {
+      "type": "Exhibits",
+      "source": "SYTOX Green",
+      "target": "fluorescence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "CellTox Green",
+      "target": "fluorescence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "GelGreen",
+      "target": "fluorescence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EvaGreen",
+      "target": "fluorescence"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Legionella pneumophila",
+      "target": "screening well"
+    },
+    {
+      "type": "Isolated from",
+      "source": "macrophage cell line",
+      "target": "384-well screening plates"
+    }
+  ]
+}
+```

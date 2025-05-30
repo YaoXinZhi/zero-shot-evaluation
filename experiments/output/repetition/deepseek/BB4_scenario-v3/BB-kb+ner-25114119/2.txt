@@ -1,0 +1,90 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Coxiella burnetii"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "obligate intracellular bacterial pathogen"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "infectivity"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "phase I lipopolysaccharide (PI-LPS)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Fab fragment of 1E4 (Fab1E4)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "recombinant murine single-chain variable fragment (muscFv1E4)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "humanized single-chain variable fragment (huscFv1E4)"
+    },
+    {
+      "type": "Habitat",
+      "name": "mice"
+    },
+    {
+      "type": "Habitat",
+      "name": "SCID mice"
+    },
+    {
+      "type": "Habitat",
+      "name": "macrophages"
+    },
+    {
+      "type": "Habitat",
+      "name": "human macrophages"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Coxiella burnetii",
+      "target": "obligate intracellular bacterial pathogen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Coxiella burnetii",
+      "target": "infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Coxiella burnetii",
+      "target": "infectivity"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "mice"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "SCID mice"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "macrophages"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "human macrophages"
+    }
+  ]
+}
+

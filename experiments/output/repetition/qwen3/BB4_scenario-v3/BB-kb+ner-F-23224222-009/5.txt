@@ -1,0 +1,143 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "B. linens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "B. aurantiacum"
+    },
+    {
+      "type": "Microbe",
+      "name": "B. permense"
+    },
+    {
+      "type": "Microbe",
+      "name": "Corynebacterium spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "C. casei"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. variabile"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surfaces"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheeses from the farmhouses"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheeses from dairies B and C"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese from dairy A"
+    },
+    {
+      "type": "Habitat",
+      "name": "surface-ripened cheeses"
+    },
+    {
+      "type": "Habitat",
+      "name": "the surfaces of the four cheeses"
+    },
+    {
+      "type": "Habitat",
+      "name": "soil"
+    },
+    {
+      "type": "Habitat",
+      "name": "dairies A"
+    },
+    {
+      "type": "Habitat",
+      "name": "dairies B"
+    },
+    {
+      "type": "Habitat",
+      "name": "dairies C"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ripening cultures"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "predominant bacterial species"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "important during cheese ripening"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "B. linens",
+      "target": "cheese surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium spp.",
+      "target": "cheeses from the farmhouses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "B. aurantiacum",
+      "target": "cheeses from dairies B and C"
+    },
+    {
+      "type": "Isolated from",
+      "source": "B. permense",
+      "target": "cheese from dairy A"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Corynebacterium spp.",
+      "target": "surface-ripened cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. casei",
+      "target": "the surfaces of the four cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. variabile",
+      "target": "the surfaces of the four cheeses"
+    },
+    {
+      "type": "Exhibits",
+      "source": "B. linens",
+      "target": "ripening cultures"
+    },
+    {
+      "type": "Exhibits",
+      "source": "B. aurantiacum",
+      "target": "ripening cultures"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Corynebacterium spp.",
+      "target": "predominant bacterial species"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Corynebacterium spp.",
+      "target": "important during cheese ripening"
+    }
+  ]
+}
+```

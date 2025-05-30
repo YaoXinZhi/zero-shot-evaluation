@@ -1,0 +1,86 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter"
+    },
+    {
+      "type": "Microbe",
+      "name": "Halomonas"
+    },
+    {
+      "type": "Microbe",
+      "name": "Hafnia"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "smear cheese surfaces"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "psychrotrophic"
+    },
+    {
+      "type": "Habitat",
+      "name": "marine environments"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese-making"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Maoz et al., 2003"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Mounier et al., 2005"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Mounier et al., 2009"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Larpin-Laborde et al., 2011"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Rea et al., 2007"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Halomonas",
+      "target": "marine environments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Hafnia",
+      "target": "cheese-making"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter",
+      "target": "psychrotrophic"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter",
+      "target": "smear cheese surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Halomonas",
+      "target": "smear cheese surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Hafnia",
+      "target": "smear cheese surfaces"
+    }
+  ]
+}
+```

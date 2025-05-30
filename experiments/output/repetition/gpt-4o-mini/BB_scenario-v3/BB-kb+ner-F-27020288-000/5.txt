@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Streptococcus thermophilus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus plantarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactococcus lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pediococcus damnosus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus plantarum WCFS1"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "surface polysaccharide production"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of exopolysaccharides"
+    },
+    {
+      "type": "Gene cluster",
+      "name": "eps"
+    },
+    {
+      "type": "Gene cluster",
+      "name": "cps"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus plantarum",
+      "target": "surface polysaccharide production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus plantarum WCFS1",
+      "target": "surface polysaccharide production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus plantarum",
+      "target": "production of exopolysaccharides"
+    },
+    {
+      "type": "Isolated from",
+      "source": "eps",
+      "target": "Streptococcus thermophilus"
+    },
+    {
+      "type": "Isolated from",
+      "source": "cps",
+      "target": "Lactobacillus plantarum"
+    },
+    {
+      "type": "Isolated from",
+      "source": "cps",
+      "target": "Lactococcus lactis"
+    },
+    {
+      "type": "Isolated from",
+      "source": "cps",
+      "target": "Pediococcus damnosus"
+    }
+  ]
+}
+

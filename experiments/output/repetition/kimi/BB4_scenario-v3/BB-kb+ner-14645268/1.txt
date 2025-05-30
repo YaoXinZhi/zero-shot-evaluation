@@ -1,0 +1,126 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Xanthomonas avrBs3"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas syringae pv. maculicola"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "gram-negative"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "type III secretion (TTS) system"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "effector proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Xanthomonas outer proteins (Xops)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "AvrRxv/YopJ family of effector proteins"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "pathogenicity islands"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "transglycosylases"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Sec signal"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "periplasm"
+    },
+    {
+      "type": "Microbe",
+      "name": "XopC"
+    },
+    {
+      "type": "Microbe",
+      "name": "XopJ"
+    },
+    {
+      "type": "Microbe",
+      "name": "hpaJ"
+    },
+    {
+      "type": "Microbe",
+      "name": "HopPmaG"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "type III secretion (TTS) system"
+    },
+    {
+      "type": "Isolated from",
+      "source": "XopC",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Isolated from",
+      "source": "XopJ",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopJ",
+      "target": "AvrRxv/YopJ family of effector proteins"
+    },
+    {
+      "type": "Isolated from",
+      "source": "hpaJ",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hpaJ",
+      "target": "transglycosylases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hpaJ",
+      "target": "Sec signal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hpaJ",
+      "target": "periplasm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "pathogenicity islands"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HopPmaG",
+      "target": "transglycosylases"
+    }
+  ]
+}
+

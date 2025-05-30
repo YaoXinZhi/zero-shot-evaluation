@@ -1,0 +1,53 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "yeasts"
+    },
+    {
+      "type": "Microbe",
+      "name": "Gram positive"
+    },
+    {
+      "type": "Microbe",
+      "name": "catalase positive"
+    },
+    {
+      "type": "Microbe",
+      "name": "coagulase-negative cocci (CNC)"
+    },
+    {
+      "type": "Microbe",
+      "name": "coryneform bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Micrococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "coagulase-negative cocci (CNC)",
+      "target": "salt-tolerant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "coryneform bacteria",
+      "target": "salt-tolerant"
+    }
+  ]
+}
+

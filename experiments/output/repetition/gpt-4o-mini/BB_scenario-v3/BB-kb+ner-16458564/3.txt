@@ -1,0 +1,180 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "group A rotavirus"
+    },
+    {
+      "type": "Microbe",
+      "name": "diarrheagenic Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Shigella spp"
+    },
+    {
+      "type": "Microbe",
+      "name": "enterotoxigenic Bacteroides fragilis"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Hanoi"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Vietnam"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "diarrhea"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "fever"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "vomiting"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "dehydration"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "watery stool"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "mucous stool"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "group A rotavirus",
+      "target": "Hanoi"
+    },
+    {
+      "type": "Isolated from",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "Hanoi"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Shigella spp",
+      "target": "Hanoi"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "Hanoi"
+    },
+    {
+      "type": "Exhibits",
+      "source": "group A rotavirus",
+      "target": "diarrhea"
+    },
+    {
+      "type": "Exhibits",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "diarrhea"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Shigella spp",
+      "target": "diarrhea"
+    },
+    {
+      "type": "Exhibits",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "diarrhea"
+    },
+    {
+      "type": "Exhibits",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "fever"
+    },
+    {
+      "type": "Exhibits",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "vomiting"
+    },
+    {
+      "type": "Exhibits",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "dehydration"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Shigella spp",
+      "target": "fever"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Shigella spp",
+      "target": "vomiting"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Shigella spp",
+      "target": "dehydration"
+    },
+    {
+      "type": "Exhibits",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "fever"
+    },
+    {
+      "type": "Exhibits",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "vomiting"
+    },
+    {
+      "type": "Exhibits",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "dehydration"
+    },
+    {
+      "type": "Exhibits",
+      "source": "group A rotavirus",
+      "target": "watery stool"
+    },
+    {
+      "type": "Exhibits",
+      "source": "group A rotavirus",
+      "target": "mucous stool"
+    },
+    {
+      "type": "Exhibits",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "watery stool"
+    },
+    {
+      "type": "Exhibits",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "mucous stool"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Shigella spp",
+      "target": "watery stool"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Shigella spp",
+      "target": "mucous stool"
+    },
+    {
+      "type": "Exhibits",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "watery stool"
+    },
+    {
+      "type": "Exhibits",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "mucous stool"
+    }
+  ]
+}
+

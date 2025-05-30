@@ -1,0 +1,37 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Vibrio cholerae O:1"
+    },
+    {
+      "type": "Habitat",
+      "name": "lagoon"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Cagliari"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "pelecypods"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "arselle"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Vibrio cholerae O:1",
+      "target": "lagoon"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio cholerae O:1",
+      "target": "marine bivalves known locally as arselle"
+    }
+  ]
+}
+

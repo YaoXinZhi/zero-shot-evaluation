@@ -1,0 +1,26 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Geographic", "name": "South Tyrol"},
+      {"type": "Plant", "name": "Chardonnay"},
+      {"type": "Plant", "name": "Pinot Grigio"},
+      {"type": "Plant", "name": "vineyards"},
+      {"type": "Geographic", "name": "province"},
+      {"type": "Plant", "name": "black wood"},
+      {"type": "Plant", "name": "leaves"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "flavescence dorée", "type": "Located in", "target": "South Tyrol"},
+      {"source": "vineyards", "type": "Located in", "target": "South Tyrol"},
+      {"source": "Pinot Grigio", "type": "Located in", "target": "South Tyrol"},
+      {"source": "Chardonnay", "type": "Located in", "target": "South Tyrol"},
+      {"source": "black wood", "type": "Affects", "target": "leaves"},
+      {"source": "flavescence dorée", "type": "Affects", "target": "leaves"},
+      {"source": "leaves", "type": "Located in", "target": "South Tyrol"}
+    ]
+  }
+]
+

@@ -1,0 +1,65 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Haemophilus influenzae type B"
+    },
+    {
+      "type": "Microbe",
+      "name": "gram-negative bacilli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ampicillin-resistant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "TEM-type beta-lactamase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "little permeability barrier to ampicillin"
+    },
+    {
+      "type": "Habitat",
+      "name": "U.S."
+    },
+    {
+      "type": "Habitat",
+      "name": "Germany"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae type B",
+      "target": "ampicillin-resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae type B",
+      "target": "TEM-type beta-lactamase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae type B",
+      "target": "little permeability barrier to ampicillin"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Haemophilus influenzae type B",
+      "target": "U.S."
+    },
+    {
+      "type": "Isolated from",
+      "source": "Haemophilus influenzae type B",
+      "target": "Germany"
+    }
+  ]
+}
+```

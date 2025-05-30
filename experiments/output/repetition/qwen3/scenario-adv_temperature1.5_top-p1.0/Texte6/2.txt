@@ -1,0 +1,20 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Golden flavescence"},
+      {"type": "Geographic", "name": "Burgraviato"},
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Geographic", "name": "Bassa Atesina"},
+      {"type": "Geographic", "name": "Salorno"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Golden flaskcencce", "type": "Located in", "target": "Burgraviato"},
+      {"source": "flavescence dorée", "type": "Located in", "target": "Burgraviato"},
+      {"source": "Golden flavescence", "type": "Located in", "target": "Bassa Atesina"},
+      {"source": "Golden flavescence", "type": "Located in", "target": "Salorno"}
+    ]
+  }
+]
+

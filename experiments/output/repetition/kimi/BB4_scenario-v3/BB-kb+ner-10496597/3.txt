@@ -1,0 +1,78 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "monoclonal B cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "polyclonal pattern"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "enlarged irregular mantle zone"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Lymphoepithelial lesions"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastric mucosa"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastric MALT lymphoma"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastric biopsies"
+    },
+    {
+      "type": "Habitat",
+      "name": "Helicobacter pylori-chronic active gastritis"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "gastric mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "Helicobacter pylori-chronic active gastritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori-chronic active gastritis",
+      "target": "monoclonal B cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gastric MALT lymphoma",
+      "target": "monoclonal B cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gastric MALT lymphoma",
+      "target": "enlarged irregular mantle zone"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gastric MALT lymphoma",
+      "target": "Lymphoepithelial lesions"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori-chronic active gastritis",
+      "target": "polyclonal pattern"
+    }
+  ]
+}
+

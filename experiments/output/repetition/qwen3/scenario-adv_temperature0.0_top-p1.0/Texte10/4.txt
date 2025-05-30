@@ -1,0 +1,44 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Plant", "name": "crops"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "United Nations"},
+      {"type": "Geographic", "name": "Food and Agriculture Organization"},
+      {"type": "Geographic", "name": "global"},
+      {"type": "Geographic", "name": "world"},
+      {"type": "Geographic", "name": "Biotechnology and Biological Sciences Research Council"},
+      {"type": "Geographic", "name": "Natural Environment Research Council"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Affects", "target": "crops"},
+      {"source": "plant diseases", "type": "Have been found on", "target": "crops"},
+      {"source": "Midlands", "type": "Located in", "target": "Harper Adams University"},
+      {"source": "Midlands", "type": "Located in", "target": "Aston University"},
+      {"source": "potato aphid", "type": "Causes", "target": "plant diseases"},
+      {"source": "Food and Agriculture Organization", "type": "Located in", "target": "United Nations"},
+      {"source": "Food and Agriculture Organization", "type": "Causes", "target": "global crop production losses"}
+    ]
+  }
+]
+
+rops", "type": "Have been found on", "target": "plant diseases"},
+      {"source": "global", "type": "Located in", "target": "Food and Agriculture Organization of the United Nations"},
+      {"source": "Food and Agriculture Organization of the United Nations", "type": "Located in", "target": "United Nations"},
+      {"source": "global", "type": "Located in", "target": "United Nations"},
+      {"source": "Professor David Webb", "type": "Located in", "target": "Aston Institute of Photonic Technologies"},
+      {"source": "Aston Institute of Photonic Technologies", "type": "Located in", "target": "Aston University"},
+      {"source": "dr. Joe Roberts", "type": "Located in", "target": "Harper Adams University"},
+      {"source": "Biotechnology and Biological Sciences Research Council", "type": "Located in", "target": "UK"},
+      {"source": "Natural Environment Research Council", "type": "Located in", "target": "UK"}
+    ]
+  }
+]
+

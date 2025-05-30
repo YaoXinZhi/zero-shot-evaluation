@@ -1,0 +1,104 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "chronic atrophic gastritis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "gastric cancer"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Japan"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastric mucosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. pylori-positive subjects"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. pylori-negative subjects"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. pylori-infected monkeys"
+    },
+    {
+      "type": "Microbe",
+      "name": "control monkeys"
+    },
+    {
+      "type": "Microbe",
+      "name": "young Japanese gastric cancer patients"
+    },
+    {
+      "type": "Microbe",
+      "name": "control group"
+    },
+    {
+      "type": "Clinical trial",
+      "name": "Japanese Intervention Trial of H. pylori"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "gastric mucosa"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "chronic atrophic gastritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "gastric cancer"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. pylori-positive subjects",
+      "target": "gastric mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. pylori-negative subjects",
+      "target": "gastric mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. pylori-infected monkeys",
+      "target": "gastric mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "control monkeys",
+      "target": "gastric mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "young Japanese gastric cancer patients",
+      "target": "gastric mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "control group",
+      "target": "gastric mucosa"
+    }
+  ]
+}
+

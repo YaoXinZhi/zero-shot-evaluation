@@ -1,0 +1,69 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "atypical mycobacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "MAIS complex"
+    },
+    {
+      "type": "Microbe",
+      "name": "M. fortuitum-chelonei complex"
+    },
+    {
+      "type": "Microbe",
+      "name": "M. marinum"
+    },
+    {
+      "type": "Microbe",
+      "name": "M. ulcerans"
+    },
+    {
+      "type": "Habitat",
+      "name": "lymph node infections"
+    },
+    {
+      "type": "Habitat",
+      "name": "superficial abscesses"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Queensland"
+    },
+    {
+      "type": "Habitat",
+      "name": "non-pulmonary sites"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "atypical mycobacteria",
+      "target": "non-pulmonary sites"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MAIS complex",
+      "target": "lymph node infections"
+    },
+    {
+      "type": "Isolated from",
+      "source": "M. fortuitum-chelonei complex",
+      "target": "superficial abscesses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "M. marinum",
+      "target": "non-pulmonary sites"
+    },
+    {
+      "type": "Isolated from",
+      "source": "M. ulcerans",
+      "target": "non-pulmonary sites"
+    }
+  ]
+}
+```

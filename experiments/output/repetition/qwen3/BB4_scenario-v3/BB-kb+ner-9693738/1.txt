@@ -1,0 +1,93 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "endogenous metabolism"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "de novo protein synthesis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "maintenance of the growth-arrested cell"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "carbon starvation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "reorganizing and modulating catabolic flux"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "defense system"
+      },
+    {
+      "type": "Physiological trait",
+      "name": "avoiding the damaging effects of ongoing respiratory activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "denaturation and spontaneous aging of proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stasis"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "endogenous metabolism"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "de novo protein synthesis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "maintenance of the growth-arrested cell"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "carbon starvation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "carbon starvation",
+      "target": "reorganizing and modulating catabolic flux"
+    },
+    {
+      "type": "Exhibits",
+      "source": "carbon starvation",
+      "target": "defense system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "defense system",
+      "target": "avoiding the damaging effects of ongoing respiratory activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "denaturation and spontaneous aging of proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "stasis"
+    }
+  ]
+}
+```

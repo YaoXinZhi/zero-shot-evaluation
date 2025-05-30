@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Bacillus intermedius"
+    },
+    {
+      "type": "Microbe",
+      "name": "Bacillus intermedius S3-19"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "alkaline phosphatase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phosphomonoesterase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phosphodiesterase"
+    },
+    {
+      "type": "Habitat",
+      "name": "culture liquid"
+    },
+    {
+      "type": "Habitat",
+      "name": "streptomycin-resistant strain"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "culture liquid"
+    },
+    {
+      "type": "Isolated from",
+      "source": "alkaline phosphatase",
+      "target": "streptomycin-resistant strain"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Bacillus intermedius",
+      "target": "alkaline phosphatase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "phosphomonoesterase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "alkaline phosphatase",
+      "target": "phosphodiesterase"
+    }
+  ]
+}
+

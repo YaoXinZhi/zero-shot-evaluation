@@ -1,0 +1,82 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Vibrio salmonicida"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio"
+    },
+    {
+      "type": "Habitat",
+      "name": "fish farm sediments"
+    },
+    {
+      "type": "Habitat",
+      "name": "intestinal tracts of healthy fish"
+    },
+    {
+      "type": "Habitat",
+      "name": "sediments"
+    },
+    {
+      "type": "Geographical location",
+      "name": "fish farms"
+    },
+    {
+      "type": "Geographical location",
+      "name": "diseased farms"
+    },
+    {
+      "type": "Geographical location",
+      "name": "disease-free fish farm"
+    },
+    {
+      "type": "Geographical location",
+      "name": "sediments not influenced by fish farming"
+    },
+    {
+      "type": "Microbe",
+      "name": "monoclonal antibodies"
+    },
+    {
+      "type": "Microbe",
+      "name": "polyclonal rabbit serum"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Vibrio",
+      "target": "intestinal tracts of healthy fish"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio",
+      "target": "sediments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio salmonicida",
+      "target": "fish farm sediments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio salmonicida",
+      "target": "sediment samples from diseased farms"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio salmonicida",
+      "target": "sediment sample from a disease-free fish farm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Vibrio salmonicida",
+      "target": "fish pathogen"
+    }
+  ]
+}
+```

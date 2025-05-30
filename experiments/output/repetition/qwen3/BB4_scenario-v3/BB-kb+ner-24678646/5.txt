@@ -1,0 +1,42 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "methicillin-resistant Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "MRSA"
+    },
+    {
+      "type": "Microbe",
+      "name": "vancomycin-resistant Enterococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "VRE"
+    },
+    {
+      "type": "Habitat",
+      "name": "patient"
+    },
+    {
+      "type": "Geographical location",
+      "name": "OVID Medline"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "patient"
+    },
+    {
+      "type": "Isolated from",
+      "source": "vancomycin-resistant Enterococcus",
+      "target": "patient"
+    }
+  ]
+}
+```

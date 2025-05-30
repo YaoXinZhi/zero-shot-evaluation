@@ -1,0 +1,67 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Kingella kingae"
+    },
+    {
+      "type": "Habitat",
+      "name": "respiratory tract"
+    },
+    {
+      "type": "Habitat",
+      "name": "throat"
+    },
+    {
+      "type": "Habitat",
+      "name": "nasopharyngeal"
+    },
+    {
+      "type": "Geographical location",
+      "name": "southern Israel"
+    },
+    {
+      "type": "Microbe",
+      "name": "K. kingae"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "throat"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "nasopharyngeal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "K. kingae",
+      "target": "respiratory tract"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "day-care center attendees"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "children"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "infants younger than 6 months"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "southern Israel"
+    }
+  ]
+}
+```

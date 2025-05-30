@@ -1,0 +1,82 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "iron-scavenging pathway"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Hb-binding proteins"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Hb capture complex"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "surface mutations in Hb"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Hb-receptor"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "IsdH"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "specific recognition complexes with Hb"
+    },
+    {
+      "type": "Habitat",
+      "name": "mammals"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Hb"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "Hb-binding proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "iron-scavenging pathway"
+    },
+    {
+      "type": "Exhibits",
+      "source": "IsdH",
+      "target": "Hb capture complex"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "mammals"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hb",
+      "target": "surface mutations in Hb"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Hb",
+      "target": "Hb-receptor"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "specific recognition complexes with Hb"
+    }
+  ]
+}
+

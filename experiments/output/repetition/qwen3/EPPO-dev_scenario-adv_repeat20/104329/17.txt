@@ -1,0 +1,23 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Tomato brown rugose fruit virus"},
+      {"type": "Pest", "name": "ToBRFV"},
+      {"type": "Plant", "name": "tomatoes"},
+      {"type": "Plant", "name": "peppers"},
+      {"type": "Geographic", "name": "Finland"},
+      {"type": "Geographic", "name": "Åland"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Tomato brown rugose fruit virus", "type": "Located in", "target": "Finland"},
+      {"source": "ToBRFV", "type": "Located in", "target": "Finland"},
+      {"source": "ToBRFV", "type": "Have been found on", "target": "tomatoes"},
+      {"source": "ToBRFV", "type": "Have been found on", "target": "peppers"},
+      {"source": "Tomato brown rugose fruit virus", "type": "Have been found on", "target": "tomatoes"},
+      {"source": "Tomato brown rugose fruit virus", "type": "Have been found on", "target": "peppers"}
+    ]
+  }
+]
+

@@ -1,0 +1,109 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter-like organism"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "duodenal ulcer"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "H pylori infection"
+    },
+    {
+      "type": "Habitat",
+      "name": "human gastrointestinal tract"
+    },
+    {
+      "type": "Therapy",
+      "name": "bismuth-based triple therapy"
+    },
+    {
+      "type": "Therapy",
+      "name": "PPI-based triple therapy"
+    },
+    {
+      "type": "Drug",
+      "name": "bismuth subcitrate"
+    },
+    {
+      "type": "Drug",
+      "name": "metronidazole"
+    },
+    {
+      "type": "Drug",
+      "name": "amoxicillin"
+    },
+    {
+      "type": "Drug",
+      "name": "omeprazole"
+    },
+    {
+      "type": "Drug",
+      "name": "clarithromycin"
+    },
+    {
+      "type": "Drug",
+      "name": "nizatidine"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "human gastrointestinal tract"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "H pylori infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "duodenal ulcer",
+      "target": "H pylori infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "bismuth subcitrate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "metronidazole"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bismuth-based triple therapy",
+      "target": "amoxicillin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "PPI-based triple therapy",
+      "target": "omeprazole"
+    },
+    {
+      "type": "Exhibits",
+      "source": "PPI-based triple therapy",
+      "target": "clarithromycin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "PPI-based triple therapy",
+      "target": "metronidazole"
+    },
+    {
+      "type": "Exhibits",
+      "source": "nizatidine",
+      "target": "H pylori infection"
+    }
+  ]
+}
+

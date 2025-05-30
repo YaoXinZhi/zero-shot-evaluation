@@ -1,0 +1,81 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Gram-positive bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Gram-negative bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "anaerobes"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "broad antibacterial spectrum"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibacterial activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacterial elimination"
+    },
+    {
+      "type": "Habitat",
+      "name": "amniotic fluid"
+    },
+    {
+      "type": "Habitat",
+      "name": "intrauterine secretions"
+    },
+    {
+      "type": "Habitat",
+      "name": "exudates of the pelvic dead space"
+    },
+    {
+      "type": "Geographical location",
+      "name": "obstetrics and gynecology"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Flomoxef",
+      "target": "broad antibacterial spectrum"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Flomoxef",
+      "target": "antibacterial activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Flomoxef",
+      "target": "bacterial elimination"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "intrauterine secretions"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "amniotic fluid"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "exudates of the pelvic dead space"
+    }
+  ]
+}
+

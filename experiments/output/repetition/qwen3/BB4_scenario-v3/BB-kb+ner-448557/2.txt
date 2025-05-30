@@ -1,0 +1,52 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "respiratory syncytial virus"
+    },
+    {
+      "type": "Microbe",
+      "name": "parainfluenza virus types 1 and 3"
+    },
+    {
+      "type": "Microbe",
+      "name": "adenoviruses"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycoplasma pneumoniae"
+    },
+    {
+      "type": "Habitat",
+      "name": "children"
+    },
+    {
+      "type": "Geographical location",
+      "name": "a pediatric practice"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "respiratory syncytial virus",
+      "target": "children"
+    },
+    {
+      "type": "Isolated from",
+      "source": "parainfluenza virus types 1 and 3",
+      "target": "children"
+    },
+    {
+      "type": "Isolated from",
+      "source": "adenoviruses",
+      "target": "children"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycoplasma pneumoniae",
+      "target": "children"
+    }
+  ]
+}
+```

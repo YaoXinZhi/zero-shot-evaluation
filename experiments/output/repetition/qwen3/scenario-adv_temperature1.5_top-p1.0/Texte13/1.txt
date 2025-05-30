@@ -1,0 +1,168 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Fall Armyworm"},
+      {"type": "Pest", "name": "Spodoptera frugiperda"},
+      {"type": "Plant", "name": "maize crops"},
+      {"type": "Geographic", "name": "Kenya"},
+      {"type": "Disease", "name": "maize lethal necrosis"},
+      {"type": "Plant", "name": "maize plants"},
+      {"type": "Vector", "name": "corn leafhopper"},
+      {"type": "Vector", "name": "Dalbulus maidis"},
+      {"type": "Geographic", "name": "South America"},
+      
+      {"type": "Geographic", "name": "Britain"},
+      {"type": "Geographic", "name": "Western Europe"},
+      {"type": "Geographic", "name": "Uzbekistan"},
+      {"type": "Geographic", "name": "Turkey"},
+      {"type": "Geographic", "name": "neighboring regions"},
+      {"type": "Geographic", "name": "Mediterranean Basin"},
+      {"type": "Geographic", "name": "Middle East"},
+      
+      {"type": "Pest", "name": "Cacopsylla pyrisuga"},
+      {"type": "Pest", "name": "Cacopsylla pyri"},
+      {"type": "Pest", "name": "Cacopsylla pyricola"},
+      {"type": "Pest", "name": "Cacopsylla fera"},
+      {"type": "Pest", "name": "Cacopsylla bidens"},
+      {"type": "Pest", "name": "Cacopsylla notata"},
+
+      {"type": "Plant", "name": "European pear"},
+      {"type": "Plant", "name": "P. communis"},
+      {"type": "Plant", "name": "Pyrus spinosa Forsskål"},
+      {"type": "Plant", "name": "wild pear"},
+      {"type": "Plant", "name": "Pryus korshinskyi Litvinov"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Fall Armyworm", "type": "Located in", "target": "Kenya"},
+      {"source": "Spodoptera frugiperda", "type": "Have been found on", "trget": "maize crops"},
+      {"source": "Spodoptera frugiperda", "type": "Causes", "target": "maize lethal necrosis"},
+      {"source": "maize lethal necrosis", "type": "Affects", "target": "maize plants"},
+      {"source": "corn leafhopper", "type": "Transmit", "target": "Spodoptera frugiperda"},
+      {"source": "Dalbulus maidis", "type": "Transmit", "target": "Spodoptera frugiperda"},
+      {"source": "corn leafhopper", "type": "Located in", "target": "South America"},
+      {"source": "Dalbulus maidis", "type": "Located in", "target": "South America"},
+      
+      {"source": "Cacopsylla pyrisuga", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyrisuga", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla pyridisuga", "?ypr"    :
+
+"Invalid \udcc0 surrogate pair: position 2578 (line 6, column 215)"
+
+},
+
+{
+    "relaitonships" : []   
+} 
+]   },
+
+
+{   }
+
+
+
+
+
+  
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]
+
+t": "Britain"},
+      {"source": "Cacopsylla pyri", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyricola", "type": "Located in", "target": "Britain"},
+      {"source": "Cacopsylla pyrisuga", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla pyri", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla pyricola", "type": "Located in", "target": "Western Europe"},
+      {"source": "Cacopsylla fera", "type": "Located in", "target": "Uzbekistan"},
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "Turkey"},
+      {"source": "Cacopsylla fera", "type": "Located in", "target": "neighboring regions"},
+      {"source": "Cacopsylla bidens", "type": "Located in", "target": "Mediterranean Basin"},
+      {"source": "Cacopsylla pyrisuga", "type": "Located in", "target": "Mediterranean Basin"},
+      {"source": "CacOpsylla bidens", "type": "Located in", "target": "Middle East"},
+      {"source": "C. bidens", "type": "Located in", "target": "Middle East"},
+
+      {"source": "maize lethal necrosis", "type": "Affects", "target": "maize plants"},
+      {"source": "European pear", "type": "Have been found on", "target": "species in this group"},
+      {"source": "Cacopsylla notata", "type": "Have been found on", "target": "European pear"},
+      {"source": "Flor", "type": "Have been found on", "target": "European pear"},
+      {"source": "Cacopsylla fera", "type": "Have been found on", "target": "European pear"},
+      {"source": "Pyrus spinosa Forsskål", "type": "Have been found on", "target": "Cacopsylla notata"},
+      {"source": "Burckhardt and Hodkinson", "type": "Causes", "target": "damage to European Pears"},
+      {"source": "Cho et al.", "type": "Causes", "target": "damage to European Pears"},
+      {"source": "Pyrus korshinskyi Litvinov", "type": "Have been found on", "target": "Pyroleucopaea"},
+      {"source": "Cho et al.", "type": "Transmits pests to", "target": "Pome fruits like pears (Pyrus)"},
+      {"source": "Akbar et al", "type": "Transmits pests to", "target": "Fruits including apples, citrus and cherry trees, etc."},
+      {"source": "Fig", "type": "Related reference for distribution data with", "target": "Pomme"}
+    ]
+  }
+]
+

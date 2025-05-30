@@ -1,0 +1,105 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mtb"
+    },
+    {
+      "type": "Microbe",
+      "name": "human blood monocyte-derived DCs"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phagocytosis of apoptotic cells and associated vesicles"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "efferocytosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cross-presentation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antigen-specific CD8+ T cell response"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "immune evasion"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "apoptotic cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "DCs"
+    },
+    {
+      "type": "Habitat",
+      "name": "human blood"
+    },
+    {
+      "type": "Microbe",
+      "name": "annexin1-deficient mice"
+    },
+    {
+      "type": "Microbe",
+      "name": "annexin1"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium tuberculosis",
+      "target": "immune evasion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DCs",
+      "target": "phagocytosis of apoptotic cells and associated vesicles"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DCs",
+      "target": "efferocytosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "DCs",
+      "target": "cross-presentation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "human blood monocyte-derived DCs",
+      "target": "downregulation of annexin1"
+    },
+    {
+      "type": "Isolated from",
+      "source": "human blood monocyte-derived DCs",
+      "target": "human blood"
+    },
+    {
+      "type": "Exhibits",
+      "source": "annexin1-deficient mice",
+      "target": "impaired antigen-specific CD8+ T cell response"
+    },
+    {
+      "type": "Exhibits",
+      "source": "annexin1",
+      "target": "mediates efferocytosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "annexin1",
+      "target": "enhances antigen-presenting machinery"
+    }
+  ]
+}
+```

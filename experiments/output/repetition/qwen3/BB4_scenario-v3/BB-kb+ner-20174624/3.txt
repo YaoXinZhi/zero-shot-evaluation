@@ -1,0 +1,213 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Yersinia"
+    },
+    {
+      "type": "Microbe",
+      "name": "Yersinia outer protein YopJ"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. pestis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. pseudotuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. enterocolitica"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. pestis strain KIM6"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. pestis strain KIM5"
+    },
+    {
+      "type": "Microbe",
+      "name": "human monocyte-derived macrophages (HMDM)"
+    },
+    {
+      "type": "Microbe",
+      "name": "neutrophils"
+    },
+    {
+      "type": "Microbe",
+      "name": "polymorphonuclear leukocytes (neutrophils or PMNs)"
+    },
+    {
+      "type": "Microbe",
+      "name": "macrophages"
+    },
+    {
+      "type": "Microbe",
+      "name": "dendritic cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "apoptosis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ROS-mediated cell death"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "caspase activation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "release of LDH"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "loss of membrane integrity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "surface exposure of phosphatidylserine (PS)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cell death"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "reactive oxygen species (ROS) production"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phagocytic interaction"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "phosphatidylserine exposure"
+    },
+    {
+      "type": "Habitat",
+      "name": "human innate immune system"
+    },
+    {
+      "type": "Habitat",
+      "name": "human monocyte-derived macrophages"
+    },
+    {
+      "type": "Geographical location",
+      "name": "human"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Yersinia",
+      "target": "YopJ/P-induced apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia",
+      "target": "ROS-mediated cell death"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia outer protein YopJ",
+      "target": "apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia outer protein YopJ",
+      "target": "apoptosis in murine macrophages"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia outer protein YopJ",
+      "target": "apoptosis in dendritic cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia outer protein YopP",
+      "target": "apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia outer protein YopP",
+      "target": "apoptosis in murine macrophages"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yersinia outer protein YopP",
+      "target": "apoptosis in dendritic cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "human monocyte-derived macrophages (HMDM)",
+      "target": "apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "resistance to YopJ/P-induced apoptosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "protection from ROS-mediated cell death"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. pestis strain KIM6",
+      "target": "increased surface exposure of phosphatidylserine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. pestis strain KIM6",
+      "target": "cell death"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "reactive oxygen species (ROS) production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. pestis strain KIM6",
+      "target": "inhibition of PMN ROS production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. pestis strain KIM5",
+      "target": "inhibition of PMN ROS production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "phagocytic interaction"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophils",
+      "target": "reduction of PMN cell death"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yersinia",
+      "target": "human innate immune system"
+    },
+    {
+      "type": "Isolated from",
+      "source": "human monocyte-derived macrophages (HMDM)",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "neutrophils",
+      "target": "human"
+    }
+  ]
+}
+```

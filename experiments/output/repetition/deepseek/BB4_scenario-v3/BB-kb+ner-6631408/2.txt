@@ -1,0 +1,110 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. psittaci"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "clinical syndrome"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "host origin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for addition of histidine to the medium"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for the addition of tryptophan to the medium"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "no requirement for tryptophan or methionine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "requirement for methionine"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "distinct patterns of amino acid requirements"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "required the addition of valine to medium"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "required leucine, phenylalanine and also glutamine"
+    },
+    {
+      "type": "Habitat",
+      "name": "McCoy cells"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "McCoy cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. psittaci",
+      "target": "McCoy cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "clinical syndrome"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. psittaci",
+      "target": "host origin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "requirement for addition of histidine to the medium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "requirement for the addition of tryptophan to the medium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "no requirement for tryptophan or methionine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "requirement for methionine"
+    },
+    {
+      "type": "Exhibits",
+      "source": "C. psittaci",
+      "target": "distinct patterns of amino acid requirements"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "required the addition of valine to medium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "required leucine, phenylalanine and also glutamine"
+    }
+  ]
+}
+

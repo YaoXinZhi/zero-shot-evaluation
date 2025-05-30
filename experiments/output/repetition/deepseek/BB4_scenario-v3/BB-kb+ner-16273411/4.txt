@@ -1,0 +1,74 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Klebsiella pneumonia"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "infection"
+    },
+    {
+      "type": "Habitat",
+      "name": "humans"
+    },
+    {
+      "type": "Habitat",
+      "name": "animals"
+    },
+    {
+      "type": "Habitat",
+      "name": "placenta"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "early pregnancy loss"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "neonatal deaths"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "recurrent pregnancy loss"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Klebsiella pneumonia",
+      "target": "humans"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Klebsiella pneumonia",
+      "target": "animals"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Klebsiella pneumonia",
+      "target": "placenta"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Klebsiella pneumonia",
+      "target": "infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Klebsiella pneumonia",
+      "target": "early pregnancy loss"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Klebsiella pneumonia",
+      "target": "neonatal deaths"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Klebsiella pneumonia",
+      "target": "recurrent pregnancy loss"
+    }
+  ]
+}
+

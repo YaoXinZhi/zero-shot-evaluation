@@ -1,0 +1,128 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudosciaena crocea"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio parahaemolyticus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "activation of nuclear factor-kappaB"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "interleukin-1 receptor-induced activation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Toll-like receptor-induced activation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "broad expression"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "highest expression"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "weakest expression"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "expression after challenge"
+    },
+    {
+      "type": "Habitat",
+      "name": "blood"
+    },
+    {
+      "type": "Habitat",
+      "name": "spleen"
+    },
+    {
+      "type": "Habitat",
+      "name": "liver"
+    },
+    {
+      "type": "Habitat",
+      "name": "muscle"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "death domain"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Toll/IL-1R domain structure"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Myeloid differentiation factor 88",
+      "target": "activation of nuclear factor-kappaB"
+    },
+    {
+      "type": "Exhibits",
+      "source": "interleukin-1 receptor",
+      "target": "activation of nuclear factor-kappaB"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Toll-like receptor",
+      "target": "activation of nuclear factor-kappaB"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "death domain"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "Toll/IL-1R domain structure"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "broad expression"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "highest expression"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "weakest expression"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MyD88",
+      "target": "expression after challenge"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio parahaemolyticus",
+      "target": "blood"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio parahaemolyticus",
+      "target": "spleen"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio parahaemolyticus",
+      "target": "liver"
+    }
+  ]
+}
+```

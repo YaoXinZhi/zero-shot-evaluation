@@ -1,0 +1,29 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Serratia"
+    },
+    {
+      "type": "Habitat",
+      "name": "Hospital S. Camillo De Lellis"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Roma"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Italy"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Serratia",
+      "target": "Hospital S. Camillo De Lellis"
+    }
+  ]
+}
+```

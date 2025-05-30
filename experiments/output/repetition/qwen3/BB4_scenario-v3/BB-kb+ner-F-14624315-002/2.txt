@@ -1,0 +1,39 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Corynebacterium ammoniagenes B1506"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactococcus lactis B1157"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce considerable amounts of 3-methylbutanal and 3-methylbutanol"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "lacked this ability"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Corynebacterium ammoniagenes B1506",
+      "target": "produce considerable amounts of 3-methylbutanal and 3-methylbutanol"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactococcus lactis B1157",
+      "target": "produce considerable amounts of 3-methylbutanal and 3-methylbutanol"
+    },
+    {
+      "type": "Exhibits",
+      "source": "all other strains tested, including those closely related to the two above",
+      "target": "lacked this ability"
+    }
+  ]
+}
+```

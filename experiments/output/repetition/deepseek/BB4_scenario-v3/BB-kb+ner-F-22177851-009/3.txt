@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "P. celer"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. variabile/C. casei"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese ecosystem"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "P. celer",
+      "target": "cheese ecosystem"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. variabile/C. casei",
+      "target": "cheese ecosystem"
+    }
+  ]
+}
+

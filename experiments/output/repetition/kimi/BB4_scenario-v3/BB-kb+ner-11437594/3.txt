@@ -1,0 +1,74 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pichia pastoris"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Saccharomyces cerevisiae"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "hexose oxidase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "growth physiological"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "genetic"
+    },
+    {
+      "type": "Habitat",
+      "name": "red alga Chondrus crispus"
+    },
+    {
+      "type": "Habitat",
+      "name": "extracellular compartment"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "hexose oxidase",
+      "target": "red alga Chondrus crispus"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pichia pastoris",
+      "target": "growth physiological"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pichia pastoris",
+      "target": "genetic"
+    },
+    {
+      "type": "Isolated from",
+      "source": "hexose oxidase",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Isolated from",
+      "source": "hexose oxidase",
+      "target": "Pichia pastoris"
+    },
+    {
+      "type": "Exhibits",
+      "source": "hexose oxidase",
+      "target": "proteolytic cleavage"
+    },
+    {
+      "type": "Isolated from",
+      "source": "hexose oxidase",
+      "target": "extracellular compartment"
+    }
+  ]
+}
+

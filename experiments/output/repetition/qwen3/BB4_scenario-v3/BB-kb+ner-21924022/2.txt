@@ -1,0 +1,114 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "H.pylori"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "infection"
+    },
+    {
+      "type": "Habitat",
+      "name": "digestive system"
+    },
+    {
+      "type": "Geographical location",
+      "name": "children"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "digestive system symptoms"
+    },
+    {
+      "type": "Microbe",
+      "name": "cytotoxin associated gene A protein (CagA)"
+    },
+    {
+      "type": "Microbe",
+      "name": "vacuolating toxin A (VacA)"
+    },
+    {
+      "type": "Microbe",
+      "name": "urease"
+    },
+    {
+      "type": "Microbe",
+      "name": "heat shock protein 60 (Hsp60)"
+    },
+    {
+      "type": "Microbe",
+      "name": "RdxA (nitroreductase)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibody detection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "positive predictive value"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "negative predictive value"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "digestive system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "infection"
+    },
+    {
+      "type": "Isolated from",
+      "source": "cytotoxin associated gene A protein (CagA)",
+      "target": "Helicobacter pylori"
+    },
+    {
+      "type": "Isolated from",
+      "source": "vacuolating toxin A (VacA)",
+      "target": "Helicobacter pylori"
+    },
+    {
+      "type": "Isolated from",
+      "source": "urease",
+      "target": "Helicobacter pylori"
+    },
+    {
+      "type": "Isolated from",
+      "source": "heat shock protein 60 (Hsp60)",
+      "target": "Helicobacter pylori"
+    },
+    {
+      "type": "Isolated from",
+      "source": "RdxA (nitroreductase)",
+      "target": "Helicobacter pylori"
+    },
+    {
+      "type": "Exhibits",
+      "source": "children",
+      "target": "digestive system symptoms"
+    },
+    {
+      "type": "Exhibits",
+      "source": "antibody detection",
+      "target": "positive predictive value"
+    },
+    {
+      "type": "Exhibits",
+      "source": "antibody detection",
+      "target": "negative predictive value"
+    }
+  ]
+}
+```

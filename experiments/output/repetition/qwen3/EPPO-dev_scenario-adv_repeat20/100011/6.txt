@@ -1,0 +1,44 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Japanese beetle"},
+      {"type": "Pest", "name": "Popillia japonica"},
+      {"type": "Vector", "name": "Japanese beetle"},
+      {"type": "Geographic", "name": "Freiburg"},
+      {"type": "Geographic", "name": "Baden-Württemberg"},
+      {"type": "Geographic", "name": "northern Italy"},
+      {"type": "Geographic", "name": "Asia"},
+      {"type": "Geographic", "name": "Europe"},
+      {"type": "Plant", "name": "flowers"},
+      {"type": "Plant", "name": "leaves"},
+      {"type": "Plant", "name": "fruits"},
+      {"type": "Plant", "name": "roots"},
+      {"type": "Disease", "name": "damage"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Japanese beetle", "type": "Located in", "target": "Freiburg"},
+      {"source": "Popillia japonica", "type": "Located in", "target": "Freiburg"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "flowers"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "leaves"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "fruits"},
+      {"source": "Japanese beetle", "type": "Have been found on", "target": "roots"},
+      {"source": "Japanese beetle", "type": "Transmit", "target": "Popillia japonica"},
+      {"source": "Japanese beetle", "type": "Causes", "target": "damage"},
+      {"source": "damage", "type": "Affects", "target": "flowers"},
+      {"source": "damage", "type": "Affects", "target": "leaves"},
+      {"source": "damage", "type": "Affects", "target": "fruits"},
+      {"source": "damage", "type": "Affects", "target": "roots"},
+      {"source": "Popillia japonica", "type": "Located in", "target": "Baden-Württemberg"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Baden-Württemberg"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "northern Italy"},
+      {"source": "Popillia japonica", "type": "Located in", "target": "northern Italy"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Asia"},
+      {"source": "Popillia japonica", "type": "Located in", "target": "Asia"},
+      {"source": "Japanese beetle", "type": "Located in", "target": "Europe"},
+      {"source": "Popillia japonica", "type": "Located in", "target": "Europe"}
+    ]
+  }
+]
+

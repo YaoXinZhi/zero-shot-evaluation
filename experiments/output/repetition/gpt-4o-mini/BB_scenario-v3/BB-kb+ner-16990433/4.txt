@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157"
+    },
+    {
+      "type": "Microbe",
+      "name": "enterohemorrhagic E. coli (EHEC) O157:H7"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "type III secretion"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "effector proteins"
+    },
+    {
+      "type": "Microbe",
+      "name": "Shigella"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "NleG family"
+    },
+    {
+      "type": "Microbe",
+      "name": "lambdoid phages"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "exchangeable effector loci"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157",
+      "target": "type III secretion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157",
+      "target": "effector proteins"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterohemorrhagic E. coli (EHEC) O157:H7",
+      "target": "lambdoid phages"
+    },
+    {
+      "type": "Exhibits",
+      "source": "enterohemorrhagic E. coli (EHEC) O157:H7",
+      "target": "NleG family"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Shigella",
+      "target": "effector proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "enterohemorrhagic E. coli (EHEC) O157:H7",
+      "target": "exchangeable effector loci"
+    }
+  ]
+}
+

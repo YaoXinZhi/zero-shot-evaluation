@@ -1,0 +1,164 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "methicillin-resistant Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "MRSA"
+    },
+    {
+      "type": "Habitat",
+      "name": "nursing home"
+    },
+    {
+      "type": "Habitat",
+      "name": "skilled nursing facility"
+    },
+    {
+      "type": "Habitat",
+      "name": "SNF"
+    },
+    {
+      "type": "Habitat",
+      "name": "community SNF"
+    },
+    {
+      "type": "Habitat",
+      "name": "patients"
+    },
+    {
+      "type": "Habitat",
+      "name": "newly admitted patients"
+    },
+    {
+      "type": "Habitat",
+      "name": "nasal"
+    },
+    {
+      "type": "Habitat",
+      "name": "stool"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "methicillin-resistant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibiogram"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "disk-diffusion method"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "genotype"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "field-inversion gel electrophoresis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "restriction endonuclease digestion"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "REA"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "FIGE REA"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "patients"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "nursing home"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "skilled nursing facility"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "SNF"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "community SNF"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "nasal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "stool"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "newly admitted patients"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus",
+      "target": "methicillin-resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "antibiogram"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "disk-diffusion method"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "genotype"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "field-inversion gel electrophoresis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "restriction endonuclease digestion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "REA"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "FIGE REA"
+    }
+  ]
+}
+```

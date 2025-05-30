@@ -1,0 +1,104 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Haemophilus influenzae type B"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Ampicillin-resistant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "TEM-type beta-lactamase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "little permeability barrier to ampicillin"
+    },
+    {
+      "type": "Geographical location",
+      "name": "U.S."
+    },
+    {
+      "type": "Geographical location",
+      "name": "Germany"
+    },
+    {
+      "type": "Microbe",
+      "name": "gram-negative bacilli"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. influenzae"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "very little barrier to entry of penicillins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "greater permeability of the H. influenzae cell to penicillins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "protective effect of its beta-lactamase"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "unusually low level of resistance of individual cells of H. influenzae containing the TEM-type beta-lactamase"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae type B",
+      "target": "Ampicillin-resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae type B",
+      "target": "TEM-type beta-lactamase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae type B",
+      "target": "little permeability barrier to ampicillin"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Haemophilus influenzae type B",
+      "target": "U.S."
+    },
+    {
+      "type": "Isolated from",
+      "source": "Haemophilus influenzae type B",
+      "target": "Germany"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. influenzae",
+      "target": "very little barrier to entry of penicillins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. influenzae",
+      "target": "greater permeability of the H. influenzae cell to penicillins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. influenzae",
+      "target": "protective effect of its beta-lactamase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. influenzae",
+      "target": "unusually low level of resistance of individual cells of H. influenzae containing the TEM-type beta-lactamase"
+    }
+  ]
+}
+

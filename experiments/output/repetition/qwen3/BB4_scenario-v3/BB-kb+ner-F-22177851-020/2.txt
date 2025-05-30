@@ -1,0 +1,34 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Habitat",
+      "name": "Livarot cheese"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Spain"
+    },
+    {
+      "type": "Habitat",
+      "name": "farmhouse cheese"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "Livarot cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "farmhouse cheese"
+    }
+  ]
+}
+```

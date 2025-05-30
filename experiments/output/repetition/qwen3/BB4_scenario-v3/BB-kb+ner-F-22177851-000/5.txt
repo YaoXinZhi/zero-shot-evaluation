@@ -1,0 +1,34 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter celer"
+    },
+    {
+      "type": "Microbe",
+      "name": "Hafnia alvei"
+    },
+    {
+      "type": "Habitat",
+      "name": "experimental smear soft cheese"
+    },
+    {
+      "type": "Microbial community",
+      "name": "whole microbial community"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter celer",
+      "target": "experimental smear soft cheese"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Hafnia alvei",
+      "target": "experimental smear soft cheese"
+    }
+  ]
+}
+```

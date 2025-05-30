@@ -1,0 +1,46 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis H37Rv"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "putative aminoglycoside phosphotransferase (APH)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibiotic resistance"
+    },
+    {
+      "type": "Habitat",
+      "name": "human population"
+    },
+    {
+      "type": "Geographical location",
+      "name": "widespread"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Rv3168",
+      "target": "Mycobacterium tuberculosis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Mycobacterium tuberculosis",
+      "target": "antibiotic resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Rv3168",
+      "target": "putative aminoglycoside phosphotransferase (APH)"
+    }
+  ]
+}
+

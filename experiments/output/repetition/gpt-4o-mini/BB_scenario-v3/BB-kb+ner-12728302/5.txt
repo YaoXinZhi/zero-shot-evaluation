@@ -1,0 +1,70 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Anabaena sp. strain L-31"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "thermotolerance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "heat-shock response"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "heat-shock proteins"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "GroEL proteins"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "nitrogenase activity"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Anabaena sp. strain L-31",
+      "target": "thermotolerance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Anabaena sp. strain L-31",
+      "target": "heat-shock response"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Anabaena sp. strain L-31",
+      "target": "heat-shock proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Anabaena sp. strain L-31",
+      "target": "GroEL proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Anabaena sp. strain L-31",
+      "target": "nitrogenase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "heat-shock response"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "heat-shock proteins"
+    }
+  ]
+}
+

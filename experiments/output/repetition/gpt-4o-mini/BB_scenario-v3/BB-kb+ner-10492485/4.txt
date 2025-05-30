@@ -1,0 +1,175 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "molds"
+    },
+    {
+      "type": "Microbe",
+      "name": "yeasts"
+    },
+    {
+      "type": "Microbe",
+      "name": "parasites"
+    },
+    {
+      "type": "Microbe",
+      "name": "viruses"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "susceptibility to ozone"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "physiological state of the culture"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "pH of the medium"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "temperature"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "humidity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "presence of additives"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "discoloration"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "deterioration of food flavor"
+    },
+    {
+      "type": "Habitat",
+      "name": "food products"
+    },
+    {
+      "type": "Habitat",
+      "name": "product surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "water"
+    },
+    {
+      "type": "Geographical location",
+      "name": "United States"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "bacteria",
+      "target": "susceptibility to ozone"
+    },
+    {
+      "type": "Exhibits",
+      "source": "molds",
+      "target": "susceptibility to ozone"
+    },
+    {
+      "type": "Exhibits",
+      "source": "yeasts",
+      "target": "susceptibility to ozone"
+    },
+    {
+      "type": "Exhibits",
+      "source": "parasites",
+      "target": "susceptibility to ozone"
+    },
+    {
+      "type": "Exhibits",
+      "source": "viruses",
+      "target": "susceptibility to ozone"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "food products"
+    },
+    {
+      "type": "Isolated from",
+      "source": "molds",
+      "target": "food products"
+    },
+    {
+      "type": "Isolated from",
+      "source": "yeasts",
+      "target": "food products"
+    },
+    {
+      "type": "Isolated from",
+      "source": "parasites",
+      "target": "food products"
+    },
+    {
+      "type": "Isolated from",
+      "source": "viruses",
+      "target": "food products"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "product surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "molds",
+      "target": "product surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "yeasts",
+      "target": "product surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "parasites",
+      "target": "product surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "viruses",
+      "target": "product surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bacteria",
+      "target": "water"
+    },
+    {
+      "type": "Isolated from",
+      "source": "molds",
+      "target": "water"
+    },
+    {
+      "type": "Isolated from",
+      "source": "yeasts",
+      "target": "water"
+    },
+    {
+      "type": "Isolated from",
+      "source": "parasites",
+      "target": "water"
+    },
+    {
+      "type": "Isolated from",
+      "source": "viruses",
+      "target": "water"
+    }
+  ]
+}
+

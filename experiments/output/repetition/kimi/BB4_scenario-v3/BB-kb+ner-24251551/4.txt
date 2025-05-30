@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Haemophilus influenzae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "peptidoglycan recycling pathway"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cofactor-independent cleavage"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "peptidoglycan layer"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "N-acetylmuramic acid (MurNAc) recycling"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "MurNAc 6-phosphate hydrolase (MurQ)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "catalysis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "substrate binding and ring opening"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "one-base mechanism of action"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "MurNAc 6-phosphate hydrolase (MurQ)",
+      "target": "Haemophilus influenzae"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MurNAc 6P hydrolase",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae",
+      "target": "MurNAc 6-phosphate hydrolase (MurQ)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "MurNAc 6P hydrolase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurNAc 6-phosphate hydrolase (MurQ)",
+      "target": "cofactor-independent cleavage"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurNAc 6P hydrolase",
+      "target": "catalysis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurNAc 6P hydrolase",
+      "target": "substrate binding and ring opening"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurNAc 6-phosphate hydrolase (MurQ)",
+      "target": "one-base mechanism of action"
+    }
+  ]
+}
+

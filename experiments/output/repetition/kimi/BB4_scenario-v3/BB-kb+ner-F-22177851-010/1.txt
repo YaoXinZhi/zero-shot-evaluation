@@ -1,0 +1,29 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "A. arilaitensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. celer"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surface"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "A. arilaitensis",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "P. celer",
+      "target": "cheese surface"
+    }
+  ]
+}
+

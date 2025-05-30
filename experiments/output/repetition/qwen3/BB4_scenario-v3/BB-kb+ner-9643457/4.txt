@@ -1,0 +1,51 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "neutrophil alkaline phosphatase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Gram-negative bacterial infections"
+    },
+    {
+      "type": "Habitat",
+      "name": "cattle"
+    },
+    {
+      "type": "Habitat",
+      "name": "cows"
+    },
+    {
+      "type": "Geographical location",
+      "name": "cattle"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "cattle"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "Gram-negative bacterial infections"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cows",
+      "target": "neutrophil alkaline phosphatase activity"
+    }
+  ]
+}
+```

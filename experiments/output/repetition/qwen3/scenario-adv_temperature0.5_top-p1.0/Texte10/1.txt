@@ -1,0 +1,36 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Plant", "name": "crops"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "global"},
+      {"type": "Geographic", "name": "United Nations"},
+      {"type": "Geographic", "name": "Food and Agriculture Organization"},
+      {"type": "Geographic", "name": "world"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Midlands", "type": "Located in", "target": "Aston University"},
+      {"source": "Midlands", "type": "Located in", "target": "Harper Adams University"},
+      {"source": "strawberries", "type": "Have been found on", "target": "potato aphid"},
+      {"source": "plant diseases", "type": "Have been found on", "target": "crops"},
+      {"source": "potato aphid", "type": "Affects", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Affects", "target": "crops"},
+      {"source": "global", "type": "Located in", "target": "Food and Agriculture Organization"},
+      {"source": "Food and Agriculture Organization", "type": "Located in", "target": "United Nations"},
+      {"source": "global", "type": "Located in", "target": "Integrated Pest Management"},
+      {"source": "world", "type": "Located in", "target": "population"}
+    ]
+  }
+]
+
+   {"source": "Harper Adams University", "type": "Located in", "target": "Midlands"}
+    ]
+  }
+]
+

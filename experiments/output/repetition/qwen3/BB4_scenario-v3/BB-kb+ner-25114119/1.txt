@@ -1,0 +1,178 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Coxiella burnetii"
+    },
+    {
+      "type": "Microbe",
+      "name": "SCID mice"
+    },
+    {
+      "type": "Microbe",
+      "name": "macrophages"
+    },
+    {
+      "type": "Microbe",
+      "name": "human macrophages"
+    },
+    {
+      "type": "Microbe",
+      "name": "monoclonal antibody"
+    },
+    {
+      "type": "Microbe",
+      "name": "1E4"
+    },
+    {
+      "type": "Microbe",
+      "name": "Fab fragment of 1E4"
+    },
+    {
+      "type": "Microbe",
+      "name": "Fab1E4"
+    },
+    {
+      "type": "Microbe",
+      "name": "recombinant murine single-chain variable fragment"
+    },
+    {
+      "type": "Microbe",
+      "name": "muscFv1E4"
+    },
+    {
+      "type": "Microbe",
+      "name": "humanized single-chain variable fragment"
+    },
+    {
+      "type": "Microbe",
+      "name": "huscFv1E4"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibited infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "protection"
+      },
+    {
+      "type": "Physiological trait",
+      "name": "natural infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "aerosol infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inhibit infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "block infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "neutralize infection"
+    },
+    {
+      "type": "Habitat",
+      "name": "mice"
+    },
+    {
+      "type": "Habitat",
+      "name": "SCID mice"
+    },
+    {
+      "type": "Habitat",
+      "name": "macrophages"
+    },
+    {
+      "type": "Habitat",
+      "name": "human macrophages"
+    },
+    {
+      "type": "Geographical location",
+      "name": "human"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "mice"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "SCID mice"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "macrophages"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Coxiella burnetii",
+      "target": "human macrophages"
+    },
+    {
+      "type": "Exhibits",
+      "source": "monoclonal antibody",
+      "target": "inhibit infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "1E4",
+      "target": "inhibit infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Fab1E4",
+      "target": "inhibit infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "muscFv1E4",
+      "target": "inhibit infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "huscFv1E4",
+      "target": "inhibit infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "1E4",
+      "target": "protection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Fab1E4",
+      "target": "block infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "muscFv1E4",
+      "target": "block infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "huscFv1E4",
+      "target": "block infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "huscFv1E4",
+      "target": "neutralize infection"
+    }
+  ]
+}
+```

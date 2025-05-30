@@ -1,0 +1,30 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Bactrocera dorsalis"},
+      {"type": "Plant", "name": "host plant"},
+      {"type": "Vector", "name": "Bactrocera dorsalis"},
+      {"type": "Pest", "name": "B. dorsalis"},
+      {"type": "Disease", "name": "chemosensation"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Bactrocera dorsalis", "type": "Have been found on", "target": "host plant"},
+      {"source": "B. dorsalis", "type": "Have been found on", "target": "host plant"},
+      {"source": "Bactrocera dorsalis", "type": "Transmit", "target": "chemosensation"}
+    ]
+  }
+]
+
+alis", "type": "Have been found on", "target": "host plant"},
+      {"source": "BdorOBP13", "type": "Have been found on", "target": "RNAi-injected flies"},
+      {"source": "methyl eugenol", "type": "Have been found on", "target": "RNAi-injected flies"},
+      {"source": "γ-octalactone", "type": "Have been found on", "target": "RNAi-injected flies"},
+      {"source": "benzothiazole", "type": "Have been found on", "target": "RNAi-injected flies"},
+      {"source": "(+),dipentene", "type": "Have been found on", "target": "RNAi-injected flies"},
+      {"source": "ethyl tiglate", "type": "Have been found on", "target": "RNAi-injected flies"}
+    ]
+  }
+]
+

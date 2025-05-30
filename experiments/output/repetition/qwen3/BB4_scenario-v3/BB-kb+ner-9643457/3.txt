@@ -1,0 +1,65 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "neutrophil alkaline phosphatase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "increase of neutrophil alkaline phosphatase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Gram-negative bacterial infection"
+    },
+    {
+      "type": "Habitat",
+      "name": "cattle"
+    },
+    {
+      "type": "Habitat",
+      "name": "udder"
+    },
+    {
+      "type": "Geographical location",
+      "name": "cows"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "udder"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "cattle"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "Gram-negative bacterial infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophil",
+      "target": "neutrophil alkaline phosphatase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "neutrophil",
+      "target": "increase of neutrophil alkaline phosphatase activity"
+    }
+  ]
+}
+```

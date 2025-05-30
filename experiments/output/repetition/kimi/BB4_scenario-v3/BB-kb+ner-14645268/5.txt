@@ -1,0 +1,136 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Xanthomonas avrBs3"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas syringae pv. maculicola"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "gram-negative"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "type III secretion system"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "pathogenicity"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Xanthomonas outer proteins"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "AvrRxv/YopJ family"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "transglycosylases"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "HopPmaG"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Sec signal"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "pathogenicity islands"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "62-bp inverted repeats"
+    },
+    {
+      "type": "Gene",
+      "name": "xopC"
+    },
+    {
+      "type": "Gene",
+      "name": "xopJ"
+    },
+    {
+      "type": "Gene",
+      "name": "hpaJ"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "type III secretion system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Xanthomonas campestris pv. vesicatoria",
+      "target": "pathogenicity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopC",
+      "target": "Xanthomonas outer proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopJ",
+      "target": "Xanthomonas outer proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopJ",
+      "target": "AvrRxv/YopJ family"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopC",
+      "target": "pathogenicity islands"
+    },
+    {
+      "type": "Exhibits",
+      "source": "XopC",
+      "target": "62-bp inverted repeats"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HpaJ",
+      "target": "transglycosylases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HpaJ",
+      "target": "Sec signal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "XopC",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Isolated from",
+      "source": "XopJ",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    },
+    {
+      "type": "Isolated from",
+      "source": "HpaJ",
+      "target": "Xanthomonas campestris pv. vesicatoria"
+    }
+  ]
+}
+

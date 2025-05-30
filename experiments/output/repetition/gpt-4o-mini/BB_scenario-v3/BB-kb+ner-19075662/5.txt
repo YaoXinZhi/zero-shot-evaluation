@@ -1,0 +1,43 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus epidermidis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "biofilm"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "biofilm development"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus epidermidis",
+      "target": "biofilm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "biofilm"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus epidermidis",
+      "target": "biofilm development"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus aureus",
+      "target": "biofilm development"
+    }
+  ]
+}
+

@@ -1,0 +1,31 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "flavescence dorée"},
+      {"type": "Disease", "name": "black wood disease"},
+      {"type": "Plant", "name": "Chardonnay vineyards"},
+      {"type": "Plant", "name": "Pinot Grigio vineyards"},
+      {"type": "Plant", "name": "vines"},
+      {"type": "Geographic", "name": "South Tyrol"},
+      {"type": "Geographic", "name": "Province"},
+      {"type": "Organisation", "name": "Consorzio Vini Alto Adige"},
+      {"type": "Organisation", "name": "Phytosanitary Service"},
+      {"type": "Organisation", "name": "Consultancy Center for Fruit Growing in South Tyrol"},
+      {"type": "Organisation", "name": "Laimburg Research Center"}
+      
+    ]
+    
+    },
+{
+        "relationships": [
+           {"source": "flavescence dorée", "type":"Affects","target" : "vines"},
+            {"source": "flavescence dorée", "type":"Located in", "target": "South Tyrol"},
+                     {"source": "flavescence dorée","type":"Causes","target" : "yellow-black tapes used in the mark symptonmic vines. "}
+            
+        ]
+}
+  
+  
+
+]
+

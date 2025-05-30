@@ -1,0 +1,172 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis Live Vaccine Strain"
+    },
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis ssp tularensis"
+    },
+    {
+      "type": "Microbe",
+      "name": "monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Microbe",
+      "name": "monocytes"
+    },
+    {
+      "type": "Microbe",
+      "name": "macrophages"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "surface expressed nucleolin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phagocytosed"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "binding"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "infection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "internalization"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "phagosomal escape"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "intra-cytosolic multiplication"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "elongation factor Tu"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "GTP-binding protein involved in protein translation"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "RGG domain of nucleolin"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "HB-19 pseudopeptide"
+    },
+    {
+      "type": "Habitat",
+      "name": "human monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Habitat",
+      "name": "infected monocytes"
+    },
+    {
+      "type": "Habitat",
+      "name": "bacterial membrane"
+    },
+    {
+      "type": "Geographical location",
+      "name": "human"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis",
+      "target": "human"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis Live Vaccine Strain",
+      "target": "human monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "elongation factor Tu",
+      "target": "bacterial membrane"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "phagocytosed"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis Live Vaccine Strain",
+      "target": "binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis Live Vaccine Strain",
+      "target": "infection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "monocyte-like THP-1 cells",
+      "target": "surface expressed nucleolin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HB-19 pseudopeptide",
+      "target": "binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "elongation factor Tu",
+      "target": "GTP-binding protein involved in protein translation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis Live Vaccine Strain",
+      "target": "internalization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis Live Vaccine Strain",
+      "target": "phagosomal escape"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis Live Vaccine Strain",
+      "target": "intra-cytosolic multiplication"
+    },
+    {
+      "type": "Exhibits",
+      "source": "elongation factor Tu",
+      "target": "surface expressed"
+    },
+    {
+      "type": "Exhibits",
+      "source": "nucleolin",
+      "target": "RGG domain"
+    },
+    {
+      "type": "Exhibits",
+      "source": "HB-19 pseudopeptide",
+      "target": "binding to carboxy-terminal RGG domain of nucleolin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "nucleolin",
+      "target": "interaction with elongation factor Tu"
+    }
+  ]
+}
+```

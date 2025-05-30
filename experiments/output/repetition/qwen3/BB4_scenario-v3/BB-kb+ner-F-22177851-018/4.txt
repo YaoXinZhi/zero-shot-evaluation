@@ -1,0 +1,115 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "P. phenylpyruvica"
+    },
+    {
+      "type": "Microbe",
+      "name": "Psychrobacter sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "P. celer"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of 3-methylbutanal"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of 3-methylbutanol"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of 2-pentanone"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of 2-heptanone"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of 2-nonanone"
+    },
+    {
+      "type": "Habitat",
+      "name": "cured meat model system"
+    },
+    {
+      "type": "Habitat",
+      "name": "model cheese"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheeses"
+    },
+    {
+      "type": "Habitat",
+      "name": "control cheeses"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Camembert"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "P. phenylpyruvica",
+      "target": "production of 3-methylbutanal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. phenylpyruvica",
+      "target": "production of 3-methylbutanol"
+    },
+    {
+      "type": "Isolated from",
+      "source": "P. phenylpyruvica",
+      "target": "cured meat model system"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter sp.",
+      "target": "production of 3-methylbutanal"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Psychrobacter sp.",
+      "target": "production of 3-methylbutanol"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Psychrobacter sp.",
+      "target": "model cheese"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "production of 2-pentanone"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "production of 2-heptanone"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "production of 2-nonanone"
+    },
+    {
+      "type": "Isolated from",
+      "source": "P. celer",
+      "target": "cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "P. celer",
+      "target": "control cheeses"
+    }
+  ]
+}
+```

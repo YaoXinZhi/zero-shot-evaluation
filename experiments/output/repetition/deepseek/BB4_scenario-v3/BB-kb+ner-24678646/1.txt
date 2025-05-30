@@ -1,0 +1,71 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "methicillin-resistant Staphylococcus aureus (MRSA)"
+    },
+    {
+      "type": "Microbe",
+      "name": "vancomycin-resistant Enterococcus (VRE)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "colonization"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "clearance of colonization"
+    },
+    {
+      "type": "Habitat",
+      "name": "patient care"
+    },
+    {
+      "type": "Habitat",
+      "name": "infection control policy"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus (MRSA)",
+      "target": "colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "vancomycin-resistant Enterococcus (VRE)",
+      "target": "colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "methicillin-resistant Staphylococcus aureus (MRSA)",
+      "target": "clearance of colonization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "vancomycin-resistant Enterococcus (VRE)",
+      "target": "clearance of colonization"
+    },
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus (MRSA)",
+      "target": "patient care"
+    },
+    {
+      "type": "Isolated from",
+      "source": "vancomycin-resistant Enterococcus (VRE)",
+      "target": "patient care"
+    },
+    {
+      "type": "Isolated from",
+      "source": "methicillin-resistant Staphylococcus aureus (MRSA)",
+      "target": "infection control policy"
+    },
+    {
+      "type": "Isolated from",
+      "source": "vancomycin-resistant Enterococcus (VRE)",
+      "target": "infection control policy"
+    }
+  ]
+}
+

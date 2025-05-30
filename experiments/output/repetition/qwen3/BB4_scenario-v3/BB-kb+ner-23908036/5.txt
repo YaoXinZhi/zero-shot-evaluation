@@ -1,0 +1,83 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. aeruginosa"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Gram-negative"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA3"
+    },
+    {
+      "type": "Microbe",
+      "name": "β-carbonic anhydrase psCA3"
+    },
+    {
+      "type": "Microbe",
+      "name": "β-CA psCA3"
+    },
+    {
+      "type": "Habitat",
+      "name": "crystal form A"
+    },
+    {
+      "type": "Habitat",
+      "name": "crystal form B"
+    },
+    {
+      "type": "Geographical location",
+      "name": "space group P212121"
+    },
+    {
+      "type": "Geographical location",
+      "name": "space group P21212"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "life-threatening infections"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "resistant to most clinically available antimicrobials"
+    },
+    {
+      "type": "Isolated from",
+      "source": "β-carbonic anhydrase psCA3",
+      "target": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "β-CA psCA3",
+      "target": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Isolated from",
+      "source": "β-CA psCA3",
+      "target": "crystal form A"
+    },
+    {
+      "type": "Isolated from",
+      "source": "β-CA psCA3",
+      "target": "crystal form B"
+    }
+  ]
+}
+```

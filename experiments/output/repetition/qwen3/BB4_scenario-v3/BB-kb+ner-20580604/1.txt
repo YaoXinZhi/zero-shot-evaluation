@@ -1,0 +1,88 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus casei strain Shirota"
+    },
+    {
+      "type": "Microbe",
+      "name": "bifidobacteria"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "defecation frequency"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "improved stool quality"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "lower water content of the stools"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "increased organic acid levels"
+    },
+    {
+      "type": "Habitat",
+      "name": "intestine"
+    },
+    {
+      "type": "Habitat",
+      "name": "stool"
+    },
+    {
+      "type": "Habitat",
+      "name": "fermented milk beverage"
+    },
+    {
+      "type": "Geographical location",
+      "name": "healthy individuals"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus casei strain Shirota",
+      "target": "fermented milk beverage"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus casei strain Shirota",
+      "target": "defecation frequency"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus casei strain Shirota",
+      "target": "improved stool quality"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus casei strain Shirota",
+      "target": "lower water content of the stools"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus casei strain Shirota",
+      "target": "increased organic acid levels"
+    },
+    {
+      "type": "Isolated from",
+      "source": "bifidobacteria",
+      "target": "stool"
+    },
+    {
+      "type": "Exhibits",
+      "source": "bifidobacteria",
+      "target": "increased organic acid levels"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus casei strain Shirota",
+      "target": "intestine"
+    }
+  ]
+}
+```

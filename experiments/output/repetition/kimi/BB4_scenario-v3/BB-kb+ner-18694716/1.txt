@@ -1,0 +1,73 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Methylobacterium extorquens AM1"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "metabolome quantification"
+    },
+    {
+      "type": "Habitat",
+      "name": "cell extracts"
+    },
+    {
+      "type": "Habitat",
+      "name": "intracellular"
+    },
+    {
+      "type": "Habitat",
+      "name": "growth on two different carbon sources"
+    },
+    {
+      "type": "Habitat",
+      "name": "growth on methanol"
+    },
+    {
+      "type": "Habitat",
+      "name": "growth on succinate"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "central metabolites"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "intracellular metabolite pool sizes"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Methylobacterium extorquens AM1",
+      "target": "cell extracts"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Methylobacterium extorquens AM1",
+      "target": "central metabolites"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Methylobacterium extorquens AM1",
+      "target": "growth on two different carbon sources"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Methylobacterium extorquens AM1",
+      "target": "growth on methanol"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Methylobacterium extorquens AM1",
+      "target": "growth on succinate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Methylobacterium extorquens AM1",
+      "target": "intracellular metabolite pool sizes"
+    }
+  ]
+}
+

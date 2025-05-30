@@ -1,0 +1,69 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Listeria sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Listeria monocytogenes"
+    },
+    {
+      "type": "Habitat",
+      "name": "chicken nugget processing plant"
+    },
+    {
+      "type": "Habitat",
+      "name": "product from different stages of processing"
+    },
+    {
+      "type": "Habitat",
+      "name": "different environments"
+    },
+    {
+      "type": "Habitat",
+      "name": "different food handlers"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "detection performances"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "efficiency"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Listeria sp.",
+      "target": "chicken nugget processing plant"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Listeria monocytogenes",
+      "target": "chicken nugget processing plant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Listeria sp.",
+      "target": "detection performances"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Listeria monocytogenes",
+      "target": "detection performances"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Listeria Rapid Test Clearview",
+      "target": "efficiency"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Bax system",
+      "target": "efficiency"
+    }
+  ]
+}
+

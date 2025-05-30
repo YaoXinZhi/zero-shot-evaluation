@@ -1,0 +1,58 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "Diaphorina citri. Kuwayama"},
+      {"type": "Vector", "name": "Diaphorina citri. Kuwayama"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "citrus greening"},
+      {"type": "Plant", "name": "citrus trees"},
+      {"type": "Plant", "name": "citrus plants"},
+      {"type": "Geographic", "name": "ARGENTINA"},
+      {"type": "Geographic", "name": "Province of CATAMARCA"},
+      {"type": "Geographic", "name": "Province of TUCUMÁN"},
+      {"type": "Geographic", "name": "Leales Department"},
+      {"type": "Geographic", "name": "Villa de Medinas"},
+      {"type": "Geographic", "name": "Chicligasta Department"},
+      {"type": "Geographic", "name": "Capayán Department"},
+      {"type": "Geographic", "name": "Provinces of JUJUY, SALTA, TUCUMÁN and CATAMARCA"},
+      {"type": "Geographic", "name": "Argentine Northeast region (NEA)"},
+      {"type": "Geographic", "name": "Northwest Argentina (NOA)"},
+      {"type": "Geographic", "name": "REPUBLIC OF ARGENTINA"},
+      {"type": "Geographic", "name": "COSAVE"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Diaphorina citri. Kuwayama", "type": "Transmit", "target": "HLB"},
+      {"source": "HLB", "type": "Causes", "target": "Huanglongbing"},
+      {"source": "Huanglongbing", "type": "Causes", "target": "citrus greening"},
+      {"source": "HLB", "type": "Causes", "target": "citrus greening"},
+      {"source": "citrus greening", "type": "Affects", "target": "citrus trees"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus trees"},
+      {"source": "HLB", "type": "Affects", "target": "citrus trees"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Have been found on", "target": "citrus trees"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Province of CATAMARCA"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Province of TUCUMÁN"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Leales Department"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Villa de Medinas"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Chicligasta Department"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Capayán Department"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "Provinces of JUJUY, SALTA, TUCUMÁN and CATAMARCA"},
+      {"source": "HLB", "type": "Located in", "target": "Argentine Northeast region (NEA)"},
+      {"source": "HLB", "type": "Located in", "target": "Northwest Argentina (NOA)"},
+      {"source": "citrus greening", "type": "Located in", "target": "Northwest Argentina (NOA)"},
+      {"source": "Huanglongbing", "type": "Located in", "target": "Northwest Argentina (NOA)"},
+      {"source": "citrus greening", "type": "Located in", "target": "ARGENTINA"},
+      {"source": "Huanglongbing", "type": "Located in", "target": "ARGENTINA"},
+      {"source": "HLB", "type": "Located in", "target": "ARGENTINA"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Located in", "target": "ARGENTINA"},
+      {"source": "citrus greening", "type": "Affects", "target": "citrus plants"},
+      {"source": "Huanglongbing", "type": "Affects", "target": "citrus plants"},
+      {"source": "HLB", "type": "Affects", "target": "citrus plants"},
+      {"source": "Diaphorina citri. Kuwayama", "type": "Have been found on", "target": "citrus plants"},
+      {"source": "citrus greening", "type": "Located in", "target": "COSAVE"}
+    ]
+  }
+]
+

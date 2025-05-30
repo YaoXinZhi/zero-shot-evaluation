@@ -1,0 +1,38 @@
+[
+  {
+    "entities": [
+      {"type": "Pest", "name": "potato aphid"},
+      {"type": "Plant", "name": "strawberries"},
+      {"type": "Plant", "name": "crops"},
+      {"type": "Disease", "name": "plant diseases"},
+      {"type": "Geographic", "name": "Midlands"},
+      {"type": "Geographic", "name": "UK"},
+      {"type": "Geographic", "name": "global"},
+      {"type": "Geographic", "name": "United Nations"},
+      {"type": "Geographic", "name": "Food and Agriculture Organization"},
+      {"type": "Geographic", "name": "world"},
+      {"type": "Geographic", "name": "Harper Adams University"},
+      {"type": "Geographic", "name": "Aston University"},
+      {"type": "Geographic", "name": "Aston Institute of Photonic Technologies"},
+      {"type": "Geographic", "name": "Biotechnology and Biological Sciences Research Council"},
+      {"type": "Geographic", "name": "Natural Environment Research Council"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "potato aphid", "type": "Have been found on", "target": "strawberries"},
+      {"source": "plant diseases", "type": "Affects", "target": "crops"},
+      {"source": "plant diseases", "type": "Causes", "target": "crop losses"},
+      {"source": "potato aphid", "type": "Causes", "target": "crop losses"},
+      {"source": "strawberries", "type": "Located in", "target": "UK"},
+      {"source": "Experts", "type": "Located in", "target": "Midlands"},
+      {"source": "project", "type": "Located in", "target": "Midlands"},
+      {"source": "Food and Agriculture Organization", "type": "Located in", "target": "United Nations"},
+      {"source": "Biotechnology and Biological Sciences Research Council", "type": "Located in", "target": "UK"},
+      {"source": "Natural Environment Research Council", "type": "Located in", "target": "UK"},
+      {"source": "Aston Institute of Photonic Technologies", "type": "Located in", "target": "Aston University"},
+      {"source": "Harper Adams University", "type": "Located in", "target": "Midlands"}
+    ]
+  }
+]
+

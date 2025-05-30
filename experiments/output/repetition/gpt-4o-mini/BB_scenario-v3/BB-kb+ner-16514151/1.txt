@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "MerR"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Deinococcus radiodurans"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mer operon"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Hg(II) binding"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "MBD"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "metal-binding domain"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "MerR",
+      "target": "Hg(II) binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBD",
+      "target": "metal-binding domain"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MerR",
+      "target": "mer operon"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MBD",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MBD",
+      "target": "Deinococcus radiodurans"
+    }
+  ]
+}
+

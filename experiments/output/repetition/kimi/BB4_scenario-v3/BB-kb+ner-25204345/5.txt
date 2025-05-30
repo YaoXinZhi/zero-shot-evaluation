@@ -1,0 +1,104 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "lactic acid bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus"
+    },
+    {
+      "type": "Habitat",
+      "name": "natural fermented koumiss"
+    },
+    {
+      "type": "Habitat",
+      "name": "yoghurt"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "quinolone resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mutations in gyrA genes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mutations in parC genes"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus durans HZ28"
+    },
+    {
+      "type": "Microbe",
+      "name": "Enterococcus durans"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistance towards norfloxacin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistance towards ciprofloxacin"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "mutation patterns in GyrA and ParC genes"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "lactic acid bacteria",
+      "target": "natural fermented koumiss"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lactic acid bacteria",
+      "target": "yoghurt"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacteria",
+      "target": "quinolone resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Enterococcus durans HZ28",
+      "target": "mutations in gyrA genes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacteria",
+      "target": "mutations in gyrA genes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Enterococcus durans HZ28",
+      "target": "mutations in parC genes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacteria",
+      "target": "resistance towards norfloxacin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacteria",
+      "target": "resistance towards ciprofloxacin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lactic acid bacteria",
+      "target": "mutation patterns in GyrA and ParC genes"
+    }
+  ]
+}
+

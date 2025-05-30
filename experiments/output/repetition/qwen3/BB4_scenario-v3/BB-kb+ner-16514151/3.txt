@@ -1,0 +1,66 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "MerR"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Deinococcus radiodurans"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mercury resistance"
+    },
+    {
+      "type": "Habitat",
+      "name": "cell surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "cytosol"
+    },
+    {
+      "type": "Geographical location",
+      "name": "rich medium"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "MerR",
+      "target": "mercury resistance"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MerR",
+      "target": "cell surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MerR",
+      "target": "cytosol"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "rich medium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "improved survival from Hg(II) exposure"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Deinococcus radiodurans",
+      "target": "improved survival from Hg(II) exposure"
+    }
+  ]
+}
+```

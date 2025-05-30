@@ -1,0 +1,105 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli maltose-binding protein"
+    },
+    {
+      "type": "Microbe",
+      "name": "E. coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "MBP"
+    },
+    {
+      "type": "Microbe",
+      "name": "pepsinogen"
+    },
+    {
+      "type": "Microbe",
+      "name": "procathepsin D"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "soluble"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolytically inactive"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "efficiently renatured"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "insoluble"
+    },
+    {
+      "type": "Habitat",
+      "name": "E. coli cytoplasm"
+    },
+    {
+      "type": "Habitat",
+      "name": "in vivo"
+    },
+    {
+      "type": "Habitat",
+      "name": "in vitro"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli maltose-binding protein",
+      "target": "soluble"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBP-pepsinogen",
+      "target": "proteolytically inactive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBP-pepsinogen",
+      "target": "efficiently renatured"
+    },
+    {
+      "type": "Exhibits",
+      "source": "chimeric proteins",
+      "target": "insoluble"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "E. coli cytoplasm"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli maltose-binding protein",
+      "target": "E. coli cytoplasm"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MBP",
+      "target": "E. coli cytoplasm"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MBP-pepsinogen",
+      "target": "in vivo"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MBP",
+      "target": "in vitro"
+    }
+  ]
+}
+```

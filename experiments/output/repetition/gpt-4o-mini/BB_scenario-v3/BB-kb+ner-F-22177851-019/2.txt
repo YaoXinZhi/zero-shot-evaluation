@@ -1,0 +1,33 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "P. celer"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "lipase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "lipolytic system"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "lipase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. alvei",
+      "target": "lipolytic system"
+    }
+  ]
+}
+

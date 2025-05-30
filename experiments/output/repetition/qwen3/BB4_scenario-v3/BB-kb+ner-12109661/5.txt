@@ -1,0 +1,138 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. pylori"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "atrophic gastritis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "gastric cancer"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "chronic atrophic gastritis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "chronic gastritis"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "atrophy of gastric mucosa"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastric mucosa"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Japan"
+    },
+    {
+      "type": "Microbe",
+      "name": "monkeys"
+    },
+    {
+      "type": "Microbe",
+      "name": "control monkeys"
+    },
+    {
+      "type": "Microbe",
+      "name": "young Japanese"
+    },
+    {
+      "type": "Microbe",
+      "name": "young Japanese gastric cancer patients"
+    },
+    {
+      "type": "Microbe",
+      "name": "control group"
+    },
+    {
+      "type": "Microbe",
+      "name": "Japanese Intervention Trial of H. pylori"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "gastric mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. pylori",
+      "target": "gastric mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "monkeys",
+      "target": "gastric mucosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "control monkeys",
+      "target": "gastric mucosa"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "chronic atrophic gastritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. pylori",
+      "target": "chronic atrophic gastritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. pylori",
+      "target": "atrophic gastritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. pylori",
+      "target": "atrophy of gastric mucosa"
+    },
+    {
+      "type": "Exhibits",
+      "source": "monkeys",
+      "target": "atrophy of gastric mucosa"
+    },
+    {
+      "type": "Exhibits",
+      "source": "control monkeys",
+      "target": "atrophy of gastric mucosa"
+    },
+    {
+      "type": "Exhibits",
+      "source": "H. pylori",
+      "target": "gastric cancer"
+    },
+    {
+      "type": "Exhibits",
+      "source": "young Japanese",
+      "target": "gastric cancer"
+    },
+    {
+      "type": "Exhibits",
+      "source": "young Japanese gastric cancer patients",
+      "target": "gastric cancer"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Japanese Intervention Trial of H. pylori",
+      "target": "Japan"
+    }
+  ]
+}
+```

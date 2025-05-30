@@ -1,0 +1,138 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium (993)"
+    },
+    {
+      "type": "Microbe",
+      "name": "Salmonella"
+    },
+    {
+      "type": "Microbe",
+      "name": "pBR322"
+    },
+    {
+      "type": "Microbe",
+      "name": "minicells"
+    },
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium (wild strain)"
+    },
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium (restriction+modification+strain)"
+    },
+    {
+      "type": "Microbe",
+      "name": "plasmid"
+    },
+    {
+      "type": "Microbe",
+      "name": "naturally occurring plasmid"
+    },
+    {
+      "type": "Microbe",
+      "name": "9-kb plasmid"
+    },
+    {
+      "type": "Microbe",
+      "name": "3.5-kb derivative"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "drug-resistant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ampicillin-resistant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cryptic"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "better efficiency of transformation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stable"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "compatible"
+    },
+    {
+      "type": "Habitat",
+      "name": "wild strain of Salmonella"
+    },
+    {
+      "type": "Habitat",
+      "name": "Salmonella typhimurium (wild strain)"
+    },
+    {
+      "type": "Geographical location",
+      "name": "naturally occurring"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "naturally occurring plasmid",
+      "target": "Salmonella typhimurium (993)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella typhimurium (993)",
+      "target": "drug-resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "9-kb plasmid",
+      "target": "ampicillin-resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "25-kb plasmid",
+      "target": "cryptic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "3.5-kb derivative",
+      "target": "better efficiency of transformation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "transformants",
+      "target": "stable"
+    },
+    {
+      "type": "Exhibits",
+      "source": "vector",
+      "target": "compatible"
+    },
+    {
+      "type": "Isolated from",
+      "source": "9-kb plasmid",
+      "target": "Salmonella typhimurium (993)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "3.5-kb derivative",
+      "target": "9-kb plasmid"
+    },
+    {
+      "type": "Isolated from",
+      "source": "plasmid",
+      "target": "Salmonella typhimurium (restriction+modification+strain)"
+    }
+  ]
+}
+```

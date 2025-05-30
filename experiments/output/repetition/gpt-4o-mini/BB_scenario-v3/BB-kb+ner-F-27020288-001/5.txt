@@ -1,0 +1,74 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "L. lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus pneumoniae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus rhamnosus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "EPS assembly"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "EPS production"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "export-polymerization pathway"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "flippase-like route"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ABC transporters"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "L. lactis",
+      "target": "EPS assembly"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Streptococcus pneumoniae",
+      "target": "EPS assembly"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactobacillus rhamnosus",
+      "target": "EPS assembly"
+    },
+    {
+      "type": "Exhibits",
+      "source": "LAB",
+      "target": "EPS production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "LAB",
+      "target": "export-polymerization pathway"
+    },
+    {
+      "type": "Exhibits",
+      "source": "LAB",
+      "target": "flippase-like route"
+    },
+    {
+      "type": "Exhibits",
+      "source": "LAB",
+      "target": "ABC transporters"
+    }
+  ]
+}
+

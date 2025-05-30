@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Helicobacter pylori"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "enlarged irregular mantle zone"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "monoclonality"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "polyclonal pattern"
+    },
+    {
+      "type": "Habitat",
+      "name": "gastric mucosa"
+    },
+    {
+      "type": "Geographical location",
+      "name": "gastric"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Helicobacter pylori",
+      "target": "gastric mucosa"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "monoclonality"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Helicobacter pylori",
+      "target": "polyclonal pattern"
+    },
+    {
+      "type": "Exhibits",
+      "source": "gastric MALT lymphoma",
+      "target": "enlarged irregular mantle zone"
+    }
+  ]
+}
+

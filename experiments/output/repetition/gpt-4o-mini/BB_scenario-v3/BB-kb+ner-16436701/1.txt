@@ -1,0 +1,89 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157:H7"
+    },
+    {
+      "type": "Microbe",
+      "name": "dermaseptin S4"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "N-terminal 14-mer sequence (P14)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "28-mer analog K4K20S4 (P28)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibacterial properties"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bactericidal kinetics"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "potency"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hydrophobicity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "charge"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "structure"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "binding to an idealized membrane"
+    },
+    {
+      "type": "Habitat",
+      "name": "commercial apple juice"
+    },
+    {
+      "type": "Habitat",
+      "name": "extreme incubation conditions"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "dermaseptin S4",
+      "target": "antibacterial properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "dermaseptin S4",
+      "target": "bactericidal kinetics"
+    },
+    {
+      "type": "Exhibits",
+      "source": "N-terminal 14-mer sequence (P14)",
+      "target": "potency"
+    },
+    {
+      "type": "Exhibits",
+      "source": "28-mer analog K4K20S4 (P28)",
+      "target": "potency"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "extreme incubation conditions"
+    },
+    {
+      "type": "Isolated from",
+      "source": "dermaseptin S4",
+      "target": "commercial apple juice"
+    }
+  ]
+}
+

@@ -1,0 +1,114 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "FlgF"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolysis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "overproduced"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "highly susceptible to cleavage by endogenous proteases"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "not digested"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "protease-free"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stable full-length product"
+    },
+    {
+      "type": "Habitat",
+      "name": "cell"
+    },
+    {
+      "type": "Habitat",
+      "name": "supernatant"
+    },
+    {
+      "type": "Habitat",
+      "name": "cation-exchange column"
+    },
+    {
+      "type": "Habitat",
+      "name": "anion-exchange column"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "cell disruption"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "FlgF",
+      "target": "Salmonella typhimurium"
+    },
+    {
+      "type": "Isolated from",
+      "source": "FlgF",
+      "target": "cell"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "overproduced"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "highly susceptible to cleavage by endogenous proteases"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "not digested"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "protease-free"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "stable full-length product"
+    },
+    {
+      "type": "Exhibits",
+      "source": "cell",
+      "target": "cell disruption"
+    },
+    {
+      "type": "Exhibits",
+      "source": "proteases",
+      "target": "trapped"
+    },
+    {
+      "type": "Exhibits",
+      "source": "FlgF",
+      "target": "proteolysis"
+    }
+  ]
+}
+```

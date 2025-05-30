@@ -1,0 +1,42 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium tuberculosis H37Rv"
+    },
+    {
+      "type": "Microbe",
+      "name": "Rv3168"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "aminoglycoside phosphotransferase"
+    },
+    {
+      "type": "Habitat",
+      "name": "human population"
+    },
+    {
+      "type": "Geographical location",
+      "name": "human population"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Mycobacterium tuberculosis",
+      "target": "human population"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Rv3168",
+      "target": "aminoglycoside phosphotransferase"
+    }
+  ]
+}
+```

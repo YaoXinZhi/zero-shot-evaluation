@@ -1,0 +1,77 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chondrus crispus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pichia pastoris"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Saccharomyces cerevisiae"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hexose oxidase activity"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "proteolytic cleavage"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "secretion"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "full-length HOX polypeptide"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "two fragments"
+    },
+    {
+      "type": "Habitat",
+      "name": "extracellular compartment"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Chondrus crispus",
+      "target": "hexose oxidase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pichia pastoris",
+      "target": "hexose oxidase activity"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pichia pastoris",
+      "target": "proteolytic cleavage"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pichia pastoris",
+      "target": "secretion"
+    },
+    {
+      "type": "Isolated from",
+      "source": "hexose oxidase",
+      "target": "Chondrus crispus"
+    },
+    {
+      "type": "Isolated from",
+      "source": "hexose oxidase",
+      "target": "Pichia pastoris"
+    }
+  ]
+}
+

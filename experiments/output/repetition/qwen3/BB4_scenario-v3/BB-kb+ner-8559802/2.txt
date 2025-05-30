@@ -1,0 +1,113 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium (993)"
+    },
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium wild strain"
+    },
+    {
+      "type": "Microbe",
+      "name": "Salmonella typhimurium restriction+modification+strain"
+    },
+    {
+      "type": "Microbe",
+      "name": "pBR322"
+    },
+    {
+      "type": "Microbe",
+      "name": "transformants"
+    },
+    {
+      "type": "Microbe",
+      "name": "minicells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "drug-resistant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ampicillin-resistant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cryptic"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "plasmid"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "restriction+modification+strain"
+    },
+    {
+      "type": "Habitat",
+      "name": "wild strain of Salmonella"
+    },
+    {
+      "type": "Habitat",
+      "name": "Salmonella typhimurium restriction+modification+strain"
+    },
+    {
+      "type": "Geographical location",
+      "name": "naturally occurring"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "plasmid",
+      "target": "naturally occurring"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Salmonella typhimurium (993)",
+      "target": "wild strain of Salmonella"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella typhimurium (993)",
+      "target": "drug-resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "plasmid",
+      "target": "ampicillin-resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "plasmid",
+      "target": "cryptic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Salmonella typhimurium restriction+modification+strain",
+      "target": "restriction+modification+strain"
+    },
+    {
+      "type": "Exhibits",
+      "source": "plasmid",
+      "target": "better efficiency of transformation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "transformants",
+      "target": "stability in the absence of antibiotic selection"
+    },
+    {
+      "type": "Isolated from",
+      "source": "plasmid",
+      "target": "Salmonella typhimurium restriction+modification+strain"
+    }
+  ]
+}
+```

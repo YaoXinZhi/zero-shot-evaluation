@@ -1,0 +1,114 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. aeruginosa"
+    },
+    {
+      "type": "Microbe",
+      "name": "Burkholderia cepacia"
+    },
+    {
+      "type": "Microbe",
+      "name": "Aspergillus fumigatus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Stenotrophomonas maltophilia"
+    },
+    {
+      "type": "Microbe",
+      "name": "Mycobacterium abscessus"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "hydrogen cyanide production"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ammonia production"
+    },
+    {
+      "type": "Habitat",
+      "name": "lungs/airways"
+    },
+    {
+      "type": "Geographical location",
+      "name": "CF patients"
+    },
+    {
+      "type": "Microbe",
+      "name": "clinical isolates"
+    },
+    {
+      "type": "Microbe",
+      "name": "reference strains"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "stationary phase"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "addition of tobramycin"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "hydrogen cyanide production"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "ammonia production"
+    },
+    {
+      "type": "Isolated from",
+      "source": "clinical isolates",
+      "target": "CF patients"
+    },
+    {
+      "type": "Isolated from",
+      "source": "reference strains",
+      "target": "CF patients"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "stationary phase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "addition of tobramycin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Burkholderia cepacia",
+      "target": "hydrogen cyanide production"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Aspergillus fumigatus",
+      "target": "lungs/airways"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Stenotrophomonas maltophilia",
+      "target": "lungs/airways"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Mycobacterium abscessus",
+      "target": "lungs/airways"
+    }
+  ]
+}
+```

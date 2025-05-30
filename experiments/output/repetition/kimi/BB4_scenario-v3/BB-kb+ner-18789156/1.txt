@@ -1,0 +1,115 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Francisella tularensis"
+    },
+    {
+      "type": "Habitat",
+      "name": "monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "elongation factor Tu"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "GTP-binding protein"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "protein translation"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "nucleolin"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "RGG domain"
+    },
+    {
+      "type": "Microbe",
+      "name": "Live Vaccine Strain (LVS)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "EF-Tu"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "anti-EF-Tu antibodies"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "HB-19 pseudopeptide"
+    },
+    {
+      "type": "Microbe",
+      "name": "human pathogenic F. tularensis ssp tularensis"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Francisella tularensis",
+      "target": "monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Francisella tularensis",
+      "target": "elongation factor Tu"
+    },
+    {
+      "type": "Exhibits",
+      "source": "elongation factor Tu",
+      "target": "GTP-binding protein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "elongation factor Tu",
+      "target": "protein translation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "monocyte-like THP-1 cells",
+      "target": "nucleolin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "nucleolin",
+      "target": "RGG domain"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Live Vaccine Strain (LVS)",
+      "target": "monocyte-like THP-1 cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Live Vaccine Strain (LVS)",
+      "target": "EF-Tu"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EF-Tu",
+      "target": "GTP-binding protein"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EF-Tu",
+      "target": "protein translation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "monocyte-like THP-1 cells",
+      "target": "anti-EF-Tu antibodies"
+    },
+    {
+      "type": "Exhibits",
+      "source": "monocyte-like THP-1 cells",
+      "target": "HB-19 pseudopeptide"
+    }
+  ]
+}
+

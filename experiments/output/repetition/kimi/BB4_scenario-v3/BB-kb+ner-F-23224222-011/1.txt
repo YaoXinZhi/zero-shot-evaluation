@@ -1,0 +1,66 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Debaryomyces hansenii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Geotrichum spp."
+    },
+    {
+      "type": "Habitat",
+      "name": "surface-ripened cheeses"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheeses from dairies C and D"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese from dairy B"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese from dairy A"
+    },
+    {
+      "type": "Microbe",
+      "name": "Yarrowia lipolytica"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Debaryomyces hansenii",
+      "target": "cheeses from dairies C and D"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Geotrichum spp.",
+      "target": "cheese from dairy B"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yarrowia lipolytica",
+      "target": "cheese from dairy A"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yarrowia lipolytica",
+      "target": "surface-ripened cheeses"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yarrowia lipolytica",
+      "target": "naturally developing"
+    }
+  ]
+}
+
+olytica",
+      "target": "naturally developing"
+    }
+  ]
+}
+

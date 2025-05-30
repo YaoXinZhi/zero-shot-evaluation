@@ -1,0 +1,52 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Zobellia galactanivorans Dsij"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "jelly roll fold"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "catalytic machinery"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "substrate specificity"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Zobellia galactanivorans Dsij",
+      "target": "beta-agarases A and B"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Zobellia galactanivorans Dsij",
+      "target": "beta-agarases A and B"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases A and B",
+      "target": "jelly roll fold"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases A and B",
+      "target": "catalytic machinery"
+    },
+    {
+      "type": "Exhibits",
+      "source": "beta-agarases A and B",
+      "target": "substrate specificity"
+    }
+  ]
+}
+

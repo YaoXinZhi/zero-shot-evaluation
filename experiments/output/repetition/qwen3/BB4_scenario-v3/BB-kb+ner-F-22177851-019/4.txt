@@ -1,0 +1,34 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "P. celer"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "lipase activity"
+    },
+    {
+      "type": "Microbe",
+      "name": "H. alvei"
+    },
+    {
+      "type": "Habitat",
+      "name": "community"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "P. celer",
+      "target": "lipase activity"
+    },
+    {
+      "type": "Isolated from",
+      "source": "H. alvei",
+      "target": "community"
+    }
+  ]
+}
+```

@@ -1,0 +1,105 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Debaryomyces hansenii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Geotrichum spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "D. hansenii"
+    },
+    {
+      "type": "Microbe",
+      "name": "cheeses from dairies C"
+    },
+    {
+      "type": "Microbe",
+      "name": "cheeses from dairies D"
+    },
+    {
+      "type": "Microbe",
+      "name": "cheese from dairy B"
+    },
+    {
+      "type": "Microbe",
+      "name": "cheese from dairy A"
+    },
+    {
+      "type": "Microbe",
+      "name": "Yarrowia lipolytica"
+    },
+    {
+      "type": "Microbe",
+      "name": "Y. lipolytica"
+    },
+    {
+      "type": "Microbe",
+      "name": "D. hansenii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Geotrichum spp."
+    },
+    {
+      "type": "Habitat",
+      "name": "surface-ripened cheeses"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surfaces"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Debaryomyces hansenii",
+      "target": "surface-ripened cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Geotrichum spp.",
+      "target": "surface-ripened cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "D. hansenii",
+      "target": "cheeses from dairies C"
+    },
+    {
+      "type": "Isolated from",
+      "source": "D. hansenii",
+      "target": "cheeses from dairies D"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Geotrichum spp.",
+      "target": "cheese from dairy B"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Y. lipolytica",
+      "target": "cheese from dairy A"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Y. lipolytica",
+      "target": "cheese surfaces"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. lipolytica",
+      "target": "naturally developing"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Y. lipolytica",
+      "target": "rapidly outnumber"
+    }
+  ]
+}
+```

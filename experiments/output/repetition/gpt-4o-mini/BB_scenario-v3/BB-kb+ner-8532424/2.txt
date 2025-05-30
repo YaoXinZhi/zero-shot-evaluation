@@ -1,0 +1,60 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Kingella kingae"
+    },
+    {
+      "type": "Habitat",
+      "name": "respiratory tract"
+    },
+    {
+      "type": "Geographical location",
+      "name": "southern Israel"
+    },
+    {
+      "type": "Habitat",
+      "name": "day-care center"
+    },
+    {
+      "type": "Habitat",
+      "name": "well-baby-care clinic"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "normal flora"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "invasive pathogen"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "respiratory tract"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "day-care center"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kingella kingae",
+      "target": "well-baby-care clinic"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Kingella kingae",
+      "target": "invasive pathogen"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Kingella kingae",
+      "target": "normal flora"
+    }
+  ]
+}
+

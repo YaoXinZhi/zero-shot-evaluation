@@ -1,0 +1,72 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus aureus"
+    },
+    {
+      "type": "Microbe",
+      "name": "MRSA"
+    },
+    {
+      "type": "Habitat",
+      "name": "environmental surfaces in a jail setting"
+    },
+    {
+      "type": "Habitat",
+      "name": "jail environmental surfaces"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "methicillin-resistant"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "oxacillin-resistant"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus aureus",
+      "target": "environmental surfaces in a jail setting"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "jail environmental surfaces"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "methicillin-resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "oxacillin-resistant"
+    }
+  ]
+}
+
+urce": "Staphylococcus aureus",
+      "target": "jail environmental surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MRSA",
+      "target": "jail environmental surfaces"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "methicillin-resistant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MRSA",
+      "target": "oxacillin-resistant"
+    }
+  ]
+}
+

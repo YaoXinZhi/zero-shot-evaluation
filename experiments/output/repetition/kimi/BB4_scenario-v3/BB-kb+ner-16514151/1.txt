@@ -1,0 +1,136 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Deinococcus radiodurans"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mercury resistance"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "surface copies of MBD"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Hg(II) sequestration"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "MBD"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Hg(II) challenge"
+    },
+    {
+      "type": "Microbe",
+      "name": "MerR"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "metal-binding domain"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "metal-induced activation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "specific metal binding"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "detoxify mercury"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Hg(II) exposure"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "metal stoichiometries"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Zn(II) binding"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Cd(II) binding"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "surface copies of MBD"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "Hg(II) sequestration"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "Hg(II) challenge"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "Hg(II) exposure"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Deinococcus radiodurans",
+      "target": "Hg(II) exposure"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MerR",
+      "target": "metal-binding domain"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MerR",
+      "target": "metal-induced activation"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MBD",
+      "target": "Escherichia coli"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBD",
+      "target": "specific metal binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBD",
+      "target": "Hg(II) sequestration"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBD",
+      "target": "metal stoichiometries"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBD",
+      "target": "Zn(II) binding"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MBD",
+      "target": "Cd(II) binding"
+    }
+  ]
+}
+

@@ -1,0 +1,83 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "β-carbonic anhydrase psCA3"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "β-carbonic anhydrases (β-CAs)"
+    },
+    {
+      "type": "Gene",
+      "name": "pa0102"
+    },
+    {
+      "type": "Gene",
+      "name": "pa2053"
+    },
+    {
+      "type": "Gene",
+      "name": "pa4676"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Form A"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Form B"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "β-carbonic anhydrase psCA3"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "β-carbonic anhydrases (β-CAs)"
+    },
+    {
+      "type": "Isolated from",
+      "source": "β-carbonic anhydrase psCA3",
+      "target": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "pa0102",
+      "target": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Isolated from",
+      "source": "pa2053",
+      "target": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Isolated from",
+      "source": "pa4676",
+      "target": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Form A",
+      "target": "β-carbonic anhydrase psCA3"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Form B",
+      "target": "β-carbonic anhydrase psCA3"
+    }
+  ]
+}
+

@@ -1,0 +1,126 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Gram-negative bacterium"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to most clinically available antimicrobials"
+    },
+    {
+      "type": "Gene",
+      "name": "pa0102"
+    },
+    {
+      "type": "Gene",
+      "name": "pa2053"
+    },
+    {
+      "type": "Gene",
+      "name": "pa4676"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "β-carbonic anhydrases (β-CAs)"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA1"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA2"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA3"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "crystal forms (A and B)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Form A"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Form B"
+    },
+    {
+      "type": "Technique",
+      "name": "X-ray crystallographic structural studies"
+    },
+    {
+      "type": "Technique",
+      "name": "PHENIX AutoMR wizard"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "Gram-negative bacterium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "resistant to most clinically available antimicrobials"
+    },
+    {
+      "type": "Isolated from",
+      "source": "pa0102",
+      "target": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "pa2053",
+      "target": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "pa4676",
+      "target": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "psCA1",
+      "target": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "psCA2",
+      "target": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Isolated from",
+      "source": "psCA3",
+      "target": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Exhibits",
+      "source": "psCA3",
+      "target": "crystal forms (A and B)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "psCA3",
+      "target": "Form A"
+    },
+    {
+      "type": "Exhibits",
+      "source": "psCA3",
+      "target": "Form B"
+    }
+  ]
+}
+

@@ -1,0 +1,96 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Pseudomonas aeruginosa"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram-negative"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to most clinically available antimicrobials"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "functional β-carbonic anhydrases"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA3"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA1"
+    },
+    {
+      "type": "Microbe",
+      "name": "psCA2"
+    },
+    {
+      "type": "Geographical location",
+      "name": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "two crystal forms (A and B)"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "space group P212121"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "space group P21212"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "Gram-negative"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "resistant to most clinically available antimicrobials"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Pseudomonas aeruginosa",
+      "target": "functional β-carbonic anhydrases"
+    },
+    {
+      "type": "Isolated from",
+      "source": "psCA3",
+      "target": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Isolated from",
+      "source": "psCA1",
+      "target": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Isolated from",
+      "source": "psCA2",
+      "target": "P. aeruginosa PAO1"
+    },
+    {
+      "type": "Exhibits",
+      "source": "psCA3",
+      "target": "two crystal forms (A and B)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "two crystal forms (A and B)",
+      "target": "space group P212121"
+    },
+    {
+      "type": "Exhibits",
+      "source": "two crystal forms (A and B)",
+      "target": "space group P21212"
+    }
+  ]
+}
+

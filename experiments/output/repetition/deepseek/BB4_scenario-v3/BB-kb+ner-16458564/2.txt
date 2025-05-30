@@ -1,0 +1,121 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "group A rotavirus"
+    },
+    {
+      "type": "Microbe",
+      "name": "diarrheagenic Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Shigella spp"
+    },
+    {
+      "type": "Microbe",
+      "name": "enterotoxigenic Bacteroides fragilis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Salmonella spp"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio cholerae"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistance to ampicillin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistance to chloramphenicol"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistance to trimethoprim/sulfamethoxazole"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "fever"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "vomiting"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "dehydration"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "watery stool"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "mucous stool"
+    },
+    {
+      "type": "Habitat",
+      "name": "Hanoi, Vietnam"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Hanoi, Vietnam"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "group A rotavirus",
+      "target": "Hanoi, Vietnam"
+    },
+    {
+      "type": "Isolated from",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "Hanoi, Vietnam"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Shigella spp",
+      "target": "Hanoi, Vietnam"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "Hanoi, Vietnam"
+    },
+    {
+      "type": "Exhibits",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "resistance to ampicillin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "resistance to chloramphenicol"
+    },
+    {
+      "type": "Exhibits",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "resistance to trimethoprim/sulfamethoxazole"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Shigella spp",
+      "target": "resistance to ampicillin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Shigella spp",
+      "target": "resistance to chloramphenicol"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Shigella spp",
+      "target": "resistance to trimethoprim/sulfamethoxazole"
+    }
+  ]
+}
+

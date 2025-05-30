@@ -1,0 +1,136 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Chlamydia muridarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "TLR2-deficient mice"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "sexually transmitted"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "associated with infant pneumonia"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "induction of inflammation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "oviduct pathology"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "moderating mucosal inflammation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "enhanced disease"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "higher lung cytokine levels"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "exaggerated influx of neutrophils"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "influx of T-cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacterial clearance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "anti-inflammatory function"
+    },
+    {
+      "type": "Habitat",
+      "name": "female mouse model of genital tract"
+    },
+    {
+      "type": "Habitat",
+      "name": "lung"
+    },
+    {
+      "type": "Geographical location",
+      "name": "infant"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "sexually transmitted"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "associated with infant pneumonia"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "induction of inflammation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "oviduct pathology"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TLR2",
+      "target": "moderating mucosal inflammation"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "female mouse model of genital tract"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia muridarum",
+      "target": "lung"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TLR2-deficient mice",
+      "target": "enhanced disease"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TLR2-deficient mice",
+      "target": "higher lung cytokine levels"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TLR2-deficient mice",
+      "target": "exaggerated influx of neutrophils"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TLR2-deficient mice",
+      "target": "influx of T-cells"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TLR2",
+      "target": "anti-inflammatory function"
+    }
+  ]
+}
+```

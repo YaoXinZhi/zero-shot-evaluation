@@ -1,0 +1,87 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Burkholderia pseudomallei"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "virulent"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "nonvirulent"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Ara+"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Ara-"
+    },
+    {
+      "type": "Habitat",
+      "name": "clinical isolates"
+    },
+    {
+      "type": "Habitat",
+      "name": "environmental isolates"
+    },
+    {
+      "type": "Habitat",
+      "name": "soil"
+    },
+    {
+      "type": "Habitat",
+      "name": "National Type Culture Collection strains"
+    },
+    {
+      "type": "Disease",
+      "name": "melioidosis"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Burkholderia pseudomallei",
+      "target": "clinical isolates"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Burkholderia pseudomallei",
+      "target": "environmental isolates"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Burkholderia pseudomallei",
+      "target": "soil"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Burkholderia pseudomallei",
+      "target": "National Type Culture Collection strains"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Burkholderia pseudomallei",
+      "target": "virulent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Burkholderia pseudomallei",
+      "target": "nonvirulent"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Burkholderia pseudomallei",
+      "target": "Ara+"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Burkholderia pseudomallei",
+      "target": "Ara-"
+    }
+  ]
+}
+

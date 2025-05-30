@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "yeasts"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of growth factors"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "Gram positive"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "catalase positive"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "salt-tolerant"
+    },
+    {
+      "type": "Microbe",
+      "name": "coagulase-negative cocci (CNC)"
+    },
+    {
+      "type": "Microbe",
+      "name": "coryneform bacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Micrococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "yeasts",
+      "target": "production of growth factors"
+    },
+    {
+      "type": "Exhibits",
+      "source": "coagulase-negative cocci (CNC)",
+      "target": "Gram positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "coagulase-negative cocci (CNC)",
+      "target": "catalase positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "coagulase-negative cocci (CNC)",
+      "target": "salt-tolerant"
+    },
+    {
+      "type": "Exhibits",
+      "source": "coryneform bacteria",
+      "target": "Gram positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "coryneform bacteria",
+      "target": "catalase positive"
+    },
+    {
+      "type": "Exhibits",
+      "source": "coryneform bacteria",
+      "target": "salt-tolerant"
+    }
+  ]
+}
+

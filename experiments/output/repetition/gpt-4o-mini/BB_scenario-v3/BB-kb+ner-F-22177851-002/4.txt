@@ -1,0 +1,165 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Lactococcus lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Debaryomyces hansenii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Geotrichum candidum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Kluyveromyces sp."
+    },
+    {
+      "type": "Microbe",
+      "name": "Yarrowia lipolytica"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium aurantiacum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Corynebacterium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Arthrobacter"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus spp."
+    },
+    {
+      "type": "Physiological trait",
+      "name": "acidify curd"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "metabolizing lactose into lactate"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "metabolize lactate"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "less acid-tolerant"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "aerobic or facultative anaerobic"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "catalase-positive"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "halo-tolerant"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "smear surface-ripened"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Lactococcus lactis",
+      "target": "acidify curd"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Lactococcus lactis",
+      "target": "metabolizing lactose into lactate"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Debaryomyces hansenii",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Geotrichum candidum",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Kluyveromyces sp.",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Yarrowia lipolytica",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium aurantiacum",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Corynebacterium",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Arthrobacter",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Staphylococcus spp.",
+      "target": "cheese surface"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Debaryomyces hansenii",
+      "target": "metabolize lactate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Geotrichum candidum",
+      "target": "metabolize lactate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Kluyveromyces sp.",
+      "target": "metabolize lactate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Yarrowia lipolytica",
+      "target": "metabolize lactate"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Brevibacterium aurantiacum",
+      "target": "smear surface-ripened"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Corynebacterium",
+      "target": "smear surface-ripened"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Arthrobacter",
+      "target": "smear surface-ripened"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Staphylococcus spp.",
+      "target": "smear surface-ripened"
+    }
+  ]
+}
+

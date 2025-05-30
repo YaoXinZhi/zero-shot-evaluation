@@ -1,0 +1,154 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157:H7"
+    },
+    {
+      "type": "Microbe",
+      "name": "frog-derived peptide dermaseptin S4"
+    },
+    {
+      "type": "Microbe",
+      "name": "K4K20S4"
+    },
+    {
+      "type": "Microbe",
+      "name": "P28"
+    },
+    {
+      "type": "Microbe",
+      "name": "P14"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antibacterial properties"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bactericidal properties"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "MIC of 8 microM"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "MIC of 4 microM"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "MIC of 2 microM"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "rapid bactericidal kinetics"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "high potency"
+    },
+    {
+      "type": "Habitat",
+      "name": "commercial apple juice"
+    },
+    {
+      "type": "Habitat",
+      "name": "standard culture conditions"
+    },
+    {
+      "type": "Habitat",
+      "name": "high salt concentrations"
+    },
+    {
+      "type": "Habitat",
+      "name": "acidic conditions"
+    },
+    {
+      "type": "Habitat",
+      "name": "basic conditions"
+    },
+    {
+      "type": "Habitat",
+      "name": "extreme temperatures"
+    },
+    {
+      "type": "Geographical location",
+      "name": "food pathogen"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "frog-derived peptide dermaseptin S4",
+      "target": "antibacterial properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4",
+      "target": "MIC of 8 microM"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4",
+      "target": "rapid bactericidal kinetics"
+    },
+    {
+      "type": "Exhibits",
+      "source": "K4K20S4",
+      "target": "bactericidal properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P14",
+      "target": "MIC of 4 microM"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P14",
+      "target": "high potency"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lipopeptide",
+      "target": "MIC of 2 microM"
+    },
+    {
+      "type": "Exhibits",
+      "source": "lipopeptide",
+      "target": "high potency"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "standard culture conditions"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "high salt concentrations"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "acidic conditions"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "basic conditions"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli O157:H7",
+      "target": "extreme temperatures"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lipopeptide",
+      "target": "commercial apple juice"
+    }
+  ]
+}
+```

@@ -1,0 +1,42 @@
+[
+  {
+    "entities": [
+      {"type": "Disease", "name": "Huanglongbing"},
+      {"type": "Disease", "name": "HLB"},
+      {"type": "Disease", "name": "greening"},
+      {"type": "Pest", "name": "Candidatus Liberibacter asiaticus"},
+      {"type": "Pest", "name": "CLas"},
+      {"type": "Plant", "name": "citrus"},
+      {"type": "Plant", "name": "Citrus× sinensis(L.) Osbeck"},
+      {"type": "Plant", "name": "sweet orange"},
+      {"type": "Pest", "name": "Agrobacterium"},
+      {"type": "Vector", "name": "Sarcophaga peregrina"},
+      {"type": "Pest", "name": "flesh fly"},
+      {"type": "Pest", "name": "sarcotoxin IA"},
+      {"type": "Pest", "name": "stx IA"},
+      {"type": "Plant", "name": "STX-5"},
+      {"type": "Plant", "name": "STX-11"},
+      {"type": "Plant", "name": "STX-12"},
+      {"type": "Plant", "name": "STX-13"}
+    ]
+  },
+  {
+    "relationships": [
+      {"source": "Huanglongbing", "type": "Causes", "target": "Candidatus Liberibacter asiaticus"},
+      {"source": "HLB", "type": "Causes", "target": "Candidatus Liberibacter asiaticus"},
+      {"source": "greening", "type": "Causes", "target": "Candidatus Liberibacter asiaticus"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Affects", "target": "citrus"},
+      {"source": "CLas", "type": "Affects", "target": "citrus"},
+      {"source": "Agrobacterium", "type": "Transmit", "target": "sarcotoxin IA"},
+      {"source": "Sarcophaga peregrina", "type": "Have been found on", "target": "sarcotoxin IA"},
+      {"source": "flesh fly", "type": "Have been found on", "target": "sarcotoxin IA"},
+      {"source": "sarcotoxin IA", "type": "Have been found on", "target": "sweet orange"},
+      {"source": "stx IA", "type": "Have been found on", "target": "sweet orange"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Have been found on", "target": "STX-5"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Have been found on", "target": "STX-11"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Have been found on", "target": "STX-12"},
+      {"source": "Candidatus Liberibacter asiaticus", "type": "Have been found on", "target": "STX-13"}
+    ]
+  }
+]
+

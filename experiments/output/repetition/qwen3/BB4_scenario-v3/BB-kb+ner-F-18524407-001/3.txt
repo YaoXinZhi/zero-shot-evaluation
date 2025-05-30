@@ -1,0 +1,66 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "propionibacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. freudenreichii subsp. shermanii"
+    },
+    {
+      "type": "Microbe",
+      "name": "P. freudenreichii subsp. shermanii, including the sequenced type strain TL 34"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "produce EPS"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ropy-producing"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "homopolysaccharide with the structure [→3)[β-d-Glcp-(1→2)]-β-d-Glcp-(1→]"
+    },
+    {
+      "type": "Habitat",
+      "name": "Dairy"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "propionibacteria",
+      "target": "Dairy"
+    },
+    {
+      "type": "Isolated from",
+      "source": "P. freudenreichii subsp. shermanii",
+      "target": "Dairy"
+    },
+    {
+      "type": "Exhibits",
+      "source": "propionibacteria",
+      "target": "produce EPS"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. freudenreichii subsp. shermanii",
+      "target": "produce EPS"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. freudenreichii subsp. shermanii, including the sequenced type strain TL 34",
+      "target": "ropy-producing"
+    },
+    {
+      "type": "Exhibits",
+      "source": "P. freudenreichii subsp. shermanii",
+      "target": "homopolysaccharide with the structure [→3)[β-d-Glcp-(1→2)]-β-d-Glcp-(1→]"
+    }
+  ]
+}
+```

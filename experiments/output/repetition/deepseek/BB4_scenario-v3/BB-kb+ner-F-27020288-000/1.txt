@@ -1,0 +1,86 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "LAB"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "production of exopolysaccharides"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "specific gene clusters tagged as eps or cps"
+    },
+    {
+      "type": "Microbe",
+      "name": "Streptococcus thermophilus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactobacillus plantarum"
+    },
+    {
+      "type": "Habitat",
+      "name": "bacterial chromosome"
+    },
+    {
+      "type": "Microbe",
+      "name": "Lactococcus lactis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pediococcus damnsosus"
+    },
+    {
+      "type": "Habitat",
+      "name": "plasmids"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. plantarum WCFS1"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "surface polysaccharide production"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "LAB",
+      "target": "production of exopolysaccharides"
+    },
+    {
+      "type": "Exhibits",
+      "source": "LAB",
+      "target": "specific gene clusters tagged as eps or cps"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Streptococcus thermophilus",
+      "target": "bacterial chromosome"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactobacillus plantarum",
+      "target": "bacterial chromosome"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Lactococcus lactis",
+      "target": "plasmids"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pediococcus damnsosus",
+      "target": "plasmids"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. plantarum WCFS1",
+      "target": "surface polysaccharide production"
+    }
+  ]
+}
+

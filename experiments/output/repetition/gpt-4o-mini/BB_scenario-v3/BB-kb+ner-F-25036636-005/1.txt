@@ -1,0 +1,58 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Proteobacteria"
+    },
+    {
+      "type": "Microbe",
+      "name": "Leuconostoc"
+    },
+    {
+      "type": "Microbe",
+      "name": "Candida"
+    },
+    {
+      "type": "Microbe",
+      "name": "Staphylococcus"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brachybacterium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Penicillium"
+    },
+    {
+      "type": "Microbe",
+      "name": "Scopulariopsis"
+    },
+    {
+      "type": "Habitat",
+      "name": "raw milk"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Candida",
+      "target": "raw milk"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Proteobacteria",
+      "target": "raw milk"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Leuconostoc",
+      "target": "raw milk"
+    }
+  ]
+}
+

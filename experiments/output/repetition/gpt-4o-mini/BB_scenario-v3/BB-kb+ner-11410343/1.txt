@@ -1,0 +1,74 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Ralstonia eutropha H850"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "cytoplasmic membranes"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "membrane polarization"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "fatty acid compositions"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "2,2',5,5'-tetrachlorobiphenyl"
+    },
+    {
+      "type": "Chemical compound",
+      "name": "biphenyl"
+    },
+    {
+      "type": "Habitat",
+      "name": "fructose medium"
+    },
+    {
+      "type": "Habitat",
+      "name": "biphenyl medium"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Ralstonia eutropha H850",
+      "target": "fructose medium"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Ralstonia eutropha H850",
+      "target": "biphenyl medium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Ralstonia eutropha H850",
+      "target": "cytoplasmic membranes"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Ralstonia eutropha H850",
+      "target": "membrane polarization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Ralstonia eutropha H850",
+      "target": "fatty acid compositions"
+    },
+    {
+      "type": "Exhibits",
+      "source": "2,2',5,5'-tetrachlorobiphenyl",
+      "target": "membrane polarization"
+    },
+    {
+      "type": "Exhibits",
+      "source": "biphenyl",
+      "target": "membrane polarization"
+    }
+  ]
+}
+

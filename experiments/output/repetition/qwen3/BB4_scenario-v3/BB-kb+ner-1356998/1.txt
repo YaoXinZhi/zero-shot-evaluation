@@ -1,0 +1,56 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "spotted fever group rickettsiae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Rickettsia conorii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Rickettsia conorii"
+    },
+    {
+      "type": "Microbe",
+      "name": "Rickettsia conorii"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Israel"
+    },
+    {
+      "type": "Habitat",
+      "name": "ticks"
+    },
+    {
+      "type": "Habitat",
+      "name": "humans"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "spotted fever group rickettsiae",
+      "target": "ticks"
+    },
+    {
+      "type": "Isolated from",
+      "source": "spotted fever group rickettsiae",
+      "target": "humans"
+    },
+    {
+      "type": "Geographical location",
+      "source": "ticks",
+      "target": "Israel"
+    },
+    {
+      "type": "Geographical location",
+      "source": "humans",
+      "target": "Israel"
+    }
+  ]
+}
+```

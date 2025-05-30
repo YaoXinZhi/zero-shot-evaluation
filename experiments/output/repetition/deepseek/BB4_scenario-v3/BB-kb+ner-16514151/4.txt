@@ -1,0 +1,96 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "MerR"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Deinococcus radiodurans"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Hg(II) sequestration and protection"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "metal-binding domain (MBD)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacterial mercury resistance (mer) operon"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "metal-induced activation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Hg(II) challenge"
+    },
+    {
+      "type": "Habitat",
+      "name": "cell surface"
+    },
+    {
+      "type": "Habitat",
+      "name": "cytosol"
+    },
+    {
+      "type": "Habitat",
+      "name": "rich medium"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "MerR",
+      "target": "Hg(II) sequestration and protection"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MerR",
+      "target": "metal-binding domain (MBD)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MerR",
+      "target": "bacterial mercury resistance (mer) operon"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MerR",
+      "target": "metal-induced activation"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MerR",
+      "target": "cell surface"
+    },
+    {
+      "type": "Isolated from",
+      "source": "MerR",
+      "target": "cytosol"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "Hg(II) challenge"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Escherichia coli",
+      "target": "rich medium"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Deinococcus radiodurans",
+      "target": "Hg(II) challenge"
+    }
+  ]
+}
+

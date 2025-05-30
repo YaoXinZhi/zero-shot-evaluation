@@ -1,0 +1,120 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia muridarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Microbe",
+      "name": "TLR2-deficient mice"
+    },
+    {
+      "type": "Microbe",
+      "name": "mice"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "respiratory infections"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "virulence"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inflammation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "oviduct pathology"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mucosal inflammation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacterial clearance"
+    },
+    {
+      "type": "Habitat",
+      "name": "genital tract"
+    },
+    {
+      "type": "Habitat",
+      "name": "lung"
+    },
+    {
+      "type": "Geographical location",
+      "name": "infant"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "respiratory infections"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "virulence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "inflammation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "oviduct pathology"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TLR2-deficient mice",
+      "target": "severe disease"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TLR2-deficient mice",
+      "target": "higher lung cytokine levels"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TLR2-deficient mice",
+      "target": "exaggerated influx of neutrophils"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TLR2-deficient mice",
+      "target": "exaggerated influx of T-cells"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "genital tract"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia muridarum",
+      "target": "lung"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "mucosal inflammation"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "infant"
+    }
+  ]
+}
+```

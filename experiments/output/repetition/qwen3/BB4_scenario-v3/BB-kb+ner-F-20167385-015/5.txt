@@ -1,0 +1,30 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "S. thermophilus"
+    },
+    {
+      "type": "Microbe",
+      "name": "L. delbrueckii"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "primary stage of cheese fermentation"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "S. thermophilus",
+      "target": "primary stage of cheese fermentation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "L. delbrueckii",
+      "target": "primary stage of cheese fermentation"
+    }
+  ]
+}
+```

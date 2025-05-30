@@ -1,0 +1,109 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Chlamydia muridarum"
+    },
+    {
+      "type": "Microbe",
+      "name": "Chlamydia trachomatis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "TLR2 activation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "inflammation"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "oviduct pathology"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "mucosa inflammation"
+    },
+    {
+      "type": "Habitat",
+      "name": "lung"
+    },
+    {
+      "type": "Habitat",
+      "name": "genital tract"
+    },
+    {
+      "type": "Habitat",
+      "name": "oviduct"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "neutrophils"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "T-cells"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "bacterial clearance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "anti-inflammatory function"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia muridarum",
+      "target": "lung"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "genital tract"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Chlamydia trachomatis",
+      "target": "oviduct"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "enhanced virulence"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "inflammation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia muridarum",
+      "target": "mucosa inflammation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "inflammation"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Chlamydia trachomatis",
+      "target": "oviduct pathology"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TLR2-deficient mice",
+      "target": "impaired bacterial clearance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "TLR2",
+      "target": "anti-inflammatory function"
+    }
+  ]
+}
+

@@ -1,0 +1,104 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "B. linens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Brevibacterium spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "B. aurantiacum"
+    },
+    {
+      "type": "Microbe",
+      "name": "B. permense"
+    },
+    {
+      "type": "Microbe",
+      "name": "Corynebacterium spp."
+    },
+    {
+      "type": "Microbe",
+      "name": "C. casei"
+    },
+    {
+      "type": "Microbe",
+      "name": "C. variabile"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese surfaces"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheeses from the farmhouses"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheeses from dairies B and C"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese from dairy A"
+    },
+    {
+      "type": "Habitat",
+      "name": "surfaces of the four cheeses"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "ripening cultures"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "B. linens",
+      "target": "cheese surfaces"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Brevibacterium spp.",
+      "target": "cheeses from the farmhouses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "B. aurantiacum",
+      "target": "cheeses from dairies B and C"
+    },
+    {
+      "type": "Isolated from",
+      "source": "B. permense",
+      "target": "cheese from dairy A"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Corynebacterium spp.",
+      "target": "surfaces of the four cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. casei",
+      "target": "surfaces of the four cheeses"
+    },
+    {
+      "type": "Isolated from",
+      "source": "C. variabile",
+      "target": "surfaces of the four cheeses"
+    },
+    {
+      "type": "Exhibits",
+      "source": "B. linens",
+      "target": "ripening cultures"
+    },
+    {
+      "type": "Exhibits",
+      "source": "B. aurantiacum",
+      "target": "ripening cultures"
+    }
+  ]
+}
+

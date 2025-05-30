@@ -1,0 +1,101 @@
+{
+  "entities": [
+    {
+      "type": "Habitat",
+      "name": "children in Hanoi, Vietnam"
+    },
+    {
+      "type": "Habitat",
+      "name": "children less than five years of age living in Hanoi, Vietnam"
+    },
+    {
+      "type": "Microbe",
+      "name": "group A rotavirus"
+    },
+    {
+      "type": "Microbe",
+      "name": "diarrheagenic Escherichia coli"
+    },
+    {
+      "type": "Microbe",
+      "name": "Shigella spp"
+    },
+    {
+      "type": "Microbe",
+      "name": "enterotoxigenic Bacteroides fragilis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Salmonella spp"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio cholerae"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "diarrhea"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Hanoi"
+    },
+    {
+      "type": "Geographical location",
+      "name": "Vietnam"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "group A rotavirus",
+      "target": "children in Hanoi, Vietnam"
+    },
+    {
+      "type": "Isolated from",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "children in Hanoi, Vietnam"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Shigella spp",
+      "target": "children in Hanoi, Vietnam"
+    },
+    {
+      "type": "Isolated from",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "children in Hanoi, Vietnam"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Salmonella spp",
+      "target": "children in Hanoi, Vietnam"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio cholerae",
+      "target": "children in Hanoi, Vietnam"
+    },
+    {
+      "type": "Exhibits",
+      "source": "diarrheagenic Escherichia coli",
+      "target": "diarrhea"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Shigella spp",
+      "target": "diarrhea"
+    },
+    {
+      "type": "Exhibits",
+      "source": "enterotoxigenic Bacteroides fragilis",
+      "target": "diarrhea"
+    },
+    {
+      "type": "Exhibits",
+      "source": "group A rotavirus",
+      "target": "diarrhea"
+    }
+  ]
+}
+

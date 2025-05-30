@@ -1,0 +1,88 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Yaniella"
+    },
+    {
+      "type": "Microbe",
+      "name": "Nocardiopsis"
+    },
+    {
+      "type": "Microbe",
+      "name": "Vibrio"
+    },
+    {
+      "type": "Microbe",
+      "name": "Halomonas"
+    },
+    {
+      "type": "Microbe",
+      "name": "Pseudoalteromonas"
+    },
+    {
+      "type": "Habitat",
+      "name": "food microbial ecosystems"
+    },
+    {
+      "type": "Habitat",
+      "name": "marine environments"
+    },
+    {
+      "type": "Habitat",
+      "name": "cheese communities"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "halotolerant"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Yaniella",
+      "target": "food microbial ecosystems"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Nocardiopsis",
+      "target": "food microbial ecosystems"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio",
+      "target": "marine environments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Halomonas",
+      "target": "marine environments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudoalteromonas",
+      "target": "marine environments"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Vibrio",
+      "target": "cheese communities"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Halomonas",
+      "target": "cheese communities"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Pseudoalteromonas",
+      "target": "cheese communities"
+    },
+    {
+      "type": "Exhibits",
+      "source": "γ-Proteobacteria",
+      "target": "halotolerant"
+    }
+  ]
+}
+

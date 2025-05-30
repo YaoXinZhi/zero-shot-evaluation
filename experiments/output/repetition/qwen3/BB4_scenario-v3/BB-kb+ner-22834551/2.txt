@@ -1,0 +1,147 @@
+```json
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Clostridium perfringens"
+    },
+    {
+      "type": "Microbe",
+      "name": "Clostridium perfringens Type A"
+    },
+    {
+      "type": "Microbe",
+      "name": "Artemisia annua"
+    },
+    {
+      "type": "Habitat",
+      "name": "broiler"
+    },
+    {
+      "type": "Habitat",
+      "name": "intestinal"
+    },
+    {
+      "type": "Geographical location",
+      "name": "broiler"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "antimicrobial properties"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "improve the feed conversion ratio"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "reduce feed intake"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "decrease body weight"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "gain more weight"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "modulate the course of necrotic enteritis"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "compensate for the disease-associated weight losses"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "reduce intestinal C. perfringens numbers"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "reduce the severity of the disease-related small intestinal lesions"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "small intestinal lesions"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Artemisia annua",
+      "target": "antimicrobial properties"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Clostridium perfringens Type A",
+      "target": "cause necrotic enteritis"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium perfringens",
+      "target": "intestinal"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Clostridium perfringens",
+      "target": "broiler"
+    },
+    {
+      "type": "Exhibits",
+      "source": "n-hexane extract",
+      "target": "improve the feed conversion ratio"
+    },
+    {
+      "type": "Exhibits",
+      "source": "n-hexane extract",
+      "target": "reduce feed intake"
+    },
+    {
+      "type": "Exhibits",
+      "source": "n-hexane extract",
+      "target": "modulate the course of necrotic enteritis"
+    },
+    {
+      "type": "Exhibits",
+      "source": "n-hexane extract",
+      "target": "compensate for the disease-associated weight losses"
+    },
+    {
+      "type": "Exhibits",
+      "source": "n-hexane extract",
+      "target": "reduce intestinal C. perfringens numbers"
+    },
+    {
+      "type": "Exhibits",
+      "source": "n-hexane extract",
+      "target": "reduce the severity of the disease-related small intestinal lesions"
+    },
+    {
+      "type": "Exhibits",
+      "source": "broiler",
+      "target": "gain more weight"
+    },
+    {
+      "type": "Exhibits",
+      "source": "broiler",
+      "target": "small intestinal lesions"
+    },
+    {
+      "type": "Exhibits",
+      "source": "dried A. annua leaves",
+      "target": "reduce feed intake"
+    },
+    {
+      "type": "Exhibits",
+      "source": "dried A. annua leaves",
+      "target": "improve the feed conversion ratio"
+    },
+    {
+      "type": "Exhibits",
+      "source": "dried A. annua leaves",
+      "target": "decrease body weight"
+    }
+  ]
+}
+```

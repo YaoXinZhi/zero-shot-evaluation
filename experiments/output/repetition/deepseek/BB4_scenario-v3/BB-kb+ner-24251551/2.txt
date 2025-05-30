@@ -1,0 +1,74 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Haemophilus influenzae"
+    },
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "MurNAc 6-phosphate hydrolase (MurQ)"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "peptidoglycan recycling"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "cofactor-independent cleavage of a relatively nonlabile ether bond"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "one-base mechanism of action"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "bound inhibitor"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "substrate analogue"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae",
+      "target": "MurNAc 6-phosphate hydrolase (MurQ)"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli",
+      "target": "MurNAc 6P hydrolase"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Haemophilus influenzae",
+      "target": "peptidoglycan recycling"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurNAc 6-phosphate hydrolase (MurQ)",
+      "target": "cofactor-independent cleavage of a relatively nonlabile ether bond"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurNAc 6-phosphate hydrolase (MurQ)",
+      "target": "one-base mechanism of action"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurNAc 6-phosphate hydrolase (MurQ)",
+      "target": "bound inhibitor"
+    },
+    {
+      "type": "Exhibits",
+      "source": "MurNAc 6P hydrolase",
+      "target": "substrate analogue"
+    }
+  ]
+}
+

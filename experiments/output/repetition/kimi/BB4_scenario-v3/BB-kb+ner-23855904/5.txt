@@ -1,0 +1,96 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Campylobacter"
+    },
+    {
+      "type": "Habitat",
+      "name": "UK retail poultry"
+    },
+    {
+      "type": "Habitat",
+      "name": "farmed chickens"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "Antimicrobial resistance"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to tetracycline"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to quinolones"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to erythromycin"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to chloramphenicol"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "resistant to aminoglycosides"
+    },
+    {
+      "type": "Microbe",
+      "name": "Campylobacter coli"
+    },
+    {
+      "type": "Geographical location",
+      "name": "UK"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter",
+      "target": "UK retail poultry"
+    },
+    {
+      "type": "Isolated from",
+      "source": "Campylobacter",
+      "target": "farmed chickens"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "Antimicrobial resistance"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "resistant to tetracycline"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "resistant to quinolones"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "resistant to erythromycin"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "resistant to chloramphenicol"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter",
+      "target": "resistant to aminoglycosides"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Campylobacter coli",
+      "target": "resistant to erythromycin"
+    }
+  ]
+}
+

@@ -1,0 +1,56 @@
+{
+  "entities": [
+    {
+      "type": "Microbe",
+      "name": "Escherichia coli O157"
+    },
+    {
+      "type": "Physiological trait",
+      "name": "type III secretion"
+    },
+    {
+      "type": "Morphological trait",
+      "name": "effector proteins"
+    },
+    {
+      "type": "Microbe",
+      "name": "EHEC"
+    },
+    {
+      "type": "Microbe",
+      "name": "Shigella"
+    },
+    {
+      "type": "Microbe",
+      "name": "lambdoid phages"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157",
+      "target": "type III secretion"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Escherichia coli O157",
+      "target": "effector proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "EHEC",
+      "target": "effector proteins"
+    },
+    {
+      "type": "Exhibits",
+      "source": "Shigella",
+      "target": "effector proteins"
+    },
+    {
+      "type": "Isolated from",
+      "source": "lambdoid phages",
+      "target": "Escherichia coli O157"
+    }
+  ]
+}
+
